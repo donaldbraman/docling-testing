@@ -1,0 +1,50 @@
+[
+  {
+    "config": "base_512_bs4",
+    "success": true,
+    "time": 15.788692951202393,
+    "train_loss": 0.5437734961509705,
+    "eval_loss": 0.5073763728141785,
+    "error": null
+  },
+  {
+    "config": "base_512_bs2",
+    "success": true,
+    "time": 11.312588930130005,
+    "train_loss": 0.7536575794219971,
+    "eval_loss": 0.3413127064704895,
+    "error": null
+  },
+  {
+    "config": "base_1024_bs2",
+    "success": true,
+    "time": 22.45688509941101,
+    "train_loss": 0.7006088137626648,
+    "eval_loss": 0.296328604221344,
+    "error": null
+  },
+  {
+    "config": "base_1024_bs1",
+    "success": true,
+    "time": 19.631309032440186,
+    "train_loss": 2.627820646762848,
+    "eval_loss": 3.0516304969787598,
+    "error": null
+  },
+  {
+    "config": "large_512_bs1",
+    "success": true,
+    "time": 19.428404092788696,
+    "train_loss": 3.7892233967781066,
+    "eval_loss": 4.08936071395874,
+    "error": null
+  },
+  {
+    "config": "large_512_bs2",
+    "success": true,
+    "time": 22.979534149169922,
+    "train_loss": 1.90966739654541,
+    "eval_loss": 0.49592047929763794,
+    "error": null
+  }
+]

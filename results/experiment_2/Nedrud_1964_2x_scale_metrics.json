@@ -1,0 +1,31 @@
+{
+  "document_name": "Nedrud_1964.pdf",
+  "file_size_mb": 1.9,
+  "config_name": "2x_scale",
+  "images_scale": 2.0,
+  "model_spec": "default",
+  "single_column_fallback": false,
+  "processing_time_seconds": 43.6,
+  "processing_time_minutes": 0.73,
+  "page_count": 34,
+  "label_counts": {
+    "picture": 2,
+    "text": 199,
+    "section_header": 25,
+    "list_item": 19,
+    "footnote": 229
+  },
+  "total_items": 474,
+  "total_words": 16228,
+  "body_words": 10196,
+  "footnote_words": 6032,
+  "removed_words": 6032,
+  "removal_percentage": 37.17,
+  "citations_caught_by_heuristic": 2,
+  "high_density_paragraphs": 0,
+  "hyphenation_artifacts_total": 11,
+  "hyphenation_artifacts_body": 6,
+  "all_text_chars": 101223,
+  "body_text_chars": 63845,
+  "footnote_text_chars": 37376
+}
