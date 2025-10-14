@@ -96,7 +96,7 @@ def tokenize_data(tokenizer, X_train, X_val, X_test, y_train, y_val, y_test):
             examples['text'],
             padding='max_length',
             truncation=True,
-            max_length=8192  # ModernBERT supports up to 8192 tokens!
+            max_length=1024  # Optimal for MPS memory: 1024 tokens
         )
 
     # Create datasets
@@ -122,7 +122,7 @@ def train_model(train_dataset, val_dataset, output_dir: Path):
     print("="*80)
 
     # Load ModernBERT
-    model_name = "answerdotai/ModernBERT-large"
+    model_name = "answerdotai/ModernBERT-base"  # Base model: best performance (eval_loss 0.296)
     print(f"\nLoading {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -142,8 +142,8 @@ def train_model(train_dataset, val_dataset, output_dir: Path):
 
         # Training hyperparameters
         num_train_epochs=3,
-        per_device_train_batch_size=4,  # Small batch size for large model
-        per_device_eval_batch_size=8,
+        per_device_train_batch_size=2,  # Optimal batch size for MPS (from experiments)
+        per_device_eval_batch_size=2,
         learning_rate=2e-5,
         weight_decay=0.01,
         warmup_ratio=0.1,
@@ -299,20 +299,19 @@ def main():
     if torch.cuda.is_available():
         print(f"\n✓ GPU available: {torch.cuda.get_device_name(0)}")
         print(f"  Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+    elif torch.backends.mps.is_available():
+        print("\n✓ Apple Silicon MPS available - training will use Metal acceleration")
     else:
-        print("\n⚠️  No GPU detected - training will be slow on CPU")
+        print("\n⚠️  No GPU/MPS detected - training will use CPU")
         print("  Consider using Google Colab or a GPU-enabled machine")
-        response = input("\nContinue on CPU? (y/n): ")
-        if response.lower() != 'y':
-            print("Exiting. Run on GPU for best results.")
-            return
+        print("  Auto-continuing with available hardware...")
 
     try:
         # Load data
         X_train, X_val, X_test, y_train, y_val, y_test = load_and_prepare_data(corpus_path)
 
         # Tokenize
-        model_name = "answerdotai/ModernBERT-large"
+        model_name = "answerdotai/ModernBERT-base"  # Base model: best loss (0.296) with 1024 tokens
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         train_dataset, val_dataset, test_dataset = tokenize_data(
             tokenizer, X_train, X_val, X_test, y_train, y_val, y_test
