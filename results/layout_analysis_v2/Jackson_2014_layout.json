@@ -1,0 +1,317 @@
+{
+  "filename": "Jackson_2014.pdf",
+  "element_counts": {
+    "picture": 5,
+    "text": 261,
+    "section_header": 32,
+    "list_item": 272,
+    "document_index": 1,
+    "footnote": 205
+  },
+  "total_elements": 776,
+  "footnote_count": 205,
+  "header_count": 32,
+  "footer_count": 0,
+  "sample_items": [
+    {
+      "label": "picture",
+      "text_preview": "",
+      "level": 1,
+      "has_text": false
+    },
+    {
+      "label": "text",
+      "text_preview": "DATE DOWNLOADED: Sat Sep  6 14:48:41 2025 SOURCE: Content Downloaded from HeinOnline",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "section_header",
+      "text_preview": "Citations:",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Please note: citations are provided as a general guideline. Users should consult their preferred citation format's style manual for proper citation fo",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Bluebook 21st ed.GLYPH<10>GLYPH<9>GLYPH<9>GLYPH<9> Vicki C. Jackson, Constitutional Law in an Age of Proportionality, 124 YALE L. J. 3094 (June 2015).",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "ALWD 7th ed. Vicki C. Jackson, Constitutional Law in an Age of Proportionality, 124 Yale L. J. 3094 (2015).",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "APA 7th ed. Jackson, V. C. (2015). Constitutional law in an age of proportionality. Yale Law Journal, 124(8), 3094-3197.",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Chicago 17th ed. Vicki C. Jackson, \"Constitutional Law in an Age of Proportionality,\" Yale Law Journal 124, no. 8 (June 2015): 3094-3197",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "McGill Guide 10th ed. Vicki C. Jackson, \"Constitutional Law in an Age of Proportionality\" (2015) 124:8 Yale L J 3094.",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "AGLC 4th ed. Vicki C. Jackson, 'Constitutional Law in an Age of Proportionality' (2015) 124(8) Yale Law Journal 3094",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "MLA 9th ed. Jackson, Vicki C. \"Constitutional Law in an Age of Proportionality.\" Yale Law Journal, vol. 124, no. 8, June 2015, pp. 3094-3197. HeinOnli",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "section_header",
+      "text_preview": "OSCOLA 4th ed.",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Vicki C. Jackson, 'Constitutional Law in an Age of Proportionality' (2015) 124 Yale L J 3094               x     Please note: citations are provided a",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline's Terms and Conditions of the license agreement available at",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "https://heinonline.org/HOL/License",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "-- The search text of this PDF is generated from  uncorrected OCR text.",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "picture",
+      "text_preview": "",
+      "level": 1,
+      "has_text": false
+    },
+    {
+      "label": "picture",
+      "text_preview": "",
+      "level": 1,
+      "has_text": false
+    },
+    {
+      "label": "section_header",
+      "text_preview": "THE YALE LAW JOURNAL",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "VICKI  C.  JACKSON",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "section_header",
+      "text_preview": "Constitutional Law in an Age of Proportionality",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "ABSTRACT. Proportionality, accepted as a general principle of  constitutional law by many countries,  requires that government intrusions  on freedoms",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Many  areas  of U.S.  constitutional  law  include  some  elements  of what  is  elsewhere  called proportionality  analysis.  I argue  here for great",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "A U T H O R. Thurgood Marshall Professor of Constitutional Law,  Harvard Law School.  An earlier version  of  this  paper was given  as  my Chair Lect",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "section_header",
+      "text_preview": "FEATURE  CONTENTS",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "document_index",
+      "text_preview": "",
+      "level": 1,
+      "has_text": false
+    },
+    {
+      "label": "picture",
+      "text_preview": "",
+      "level": 1,
+      "has_text": false
+    },
+    {
+      "label": "section_header",
+      "text_preview": "INTRODUCTION",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "\"Proportionality\"  is  today accepted  as  a general  principle  of law  by  constitutional  courts and  international  tribunals  around  the world.'",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Justice  Stephen Breyer has  suggested that there are  other areas  in which the appropriate  standard  of judicial  review  would  involve  examining",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "footnote",
+      "text_preview": "1. In 2004, Canadian  scholar  David  Beatty asserted  that proportionality  review  was  the  \"ultimate\"  rule of law  for  resolving constitutional ",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "The German  Constitutional  Court  has been particularly influential,  as  has  the  Canadian  Supreme Court,  in developing \"proportionality  review\"",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "&",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See Moshe Cohen-Eliya & Iddo Porat, The Hidden Foreign  Law Debate in Heller: The Proportionality  Approach in  American Constitutional  Law, 46 SAN D",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See,  e.g., Graham v. Florida, 560 U.S. 48, 59 (2010); see also cases cited infra notes 43-44",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "footnote",
+      "text_preview": "5. See generally Steven Gardbaum, The Myth and Reality of  American Constitutional  Exceptionalism, 107 MICH. L. REV. 391  (2008).",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "footnote",
+      "text_preview": "6. See  generally Richard  H.  Fallon, Jr., Strict  Judicial  Scrutiny, 54 UCLA L. REV. 1267  (2007).",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See STEPHEN  BREYER, ACTIVE  LIBERTY:  INTERPRETING  OUR DEMOCRATIC  CONSTITUTION  49 (2006). Justice  Breyer's  interest  in proportionality  as  an ",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Justice Breyer's concurrence, joined by Justice Kagan,  associated  proportionality  review  with  intermediate  scrutiny  and  applied  this  standar",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "Given developments  within  and outside  the United  States,  the time  is  ripe to  take  a  fresh  look  at proportionality,  both  as  a  general  ",
+      "level": 1,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "132 S.  Ct. 2537 (2012).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See id. at 2551-52 (Breyer,  J.,  concurring in the judgment).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "554 U.S. 570 (2008).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "Id. at 682,  690  (Breyer, J.,  dissenting).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See Cohen-Eliya  &  Porat, The Hidden Foreign Law Debate, supra note  3,  at 378-84,  395-408 (discussing  \"balancing\"  as  \"the  exception,\" not  \"th",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "471 U.S. 1 (1985).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "424 U.S. 319 (1976).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "T. Alexander Aleinikoff, Constitutional Law in the Age  of  Balancing, 96 YALE L.J.  943,  943-48, 968,  982-83, 989-91  (1987).",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "list_item",
+      "text_preview": "See generally, e.g., Antonin Scalia, The Rule of  Law as the Law of  Rules, 56  U. CHI.  L. REv. 1175 (1989);  Kathleen M.  Sullivan, The Supreme Cour",
+      "level": 2,
+      "has_text": true
+    },
+    {
+      "label": "text",
+      "text_preview": "fluenced  case law in some areas towards  more categorical rules.\" 7 But these  earlier  U.S.  debates  could  not  have  been  informed  by  the  sub",
+      "level": 1,
+      "has_text": true
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+1. In 2004, Canadian  scholar  David  Beatty asserted  that proportionality  review  was  the  "ultimate"  rule of law  for  resolving constitutional  questions  about rights;  as  a positive  matter, it was  the  dominant method  of constitutional  interpretation  in  the world,  and as a normative matter,  it  was  superior to  such  other methods  as  originalism or  textualism. DAVID M. BEATTY, THE ULTIMATE RULE  OF LAW 159-88 (2004). In 2005, U.S. legal  scholar David Law  identified  proportionality  as  a  "generic"  component  of constitutional  adjudication  around  the world.  David S.  Law, Generic Constitutional  Law, 89 MINN. L. REV. 652  (2005). On  the  role of  proportionality in  international  law and  administrative law, see, for  example,  HCJ 2056/04 Beit Sourik Vill.  Council v.  Gov't of  Israel,  58(5)  PD 807  [2004] (Isr.), translated  in 2004 ISR. L. REP. 264. See  also Grainne  de Birca, The Principle  of  Proportionality  and  its Application in  EC  Law, 13 Y.B. EUR. L. 105,  113  (1993).
+
+See,  e.g., Graham v. Florida, 560 U.S. 48, 59 (2010); see also cases cited infra notes 43-44
+
+5. See generally Steven Gardbaum, The Myth and Reality of  American Constitutional  Exceptionalism, 107 MICH. L. REV. 391  (2008).
+
+6. See  generally Richard  H.  Fallon, Jr., Strict  Judicial  Scrutiny, 54 UCLA L. REV. 1267  (2007).
+
+See STEPHEN  BREYER, ACTIVE  LIBERTY:  INTERPRETING  OUR DEMOCRATIC  CONSTITUTION  49 (2006). Justice  Breyer's  interest  in proportionality  as  an  approach to  analyzing  rights  goes
+
+132 S.  Ct. 2537 (2012).
+
+See id. at 2551-52 (Breyer,  J.,  concurring in the judgment).
+
+554 U.S. 570 (2008).
+
+Id. at 682,  690  (Breyer, J.,  dissenting).
+
+471 U.S. 1 (1985).
+
+424 U.S. 319 (1976).
+
+17. See  infra note  307. Compare, e.g., Sherbert  v.  Verner,  374 U.S.  398,  402-03, 406-07  (1963) (applying a compelling  interest standard  to review  claims for religious  accommodation  from generally  applicable  laws), with Emp't Div.  v.  Smith,  494  U.S. 872,  890  (1990) (rejecting claims for  "accommodation" of religious practices  as against  generally applicable laws).
+
+18. Weems v.  United  States, 217 U.S.  349, 367  (1910)  (linking "justice" and its requirement  that punishments  be proportional  to  the severity of the crime  to  the Eighth  Amendment's cruel and unusual punishment ban).
+
+1g. See  id.; ROBERT ALExY,  A THEORY OF CONSTITUTIONAL  RIGHTS 102-04 (Julian Rivers  trans., 2010) (describing  the  "Law  of Balancing"  as  follows:  "The  greater  the  degree  of  nonsatisfaction  of, or detriment  to,  one principle,  the greater must be the importance  of satisfying the other").
+
+20. McNabb v. United States, 318 U.S. 332,  343 (1943).
+
+21. Elk Grove Unified  Sch.  Dist. v.  Newdow, 542 U.S.  1,  41  (2004)  (O'Connor, J.,  concurring  in the judgment)  (citation omitted).
+
+2n. See AHARON BARAK,  PROPORTIONALITY: CONSTITUTIONAL  RIGHTS AND  THEIR LIMITATIONS 179-81,  188-89,  208-10  (2012)  (describing proportionality doctrine in Germany,  Canada,  and Israel); see also id. at 181-87,  190-206  (describing  proportionality  principles or doctrine in the two transnational  European courts,  Ireland,  England, New  Zealand, Australia, South Africa, Central and Eastern Europe, Asia, and  South America);  Susan Kiefel, Proportionality: A Rule of Reason, 23 PUB.  L.  REv.  85,  86 (2012) (describing how  proportionality  in Australia  is  not regarded  as  a  general  principle,  as  in many parts  of the world,  but is  used in  constitutional law  to test  the limits  of constitutional legislative authority).  On proportionality in the European Union,  see de Bdrca, supra note I.
+
+23. See Niels  Petersen, Proportionality  and the Incommensurability Challenge-Some Lessons from the South African Constitutional  Court 2 (NYU  Sch.  of  Law, Pub. Law Research  Paper No. 1307, 2013), http://ssrn.com/abstract=2230454 [http://perma.cc/936Y-HTYG] (describing how  South  Africa  rejected  the  "structured" sequenced  approach  to  hold  that  the  factors listed  in  Section  36  of its Constitution  must be "considered  in an overall  assessment"  (citation omitted)).
+
+24. See R.  v.  Oakes,  [1986] 1 S.C.R. 103,  139 (Can.).  Sometimes  proportionality  is used  in less formally structured  analyses focusing  more broadly on the reasonableness  of  the  means chosen  in light of the  nature  of the  right and  the  government's justification  for its  actions. See infra notes 116,  194-95, 198, 201, and accompanying text.
+
+25. 341 U.S.  494, 510  (1951) (plurality  opinion) (suggesting that  whether  prosecution  violates First Amendment depends  on "whether  the gravity  of  the  'evil,' discounted  by its  improbability, justifies  such  invasion of  free  speech as is necessary  to avoid the danger").
+
+26. 424 U.S. 319, 335  (1976)  (establishing  that resolving  procedural  due  process  questions  "requires consideration  of three . . . factors:  First,  the private  interest . . . affected . . .; second, the  risk of an erroneous  deprivation  ... through the procedures  used, and the probable value . . . of [other]  procedural  safeguards;  and finally,  the  Government's  interest,  including the  function  involved  and  the  fiscal  and  administrative  burdens  that  the additional . . . requirement[s]  would entail"). A  significant feature  of such a formulation  is  the apparent  absence  of any  prioritization  of the underlying  right  to  a  fair  hearing;  the Mathews test  suggests  a  kind  of quantifiable  cost-benefit inquiry,  without  giving  clear  weight  to  the  basic procedural  values  of fair  hearings  for  those  singled  out  for adverse  government treatment. See generally Jerry L. Mashaw, The Supreme Court's  Due  Process Calculus  for  Administrative  Adjudication in Mathews v.  Eldridge: Three Factors  in Search of a Theory of  Value, 44  U.  CHI.  L. REv.  28  (1976)  (suggesting  that the failure of Mathews lies  in "its focus on  questions  of technique rather than on questions  of  values," id. at 30).
+
+27. Oakes, 1 S.C.R.  at 136-37.
+
+S. AFR.  CONST.,  1996, § 36; S.  v.  Manamela and Another 2000 (3)  SA 1 (CC)  at 29 5 32 (S. Afr.); see Petersen, supra note 23.
+
+See KAI MOLLER,  THE GLOBAL MODEL OF CONSTITUTIONAL RIGHTS  193-94  (2012).
+
+30. On  how much  attention  legislators can give  to constitutional  values,  a wide range  of views exists. Compare, e.g., Jennifer  Nedelsky, Legislative Judgment and the Enlarged  Mentality,  in THE LEAST EXAMINED  BRANCH:  THE ROLE  OF LEGISLATURES  IN  THE CONSTITUTIONAL  STATE 95 (Richard W.  Bauman  & Tsvi  Kahana  eds.,  2006)  (expecting  "intermittent conscious  reflection" by  legislators  to  constitutional values), with Ruth  Gavison, Legislatures and the Phases and Components of Constitutionalism,  in THE LEAST EXAMINED  BRANCH, supra, at 198, 198-99  (treating  constitutional interpretation  as primarily for courts,  not legislators).
+
+31. 198  U.S. 45 (1905).
+
+32. 341 U.S. 494  (1951).
+
+532 U.S. 318  (2001); see also Florence  v.  Bd.  of Chosen Freeholders, 132 S.  Ct. 1510  (2012), discussed infra note 176.
+
+561 U.S. 1  (2010).
+
+41. See BEArY, supra note 1; cf MOLLER, supra note 29, at  24, 75-90, 180  (describing  the  purpose of constitutional  rights  as  ensuring  that  autonomy interests  are  protected  through justifications  under proportionality and balancing  tests,  though  noting  limited  areas  not  subject to proportionality  review  or to all its sub-tests).
+
+42. Further,  the  distinction  between  case-by-case  application  and  articulation  of more  general rules is  overstated  in any legal system committed to consistency. See infra note 343.
+
+See United States v.  Bajakajian, 524 U.S. 321 (1998).
+
+See, e.g., Koontz v.  St. Johns River Water Mgmt.  Dist., 133  S. Ct. 2586,  2591  (2013); Dolan v. City of  Tigard, 512 U.S.  374, 391, 398 (1994).
+
+See Planned Parenthood  of Se.  Pa. v. Casey,  505 U.S.  833, 878 (1992) (opinion of O'Connor, Kennedy & Souter, JJ.).
+
+so. See City of Boerne v. Flores, 521 U.S. 507 (1997).
+
+See Fallon, supra note 6,  at 1295-96, 1330-34
+
+56. THE FEDERALIST  No. 2, at 39 (John Jay)  (Clinton Rossiter ed., 1961).
+
+57. THE FEDERALIST  No. 9, at 75  (Alexander Hamilton)  (Clinton Rossiter ed., 1961).
+
+58. THE FEDERALIST  No.  12, at  94  (Alexander  Hamilton)  (Clinton  Rossiter  ed., 1961); see  also THE FEDERALIST No.  23 (Alexander Hamilton)  (Clinton  Rossiter ed., 1961) (noting that the "means  ought  to  be proportioned  to the  end"  in  the  design  of government  powers);  THE FEDERALIST No.  28 (Alexander  Hamilton)  (Clinton  Rossiter  ed., 1961) ("The  means  to  be employed must  be  proportioned  to  the extent  of the  mischief."); THE FEDERALIST  No.  31 (Alexander Hamilton)  (stating  that,  with respect  to  taxation,  "the  means  ought to  be  proportioned  to the end").
+
+See Law, supra note 1, at 687-93; see also Alice  Ristroph, Proportionality  as a Principle  of  Limited Government, 55  DUKE L.J.  263,  284-91 (2005).
+
+68. Cf SuLivAN & FRASE, supra note 52,  at 169,  175  (arguing that proportionality is  an "instrumental  method  of  reviewing  excessive government  measures" and recommending  its  use across  constitutional  law  as  a "general  standard of review");  Ristroph, supra note  66,  at 265 (conceptualizing proportionality "as a  limitation  of state  power  in a  constitutional  liberal democracy").
+
+73. The  origin  of "proportionality  doctrine"  is  often  attributed  to  German  administrative  and police  law of the  nineteenth  century. See,  e.g., COHEN-ELIYA  & PORAT, PROPORTIONALITY, supra note 3,  at 24-32. Whether  German law inspired Canadian law in this instance  is uncertain. See ROBERT J. SHARPE & KENT ROACH, BRIAN  DICKSON: A JUDGE'S JOURNEY 334 (2003) (suggesting  that the Oakes test may  have come  from case law  of the European Court of Human Rights);  Grimm, supra note 2, at  383-84  (raising  the possibility  that  the Oakes test was derived  from Central Hudson  Gas & Electric Co.  v.  Public Service Commission, 447  U.S. 557 (1980), but alternatively  suggesting  that it could  have come  from Germany);  Margit Cohn, Legal Transplant  Chronicles: The Evolution  of Unreasonableness  and Proportionality Review of the Administration in the United Kingdom, 58 Am. J.  COMP.  L. 583, 620  n.134  (2010)  (noting the strong  similarities  between  the  German  and  Canadian  tests  and  the possibility  that Oakes may  have  been inspired  by  German constitutional  law, through Justice Dickson's law clerk, Joel Bakan, who had recently studied European  human rights law).
+
+See  infra note 84; supra notes 23,  28.
+
+76. Canadian  Charter  of Rights  and  Freedoms  § 1, Part I  of the  Constitution  Act, 1982, being Schedule B to  the Canada Act, 1982, c. 11  (U.K.).
+
+See, e.g.,  Oakes, [1986] 1 S.C.R.  at 139 (deciding that there  are "three  important components of a proportionality test"):
+
+See Mathews  & Stone Sweet, supra note 52, at 802 (calling  the rationality  step  "broadly  akin to  what  Americans  call  'rational  basis'  review," but  noting  that  "under  [proportionality
+
+Stone  Sweet & Mathews, supra note  37, at 75, 78-79 (describing,  generically, the steps  of proportionality analysis).
+
+92. Quebec (Att'y Gen.) v.  A., [2013]  1 S.C.R.  ¶ 442; see supra note  87. Quebec (Attorney General) v.  A. involved a  Charter challenge to  Quebec's failure to treat de facto  marriages  as  carrying the full  range  of  property  rights  and  support  on termination  as  did formalized  marriages  or civil unions.  Four justices  found no violation  of Charter equality rights;  five justices  found a violation  of Section  15  equality  rights.  However,  Chief Justice  McLachlin  (one  of the  five) concluded  that the statute  could  nonetheless  be salvaged under  Section 1. For Chief Justice McLachlin,  the goal  of  the  Quebec scheme was  "choice  and autonomy  for all Quebec  spouses  ... to  structure their  relationship  outside  ... the mandatory regime applicable  to married and civil  union spouses," [2013] 1 S.C.R.  '  435 (McLachlin,  C.J.),  supported by considerations  of federalism, id. 1q  439-49; see  id.  ¶ 447  (describing  Quebec  as  seeking  to  "maximiz[e]"  autonomy and choice).  Three other justices who found a Section  15  violation would have  upheld all  but the  support  provisions  under Section 1. Justice Abella,  who alone  found none of the  equality violations  to  be justified  under Section 1, disagreed with the Chief Justice  as  to  minimal  impairment  and  proportionality  as  such, see id. ¶5 358-80 (Abella,  J., dissenting) (arguing  that  an  "opt  out"  approach, with  presumptive  application  of the  same rules  to  de  facto  as  to  formal  marriage,  was  less  impairing  because  it  would  better  protect the  economically  vulnerable  partner  and would  equally  advance  the purpose).  Their  disagreement  may illustrate  the significance  of  how the government's purpose  is articulated.  For Justice Abella,  the  goal was  simply "freedom  of choice," id. 9 358, a  goal that  could be served as  well,  with less  harm to  the  economically  weaker partner, by  the  opt-out approach, id. ¶ 377-79. On the  risks of accepting  "maximization"  as part of  a government  goal, see  Alberta v. Hutterian  Brethren of  Wilson Colony, 2009 SCC 37, [2009]  2 S.C.R. 567, 5q 147,  149 (Abella, J.,  dissenting);  and id. 5  195  (LeBel,  J.,  dissenting).  These  disagreements  might  be  understood as  about defining the  government purpose,  or as  about what a "reasonable  alternative" is  for  minimal impairment  purposes.
+
+93. R. v. Edward Books &  Art Ltd.,  [1986] 2 S.C.R. 713 (Can.).
+
+94. Id. at 727.
+
+95. Id. at 773.
+
+96. Id. at 774.
+
+97. Id. at 773 (deciding  that "[a]  scheme which  requires an  employee  to  assert his  or  her rights before  a  tribunal in order to obtain a  Sunday holiday  is an inadequate  substitute  for the  regime  selected  by the Ontario legislature").
+
+98. Id. at 779.  The  Court added:  "[T]he  courts must be  cautious  to ensure  that  [the  Charter] does  not simply  become  an  instrument  of better situated individuals  to  roll  back legislation which has as  its object  the improvement  of the condition of less  advantaged persons." Id.
+
+99. This  step is  also referred  to  as "proportionality in  the  narrow  sense"  or  proportionality "stricto sensu." See Robert Alexy, Constitutional Rights,  Balancing,  and Rationality, 16  RATIo JURIs.  131,  135  (2003);  Stone  Sweet & Mathews, supra note 37,  at 75; see also supra note 84.
+
+100. R.  v.  Oakes, [1986]  1 S.C.R. 103,  139-40 (Can.)  (emphasis added).
+
+101. Alberta  v.  Hutterian  Brethren  of Wilson  Colony, 2009 SCC 37, [2009]  2 S.C.R. 567, ¶76 (Can.)  (McLachlin,  C.J.).  Chief Justice  McLachlin goes  on to  quote Aharon  Barak's argument:  "'Whereas  the  rational connection test and the least harmful  measure test are  essentially  determined  against  the  background  of the  proper  objective,  and are  derived from  the need  to  realize  it,  the  test  of proportionality (stricto sensu) examines whether  the realization of this proper  objective is commensurate with the deleterious  effect  upon the human right."' Id. ¶  76  (quoting Aharon  Barak, Proportional  Effect:  The  Israeli Experience, 57  U. TORONTO L.J. 369,  374 (2007)).
+
+Id.  ¶76.
+
+See,  e.g., Aharon  Barak, Proportionality and Principled Balancing, 4 LAw & ETHIcs  HUM. RTs. 1, 7 (2010).
+
+105. HCJ 2056/04 Beit Sourik Vill.  Council v.  Gov't  of  Israel,  S8(5)  PD 807  [2004] (Isr.), translated in 2004 ISR. L. REP.  264.
+
+106. For a  critique  of the  court  for  accepting  that  this was  the  only purpose,  see Moshe  CohenEliya, The Formal  and the Substantive Meanings of  Proportionality in the Supreme Court's  Decision Regarding  the Security Fence, 38 ISR.  L. REV.  262 (2005).
+
+107. Beit Sourik, 2004 ISR. L.  REP. at 308.
+
+108. Id. at 308-10.
+
+109. Id. (noting  that,  in the  less  restrictive  (or "less  harm[ful]")  means  inquiry,  "[t]he  question . . . is  whether  this [alternative] route  satisfies  the  security  objective underlying  the  separation  fence  to  the same  extent  as  the route  determined  by  the  military  commander"); see also BARAK, supra note 22, at 323.
+
+no. Beit Sourik, 2004 ISR. L. REP.  at 310-14.
+
+1n. At times,  the Justices discuss  "less  restrictive  means" in  terms focusing on whether  the alternatives are equally effective  (as  the Israeli  Court did in Beit Sourik); at other times, U.S.  Justices  place emphasis  instead on  the lesser degree to which another  alternative would intrude on rights. See  infra note  113;  Alan  O.  Sykes, The Least Restrictive Means, 70 U. CHI.  L.  REv. 403  (2003); see also Noah Marks, Case Comment, "Least  Restrictive Means": Burwell v.  Hobby  Lobby,  9  HARV.  L. & POL'Y REv. S15 (2015). Compare, e.g., District of Columbia v.  Heller,
+
+554 U.S.  570,  712  (2008) (Breyer,  J.,  dissenting)  ("[A]lthough  there  may  be less  restrictive, less  effective substitutes  for an  outright ban,  there is  no  less  restrictive equivalent of  an outright ban ... "), and Reno  v.  Am.  Civil  Liberties Union,  521  U.S.  844,  874  (1997) (stating that a  "less  restrictive alternative[]" must be  "at least as  effective  in  achieving the  legitimate purpose that the statute was  enacted  to serve"), with United  States  v.  Playboy  Entm't Grp., Inc.,  529  U.S.  803,  813  (2000)  ("If a less  restrictive alternative would serve  the Government's purpose,  the  legislature  must use  that alternative."), and Sable  Commc'ns  of Cal.  v.  FCC, 492  U.S. 115,  128-30  (1989) (finding  that less  restrictive  alternatives to  a  complete  ban  on indecent telephone  communications  existed,  even though they might not prevent all  minors from accessing  such comunications).
+
+114. 134  S.  Ct. 2518  (2014).
+
+See supra note 116 (describing Clayton); infra notes  194-195,  198,  201.
+
+123. See Akhil Reed Amar, Intratextualism, 112 HARV. L. REV. 747, 788 (1999) ("Textual  argument as  typically  practiced  today  is  blinkered  ('clause-bound' in Ely's terminology),  focusing  intently on  the words  of a given constitutional  provision  in splendid isolation."  (quoting ELY, supra note 122, at 12)).
+
+124. See BOMHOFF, supra note 2, at 191-203;  COHEN-ELrYA  &  PORAT,  PROPORTIONALITY, supra note  3,  at 42-43; see also text accompanying infra notes 139-161.
+
+125. See, e.g., Lorraine  Weinrib, Canada's Charter: Rights  Protection in  the  Cultural  Mosaic, 4 CARDOZO J.  INT'L & COMP. L. 395, 403-10 (1996)  (emphasizing  the  purposive,  coherent  initial  interpretation  of the Charter); BOMHOFF, supra note 2, at 105-12 (emphasizing  the  harmonic goals  of German Basic Law interpretation).
+
+126. See generally Neomi Rao,  On the  Use and  Abuse  of  Dignity  in  Constitutional  Law, 14 COLUM. J. EUR. L. 201, 204-05,  227-37  (2008) (arguing  that the  limitations  clauses  of modern constitutions  invite  the  balancing  of  rights  and other  interests  in ways  that  detract from  the  special significance  of having  a  right).  On  the  influence  of the  limitations  clause  in  the  Universal Declaration  of Human  Rights  (to  which  an American  Law  Institute  committee  may  have contributed)  on  new constitutions in the post-World  War II  period, see JACKSON, supra note 118,  at 86-87.
+
+127. See Grimm, supra note 2,  at 384-86  (noting the  significance  of Section i in Canadian  development  of proportionality  doctrine  and  also  noting  the  relative  insignificance  of textual limitations clauses in  German courts'  development of comparable  proportionality  doctrine).
+
+128. See Adam Liptak, 'We the People'  Loses Appeal with People  Around the World, N.Y. TIMES, Feb. 6, 2012, http://www.nytimes.com/2012/02/o7/us/we-the-people-loses-appeal-with-people -around-the-world.html [http://perma.cc/PD8S-LR5F] (identifying  the  relative  paucity  of individual  rights  guarantees as  a  reason that countries  are  no longer  modeling  their  constitutions on the U.S. Constitution).
+
+izg. See Stone  Sweet  &  Mathews, supra note  37,  at 97-111 (describing  the  German  theory  of rights and the  historical  rise of  proportionality  analysis  in German  courts).
+
+130. This "negative-only"  view of the  rights protected has  not always  been clearly  dominant. See, e.g., Archibald Cox, The Supreme Court, 1965 Term -Foreword:  Constitutional Adjudication and the Promotion  of Human Rights, 80 HARv.  L.  REv. 91 (1966) (arguing  that a theme  of recent cases has  been the need  for affirmative action,  in contrast with  prior practice,  to  advance  the goal of equality); Frank I. Michelman, The Supreme Court, 1968 Term-Foreword:  On Protecting the  Poor through the Fourteenth  Amendment, 83  HARv. L. REv.  7 (1969) (arguing  that  recent  decisions  should be  understood  as  reflecting  a  duty to  secure  minimum  levels  of welfare).
+
+131. It is perhaps  not a  coincidence  that Justice  Breyer,  in some cases  in which  he  has argued  for some  form of proportionality  review  of statutes,  has  also seen  in  those  cases  First Amendment interests  on both  sides. See,  e g., Nixon  v.  Shrink  Mo.  Gov't PAC, 528 U.S. 377, 400 (2000) (Breyer,  J.,  concurring)  ("[C]onstitutionally  protected  interests  lie  on  both sides  of the  legal  equation..  . .").
+
+132. In the  United  States,  even "compelling  interests" sufficient  to  overcome  presumptive  rights protections  are  optional,  in  the  sense  that  governments  may  choose  whether  or  not  to  advance them;  in Germany,  by contrast,  the  Basic Law  is understood  to  impose some  affirmative duties  on government. See JACKSON, supra note 118,  at 222-23.
+
+133. See  id. at 40-41, 55-57, 91-94, 95-97, 99-102,  154,  261 (discussing  European  integration and the Commonwealth).
+
+134. See supra note 38;  Louis Henkin,  Editorial Comment, U.S. Ratification  of  Human Rights Conventions: The Ghost  of  Senator  Bricker, 89 AM. J. INT'L L. 341  (1995).
+
+135. See,  e.g., cases  cited supra note 38.
+
+136. This approach  is often associated with  the idea that rights act  like "trumps" over other interests  against  government  action. See DwORKIN, supra note 34,  at  xi  (calling  rights  "political trumps  held by individuals");  Ronald  Dworkin, Rights as Trumps, in THEORIES OF  RIGHTS 153, 166  (Jeremy Waldron ed., 1984) (describing  rights  as  "trumps  over  some background justification for  political  decisions  that  states  a goal  for  the  community  as  a whole"  and  arguing  that rights  are needed  "only when  some  decision  that injures  some people  nevertheless finds prima-facie  support  in the claim that it will  make the community  as a whole better off');  see also Gregoire  Webber, On the Loss of  Rights, in PROPORTIONALITY AND  THE RuLE OF LAw:  RIGHTS, JUSTIFICATION, REASONING  123 (Grant  Huscroft et al.  eds., 2014). But cf Fallon, supra note  6,  at 1316-17 (distinguishing  "triggering  rights," which  prompt  strict scrutiny,  from  "ultimate" rights);  Gardbaum, supra note  5,  at 423-25 (noting  instances  where  the U.S.  Supreme  Court has identified a "two-step  analysis" of rights' infringement  and of  justifications  for limits).  Gardbaum  suggests  that without a  textual  limitations  clause,  "[w]here all  limits  are  judicially  implied,  it is  far  easier  to  justify  such  implication  if all  limits  are thought of as part of  the first step, part  of  the  undoubtedly  legitimate judicial function  of  in-
+
+(2004) (contrasting  the  U.S.  commitment  to  popular  will with  the  European  commitment to reason).
+
+140. Lochner v. New York, 198  U.S. 45 (1905). With thanks to  the title of Louis Henkin's article, U.S.  Ratification  of Human Rights Conventions: The  Ghost of Senator  Bricker, supra note 134; see  also Fallon, supra note  6,  at 1293 ("There  can  be  little  doubt  that the  ghost  of Lochner overhung constitutional  law during the period in which  strict scrutiny developed.").
+
+141. Dennis v.  United States, 341  U.S.  494 (1951).
+
+142. See supra note 33.
+
+United States v.  Carolene Prods. Co., 304 U.S. 144,  152  n.4  (1938).
+
+147. 397 U.S. 471  (1970).
+
+148. Id.  at 519-25 (Marshall,  J.,  dissenting).  A few  years  later  Justice Stevens  also  criticized  the tiered  standards of review. See Craig v. Boren,  429 U.S. 190,  211-12 (1976)  (Stevens,  J., concurring).
+
+See, e.g., Sorrell v.  IMS  Health Inc., 131 S.  Ct. 2653  (2011);  Cent.  Hudson  Gas & Elect.  Corp. v.  Pub.  Serv.  Comm'n, 447 U.S. 557 (1980).
+
+163. 532 U.S.  318 (2001).
+
+164. Id. at 323.
+
+165. Id. at 323-24. The  officer  shouted at Ms.  Atwater  "We've met before,"  and "You're going to jail!";  he  had previously  stopped  her  in  the  same  neighborhood,  mistakenly  thinking  she had  commited  a  seat  belt offense. Id. at 324 &  n.1;  Atwater  v.  City  of Lago  Vista, 195 F. 3 d 242,  252 (5th  Cir. 1999) (Dennis, J.,  dissenting); see  also id. at  248  (Wiener,  J.,  dissenting) (stating  that the  facts  would  have supported  a jury verdict  that  the  officer  had  "a personal crusade  or  possibly even  a vendetta"); id. at 246  (Garza,  J.,  dissenting)  (asserting  that  as  a Texas lawyer for sixty years  and an Article III judge in  Texas  for thirty-eight  years,  he knew that ordinarily  a traffic  stop  like  this would  result in a citation  and concluding  that  the officer acted unreasonably and in violation of the  Fourth Amendment).
+
+166. Atwater, 532 U.S. at  368-69  (O'Connor, J., dissenting).  A neighbor then  happened  to  come by and took charge of the children. Id.
+
+167. Id. at 369.
+
+168. Id. at 324 (majority opinion).
+
+169. Atwater v. City of  Lago Vista, 165 F.3d 380, 383  ( 5 th Cir. 1999).
+
+170. Atwater, 532 U.S.  at 346-47.
+
+171. Id.  at 347.
+
+172. Id. at 346  (emphasis added).
+
+173. Id. at 342-45, 347-54
+
+174. Id. at 348-51.
+
+175. 132 S.  Ct. 1510  (2012).
+
+176. The Florence Court described  how,  after passing  through a metal  detector,  all  arriving detainees
+
+532 U.S. at 326-40.
+
+181. See BARAK, supra note 22, at 107-24 (discussing  the  requirement  of authority  for  limiting rights, as an inquiry  that precedes  proportionality  analysis  of the means  used); id. at 243-454 (discussing  the elements of proper purpose,  rational  connection,  minimal impairment,  and proportionality  as  such); cf BEATTY, supra note i, at 45-46 (discussing  how  the German Constitutional  Court  seeks  to "evaluate  and reconcile  the competing  interests"  rather than to rely on textual  exegesis  or case  law).  In minority communities,  the need for  adequate justificatory accounts  may be particularly  acute. See  infra text accompanying note 249.
+
+182. Atwater, 532 U.S. at 347.
+
+183. Id. at 347, 351.
+
+184. Id. at 367  (O'Connor,  J.,  dissenting).
+
+185. See  id. ("[Qualified  immunity] allays  any  concerns  about  liability  or  disincentives  to  arrest.").
+
+186. Id. at 353  (majority  opinion).
+
+187. Id. at 353-54-
+
+188. R. v. Aucoin, 2012 SCC 66, [2012]  3 S.C.R. 408 (Can.).
+
+189. Canadian  Charter  of Rights  and  Freedoms 5 8,  Part  I  of the  Constitution Act, 1982, being Schedule B  to the  Canada Act, 1982, c.  a (U.K.).
+
+190. Id. 5 9.
+
+191. Aucoin, [2012]  3 S.C.R. ¶¶ 2-3, 55.
+
+192. Id.  ¶  4.
+
+193. Id.  ¶¶ 5-7.
+
+194. See  id.  ¶ 30. Aucoin challenged  the lawfulness  of the pat-down  search,  which  in this factual context,  turned  on whether  under Section  9  of the  Canadian  Charter,  "securing  the appellant in the cruiser . . . was reasonably  necessary";  the Court  found that it was  not,  and thus there was no authority  for the pat-down search. Id.  ¶¶ 30,  44; see infra note 201. The issue  in the  case  was  the  reasonableness  of the  officer's  actions, not  whether  a  statute found  to infringe  a  Charter right  could  be "salvaged"  by  a Section 1  proportionality analysis; the Court's application  of the reasonable  necessity  requirement  for detentions  under Section  9 incorporates  concern for the proportionality  of police  actions. See Aucoin, [2012]  3 S.C.R.  ¶ 44;  R.  v. Clayton, 2007 SCC 32,  [2007]  2 S.C.R. 725, ¶ 21 (Can.).
+
+195. Aucoin, [2012]  3 S.C.R.  5  35  ("I  do not  see this  case  as  turning on whether Constable  Burke had  the authority to  detain  the  appellant  in  the  rear  of his  police  cruiser,  having  lawfully stopped him  for a  regulatory  infraction.  Rather,  the  question  is whether he was justified in exercising  it as he did in the circumstances  of this case."); cf R.  v.  Collins, [1987] S.C.R. 265, 278 (Can.)  (stating  that a search  is unreasonable  and in violation of Charter Section  8  unless the search  "is  authorized  by law[,] ... the law itself is  reasonable[,]  and . . . the manner  in which the  search was carried out is reasonable").
+
+196. Aucoin, [2012] 3  S.C.R.  ¶ 34.
+
+197. Id.
+
+198. See id. 15 36-42 (evaluating  reasonable  necessity  "in the totality of the circumstances"  of the particular  case).  The  Court  also  noted  that  there were  less  intrusive  alternatives  available, including waiting for  back-up  (which  was  "close  at  hand")  before  writing  the  ticket. Id.  ¶ 42. It added that "a different  factual  matrix may  well have supported a finding of reasonable necessity," id. ¶43,  consistent with  Canadian  case  law's emphasis  that the question whether a detention  is  "reasonably  necessary"  is a highly contextual  one. See Clayton, [2007]  2 S.C.R. 5 31 (explaining  the  need  to consider "the  nature  of the situation,  including  the seriousness of the  offence, . . . information  known to the  police about the  suspect or  the crime,  and the extent  to which  the detention  was reasonably  responsive or tailored to  these  circumstances," in order to "balanc[e]  the seriousness  of the risk to public or individual  safety with the liberty interests  of  members  of the public to  determine whether,  given the extent  of the risk, the nature  of the  stop  is  no  more intrusive  of liberty  interests  than  is  reasonably  necessary  to address  the risk").
+
+203. 561  U.S. 1 (2010).
+
+204. Id. at 39-40.
+
+205. 395 U.S.  444 (1969). Brandenburg had seemingly  brought to  a  stable  end the  Court's halfcentury  struggle  to  reconcile  government  efforts  to  suppress  speech  believed  to  be  dangerous to  the government  with  the First  Amendment's protections  of freedom  of expression. For an account of that struggle,  see GEOFFREY R. STONE ET AL.,  CONSTITUTIONAL LAW  107076 ( 7 th ed. 2013) and sources  cited therein.
+
+zg. 491 U.S.  397, 412 (1989)  (subjecting  content-based  prohibitions  of  expressive  conductdesecrating  a  venerated object,  the American  flag-to Boos v.  Bary's "most exacting  scrutiny," which  the state's asserted interest  in promoting  national unity did not meet); Humanitarian  Law Project, 561 U.S.  at  28.  According  to Boos  v.  Barry, "most exacting  scrutiny,"  as applied to political  speech in a  public  forum, required meeting  the  compelling  interest/narrow  tailoring standard. 485 U.S. 312,  321  (1988). But cf Humanitarian  Law Project, 561 U.S.  at 26 (denying that the prohibition was a pure regulation  of  political  speech,  because it was  a prohibition  of  material  support, albeit a content-based regulation of speech).
+
+210. 505 U.S. 377,  395 (1992) (holding that a  prohibition  of cross-burning  and other  expressive conduct  causing  annoyance  or  offense  based  on race  or  color  was  a  form  of content-based regulation  that  could  be justified  only by  a  compelling  government  interest  in  a  narrowly tailored statute, a standard not met there); Humanitarian Law Project, 561 U.S.  at 27.
+
+See supra notes 208-210.
+
+215. Humanitarian  Law Project, 561 U.S.  at 28-30. But  cf  supra note 214 (questioning whether Congress  intended such a reading of the statute).
+
+216. Id. at 26 ("[T]he statute  is  carefully  drawn  to cover  only  a narrow category  of speech to, under the direction  of, or in coordination with foreign  groups that the speaker  knows to be terrorist organizations.").
+
+219. Cf BARAK, supra note 22, at 414 (arguing  that while  the  government has  expertise  and competence  on  security  risks,  the  court  has  expertise  in  the  protection  of rights); see also HCJ 2056/04 Beit Sourik Vill. Council  v.  Gov't  of  Israel,  58(5) PD 807, 845 [2004] (Isr.), translated  in 2004 IsR. L. REP.  264, 304 ("The  military commander  determines whether  the separation  fence  will  pass  over  the  hills  or in the plain.  That is  his  expertise.  We  [the judges]  examine whether the harm caused by this route  to the local inhabitants  is proportional.  That is our  expertise.").
+
+220.  132 S.  Ct. 2537 (2012).
+
+224. See Aleinikoff, supra note 15, at 976  (discussing the  "black box"  of  balancing).
+
+225. See, e.g., Vicki  C.  Jackson, Being Proportional  About Proportionality, 21 CONST.  COMMENT. 803,  830-32 (2004) (book review);  Stone  Sweet & Mathews, supra note 37,  at 90 ("[Proportionality  analysis]  clearly  indicates  to litigating parties  the  type  and sequence  of arguments that can  and must be made,  and the path  through which the judges will  reason to  their decision.").
+
+226. See Jackson, supra note 225, at 831;  Stone  Sweet  & Mathews, supra note  37,  at  96-97.  This structured analysis  may also have  the beneficial effect of  encouraging  judges to articulate  the actual  reasons for their opinions. See Frank M.  Coffin, Judicial  Balancing: The Protean  Scales ofJustice, 63  N.Y.U.  L. REv.  16, 22-23 (1988)  (emphasizing the  importance  of "real  reasons" that  "reflect  the  thought processes  of the writer and of those  colleagues  joining in the opin-
+
+231. Cf. Michelman, supra note 230, at 30-34 (describing certain  balancing  tests as  a commitment to "a communicative  practice of open and intelligble reason-giving").
+
+232. See,  e.g., William  Stuntz, The  Uneasy Relationship Between  Criminal  Procedure and Criminal Justice, 107 YALE L.J. 1,  73  (1997).
+
+233. See also  infra notes 251-258 and  accompanying  text (discussing  "constitutional judgment"). As  leading constitutional  scholars  recognize,  legitimate  sources  in constitutional law include multiple  forms  of argumentation-including  "ethos"  and "prudential"  forms  of argument, concerned  with  values  and  consequences. See PHILLIP BOBBITT,  CONSTITUTIONAL  FATETHEORY OF THE CONSTITUTION  (1982);  PHILLIP BOBBITT,  CONSTITUTIONAL INTERPRETATION (1991) (describing  and  exploring  several  forms  of interpreting  the  Constitution); see  also Robert Post, Theories of  Constitutional  Interpretation,  in LAW AND  THE  ORDER OF CULTURE  1341 (Robert  Post  ed., 1991) (describing  doctrinal,  historical,  and  responsive  interpretation); Richard  H.  Fallon,  Jr., A  Constructivist Coherence Theory of Constitutional  Interpretation, 100 HARV. L.  REv. 1189 (1987) (describing  how  different  modes of interpretation  work together).
+
+235. See  also Weinrib, Constitutional Comparativism, supra note  138,  at 17 (arguing  that  the  requirement that limitations  be "prescribed  by law"  means  that encroachment on  rights  must be "authorized  ... through the  regular channels  of law-making,  so that it is the product of a representative, accountable, deliberative public process" while  acknowledging that the "principled elaboration  of the common law  also satisfies"  the formal standard); cf Stephen Gardbaum, Proportionality  and Democratic Constitutionalism, in PROPORTIONALITY AND THE RULE  OF LAW:  RIGHTS,  JUSTIFICATION,  REASONING 259, 260-61  (Grant  Huscroft  et  al.  eds., 2014) (advancing  a  "broadly-gauged  conception  and  defense  of a  proportionality-like  test for limiting rights"  that  "seeks  to accommodate  and temper enduring  and legitimate  democratic  concerns.").  For  an argument  that  legislatures  constitute  rights  by  deciding on  their limitations, see GREGOIRE  C. N. WEBBER,  THE NEGOTIABLE  CONSTITUTION (2012).
+
+ALEXY, supra note 19, at 399-401,  411-18.
+
+Id. at 399-400. But cf R. v.  Oakes,  [1986] 1 S.C.R. 103, 136-37  (placing  the "onus"  of  justification on the party seeking to  uphold the limitation).
+
+240.  ALEXY, supra note 19, at 415-416. Alexy thus  disagrees with  the suggestion that German  proportionality  analysis  contemplates a  single,  perfect,  ideal  answer  to  rights  questions.  Cf BOMHOFF, supra note 2, at 103-19 (describing  the German  theory  of constitutional  legal perfectionism).
+
+241. See Laurence  H.  Tribe, The  Puzzling Persistence of  Process-Based Constitutional  Theories, 89 YALE L.J. 1063, 1079-80  (1980).
+
+242.  ALEXY, supra note 19, at 399  (noting "difficult problems of prognosis"  posed by "suitability" and "necessity"  inquiries); cf Peter W.  Hogg & Allison A. Bushell, The Charter Dialogue  Between  Courts and Legislatures  (Or Perhaps  the Charter  of Rights Isn't  Such  a  Bad Thing After All),  35 OSGOODE HALL L.J.  75,  101-04  (1995) (arguing  that "[t]he  language  of post-Charter laws . . . suggests  that Canadian  legislators  are  engaging  in a  self-conscious  dialogue  with the judiciary").
+
+243. In a rights-valuing legal  culture,  legislators  may have political  incentives  to be careful  of  protecting  rights,  particularly  on legislation  that  is of high  public salience.  For  related  discussion,  see JEREMY WALDRON,  THE DIGNITY  OF LEGISLATION 86  (1999) (discussing the legislator's role  as  "judging"  what  is just, or  in  accord with  society's conception  of natural law); WEBBER, supra note 235, at 149-59 (arguing that "[f)or  a legislator,  the ground for a political decision  should  always  be  its  justification  in a  free  and democratic  society"  and  that legislators must be  guided  by standards  of  public reason).
+
+244.  Mattias  Kumm, The Idea of Socratic Contestation and the  Right to Justifcation: The  Point of Rights-Based  Proportionality Review, 4 LAw & ETHICS HUM. RTs.141, 163 (2010).
+
+ny,  Canada,  Colombia, and the European  Court of Human Rights,  and noting that permissible  restrictions under European case law  may  depend  in part  on  the  available  social  resources  for medical  and  other services, as well  as  the  ease  of travel). Proportionality's  emphasis  on a clear understanding  of what  rights  are  at  stake  and on  the justification for  rerestrictions enables  both  proponents  and  opponents  of abortion regulation to  make  their claims to legislatures in understandable  terms  and allows  courts to consider  arguments challenging legislation  in terms that connect both to constitutional values  and lived experiences.
+
+251. See JACKSON, supra note  118,  at 151-52 (discussing  the  "acquisition  of a  sense  of legal judgment," Karl  Llewellyn's idea  of "situation sense,"  and good judgment,  all in  the  context  of constitutional law); see also Mark Tushnet, Heller and the Critique  ofJudgment, 2008 SUP. CT. REv.  61 [hereinafter  Tushnet, Heller and the Critique ofJudgment]; Mark Tushnet, The First Amendment and Political  Risk, 4 J. LEGAL ANALYSIS  103  (2012) [hereinafter Tushnet, The First Amendment].
+
+252. Tushnet, Heller and the Critique  ofJudgment,  supra note 251, at 71, 76-84.
+
+562 U.S. 443 (2011).
+
+559 U.S. 460 (2010).
+
+131 S.  Ct. 2653 (2011).
+
+Tushnet, The First  Amendment, supra note 251, at 105-06.
+
+Id.; see also Sullivan, supra note 16,  at 68  (discussing some of the pathologies  associated with "adjudication-by-rule").
+
+258. See,  e.g., Brown v.  Entm't  Merchs.  Ass'n, 131 S.  Ct. 2729,  2732  (2011) (invalidating a state law prohibiting the  sale  of violent  video  games  to  children under eighteen); Stevens, 559 U.S.  at 469  (rejecting  the  possibility  of a  categorical  exception  from  First Amendment  protection for  at  least  some  depictions  of  animal  cruelty). But see  Entm't Merchs., 131  S.  Ct.  at  2766 (Breyer,  J.,  dissenting)  (indicating  that in applying  strict scrutiny,  he  "would evaluate  the degree  to  which  the  statute injures speech-related  interests,  the  nature of  the potentiallyjustifying  'compelling  interests,'  the degree  to  which  the statute  furthers that interest,  the nature and effectiveness of  possible  alternatives,  and,  in light  of this  evaluation,  whether, overall,  'the statute works  speech-related harm . . . out of proportion to the benefits  that the statute seeks  to provide"' (quoting United States  v.  Playboy Entm't  Grp., Inc.,  529  U.S.  803, 841 (2000))).
+
+262. See Jackson, supra note 225, at 830 n.82 ("[Proportionality]  can be  used to  help screen legislation for purposes  that are  deemed  impermissible on other  grounds.").
+
+263. See ELY, supra note 122, at 102-04. For critique  of  political  process  theory  as the basis  for judicial  review  as  "radically  indeterminate  and fundamentally  incomplete,"  see Tribe, supra note 241,  at 1064. Such  objections do not,  in my view,  apply to  considering  the disproportionate effects  of laws  as  a  signal  of the kind of possible  process  failure  that  may  conflict with  more substantive  constitutional  commitments.
+
+264. Justice  Stevens  has  articulated  a "duty  to  govern  impartially"  in  several  opinions. See,  e.g., Vieth v.  Jubelirer, 541 U.S. 267,  341  (2004) (Stevens,  J.,  dissenting);  Harris  v.  McRae,  448 U.S. 297, 357 (1980) (Stevens,  J.,  dissenting); see also Jeremy Waldron, Principles  of  Legislation,  in THE LEAST  EXAMINED  BRANCH, supra note 30, at 21 (discussing  the  importance  of impartiality and justice  in legislation).
+
+ter Justice  Marshall and  served  as  his law  clerk  in October  Term 1977, my  appreciation  for his views came most fully into focus after I had studied comparative constitutional  law.
+
+See,  e.g., WEBBER, supra note 235, at 89-115; Stavros Tsakyrakis, Proportionality: An Assault on Human Rights?, 7 INT'L  J.  CONST.  L. 468,  470-72 (2009).
+
+271. See supra note 37  (noting Robert  Alexy's views).
+
+272. See,  e.g., Schauer, supra note 36, at 429-31.
+
+273. See,  e.g., Choudhry, supra note  116, at 504 (arguing that the pitfall of  proportionality  analysis is  that  it does  not respond  to  the  "general  problem of how  to fashion  judicial  review  in  a rights-protecting democracy where governments often legislate with imperfect information").
+
+274. ALEXY,  supra note 19, at 396-97.  On "one  right answer"  conceptions  of proportionality,  see Rivers, supra note 245, at 192-93. See also supra note 237.
+
+See Rivers, supra note 245, at 202-06.
+
+See Aleinikoff, supra note 15, at 981-86.
+
+See Atwater v. City  of Lago Vista, 532 U.S. 318,  347 (2001).
+
+See Alschuler, supra note  248,  at 287  (1984)  (arguing  that Fourth Amendment  law  is incomprehensible  because there are too  many detailed rules).
+
+"an  unmanageable  multiplicity  of  rules"  that cannot be  humanly  remembered,  that present numerous  choices  regarding  which  rule  is  applicable,  and  whose  artificiality  begets  more rules  that "muddy  more than  they clarify"  and depart from both justice and predictability.
+
+For a complex taxonomy of balancing,  see MOLLER, supra note 29, at 137-73.
+
+293. See Aleinikoff, supra note 15,  at  998-99  (arguing that constitutional  cases  involving  competing interests can be "resolved.  . . by a principle" not  derived from balancing).
+
+297. See,  e.g., R. v. Big M Drug Mart Ltd., [19851 S.C.R. 295 (Can.)  (invalidating  a statute found to  have  an  illegitimate  purpose  (coercing religious observance),  with  no  further  Section  1 analysis); see  also cases cited supra note 82.
+
+298. See Perju, supra note 228, at 352 (arguing that inquiry  into government purpose  at the  outset of  proportionality analysis offers a theoretical possibility  of  deontological constraint). Deontological inquiry may also be required to determine the nature  of the right and severity of its  infringement. See BARAK, supra note 22, at 45-51 (describing  how  the  right's scope  is determined by  interpreting  constitutional  text,  and noting  distinction  between  "core"  and "penumbra"  of  right); see  also  supra notes 295-296; cf Perju, supra note 228, at  354 (discussing  the  "core"  and "periphery"  of rights). Perju  argues that  in practice  the potential of purpose  inquiries to  impose  constraints  has  not been  realized. Id. at 352-53. But see supra notes 82,  297 (discussing  Canadian cases finding insufficient  purpose). Determining what is a sufficient purpose  to warrant  an infringement  on rights  is itself connected  to  a conceptual understanding  of the right  and its  purpose.  Cf BARAK, supra note 22, at  248  (arguing  that purposes  sufficient to justify intrusion on rights  "may vary  ... from  one  right to another"). Some  critics argue that proportionality review, coupled with limitations clauses that expressly  acknowledge  that rights  may  be limited with  sufficient justification,  will  diminish rights protection as a  whole. See, e.g., Rao, supra note 126, at 227-37. Whether proportionality  review would have  this  effect is likely to be  highly context dependent.  In the context  of categorical  rules  that,  as  in Atwater, or Florence, arguably  under-protect  rights, proportionality  review would likely advance rights protection.
+
+299. See Vicki C.  Jackson & Jamal Greene, Constitutional  Interpretation  in Comparative Perspective: Comparing  Judges or Courts?, in COMPARATIVE  CONSTITUTIONAL  LAW 599 (Tom Ginsburg & Rosalind Dixon eds., 2011).
+
+300. Fallon, supra note 6, at 1316-17.
+
+301. The  UDHR provides:
+
+3o5. See COHEN-ELYA  & PORAT,  PROPORTIONALITY, supra note  3,  at  43; see  also  id. at 154  (concluding  that there has been  a  "relative marginalization of balancing in ... American constitutional law,  as  a pragmatic exception  to  the construction of rights as categorical  limitations on state power"); cf BOMHOFF, supra note  2,  at 143-89  (noting  balancing's development  in the  U.S.  as an alternative  in contest  with more "absolutist" approaches,  still  viewed  through the lens  of debates  in the  1950s  and 1960s  about balancing).
+
+ COHEN-ELIYA & PORAT, PROPORTIONALrrY, supra note 3,  at 42.
+
+ARISTOTLE, supra note 54,  at 174.
+
+See text accompanying supra notes 43-50-
+
+310. 542 U.S. 507, 528-29  (2004).
+
+311. 424 U.S. 319 (1976).
+
+312. Hamdi, 542 U.S. at 528-29 (plurality opinion).
+
+313. Id. at 527.
+
+314. Id. at 526-27 (also  rejecting  arguments  that because  Hamdi was  seized  in a combat zone,  no other process was necessary;  that no judicial  review is  proper in an ongoing  conflict;  or that "at  most"  only  "some  evidence"  was  required).  It  could  be  argued,  however,  that the  "balancing" approach  adopted by the Court was also rights-undermining,  insofar as it facilitated rejecting  the  position,  argued  by Justice  Scalia,  that  for a  citizen,  detention  and trial  had to be  by ordinary  criminal  process,  with  speedy  trial  rights  and  the  full  panoply  of criminal procedure  rights, see  id. at 572 (Scalia,  J.,  dissenting),  a position  the  plurality rejected, id. at 522-24 (plurality opinion).
+
+315. COHEN-ELIYA & PORAT, PROPORTIONALITY, supra note 3, at 64-78.
+
+316. See Emp't Div.  v.  Smith, 494 U.S. 872  (1990) (displacing  the approach  of Sherbert  v.  Verner, 374  U.S. 398 (1963),  over the objections of four Justices).
+
+317. Cohen-Eliya  and Porat  do  recognize exceptions  to  their generalization,  in  the  possibility  of exceptions  to  bans  on  race  discrimination  to  "avoid  drastic  outcomes,"  or  in the  "clear  and present"  danger  tests  for  free  speech  in the  early  twentieth  century,  bodies  of law  they describe  as  a "consequentialist  constraint"  on an  otherwise  intent-based deontological  system. See COHEN-ELIYA & PORAT,  PROPORTIONALITY, supra note 3,  at 71-72.
+
+318. See,  e.g., Pike v.  Bruce  Church,  Inc., 397 U.S. 137,  142  (1970). Cohen-Eliya  and Porat recognize the dormant commerce  clause as another exception  to their generalization  about intent. See  infra note  395.
+
+325. See Whren v.  United  States, 517 U.S.  8o6,  813  (1996) (stating that "the  constitutional  basis for  objecting  to  intentionally  discriminatory  application  of  laws  is  the  Equal  Protection Clause,  not  the  Fourth Amendment"  and holding  that "the constitutional  reasonableness  of traffic  stops"  does  not  "depend[]  on  the  actual  motivations  of the  individual  officers  involved"); see also Atwater v.  City of Lago Vista, 532 U.S. 318, 354 (2001)  ("[T]he  standard  of probable  cause  'applie[s]  to  all  arrests,  without  the  need  to 'balance' the interests  and circumstances  involved  in  particular  situations."'  (quoting  Dunaway v.  New  York, 442 U.S. 200,  208  (1979))); Bond v. United  States, 529 U.S.  334,  338 n.2  (2000) (confirming  that "the subjective  intent of the law enforcement  officer  is irrelevant in determining whether that officer's  actions  violate  the  Fourth  Amendment");  Scott  v.  United  States,  436  U.S. 128,  136 (1978) ("Subjective  intent alone ... does  not make  otherwise  lawful  conduct  illegal  or  unconstitutional.");  United  States  v.  Robinson, 414 U.S. 218, 221 n.1 (1973) (finding  it  irrelevant  whether  the  officer  "may  have  used"  a  "subsequent  traffic  violation  arrest  as  a  mere pretext for  a narcotics  search  which would  not have  been allowed  by a neutral magistrate"  if a  warrant had  been sought); id. at 236 ("[I]t is  of  no  moment that  [the Officer] ... did  not himself suspect  that respondent  was  armed.").
+
+327. 462 U.S. 919 (1983).
+
+328.  132 S.  Ct. 2566 (2012).
+
+329. 558 U.S.  310  (2010).
+
+330. 521 U.S. 507 (1997).
+
+331. See,  e.g., United States  v.  Stevens,  559  U.S. 460 (2010); Bd.  of Trs.  of  Univ.  of Ala.  v. Garrett, 531 U.S.  356 (2001); United States v.  Morrison, 529 U.S.  598 (2000); Alden v.  Maine, 527 U.S. 706  (1999);  Seminole Tribe of Fla. v.  Florida, 517 U.S. 44 (1996).
+
+336. See Jamal  Greene, Selling Originalism, 97 GEo. L.J.  657,  659-60, 674-82 (2009).
+
+337. On  the range  of sources  regarded  as legitimate  in  the  "eclectic"  U.S.  approach  to  constitutional  interpretation, see  JACKSON, supra note  118,  at  134-38;  Fallon, A Constructivist Coherence  Theory, supra note  233; and Mark  Tushnet, The  United States: Eclecticism in the Service of Pragmatism, in INTERPRETING CONSTITUTIONS: A COMPARATIVE STUDY 7 (Jeffrey Goldsworthy  ed., 2006). See also supra note 233.
+
+338. See, e.g., BEATTY, supra note 1, at 47,  87-89  (praising  reliance  on  "facts"  rather  than  "text" and  critiquing  reliance  on  precedent); cf M6LLER, supra note 29, at 57-90, 88  (describing the  "comprehensive," "protected  interests"  conception  of autonomy,  and  concluding  that "nothing would  be lost  in  theory  by simply acknowledging  one  comprehensive  prima facie right  to  personal  autonomy"  instead  of listing  specific  rights,  such  as  freedom  of expression).
+
+339. Cf. Canadian  Charter  of Rights  and Freedoms,  Part  I  of the  Constitution  Act, 1982, being Schedule B to the Canada Act, 1982, c. 11, §  I  (U.K.).
+
+See Jackson, supra note 225, at 850  (noting  that there  "may be  some individual rights,"  like rights against torture,  "that we  would want categorized as  nonderogable rights").
+
+342. See Frederick  Schauer, Formalism, 97 YALE L.J. 509, 541 (1988).
+
+See Pildes, supra note  35,  at 725-27. For other  rights claimed  to  be primarily  concerned with excluding  certain reasons for government action,  see id. at 731-49.
+
+See,  e.g., Dolan v. City of Tigard, 512 U.S. 374, 386-91 (1994).
+
+See,  e.g., Loretto v.  Teleprompter  Manhattan  CATV Corp., 458 U.S. 419,  421  (1982).
+
+See U.S. CONST. amend. V;  Nollan v.  Cal.  Coastal Comm'n, 483  U.S. 825,  841-42  (1987).
+
+351. See Fort Wayne  Books,  Inc. v.  Indiana, 489 U.S.  46, 54 n.4, 57-60 (1989);  Miller v.  California, 413 U.S.  15  (1973).
+
+352. See Chaplinsky v.  New Hampshire, 315  U.S. 568 (1942).
+
+353. U.S. CONsT.  amend. IV.
+
+354. Alschuler, supra note 248,  at 233.
+
+355. Other  scholars have  noted  the  Court's  inconsistencies, sometimes  within the  space  of months,  on  the  use  of all-  things-considered  and  more  context-dependent  standards, as compared to rule-like,  categorical  approaches  to Fourth Amendment  issues. See,  e.g., Sklansky, supra note  248,  at  277-8o, 291-98 (discussing Whren  v. United States, 517 U.S.  806 (1996), Ohio v.  Robinette, 519 U.S.  33 (1996), and other  cases,  and  identifying inconsistencies).
+
+356. See Altschuler, supra note  248,  at  287  ("What  renders  substantive  [F]ourth  [A]mendment law incomprehensible,  however,  is  not the  lack of categorical rules  but too many  of  them."); Note, The Fourth  Amendment's Third Way, 120 HARV.  L.  REv.  1627,  1627 (2007) ("Scholars agree on very little concerning  the Fourth Amendment,  but  one of the few propositions  that nearly everyone  accepts  is the almost  incomparable  incoherence  of its doctrine."); see also Si-
+
+las J.  Wasserstrom  & Louis Michael  Seidman, The Fourth  Amendment as Constitutional  Theory, 77  GEO.  L.J. 19, 22-44 (1988) (discussing  "Fourth  Amendment  Formalism"  and  the Court's failure to  attend to the reasonableness requirement).
+
+357. For insightful analysis  of this  proposition in  the context  of immunity  rules,  see John  C. Jeffries,  Jr., In  Praise  of the  Eleventh Amendment  and  Section 1983, 84 VA. L. REv.  47,  49-54 (1998).
+
+36o. On  the possibility that modifications are already under way,  see supra note 358.
+
+See infra note 422; see also infra note 369.
+
+ 426 U.S. 229  (1976). For a  description  of "strict  scrutiny"  as  "'strict'  in theory  and  fatal  in fact,"  see  Gunther, supra note 146, at 8.
+
+See,  e.g., Lubbe-Wolff, supra note 291, at 13 n.1o  (noting stricter  justification  requirements for  "unequal  treatment differentiating  between  preexisting  groups  of persons,"  for  "uneqal
+
+treatment  which  the  persons  affected  cannot  escape,"  or  for  unequal  treatment  affecting fundamental freedoms); infra note 422.
+
+370. See Gunther, supra note 146, at 17-18 (describing  Justice  Marshall's  dissent in Dandridge  v. Williams, 397 U.S.  471  (1970), as  a  "sliding-scale  analysis").
+
+371. 397 U.S.  471, 473-75, 485-86  (1970).
+
+372. Id. at 508 (quoting id. at 485, majority opinion)  (Marshall, J.,  dissenting).
+
+373. Id. at 520 (Marshall,  J., dissenting).
+
+374.  Id.
+
+375. Id. at 520-21 (emphasis  added).
+
+376. For  similar  reasons,  Justice  Marshall  famously dissented  in San Antonio  Independent School District  v.  Rodriguez, 411 U.S. 1,  109  (1973), arguing that because "discrimination  against important  individual  interests  with  constitutional implications  and  against particularly  disadvantaged or powerless  classes  is involved,"  the Court should have more carefully scrutinized Texas's scheme  relying  on  local  property  taxes  to  fund  the free  public  education  the  State guaranteed  its citizens.
+
+377. 397 U.S.  at 520  (Marshall.  J.,  dissenting); see  also Rodriguez, 411  U.S. at 109 (Marshall,  J., dissenting)  (rejecting  the  majority's  suggestion that "a  variable  standard  of review  would give  this  Court the  appearance  of a 'super-legislature,"'  because  such  an approach is  a  necessary  "part of the  guarantees  of  our Constitution and of the historic experiences  with oppression  of  and  discrimination  against  discrete,  powerless  minorities  which  underlie that document").
+
+378. Craig v.  Boren,  429 U.S. 190,  211-12  (1976) (Stevens, J.,  concurring).  For  responses  to Justice  Stevens's  approach,  see James E.  Fleming, "There Is Only One Equal Protection Clause": An  Appreciation of  Justice Stevens's Equal Protection  Jurisprudence,  74 FORDHAM  L.  REv.  2301 (2006); and  Note, Justice Stevens' Equal Protection  Jurisprudence, loo HARV. L.  REv. 1146 (1987).
+
+379. 457 U.S. 202 (1982).
+
+380. Id. at 223-24.
+
+381. For contemporary  treatment  of Plyler, most  generally  favorable,  see,  for  instance,  Elizabeth Hull, Undocumented  Alien Children  and  Free  Public  Education:  An Analysis of Plyler v.  Doe, 44 U. P-rr. L. REv. 409,  409  (1983)  (calling Plyler "a  significant  advance  in constitutional jurisprudence");  and Leading  Case, Right of  Illegal-Alien Children  to  State-Provided  Education,  96 HARv.  L.  REv.  130,  134  (1982) (rejecting  the  dissenting position  but criticizing the  majority for a  lack of clarity  on whether  it was  status as undocumented  children  or the fact that education  was involved that led to  heightened  scrutiny). See also Michael J.  Perry, Equal Protection, Judicial  Activism,  and the Intellectual Agenda of Constitutional Theory: Reflections on, and Beyond, Plyler  v.  Doe,  44 U.  Prr. L. REv.  329  (1983) (describing  the  case  as  providing  the correct  answer to a politcal-moral problem but questioning  its theoretical basis  in the  equal protection clause).
+
+omitted).  Disparate  impact analyses  under statutes  like  Title VII  of the Civil Rights  Act of 1964, see Griggs  v.  Duke  Power  Co., 401 U.S. 424  (1971), have  survived. But see Ricci  v. DeStefano,  557 U.S. 557, 594  (2009) (Scalia,  J.,  concurring)  (raising the question of whether disparate  impact liability under Title VII violates  constitutional equality guarantees).
+
+See COHEN-ELIYA  &  PORAT,  PROPORTIONALITY, supra note  3,  at  64-78,  discussed infra note 395  and text  accompanying supra notes 315-326.
+
+Id. at 245.
+
+Id. at 240, 248.
+
+392. Davis, 426 U.S.  at 240-41 (quoting Jefferson v.  Hackney, 406 U.S.  535,  548 (1972)).
+
+393Id.  at 242.
+
+394. Id.; see also Vill.  of  Arlington  Heights  v.  Metro.  Hous.  Dev. Corp., 429 U.S. 252,  265 (1977). In Davis, for example,  the Court  expressed its agreement  with the district court  that the  use of the test could  not be  regarded as  a purposeful form of discrimination,  given the successful efforts  of the  government  to recruit  and hire  more African-Americans  into the  Department. Davis, 426 U.S.  at 246 ("Even agreeing  with the District Court that the differential  racial effect of Test 21 called  for  further inquiry, we  think the  District  Court correctly held  that the affirmative  efforts  of  the  Metropolitan Police  Department  to  recruit  black officers, the changing racial  composition of  the recruit classes  and of the force in general . . . and the  relationship of the test  to the training program negated  any  inference  that the Department  discriminated on the basis of  race  or that 'a police  officer qualifies  on the color of  his  skin rather than ability."'  (quoting Davis v.  Washington, 384 F.  Supp. 15 (1972))).
+
+397. 442 U.S. 256  (1979) (holding that a knowing use  of a preference for veterans,  despite its very substantial  adverse  effect  on women, did not  require  more than rational basis review;  only if such  a neutral  criteria  is  used "because of' the  adverse  effects  on  gender is  heightened  scrutiny  appropriate).
+
+398. See, e.g., Reva  B.  Siegel, The  Supreme  Court, 2012 Term-Foreword: Equality Divided, 127 HARv. L. REv. 1,  11-20  (2013).
+
+399. See supra notes 151-152 and accompanying  text.
+
+400. See Flagg, supra note 384;  Siegel, supra note 384.
+
+401. Where a disparate  impact falls on  a group whose long history of  persecution  gave  rise to the decision  to treat the classification  as  suspect  or quasi-suspect,  courts  might  ask whether the challenged law  or practice was adopted  because  of deliberate  indifference  to the effects  on  a racial  minority  group,  or on women.  If so,  some  appropriately  deferential  form  of proportionality  review  (analogous  to  some  form of intermediate  scrutiny,  sensitive  to the  magni-
+
+See,  e.g., Case  96/80, Jenkins  v.  Kingsgate  (Clothing  Prods.)  Ltd., 1981 E.C.R.  911; see also ELIus & WATSON, supra note 404,  at  148-51.
+
+411. CATHERINE  BARNARD, EU EMPLOYMENT LAW  254 ( 4 th ed. 2012); Vicki C.  Jackson, Review of Laws Having a Disparate Impact Based on  Gender, in GLOBAL  PERSPECTIVES  ON  CONSTITUTIONAL LAw 130 (Vikram Amar & Mark Tushnet eds., 2008).
+
+412. Danfoss ¶ 22.
+
+See Case  C-17/05, Cadman  v. Health & Safety Exec., 2006 E.C.R. I-9585; Danfoss 24.
+
+See supra notes 417-418.
+
+"[i]f the  penalty were  unreasonably  severe  for a  single  offense,  the constitutional  question might be urged"  if the Eighth  Amendment  had been  assigned  as  error  and were  applicable to  the  government  involved); id. at 339-40 (Field,  J., dissenting) ("The  inhibition  is  directed,  not  only  against  punishments  of the  character  mentioned,  but  against  all  punishments which by  their excessive  length or  severity are greatly disproportioned to the offenses charged.  The whole  inhibition  is against  that which  is  excessive  either  in  the bail  required, or  fine imposed,  or punishment  inflicted."); cf Pervear  v.  Massachusetts, 72 U.S.  (5  Wall.) 475, 480  (1867) (noting that the Eighth Amendment does  not apply  to the  states, but going on  to say  in any  event  that  "it appears  from  the  record  that  the  fine and  punishment  in the case before  us was fifty dollars  and imprisonment  at hard labor in  the house  of  correction  for three months.  We perceive nothing excessive,  or cruel,  or  unusual in this").
+
+463 U.S. 277,  284  (1983).
+
+See Note, supra note 424, at  967 & n.121  (noting the role of appellate  review in constraining sentencing decisions  in England and Germany).
+
+436. See, e.g., Rummel v.  Estelle, 445 U.S.  263, 275-76 (1980); Note, supra note 424, at 960-61 (describing  the concerns  of some  federal appellate judges). William  Stuntz raised  the  possibility  of "a  proportionality  rule,  requiring  that  the conduct  criminalized  be  serious  enough to justify  the punishment  attached to it," but concluded that a major difficulty would be the absence  of a  "nonarbitrary  way  to  arrive  at  the proper  legal  rules,"  whether  for  reviewing sentences,  or distinguishing traffic  stops from other  crimes  for Fourth Amendment  purposes.  Stuntz, supra note 232, at 66,  73.  Comparisons  with other  sentences  for  similar offenses and  offenders  is  an objective  way  of ensuring one kind  of proportionality;  and while  some comparative  severity judgments may  be  contested,  others  are widely  accepted: intentional violence,  for example,  is  generally  considered  more  severe  than  modest property crime.  Appellate  review  of  criminal sentences in other jurisdiction rebuts claims  of necessary  arbitrariness. See supra notes 431-434
+
+See NAT'L RESEARCH COUNCIL,  THE GROWTH OF INCARCERATION IN THE UNITED  STATES 3437,  68 (2014) ("Current  incarceration  rates  [in the  United  States]  are  historically  and  com-
+
+442. 376 U.S.  254 (1964).
+
+445.  Chaplinsky v.  New  Hampshire,  315 U.S.  568, 574 (1942) (describing  the statute for "punishing verbal  acts" that it was  upholding  as  "carefully drawn so  as  not unduly to  impair liberty of expression,"  and concluding  that its application  to  the  facts  did not "substantially or unreasonably imping[e]  upon the privilege  of free speech").
+
+446. 505 U.S. 377, 385-86  (1992).
+
+R.A.V., 505 U.S.  at 388  (majority  opinion)).  For further  discussion  of these  two cases, see Jackson, supra note 79, at 611-16.
+
+450.  [1990] 3  S.C.R.  697  (Can.).  All of the justices  agreed  that the statute  infringed  on Section 2 protections  of freedom  of expression;  they  disagreed  on  whether,  under  Section  1  of the Charter,  the statute  was "demonstrably justified"  under the Oakes proportionality  test.
+
+451. Id. at 718, 758  (majority opinion); id. at 851-63 (McLachlin,  J.,  dissenting).  Later Canadian case  law  distinguishes  between  exposing  groups  to hatred  and  exposing them  to  ridicule, permitting sanctioning  of  the former but not the  latter. See Sask.  Human Rights  Comm'n v. Whatcott, 2013 SCC 11,  [2013]  1 S.C.R. 467 (Can.).
+
+453. Tushnet, The First  Amendment, supra note 251, at 105-06.
+
+454. See  supra notes 252-258 and  accompanying  text  (noting  Tushnet's critique  of decisions  in Snyder v. Phelps and United States v. Stevens).
+
+See, e.g., Harlow v.  Fitzgerald,  457 U.S. at 815-19.
+
+all to play would take considerable  reflection. See Jackson, supra note 225, at 843-47 (discussing proportionality  and structural  constitutional  issues).  For  these  reasons,  this paper  has focused primarily on proportionality doctrine in  the adjudication  of individual rights  cases.
+
+461. See supra notes  16, 307.
+
+462. See Washington  v. Davis, 426 U.S. 229 (1976).
+
+463. From  reactions to 1) the  Los Angeles Police  Department's use  of chokeholds in  traffic stops, disproportionately  killing African-American  citizens  in  the 1970s and 198os; 2) the  Rodney King incident  of  the  early 1990s; 3)  the 1999 killing of  Amadou  Diallo in  New York;  and 4) the  very  recent  death  by  police  violence  of  an  unarmed  man  in  Ferguson,  Missouri,  these harms are apparent. See Vicki C.  Jackson, Standing  and the Role of  Federal  Courts: Triple Error Decisions  in Clapper v.  Amnesty International  USA and City of Los Angeles v. Lyons, 23 WM. & MARY BILL RTs. J. 127, 161-74  & n. 155  (2014) (the Los Angeles Police Department's use of chokeholds and  Rodney  King); Edwidge  Danticat, Enough  Is  Enough, NEw  YORKER: CULTURAL COMMENT (Nov. 26, 2014), http://www.newyorker.com/culture/cultural -comment/michael-brown-ferguson-abner-louima-police-brutality [http://perma.cc/TG56 -JU83]  (Diallo and Ferguson).
+
+464. See  supra note 249.
+
+465.  Members  of those  groups  most  severely  disadvantaged  by race  and  class  may  not have  the resources  that Ms.  Atwater found to bring her challenge.
+
+466. See Atwater v.  City  of  Lago Vista, 532 U.S. 318,  373 (2001) (O'Connor, J.,  dissenting)  ("The Court  neglects  the  Fourth  Amendment's express  command  in  the  name  of administrative ease.").
+
+467. Cf.  Karl  N. Llewellyn, The Constitution as an Institution, 34 COLUM. L. REV. 1  (1934) (discussing  the "working Constitution"); supra text accompanying notes 234-245.
