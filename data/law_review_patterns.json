@@ -1,0 +1,3419 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "2.0",
+  "description": "Law journal URL patterns - auto-generated with intelligent defaults",
+  "journals": {
+    "columbia law review": {
+      "name": "Columbia Law Review",
+      "base_url": "https://www.columbialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.columbialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "harvard law review": {
+      "name": "Harvard Law Review",
+      "base_url": "https://harvardlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/vol-{volume}/{slug}/",
+          "requires": [
+            "volume",
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://harvardlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "stanford law review": {
+      "name": "Stanford Law Review",
+      "base_url": "https://www.stanfordlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/issues/{volume}/{issue}/{slug}/",
+          "requires": [
+            "volume",
+            "issue",
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/vol-{volume}/{slug}/",
+          "requires": [
+            "volume",
+            "slug"
+          ],
+          "priority": 2
+        },
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 3
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.stanfordlawreview.org/search-slr",
+        "query_param": "q_as",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "yale law journal": {
+      "name": "Yale Law Journal",
+      "base_url": "https://www.yalelawjournal.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.yalelawjournal.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "california law review": {
+      "name": "California Law Review",
+      "base_url": "https://www.californialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.californialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of pennsylvania law review": {
+      "name": "University of Pennsylvania Law Review",
+      "base_url": "https://scholarship.law.upenn.edu/penn_law_review",
+      "patterns": [
+        {
+          "type": "repository",
+          "template": "/vol{volume}/iss{issue}/{article_number}/",
+          "requires": [
+            "volume",
+            "issue",
+            "article_number"
+          ],
+          "priority": 1
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.upenn.edu/penn_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "cornell law review": {
+      "name": "Cornell Law Review",
+      "base_url": "https://www.cornelllawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.cornelllawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "michigan law review": {
+      "name": "Michigan Law Review",
+      "base_url": "https://michiganlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://michiganlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of chicago law review": {
+      "name": "University of Chicago Law Review",
+      "base_url": "https://lawreview.uchicago.edu",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://lawreview.uchicago.edu/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "virginia law review": {
+      "name": "Virginia Law Review",
+      "base_url": "https://www.virginialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.virginialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "duke law journal": {
+      "name": "Duke Law Journal",
+      "base_url": "https://dlj.law.duke.edu",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://dlj.law.duke.edu/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "new york university law review": {
+      "name": "New York University Law Review",
+      "base_url": "https://www.nyulawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/issues/{volume}/{issue}/{slug}/",
+          "requires": [
+            "volume",
+            "issue",
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/vol-{volume}/{slug}/",
+          "requires": [
+            "volume",
+            "slug"
+          ],
+          "priority": 2
+        },
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 3
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.nyulawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "vanderbilt law review": {
+      "name": "Vanderbilt Law Review",
+      "base_url": "https://scholarship.law.vanderbilt.edu/vlr",
+      "patterns": [
+        {
+          "type": "repository",
+          "template": "/vol{volume}/iss{issue}/{article_number}/",
+          "requires": [
+            "volume",
+            "issue",
+            "article_number"
+          ],
+          "priority": 1
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.vanderbilt.edu/vlr/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "iowa law review": {
+      "name": "Iowa Law Review",
+      "base_url": "https://ilr.law.uiowa.edu",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://ilr.law.uiowa.edu/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "boston university law review": {
+      "name": "Boston University Law Review",
+      "base_url": "https://www.bu.edu/bulawreview/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.boston.edu/bostonuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "minnesota law review": {
+      "name": "Minnesota Law Review",
+      "base_url": "https://www.minnesotalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.minnesotalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "georgetown law journal": {
+      "name": "Georgetown Law Journal",
+      "base_url": "https://www.law.georgetown.edu/georgetown-law-journal",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/vol-{volume}/{slug}/",
+          "requires": [
+            "volume",
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.law.georgetown.edu/georgetown-law-journal/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "northwestern university law review": {
+      "name": "Northwestern University Law Review",
+      "base_url": "https://northwesternlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://northwesternlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "texas law review": {
+      "name": "Texas Law Review",
+      "base_url": "https://texaslawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://texaslawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "fordham law review": {
+      "name": "Fordham Law Review",
+      "base_url": "https://www.fordhamlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.fordhamlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "ucla law review": {
+      "name": "UCLA Law Review",
+      "base_url": "https://www.uclalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.uclalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "boston college law review": {
+      "name": "Boston College Law Review",
+      "base_url": "https://bclawreview.bc.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.bostoncollegelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "uc davis law review": {
+      "name": "UC Davis Law Review",
+      "base_url": "https://lawreview.law.ucdavis.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.ucdavislawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "washington university law review": {
+      "name": "Washington University Law Review",
+      "base_url": "https://wustllawreview.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.washington.edu/washingtonuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "harvard law review forum": {
+      "name": "Harvard Law Review Forum",
+      "base_url": "https://www.harvardlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.harvardlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "yale law journal forum": {
+      "name": "Yale Law Journal Forum",
+      "base_url": "https://www.yalelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.yalelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "notre dame law review": {
+      "name": "Notre Dame Law Review",
+      "base_url": "https://www.notredamelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.notredamelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "indiana law journal": {
+      "name": "Indiana Law Journal",
+      "base_url": "https://www.indianalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.indianalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "southern california law review": {
+      "name": "Southern California Law Review",
+      "base_url": "https://www.southerncalifornialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.southerncalifornialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "george washington law review": {
+      "name": "George Washington Law Review",
+      "base_url": "https://www.georgewashingtonlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.georgewashingtonlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of illinois law review": {
+      "name": "University of Illinois Law Review",
+      "base_url": "https://scholarship.law.illinois.edu/illinois_law_review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.illinois.edu/illinois_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "florida law review": {
+      "name": "Florida Law Review",
+      "base_url": "https://www.floridalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.floridalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "washington law review": {
+      "name": "Washington Law Review",
+      "base_url": "https://www.washingtonlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.washingtonlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "wisconsin law review": {
+      "name": "Wisconsin Law Review",
+      "base_url": "https://www.wisconsinlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.wisconsinlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "william & mary law review": {
+      "name": "William & Mary Law Review",
+      "base_url": "https://wmlawreview.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.williammarylawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "north carolina law review": {
+      "name": "North Carolina Law Review",
+      "base_url": "https://www.northcarolinalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.northcarolinalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "cardozo law review": {
+      "name": "Cardozo Law Review",
+      "base_url": "https://www.cardozolawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.cardozolawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "ohio state law journal": {
+      "name": "Ohio State Law Journal",
+      "base_url": "https://moritzlaw.osu.edu/oslj-ohio-state-law-journal",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.ohiostatelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "u.c. irvine law review": {
+      "name": "U.C. Irvine Law Review",
+      "base_url": "https://www.ucirvinelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.ucirvinelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "emory law journal": {
+      "name": "Emory Law Journal",
+      "base_url": "https://www.emorylawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.emorylawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "uc law journal": {
+      "name": "UC Law Journal",
+      "base_url": "https://www.uclawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.uclawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "georgia law review": {
+      "name": "Georgia Law Review",
+      "base_url": "https://www.georgialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.georgialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "alabama law review": {
+      "name": "Alabama Law Review",
+      "base_url": "https://www.alabamalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.alabamalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "arizona law review": {
+      "name": "Arizona Law Review",
+      "base_url": "https://www.arizonalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.arizonalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "utah law review": {
+      "name": "Utah Law Review",
+      "base_url": "https://www.utahlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.utahlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "american university law review": {
+      "name": "American University Law Review",
+      "base_url": "https://aulawreview.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.american.edu/americanuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "lewis & clark law review": {
+      "name": "Lewis & Clark Law Review",
+      "base_url": "https://law.lclark.edu/law_reviews/lewis_and_clark_law_review/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.lewisclarklawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "stanford law review online": {
+      "name": "Stanford Law Review Online",
+      "base_url": "https://www.stanfordlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.stanfordlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "connecticut law review": {
+      "name": "Connecticut Law Review",
+      "base_url": "https://www.connecticutlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.connecticutlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "maryland law review": {
+      "name": "Maryland Law Review",
+      "base_url": "https://www.marylandlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.marylandlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "washington and lee law review": {
+      "name": "Washington and Lee Law Review",
+      "base_url": "https://lawreview.wlulaw.wlu.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.washingtonandleelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "virginia law review online": {
+      "name": "Virginia Law Review Online",
+      "base_url": "https://www.virginialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.virginialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of pennsylvania law review online": {
+      "name": "University of Pennsylvania Law Review Online",
+      "base_url": "https://scholarship.law.pennsylvania.edu/pennsylvania_law_review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.pennsylvania.edu/pennsylvania_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "buffalo law review": {
+      "name": "Buffalo Law Review",
+      "base_url": "https://www.buffalolawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.buffalolawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "wake forest law review": {
+      "name": "Wake Forest Law Review",
+      "base_url": "https://www.wakeforestlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.wakeforestlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "houston law review": {
+      "name": "Houston Law Review",
+      "base_url": "https://www.houstonlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.houstonlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "smu law review": {
+      "name": "SMU Law Review",
+      "base_url": "https://www.smulawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.smulawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "arizona state law journal": {
+      "name": "Arizona State Law Journal",
+      "base_url": "https://arizonastatelawjournal.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.arizonastatelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "georgetown law journal online": {
+      "name": "Georgetown Law Journal Online",
+      "base_url": "https://www.law.georgetown.edu/georgetown-law-journal/submit/glj-online/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.georgetownlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of colorado law review": {
+      "name": "University of Colorado Law Review",
+      "base_url": "https://lawreview.colorado.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.colorado.edu/colorado_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of chicago law review online": {
+      "name": "University of Chicago Law Review Online",
+      "base_url": "https://scholarship.law.chicago.edu/chicago_law_review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.chicago.edu/chicago_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "brooklyn law review": {
+      "name": "Brooklyn Law Review",
+      "base_url": "https://www.brooklynlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.brooklynlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "nevada law journal": {
+      "name": "Nevada Law Journal",
+      "base_url": "https://law.unlv.edu/nevada-law-journal",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.nevadalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "brigham young university law review": {
+      "name": "Brigham Young University Law Review",
+      "base_url": "https://digitalcommons.law.byu.edu/lawreview/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.brighamyoung.edu/brighamyounguniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "seton hall law review": {
+      "name": "Seton Hall Law Review",
+      "base_url": "https://www.setonhalllawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.setonhalllawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "new york university law review online": {
+      "name": "New York University Law Review Online",
+      "base_url": "https://scholarship.law.newyork.edu/newyorkuniversity_law_review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.newyork.edu/newyorkuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "michigan state law review": {
+      "name": "Michigan State Law Review",
+      "base_url": "https://www.michiganstatelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.michiganstatelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "tulane law review": {
+      "name": "Tulane Law Review",
+      "base_url": "https://www.tulanelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.tulanelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "villanova law review": {
+      "name": "Villanova Law Review",
+      "base_url": "https://www.villanovalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.villanovalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "ucla law review discourse": {
+      "name": "UCLA Law Review Discourse",
+      "base_url": "https://www.uclalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.uclalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of richmond law review": {
+      "name": "University of Richmond Law Review",
+      "base_url": "https://scholarship.law.richmond.edu/richmond_law_review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.richmond.edu/richmond_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "oklahoma law review": {
+      "name": "Oklahoma Law Review",
+      "base_url": "https://www.oklahomalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.oklahomalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "duke law journal online": {
+      "name": "Duke Law Journal Online",
+      "base_url": "https://dlj.law.duke.edu/dljonline/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.dukelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "california law review online": {
+      "name": "California Law Review Online",
+      "base_url": "https://www.californialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.californialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "denver law review": {
+      "name": "Denver Law Review",
+      "base_url": "https://www.denverlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.denverlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "marquette law review": {
+      "name": "Marquette Law Review",
+      "base_url": "https://www.marquettelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.marquettelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "george mason law review": {
+      "name": "George Mason Law Review",
+      "base_url": "https://www.georgemasonlawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.georgemasonlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "city university of new york (cuny) law review": {
+      "name": "City University of New York (CUNY) Law Review",
+      "base_url": "https://www.cunylawreview.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.citynewyorkcuny.edu/citynewyorkcuny_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "depaul law review": {
+      "name": "DePaul Law Review",
+      "base_url": "https://www.depaullawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.depaullawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "temple law review": {
+      "name": "Temple Law Review",
+      "base_url": "https://www.templelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.templelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "minnesota law review headnotes": {
+      "name": "Minnesota Law Review Headnotes",
+      "base_url": "https://www.minnesotalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.minnesotalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "columbia law review forum": {
+      "name": "Columbia Law Review Forum",
+      "base_url": "https://www.columbialawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.columbialawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "northwestern university law review online": {
+      "name": "Northwestern University Law Review Online",
+      "base_url": "https://northwesternlawreview.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.northwestern.edu/northwesternuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "loyola law review": {
+      "name": "Loyola Law Review",
+      "base_url": "https://www.loyolalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.loyolalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "penn state law review": {
+      "name": "Penn State Law Review",
+      "base_url": "https://www.pennstatelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.pennstatelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "texas a&m law review": {
+      "name": "Texas A&M Law Review",
+      "base_url": "https://scholarship.law.tamu.edu/lawreview/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.texasamlawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "south carolina law review": {
+      "name": "South Carolina Law Review",
+      "base_url": "https://www.southcarolinalawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.southcarolinalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "tennessee law review": {
+      "name": "Tennessee Law Review",
+      "base_url": "https://www.tennesseelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.tennesseelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "pepperdine law review": {
+      "name": "Pepperdine Law Review",
+      "base_url": "https://www.pepperdinelawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.pepperdinelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "syracuse law review": {
+      "name": "Syracuse Law Review",
+      "base_url": "https://www.syracuselawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.syracuselawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "loyola university chicago law journal": {
+      "name": "Loyola University Chicago Law Journal",
+      "base_url": "https://www.luc.edu/law/academics/journals-publications/loyolalawjournal/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.loyolachicago.edu/loyolauniversitychicago_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "nebraska law review": {
+      "name": "Nebraska Law Review",
+      "base_url": "https://lawreview.unl.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.nebraskalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "hofstra law review": {
+      "name": "Hofstra Law Review",
+      "base_url": "https://www.hofstralawreview.org",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.hofstralawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "saint louis university law journal": {
+      "name": "Saint Louis University Law Journal",
+      "base_url": "https://www.slu.edu/law/law-journal/index.php",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.saintlouis.edu/saintlouisuniversity_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "missouri law review": {
+      "name": "Missouri Law Review",
+      "base_url": "https://lawreview.missouri.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.missourilawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "st. john's law review": {
+      "name": "St. John's Law Review",
+      "base_url": "https://www.stjohns.edu/law/academics/co-curricular-programs/st-johns-law-review",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.stjohnslawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "university of cincinnati law review": {
+      "name": "University of Cincinnati Law Review",
+      "base_url": "https://scholarship.law.uc.edu/uclr/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://scholarship.law.cincinnati.edu/cincinnati_law_review/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "cleveland state law review": {
+      "name": "Cleveland State Law Review",
+      "base_url": "https://www.clevstlrev.org/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.clevelandstatelawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "louisiana law review": {
+      "name": "Louisiana Law Review",
+      "base_url": "https://lawreview.law.lsu.edu/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.louisianalawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    },
+    "cornell law review online": {
+      "name": "Cornell Law Review Online",
+      "base_url": "https://publications.lawschool.cornell.edu/lawreview/cornell-law-review-online/",
+      "patterns": [
+        {
+          "type": "direct_url",
+          "template": "/articles/{slug}/",
+          "requires": [
+            "slug"
+          ],
+          "priority": 1
+        },
+        {
+          "type": "direct_url",
+          "template": "/article/{slug}",
+          "requires": [
+            "slug"
+          ],
+          "priority": 2
+        }
+      ],
+      "search": {
+        "enabled": true,
+        "url": "https://www.cornelllawreview.org/search",
+        "query_param": "q",
+        "method": "GET"
+      },
+      "download_variants": [
+        ".pdf",
+        "/pdf",
+        "/download/pdf",
+        ".epub"
+      ]
+    }
+  }
+}
