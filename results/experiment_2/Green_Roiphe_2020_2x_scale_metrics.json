@@ -1,0 +1,32 @@
+{
+  "document_name": "Green_Roiphe_2020.pdf",
+  "file_size_mb": 2.98,
+  "config_name": "2x_scale",
+  "images_scale": 2.0,
+  "model_spec": "default",
+  "single_column_fallback": false,
+  "processing_time_seconds": 66.96,
+  "processing_time_minutes": 1.12,
+  "page_count": 51,
+  "label_counts": {
+    "picture": 3,
+    "section_header": 26,
+    "text": 161,
+    "list_item": 2,
+    "footnote": 229,
+    "document_index": 1
+  },
+  "total_items": 422,
+  "total_words": 21071,
+  "body_words": 13807,
+  "footnote_words": 7264,
+  "removed_words": 7264,
+  "removal_percentage": 34.47,
+  "citations_caught_by_heuristic": 0,
+  "high_density_paragraphs": 0,
+  "hyphenation_artifacts_total": 2,
+  "hyphenation_artifacts_body": 2,
+  "all_text_chars": 156331,
+  "body_text_chars": 100373,
+  "footnote_text_chars": 55956
+}
