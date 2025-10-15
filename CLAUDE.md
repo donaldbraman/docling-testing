@@ -56,11 +56,32 @@ All scripts are organized in `scripts/` subdirectories by purpose:
 
 - **Always use feature branches** - No direct commits to master
 - **Link changes to issues** - Create detailed GitHub issues before implementing
+- **Run tests before committing** - `pytest` or `pytest -v` for detailed output
 - **Test with real PDFs** - Use law review PDFs from data/raw_pdf/
 - **Version models** - Include metadata in label_map.json (model_name, version, base_model)
 - **Document metrics** - Record F1, recall, precision for all models
 - **Validate models** - Run `python scripts/utilities/validate_model_metadata.py` before deployment
 - **GitHub labels** - See `~/.claude/guides/github-labels.md` for label auto-generation guidance
+
+### Testing
+
+Run tests with pytest:
+```bash
+# Run all fast tests (excludes slow model loading tests)
+pytest -m "not slow"
+
+# Run all tests including slow ones
+pytest
+
+# Run with verbose output
+pytest -v
+
+# Run specific test file
+pytest tests/test_models.py
+
+# Run with coverage report
+pytest --cov=scripts --cov-report=html
+```
 
 ---
 
