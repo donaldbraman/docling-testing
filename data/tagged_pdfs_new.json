@@ -1,0 +1,546 @@
+[
+  {
+    "file": "boston_college_law_review_Untitled.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 25.1.97",
+    "creator": "Acrobat PDFMaker 25 for Word",
+    "pages": 20,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/boston_college_law_review_Untitled.pdf"
+  },
+  {
+    "file": "california_law_review_Lovings_Borders.pdf",
+    "tagged": true,
+    "producer": "Unknown",
+    "creator": "Microsoft Word",
+    "pages": 20,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/california_law_review_Lovings_Borders.pdf"
+  },
+  {
+    "file": "columbia_new_outlawry.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Acrobat PDFMaker 15 for Word",
+    "pages": 74,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/columbia_new_outlawry.pdf"
+  },
+  {
+    "file": "cornell_against_prosecutors.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent pdfHarmony 2.0",
+    "pages": 50,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_against_prosecutors.pdf"
+  },
+  {
+    "file": "cornell_antitrust_workers.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent pdfHarmony 2.0",
+    "pages": 53,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_antitrust_workers.pdf"
+  },
+  {
+    "file": "cornell_chevron_construction.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent pdfHarmony 2.0",
+    "pages": 24,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_chevron_construction.pdf"
+  },
+  {
+    "file": "cornell_corporate_privacy_proxy.pdf",
+    "tagged": true,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 40,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_corporate_privacy_proxy.pdf"
+  },
+  {
+    "file": "cornell_equity_punishment.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 72,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_equity_punishment.pdf"
+  },
+  {
+    "file": "cornell_frand_antitrust.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 63,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_frand_antitrust.pdf"
+  },
+  {
+    "file": "cornell_legitimate_interpretation.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent pdfHarmony 2.0",
+    "pages": 70,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_legitimate_interpretation.pdf"
+  },
+  {
+    "file": "cornell_mdl_as_category.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 47,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_mdl_as_category.pdf"
+  },
+  {
+    "file": "cornell_scalia_legislative_history.pdf",
+    "tagged": true,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 70,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_scalia_legislative_history.pdf"
+  },
+  {
+    "file": "cornell_tort_private_administration.pdf",
+    "tagged": true,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "creator": "Appligent pdfHarmony 2.0",
+    "pages": 79,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/cornell_tort_private_administration.pdf"
+  },
+  {
+    "file": "georgetown_capers_afrofuturism_manifesto.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 23,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_capers_afrofuturism_manifesto.pdf"
+  },
+  {
+    "file": "georgetown_garcia_selective_enforcement.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 58,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_garcia_selective_enforcement.pdf"
+  },
+  {
+    "file": "georgetown_hall_areheart_bias_presumption.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 37,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_hall_areheart_bias_presumption.pdf"
+  },
+  {
+    "file": "georgetown_heydari_sheriffs_constitution.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 66,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_heydari_sheriffs_constitution.pdf"
+  },
+  {
+    "file": "georgetown_kagan_asylum_procedures.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 40,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_kagan_asylum_procedures.pdf"
+  },
+  {
+    "file": "georgetown_kim_taxing_metaverse.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 53,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_kim_taxing_metaverse.pdf"
+  },
+  {
+    "file": "georgetown_kwoka_information_commission.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 53,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_kwoka_information_commission.pdf"
+  },
+  {
+    "file": "georgetown_law_journal_a_faster_way_to_yes.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 40,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_law_journal_a_faster_way_to_yes.pdf"
+  },
+  {
+    "file": "georgetown_law_journal_renters_tax_credits.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 58,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_law_journal_renters_tax_credits.pdf"
+  },
+  {
+    "file": "georgetown_law_journal_selective_enforcement.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 58,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_law_journal_selective_enforcement.pdf"
+  },
+  {
+    "file": "georgetown_law_journal_the_new_sexual_deviancy.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 90,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_law_journal_the_new_sexual_deviancy.pdf"
+  },
+  {
+    "file": "georgetown_law_journal_the_sheriffs_constitution.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 66,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_law_journal_the_sheriffs_constitution.pdf"
+  },
+  {
+    "file": "georgetown_layser_renters_tax_credits.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 58,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_layser_renters_tax_credits.pdf"
+  },
+  {
+    "file": "georgetown_takhshid_data_likeness.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 44,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_takhshid_data_likeness.pdf"
+  },
+  {
+    "file": "georgetown_woods_sexual_deviancy.pdf",
+    "tagged": true,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "creator": "PTC Arbortext Advanced Print Publisher 11.1.4012/W",
+    "pages": 90,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_woods_sexual_deviancy.pdf"
+  },
+  {
+    "file": "michigan_law_review_beyond_profit_motives.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 5,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_beyond_profit_motives.pdf"
+  },
+  {
+    "file": "michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 33,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law.pdf"
+  },
+  {
+    "file": "michigan_law_review_consumerist_waste_looking_beyond_repair.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 8,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_consumerist_waste_looking_beyond_repair.pdf"
+  },
+  {
+    "file": "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 29,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.pdf"
+  },
+  {
+    "file": "michigan_law_review_law_enforcement_privilege.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 59,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_law_enforcement_privilege.pdf"
+  },
+  {
+    "file": "michigan_law_review_of_might_and_men.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 5,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_of_might_and_men.pdf"
+  },
+  {
+    "file": "michigan_law_review_on_the_genealogy_of_intimate_digital_harm.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 5,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_on_the_genealogy_of_intimate_digital_harm.pdf"
+  },
+  {
+    "file": "michigan_law_review_orders_without_law.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 18,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_orders_without_law.pdf"
+  },
+  {
+    "file": "michigan_law_review_original_public_meaning_and_pregnancys_ambiguities.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 16,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_original_public_meaning_and_pregnancys_ambiguities.pdf"
+  },
+  {
+    "file": "michigan_law_review_revocation_at_the_founding.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 62,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_revocation_at_the_founding.pdf"
+  },
+  {
+    "file": "michigan_law_review_spending_clause_standing.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 39,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_spending_clause_standing.pdf"
+  },
+  {
+    "file": "michigan_law_review_the_shadow_of_the_law_of_the_police.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 4,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_the_shadow_of_the_law_of_the_police.pdf"
+  },
+  {
+    "file": "michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources.pdf",
+    "tagged": true,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 69,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources.pdf"
+  },
+  {
+    "file": "michigan_law_review_what_is_a_prison.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 26,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_what_is_a_prison.pdf"
+  },
+  {
+    "file": "michigan_law_review_wrongs_to_us.pdf",
+    "tagged": true,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "creator": "Appligent AppendPDF Pro 6.3",
+    "pages": 5,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/michigan_law_review_wrongs_to_us.pdf"
+  },
+  {
+    "file": "nyu_american_law_global_conflict.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 81,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_american_law_global_conflict.pdf"
+  },
+  {
+    "file": "nyu_being_nuisance.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 86,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_being_nuisance.pdf"
+  },
+  {
+    "file": "nyu_constitutional_consequences.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 79,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_constitutional_consequences.pdf"
+  },
+  {
+    "file": "nyu_first_black_jurors.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 63,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_first_black_jurors.pdf"
+  },
+  {
+    "file": "nyu_generative_interpretation.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 64,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_generative_interpretation.pdf"
+  },
+  {
+    "file": "nyu_intellectual_property_labor.pdf",
+    "tagged": true,
+    "producer": "Adobe Acrobat Pro 10.1.16",
+    "creator": "Adobe Acrobat Pro 10.1.16",
+    "pages": 61,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_intellectual_property_labor.pdf"
+  },
+  {
+    "file": "nyu_labor_mobility_policing.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 74,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_labor_mobility_policing.pdf"
+  },
+  {
+    "file": "nyu_legislative_statutory_interpretation.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 95,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_legislative_statutory_interpretation.pdf"
+  },
+  {
+    "file": "nyu_second_look_resentencing.pdf",
+    "tagged": true,
+    "producer": "macOS Version 15.3.2 (Build 24D81) Quartz PDFConte",
+    "creator": "Adobe Acrobat Pro 10.1.16",
+    "pages": 61,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_second_look_resentencing.pdf"
+  },
+  {
+    "file": "nyu_small_agency_policing.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 15.0",
+    "creator": "Adobe InDesign CC 14.0 (Windows)",
+    "pages": 78,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/nyu_small_agency_policing.pdf"
+  },
+  {
+    "file": "texas_bracha_syed_ip_political_economy.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 27,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_bracha_syed_ip_political_economy.pdf"
+  },
+  {
+    "file": "texas_braver_somin_exclusionary_zoning.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 64,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_braver_somin_exclusionary_zoning.pdf"
+  },
+  {
+    "file": "texas_fallon_selective_originalism.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 84,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_fallon_selective_originalism.pdf"
+  },
+  {
+    "file": "texas_fan_big_data_searches.pdf",
+    "tagged": true,
+    "producer": "Unknown",
+    "creator": "Microsoft Word",
+    "pages": 60,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_fan_big_data_searches.pdf"
+  },
+  {
+    "file": "texas_farber_workarounds.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 62,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_farber_workarounds.pdf"
+  },
+  {
+    "file": "texas_ferguson_video_analytics.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 67,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_ferguson_video_analytics.pdf"
+  },
+  {
+    "file": "texas_fisch_schwartz_corporate_democracy.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 64,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_fisch_schwartz_corporate_democracy.pdf"
+  },
+  {
+    "file": "texas_hershkoff_beleaguered_sovereign.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 51,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_hershkoff_beleaguered_sovereign.pdf"
+  },
+  {
+    "file": "texas_pfander_judicial_review.pdf",
+    "tagged": true,
+    "producer": "Unknown",
+    "creator": "Microsoft Word",
+    "pages": 39,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_pfander_judicial_review.pdf"
+  },
+  {
+    "file": "texas_zick_second_amendment.pdf",
+    "tagged": true,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "pages": 58,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/texas_zick_second_amendment.pdf"
+  },
+  {
+    "file": "ucla_administrative_statutory_revisionism.pdf",
+    "tagged": true,
+    "producer": "Adobe Acrobat Pro DC 15.6.30452",
+    "creator": "Adobe Acrobat Pro DC 15.6.30452",
+    "pages": 21,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/ucla_administrative_statutory_revisionism.pdf"
+  },
+  {
+    "file": "ucla_social_movements_in_american_legal_theory.pdf",
+    "tagged": true,
+    "producer": "Adobe Acrobat Pro 11.0.3",
+    "creator": "Adobe Acrobat Pro 11.0.3",
+    "pages": 106,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/ucla_social_movements_in_american_legal_theory.pdf"
+  },
+  {
+    "file": "ucla_the_freedom_of_speech_and_bad_purposes.pdf",
+    "tagged": true,
+    "producer": "Adobe Acrobat Pro 11.0.3",
+    "creator": "Adobe Acrobat Pro 11.0.3",
+    "pages": 56,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/ucla_the_freedom_of_speech_and_bad_purposes.pdf"
+  },
+  {
+    "file": "ucla_third_party_security_measures_and_cybersecurity.pdf",
+    "tagged": true,
+    "producer": "Adobe Acrobat Pro DC 15.6.30505",
+    "creator": "Adobe Acrobat Pro DC 15.6.30505",
+    "pages": 47,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/ucla_third_party_security_measures_and_cybersecurity.pdf"
+  },
+  {
+    "file": "virginia_law_review_editing_classic_books_a_threat_to_the_public_domain.pdf",
+    "tagged": true,
+    "producer": "Adobe PDF Library 23.8.234",
+    "creator": "Acrobat PDFMaker 23 for Word",
+    "pages": 19,
+    "path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/virginia_law_review_editing_classic_books_a_threat_to_the_public_domain.pdf"
+  }
+]

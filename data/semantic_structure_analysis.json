@@ -1,0 +1,1016 @@
+{
+  "total_pdfs": 68,
+  "all_types": {
+    "/Document": 41,
+    "/Sect": 18,
+    "/P": 8287,
+    "/H1": 123,
+    "/Link": 5212,
+    "/Footnote": 2258,
+    "/Reference": 677,
+    "/H2": 239,
+    "/Span": 17890,
+    "/TOC": 132,
+    "/TOCI": 611,
+    "/H3": 221,
+    "/L": 46,
+    "/LI": 91,
+    "/LBody": 91,
+    "/Figure": 31,
+    "/Part": 687,
+    "/H4": 131,
+    "/Lbl": 63,
+    "/Table": 2,
+    "/THead": 2,
+    "/TR": 9,
+    "/TH": 12,
+    "/TBody": 2,
+    "/TD": 9,
+    "/H5": 36
+  },
+  "per_pdf_results": [
+    {
+      "file": "boston_college_law_review_Untitled.pdf",
+      "pages": 20,
+      "struct_types": {
+        "/Document": 1,
+        "/Sect": 1,
+        "/P": 139,
+        "/H1": 5,
+        "/Link": 66,
+        "/Footnote": 20,
+        "/Reference": 55,
+        "/H2": 7
+      }
+    },
+    {
+      "file": "california_law_review_Lovings_Borders.pdf",
+      "pages": 20,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 181,
+        "/Link": 144,
+        "/Span": 186,
+        "/Footnote": 121,
+        "/TOC": 1,
+        "/TOCI": 9,
+        "/H1": 7
+      }
+    },
+    {
+      "file": "columbia_new_outlawry.pdf",
+      "pages": 74,
+      "struct_types": {
+        "/Sect": 1,
+        "/P": 642,
+        "/Link": 352,
+        "/Footnote": 72,
+        "/TOC": 2,
+        "/TOCI": 23,
+        "/Reference": 200,
+        "/H1": 4,
+        "/H2": 7,
+        "/Span": 2,
+        "/H3": 9
+      }
+    },
+    {
+      "file": "cornell_against_prosecutors.pdf",
+      "pages": 50,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_antitrust_workers.pdf",
+      "pages": 53,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 2,
+        "/LBody": 2,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_chevron_construction.pdf",
+      "pages": 24,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 2,
+        "/LBody": 2,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_corporate_privacy_proxy.pdf",
+      "pages": 40,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/Span": 6,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_equity_punishment.pdf",
+      "pages": 72,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_frand_antitrust.pdf",
+      "pages": 63,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_legitimate_interpretation.pdf",
+      "pages": 70,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_mdl_as_category.pdf",
+      "pages": 47,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_scalia_legislative_history.pdf",
+      "pages": 70,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 8,
+        "/Span": 8,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 2,
+        "/LBody": 2,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "cornell_tort_private_administration.pdf",
+      "pages": 79,
+      "struct_types": {
+        "/P": 6,
+        "/Link": 7,
+        "/Span": 8,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 2,
+        "/LBody": 2,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "georgetown_capers_afrofuturism_manifesto.pdf",
+      "pages": 23,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 62,
+        "/Span": 484,
+        "/H2": 10,
+        "/TOC": 1,
+        "/TOCI": 9,
+        "/Reference": 9,
+        "/Link": 54
+      }
+    },
+    {
+      "file": "georgetown_garcia_selective_enforcement.pdf",
+      "pages": 58,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 142,
+        "/Span": 1004,
+        "/H2": 8,
+        "/TOC": 11,
+        "/TOCI": 36,
+        "/Reference": 36,
+        "/Link": 116,
+        "/H3": 15,
+        "/H4": 14
+      }
+    },
+    {
+      "file": "georgetown_hall_areheart_bias_presumption.pdf",
+      "pages": 37,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 104,
+        "/Span": 532,
+        "/H2": 8,
+        "/TOC": 7,
+        "/TOCI": 25,
+        "/Reference": 25,
+        "/Link": 51,
+        "/H3": 12,
+        "/H4": 6,
+        "/L": 6,
+        "/LI": 16,
+        "/Lbl": 16,
+        "/LBody": 16
+      }
+    },
+    {
+      "file": "georgetown_heydari_sheriffs_constitution.pdf",
+      "pages": 66,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 152,
+        "/Span": 1059,
+        "/H2": 7,
+        "/TOC": 7,
+        "/TOCI": 28,
+        "/Reference": 28,
+        "/Link": 127,
+        "/H3": 14,
+        "/H4": 8,
+        "/L": 1,
+        "/LI": 5,
+        "/Lbl": 5,
+        "/LBody": 5
+      }
+    },
+    {
+      "file": "georgetown_kagan_asylum_procedures.pdf",
+      "pages": 40,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 114,
+        "/Span": 719,
+        "/H2": 7,
+        "/TOC": 3,
+        "/TOCI": 13,
+        "/Reference": 13,
+        "/Link": 80,
+        "/H3": 7,
+        "/L": 2,
+        "/LI": 7,
+        "/LBody": 7,
+        "/Lbl": 4
+      }
+    },
+    {
+      "file": "georgetown_kim_taxing_metaverse.pdf",
+      "pages": 53,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 145,
+        "/Span": 911,
+        "/H2": 8,
+        "/TOC": 5,
+        "/TOCI": 34,
+        "/Reference": 37,
+        "/Link": 147,
+        "/H3": 13,
+        "/H4": 14,
+        "/Table": 2,
+        "/THead": 2,
+        "/TR": 9,
+        "/TH": 12,
+        "/TBody": 2,
+        "/TD": 9,
+        "/Figure": 1
+      }
+    },
+    {
+      "file": "georgetown_kwoka_information_commission.pdf",
+      "pages": 53,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 150,
+        "/Span": 918,
+        "/H2": 7,
+        "/TOC": 5,
+        "/TOCI": 17,
+        "/Reference": 17,
+        "/Link": 101,
+        "/H3": 11
+      }
+    },
+    {
+      "file": "georgetown_law_journal_a_faster_way_to_yes.pdf",
+      "pages": 40,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 114,
+        "/Span": 719,
+        "/H2": 7,
+        "/TOC": 3,
+        "/TOCI": 13,
+        "/Reference": 13,
+        "/Link": 80,
+        "/H3": 7,
+        "/L": 2,
+        "/LI": 7,
+        "/LBody": 7,
+        "/Lbl": 4
+      }
+    },
+    {
+      "file": "georgetown_law_journal_renters_tax_credits.pdf",
+      "pages": 58,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 150,
+        "/Span": 936,
+        "/H2": 7,
+        "/TOC": 15,
+        "/TOCI": 32,
+        "/Reference": 32,
+        "/Link": 63,
+        "/H3": 9,
+        "/H4": 17,
+        "/H5": 9,
+        "/Figure": 1
+      }
+    },
+    {
+      "file": "georgetown_law_journal_selective_enforcement.pdf",
+      "pages": 58,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 142,
+        "/Span": 1004,
+        "/H2": 8,
+        "/TOC": 11,
+        "/TOCI": 36,
+        "/Reference": 36,
+        "/Link": 116,
+        "/H3": 15,
+        "/H4": 14
+      }
+    },
+    {
+      "file": "georgetown_law_journal_the_new_sexual_deviancy.pdf",
+      "pages": 90,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 2,
+        "/P": 249,
+        "/Span": 1598,
+        "/H2": 9,
+        "/TOC": 14,
+        "/TOCI": 44,
+        "/Reference": 44,
+        "/Link": 156,
+        "/H3": 22,
+        "/H4": 14,
+        "/H5": 9
+      }
+    },
+    {
+      "file": "georgetown_law_journal_the_sheriffs_constitution.pdf",
+      "pages": 66,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 152,
+        "/Span": 1059,
+        "/H2": 7,
+        "/TOC": 7,
+        "/TOCI": 28,
+        "/Reference": 28,
+        "/Link": 127,
+        "/H3": 14,
+        "/H4": 8,
+        "/L": 1,
+        "/LI": 5,
+        "/Lbl": 5,
+        "/LBody": 5
+      }
+    },
+    {
+      "file": "georgetown_layser_renters_tax_credits.pdf",
+      "pages": 58,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 150,
+        "/Span": 936,
+        "/H2": 7,
+        "/TOC": 15,
+        "/TOCI": 32,
+        "/Reference": 32,
+        "/Link": 63,
+        "/H3": 9,
+        "/H4": 17,
+        "/H5": 9,
+        "/Figure": 1
+      }
+    },
+    {
+      "file": "georgetown_takhshid_data_likeness.pdf",
+      "pages": 44,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 132,
+        "/Span": 756,
+        "/H2": 6,
+        "/TOC": 2,
+        "/TOCI": 10,
+        "/Reference": 10,
+        "/Link": 59,
+        "/L": 3,
+        "/LI": 10,
+        "/Lbl": 10,
+        "/LBody": 10,
+        "/H3": 5
+      }
+    },
+    {
+      "file": "georgetown_woods_sexual_deviancy.pdf",
+      "pages": 90,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 1,
+        "/Sect": 1,
+        "/H1": 2,
+        "/P": 249,
+        "/Span": 1598,
+        "/H2": 9,
+        "/TOC": 14,
+        "/TOCI": 44,
+        "/Reference": 44,
+        "/Link": 156,
+        "/H3": 22,
+        "/H4": 14,
+        "/H5": 9
+      }
+    },
+    {
+      "file": "michigan_law_review_beyond_profit_motives.pdf",
+      "pages": 5,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law.pdf",
+      "pages": 33,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_consumerist_waste_looking_beyond_repair.pdf",
+      "pages": 8,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.pdf",
+      "pages": 29,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 9,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_law_enforcement_privilege.pdf",
+      "pages": 59,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_of_might_and_men.pdf",
+      "pages": 5,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 8,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_on_the_genealogy_of_intimate_digital_harm.pdf",
+      "pages": 5,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 9,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_orders_without_law.pdf",
+      "pages": 18,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 8,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_original_public_meaning_and_pregnancys_ambiguities.pdf",
+      "pages": 16,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_revocation_at_the_founding.pdf",
+      "pages": 62,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_spending_clause_standing.pdf",
+      "pages": 39,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_the_shadow_of_the_law_of_the_police.pdf",
+      "pages": 4,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 9,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources.pdf",
+      "pages": 69,
+      "struct_types": {
+        "/P": 8,
+        "/Link": 9,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 1,
+        "/LBody": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_what_is_a_prison.pdf",
+      "pages": 26,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 10,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "michigan_law_review_wrongs_to_us.pdf",
+      "pages": 5,
+      "struct_types": {
+        "/P": 7,
+        "/Link": 7,
+        "/H1": 1,
+        "/L": 1,
+        "/Figure": 1,
+        "/H2": 1
+      }
+    },
+    {
+      "file": "nyu_american_law_global_conflict.pdf",
+      "pages": 81,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 82
+      }
+    },
+    {
+      "file": "nyu_being_nuisance.pdf",
+      "pages": 86,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 87
+      }
+    },
+    {
+      "file": "nyu_constitutional_consequences.pdf",
+      "pages": 79,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 80
+      }
+    },
+    {
+      "file": "nyu_first_black_jurors.pdf",
+      "pages": 63,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 64
+      }
+    },
+    {
+      "file": "nyu_generative_interpretation.pdf",
+      "pages": 64,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 65
+      }
+    },
+    {
+      "file": "nyu_intellectual_property_labor.pdf",
+      "pages": 61,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 61
+      }
+    },
+    {
+      "file": "nyu_labor_mobility_policing.pdf",
+      "pages": 74,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 75
+      }
+    },
+    {
+      "file": "nyu_legislative_statutory_interpretation.pdf",
+      "pages": 95,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 96
+      }
+    },
+    {
+      "file": "nyu_second_look_resentencing.pdf",
+      "pages": 61,
+      "struct_types": {
+        "/Document": 1,
+        "/Part": 62
+      }
+    },
+    {
+      "file": "nyu_small_agency_policing.pdf",
+      "pages": 78,
+      "struct_types": {}
+    },
+    {
+      "file": "texas_bracha_syed_ip_political_economy.pdf",
+      "pages": 27,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 174,
+        "/Link": 164,
+        "/Span": 220,
+        "/Footnote": 118,
+        "/H1": 5,
+        "/H2": 2
+      }
+    },
+    {
+      "file": "texas_braver_somin_exclusionary_zoning.pdf",
+      "pages": 64,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 599,
+        "/Link": 498,
+        "/Span": 518,
+        "/Footnote": 365,
+        "/TOC": 1,
+        "/TOCI": 14,
+        "/H1": 6,
+        "/H2": 6
+      }
+    },
+    {
+      "file": "texas_fallon_selective_originalism.pdf",
+      "pages": 84,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 617,
+        "/Footnote": 82,
+        "/TOC": 1,
+        "/TOCI": 39,
+        "/Span": 259,
+        "/Link": 222,
+        "/H1": 6,
+        "/H2": 21,
+        "/H3": 10,
+        "/L": 1,
+        "/LI": 4,
+        "/Lbl": 4,
+        "/LBody": 4
+      }
+    },
+    {
+      "file": "texas_fan_big_data_searches.pdf",
+      "pages": 60,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 649,
+        "/Footnote": 59,
+        "/H1": 12,
+        "/TOC": 1,
+        "/TOCI": 17,
+        "/Span": 174,
+        "/Link": 159,
+        "/Figure": 1,
+        "/H2": 6,
+        "/H3": 4
+      }
+    },
+    {
+      "file": "texas_farber_workarounds.pdf",
+      "pages": 62,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 394,
+        "/Link": 305,
+        "/Span": 371,
+        "/Footnote": 229,
+        "/TOC": 1,
+        "/TOCI": 21,
+        "/H1": 5,
+        "/H2": 6,
+        "/H3": 8
+      }
+    },
+    {
+      "file": "texas_ferguson_video_analytics.pdf",
+      "pages": 67,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 517,
+        "/Link": 487,
+        "/Span": 709,
+        "/Footnote": 345,
+        "/H1": 6,
+        "/TOC": 1,
+        "/TOCI": 24,
+        "/H2": 10,
+        "/H3": 9,
+        "/H4": 5
+      }
+    },
+    {
+      "file": "texas_fisch_schwartz_corporate_democracy.pdf",
+      "pages": 64,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 526,
+        "/Footnote": 63,
+        "/H1": 7,
+        "/TOC": 1,
+        "/TOCI": 17,
+        "/Span": 226,
+        "/Link": 209,
+        "/H2": 11
+      }
+    },
+    {
+      "file": "texas_hershkoff_beleaguered_sovereign.pdf",
+      "pages": 51,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 455,
+        "/Link": 389,
+        "/Span": 449,
+        "/Footnote": 317,
+        "/TOC": 1,
+        "/TOCI": 16,
+        "/H1": 5,
+        "/H2": 9
+      }
+    },
+    {
+      "file": "texas_pfander_judicial_review.pdf",
+      "pages": 39,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 351,
+        "/Footnote": 38,
+        "/H1": 6,
+        "/TOC": 1,
+        "/TOCI": 10,
+        "/Span": 67,
+        "/Link": 57,
+        "/H2": 5
+      }
+    },
+    {
+      "file": "texas_zick_second_amendment.pdf",
+      "pages": 58,
+      "struct_types": {
+        "/Document": 1,
+        "/P": 543,
+        "/Link": 413,
+        "/Span": 453,
+        "/Footnote": 353,
+        "/H1": 6,
+        "/TOC": 1,
+        "/TOCI": 20,
+        "/H2": 9,
+        "/H3": 6,
+        "/L": 5,
+        "/LI": 15,
+        "/Lbl": 15,
+        "/LBody": 15
+      }
+    },
+    {
+      "file": "ucla_administrative_statutory_revisionism.pdf",
+      "pages": 21,
+      "struct_types": {
+        "/Document": 1
+      }
+    },
+    {
+      "file": "ucla_social_movements_in_american_legal_theory.pdf",
+      "pages": 106,
+      "struct_types": {
+        "/Document": 1
+      }
+    },
+    {
+      "file": "ucla_the_freedom_of_speech_and_bad_purposes.pdf",
+      "pages": 56,
+      "struct_types": {
+        "/Document": 1
+      }
+    },
+    {
+      "file": "ucla_third_party_security_measures_and_cybersecurity.pdf",
+      "pages": 47,
+      "struct_types": {
+        "/Document": 1
+      }
+    },
+    {
+      "file": "virginia_law_review_editing_classic_books_a_threat_to_the_public_domain.pdf",
+      "pages": 19,
+      "struct_types": {
+        "/Document": 1,
+        "/Sect": 1,
+        "/H1": 1,
+        "/P": 122,
+        "/Link": 41,
+        "/Footnote": 76,
+        "/Reference": 18,
+        "/Span": 1,
+        "/Figure": 2
+      }
+    }
+  ]
+}

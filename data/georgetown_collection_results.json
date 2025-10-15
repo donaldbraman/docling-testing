@@ -1,0 +1,111 @@
+{
+  "journal": "Georgetown Law Journal",
+  "collection_date": "2025-10-14",
+  "successful_pairs": [
+    {
+      "slug": "georgetown_woods_sexual_deviancy",
+      "title": "The New Sexual Deviancy",
+      "author": "Jordan Blair Woods",
+      "volume": "113",
+      "issue": "5",
+      "year": "2025",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-5-may-2025/the-new-sexual-deviancy/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2025/07/Woods_The-New-Sexual-Deviancy.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_woods_sexual_deviancy.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_woods_sexual_deviancy.pdf"
+    },
+    {
+      "slug": "georgetown_kagan_asylum_procedures",
+      "title": "A Faster Way to Yes: Re-Balancing American Asylum Procedures",
+      "author": "Michael Kagan",
+      "volume": "113",
+      "issue": "5",
+      "year": "2025",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-5-may-2025/a-faster-way-to-yes-re-balancing-american-asylum-procedures/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2025/07/Kagan_A-FASTER-WAY-TO-YES-Re-Balancing-American-Asylum-Procedures.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_kagan_asylum_procedures.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_kagan_asylum_procedures.pdf"
+    },
+    {
+      "slug": "georgetown_heydari_sheriffs_constitution",
+      "title": "The Sheriff's Constitution",
+      "author": "Farhang Heydari",
+      "volume": "113",
+      "issue": "5",
+      "year": "2025",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-5-may-2025/the-sheriffs-constitution/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2025/07/Heydari_The-Sheriffs-Constitution.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_heydari_sheriffs_constitution.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_heydari_sheriffs_constitution.pdf"
+    },
+    {
+      "slug": "georgetown_layser_renters_tax_credits",
+      "title": "Renters' Tax Credits",
+      "author": "Michelle D. Layser",
+      "volume": "113",
+      "issue": "5",
+      "year": "2025",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-5-may-2025/renters-tax-credits/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2025/07/Layser_Renters-Tax-Credits.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_layser_renters_tax_credits.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_layser_renters_tax_credits.pdf"
+    },
+    {
+      "slug": "georgetown_garcia_selective_enforcement",
+      "title": "Selective Enforcement",
+      "author": "Kristelia Garc\u00eda",
+      "volume": "113",
+      "issue": "5",
+      "year": "2025",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-5-may-2025/selective-enforcement/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2025/07/Garcia_Selective-Enforcement.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_garcia_selective_enforcement.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_garcia_selective_enforcement.pdf"
+    },
+    {
+      "slug": "georgetown_capers_afrofuturism_manifesto",
+      "title": "Afrofuturism and the Law: A Manifesto",
+      "author": "I. Bennett Capers",
+      "volume": "112",
+      "issue": "6",
+      "year": "2024",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-112/volume-112-issue-6-june-2024/afrofuturism-and-the-law-a-manifesto/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2024/09/Capers_AManifesto.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_capers_afrofuturism_manifesto.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_capers_afrofuturism_manifesto.pdf"
+    },
+    {
+      "slug": "georgetown_kim_taxing_metaverse",
+      "title": "Taxing the Metaverse",
+      "author": "Young Ran (Christine) Kim",
+      "volume": "112",
+      "issue": "4",
+      "year": "2024",
+      "html_url": "https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-112/volume-112-issue-4-april-2024/taxing-the-metaverse/",
+      "pdf_url": "https://www.law.georgetown.edu/georgetown-law-journal/wp-content/uploads/sites/26/2024/08/Kim_Taxing.pdf",
+      "html_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/georgetown_kim_taxing_metaverse.html",
+      "pdf_file": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/georgetown_kim_taxing_metaverse.pdf"
+    }
+  ],
+  "failed_pairs": [
+    {
+      "slug": "georgetown_kwoka_information_commission",
+      "title": "An Information Commission",
+      "html_success": true,
+      "pdf_success": false
+    },
+    {
+      "slug": "georgetown_hall_areheart_bias_presumption",
+      "title": "The Bias Presumption",
+      "html_success": true,
+      "pdf_success": false
+    },
+    {
+      "slug": "georgetown_takhshid_data_likeness",
+      "title": "Data as Likeness",
+      "html_success": true,
+      "pdf_success": false
+    }
+  ],
+  "total_attempted": 10
+}
