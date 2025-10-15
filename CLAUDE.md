@@ -11,13 +11,13 @@
 - Location: `models/doclingbert-v2-rebalanced/final_model/`
 
 **Core Training Scripts:**
-- train_multiclass_classifier.py - 7-class DoclingBERT training
-- train_rebalanced.py - Rebalanced weights for recall optimization
-- evaluate_checkpoint.py - Model evaluation with confusion matrix
+- scripts/training/train_multiclass_classifier.py - 7-class DoclingBERT training
+- scripts/training/train_rebalanced.py - Rebalanced weights for recall optimization
+- scripts/evaluation/evaluate_checkpoint.py - Model evaluation with confusion matrix
 
 **Data Collection:**
-- scrape_law_reviews.py - Multi-journal scraping
-- build_clean_corpus.py - Corpus construction from multiple sources
+- scripts/data_collection/scrape_law_reviews.py - Multi-journal scraping
+- scripts/corpus_building/build_clean_corpus.py - Corpus construction from multiple sources
 
 ---
 
@@ -34,6 +34,21 @@
 | Troubleshooting | [guides/troubleshooting.md](docs/guides/troubleshooting.md) | Common issues and solutions |
 
 **Full guide index:** [docs/guides/README.md](docs/guides/README.md)
+
+---
+
+## Scripts Organization
+
+All scripts are organized in `scripts/` subdirectories by purpose:
+
+- **scripts/training/** - Model training scripts (5 scripts)
+- **scripts/evaluation/** - Model evaluation and testing (3 scripts)
+- **scripts/corpus_building/** - Corpus creation and processing (14 scripts)
+- **scripts/data_collection/** - PDF scraping and downloading (17 scripts)
+- **scripts/analysis/** - Analysis and inspection tools (14 scripts)
+- **scripts/testing/** - Test scripts and benchmarks (10 scripts)
+- **scripts/experiments/** - Experimental scripts (2 scripts)
+- **scripts/utilities/** - Helper utilities (6 scripts)
 
 ---
 
@@ -87,7 +102,7 @@
 ## Training Best Practices
 
 ### Before Training
-1. Check data distribution: `python build_clean_corpus.py --analyze`
+1. Check data distribution: `python scripts/corpus_building/build_clean_corpus.py --analyze`
 2. Verify corpus quality: No duplicate texts, balanced labels
 3. Set class weights based on imbalance ratio
 
@@ -97,7 +112,7 @@
 3. Track body_text recall vs precision trade-off
 
 ### After Training
-1. Evaluate all checkpoints: `python evaluate_checkpoint.py --checkpoint <path>`
+1. Evaluate all checkpoints: `python scripts/evaluation/evaluate_checkpoint.py --checkpoint <path>`
 2. Generate confusion matrix
 3. Calculate FP:FN ratio for body_text
 4. Document metrics in label_map.json
