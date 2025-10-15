@@ -10,8 +10,7 @@ build/
 
 # Data
 data/raw_html/*.html
-data/raw_pdf/*.pdf
-data/raw_pdf/*.docling.pkl
+data/raw_pdf/
 data/html_pdf_pairs/*.csv
 *.pkl
 
@@ -20,6 +19,7 @@ models/*.pt
 models/*.bin
 models/*.safetensors
 models/modernbert_*/
+models/doclingbert-*/
 
 # Results
 results/*.png
