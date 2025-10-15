@@ -1,0 +1,34 @@
+default_language_version:
+  python: python3.13
+
+repos:
+  # Python code formatting with Ruff
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.13.1
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  # General file formatting and checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: mixed-line-ending
+      - id: check-added-large-files
+        args: ['--maxkb=10000']  # Allow large model files
+
+  # Python version upgrade syntax
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.20.0
+    hooks:
+      - id: pyupgrade
+        args: [--py313-plus]
