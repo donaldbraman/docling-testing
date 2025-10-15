@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
 """
-Fine-tune ModernBERT for Multi-class Classification (Body Text / Footnote / Cover)
+DoclingBert v2: Fine-tune ModernBERT for 7-class Document Structure Classification
 
-Uses labeled corpus to fine-tune ModernBERT-base for document structure classification.
+Trains ModernBERT-base for comprehensive document structure classification:
+- body_text: Main article content
+- heading: Titles and section headers
+- footnote: Footnote text
+- caption: Figure and table captions
+- page_header: Running headers
+- page_footer: Running footers
+- cover: Cover/title pages
+
+Note: 'reference' and 'table' classes excluded due to no training samples.
+
+Based on DocBank/PubLayNet research for optimal classification.
+
+Version: v2 (cite-assist uses v1)
 
 Issue: https://github.com/donaldbraman/docling-testing/issues/7
 """
@@ -34,11 +47,16 @@ from transformers import (
 from datasets import Dataset, DatasetDict
 
 
-# Label mapping
+# Label mapping (7 classes - based on available data)
+# Note: 'reference' and 'table' excluded due to no training samples
 LABEL_MAP = {
     'body_text': 0,
-    'footnote': 1,
-    'cover': 2,
+    'heading': 1,
+    'footnote': 2,
+    'caption': 3,
+    'page_header': 4,
+    'page_footer': 5,
+    'cover': 6,
 }
 ID_TO_LABEL = {v: k for k, v in LABEL_MAP.items()}
 
@@ -66,7 +84,7 @@ def load_and_prepare_data(corpus_path: Path):
     if not corpus_path.exists():
         raise FileNotFoundError(
             f"Corpus not found: {corpus_path}\n"
-            "Run merge_corpus.py first to generate training data"
+            "Run build_clean_corpus.py first to generate training data"
         )
 
     df = pd.read_csv(corpus_path)
@@ -78,20 +96,46 @@ def load_and_prepare_data(corpus_path: Path):
         percentage = (count / len(df)) * 100
         print(f"  {label_name:15s} {count:5,} ({percentage:5.1f}%)")
 
+    # Show source distribution
+    print(f"\nData sources:")
+    if 'source' in df.columns:
+        for source in df['source'].unique():
+            count = (df['source'] == source).sum()
+            percentage = (count / len(df)) * 100
+            print(f"  {source:20s} {count:5,} ({percentage:5.1f}%)")
+
     # Prepare data
     texts = df['text'].tolist()
     labels = [LABEL_MAP[label] for label in df['label']]
 
-    # Compute class weights to handle imbalance
-    class_weights = compute_class_weight(
+    # Check which classes are actually present
+    unique_labels = np.unique(labels)
+    present_classes = [ID_TO_LABEL[i] for i in unique_labels]
+
+    print(f"\n⚠️  Warning: Only {len(unique_labels)} of 7 classes have training data:")
+    print(f"  Present: {', '.join(present_classes)}")
+    missing_classes = [name for name, id in LABEL_MAP.items() if id not in unique_labels]
+    if missing_classes:
+        print(f"  Missing: {', '.join(missing_classes)}")
+
+    # Compute class weights to handle imbalance (only for present classes)
+    class_weights_array = compute_class_weight(
         class_weight='balanced',
-        classes=np.unique(labels),
+        classes=unique_labels,
         y=labels
     )
 
+    # Create full weights array with 1.0 for missing classes
+    class_weights = np.ones(len(LABEL_MAP))
+    for i, label_id in enumerate(unique_labels):
+        class_weights[label_id] = class_weights_array[i]
+
     print(f"\nClass weights (for imbalance correction):")
     for label_name, label_id in LABEL_MAP.items():
-        print(f"  {label_name:15s} {class_weights[label_id]:.3f}")
+        if label_id in unique_labels:
+            print(f"  {label_name:15s} {class_weights[label_id]:.3f}")
+        else:
+            print(f"  {label_name:15s} N/A (no training data)")
 
     # Train/val/test split (70/15/15)
     X_train, X_temp, y_train, y_temp = train_test_split(
@@ -176,7 +220,7 @@ def train_model(train_dataset, val_dataset, class_weights, output_dir: Path):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSequenceClassification.from_pretrained(
         model_name,
-        num_labels=3,  # 3-class classification
+        num_labels=7,  # 7-class classification (based on available data)
         problem_type="single_label_classification",
     )
 
@@ -251,13 +295,21 @@ def train_model(train_dataset, val_dataset, class_weights, output_dir: Path):
     trainer.save_model(str(model_path))
     tokenizer.save_pretrained(str(model_path))
 
-    # Save label mapping
+    # Save label mapping with version metadata
     label_map_path = model_path / "label_map.json"
+    metadata = {
+        "model_name": "DoclingBert",
+        "version": "v2",
+        "base_model": "answerdotai/ModernBERT-base",
+        "num_classes": 7,
+        "label_map": LABEL_MAP
+    }
     with open(label_map_path, 'w') as f:
-        json.dump(LABEL_MAP, f, indent=2)
+        json.dump(metadata, f, indent=2)
 
     print(f"\n✓ Model saved: {model_path}")
-    print(f"✓ Label map saved: {label_map_path}")
+    print(f"✓ Model metadata saved: {label_map_path}")
+    print(f"  Version: DoclingBert v2")
 
     return trainer, tokenizer, model
 
@@ -319,7 +371,7 @@ def evaluate_model(trainer, test_dataset, output_dir: Path):
         display_labels=class_names
     )
     disp.plot(ax=ax, cmap='Blues', values_format='d')
-    plt.title(f'ModernBERT Multi-class Classifier\nF1 Macro={f1_macro:.3f}, Accuracy={accuracy:.3f}')
+    plt.title(f'DoclingBert v2: 7-Class Document Structure Classifier\nF1 Macro={f1_macro:.3f}, Accuracy={accuracy:.3f}')
 
     results_dir = output_dir / "evaluation"
     results_dir.mkdir(parents=True, exist_ok=True)
@@ -351,12 +403,19 @@ def evaluate_model(trainer, test_dataset, output_dir: Path):
 def main():
     """Main training pipeline."""
     print("="*80)
-    print("FINE-TUNING MODERNBERT FOR MULTI-CLASS CLASSIFICATION")
+    print("DOCLINGBERT V2: 7-CLASS DOCUMENT STRUCTURE CLASSIFICATION")
     print("="*80)
+    print("\nModel: DoclingBert v2 (ModernBERT-base fine-tuned)")
+    print("Version: v2 (cite-assist uses v1)")
+    print("\nUsing CLEAN ground truth labels from:")
+    print("  - Semantic PDF tags (highest quality)")
+    print("  - HTML-PDF text matching")
+    print("  - Cover page patterns")
+    print("  - Docling labels (corrected by semantic tags)\n")
 
     base_dir = Path(__file__).parent
-    corpus_path = base_dir / "data" / "multiclass_corpus.csv"
-    output_dir = base_dir / "models" / "modernbert_multiclass_classifier"
+    corpus_path = base_dir / "data" / "clean_7class_corpus.csv"
+    output_dir = base_dir / "models" / "doclingbert-v2"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Check for GPU
@@ -405,8 +464,8 @@ def main():
 
         print(f"\nNext steps:")
         print(f"  1. Test model: python test_multiclass_classifier.py")
-        print(f"  2. Compare with binary classifier")
-        print(f"  3. Integrate into document processing pipeline")
+        print(f"  2. Create PR for Issue #7")
+        print(f"  3. Merge and close issue")
 
     except Exception as e:
         print(f"\n❌ Error during training: {e}")

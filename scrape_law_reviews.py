@@ -435,11 +435,44 @@ def main():
     # Initialize scraper
     scraper = LawReviewScraper(patterns_file, output_dir)
 
+    # Expanded journal list: 25 top-tier and mid-tier law reviews
+    # Focus on journals likely to have semantic PDF tags
+    expanded_journals = [
+        # Top tier (most likely to have tagged PDFs)
+        'harvard law review',
+        'stanford law review',
+        'yale law journal',
+        'columbia law review',
+        'university of chicago law review',
+        'new york university law review',
+        'virginia law review',
+        'duke law journal',
+        'cornell law review',
+        'michigan law review',
+        'university of pennsylvania law review',
+        'northwestern university law review',
+        'california law review',
+        'georgetown law journal',
+        'texas law review',
+        'ucla law review',
+        # Mid-tier (good infrastructure)
+        'boston university law review',
+        'fordham law review',
+        'minnesota law review',
+        'vanderbilt law review',
+        'washington university law review',
+        'emory law journal',
+        'boston college law review',
+        'arizona law review',
+        'florida law review',
+    ]
+
     # Scrape articles
-    # Target: 30 pairs from 7 journals (5-6 each for diversity)
+    # Target: 250 pairs from 25 journals (10 each for diversity)
     scraper.scrape_multiple_journals(
-        articles_per_journal=6,
-        target_total=30
+        journal_keys=expanded_journals,
+        articles_per_journal=10,
+        target_total=250
     )
 
     print(f"\nOutput directories:")

@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-Test the fine-tuned multi-class ModernBERT classifier on PDFs.
+DoclingBert v2: Test the fine-tuned 7-class classifier on PDFs.
 
 Loads the trained model and tests it on sample PDFs to verify
-it can correctly classify body_text, footnote, and cover pages.
+it can correctly classify all 7 document structure elements:
+- body_text, heading, footnote, caption, page_header, page_footer, cover
+
+Note: 'reference' and 'table' classes excluded due to no training samples.
+
+Version: v2 (cite-assist uses v1)
 
 Issue: https://github.com/donaldbraman/docling-testing/issues/7
 """
@@ -21,10 +26,21 @@ def load_model(model_path: Path):
     print("LOADING MODEL")
     print("="*80)
 
-    # Load label map
+    # Load label map and metadata
     label_map_path = model_path / "label_map.json"
     with open(label_map_path) as f:
-        label_map = json.load(f)
+        metadata = json.load(f)
+
+    # Handle both old and new metadata format
+    if "label_map" in metadata:
+        # New format with version metadata
+        label_map = metadata["label_map"]
+        model_version = metadata.get("version", "unknown")
+        print(f"\n✓ Model: {metadata.get('model_name', 'DoclingBert')} {model_version}")
+    else:
+        # Old format (backward compatibility)
+        label_map = metadata
+        model_version = "v1"
 
     id_to_label = {v: k for k, v in label_map.items()}
 
@@ -75,14 +91,20 @@ def test_on_samples(tokenizer, model, id_to_label):
     print("TESTING ON SAMPLE TEXTS")
     print("="*80)
 
-    # Sample texts
+    # Sample texts for all 7 classes
     samples = [
         ("body_text", "The Supreme Court held that the government must provide compensation when taking private property for public use. This principle, established in the Fifth Amendment, forms the foundation of takings jurisprudence."),
+        ("body_text", "In recent decades, criminal justice reform has emerged as a critical policy priority. Scholars have identified prosecutorial discretion as a key factor in mass incarceration."),
+        ("heading", "I. INTRODUCTION TO CONSTITUTIONAL LAW"),
+        ("heading", "A. Historical Context and Development"),
         ("footnote", "1 See Lucas v. South Carolina Coastal Council, 505 U.S. 1003, 1029 (1992)."),
         ("footnote", "15 For a comprehensive discussion of background principles, see Rose, Property as Storytelling, 2 YALE J.L. & HUMAN. 37, 52-54 (1990)."),
+        ("caption", "Figure 1. Distribution of prosecutorial decisions by jurisdiction, showing significant variation across counties (N=3,247 cases)."),
+        ("caption", "Table 2. Summary statistics for conviction rates by offense type, controlling for demographic factors."),
+        ("page_header", "HARVARD LAW REVIEW                                                  [Vol. 135:123"),
+        ("page_footer", "2024]           PROSECUTORIAL DISCRETION AND REFORM                         147"),
         ("cover", "Downloaded from HeinOnline at 10.123.45.67 on 2024-01-15. Citation: 135 Harv. L. Rev. 123 (2021). Bluebook 21st ed.: Author, Title, 135 HARV. L. REV. 123 (2021)."),
         ("cover", "JSTOR is a not-for-profit service. Your use of the JSTOR archive indicates acceptance of Terms and Conditions of Use. Accessed: 2024-01-15 from www.jstor.org"),
-        ("body_text", "In recent decades, criminal justice reform has emerged as a critical policy priority. Scholars have identified prosecutorial discretion as a key factor in mass incarceration."),
     ]
 
     print("\nClassifying sample texts:\n")
@@ -122,11 +144,15 @@ def test_on_pdf(pdf_path: Path, tokenizer, model, id_to_label):
     print(f"Classifying first 20 paragraphs:\n")
 
     # Classify first 20 paragraphs
-    label_counts = {'body_text': 0, 'footnote': 0, 'cover': 0}
+    label_counts = {
+        'body_text': 0, 'heading': 0, 'footnote': 0,
+        'caption': 0, 'page_header': 0, 'page_footer': 0, 'cover': 0
+    }
 
     for i, para in enumerate(paragraphs[:20], 1):
         pred_label, confidence = classify_text(para, tokenizer, model, id_to_label)
-        label_counts[pred_label] += 1
+        if pred_label in label_counts:
+            label_counts[pred_label] += 1
 
         # Show first 3 paragraphs in detail
         if i <= 3:
@@ -143,11 +169,11 @@ def test_on_pdf(pdf_path: Path, tokenizer, model, id_to_label):
 def main():
     """Main test pipeline."""
     print("="*80)
-    print("TESTING MODERNBERT MULTI-CLASS CLASSIFIER")
+    print("TESTING DOCLINGBERT V2: 7-CLASS CLASSIFIER")
     print("="*80)
 
     base_dir = Path(__file__).parent
-    model_path = base_dir / "models" / "modernbert_multiclass_classifier" / "final_model"
+    model_path = base_dir / "models" / "doclingbert-v2" / "final_model"
 
     if not model_path.exists():
         print(f"\n❌ Error: Model not found at {model_path}")
