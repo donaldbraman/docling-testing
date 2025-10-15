@@ -59,6 +59,7 @@ All scripts are organized in `scripts/` subdirectories by purpose:
 - **Test with real PDFs** - Use law review PDFs from data/raw_pdf/
 - **Version models** - Include metadata in label_map.json (model_name, version, base_model)
 - **Document metrics** - Record F1, recall, precision for all models
+- **Validate models** - Run `python scripts/utilities/validate_model_metadata.py` before deployment
 - **GitHub labels** - See `~/.claude/guides/github-labels.md` for label auto-generation guidance
 
 ---
@@ -116,6 +117,7 @@ All scripts are organized in `scripts/` subdirectories by purpose:
 2. Generate confusion matrix
 3. Calculate FP:FN ratio for body_text
 4. Document metrics in label_map.json
+5. Validate metadata: `python scripts/utilities/validate_model_metadata.py`
 
 ---
 
