@@ -1,0 +1,833 @@
+{
+  "boston_college_law_review_Boston_College_Law_Review.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 24,
+    "producer": "Adobe PDF Library 25.1.97",
+    "quality_assessment": "low"
+  },
+  "boston_college_law_review_Untitled.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 20,
+    "producer": "Adobe PDF Library 25.1.97",
+    "quality_assessment": "low"
+  },
+  "california_law_review_Lovings_Borders.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 20,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "columbia_new_outlawry.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect"
+    ],
+    "tag_count": 0,
+    "pages": 74,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "cornell_against_prosecutors.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 50,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_antitrust_workers.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 53,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_chevron_construction.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 24,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_corporate_privacy_proxy.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 40,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_equity_punishment.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 72,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_frand_antitrust.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 63,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_legitimate_interpretation.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 70,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_mdl_as_category.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 47,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_scalia_legislative_history.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 70,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "cornell_tort_private_administration.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 79,
+    "producer": "Prince 14.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_Emotionally_Unstable___Addressing_Emotional_Distre.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 41,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_Fixing_the_Fix___The_Case_for_Unifying_the_Remedia.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 36,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_Is_Your_Data_Good__Bad__or_Neutral____Redefining_C.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 38,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_Law-Following_AI___Designing_AI_Agents_to_Obey_Hum.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 73,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_The_Presumption_Against_Extraterritoriality_and_Wi.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 40,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_The_Roberts_Court_Paradox___Fordham_Law_Review.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 55,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_Venturing_into_Health___Fordham_Law_Review.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 49,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "fordham_law_review_When_the_Screen_Lies___Navigating_Privacy_and_Publ.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 45,
+    "producer": "Microsoft\u00ae Word 2019",
+    "quality_assessment": "low"
+  },
+  "georgetown_capers_afrofuturism_manifesto.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 23,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_garcia_selective_enforcement.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 58,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_hall_areheart_bias_presumption.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 37,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_heydari_sheriffs_constitution.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 66,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_kagan_asylum_procedures.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 2,
+    "pages": 40,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_kim_taxing_metaverse.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 53,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_kwoka_information_commission.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 53,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_law_journal_a_faster_way_to_yes.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 2,
+    "pages": 40,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_law_journal_renters_tax_credits.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 58,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_law_journal_selective_enforcement.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 58,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_law_journal_the_new_sexual_deviancy.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 90,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_law_journal_the_sheriffs_constitution.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 66,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_layser_renters_tax_credits.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 58,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_takhshid_data_likeness.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 2,
+    "pages": 44,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "georgetown_woods_sexual_deviancy.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 3,
+    "pages": 90,
+    "producer": "PDFlib+PDI 9.0.3p4 (C++/Win32)",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Appendix_for_Codify_Gardner.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Appendix_for_Unwarranted_Warrants__An_Empirical_An.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Codify_Gardner.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_CompassCare_v__Hochul.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Fighting_Words_At_The_Founding.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Lara_v__Commissioner_Pennsylvania_State_Police.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Making_Equal_Protection_Protect.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_Unwarranted_Warrants__An_Empirical_Analysis_of_Jud.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review__Background_Principles__and_the_General_Law_of_Pro.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "harvard_law_review_____Articles__.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 3,
+    "producer": "Aspose.PDF for .NET 24.6.0",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_beyond_profit_motives.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 5,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 33,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_consumerist_waste_looking_beyond_repair.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 8,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 29,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_law_enforcement_privilege.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 59,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_of_might_and_men.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 5,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_on_the_genealogy_of_intimate_digital_harm.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 5,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_orders_without_law.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 18,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_original_public_meaning_and_pregnancys_ambiguities.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 16,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_revocation_at_the_founding.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 62,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_spending_clause_standing.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 39,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_the_shadow_of_the_law_of_the_police.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 4,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 69,
+    "producer": "Prince 15.4.1 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_what_is_a_prison.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 26,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "michigan_law_review_wrongs_to_us.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 5,
+    "producer": "Prince 15.2 (www.princexml.com)",
+    "quality_assessment": "low"
+  },
+  "nyu_american_law_global_conflict.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 81,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_being_nuisance.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 86,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_constitutional_consequences.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 79,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_first_black_jurors.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 63,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_generative_interpretation.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 64,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_intellectual_property_labor.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 61,
+    "producer": "Adobe Acrobat Pro 10.1.16",
+    "quality_assessment": "low"
+  },
+  "nyu_labor_mobility_policing.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 74,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_law_review_Volume_99__Number_6.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 48,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_legislative_statutory_interpretation.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 95,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "nyu_second_look_resentencing.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document",
+      "/Part"
+    ],
+    "tag_count": 0,
+    "pages": 61,
+    "producer": "macOS Version 15.3.2 (Build 24D81) Quartz PDFContext, AppendMode 1.1",
+    "quality_assessment": "low"
+  },
+  "nyu_small_agency_policing.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 78,
+    "producer": "Adobe PDF Library 15.0",
+    "quality_assessment": "low"
+  },
+  "stanford_law_review_Mastheads.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 1,
+    "producer": "Skia/PDF m142 Google Docs Renderer",
+    "quality_assessment": "low"
+  },
+  "texas_bracha_syed_ip_political_economy.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 27,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_braver_somin_exclusionary_zoning.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 64,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_fallon_selective_originalism.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 84,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_fan_big_data_searches.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 60,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "texas_farber_workarounds.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 62,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_ferguson_video_analytics.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 67,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_fisch_schwartz_corporate_democracy.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 64,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_hershkoff_beleaguered_sovereign.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 51,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "texas_pfander_judicial_review.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 39,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "texas_zick_second_amendment.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 58,
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "quality_assessment": "low"
+  },
+  "ucla_administrative_statutory_revisionism.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 21,
+    "producer": "Adobe Acrobat Pro DC 15.6.30452",
+    "quality_assessment": "low"
+  },
+  "ucla_social_movements_in_american_legal_theory.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 106,
+    "producer": "Adobe Acrobat Pro 11.0.3",
+    "quality_assessment": "low"
+  },
+  "ucla_the_freedom_of_speech_and_bad_purposes.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 56,
+    "producer": "Adobe Acrobat Pro 11.0.3",
+    "quality_assessment": "low"
+  },
+  "ucla_third_party_security_measures_and_cybersecurity.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 47,
+    "producer": "Adobe Acrobat Pro DC 15.6.30505",
+    "quality_assessment": "low"
+  },
+  "virginia_law_review_Fourth_Amendment_Trespass_and_Internet_Search_Hist.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [],
+    "tag_count": 0,
+    "pages": 27,
+    "producer": "Unknown",
+    "quality_assessment": "low"
+  },
+  "virginia_law_review_editing_classic_books_a_threat_to_the_public_domain.pdf": {
+    "coverage_percent": 0.0,
+    "tag_types": [
+      "/Sect",
+      "/Document"
+    ],
+    "tag_count": 0,
+    "pages": 19,
+    "producer": "Adobe PDF Library 23.8.234",
+    "quality_assessment": "low"
+  }
+}

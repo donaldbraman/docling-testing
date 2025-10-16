@@ -1,0 +1,5 @@
+JOURNAL: Iowa Law Review
+BASE_URL: https://ilr.law.uiowa.edu
+COLLECTED: 10/10
+SUCCESS_RATE: 100.0%
+TIME_ELAPSED: 0s

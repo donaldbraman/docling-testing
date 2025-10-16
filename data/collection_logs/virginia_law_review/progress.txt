@@ -1,0 +1,5 @@
+JOURNAL: Virginia Law Review
+BASE_URL: https://www.virginialawreview.org
+COLLECTED: 10/10
+SUCCESS_RATE: 100.0%
+TIME_ELAPSED: 1s

@@ -1,0 +1,1315 @@
+[
+  {
+    "file": "boston_college_law_review_Boston_College_Law_Review.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Sect"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (96022 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "boston_college_law_review_Untitled.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Sect"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (83260 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "california_law_review_Lovings_Borders.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (69397 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "columbia_new_outlawry.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 1,
+    "structure_tags": [
+      "/Sect"
+    ],
+    "estimated_samples": 1,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Page text available (267894 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_against_prosecutors.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (153240 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_antitrust_workers.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (139497 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_chevron_construction.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (66937 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_corporate_privacy_proxy.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (111766 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_equity_punishment.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (199565 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_frand_antitrust.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (176670 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_legitimate_interpretation.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (200890 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_mdl_as_category.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (137658 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_scalia_legislative_history.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (202926 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "cornell_tort_private_administration.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (235575 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_Emotionally_Unstable___Addressing_Emotional_Distre.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (134762 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_Fixing_the_Fix___The_Case_for_Unifying_the_Remedia.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (123411 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_Is_Your_Data_Good__Bad__or_Neutral____Redefining_C.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (124713 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_Law-Following_AI___Designing_AI_Agents_to_Obey_Hum.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (250292 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_The_Presumption_Against_Extraterritoriality_and_Wi.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (136804 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_The_Roberts_Court_Paradox___Fordham_Law_Review.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (183187 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_Venturing_into_Health___Fordham_Law_Review.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (178515 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "fordham_law_review_When_the_Screen_Lies___Navigating_Privacy_and_Publ.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (149268 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_capers_afrofuturism_manifesto.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (81702 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_garcia_selective_enforcement.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (214276 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_hall_areheart_bias_presumption.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (137399 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_heydari_sheriffs_constitution.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (271866 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_kagan_asylum_procedures.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (137741 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_kim_taxing_metaverse.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (180440 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_kwoka_information_commission.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (193988 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_law_journal_a_faster_way_to_yes.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (137741 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_law_journal_renters_tax_credits.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (189049 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_law_journal_selective_enforcement.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (214276 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_law_journal_the_new_sexual_deviancy.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (311927 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_law_journal_the_sheriffs_constitution.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (271866 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_layser_renters_tax_credits.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (189049 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_takhshid_data_likeness.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (157072 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "georgetown_woods_sexual_deviancy.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 3,
+    "structure_tags": [
+      "/Document",
+      "/Part",
+      "/Sect"
+    ],
+    "estimated_samples": 3,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (311927 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Appendix_for_Codify_Gardner.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Appendix_for_Unwarranted_Warrants__An_Empirical_An.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Codify_Gardner.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_CompassCare_v__Hochul.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Fighting_Words_At_The_Founding.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Lara_v__Commissioner_Pennsylvania_State_Police.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Making_Equal_Protection_Protect.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_Unwarranted_Warrants__An_Empirical_Analysis_of_Jud.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review__Background_Principles__and_the_General_Law_of_Pro.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "harvard_law_review_____Articles__.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (9032 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_beyond_profit_motives.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (10939 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (94309 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_consumerist_waste_looking_beyond_repair.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (24590 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (78849 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_law_enforcement_privilege.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (177162 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_of_might_and_men.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (13439 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_on_the_genealogy_of_intimate_digital_harm.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (10823 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_orders_without_law.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (43342 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_original_public_meaning_and_pregnancys_ambiguities.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (36384 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_revocation_at_the_founding.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (190166 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_spending_clause_standing.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (107879 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_the_shadow_of_the_law_of_the_police.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (11219 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (197255 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_what_is_a_prison.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (91314 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "michigan_law_review_wrongs_to_us.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (11340 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_american_law_global_conflict.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (272776 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_being_nuisance.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (294356 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_constitutional_consequences.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (220350 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_first_black_jurors.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (198566 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_generative_interpretation.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (198750 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_intellectual_property_labor.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (204295 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_labor_mobility_policing.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (214731 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_law_review_Volume_99__Number_6.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (148157 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_legislative_statutory_interpretation.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (251656 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_second_look_resentencing.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Part"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (208176 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "nyu_small_agency_policing.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (251073 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "stanford_law_review_Mastheads.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 1,
+    "structure_tags": [
+      "/Document"
+    ],
+    "estimated_samples": 1,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Page text available (3341 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_bracha_syed_ip_political_economy.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (88323 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_braver_somin_exclusionary_zoning.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (201124 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_fallon_selective_originalism.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (280011 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_fan_big_data_searches.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (185963 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_farber_workarounds.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (215766 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_ferguson_video_analytics.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (230901 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_fisch_schwartz_corporate_democracy.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (219443 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_hershkoff_beleaguered_sovereign.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (174881 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_pfander_judicial_review.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (137760 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "texas_zick_second_amendment.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (186016 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "ucla_administrative_statutory_revisionism.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [
+      "/Document"
+    ],
+    "estimated_samples": 0,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (58664 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "ucla_social_movements_in_american_legal_theory.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [
+      "/Document"
+    ],
+    "estimated_samples": 0,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (351404 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "ucla_the_freedom_of_speech_and_bad_purposes.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [
+      "/Document"
+    ],
+    "estimated_samples": 0,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (162159 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "ucla_third_party_security_measures_and_cybersecurity.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [
+      "/Document"
+    ],
+    "estimated_samples": 0,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (138641 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "virginia_law_review_Fourth_Amendment_Trespass_and_Internet_Search_Hist.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 0,
+    "structure_tags": [],
+    "estimated_samples": 0,
+    "extraction_feasible": false,
+    "recommendations": [
+      "Shallow hierarchy - may be mostly structural",
+      "Structure exists but may need text reconstruction from pages",
+      "Page text available (79067 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  },
+  {
+    "file": "virginia_law_review_editing_classic_books_a_threat_to_the_public_domain.pdf",
+    "has_struct_tree": true,
+    "hierarchy_depth": 2,
+    "structure_tags": [
+      "/Document",
+      "/Sect"
+    ],
+    "estimated_samples": 2,
+    "extraction_feasible": true,
+    "recommendations": [
+      "Page text available (52699 bytes) - can reconstruct mapping"
+    ],
+    "error": null
+  }
+]

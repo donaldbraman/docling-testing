@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagged PDF Structure Visualization</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #2196F3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            border-left: 5px solid #2196F3;
+            padding-left: 10px;
+        }
+        .pdf-sample {
+            background: white;
+            border-left: 4px solid #2196F3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .pdf-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #1976D2;
+            margin-bottom: 15px;
+        }
+        .tag-block {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            border-left: 3px solid #999;
+            line-height: 1.6;
+        }
+        .tag-label {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 0.85em;
+            padding: 3px 8px;
+            border-radius: 3px;
+            background: rgba(0,0,0,0.1);
+            margin-right: 10px;
+            color: #333;
+        }
+        .tag-text {
+            color: #555;
+            font-size: 0.95em;
+        }
+        .error {
+            background: #FFEBEE;
+            color: #C62828;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .legend {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .legend-color {
+            width: 40px;
+            height: 30px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .legend-label {
+            font-size: 0.9em;
+        }
+        .summary {
+            background: #E3F2FD;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏷️ Tagged PDF Structure Visualization</h1>
+    <p>Color-coded view of PDF semantic tags for quality validation. Each colored block represents a tagged text element.</p>
+
+    <div class="summary">
+        <strong>Color Legend:</strong> The blocks below show samples of tagged content from PDFs with semantic structure.
+        Hover over blocks to see the tag type. This helps validate whether PDF tagging is accurate and usable.
+    </div>
+
+    <h2>Tag Type Color Guide</h2>
+    <div class="legend">
+        <div class="legend-grid">
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFCCBC;"></div>
+                <div class="legend-label"><strong>Artifact</strong><br/><code>/Artifact</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #D1C4E9;"></div>
+                <div class="legend-label"><strong>Caption</strong><br/><code>/Caption</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #CFD8DC;"></div>
+                <div class="legend-label"><strong>Document</strong><br/><code>/Document</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #C8E6C9;"></div>
+                <div class="legend-label"><strong>Figure</strong><br/><code>/Figure</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #F5F5F5;"></div>
+                <div class="legend-label"><strong>Footer</strong><br/><code>/Footer</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #F8BBD0;"></div>
+                <div class="legend-label"><strong>Footnote</strong><br/><code>/Footnote</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFE0B2;"></div>
+                <div class="legend-label"><strong>Heading</strong><br/><code>/H</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFD54F;"></div>
+                <div class="legend-label"><strong>Heading 1</strong><br/><code>/H1</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFE082;"></div>
+                <div class="legend-label"><strong>Heading 2</strong><br/><code>/H2</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFF9C4;"></div>
+                <div class="legend-label"><strong>Heading 3</strong><br/><code>/H3</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #F5F5F5;"></div>
+                <div class="legend-label"><strong>Header</strong><br/><code>/Header</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #F8BBD0;"></div>
+                <div class="legend-label"><strong>Footnote</strong><br/><code>/Note</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #E8F4F8;"></div>
+                <div class="legend-label"><strong>Body Text</strong><br/><code>/P</code></div>
+            </div>
+
+
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #BBDEFB;"></div>
+                <div class="legend-label"><strong>Table</strong><br/><code>/Table</code></div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <h2>Sample PDFs with Tagged Content</h2>
+
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 boston_college_law_review_Boston_College_Law_Review.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 boston_college_law_review_Untitled.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 california_law_review_Lovings_Borders.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 columbia_new_outlawry.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_against_prosecutors.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_antitrust_workers.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_chevron_construction.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_corporate_privacy_proxy.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_equity_punishment.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_frand_antitrust.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_legitimate_interpretation.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_mdl_as_category.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_scalia_legislative_history.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 cornell_tort_private_administration.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_Emotionally_Unstable___Addressing_Emotional_Distre.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_Fixing_the_Fix___The_Case_for_Unifying_the_Remedia.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_Is_Your_Data_Good__Bad__or_Neutral____Redefining_C.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_Law-Following_AI___Designing_AI_Agents_to_Obey_Hum.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_The_Presumption_Against_Extraterritoriality_and_Wi.pdf</div>
+    </div>
+    <div class="pdf-sample">
+        <div class="pdf-name">📄 fordham_law_review_The_Roberts_Court_Paradox___Fordham_Law_Review.pdf</div>
+    </div>
+
+    <h2>About This Visualization</h2>
+    <p>
+        This report shows samples of tagged content from PDFs. Each color represents a different semantic tag type
+        as defined in the PDF structure tree. This helps validate:
+    </p>
+    <ul>
+        <li><strong>Coverage:</strong> Are important elements tagged?</li>
+        <li><strong>Accuracy:</strong> Are tags semantically correct?</li>
+        <li><strong>Completeness:</strong> Is most content tagged or are there gaps?</li>
+        <li><strong>Tag types:</strong> What types of tags are used? Do they map to our schema?</li>
+    </ul>
+    <p><em>Generated from PDF Structure Trees (StructTreeRoot) using pypdf library.</em></p>
+</body>
+</html>
