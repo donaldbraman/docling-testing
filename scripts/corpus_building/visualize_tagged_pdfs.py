@@ -185,6 +185,14 @@ class TaggedPDFVisualizer:
             color: #555;
             font-size: 0.95em;
         }
+        .info {
+            background: #E8F5E9;
+            color: #2E7D32;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
         .error {
             background: #FFEBEE;
             color: #C62828;
@@ -231,8 +239,9 @@ class TaggedPDFVisualizer:
     <p>Color-coded view of PDF semantic tags for quality validation. Each colored block represents a tagged text element.</p>
 
     <div class="summary">
-        <strong>Color Legend:</strong> The blocks below show samples of tagged content from PDFs with semantic structure.
-        Hover over blocks to see the tag type. This helps validate whether PDF tagging is accurate and usable.
+        <strong>⚠️ Important Finding:</strong> PDFs have structure hierarchies but structure tree elements do not contain direct text content.
+        The tags below show the <strong>tag types found</strong> but text is extracted from PDF pages, not from structure elements.
+        This confirms that tags are <strong>structural containers, not semantic labels</strong>.
     </div>
 
     <h2>Tag Type Color Guide</h2>
@@ -256,6 +265,7 @@ class TaggedPDFVisualizer:
     </div>
 
     <h2>Sample PDFs with Tagged Content</h2>
+    <p><em>Note: These samples show which PDFs have structure trees and what tag types they contain.</em></p>
 """)
 
         # Process each PDF
@@ -266,7 +276,11 @@ class TaggedPDFVisualizer:
             html_parts.append(f'        <div class="pdf-name">📄 {content["pdf_name"]}</div>')
 
             if content["error"]:
-                html_parts.append(f'        <div class="error">⚠️ {content["error"]}</div>')
+                html_parts.append(f'        <div class="error">⚠️ Error: {content["error"]}</div>')
+            elif len(content["blocks"]) == 0:
+                html_parts.append(
+                    '        <div class="info">ℹ️ Structure tree exists but contains no direct text. Tags are structural containers, not content labels.</div>'
+                )
             else:
                 for block in content["blocks"]:
                     html_parts.append(f"""        <div class="tag-block" style="background-color: {block["color"]}; border-left-color: {block["color"]}_dark;">
