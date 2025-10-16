@@ -71,42 +71,25 @@ class DoclingExtractionVisualizer:
             return None, None, None
 
     def extract_blocks_with_boxes(self, pdf_path: Path, page_num: int = 0):
-        """Extract blocks with bounding boxes from PDF using Docling."""
+        """Extract blocks with bounding boxes from PDF using Docling.
+
+        Uses doc.document.texts which contains TextItem objects with provenance
+        information (page number and bounding boxes).
+        """
         try:
             if self.converter is None:
                 self.converter = DocumentConverter()
             doc = self.converter.convert(str(pdf_path))
 
             blocks = []
-            # Content is in doc.document.body.children
-            if (
-                hasattr(doc, "document")
-                and hasattr(doc.document, "body")
-                and hasattr(doc.document.body, "children")
-            ):
 
-                def traverse_items(items):
-                    """Recursively traverse body children to find blocks with bbox."""
-                    result = []
-                    for item in items:
-                        # Check if item has bbox and text
-                        if hasattr(item, "bbox") and hasattr(item, "text"):
-                            result.append(item)
-                        # Recursively check children
-                        if hasattr(item, "children") and item.children:
-                            result.extend(traverse_items(item.children))
-                    return result
-
-                all_items = traverse_items(doc.document.body.children)
-
-                for item in all_items:
-                    if not hasattr(item, "bbox") or not hasattr(item, "text"):
-                        continue
-
+            # Access text items from doc.document.texts
+            if hasattr(doc, "document") and hasattr(doc.document, "texts"):
+                for text_item in doc.document.texts:
                     # Get semantic class from item type
-                    item_type = item.__class__.__name__.lower()
+                    item_type = text_item.__class__.__name__.lower()
 
-                    if "heading" in item_type or "title" in item_type:
+                    if "heading" in item_type or "title" in item_type or "section" in item_type:
                         sem_class = "heading"
                     elif "footnote" in item_type or "note" in item_type:
                         sem_class = "footnote"
@@ -119,25 +102,46 @@ class DoclingExtractionVisualizer:
                     else:
                         sem_class = "body"
 
-                    # Get bounding box (should be normalized 0-999)
-                    bbox = item.bbox
-                    if bbox:
-                        text_content = item.text if hasattr(item, "text") else ""
-                        blocks.append(
-                            {
-                                "text": str(text_content)[:100] if text_content else "",
-                                "bbox": bbox,  # (x0, y0, x1, y1) in 0-999 range
-                                "class": sem_class,
-                            }
-                        )
+                    # Get bounding box from provenance
+                    if hasattr(text_item, "prov") and text_item.prov:
+                        for prov_item in text_item.prov:
+                            # Check if this provenance is on the requested page (page_num is 0-indexed)
+                            if prov_item.page_no - 1 == page_num:
+                                bbox = prov_item.bbox
+                                if bbox:
+                                    # Convert bbox from page coordinates to 0-999 normalized range
+                                    # bbox has l, t, r, b coordinates (left, top, right, bottom)
+                                    # Assuming standard page size (8.5x11 inches = 612x792 points)
+                                    page_width = 612
+                                    page_height = 792
+                                    # Provenance uses BOTTOMLEFT origin, so flip y coordinates
+                                    x0 = (bbox.l / page_width) * 999
+                                    x1 = (bbox.r / page_width) * 999
+                                    y0 = (
+                                        bbox.t / page_height
+                                    ) * 999  # Top in BOTTOMLEFT is larger y
+                                    y1 = (
+                                        bbox.b / page_height
+                                    ) * 999  # Bottom in BOTTOMLEFT is smaller y
+                                    # Ensure y0 <= y1 for PIL rectangle drawing
+                                    if y0 > y1:
+                                        y0, y1 = y1, y0
+
+                                    text_content = (
+                                        text_item.text if hasattr(text_item, "text") else ""
+                                    )
+                                    blocks.append(
+                                        {
+                                            "text": str(text_content)[:100] if text_content else "",
+                                            "bbox": (x0, y0, x1, y1),
+                                            "class": sem_class,
+                                        }
+                                    )
 
             return blocks
 
         except Exception as e:
             print(f"  Error extracting {pdf_path.name}: {str(e)[:100]}")
-            import traceback
-
-            traceback.print_exc()
             return []
 
     def draw_overlays(self, image, blocks, page_width, page_height):
