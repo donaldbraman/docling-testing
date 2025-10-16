@@ -1,0 +1,390 @@
+{
+  "deployment": {
+    "version": "1.0.0",
+    "description": "Sub-agent deployment configuration for parallel law review collection",
+    "created": "2025-10-16",
+    "total_agents": 32,
+    "target_per_agent": 10,
+    "total_target_pairs": 320,
+    "output_directories": {
+      "html": "data/raw_html",
+      "pdf": "data/raw_pdf",
+      "logs": "data/collection_logs"
+    }
+  },
+  "agents": [
+    {
+      "id": 1,
+      "journal": "Harvard Law Review",
+      "base_url": "https://harvardlawreview.org",
+      "slug": "harvard_law_review",
+      "tier": "tier1",
+      "priority": 1,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 2,
+      "journal": "Stanford Law Review",
+      "base_url": "https://www.stanfordlawreview.org",
+      "slug": "stanford_law_review",
+      "tier": "tier1",
+      "priority": 2,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 3,
+      "journal": "Yale Law Journal",
+      "base_url": "https://www.yalelawjournal.org",
+      "slug": "yale_law_journal",
+      "tier": "tier1",
+      "priority": 3,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 4,
+      "journal": "Columbia Law Review",
+      "base_url": "https://www.columbialawreview.org",
+      "slug": "columbia_law_review",
+      "tier": "tier1",
+      "priority": 4,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 5,
+      "journal": "University of Chicago Law Review",
+      "base_url": "https://lawreview.uchicago.edu",
+      "slug": "university_of_chicago_law_review",
+      "tier": "tier1",
+      "priority": 5,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 6,
+      "journal": "NYU Law Review",
+      "base_url": "https://www.nyulawreview.org",
+      "slug": "nyu_law_review",
+      "tier": "tier1",
+      "priority": 6,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 7,
+      "journal": "Virginia Law Review",
+      "base_url": "https://www.virginialawreview.org",
+      "slug": "virginia_law_review",
+      "tier": "tier2",
+      "priority": 7,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 8,
+      "journal": "Duke Law Journal",
+      "base_url": "https://dlj.law.duke.edu",
+      "slug": "duke_law_journal",
+      "tier": "tier2",
+      "priority": 8,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 9,
+      "journal": "Michigan Law Review",
+      "base_url": "https://michiganlawreview.org",
+      "slug": "michigan_law_review",
+      "tier": "tier2",
+      "priority": 9,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 10,
+      "journal": "UCLA Law Review",
+      "base_url": "https://www.uclalawreview.org",
+      "slug": "ucla_law_review",
+      "tier": "tier2",
+      "priority": 10,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 11,
+      "journal": "Cornell Law Review",
+      "base_url": "https://www.cornelllawreview.org",
+      "slug": "cornell_law_review",
+      "tier": "tier2",
+      "priority": 11,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 12,
+      "journal": "Georgetown Law Journal",
+      "base_url": "https://www.law.georgetown.edu/georgetown-law-journal",
+      "slug": "georgetown_law_journal",
+      "tier": "tier2",
+      "priority": 12,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 13,
+      "journal": "Northwestern University Law Review",
+      "base_url": "https://northwesternlawreview.org",
+      "slug": "northwestern_law_review",
+      "tier": "tier2",
+      "priority": 13,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 14,
+      "journal": "Texas Law Review",
+      "base_url": "https://texaslawreview.org",
+      "slug": "texas_law_review",
+      "tier": "tier2",
+      "priority": 14,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 15,
+      "journal": "University of Pennsylvania Law Review",
+      "base_url": "https://scholarship.law.upenn.edu/penn_law_review",
+      "slug": "upenn_law_review",
+      "tier": "tier2",
+      "priority": 15,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["archive_browse", "search_crawl"]
+    },
+    {
+      "id": 16,
+      "journal": "Boston College Law Review",
+      "base_url": "https://bclawreview.bc.edu",
+      "slug": "boston_college_law_review",
+      "tier": "tier3",
+      "priority": 16,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 17,
+      "journal": "Boston University Law Review",
+      "base_url": "https://www.bu.edu/bulawreview",
+      "slug": "boston_university_law_review",
+      "tier": "tier3",
+      "priority": 17,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 18,
+      "journal": "Minnesota Law Review",
+      "base_url": "https://www.minnesotalawreview.org",
+      "slug": "minnesota_law_review",
+      "tier": "tier3",
+      "priority": 18,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 19,
+      "journal": "Illinois Law Review",
+      "base_url": "https://scholarship.law.illinois.edu/illinois_law_review",
+      "slug": "illinois_law_review",
+      "tier": "tier3",
+      "priority": 19,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["archive_browse", "search_crawl"]
+    },
+    {
+      "id": 20,
+      "journal": "Wisconsin Law Review",
+      "base_url": "https://www.wisconsinlawreview.org",
+      "slug": "wisconsin_law_review",
+      "tier": "tier3",
+      "priority": 20,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl", "archive_browse"]
+    },
+    {
+      "id": 21,
+      "journal": "Fordham Law Review",
+      "base_url": "https://www.fordhamlawreview.org",
+      "slug": "fordham_law_review",
+      "tier": "tier3",
+      "priority": 21,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 22,
+      "journal": "Washington University Law Review",
+      "base_url": "https://wustllawreview.org",
+      "slug": "washington_university_law_review",
+      "tier": "tier3",
+      "priority": 22,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 23,
+      "journal": "Vanderbilt Law Review",
+      "base_url": "https://scholarship.law.vanderbilt.edu/vlr",
+      "slug": "vanderbilt_law_review",
+      "tier": "tier3",
+      "priority": 23,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["archive_browse", "search_crawl"]
+    },
+    {
+      "id": 24,
+      "journal": "Notre Dame Law Review",
+      "base_url": "https://www.notredamelawreview.org",
+      "slug": "notre_dame_law_review",
+      "tier": "tier3",
+      "priority": 24,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 25,
+      "journal": "Indiana Law Journal",
+      "base_url": "https://www.indianalawreview.org",
+      "slug": "indiana_law_journal",
+      "tier": "tier3",
+      "priority": 25,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 26,
+      "journal": "Southern California Law Review",
+      "base_url": "https://www.southerncalifornialawreview.org",
+      "slug": "southern_california_law_review",
+      "tier": "tier3",
+      "priority": 26,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 27,
+      "journal": "George Washington Law Review",
+      "base_url": "https://www.georgewashingtonlawreview.org",
+      "slug": "george_washington_law_review",
+      "tier": "tier3",
+      "priority": 27,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 28,
+      "journal": "Florida Law Review",
+      "base_url": "https://www.floridalawreview.org",
+      "slug": "florida_law_review",
+      "tier": "tier3",
+      "priority": 28,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 29,
+      "journal": "Washington Law Review",
+      "base_url": "https://www.washingtonlawreview.org",
+      "slug": "washington_law_review",
+      "tier": "tier3",
+      "priority": 29,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 30,
+      "journal": "Arizona Law Review",
+      "base_url": "https://www.arizonalawreview.org",
+      "slug": "arizona_law_review",
+      "tier": "tier3",
+      "priority": 30,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 31,
+      "journal": "California Law Review",
+      "base_url": "https://www.californialawreview.org",
+      "slug": "california_law_review",
+      "tier": "tier3",
+      "priority": 31,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    },
+    {
+      "id": 32,
+      "journal": "Iowa Law Review",
+      "base_url": "https://ilr.law.uiowa.edu",
+      "slug": "iowa_law_review",
+      "tier": "tier3",
+      "priority": 32,
+      "target_pairs": 10,
+      "status": "ready",
+      "strategies": ["browse_recent", "search_crawl"]
+    }
+  ],
+  "strategy_priority": {
+    "browse_recent": 1,
+    "search_crawl": 2,
+    "archive_browse": 3,
+    "rss_feed": 4,
+    "url_patterns": 5
+  },
+  "rate_limiting": {
+    "delay_between_requests_seconds": 3,
+    "max_articles_per_hour": 10,
+    "backoff_on_429": 60,
+    "backoff_on_503": 300
+  },
+  "deployment_notes": {
+    "tier1": "Top law reviews (6 agents) - highest success expected",
+    "tier2": "Major law reviews (9 agents) - good success rate",
+    "tier3": "Established law reviews (17 agents) - diverse coverage",
+    "batch_1": "Agents 1-6 (Tier 1) - test batch",
+    "batch_2": "Agents 7-15 (Tier 2) - expansion",
+    "batch_3": "Agents 16-32 (Tier 3) - full deployment"
+  }
+}
