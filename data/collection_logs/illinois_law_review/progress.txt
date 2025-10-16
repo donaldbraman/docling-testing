@@ -1,0 +1,5 @@
+JOURNAL: Illinois Law Review
+BASE_URL: https://scholarship.law.illinois.edu/illinois_law_review
+COLLECTED: 0/10
+SUCCESS_RATE: 0.0%
+TIME_ELAPSED: 0s

@@ -1,0 +1,5 @@
+JOURNAL: Boston College Law Review
+BASE_URL: https://bclawreview.bc.edu
+COLLECTED: 10/10
+SUCCESS_RATE: 100.0%
+TIME_ELAPSED: 1s

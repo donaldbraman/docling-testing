@@ -1,0 +1,5 @@
+JOURNAL: Florida Law Review
+BASE_URL: https://www.floridalawreview.org
+COLLECTED: 0/10
+SUCCESS_RATE: 0.0%
+TIME_ELAPSED: 1s

@@ -1,0 +1,5 @@
+JOURNAL: Indiana Law Journal
+BASE_URL: https://www.indianalawreview.org
+COLLECTED: 0/10
+SUCCESS_RATE: 0.0%
+TIME_ELAPSED: 0s
