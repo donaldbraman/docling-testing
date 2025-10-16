@@ -1,6 +1,6 @@
 [project]
 name = "docling-testing"
-version = "0.1.0"
+version = "3.0.0"
 description = "ML model training repository for document structure classification"
 requires-python = ">=3.13"
 dependencies = [
