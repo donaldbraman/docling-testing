@@ -72,17 +72,10 @@ def extract_spatial_corpus(
             # Convert PDF with Docling
             result = converter.convert(pdf_file)
 
-            # Get page dimensions from first page (fallback to standard)
+            # Get page dimensions (will be retrieved per-page from prov)
+            # Default fallback dimensions
             page_width = 612  # US Letter width in points
             page_height = 792  # US Letter height in points
-
-            # Try to get actual dimensions if available
-            if hasattr(result, "document") and hasattr(result.document, "pages"):
-                if len(result.document.pages) > 0:
-                    first_page = result.document.pages[0]
-                    if hasattr(first_page, "size"):
-                        page_width = first_page.size.width
-                        page_height = first_page.size.height
 
             # Extract text blocks with bbox
             for item in result.document.texts:
@@ -97,44 +90,62 @@ def extract_spatial_corpus(
                 docling_label = str(item.label) if hasattr(item, "label") else "text"
                 label = map_docling_label(docling_label)
 
-                # Get bbox if available
-                if hasattr(item, "bbox") and item.bbox:
-                    bbox = item.bbox
-
-                    # Handle coordinate origin
-                    if hasattr(bbox, "coord_origin") and bbox.coord_origin == "BOTTOMLEFT":
-                        # Convert to TOPLEFT
-                        x0 = bbox.l
-                        y0 = page_height - bbox.t
-                        x1 = bbox.r
-                        y1 = page_height - bbox.b
-                    else:
-                        x0 = bbox.l if hasattr(bbox, "l") else 0
-                        y0 = bbox.t if hasattr(bbox, "t") else 0
-                        x1 = bbox.r if hasattr(bbox, "r") else 0
-                        y1 = bbox.b if hasattr(bbox, "b") else 0
-
-                    # Normalize to [0-999]
-                    x0_norm = int(1000 * (x0 / page_width)) if page_width > 0 else 0
-                    y0_norm = int(1000 * (y0 / page_height)) if page_height > 0 else 0
-                    x1_norm = int(1000 * (x1 / page_width)) if page_width > 0 else 0
-                    y1_norm = int(1000 * (y1 / page_height)) if page_height > 0 else 0
-
-                    # Clamp to [0-999]
-                    x0_norm = max(0, min(999, x0_norm))
-                    y0_norm = max(0, min(999, y0_norm))
-                    x1_norm = max(0, min(999, x1_norm))
-                    y1_norm = max(0, min(999, y1_norm))
-
-                    width = abs(x1_norm - x0_norm)
-                    height = abs(y1_norm - y0_norm)
-                else:
-                    # No bbox available
+                # Get bbox from prov (provenance)
+                if not hasattr(item, "prov") or not item.prov:
                     stats["skipped_no_bbox"] += 1
                     continue
 
-                # Get page number
-                page = item.page if hasattr(item, "page") else 0
+                # Get first provenance item (contains bbox and page)
+                prov_items = list(item.prov)
+                if len(prov_items) == 0:
+                    stats["skipped_no_bbox"] += 1
+                    continue
+
+                prov = prov_items[0]
+                if not hasattr(prov, "bbox") or not prov.bbox:
+                    stats["skipped_no_bbox"] += 1
+                    continue
+
+                bbox = prov.bbox
+                page = prov.page_no if hasattr(prov, "page_no") else 1
+
+                # Get page dimensions for this specific page
+                if page in result.document.pages:
+                    page_info = result.document.pages[page]
+                    page_width = page_info.size.width
+                    page_height = page_info.size.height
+                else:
+                    # Fallback to default dimensions if page not found
+                    page_width = 612
+                    page_height = 792
+
+                # Handle coordinate origin (Docling uses BOTTOMLEFT)
+                if hasattr(bbox, "coord_origin") and bbox.coord_origin == "BOTTOMLEFT":
+                    # Convert to TOPLEFT
+                    x0 = bbox.l
+                    y0 = page_height - bbox.t
+                    x1 = bbox.r
+                    y1 = page_height - bbox.b
+                else:
+                    x0 = bbox.l if hasattr(bbox, "l") else 0
+                    y0 = bbox.t if hasattr(bbox, "t") else 0
+                    x1 = bbox.r if hasattr(bbox, "r") else 0
+                    y1 = bbox.b if hasattr(bbox, "b") else 0
+
+                # Normalize to [0-999]
+                x0_norm = int(1000 * (x0 / page_width)) if page_width > 0 else 0
+                y0_norm = int(1000 * (y0 / page_height)) if page_height > 0 else 0
+                x1_norm = int(1000 * (x1 / page_width)) if page_width > 0 else 0
+                y1_norm = int(1000 * (y1 / page_height)) if page_height > 0 else 0
+
+                # Clamp to [0-999]
+                x0_norm = max(0, min(999, x0_norm))
+                y0_norm = max(0, min(999, y0_norm))
+                x1_norm = max(0, min(999, x1_norm))
+                y1_norm = max(0, min(999, y1_norm))
+
+                width = abs(x1_norm - x0_norm)
+                height = abs(y1_norm - y0_norm)
 
                 all_samples.append(
                     {
@@ -161,7 +172,10 @@ def extract_spatial_corpus(
 
         except Exception as e:
             stats["errors"] += 1
+            import traceback
+
             print(f"✗ Error processing {pdf_file.name}: {e}")
+            print(f"   Traceback: {traceback.format_exc()}")
 
     # Print statistics
     print("\n" + "=" * 80)
