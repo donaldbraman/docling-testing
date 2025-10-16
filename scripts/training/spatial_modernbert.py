@@ -60,7 +60,8 @@ class SpatialModernBERT(ModernBertPreTrainedModel):
         self.height_embedding = nn.Embedding(1000, 128)
 
         # Classifier head
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        dropout_prob = getattr(config, "classifier_dropout", 0.1)
+        self.dropout = nn.Dropout(dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, num_labels)
 
         # Initialize weights
