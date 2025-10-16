@@ -122,13 +122,15 @@ class SpatialModernBERT(ModernBertPreTrainedModel):
             output = (logits,) + outputs[1:]
             return ((loss,) + output) if loss is not None else output
 
-        # Return dict format
-        return {
-            "loss": loss,
-            "logits": logits,
-            "hidden_states": outputs.hidden_states if hasattr(outputs, "hidden_states") else None,
-            "attentions": outputs.attentions if hasattr(outputs, "attentions") else None,
-        }
+        # Return dict format - only include hidden_states/attentions if they exist
+        result = {"loss": loss, "logits": logits}
+
+        if hasattr(outputs, "hidden_states") and outputs.hidden_states is not None:
+            result["hidden_states"] = outputs.hidden_states
+        if hasattr(outputs, "attentions") and outputs.attentions is not None:
+            result["attentions"] = outputs.attentions
+
+        return result
 
 
 class FocalLoss(nn.Module):
