@@ -1,0 +1,1040 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Content Semantic Visualization</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #2196F3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            border-left: 5px solid #2196F3;
+            padding-left: 10px;
+        }
+        .legend {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 3px;
+        }
+        .legend-color {
+            width: 50px;
+            height: 30px;
+            border: 1px solid #999;
+            border-radius: 3px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .pdf-content {
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .pdf-header {
+            padding: 15px;
+            background: #f9f9f9;
+            border-bottom: 1px solid #eee;
+        }
+        .pdf-name {
+            font-weight: bold;
+            color: #1976D2;
+            font-size: 0.95em;
+            margin-bottom: 5px;
+        }
+        .pdf-stats {
+            font-size: 0.85em;
+            color: #666;
+        }
+        .content-blocks {
+            padding: 15px;
+        }
+        .content-section {
+            margin-bottom: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 3px;
+            text-transform: uppercase;
+            color: #333;
+        }
+        .content-block {
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 3px;
+            font-size: 0.85em;
+            line-height: 1.4;
+            border-left: 3px solid #999;
+        }
+        .summary {
+            background: #E3F2FD;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 PDF Content Semantic Visualization</h1>
+    <p>Docling-extracted text blocks organized by semantic class and displayed with color coding.</p>
+
+    <div class="summary">
+        <strong>How to read:</strong> Each PDF's content is organized by semantic type (headings, body text, footnotes, etc.).
+        This shows what Docling extracted and labeled, allowing validation of extraction quality and label accuracy.
+    </div>
+
+    <h2>Semantic Class Color Legend</h2>
+    <div class="legend">
+        <div class="legend-grid">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #ADD8E6;"></div>
+                <div><strong>Body Text</strong> - Main article content</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFD4A3;"></div>
+                <div><strong>Heading</strong> - Section/subsection titles</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FFB6D9;"></div>
+                <div><strong>Footnote</strong> - Bottom of page notes</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #C8E6C9;"></div>
+                <div><strong>Caption</strong> - Figure/table captions</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #DCDCDC;"></div>
+                <div><strong>Header/Footer</strong> - Repeated page info</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>PDF Content Samples</h2>
+    <div class="gallery">
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">boston_college_law_review_Boston_College_Law_Review.pdf</div>
+                <div class="pdf-stats">
+
+heading: 16 |
+body: 1058 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (16)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        A NEW FRONTIER FOR VOTING RIGHTS:
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        PRIV ATE PLAINTIFFS’ RIGHTS OF ACTION
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 14 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (1058)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        2039
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Abstract: On November 20, 2023, in Arkansas State Conference NAACP v.
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 1056 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">boston_college_law_review_Untitled.pdf</div>
+                <div class="pdf-stats">
+
+heading: 13 |
+body: 933 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (13)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        TWO STEPS CLOSER TO BRADY’S
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        ABANDONED PROMISE: THE FOURTH
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 11 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (933)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        2101
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Abstract: On July 19, 2023, in Juniper v. Davis, the United States Court of
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 931 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Access_Without_the_ADA_The_Implications_of_the_Federal_Judiciarys_Exemption_from_Following_the_Disab.pdf</div>
+                <div class="pdf-stats">
+
+body: 33 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (33)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1495
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Access Without the ADA: The Implications of the Federal Judiciary’s Exemption from Following the Disability Rights Statute It Upholds CG Mahajan* For over thirty years, the Americans with Disabilities Act (ADA) has been the main federal protection against discrimination for disabled people. Although
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 31 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Amazons_Quiet_Overhaul_of_the_Trademark_System.pdf</div>
+                <div class="pdf-stats">
+
+body: 131 |
+caption: 8 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (131)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1169
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Amazon’s Quiet Overhaul of the Trademark System Jeanne C. Fromer* & Mark P. McKenna** Amazon’s dominance as a platform is widely documented. But one aspect of that dominance has not received sufficient attention—the Amazon Brand Registry’s sweeping influence on firm behavior, particularly in relatio
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 129 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #C8E6C9;">
+                        Caption (8)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        1184 CALIFORNIA LAW REVIEW [Vol.  113:1169 Figure 1. Jaymo’s food sauces
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        1186 CALIFORNIA LAW REVIEW [Vol.  113:1169 Figure 3. Revised T-shirt design
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 6 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Crafting_a_New_Conservationism.pdf</div>
+                <div class="pdf-stats">
+
+body: 360 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (360)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1389
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Crafting a New Conservationism Natalie Jacewicz* Environmental law has an animal problem. It lacks an account of whether and how animals’ interests matter. Case in point: The agencies tasked with protecting wild animals cannot stop killing them. The National Oceanic and Atmospheric Administration sl
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 358 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Lovings_Borders.pdf</div>
+                <div class="pdf-stats">
+
+heading: 24 |
+body: 866 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (24)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        2025] LOVING’S BORDERS 1081
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        I.
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 22 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (866)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1079
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Loving’s Borders
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 864 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Revisiting_City_of_Morgan_Hill_Fixing_Californias_Direct_Democracy_Preemption_Test.pdf</div>
+                <div class="pdf-stats">
+
+body: 27 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (27)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1471
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Revisiting City of Morgan Hill: Fixing California’s Direct Democracy Preemption Test Ben Pearce* California has a housing crisis. Despite the state government’s best efforts to build more homes, local governments and local voters are finding new ways to circumvent those requirements. One such loopho
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 25 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Social_Justice_Conflicts_in_Public_Law.pdf</div>
+                <div class="pdf-stats">
+
+body: 91 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (91)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1315
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Social Justice Conflicts in Public Law Christopher S. Havasy*
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 89 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">california_law_review_Structural_Indeterminacy_and_the_Separation_of_Powers.pdf</div>
+                <div class="pdf-stats">
+
+body: 75 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (75)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1251
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Structural Indeterminacy and the Separation of Powers Joshua C. Macey* & Brian M. Richardson**
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 73 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_afrofuturism_protest.pdf</div>
+                <div class="pdf-stats">
+
+heading: 59 |
+body: 4480 |
+caption: 3 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (59)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        AFROFUTURISM IN PROTEST: DISSENT AND
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        REVOLUTION
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 57 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (4480)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1375
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Etienne C. Toussaint *
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 4478 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #C8E6C9;">
+                        Caption (3)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        resistance, labor activism, and grassroots organizing. Figures like James
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        of Figures Excepted, ch. 6, 1830 N.C. Sess. Laws  11 (noting that “the teaching of slaves to
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 1 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_constitutionalism_of_force.pdf</div>
+                <div class="pdf-stats">
+
+heading: 58 |
+body: 4404 |
+footnote: 1 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (58)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        COLUMBIA LA W REVIEW
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        VOL. 122 OCTOBER 2022 NO. 6
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 56 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (4404)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1539
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Farah Peterson *
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 4402 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFB6D9;">
+                        Footnote (1)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFB6D9; opacity: 0.7;">
+                        *    *    *
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_distinguishing_privacy_law.pdf</div>
+                <div class="pdf-stats">
+
+heading: 43 |
+body: 2764 |
+caption: 1 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (43)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        ESSAY
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        DISTINGUISHING PRIVACY LAW:
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 41 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (2764)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        507
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        María P. Angel * & Ryan Calo **
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 2762 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #C8E6C9;">
+                        Caption (1)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        Table Reﬂexivity and In/Visible Tools to Develop Reﬂexive Qualitative Research, 23 Qual.
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_forcings.pdf</div>
+                <div class="pdf-stats">
+
+heading: 73 |
+body: 3535 |
+footnote: 1 |
+caption: 16 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (73)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        COLUMBIA LAWREVIEW
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        VOL. 114 OCTOBER 2014 NO. 6
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 71 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (3535)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1297
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Lee Anne Fennell*
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 3533 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFB6D9;">
+                        Footnote (1)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFB6D9; opacity: 0.7;">
+                        * * *
+                    </div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #C8E6C9;">
+                        Caption (16)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        entities attempt to optimize land use. Table 1 sets out the domains within
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        social benefits, both, or neither. The distinction between Table 1’s top
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 14 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_law_review_a_right_of_peaceable_assembly.pdf</div>
+                <div class="pdf-stats">
+
+heading: 64 |
+body: 4380 |
+footnote: 2 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (64)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        SYMPOSIUM PIECES
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        A RIGHT OF PEACEABLE ASSEMBLY
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 62 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (4380)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1049
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Tabatha Abu El-Haj *
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 4378 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFB6D9;">
+                        Footnote (2)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFB6D9; opacity: 0.7;">
+                        *    *    *
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFB6D9; opacity: 0.7;">
+                        *    *    *
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="pdf-content">
+            <div class="pdf-header">
+                <div class="pdf-name">columbia_law_review_afrofuturism_in_protest_dissent_and_revolution.pdf</div>
+                <div class="pdf-stats">
+
+heading: 59 |
+body: 4480 |
+caption: 3 |
+
+                </div>
+            </div>
+            <div class="content-blocks">
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #FFD4A3;">
+                        Heading (59)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        AFROFUTURISM IN PROTEST: DISSENT AND
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #FFD4A3; opacity: 0.7;">
+                        REVOLUTION
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 57 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #ADD8E6;">
+                        Body (4480)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        1375
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #ADD8E6; opacity: 0.7;">
+                        Etienne C. Toussaint *
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 4478 more</div>
+
+                </div>
+
+
+                <div class="content-section">
+                    <div class="section-title" style="background-color: #C8E6C9;">
+                        Caption (3)
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        resistance, labor activism, and grassroots organizing. Figures like James
+                    </div>
+
+
+                    <div class="content-block" style="background-color: #C8E6C9; opacity: 0.7;">
+                        of Figures Excepted, ch. 6, 1830 N.C. Sess. Laws  11 (noting that “the teaching of slaves to
+                    </div>
+
+                    <div style="font-size: 0.8em; color: #999; padding: 5px;">... and 1 more</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <h2>About This Visualization</h2>
+    <p>
+        This gallery shows actual extracted text blocks from PDFs, organized by semantic class.
+        Each section shows a sample of content identified by Docling's semantic understanding.
+    </p>
+    <p>
+        This helps validate:
+    </p>
+    <ul>
+        <li><strong>Label accuracy:</strong> Are the detected labels correct?</li>
+        <li><strong>Extraction quality:</strong> Is text extracted correctly?</li>
+        <li><strong>Content diversity:</strong> What's the mix of different semantic types?</li>
+        <li><strong>Corpus quality:</strong> Is this data suitable for training?</li>
+    </ul>
+</body>
+</html>
