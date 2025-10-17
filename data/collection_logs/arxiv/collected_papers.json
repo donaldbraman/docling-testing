@@ -1,0 +1,840 @@
+[
+  {
+    "arxiv_id": "2510.14981",
+    "title": "Coupled Diffusion Sampling for Training-Free Multi-View Image Editing",
+    "authors": [
+      "Hadi Alzayer",
+      "Yunzhi Zhang",
+      "Chen Geng",
+      "Jia-Bin Huang",
+      "Jiajun Wu"
+    ],
+    "summary": "We present an inference-time diffusion sampling method to perform multi-view\nconsistent image editing using pre-trained 2D image editing models. These\nmodels can independently produce high-quality edi",
+    "published": "2025-10-16T17:59:59Z",
+    "category": "cs.AI",
+    "html_path": "data/raw_html/arxiv_2510_14981.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14981.pdf",
+    "html_size": 174442,
+    "pdf_size": 35362557,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14979",
+    "title": "From Pixels to Words -- Towards Native Vision-Language Primitives at\n  Scale",
+    "authors": [
+      "Haiwen Diao",
+      "Mingxuan Li",
+      "Silei Wu",
+      "Linjun Dai",
+      "Xiaohua Wang",
+      "Hanming Deng",
+      "Lewei Lu",
+      "Dahua Lin",
+      "Ziwei Liu"
+    ],
+    "summary": "The edifice of native Vision-Language Models (VLMs) has emerged as a rising\ncontender to typical modular VLMs, shaped by evolving model architectures and\ntraining paradigms. Yet, two lingering clouds ",
+    "published": "2025-10-16T17:59:58Z",
+    "category": "cs.AI",
+    "html_path": "data/raw_html/arxiv_2510_14979.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14979.pdf",
+    "html_size": 271774,
+    "pdf_size": 1535295,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14980",
+    "title": "Agentic Design of Compositional Machines",
+    "authors": [
+      "Wenqian Zhang",
+      "Weiyang Liu",
+      "Zhen Liu"
+    ],
+    "summary": "The design of complex machines stands as both a marker of human intelligence\nand a foundation of engineering practice. Given recent advances in large\nlanguage models (LLMs), we ask whether they, too, ",
+    "published": "2025-10-16T17:59:58Z",
+    "category": "cs.AI",
+    "html_path": "data/raw_html/arxiv_2510_14980.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14980.pdf",
+    "html_size": 2434588,
+    "pdf_size": 30953469,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14977",
+    "title": "Terra: Explorable Native 3D World Model with Point Latents",
+    "authors": [
+      "Yuanhui Huang",
+      "Weiliang Chen",
+      "Wenzhao Zheng",
+      "Xin Tao",
+      "Pengfei Wan",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "summary": "World models have garnered increasing attention for comprehensive modeling of\nthe real world. However, most existing methods still rely on pixel-aligned\nrepresentations as the basis for world evolutio",
+    "published": "2025-10-16T17:59:56Z",
+    "category": "cs.AI",
+    "html_path": "data/raw_html/arxiv_2510_14977.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14977.pdf",
+    "html_size": 161766,
+    "pdf_size": 45391195,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14975",
+    "title": "WithAnyone: Towards Controllable and ID Consistent Image Generation",
+    "authors": [
+      "Hengyuan Xu",
+      "Wei Cheng",
+      "Peng Xing",
+      "Yixiao Fang",
+      "Shuhan Wu",
+      "Rui Wang",
+      "Xianfang Zeng",
+      "Daxin Jiang",
+      "Gang Yu",
+      "Xingjun Ma",
+      "Yu-Gang Jiang"
+    ],
+    "summary": "Identity-consistent generation has become an important focus in text-to-image\nresearch, with recent models achieving notable success in producing images\naligned with a reference identity. Yet, the sca",
+    "published": "2025-10-16T17:59:54Z",
+    "category": "cs.AI",
+    "html_path": "data/raw_html/arxiv_2510_14975.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14975.pdf",
+    "html_size": 283035,
+    "pdf_size": 28866136,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14980",
+    "title": "Agentic Design of Compositional Machines",
+    "authors": [
+      "Wenqian Zhang",
+      "Weiyang Liu",
+      "Zhen Liu"
+    ],
+    "summary": "The design of complex machines stands as both a marker of human intelligence\nand a foundation of engineering practice. Given recent advances in large\nlanguage models (LLMs), we ask whether they, too, ",
+    "published": "2025-10-16T17:59:58Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14980.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14980.pdf",
+    "html_size": 2434588,
+    "pdf_size": 30953469,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14978",
+    "title": "Learning an Image Editing Model without Image Editing Pairs",
+    "authors": [
+      "Nupur Kumari",
+      "Sheng-Yu Wang",
+      "Nanxuan Zhao",
+      "Yotam Nitzan",
+      "Yuheng Li",
+      "Krishna Kumar Singh",
+      "Richard Zhang",
+      "Eli Shechtman",
+      "Jun-Yan Zhu",
+      "Xun Huang"
+    ],
+    "summary": "Recent image editing models have achieved impressive results while following\nnatural language editing instructions, but they rely on supervised fine-tuning\nwith large datasets of input-target pairs. T",
+    "published": "2025-10-16T17:59:57Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14978.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14978.pdf",
+    "html_size": 330953,
+    "pdf_size": 28279013,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14977",
+    "title": "Terra: Explorable Native 3D World Model with Point Latents",
+    "authors": [
+      "Yuanhui Huang",
+      "Weiliang Chen",
+      "Wenzhao Zheng",
+      "Xin Tao",
+      "Pengfei Wan",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "summary": "World models have garnered increasing attention for comprehensive modeling of\nthe real world. However, most existing methods still rely on pixel-aligned\nrepresentations as the basis for world evolutio",
+    "published": "2025-10-16T17:59:56Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14977.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14977.pdf",
+    "html_size": 161766,
+    "pdf_size": 45391195,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14972",
+    "title": "TokDrift: When LLM Speaks in Subwords but Code Speaks in Grammar",
+    "authors": [
+      "Yinxi Li",
+      "Yuntian Deng",
+      "Pengyu Nie"
+    ],
+    "summary": "Large language models (LLMs) for code rely on subword tokenizers, such as\nbyte-pair encoding (BPE), learned from mixed natural language text and\nprogramming language code but driven by statistics rath",
+    "published": "2025-10-16T17:59:45Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14972.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14972.pdf",
+    "html_size": 593509,
+    "pdf_size": 6620800,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14969",
+    "title": "LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent\n  Training",
+    "authors": [
+      "Yiming Wang",
+      "Da Yin",
+      "Yuedong Cui",
+      "Ruichen Zheng",
+      "Zhiqian Li",
+      "Zongyu Lin",
+      "Di Wu",
+      "Xueqing Wu",
+      "Chenchen Ye",
+      "Yu Zhou",
+      "Kai-Wei Chang"
+    ],
+    "summary": "Digital agents require diverse, large-scale UI trajectories to generalize\nacross real-world tasks, yet collecting such data is prohibitively expensive in\nboth human annotation, infra and engineering p",
+    "published": "2025-10-16T17:59:38Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14969.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14969.pdf",
+    "html_size": 332516,
+    "pdf_size": 2635276,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14970",
+    "title": "Biology-informed neural networks learn nonlinear representations from\n  omics data to improve genomic prediction and interpretability",
+    "authors": [
+      "Katiana Kontolati",
+      "Rini Jasmine Gladstone",
+      "Ian Davis",
+      "Ethan Pickering"
+    ],
+    "summary": "We extend biologically-informed neural networks (BINNs) for genomic\nprediction (GP) and selection (GS) in crops by integrating thousands of\nsingle-nucleotide polymorphisms (SNPs) with multi-omics meas",
+    "published": "2025-10-16T17:59:38Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14970.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14970.pdf",
+    "html_size": 185550,
+    "pdf_size": 9069188,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14968",
+    "title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in\n  Long-Horizon Tasks",
+    "authors": [
+      "Mingxuan Yan",
+      "Yuping Wang",
+      "Zechun Liu",
+      "Jiachen Li"
+    ],
+    "summary": "To tackle long-horizon tasks, recent hierarchical vision-language-action\n(VLAs) frameworks employ vision-language model (VLM)-based planners to\ndecompose complex manipulation tasks into simpler sub-ta",
+    "published": "2025-10-16T17:59:37Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14968.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14968.pdf",
+    "html_size": 455989,
+    "pdf_size": 4361652,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14967",
+    "title": "Information Gain-based Policy Optimization: A Simple and Effective\n  Approach for Multi-Turn LLM Agents",
+    "authors": [
+      "Guoqing Wang",
+      "Sunhao Dai",
+      "Guangze Ye",
+      "Zeyu Gan",
+      "Wei Yao",
+      "Yong Deng",
+      "Xiaofeng Wu",
+      "Zhenzhe Ying"
+    ],
+    "summary": "Large language model (LLM)-based agents are increasingly trained with\nreinforcement learning (RL) to enhance their ability to interact with external\nenvironments through tool use, particularly in sear",
+    "published": "2025-10-16T17:59:32Z",
+    "category": "cs.LG",
+    "html_path": "data/raw_html/arxiv_2510_14967.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14967.pdf",
+    "html_size": 270700,
+    "pdf_size": 2336175,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14980",
+    "title": "Agentic Design of Compositional Machines",
+    "authors": [
+      "Wenqian Zhang",
+      "Weiyang Liu",
+      "Zhen Liu"
+    ],
+    "summary": "The design of complex machines stands as both a marker of human intelligence\nand a foundation of engineering practice. Given recent advances in large\nlanguage models (LLMs), we ask whether they, too, ",
+    "published": "2025-10-16T17:59:58Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14980.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14980.pdf",
+    "html_size": 2434588,
+    "pdf_size": 30953469,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14972",
+    "title": "TokDrift: When LLM Speaks in Subwords but Code Speaks in Grammar",
+    "authors": [
+      "Yinxi Li",
+      "Yuntian Deng",
+      "Pengyu Nie"
+    ],
+    "summary": "Large language models (LLMs) for code rely on subword tokenizers, such as\nbyte-pair encoding (BPE), learned from mixed natural language text and\nprogramming language code but driven by statistics rath",
+    "published": "2025-10-16T17:59:45Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14972.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14972.pdf",
+    "html_size": 593509,
+    "pdf_size": 6620800,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14969",
+    "title": "LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent\n  Training",
+    "authors": [
+      "Yiming Wang",
+      "Da Yin",
+      "Yuedong Cui",
+      "Ruichen Zheng",
+      "Zhiqian Li",
+      "Zongyu Lin",
+      "Di Wu",
+      "Xueqing Wu",
+      "Chenchen Ye",
+      "Yu Zhou",
+      "Kai-Wei Chang"
+    ],
+    "summary": "Digital agents require diverse, large-scale UI trajectories to generalize\nacross real-world tasks, yet collecting such data is prohibitively expensive in\nboth human annotation, infra and engineering p",
+    "published": "2025-10-16T17:59:38Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14969.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14969.pdf",
+    "html_size": 332516,
+    "pdf_size": 2635276,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14967",
+    "title": "Information Gain-based Policy Optimization: A Simple and Effective\n  Approach for Multi-Turn LLM Agents",
+    "authors": [
+      "Guoqing Wang",
+      "Sunhao Dai",
+      "Guangze Ye",
+      "Zeyu Gan",
+      "Wei Yao",
+      "Yong Deng",
+      "Xiaofeng Wu",
+      "Zhenzhe Ying"
+    ],
+    "summary": "Large language model (LLM)-based agents are increasingly trained with\nreinforcement learning (RL) to enhance their ability to interact with external\nenvironments through tool use, particularly in sear",
+    "published": "2025-10-16T17:59:32Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14967.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14967.pdf",
+    "html_size": 270700,
+    "pdf_size": 2336175,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14961",
+    "title": "Efficient Parallel Samplers for Recurrent-Depth Models and Their\n  Connection to Diffusion Language Models",
+    "authors": [
+      "Jonas Geiping",
+      "Xinyu Yang",
+      "Guinan Su"
+    ],
+    "summary": "Language models with recurrent depth, also referred to as universal or looped\nwhen considering transformers, are defined by the capacity to increase their\ncomputation through the repetition of layers.",
+    "published": "2025-10-16T17:59:07Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14961.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14961.pdf",
+    "html_size": 261168,
+    "pdf_size": 1466671,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14958",
+    "title": "MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal\n  Mathematical Reasoning",
+    "authors": [
+      "Weikang Shi",
+      "Aldrich Yu",
+      "Rongyao Fang",
+      "Houxing Ren",
+      "Ke Wang",
+      "Aojun Zhou",
+      "Changyao Tian",
+      "Xinyu Fu",
+      "Yuxuan Hu",
+      "Zimu Lu",
+      "Linjiang Huang",
+      "Si Liu",
+      "Rui Liu",
+      "Hongsheng Li"
+    ],
+    "summary": "While Large Language Models (LLMs) have excelled in textual reasoning, they\nstruggle with mathematical domains like geometry that intrinsically rely on\nvisual aids. Existing approaches to Visual Chain",
+    "published": "2025-10-16T17:58:58Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14958.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14958.pdf",
+    "html_size": 194517,
+    "pdf_size": 3136661,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14949",
+    "title": "DialectGen: Benchmarking and Improving Dialect Robustness in Multimodal\n  Generation",
+    "authors": [
+      "Yu Zhou",
+      "Sohyun An",
+      "Haikang Deng",
+      "Da Yin",
+      "Clark Peng",
+      "Cho-Jui Hsieh",
+      "Kai-Wei Chang",
+      "Nanyun Peng"
+    ],
+    "summary": "Contact languages like English exhibit rich regional variations in the form\nof dialects, which are often used by dialect speakers interacting with\ngenerative models. However, can multimodal generative",
+    "published": "2025-10-16T17:56:55Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14949.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14949.pdf",
+    "html_size": 439583,
+    "pdf_size": 6194181,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14944",
+    "title": "MetaBench: A Multi-task Benchmark for Assessing LLMs in Metabolomics",
+    "authors": [
+      "Yuxing Lu",
+      "Xukai Zhao",
+      "J. Ben Tamo",
+      "Micky C. Nnamdi",
+      "Rui Peng",
+      "Shuang Zeng",
+      "Xingyu Hu",
+      "Jinzhuo Wang",
+      "May D. Wang"
+    ],
+    "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities on\ngeneral text; however, their proficiency in specialized scientific domains that\nrequire deep, interconnected knowledge remains",
+    "published": "2025-10-16T17:55:14Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14944.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14944.pdf",
+    "html_size": 278577,
+    "pdf_size": 2348727,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14943",
+    "title": "LaSeR: Reinforcement Learning with Last-Token Self-Rewarding",
+    "authors": [
+      "Wenkai Yang",
+      "Weijie Liu",
+      "Ruobing Xie",
+      "Yiju Guo",
+      "Lulu Wu",
+      "Saiyong Yang",
+      "Yankai Lin"
+    ],
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as\na core paradigm for enhancing the reasoning capabilities of Large Language\nModels (LLMs). To address the lack of verificat",
+    "published": "2025-10-16T17:55:11Z",
+    "category": "cs.CL",
+    "html_path": "data/raw_html/arxiv_2510_14943.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14943.pdf",
+    "html_size": 364578,
+    "pdf_size": 1214321,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14797",
+    "title": "Grain volume distribution alters the critical phenomena in complex\n  granular systems",
+    "authors": [
+      "Teng Man",
+      "Yimin Lu",
+      "Zhongrong Wang",
+      "Herbert Huppert",
+      "Alessio Zaccone",
+      "Honglei Sun"
+    ],
+    "summary": "The grain size distribution (GSD) plays an important role in the mechanical\nproperties of amorphous disordered systems and complex granular materials.\nVarying GSD causes segregation issues and alters ",
+    "published": "2025-10-16T15:30:37Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14797.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14797.pdf",
+    "html_size": 148335,
+    "pdf_size": 8667145,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14515",
+    "title": "Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and\n  Efficient Light-Enabled Neuromorphic Processing Systems",
+    "authors": [
+      "Andrew Adair",
+      "Dafydd Owen-Newns",
+      "Giovanni Donati",
+      "Joshua Robertson",
+      "Jos\u00e9 Figueiredo",
+      "Eduard Wasige",
+      "Qusay Al-Taai",
+      "Bruno Romeira",
+      "Mat\u011bj Hejda",
+      "Antonio Hurtado"
+    ],
+    "summary": "Neuromorphic computing seeks to replicate the spiking dynamics of biological\nneurons for brain-inspired computation. While electronic implementations of\nartificial spiking neurons have dominated to da",
+    "published": "2025-10-16T09:59:56Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14515.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14515.pdf",
+    "html_size": 157322,
+    "pdf_size": 6438319,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14472",
+    "title": "Asymmetric integrable turbulence and rogue wave statistics for the\n  derivative nonlinear Schr\u00f6dinger equation",
+    "authors": [
+      "Ming Zhong",
+      "Weifang Weng",
+      "Zhenya Yan"
+    ],
+    "summary": "We investigate the asymmetric integrable turbulence and rogue waves (RWs)\nemerging from the modulation instability (MI) of plane waves for the DNLS\nequation. The \\(n\\)-th moments and ensemble-averaged",
+    "published": "2025-10-16T09:12:01Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14472.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14472.pdf",
+    "html_size": 385693,
+    "pdf_size": 2801060,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14362",
+    "title": "Anti-Interference Communication Using Computational Antenna",
+    "authors": [
+      "Xiaocun Zong",
+      "Fan Yang",
+      "Shenheng Xu",
+      "Maokun Li"
+    ],
+    "summary": "This letter proposes a novel anti-interference communication method\nleveraging computational antennas, utilizing time averaging and 1-bit\nreconfigurable intelligent surfaces (RIS) to achieve robust si",
+    "published": "2025-10-16T06:58:45Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14362.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14362.pdf",
+    "html_size": 66978,
+    "pdf_size": 27112950,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14181",
+    "title": "Phenomenological Ehrenfest Dynamics with Topological and Geometric Phase\n  Effects and the curious case of Elliptical intersection",
+    "authors": [
+      "Dhruv Sharma"
+    ],
+    "summary": "We present a comprehensive computational framework for simulating\nnonadiabatic molecular dynamics with explicit inclusion of geometric phase (GP)\neffects. Our approach is based on a generalized two-le",
+    "published": "2025-10-16T00:22:31Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14181.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14181.pdf",
+    "html_size": 309025,
+    "pdf_size": 2184415,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14164",
+    "title": "Breaking gyrochronology through the collapse of coronal winds",
+    "authors": [
+      "Micha\u00ebl L\u00e9vesque",
+      "Paul Charbonneau"
+    ],
+    "summary": "Gyrochronology, a method for dating aged field stars ($\\gtrsim$ a few Gyr)\nbased on their rotation rate, has recently been shown to fail for many stars\nolder than the sun. The explanation most often p",
+    "published": "2025-10-15T23:25:13Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_14164.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14164.pdf",
+    "html_size": 253549,
+    "pdf_size": 565235,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.13989",
+    "title": "Surrogate Models for Linear Response",
+    "authors": [
+      "L. Jin",
+      "A. Ravli\u0107",
+      "P. Giuliani",
+      "K. Godbey",
+      "W. Nazarewicz"
+    ],
+    "summary": "Linear response theory is a well-established method in physics and chemistry\nfor exploring excitations of many-body systems. In particular, the\nquasiparticle random-phase approximation (QRPA) provides",
+    "published": "2025-10-15T18:11:48Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_13989.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_13989.pdf",
+    "html_size": 336704,
+    "pdf_size": 3116195,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.13726",
+    "title": "Efficient Wall-Modelled Large Eddy Simulation of Rotors using\n  Homogenized Lattice Boltzmann Methods",
+    "authors": [
+      "Adrian Kummerl\u00e4nder",
+      "Shota Ito",
+      "Maximilian Schecher",
+      "Davide Dapelo",
+      "Stephan Simonis",
+      "Mathias J. Krause",
+      "Fedor Bukreev"
+    ],
+    "summary": "Accurately capturing the dynamic forces acting on rotors as well as their\nwake effects presents a significant challenge for computational fluid dynamics\n(CFD) due to high Reynolds numbers and a large ",
+    "published": "2025-10-15T16:29:50Z",
+    "category": "physics.comp-ph",
+    "html_path": "data/raw_html/arxiv_2510_13726.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_13726.pdf",
+    "html_size": 251409,
+    "pdf_size": 11972870,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14523",
+    "title": "On the Identifiability of Tensor Ranks via Prior Predictive Matching",
+    "authors": [
+      "Eliezer da Silva",
+      "Arto Klami",
+      "Diego Mesquita",
+      "I\u00f1igo Urteaga"
+    ],
+    "summary": "Selecting the latent dimensions (ranks) in tensor factorization is a central\nchallenge that often relies on heuristic methods. This paper introduces a\nrigorous approach to determine rank identifiabili",
+    "published": "2025-10-16T10:13:45Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14523.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14523.pdf",
+    "html_size": 677206,
+    "pdf_size": 1014465,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14482",
+    "title": "Strong consistency of pseudo-likelihood parameter estimator for\n  univariate Gaussian mixture models",
+    "authors": [
+      "J\u00fcri Lember",
+      "Raul Kangro",
+      "Kristi Kuljus"
+    ],
+    "summary": "We consider a new method for estimating the parameters of univariate Gaussian\nmixture models. The method relies on a nonparametric density estimator\n$\\hat{f}_n$ (typically a kernel estimator). For eve",
+    "published": "2025-10-16T09:26:21Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14482.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14482.pdf",
+    "html_size": 532683,
+    "pdf_size": 432021,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14430",
+    "title": "The geometry of PLS shrinkages",
+    "authors": [
+      "Paolo Foschi"
+    ],
+    "summary": "The geometrical structure of PLS shrinkages is here considered. Firstly, an\nexplicit formula for the shrinkage vector is provided. In that expression,\nshrinkage factors are expressed a averages of a s",
+    "published": "2025-10-16T08:31:34Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14430.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14430.pdf",
+    "html_size": 622454,
+    "pdf_size": 414727,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14415",
+    "title": "Evaluating Policy Effects under Network Interference without Network\n  Information: A Transfer Learning Approach",
+    "authors": [
+      "Tadao Hoshino"
+    ],
+    "summary": "This paper develops a sensitivity analysis framework that transfers the\naverage total treatment effect (ATTE) from source data with a fully observed\nnetwork to target data whose network is completely ",
+    "published": "2025-10-16T08:19:26Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14415.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14415.pdf",
+    "html_size": 973897,
+    "pdf_size": 691898,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14285",
+    "title": "Debiased Kernel Estimation of Spot Volatility in the Presence of\n  Infinite Variation Jumps",
+    "authors": [
+      "B. Cooper Boniece",
+      "Jos\u00e9 E. Figueroa-L\u00f3pez",
+      "Tianwei Zhou"
+    ],
+    "summary": "Volatility estimation is a central problem in financial econometrics, but\nbecomes particularly challenging when jump activity is high, a phenomenon\nobserved empirically in highly traded financial secu",
+    "published": "2025-10-16T04:16:38Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14285.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14285.pdf",
+    "html_size": 2046162,
+    "pdf_size": 697585,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14108",
+    "title": "On Time-subordinated Brownian Motion Processes for Financial Markets",
+    "authors": [
+      "Rohan Shenoy",
+      "Peter Kempthorne"
+    ],
+    "summary": "The key purpose of this paper is to present Fourier method to model the\nstochastic time-change in this context of time-subordinated Brownian motion\nmodels. We review Gaussian Variance-Mean mixtures an",
+    "published": "2025-10-15T21:26:27Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14108.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14108.pdf",
+    "html_size": 317311,
+    "pdf_size": 2069872,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14055",
+    "title": "Minimum Hellinger Distance Estimators for Complex Survey Designs",
+    "authors": [
+      "David Keepplinger",
+      "Anand N. Vidyashankar"
+    ],
+    "summary": "Reliable inference from complex survey samples can be derailed by outliers\nand high-leverage observations induced by unequal inclusion probabilities and\ncalibration. We develop a minimum Hellinger dis",
+    "published": "2025-10-15T19:47:56Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14055.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14055.pdf",
+    "html_size": 693656,
+    "pdf_size": 898591,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14033",
+    "title": "Minimax Estimation for Periodically Correlated Stochastic Processes",
+    "authors": [
+      "Iryna Dubovets'ka",
+      "Mykhailo Moklyachuk"
+    ],
+    "summary": "The problem of optimal linear estimation of functional depending on the\nunknown values of periodically correlated stochastic process from observations\nof this process for is considered.\n  Formulas tha",
+    "published": "2025-10-15T19:16:18Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14033.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14033.pdf",
+    "html_size": 182307,
+    "pdf_size": 219665,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.14023",
+    "title": "Filtering Problem for Random Processes with Stationary Increments",
+    "authors": [
+      "Maksym Luz",
+      "Mykhailo Moklyachuk"
+    ],
+    "summary": "This paper deals with the problem of optimal mean-square filtering of the\nlinear functionals $A{\\xi}=\\int_{0}^{\\infty}a(t)\\xi(-t)dt$ and\n$A_T{\\xi}=\\int_{0}^Ta(t)\\xi(-t)dt$ which depend on the unknown ",
+    "published": "2025-10-15T19:04:12Z",
+    "category": "math.ST",
+    "html_path": "data/raw_html/arxiv_2510_14023.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_14023.pdf",
+    "html_size": 455835,
+    "pdf_size": 275008,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.13369",
+    "title": "A theory-based AI automation exposure index: Applying Moravec's Paradox\n  to the US labor market",
+    "authors": [
+      "Jacob Schaal"
+    ],
+    "summary": "This paper develops a theory-driven automation exposure index based on\nMoravec's Paradox. Scoring 19,000 O*NET tasks on performance variance, tacit\nknowledge, data abundance, and algorithmic gaps reve",
+    "published": "2025-10-15T10:00:33Z",
+    "category": "econ.GN",
+    "html_path": "data/raw_html/arxiv_2510_13369.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_13369.pdf",
+    "html_size": 152433,
+    "pdf_size": 3240113,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.12049",
+    "title": "Generative AI and Firm Productivity: Field Experiments in Online Retail",
+    "authors": [
+      "Lu Fang",
+      "Zhe Yuan",
+      "Kaifu Zhang",
+      "Dante Donati",
+      "Miklos Sarvary"
+    ],
+    "summary": "We quantify the impact of Generative Artificial Intelligence (GenAI) on firm\nproductivity through a series of large-scale randomized field experiments\ninvolving millions of users and products at a lea",
+    "published": "2025-10-14T01:17:09Z",
+    "category": "econ.GN",
+    "html_path": "data/raw_html/arxiv_2510_12049.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_12049.pdf",
+    "html_size": 961797,
+    "pdf_size": 3132218,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.11973",
+    "title": "Beyond Test Scores: How Academic Rank Shapes Long-Term Outcomes",
+    "authors": [
+      "Emilia Del Bono",
+      "Angus Holford",
+      "Tommaso Sartori"
+    ],
+    "summary": "We study the effects of academic rank using data on the entire population of\nchildren enrolled in primary schools in Aberdeen, Scotland, in 1962. Exploiting\nquasi-random variation in peer group compos",
+    "published": "2025-10-13T22:09:50Z",
+    "category": "econ.GN",
+    "html_path": "data/raw_html/arxiv_2510_11973.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_11973.pdf",
+    "html_size": 431160,
+    "pdf_size": 1307782,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.11289",
+    "title": "Disentangling the Distributional Effects of Financial Shocks in the Euro\n  Area",
+    "authors": [
+      "Milo\u0161 Ciganovi\u0107",
+      "Elena Scola Gagliardi",
+      "Massimiliano Tancioni"
+    ],
+    "summary": "We estimate the dynamic distributional effects of financial shocks in the\nEuro Area using survey-based microdata on personal incomes. We find that\npositive financial shocks increase inequality, with h",
+    "published": "2025-10-13T11:27:15Z",
+    "category": "econ.GN",
+    "html_path": "data/raw_html/arxiv_2510_11289.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_11289.pdf",
+    "html_size": 291370,
+    "pdf_size": 1519347,
+    "validated": true
+  },
+  {
+    "arxiv_id": "2510.11261",
+    "title": "Mean-Field Price Formation on Trees",
+    "authors": [
+      "Masaaki Fujii"
+    ],
+    "summary": "In this work, we combine the mean-field game theory with the classical idea\nof binomial tree framework, pioneered by Sharpe and Cox, Ross & Rubinstein, to\nsolve the equilibrium price formation problem",
+    "published": "2025-10-13T10:51:56Z",
+    "category": "econ.GN",
+    "html_path": "data/raw_html/arxiv_2510_11261.html",
+    "pdf_path": "data/raw_pdf/arxiv_2510_11261.pdf",
+    "html_size": 677479,
+    "pdf_size": 985490,
+    "validated": true
+  }
+]

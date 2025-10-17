@@ -1,5 +1,0 @@
-JOURNAL: University of Pennsylvania Law Review
-BASE_URL: https://scholarship.law.upenn.edu/penn_law_review
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 1s

@@ -1,5 +1,0 @@
-JOURNAL: Notre Dame Law Review
-BASE_URL: https://www.notredamelawreview.org
-COLLECTED: 0/10
-SUCCESS_RATE: 0.0%
-TIME_ELAPSED: 0s

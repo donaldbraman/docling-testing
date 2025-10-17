@@ -1,5 +1,0 @@
-JOURNAL: University of Chicago Law Review
-BASE_URL: https://lawreview.uchicago.edu
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 0s
