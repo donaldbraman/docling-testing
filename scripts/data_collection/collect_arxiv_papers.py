@@ -65,7 +65,7 @@ def search_arxiv_category(category, max_results=10):
         list: Paper metadata
     """
     params = {
-        "search_query": f"cat:{category} AND submittedDate:[202401* TO 202412*]",
+        "search_query": f"cat:{category} AND submittedDate:[202401* TO 202512*]",
         "start": 0,
         "max_results": max_results,
         "sortBy": "submittedDate",
