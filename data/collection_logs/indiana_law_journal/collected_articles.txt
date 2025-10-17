@@ -1,0 +1,50 @@
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/1
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11575&context=ilj
+HTML File: indiana_law_journal_foreword.html
+PDF File: indiana_law_journal_foreword.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/2
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11576&context=ilj
+HTML File: indiana_law_journal_the_mirage_of_artificial_intelligence_terms_of_use_restrictions.html
+PDF File: indiana_law_journal_the_mirage_of_artificial_intelligence_terms_of_use_restrictions.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/3
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11577&context=ilj
+HTML File: indiana_law_journal_dark_patterns_as_disloyal_design.html
+PDF File: indiana_law_journal_dark_patterns_as_disloyal_design.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/4
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11578&context=ilj
+HTML File: indiana_law_journal_the_overstated_cost_of_ai_fairness_in_criminal_justice.html
+PDF File: indiana_law_journal_the_overstated_cost_of_ai_fairness_in_criminal_justice.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/5
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11579&context=ilj
+HTML File: indiana_law_journal_unlocking_platform_data_for_research.html
+PDF File: indiana_law_journal_unlocking_platform_data_for_research.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/6
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11580&context=ilj
+HTML File: indiana_law_journal_multiplicity_as_an_ai_governance_principle.html
+PDF File: indiana_law_journal_multiplicity_as_an_ai_governance_principle.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/7
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11581&context=ilj
+HTML File: indiana_law_journal_unpacking_open_source_bio.html
+PDF File: indiana_law_journal_unpacking_open_source_bio.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/8
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11582&context=ilj
+HTML File: indiana_law_journal_moving_slow_and_fixing_things.html
+PDF File: indiana_law_journal_moving_slow_and_fixing_things.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/9
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11583&context=ilj
+HTML File: indiana_law_journal_can_ai_as_such_invade_your_privacy_an_experimental_study_of_the_social_element_of_surveillance.html
+PDF File: indiana_law_journal_can_ai_as_such_invade_your_privacy_an_experimental_study_of_the_social_element_of_surveillance.pdf
+----------------------------------------------------------------------
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/10
+PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11584&context=ilj
+HTML File: indiana_law_journal_discord_and_the_pentagon_s_watchdog_countering_extremism_in_the_u_s_military.html
+PDF File: indiana_law_journal_discord_and_the_pentagon_s_watchdog_countering_extremism_in_the_u_s_military.pdf
+----------------------------------------------------------------------

@@ -1,0 +1,133 @@
+{
+  "successful": [
+    {
+      "url": "https://virginialawreview.org/articles/free-speech-breathing-space-and-liability-insurance/",
+      "slug": "free-speech-breathing-space-and-liability-insurance",
+      "message": "Success (HTML: 4493 words, PDF: 679728 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/deterring-unenforceable-terms/",
+      "slug": "deterring-unenforceable-terms",
+      "message": "Success (HTML: 4778 words, PDF: 740086 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-association-game-applying-noscitur-a-sociis-and-ejusdem-generis/",
+      "slug": "the-association-game-applying-noscitur-a-sociis-and-ejusdem-generis",
+      "message": "Success (HTML: 1999 words, PDF: 606077 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/neo-brandeis-goes-to-washington-a-provisional-assessment-of-the-biden-administrations-antitrust-record/",
+      "slug": "neo-brandeis-goes-to-washington-a-provisional-assessment-of-the-biden-administrations-antitrust-record",
+      "message": "Success (HTML: 1133 words, PDF: 945967 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/fourth-amendment-trespass-and-internet-search-history/",
+      "slug": "fourth-amendment-trespass-and-internet-search-history",
+      "message": "Success (HTML: 1462 words, PDF: 374866 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/political-mootness/",
+      "slug": "political-mootness",
+      "message": "Success (HTML: 3648 words, PDF: 748459 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-right-thing-in-the-wrong-place-unstable-dicta-and-aesthetics-gradual-incursion-into-the-traditional-police-power-justifications/",
+      "slug": "the-right-thing-in-the-wrong-place-unstable-dicta-and-aesthetics-gradual-incursion-into-the-traditional-police-power-justifications",
+      "message": "Success (HTML: 3140 words, PDF: 610391 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/antitrusts-interdependence-paradox/",
+      "slug": "antitrusts-interdependence-paradox",
+      "message": "Success (HTML: 1272 words, PDF: 784358 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/free-speech-as-white-privilege-racialization-suppression-and-the-palestine-exception/",
+      "slug": "free-speech-as-white-privilege-racialization-suppression-and-the-palestine-exception",
+      "message": "Success (HTML: 2401 words, PDF: 407023 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/abortions-new-criminalization-a-history-and-tradition-right-to-health-care-access-after-dobbs/",
+      "slug": "abortions-new-criminalization-a-history-and-tradition-right-to-health-care-access-after-dobbs",
+      "message": "Success (HTML: 3868 words, PDF: 1045630 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-radical-fair-housing-act/",
+      "slug": "the-radical-fair-housing-act",
+      "message": "Success (HTML: 4559 words, PDF: 828262 bytes)"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/an-alternative-to-constraining-judges-with-constitutional-theories-the-internal-goods-approach/",
+      "slug": "an-alternative-to-constraining-judges-with-constitutional-theories-the-internal-goods-approach",
+      "message": "Success (HTML: 2945 words, PDF: 501626 bytes)"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://virginialawreview.org/articles/the-limits-of-evidence-based-policymaking/",
+      "slug": "the-limits-of-evidence-based-policymaking",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/plea-bargaining-in-the-shadow-of-big-data/",
+      "slug": "plea-bargaining-in-the-shadow-of-big-data",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/why-do-we-regulate-insider-trading/",
+      "slug": "why-do-we-regulate-insider-trading",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/tax-as-far-less-than-perfect-substitutes/",
+      "slug": "tax-as-far-less-than-perfect-substitutes",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-new-election-contestation/",
+      "slug": "the-new-election-contestation",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-modern-day-literacy-test-felon-disenfranchisement-and-race-discrimination/",
+      "slug": "the-modern-day-literacy-test-felon-disenfranchisement-and-race-discrimination",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/trade-secret-damages/",
+      "slug": "trade-secret-damages",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/how-administrative-law-can-save-the-separation-of-powers/",
+      "slug": "how-administrative-law-can-save-the-separation-of-powers",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/reframing-rights-in-social-enterprise/",
+      "slug": "reframing-rights-in-social-enterprise",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/judging-agency-action/",
+      "slug": "judging-agency-action",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-corporate-contract-in-changing-times-is-the-law-keeping-up/",
+      "slug": "the-corporate-contract-in-changing-times-is-the-law-keeping-up",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/property-beyond-exclusion/",
+      "slug": "property-beyond-exclusion",
+      "message": "Failed to fetch HTML"
+    },
+    {
+      "url": "https://virginialawreview.org/articles/the-law-of-lawless-courts/",
+      "slug": "the-law-of-lawless-courts",
+      "message": "Failed to fetch HTML"
+    }
+  ],
+  "total_attempted": 25,
+  "timestamp": "2025-10-16 19:20:50"
+}

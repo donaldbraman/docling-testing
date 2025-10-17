@@ -1,5 +1,61 @@
-JOURNAL: California Law Review
-BASE_URL: https://www.californialawreview.org
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 0s
+California Law Review Collection Progress
+======================================================================
+
+Collection Date: 2025-10-16 19:21:57
+Target: 10 articles
+Successful pairs: 10
+Success rate: 100.0%
+
+======================================================================
+Individual Results:
+======================================================================
+
+Article: judiciary-ada
+  HTML: ✓ https://www.californialawreview.org/print/judiciary-ada
+  PDF:  ✓ https://www.californialawreview.org/s/7-Mahajan-FINAL-yksw.pdf
+  Pair: ✓ COMPLETE
+
+Article: morgan-democracy
+  HTML: ✓ https://www.californialawreview.org/print/morgan-democracy
+  PDF:  ✓ https://www.californialawreview.org/s/6-BPearce-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: new-conservationism
+  HTML: ✓ https://www.californialawreview.org/print/new-conservationism
+  PDF:  ✓ https://www.californialawreview.org/s/5-Jacewicz-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: social-justice-conflicts
+  HTML: ✓ https://www.californialawreview.org/print/social-justice-conflicts
+  PDF:  ✓ https://www.californialawreview.org/s/4-Havasy-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: indeterminacy-separation
+  HTML: ✓ https://www.californialawreview.org/print/indeterminacy-separation
+  PDF:  ✓ https://www.californialawreview.org/s/3-MaceyRichardson-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: amazon-trademark
+  HTML: ✓ https://www.californialawreview.org/print/amazon-trademark
+  PDF:  ✓ https://www.californialawreview.org/s/2-FromerMMcKenna-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: affirmative-asylum
+  HTML: ✓ https://www.californialawreview.org/print/affirmative-asylum
+  PDF:  ✓ https://www.californialawreview.org/s/1-Sayed-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: loving-borders
+  HTML: ✓ https://www.californialawreview.org/print/loving-borders
+  PDF:  ✓ https://www.californialawreview.org/s/11-Chacon-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: incoherence-colorblind-constitution
+  HTML: ✓ https://www.californialawreview.org/print/incoherence-colorblind-constitution
+  PDF:  ✓ https://www.californialawreview.org/s/9-Robinson-FINAL.pdf
+  Pair: ✓ COMPLETE
+
+Article: voter-pay
+  HTML: ✓ https://www.californialawreview.org/print/voter-pay
+  PDF:  ✓ https://www.californialawreview.org/s/4-Albright-FINAL.pdf
+  Pair: ✓ COMPLETE

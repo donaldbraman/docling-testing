@@ -1,0 +1,217 @@
+{
+  "journal": "Texas Law Review",
+  "base_url": "https://texaslawreview.org/",
+  "collection_date": "2025-10-16",
+  "total_articles": 15,
+  "year_range": [
+    2017,
+    2025
+  ],
+  "volumes": [
+    95,
+    101,
+    103,
+    104
+  ],
+  "articles": [
+    {
+      "slug": "technologies-of-violence",
+      "title": "Technologies of Violence: Law, Markets, and Innovation for Gun Safety",
+      "authors": [
+        "Blocher",
+        "Buccafusco"
+      ],
+      "year": 2025,
+      "volume": 103,
+      "html_file": "data/raw_html/texas_law_review_technologies-of-violence.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_technologies-of-violence.pdf",
+      "html_size": 286291,
+      "pdf_size": 745153
+    },
+    {
+      "slug": "video-analytics-fourth-amendment",
+      "title": "Video Analytics and Fourth Amendment Vision",
+      "authors": [
+        "Ferguson"
+      ],
+      "year": 2025,
+      "volume": 103,
+      "html_file": "data/raw_html/texas_law_review_video-analytics-fourth-amendment.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_video-analytics-fourth-amendment.pdf",
+      "html_size": 336388,
+      "pdf_size": 817637
+    },
+    {
+      "slug": "working-with-statutes",
+      "title": "Working with Statutes",
+      "authors": [
+        "Bernstein"
+      ],
+      "year": 2025,
+      "volume": 103,
+      "html_file": "data/raw_html/texas_law_review_working-with-statutes.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_working-with-statutes.pdf",
+      "html_size": 409185,
+      "pdf_size": 1099404
+    },
+    {
+      "slug": "systemically-important-technology",
+      "title": "Systemically Important Technology",
+      "authors": [
+        "Werbach",
+        "Zaring"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_systemically-important-technology.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_systemically-important-technology.pdf",
+      "html_size": 307363,
+      "pdf_size": 954123
+    },
+    {
+      "slug": "discovery-dark-matter",
+      "title": "Discovery Dark Matter",
+      "authors": [
+        "Endo"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_discovery-dark-matter.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_discovery-dark-matter.pdf",
+      "html_size": 328029,
+      "pdf_size": 1012572
+    },
+    {
+      "slug": "battered-woman-syndrome",
+      "title": "Battered Woman Syndrome: When Justice Annexes the Space for Mercy",
+      "authors": [
+        "Moore"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_battered-woman-syndrome.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_battered-woman-syndrome.pdf",
+      "html_size": 144324,
+      "pdf_size": 453309
+    },
+    {
+      "slug": "extraterritoriality-patent-infringement",
+      "title": "Pushing the Boundaries: Extraterritoriality, Patent Infringement Damages",
+      "authors": [
+        "Canby"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_extraterritoriality-patent-infringement.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_extraterritoriality-patent-infringement.pdf",
+      "html_size": 173139,
+      "pdf_size": 618272
+    },
+    {
+      "slug": "contract-remedies-new-economy",
+      "title": "Contract Remedies for New Economy Collaborations",
+      "authors": [
+        "Schwartz",
+        "Sepe"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_contract-remedies-new-economy.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_contract-remedies-new-economy.pdf",
+      "html_size": 292530,
+      "pdf_size": 893996
+    },
+    {
+      "slug": "cryptocurrency-credit-risk",
+      "title": "Not Your Keys, Not Your Coins: Unpriced Credit Risk in Cryptocurrency",
+      "authors": [
+        "Levitin"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_cryptocurrency-credit-risk.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_cryptocurrency-credit-risk.pdf",
+      "html_size": 349380,
+      "pdf_size": 1011800
+    },
+    {
+      "slug": "state-regulation-online-behavior",
+      "title": "State Regulation of Online Behavior: The Dormant Commerce Clause and Geolocation",
+      "authors": [
+        "Goldsmith",
+        "Volokh"
+      ],
+      "year": 2023,
+      "volume": 101,
+      "html_file": "data/raw_html/texas_law_review_state-regulation-online-behavior.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_state-regulation-online-behavior.pdf",
+      "html_size": 215101,
+      "pdf_size": 726624
+    },
+    {
+      "slug": "repealing-environmental-laws-magna-carta",
+      "title": "Repealing Environmental Law's Magna Carta",
+      "authors": [
+        "Lazarus"
+      ],
+      "year": 2025,
+      "volume": 104,
+      "html_file": "data/raw_html/texas_law_review_repealing-environmental-laws-magna-carta.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_repealing-environmental-laws-magna-carta.pdf",
+      "html_size": 179013,
+      "pdf_size": 523375
+    },
+    {
+      "slug": "liberty-in-loyalty-fiduciary-law",
+      "title": "Liberty in Loyalty: A Republican Theory of Fiduciary Law",
+      "authors": [
+        "Criddle"
+      ],
+      "year": 2017,
+      "volume": 95,
+      "html_file": "data/raw_html/texas_law_review_liberty-in-loyalty-fiduciary-law.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_liberty-in-loyalty-fiduciary-law.pdf",
+      "html_size": 42577,
+      "pdf_size": 408585
+    },
+    {
+      "slug": "federalism-state-democracy",
+      "title": "Federalism and State Democracy",
+      "authors": [
+        "Schleicher"
+      ],
+      "year": 2017,
+      "volume": 95,
+      "html_file": "data/raw_html/texas_law_review_federalism-state-democracy.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_federalism-state-democracy.pdf",
+      "html_size": 41779,
+      "pdf_size": 454712
+    },
+    {
+      "slug": "mass-incarceration-history",
+      "title": "Is Mass Incarceration History?",
+      "authors": [
+        "Simon"
+      ],
+      "year": 2017,
+      "volume": 95,
+      "html_file": "data/raw_html/texas_law_review_mass-incarceration-history.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_mass-incarceration-history.pdf",
+      "html_size": 41442,
+      "pdf_size": 131892
+    },
+    {
+      "slug": "damage-averaging-high-value-claims",
+      "title": "Damage Averaging: How the System Harms High-Value Claims",
+      "authors": [
+        "Kishinevsky"
+      ],
+      "year": 2017,
+      "volume": 95,
+      "html_file": "data/raw_html/texas_law_review_damage-averaging-high-value-claims.html",
+      "pdf_file": "data/raw_pdf/texas_law_review_damage-averaging-high-value-claims.pdf",
+      "html_size": 43217,
+      "pdf_size": 90613
+    }
+  ]
+}

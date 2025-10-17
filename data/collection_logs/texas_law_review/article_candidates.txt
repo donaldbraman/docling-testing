@@ -1,0 +1,17 @@
+Texas Law Review Article Candidates
+====================================
+Collection Date: 2025-10-16
+
+RECONNAISSANCE FINDINGS:
+- Base URL: https://texaslawreview.org/
+- robots.txt: No restrictions, no crawl-delay
+- PDF Pattern: https://texaslawreview.org/wp-content/uploads/YYYY/MM/[Author].Printer.pdf
+- HTML Pattern: https://texaslawreview.org/[article-slug]/
+- Sitemap: https://texaslawreview.org/post-sitemap.xml (has article URLs)
+- Archive: Volume 103, 104 available
+
+ARTICLE CANDIDATES (from Volume 103):
+1. technologies-of-violence-law-markets-and-innovation-for-gun-safety
+   Authors: Blocher, Buccafusco
+   PDF: https://texaslawreview.org/wp-content/uploads/2025/05/Blocher.Printer.pdf
+   Status: PENDING_VERIFICATION

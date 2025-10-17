@@ -1,0 +1,23 @@
+GWU Law Review Collection Report
+======================================================================
+Date: 2025-10-16 19:43:59
+Successful pairs: 11
+Failed attempts: 4
+Success rate: 73.3%
+
+Details:
+✓ https://www.gwlr.org/coercive-settlements/
+✓ https://www.gwlr.org/criminal-investors/
+✗ https://www.gwlr.org/non-universal-response-to-the-universal-injunction-problem/ (no PDF link)
+✓ https://www.gwlr.org/chenery-ii-revisited/
+✗ https://www.gwlr.org/chevron-bias/ (no PDF link)
+✓ https://www.gwlr.org/how-chevron-deference-fits-into-article-iii/
+✓ https://www.gwlr.org/nondelegation-as-constitutional-symbolism/
+✓ https://www.gwlr.org/optimal-ossification/
+✗ https://www.gwlr.org/overseeing-agency-enforcement/ (no PDF link)
+✓ https://www.gwlr.org/the-ambiguity-fallacy/
+✓ https://www.gwlr.org/the-american-nondelegation-doctrine/
+✗ https://www.gwlr.org/the-future-of-deference/ (no PDF link)
+✓ https://www.gwlr.org/the-ordinary-questions-doctrine/
+✓ https://www.gwlr.org/the-power-to-vacate-a-rule/
+✓ https://www.gwlr.org/delegating-and-regulating-the-presidents-section-232-and-ieepa-trade-powers/

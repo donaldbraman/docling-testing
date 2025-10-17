@@ -1,0 +1,60 @@
+Penn Law Review Collection Progress
+======================================================================
+
+Collection Date: 2025-10-16 19:21:55
+Source: UPenn ScholarlyCommons
+Base URL: https://scholarship.law.upenn.edu/penn_law_review/
+
+Total Attempted: 12
+Successful Pairs: 12
+Failed: 0
+
+Article List:
+----------------------------------------------------------------------
+1. [✓] super_dicta
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss6/1
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9894&context=penn_law_review
+
+2. [✓] unwritten_administrative_law
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss6/2
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9895&context=penn_law_review
+
+3. [✓] policing_as_general_warrants
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss6/3
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9896&context=penn_law_review
+
+4. [✓] ancillary_rights
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss5/1
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9889&context=penn_law_review
+
+5. [✓] original_meaning_of_treaties
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss5/2
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9890&context=penn_law_review
+
+6. [✓] default_procedures
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss5/3
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9891&context=penn_law_review
+
+7. [✓] spirit
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss4/1
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9884&context=penn_law_review
+
+8. [✓] prosecuting_families
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss4/2
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9885&context=penn_law_review
+
+9. [✓] debt_tokens
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss4/3
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9886&context=penn_law_review
+
+10. [✓] control_and_its_discontents
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss3/1
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9879&context=penn_law_review
+
+11. [✓] lessons_in_climate_derisking
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss3/2
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9880&context=penn_law_review
+
+12. [✓] realism_about_criminal_justice_localism
+   HTML: https://scholarship.law.upenn.edu/penn_law_review/vol173/iss3/3
+   PDF:  https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9881&context=penn_law_review

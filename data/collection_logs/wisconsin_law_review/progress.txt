@@ -1,5 +1,110 @@
-JOURNAL: Wisconsin Law Review
-BASE_URL: https://www.wisconsinlawreview.org
-COLLECTED: 0/10
-SUCCESS_RATE: 0.0%
-TIME_ELAPSED: 0s
+Wisconsin Law Review Collection Progress
+============================================================
+
+Collection Date: 2025-10-16
+Base URL: https://wlr.law.wisc.edu/
+
+SUMMARY:
+  Articles checked: 30
+  Verified pairs found: 16
+  Successfully downloaded: 16
+  Failed downloads: 0
+
+DOWNLOADED ARTICLES:
+------------------------------------------------------------
+
+Heterogeneity, Legislative History, and the Costs of Litigation: A Brief Comment on Bruhl’s “Hierarchy and Heterogeneity”
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an.pdf
+  Word count: 2598
+  PDF size: 0.14 MB
+
+Debunking the “Stifling Innovation” Myth: The Music Business’s Successful Transition to Digital
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital.pdf
+  Word count: 1800
+  PDF size: 0.14 MB
+
+When You Let Incumbents Veto Innovation, You Get Less Innovation
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_when_you_let_incumbents_veto_innovation_you_get_less_innovation.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_when_you_let_incumbents_veto_innovation_you_get_less_innovation.pdf
+  Word count: 5108
+  PDF size: 0.20 MB
+
+Copyright and Innovation: Déjà Vu All Over Again
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_copyright_and_innovation_déjà_vu_all_over_again.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_copyright_and_innovation_déjà_vu_all_over_again.pdf
+  Word count: 1856
+  PDF size: 0.12 MB
+
+Copyright and Innovation: Responses To Marks, Masnick, and Picker
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_copyright_and_innovation_responses_to_marks_masnick_and_picker.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_copyright_and_innovation_responses_to_marks_masnick_and_picker.pdf
+  Word count: 5904
+  PDF size: 0.60 MB
+
+Reforming Software Claiming
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_reforming_software_claiming.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_reforming_software_claiming.pdf
+  Word count: 2215
+  PDF size: 0.15 MB
+
+Response to Sanders: Ma’iingan as Property
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_response_to_sanders_maiingan_as_property.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_response_to_sanders_maiingan_as_property.pdf
+  Word count: 1636
+  PDF size: 0.15 MB
+
+Requiring Exhaustion for Cumulative Error Review of Harmlessness Does Not Add Up
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up.pdf
+  Word count: 3840
+  PDF size: 0.33 MB
+
+From a Scream to a Whisper: The Supreme Court Does Little to Fix Its Bankruptcy Court Mess (Executive Benefits Insurance Agency v. Arkison (In re Bellingham))
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_.pdf
+  Word count: 4808
+  PDF size: 0.29 MB
+
+Limelight v. Akamai: Limiting Induced Infringement
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_limelight_v_akamai_limiting_induced_infringement.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_limelight_v_akamai_limiting_induced_infringement.pdf
+  Word count: 3128
+  PDF size: 0.17 MB
+
+Wisconsin Law Review Online, 2015 Symposium
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_wisconsin_law_review_online_2015_symposium.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_wisconsin_law_review_online_2015_symposium.pdf
+  Word count: 1936
+  PDF size: 0.28 MB
+
+Disparaging the Supreme Court: Is SCOTUS in Serious Trouble?
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_disparaging_the_supreme_court_is_scotus_in_serious_trouble.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_disparaging_the_supreme_court_is_scotus_in_serious_trouble.pdf
+  Word count: 4560
+  PDF size: 0.16 MB
+
+Assessing Experiential Learning, Jobs and All: A Response to the Three Professors
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors.pdf
+  Word count: 7427
+  PDF size: 0.15 MB
+
+Marriage Equality Comes To Wisconsin
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_marriage_equality_comes_to_wisconsin.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_marriage_equality_comes_to_wisconsin.pdf
+  Word count: 9579
+  PDF size: 0.18 MB
+
+Forbidden Films and the First Amendment
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_forbidden_films_and_the_first_amendment.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_forbidden_films_and_the_first_amendment.pdf
+  Word count: 7751
+  PDF size: 0.23 MB
+
+Judging “Indian Character”? The Supreme Court’s Opportunity in Nebraska v. Parker
+  HTML: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker.html
+  PDF: /Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker.pdf
+  Word count: 2023
+  PDF size: 0.09 MB

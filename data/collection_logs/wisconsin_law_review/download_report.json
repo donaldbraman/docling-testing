@@ -1,0 +1,168 @@
+{
+  "total_articles": 16,
+  "successful_downloads": 16,
+  "failed_downloads": 0,
+  "downloads": [
+    {
+      "title": "Heterogeneity, Legislative History, and the Costs of Litigation: A Brief Comment on Bruhl\u2019s \u201cHierarchy and Heterogeneity\u201d",
+      "slug": "heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-3/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/05/3-Desai.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an.pdf",
+      "word_count": 2598,
+      "pdf_size_mb": 0.1436777114868164
+    },
+    {
+      "title": "Debunking the \u201cStifling Innovation\u201d Myth: The Music Business\u2019s Successful Transition to Digital",
+      "slug": "debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-4/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/05/4-Marks.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital.pdf",
+      "word_count": 1800,
+      "pdf_size_mb": 0.1381998062133789
+    },
+    {
+      "title": "When You Let Incumbents Veto Innovation, You Get Less Innovation",
+      "slug": "when_you_let_incumbents_veto_innovation_you_get_less_innovation",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-5/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/05/5-Masnick.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_when_you_let_incumbents_veto_innovation_you_get_less_innovation.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_when_you_let_incumbents_veto_innovation_you_get_less_innovation.pdf",
+      "word_count": 5108,
+      "pdf_size_mb": 0.19817829132080078
+    },
+    {
+      "title": "Copyright and Innovation: D\u00e9j\u00e0 Vu All Over Again",
+      "slug": "copyright_and_innovation_d\u00e9j\u00e0_vu_all_over_again",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-6/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/05/6-Picker.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_copyright_and_innovation_d\u00e9j\u00e0_vu_all_over_again.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_copyright_and_innovation_d\u00e9j\u00e0_vu_all_over_again.pdf",
+      "word_count": 1856,
+      "pdf_size_mb": 0.12194061279296875
+    },
+    {
+      "title": "Copyright and Innovation: Responses To Marks, Masnick, and Picker",
+      "slug": "copyright_and_innovation_responses_to_marks_masnick_and_picker",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-7/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/06/7-Carrier.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_copyright_and_innovation_responses_to_marks_masnick_and_picker.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_copyright_and_innovation_responses_to_marks_masnick_and_picker.pdf",
+      "word_count": 5904,
+      "pdf_size_mb": 0.5971994400024414
+    },
+    {
+      "title": "Reforming Software Claiming",
+      "slug": "reforming_software_claiming",
+      "html_url": "https://wlr.law.wisc.edu/wlr-online-volume-2013-no-8/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2013/11/Ghosh-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_reforming_software_claiming.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_reforming_software_claiming.pdf",
+      "word_count": 2215,
+      "pdf_size_mb": 0.14803028106689453
+    },
+    {
+      "title": "Response to Sanders: Ma\u2019iingan as Property",
+      "slug": "response_to_sanders_maiingan_as_property",
+      "html_url": "https://wlr.law.wisc.edu/response-to-sanders-maiingan-as-property/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2014/01/Fletcher-Reo-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_response_to_sanders_maiingan_as_property.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_response_to_sanders_maiingan_as_property.pdf",
+      "word_count": 1636,
+      "pdf_size_mb": 0.15221881866455078
+    },
+    {
+      "title": "Requiring Exhaustion for Cumulative Error Review of Harmlessness Does Not Add Up",
+      "slug": "requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up",
+      "html_url": "https://wlr.law.wisc.edu/requiring-exhaustion-for-cumulative-error-review-of-harmlessness-does-not-add-up/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2014/12/Levy-Final-Online.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up.pdf",
+      "word_count": 3840,
+      "pdf_size_mb": 0.3290681838989258
+    },
+    {
+      "title": "From a Scream to a Whisper: The Supreme Court Does Little to Fix Its Bankruptcy Court Mess (Executive Benefits Insurance Agency v. Arkison (In re Bellingham))",
+      "slug": "from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_",
+      "html_url": "https://wlr.law.wisc.edu/from-a-scream-to-a-whisper-the-supreme-court-does-little-to-fix-its-bankruptcy-court-mess-executive-benefits-insurance-agency-v-arkison-in-re-bellingham/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2014/08/Lipson-Final-2.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_.pdf",
+      "word_count": 4808,
+      "pdf_size_mb": 0.2907724380493164
+    },
+    {
+      "title": "Limelight v. Akamai: Limiting Induced Infringement",
+      "slug": "limelight_v_akamai_limiting_induced_infringement",
+      "html_url": "https://wlr.law.wisc.edu/limelight-v-akamai-limiting-induced-infringement/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2014/07/Carrier-WLR-Online-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_limelight_v_akamai_limiting_induced_infringement.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_limelight_v_akamai_limiting_induced_infringement.pdf",
+      "word_count": 3128,
+      "pdf_size_mb": 0.17118072509765625
+    },
+    {
+      "title": "Wisconsin Law Review Online, 2015 Symposium",
+      "slug": "wisconsin_law_review_online_2015_symposium",
+      "html_url": "https://wlr.law.wisc.edu/wisconsin-law-review-online-2015-symposium/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2015/07/Kersch-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_wisconsin_law_review_online_2015_symposium.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_wisconsin_law_review_online_2015_symposium.pdf",
+      "word_count": 1936,
+      "pdf_size_mb": 0.27724361419677734
+    },
+    {
+      "title": "Disparaging the Supreme Court: Is SCOTUS in Serious Trouble?",
+      "slug": "disparaging_the_supreme_court_is_scotus_in_serious_trouble",
+      "html_url": "https://wlr.law.wisc.edu/disparaging-the-supreme-court-is-scotus-in-serious-trouble/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2015/11/Jones-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_disparaging_the_supreme_court_is_scotus_in_serious_trouble.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_disparaging_the_supreme_court_is_scotus_in_serious_trouble.pdf",
+      "word_count": 4560,
+      "pdf_size_mb": 0.1556100845336914
+    },
+    {
+      "title": "Assessing Experiential Learning, Jobs and All: A Response to the Three Professors",
+      "slug": "assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors",
+      "html_url": "https://wlr.law.wisc.edu/assessing-experiential-learning-jobs-and-all-a-response-to-the-three-professors/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2015/11/Condlin-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors.pdf",
+      "word_count": 7427,
+      "pdf_size_mb": 0.15020370483398438
+    },
+    {
+      "title": "Marriage Equality Comes To Wisconsin",
+      "slug": "marriage_equality_comes_to_wisconsin",
+      "html_url": "https://wlr.law.wisc.edu/marriage-equality-comes-to-wisconsin/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2015/12/Tobias-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_marriage_equality_comes_to_wisconsin.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_marriage_equality_comes_to_wisconsin.pdf",
+      "word_count": 9579,
+      "pdf_size_mb": 0.18309307098388672
+    },
+    {
+      "title": "Forbidden Films and the First Amendment",
+      "slug": "forbidden_films_and_the_first_amendment",
+      "html_url": "https://wlr.law.wisc.edu/forbidden-films-and-the-first-amendment/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2016/02/Geltzer-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_forbidden_films_and_the_first_amendment.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_forbidden_films_and_the_first_amendment.pdf",
+      "word_count": 7751,
+      "pdf_size_mb": 0.22832202911376953
+    },
+    {
+      "title": "Judging \u201cIndian Character\u201d? The Supreme Court\u2019s Opportunity in Nebraska v. Parker",
+      "slug": "judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker",
+      "html_url": "https://wlr.law.wisc.edu/judging-indian-character-the-supreme-courts-opportunity-in-nebraska-v-parker/",
+      "pdf_url": "https://wlr.law.wisc.edu/wp-content/uploads/sites/1263/2016/02/Birkhold-Final.pdf",
+      "html_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_html/wisconsin_law_review_judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker.html",
+      "pdf_path": "/Users/donaldbraman/Documents/GitHub/docling-testing/data/raw_pdf/wisconsin_law_review_judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker.pdf",
+      "word_count": 2023,
+      "pdf_size_mb": 0.08681106567382812
+    }
+  ],
+  "failures": []
+}
