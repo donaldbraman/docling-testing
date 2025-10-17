@@ -23,15 +23,19 @@
 
 ## Just-In-Time Guides
 
+**🚀 Start here:** [guides/TRAINING_QUICK_START.md](docs/guides/TRAINING_QUICK_START.md) - Complete training workflow with cite-assist integration
+
 **Read only what you need, when you need it:**
 
 | Topic | Guide | Read When |
 |-------|-------|-----------|
-| Model Training | [guides/model-training.md](docs/guides/model-training.md) | Training new models or rebalancing |
-| Data Collection | [guides/data-collection.md](docs/guides/data-collection.md) | Scraping PDFs or building corpus |
-| Model Evaluation | [guides/model-evaluation.md](docs/guides/model-evaluation.md) | Evaluating checkpoints or comparing models |
-| Integration | [guides/cite-assist-integration.md](docs/guides/cite-assist-integration.md) | Deploying models to cite-assist |
-| Troubleshooting | [guides/troubleshooting.md](docs/guides/troubleshooting.md) | Common issues and solutions |
+| **Training Workflow** | **[TRAINING_QUICK_START.md](docs/guides/TRAINING_QUICK_START.md)** | **Starting any training task** |
+| Model Training Details | [model-training.md](docs/guides/model-training.md) | Deep dive into training parameters |
+| Data Collection | [data-collection.md](docs/guides/data-collection.md) | Scraping PDFs or building corpus |
+| Model Evaluation | [model-evaluation.md](docs/guides/model-evaluation.md) | Evaluating checkpoints or comparing models |
+| Troubleshooting | [troubleshooting.md](docs/guides/troubleshooting.md) | Common issues and solutions |
+
+**Deployment guides:** See `cite-assist/docs/guides/` for deployment, integration, and production serving
 
 **Full guide index:** [docs/guides/README.md](docs/guides/README.md)
 
@@ -105,19 +109,20 @@ pytest --cov=scripts --cov-report=html
 
 ## Data Sources
 
-**Current corpus:** 37,888 paragraphs across 7 semantic classes
+**Current corpus:** 254 clean PDFs (207 law reviews + 47 arXiv STEM papers)
+- **Platform covers:** 0 (all removed)
+- **Diversity:** 18.5% non-law content (reduces overfitting)
+- **Status:** ✅ Ready for training
 
-**Sources:**
-- Semantic PDF tags (31,809 samples) - Highest quality
-- HTML-PDF matching (1,733 samples)
-- Cover page patterns (2,340 samples)
+**Labeled samples:** 37,888 paragraphs across 7 semantic classes
+- Semantic PDF tags: 31,809 samples (highest quality)
+- HTML-PDF matching: 1,733 samples
+- Cover page patterns: 2,340 samples
 
 **Available for expansion:**
-- UCLA Law Review: ~150 more PDFs
-- Georgetown Law: ~200 PDFs
-- Texas Law: ~180 PDFs
-- Annual Reviews: ~300 PDFs
-- **Total available:** ~800+ PDFs (~26,000 estimated body_text samples)
+- Additional arXiv papers: Run `collect_arxiv_papers.py --target 100` for 30% STEM diversity
+- Additional law reviews: ~500+ PDFs available (UCLA, Georgetown, Texas)
+- **Estimated gain:** ~26,000 body_text samples
 
 ---
 
