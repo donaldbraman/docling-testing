@@ -3,3 +3,129 @@ BASE_URL: https://www.uclalawreview.org
 COLLECTED: 10/10
 SUCCESS_RATE: 100.0%
 TIME_ELAPSED: 1s
+[2025-10-16 19:35:21] === UCLA Law Review Collection Started ===
+[2025-10-16 19:35:21] Target: Minimum 10 articles (stretch: 15)
+[2025-10-16 19:35:21]
+=== Collecting from Law Meets World ===
+[2025-10-16 19:35:21] Fetching category: https://www.uclalawreview.org/category/law-meets-world/
+[2025-10-16 19:35:24] Found 14 article links
+[2025-10-16 19:35:24] Processing: Critical Race Theory: Inside and Beyond the Ivory Tower
+[2025-10-16 19:35:27]   ✓ Full text found (~102812 chars)
+[2025-10-16 19:35:27]   ✓ Saved HTML: ucla_law_review_critical_race_theory_inside_and_beyond_the_ivory_tower.html
+[2025-10-16 19:35:27]   → PDF link found: https://cafc.uscourts.gov/wp-content/uploads/HR/Forms/Maintaining-the-Public-Trust_2019-Revised-Fourth-Edition.pdf
+[2025-10-16 19:35:30]   ✓ Saved PDF: ucla_law_review_critical_race_theory_inside_and_beyond_the_ivory_tower.pdf
+[2025-10-16 19:35:30] Processing: Connecting Race and Empire: What Critical Race Theory Offers Outside the U.S. Legal Context
+[2025-10-16 19:35:33]   ✓ Full text found (~50729 chars)
+[2025-10-16 19:35:33]   ✓ Saved HTML: ucla_law_review_connecting_race_and_empire_what_critical_race_theory_offers_outside_the_us_legal_context.html
+[2025-10-16 19:35:33]   → PDF link found: https://cgrs.uchastings.edu/sites/default/files/A-Journey-of-Hope-Haitian-Womens-Migration-to%20-Tapachula.pdf
+[2025-10-16 19:35:38]   ✓ Saved PDF: ucla_law_review_connecting_race_and_empire_what_critical_race_theory_offers_outside_the_us_legal_context.pdf
+[2025-10-16 19:35:38] Processing: Yes, Critical Race Theory Should Be Taught in Your School: Undoing Racism in K–12 Schooling and Classrooms Through CRT
+[2025-10-16 19:35:40]   ✓ Full text found (~36081 chars)
+[2025-10-16 19:35:40]   ✓ Saved HTML: ucla_law_review_yes_critical_race_theory_should_be_taught_in_your_school_undoing_racism_in_k12_schooling_and_classro.html
+[2025-10-16 19:35:41]   ⚠ No PDF link found
+[2025-10-16 19:35:41] Processing: Protect Black Girls
+[2025-10-16 19:35:43]   ✓ Full text found (~55227 chars)
+[2025-10-16 19:35:43]   ✓ Saved HTML: ucla_law_review_protect_black_girls.html
+[2025-10-16 19:35:43]   ⚠ No PDF link found
+[2025-10-16 19:35:43] Processing: Critical Race Theory: Another Casualty in the Attack on Facts
+[2025-10-16 19:35:46]   ✓ Full text found (~17903 chars)
+[2025-10-16 19:35:46]   ✓ Saved HTML: ucla_law_review_critical_race_theory_another_casualty_in_the_attack_on_facts.html
+[2025-10-16 19:35:46]   ⚠ No PDF link found
+[2025-10-16 19:35:46] Processing: Professionalism as a Racial Construct
+[2025-10-16 19:35:49]   ✓ Full text found (~46981 chars)
+[2025-10-16 19:35:49]   ✓ Saved HTML: ucla_law_review_professionalism_as_a_racial_construct.html
+[2025-10-16 19:35:49]   → PDF link found: https://www.nycourts.gov/LegacyPDFS/ip/ethnic-fairness/pdfs/Judicial-Friends-Report-on-Systemic-Racism-in-the-NY-Courts.pdf
+[2025-10-16 19:35:52] Forbidden (403) for https://www.nycourts.gov/LegacyPDFS/ip/ethnic-fairness/pdfs/Judicial-Friends-Report-on-Systemic-Racism-in-the-NY-Courts.pdf
+[2025-10-16 19:35:52]   ⚠ PDF download failed or not valid PDF
+[2025-10-16 19:35:52] Processing: Whiteness as Guilt: Attacking Critical Race Theory to Redeem the Racial Contract
+[2025-10-16 19:35:55]   ✓ Full text found (~50305 chars)
+[2025-10-16 19:35:55]   ✓ Saved HTML: ucla_law_review_whiteness_as_guilt_attacking_critical_race_theory_to_redeem_the_racial_contract.html
+[2025-10-16 19:35:55]   ⚠ No PDF link found
+[2025-10-16 19:35:55] Processing: The Mandate for Critical Race Theory in This Time
+[2025-10-16 19:35:58]   ✓ Full text found (~45738 chars)
+[2025-10-16 19:35:58]   ✓ Saved HTML: ucla_law_review_the_mandate_for_critical_race_theory_in_this_time.html
+[2025-10-16 19:35:58]   ⚠ No PDF link found
+[2025-10-16 19:35:58] Processing: Introduction: Jailhouse Lawyering
+[2025-10-16 19:36:01]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:01] Processing: Barriers to Jailhouse Lawyering
+[2025-10-16 19:36:03]   ✓ Full text found (~21888 chars)
+[2025-10-16 19:36:03]   ✓ Saved HTML: ucla_law_review_barriers_to_jailhouse_lawyering.html
+[2025-10-16 19:36:03]   ⚠ No PDF link found
+[2025-10-16 19:36:03] Processing: Broken Systems: Function by Design
+[2025-10-16 19:36:06]   ✓ Full text found (~35157 chars)
+[2025-10-16 19:36:06]   ✓ Saved HTML: ucla_law_review_broken_systems_function_by_design.html
+[2025-10-16 19:36:06]   → PDF link found: https://www.aclu.org/sites/default/files/field_document/final_11-million-days_ucla_aclu.pdf
+[2025-10-16 19:36:09]   ✓ Saved PDF: ucla_law_review_broken_systems_function_by_design.pdf
+[2025-10-16 19:36:09] Processing: Applying for Compassionate Release as a Pro Se Litigant
+[2025-10-16 19:36:12]   ✓ Full text found (~12378 chars)
+[2025-10-16 19:36:12]   ✓ Saved HTML: ucla_law_review_applying_for_compassionate_release_as_a_pro_se_litigant.html
+[2025-10-16 19:36:12]   ⚠ No PDF link found
+[2025-10-16 19:36:12] Processing: Insurgent Knowledge: Battling CDCR From Inside the System. The Story of the Essential Collaboration Between Jailhouse Lawyers and Appointed Counsel & Lessons for Resentencing Today
+[2025-10-16 19:36:15]   ✓ Full text found (~51217 chars)
+[2025-10-16 19:36:15]   ✓ Saved HTML: ucla_law_review_insurgent_knowledge_battling_cdcr_from_inside_the_system_the_story_of_the_essential_collaboration_be.html
+[2025-10-16 19:36:15]   → PDF link found: https://lao.ca.gov/reports/2019/4023/inmate-classification-050219.pdf
+[2025-10-16 19:36:19]   ✓ Saved PDF: ucla_law_review_insurgent_knowledge_battling_cdcr_from_inside_the_system_the_story_of_the_essential_collaboration_be.pdf
+[2025-10-16 19:36:19] Processing: Bound by Law, Freed by Solidarity: Navigating California Prisons and Universities as a Jailhouse Lawyer
+[2025-10-16 19:36:22]   ✓ Full text found (~22941 chars)
+[2025-10-16 19:36:22]   ✓ Saved HTML: ucla_law_review_bound_by_law_freed_by_solidarity_navigating_california_prisons_and_universities_as_a_jailhouse_lawye.html
+[2025-10-16 19:36:22]   → PDF link found: https://www.prisonlegalnews.org/media/publications/cdcr_gang_management_report_2012.pdf
+[2025-10-16 19:36:25]   ✓ Saved PDF: ucla_law_review_bound_by_law_freed_by_solidarity_navigating_california_prisons_and_universities_as_a_jailhouse_lawye.pdf
+[2025-10-16 19:36:25] Collected 13 articles from Law Meets World
+[2025-10-16 19:36:25]
+=== Collecting from Discourse ===
+[2025-10-16 19:36:25] Fetching category: https://www.uclalawreview.org/category/discourse/
+[2025-10-16 19:36:27] Found 14 article links
+[2025-10-16 19:36:27] Processing: Teaching in a Time of Retrenchment
+[2025-10-16 19:36:30]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:30] Processing: Constitutional “Law” in a Lawless Court: Restoring the Sources and Methods of Principled Interpretation
+[2025-10-16 19:36:33]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:33] Processing: Legal Violence and 303 Creative LLC v. Elenis: A Partial, yet True, History of Public Accommodation Law in the U.S. Supreme Court
+[2025-10-16 19:36:35]   ✓ Full text found (~7454 chars)
+[2025-10-16 19:36:35]   ✓ Saved HTML: ucla_law_review_legal_violence_and_303_creative_llc_v_elenis_a_partial_yet_true_history_of_public_accommodation_law_.html
+[2025-10-16 19:36:35]   ⚠ No PDF link found
+[2025-10-16 19:36:35] Processing: Finding the Courage to Once Again “Enter”: Managing Faculty Classroom Dynamics in a Period of Doctrinal Upheaval
+[2025-10-16 19:36:38]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:38] Processing: Teaching Constitutional Law in Polarized Times: Rights and Structure
+[2025-10-16 19:36:41]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:41] Processing: The National Termination of Pediatric Gender Affirming Care: A Study in Illegal, Anticipatory Compliance
+[2025-10-16 19:36:44]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:44] Processing: Colorblind Immigration Racism
+[2025-10-16 19:36:47]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:47] Processing: The Class Action After Trump v. CASA
+[2025-10-16 19:36:49]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:49] Processing: Juridicial Occasions for Racial Formation: The Freedmen's Bureau, Labor, and Private Law
+[2025-10-16 19:36:52]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:52] Processing: Reestablishment of Religion and LGBTQ Rights
+[2025-10-16 19:36:55]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:55] Processing: Crowdsourcing Surveillance
+[2025-10-16 19:36:58]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:36:58] Processing: It’s Structural, Not Personal: Disrupting the Fallacy That Renders the Court “Unreasonably” Blind to the Meaning of Color in Policing
+[2025-10-16 19:37:01]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:01] Processing: Why Public Health Approaches to Policing Matter
+[2025-10-16 19:37:03]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:03] Processing: The Morphing of the Fourth Amendment Into the Anti-Thirteenth Amendment
+[2025-10-16 19:37:06]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:06] Collected 1 articles from Discourse
+[2025-10-16 19:37:06]
+=== Collecting from Dialectic ===
+[2025-10-16 19:37:06] Fetching category: https://www.uclalawreview.org/category/dialectic/
+[2025-10-16 19:37:09] Found 14 article links
+[2025-10-16 19:37:09] Processing: Episode 9.3 - Shielding the Police with Joanna Schwartz
+[2025-10-16 19:37:12]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:12] Processing: Episode 9.2 - Reproducing Inequality with Thalia González & Paige Joki
+[2025-10-16 19:37:15]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:15] Processing: Episode 9.1: Race, Professionalism, and White Supremacy with Leah Goodridge
+[2025-10-16 19:37:18]   ⚠ No full text (only 0 chars) - skipping
+[2025-10-16 19:37:18] Processing: Episode 8.2: Professor Sanford Williams: Friends, Family, and the FCC
+[2025-10-16 19:37:20]   ✓ Full text found (~51449 chars)
+[2025-10-16 19:37:20]   ✓ Saved HTML: ucla_law_review_episode_82_professor_sanford_williams_friends_family_and_the_fcc.html
+[2025-10-16 19:37:20]   ⚠ No PDF link found
+[2025-10-16 19:37:20] Reached maximum (15 articles) - stopping
+[2025-10-16 19:37:20] Collected 1 articles from Dialectic
+[2025-10-16 19:37:20]
+=== Collection Complete ===
+[2025-10-16 19:37:20] Total articles collected: 15
+[2025-10-16 19:37:20] Articles with PDFs: 5
+[2025-10-16 19:37:20] HTML-only articles: 10
+[2025-10-16 19:37:20] Manifest saved to: /Users/donaldbraman/Documents/GitHub/docling-testing/data/collection_logs/ucla_law_review/collection_manifest.json
+[2025-10-16 19:37:20] ✓ SUCCESS: Met minimum requirement (10+ articles)

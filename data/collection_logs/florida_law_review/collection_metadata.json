@@ -1,0 +1,122 @@
+{
+  "journal": "Florida Law Review",
+  "base_url": "https://scholarship.law.ufl.edu",
+  "collection_date": "2025-10-16 19:40:15",
+  "total_articles": 16,
+  "successful": 16,
+  "failed": 0,
+  "articles": [
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 1,
+      "slug": "chilling-effects-dobbs",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 2,
+      "slug": "future-antitrust-populism",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 3,
+      "slug": "big-cost-small-farms",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 4,
+      "slug": "originalist-case-insular-cases",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 5,
+      "slug": "katz-imperfect-circle",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 2,
+      "article": 6,
+      "slug": "tribal-courts-general-jurisdiction",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 1,
+      "article": 1,
+      "slug": "artificial-intelligence-privacy",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 1,
+      "article": 2,
+      "slug": "expressive-discrimination-universities",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 1,
+      "article": 3,
+      "slug": "transunion-vermont-agency-statutory-damages",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 1,
+      "article": 4,
+      "slug": "going-en-banc",
+      "success": true
+    },
+    {
+      "volume": 77,
+      "issue": 1,
+      "article": 5,
+      "slug": "clayton-act-cipher",
+      "success": true
+    },
+    {
+      "volume": 76,
+      "issue": 6,
+      "article": 1,
+      "slug": "combatting-extremism",
+      "success": true
+    },
+    {
+      "volume": 76,
+      "issue": 6,
+      "article": 2,
+      "slug": "originalism-election-law",
+      "success": true
+    },
+    {
+      "volume": 76,
+      "issue": 6,
+      "article": 3,
+      "slug": "power-electorate-state-constitutions",
+      "success": true
+    },
+    {
+      "volume": 76,
+      "issue": 6,
+      "article": 4,
+      "slug": "maximum-convergence-voting",
+      "success": true
+    },
+    {
+      "volume": 76,
+      "issue": 6,
+      "article": 5,
+      "slug": "voting-rights-materiality",
+      "success": true
+    }
+  ]
+}

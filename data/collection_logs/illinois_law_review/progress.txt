@@ -1,5 +1,194 @@
-JOURNAL: Illinois Law Review
-BASE_URL: https://scholarship.law.illinois.edu/illinois_law_review
-COLLECTED: 0/10
-SUCCESS_RATE: 0.0%
-TIME_ELAPSED: 0s
+# University of Illinois Law Review Collection Progress
+Date: 2025-10-16
+Collector: Claude (Autonomous)
+Target: 10 HTML-PDF pairs minimum
+Status: COLLECTION BLOCKED - No full HTML content available
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## EXECUTIVE SUMMARY
+
+**BLOCKER:** University of Illinois Law Review does not publish full article text in HTML format. All article pages provide only previews (abstracts + introduction), with full text exclusively in PDF format. This makes HTML-PDF pair collection impossible for this journal.
+
+**RECOMMENDATION:** Skip this journal and select an alternative law review for collection.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Stage 1: Reconnaissance - COMPLETED ✓
+
+### Site Analysis
+- Platform: WordPress
+- Base URL: https://illinoislawreview.org/
+- robots.txt: Minimal restrictions, no crawl delays specified
+- Sitemap: wp-sitemap.xml exists but returns empty urlset
+- Archive Depth: 1949-2025 (76 years, ~5 issues/year = ~380 issues)
+
+### Navigation Structure Discovery
+Successfully identified three primary content sections:
+
+1. **Online Section** (/online/)
+   - Recent articles (10+ found)
+   - Most recent: October 2025
+   - URL pattern: /online/[article-slug]/
+
+2. **Print Archives** (/print/)
+   - Chronological by year/issue
+   - URL pattern: /print/vol-YYYY-no-N/
+   - Most recent: Vol. 2025 No. 4
+
+3. **Issue Table of Contents**
+   - Each issue lists articles with metadata
+   - Article URL pattern: /print/vol-YYYY-no-N/[article-slug]/
+   - OR: /uncategorized/[article-slug]/
+
+### PDF Discovery
+- PDF URLs follow consistent pattern: /wp-content/uploads/YYYY/MM/[AuthorLastName].pdf
+- Accessibility: ✓ VERIFIED (200 OK responses)
+- Example tested: https://illinoislawreview.org/wp-content/uploads/2025/10/Edmonds.pdf
+  - Status: 200 OK
+  - Size: 392,014 bytes
+  - Type: application/pdf
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## BLOCKER VERIFICATION
+
+### Articles Tested for Full HTML Content
+
+1. **Online Article (2025):** "Prudence or Abdication?"
+   - URL: https://illinoislawreview.org/online/prudence-or-abdication/
+   - HTML Content: Preview only (abstract + introduction)
+   - Message: "The full text of this Article is available to download as a PDF."
+   - PDF: Available at /wp-content/uploads/2025/10/Edmonds.pdf
+
+2. **Print Article (2025):** "State Constitutional Limits on Nitrogen Hypoxia Executions"
+   - URL: https://illinoislawreview.org/uncategorized/state-constitutional-limits-on-nitrogen-hypoxia-executions/
+   - HTML Content: Preview only (abstract)
+   - Message: "The full text of this Article is available to download as a PDF."
+   - PDF: Available at /wp-content/uploads/2025/08/Berry-1.pdf
+
+3. **Print Article (2024):** "The Basis for Election Exceptionalism in Justiciability and Related Doctrines"
+   - URL: https://illinoislawreview.org/print/vol-2024-no-5/the-basis-for-election-exceptionalism-in-justiciability-and-related-doctrines/
+   - HTML Content: Preview only (abstract)
+   - Message: "The full text of this Symposium is available to download as a PDF."
+
+4. **Print Article (2023):** "Constitutional Review of Federal Tax Legislation"
+   - URL: https://illinoislawreview.org/print/vol-2023-no-1/constitutional-review-of-federal-tax-legislation/
+   - HTML Content: Preview only (abstract + introduction)
+   - Message: "The full text of this Article is available to download as a PDF."
+
+### Blocker Confirmation
+- ✗ No full HTML text found across any year tested (2023, 2024, 2025)
+- ✗ No full HTML text found in either "online" or "print" sections
+- ✓ Consistent pattern: All pages show only preview content
+- ✓ All pages explicitly state full text is PDF-only
+
+**Conclusion:** This is a site-wide publishing policy, not an isolated issue.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Article Inventory (for reference)
+
+### Online Section Articles Found (10 total)
+1. Prudence or Abdication?
+2. Liability's Blind Spot
+3. Significance of Qatar's Foreign Policy in International Law
+4. Toward a Scented Jurisprudence
+5. Antitrust, Self-Preferencing, and Display of Search Results
+6. Comparison Kills Creativity?
+7. Is it Time to Scrap Stare Decisis?
+8. Backlogging
+9. California Wildfires and the Legal Implications of Cloudseeding
+10. Preserving Precedent on Capital Mitigation
+
+### Print Section - Recent Issues
+- Vol. 2025 No. 4: 8 articles (5 Articles + 3 Notes)
+- Vol. 2024 No. 5: 7+ symposium articles
+- Vol. 2023 No. 1: 3+ articles
+- Additional issues: 2025 No. 1-3, 2024 No. 1-4, etc.
+
+**Total accessible articles:** 380+ issues × ~8 articles/issue = ~3,000+ articles
+**PDFs accessible:** Yes, all tested PDFs returned 200 OK
+**Full HTML pages:** 0 (zero)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Collection Statistics
+
+- HTML-PDF pairs collected: 0
+- Full HTML pages found: 0
+- PDFs verified accessible: 2
+- Article pages tested: 4
+- Years tested: 2023, 2024, 2025
+- Sections tested: Online, Print
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Technical Capabilities Assessment
+
+### What Works
+✓ PDF discovery and download (verified working)
+✓ Article URL discovery (multiple strategies successful)
+✓ Metadata extraction (titles, authors, citations, dates)
+✓ Preview HTML collection (abstracts + introductions available)
+✓ No rate limiting or blocking encountered
+✓ No robots.txt restrictions on article pages
+
+### What Doesn't Work
+✗ Full HTML text collection (site policy: PDF-only publication)
+✗ HTML-PDF content matching (no HTML full text to match)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Alternative Use Cases (if reconsidering requirements)
+
+If the project could benefit from preview HTML + PDF pairs, this journal offers:
+
+1. **High-quality metadata:** Every article page has structured metadata
+   - Title, author(s), citation, publication date
+   - Abstract (usually 200-500 words)
+   - Introduction sections (usually 500-1500 words)
+
+2. **Consistent PDF access:** All PDFs tested were accessible
+   - Standard URL pattern predictable
+   - No authentication required
+   - No download limits encountered
+
+3. **Large collection potential:** 3,000+ articles across 76 years
+   - Well-organized by year and issue
+   - Consistent structure across all years
+
+**Potential use case:** Training models to match abstracts/introductions to full PDFs, or metadata extraction tasks.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Recommendations
+
+### Primary Recommendation
+**Skip University of Illinois Law Review** and select an alternative journal that publishes full HTML text.
+
+### Alternative Journals to Consider
+Based on docs/guides/LAW_REVIEW_COLLECTION_STRATEGIES.md, consider journals known for full HTML publication:
+- Harvard Law Review (often has full HTML)
+- Stanford Law Review (check HTML availability)
+- Yale Law Journal (check HTML availability)
+- Other university-hosted journals with open access policies
+
+### Verification Before Collection
+For any alternative journal, verify HTML availability first:
+1. Check 2-3 sample articles for full HTML text
+2. Confirm text length >5,000 words in HTML
+3. Verify HTML content matches PDF content
+4. Only proceed if full HTML confirmed
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## Next Steps
+
+1. **User Decision Required:** Select alternative journal for collection
+2. **If proceeding with UIUC:** Clarify if preview HTML + PDF pairs are acceptable
+3. **If switching journals:** Run reconnaissance on new target before collection
+
+═══════════════════════════════════════════════════════════════════════════════
+
+End of Report

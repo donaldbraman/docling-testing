@@ -1,5 +1,23 @@
-JOURNAL: Stanford Law Review
-BASE_URL: https://www.stanfordlawreview.org
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 0s
+Stanford Law Review Collection Progress
+==================================================
+
+Target: 10+ articles (stretch: 15)
+Successful: 14
+Failed: 0
+Skipped (already downloaded): 0
+
+Successful Downloads:
+  - khan_notice_choice_unfairness
+  - highsmith_company_town
+  - padmanabhan_deportation
+  - weightman_banking_franchise
+  - crews_vermont_yankee
+  - badii_antitrust_merger
+  - snyder_constitutional_rights
+  - wu_clean_water_enforcement
+  - bednar_presidential_control
+  - kelley_fair_housing
+  - yorke_missing_canons
+  - rauterberg_shadow_banking
+  - schuman_prosecutors_robes
+  - yankah_deputization

@@ -40,7 +40,7 @@ PLATFORM_PATTERNS = {
         "patterns": [
             r"Downloaded from www\.annualreviews\.org",
             r"annualreviews\.org",
-            r"Annual Review of \w+",
+            # Removed: r"Annual Review of \w+" - causes false positives (matches citations)
             r"Guest \(guest\) IP:",
             r"\(ar-\d+\)",  # Annual Reviews session identifier
             r"IP:\s+\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\s+On:",  # IP pattern
@@ -51,7 +51,7 @@ PLATFORM_PATTERNS = {
         "description": "JSTOR digital library platform covers",
         "example": "JSTOR is a not-for-profit service... Stable URL: ...",
         "patterns": [
-            r"JSTOR",
+            r"\bJSTOR\b",  # Word boundaries to avoid substring matches
             r"www\.jstor\.org",
             r"Stable URL:",
             r"stable/\d+",
@@ -64,9 +64,9 @@ PLATFORM_PATTERNS = {
         "description": "ProQuest database platform covers",
         "example": "ProQuest document ID: ...",
         "patterns": [
-            r"ProQuest",
-            r"Dialog",
-            r"UMI",
+            r"\bProQuest\b",  # Word boundaries to avoid substring matches
+            # Removed: r"Dialog" - too generic, matches common words
+            # Removed: r"UMI" - causes false positives (matches "Lumina", "illuminate", etc.)
             r"ProQuest document ID",
             r"proquest\.com",
         ],
@@ -148,9 +148,15 @@ def classify_cover(text: str) -> str:
     Returns:
         Classification: 'platform_cover' or 'semantic_cover'
     """
-    platform, confidence = detect_platform(text)
+    # Only check first 1000 characters (where platform headers appear)
+    # This avoids matching platform names in article body/citations
+    search_text = text[:1000] if len(text) > 1000 else text
 
-    if platform and confidence >= 0.5:
+    platform, confidence = detect_platform(search_text)
+
+    # Require higher confidence (0.9) to reduce false positives
+    # This means at least 2 patterns must match for most platforms
+    if platform and confidence >= 0.9:
         return "platform_cover"
     else:
         return "semantic_cover"

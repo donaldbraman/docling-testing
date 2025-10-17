@@ -1,5 +1,116 @@
-JOURNAL: Virginia Law Review
-BASE_URL: https://www.virginialawreview.org
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 1s
+Virginia Law Review Collection Progress Report
+================================================================================
+Generated: 2025-10-16 19:20:50
+Target: 10 pairs (stretch: 15)
+
+SUMMARY
+-------
+Successful: 12
+Failed: 13
+Total attempted: 25
+Success rate: 48.0%
+
+SUCCESSFUL PAIRS
+----------------
+1. free-speech-breathing-space-and-liability-insurance
+   URL: https://virginialawreview.org/articles/free-speech-breathing-space-and-liability-insurance/
+   Status: Success (HTML: 4493 words, PDF: 679728 bytes)
+
+2. deterring-unenforceable-terms
+   URL: https://virginialawreview.org/articles/deterring-unenforceable-terms/
+   Status: Success (HTML: 4778 words, PDF: 740086 bytes)
+
+3. the-association-game-applying-noscitur-a-sociis-and-ejusdem-generis
+   URL: https://virginialawreview.org/articles/the-association-game-applying-noscitur-a-sociis-and-ejusdem-generis/
+   Status: Success (HTML: 1999 words, PDF: 606077 bytes)
+
+4. neo-brandeis-goes-to-washington-a-provisional-assessment-of-the-biden-administrations-antitrust-record
+   URL: https://virginialawreview.org/articles/neo-brandeis-goes-to-washington-a-provisional-assessment-of-the-biden-administrations-antitrust-record/
+   Status: Success (HTML: 1133 words, PDF: 945967 bytes)
+
+5. fourth-amendment-trespass-and-internet-search-history
+   URL: https://virginialawreview.org/articles/fourth-amendment-trespass-and-internet-search-history/
+   Status: Success (HTML: 1462 words, PDF: 374866 bytes)
+
+6. political-mootness
+   URL: https://virginialawreview.org/articles/political-mootness/
+   Status: Success (HTML: 3648 words, PDF: 748459 bytes)
+
+7. the-right-thing-in-the-wrong-place-unstable-dicta-and-aesthetics-gradual-incursion-into-the-traditional-police-power-justifications
+   URL: https://virginialawreview.org/articles/the-right-thing-in-the-wrong-place-unstable-dicta-and-aesthetics-gradual-incursion-into-the-traditional-police-power-justifications/
+   Status: Success (HTML: 3140 words, PDF: 610391 bytes)
+
+8. antitrusts-interdependence-paradox
+   URL: https://virginialawreview.org/articles/antitrusts-interdependence-paradox/
+   Status: Success (HTML: 1272 words, PDF: 784358 bytes)
+
+9. free-speech-as-white-privilege-racialization-suppression-and-the-palestine-exception
+   URL: https://virginialawreview.org/articles/free-speech-as-white-privilege-racialization-suppression-and-the-palestine-exception/
+   Status: Success (HTML: 2401 words, PDF: 407023 bytes)
+
+10. abortions-new-criminalization-a-history-and-tradition-right-to-health-care-access-after-dobbs
+   URL: https://virginialawreview.org/articles/abortions-new-criminalization-a-history-and-tradition-right-to-health-care-access-after-dobbs/
+   Status: Success (HTML: 3868 words, PDF: 1045630 bytes)
+
+11. the-radical-fair-housing-act
+   URL: https://virginialawreview.org/articles/the-radical-fair-housing-act/
+   Status: Success (HTML: 4559 words, PDF: 828262 bytes)
+
+12. an-alternative-to-constraining-judges-with-constitutional-theories-the-internal-goods-approach
+   URL: https://virginialawreview.org/articles/an-alternative-to-constraining-judges-with-constitutional-theories-the-internal-goods-approach/
+   Status: Success (HTML: 2945 words, PDF: 501626 bytes)
+
+
+FAILED ATTEMPTS
+---------------
+1. the-limits-of-evidence-based-policymaking
+   URL: https://virginialawreview.org/articles/the-limits-of-evidence-based-policymaking/
+   Reason: Failed to fetch HTML
+
+2. plea-bargaining-in-the-shadow-of-big-data
+   URL: https://virginialawreview.org/articles/plea-bargaining-in-the-shadow-of-big-data/
+   Reason: Failed to fetch HTML
+
+3. why-do-we-regulate-insider-trading
+   URL: https://virginialawreview.org/articles/why-do-we-regulate-insider-trading/
+   Reason: Failed to fetch HTML
+
+4. tax-as-far-less-than-perfect-substitutes
+   URL: https://virginialawreview.org/articles/tax-as-far-less-than-perfect-substitutes/
+   Reason: Failed to fetch HTML
+
+5. the-new-election-contestation
+   URL: https://virginialawreview.org/articles/the-new-election-contestation/
+   Reason: Failed to fetch HTML
+
+6. the-modern-day-literacy-test-felon-disenfranchisement-and-race-discrimination
+   URL: https://virginialawreview.org/articles/the-modern-day-literacy-test-felon-disenfranchisement-and-race-discrimination/
+   Reason: Failed to fetch HTML
+
+7. trade-secret-damages
+   URL: https://virginialawreview.org/articles/trade-secret-damages/
+   Reason: Failed to fetch HTML
+
+8. how-administrative-law-can-save-the-separation-of-powers
+   URL: https://virginialawreview.org/articles/how-administrative-law-can-save-the-separation-of-powers/
+   Reason: Failed to fetch HTML
+
+9. reframing-rights-in-social-enterprise
+   URL: https://virginialawreview.org/articles/reframing-rights-in-social-enterprise/
+   Reason: Failed to fetch HTML
+
+10. judging-agency-action
+   URL: https://virginialawreview.org/articles/judging-agency-action/
+   Reason: Failed to fetch HTML
+
+11. the-corporate-contract-in-changing-times-is-the-law-keeping-up
+   URL: https://virginialawreview.org/articles/the-corporate-contract-in-changing-times-is-the-law-keeping-up/
+   Reason: Failed to fetch HTML
+
+12. property-beyond-exclusion
+   URL: https://virginialawreview.org/articles/property-beyond-exclusion/
+   Reason: Failed to fetch HTML
+
+13. the-law-of-lawless-courts
+   URL: https://virginialawreview.org/articles/the-law-of-lawless-courts/
+   Reason: Failed to fetch HTML

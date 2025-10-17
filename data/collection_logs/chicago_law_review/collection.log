@@ -1,0 +1,126 @@
+2025-10-16 19:19:33 - ============================================================
+2025-10-16 19:19:33 - Starting Chicago Law Review collection
+2025-10-16 19:19:33 - Target: 15 HTML-PDF pairs
+2025-10-16 19:19:33 - ============================================================
+2025-10-16 19:19:33 - Fetching article list from https://lawreview.uchicago.edu/online-archive
+2025-10-16 19:19:33 - Found 12 article slugs
+2025-10-16 19:19:33 -
+[1/12] Processing: children-and-cars-watch-them
+2025-10-16 19:19:36 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/children-and-cars-watch-them
+2025-10-16 19:19:36 -   Saved HTML (186426 chars) to chicago_law_review_children-and-cars-watch-them.html
+2025-10-16 19:19:38 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-10/Bala_Children%20and%20the%20Cars%20that%20Watch%20Them_0.pdf
+2025-10-16 19:19:39 -   Saved PDF (264512 bytes) to chicago_law_review_children-and-cars-watch-them.pdf
+2025-10-16 19:19:39 -   SUCCESS: Pair 1 complete
+2025-10-16 19:19:39 -
+[2/12] Processing: concept-common-law
+2025-10-16 19:19:41 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/concept-common-law
+2025-10-16 19:19:41 -   Saved HTML (155963 chars) to chicago_law_review_concept-common-law.html
+2025-10-16 19:19:44 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-09/Bray_The%20Concept%20of%20the%20Common%20Law_0.pdf
+2025-10-16 19:19:44 -   Saved PDF (194088 bytes) to chicago_law_review_concept-common-law.pdf
+2025-10-16 19:19:44 -   SUCCESS: Pair 2 complete
+2025-10-16 19:19:44 -
+[3/12] Processing: trump-20-removal-cases-new-shadow-docket
+2025-10-16 19:19:47 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/trump-20-removal-cases-new-shadow-docket
+2025-10-16 19:19:47 -   Saved HTML (194723 chars) to chicago_law_review_trump-20-removal-cases-new-shadow-docket.html
+2025-10-16 19:19:49 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-09/Eskridge_New%20Shadow%20Docket.pdf
+2025-10-16 19:19:49 -   Saved PDF (346005 bytes) to chicago_law_review_trump-20-removal-cases-new-shadow-docket.pdf
+2025-10-16 19:19:49 -   SUCCESS: Pair 3 complete
+2025-10-16 19:19:49 -
+[4/12] Processing: blueprint-protecting-us-companies-unfair-competition-fueled-forced-labor
+2025-10-16 19:19:52 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/blueprint-protecting-us-companies-unfair-competition-fueled-forced-labor
+2025-10-16 19:19:52 -   Saved HTML (147685 chars) to chicago_law_review_blueprint-protecting-us-companies-unfair-competition-fueled-forced-labor.html
+2025-10-16 19:19:55 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-09/Funk_Kendall_A%20Blueprint%20for%20Protecting%20U.S.%20Companies%20from%20Unfair%20Competition%20Fueled%20by%20Forced%20Labor.pdf
+2025-10-16 19:19:55 -   Saved PDF (161314 bytes) to chicago_law_review_blueprint-protecting-us-companies-unfair-competition-fueled-forced-labor.pdf
+2025-10-16 19:19:55 -   SUCCESS: Pair 4 complete
+2025-10-16 19:19:55 -
+[5/12] Processing: constitutional-amendment-state-statute-case-dual-sovereignty-illinois
+2025-10-16 19:19:57 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/constitutional-amendment-state-statute-case-dual-sovereignty-illinois
+2025-10-16 19:19:57 -   Saved HTML (150715 chars) to chicago_law_review_constitutional-amendment-state-statute-case-dual-sovereignty-illinois.html
+2025-10-16 19:20:00 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-08/Dual%20Sovereignty%20in%20Illinois_Henkel_UCLRO.pdf
+2025-10-16 19:20:00 -   Saved PDF (117161 bytes) to chicago_law_review_constitutional-amendment-state-statute-case-dual-sovereignty-illinois.pdf
+2025-10-16 19:20:00 -   SUCCESS: Pair 5 complete
+2025-10-16 19:20:00 -
+[6/12] Processing: future-forced-labor-enforcing-uflpa-wake-ninestar-corp-v-united-states
+2025-10-16 19:20:03 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/future-forced-labor-enforcing-uflpa-wake-ninestar-corp-v-united-states
+2025-10-16 19:20:03 -   Saved HTML (156532 chars) to chicago_law_review_future-forced-labor-enforcing-uflpa-wake-ninestar-corp-v-united-states.html
+2025-10-16 19:20:03 -   WARNING: No PDF link found for future-forced-labor-enforcing-uflpa-wake-ninestar-corp-v-united-states
+2025-10-16 19:20:03 -
+[7/12] Processing: united-states-v-harris-hard-sell-involuntary-medication-defendants
+2025-10-16 19:20:05 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/united-states-v-harris-hard-sell-involuntary-medication-defendants
+2025-10-16 19:20:05 -   Saved HTML (151110 chars) to chicago_law_review_united-states-v-harris-hard-sell-involuntary-medication-defendants.html
+2025-10-16 19:20:08 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-06/Involuntary%20Medication%20of%20Defendants_Caldwell_UCLRO.pdf
+2025-10-16 19:20:08 -   Saved PDF (154290 bytes) to chicago_law_review_united-states-v-harris-hard-sell-involuntary-medication-defendants.pdf
+2025-10-16 19:20:08 -   SUCCESS: Pair 6 complete
+2025-10-16 19:20:08 -
+[8/12] Processing: search-strategy-sampling-and-competition-law
+2025-10-16 19:20:11 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/search-strategy-sampling-and-competition-law
+2025-10-16 19:20:11 -   Saved HTML (195406 chars) to chicago_law_review_search-strategy-sampling-and-competition-law.html
+2025-10-16 19:20:13 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-06/SEARCH%20STRATEGY%2C%20SAMPLING%2C%20AND%20COMPETITION%20LAW.pdf
+2025-10-16 19:20:13 -   Saved PDF (258178 bytes) to chicago_law_review_search-strategy-sampling-and-competition-law.pdf
+2025-10-16 19:20:13 -   SUCCESS: Pair 7 complete
+2025-10-16 19:20:13 -
+[9/12] Processing: college-athletes-employees-implications-title-ix-and-unequal-pay
+2025-10-16 19:20:16 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/college-athletes-employees-implications-title-ix-and-unequal-pay
+2025-10-16 19:20:16 -   Saved HTML (146559 chars) to chicago_law_review_college-athletes-employees-implications-title-ix-and-unequal-pay.html
+2025-10-16 19:20:18 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-06/College%20Atheles%20as%20Employees_Ferrero_UCLRO.pdf
+2025-10-16 19:20:19 -   Saved PDF (124506 bytes) to chicago_law_review_college-athletes-employees-implications-title-ix-and-unequal-pay.pdf
+2025-10-16 19:20:19 -   SUCCESS: Pair 8 complete
+2025-10-16 19:20:19 -
+[10/12] Processing: digital-authoritarianism
+2025-10-16 19:20:21 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/digital-authoritarianism
+2025-10-16 19:20:21 -   Saved HTML (192289 chars) to chicago_law_review_digital-authoritarianism.html
+2025-10-16 19:20:24 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-06/Citron%20%26%20Waldman_ESSAY%20DIGITAL%20AUTHORITARIANISM_UCLRO.pdf
+2025-10-16 19:20:24 -   Saved PDF (315436 bytes) to chicago_law_review_digital-authoritarianism.pdf
+2025-10-16 19:20:24 -   SUCCESS: Pair 9 complete
+2025-10-16 19:20:24 -
+[11/12] Processing: constitutional-limits-regulations-foreign-influenced-corporate-contributions
+2025-10-16 19:20:26 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/constitutional-limits-regulations-foreign-influenced-corporate-contributions
+2025-10-16 19:20:26 -   Saved HTML (157610 chars) to chicago_law_review_constitutional-limits-regulations-foreign-influenced-corporate-contributions.html
+2025-10-16 19:20:26 -   WARNING: No PDF link found for constitutional-limits-regulations-foreign-influenced-corporate-contributions
+2025-10-16 19:20:26 -
+[12/12] Processing: tiktok-bans-takings-clause-blunder
+2025-10-16 19:20:29 - Fetching HTML: https://lawreview.uchicago.edu/online-archive/tiktok-bans-takings-clause-blunder
+2025-10-16 19:20:29 -   Saved HTML (147670 chars) to chicago_law_review_tiktok-bans-takings-clause-blunder.html
+2025-10-16 19:20:32 - Fetching PDF: https://lawreview.uchicago.edu/sites/default/files/2025-05/Gilchrist_Tik%20Tok_Takings%20Clause_0.pdf
+2025-10-16 19:20:32 -   Saved PDF (115424 bytes) to chicago_law_review_tiktok-bans-takings-clause-blunder.pdf
+2025-10-16 19:20:32 -   SUCCESS: Pair 10 complete
+2025-10-16 19:20:32 -
+============================================================
+2025-10-16 19:20:32 - COLLECTION COMPLETE
+2025-10-16 19:20:32 - ============================================================
+2025-10-16 19:20:32 - Successful pairs: 10/15
+2025-10-16 19:20:32 - Failed articles: 2
+2025-10-16 19:20:32 -
+Failed articles:
+2025-10-16 19:20:32 -   - future-forced-labor-enforcing-uflpa-wake-ninestar-corp-v-united-states: No PDF link found
+2025-10-16 19:20:32 -   - constitutional-limits-regulations-foreign-influenced-corporate-contributions: No PDF link found
+2025-10-16 19:20:32 -
+Progress report saved to /Users/donaldbraman/Documents/GitHub/docling-testing/data/collection_logs/chicago_law_review/progress.txt
+2025-10-16 19:20:58 -
+[1/5] Processing: venue-transfers-administrative-litigation-and-neglected-percolation-argument
+2025-10-16 19:21:01 -   Saved HTML (150412 chars)
+2025-10-16 19:21:04 -   Saved PDF (132855 bytes)
+2025-10-16 19:21:04 -   SUCCESS: Pair 1 complete
+2025-10-16 19:21:04 -
+[2/5] Processing: specter-circuit-split-isaacson-bankshot-and-ss-1983
+2025-10-16 19:21:07 -   Saved HTML (143854 chars)
+2025-10-16 19:21:09 -   Saved PDF (144585 bytes)
+2025-10-16 19:21:09 -   SUCCESS: Pair 2 complete
+2025-10-16 19:21:09 -
+[3/5] Processing: who-are-they-judge-scope-absolute-immunity-applied-parole-psychologists
+2025-10-16 19:21:12 -   Saved HTML (150682 chars)
+2025-10-16 19:21:14 -   Saved PDF (126953 bytes)
+2025-10-16 19:21:15 -   SUCCESS: Pair 3 complete
+2025-10-16 19:21:15 -
+[4/5] Processing: snow-rain-and-theft-limits-us-postal-service-liability-under-federal-tort-claims-act
+2025-10-16 19:21:17 -   Saved HTML (145167 chars)
+2025-10-16 19:21:20 -   Saved PDF (108750 bytes)
+2025-10-16 19:21:20 -   SUCCESS: Pair 4 complete
+2025-10-16 19:21:20 -
+[5/5] Processing: ai-business-judgment-rule-heightened-information-duty
+2025-10-16 19:21:22 -   Saved HTML (160741 chars)
+2025-10-16 19:21:25 -   Saved PDF (140682 bytes)
+2025-10-16 19:21:25 -   SUCCESS: Pair 5 complete
+2025-10-16 19:21:25 -
+
+Page 2 collection complete: 5/5 successful

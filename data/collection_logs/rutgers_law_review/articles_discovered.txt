@@ -1,0 +1,120 @@
+Rutgers University Law Review - Articles Discovered
+═══════════════════════════════════════════════════════════════════════════════
+
+NOTE: These articles are PDF-only. No HTML full-text versions available.
+This list documents what WOULD have been collected if HTML versions existed.
+
+═══════════════════════════════════════════════════════════════════════════════
+VOLUME 62, FALL 2009, ISSUE 1
+═══════════════════════════════════════════════════════════════════════════════
+
+Articles (4):
+
+1. Title: Rendition to Torture: A Critical Legal History
+   Author: Alan W. Clarke
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Rendition-to-Torture-A-Critical-Legal-History.pdf
+   HTML: N/A (PDF-only)
+
+2. Title: Conflating and Confusing Contract Interpretation and the Parol Evidence Rule
+   Author: Margaret N. Kniffin
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Conflating-and-Confusing-Contract-Interpretation-and-the-Parol-Evidence-Rule-Is-The-Emperor-Wearing-Someone-Elses-Clothes.pdf
+   HTML: N/A (PDF-only)
+
+3. Title: Murder Will Out: Rethinking the Right of Publicity Through One Classic Case
+   Author: Edward J. Larson
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Murder-Will-Out-Rethinking-the-Right-of-Publicity-Through-One-Classic-Case.pdf
+   HTML: N/A (PDF-only)
+
+4. Title: Follow the Yellow Brick Road: Perusing the Path to Constitutionally Permissible Reparations
+   Author: Carlton Waterhouse
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Follow-the-Yellow-Brick-Road-Perusing-the-Path-to-Constitutionally-Permissible-Reparations-for-Slavery-and-Jim-Crow-Era-Governmental-Discrimination.pdf
+   HTML: N/A (PDF-only)
+
+Notes (3):
+
+5. Title: Risky Business: The Alien Tort Claims Act and the Foreign Corrupt Practices Act
+   Author: Tara Elliott
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Risky-Business-The-Alien-Tort-Claims-Act-and-the-Foreign-Corrupt-Practices-Act-Expand-the-Reach-of-U.S.-Courts-in-a-Global-Economy.pdf
+   HTML: N/A (PDF-only)
+
+6. Title: Cruel and Unusual Punishment: Mandatory Sentencing of Juveniles Tried as Adults
+   Author: [Author not listed in initial scan]
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Cruel-and-Unusual-Punishment-Mandatory-Sentencing-of-Juveniles-Tried-as-Adults-Without-the-Possibility-of-Youth-as-a-Mitigating-Factor.pdf
+   HTML: N/A (PDF-only)
+
+7. Title: Connoisseurship Corrected: Protecting the Artist, the Public and the Role of Art Museums
+   Author: [Author not listed in initial scan]
+   PDF: http://rutgerslawreview.com/wp-content/uploads/2011/08/Connoisseurship-Corrected-Protecting-the-Artist-the-Public-and-the-Role-of-Art-Museums-Through-the-Amendment-of-VARA.pdf
+   HTML: N/A (PDF-only)
+
+═══════════════════════════════════════════════════════════════════════════════
+RECENT COMMENTARIES (VOLUME 77, 2025)
+═══════════════════════════════════════════════════════════════════════════════
+
+8. Title: For the Punishment of Crime: Slavery, Indenture, and Convict Servitude Under Antebellum Northern State Constitutions
+   Author: Robinson Woodward-Burns
+   Volume: 77 (Summer 2025)
+   PDF: https://rutgerslawreview.com/wp-content/uploads/2025/08/Woodward-Burns-Commentary.pdf
+   HTML: N/A (PDF-only)
+
+9. Title: Secrets Left Behind: The DTSA's Missed Opportunity to Federalize Inevitable Disclosure
+   Author: Jeffrey Midose
+   Volume: 77 (Spring 2025)
+   PDF: https://rutgerslawreview.com/wp-content/uploads/2025/10/Final_Midose_Commentary.pdf
+   HTML: N/A (PDF-only)
+
+10. Title: How the Community Reinvestment Act and Paycheck Protection Program Exacerbated the Equitable Lending Crisis
+    Author: Mia Banks
+    Volume: 77 (Spring 2025)
+    PDF: https://rutgerslawreview.com/wp-content/uploads/2025/10/Final_Banks_Commentary.pdf
+    HTML: N/A (PDF-only)
+
+11. Title: Spinning Our Wheels: Why Offshore Wind Projects Stall and How to Speed Up the Process
+    Author: Sam Little
+    Volume: 76 (Fall 2024)
+    PDF: [URL not captured - available on commentaries page]
+    HTML: N/A (PDF-only)
+
+12. Title: Side Effects May Include Misinformation: Using a Dual Agency Approach to Fill the Telemedicine Regulatory Gap
+    Author: Saturday Zammit
+    Volume: 76 (Fall 2024)
+    PDF: [URL not captured - available on commentaries page]
+    HTML: N/A (PDF-only)
+
+═══════════════════════════════════════════════════════════════════════════════
+TOTAL ARTICLES DISCOVERED
+═══════════════════════════════════════════════════════════════════════════════
+
+Total PDF-only articles found: 12+
+Total HTML-PDF pairs found: 0
+
+Volumes available: 60-77 (covering approximately 2007-2025)
+Estimated total articles available: 100+ PDFs
+
+═══════════════════════════════════════════════════════════════════════════════
+STRUCTURAL PATTERN
+═══════════════════════════════════════════════════════════════════════════════
+
+Volume Page Structure:
+- URL: https://rutgerslawreview.com/volume-{#}-{season}-{year}-issue-{#}/
+- Content: List of article titles with author names
+- Links: Direct to PDF files in WordPress uploads directory
+- No intermediate article pages
+
+PDF URL Pattern:
+- Base: http://rutgerslawreview.com/wp-content/uploads/
+- Format: {YEAR}/{MONTH}/{Article-Title-With-Hyphens}.pdf
+- Accessibility: All PDFs tested returned 200 OK
+
+Commentary Structure:
+- Same pattern as articles
+- Organized by volume/season
+- PDF-only access
+
+═══════════════════════════════════════════════════════════════════════════════
+
+NOTE: This journal is NOT suitable for HTML-PDF pair collection.
+Suitable for: PDF-only corpus, citation analysis, metadata extraction.
+
+Discovery Date: 2025-10-16
+Agent: Claude Code (Sonnet 4.5)

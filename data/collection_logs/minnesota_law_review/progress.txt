@@ -1,5 +1,151 @@
-JOURNAL: Minnesota Law Review
-BASE_URL: https://www.minnesotalawreview.org
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 1s
+Minnesota Law Review Collection Report
+========================================
+Journal: Minnesota Law Review
+Base URL: https://www.minnesotalawreview.org/
+Collection Date: 2025-10-16
+Status: BLOCKED - No HTML-PDF pairs available
+
+BLOCKER SUMMARY
+===============
+Minnesota Law Review does NOT provide HTML-PDF pairs for the same content.
+The site has two distinct content types with different formats:
+
+1. Main Law Review Articles (PDF only)
+   - Location: https://www.minnesotalawreview.org/law-review-archive/
+   - Format: Abstract/intro HTML + Full text PDF
+   - HTML: Only contains title, author, and brief abstract (~200-300 words)
+   - PDF: Full article text (20-60 pages typical)
+   - Example: https://minnesotalawreview.org/article/if-lived-experience-could-speak-a-method-for-repairing-epistemic-violence-in-law-and-the-legal-academy/
+   - PDF URL: https://minnesotalawreview.org/wp-content/uploads/2024/11/1-LopezCarter.pdf
+
+2. De Novo Blog Posts (HTML only)
+   - Location: https://www.minnesotalawreview.org/ (mixed with main articles)
+   - Format: Full HTML text, NO PDF available
+   - HTML: Complete article text (~2,000-3,000 words)
+   - PDF: None available
+   - Example: https://minnesotalawreview.org/2024/12/20/change-the-system-not-the-woman-addressing-workplace-inequities-stemming-from-the-american-economy/
+
+3. Headnotes (PDF only, similar to main articles)
+   - Location: Mixed in article archive
+   - Format: Abstract HTML + Full text PDF
+   - Same structure as main law review articles
+
+RECONNAISSANCE FINDINGS
+=======================
+Site Structure: WordPress-based law review site
+Robots.txt: Minimal restrictions, only /wp-admin/ blocked, no crawl-delay
+Sitemaps: Available at https://www.minnesotalawreview.org/sitemap_index.xml
+
+Archive Organization:
+- Volumes 90-109 available online
+- Each volume divided into 5-6 issues
+- Older content available through HeinOnline (external database)
+
+URL Patterns Identified:
+- Articles: /article/[slug]/
+- Volume archives: /vol-[number]-print-issues/
+- De Novo posts: /[year]/[month]/[day]/[slug]/
+- Direct PDFs: /wp-content/uploads/[year]/[month]/[filename].pdf
+
+ATTEMPTED STRATEGIES
+====================
+1. Browse Recent Issues (Vol 109) - SUCCESS
+   - Found 50+ article URLs across 6 issues
+   - All articles have PDFs but only abstracts in HTML
+
+2. Check Alternative Content Types - PARTIAL
+   - De Novo blog: Has full HTML but no PDFs
+   - Headnotes: Same as main articles (abstract + PDF only)
+
+3. URL Parameter Testing - FAILED
+   - Tried ?print=pdf - No change
+   - Tried ?format=html - No change
+   - No alternate view modes detected
+
+4. Archive Exploration (Vol 108) - SUCCESS
+   - Found additional article URLs
+   - Same pattern: abstract HTML + PDF only
+
+SITE CHARACTERISTICS
+====================
+Content Quality: High-quality academic law review
+Article Length: Main articles 20-60 pages, De Novo posts 2-3k words
+Update Frequency: 5-6 issues per year (regular publication schedule)
+Access: No paywall, all content freely accessible
+Rate Limiting: None observed during reconnaissance
+
+ARTICLES CATALOGUED (Not Downloaded)
+====================================
+Volume 109, Issue 1 (8 articles identified):
+1. "If Lived Experience Could Speak" - Carter & López
+   URL: https://minnesotalawreview.org/article/if-lived-experience-could-speak-a-method-for-repairing-epistemic-violence-in-law-and-the-legal-academy/
+   PDF: https://minnesotalawreview.org/wp-content/uploads/2024/11/1-LopezCarter.pdf
+   HTML: Abstract only
+
+2. "Informed Bystanders' Duty to Warn" - Gilat J. Bachar
+   URL: https://minnesotalawreview.org/article/informed-bystanders-duty-to-warn/
+   PDF: Available (URL pattern follows same structure)
+   HTML: Abstract only
+
+3. "Lawyering in the Age of Artificial Intelligence" - Choi, Monahan, Schwarcz
+   URL: https://minnesotalawreview.org/article/lawyering-in-the-age-of-artificial-intelligence/
+   PDF: https://minnesotalawreview.org/wp-content/uploads/2024/11/3-ChoiMonahanSchwarcz.pdf
+   HTML: Abstract only
+
+4. "Repurposed Energy" - Klass & Wiseman
+   URL: https://minnesotalawreview.org/article/repurposed-energy/
+   PDF: Available
+   HTML: Abstract only
+
+5. "Reconstruction, and the Unfulfilled Promise of Antitrust" - Capers & Day
+   URL: https://minnesotalawreview.org/article/reconstruction-and-the-unfulfilled-promise-of-antitrust/
+   PDF: Available
+   HTML: Abstract only
+
+Volume 108 (15+ articles identified, same pattern)
+
+De Novo Blog Posts Catalogued (HTML only, not suitable):
+1. "Change the System, Not the Woman" - Dec 2024
+2. "How RFK's Recent Court Battles" - Oct 2024
+3. "A New Take on Takings" - Apr 2024
+
+CONCLUSION
+==========
+Minnesota Law Review cannot provide HTML-PDF pairs for machine learning training
+because the site architecture separates these formats:
+- Academic articles: PDF-first publication model (HTML is just metadata)
+- Blog posts: HTML-only content (no corresponding PDFs)
+
+RECOMMENDATION
+==============
+Skip Minnesota Law Review and try alternative journals that publish
+full HTML versions alongside PDFs. Consider:
+- Stanford Law Review (known for HTML versions)
+- Yale Law Journal (often has full HTML)
+- Harvard Law Review (check for HTML availability)
+- Columbia Law Review (check for HTML availability)
+
+ALTERNATIVE APPROACH (Not Recommended)
+======================================
+If PDFs are acceptable without HTML pairs:
+- Minnesota Law Review has 100+ freely accessible PDFs
+- Could collect PDFs only for corpus expansion
+- Would require PDF-to-text conversion (Docling could handle this)
+- Would not provide the HTML-PDF matching needed for current project goals
+
+FILES DOWNLOADED
+================
+None - Collection not attempted due to format incompatibility
+
+TOTAL COLLECTION
+================
+Target: 10-15 HTML-PDF pairs
+Achieved: 0 pairs (site does not support this format)
+Success Rate: 0% (due to site architecture, not scraping issues)
+
+NEXT STEPS
+==========
+1. Report blocker to user
+2. Request alternative journal assignment
+3. Consider updating collection strategy documentation with this finding
+4. Add Minnesota Law Review to "PDF-only journals" list for future reference

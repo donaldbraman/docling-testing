@@ -411,7 +411,8 @@ def main():
     """Process all HTML/PDF pairs and create labeled corpus."""
     from concurrent.futures import ProcessPoolExecutor
 
-    base_dir = Path(__file__).parent
+    # Get project root (2 levels up from scripts/corpus_building)
+    base_dir = Path(__file__).parent.parent.parent
 
     html_dir = base_dir / "data" / "raw_html"
     pdf_dir = base_dir / "data" / "raw_pdf"

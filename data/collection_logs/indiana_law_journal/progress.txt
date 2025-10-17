@@ -3,3 +3,314 @@ BASE_URL: https://www.indianalawreview.org
 COLLECTED: 0/10
 SUCCESS_RATE: 0.0%
 TIME_ELAPSED: 0s
+======================================================================
+Indiana Law Journal HTML-PDF Pair Collection
+Target: 10 complete pairs
+Start Time: 2025-10-16 19:35:30
+======================================================================
+
+[Volume 100] Exploring...
+  [Issue 4] Checking https://www.repository.law.indiana.edu/ilj/vol100/iss4
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol100/iss4
+  Found 0 article URLs
+  [Issue 3] Checking https://www.repository.law.indiana.edu/ilj/vol100/iss3
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol100/iss3
+  Found 0 article URLs
+  [Issue 2] Checking https://www.repository.law.indiana.edu/ilj/vol100/iss2
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol100/iss2
+  Found 0 article URLs
+  [Issue 1] Checking https://www.repository.law.indiana.edu/ilj/vol100/iss1
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol100/iss1
+  Found 0 article URLs
+
+[Volume 99] Exploring...
+  [Issue 4] Checking https://www.repository.law.indiana.edu/ilj/vol99/iss4
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol99/iss4
+  Found 0 article URLs
+  [Issue 3] Checking https://www.repository.law.indiana.edu/ilj/vol99/iss3
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol99/iss3
+  Found 0 article URLs
+  [Issue 2] Checking https://www.repository.law.indiana.edu/ilj/vol99/iss2
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol99/iss2
+  Found 0 article URLs
+  [Issue 1] Checking https://www.repository.law.indiana.edu/ilj/vol99/iss1
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol99/iss1
+  Found 0 article URLs
+
+[Volume 98] Exploring...
+  [Issue 4] Checking https://www.repository.law.indiana.edu/ilj/vol98/iss4
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol98/iss4
+  Found 0 article URLs
+  [Issue 3] Checking https://www.repository.law.indiana.edu/ilj/vol98/iss3
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol98/iss3
+  Found 0 article URLs
+  [Issue 2] Checking https://www.repository.law.indiana.edu/ilj/vol98/iss2
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol98/iss2
+  Found 0 article URLs
+  [Issue 1] Checking https://www.repository.law.indiana.edu/ilj/vol98/iss1
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol98/iss1
+  Found 0 article URLs
+
+[Volume 97] Exploring...
+  [Issue 4] Checking https://www.repository.law.indiana.edu/ilj/vol97/iss4
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol97/iss4
+  Found 0 article URLs
+  [Issue 3] Checking https://www.repository.law.indiana.edu/ilj/vol97/iss3
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol97/iss3
+  Found 0 article URLs
+  [Issue 2] Checking https://www.repository.law.indiana.edu/ilj/vol97/iss2
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol97/iss2
+  Found 0 article URLs
+  [Issue 1] Checking https://www.repository.law.indiana.edu/ilj/vol97/iss1
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol97/iss1
+  Found 0 article URLs
+
+[Volume 96] Exploring...
+  [Issue 4] Checking https://www.repository.law.indiana.edu/ilj/vol96/iss4
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol96/iss4
+  Found 0 article URLs
+  [Issue 3] Checking https://www.repository.law.indiana.edu/ilj/vol96/iss3
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol96/iss3
+  Found 0 article URLs
+  [Issue 2] Checking https://www.repository.law.indiana.edu/ilj/vol96/iss2
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol96/iss2
+  Found 0 article URLs
+  [Issue 1] Checking https://www.repository.law.indiana.edu/ilj/vol96/iss1
+  Fetching volume page: https://www.repository.law.indiana.edu/ilj/vol96/iss1
+  Found 0 article URLs
+
+======================================================================
+COLLECTION COMPLETE
+Pairs collected: 0/10
+End Time: 2025-10-16 19:36:42
+======================================================================
+
+PARTIAL: Only collected 0 of 10
+======================================================================
+Indiana Law Journal HTML-PDF Pair Collection
+Target: 10 complete pairs
+Start Time: 2025-10-16 19:37:29
+======================================================================
+
+Fetching articles from journal homepage...
+  Fetching journal homepage: https://www.repository.law.indiana.edu/ilj/
+  Found 15 article URLs
+Found 15 total articles on homepage
+Will process first 15 articles
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/1
+  Slug: foreword
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11575&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/2
+  Slug: the_mirage_of_artificial_intelligence_terms_of_use_restrictions
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11576&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/3
+  Slug: dark_patterns_as_disloyal_design
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11577&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/4
+  Slug: the_overstated_cost_of_ai_fairness_in_criminal_justice
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11578&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/5
+  Slug: unlocking_platform_data_for_research
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11579&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/6
+  Slug: multiplicity_as_an_ai_governance_principle
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11580&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/7
+  Slug: unpacking_open_source_bio
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11581&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/8
+  Slug: moving_slow_and_fixing_things
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11582&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/9
+  Slug: can_ai_as_such_invade_your_privacy_an_experimental_study_of_the_social_element_of_surveillance
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11583&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/10
+  Slug: discord_and_the_pentagon_s_watchdog_countering_extremism_in_the_u_s_military
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11584&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/11
+  Slug: design_patent_law_s_three_little_words
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11585&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/12
+  Slug: regulating_healthcare_coverage_algorithms
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11586&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/13
+  Slug: on_software_bugs_and_legal_bugs_product_liability_in_the_age_of_code
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11587&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/14
+  Slug: defragging_ownership_how_corporations_sliced_diced_and_sold_the_bundle
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11588&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/15
+  Slug: ninth_amendment_neurorights
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11589&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+    ERROR: Download returned 403
+  SKIP: PDF download failed
+
+======================================================================
+COLLECTION COMPLETE
+Pairs collected: 0/10
+End Time: 2025-10-16 19:40:16
+======================================================================
+
+PARTIAL: Only collected 0 of 10
+======================================================================
+Indiana Law Journal HTML-PDF Pair Collection
+Target: 10 complete pairs
+Start Time: 2025-10-16 19:41:35
+======================================================================
+
+Fetching articles from journal homepage...
+  Fetching journal homepage: https://www.repository.law.indiana.edu/ilj/
+  Found 15 article URLs
+Found 15 total articles on homepage
+Will process first 15 articles
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/1
+  Slug: foreword
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11575&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (1/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/2
+  Slug: the_mirage_of_artificial_intelligence_terms_of_use_restrictions
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11576&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (2/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/3
+  Slug: dark_patterns_as_disloyal_design
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11577&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (3/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/4
+  Slug: the_overstated_cost_of_ai_fairness_in_criminal_justice
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11578&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (4/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/5
+  Slug: unlocking_platform_data_for_research
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11579&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (5/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/6
+  Slug: multiplicity_as_an_ai_governance_principle
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11580&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (6/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/7
+  Slug: unpacking_open_source_bio
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11581&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (7/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/8
+  Slug: moving_slow_and_fixing_things
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11582&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (8/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/9
+  Slug: can_ai_as_such_invade_your_privacy_an_experimental_study_of_the_social_element_of_surveillance
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11583&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (9/10)
+
+Article: https://www.repository.law.indiana.edu/ilj/vol100/iss4/10
+  Slug: discord_and_the_pentagon_s_watchdog_countering_extremism_in_the_u_s_military
+  PDF: https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=11584&context=ilj
+  Downloading HTML...
+  Downloading PDF...
+  SUCCESS! (10/10)
+
+======================================================================
+COLLECTION COMPLETE
+Pairs collected: 10/10
+End Time: 2025-10-16 19:43:23
+======================================================================
+
+SUCCESS: Target reached!

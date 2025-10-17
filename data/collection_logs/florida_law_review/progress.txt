@@ -1,5 +1,25 @@
-JOURNAL: Florida Law Review
-BASE_URL: https://www.floridalawreview.org
-COLLECTED: 0/10
-SUCCESS_RATE: 0.0%
-TIME_ELAPSED: 1s
+Florida Law Review Collection Progress
+======================================================================
+
+Date: 2025-10-16 19:40:15
+Target: 16 articles
+Successful: 16
+Failed: 0
+
+Successful Downloads:
+  ✓ Vol 77, Issue 2, Article 1: chilling-effects-dobbs
+  ✓ Vol 77, Issue 2, Article 2: future-antitrust-populism
+  ✓ Vol 77, Issue 2, Article 3: big-cost-small-farms
+  ✓ Vol 77, Issue 2, Article 4: originalist-case-insular-cases
+  ✓ Vol 77, Issue 2, Article 5: katz-imperfect-circle
+  ✓ Vol 77, Issue 2, Article 6: tribal-courts-general-jurisdiction
+  ✓ Vol 77, Issue 1, Article 1: artificial-intelligence-privacy
+  ✓ Vol 77, Issue 1, Article 2: expressive-discrimination-universities
+  ✓ Vol 77, Issue 1, Article 3: transunion-vermont-agency-statutory-damages
+  ✓ Vol 77, Issue 1, Article 4: going-en-banc
+  ✓ Vol 77, Issue 1, Article 5: clayton-act-cipher
+  ✓ Vol 76, Issue 6, Article 1: combatting-extremism
+  ✓ Vol 76, Issue 6, Article 2: originalism-election-law
+  ✓ Vol 76, Issue 6, Article 3: power-electorate-state-constitutions
+  ✓ Vol 76, Issue 6, Article 4: maximum-convergence-voting
+  ✓ Vol 76, Issue 6, Article 5: voting-rights-materiality

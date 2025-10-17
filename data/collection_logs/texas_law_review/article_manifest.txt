@@ -1,0 +1,37 @@
+TEXAS LAW REVIEW ARTICLE MANIFEST
+==================================
+Total Articles: 15
+Collection Date: 2025-10-16
+
+FORMAT: slug|title|author|year|volume|html_url|pdf_url
+-------------------------------------------------------
+
+technologies-of-violence|Technologies of Violence: Law, Markets, and Innovation for Gun Safety|Blocher, Buccafusco|2025|103|https://texaslawreview.org/technologies-of-violence-law-markets-and-innovation-for-gun-safety/|https://texaslawreview.org/wp-content/uploads/2025/05/Blocher.Printer.pdf
+
+video-analytics-fourth-amendment|Video Analytics and Fourth Amendment Vision|Ferguson|2025|103|https://texaslawreview.org/video-analytics-and-fourth-amendment-vision/|https://texaslawreview.org/wp-content/uploads/2025/05/Ferguson.Printer.pdf
+
+working-with-statutes|Working with Statutes|Bernstein|2025|103|https://texaslawreview.org/working-with-statutes/|https://texaslawreview.org/wp-content/uploads/2025/04/Bernstein-Working-with-Statutes.pdf
+
+systemically-important-technology|Systemically Important Technology|Werbach, Zaring|2023|101|https://texaslawreview.org/systemically-important-technology/|https://texaslawreview.org/wp-content/uploads/2023/04/WerbachZaring.pdf
+
+discovery-dark-matter|Discovery Dark Matter|Endo|2023|101|https://texaslawreview.org/discovery-dark-matter/|https://texaslawreview.org/wp-content/uploads/2023/04/Endo.pdf
+
+battered-woman-syndrome|Battered Woman Syndrome: When Justice Annexes the Space for Mercy|Moore|2023|101|https://texaslawreview.org/battered-woman-syndrome-when-justice-annexes-the-space-for-mercy/|https://texaslawreview.org/wp-content/uploads/2023/04/Moore.pdf
+
+extraterritoriality-patent-infringement|Pushing the Boundaries: Extraterritoriality, Patent Infringement Damages|Canby|2023|101|https://texaslawreview.org/pushing-the-boundaries-extraterritoriality-patent-infringement-damages-and-the-semiconductor-industry/|https://texaslawreview.org/wp-content/uploads/2023/04/Canby.pdf
+
+contract-remedies-new-economy|Contract Remedies for New Economy Collaborations|Schwartz, Sepe|2023|101|https://texaslawreview.org/contract-remedies-for-new-economy-collaborations/|https://texaslawreview.org/wp-content/uploads/2023/04/SchwartzSepe.pdf
+
+cryptocurrency-credit-risk|Not Your Keys, Not Your Coins: Unpriced Credit Risk in Cryptocurrency|Levitin|2023|101|https://texaslawreview.org/not-your-keys-not-your-coins-unpriced-credit-risk-in-cryptocurrency/|https://texaslawreview.org/wp-content/uploads/2023/04/Levitin.pdf
+
+state-regulation-online-behavior|State Regulation of Online Behavior: The Dormant Commerce Clause and Geolocation|Goldsmith, Volokh|2023|101|https://texaslawreview.org/state-regulation-of-online-behavior-the-dormant-commerce-clause-and-geolocation/|https://texaslawreview.org/wp-content/uploads/2023/04/GoldsmithVolokh.pdf
+
+repealing-environmental-laws-magna-carta|Repealing Environmental Law's Magna Carta|Lazarus|2025|104|https://texaslawreview.org/repealing-environmental-laws-magna-carta-amidst-the-devolution-of-environmental-law/|https://texaslawreview.org/wp-content/uploads/2025/10/Lazarus_Repealing-Environmental-Laws-Magna-Carta.pdf
+
+liberty-in-loyalty-fiduciary-law|Liberty in Loyalty: A Republican Theory of Fiduciary Law|Criddle|2017|95|https://texaslawreview.org/liberty-in-loyalty-a-republican-theory-of-fiduciary-law/|https://texaslawreview.org/wp-content/uploads/2017/04/Criddle.pdf
+
+federalism-state-democracy|Federalism and State Democracy|Schleicher|2017|95|https://texaslawreview.org/federalism-and-state-democracy/|https://texaslawreview.org/wp-content/uploads/2017/03/Schleicher.pdf
+
+mass-incarceration-history|Is Mass Incarceration History?|Simon|2017|95|https://texaslawreview.org/is-mass-incarceration-history/|https://texaslawreview.org/wp-content/uploads/2017/04/Simon.pdf
+
+damage-averaging-high-value-claims|Damage Averaging: How the System Harms High-Value Claims|Kishinevsky|2017|95|https://texaslawreview.org/damage-averaging-how-the-system-harms-high-value-claims/|https://texaslawreview.org/wp-content/uploads/2017/04/Kishinevsky.pdf

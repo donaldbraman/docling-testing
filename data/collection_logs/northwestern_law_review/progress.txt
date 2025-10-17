@@ -1,5 +1,24 @@
-JOURNAL: Northwestern University Law Review
-BASE_URL: https://northwesternlawreview.org
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 0s
+Northwestern Law Review Collection Progress
+======================================================================
+
+Date: 2025-10-16 19:23:38
+Target: 15 articles
+Success: 15/15
+Failed: 0/15
+
+Articles collected:
+  - Vol 119, Iss 6, Art 1: renaissance_private_law
+  - Vol 119, Iss 6, Art 2: against_monetary_primacy
+  - Vol 119, Iss 6, Art 3: climate_exceptionalism_court
+  - Vol 119, Iss 5, Art 1: racial_discrimination_returns
+  - Vol 119, Iss 5, Art 2: market_value_partisan_balance
+  - Vol 119, Iss 5, Art 3: constraining_executive_branch
+  - Vol 119, Iss 5, Art 4: statutes_special_interests
+  - Vol 119, Iss 4, Art 1: forgotten_fundamental_right_movement
+  - Vol 119, Iss 4, Art 2: louboutin_lawfare
+  - Vol 119, Iss 4, Art 3: healing_power_antitrust
+  - Vol 119, Iss 4, Art 4: ais_dream_electric_boards
+  - Vol 119, Iss 3, Art 1: accommodating_incompetency_immigration
+  - Vol 119, Iss 3, Art 2: taxations_limits
+  - Vol 119, Iss 3, Art 3: legally_magic_words
+  - Vol 119, Iss 3, Art 4: sec_entrepreneurial_enforcer

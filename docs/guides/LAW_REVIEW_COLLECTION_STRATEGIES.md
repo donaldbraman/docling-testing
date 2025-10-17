@@ -686,6 +686,67 @@ touch data/collection_logs/{journal_name}/urls.txt
 5. Document structural changes for future reference
 ```
 
+### Problem: Journal Only Provides Abstracts in HTML (NOT Full Text)
+**CRITICAL BLOCKER - Cannot Collect HTML-PDF Pairs**
+
+**Detection:**
+```
+1. Navigate to article page
+2. Check visible text length:
+   - Abstract-only: ~200-500 words
+   - Full article: >5,000 words
+3. Look for "Download PDF" or "Read Full Text" buttons
+   - If PDF is ONLY access method → BLOCKER
+4. Check HTML source for article body content
+   - Look for: <article>, <div class="content">, <section class="body">
+   - If only abstract/metadata visible → BLOCKER
+```
+
+**Known Journals with This Architecture:**
+- NYU Law Review (https://nyulawreview.org) - Abstract + PDF only
+  - Tested: 2024-10-16
+  - Pattern: WordPress CMS with abstract-only HTML
+  - PDFs available but no HTML full text
+  - Volume 99-100 (2024-2025) confirmed
+
+**Recommendation:**
+```
+SKIP these journals for HTML-PDF pair collection.
+These journals are suitable for:
+- PDF-only corpus building
+- Abstract/metadata extraction
+- Citation network analysis
+
+NOT suitable for:
+- HTML-PDF structure comparison
+- HTML parsing training data
+- Multi-format layout learning
+```
+
+**Alternative Action:**
+```
+1. Mark journal as "PDF-only" in journal compatibility matrix
+2. Move to next assigned journal
+3. Document finding in collection_logs/{journal}/progress.txt
+4. Focus effort on journals with full HTML text
+```
+
+**How to Identify HTML Full-Text Journals:**
+```
+Positive indicators:
+- Article page shows >2,000 words of visible content
+- Multiple sections/headings visible in HTML
+- Footnotes/endnotes rendered in HTML
+- Tables/figures embedded in page (not just images)
+- "Print view" or "HTML view" option available
+
+Negative indicators:
+- Only abstract + metadata visible
+- Prominent "Download PDF" as primary access
+- Text cuts off with "...read more in PDF"
+- Article content in <iframe> from PDF viewer
+```
+
 ---
 
 ## 🎯 Discovery Strategy Priority Order (By Journal Type)
@@ -899,7 +960,35 @@ Update this file as you discover new patterns/access methods
 
 ---
 
+## 📋 Journal Compatibility Matrix
+
+**Purpose:** Track which journals provide HTML full text vs. abstract-only
+
+| Journal | Base URL | HTML Full Text? | Status | Tested Date | Notes |
+|---------|----------|----------------|--------|-------------|-------|
+| NYU Law Review | https://nyulawreview.org | ❌ NO | Abstract-only | 2025-10-16 | WordPress, PDF-only access |
+| Rutgers University Law Review | https://rutgerslawreview.com | ❌ NO | PDF-only | 2025-10-16 | WordPress, volume pages link directly to PDFs, no HTML article pages |
+| UCLA Law Review | https://www.uclalawreview.org | ⚠️ PARTIAL | Mixed | 2025-10-16 | Print archive: abstract-only. Law Meets World/Discourse/Dialectic: full HTML text. Collected 15 articles. |
+| Iowa Law Review | https://ilr.law.uiowa.edu | ❌ NO | Abstract-only | 2025-10-16 | Drupal CMS, abstract + PDF download only, ~200 word abstracts, 4 paragraph tags |
+| Indiana Law Journal | https://www.repository.law.indiana.edu/ilj/ | ❌ NO | Abstract-only | 2025-10-16 | BePress Digital Commons, ~200-500 word abstracts, collected 10 pairs but NOT suitable for HTML-PDF training |
+| *Add more as discovered* | | | | | |
+
+**Legend:**
+- ✅ YES = Full article text available in HTML (suitable for collection)
+- ❌ NO = Abstract-only or PDF-only (NOT suitable for HTML-PDF pairs)
+- ⚠️ PARTIAL = Some articles have HTML, others don't (case-by-case)
+- ❓ UNKNOWN = Not yet tested
+
+**Usage:**
+1. Before starting collection on a new journal, check this matrix
+2. If marked ❌ NO, skip and choose alternative journal
+3. If marked ❓ UNKNOWN, perform Stage 1 reconnaissance first
+4. Update matrix with findings after testing
+
+---
+
 **Remember:** Be polite, be persistent, be documented. Law reviews WANT their research discovered—finding the right approach is just engineering.
 
 Generated: 2025-10-16
+Updated: 2025-10-16 (Added NYU Law Review, Rutgers University Law Review, UCLA Law Review, and Iowa Law Review findings)
 For: Issue #21 - Expand Training Corpus for DoclingBERT v3

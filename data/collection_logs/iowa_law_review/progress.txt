@@ -1,5 +1,115 @@
-JOURNAL: Iowa Law Review
-BASE_URL: https://ilr.law.uiowa.edu
-COLLECTED: 10/10
-SUCCESS_RATE: 100.0%
-TIME_ELAPSED: 0s
+IOWA LAW REVIEW COLLECTION REPORT
+==================================
+Date: 2025-10-16
+Journal: Iowa Law Review
+Base URL: https://ilr.law.uiowa.edu/
+Target: 10-15 HTML-PDF pairs
+
+CRITICAL FINDING: HTML-PDF PAIRS NOT AVAILABLE
+==============================================
+
+Iowa Law Review does NOT provide full HTML text for articles.
+Articles are published as landing pages with abstracts + PDF downloads only.
+
+Stage 1: Reconnaissance [COMPLETED]
+-----------------------------------
+✓ Found correct domain: ilr.law.uiowa.edu (not iowalawreview.org)
+✓ Checked robots.txt: 1-second crawl delay required
+✓ Identified site structure:
+  - Print Edition: Organized by Volume-Issue (e.g., Volume 110, Issue 5)
+  - Online Edition: Organized by Volume-Essays/Response Pieces
+  - URL pattern: /volume-{number}-issue-{number}/{article-slug}
+
+Stage 2: Discovery [COMPLETED]
+------------------------------
+✓ Explored Volume 110, Issue 5 (current print edition)
+✓ Found 11 articles in Volume 110, Issue 5
+✓ Explored Volume 110 Essays (Online Edition)
+✓ Found 2 articles in Volume 110 Essays
+
+CONTENT VERIFICATION [COMPLETED]
+---------------------------------
+Analyzed article HTML structure:
+- Title: "Climate Redress Revisited: Loss and Damage, Compensation, and Reparations"
+- URL: /volume-110-issue-5/climate-redress-revisited-loss-and-damage-compensation-and-reparations
+- HTML Content: Abstract only (~200 words in 4 paragraph tags)
+- PDF Link: /sites/ilr.law.uiowa.edu/files/2025-07/ILR-110-Waterhouse.pdf
+- PDF Status: Accessible (200 OK)
+
+BLOCKER IDENTIFIED
+-----------------
+Iowa Law Review does NOT provide full HTML text for articles.
+
+Article pages contain:
+- Title, author, citation metadata
+- Abstract (~200 words)
+- PDF download link
+
+Full article text is ONLY available in PDF format.
+
+Examples verified:
+1. Print Edition: /volume-110-issue-5/climate-liberalism-and-decarbonization
+   - PDF: /sites/ilr.law.uiowa.edu/files/2025-07/ILR-110-Adler.pdf
+   - Status: Abstract only, no HTML full text (477KB PDF accessible)
+
+2. Online Edition: /volume-110-essays/chevron-stare-decisis-post-loper-bright-world
+   - PDF: /sites/ilr.law.uiowa.edu/files/2025-05/ILROnline-110-Nash.pdf
+   - Status: Abstract only, no HTML full text (PDF accessible)
+
+PREVIOUS COLLECTION ATTEMPT
+---------------------------
+Found evidence of previous collection attempt (10/16 15:20):
+- 10 HTML files saved (abstracts only)
+- 9 PDFs downloaded successfully
+- 1 PDF failed
+- Files have malformed names: "iowa_law_review_______________Iowa_Law_Review____________.html"
+
+AVAILABLE DATA
+--------------
+PDFs are accessible and downloadable, but HTML-PDF pairs CANNOT be created
+because the journal does not publish full HTML versions of articles.
+
+Volume 110, Issue 5 articles available (PDFs only):
+1. Climate Liberalism and Decarbonization (Adler)
+2. Throwing Cold Water on Climate Reparations
+3. Floods, Hurricanes, Droughts, and a Free Market Economy
+4. Mandatory Public Reason-Giving in Corporate Governance
+5. Clean Energy Infrastructure and Private Property
+6. Using the Transmission Grid to Make "Second Best" Decarbonization Better
+7. The Moral Boundary of the Firm
+8. Climate Redress Revisited (Waterhouse)
+9. "Not Just Another Utility": The Tennessee Valley Authority
+10. Climate Change and Corporate Law in the United States
+11. Insurer Subrogation Claims (Student Note)
+
+RECOMMENDATION
+--------------
+❌ Iowa Law Review is NOT suitable for HTML-PDF pair collection
+✓ Switch to alternative journal that publishes full HTML text
+✓ Alternatively, if only PDFs are needed (not pairs), Iowa Law Review has
+  robust PDF availability (11+ articles in Volume 110 Issue 5 alone)
+
+DISCOVERY STRATEGIES ATTEMPTED
+-------------------------------
+1. ✓ Browse Recent (Volume 110, Issue 5) - Found 11 articles
+2. ✓ Online Edition (Volume 110 Essays) - Found 2 articles
+3. ✓ Content Verification - Confirmed abstract-only HTML
+4. ✗ RSS - Not needed after blocker identified
+5. ✗ Archive - Not needed after blocker identified
+6. ✗ Search - Not needed after blocker identified
+
+RATE LIMITING COMPLIANCE
+-------------------------
+✓ Respected 1-second crawl delay from robots.txt
+✓ Used 2-3 second delays between requests
+✓ No 403/429 responses encountered
+✓ Total requests: ~10 (well under rate limit)
+
+NEXT STEPS
+----------
+1. Report finding to user
+2. Request new journal assignment that supports HTML full text
+3. Alternative: If project accepts PDF-only collection, Iowa Law Review
+   has 100+ articles available across recent volumes
+
+STATUS: BLOCKED - No HTML-PDF pairs available from this journal
