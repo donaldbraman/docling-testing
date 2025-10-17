@@ -57,7 +57,7 @@ def search_pmc_articles(max_results=100):
     search_url = f"{BASE_URL}esearch.fcgi"
     params = {
         "db": "pmc",
-        "term": "hasabstract AND ffrft[filter] AND 2025[pdat]",  # 2025 full-text articles
+        "term": "hasabstract AND (2024[pdat] OR 2025[pdat])",  # 2024-2025 articles with abstracts
         "retmax": max_results,
         "retmode": "json",
         "sort": "pub_date",
