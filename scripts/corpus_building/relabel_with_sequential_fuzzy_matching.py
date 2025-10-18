@@ -22,7 +22,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 try:
-    from rapidfuzz import fuzz, process
+    from rapidfuzz import fuzz, utils
 except ImportError:
     print("ERROR: RapidFuzz not installed. Install with: pip install rapidfuzz")
     exit(1)
@@ -132,7 +132,8 @@ class SequentialFuzzyMatcher:
             )
 
         # Use partial_ratio: finds best substring match
-        similarity = fuzz.partial_ratio(pdf_line, search_window)
+        # Use default_process to normalize (lowercase, strip punctuation)
+        similarity = fuzz.partial_ratio(pdf_line, search_window, processor=utils.default_process)
 
         if similarity >= self.threshold:
             # TODO: Could calculate exact match position using token_set_ratio
@@ -228,9 +229,11 @@ def load_docling_extraction(pdf_extraction_file: Path) -> list[PDFLine]:
     """
     Load Docling PDF extraction.
 
-    TODO: Implement based on actual Docling output format.
-    Expected format: JSON with list of text blocks, each with:
-    - text, label, page_num, bbox
+    Actual Docling format has 'texts' array with items containing:
+    - text: The text content
+    - label: Docling's automatic label (footnote, text, section_header, etc.)
+    - content_layer: 'body' or 'furniture' (we skip furniture)
+    - prov: List of provenance dicts with page_no and bbox
 
     Args:
         pdf_extraction_file: Path to Docling extraction JSON
@@ -241,15 +244,23 @@ def load_docling_extraction(pdf_extraction_file: Path) -> list[PDFLine]:
     with open(pdf_extraction_file) as f:
         data = json.load(f)
 
-    # TODO: Adapt to actual Docling format
     pdf_lines = []
-    for item in data.get("text_blocks", []):
+    for item in data.get("texts", []):
+        # Skip furniture (page headers, page numbers, etc.)
+        if item.get("content_layer") == "furniture":
+            continue
+
+        # Extract page number and bbox from provenance
+        prov = item.get("prov", [])
+        page_num = prov[0].get("page_no", 0) if prov else 0
+        bbox = prov[0].get("bbox") if prov else None
+
         pdf_lines.append(
             PDFLine(
-                text=item["text"],
-                original_label=item["label"],
-                page_num=item.get("page_num", 0),
-                bbox=item.get("bbox"),
+                text=item.get("text", ""),
+                original_label=item.get("label", "unknown"),
+                page_num=page_num,
+                bbox=bbox,
             )
         )
 
@@ -291,7 +302,11 @@ def load_processed_html(
 
 
 def save_relabeled_extraction(
-    pdf_lines: list[PDFLine], labels: list[str], match_results: list[MatchResult], output_file: Path
+    pdf_lines: list[PDFLine],
+    labels: list[str],
+    match_results: list[MatchResult],
+    output_file: Path,
+    quiet: bool = False,
 ):
     """
     Save relabeled PDF extraction with corrected labels.
@@ -301,6 +316,7 @@ def save_relabeled_extraction(
         labels: Corrected labels from fuzzy matching
         match_results: Match details for each line
         output_file: Path to save relabeled extraction
+        quiet: If True, suppress output message
     """
     relabeled_data = {
         "basename": output_file.stem,
@@ -326,19 +342,22 @@ def save_relabeled_extraction(
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(relabeled_data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Saved relabeled extraction to: {output_file}")
+    if not quiet:
+        print(f"\n✅ Saved relabeled extraction to: {output_file}")
 
 
-def process_single_article(basename: str):
+def process_single_article(basename: str, quiet: bool = False):
     """
     Process a single article through the v3 pipeline.
 
     Args:
         basename: Article basename (e.g., "harvard_law_review_excited_delirium")
+        quiet: If True, suppress detailed output (for batch processing)
     """
-    print(f"\n{'=' * 80}")
-    print(f"Processing: {basename}")
-    print(f"{'=' * 80}")
+    if not quiet:
+        print(f"\n{'=' * 80}")
+        print(f"Processing: {basename}")
+        print(f"{'=' * 80}")
 
     # Define paths
     docling_file = Path(f"data/v3_data/docling_extraction/{basename}.json")
@@ -347,27 +366,34 @@ def process_single_article(basename: str):
 
     # Check inputs exist
     if not docling_file.exists():
-        print(f"⚠️  Docling extraction not found: {docling_file}")
+        if not quiet:
+            print(f"⚠️  Docling extraction not found: {docling_file}")
         return
     if not html_file.exists():
-        print(f"⚠️  Processed HTML not found: {html_file}")
+        if not quiet:
+            print(f"⚠️  Processed HTML not found: {html_file}")
         return
 
     # Load data
-    print(f"Loading Docling extraction: {docling_file}")
+    if not quiet:
+        print(f"Loading Docling extraction: {docling_file}")
     pdf_lines = load_docling_extraction(docling_file)
-    print(f"  Loaded {len(pdf_lines)} PDF lines")
+    if not quiet:
+        print(f"  Loaded {len(pdf_lines)} PDF lines")
 
-    print(f"Loading HTML ground truth: {html_file}")
+    if not quiet:
+        print(f"Loading HTML ground truth: {html_file}")
     body_paragraphs, footnote_paragraphs = load_processed_html(html_file)
-    print(f"  Loaded {len(body_paragraphs)} body paragraphs")
-    print(f"  Loaded {len(footnote_paragraphs)} footnote paragraphs")
+    if not quiet:
+        print(f"  Loaded {len(body_paragraphs)} body paragraphs")
+        print(f"  Loaded {len(footnote_paragraphs)} footnote paragraphs")
 
     # Initialize matcher
     matcher = SequentialFuzzyMatcher(body_paragraphs, footnote_paragraphs)
 
     # Match each PDF line
-    print(f"\nMatching {len(pdf_lines)} PDF lines to HTML ground truth...")
+    if not quiet:
+        print(f"\nMatching {len(pdf_lines)} PDF lines to HTML ground truth...")
     labels = []
     match_results = []
 
@@ -377,10 +403,11 @@ def process_single_article(basename: str):
         match_results.append(match_result)
 
     # Print statistics
-    matcher.print_stats()
+    if not quiet:
+        matcher.print_stats()
 
     # Save relabeled extraction
-    save_relabeled_extraction(pdf_lines, labels, match_results, output_file)
+    save_relabeled_extraction(pdf_lines, labels, match_results, output_file, quiet=quiet)
 
 
 def main():
@@ -394,7 +421,7 @@ def main():
 
     # Example: Process a single article
     # TODO: Get list of all basenames from v3_data/processed_html
-    example_basename = "harvard_law_review_excited_delirium"
+    example_basename = "academic_limbo__reforming_campus_speech_governance_for_students"
     process_single_article(example_basename)
 
     # TODO: Batch processing
