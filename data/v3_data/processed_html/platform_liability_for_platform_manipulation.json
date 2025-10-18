@@ -1,0 +1,228 @@
+{
+  "basename": "platform_liability_for_platform_manipulation",
+  "journal": "Columbia Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 43,
+    "body_text": 13,
+    "footnote_text": 30,
+    "total_words": 5015
+  },
+  "paragraphs": [
+    {
+      "text": "Platform manipulation is a growing phenomenon affecting billions of internet users globally. Malicious actors leverage the functions and features of online platforms to deceive users, secure financial gain, inflict material harms, and erode the public’s trust. Although social media companies benefit from a safe harbor for their content policies, no state or federal law clearly ascribes liability to platforms complicit in deception by their designs. Existing frameworks fail to accommodate for the unique role design choices play in enabling, amplifying, and monitoring platform manipulation. As a result, platform manipulation continues to grow with few meaningful legal avenues of recourse available to victims.",
+      "label": "body-text",
+      "word_count": 102
+    },
+    {
+      "text": "This Note introduces a paradigm of corporate liability for social media platforms that facilitate platform manipulation. It argues that courts must appreciate platform design as a dimension of corporate conduct by explicating the extension of common law tort liability to platform design. This Platform Design Negligence (PDN) paradigm crucially clarifies the bounds of accountability for the design choices of social media companies and is well-suited to respond to the law’s systemic discounting of platform design. Existing legal frameworks fail to account for the unique and content-agnostic enmeshment between platforms and those who manipulate platforms to abuse users. PDN in turn offers a constitutive baseline for a society with less rampant technology-enabled deception.",
+      "label": "body-text",
+      "word_count": 112
+    },
+    {
+      "text": "The full text of this Note can be found by clicking the PDF link to the left.",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "* J.D. Candidate 2025, Columbia Law School. Many thanks to Professors David Pozen, Christopher Morten, and Raúl Carrillo for their invaluable guidance.",
+      "label": "body-text",
+      "word_count": 22
+    },
+    {
+      "text": "Platform manipulation refers to the activity of malicious actors 1 1 For those who suspect that they are being targeted by a scam, know there are resources available for support. The AARP Fraud Watch Network Helpline is (877) 908-3360. A trained fraud specialist is available to provide free counseling and guidance between 8:00 AM and 8:00 PM ET, Monday through Friday. ... Close who use social media platforms to deceive users. 2 2 “Manipulation” offers three meanings in the context of liability for social media companies. In this Note, “manipulation” in “platform manipulation” primarily refers to the practices of malicious actors, such as scammers, who exploit the design of platforms to achieve their desired outcomes. These manipulators largely seek to deceive platform users to secure financial gain. In this way, “platform manipulation” is a triple entendre; it refers to malicious actors’ manipulation of the design of social media platforms, malicious actors’ manipulation of social media users, and platforms’ own manipulation of their users by way of their platform design. ... Close It is implicated in a wide range of online activities—from online romance scams involving celebrity impersonators 3 3 See infra note 54. ... Close to elder abuse whereby victims lose their life savings by “investing” with fraudsters. 4 4 See, e.g., Ann Pistone & Jason Knowles, Lombard Woman Loses Nearly $1 Million Life Savings in ‘Pig Butchering’ Scam, ABC7 Chi. (Sept. 4, 2024), https://abc7chicago.com /post/lombard-woman-loses-1-million-life-savings-pig-butchering-scam-forced-sell-home-belongings/15267382 [https://perma.cc/5LZP-XCTQ]. ... Close Much to the chagrin of social media executives, 5 5 When pressed on the widespread romance scams on his platform, the then-Match Group Chief Executive Officer replied, “[T]hings happen in life.” Jim Axelrod, Sheena Samu, Andy Bast & Matthew Mosk, As Romance Scammers Turn Dating Apps Into “Hunting Grounds,” Critics Look to Match Group to Do More, CBS News (Apr. 24, 2024), https://www.cbsnews.com/news/romance-scams-dating-apps-investigators-match-group [https://perma.cc/DJ2U-FC63] (internal quotation marks omitted) (quoting Bernard Kim) (describing the death of Laura Kowal after she matched with a scammer on Match.com). ... Close malicious actors identify and communicate with victims through reputable social media platforms like Facebook, Instagram, and Match.com, as well as non-social media platforms like Amazon and Cash App. 6 6 See Edward C. Baig, 8 Warning Flags to Help You Find Fraudulent Apps, AARP (Sept. 10, 2021), https://www.aarp.org/home-family/personal-technology/info-2021/ warning-signs-of-fraudulent-apps.html [https://perma.cc/75C4-9BT4] (last updated Feb. 13, 2024) (“Nearly 2 percent of the 1,000 highest-grossing apps on the App Store are scams . . . .”). ... Close In doing so, these actors exploit the functions and features that make online platforms attractive digital spaces to begin with.",
+      "label": "body-text",
+      "word_count": 421
+    },
+    {
+      "text": "Platform manipulation creates irreparable harm to individuals from all walks of life. For starters, it creates tremendous financial harm. Platform manipulation is part of a booming multibillion-dollar industry in the United States. 7 7 See Emma Fletcher, Social Media: A Golden Goose for Scammers, FTC (Oct. 6, 2023), https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2023/10/social-media-golden-goose-scammers [https://perma.cc/NL5T-SFW7] [hereinafter Fletcher, Golden Goose] (“Scammers are hiding in plain sight on social media platforms and reports to the FTC’s Consumer Sentinel Network point to huge profits.”). Today, more than half of Americans have a friend or family member who has been scammed, and Americans receive approximately thirty-three million robocalls each day. Alana Semuels, The Government Finally Did Something About Robocalls, TIME Mag. (Dec. 15, 2023), https://time.com/6513036/robocalls-government-action/ [https://perma.cc/2H58-YR4X]; Survey: Most Americans Know Someone Targeted by Scam, ABA Banking J. (Nov. 15, 2024), https://bankingjournal.aba.com/2024/11/survey-most-americans-know-someone-targeted-by-scam/ [https://perma.cc/G5UU-8STL]. ... Close In 2022, fraudsters stole over $137 billion from Americans, 8 8 FTC, Protecting Older Consumers 2022–2023, at 40 (2023), https://www.ftc.gov/ system/files/ftc_gov/pdf/p144400olderadultsreportoct2023.pdf [https://perma.cc/8EC3-4AFW]. ... Close and those over age sixty lose approximately $28.3 billion from scams each year. 9 9 Michael Rubinkam, Scammers Are Swiping Billions From Americans Every Year. Worse, Most Crooks Are Getting Away With It, AP News (July 7, 2024), https://apnews.com/article/scammers-billions-elder-fraud-aarp-ai-f9530303e10b99872041 4e88430bcf6b (on file with the Columbia Law Review ) (citing Jilenne Gunther, The Scope of Elder Financial Exploitation: What It Costs Victims, AARP BankSafe Initiative 1 (2023), https://www.aarp.org/content/dam/aarp/money/scams-and-fraud/2023/true-cost-elder-financial-exploitation.doi.10.26419-2Fppi.00194.001.pdf [https://perma.cc/U93E-UJLP]). ... Close Successful scams that involve “deepfakes,” such as artificial intelligence (AI)-generated nude images of minors, can also create long-lasting reputational and psychological harm to victims. 10 10 See Dana Nickel, AI Is Shockingly Good at Making Fake Nudes—And Causing Havoc in Schools, Politico (May 29, 2024), https://www.politico.com/news/2024/05/ 28/ai-deepfake-nudes-schools-states-00160183 (on file with the Columbia Law Review ) (“Students in New Jersey, Florida, California and Washington state have reported embarrassing deepfake experiences that can result in arrests or nothing at all, a gap in laws that can leave victims feeling unprotected.”). ... Close In some instances, victims have attempted to rob banks for their scammers. 11 11 See 74-Year-Old Ohio Woman Charged in Armed Robbery of Credit Union Was Scam Victim, Family Says, AP News (Apr. 24, 2024), https://apnews.com/article/ohio-credit-union-robbery-scam-arrest-23fe2c0a7f839d23c8796f04313ca522 (on file with the Columbia Law Review ) (stating that relatives of a seventy-four-year-old woman claimed she was an online scam victim who was driven to commit armed robbery in order to “solve her financial problems”). ... Close One man in Ohio killed an Uber driver who he wrongfully suspected of involvement with a scam. 12 12 See Ben Finley, What We Know About the Shooting of an Uber Driver in Ohio and the Scam Surrounding It, AP News (Apr. 19, 2024), https://apnews.com/article/uber-driver-killed-scam-4998a42b2e59aed3dda95f983b2f9b52 (on file with the Columbia Law Review ) (describing how an Ohio man “fatally shot an Uber driver” because he mistakenly believed she was part of a scheme to extort $12,000 dollars, though she was also a scam victim sent by scammers to the shooter’s house to pick up a supposed package). ... Close At a meta level, platform manipulation poses many implications for a global society: Democratic discourse necessitates the kind of trust that online scammers extract from public spheres. 13 13 See Evelyn Douek, Content Moderation as Systems Thinking, 136 Harv. L. Rev. 526, 540 (2022) (describing the impact of trust and transparency on social media consumers). ... Close",
+      "label": "body-text",
+      "word_count": 549
+    },
+    {
+      "text": "Platform manipulators rely on the core fabric of social media platforms—their user interfaces (UI) and user experiences (UX)—to operationalize and scale their exploitation. 14 14 What Is the Difference Between UI and UX?, Figma, https://www.figma.com/ resource-library/difference-between-ui-and-ux/ [https://perma.cc/9E22-33FW] (last visited Jan. 24, 2025) (describing user interface as the “interactivity, look, and feel of a product . . . while user experience (UX) covers a user’s overall experience with the product or website”). ... Close These actors use platforms to identify and initiate communication with their targets. 15 15 See, e.g., Cordelia Lynch, SCAM: Inside Asia’s Criminal Network, Sky News (Oct. 18, 2024), https://news.sky.com/story/they-fall-in-love-with-me-inside-the-fraud-factories-driving-the-online-scam-boom-13234505 [https://perma.cc/2HLV-X5W4] (“Based in highly secretive, heavily guarded compounds, fraud factories—similar to the ones Poom-Jai worked in—are spread across South East Asia, where the online scam industry has exploded.”). ... Close They also leverage platforms to expand their operations, test new tactics, and hone their craft, often flying under the radar of platforms’ content detection systems. 16 16 See, e.g., Isabelle Qian, 7 Months Inside an Online Scam Labor Camp, N.Y. Times (Dec. 17, 2023), https://www.nytimes.com/interactive/2023/12/17/world/asia/myanmar-cyber-scam.htm (on file with the Columbia Law Review ) (“The workers spent their days using the WeChat accounts, swiping over social media feeds on each device to mimic normal use and get past the app’s fraud detection system.”). ... Close",
+      "label": "body-text",
+      "word_count": 216
+    },
+    {
+      "text": "Platform designs take many forms and can serve discrete goals. For example, platforms make design choices on how to display features; hiding the “reply all” feature can reduce accidental mass replies, while hiding the number of digits in passcodes can provide additional security. Though some social media companies have adopted platform designs that mitigate harms like cyberbullying and misinformation, 17 17 See Amer Owaida, Instagram Rolls Out New Features to Help Prevent Cyberbullying, We Live Sec. (Apr. 23, 2021), https://www.welivesecurity.com/2021/04/23/ instagram-new-features-curb-cyberbullying/ [https://perma.cc/T8ZF-XRLB] (explaining Instagram’s new “abusive Direct Messages” filter and “a tool to stop someone a user has blocked from contacting them from another account,” both designed to combat cyberbullying and abusive behavior on the platform). ... Close broadly, social media companies offer limited features to address scams and other kinds of platform-based deception. 18 18 See Kristina Radivojevic, Christopher McAleer, Catrell Conley, Cormac Kennedy & Paul Brenner, Social Media Bot Policies: Evaluating Passive and Active Enforcement 5 (Sept. 27, 2024) (unpublished manuscript), https://arxiv.org/pdf/2409.18931 [https://perma.cc/SS43-R7L9] (testing the social media platforms Facebook, Instagram, LinkedIn, Mastodon, Reddit, Threads, TikTok, and X and finding that all fail to sufficiently identify and respond to platform manipulation). ... Close",
+      "label": "body-text",
+      "word_count": 194
+    },
+    {
+      "text": "Meanwhile, it is exceedingly difficult for scam victims to get in touch with customer service personnel who could be positioned to assist them. 19 19 See, e.g., Steven John & Alexander Johnson, How to Contact Facebook Support and Get Help for Issues With Your Account, Bus. Insider (Sept. 19, 2023), https://www.businessinsider.com/guides/tech/how-to-contact-facebook-problems-with-account-other-issues [https://perma.cc/L6R7-BEBL] (“Don’t bother trying to call Facebook.”). ... Close Payment provider platforms used by malicious actors to receive money from victims have been woefully unable to curb this problem, which often originates on social media platforms. 20 20 Social media companies are thus the “first responders” for many scams and fraudulent activities. Federal agencies have already sued major banking platforms, such as Zelle, for “for failing to protect consumers from widespread fraud.” Laurel Wamsley, In a Lawsuit, CFPB Says 3 Top U.S. Banks Failed to Protect Consumers From Zelle Fraud, Or. Pub. Broad. (Dec. 24, 2024), https://www.opb.org/article/2024/12/ 24/cfpb-alleges-3-banks-failed-to-protect-consumers-from-zelle-fraud/ [https://perma.cc/ T7J7-UWAU] (internal quotation marks omitted) (quoting Press Release, CFPB, CFPB Sues JPMorgan Chase, Bank of America, and Wells Fargo for Allowing Fraud to Fester on Zelle (Dec. 20, 2024), https://www.consumerfinance.gov/about-us/newsroom/cfpb-sues-jpmorgan-chase-bank-of-america-and-wells-fargo-for-allowing-fraud-to-fester-on-zelle [https://perma.cc/9698-XPSB]). ... Close In recognition of the complexities of platform manipulation, some companies have begun to initiate voluntary commitments to “shar[e] insights and knowledge about the lifecycle of scams” with the goal of educating users on what to look out for. 21 21 See, e.g., Announcing the Tech Against Scams Coalition, Coinbase (May 21, 2024), https://www.coinbase.com/blog/announcing-the-tech-against-scams-coalition (on file with the Columbia Law Review ) (“This partnership aims to protect and educate users, emphasizing that scams are a tech-wide issue, not limited to social media, crypto, or finance.” (emphasis omitted)); Press Release, Aspen Inst., Aspen Institute Financial Security Program Launches National Task Force for Fraud & Scam Prevention (July 18, 2024), https://www.aspeninstitute.org/news/task-force-on-fraud-and-scams [https://perma.cc/ UQC2-RSRX] (“The task force formalizes a network of stakeholders who have a vested interest in making sure that consumers are protected and can restore trust in our financial system.”). ... Close While these efforts are positive developments, they at best indicate a growing recognition that social media companies lack direction when looking to design their platforms in ways that limit harm caused by the ballooning scam economy. 22 22 See Heather Kelly, The Nonstop Scam Economy Is Costing Us More Than Just Money, Wash. Post (July 13, 2022), https://www.washingtonpost.com/technology/ 2022/07/13/scam-fraud-fatigue/ (on file with the Columbia Law Review ) (“Constant scam attempts can increase stress levels and strain relationships. Their negative impact on mental health is even worse when the scammers target people based on perceived weaknesses, like advanced age, loneliness or[,] . . . an ongoing illness.”). ... Close At worst, social media companies’ short-term profit incentives directly converge with those of the malicious actors on their platforms. 23 23 Social media companies profit off users’ engagement on their platforms, including engagement with scammers. This engagement is packaged and sold to data brokers and advertisers. See Kalev Leetaru, What Does It Mean for Social Media Platforms to “Sell” Our Data?, Forbes (Dec. 15, 2018), https://www.forbes.com/sites/kalevleetaru/ 2018/12/15/what-does-it-mean-for-social-media-platforms-to-sell-our-data/ (on file with the Columbia Law Review ) (describing how social media companies profit by selling user data to data brokers, developers, and advertisers). ... Close It is also worth noting that social media users are better able to participate in the economy and generate advertising revenue when their funds are not siphoned into scammers’ accounts.",
+      "label": "body-text",
+      "word_count": 554
+    },
+    {
+      "text": "As major platforms cobble together written policies to address platform manipulation, 24 24 See, e.g., Andrew Hutchinson, Meta Highlights Key Platform Manipulation Trends in Latest ‘Adversarial Threat Report’, Soc. Media Today (Nov. 30, 2023), https://www.socialmediatoday.com/news/meta-platform-manipulation-trends-adversarial-threat/701230/ [https://perma.cc/QGL7-VYUE] [hereinafter Hutchinson, Meta Highlights Key Platform Manipulation Trends] (discussing Meta’s Q3 2023 “Adversarial Threat Report”); Community Standards, Meta, https://transparency.meta.com/policies/ community-standards/ (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (“Meta recognizes how important it is for Facebook, Instagram, Messenger and Threads to be places where people feel empowered to communicate, and we take our role seriously in keeping abuse off the service. That’s why we developed standards for what is and isn’t allowed on these services.”); Countering Influence Operations, TikTok, https://www.tiktok.com/transparency/en-us/countering-influence-operations/ (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (“This post explains how we continuously work to detect and disrupt covert influence operations that try to undermine the integrity of our platform, so that millions can continue to enjoy a safe, creative, and trusted TikTok experience.”); Fake Engagement Policy, Google, https://support. google.com/youtube/answer/3399767?hl=en [https://perma.cc/RX74-NVYV] (last visited Jan. 24, 2025) (“YouTube doesn’t allow anything that artificially increases the number of views, likes, comments, or other metrics either by using automatic systems or serving up videos to unsuspecting viewers. Also, content that solely exists to incentivize viewers for engagement (views, likes, comments, etc[.]) is prohibited.”); How Does YouTube Address Misinformation, YouTube, https://www.youtube.com/howyoutubeworks/our-commitments/fighting-misinformation/ [https://perma.cc/YE84-RXHL] (last visited Jan. 24, 2025) (“YouTube does not allow misleading or deceptive content that poses a serious risk of egregious harm.”); How We Prevent the Spread of False Information on Snapchat, Snap (Sept. 8, 2022), https://values.snap.com/news/how-we-prevent-the-spread-offalse-information-on-snapchat [https://perma.cc/3XUU-F9PF] (“[Snapchat’s] policies have long prohibited the spread of false information.”); Misinformation, Meta, https://transparency.fb.com/policies/community-standards/misinformation (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (explaining Meta’s policies against misinformation); Platform Manipulation and Spam Policy, X (Mar. 2023), https://web.archive.org/web/20231216113944/https://help.twitter.com/en/rules-and-policies/platform-manipulation (on file with the Columbia Law Review ) (“We want X to be a place where people can make human connections, find reliable information, and express themselves freely and safely. To make that possible, we do not allow spam or other types of platform manipulation.”). ... Close companies face few legal restrictions on the design choices that render their platforms attractive breeding grounds for scammers. 25 25 See Caleb N. Griffin, Systematically Important Platforms, 107 Cornell L. Rev. 445, 514 (2022) (“[C]ompanies that utilize manipulative technologies have no clear corporate law duties to rein in their behavior and protect their users from exploitation and other harms.”). ... Close In the absence of binding legal obligations on social media companies, malicious actors are free to play platforms like instruments of manipulation.",
+      "label": "body-text",
+      "word_count": 442
+    },
+    {
+      "text": "Existing legal frameworks constitute a patchwork of schemes that provide state and federal enforcers and citizens few chances to have their injuries heard, let alone to vindicate their rights and pursue remedies. 26 26 See id. at 489–99 (discussing various state and federal regulatory efforts and noting that “few proposed regulations have successfully been made into law, and those few that are operative apply only in narrow contexts”). ... Close Innovative litigation strategies, such as the application of false advertising claims by private plaintiffs and the Federal Trade Commission (FTC), are stopgap solutions that have not steadied the problem. 27 27 See, e.g., Forrest v. Meta Platforms, Inc., 737 F. Supp. 3d 808, 820–21 (N.D. Cal. 2024) (involving a man whose Facebook profile was used by scammers to create fake profiles); Press Release, L.A. Cnty. Dist. Att’y’s Off., NGL Labs Charged in Consumer Protection Lawsuit (July 9, 2024), https://da.lacounty.gov/media/news/ngl-labs-charged-consumer-protection-lawsuit [https://perma.cc/KT5H-LHQW] (involving a social messaging app that deceptively marketed its platform to users); see also infra section II.B (describing U.S. consumer law’s systemic discounting of social media platform users’ rights). ... Close The cornerstone of social media law, Section 230 of the Communications Decency Act of 1996, as well as First Amendment law and consumer law frameworks, all either fail to provide recourse to social media scam victims or fail to explain legislative inaction in the face of the causal relationship between platforms’ design choices and the scams that transpire on those very same platforms. 28 28 See infra section II.B. ... Close Furthermore, maladaptation of § 230’s immunity for platforms has created an inaccurate presumption of immunity for all choices, including design choices, made by social media companies. 29 29 See infra section II.B; infra notes 236–239. ... Close",
+      "label": "body-text",
+      "word_count": 289
+    },
+    {
+      "text": "This Note is the first to argue for a social media liability paradigm that centers platform design choices: a Platform Design Negligence (PDN) paradigm that establishes the circumstances for a clear assumption of liability in this digital environment. It offers a roadmap for an evolution in law and society towards coherent parlance on the impacts of twenty-first century platform technologies. Social media companies should face liability when their design choices contribute to the deception of their users. When companies are aware of these deception risks and fail to take reasonable precautions, they cease to function as reasonable platforms and should become liable for injuries that follow. Through a full-throated adoption of this paradigm, victims and law enforcers could hold social media companies accountable for harms caused by manipulation conducted on, by, and through their platforms. Both federal and state courts, without the mandate of a statute, can actualize this paradigm by applying and building upon existing common law tort doctrine. 30 30 See infra Part III. ... Close",
+      "label": "body-text",
+      "word_count": 168
+    },
+    {
+      "text": "In Part I, this Note surveys the landscape of platform manipulation, discussing the harms caused by platform-based deception as well as the design choices that enable platform manipulation in practice. It also explores how social media companies profit from the scam economy. Part II turns to the absence of legal frameworks that apply to social media companies’ design choices in the context of platform manipulation. It underscores the relationship between platform design and platform manipulation. It also delineates the pitfalls of the prevailing voluntary self-governance paradigm for platform manipulation. Finally, Part III introduces the PDN paradigm that can serve social media companies, lawmakers, and victims as they pursue legal remedies and design inter-ventions that curb the growing challenge of platform manipulation.",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "For those who suspect that they are being targeted by a scam, know there are resources available for support. The AARP Fraud Watch Network Helpline is (877) 908-3360. A trained fraud specialist is available to provide free counseling and guidance between 8:00 AM and 8:00 PM ET, Monday through Friday.",
+      "label": "footnote-text",
+      "word_count": 50
+    },
+    {
+      "text": "“Manipulation” offers three meanings in the context of liability for social media companies. In this Note, “manipulation” in “platform manipulation” primarily refers to the practices of malicious actors, such as scammers, who exploit the design of platforms to achieve their desired outcomes. These manipulators largely seek to deceive platform users to secure financial gain. In this way, “platform manipulation” is a triple entendre; it refers to malicious actors’ manipulation of the design of social media platforms, malicious actors’ manipulation of social media users, and platforms’ own manipulation of their users by way of their platform design.",
+      "label": "footnote-text",
+      "word_count": 96
+    },
+    {
+      "text": "See infra note 54.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See, e.g., Ann Pistone & Jason Knowles, Lombard Woman Loses Nearly $1 Million Life Savings in ‘Pig Butchering’ Scam, ABC7 Chi. (Sept. 4, 2024), https://abc7chicago.com /post/lombard-woman-loses-1-million-life-savings-pig-butchering-scam-forced-sell-home-belongings/15267382 [https://perma.cc/5LZP-XCTQ].",
+      "label": "footnote-text",
+      "word_count": 27
+    },
+    {
+      "text": "When pressed on the widespread romance scams on his platform, the then-Match Group Chief Executive Officer replied, “[T]hings happen in life.” Jim Axelrod, Sheena Samu, Andy Bast & Matthew Mosk, As Romance Scammers Turn Dating Apps Into “Hunting Grounds,” Critics Look to Match Group to Do More, CBS News (Apr. 24, 2024), https://www.cbsnews.com/news/romance-scams-dating-apps-investigators-match-group [https://perma.cc/DJ2U-FC63] (internal quotation marks omitted) (quoting Bernard Kim) (describing the death of Laura Kowal after she matched with a scammer on Match.com).",
+      "label": "footnote-text",
+      "word_count": 75
+    },
+    {
+      "text": "See Edward C. Baig, 8 Warning Flags to Help You Find Fraudulent Apps, AARP (Sept. 10, 2021), https://www.aarp.org/home-family/personal-technology/info-2021/ warning-signs-of-fraudulent-apps.html [https://perma.cc/75C4-9BT4] (last updated Feb. 13, 2024) (“Nearly 2 percent of the 1,000 highest-grossing apps on the App Store are scams . . . .”).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "See Emma Fletcher, Social Media: A Golden Goose for Scammers, FTC (Oct. 6, 2023), https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2023/10/social-media-golden-goose-scammers [https://perma.cc/NL5T-SFW7] [hereinafter Fletcher, Golden Goose] (“Scammers are hiding in plain sight on social media platforms and reports to the FTC’s Consumer Sentinel Network point to huge profits.”). Today, more than half of Americans have a friend or family member who has been scammed, and Americans receive approximately thirty-three million robocalls each day. Alana Semuels, The Government Finally Did Something About Robocalls, TIME Mag. (Dec. 15, 2023), https://time.com/6513036/robocalls-government-action/ [https://perma.cc/2H58-YR4X]; Survey: Most Americans Know Someone Targeted by Scam, ABA Banking J. (Nov. 15, 2024), https://bankingjournal.aba.com/2024/11/survey-most-americans-know-someone-targeted-by-scam/ [https://perma.cc/G5UU-8STL].",
+      "label": "footnote-text",
+      "word_count": 99
+    },
+    {
+      "text": "FTC, Protecting Older Consumers 2022–2023, at 40 (2023), https://www.ftc.gov/ system/files/ftc_gov/pdf/p144400olderadultsreportoct2023.pdf [https://perma.cc/8EC3-4AFW].",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "Michael Rubinkam, Scammers Are Swiping Billions From Americans Every Year. Worse, Most Crooks Are Getting Away With It, AP News (July 7, 2024), https://apnews.com/article/scammers-billions-elder-fraud-aarp-ai-f9530303e10b99872041 4e88430bcf6b (on file with the Columbia Law Review ) (citing Jilenne Gunther, The Scope of Elder Financial Exploitation: What It Costs Victims, AARP BankSafe Initiative 1 (2023), https://www.aarp.org/content/dam/aarp/money/scams-and-fraud/2023/true-cost-elder-financial-exploitation.doi.10.26419-2Fppi.00194.001.pdf [https://perma.cc/U93E-UJLP]).",
+      "label": "footnote-text",
+      "word_count": 53
+    },
+    {
+      "text": "See Dana Nickel, AI Is Shockingly Good at Making Fake Nudes—And Causing Havoc in Schools, Politico (May 29, 2024), https://www.politico.com/news/2024/05/ 28/ai-deepfake-nudes-schools-states-00160183 (on file with the Columbia Law Review ) (“Students in New Jersey, Florida, California and Washington state have reported embarrassing deepfake experiences that can result in arrests or nothing at all, a gap in laws that can leave victims feeling unprotected.”).",
+      "label": "footnote-text",
+      "word_count": 62
+    },
+    {
+      "text": "See 74-Year-Old Ohio Woman Charged in Armed Robbery of Credit Union Was Scam Victim, Family Says, AP News (Apr. 24, 2024), https://apnews.com/article/ohio-credit-union-robbery-scam-arrest-23fe2c0a7f839d23c8796f04313ca522 (on file with the Columbia Law Review ) (stating that relatives of a seventy-four-year-old woman claimed she was an online scam victim who was driven to commit armed robbery in order to “solve her financial problems”).",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": "See Ben Finley, What We Know About the Shooting of an Uber Driver in Ohio and the Scam Surrounding It, AP News (Apr. 19, 2024), https://apnews.com/article/uber-driver-killed-scam-4998a42b2e59aed3dda95f983b2f9b52 (on file with the Columbia Law Review ) (describing how an Ohio man “fatally shot an Uber driver” because he mistakenly believed she was part of a scheme to extort $12,000 dollars, though she was also a scam victim sent by scammers to the shooter’s house to pick up a supposed package).",
+      "label": "footnote-text",
+      "word_count": 78
+    },
+    {
+      "text": "See Evelyn Douek, Content Moderation as Systems Thinking, 136 Harv. L. Rev. 526, 540 (2022) (describing the impact of trust and transparency on social media consumers).",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": "What Is the Difference Between UI and UX?, Figma, https://www.figma.com/ resource-library/difference-between-ui-and-ux/ [https://perma.cc/9E22-33FW] (last visited Jan. 24, 2025) (describing user interface as the “interactivity, look, and feel of a product . . . while user experience (UX) covers a user’s overall experience with the product or website”).",
+      "label": "footnote-text",
+      "word_count": 46
+    },
+    {
+      "text": "See, e.g., Cordelia Lynch, SCAM: Inside Asia’s Criminal Network, Sky News (Oct. 18, 2024), https://news.sky.com/story/they-fall-in-love-with-me-inside-the-fraud-factories-driving-the-online-scam-boom-13234505 [https://perma.cc/2HLV-X5W4] (“Based in highly secretive, heavily guarded compounds, fraud factories—similar to the ones Poom-Jai worked in—are spread across South East Asia, where the online scam industry has exploded.”).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "See, e.g., Isabelle Qian, 7 Months Inside an Online Scam Labor Camp, N.Y. Times (Dec. 17, 2023), https://www.nytimes.com/interactive/2023/12/17/world/asia/myanmar-cyber-scam.htm (on file with the Columbia Law Review ) (“The workers spent their days using the WeChat accounts, swiping over social media feeds on each device to mimic normal use and get past the app’s fraud detection system.”).",
+      "label": "footnote-text",
+      "word_count": 55
+    },
+    {
+      "text": "See Amer Owaida, Instagram Rolls Out New Features to Help Prevent Cyberbullying, We Live Sec. (Apr. 23, 2021), https://www.welivesecurity.com/2021/04/23/ instagram-new-features-curb-cyberbullying/ [https://perma.cc/T8ZF-XRLB] (explaining Instagram’s new “abusive Direct Messages” filter and “a tool to stop someone a user has blocked from contacting them from another account,” both designed to combat cyberbullying and abusive behavior on the platform).",
+      "label": "footnote-text",
+      "word_count": 55
+    },
+    {
+      "text": "See Kristina Radivojevic, Christopher McAleer, Catrell Conley, Cormac Kennedy & Paul Brenner, Social Media Bot Policies: Evaluating Passive and Active Enforcement 5 (Sept. 27, 2024) (unpublished manuscript), https://arxiv.org/pdf/2409.18931 [https://perma.cc/SS43-R7L9] (testing the social media platforms Facebook, Instagram, LinkedIn, Mastodon, Reddit, Threads, TikTok, and X and finding that all fail to sufficiently identify and respond to platform manipulation).",
+      "label": "footnote-text",
+      "word_count": 56
+    },
+    {
+      "text": "See, e.g., Steven John & Alexander Johnson, How to Contact Facebook Support and Get Help for Issues With Your Account, Bus. Insider (Sept. 19, 2023), https://www.businessinsider.com/guides/tech/how-to-contact-facebook-problems-with-account-other-issues [https://perma.cc/L6R7-BEBL] (“Don’t bother trying to call Facebook.”).",
+      "label": "footnote-text",
+      "word_count": 33
+    },
+    {
+      "text": "Social media companies are thus the “first responders” for many scams and fraudulent activities. Federal agencies have already sued major banking platforms, such as Zelle, for “for failing to protect consumers from widespread fraud.” Laurel Wamsley, In a Lawsuit, CFPB Says 3 Top U.S. Banks Failed to Protect Consumers From Zelle Fraud, Or. Pub. Broad. (Dec. 24, 2024), https://www.opb.org/article/2024/12/ 24/cfpb-alleges-3-banks-failed-to-protect-consumers-from-zelle-fraud/ [https://perma.cc/ T7J7-UWAU] (internal quotation marks omitted) (quoting Press Release, CFPB, CFPB Sues JPMorgan Chase, Bank of America, and Wells Fargo for Allowing Fraud to Fester on Zelle (Dec. 20, 2024), https://www.consumerfinance.gov/about-us/newsroom/cfpb-sues-jpmorgan-chase-bank-of-america-and-wells-fargo-for-allowing-fraud-to-fester-on-zelle [https://perma.cc/9698-XPSB]).",
+      "label": "footnote-text",
+      "word_count": 92
+    },
+    {
+      "text": "See, e.g., Announcing the Tech Against Scams Coalition, Coinbase (May 21, 2024), https://www.coinbase.com/blog/announcing-the-tech-against-scams-coalition (on file with the Columbia Law Review ) (“This partnership aims to protect and educate users, emphasizing that scams are a tech-wide issue, not limited to social media, crypto, or finance.” (emphasis omitted)); Press Release, Aspen Inst., Aspen Institute Financial Security Program Launches National Task Force for Fraud & Scam Prevention (July 18, 2024), https://www.aspeninstitute.org/news/task-force-on-fraud-and-scams [https://perma.cc/ UQC2-RSRX] (“The task force formalizes a network of stakeholders who have a vested interest in making sure that consumers are protected and can restore trust in our financial system.”).",
+      "label": "footnote-text",
+      "word_count": 98
+    },
+    {
+      "text": "See Heather Kelly, The Nonstop Scam Economy Is Costing Us More Than Just Money, Wash. Post (July 13, 2022), https://www.washingtonpost.com/technology/ 2022/07/13/scam-fraud-fatigue/ (on file with the Columbia Law Review ) (“Constant scam attempts can increase stress levels and strain relationships. Their negative impact on mental health is even worse when the scammers target people based on perceived weaknesses, like advanced age, loneliness or[,] . . . an ongoing illness.”).",
+      "label": "footnote-text",
+      "word_count": 68
+    },
+    {
+      "text": "Social media companies profit off users’ engagement on their platforms, including engagement with scammers. This engagement is packaged and sold to data brokers and advertisers. See Kalev Leetaru, What Does It Mean for Social Media Platforms to “Sell” Our Data?, Forbes (Dec. 15, 2018), https://www.forbes.com/sites/kalevleetaru/ 2018/12/15/what-does-it-mean-for-social-media-platforms-to-sell-our-data/ (on file with the Columbia Law Review ) (describing how social media companies profit by selling user data to data brokers, developers, and advertisers).",
+      "label": "footnote-text",
+      "word_count": 70
+    },
+    {
+      "text": "See, e.g., Andrew Hutchinson, Meta Highlights Key Platform Manipulation Trends in Latest ‘Adversarial Threat Report’, Soc. Media Today (Nov. 30, 2023), https://www.socialmediatoday.com/news/meta-platform-manipulation-trends-adversarial-threat/701230/ [https://perma.cc/QGL7-VYUE] [hereinafter Hutchinson, Meta Highlights Key Platform Manipulation Trends] (discussing Meta’s Q3 2023 “Adversarial Threat Report”); Community Standards, Meta, https://transparency.meta.com/policies/ community-standards/ (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (“Meta recognizes how important it is for Facebook, Instagram, Messenger and Threads to be places where people feel empowered to communicate, and we take our role seriously in keeping abuse off the service. That’s why we developed standards for what is and isn’t allowed on these services.”); Countering Influence Operations, TikTok, https://www.tiktok.com/transparency/en-us/countering-influence-operations/ (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (“This post explains how we continuously work to detect and disrupt covert influence operations that try to undermine the integrity of our platform, so that millions can continue to enjoy a safe, creative, and trusted TikTok experience.”); Fake Engagement Policy, Google, https://support. google.com/youtube/answer/3399767?hl=en [https://perma.cc/RX74-NVYV] (last visited Jan. 24, 2025) (“YouTube doesn’t allow anything that artificially increases the number of views, likes, comments, or other metrics either by using automatic systems or serving up videos to unsuspecting viewers. Also, content that solely exists to incentivize viewers for engagement (views, likes, comments, etc[.]) is prohibited.”); How Does YouTube Address Misinformation, YouTube, https://www.youtube.com/howyoutubeworks/our-commitments/fighting-misinformation/ [https://perma.cc/YE84-RXHL] (last visited Jan. 24, 2025) (“YouTube does not allow misleading or deceptive content that poses a serious risk of egregious harm.”); How We Prevent the Spread of False Information on Snapchat, Snap (Sept. 8, 2022), https://values.snap.com/news/how-we-prevent-the-spread-offalse-information-on-snapchat [https://perma.cc/3XUU-F9PF] (“[Snapchat’s] policies have long prohibited the spread of false information.”); Misinformation, Meta, https://transparency.fb.com/policies/community-standards/misinformation (on file with the Columbia Law Review ) (last visited Jan. 24, 2025) (explaining Meta’s policies against misinformation); Platform Manipulation and Spam Policy, X (Mar. 2023), https://web.archive.org/web/20231216113944/https://help.twitter.com/en/rules-and-policies/platform-manipulation (on file with the Columbia Law Review ) (“We want X to be a place where people can make human connections, find reliable information, and express themselves freely and safely. To make that possible, we do not allow spam or other types of platform manipulation.”).",
+      "label": "footnote-text",
+      "word_count": 344
+    },
+    {
+      "text": "See Caleb N. Griffin, Systematically Important Platforms, 107 Cornell L. Rev. 445, 514 (2022) (“[C]ompanies that utilize manipulative technologies have no clear corporate law duties to rein in their behavior and protect their users from exploitation and other harms.”).",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "See id. at 489–99 (discussing various state and federal regulatory efforts and noting that “few proposed regulations have successfully been made into law, and those few that are operative apply only in narrow contexts”).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": "See, e.g., Forrest v. Meta Platforms, Inc., 737 F. Supp. 3d 808, 820–21 (N.D. Cal. 2024) (involving a man whose Facebook profile was used by scammers to create fake profiles); Press Release, L.A. Cnty. Dist. Att’y’s Off., NGL Labs Charged in Consumer Protection Lawsuit (July 9, 2024), https://da.lacounty.gov/media/news/ngl-labs-charged-consumer-protection-lawsuit [https://perma.cc/KT5H-LHQW] (involving a social messaging app that deceptively marketed its platform to users); see also infra section II.B (describing U.S. consumer law’s systemic discounting of social media platform users’ rights).",
+      "label": "footnote-text",
+      "word_count": 78
+    },
+    {
+      "text": "See infra section II.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section II.B; infra notes 236–239.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "See infra Part III.",
+      "label": "footnote-text",
+      "word_count": 4
+    }
+  ]
+}

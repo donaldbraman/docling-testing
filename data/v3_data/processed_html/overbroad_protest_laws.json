@@ -1,0 +1,238 @@
+{
+  "basename": "overbroad_protest_laws",
+  "journal": "Columbia Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 45,
+    "body_text": 14,
+    "footnote_text": 31,
+    "total_words": 4835
+  },
+  "paragraphs": [
+    {
+      "text": "Protests are woven into the history and social fabric of the United States. Whether the topic involves racial inequity, abortion, police brutality, oil and gas pipelines, war, or allegedly stolen elections, Americans will voice their opposition—occasionally, in frightening or destructive ways. Politicians, in turn, have a history of using their lawmaking power to discourage protest by creating crimes like unlawful assembly, riot, civil disorder, disorderly conduct, trespass, and others. While lawmakers have considerable power to decide what is and isn’t legal, they cannot criminalize expression or assembly that the First Amendment protects. But the lines delineating what forms of protest the government can and cannot criminalize are anything but bright.",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "This Symposium Piece aims to clarify how far lawmakers can go in prohibiting protest. It does so by illuminating a notoriously murky area of First Amendment doctrine: overbreadth. The overbreadth doctrine authorizes courts to strike down laws that are written so broadly as to infringe on constitutionally protected expression. Overbreadth concerns are especially acute in laws used to criminalize protests.",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "This Piece makes three significant contributions to overbreadth scholarship. First, it analyzes decades of Supreme Court case law addressing overbreadth claims arising from protests and articulates five features of protest-related laws that generate overbreadth concerns. Second, the Piece surveys statutes that lawmakers and law enforcement officials have used to deter protests and, employing the five features of overbroad laws, examines which statutes present overbreadth concerns. Third, the Piece closes with guidelines for correcting (or eliminating, when appropriate) overbroad protest laws.",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "The full text of this Piece can be found by clicking the PDF link to the left.",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "* Associate Professor, University of St. Thomas (MN) School of Law. Thanks to the Columbia Law Review student editors, particularly Alexandria Iraheta Sousa, Shaunak Puri, and Charles Simonds, for their thoughtful editing; the many scholars who provided helpful feedback, including Jenny Carroll, Alan Chen, Frank Rudy Cooper, Andy Hessick, Carissa Byrne Hessick, Mitchell Gordon, John Inazu, Julie Jonas, Rob Kahn, Jamie Macleod, Julie Oseid, Michael Paulsen, Charles Reid, Gregory Sisk, Virgil Wiebe, and Timothy Zick; and Adam Bent for his research assistance.",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "Politicians in the United States have a long history of using their law­making power to discourage protests. 1 1 See Allison M. Freedman, Arresting Assembly: An Argument Against Expanding Criminally Punishable Protest, 68 Vill. L. Rev. 171, 176 (2023) (“[T]he introduction of ‘anti-protest’ legislation often closely follows major protest events.”); Marvin Zalman, The Federal Anti-Riot Act and Political Crime: The Need for Criminal Law Theory, 20 Vill. L. Rev. 897, 910 (1975) (“[L]egislative repression of politically dissident groups has become the Congressional reflex response to extremism, even when the extremist groups do not pose an immediate or serious threat to the stability of the Government.”); Timothy Zick, The Costs of Dissent: Protest and Civil Liabilities, 89 Geo. Wash. L. Rev. 233, 236 (2021) [hereinafter Zick, The Costs of Dissent] (“[L]awmakers have historically reacted to disrup­tive protests by invoking ‘law and order’ and cracking down on protest activities.”). ... Close In response to the civil rights movement and race-related uprisings in the 1960s, Congress passed the Civil Rights Act of 1968, which included provisions known as the “Anti-Riot Act,” 2 2 See United States v. Miselis, 972 F.3d 518, 527–28 (4th Cir. 2020) (“Congress passed the Anti-Riot Act as a rider to the Civil Rights Act of 1968, amidst an era, not unlike our own, marked by a palpable degree of social unrest.”); Nick Robinson, Rethinking the Crime of Rioting, 107 Minn. L. Rev. 77, 101 (2022) (“In response to race riots during the 1960s and 1970s, several states and the federal government enacted anti-riot legislation.”); see also M. Cherif Bassiouni, The Development of Anti-Riot Legislation, in The Law of Dissent and Riots 357, 358–64 (M. Cherif Bassiouni ed., 1971) (describing the Anti-Riot Act and First Amendment–based objections to it); Zalman, supra note 1, at 910–16 (arguing that the Anti-Riot Act was passed to “discourage legitimate political dissent”). ... Close criminalizing traveling or using interstate commerce with intent to incite, organize, promote, encourage, or participate in a riot. 3 3 See Civil Rights Act of 1968, Pub. L. No. 90-284, § 104(a), 82 Stat. 73, 75–77 (codi­fied as amended at 18 U.S.C. §§ 2101–2102 (2018)). ... Close In the 1980s and 1990s, abortion protesters were the concern of choice for many lawmakers, and Congress and several states passed laws designed to prevent people from protesting in front of, or approaching patients near, abortion clinics. 4 4 See, e.g., Freedom of Access to Clinic Entrances Act of 1994, Pub. L. No. 103-259, 108 Stat. 694 (codified at 18 U.S.C. § 248) (criminalizing, among other things, intimidating or interfering with people attempting to obtain or provide abortions); McCullen v. Coakley, 573 U.S. 464, 469 (2014) (addressing challenges to the constitutionality of a state law that criminalizes obstructing access to abortion clinics); Hill v. Colorado, 530 U.S. 703, 707 (2000) (same); see also Schenck v. Pro-Choice Network of W.N.Y., 519 U.S. 357, 371 (1997) (addressing First Amendment challenges brought by anti-abortion protesters against judi­cial injunctions); Madsen v. Women’s Health Ctr., Inc., 512 U.S. 753, 757 (1994) (same). ... Close In the early 2000s, after Westboro Baptist Church mem­bers chose to protest America’s “tolerance of homosexuality” by picketing funerals of slain military veterans and chanting antigay slurs, multiple states enacted bills limiting speech near funerals. 5 5 See Snyder v. Phelps, 562 U.S. 443, 455, 448–49 (2011) (describing the methods and language Westboro Baptist Church members used to protest a military funeral); Robert F. McCarthy, Note, The Incompatibility of Free Speech and Funerals: A Grayned -Based Approach for Funeral Protest Statutes, 68 Ohio St. L.J. 1469, 1474–75, 1486–90 (2007) (describing efforts to restrict speech at funerals in the wake of the Westboro protests). ... Close When protests of oil and gas pipelines became widespread in the mid-2010s, numerous states responded by passing “critical infrastructure” laws that expanded and heightened criminal penalties for trespassing on or near pipelines. 6 6 See infra section II.A.8. ... Close After George Floyd’s murder in 2020 sparked possibly the largest mass protests in United States history, lawmakers across the country responded with a slew of proposed bills aimed at limiting protest activity. 7 7 Freedman, supra note 1, at 193–99 & nn.92–113 (surveying numerous proposed antiprotest bills introduced in state legislatures over the past few years); Larry Buchanan, Quoctrung Bui & Jugal K. Patel, Black Lives Matter May Be the Largest Movement in U.S. History, N.Y. Times (July 3, 2020), https://www.nytimes.com/interactive/2020/07/03/us​/george-floyd-protests-crowd-size.html (on file with the Columbia Law Review ) (summarizing polling numbers and other data regarding the number of people in the United States who participated in protests after George Floyd’s murder); US Protest Law Tracker, Int’l Ctr. for Not-for-Profit L., https://www.icnl.org/usprotestlawtracker/?location=&status=enacted&​issue=&date=&type=legislative [https://perma.cc/55RS-VYEM] (last visited Jan. 28, 2025) (tracking more than 300 antiprotest bills proposed by state legislators since 2017). ... Close",
+      "label": "body-text",
+      "word_count": 792
+    },
+    {
+      "text": "While the First Amendment does not protect violence, it does enshrine the rights of protesters to speak, picket, march, assemble, and otherwise express political views in sometimes highly unwelcome ways. 8 8 See U.S. Const. amend. I; infra sections I.A–.B. ... Close And though lawmakers have substantial power to decide what behavior is and isn’t legal, they cannot criminalize speech or expression that the First Amendment protects. 9 9 See Broadrick v. Oklahoma, 413 U.S. 601, 613–15 (1973) (holding that the govern­ment is “totally forbidden” from enforcing laws that improperly chill constitutionally pro­tected expression); Coates v. City of Cincinnati, 402 U.S. 611, 614–16 (1971) (voiding a law that “makes a crime out of what under the Constitution cannot be a crime”). ... Close Laws that prohibit protected expression are “over­broad,” meaning that they exceed lawmakers’ authority and illegally intrude on the rights to free speech, assembly, or association. 10 10 See Broadrick , 413 U.S. at 611–12 (explaining how laws that burden the exercise of free expression or association may be overbroad); Coates , 402 U.S. at 614–15 (striking down an ordinance as overbroad because it improperly infringed on the right to assemble); see also Frederick Schauer, Fear, Risk and the First Amendment: Unraveling the “Chilling Effect”, 58 B.U. L. Rev. 685, 685, 689–93 (1978) [hereinafter Schauer, Fear, Risk and the First Amendment] (explaining the concept of overbreadth). ... Close The over­breadth doctrine authorizes courts to strike down laws that are written so broadly as to infringe on constitutionally protected expression. 11 11 See infra section I.A. ... Close",
+      "label": "body-text",
+      "word_count": 259
+    },
+    {
+      "text": "Overbreadth concerns have become increasingly acute in recent years in the context of laws used—and even specifically enacted—to criminalize protests. Many of the laws that police officers and prosecutors rely on to arrest and charge protesters, which outlaw behavior like riot, civil disorder, interference, disorderly conduct, trespass, participation in or presence at an unlawful assembly, and more, are so broadly written as to include con­stitutional behavior. 12 12 See infra Part II. ... Close Their breadth gives law enforcement officers discre­tion to disperse and arrest protesters engaged in expression that is incon­venient or unpopular but not imminently dangerous or destructive. 13 13 See infra Part II. ... Close And that is exactly what has happened: Officials have used these laws to arrest and sometimes prosecute protesters who may have been part of a crowd involving isolated violence but who themselves were engaged only in peaceful and constitutionally protected expression. 14 14 See, e.g., Tabatha Abu El-Haj, How the Liberal First Amendment Under-Protects Democracy, 107 Minn. L. Rev. 529, 530 (2022) (describing the First Amendment rights of protesters in modern America as “shockingly weak”); John Inazu, Unlawful Assembly as Social Control, 64 UCLA L. Rev. 2, 28–29, 33 (2017) [hereinafter Inazu, Unlawful Assembly as Social Control] (detailing how unlawful, broadly written assembly statutes give law enforcement officials authority to disperse protests, even when protesters’ behavior would likely not result in successful prosecutions); Dawn C. Nunziato, First Amendment Protections for “Good Trouble”, 72 Emory L.J. 1187, 1219 (2023) (“[T]he right to protest on the streets and to associate for purposes of protest . . . [is] under sharp attack today.”). ... Close",
+      "label": "body-text",
+      "word_count": 270
+    },
+    {
+      "text": "Theoretically, overbreadth challenges are powerful tools to contest these antiprotest laws. But while the Supreme Court first recognized the overbreadth doctrine more than eighty years ago and has historically used it to invalidate laws targeting protesters, 15 15 See infra section I.B. ... Close the Court’s jurisprudence has not been a model of clarity, especially when laws regulate expressive con­duct rather than words alone. 16 16 See R. George Wright, The Problems of Overbreadth and What to Do About Them, 60 Hous. L. Rev. 1115, 1116 (2023) (“Few important areas of the law exhibit the unpredict­ability of free speech overbreadth cases.”); Zick, The Costs of Dissent, supra note 1, at 260 (opining that, when it comes to First Amendment limits on laws aimed at chilling protest activities, “officials need more concrete guidance” and “[t]he Supreme Court has not pro­vided much”); Brian J. Murray, Note, Protesters, Extortion, and Coercion: Preventing RICO From Chilling First Amendment Freedoms, 75 Notre Dame L. Rev. 691, 694 (1999) (“The line between protected and unprotected protest is vague . . . .”); see also Tabatha Abu El-Haj, Defining Peaceably : Policing the Line Between Constitutionally Protected Protest and Unlawful Assembly, 80 Mo. L. Rev. 961, 963 (2015) [hereinafter Abu El-Haj, Defining Peaceably ] (reasoning that Supreme Court jurisprudence on the right to assemble has left “lower courts confused about how to decide what level of public disruption the Constitution requires officials to tolerate”); Jenny E. Carroll, Policing Protest: Speech, Space, Crime, and the Jury, 133 Yale L.J. 175, 180–81 (2023) (acknowledging that “questions linger” about what protest-related expression the First Amendment protects). ... Close Additionally, many protest-related arrests involve low-level criminal charges that get dismissed or otherwise resolved outside of the litigation process, leaving few opportunities for precedential rulings addressing the overbreadth of a particular statute. 17 17 See Carroll, supra note 16, at 193 (pointing out that low-level criminal offenses rarely result in contested litigation and thus “hide in plain sight as mechanisms to suppress speech”); Freedman, supra note 1, at 212 (discussing the limited number of challenges raised against antiprotest laws in the past several years). ... Close The line between what lawmakers can criminalize and what the First Amendment protects is, therefore, notoriously fuzzy. As the United States enters another era of frequent and mass protests—and correspondingly, as the number of people arrested and criminally charged in protests grows 18 18 See Amna A. Akbar, Non-Reformist Reforms and Struggles Over Life, Death, and Democracy, 132 Yale L.J. 2497, 2511 (2023) (listing many of the mass protests of the past fifteen years in the United States); Frank D. LoMonte & Paola Fiku, Watch Where You Chalk, ’Cause the Sidewalks Talk: The First Amendment and Ephemeral “Occupations” of Public Property, 47 Vt. L. Rev. 487, 488 (2023) (describing the current era of protest in the United States as “a time of great political volatility when protesters are regularly occupying public spaces in droves”); Nick Robinson & Elly Page, Protecting Dissent: The Freedom of Peaceful Assembly, Civil Disobedience, and Partial First Amendment Protection, 107 Cornell L. Rev. 229, 231 (2021) (“The last decade has been an era of protests in the United States.”); Zick, The Costs of Dissent, supra note 1, at 235 (noting “Americans’ increased interest in public protest participation” in recent years); Buchanan et al., supra note 7 (describing a 2020 poll in which approximately nineteen percent of respondents described themselves as “new to protesting”); Isabelle Taft, Alex Lemonides, Lazaro Gamio & Anna Betts, Campus Protests Led to More Than 3,100 Arrests, but Many Charges Have Been Dropped, N.Y. Times (July 21, 2024), https://www.nytimes.com/2024/07/21/us/campus-protests-arrests.html (on file with the Columbia Law Review ) (reporting that more students were arrested protesting on college campuses in 2024 than in any year since 1969). ... Close —a better understanding of the boundaries of protected expression in the contexts of protests is crucial for judges, litigators, legislators, law enforce­ment, and activists alike.",
+      "label": "body-text",
+      "word_count": 653
+    },
+    {
+      "text": "This Symposium Piece aims to bring much-needed clarity to the ques­tion of how far lawmakers can go in criminalizing protest. It makes three significant contributions to the overbreadth doctrine in the context of pro­tests. First, this Piece analyzes decades of Supreme Court case law address­ing overbreadth claims in the context of protests and articulates five ways that protest-related laws may violate the overbreadth doctrine. 19 19 See infra section I.C. ... Close Second, this Piece presents an array of statutes that have been used in recent years to arrest and charge protesters and, employing these five features of potentially overbroad laws, examines which laws do and do not present overbreadth concerns. Third, this Piece closes with a series of guidelines for correcting (or, when appropriate, eliminating) overbroad protest laws.",
+      "label": "body-text",
+      "word_count": 129
+    },
+    {
+      "text": "Part I begins with an introduction to the overbreadth doctrine, explaining its intended purpose as a tool for challenging government over­reach in the form of laws that deter constitutionally protected speech and conduct. 20 20 Although the First Amendment’s text protects “freedom of speech,” the Supreme Court has long interpreted this clause as protecting expressive conduct in addition to speech alone. See, e.g., Texas v. Johnson, 491 U.S. 397, 404 (1989) (noting that the free speech clause also protects conduct engaged in for the purpose of expression); see also infra notes 24–29 (explaining the Court’s conduct-related First Amendment jurisprudence in more detail). ... Close After defining overbreadth in section I.A, section I.B then explains the Court’s at-times opaque jurisprudence in this area, from the Court’s first use of the overbreadth doctrine in a case involving a peaceful protester, through a series of protest-related cases from the Civil Rights era, and finally to more recent applications. 21 21 See infra section I.B. ... Close Drawing lessons from this jurisprudence, section I.C articulates five ways that protest-related laws may run afoul of the overbreadth doctrine. 22 22 See infra section I.C. ... Close",
+      "label": "body-text",
+      "word_count": 191
+    },
+    {
+      "text": "Part II discusses the underlitigated overbreadth of laws that have been used in recent years to criminalize protesters across the political and ideo­logical spectrum. Section II.A provides a wide range of examples—from laws targeted at environmental protesters; to unlawful assembly, riot, and civil disorder statutes used to arrest police brutality protesters; to the stat­ute criminalizing obstruction of official proceedings that the DOJ used to charge hundreds of participants in the January 6, 2021, insurrection at the U.S. Capitol. 23 23 See infra section II.A. This Piece does not claim that everyone who illegally entered the U.S. Capitol on January 6 engaged in constitutionally protected behavior: Many com­mitted assaults, property damage, and other crimes that fall well outside First Amendment protection. See, e.g., Scott Pelley, U.S. Attorney Explains Jan. 6 Capitol Riot Prosecutions, CBS News (Sept. 15, 2024), https://www.cbsnews.com/news/us-attorney-explains-jan-6-capitol-riot-prosecutions-60-minutes-transcript/ [https://perma.cc/L4BN-3WPV] (explaining that more than one thousand people were convicted of crimes for their conduct inside the Capitol on January 6, 2021, and describing some of the illegal behavior); Press Release, U.S. Atty’s Off., D.C., 43 Months Since the Jan. 6 Attack on the Capitol (Aug. 6, 2024), https://www.justice.gov/usao-dc/43-months-jan-6-attack-capitol [https://perma.cc/U27M-BWSW] (providing a detailed account of the charges and convictions against participants in the January 6 insurrection). President Donald Trump has since pardoned all January 6 defendants, and the DOJ has removed all press releases related to their convictions. Scott MacFarlane, Judges in Jan. 6 Cases and Watchdog Groups Recoil at Justice Department’s Deletion of Records, CBS News (Feb. 1, 2025), https://www.cbsnews.com/news/jan-6-judges-react-doj-deleting-records/ (on file with the Columbia Law Review ). The release remains accessible via the permalink included above. ... Close Section II.A highlights overbreadth challenges to these laws when they have occurred and also discusses many problematic laws that are frequently used but rarely challenged as overbroad. Section II.B then offers examples of potentially overbroad laws that legislatures recently enacted in response to protests. 24 24 See infra section II.B. ... Close Using the five features of overbroad laws that section I.C lays out, Part II analyzes each of these statutes for over­breadth concerns. 25 25 See infra sections II.A–.B. ... Close",
+      "label": "body-text",
+      "word_count": 350
+    },
+    {
+      "text": "Part III discusses the harms of overbroad protest laws, with a focus on four primary harms. First, overbroad laws authorize unjust arrests and prosecutions for constitutionally protected expression. 26 26 See infra section III.A. ... Close Second, over­broad laws grant power to the police when they should not have it and thus make the trauma and violence that often accompany arrest more likely to occur without justification. 27 27 See infra section III.B. ... Close Third, overbroad laws deter constitutionally protected expression and, therefore, quash legitimate efforts to voice con­cerns on matters of political and social import. 28 28 See infra section III.C. ... Close Fourth, overbroad laws give government officials too much discretion to prosecute speech and conduct that officials dislike, deepening distrust in government actors by embroiling them in social controversies. 29 29 See infra section III.D. ... Close",
+      "label": "body-text",
+      "word_count": 141
+    },
+    {
+      "text": "This Piece closes in Part IV by offering guidelines for “rightsizing” overbroad laws that have been (or could be) used to deter protest-related protected expression. Section IV.A offers a conceptual framework for leg­islators and judges to employ when assessing overbreadth concerns in pro­posed or enacted laws. 30 30 See infra section IV.A. ... Close Lastly, given the harms that an arrest can cause—and the practical limitations of litigating overbreadth challenges post-arrest—section IV.B urges greater use of preemptive civil lawsuits to chal­lenge overbroad laws. 31 31 See infra section IV.B. ... Close",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "See Allison M. Freedman, Arresting Assembly: An Argument Against Expanding Criminally Punishable Protest, 68 Vill. L. Rev. 171, 176 (2023) (“[T]he introduction of ‘anti-protest’ legislation often closely follows major protest events.”); Marvin Zalman, The Federal Anti-Riot Act and Political Crime: The Need for Criminal Law Theory, 20 Vill. L. Rev. 897, 910 (1975) (“[L]egislative repression of politically dissident groups has become the Congressional reflex response to extremism, even when the extremist groups do not pose an immediate or serious threat to the stability of the Government.”); Timothy Zick, The Costs of Dissent: Protest and Civil Liabilities, 89 Geo. Wash. L. Rev. 233, 236 (2021) [hereinafter Zick, The Costs of Dissent] (“[L]awmakers have historically reacted to disrup­tive protests by invoking ‘law and order’ and cracking down on protest activities.”).",
+      "label": "footnote-text",
+      "word_count": 128
+    },
+    {
+      "text": "See United States v. Miselis, 972 F.3d 518, 527–28 (4th Cir. 2020) (“Congress passed the Anti-Riot Act as a rider to the Civil Rights Act of 1968, amidst an era, not unlike our own, marked by a palpable degree of social unrest.”); Nick Robinson, Rethinking the Crime of Rioting, 107 Minn. L. Rev. 77, 101 (2022) (“In response to race riots during the 1960s and 1970s, several states and the federal government enacted anti-riot legislation.”); see also M. Cherif Bassiouni, The Development of Anti-Riot Legislation, in The Law of Dissent and Riots 357, 358–64 (M. Cherif Bassiouni ed., 1971) (describing the Anti-Riot Act and First Amendment–based objections to it); Zalman, supra note 1, at 910–16 (arguing that the Anti-Riot Act was passed to “discourage legitimate political dissent”).",
+      "label": "footnote-text",
+      "word_count": 127
+    },
+    {
+      "text": "See Civil Rights Act of 1968, Pub. L. No. 90-284, § 104(a), 82 Stat. 73, 75–77 (codi­fied as amended at 18 U.S.C. §§ 2101–2102 (2018)).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "See, e.g., Freedom of Access to Clinic Entrances Act of 1994, Pub. L. No. 103-259, 108 Stat. 694 (codified at 18 U.S.C. § 248) (criminalizing, among other things, intimidating or interfering with people attempting to obtain or provide abortions); McCullen v. Coakley, 573 U.S. 464, 469 (2014) (addressing challenges to the constitutionality of a state law that criminalizes obstructing access to abortion clinics); Hill v. Colorado, 530 U.S. 703, 707 (2000) (same); see also Schenck v. Pro-Choice Network of W.N.Y., 519 U.S. 357, 371 (1997) (addressing First Amendment challenges brought by anti-abortion protesters against judi­cial injunctions); Madsen v. Women’s Health Ctr., Inc., 512 U.S. 753, 757 (1994) (same).",
+      "label": "footnote-text",
+      "word_count": 108
+    },
+    {
+      "text": "See Snyder v. Phelps, 562 U.S. 443, 455, 448–49 (2011) (describing the methods and language Westboro Baptist Church members used to protest a military funeral); Robert F. McCarthy, Note, The Incompatibility of Free Speech and Funerals: A Grayned -Based Approach for Funeral Protest Statutes, 68 Ohio St. L.J. 1469, 1474–75, 1486–90 (2007) (describing efforts to restrict speech at funerals in the wake of the Westboro protests).",
+      "label": "footnote-text",
+      "word_count": 66
+    },
+    {
+      "text": "See infra section II.A.8.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "Freedman, supra note 1, at 193–99 & nn.92–113 (surveying numerous proposed antiprotest bills introduced in state legislatures over the past few years); Larry Buchanan, Quoctrung Bui & Jugal K. Patel, Black Lives Matter May Be the Largest Movement in U.S. History, N.Y. Times (July 3, 2020), https://www.nytimes.com/interactive/2020/07/03/us​/george-floyd-protests-crowd-size.html (on file with the Columbia Law Review ) (summarizing polling numbers and other data regarding the number of people in the United States who participated in protests after George Floyd’s murder); US Protest Law Tracker, Int’l Ctr. for Not-for-Profit L., https://www.icnl.org/usprotestlawtracker/?location=&status=enacted&​issue=&date=&type=legislative [https://perma.cc/55RS-VYEM] (last visited Jan. 28, 2025) (tracking more than 300 antiprotest bills proposed by state legislators since 2017).",
+      "label": "footnote-text",
+      "word_count": 106
+    },
+    {
+      "text": "See U.S. Const. amend. I; infra sections I.A–.B.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "See Broadrick v. Oklahoma, 413 U.S. 601, 613–15 (1973) (holding that the govern­ment is “totally forbidden” from enforcing laws that improperly chill constitutionally pro­tected expression); Coates v. City of Cincinnati, 402 U.S. 611, 614–16 (1971) (voiding a law that “makes a crime out of what under the Constitution cannot be a crime”).",
+      "label": "footnote-text",
+      "word_count": 52
+    },
+    {
+      "text": "See Broadrick , 413 U.S. at 611–12 (explaining how laws that burden the exercise of free expression or association may be overbroad); Coates , 402 U.S. at 614–15 (striking down an ordinance as overbroad because it improperly infringed on the right to assemble); see also Frederick Schauer, Fear, Risk and the First Amendment: Unraveling the “Chilling Effect”, 58 B.U. L. Rev. 685, 685, 689–93 (1978) [hereinafter Schauer, Fear, Risk and the First Amendment] (explaining the concept of overbreadth).",
+      "label": "footnote-text",
+      "word_count": 78
+    },
+    {
+      "text": "See infra section I.A.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Part II.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Part II.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See, e.g., Tabatha Abu El-Haj, How the Liberal First Amendment Under-Protects Democracy, 107 Minn. L. Rev. 529, 530 (2022) (describing the First Amendment rights of protesters in modern America as “shockingly weak”); John Inazu, Unlawful Assembly as Social Control, 64 UCLA L. Rev. 2, 28–29, 33 (2017) [hereinafter Inazu, Unlawful Assembly as Social Control] (detailing how unlawful, broadly written assembly statutes give law enforcement officials authority to disperse protests, even when protesters’ behavior would likely not result in successful prosecutions); Dawn C. Nunziato, First Amendment Protections for “Good Trouble”, 72 Emory L.J. 1187, 1219 (2023) (“[T]he right to protest on the streets and to associate for purposes of protest . . . [is] under sharp attack today.”).",
+      "label": "footnote-text",
+      "word_count": 117
+    },
+    {
+      "text": "See infra section I.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See R. George Wright, The Problems of Overbreadth and What to Do About Them, 60 Hous. L. Rev. 1115, 1116 (2023) (“Few important areas of the law exhibit the unpredict­ability of free speech overbreadth cases.”); Zick, The Costs of Dissent, supra note 1, at 260 (opining that, when it comes to First Amendment limits on laws aimed at chilling protest activities, “officials need more concrete guidance” and “[t]he Supreme Court has not pro­vided much”); Brian J. Murray, Note, Protesters, Extortion, and Coercion: Preventing RICO From Chilling First Amendment Freedoms, 75 Notre Dame L. Rev. 691, 694 (1999) (“The line between protected and unprotected protest is vague . . . .”); see also Tabatha Abu El-Haj, Defining Peaceably : Policing the Line Between Constitutionally Protected Protest and Unlawful Assembly, 80 Mo. L. Rev. 961, 963 (2015) [hereinafter Abu El-Haj, Defining Peaceably ] (reasoning that Supreme Court jurisprudence on the right to assemble has left “lower courts confused about how to decide what level of public disruption the Constitution requires officials to tolerate”); Jenny E. Carroll, Policing Protest: Speech, Space, Crime, and the Jury, 133 Yale L.J. 175, 180–81 (2023) (acknowledging that “questions linger” about what protest-related expression the First Amendment protects).",
+      "label": "footnote-text",
+      "word_count": 200
+    },
+    {
+      "text": "See Carroll, supra note 16, at 193 (pointing out that low-level criminal offenses rarely result in contested litigation and thus “hide in plain sight as mechanisms to suppress speech”); Freedman, supra note 1, at 212 (discussing the limited number of challenges raised against antiprotest laws in the past several years).",
+      "label": "footnote-text",
+      "word_count": 50
+    },
+    {
+      "text": "See Amna A. Akbar, Non-Reformist Reforms and Struggles Over Life, Death, and Democracy, 132 Yale L.J. 2497, 2511 (2023) (listing many of the mass protests of the past fifteen years in the United States); Frank D. LoMonte & Paola Fiku, Watch Where You Chalk, ’Cause the Sidewalks Talk: The First Amendment and Ephemeral “Occupations” of Public Property, 47 Vt. L. Rev. 487, 488 (2023) (describing the current era of protest in the United States as “a time of great political volatility when protesters are regularly occupying public spaces in droves”); Nick Robinson & Elly Page, Protecting Dissent: The Freedom of Peaceful Assembly, Civil Disobedience, and Partial First Amendment Protection, 107 Cornell L. Rev. 229, 231 (2021) (“The last decade has been an era of protests in the United States.”); Zick, The Costs of Dissent, supra note 1, at 235 (noting “Americans’ increased interest in public protest participation” in recent years); Buchanan et al., supra note 7 (describing a 2020 poll in which approximately nineteen percent of respondents described themselves as “new to protesting”); Isabelle Taft, Alex Lemonides, Lazaro Gamio & Anna Betts, Campus Protests Led to More Than 3,100 Arrests, but Many Charges Have Been Dropped, N.Y. Times (July 21, 2024), https://www.nytimes.com/2024/07/21/us/campus-protests-arrests.html (on file with the Columbia Law Review ) (reporting that more students were arrested protesting on college campuses in 2024 than in any year since 1969).",
+      "label": "footnote-text",
+      "word_count": 228
+    },
+    {
+      "text": "See infra section I.C.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "Although the First Amendment’s text protects “freedom of speech,” the Supreme Court has long interpreted this clause as protecting expressive conduct in addition to speech alone. See, e.g., Texas v. Johnson, 491 U.S. 397, 404 (1989) (noting that the free speech clause also protects conduct engaged in for the purpose of expression); see also infra notes 24–29 (explaining the Court’s conduct-related First Amendment jurisprudence in more detail).",
+      "label": "footnote-text",
+      "word_count": 67
+    },
+    {
+      "text": "See infra section I.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section I.C.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section II.A. This Piece does not claim that everyone who illegally entered the U.S. Capitol on January 6 engaged in constitutionally protected behavior: Many com­mitted assaults, property damage, and other crimes that fall well outside First Amendment protection. See, e.g., Scott Pelley, U.S. Attorney Explains Jan. 6 Capitol Riot Prosecutions, CBS News (Sept. 15, 2024), https://www.cbsnews.com/news/us-attorney-explains-jan-6-capitol-riot-prosecutions-60-minutes-transcript/ [https://perma.cc/L4BN-3WPV] (explaining that more than one thousand people were convicted of crimes for their conduct inside the Capitol on January 6, 2021, and describing some of the illegal behavior); Press Release, U.S. Atty’s Off., D.C., 43 Months Since the Jan. 6 Attack on the Capitol (Aug. 6, 2024), https://www.justice.gov/usao-dc/43-months-jan-6-attack-capitol [https://perma.cc/U27M-BWSW] (providing a detailed account of the charges and convictions against participants in the January 6 insurrection). President Donald Trump has since pardoned all January 6 defendants, and the DOJ has removed all press releases related to their convictions. Scott MacFarlane, Judges in Jan. 6 Cases and Watchdog Groups Recoil at Justice Department’s Deletion of Records, CBS News (Feb. 1, 2025), https://www.cbsnews.com/news/jan-6-judges-react-doj-deleting-records/ (on file with the Columbia Law Review ). The release remains accessible via the permalink included above.",
+      "label": "footnote-text",
+      "word_count": 186
+    },
+    {
+      "text": "See infra section II.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra sections II.A–.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section III.A.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section III.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section III.C.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section III.D.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section IV.A.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra section IV.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    }
+  ]
+}

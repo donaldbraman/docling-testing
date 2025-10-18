@@ -1,0 +1,1498 @@
+{
+  "basename": "texas_law_review_state-regulation-online-behavior",
+  "journal": "Texas Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 297,
+    "body_text": 118,
+    "footnote_text": 179,
+    "total_words": 20104
+  },
+  "paragraphs": [
+    {
+      "text": "Article by Jack Goldsmith and Eugene Volokh Volume 101 Issue 5",
+      "label": "body-text",
+      "word_count": 11
+    },
+    {
+      "text": "Many state laws apply to internet communications. Indeed, we take many such laws for granted. If you publish an online magazine or a blog that comments on people from all fifty states, you might be subjected to the libel laws of each state. [1] If you sell online images of famous people (or, to be au courant , non-fungible tokens), you might be subjected to each state’s right-of-publicity law. [2] Likewise as to the torts of disclosure of private facts, false light, and more. To be sure, the First Amendment uniformly protects much of this speech. But if you go beyond the First Amendment’s protections, you could in principle be subject to many different state laws.",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "When, if ever, must courts reject such laws as unduly burdening interstate commerce in violation of the Dormant Commerce Clause? Courts in the 1990s and early 2000s often used the Clause to invalidate some internet-related state statutes—especially ones that restricted “harmful to minors” material. [3] But more recently, and increasingly, courts have upheld state laws regulating various internet transactions. [4]",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "The issue has been most notably implicated by recent state statutes that limit platforms’ ability to block user posts based on the posts’ viewpoint. [5] The Florida and Texas social media platform viewpoint-neutrality statutes were indeed challenged under the Dormant Commerce Clause—and though the courts didn’t reach the challenges because they struck down the statutes on other grounds, [6] the question will doubtless recur as states increasingly seek to regulate social media platforms. [7] The Supreme Court’s decision returning abortion regulation to the states may also lead to statutes limiting abortion advertising that is targeted at states where abortion is illegal, and to Dormant Commerce Clause (as well as First Amendment) challenges to those statutes. [8]",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "The Dormant Commerce Clause argument against state regulation of internet services is basically this: By imposing liability on internet speech sent to one state, a state law would potentially affect speech sent from and received in other states, and would in this respect be improperly extraterritorial. Requiring platforms or speakers to consider the laws of all fifty states can gravely burden such entities and therefore interstate commerce. And in some situations, the laws may even conflict with each other—for instance, if state A limits sending pornographic material into the state in a way that children can easily access it, but state B makes service providers quasi-common carriers that are barred from blocking such material.",
+      "label": "body-text",
+      "word_count": 114
+    },
+    {
+      "text": "Yet there is good reason to preserve state discretion here: American federalism has long embraced a territorialist-pluralist vision of different states having different laws, as the example of varying tort law rules illustrates. These differences stem in part from different states having laws that presumably match the views of their populations, which naturally differ from state to state. But even beyond that, this vision allows for experimentation, with different states testing out different rules that may then be evaluated by courts and legislatures in other states (or by Congress). Against this background, our federal system presumptively preserves traditional state power to control what happens “in” or what is sent “into” states, and to protect state residents from what the state perceives as harms.",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "A quarter-century ago, the internet seemed to make this vision impossible to preserve. [9] But today, technology can enhance such territorialist pluralism. Online services can, relatively reliably, determine the state in which a user is located, and their software can then act differently depending on which state is involved. Such so-called geolocation isn’t perfect; but so long as the law requires only reasonable attempts at geolocation rather than perfection, the burden on interstate commerce ought not be excessive. As the Ninth Circuit said in rejecting a Commerce Clause challenge to a California law that required CNN (among others) to provide closed captioning on programs downloaded by users in California:",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "[T]he DPA [Disabled Persons Act], which applies only to CNN’s videos as they are accessed by California viewers, does not have the practical effect of directly regulating conduct wholly outside of California. Even though CNN.com is a single website, the record before us shows that CNN could enable a captioning option for California visitors to its site, leave the remainder unchanged, and thereby avoid the potential for extraterritorial application of the DPA.",
+      "label": "body-text",
+      "word_count": 72
+    },
+    {
+      "text": ". . . .",
+      "label": "body-text",
+      "word_count": 4
+    },
+    {
+      "text": "In fact, CNN already serves different versions of its home page depending on the visitor’s country and provides no explanation for why it could not do the same for California residents. [10]",
+      "label": "body-text",
+      "word_count": 32
+    },
+    {
+      "text": "This Article explores what geolocation technology means for the Dormant Commerce Clause . [11] We build toward an analysis of state regulations of social media platforms because they are in the news and currently being challenged in courts. But as our reasoning along the way makes plain, the analysis applies to Dormant Commerce Clause issues implicated by a much wider range of state internet regulation as well.",
+      "label": "body-text",
+      "word_count": 67
+    },
+    {
+      "text": "This Article was written and circulated for publication before the Court granted certiorari in National Pork Producers Council v. Ross , [12] a case raising Dormant Commerce Clause issues related to our analysis; the Article is being published before the case is decided. But once the Court decides that case, we will publish an update in Texas Law Review Online (Volume 102) that will discuss how (if at all) National Pork Producers affects our analysis.",
+      "label": "body-text",
+      "word_count": 75
+    },
+    {
+      "text": "Let’s begin with a few words about the Dormant Commerce Clause and how it interacts with federalism principles.",
+      "label": "body-text",
+      "word_count": 18
+    },
+    {
+      "text": "The U.S. Constitution presumptively preserves state authority to control what happens within state borders, especially state power to protect citizens and residents from what legislators or voters perceive as harms. This state “police power” to regulate “health, safety, and morals” is implicitly acknowledged by the Constitution’s structure of enumerated powers, and by the Tenth Amendment.",
+      "label": "body-text",
+      "word_count": 55
+    },
+    {
+      "text": "The Constitution’s preservation of the police power in the states ensures that “the facets of governing that touch on citizens’ daily lives are normally administered by smaller governments closer to the governed.” [13] Regulatory preferences differ across states because states differ in their citizens’ tastes, moral views, wealth, willingness to pay, and the like. State lawmakers are generally better positioned than federal lawmakers to ascertain such in-state preferences and implement the best policies based on them. Because policy preferences differ across states, regulating at the state level can, in the aggregate, satisfy more individual preferences than a uniform national law would. [14] And federalism also lets states serve as “laboratories” that can experiment with various options and show the way for other states (and perhaps for an eventual national rule). [15]",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "A uniform national law is sometimes appropriate to implement important national values or correct various state-level pathologies. But such uniform rules are typically imposed by a provision in the U.S. Constitution, such as the Takings Clause or the First Amendment, or by federal legislation within Congress’s enumerated powers. [16]",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "Alongside these principles of vertical federalism, the Constitution imposes horizontal limitations that prohibit states from unduly impinging on the prerogatives of sister states or the proper operation of the interstate system. The Full Faith and Credit and Due Process Clauses prohibit states from regulating out-of-state conduct unless the conduct involves a “significant contact” or “significant aggregation of contacts” with the state. [17] The Privileges and Immunities Clause prevents states from enacting certain types of laws that give a benefit to in-staters but not out-of-staters. [18] And of central relevance to this Article, the Dormant Commerce Clause prevents states from enacting certain regulations that affect interstate commerce.",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "Two principal tests govern Dormant Commerce Clause analysis. First, state regulations cannot discriminate against interstate commerce. In practice, this usually means that state regulations cannot favor in-state over out-of-state firms. [19]",
+      "label": "body-text",
+      "word_count": 31
+    },
+    {
+      "text": "Second, neutral state regulations cannot unduly burden interstate commerce. “Where the statute regulates evenhandedly to effectuate a legitimate local public interest, and its effects on interstate commerce are only incidental, it will be upheld unless the burden imposed on such commerce is clearly excessive in relation to the putative local benefits.” [20] The Supreme Court has not been clear about how to apply this “undue burden” test. [21] But the economic efficiency criterion that animates Dormant Commerce Clause jurisprudence suggests that the out-of-state costs of a state regulation are often justified, and that courts should balance the costs and benefits of a state regulation, striking down only those that impose costs on out-of-staters that clearly exceed the benefits they bring to in-staters. [22]",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "A handful of Supreme Court cases have invoked the Dormant Commerce Clause to invalidate state laws on a third, ostensibly different, ground: that the laws regulate extraterritorially or impose inconsistent regulatory burdens. The extraterritoriality argument is raised particularly often in lower court Dormant Commerce Clause challenges to state regulations of the internet. Yet the Supreme Court has not applied the extraterritoriality test or the inconsistent regulations test in recent decades, [23] and commentators and lower courts have doubted whether these tests have much practical contemporary relevance beyond what the two standard Dormant Commerce Clause prohibitions—on discrimination and undue burdens—cover.",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "The Court articulated the modern extraterritoriality test in two alcohol price-affirmation cases in the 1980s. [24] Brown-Forman Distillers Corp. v. New York State Liquor Authority [25] involved a New York law under which liquor distillers could not sell to wholesalers in New York except in accordance with a monthly price schedule that affirmed that prices in New York were no higher than the lowest prices charged in other states. [26] Healy v. Beer Institute [27] involved a Connecticut statute that required out-of-state beer shippers to affirm that prices posted for products sold to Connecticut wholesalers were, in the relevant period, no higher than prices in bordering states. [28] The Court invalidated these price-affirmation schemes on the narrow grounds that they had the “practical effect of controlling . . . prices” in another state, and thus “deprive[d] businesses and consumers in other States of ‘whatever competitive advantages they may possess’ based on the conditions of the local market.” [29]",
+      "label": "body-text",
+      "word_count": 158
+    },
+    {
+      "text": "Beyond this narrow holding, Healy , relying on Brown-Forman and earlier decisions, stated more generally that the “Commerce Clause . . . precludes the application of a state statute to commerce that takes place wholly outside of the State’s borders, whether or not the commerce has effects within the State,” as well as laws for which the “practical effect of the regulation is to control conduct beyond the boundaries of the State.” [30] This dictum, if taken seriously, would require a dramatic rethinking of state authority.",
+      "label": "body-text",
+      "word_count": 86
+    },
+    {
+      "text": "But it is clear that this dictum has not and cannot be taken seriously. It is widely accepted that, consistent with the Dormant Commerce Clause, a firm doing multistate business must bear the cost of discovering and complying with state laws—tort laws, tax laws, franchise laws, health laws, privacy laws, and much more—everywhere it does business. [31]",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "People and firms operating in “real space” must take steps to learn and comply with state law in places they visit or do business, or must avoid visiting or doing business in those states—and that often means that the “practical effect of the regulation is to control conduct beyond the boundaries of the State.” [32] McDonald’s can (and must) craft different franchise contracts to comply with different state franchise laws, even if most of the conduct involved in creating and implementing such contracts would likely take place in the state in which McDonald’s is headquartered. Walmart’s data collection at checkout in its thousands of stores must conform to the potentially different privacy laws in all fifty states. Conagra can label its cooking oil “100% Natural,” but may need to include different disclaimers in different states, to the extent that the label is seen as potentially misleading.",
+      "label": "body-text",
+      "word_count": 146
+    },
+    {
+      "text": "One “practical effect” of all these state schemes is the cost—legal cost, compliance cost, and more—that the firms incur to conform their business practices to the different state laws where they do business. Another “practical effect” may be to encourage such firms to devise uniform contracts, privacy practices, and labeling schemes that can work in all states, often by adhering to the most demanding state law. In these senses, state laws regularly and pervasively apply to and impose costs on, and thus “control,” or at least affect, the conduct of firms operating in other states.",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "Because state laws regularly and lawfully impose extraterritorial costs, and because a literal application of the dicta from Healy and Brown-Forman might invalidate wide swaths of standard conflict-of-laws decision-making, judges and commentators have searched for a narrower principle to explain the extraterritoriality cases. The Supreme Court has in practice been unwilling to extend the principle beyond the facts of Healy and Brown-Forman , which involved laws that by “express terms” or “inevitable effect” regulate out-of-state commerce. [33] Some contend that the extraterritoriality cases are best read to invalidate only state laws that “discriminat[e] against out-of-state rivals or consumers”—that is, extraterritoriality must be understood as an application of the first settled principle under the Dormant Commerce Clause. [34]",
+      "label": "body-text",
+      "word_count": 117
+    },
+    {
+      "text": "Others maintain that “extraterritoriality analysis [is] appropriately regarded as [a] facet[] of the . . . balancing test”—that is, the second settled principle under the Dormant Commerce Clause. [35] The conclusion that the extraterritoriality principle is just a special case of one or both of the standard Dormant Commerce Clause tests makes sense of the decided cases, and of the Court’s recent insistence that “two primary principles”—antidiscrimination and prohibition on undue burdens—“mark the boundaries of a State’s authority to regulate interstate commerce.” [36] It is also suggested by the Supreme Court’s not applying an independent extraterritoriality test in almost two decades; [37] by its not invalidating a state law on that ground in over three decades; [38] and by its growing skepticism about its broader Dormant Commerce Clause jurisprudence in recent decades. [39]",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "The same basic analysis applies to the Dormant Commerce Clause’s ostensible prohibition on state regulations that “adversely affect interstate commerce by subjecting activities to inconsistent regulations.” [40] This test, too, cannot be applied literally. As discussed above, it is a foundational principle of our federal system that states differ in their values and policy preferences, and thus can and do regulate differently. Firms operating in different states typically must comply with scores of inconsistent regulations, even if doing so is more costly than complying with a uniform national rule would be.",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "This reality, coupled with a close reading of the cases, has led many commentators to conclude that the Supreme Court’s inconsistent-regulations cases require no more than an application of the broader undue burden test. [41] The Court has not applied the inconsistent regulations test in three decades, since Healy . And applying the undue burden test, without mentioning extraterritoriality, the Court in 2018 rejected a Dormant Commerce Clause argument that was premised on the burdens of “subjecting retailers to [differing] tax-collection obligations in thousands of different taxing jurisdictions.” [42]",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "Considering how various state laws treat nationwide publishers, especially internet publishers, helps show the problems with courts’ occasional condemnation of laws for which the “practical effect . . . is to control conduct beyond the boundaries of the State.” [43] This focus shows how the Dormant Commerce Clause has been applied to internet communications, introduces the importance of geographic filtering in this context, and thus sets up the analysis of the more recent social-media-platform issues addressed in Part V. To make things concrete, imagine a major online publisher—say, Fox News—and the state laws that it might be subject to and therefore must consider. We’ll focus on the publisher’s own materials, thus avoiding any possible problem under Section 230 of the Communications Decency Act. [44]",
+      "label": "body-text",
+      "word_count": 124
+    },
+    {
+      "text": "For starters, like all publishers, Fox News must worry about libel law. Some basic principles of libel law are of course dictated uniformly by the First Amendment, but beyond that the rules vary. A few states, for instance—including New York, where Fox is headquartered—require a showing of “actual malice” for all statements of public concern, including statements about private figures. [45] Most other states allow recovery of proven compensatory damages for libel based on a showing of mere negligence. [46]",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "Presumably Fox would want to avoid even negligent mistakes, just as a matter of editorial policy. But even when editors believe that a statement is correct, and that they’ve reasonably investigated the facts, they may recognize that there’s a risk that a jury will see things differently. If so, they may publish if they know they’re protected by the actual malice standard but may refrain from publishing if they are subject to the negligence standard. Indeed, the purpose of the New York Times v. Sullivan [47] actual malice standard, and of some states’ decisions to extend the standard to all public-concern speech, is to prevent this chilling effect. [48]",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "Likewise, all states recognize a “fair and accurate report” privilege that allows news outlets to freely publish reports of government proceedings (such as trials), even if some of the allegations aired by parties or witnesses in those proceedings are false. [49] But some states exclude reports of confidential or sealed proceedings; [50] others don’t. [51]",
+      "label": "body-text",
+      "word_count": 55
+    },
+    {
+      "text": "Similarly, some states recognize a “neutral reportage” privilege, under which (to oversimplify slightly) neutral reports of certain kinds of controversies are immune from libel liability. [52] Say that, for instance, City Councilman Glenn accuses fellow City Councilman Norton of sexual battery; the reporter thinks that Glenn’s accusation is nonsense but wants to publish a story about it, since the accusation reflects badly on Glenn (the accuser) and can shed light on why there’s tension in the City Council. [53] In some states, the reporter is free to publish a “neutral report” of the controversy. But other states (such as Pennsylvania) follow the usual “republication rule,” under which repeating Glenn’s accusation, even in the course of reporting on the dispute, could lead to defamation liability. [54] There are many other important differences among state libel laws as well. [55]",
+      "label": "body-text",
+      "word_count": 138
+    },
+    {
+      "text": "All those state libel rules have potential extraterritorial effects on Fox. If, for instance, Fox is about to report on the Glenn–Norton feud, it can’t just confidently assume that a uniform federal law would apply, or that the law of its main place of business (New York) would apply. Rather, it would likely need to determine where the people it’s writing about are domiciled, since under most states’ choice-of-law principles, libel cases follow the law of the plaintiff’s domicile. [56] And if, for instance, Fox learns that Norton is domiciled in Pennsylvania, and Pennsylvania doesn’t recognize a neutral reportage privilege, then Fox runs a risk of liability if it repeats Glenn’s accusations in the story (however newsworthy they might be) and might decide not to publish it as a result. In that respect, Pennsylvania’s law influences what Fox in New York is allowed to say to people all over the country (indeed, all over the world).",
+      "label": "body-text",
+      "word_count": 156
+    },
+    {
+      "text": "To be sure, if Pennsylvania law is applied in a lawsuit in New York, because the New York court applies Pennsylvania law pursuant to New York choice-of-law rules, one might argue that Pennsylvania law isn’t really being applied extraterritorially, either (1) on the ground that New York law is being applied to Fox, but New York law imports Pennsylvania law for libel lawsuits brought by Pennsylvanians, or (2) on the ground that New York is choosing to make the Pennsylvania law govern in its courts. But even if one views this situation as non-extraterritorial, which is not obvious, there is no assurance that Norton will sue Fox in New York; Norton may well be able to get personal jurisdiction over Fox in many fora.",
+      "label": "body-text",
+      "word_count": 124
+    },
+    {
+      "text": "In particular, if the story is sufficiently focused on Pennsylvania—for instance, if it expressly discusses Norton and Glenn as being Pennsylvania residents saying things about each other in Pennsylvania—then under Calder v. Jones , [57] Pennsylvania may well have personal jurisdiction over the lawsuit against Fox. [58] This conclusion would be even clearer if the publication concerned, for instance, an opinion article urging Pennsylvania voters to react in some way to the controversy. [59] Thus, Pennsylvania courts would be applying Pennsylvania libel law to judge Fox’s publications available in the whole country. And Fox, aware of that, would have to consider tailoring its speech about Pennsylvanians to Pennsylvania law. These and other complexities must at least be considered by Fox’s legal team; even having to consider them is thus a cost of interstate business. And Fox surely tempers its various legal risks related to the uncertainties of multistate libel law with insurance, which is also a cost.",
+      "label": "body-text",
+      "word_count": 157
+    },
+    {
+      "text": "Libel law at least has a broad, nationally uniform baseline, despite some material differences such as the ones we’ve outlined. The disclosure-of-private-facts tort, on the other hand, is not recognized at all in some states, including New York, [60] though it is recognized in most states. If Fox is producing a story about a Californian, it will need to avoid including sufficiently intimate facts (at least so long as it worries that a judge and jury will find them not to be newsworthy), for fear that California law would apply. [61] Again, a state’s law would thus have an extraterritorial effect on what Fox creates in New York and distributes throughout the country.",
+      "label": "body-text",
+      "word_count": 113
+    },
+    {
+      "text": "This is even clearer with the right of publicity, the scope of which varies sharply from state to state. Say, for instance, that Fox, as part of its sports coverage, decides to sell video games involving the names, likenesses, and statistics of Babe Ruth, Ted Williams, Jackie Robinson, and the like. Some state right-of-publicity laws would make that actionable; some would not, because they only apply to the living; [62] and some (including Fox’s New York home) probably would not, because they apply to the dead but exclude “audiovisual works,” [63] a category that likely covers video games. [64] Yet again, the law of one state in which a famous player was domiciled when he died would have an effect on what Fox can sell from New York to all fifty states.",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "It is conceivable, of course, that some such applications of state tort law might indeed violate the Dormant Commerce Clause, at least when they apply to transactions that are entirely outside the relevant state. Maybe if Fox distributed a video game that depicted a famous baseball player who was domiciled in Alaska when he died, and was careful to avoid distributing it in Alaska, [65] the Dormant Commerce Clause might forbid subjecting Fox to Alaska law. [66] But when a company distributes material into a state, including online, applying state tort law to that material likely doesn’t violate the Clause. [67] And though it may be expensive to comply with the laws of multiple states, that can’t by itself suffice to render all such state laws inapplicable. [68]",
+      "label": "body-text",
+      "word_count": 128
+    },
+    {
+      "text": "The same basic analysis applies to laws aimed at protecting not the subjects of speech on internet sites but rather the users of internet sites. Such laws are generally upheld against a Dormant Commerce Clause challenge, at least if they are limited to transactions with users in the state, and the site operators are able to at least roughly determine whether a user is in that state.",
+      "label": "body-text",
+      "word_count": 67
+    },
+    {
+      "text": "Let’s begin with the Ninth Circuit’s decision in Greater Los Angeles Agency on Deafness v. Cable News Network . [69] The California Disabled Persons Act (DPA) required CNN to provide closed captioning on programs accessed on the internet in California. [70] CNN, which is headquartered in Georgia, thus had to create the closed captioning because California told it to do so. And of course the easiest way for CNN to comply with the California law would be to provide such closed captioning to everyone else in the country, which would affect not just CNN’s Georgia-to-California communications (which at least would be “present” in some sense in California) but also its, say, Georgia-to-Texas communications (which would be purely extraterritorial with respect to California).",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "But, the court held, CNN didn’t have to change what it displays to Texans because modern technology allows it to identify where its users are and to comply with California law just for Californians. As a result, the court held, the law did not violate the Dormant Commerce Clause: “[e]ven though CNN.com is a single website, the record before us shows that CNN could enable a captioning option for California visitors to its site, leave the remainder unchanged, and thereby avoid the potential for extraterritorial application of the DPA.” [71] And the court concluded that the DPA’s burden on interstate commerce might not be “clearly excessive in relation to [its] significant benefits,” partly because “CNN already serves different versions of its home page depending on the visitor’s country, . . . and provides no explanation for why it could not do the same for California residents.” [72]",
+      "label": "body-text",
+      "word_count": 147
+    },
+    {
+      "text": "The Sixth Circuit’s decision in Online Merchants Guild v. Cameron [73] analyzed matters similarly with regard to Kentucky’s price-gouging law, which limits charging supposedly “grossly . . . excess[ive]” prices during an emergency. [74] An association of online merchants claimed that the law, as applied to sales on Amazon.com, violated the Dormant Commerce Clause’s extraterritoriality prong: Amazon requires online third-party sellers to set a single national price for goods and doesn’t permit them to withhold sales in specific states, and the association claimed that, since it would have to reduce its prices everywhere to comply with the Kentucky law, the law was impermissibly extraterritorial. [75]",
+      "label": "body-text",
+      "word_count": 105
+    },
+    {
+      "text": "The court, though, upheld the law because its purported extraterritorial impact stemmed not from Kentucky’s actions as such, but rather from how Amazon structured its online marketplace:",
+      "label": "body-text",
+      "word_count": 27
+    },
+    {
+      "text": "If Amazon allowed for state-specific pricing or allowed third-party sellers to limit where their goods were sold—and no one contends that Amazon lacks the power to structure its marketplace in this fashion—then there would be no effect at all on interstate commerce (or at most the effect would be de minimis). [76]",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "In both these cases, the courts looked to whether and how the regulated internet operator (CNN and Amazon) might tailor its internet content geographically, before examining the burden on interstate commerce. And both courts maintained that the principle that national firms must tailor in-state operations to comply with state law didn’t change, for Dormant Commerce Clause purposes, merely because the in-state operations occurred in part on the internet.",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "Other courts have likewise stressed online merchants’ ability to comply with different state laws by identifying the protected person’s location. For example, courts have upheld:",
+      "label": "body-text",
+      "word_count": 25
+    },
+    {
+      "text": "The Supreme Court has also made clear that the ability of online firms to tailor their businesses by geography is relevant to Dormant Commerce Clause analysis. In South Dakota v. Wayfair, Inc. , [82] online retailers with no physical presence in South Dakota brought a Dormant Commerce Clause challenge to a South Dakota law that required out-of-state sellers of high-volume goods and services to collect and remit taxes made on in-state sales. [83] The Court ruled that the Dormant Commerce Clause did not invalidate such taxes merely because the retailer was physically located outside the state, overruling a 1992 case that had held the contrary. [84] The Court acknowledged the potential burden on firms, especially small ones, of complying with a plethora of state sales tax and remit laws, but noted that “software that is available at a reasonable cost may make it easier for small businesses to cope with these problems.” [85]",
+      "label": "body-text",
+      "word_count": 153
+    },
+    {
+      "text": "Wayfair focused narrowly on taxes and didn’t resolve how such software mattered for the Dormant Commerce Clause more broadly. [86] But its logic is consistent with the cases we cite above—when an online business knows that it’s sending things (whether tangible items or electronic communications) to a state, it may be required to comply with the laws of that state.",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "To be sure, some courts, especially early in the internet era, did hold that state laws governing internet speech were improperly extraterritorial and thus violated the Dormant Commerce Clause. But these cases tended to turn on the assumption that internet operators, unlike real-space actors, couldn’t control the distribution of services and content by geography and thus couldn’t conform their practices to various state laws.",
+      "label": "body-text",
+      "word_count": 64
+    },
+    {
+      "text": "The most influential expression of this view is American Libraries Association v. Pataki , [87] which struck down a New York law banning any person from intentionally using the internet “to initiate or engage” in certain pornographic communications deemed to be “harmful to minors.” [88] The federal district court’s ruling that the law violated the Dormant Commerce Clause rested on a particular conception of how the internet operated:",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "Given its view of internet architecture, the court’s conclusion that the New York law violated the Dormant Commerce Clause followed inexorably. The court ruled that the benefits of the law were “limited” since the law could do nothing to stop the transmission of communications from outside the United States, and yet the burdens were “extreme” because the law affected internet users everywhere. [93] The court further ruled that the law violated the extraterritoriality prong because, by the very act of applying its law to the internet, New York “projected its law into other states whose citizens use the Net.” [94] And the court ruled that, since cyberspace has no borders, any state regulation of the internet imposed impermissible inconsistent regulations. [95]",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "“[T]he unique nature of cyberspace necessitates uniform national treatment,” the court concluded. [96] Several other courts, including federal courts of appeals, have followed Pataki ’s analysis and broad conclusion, albeit limited primarily to the context of state laws that regulate the dissemination of sexually explicit material harmful to minors. [97]",
+      "label": "body-text",
+      "word_count": 50
+    },
+    {
+      "text": "The question is whether the factual predicate underlying this reasoning continues to apply today, or whether, as in Wayfair , the facts have changed to the point that the courts should be more open to state regulations (as the courts cited in subparts II(A) and II(B) already have been). And that determination turns on whether online entities—and especially large for-profit entities—have adequate tools to make internet transactions “[]sensitive to geographic distinctions” rather than “wholly insensitive.” [98]",
+      "label": "body-text",
+      "word_count": 76
+    },
+    {
+      "text": "We think the answer to that last question is yes: The economic significance of geographical differences has driven the development of increasingly sophisticated technologies that identify where an internet user is coming from, and that let websites and other internet operations treat users differently based on geography. These technologies today permeate internet operations.",
+      "label": "body-text",
+      "word_count": 53
+    },
+    {
+      "text": "Geographical identification and filtering technologies grew up so that internet firms could better serve consumers and businesses, and, more generally, could make the internet a more effective communications tool. [99] Many internet firms, including all major internet platforms, collect and use geographical information as a core element of their business models. [100] For example, the firms involved in Greater Los Angeles Agency on Deafness and Online Merchants Guild —CNN and Amazon—collect masses of location data about their users so that they can provide geographically tailored information to those users. [101] Firms operating on the internet cherish this geographical data because relevant consumer preferences differ by geography, and the data enables firms to better deliver their content and services.",
+      "label": "body-text",
+      "word_count": 118
+    },
+    {
+      "text": "“[L]ocation information plays an important role” in “[p]roviding useful, meaningful experiences” online, notes Google, a huge consumer and user of location information. [102] “From driving directions, to making sure your search results include things near you, to showing you when a restaurant is typically busy, location can make your experiences across Google more relevant and helpful” and can “also help[] with some core product functionality, like providing a website in the right language or helping to keep Google’s services secure.” [103]",
+      "label": "body-text",
+      "word_count": 81
+    },
+    {
+      "text": "The best-known reason for firms to geolocate is that they want to advertise, and advertising success correlates with geography. A firm might want to deliver high-end advertisements to wealthy neighborhoods, or to deliver coupons when customers enter the mall, or offer a Burger King discount at a McDonald’s, or promote farm-related software in rural areas. [104]",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "In addition, online firms seek to segment markets geographically so that they can price discriminate based on geographic differences in wealth or product demand. The prices on the web of Amazon e-books, Steam-powered computer games, [105] and Staples office supplies differ based on where the user accesses their sites. [106] In these and many other ways,",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "[g]eoblocking enhances market partitioning on the Internet by enabling content and service providers to limit access by users to information about certain goods, services, and/or prices, thereby enabling the providers to discriminate among different markets and offer different goods and services in various markets, for different prices, with different technical standards and warranties, and at different times. [107]",
+      "label": "body-text",
+      "word_count": 58
+    },
+    {
+      "text": "Geographical identification is also relevant to cybersecurity and fraud detection. Google might block an attempted login from Russia to a Gmail account normally used from Florida. [108] If Visa computers notice that someone who lives and normally shops in Montana is buying software online from Chile, it can temporarily put a hold on the account. [109]",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "Geographical identification and filtering technologies also let businesses operating in multiple jurisdictions comply with the law. Copyright law is territorial, and rights in works like movies, pictures, and electronic books differ by geography. Netflix streams Rick and Morty and Star Trek: Discovery in the United Kingdom but not in the United States because its licensing contract requires such geographical differentiation to conform with underlying copyright law. [110] For similar reasons, Amazon requires publishers of e-books to specify the countries where they own publishing rights, [111] and it allows sales only to those countries. Google likewise removes certain pages from its search results when ordered to do so by a court, but generally limits such removals to search results coming to users in the court’s jurisdiction. [112]",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "Similarly, online gambling services have grown as they have become adept at complying with national and state mandates to ensure that they offer their operations only to users in places they are licensed to offer games. [113] And the question of whether an internet operator has “purposefully availed” itself of the benefits of a particular state for personal jurisdiction purposes now regularly depends in part on whether the operator took steps to keep its content out of the state. [114]",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "Firms use location data for many other tasks, including inferring political beliefs, wealth, race, and scores of other intimate, personal details. [115] And governments frequently buy location data in the private marketplace to further law enforcement and intelligence aims. [116] The primary methods of collecting geographical identification information include using IP addresses, Wi-Fi positioning, GPS tracking, and cell-tower geolocation. [117]",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "The location-data industry is at least a $12 billion market and growing fast. [118] Geo-identification and blocking technologies have become “standard features of internet operations.” [119] Indeed, the distinction between internet and real-space operations is increasingly fictional. Real-space firms that undoubtedly must incur costs to comply with different laws where they do business—for example, McDonald’s, Ford, and Exxon—have an integrated internet presence that relies heavily on geographical identification and targeting technologies, in part to foster legal compliance. [120] And all major firms with only (or primarily) an internet business presence—for example, Facebook and Twitter—similarly collect and use location data to enhance their products and services. [121]",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "Consumers can, with some work, evade location detection, including (among other techniques) by using virtual private networks (VPNs), a Tor browser, or other tools. [122] Companies in turn are developing counterstrategies to defeat evasion techniques. For example, streaming companies have implemented measures to make it harder to use VPNs to circumvent geolocation technology for streaming. [123] More broadly, geolocation technology can lessen the impact of evasion techniques by relying on multiple sources of location information combined with much other information that, via big-data analysis, can reveal remarkably precise information about where internet users are located. [124]",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "Geographical identification and filtering on the internet have improved enormously in the last two decades, but they remain imperfect, and there is a persistent arms race at the margins between blocking and evasion technologies. Still, geolocation technology doesn’t have to be perfect to be useful for legal compliance, just as many laws and security technologies remain useful even if they are not perfectly enforced. That would be especially true if a state law treats reasonable use of geolocation technology as an adequate defense when geography matters—for instance, if reasonable even if imperfect geoblocking attempts are seen as evidence of lack of intent to target a particular state for personal jurisdiction purposes, [125] or when reasonable geolocation attempts are seen as sufficient for determining that a defendant’s copyright infringement happened within the court’s jurisdiction. [126]",
+      "label": "body-text",
+      "word_count": 134
+    },
+    {
+      "text": "The pervasive reality of geolocation and filtering services on the internet should inform Dormant Commerce Clause analyses of state internet regulation. Most courts that examine state internet regulations do so under the undue burden test and some version of the extraterritoriality test. Whichever of these tests courts deploy, and whatever version of the extraterritoriality test they use, the analysis in Parts II and III suggests that four principles related to the geographical element of online transactions should govern the inquiry.",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "First, the internet is not a borderless medium. All major firms operating on the internet, and many smaller ones, collect and use location data about consumers and users, and shape content by geography. The technology that supports these practices is quickly growing more pervasive, more accurate, and less expensive.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "Second, because geolocation and filtering technology is pervasive, courts should not presume that internet operators have any greater difficulties than real-space operators in identifying internet users based on geography and tailoring their products to state law. Assessing the costs and benefits of complying with state regulations, or of the extraterritorial impact of state regulations, must include realistically assessing compliance costs based on the current state of geolocation and filtering technology.",
+      "label": "body-text",
+      "word_count": 70
+    },
+    {
+      "text": "In this regard, courts should consider the ways that the firm challenging state regulation on Dormant Commerce Clause grounds uses geographical-identification technology to further its business interests. They should also consider the extent to which the legal regime can reduce the costs of such technology. For example, as courts have made geo-identification and filtering technology more relevant to personal jurisdiction, firms have increasingly deployed such technology to avoid activities that may expose them to personal jurisdiction, which has contributed to the expanded market for and lowered costs of such technology. [127] Similarly, a Dormant Commerce Clause jurisprudence that accommodates state differences will contribute to the development of more sophisticated and less expensive geofiltering tools.",
+      "label": "body-text",
+      "word_count": 114
+    },
+    {
+      "text": "Third, in assessing the costs of compliance with state law for Dormant Commerce Clause purposes, a firm’s preferred national market structure is irrelevant. For instance, the plaintiff in Exxon, Corp. v. Governor of Maryland [128] challenged a Maryland law that banned national oil producers from operating retail service stations in the state, arguing that the law would interfere “with the natural functioning of the interstate market . . . through burdensome regulation,” would “change the [national] market structure,” and might have “serious implications for their national marketing operations.” [129] The Supreme Court rejected the argument on the ground (among others) that the Dormant Commerce Clause does not “protect[] the particular structure or methods of operation in a retail market.” [130] Likewise, in Online Merchants Guild (discussed above), the Sixth Circuit applied a similar principle in the internet context when it noted that the costs to out-of-state third-party sellers on Amazon from complying with a Kentucky consumer protection law did not count for Dormant Commerce Clause purposes, even if the law affected prices outside the state, because the costs resulted from Amazon’s voluntary decision to structure its online marketplace in a way that mandated uniform national pricing and forbade state-by-state pricing. [131]",
+      "label": "body-text",
+      "word_count": 201
+    },
+    {
+      "text": "Fourth, an online firm’s inability to perfectly comply with a state regulation due to imperfections in the accuracy of geographical identification and filtering technology does not by itself mean the state regulation violates the Dormant Commerce Clause. The relevance of technological imperfection will depend in part on how demanding the state regulation is. Several state laws regulating minors’ access to pornography online have survived Dormant Commerce Clause scrutiny because they criminalize only intentional transmissions of banned materials to minors or to minors within a state. [132] For similar reasons, Dormant Commerce Clause concerns are significantly reduced if state law provides a defense for reasonable efforts to keep forbidden internet content out of the state. And the Supreme Court has said that a state’s efforts to minimize the interstate impact of a regulation, including through compliance software, is relevant to the discrimination and undue burden analyses. [133]",
+      "label": "body-text",
+      "word_count": 146
+    },
+    {
+      "text": "Let’s now consider how these principles might apply to state regulation of social media platforms, and in particular to statutes (whether framed as public-accommodation statutes or quasi-common carrier statutes) that ban discrimination based on various attributes of a user or of the user’s speech. We’ll begin with two relatively simple and narrow hypotheticals, and then turn in subpart V(C) to the more controversial and ambitious statutes aimed at forbidding certain kinds of political discrimination, such as the ones recently enacted in Florida and Texas.",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "Federal public accommodations law likely doesn’t cover social media platforms because it’s limited to only a few kinds of establishments. [134] It also only bans discrimination based on race, religion, national origin, and disability. [135] But many states ban public accommodation discrimination in many establishments, based on many criteria.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "Of course, today’s major social media platforms likely wouldn’t expressly exclude members based on, say, race, sex, or sexual orientation. But consider a peculiar form of antidiscrimination law: bans on discrimination in places of public accommodation based on arrest or conviction history. Ann Arbor categorically bans such discrimination based on arrest record. [136] Madison, Urbana, and Champaign do the same as to arrest record or conviction record. [137] Connecticut bans discrimination based on expunged criminal records. [138] New Jersey bans discrimination based on criminal history involving possession, distribution, or manufacturing of marijuana or hashish. [139] Illinois, Hawaii, New York, and Wisconsin also ban such discrimination in employment, [140] so it’s easy to imagine one of those states extending the ban to public accommodations.",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "Indeed, say Wisconsin is, rightly or wrongly, persuaded to do that (especially given Madison’s step in that direction). But say some social network—call it SafeBook—decides to ban people with a history of criminal offenses from portions of its site that children can visit. (Maybe sex offenses, but maybe also drug offenses; many parents might not want their children to fall in with the wrong crowd online and be exposed to bad influences.)",
+      "label": "body-text",
+      "word_count": 72
+    },
+    {
+      "text": "And say that Wisconsin courts conclude that the Wisconsin law applies to social media networks. This isn’t implausible: some courts have already held that bans on disability discrimination in places of public accommodation apply to websites. [141] The Wisconsin law also provides that the term “‘public place[s] of accommodation or amusement’ shall be interpreted broadly to include, but not be limited to, places of business or recreation . . . and any place where . . . amusement, goods, or services are available either free or for a consideration.” [142] Finally, say that courts conclude that this nondiscrimination rule doesn’t violate the social media networks’ First Amendment rights, [143] and isn’t preempted by Section 230. [144]",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "The Dormant Commerce Clause shouldn’t invalidate this law, at least if certain assumptions about geolocation (more on them shortly) are satisfied. This is especially clear if the law only protects the right of users in Wisconsin to interact with other users in Wisconsin (let’s call this Option 1). Just as a theme park in Wisconsin can’t exclude visitors with a criminal record, SafeBook can’t keep a Wisconsinite from logging on and having online conversations with other Wisconsinites who have criminal records. [145]",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "To be sure, Wisconsin’s law would have extraterritorial effects: if SafeBook is headquartered in, for instance, Kansas, presumably SafeBook will have to do many things in Kansas to comply. But of course, any corporation that deals with customers all over the country through brick-and-mortar stores would have to comply with the laws of those places where it operates. Likewise, any corporation that mails material to customers or deals with them through phone calls would have to comply with the laws of those places (for instance, in deciding what it must do to legally record phone calls with customers). [146]",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "This analysis assumes what is increasingly commonplace: that SafeBook has access to geographical identification tools at a reasonable cost that can determine whether a user and the users with whom he is corresponding are in Wisconsin. So long as Wisconsin only requires SafeBook to use reasonable best efforts with geolocation tools—rather than, say, imposing strict liability for any criminal history discrimination against users who happen to be in Wisconsin, even if they appear to be coming from Iowa—then SafeBook can still maintain its criminal-offender-free experience for users in other states. It could just hide any Wisconsin criminal-offender users so users in other states can’t correspond with them, but still show the Wisconsin criminal-offender users to their fellow Wisconsinites. [147]",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "This sort of geography-based variation in experience is similar to what the Ninth Circuit ruled CNN could provide to accommodate disabled users in California. SafeBook would have to go beyond CNN in at least one respect: it would have to take note of the place from which the item was posted, and not just, as in CNN’s case, the place from which the item was accessed. But that move might be technically easy, to the extent that SafeBook can geolocate the poster when the post is put up, [148] and then store that location information together with the other fields in the post, such as the post date, time, author, and text. [149] Armed with that information, the SafeBook software can make sure that Wisconsinites will see posts from other Wisconsinites, even if it wants to continue to block posts by criminal offenders from or to other states.",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "To be sure, the challenge for SafeBook could become more complicated as more states impose such regulations. Some jurisdictions ban arrest and conviction record discrimination, and some don’t. Some might ban such discrimination more or less broadly (again, recall New Jersey law, which currently bans only discrimination based on a history of having possessed, sold, or manufactured marijuana or hashish). Some ban sexual orientation discrimination and gender identity discrimination, and some don’t. Some ban marital status discrimination, and some don’t. Most ban religious discrimination, but a few don’t. A few ban discrimination based on veteran status or military status, but most don’t. [150] SafeBook might need to survey the state laws and have different rules for different states, especially if it wants to institute other forms of discrimination, but even if it limits itself to discrimination based on criminal history.",
+      "label": "body-text",
+      "word_count": 140
+    },
+    {
+      "text": "But welcome to the American federal system, where companies that do business with people who are in multiple states must comply with the laws of those multiple states. Mail-order retailers, for instance, have to comply with the often-byzantine tax rules of many states, even though “[s]tate taxes differ, not only in the rate imposed but also in the categories of goods that are taxed and, sometimes, the relevant date of purchase.” [151] Yet that by itself doesn’t immunize the retailers from complying with state laws via readily available tools, including geolocation and other software tools.",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "Likewise for large social media platforms, at least to the extent that they can use geo-identification tools to achieve a reasonable level of compliance with multiple state laws as described above. These are firms, after all, whose businesses are all about writing software to deal with business opportunities and challenges, including software that for business-enhancement reasons treats users differently based on geography.",
+      "label": "body-text",
+      "word_count": 62
+    },
+    {
+      "text": "Such compliance can be burdensome, and perhaps unduly burdensome, for small companies, whether they are small retailers or small platforms. The Dormant Commerce Clause balancing test (the Pike v. Bruce Church, Inc. [152] test), under which a regulation may be struck down if “the burden imposed on [interstate] commerce is clearly excessive in relation to the putative local benefits,” [153] might limit such state laws in some measures, as applied to small retailers. [154] In the tax context, Wayfair recognized that the “burdens [of having to collect state sales tax] may pose legitimate concerns in some instances, particularly for small businesses that make a small volume of sales to customers in many [s]tates,” and that it may be significant that a state “affords small merchants a reasonable degree of protection,” for instance if they do very little business in the state. [155]",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "Yet even when discussing small businesses facing multijurisdictional legal burdens, the Court noted that, “[e]ventually, software that is available at a reasonable cost may make it easier for small businesses to cope with these problems.” [156] The Court appeared to be referring to state-provided multistate tax compliance software that is a cousin of the geolocation software we have highlighted. [157] And any concern about undue burdens on interstate commerce should be further significantly reduced for large businesses, with users and advertisers all over the country, that deploy geo-identification software to serve business interests.",
+      "label": "body-text",
+      "word_count": 93
+    },
+    {
+      "text": "Now of course a harder question would arise if Wisconsin law insisted that SafeBook, as a condition of doing any business in Wisconsin, let any user from Wisconsin sign on (regardless of criminal history) and have conversations with all users on the platform (including by implication those from other states such as, say, Iowa). Let’s call this Option 2; it would go beyond regulating the experience of Wisconsin users of SafeBook and influence the experience of users in Iowa, who would end up interacting with some people with criminal histories (not fellow Iowans, who still wouldn’t be protected by Option 2, but Wisconsinites) simply because Wisconsin law so mandates.",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "Option 2 is harder because one can conceptualize the Wisconsin regulation as doing more than raising SafeBook’s costs of doing business in Iowa; the Wisconsin law can also be viewed as requiring SafeBook to provide a certain form of online experience in Iowa that SafeBook wouldn’t otherwise provide. Option 2 for this reason moves in the direction of the Supreme Court’s price-affirmation cases, which struck down state price-affirmation laws basically because they mandated certain behavior in other states. [158]",
+      "label": "body-text",
+      "word_count": 79
+    },
+    {
+      "text": "But, as noted above, the continuing validity of these cases is in question; and the argument that Option 2 is consistent with the Dormant Commerce Clause is powerful. Wisconsin has an interest in making sure that Wisconsinites are treated equally by places of public accommodation without regard to arrest or conviction records. That suggests that someone using SafeBook in his home in Madison should be entitled to have the same online experience—including the same conversations with out-of-staters—regardless of whether he has, say, a marijuana conviction on his record. Wisconsin would be regulating the experience that SafeBook is providing for people who are visiting SafeBook from Wisconsin, even though in the process it would incidentally also affect the experience of SafeBook visitors from outside Wisconsin.",
+      "label": "body-text",
+      "word_count": 124
+    },
+    {
+      "text": "An analogy might be a physical delivery service in Wisconsin that refused to accept packages—including for interstate shipment—from people who had sex crime convictions (perhaps because the owner just didn’t want to do business with people who had committed such heinous acts). [159] The Wisconsin legislature might well conclude that this is improper discrimination against Wisconsin residents and enact an Option 2-like public accommodation statute to forbid such discrimination, even though such a statute would also affect the delivery service’s actions in delivering packages from Wisconsin to other states.",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "Let us then add one more twist: Say that, while Wisconsin bans discrimination based on criminal history, North Carolina requires social media platforms to exclude people with certain kinds of criminal history from portions of social media platforms that are targeted to children. [160] This would indeed put SafeBook in a difficult position: If it keeps a Wisconsin user with a particular history from interacting with North Carolina users who are accessing a particular portion of the platform, then it would be violating Wisconsin law (at least in Option 2). If it allows the Wisconsin user to interact with the North Carolina users, then it would be violating North Carolina law.",
+      "label": "body-text",
+      "word_count": 111
+    },
+    {
+      "text": "This sort of actual inconsistency might justify keeping one or the other law from applying in those situations under Pike balancing. We doubt, though, that the mere hypothetical possibility of such inconsistency should categorically foreclose antidiscrimination laws from applying to social media platforms.",
+      "label": "body-text",
+      "word_count": 43
+    },
+    {
+      "text": "So far, we focused on platforms discriminating, in violation of state law, against users based on their status. But antidiscrimination laws can also reach discrimination based on the content of users’ speech.",
+      "label": "body-text",
+      "word_count": 32
+    },
+    {
+      "text": "Imagine HitchedIn—a hypothetical web site that lets users put up pages for their weddings complete with a place for guests to RSVP, a gift registry, video streaming for people who can’t be physically present at the event, and a space for friends to have conversations about the wedding before or after (or even during). But HitchedIn decides not to allow (a) pages for same-sex weddings and (b) pages or comments containing pagan religious messages.",
+      "label": "body-text",
+      "word_count": 74
+    },
+    {
+      "text": "Assume California courts conclude that:",
+      "label": "body-text",
+      "word_count": 5
+    },
+    {
+      "text": "Here too, the Dormant Commerce Clause shouldn’t preempt a reading of California law that would require platforms not to discriminate as to posts by users who are posting from California, when their posts are read by people in California (again, Option 1), so long as the platforms can use geolocation technology to determine who is in California. A hotel in Los Angeles can’t refuse to host same-sex weddings or pagan weddings, or so we can assume under the hypothesized interpretation of the Unruh Act. Likewise, a social media company—whether the California-based Facebook or Twitter or the Tennessee-based Parler—operating a page used by Californians to talk to Californians couldn’t refuse to let Californians use that page to convey similar religious views. And the same more difficult and uncertain analysis as above would apply to an Option 2, under which California law would protect Californians from such discrimination even when they’re corresponding with out-of-staters.",
+      "label": "body-text",
+      "word_count": 152
+    },
+    {
+      "text": "And the same basic approach, we think, should apply to bans on political discrimination. (Some California cases suggest that California law already bans such discrimination, and various cities, counties, and territories have explicit rules along those lines. [165] ) If, say, Iowa law bans social media platforms from blocking Iowan-to-Iowan speech based on its viewpoint, whether religious, moral, or political, Iowa courts could, consistent with the Dormant Commerce Clause, apply that law to HitchedIn and, for that matter, to Facebook and Twitter—again, so long as those platforms could geolocate the communicating parties as being in Iowa. Likewise for quasi-common carrier statutes, which would ban social media platforms from blocking such communication more generally (perhaps with a few viewpoint-neutral exceptions, such as for spam or sexually themed material). This question was raised in the challenges to the Florida and Texas laws that banned social media platforms from discriminating based on political viewpoint, but those courts to date have focused on First Amendment issues and have not reached the Dormant Commerce Clause question. [166]",
+      "label": "body-text",
+      "word_count": 172
+    },
+    {
+      "text": "To be sure, one element of the Pike balancing test is to ask whether “the burden imposed on such commerce is clearly excessive in relation to the putative local benefits,” [167] so courts will have to consider the local benefits. But those benefits are quite significant.",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "In our HitchedIn and SafeBook hypos, the local benefits were the benefits of protecting local residents from discrimination based on sexual orientation, religion, and criminal history. And in the political discrimination ban, they are the benefits that the Court viewed as important in Turner Broadcasting System, Inc. v. FCC , [168] albeit as to the First Amendment—“assuring that the public has access to a multiplicity of information sources,” which “is a governmental purpose of the highest order, for it promotes values central to the First Amendment.” [169] “[I]t has long been a basic tenet of national communications policy that the widest possible dissemination of information from diverse and antagonistic sources is essential to the welfare of the public.” [170]",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "None of this tells us, of course, that applying such public accommodation laws or common carrier laws to social media platforms is a good idea. The only point is that the Dormant Commerce Clause doesn’t categorically preclude these sorts of experiments.",
+      "label": "body-text",
+      "word_count": 41
+    },
+    {
+      "text": "Because this topic is so much in the news—with Florida and Texas enacting such statutes, and other states considering them—let’s lay this out in some more detail, and in particular cover four possible categories of hypothetical Iowa statutes, and not just Options 1 and 2.",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "1. Forbidding viewpoint discrimination by platforms when Iowans read material posted by Iowans . This is the analog of Option 1 for the other statutes discussed in previous sections. It has the narrowest extraterritorial effect, because it doesn’t materially affect the service the platform offers outside the state.",
+      "label": "body-text",
+      "word_count": 48
+    },
+    {
+      "text": "Indeed, such a nondiscrimination law would be similar to a normal public accommodation law that bans brick-and-mortar public accommodations—such as bars or stadiums—from excluding people based on their “political ideology,” including political speech. [171] Such a law may require multistate chains to develop different rules for different states in which they operate. It may lead to some interstate travelers being upset, for instance if they are used to the chain’s restaurants forbidding patrons from wearing Confederate-flag garb but have to endure seeing it in a jurisdiction that bans ideological discrimination. And it may have various other extraterritorial effects.",
+      "label": "body-text",
+      "word_count": 98
+    },
+    {
+      "text": "Still, it’s clear that a state can indeed impose such rules on businesses within it. Likewise, a state can impose similar rules with regard to communications that are sent and received from that state.",
+      "label": "body-text",
+      "word_count": 34
+    },
+    {
+      "text": "2. Forbidding viewpoint discrimination by platforms when anyone reads material posted by Iowans . This is what we’ve also labeled Option 2 in the examples above, and it’s similar to the coverage of Florida’s social media law, [172] though that law focuses—improperly, we think—on “reside[nce]” or “domicile,” legal questions that platforms might not be able to easily answer, rather than on place of posting (or place from which the user created the account), which is a geographical question that platforms can answer more reliably. [173]",
+      "label": "body-text",
+      "word_count": 85
+    },
+    {
+      "text": "As we have noted above, this is a harder case to resolve with certainty, because any such law would require the platform to provide out-of-state users with a different experience than it would otherwise provide. Here, though, is a potentially helpful analogy: Imagine a multistate chain of stores that take wedding invitations supplied by the couples who are marrying, and—in a display of conspicuous consumption—hand-deliver them to recipients throughout the country. And imagine the company declines to do this for invitations to same-sex weddings. Iowa antidiscrimination law may well forbid such discrimination by Iowa branches of the chain that are serving Iowans, even as to invitations that are to be delivered to other states. [174] (As usual, let’s set aside any First Amendment objections to the law, and focus solely on the Dormant Commerce Clause. [175] )",
+      "label": "body-text",
+      "word_count": 137
+    },
+    {
+      "text": "Iowa should be entitled to protect Iowans against discrimination based on sexual orientation, [176] even as to material that’s shipped from Iowa to other states. The same logic argues for the constitutionality, under the Dormant Commerce Clause, of the Iowa law that forbids a platform from discriminating based on viewpoint when anyone, including an out-of-stater, reads materials posted by Iowans.",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "3. Forbidding viewpoint discrimination by platforms when Iowans read material posted by anyone . This is close to the California closed-captioning requirement upheld by the Ninth Circuit in Greater Los Angeles Agency on Deafness . California can require that CNN contents transmitted into California include closed captioning (even if CNN would otherwise prefer not to include it and doesn’t include it for viewers in other states). Iowa can likewise require that social media contents transmitted into Iowa include material that the platform would have preferred to delete. [177] A state generally has the power to require that products made available in that state have certain features, even if that covers businesses that would create those features outside the state.",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "This would mean that the platform has to retain posts, regardless of viewpoint, on its computers. But it seems likely that the platforms could conceal those posts from everyone except Iowans (and people in states with similar laws), so the Iowa law wouldn’t affect what will be visible to people in other states. And while this would involve some extra coding and work for the platform, the same was true of CNN’s obligation to provide closed captioning.",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "If these extra costs proved to be exorbitant, the outcome of a Pike balancing analysis might become difficult to predict. But as we have noted several times, platforms pervasively use geographical identification and filtering technology to serve their business ends, and so we suspect that it can be done at a reasonable cost here as well.",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "4. Forbidding viewpoint discrimination by platforms when Iowans read material posted by anyone and when anyone reads material posted by Iowans. This appears to be similar to the approach of Texas’s social media law [178] and bills in other states, such as Georgia and Michigan. [179] The same set of considerations that would govern approaches 2 and 3 above would apply here. These types of laws are difficult to generalize about, and their constitutionality will likely turn on a fine-grained Pike analysis.",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "Throughout American history, most everyday behavior of Americans—shopping, speaking, gathering—has been governed largely by state law. People have been protected by (and liable under) state consumer protection laws; public accommodations laws; the tort law of libel, invasion of privacy, and right of publicity; and more.",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "The internet has shifted a great deal of commercial, personal, and political activity “into cyberspace”—but behind that metaphor are people communicating from one state into another state, sometimes about the residents of a third state. Our nation’s commitment to federalism, both as a means of preserving local political decision-making and of fostering experimentation, remains important despite changing technology. And geolocation technology makes it possible to preserve, at least to a large extent, this traditional territorialist-pluralist vision.",
+      "label": "body-text",
+      "word_count": 76
+    },
+    {
+      "text": "Congress may choose to homogenize the rules for internet activity by preempting state law. And the courts, of course, must enforce a floor of federal First Amendment protection for such activity. But beyond that, and absent a hard-to-make showing of undue burden on interstate commerce, courts should—based on reasonable assumptions about the feasibility and costs of geolocation technology—play only a limited role in striking down, on “extraterritoriality” grounds, state laws that apply to internet transactions. That is so whether the state laws are tort law rules, antidiscrimination laws, common carrier laws, or other means by which states engage in the age-old endeavor of defining and reconciling the legitimate interests of citizens and business enterprises.",
+      "label": "body-text",
+      "word_count": 114
+    },
+    {
+      "text": "Download PDF",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "Privacy Policy 2025 © Texas Law Review",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Depending on the circumstances, you might not be subject to jurisdiction in all of those states. But even if you are sued for libel in your home state, the court, applying normal choice-of-law principles, will generally apply the law of the plaintiff’s domicile. Restatement (Second) of Conflict of Laws § 150 ( Am. L. Inst. 1971 ).",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": ". See infra notes 62–64 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". E.g. , Am. Booksellers Found. v. Dean, 342 F.3d 96, 99, 104 (2d Cir. 2003) (invalidating a Vermont statute); see also Glenn Harlan Reynolds, Virtual Reality and “Virtual Welters”: A Note on the Commerce Clause Implications of Regulating Cyberporn , 82 Va. L. Rev. 535, 540–42 (1996) (arguing in favor of invalidating such statutes).",
+      "label": "footnote-text",
+      "word_count": 55
+    },
+    {
+      "text": ". See, e.g. , Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc., 742 F.3d 414, 432–33 (9th Cir. 2014) (upholding a California statute requiring CNN to provide closed captioning online in California); Online Merchs. Guild v. Cameron, 995 F.3d 540, 559 (6th Cir. 2021) (upholding Kentucky’s price-gouging law as applied to sales on Amazon.com); SPGGC, LLC v. Blumenthal, 505 F.3d 183, 195 (2d Cir. 2007) (upholding a Connecticut consumer protection law as applied to online gift card sales).",
+      "label": "footnote-text",
+      "word_count": 81
+    },
+    {
+      "text": ". The question whether such state statutes are barred by the First Amendment or by Section 230 of the Communications Decency Act is dealt with in separate articles. See infra notes 143–144.",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": ". See infra note 166.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See, e.g. , S.B. 393, 156th Gen. Assemb., Reg. Sess. (Ga. 2022) (regulating social media platform disclosure of policies for “removing citizens from platforms, promoting and diminishing access to content, and moderating content”); H.B. 5973, 101st Legis. (Mich. 2022) (limiting certain social media platforms’ blocking of user content).",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": ". For an example of such a bill that is so broad that it extends even beyond advertising, see Eugene Volokh, S.C. Bill Would Apparently Outlaw News Sites’ Writing About Legal Abortion Clinics in Neighboring States , Reason: Volokh Conspiracy (June 30, 2022, 10:18 PM), https://reason.com/volokh/2022/06/30/s-c-bill-would-apparently-outlaw-news-sites-writing-about-legal-abortion-clinics-in-neighboring-states/ [https://perma.cc/US7Y-X5HD]. For an example of an (unsuccessful) Dormant Commerce Clause challenge to an advertising statute—a California law limiting water treatment health claims—see infra note 78 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 74
+    },
+    {
+      "text": ". See David R. Johnson & David Post, Law and Borders—The Rise of Law in Cyberspace , 48 Stan. L. Rev. 1367, 1390 (1996) (asserting that “[g]overnments cannot stop electronic communications from coming across their borders” and concluding that this means they cannot claim a right to regulate the internet to protect their citizens from harms originating outside their borders).",
+      "label": "footnote-text",
+      "word_count": 60
+    },
+    {
+      "text": ". Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc., 742 F.3d 414, 433 (9th Cir. 2014) (citation omitted); see also Nat’l Fed’n of the Blind v. Target Corp., 452 F. Supp. 2d 946, 961 (N.D. Cal. 2006) (taking the same view of the same California statute, since “Target could choose to make a California-specific website”; even if Target had to change “its entire website in order to comply with California law, this does not mean that California is regulating out-of-state conduct”); cf. Backpage.com, LLC v. Cooper, 939 F. Supp. 2d 805, 817, 841 (M.D. Tenn. 2013) (striking down a Tennessee statute that banned the sale of ads “that would appear to a reasonable person to be for the purpose of engaging in what would be a commercial sex act . . . with a minor,” partly because “[n]owhere in the language of the statute is there any limit on the statute’s geographic scope that specifies what conduct, if any, must take place in Tennessee”).",
+      "label": "footnote-text",
+      "word_count": 167
+    },
+    {
+      "text": ". For an earlier effort when the technology was in its infancy, see Jack L. Goldsmith & Alan O. Sykes, The Internet and the Dormant Commerce Clause , 110 Yale L.J. 785, 810–12 (2001). See also Kevin F. King, Personal Jurisdiction, Internet Commerce, and Privacy: The Pervasive Legal Consequences of Modern Geolocation Technologies , 21 Alb. L.J. Sci. & Tech . 61, 104–05 (2011) (arguing that geolocation technology challenges the logic of early Dormant Commerce Clause internet cases, in the course of examining how such technology should influence the law of personal jurisdiction).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": ". 6 F.4th 1021 (9th Cir. 2021), cert. granted , 142 S. Ct. 1413 (2022).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". Nat’l Fed’n of Indep. Bus. v. Sebelius, 567 U.S. 519, 536 (2012).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". Michael W. McConnell, Federalism: Evaluating the Founders’ Design , 54 U. Chi. L. Rev. 1484, 1493 (1987).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": ". See Ariz. State Legislature v. Ariz. Indep. Redistricting Comm’n, 576 U.S. 787, 817 (2015) (“This Court has long recognized the role of the States as laboratories for devising solutions to difficult legal problems.” (internal quotation marks omitted)); New State Ice Co. v. Liebmann, 285 U.S. 262, 311 (1932) (Brandeis, J., dissenting) (“It is one of the happy incidents of the federal system that a single courageous State may, if its citizens choose, serve as a laboratory; and try novel social and economic experiments without risk to the rest of the country.”).",
+      "label": "footnote-text",
+      "word_count": 92
+    },
+    {
+      "text": ". The postErie federal common law powers of federal courts are ultimately justified as authorized or grounded in a federal constitutional or statutory enactment. See Larry Kramer, The Lawmaking Power of the Federal Courts , 12 Pace L. Rev. 263, 287–88 (1992) (arguing that apart from certain constitutionally identified circumstances, federal courts may only make common law that is necessary and proper to implement federal statutes); Henry J. Friendly, In Praise of Erie —and of the New Federal Common Law , 39 N.Y.U. L. Rev . 383, 408 n.119 (1964) (discussing the sources of lawmaking ability in light of Erie ).",
+      "label": "footnote-text",
+      "word_count": 101
+    },
+    {
+      "text": ". Phillips Petroleum Co. v. Shutts, 472 U.S. 797, 818 (1985).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Austin v. New Hampshire, 420 U.S. 656, 665–66 (1975).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". South Dakota v. Wayfair, Inc., 138 S. Ct. 2080, 2091 (2018); Granholm v. Heald, 544 U.S. 460, 472 (2005); Hughes v. Oklahoma, 441 U.S. 322, 337 (1979). The Dormant Commerce Clause and the Privileges and Immunities Clause both govern state legislation that discriminates against out-of-staters. But the Dormant Commerce Clause, unlike the Privileges and Immunities Clause, protects corporations. See Blake v. McClung, 172 U.S. 239, 259 (1898) (holding that corporations are not “citizens” protected by the Privileges and Immunities Clause).",
+      "label": "footnote-text",
+      "word_count": 81
+    },
+    {
+      "text": ". Pike v. Bruce Church, Inc., 397 U.S. 137, 142 (1970).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Indeed, the Justices have expressed skepticism about their ability to do so. See, e.g. , Gen. Motors Corp. v. Tracy, 519 U.S. 278, 308–09 (1997) (concluding that “the Court is institutionally unsuited to gather the facts upon which economic predictions can be made[] and professionally untrained to make them” and collecting cases to that effect); id. at 315 (Stevens, J., dissenting) (“[S]peculation about the ‘real-world economic effects’ of a decision like this one is beyond our institutional competence.”).",
+      "label": "footnote-text",
+      "word_count": 79
+    },
+    {
+      "text": ". See Goldsmith & Sykes, supra note 11, at 798–802. On economic efficiency as the touchstone for Dormant Commerce Clause analysis, see Saul Levmore, Interstate Exploitation and Judicial Intervention , 69 Va. L. Rev. 563, 567–68 (1983). See also Mark Tushnet, Rethinking the Dormant Commerce Clause , 1979 Wis. L. Rev. 125, 130–34 (discussing instances where the Court treated the entire nation as a free trade unit and invalidated discriminatory state laws that raised the relative prices of out-of-state goods).",
+      "label": "footnote-text",
+      "word_count": 80
+    },
+    {
+      "text": ". The Supreme Court may soon revisit the extraterritoriality test. Petition for Writ of Certiorari at i, Nat’l Pork Producers Council v. Ross, 6 F.4th 1021 (9th Cir. 2021) (No. 20-55631), cert. granted , 142 S. Ct. 1413 (2022). As noted above, we will publish a follow-up article in Texas Law Review Online (Volume 102) when Pork Producers is decided, discussing how it affects our analysis.",
+      "label": "footnote-text",
+      "word_count": 66
+    },
+    {
+      "text": ". Earlier in the decade, a plurality of the Court in Edgar v. MITE Corp. struck down an Illinois antitakeover law that the plurality concluded had “sweeping extraterritorial effect” because it “purports to regulate directly and to interdict interstate commerce, including commerce wholly outside the State.” 457 U.S. 624, 642–43, 646 (1982) (plurality opinion). A majority of the Court concluded that the statute did not survive the undue burden balancing test. Id. at 643; id. at 646 (Powell, J., concurring in part). For hints of the extraterritoriality doctrine decades earlier, see Baldwin v. G.A.F. Seelig, Inc. , 294 U.S. 511, 519, 521–24 (1935).",
+      "label": "footnote-text",
+      "word_count": 103
+    },
+    {
+      "text": ". 476 U.S. 573 (1986).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 575–76.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". 491 U.S. 324 (1989).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 326.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Healy , 491 U.S. at 338–39 (quoting Brown-Forman , 476 U.S. at 580); see also Brown-Forman , 476 U.S. at 582–84 (striking down a New York law on similar grounds). Both decisions also concluded that the price-affirmation statutes were invalid because they “[f]orced a merchant to seek regulatory approval in one State before undertaking a transaction in another.” Brown-Forman , 476 U.S. at 582; Healy , 491 U.S. at 337.",
+      "label": "footnote-text",
+      "word_count": 71
+    },
+    {
+      "text": ". Healy , 491 U.S. at 336 (quoting Edgar v. MITE Corp., 457 U.S. 624, 642–43 (1982) (plurality opinion)).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". See, e.g. , Am. Trucking Ass’ns, Inc. v. Mich. Pub. Serv. Comm’n, 545 U.S. 429, 438 (2005) (finding it acceptable under the Dormant Commerce Clause for an interstate trucking firm to pay local fees everywhere that it does business); Online Merchs. Guild v. Cameron, 995 F.3d 540, 558 (6th Cir. 2021) (recognizing that “[e]ntities doing business in multiple states must comply with those states’ valid consumer protection laws—this is nothing new”); Kearney v. Salomon Smith Barney, Inc., 137 P.3d 914, 920 (Cal. 2006) (“[A]s a general matter, a company that conducts business in numerous states ordinarily is required to make itself aware of and comply with the law of a state in which it chooses to do business.”).",
+      "label": "footnote-text",
+      "word_count": 119
+    },
+    {
+      "text": ". Healy , 491 U.S. at 336.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". In Pharmaceutical Research & Manufacturers of America v. Walsh , the Court with little analysis rejected petitioners’ argument that a Maine prescription drug rebate program violated the extraterritoriality prong of the Dormant Commerce Clause. 538 U.S. 644, 668–70 (2003). The Court suggested that the extraterritoriality cases were limited to laws, like “price control or price affirmation statutes,” that “regulate the price of any out-of-state transaction, either by [their] express terms or by [their] inevitable effect .” Id. at 669 (emphasis added) (quoting Pharm. Rsch. & Mfrs. of Am. v. Concannon, 249 F.3d 66, 81–82 (1st Cir. 2001)). Many lower court cases reflect a similar position. See, e.g. , Energy & Env’t Legal Inst. v. Epel, 793 F.3d 1169, 1173–74 (10th Cir. 2015) (Gorsuch, J., majority opinion) (rejecting the application of extraterritoriality doctrine to a statute that “isn’t a price control statute” and “doesn’t link prices paid in Colorado with those paid out of state” in part because “the Supreme Court has emphasized as we do that the [extraterritoriality] line of cases concerns only ‘price control or price affirmation statutes’ that involve ‘tying the price of . . . in-state products to out-of-state prices’” (quoting Walsh , 538 U.S. at 669)); Ass’n des Eleveurs de Canards et d’Oies du Quebec v. Harris, 729 F.3d 937, 951 (9th Cir. 2013) (concluding that the extraterritoriality principle is “not applicable to a statute that does not dictate the price of a product and does not ‘t[ie] the price of its in-state products to out-of-state prices’” (alterations in original) (quoting Walsh , 538 U.S. at 669)); IMS Health Inc. v. Mills, 616 F.3d 7, 30 (1st Cir. 2010) (characterizing the Brown-Forman line of cases as bearing on (1) “price-affirmation statutes that force regulated entities to certify that the in-state price they charge for a good is no higher than the price they charge out of state” and (2) “statutes that ‘force an out-of-state merchant to seek regulatory approval in one State before undertaking a transaction in another’” (quoting Healy , 491 U.S. at 337)), vacated sub nom. IMS Health, Inc. v. Schneider, 564 U.S. 1051 (2011); Vizio, Inc. v. Klee, 886 F.3d 249, 255–56 (2d Cir. 2018) (rejecting an extraterritoriality challenge when the statute did not make “specific reference” to out-of-state pricing nor “attach[] in-state consequences where the pricing terms violate[] the statute[]” (alterations in original) (quoting Freedom Holdings, Inc. v. Spitzer, 357 F.3d 205, 221 (2d Cir. 2004))); see also Brannon P. Denning, Extraterritoriality and the Dormant Commerce Clause: A Doctrinal Post-Mortem , 73 La. L. Rev. 979, 979–80 (2013) (suggesting that Walsh indicates that the extraterritoriality doctrine in “the strong form articulated by the Court in the 1980s . . . is dead, and unlikely to be revived by the current Court”). But see Ass’n for Accessible Meds. v. Frosh, 887 F.3d 664, 669–70 (4th Cir. 2018) (rejecting this reading of Walsh ).",
+      "label": "footnote-text",
+      "word_count": 481
+    },
+    {
+      "text": ". Epel , 793 F.3d at 1173; cf. Nat’l Solid Wastes Mgmt. Ass’n v. Meyer, 63 F.3d 652, 661 n.10 (7th Cir. 1995) (“We have no need to determine whether the issue of extraterritorial reach ought to be analyzed distinctly from the issue of discrimination against interstate commerce . . . .”); Cotto Waxo Co. v. Williams, 46 F.3d 790, 793 & n.3 (8th Cir. 1995) (reasoning “[i]t may . . . be correct to say that ‘extraterritorial reach’ is a special example of ‘directly’ regulating interstate commerce” and thus discriminating against it).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": ". State v. Heckel, 24 P.3d 404, 411 (Wash. 2001); see also Am. Beverage Ass’n v. Snyder, 735 F.3d 362, 379–81 (6th Cir. 2013) (Sutton, J., concurring) (arguing the extraterritoriality principle is unnecessary to the decided cases and should play no role in Dormant Commerce Clause analysis beyond the already “problematic” undue burden balancing test); Nat’l Elec. Mfrs. Ass’n v. Sorrell, 272 F.3d 104, 108, 110 (2d Cir. 2001) (concluding that the extraterritoriality principle in Healy and Brown-Forman invalidates state regulations that “disproportionately burden interstate commerce” because they have “the practical effect of requiring out-of-state commerce to be conducted at the regulating state’s direction”); Goldsmith & Sykes, supra note 11, at 804, 806 (discussing the extraterritoriality analysis as a “balancing analysis framework” that weighs the “burdens on out-of-state actors” and the “in-state benefits”); William Lee Biddle, Comment, State Regulation of the Internet: Where Does the Balance of Federalist Power Lie? , 37 Cal. W. L. Rev. 161, 167 (2000) (“The burden placed on interstate commerce through inconsistent local regulation is more appropriately placed as part of the Pike balancing test, rather than its own, separate line of inquiry.”); cf. Gillian E. Metzger, Congress, Article IV, and Interstate Relations , 120 Harv. L. Rev. 1468, 1521 (2007) (“In practice, states exert regulatory control over each other all the time. . . . The prohibition on extraterritorial legislation is thus understood only to constrain a state from formally asserting legal authority outside its borders.”).",
+      "label": "footnote-text",
+      "word_count": 242
+    },
+    {
+      "text": ". South Dakota v. Wayfair, Inc., 138 S. Ct. 2080, 2090–91 (2018).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". The last case that clearly applied the extraterritoriality principle was Walsh in 2003. As then-Judge Gorsuch put it, extraterritoriality is “the most dormant” strand of Dormant Commerce Clause doctrine. Energy & Env’t Legal Inst. v. Epel, 793 F.3d 1169, 1172 (10th Cir. 2015). As noted supra note 23, the Court recently granted certiorari in a case that raises the continuing validity of the extraterritoriality prong of the Dormant Commerce Clause.",
+      "label": "footnote-text",
+      "word_count": 71
+    },
+    {
+      "text": ". The last case to invalidate a state law based on the extraterritoriality principle was Healy , which was decided in 1989. One could argue that BMW of North America v. Gore invalidated an Alabama punitive damages award based on the extraterritoriality principle since it cited Healy . 517 U.S. 559, 571 (1996). But the case was about the Due Process Clause, not the Dormant Commerce Clause, and the Court did not discuss extraterritoriality per se. Id. at 562. Likewise, the Court’s similar decision in State Farm Mutual Automobile Insurance v. Campbell focused solely on the Due Process Clause. 538 U.S. 408, 416 (2003).",
+      "label": "footnote-text",
+      "word_count": 104
+    },
+    {
+      "text": ". See Wayfair , 138 S. Ct. at 2100 (Thomas, J., concurring) (noting that the Court’s “entire negative Commerce Clause jurisprudence” can “no longer be rationally justified” (quoting Quill Corp. v. North Dakota, 504 U.S. 298, 333 (1992) (Scalia, J., concurring in part and concurring in the judgment))); id. at 2100–01 (Gorsuch, J., concurring) (questioning whether and how much of the Court’s Dormant Commerce Clause jurisprudence “can be squared with the text of the Commerce Clause, justified by stare decisis , or defended as misbranded products of federalism or antidiscrimination imperatives flowing from Article IV’s Privileges and Immunities Clause”); Denning, supra note 33, at 990–92 (explaining the ways that the Court had by 2003 grown hostile or indifferent to its traditional Dormant Commerce Clause tests).",
+      "label": "footnote-text",
+      "word_count": 125
+    },
+    {
+      "text": ". CTS Corp. v. Dynamics Corp. of Am., 481 U.S. 69, 88 (1987). An earlier generation of cases involving state rules regulating cross-border transportation invoked the inconsistent-regulations idea. See, e.g. , Kassel v. Consol. Freightways Corp., 450 U.S. 662, 678–79 (1981) (plurality opinion) (invalidating an Iowa restriction on truck length); S. Pac. Co. v. Arizona, 325 U.S. 761, 783–84 (1945) (invalidating an Arizona regulation limiting train lengths).",
+      "label": "footnote-text",
+      "word_count": 67
+    },
+    {
+      "text": ". Denning, supra note 33, at 1006–07; Goldsmith & Sykes, supra note 11, at 806–07; Donald H. Regan, The Supreme Court and State Protectionism: Making Sense of the Dormant Commerce Clause , 84 Mich. L. Rev. 1091, 1182–85 (1986) (arguing that the transportation cases invalidated on inconsistent-regulations grounds are an instance of balancing); Daniel R. Fischel, From MITE to CTS : State Anti-Takeover Statutes, the Williams Act, the Commerce Clause, and Insider Trading , 1987 Sup. Ct. Rev. 47, 90 (interpreting MITE as a balancing case). Many lower courts have taken this position as well. E.g. , Ward v. United Airlines, Inc., 986 F.3d 1234, 1242 (9th Cir. 2021); Nat’l Ass’n of Optometrists & Opticians v. Harris, 682 F.3d 1144, 1148 (9th Cir. 2012). And some of the Court’s inconsistent-regulations cases are fairly explicit about balancing. See, e.g. , Bibb v. Navajo Freight Lines, Inc., 359 U.S. 520, 529–30 (1959) (balancing “deleterious effect which [regulation] will have” against regulation’s putatively “inconclusive” safety benefits).",
+      "label": "footnote-text",
+      "word_count": 163
+    },
+    {
+      "text": ". Wayfair , 138 S. Ct. at 2093.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Healy v. Beer Inst., 491 U.S. 324, 336 (1989).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". 47 U.S.C. § 230. Technically, this was Section 509 of the Communications Decency Act, which created Section 230 of Title 47, Pub. L. No. 104-104, sec. 509, § 230, but it’s colloquially called Section 230 of the Communications Decency Act.",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": ". N.Y. Civ. Rights Law § 76-a (McKinney 2022).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See, e.g. , Khawar v. Globe Int’l, Inc., 965 P.2d 696, 708 (Cal. 1998) (“In California, this court has adopted a negligence standard for private figure plaintiffs seeking compensatory damages in defamation actions.”).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". 376 U.S. 254 (1964).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See id. at 279. If one looks to variation in damages rules, that is even sharper. Oregon, for instance, rejects punitive damages in libel cases. Wheeler v. Green, 593 P.2d 777, 789 (Or. 1979). Other states allow them. Many (but not all) states limit the availability of presumed damages to certain kinds of “libel per se” categories, with considerable variation about what qualifies as libel per se.",
+      "label": "footnote-text",
+      "word_count": 68
+    },
+    {
+      "text": ". Restatement (Second) of Torts § 611 ( Am. L. Inst. 1977).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". E.g. , Shiles v. News Syndicate Co., 261 N.E.2d 251, 253 (N.Y. 1970). But see Miller v. Gizmodo Media Grp., LLC, 994 F.3d 1328, 1335 (11th Cir. 2021) (reading Shiles narrowly).",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": ". See, e.g. , Dorsey v. Nat’l Enquirer, Inc., 952 F.2d 250, 253 (9th Cir. 1991) (extending the privilege to confidential family court proceedings).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". See, e.g. , Edwards v. Nat’l Audubon Soc’y, 556 F.2d 113, 115 (2d Cir. 1977) (concluding that the First Amendment mandates such a privilege); Tex. Civ. Prac. & Rem. Code Ann . § 73.005(b) (West 2015) (implementing a still-broader privilege, under which “[i]n an action brought against a . . . periodical or broadcaster, the defense [of truth] applies to an accurate reporting of allegations made by a third party regarding a matter of public concern”). But see Norton v. Glenn, 860 A.2d 48, 57 (Pa. 2004) (rejecting the privilege).",
+      "label": "footnote-text",
+      "word_count": 91
+    },
+    {
+      "text": ". This hypothetical is based on the facts of Norton , 860 A.2d at 50.",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". Indeed, that’s what the Pennsylvania Supreme Court held in Norton . Id. at 58–59; see also Martin v. Wilson Publ’g Co., 497 A.2d 322, 328–30 & n.5 (R.I. 1985) (questioning whether the neutral reportage privilege should be recognized at all, and concluding that, if it is to be recognized, it should apply only to certain “extremely limited situation[s]”). (If Glenn’s accusation is made in court proceedings, then that would be covered by the separate, broadly recognized “fair report” privilege, Restatement (Second) of Torts § 611 ( Am. L. Inst. 1977), but let’s assume that Glenn’s accusation is made outside court proceedings.)",
+      "label": "footnote-text",
+      "word_count": 102
+    },
+    {
+      "text": ". See, e.g. , 1 Rodney A. Smolla, Law of Defamation § 4:22 (2d ed. 2010) (discussing the “innocent construction rule,” recognized only in Illinois); id. § 4:23 (discussing the “single-instance rule,” recognized only in New York).",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": ". Restatement (Second) of Conflict of Laws § 150(2) ( Am. L. Inst. 1971 ).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". 465 U.S. 783 (1984).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See id. at 785, 790–91 (holding that jurisdiction in California was proper where the plaintiff and defendant had strong ties to California and the defendant intended to cause injury in California).",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": ". See, e.g. , Silver v. Brown, 382 F. App’x 723, 729–30 (10th Cir. 2010) (holding that New Mexico courts had personal jurisdiction over a Florida blogger, because the post was sufficiently focused on “a New Mexico resident and a New Mexico company” and their actions “occurred mainly in New Mexico”); Tamburo v. Dworkin, 601 F.3d 693, 697 (7th Cir. 2010) (concluding that “specific personal jurisdiction lies in Illinois” because the defendants allegedly “used their websites” or “blast emails” to defame the plaintiff knowing that “he lived and operated his software business in Illinois and would be injured there”); Wagner v. Miskin, 660 N.W.2d 593, 599 (N.D. 2003) (“Printed copies of Miskin’s website indicate its Internet address is ‘www.undnews.com.’ On the website, the subjects of linked articles relate to UND issues and staff, demonstrating a North Dakota university was the focus of her website.”); Baldwin v. Fischer-Smith, 315 S.W.3d 389, 392, 397 (Mo. Ct. App. 2010) (concluding that defendants had sufficient contacts with Missouri via their website to justify a Missouri trial court exercising personal jurisdiction over them); Kauffman Racing Equip., L.L.C. v. Roberts, 930 N.E.2d 784, 797–98 (Ohio 2010) (concluding that the exercise of personal jurisdiction was proper when defendant’s “communications specifically targeted a known . . . resident”); Kubyn v. Follett, 141 N.E.3d 512, 521–22 (Ohio 2019) (finding personal jurisdiction when plaintiffs’ “causes of action are based on conduct specifically directed at their in-state business which is also the locus of the alleged injuries”); Baronowsky v. Maiorano, 326 So. 3d 85, 90 (Fla. Dist. Ct. App. 2021) (“Just as in Calder , Baronowsky’s intentional conduct expressly aimed at residents of this state and causing reputational harm in this state connected him to the state and constituted sufficient minimum contacts to support the exercise of personal jurisdiction consistent with due process.”); Goldhaber v. Kohlenberg, 928 A.2d 948, 953–54 (N.J. Super. Ct. App. Div. 2007) (affirming trial court’s exercise of personal jurisdiction over a defendant whose messages were “target[ed] . . . to New Jersey”); see also TV Azteca, S.A.B. De C.V. v. Ruiz, 490 S.W.3d 29, 56–57 (Tex. 2016) (concluding that personal jurisdiction was proper when “[p]etitioners intentionally targeted Texas through their broadcasts that aired in Texas, and [the claims] arise from and relate to those broadcasts”); Renaissance Health Publ’g v. Resveratrol Partners, 982 So. 2d 739, 740 (Fla. Dist. Ct. App. 2008) (finding that “the defendants had sufficient minimum contacts with Florida where their interactive website libeled the product of a Florida corporation and the defendants sold competing products in Florida through the website”); Bickford v. Onslow Mem’l Hosp. Found., 855 A.2d 1150, 1156 (Me. 2004) (finding personal jurisdiction when defendant was “on notice that it was injuring a Maine resident by failing to take steps to eliminate the use of the allegedly libelous statement”); Johnson v. TheHuffingtonPost.com, Inc., 21 F.4th 314, 319 (5th Cir. 2021) (finding no jurisdiction because defendant’s “story about Johnson has no ties to Texas. The story does not mention Texas. It recounts a meeting that took place outside Texas, and it used no Texan sources.”).",
+      "label": "footnote-text",
+      "word_count": 512
+    },
+    {
+      "text": ". See Brunson v. Ranks Army Store, 73 N.W.2d 803, 806 (Neb. 1955); Howell v. N.Y. Post Co., 612 N.E.2d 699, 704 (N.Y. 1993); Hall v. Post, 372 S.E.2d 711, 717 (N.C. 1988); Anderson v. Fisher Broadcasting Cos., 712 P.2d 803, 814 (Or. 1986) (en banc); Evans v. Sturgill, 430 F. Supp. 1209, 1213 (W.D. Va. 1977).",
+      "label": "footnote-text",
+      "word_count": 57
+    },
+    {
+      "text": ". See Shulman v. Grp. W. Prods., Inc., 955 P.2d 469, 478 (Cal. 1998) (recognizing the public disclosure of private facts tort).",
+      "label": "footnote-text",
+      "word_count": 22
+    },
+    {
+      "text": ". E.g. , Eagle F. v. Phyllis Schlafly’s Am. Eagles, No. 3:16-CV-946-DRH, 2017 WL 4785792, at *4 (S.D. Ill. Oct. 20, 2017); Heinz v. Frank Lloyd Wright Found., No. 85-C-482-C, 1986 WL 5996, at *7 (W.D. Wis. Feb. 24, 1986).",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": ". See N.Y. Civ. Rights Law §§ 50-f(2)(b) (McKinney 2021) (excluding audiovisual works unless they are “likely to deceive the public into thinking [they were] authorized by” the decedent or the decedent’s heirs).",
+      "label": "footnote-text",
+      "word_count": 33
+    },
+    {
+      "text": ". See, e.g. , Tetris Holding, LLC v. Xio Interactive, Inc., 863 F. Supp. 2d 394, 400 (D.N.J. 2012) (collecting cases recognizing video games as “audiovisual works” under copyright law).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". Say Curt Schilling moves back to Alaska, where he’s from, and then dies while domiciled there.",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": ". See, e.g. , P.R. Coffee Roasters LLC v. Pan Am. Grain Mfg. Co., No. 3:15-CV-02099, 2015 WL 8551102, at *9–10 (D.P.R. Dec. 11, 2015) (refusing, based on the Dormant Commence Clause, to apply Puerto Rico trademark law to alleged infringement in Florida); Alamo Recycling, LLC v. Anheuser Busch InBev Worldwide, Inc., 191 Cal. Rptr. 3d 592, 601–03 (Cal. Ct. App. 2015) (refusing, based on the Dormant Commerce Clause, to apply California misrepresentation law and intentional interference with economic advantage law to labeling of products outside California).",
+      "label": "footnote-text",
+      "word_count": 87
+    },
+    {
+      "text": ". See, e.g. , Experience Hendrix L.L.C. v. Hendrixlicensing.com Ltd., 762 F.3d 829, 837 (9th Cir. 2014) (rejecting a Dormant Commerce Clause challenge brought by a Nevada company to a Washington right-of-publicity law, apparently because the law was limited to sales of products in Washington, and thus didn’t “affect transactions occurring wholly outside Washington”); Knapke v. PeopleConnect Inc., 553 F. Supp. 3d 865, 880-81 (W.D. Wash. 2021) (rejecting a Dormant Commerce Clause challenge to a right-of-publicity claim brought under Ohio law, based on a Washington company’s practice of selling records drawn from school yearbooks, including in Ohio); cf. Ades v. Omni Hotels Mgmt. Corp., 46 F. Supp. 3d 999, 1012–14 (C.D. Cal. 2014) (rejecting a claim that California law banning unannounced recording of phone calls by one party was unconstitutionally extraterritorial as to calls from Nebraska, partly because “there is at least a triable issue of fact as to whether it would be ‘futile’ for Omni to differentiate among Californian and non-Californian callers”); Krause v. RocketReach, LLC, No. 21-CV-1938, 561 F. Supp. 3d 778, 785–86 (N.D. Ill. 2021) (concluding that whether Illinois right-of-publicity law violates the Dormant Commerce Clause turns on facts about the relative burdens and benefits that can’t be resolved on a motion to dismiss).",
+      "label": "footnote-text",
+      "word_count": 207
+    },
+    {
+      "text": ". See, e.g. , Heffner v. Murphy, 745 F.3d 56, 76 (3d Cir. 2014) (noting, in the context of upholding Pennsylvania law regulating funeral director licenses, that “virtually all state regulation involves increased costs for those doing business within the state, including out-of-state interests doing business in the state,” and thus “virtually all state regulation ‘burdens’ interstate commerce” but does not thereby violate the Dormant Commerce Clause (citation omitted)); Am. Beverage Ass’n v. Snyder, 735 F.3d 362, 379 (6th Cir. 2013) (Sutton, J., concurring) (noting in the context of the Dormant Commerce Clause that the “modern reality is that the States frequently regulate activities that occur entirely within one State but that have effects in many”); Int’l Dairy Foods v. Boggs, 622 F.3d 628, 647–48 (6th Cir. 2010) (rejecting argument that Ohio food label law violated the Dormant Commerce Clause due to the out-of-state firm’s costs of complying with the law); Nat’l Elec. Mfrs. Ass’n v. Sorrell, 272 F.3d 104, 110–11 (2d Cir. 2001) (upholding Vermont consumer protection law even though it imposes significant compliance costs on out-of-state firms and concluding that “manufacturers [bearing] some of the costs of the Vermont regulation in the form of lower profits does not cause the statute to violate the Commerce Clause”).",
+      "label": "footnote-text",
+      "word_count": 208
+    },
+    {
+      "text": ". 742 F.3d 414 (9th Cir. 2014); see also Nat’l Fed’n of the Blind v. Target Corp., 452 F. Supp. 2d 946, 961 (N.D. Cal. 2006) (applying a similar analysis).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". Or so the court assumed for purposes of its analysis. See Greater L.A. Agency on Deafness , 742 F.3d at 872 (later certifying to the California Supreme Court whether the DPA applies to websites); Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc., 762 F.3d 1004, 1004 (9th Cir. 2014) (withdrawing the certification request in light of CNN’s motion to voluntarily dismiss its appeal in the Ninth Circuit).",
+      "label": "footnote-text",
+      "word_count": 71
+    },
+    {
+      "text": ". Greater Los Angeles Agency on Deafness , 742 F.3d at 433.",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". 995 F.3d 540 (6th Cir. 2021).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 545.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 544, 553.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 555.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". SPGGC, LLC v. Blumenthal, 505 F.3d 183, 195 (2d Cir. 2007).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". People ex rel. Brown v. PuriTec, 64 Cal. Rptr. 3d 270, 276 (Cal. Ct. App. 2007) (alterations in original).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": ". MaryCLE, LLC v. First Choice Internet, Inc., 890 A.2d 818, 843–44 (Md. Ct. Spec. App. 2006); Ferguson v. Friendfinders, Inc., 115 Cal. Rptr. 2d 258, 265 (Cal. Ct. App. 2002); see also State v. Heckel, 24 P.3d 404, 412–13 (Wash. 2001) (upholding Washington’s anti-spam law, but without discussing in detail how companies could determine where their recipients were located).",
+      "label": "footnote-text",
+      "word_count": 60
+    },
+    {
+      "text": ". Stein v. Dep’t of L. & Pub. Safety, 203 A.3d 160, 164, 169 (N.J. Super. Ct. App. Div. 2019).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": ". Quik Payday, Inc. v. Stork, 549 F.3d 1302, 1308–09 (10th Cir. 2008).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". 138 S. Ct. 2080 (2018).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Id. at 2089.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 2099. The Court in Quill Corp. v. North Dakota held that the Dormant Commerce Clause barred states from ordering a firm to collect and remit taxes for in-state sales unless the firm had a physical presence in the state. 504 U.S. 298, 314–15 (1992).",
+      "label": "footnote-text",
+      "word_count": 47
+    },
+    {
+      "text": ". Wayfair , 138 S. Ct. at 2098; cf. Sable Commc’ns of Cal., Inc. v. FCC, 492 U.S. 115, 117–18, 125 (1989) (finding that local obscenity laws that require a “dial-a-porn” company to determine location of callers and tailor messages by location did not violate the First Amendment despite the costs of identifying and complying with various local laws).",
+      "label": "footnote-text",
+      "word_count": 59
+    },
+    {
+      "text": ". The Court remanded the case so the lower courts could apply the undue burden test in the first instance. The Court noted that the South Dakota tax scheme “includes several features that appear designed to prevent discrimination against or undue burdens upon interstate commerce,” including “provid[ing] sellers access to sales tax administration software paid for by the State,” the use of which confers immunity from audit liability. Wayfair , 138 S. Ct. at 2099–100.",
+      "label": "footnote-text",
+      "word_count": 75
+    },
+    {
+      "text": ". 969 F. Supp. 160 (S.D.N.Y. 1997).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 163, 183–84 (quoting N.Y. Penal Law § 235.21(3) (McKinney 1996)).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". Pataki , 969 F. Supp. at 168, 170.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Id. at 167 (quoting ACLU v. Reno, 929 F. Supp. 824, 844 (E.D. Pa. 1996)).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": ". Id. at 171.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 177; see also id. at 171 (stating that New York anti-pornography law “cannot effectively be limited to purely intrastate communications over the Internet because no such communications exist”); id. (“[N]o user could avoid liability under the New York Act simply by directing his or her communications elsewhere, given that there is no feasible way to preclude New Yorkers from accessing a Web site, receiving a mail exploder message or a newsgroup posting, or participating in a chat room.”).",
+      "label": "footnote-text",
+      "word_count": 81
+    },
+    {
+      "text": ". Id. at 177–80.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 177.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 182–83.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 184; see also id. at 169 (concluding that “the Internet is one of those areas of commerce that must be marked off as a national preserve to protect users from inconsistent legislation that, taken to its most extreme, could paralyze development of the Internet altogether”).",
+      "label": "footnote-text",
+      "word_count": 48
+    },
+    {
+      "text": ". E.g. , PSINet, Inc. v. Chapman, 362 F.3d 227, 240–41 (4th Cir. 2004); Am. Booksellers Found. v. Dean, 342 F.3d 96, 104 (2d Cir. 2003); ACLU v. Johnson, 194 F.3d 1149, 1161 (10th Cir. 1999); see also Publius v. Boyer-Vine, 237 F. Supp. 3d 997, 1025 (E.D. Cal. 2017) (using the Dormant Commerce Clause as one basis for striking down a California law restricting the publication of legislators’ home addresses, in a challenge brought by a political activist running a noncommercial blog). One of us was one of the lawyers for Publius.",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": ". Pataki , 969 F. Supp. at 170.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See Jack Goldsmith & Tim Wu, Who Controls the Internet? 49 (2006).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". The Location Based Marketing Association’s 2020 survey of 871 companies found that 95% of companies worldwide use location-based digital services. Location Based Mktg. Ass’n, Global Location Trends Report 2020 , at 5 (2020), https://thelbma.com/wp-content/uploads/‌2020/12/Global-Location-Trends-Report-2020-THE-LBMA.pdf [https://perma.cc/X2UX-N6NY].",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": ". See WarnerMedia News and Sports Privacy Policy , WarnerMedia , https://www.‌warnermediaprivacy.com/policycenter/b2c/WMNS/en-us/ [https://perma.cc/95EE-TVB8] (Apr. 8, 2022) (noting that Warner companies, including CNN, “may have access to certain Information about your location, such as your country or address, when you provide it either directly or via device information,” “may collect Information about your device’s precise location,” and “also may derive a general location from device information (such as an IP address),” and use such information, among other reasons, to enable consumers to (among other things) “locate and access personalized information or functionality based on your interests or location (e.g., find stores, theaters, or show times)”); Amazon.com Privacy Notice , Amazon, https://www.amazon.com/gp/‌help/customer/display.html?nodeId=468496 [https://perma.cc/7L4C-WR5C] ( June 29, 2022 ) (providing eighteen examples of how consumers supply information to Amazon, noting that as “a result of those actions, you might supply us with . . . your location information,” and adding that the information Amazon automatically collects and analyzes includes “the location of your device or computer”).",
+      "label": "footnote-text",
+      "word_count": 163
+    },
+    {
+      "text": ". How Google Uses Location Information , Google, https://policies.google.com/‌technologies/location-data [https://perma.cc/4NVG-4XSY].",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See Target Ads to Geographic Locations , Google , https://support.google.com/google-ads/answer/1722043 [https://perma.cc/HQ7H-QF4T] (explaining that “[l]ocation targeting helps you focus your advertising to help find the right customers for your business” and potentially increase the return on investment); Pengcheng Xia, Gang Li, T.C.E. Cheng & Ao Shen, Competition Strategies for Location-Based Mobile Coupon Promotion , 16 J. Theoretical & Applied Elec. Com. Rsch. 3248, 3248 (2021) (“[C]ombining geographical and temporal targeting is a potent strategy for companies to engage customers at the right moment and in the right location, which can stimulate consumer responses and increase purchases.”); Tim Burd, Facebook’s Pin Drop: Rule Your Area , AdLeaks (Oct. 10, 2018), https://www.adleaks.com/the-power-of-facebooks-pin [https://perma.cc/D2MS-LZY7] (reporting on a Facebook program that allows business owners to target ads to a “specific building, address, or even street corner”).",
+      "label": "footnote-text",
+      "word_count": 132
+    },
+    {
+      "text": ". Not actually steam-powered computer games.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". See Jakub Mikians, László Gyarmati, Vijay Erramilli & Nikolaos Laoutaris, Detecting Price and Search Discrimination on the Internet 79, 82 (Oct. 2012) (unpublished manuscript), https://conferences.sigcomm.org/hotnets/2012/papers/hotnets12-final94.pdf [https://perma.cc/‌ED33-4WR2] (finding that four products on staples.com were priced differently when accessed from a different geographic location).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": ". Marketa Trimble, The Role of Geoblocking in the Internet Legal Landscape , 23 Revista d’Internet, Dret i Política 45, 49 (2016), https://pdfs.semanticscholar.org/0075/a385d77‌a1903977c61371f6610bfff817cb3.pdf [https://perma.cc/Z296-ENYZ].",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". See ‘Suspicious Sign in Prevented’ Email , Google, https://support.google.com/accounts/‌answer/6063333 [https://perma.cc/SZ6M-M3QD] (describing Google’s blocking procedures in cases of “suspicious sign in”).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". In practice, credit card companies combine geolocation mechanisms with other mechanisms and databases to identify anomalous patterns that indicate possible fraud. See Mark Nelsen, Outsmarting Fraudsters with Advanced Analytics , Visa, https://usa.visa.com/visa-everywhere/security/outsmarting-fraudsters-with-advanced-analytics.html [https://perma.cc/‌WZM6-TE6D]; Antoine Amend, Identifying Financial Fraud with Geospatial Clustering , Databricks: Eng’g Blog (Apr. 13, 2021), https://databricks.com/blog/2021/04/13/identifying-financial-fraud-with-geospatial-clustering.html [https://perma.cc/2KBB-KVC5]. Sasha Lekach, Credit Card Companies Are Ditching Old-School Travel Alerts for Always-On Location Tracking , Mashable (Feb. 6, 2020), https://mashable.com/article/credit-card-travel-alerts-location-tracking-privacy [https://perma.cc/EJ8G-XHYF].",
+      "label": "footnote-text",
+      "word_count": 72
+    },
+    {
+      "text": ". E.g. , Geo-blocking: How and Why Netflix Does It? , Skope (Mar. 6 2019), https://‌skopemag.com/2019/3/06/geo-blocking-how-and-why-netflix-does-it [https://perma.cc/4RRZ-QC6H]. Relatedly, Amazon Web Services enables users to “use geo restriction , sometimes known as geo blocking , to prevent users in specific geographic locations from accessing content that you’re distributing through a CloudFront distribution.” Restricting the Geographic Distribution of Your Content , Amazon, https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/‌georestrictions.html [https://perma.cc/4FWV-V8KS].",
+      "label": "footnote-text",
+      "word_count": 62
+    },
+    {
+      "text": ". Kindle Direct Publishing, eBook Distribution Rights , Amazon, https://kdp.amazon.com/‌en_US/help/topic/G200652410 [https://perma.cc/YPV3-DFHW].",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". For example, Google argued that its duty to delist links in accord with Europe’s “right to be forgotten” applied only within Europe, and not globally, relying in part on its “geo-blocking” capabilities. Case C-507/17, Google v. Comm’n Nationale de L’informatique et des Libertés, ECLI:EU:C:2019:772, ¶¶ 32, 46 (Sept. 24, 2019). The European Court of Justice ruled that Google had a duty to delist from all European versions of its search engine and should also take measures that “effectively prevent or, at the very least, seriously discourage” the availability within Europe of delisted links on non-European versions of Google’s search engine. Id. ¶ 73.",
+      "label": "footnote-text",
+      "word_count": 104
+    },
+    {
+      "text": ". For an example of such mandates, see the 2021 Seminole Tribe–Florida compact, which requires “[g]eo-fencing to prevent wagers by players not physically located in the State.” Letter from Bryan Newland, Principal Deputy Assistant Sec’y–Indian Affairs, U.S. Dep’t of the Interior, to Marcellus W. Osceola, Jr., Chairman, Seminole Tribe of Florida attach. pt. III(CC)(5)(c) (Aug. 6, 2021), https://www.bia.gov/sites/default/files/dup/assets/asia/oig/pdf/508%20Compliant%202021.‌08.11%20Seminole%20Tribe%20Gaming%20Compact.pdf [https://perma.cc/7NEQ-PP6S]; see also id. at 8 n.14 (stating that under IGRA, “a tribe must geofence its gaming” offerings); Letter from Charles McIntyre, Exec. Dir., New Hampshire Lottery Comm’n, to Christopher T. Sununu, Governor, New Hampshire attach. (State of New Hampshire Lottery Commission Contract 2020-01) at 28 (Nov. 8, 2019), https://sos.nh.gov/‌media/ewnljckz/072a-gc-agenda-112519.pdf [https://‌perma.cc/8EUU-CKYU] (providing that the “[c]ontractor will be responsible for procuring or providing a Player Account Management tool,” which “must, at a minimum, ensure compliance with the . . . geolocation . . . protocols . . . set forth in” state law); Jazette Enters. Ltd. v. Commonwealth, No. 2012-CA-001366-MR, 2014 WL 689044, at *2 (Ky. Ct. App. Feb. 21, 2014) (discussing a trial court order that required “geographical blocking (‘geo-blocking’) of all illegal gambling websites accessible within the Commonwealth”); Mark D. Griffiths, Online Gambling and Geolocation: Implications for Regulation and Potential Threats to Player Protection , 23 Gaming L. Rev. 344, 344 (2019) (tracking the regulation of such location-specific licenses). See generally Kevin F. King, Geolocation and Federalism on the Internet: Cutting Internet Gambling’s Gordian Knot , 11 Colum. Sci. & Tech. L. Rev. 41 (2010) (examining how geolocation technologies can be used to mitigate cross-border reach of state internet gambling laws).",
+      "label": "footnote-text",
+      "word_count": 260
+    },
+    {
+      "text": ". See generally Marketa Trimble, Targeting Factors and Conflict of Laws on the Internet , 40 Rev. Litig. 1 (2020) (discussing factors used to determine the reach of personal jurisdiction to internet actors).",
+      "label": "footnote-text",
+      "word_count": 33
+    },
+    {
+      "text": ". See Jennifer Valentino-DeVries, Natasha Singer, Michael H. Keller & Aaron Krolik, Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret , N.Y. Times (Dec. 10, 2018), https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html [https://perma.cc/KM6B-S63E] (describing how apps track and share the location of users).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". E.g. , Byron Tau, IRS Used Cellphone Location Data to Try to Find Suspects , Wall St. J. (June 19, 2020, 1:46 PM), https://www.wsj.com/articles/irs-used-cellphone-location-data-to-try-to-find-suspects-11592587815 [https://perma.cc/9HKR-RVMN]; Joseph Cox, How the U.S. Military Buys Location Data from Ordinary Apps , Vice (Nov. 16, 2020, 9:35 AM), https://www.vice.com/‌en/article/jgqm5x/us-military-location-data-xmode-locate-x [https://perma.cc/S7CQ-9PXP]; Joseph Cox, CBP Bought ‘Global’ Location Data from Weather and Game Apps , Vice (Oct. 6, 2020, 8:00 AM), https://www.vice.com/en/article/n7wakg/cbp-dhs-location-data-venntel-apps [https://perma.cc/88ED-5LCC].",
+      "label": "footnote-text",
+      "word_count": 68
+    },
+    {
+      "text": ". See Geolocation , Khan Acad. , https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:online-data-security/xcae6f4a7ff015e7d:user-data-tracking/a/‌geolocation [https://perma.cc/4ZB3-88YT] (describing each of these methods).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See Location Intelligence Market Size, Share & Trends Analysis , Grand View Rsch. https://www.grandviewresearch.com/industry-analysis/location-intelligence-market [https://‌perma.cc/K2GD-6QUL] (describing how the location-data industry was valued at $14 billion in 2021 and is projected to grow at an annual compounding rate of 15.6% until 2030). According to Fortune Business Insights, the location-data industry is projected to grow from $13.66 billion in 2021 to $43.97 billion by 2029. Location Analytics Market Size, Share & COVID-19 Impact Analysis , Fortune Bus. Insights (2022), https://www.fortunebusinessinsights.com/location-analytics-market-102041 [https://perma.cc/G3UT-XA4H].",
+      "label": "footnote-text",
+      "word_count": 80
+    },
+    {
+      "text": ". Marketa Trimble, Copyright and Geoblocking: The Consequences of Eliminating Geoblocking , 25 B.U. J. Sci. & Tech. L. 476, 483 (2019).",
+      "label": "footnote-text",
+      "word_count": 22
+    },
+    {
+      "text": ". McDonald’s privacy policy, which appears in different languages depending on geography, states that its “online services and in-restaurant technology may collect information about the exact location of your mobile device or computer using geolocation and technology such as GPS, Wi-Fi, Bluetooth, or cell tower proximity,” in order, among many things, to provide targeted products and services and to comply with legal obligations. McDonald’s Global Customer Privacy Statement , McDonald’s , https://www.mcdonalds.com/us/en-us/privacy.html# [https://‌perma.cc/JHP2-4W4H]. Ford collects location information (including the information about the location of Ford cars) in a variety of ways and for a variety of reasons, including to improve and better provide products and services, to “understand you and your preferences, to make recommendations, and to deliver personalized experiences and Products centered around you,” to support dealer operations, and to “perform business functions, such as accounting, finance, tax, regulatory compliance, litigation, information security, fraud detection and prevention, protection of our rights and property, supplier and vendor management, human resources, information technology, and improving our internal operations,” and to “support our compliance with valid inquiries and directives from law enforcement or other government agencies.” Ford US Privacy Policy, Including Connected Vehicle Privacy , Ford (June 30, 2022 ), https://www.ford.com/‌help/privacy/ [ https://perma.cc/8XLK-ELT7]. Exxon’s U.S. privacy policy collects the “[g]eolocation data of your computer or mobile device” to “provide you the route to service stations,” and shares this information with “companies providing locator functionality.” Privacy Policy , ExxonMobil , https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy [https://perma.cc/P9YA-387D] (Dec. 20, 2019). It also collects geolocation data in part “to improve . . . marketing and promotional efforts” including about “products and services suggested on the basis of weather information associated with the geolocation of your computer or mobile device.” Id.",
+      "label": "footnote-text",
+      "word_count": 281
+    },
+    {
+      "text": ". Twitter collects information from users, including users’ IP addresses, device settings, and location information “to provide the service you expect.” Twitter Privacy Policy , Twitter (June 10, 2022), https://twitter.com/en/privacy [https://perma.cc/3UV5-79M2]. Twitter uses the information “to improve and personalize [its] products and services” by “showing you more relevant content and ads, suggesting people and topics to follow, enabling and helping you discover affiliates, third-party apps, and services.” Id. Based on where you connect to the internet, where you use your phone, and the location from a Facebook and Instagram profile, Facebook uses “location-related information, such as your current location, where you live, the places you like to go, and the businesses and people you’re near” to “[p]rovide, personalize and improve our Products, including ads, for you and others.” Privacy Policy , Meta (July 26, 2022), https://www.facebook.com/‌privacy/explanation [https://perma.cc/C79M-WSBA]; see also About Facebook Ads , Meta , https://www.facebook.com/about/ads [https://perma.cc/36PP-DFX2] (describing how Facebook uses its users’ locations to decide what ads to show individual users).",
+      "label": "footnote-text",
+      "word_count": 162
+    },
+    {
+      "text": ". Marketa Trimble, Geoblocking, Technical Standards and the Law, in Geoblocking and Global Video Culture 54, 58–59 (Ramon Laboto & James Meese, eds. 2016).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". See Ernesto Van der Sar, Netflix Intensifies ‘VPN Ban’ and Targets Residential IP-Addresses Too , TorrentFreak (Aug. 11, 2021), https://torrentfreak.com/netflix-intensifies-vpn-ban-and-targets-residential-ip-addresses-too-210811/ [https://perma.cc/43CK-KN5G] (describing Netflix’s strategies); The Infamous Netflix VPN Ban Explained , PureVPN: Blog (Apr. 26, 2021), https://www.purevpn.com/blog/netflix-vpn-ban/ [https://perma.cc/H6E3-8UA6] (same); see also Mike Williams, What To Do If Your VPN Doesn’t Unblock Netflix Any More , Techradar , (Jan. 17, 2022), https://www.techradar.com/vpn/what-to-do-if-your-vpn-doesnt-unblock-netflix-any-more [https://perma.cc/DE2J-YEFN] (describing the arms race between streaming companies that block VPN circumvention and VPN technologies that can defeat the blocks).",
+      "label": "footnote-text",
+      "word_count": 82
+    },
+    {
+      "text": ". See Trimble, supra note 114, at 31 (“[M]ethods of geolocation that rely on unreliable self-reporting or the more reliable detection of Internet protocol addresses are being replaced with advanced methods that combine data from multiple sources . . . to provide . . . greater accuracy and operate in more narrowly defined territories and specific locations.” (footnotes omitted)).",
+      "label": "footnote-text",
+      "word_count": 59
+    },
+    {
+      "text": ". Id. at 33–34.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". E.g. , Crim. Prods., Inc. v. Doe-72.192.163.220, No. 16-cv-2589, 2016 WL 6822186, at *2–3 (S.D. Cal. Nov. 18, 2016); see also AF Holdings, LLC v. Doe’s 1–31, No. 12-cv-20922, 2012 WL 12875472, at *3 (S.D. Fla. July 12, 2012) (contemplating geolocation that suffices “to establish—to a reasonable degree of certainty—that the Defendant may be found within this district”).",
+      "label": "footnote-text",
+      "word_count": 59
+    },
+    {
+      "text": ". See Trimble, supra note 119, at 482–86 (exploring how courts view the relationship between geoblocking and personal jurisdiction).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". 437 U.S. 117 (1978).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 127–28 (quoting Hughes v. Alexandria Scrap, Corp., 426 U.S. 794, 806 (1976)).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". Id. at 127.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Online Merchs. Guild v. Cameron, 995 F.3d 540, 555 (6th Cir. 2021); see also McBurney v. Young, 667 F.3d 454, 469 (4th Cir. 2012) (rejecting a Dormant Commerce Clause challenge where state law prevented the plaintiff “from using his ‘chosen way of doing business,’ but [did] not prevent him from engaging in business in the [State]”); Am. Express Travel Related Servs. v. Kentucky, 730 F.3d 628, 634 (6th Cir. 2013) (rejecting a Dormant Commerce Clause challenge where extraterritorial impact resulted from what plaintiff “cho[se] on its own volition”).",
+      "label": "footnote-text",
+      "word_count": 89
+    },
+    {
+      "text": ". E.g. , Simmons v. State, 944 So. 2d 317, 333 (Fla. 2006) (collecting cases); People v. Hsu, 99 Cal. Rptr. 2d 184, 191 (Cal. Ct. App. 2000); People v. Helms, 396 P.3d 1133, 1140–41 (Colo. App. 2016).",
+      "label": "footnote-text",
+      "word_count": 38
+    },
+    {
+      "text": ". South Dakota v. Wayfair, Inc., 138 S. Ct. 2080, 2099–100 (2018).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". See 42 U.S.C. § 2000a(b) (listing specific establishments); id. § 12181(7) (listing private entities that are considered public accommodations); Lewis v. Google LLC, 851 F. App’x 723, 724 (9th Cir. 2021) (holding Google and YouTube were not places of public accommodation).",
+      "label": "footnote-text",
+      "word_count": 42
+    },
+    {
+      "text": ". 42 U.S.C. § 2000a(a) .",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Ann Arbor, Mich., Code of Ordinances § 9:150 (2022).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Madison, Wis., Code of Ordinances § 39.03(2), (5) (2022); Urbana, Ill., Code of Ordinances §§ 12-39, 12-63(a)(1) (2022); Champaign, Ill., Code of Ordinances §§ 17-3(11), 17-56 (2022).",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": ". Conn. Gen. Stat. Ann. § 46a-80k (West 2021) (starting Jan. 1, 2023).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". N.J. Stat. Ann. § 10:5-50(a) (West 2021).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". 775 Ill. Comp. Stat. Ann. 5/2-103(A), 5/2-103.1 (West 2021); Haw. Rev. Stat. Ann. § 378-2 (West 2021); N.Y. Exec. Law § 296(15)–(16) (McKinney 2022); Wis. Stat. Ann. § 111.335(2) (West 2022).",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": ". E.g. , Winegard v. Crain Commc’ns, Inc., No. 20-cv-01509, 2021 WL 1198960, at *3 (S.D.N.Y. Mar. 30, 2021); Sullivan v. BDG Media, Inc., 71 Misc. 3d 863, 871 (N.Y. Sup. Ct. 2021); Nat’l Fed’n of the Blind v. Scribd Inc., 97 F. Supp. 3d 565, 575 (D. Vt. 2015); Nat’l Ass’n of the Deaf v. Netflix, Inc., 869 F. Supp. 2d 196, 202 (D. Mass. 2012). For more on whether websites that are ancillary to the sale of other goods and services are places of public accommodations for purposes of federal disability-discrimination law, see Gil v. Winn-Dixie Stores, Inc., 993 F.3d 1266, 1277 (11th Cir. 2021) (saying no); Robles v. Domino’s Pizza, LLC, 913 F.3d 898, 905–06 (9th Cir. 2019) (saying yes); Blake E. Reid, Internet Architecture and Disability , 95 Ind. L.J. 591, 597–99 (2020); and Johanna Smith & John Inazu, Virtual Access: A New Framework for Disability and Human Flourishing in an Online World , 2021 Wis. L. Rev. 719, 759–65.",
+      "label": "footnote-text",
+      "word_count": 164
+    },
+    {
+      "text": ". Wis. Stat. Ann. § 106.52(1)(e)(1) (West 2016). Though the law excludes private clubs, that exclusion is limited to “bona fide private, nonprofit organization[s]” that aren’t open to the public generally. Id. § 106.52(1)(e)(2).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". See Eugene Volokh, Treating Social Media Platforms Like Common Carriers? , 1 J. Free Speech L. 377, 414–15 (2021) (discussing cases in which nondiscrimination laws were upheld).",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": ". See Adam Candeub & Eugene Volokh, Interpreting 47 U.S.C. § 230(c)(2) , 1 J. Free Speech L. 175, 176 (2021) (using the ejusdem generis canon of construction to read section 230(c)(2) as being limited to material covered by the Communications Decency Act). Note also that Section 230 preempts liability for “any action voluntarily taken in good faith to restrict access to or availability of material that the provider or user considers to be obscene, lewd, lascivious, filthy, excessively violent, harassing, or otherwise objectionable, whether or not such material is constitutionally protected”—it doesn’t discuss action to block access based on a person’s identity, rather than based on the content of material. 47 U.S.C. § 230(c)(2).",
+      "label": "footnote-text",
+      "word_count": 115
+    },
+    {
+      "text": ". We use “Wisconsinite” here as shorthand for people who are in Wisconsin, or more precisely people who appear to be in Wisconsin based on geolocation tools. We’re not focusing here on place of residence or citizenship, which would be impractical to determine—just as, for instance, the Ninth Circuit in Greater Los Angeles Agency on Deafness was focusing on the user’s location and not the user’s residence or citizenship. See Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc . , 742 F.3d 414, 433 (9th Cir. 2014) (focusing on the “practical effect” of the statute in assessing whether it violates the Dormant Commerce Clause).",
+      "label": "footnote-text",
+      "word_count": 107
+    },
+    {
+      "text": ". See Kearney v. Salomon Smith Barney, Inc., 137 P.3d 914, 920 (Cal. 2006) (“[A]s a general matter, a company that conducts business in numerous states ordinarily is required to make itself aware of and comply with the law of a state in which it chooses to do business.”).",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": ". To be sure, that means that SafeBook couldn’t just delete posts by people with criminal histories but would have to keep them on file and show them to Wisconsinites while concealing them from others. But that would be a very easy algorithm to write, and any extra disk space that would be required to keep the material that would otherwise be deleted would be quite inexpensive given today’s technology.",
+      "label": "footnote-text",
+      "word_count": 70
+    },
+    {
+      "text": ". Alternatively, if state law dictates that authors’ locations be determined based on where the authors are located when they subscribe to the service—rather than based on where they are when they post each item—then SafeBook could just store the location in each author’s user record, rather than once for each post.",
+      "label": "footnote-text",
+      "word_count": 52
+    },
+    {
+      "text": ". If it’s technically too difficult, then a court could presumably conclude that the Wisconsin requirement is unconstitutional under the Pike balancing test, see infra note 153 and accompanying text; but there’s no reason to assume a priori that this would be too difficult.",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". For each of these examples and more, see State Public Accommodation Laws , Nat’l Conf. of State Legislatures (June 25, 2021) , https://www.ncsl.org/research/civil-and-criminal-justice/state-public-accommodation-laws.aspx [https://perma.cc/8L6G-5MCS].",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": ". South Dakota v. Wayfair, Inc., 138 S. Ct. 2080, 2098 (2018).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". 397 U.S. 137 (1970).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 142; see Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc., 742 F.3d 414, 433 (9th Cir. 2014) (applying the Pike test); Goldsmith & Sykes, supra note 11, at 806 (discussing a possible Pike -based analysis in extraterritoriality cases).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". See Kearney v. Salomon Smith Barney, Inc., 137 P.3d 914, 922 (Cal. 2006) (suggesting that “application of [a] California statute” regulating recording of telephone conversations might “pose an undue and excessive burden on interstate commerce” if the defendant established “it would be impossible or infeasible . . . to comply . . . without altering its conduct with regard to its non-California clients and that the burden that would be imposed upon it ‘is clearly excessive in relation to the putative local benefits’” (quoting Pike , 397 U.S. at 142)).",
+      "label": "footnote-text",
+      "word_count": 91
+    },
+    {
+      "text": ". 138 S. Ct. at 2098.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See Brief for Petitioner at 14–15, Wayfair , 138 S. Ct. 2080 (2018) (No. 17-494) (arguing that “software providers have revolutionized tax compliance”); Transcript of Oral Argument at 7, 46–48, Wayfair , 138 S. Ct. 2080 (2018) (No. 17-494) (discussing software compliance issues).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". E.g. , Healy v. Beer Inst., 491 U.S. 324, 336–37 (1989).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". Assume the delivery service isn’t governed by federal common carrier laws, which would presumably independently ban the service from imposing such conditions.",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". Assume also that the North Carolina law is upheld against a First Amendment challenge because it’s narrower than the ban the Court struck down as overbroad in Packingham v. North Carolina , 137 S. Ct. 1730, 1738 (2017); see also id. at 1743 (Alito, J., concurring in the judgment) (suggesting that narrower restrictions on “an adult previously convicted of molesting children from visiting a dating site for teenagers” or “a site where minors communicate with each other about personal problems” might be constitutional).",
+      "label": "footnote-text",
+      "word_count": 84
+    },
+    {
+      "text": ". Cal. Civ. Code § 51(b) (West 2022). The Act is very broad, covering, for instance, discrimination based on “medical condition, genetic information, marital status, sexual orientation, citizenship, primary language, or immigration status” as well as the more familiar categories. Id.",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": ". E.g. , Elane Photography, LLC v. Willock, 309 P.3d 53, 61–62 (N.M. 2013).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See Volokh, supra note 143, at 414–16 (arguing that Congress could constitutionally require platforms not to discriminate based on viewpoint).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". See Candeub & Volokh, supra note 144, at 179, 183–84 (arguing that Section 230 wouldn’t immunize platform policies that limit “speech that is objectionable based its political content”).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": ". Eugene Volokh, Bans on Political Discrimination in Places of Public Accommodation and Housing , 15 N.Y.U. J.L. & Liberty 490, 494–95 (2021). Some of the jurisdictions ban only discrimination based on party affiliation, but others ban discrimination based on broader political beliefs as well. Id. at 492, 495.",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": ". See NetChoice, LLC v. Att’y Gen. of Fla., 34 F.4th 1196, 1223 (11th Cir. 2022) (striking down the Florida law on First Amendment grounds); NetChoice, LLC v. Paxton, 573 F. Supp. 3d 1092, 1105 & n.1 (W.D. Tex. 2021) (enjoining a Texas law on First Amendment grounds and explicitly declining to reach the Commerce Clause question), vacated , 49 F.4th 439 (5th Cir. 2022) (reversing on First Amendment grounds and remanding for further proceedings, without reaching the Commerce Clause question).",
+      "label": "footnote-text",
+      "word_count": 81
+    },
+    {
+      "text": ". Pike v. Bruce Church, Inc., 397 U.S. 137, 142 (1970); see Greater L.A. Agency on Deafness, Inc. v. Cable News Network, Inc., 742 F.3d 414, 433 (9th Cir. 2014) (applying the Pike test); Goldsmith & Sykes, supra note 11, at 806 (discussing a possible Pike -based analysis in extraterritoriality cases).",
+      "label": "footnote-text",
+      "word_count": 51
+    },
+    {
+      "text": ". 512 U.S. 622 (1994).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 663.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. (internal quotations marks and citation omitted)",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See, e.g. , Seattle, Wash., Mun. Code §§ 14.06.020–.030 (2022) (banning discrimination by public accommodations based on “any idea or belief, or coordinated body of ideas or beliefs, relating to the purpose, conduct, organization, function or basis of government and related institutions and activities,” including “conduct, reasonably related to political ideology, which does not cause substantial and material disruption of the property rights of the provider of a place of public accommodation”); Ann Arbor, Mich., Code of Ordinances §§ 9:151, 9:153 (2022) (banning discrimination by public accommodations based on “opinion, whether or not manifested in speech or association, concerning the social, economic, and governmental structure of society and its institutions”).",
+      "label": "footnote-text",
+      "word_count": 111
+    },
+    {
+      "text": ". Fla. Stat. A nn . § 501.2041(2) (West 2022). Florida’s law is substantively narrower than the one we hypothesize, because its scope is narrower than a total ban on viewpoint discrimination; but the Dormant Commerce Clause analysis shouldn’t be affected by that.",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": ". Id. § 501.2041(1)(h). People often reside in one place even when they’re spending weeks or months accessing the internet from another place. Even if a platform asks for information about where users live when they first sign up (and many platforms won’t), users often change their residence. And domicile of course turns on questions such as whether the users have “a certain state of mind concerning [their] intent to remain” in the place where they are physically present, Mississippi Band of Choctaw Indians v. Holyfield , 490 U.S. 30, 48 (1989), something that the platforms have no way of knowing.",
+      "label": "footnote-text",
+      "word_count": 101
+    },
+    {
+      "text": ". Iowa is indeed one of the many states that ban sexual orientation discrimination.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". In Brush & Nib Studio, LC v. City of Phoenix , the Arizona Supreme Court concluded that a calligrapher had a First Amendment right to refuse to design “custom wedding invitations” that “contain[] their hand-drawn words, images, and calligraphy, as well as their hand-painted images and original artwork.” 448 P.3d 890, 908 (Ariz. 2019). A similar question is now before the Court. See 303 Creative LLC v. Elenis , 142 S. Ct. 1106, 1106 (2022) (granting certiorari as to the question “[w]hether applying a public-accommodation law to compel an artist to speak or stay silent violates the Free Speech Clause of the First Amendment”). But even Brush & Nib suggested that the result could be different if the store offered the same services to all couples, without such personalization. 448 P.3d at 910. Imagine, then, that our invitation delivery company doesn’t hand-paint or hand-draw anything, but simply physically delivers it.",
+      "label": "footnote-text",
+      "word_count": 151
+    },
+    {
+      "text": ". That’s true even if the discrimination wouldn’t be against the customer’s own sexual orientation, but rather the sexual orientation of the parties to the wedding—perhaps the customer’s child and the child’s prospective spouse.",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". To be sure, the social media company may want to delete the material for its own ideological reasons, while CNN’s not putting up closed captioning likely stemmed mostly from a concern about cost and risk of error. But while that might conceivably make a difference in the First Amendment analysis of the two laws, it shouldn’t affect the Dormant Commerce Clause analysis.",
+      "label": "footnote-text",
+      "word_count": 63
+    },
+    {
+      "text": ". The Texas statute bans platforms from censoring “a user’s expression, or a user’s ability to receive the expression of another person based on” the user’s or another person’s viewpoint. Tex. Civ. Prac. & Rem. Code Ann. § 143A.002(a) (West 2021). It provides that this applies “to a user who,” among other things, “shares or receives expression in this state.” Id. § 143A.004(a). And it defines “User” to include “a person who posts, uploads, transmits, shares, or otherwise publishes or receives expression, through a social media platform.” Id. § 143A.001(6). The Texas law also covers any user who “resides” in Texas or “does business” there. Id. § 143A.002(a). But that might be too hard for social media platforms to determine. See supra note 173.",
+      "label": "footnote-text",
+      "word_count": 124
+    },
+    {
+      "text": ". See S.B. 393, 156th Gen. Assemb., Reg. Sess. (Ga. 2022) (proposing to mandate social media platform disclosure of moderation policies); H.B. 5973, 101st Legis. (Mich. 2022) (proposing to limit certain social media platforms’ power to restrict user posts).",
+      "label": "footnote-text",
+      "word_count": 39
+    }
+  ]
+}

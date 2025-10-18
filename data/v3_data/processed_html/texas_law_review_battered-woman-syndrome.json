@@ -1,0 +1,943 @@
+{
+  "basename": "texas_law_review_battered-woman-syndrome",
+  "journal": "Texas Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 186,
+    "body_text": 47,
+    "footnote_text": 139,
+    "total_words": 11510
+  },
+  "paragraphs": [
+    {
+      "text": "Note by Alexandra Moore Volume 101 Issue 5",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "We, as human beings, feel drawn towards mercy because, all else equal, it reduces human suffering. As formulated by Alwynne Smart, enacting mercy is “deciding, solely through benevolence, to impose less than the deserved punishment on an offender . . . when we are compelled to [do so] by the claims that other obligations have on us,” namely, compassion for an offender’s previous undeserved suffering. [1] Theoretically then, victims of domestic violence who resort to killing their abusers as a means of escape are quintessential candidates for mercy. That is, solely through benevolence one could decide to exact less punishment than culpable murder merits because some factor, some sense of empathy for a battered woman’s misfortune, moves them to act mercifully. Although cases involving battered women defendants appear to be a perfect space for mercy, this area of the law is dominated by justice practices.",
+      "label": "body-text",
+      "word_count": 145
+    },
+    {
+      "text": "More specifically, these situations are often analyzed in our legal system through the lens of “battered woman syndrome” [2] evidence. Battered woman syndrome evidence was originally devised to mitigate injustice to battered women defendants. [3] Its aim is to contextualize battered women defendants’ behavior in a way that more closely aligns with traditional self-defense elements in the hope of procuring the affirmative defense. [4] Because battered woman syndrome has been operationalized as a justice practice, the features of our criminal justice system and public intuitions applicable to battered women prevent evidence of prolonged suffering and abuse—which could serve as a ground for mercy—from being actualized as a mercy consideration. Instead, justice-oriented thinking and practices have effectively annexed the available space for mercy to operate on battered women defendants.",
+      "label": "body-text",
+      "word_count": 128
+    },
+    {
+      "text": "This Note explores the ways in which battered woman syndrome is a classic ground for mercy and explains how the American legal system has, instead, embraced it as a justice practice. Because battered women syndrome is largely contextualized as a justice practice, criminal justice institutional structures and procedures often bar any opportunity for individual actors to bestow mercy. Even when such actors are presented with an opportunity to exact mercy on a battered woman defendant, decision makers may be dissuaded from doling out less-than-deserved punishment because of misconceptions about domestic violence and battered women. In turn, negative public opinion acts as a barrier to institutionalizing battered woman syndrome as a ground for mercy in the interest of upholding the moral credibility of our justice system. As a result, and perhaps unsurprisingly, there is little room for mercy to be dispensed to battered women defendants from within institutions that are designed to promote criminal justice.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "This Note proceeds in five parts. Part I gives an overview of “justice” and “mercy,” and the distinct differences between the two as defined by criminal justice theorists. Part II explores the ways in which battered woman syndrome, and battered women defendants who have experienced long-suffered abuse, theoretically fit within the paradigm criteria for mercy. Part III discusses the practical implementation of battered woman syndrome evidence as a justice practice and the institutional features that prevent its realization as a mercy practice. Part IV analyzes the barriers to adopting an institutional rule of mercy for battered women defendants, focusing on the alignment of empirical and institutional desert assigned to battered women defendants, which is necessary to maintain the moral credibility of our criminal justice system. Finally, Part V evaluates the capacity for mercy to operate on an institutional level through governors’ clemency practices and explains why clemency actions ultimately fail to fulfill this potential.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "Justice, in a retributivist sense, requires treating individuals as responsible moral actors and thus imposing punishment that is proportional to their culpability in committing an offense. [5] More specifically, “an offender’s deserved punishment—proportioned to the offender’s moral blameworthiness—is classically a function of the nature and extent of the wrongdoing, the accompanying culpable state of mind, justifying circumstances at the time of that wrongdoing, and a robust assessment of the offender’s capacity to have avoided the wrongdoing.” [6] In contrast, mercy involves a conscious decision to impose less punishment than an actor deserves in light of their culpable act because of some other factor, extrinsic to a strict retributivist calculus. [7] In this way, mercy and justice are inherently in tension with one another; to be merciful necessarily requires one to be unjust. [8] Mercy is emphatically not imposing a punishment less than what is dictated by legal justice but which aligns with a deontological measure of desert. [9] To reduce punishment under these circumstances is merely to enact justice, “[f]or to avoid inflicting upon persons more suffering than they deserve, or to avoid punishing the less responsible as much as the fully responsible, is a simple—indeed obvious—demand of justice.” [10] Forgoing imposing punishment that is deserved “even under a robust conception of desert that is fully sensitive to deserved mitigations” is the true exercise of mercy. [11]",
+      "label": "body-text",
+      "word_count": 227
+    },
+    {
+      "text": "According to Claudia Card, mercy should be given to an offender when, in the absence of mercy:",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "(1) he would be made to suffer unusually more on the whole, owing to his peculiar misfortunes, than he deserves in view of his basic character and (2) he would be worse off in this respect than those who stand to benefit from the exercise of their right to punish him (or to have him punished). [12]",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "In other words, a space for mercy opens up when imposing the deserved punishment for a culpable action would result in a particular actor enduring more suffering on the whole than other offenders. [13] Mercy involves a recognition of a particular punishment as just, and a subsequent decision to impose a lesser punishment because “punishing someone who has already reached despair seems inhumane, regardless of his [moral] character.” [14] Thus, there is no room for mercy to operate when a particular act or actor warrants a lesser punishment due to a justification or excuse—that involves the imposition of justice. [15] Justice requires mitigating punishment to fit the circumstances of the crime; mercy reduces punishment in the face of fully responsible wrongdoing. [16]",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "Notably, “[m]ercy is a virtue of [the people who administer the law] rather than of the institution of punishment” itself. [17] Institutions are constructed with justice in mind. The “regular enforcement of the rules that make social stability (and thus social life) possible” depends on the equal administration of just punishments. [18] However, “[p]ersons who administer the rules of the institution may be formally invested with the prerogative of mercy.” [19] There are numerous spaces within our criminal justice process and procedures where individuals are tasked with the implementation of institutional or legal justice. Significantly, judges and other individuals who serve as representatives of the criminal justice system cannot always justifiably show mercy because their “job is to uphold an entire system of justice that protects the security of all citizens.” [20] In other words, “there is no feasible way of granting to those who are less fortunate in the undeserved suffering they endure a right to more lenient treatment” from within the criminal justice system without granting institutional actors license to act arbitrarily, which would “seriously undermin[e] the goal of social security.” [21] In contrast, within criminal justice processes, certain individuals, like jurors, who are not tasked with upholding the credibility of our institutions, have the opportunity to enact mercy.",
+      "label": "body-text",
+      "word_count": 211
+    },
+    {
+      "text": "Individuals acting within our criminal justice system, as opposed to institutional actors who represent the entire criminal justice system, can enact mercy because, at its core, mercy involves a voluntary waiver of one’s right to enact punishment or receive retribution. [22] In a criminal context, an offender is thought of as violating the rights of an entire community, and therefore, it is the community who may rightfully waive its right to punish. [23] Jurors, as representatives of the community, can rightly choose to exercise or forfeit the community’s right to punish. One reason individuals may decide to be merciful is that in cases in which an offender “succumbs, in despair, to a temptation to commit some crime, when he probably would not even have been so tempted had his life not been so miserable,” it seems cruel to exact the deserved punishment on top of the offender’s previous suffering, even though the suffering does not itself excuse or justify the crime. [24] In this way, mercy can be seen as an attempt to “compensate the less fortunate” for previous undeserved suffering by imposing a less harsh punishment than an individual has the right to demand based on the offense. [25] The “salience” of mercy considerations lies in humanitarian concerns in evaluating the effect a just punishment will have on an actor’s “well-being in the light of a searching and empathetic scrutiny of their character, life history and the broader context of their wrongdoing.” [26] Thus, individuals may be compelled to extend mercy by some sense of compassion or benevolence but are never obligated to do so.",
+      "label": "body-text",
+      "word_count": 266
+    },
+    {
+      "text": "Long-suffering victims of domestic violence who resort to killing their batterers—victims who may suffer from battered woman syndrome—fit into the paradigm criteria for extending mercy. Decision makers might reduce punishment in these circumstances not because the offenders did not act culpably but out of a compulsion to treat them in a compassionate and humane manner. That is, one may believe that “what was ‘wrong’ were external circumstances that we believe, but for the grace of God, would probably have caused us, as well, to act unlawfully.” [27] Even if the battered woman culpably committed an intentional killing correlated with a level of deserved punishment, her overall suffering could be “cruelly exacerbated by the infliction in full measure of [her] just deserts.” [28] Therefore, her situation properly elicits compassion that might lead to a reduced punishment, bestowed out of pure benevolence.",
+      "label": "body-text",
+      "word_count": 140
+    },
+    {
+      "text": "Moreover, extending mercy in these situations fits into Card’s criteria. Without the extension of mercy, the battered woman defendant “would be made to suffer unusually more on the whole, owing to [her] peculiar misfortunes,” and “would be worse off . . . than those who stand to benefit from the exercise of their right to punish.” [29] Criminal punishment—imposed suffering—given on top of her earlier suffering, unrelated to the offense, is disproportionate to the benefit gained by society in punishing her and thereby incapacitating her. [30] Though suffering does not excuse criminal activity, it seems manifestly inhumane to inflict the appropriate punishment for murder on victims of domestic violence whose situations were dire enough to motivate them to resort to taking another’s life. While failure to resist the temptation to commit a crime is blameworthy, “mercy makes a concession to human frailty in such a case—to the failure of basically decent people to exercise the rational self-discipline that they should in difficult conditions to which they should never have been subjected.” [31] In this view, mercy involves a recognition and calculation of the retributive gravity of an offense while also recognizing the circumstances which led the defendant to resort to deadly force.",
+      "label": "body-text",
+      "word_count": 202
+    },
+    {
+      "text": "The potential ground for bestowing mercy implicated in cases involving battered women defendants—long-suffered violence and abuse—is recognized in our legal system in the form of battered woman syndrome. One function of battered woman syndrome evidence is shedding light on the realities of domestic violence to help decision makers better understand victim–defendants. [32] Thus, the use of battered woman syndrome evidence seems like it should increase the likelihood that decision makers reduce punishment out of a sense of compassion for battered women defendants and carve out space for mercy to operate within our criminal justice system.",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "Lenore Walker first introduced the concept of battered woman syndrome in her 1979 book, The Battered Woman , [33] in an effort to explain behavioral patterns and responses experienced by victims of domestic violence. As originally proffered, battered woman syndrome was a pattern of behaviors and responses that Walker’s studies discovered in women who had been physically, sexually, or psychologically abused by an intimate partner. [34] These symptoms have been continuously studied and refined since then and include some that are consistent with post-traumatic stress disorder and intimate partner violence, such as “[i]ntrusive recollections of the trauma event(s),” “[h]yperarousal and high levels of anxiety,” and “[a]voidance behavior [with] emotional numbing usually expressed as depression, dissociation, minimization, repression, and denial.” [35] The most notable facets of Walker’s theory are the cycle theory and learned helplessness, which describe processes and patterns prevalent in abusive partnerships and one of the effects that domestic violence has on those who experience it, respectively. [36]",
+      "label": "body-text",
+      "word_count": 159
+    },
+    {
+      "text": "Walker’s cycle theory posits three phases that abusive relationships oscillate between: an escalation phase in which an abuser engages in abusive, but not explosive, behaviors; an acute battering incident; and the aftermath involving kindness, remorse, and an absence of tension. [37] While these phases do not occur in every battering relationship, they were commonly reported by participants in Walker’s studies. [38] The confluence of the unpredictability of an abuser’s behavior in the first two phases and the abuser’s kindness and remorse in the third phase reinforce the idea that one should stay in the relationship and leads to what Walker calls “learned helplessness,” which is characterized by feelings of lack of control over the outcome of one’s situation and a belief that one cannot escape their abuser. [39] Walker’s theory has served as one basis for admitting expert testimony to help jurors understand the life circumstances and mental states of battered women defendants. [40]",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "If battered woman syndrome evidence helps decision makers better understand the situations that lead victims of domestic violence to commit acts of violence, it follows that it should provide the necessary foundation for decision makers to develop compassion for the battered woman defendant. That is, decision makers who have been educated about the dynamics of domestic violence are, in theory, more likely to view the particular circumstances that led the battered woman defendant to kill her abuser as undeserved suffering, which may compel them to act mercifully.",
+      "label": "body-text",
+      "word_count": 87
+    },
+    {
+      "text": "Despite its potential as an avenue for mercy, battered woman syndrome—to the extent that it appears in legal practice—is a feature of justice rather than mercy. Although battered woman syndrome aligns with theoretical grounds for mercy, it was developed by academics and advocacy groups as a normatively mandatory measure to correct a perceived injustice in the ways our criminal justice system processes battered women defendants; thus, it has been implemented primarily as a component of a justification defense. [41] Battered women tried for murder often utilize a self-defense justification defense. [42] Jurisdictions vary in the exact wording of their self-defense doctrines, but deadly force is typically justified against another person only when an actor reasonably believed the force was necessary to protect themselves against an imminent threat of death or serious bodily injury. [43] These requirements are modeled after situations involving one-on-one male violence and do not account for the disparity “in size, strength, and economic power” between men and women, especially in a domestic violence context. [44] Because of these disadvantages, women often resort to using a weapon against an unarmed man or choose to retaliate in a non-confrontational setting—like when their abuser is asleep—in order to have a fighting chance at escape. [45] As a result, battered women defendants have a difficult time establishing that they reasonably believed that harm was imminent at the time of the killing.",
+      "label": "body-text",
+      "word_count": 230
+    },
+    {
+      "text": "In response to this issue, advocacy groups proposed using battered woman syndrome evidence because “[u]nless the woman’s actions are understood in the context of the ongoing nature of the violence, the ‘imminence’ of the danger to her may not be apparent to an outside observer.” [46] Further, “her use of a deadly weapon to protect herself against an unarmed attacker can cast further doubt on the reasonableness and necessity of [her] response.” [47] Battered woman syndrome evidence has been rationalized as a necessary measure to ensure fair opportunity to claim self-defense and thus constitutes an obligatory measure to ensure justice is properly dispensed. In other words, the admission of battered woman syndrome evidence is perceived as the minimum of what’s required to fulfill the demands of justice, rather than a pathway to mercy.",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "Moreover, the particular way battered woman syndrome evidence is utilized in the confines of the self-defense justification necessarily prevents it from providing a basis for mercy practices. Justification and excuse defenses are integral components of a criminal justice paradigm. [48] Both justifications and excuses operate to help calculate an actor’s retributive desert by lowering punishment according to a lower perceived culpability. [49] When a defendant claims an affirmative defense of justification, they “claim[] that the act was right or, at least, legally permissible, while a plea of excuse concedes that the act was wrongful, but claims that the actor should not be blamed for it.” [50] More specifically, in a justification context, acts taken in self-defense are neither culpable nor condemnable. [51] Operationalizing battered woman syndrome evidence as a way to support a self-defense justification promotes the idea that victims of domestic violence should receive diminished punishment because they are less culpable, and thus it is just to impose less punishment. This justice-oriented reasoning is inconsistent with mercy, which dictates acknowledging culpability and still reducing punishment in the interest of preventing additional suffering. In this way, utilizing battered woman syndrome evidence to bolster a justification defense roots battered woman syndrome firmly in a justice practice.",
+      "label": "body-text",
+      "word_count": 205
+    },
+    {
+      "text": "Because battered woman syndrome was intended to address justice concerns and has been implemented as a justice practice, institutional structures designed to protect the administration of justice, namely evidence rules and jury instructions, prevent individuals from enacting mercy even when they may want to. Historically, evidence rules, crafted to ensure fair trials and to prevent unduly prejudicing or misleading the jury, could keep battered woman syndrome evidence out of trials altogether. [52] The Frye [53] general acceptance standard for admissibility of expert testimony allowed judges to keep out expert testimony regarding battered woman syndrome on the basis that the methodology and science behind it was not generally accepted. [54] This was especially an issue in the 1980’s when research about battered woman syndrome and the effects of domestic violence was in its infancy. [55] Battered woman syndrome evidence was criticized on the grounds that identifying which homicide defendants were truly battered women was difficult and for fear that the evidence would prejudice or confuse the jury. [56] In response to these concerns, in the early 1990’s 20% of states required a defendant to first prove she was a battered woman, and over 25% of states required some showing that battered woman syndrome was accepted in the scientific community before admitting battered woman syndrome expert testimony. [57]",
+      "label": "body-text",
+      "word_count": 216
+    },
+    {
+      "text": "Without expert testimony, factfinders often had no basis on which to reduce punishment on justice or mercy bases. With no context provided for the defendant’s actions or mental state, no reasonable jury could find that a battered woman who killed her abuser in a nonconfrontational setting had a reasonable fear of imminent death or serious harm; thus, jurors had no reason to conclude a battered woman’s actions were justifiable. Similarly, the absence of battered woman syndrome testimony meant that jurors were likely left without any information on which to base mercy considerations—there was no evidence that would elicit the kind of sympathy or compassion that might compel jurors to recommend a reduced punishment. In 1993, the federal standard for expert testimony admissibility changed. Under the Daubert [58] standard, embodied in Federal Rule of Evidence 702, expert testimony regarding battered woman syndrome is admitted if a judge finds it sufficiently reliable, based on several criteria. [59] Most states now follow some variation of the Daubert standard and admit some form of expert testimony regarding battered woman syndrome (or battering and its effects) to support a self-defense claim. [60]",
+      "label": "body-text",
+      "word_count": 187
+    },
+    {
+      "text": "Although expert testimony about battered woman syndrome is now widely admissible in homicide trials where a woman kills her abuser, it “rarely wins the acquittals that one would expect from a theory that is expressly tailored to fit the narrow constraints of self-defense doctrine.” [61] Studies have analyzed murder trials and convictions of battered women defendants and found that, although the vast majority plead self-defense, most end up convicted even when expert testimony regarding battering and its effects is admitted. [62] Moreover, these convictions are frequently upheld on appeal. [63] In fact, one study reported a 71% affirmance rate of murder convictions or sentences of battered women defendants, despite the use of admissible expert testimony on battering and its effects at trial. [64] This indicates that battered woman syndrome may not be as effective in contextualizing a battered woman’s behavior to fit within the self-defense justification as proponents had hoped.",
+      "label": "body-text",
+      "word_count": 150
+    },
+    {
+      "text": "In part, the disparity between the use of battered woman syndrome testimony and acquittals can be attributed to its failure to explain a battered woman’s behavior in ways that align with jury instructions on self-defense. Jurors are often instructed that they must find the defendant guilty if they believe the defendant acted culpably, unless the defendant’s actions fit into the self-defense framework. [65] Battered woman syndrome fails to consistently fit battered women defendants’ behavior within the self-defense elements found in jury instructions, partially because these “[f]acts whose significance consists in their being grounds for mercy are, instead, implausibly presented as falling under categories (responsibility, justification, excuse etc[.]) that belong to the retributive norm.” [66] As previously discussed, testimony regarding the defendant’s suffering at the hands of her abuser–victim, as well as her mental state, is most often operationalized within the context of a self-defense justification defense. Using battered woman syndrome testimony to explain battered women’s actions is “an artificial, if well-intentioned, ‘stretching’ of these categories [of self-defense] to achieve the desired result of a less severe punishment.” [67] This artificial stretching fails to achieve its goal because battered woman syndrome evidence “introduces the idea that the woman has a psychological abnormality that makes her act in a certain way, yet it seeks to justify her act as a reasonable person who weighed the options of harm and greater harm.” [68] Thus, battered woman syndrome evidence often fails to achieve the reduction in punishment it aims for.",
+      "label": "body-text",
+      "word_count": 246
+    },
+    {
+      "text": "Because battered woman syndrome fails to bridge the gap between a battered woman defendant’s actions and those of a reasonable person acting in self-defense, [69] a juror who follows jury instructions is given no choice but to convict in the name of justice. Thus, jurors who follow jury instructions to find the defendant guilty unless the defendant’s actions fit into the self-defense framework tend to find battered women defendants guilty even in light of battered woman syndrome testimony. [70] Moreover, when the jury does acquit or recommend a less severe punishment after receiving instructions on the self-defense justification, it is because they have decided the defendant’s behavior meets the self-defense criteria, and therefore their act merits less punishment. In reducing or eliminating punishment on the basis of culpability, the jury is performing a justice practice, rather than engaging in a mercy practice.",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "Interestingly, there are some circumstances in which juries may extend mercy—rather than justice—to battered women defendants. Regina Schuller and Sara Rzepa’s study on the impact of battered woman syndrome expert testimony on jurors’ decisions found that expert testimony on battering and its effects only resulted in more lenient verdicts when jurors were instructed on jury nullification. [71] That is, jurors only opted to reduce or eliminate punishment when they had been formally released from strictly applying the law they were given. [72] This reinforces the idea that battered woman syndrome testimony’s “impact on verdicts did not appear to operate by providing participants with a better fit between her actions and the legal requirements of self-defense,” and instead operated “by increasing juror sympathy for the woman’s case.” [73] In these instances, jurors extended mercy when given the chance to stray from strictly performing a justice function. Jurors were more swayed by factors that did not pertain to culpability—such as sympathy for the defendant’s previous, undeserved suffering—in reaching a decision to reduce punishment only when they perceived they could rightfully do so. [74] This study highlights the way in which the use of battered woman syndrome to bolster a self-defense claim is strained. Battered woman syndrome testimony often does not meaningfully affect jurors’ assessment of a defendant’s culpability but may increase juror sympathy for the defendant. Further, it highlights that while jurors may develop some level of sympathy for a battered woman defendant in response to battered woman syndrome testimony, they do not utilize it in reaching a verdict unless given permission to do so. It follows that jury instructions that do not expressly afford jurors the authority to consider factors outside of a strict calculus of self-defense effectively remove any opportunity for jurors to act mercifully to reduce punishment out of a sense of compassion or benevolence.",
+      "label": "body-text",
+      "word_count": 306
+    },
+    {
+      "text": "For these reasons, institutional practices, which are promulgated to ensure the administration of justice, can reduce the opportunities available for individual actors to develop compassion and their ability to act on it. Evidence rules regarding admissibility of expert testimony and varying jury instructions exemplify how institutional rules and procedures constrain the effect of battered woman syndrome evidence and seemingly eliminate the space for mercy. In this way, the design of our criminal justice system can prevent individual actors from extending mercy, even in circumstances where they would be inclined to do so. Thus, it is only in the rare instances when individuals are freed from justice-oriented rules and responsibilities that the potential to extend mercy exists.",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "In order to create the sort of freedom necessary for individual decision makers to rely on mercy considerations in doling out punishment, permission to do so would need to be institutionalized. However, to ensure justice is fairly distributed, the criminal justice system must maintain a level of consistency and moral credibility that can be incompatible with an institution-wide distribution of mercy. [75] The moral credibility of a criminal justice system is rooted in the community’s faith that criminal justice institutions impose punishment that roughly tracks the community’s consensus of blameworthiness. [76] Public opinion regarding battered women and what constitutes justifiable self-defense, influenced by negative stereotypes and misconceptions about domestic violence and community intuitions about moral culpability, creates the measure of empirical desert the community assigns to battered women who kill their abusers. [77] In actuality, empirical desert on this issue is likely closely aligned with the measure of institutional desert doled out by our existing self-defense laws. Institutionalizing mercy by reducing punishment under circumstances in which the wider community does not perceive lower culpability or any other ground to reduce punishment undermines the credibility of our criminal justice system. [78] Although education on battering and its effects can induce sympathy for battered women, the general public is not educated on the realities of domestic violence. [79] Thus, prevailing community sentiments are unlikely to support institutional rules that would carve out space for mercy for battered women defendants whose behavior does not fit in a legal definition of self-defense.",
+      "label": "body-text",
+      "word_count": 248
+    },
+    {
+      "text": "Prevailing community sentiments regarding battered women defendants yield the level of empirical desert the community assigns to them. Although Schuller and Rzepa found that battered woman syndrome testimony increased juror sympathy for battered women defendants among their study participants, that is not always the case. [80] In many cases, societal misconceptions and stereotypes about battered women—namely that battered women could leave their batterers at any time (and therefore their suffering could not be that severe)—are not fully dispelled by battered woman syndrome evidence. [81] Juror behaviors and thought processes reflect several common—and often incorrect—conceptions about domestic violence. [82] For example, the jury may not believe that the defendant’s conduct is justifiable or excusable because of a prevailing belief that “she could have avoided the crime simply by leaving the marriage.” [83] They may reject the defendant’s account of the abuse she suffered “on the ground that, if the abuse was as bad as she claimed, she would not have endured it but would have separated from the batterer long before their final, deadly encounter.” [84] In other cases, battered woman syndrome evidence fails to elicit sympathy or convince a jury that a defendant’s behavior was justified because the particular defendant does not fit within their imagined version of a battered woman, and therefore they discount the evidence as irrelevant. [85]",
+      "label": "body-text",
+      "word_count": 220
+    },
+    {
+      "text": "In these ways, prevailing stereotypes and perceptions about battered women held by the public directly influence jurors’ decisions even when battered woman syndrome testimony is admitted. Researchers have found that “verdicts were directly influenced by the typicality” of the defendant compared to battered women stereotypes and “response history (passive v. aggressive) of the defendant.” [86] That is, the closer a battered woman defendant’s conduct conformed with that of a stereotypical battered woman, the more likely jurors are to develop sympathy and to believe her behavior was legitimately influenced by battered woman syndrome. [87] Further, laypersons’ preconceived notions about domestic violence and battered women are often incorrect, which can diminish the level of sympathy or empathy jurors develop towards battered women defendants. [88] Widespread misconceptions and stereotypes can eliminate any sense a juror may have that imposing proportional punishment would cause the offender suffering more on the whole than they deserve, thereby eliminating any motivation to extend mercy.",
+      "label": "body-text",
+      "word_count": 157
+    },
+    {
+      "text": "The empathic gap that affects jurors’ decision-making processes and desire to extend mercy is grounded in misconceptions and stereotypes about battered women that exist among the general public. Many laypersons have little to no experience with domestic violence or domestic violence survivors from which to base informed opinions or develop empathy. [89] Moreover, society does not consider killing, even of one’s abuser, to be justifiable behavior. [90] This is because “[t]o characterize a homicide as ‘justifiable’ is to say that killing the abuser while he sleeps is the right, good, or proper thing to do, or, at least, that killing him constitutes a tolerable, permissible, or non-wrongful outcome.” [91] In actuality, the societal consensus—reflected in self-defense doctrine developed over time in response to society’s intuitions—is that one should not resort to taking the life of another unless there are truly no other means available to remedy a situation. [92] In the interest of promoting public safety, the law discourages taking the life of another whenever possible. However, Paul Robinson, in a study measuring public intuitions about culpability as compared to the existing criminal law, found that laypersons typically view “a killing that has some claim to be carried out in self-defense” as deserving of lesser punishment, even when a defendant “incorrectly but honestly believes that use of deadly force is necessary. ” [93]",
+      "label": "body-text",
+      "word_count": 223
+    },
+    {
+      "text": "Importantly, participants in Robinson’s study tended to assign liability according to the seriousness of the threat of harm. [94] Results showed only a marginal difference in the liability and blameworthiness assigned to a criminal actor when the actor killed an attacker–victim who was unarmed (and therefore deadly force was unnecessary) as compared to an actor who killed in response to no threat. [95] These results bolster the notion that the general public finds killing an unarmed attacker—or killing in the absence of a threat—to be blameworthy conduct. [96] From an outside perspective (i.e., one that lacks information on battering and its effects), the narrative of a battered woman defendant is that of a woman who chose to kill in a nonconfrontational setting, in the absence of a threat, instead of leaving an allegedly abusive relationship. In other words, to the public, the question of punishment does not hinge on “whether victims of domestic violence have suffered,” but whether they should be “absolve[d] . . . of personal responsibility if they choose to take a human life—even the life of a vicious abuser—when there is available the option of taking another course to escape the abuse.” [97] Further, a prevailing fear of vigilantism makes individuals wary of “the manipulation of” battered woman syndrome “as a rationalization for cold-blooded, premeditated murder.” [98] These thought processes and misconceptions about battered women hinder the development of widespread compassion or sympathy for battered women who resort to violence on a societal level.",
+      "label": "body-text",
+      "word_count": 247
+    },
+    {
+      "text": "The widespread misconceptions and stereotypes of battered women, combined with the moral intuitions of the public, result in little to no gap between empirical desert and the institutional desert afforded to battered women defendants; murder in the absence of an immediate or deathly threat is both intuitively and institutionally blameworthy conduct. [99] In turn, this correlation prevents the extension of mercy to battered women who kill their abusers from being a viable institutional practice without undermining the system’s credibility. Robinson defines empirical desert as “determining blameworthiness according to the shared intuitions of justice of the community.” [100] This concept exists in contrast with deontological desert, “derived from the reasoned analysis of moral philosophy,” which underlies a traditional retributivist calculus of blameworthiness and punishment. [101] Accordingly, the empirical desert—or community intuitions of blameworthiness—for battered women who kill their abusers is affected by public perceptions about domestic violence victims and community intuitions about the level of blameworthiness involved in killing under a variety of circumstances, as discussed above. The use of battered woman syndrome evidence at trial, while potentially effective in educating a jury, cannot alter the misconceptions of the broader public and therefore cannot alter the measure of empirical desert correlated with battered women who kill their abusers.",
+      "label": "body-text",
+      "word_count": 207
+    },
+    {
+      "text": "The results of Robinson’s study indicate that laypersons’ intuitions of justice in a self-defense context roughly track (although are not always exactly aligned with) the institutional structure of desert embodied by the self-defense doctrine: it is blameworthy to kill an unarmed attacker or non-threatening individual in the name of self-defense. [102] The public is unlikely to assign lower culpability to battered women defendants as compared to other defendants who kill in nonconfrontational contexts, even when they hear battered woman syndrome testimony. This conclusion is bolstered by the lack of acquittals or leniency in verdicts afforded by jurors—representatives of the public—who are instructed solely to determine the culpability of a defendant who killed her abuser on the basis of self-defense. [103] The very fact that battered woman syndrome evidence is intended to sway jurors’ natural intuitions about the culpable mental states of battered women defendants indicates that the community would assign liability to any offender who kills in a nonconfrontational setting. Moreover, because the effects of battering are not widely known or understood, [104] the community’s conception of culpability of battered women defendants who kill in nonconfrontational settings is unlikely to differ from its conception of culpability of a defendant who claims self-defense in any other nonconfrontational killing. Therefore, in the context of a woman who resorts to killing her abuser, empirical desert likely aligns with the institutional desert, as represented by an actor’s liability (or lack thereof) under self-defense doctrine.",
+      "label": "body-text",
+      "word_count": 240
+    },
+    {
+      "text": "Because empirical desert is likely roughly aligned with the imposed institutional desert in this context, the institutionalization of mercy to battered women defendants could jeopardize the moral credibility and efficacy of our criminal justice system. If one goal of our criminal justice system is to impose deserved punishment, “mitigations of punishment based on mercy—factors unrelated to the offender’s blameworthiness—will set the offender in the wrong rank order as compared to other offenders,” and thus undermine the equitable distribution of just desert. [105] Robinson explains that the efficacy of our criminal justice system depends on the cooperation and deference afforded by both its internal actors and the general public. [106] This is facilitated when the law’s distribution of criminal liability aligns with the community’s intuitions about appropriate behavior and moral attitudes—the community’s determination of empirical justice. [107] This alignment creates a sense of moral credibility and public confidence in our criminal law that lays the foundation for effective crime control, another key goal of our criminal justice system. [108] Conversely, without a sense of moral credibility and “[t]o the extent that people view the system as unjust—as in conflict with their intuitions about justice—that acquiescence and cooperation is likely to fade and be replaced with subversion and resistance.” [109] In this way, aligning institutional desert with empirical desert is crucial to maintaining a stable criminal justice system and is very likely at odds with an institution-wide distribution of mercy to battered women defendants.",
+      "label": "body-text",
+      "word_count": 242
+    },
+    {
+      "text": "In the same vein, Alwynne Smart suggests that one reason we may be hesitant to recommend or institutionalize mercy in this context is because of the seriousness of the crime. [110] Murder is a serious offense, and therefore the consequences of benevolently reducing punishment, such as a lack of deterrence or undermining the legal authority of the law, are greater than for other crimes. [111] Because the general public is not educated on domestic violence or the effects of battering, it may not believe that battered women defendants are meaningfully less culpable than other defendants who intentionally murder. Thus, empirical desert would not include a reduction in punishment under these circumstances, and the criminal law’s divergence from empirical desert could potentially undermine the moral credibility of the law. Because there is little to no gap between empirical and institutional desert on this issue, lowering punishment below the just punishment deserved by battered women defendants is not a viable institutional justice practice.",
+      "label": "body-text",
+      "word_count": 161
+    },
+    {
+      "text": "Notably, protecting the criminal law’s moral credibility also means eliminating reliance on factors that the community finds irrelevant to determining punishment. [112] Conversely, reducing punishment according to factors the community finds irrelevant to determining blameworthiness, but still relevant to setting punishment, can enhance the law’s moral credibility. [113] Robinson found public support for a few factors unrelated to blameworthiness that the community regards as acceptable grounds for reducing punishment and, therefore, as potential grounds for mercy. [114] Those factors included acknowledging guilt and apologizing in situations where punishing an offender would impose hardship on their family. [115] Thus, the institutionalization of mercy on specified grounds that have community support could serve to further align institutional distribution of punishment with community intuitions. [116] This suggests that “a criminal justice system, with some careful effort, might be able to construct guidance mechanisms that would allow it to fairly institutionalize the exercise of mercy in those situations in which the community supports its exercise.” [117] Because the factors Robinson reports may, but will not always, apply to battered women defendants, there currently does not seem to be space to categorically institutionalize mercy for battered women who kill their abusers. However, there could be an opportunity to institutionalize mercy for these candidates in the future without undermining the criminal law’s moral credibility on any other bases that develop community support.",
+      "label": "body-text",
+      "word_count": 226
+    },
+    {
+      "text": "Even within the confines and imperatives created by criminal justice institutions, governors do have the option to extend mercy to battered women defendants. They can grant clemency to convicted battered women out of a sense of compassion and a desire to reduce net human suffering. [118] This state executive power is not subject to the same structural barriers to implementing mercy faced by jurors or legislative and judicial representatives of the criminal justice system. [119] However, in practice, clemency actions are, more often than not, utilized as a tool to correct injustice. [120] One explanation for this phenomenon is that, while operationalizing mercy in this context is free from the institutional structural issues using battered woman syndrome evidence encounters, clemency decisions are still constrained by public opinion and empirical desert. Therefore, it is similarly unlikely to be realized as a mercy function for fear of political backlash [121] or concerns of undermining the criminal justice system’s credibility.",
+      "label": "body-text",
+      "word_count": 157
+    },
+    {
+      "text": "Granting clemency or commutation is wholly discretionary—there is no standard to which governors are held in deciding whether to give clemency to a particular individual. [122] Therefore, governors are free to rely on factors unrelated to an offender’s blameworthiness in granting clemency. [123] However, in practice, most governors base their decision on some justice-oriented rationale; many clemency decisions are rooted in an individual’s newfound innocence or in a recognition that our trial system failed them. [124] Clemency decisions based on actual innocence or a failure of the criminal justice system to properly dispense justice are politically acceptable because society perceives clemency actions as a means to correct injustice. [125] For example, in 1990 after the Ohio Supreme Court adopted a rule that entitled battered women defendants to a battered woman defense, Governor Richard Celeste commuted the sentences of twenty-five women who were incarcerated for killing their abusers without the opportunity to use this defense. [126] The Governor concluded that “these women had been treated unjustly by the justice system because the full stories about domestic terrorism they suffered had not been told.” [127] This action illustrates that although governors are free to base clemency actions on factors that do not affect just desert and commute sentences below what is considered the just or deserved punishment, clemency is largely utilized as a last-ditch effort to ensure that justice is properly dispensed. [128] Clemency is instrumentalized as a justice measure, rather than a mercy measure.",
+      "label": "body-text",
+      "word_count": 243
+    },
+    {
+      "text": "Importantly, “short of innocence, today’s public is not very hospitable to mercy, especially when pleas for forgiveness in criminal cases are involved.” [129] Because of this, governors may be hesitant to use clemency to extend mercy. [130] Governors are elected officials and therefore are mindful of public opinion and approval ratings. Thus, these executives are unlikely to grant clemency in cases where it would conflict with the community’s intuitions about innocence and deserved punishment, including those of battered women defendants. Typically “[b]eing perceived as too lenient towards killers can mean political suicide. If a governor is going to consider clemency cases, he or she must carefully craft the rationale for the decision to assist ‘criminals.’” [131] Commuting or suspending sentences of individuals rightly found—or perceived to be—guilty jeopardizes a governor’s political career. Striking this balance may make governors hesitant to grant clemency actions for convicted battered women on mercy grounds rather than justice grounds.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "Moreover, clemency actions may implicate the same dangers of damaging the moral credibility of the criminal law as the institutional use of mercy in setting criminal punishments. If the public perceives a governor as having a free pass to disregard the decisions of juries and the criminal justice process, the community may begin to view the system which allows for such an executive override of jury decisions as unjust. [132] In this way, utilizing clemency to extend mercy and lower punishment below perceived deserved levels could undermine public confidence in the integrity and credibility of our institutional justice. [133] Because of these political fears, governors are largely disincentivized from utilizing clemency actions as a mercy-dispensing tool.",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "Although battered women defendants are theoretically prime candidates for the exercise of mercy, battered woman syndrome—or battering and its effects—has not been realized in our legal system as a ground for mercy. Instead, the imperatives of justice have seemingly annexed the few spaces in our criminal justice system where mercy could operate. This is primarily because battered woman syndrome was introduced as a justice function intended to work within an institutional justice system. The dominant purpose of battered woman syndrome evidence is to mitigate the perceived injustice that domestic violence victims face as defendants on trial for killing their abusers. [134] It is intended to aid jurors in understanding the experiences of domestic violence victims in the hopes of neatly slotting the circumstances surrounding their offenses within the self-defense justification. [135] Even so, and despite its narrowly tailored approach, battered woman syndrome evidence fails to catalyze the merciful (or justice-minded) acquittals or the reduced sentences one might hope.",
+      "label": "body-text",
+      "word_count": 158
+    },
+    {
+      "text": "Institutional structures and procedures, including jury instructions, the rationale of justification, and evidentiary rules, empirically prevent individual actors from enacting mercy, even when they may feel compelled to do so. Evidence rules that keep out evidence of abuse or battered woman syndrome testimony can eliminate the possibility that jurors develop compassion for a defendant, a necessary foundation for any merciful decision. Similarly, jury instructions that dictate to juries they must find a defendant guilty unless her behavior conforms with the strict requirements of the self-defense doctrine can make jurors doubt their ability to mercifully reduce punishment based on the defendant’s previous, undeserved suffering; they believe they must make their decision solely on whether the defendant’s behavior conformed to a self-defense theory. Further, even when jurors are formally released from their role in dispensing justice, prevailing misconceptions about battered women often negatively influence jurors’ assessment of battered woman syndrome evidence and a defendant’s credibility. [136] In turn, this often prevents jurors from developing the sympathy for a battered woman defendant needed to motivate them to mercifully lower punishment below that of an actor’s deserved punishment.",
+      "label": "body-text",
+      "word_count": 184
+    },
+    {
+      "text": "The community’s misconceptions about battered women, combined with its intuitions about what constitutes justifiable self-defense, have implications beyond the case-by-case opportunities of individual decision makers to grant mercy. These prevailing sentiments regarding domestic violence victims prevent the exercise of bestowing mercy on battered women defendants from being a viable institutional practice. In this context, there seems to be an alignment of empirical and institutional desert—public intuitions about just punishment in these circumstances roughly track the levels of institutional punishments in place. An institution that creates a criminal punishment scheme that substantially deviates from empirical desert risks jeopardizing the moral credibility of its criminal justice system. [137] Society’s intuitions about justifiable self-defense do not encompass situations in which battered women kill in a nonconfrontational setting. [138] Because distributing punishment in ways that conflict with a community’s perception of deserved punishment harms the moral credibility of the criminal law, it also hampers the efficacy of the criminal law. [139] Thus, in a criminal justice system tasked with dispensing justice and maintaining social order, there is currently little room for mercy to be institutionalized for battered women defendants.",
+      "label": "body-text",
+      "word_count": 185
+    },
+    {
+      "text": "Mercy, at its core, is antithetical to justice. Perhaps unsurprisingly then, justice effectively annexes the spaces mercy could operate in our criminal justice system. Institutions are constructed with justice in mind; systems are tasked with upholding social security and equitably applying the law. Thus, the criminal justice system cannot justifiably dispense mercy as an institutional practice without licensing arbitrary application of the criminal law. Individual actors, free from these imperatives, also fail to extend mercy for a host of reasons, namely an empathic gap and a perceived obligation to dispense justice. In effect, in a system whose practices and procedures were crafted to promote justice, justice dominates the landscape and annexes the spaces available for individuals to bestow mercy.",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "Download PDF",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "Privacy Policy 2025 © Texas Law Review",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Alwynne Smart, Mercy , 43 Philosophy 345, 358–59 (1968).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Battered woman syndrome has been criticized on both normative and scientific grounds. See David L. Faigman & Amy J. Wright, The Battered Woman Syndrome in the Age of Science , 39 Ariz. L. Rev. 67, 68 (1997) (“The battered woman syndrome illustrates all that is wrong with the law’s use of science.”); Anne M. Coughlin, Excusing Women , 82 Calif. L. Rev . 1, 4–5 (1994) (noting that some feminist scholars “have expressed uneasiness with the battered woman syndrome defense because it institutionalizes within the criminal law negative stereotypes of women”); Audrey Rogers, Prosecutorial Use of Expert Testimony in Domestic Violence Cases: From Recantation to Refusal to Testify , 8 Colum. J. Gender & L . 67, 68 n.4 (1998) (explaining several grounds on which scholars have criticized battered woman syndrome). Due to this controversy, many scholars refer more generally to the psychological effects associated with battered woman syndrome as “battering and its effects.” See, e.g. , Rogers, supra , at 68 n.4 (using the phrase “battering and its effects” rather than “battered woman’s syndrome”). Independent of the psychological or policy merits of battered woman syndrome, or battering and its effects, this Note uses the term to classify the category of defendant intended to be encompassed by the theory: victims of domestic violence who kill their spouses.",
+      "label": "footnote-text",
+      "word_count": 218
+    },
+    {
+      "text": ". See Faigman & Wright, supra note 2, at 68–69 (highlighting that battered woman syndrome evidence has “focused attention upon the weaknesses inherent in the traditional conception of self-defense,” namely that it tends to exclude battered women defendants by focusing on “male conceptions of violence”).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": ". Regina A. Schuller & Sara Rzepa, Expert Testimony Pertaining to Battered Woman Syndrome: Its Impact on Jurors’ Decisions , 26 L. & Hum. Behav . 655, 656 (2002); Regina A. Schuller & Neil Vidmar, Battered Woman Syndrome Evidence in the Courtroom: A Review of the Literature , 16 L. & Hum. Behav . 273, 277 (1992).",
+      "label": "footnote-text",
+      "word_count": 57
+    },
+    {
+      "text": ". Jeffrie G. Murphy, Mercy and Legal Justice , in Forgiveness and Mercy 162, 164 (1988); see also Igor Primoratz, Justifying Legal Punishment 88–89, 92 (1989) (noting that lex talionis does not require that “offense and punishment be equal, but that they be proportionate to one another”); James Bohman, Punishment as a Political Obligation: Crimes Against Humanity and the Enforceable Right to Membership , 5 Buff. Crim. L. Rev. 551, 552 (2002) (“Thus, ‘to justify punishment in this way is like raising a stick to [a] dog; it means treating a human being like a dog instead of respecting his honor and [his] freedom.’” (alteration in original) (quoting G.W.F. Hegel , Elements of the Philosophy of Right 125–26 (Allen W. Wood ed., H.B. Nisbet trans., 1991)).",
+      "label": "footnote-text",
+      "word_count": 126
+    },
+    {
+      "text": ". Paul H. Robinson, Mercy, Crime Control, and Moral Credibility , in Merciful Judgments and Contemporary Society 99 , 105 (Austin Sarat ed., 2012).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". Murphy, supra note 5, at 164, 166.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 167; see also Primoratz, supra note 5, at 108–09 (summarizing the ways in which mercy and justice can be incompatible from a deontological perspective).",
+      "label": "footnote-text",
+      "word_count": 27
+    },
+    {
+      "text": ". Smart, supra note 1, at 358.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Murphy, supra note 5, at 171.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Robinson, supra note 6, at 101.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Claudia Card, On Mercy , 81 Phil. Rev. 182, 184 (1972) (emphasis omitted).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Id. at 203.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 200 (explaining the “special grounds for mercy” as “distinct from the grounds of excuse and justification”).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": ". Murphy, supra note 5, at 166–67.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Card, supra note 12, at 188.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Murphy, supra note 5, at 182.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Card, supra note 12, at 188.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Murphy, supra note 5, at 168.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Card, supra note 12, at 190 (emphasis omitted).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See Murphy, supra note 5, at 179–80 (analogizing rights in a criminal law context to those in a private law model, asserting the proposition that “individuals may legitimately show mercy in waiving their rights”).",
+      "label": "footnote-text",
+      "word_count": 35
+    },
+    {
+      "text": ". See id. (noting the ability of “all those who have been victimized by the criminal . . . to waive the right that each has that the criminal be punished”); Bohman, supra note 5, at 552–53 (positing that the rights violated by a criminal act are not merely “a matter of the rights of each individual taken in isolation, but rather the rights of each as members of a community that justifies punishment as a means to restore the freedom and integrity of the community”).",
+      "label": "footnote-text",
+      "word_count": 86
+    },
+    {
+      "text": ". Card, supra note 12, at 203.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 186.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". John Tasioulas, Mercy , Aristotelian Soc’y, 2003, at 101, 119.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Joshua Dressler, Commentary, Battered Women and Sleeping Abusers: Some Reflections , 3 Ohio St. J. Crim. L. 457, 469 (2006).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". Tasioulas, supra note 26, at 117.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Card, supra note 12, at 184 (emphasis omitted).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See Linda L. Ammons, Why Do You Do the Things You Do? Clemency for Battered Incarcerated Women, A Decade’s Review , 11 Am. U. J. Gender, Soc. Pol’y & L. 533, 561, 564 (2003) (describing results of a study of women who were granted clemency after being convicted for killing their abusive partners in which researchers found a zero percent recidivism rate).",
+      "label": "footnote-text",
+      "word_count": 63
+    },
+    {
+      "text": ". Tasioulas, supra note 26, at 121–22.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See Schuller & Rzepa, supra note 4, at 656–57 (explaining how various forms of battered woman syndrome evidence contextualize victim–defendants’ experiences and mental states).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": ". Lenore E. Walker, The Battered Woman (1st ed. 1979).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Lenore E.A. Walker, The Battered Woman Syndrome 42 (3d ed. 2009).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". Lenore E.A. Walker, The Battered Woman Syndrome 50 (4th ed. 2017).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". Id. at 52, 94, 96–98.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Id. at 94, 96–98.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 98.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 52; Brenda L. Russell, Battered Woman Syndrome as a Legal Defense 18 (2010).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": ". See Kathleen M. Ridolfi, Not Just an Act of Mercy: The Demise of Post-Conviction Relief and a Rightful Claim to Clemency , 24 N.Y.U. Rev. L. & Soc. Change 43, 85 (1998) (describing Walker’s study as “la[ying] the groundwork for the development of expert testimony”).",
+      "label": "footnote-text",
+      "word_count": 46
+    },
+    {
+      "text": ". See Faigman & Wright, supra note 3, at 68–69 (observing the ways battered woman syndrome evidence has “contributed to concerted efforts to remedy the problem” of domestic violence, including in the context of self-defense doctrine).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": ". See Charles Patrick Ewing, Psychological Self-Defense: A Proposed Justification for Battered Women Who Kill , 14 L. & Hum. Behav. 579, 584 (1990) (describing a case study in which the “vast majority” of battered women defendants pleaded self-defense).",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": ". See, e.g. , Model Penal Code § 3.04(2)(b) ( Am. L. Inst., Proposed Official Draft 1962) (stating that deadly force is not justifiable unless “the actor believes that such force is necessary to protect himself against death [or] serious bodily harm”); People v. La Voie, 395 P.2d 1001, 1003 (Colo. 1964) (“When a person has reasonable grounds for believing, and does in fact actually believe, that danger of his being killed, or of receiving great bodily harm, is imminent, he may act on such appearances and defend himself, even to the extent of taking human life when necessary . . . .” (quoting Young v. People, 107 P. 274, 276 (Colo. 1910))); State v. Leidholm, 334 N.W.2d 811, 816 (N.D. 1983) (holding that if a person “has an actual and reasonable belief that force is necessary to protect himself against danger of imminent unlawful harm, his [use of defensive force] is justified or excused”); see also Faigman & Wright, supra note 3, at 79–80 (explaining that self-defense claim analysis requires a determination of whether the defendant “believed that he or she was in imminent danger of unlawful bodily harm” (emphasis omitted)).",
+      "label": "footnote-text",
+      "word_count": 192
+    },
+    {
+      "text": ". Russell , supra note 39, at 117.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Id. ; see also Schuller & Vidmar, supra note 4, at 277 (explaining that expert testimony on battered women provides jurors with “information relevant to inferences they will have to make about [a victim–defendant’s] state of mind at the time of the killing,” including why she may perceive imminent danger despite the absence of any direct attack).",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": ". Russell , supra note 39, at 117.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". John Kaplan, Robert Weisberg & Guyora Binder, Criminal Law: Cases and Materials 549 (8th ed. 2017).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": ". See id. (noting that for both defenses “the actor offers a plausible argument of desert or utility why she should not suffer punishment”).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". Coughlin, supra note 2, at 13.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Phyllis L. Crocker, The Meaning of Equality for Battered Women Who Kill Men in Self-Defense , 8 Harv. Women’s L.J. 121, 131 (1985).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". See, e.g. , Buhrle v. State, 627 P.2d 1374, 1375, 1378 (Wyo. 1981) (holding that it was not reversible error to exclude testimony of a defense psychologist regarding battered woman syndrome since the scientific principle proffered by the psychologist was not generally accepted).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". Frye v. United States, 293 F. 1013 (D.C. Cir. 1923).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". See id. at 1014 (stating the standard for admissibility of expert testimony as one where “the thing from which the dedication is made must be sufficiently established to have gained general acceptance in the particular field in which it belongs”); Daubert v. Merrell Dow Pharms., Inc., 509 U.S. 579, 585 (1993) (noting the Frye test as the “dominant standard for determining the admissibility of novel scientific evidence at trial”).",
+      "label": "footnote-text",
+      "word_count": 70
+    },
+    {
+      "text": ". See Kit Kinports, Defending Battered Women’s Self-Defense Claims , 67 Or. L. Rev. 393, 407 (1988) (noting the “description of the battered woman syndrome and the effects of abuse have not been universally accepted” due to critiques of early research studies).",
+      "label": "footnote-text",
+      "word_count": 42
+    },
+    {
+      "text": ". Id. at 441.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Janet Parrish, Trend Analysis: Expert Testimony on Battering and Its Effects in Criminal Cases , 11 Wis. Women’s L.J. 75, 84 (1996).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". Daubert v. Merrell Dow Pharms., Inc., 509 U.S. 579 (1993).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Fed. R. Evid . 702; Daubert , 509 U.S. at 589–95.",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". Rogers, supra note 2, at 77.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Faigman & Wright, supra note 3, at 69–70; see also Parrish, supra note 57, at 86 (summarizing “strong evidence that the defense’s use of or the court’s awareness of expert testimony on battering and its effects in no way equates to an acquittal on the criminal charges lodged against a battered woman defendant”).",
+      "label": "footnote-text",
+      "word_count": 54
+    },
+    {
+      "text": ". See, e.g. , Ewing, supra note 42, at 584–85 (describing a study in which the battered woman defendant was convicted in seventeen out of twenty-six cases in which the jury was allowed to hear expert testimony regarding battered woman syndrome).",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": ". See Parrish, supra note 57, at 134–35 (reporting an above 50% rate of conviction affirmance of battered women defendants in two case databases).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". Id. at 135.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See Manual of Model Crim. Jury Instructions for the Dist. Cts. of the Ninth Cir. § 5.10 ( Ninth Cir. Jury Instructions Comm. 2022) (instructing jurors that they must find guilt if the government proves, and “all [jurors] agree[], that the defendant did not act in reasonable self-defense”).",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": ". Tasioulas, supra note 26, at 120.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Meredith C. Doyle, Gender Inequality in the Law: Deficiencies of Battered Woman Syndrome and a New Solution to Closing the Gender Gap in Self-Defense Law 35 (April 25, 2011) (B.A. thesis, Claremont McKenna College).",
+      "label": "footnote-text",
+      "word_count": 35
+    },
+    {
+      "text": ". See Faigman & Wright, supra note 3, at 90 (suggesting the label “syndrome” creates a “medical linkage [that] makes the action ‘understandable’ rather than ‘reasonable,’ and thus fails to explain why a battered woman killed with justification”).",
+      "label": "footnote-text",
+      "word_count": 38
+    },
+    {
+      "text": ". See Ewing, supra note 42, at 585 (hypothesizing that expert testimony on battered woman syndrome may fail to convince a jury that self-defense is applicable because the “testimony generally offers little in the way of an explanation of the reasonableness of the woman’s ultimate homicidal act”).",
+      "label": "footnote-text",
+      "word_count": 47
+    },
+    {
+      "text": ". Schuller & Rzepa, supra note 4, at 670.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See id. at 670 (“[T]hose provided with expert testimony expressed greater sympathy for the defendant, but only if they had been released from a strict application of the law.”).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". Robinson, supra note 6, at 103, 108, 122.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Id. at 108.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 110–11 (explaining the utility of empirical desert, or “the community’s conception of justice,” as a guiding criminal law principle).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". Id. at 113.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See Mary Becker, Access to Justice for Battered Women , 12 Wash. U. J.L. & Pol’y 63, 73 (2003) (asserting that judges and jurors “are likely to share the many common biases, misperceptions, and stereotypes about domestic violence, battered women, and their abusers” that prevail in the public); Schuller & Vidmar, supra note 4, at 276 (“It is claimed that the lay public, from which the jurors are chosen, harbors a host of misconceptions regarding the causes and effects of wife abuse.”).",
+      "label": "footnote-text",
+      "word_count": 83
+    },
+    {
+      "text": ". Schuller & Rzepa, supra note 4, at 670; see also Neil J. Vidmar & Regina A. Schuller, Juries and Expert Evidence : Social Framework Testimony , L. & Contemp. Probs ., Autumn 1989, at 133, 174 (“The accumulated data from the various studies reviewed in this article lend no support to the argument that jurors allow the expert evidence about social frameworks to substitute for their own judgments about the credibility of a lay witness.”).",
+      "label": "footnote-text",
+      "word_count": 76
+    },
+    {
+      "text": ". See Alana Bowman, A Matter of Justice: Overcoming Juror Bias in Prosecutions of Batterers Through Expert Witness Testimony of the Common Experiences of Battered Women , 2 S. Cal. Rev. L. & Women’s Stud. 219, 235–36 (1992) (first citing Mary Dodge & Edith Greene, Juror and Expert Conceptions of Battered Women , 6 Violence & Victims 271, 276 (1991); and then citing generally Vidmar & Schuller, supra note 80) (noting that jurors harbor many misconceptions about battered women that may not be meaningfully affected by expert testimony on battered woman syndrome). But see Coughlin, supra note 2, at 51 (praising Walker’s battered woman syndrome as useful in overcoming jurors’ commonly held views about battered women).",
+      "label": "footnote-text",
+      "word_count": 116
+    },
+    {
+      "text": ". See , e.g. , Charles Patrick Ewing & Moss Aubrey, Battered Woman and Public Opinion: Some Realities A bout the Myths , 2 J. Fam. Violence 257, 263 (1987) (“[O]ur results clearly support the notion that a substantial proportion of the public (from which juries are drawn) subscribes to various stereotypes or ‘myths’ about battered women.”); see also Nancy K.D. Lemon, A Transformative Process: Working as a Domestic Violence Expert Witness , 24 Berkeley J. Gender, L. & Just. 208, 218 (2009) (acknowledging that “most members of the public hold a number of misconceptions about domestic violence generally”).",
+      "label": "footnote-text",
+      "word_count": 99
+    },
+    {
+      "text": ". Coughlin, supra note 2, at 51; see also Ewing & Aubrey, supra note 82, at 263 (“[E]xpert testimony is clearly needed to rebut those myths and help explain, for example, why a battered woman defendant remained with her battering mate and did not ‘simply leave’ rather than kill him.”); Becker, supra note 79, at 73 (“The judge and jury need to hear from someone who can explain the dynamics of abusive relationships and the likelihood of violence escalating when a woman attempts to leave.”).",
+      "label": "footnote-text",
+      "word_count": 85
+    },
+    {
+      "text": ". Coughlin, supra note 2, at 51.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See Russell , supra note 39, at 21 (summarizing a 2006 study that provided “persuasive evidence that judgments of guilt and general culpability are influenced by the extent to which the defendant fits or does not fit the typology of a battered woman”).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See id. (explaining that laypersons embrace stereotypes about battered women and that the more “typical” attributes a battered woman defendant has, the more likely those attributes will influence verdicts in her favor); see also Joan H. Krause, Of Merciful Justice and Justified Mercy: Commuting the Sentences of Battered Women Who Kill , 46 Fla. L. Rev. 699 , 717 (1994) (positing that many battered women defendants do not fit the stereotype of a “battered woman” as depicted by battered woman syndrome).",
+      "label": "footnote-text",
+      "word_count": 82
+    },
+    {
+      "text": ". See Russell , supra note 39, at 21 (noting that the same commonly held beliefs about battered women that are “simply wrong” also play a role in influencing judgments of culpability because laypersons embrace them).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": ". See Becker, supra note 79, at 73 (implying that laypersons lack informed opinions regarding domestic violence because they possess “many common biases, misperceptions, and stereotypes about domestic violence, battered women, and their abusers”).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". See Dressler, supra note 27, at 466 (“Stemming from the common law, a core feature of self-defense law is that the life of every person, even that of an aggressor, should not be terminated if there is a less extreme way to resolve the problem .”).",
+      "label": "footnote-text",
+      "word_count": 47
+    },
+    {
+      "text": ". Id. at 461.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 466.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Paul H. Robinson & John M. Darley, Justice, Liability, and Blame: Community Views and the Criminal Law 57, 60 (1995).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". Id. at 57.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See id. at 62 (explaining study results that suggest “that respondents believe that it is widely accepted that one should not kill an unarmed attacker”).",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": ". Ammons, supra note 30, at 553 (quoting Greg Lucas & Teresa Moore, Wilson Grants Clemency to 2 Battered Women: Petitions Denied for 14 Other Female Petitioners , S.F. Chron , May 29, 1993, at A1, A1).",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": ". Id. at 554 (quoting Seth Mydans, Clemency Pleas Denied in 14 Abuse-Defense Cases , N.Y. Times , May 30, 1993, at 21, 21).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". See Robinson & Darley , supra note 93, at 57–58 (concluding that the degree of liability layperson participants assigned to defendants in each self-defense scenario was largely based on the degree of threat posed to the defendant).",
+      "label": "footnote-text",
+      "word_count": 38
+    },
+    {
+      "text": ". Robinson, supra note 6, at 108.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 108–09.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See supra note 96 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See Ewing, supra note 42, at 585 (observing that battered women defendants are often convicted even when battered woman syndrome evidence is admitted because the evidence does not sufficiently support a self-defense justification); Schuller & Rzepa, supra note 4, at 670 (reporting that the use of battered woman syndrome evidence in this study did not lead to greater verdict leniency when jurors strictly applied self-defense law).",
+      "label": "footnote-text",
+      "word_count": 67
+    },
+    {
+      "text": ". See Bowman, supra note 81, at 235 (enumerating several clinical studies finding that the general public harbors misconceptions about domestic violence and battered women).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": ". Robinson, supra note 6, at 108.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 112.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 112–13.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 113.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 112.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Smart, supra note 1, at 358.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Paul H. Robinson, Sean E. Jackowitz & Daniel M. Bartels, Extralegal Punishment Factors: A Study of Forgiveness, Hardship, Good Deeds, Apology, Remorse, and Other Such Discretionary Factors in Assessing Criminal Punishment , 65 Vand. L. Rev. 737, 814 (2012).",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": ". Robinson, supra note 6, at 117.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 114.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 114–15.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 114–17 (arguing that the targeted institutional dispensement of mercy could be used to enhance, rather than detract from, the moral credibility of the criminal law).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": ". Id. at 121.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See, e.g. , Ridolfi, supra note 40, at 43–46, 79–80 (recounting the story of Brenda Aris who received clemency because the governor felt sympathy for her on account of significant abuse by her late husband).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": ". See id. at 87 (“The executive is an extra-judicial actor who is not constrained by the evidentiary and procedural rules regulating the courts. While the executive may defer to the judicial system, he is not obliged to do so.”).",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": ". See Krause, supra note 87, at 743, 749–56 (exploring several rationales for granting clemency, including innocence, excuse, justification, sentencing adjustments for mitigating factors, and the public interest); Ridolfi, supra note 40, at 81 (“In fact, clemency review is mandatory where executive review corrects those defects in the criminal justice system that would render the system itself unjust.”).",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": ". See Ammons, supra note 30, at 550 (noting that governors will be cautious regarding clemency cases to avoid being seen as too lenient, which could hurt their political careers).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". Becker, supra note 79, at 82.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See id. (emphasizing that most decisions on clemency petitions are entirely discretionary without any guiding standard); see also Ridolfi, supra note 40, at 78 (acknowledging that clemency may rightfully be exercised for justice or mercy reasons).",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": ". See Ammons, supra note 30, at 541, 556–57 (examining various rationales of governors in granting clemency).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": ". Id. at 541.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". New York Times News Service, Ohio Grants Clemency to 25 Battered Women VTC , Balt. Sun (Dec. 21, 1990, 12:00 AM), https://www.baltimoresun.com/news/bs-xpm-1990-12-22-1990356002-story.html [https://perma.cc/HE2B-64WV].",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". Ammons, supra note 30, at 549.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See id. at 551, 556–57 (discussing factors that governors can and should consider when reviewing clemency petitions and illustrating that many still turn to a notion of seeking justice); Ridolfi, supra note 40, at 78 (noting that when clemency is exercised for justice reasons, “it is to make up for inadequacies or failures . . . that occur either because a procedural rule prevents the courts from reaching the merits of a ‘good’ claim or because an established legal standard is insufficiently flexible to achieve justice in a particular situation”).",
+      "label": "footnote-text",
+      "word_count": 91
+    },
+    {
+      "text": ". Id. at 542.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 546, 550, 556–57 (describing the reasons behind governors’ hesitations in granting clemency based on mercy or compassion).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". Id. at 550–51.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See Robinson, supra note 6, at 113 (contending that the moral credibility of a given system is “undermined by a distribution of liability that conflicts with community perceptions of just desert”).",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": ". See supra note 109 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See Schuller & Rzepa, supra note 4, at 656 (describing how battered women syndrome evidence helps to contextualize the defendants’ actions); see also Schuller & Vidmar, supra note 4, at 277 (highlighting that battered woman syndrome evidence was introduced to mitigate the effects of jurors’ misconceptions of battered women on their evaluation of a battered woman defendant’s case).",
+      "label": "footnote-text",
+      "word_count": 59
+    },
+    {
+      "text": ". See Schuller & Rzepa, supra note 4, at 656 (emphasizing how battered women syndrome evidence is intended to contextualize defendants’ actions as reasonable self-defense); Schuller & Vidmar, supra note 4, at 277 (describing how battered women syndrome evidence gives jurors a different framework for interpreting a defendant’s actions).",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": ". See Bowman, supra note 81, 235–36 (referencing studies that found jurors were hesitant to weigh expert testimony of battered women’s experiences over their own conceptions of domestic violence).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": ". See generally Robinson, supra note 6 (exploring mercy’s interactions and tensions with the criminal justice system).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": ". See Robinson & Darley , supra note 93, at 62 (asserting that study respondents “believe that it is widely accepted that one should not kill an unarmed attacker”).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": ". See Robinson, supra note 6, at 103, 108, 122 (describing how mercy disrupts the criminal justice system’s traditional control and punishment mechanisms).",
+      "label": "footnote-text",
+      "word_count": 23
+    }
+  ]
+}

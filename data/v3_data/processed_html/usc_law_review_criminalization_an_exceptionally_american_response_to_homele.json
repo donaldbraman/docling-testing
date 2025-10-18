@@ -1,0 +1,2073 @@
+{
+  "basename": "usc_law_review_criminalization_an_exceptionally_american_response_to_homele",
+  "journal": "USC Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 412,
+    "body_text": 219,
+    "footnote_text": 193,
+    "total_words": 14039
+  },
+  "paragraphs": [
+    {
+      "text": "This Note analyzes the recent trend of criminalizing homelessness in the United States. The first half discusses homelessness through the lens of American exceptionalism as a comparative tool. Comparing America to its international peers helps us better understand why America’s response to homelessness has become increasingly punitive. In doing so, the Note makes a novel contribution to American exceptionalism literature in applying the concept to homelessness. Specifically, it shows that while American homelessness rates are not unusually high, American shelter rates are unusually low relative to other western democracies. The Note shows this by combining national homelessness reports into a single dataset and document. The second half of the Note discusses current constitutional doctrine relating to homelessness, focusing onCity of Grants Pass v. Johnson. This section uses the first half’s analysis to show why, contrary to the Supreme Court’s decision, the Ninth Circuit’s ruling was, at its core, correct on a legal and sociological level in applying status crimes doctrine to homelessness. In doing so, the Note builds on others’ defenses of the Ninth Circuit’s ruling by both adding to those legal arguments and bolstering them with a sociological grounding, offering a new way of thinking about status crimes in general and homelessness in particular. The Note mounts a defense not only of now-outdated homelessness constitutional doctrine, but also of a shift in American political culture that recognizes homelessness as a product of social circumstances rather than individual failure. Such a change is a necessary prerequisite for curbing, on legal and political levels, America’s intensifying trend of criminalizing homelessness, the first step in bringing America in line with its peers and actually solving homelessness.",
+      "label": "body-text",
+      "word_count": 274
+    },
+    {
+      "text": "In 2010, Debra Blake, a resident of Grants Pass, Oregon, lost her job.Already in a precarious financial position, she could not afford to remain in her home and was forced out.For the next ten years, she had no choice but to spend her nights in a variety of locations, either in temporary shelters or on the streets of Grants Pass.This already devastating and tumultuous experience was made worse beginning in 2013, when Grants Pass began issuing civil citations to people sleeping on public property.Between 2013 and 2019, Blake accumulated over $5,000 in fines.If she did not pay those fines and was caught by the police on city property, she would be subject to criminal prosecution for trespass.With nowhere else to go, Blake was on the brink of just such a prosecution. Before any prosecution could take place, however, Debra Blake died. Little is publicly known about her death. She was sixty-two.",
+      "label": "body-text",
+      "word_count": 151
+    },
+    {
+      "text": "Blake’s story is tragic, but it is far from unique in the United States. As of 2024,over 770,000 people were living without a home or apartment in America.In response, cities across the country, including Grants Pass, have passed laws and regulations increasingly hostile to their homeless residents.Before passing away, Blake filed a class action lawsuit with other homeless residents against Grants Pass.She alleged that the practice of fining people for sleeping on public property violated the Eighth Amendment’s ban on status crimes—crimes which criminalize people solely for their states of being rather than their actions.Although she did not live to see the result, the Ninth Circuit agreed with her claim that the city’s practice was unconstitutional.Grants Pass, however, appealed the case to the Supreme Court, which in 2024 ruled in favor of the city.The ruling solidified and gave constitutional cover to the nationwide trend of municipalities criminalizing homelessness.",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "How did we get here? What has led to so many towns and cities in the United States to criminalize homelessness? Is America unique in this regard? How should the Court have ruled? This Note explores these questions through the concept of American exceptionalism and American history to better understand and justify legal doctrine and arguments surrounding the criminalization of homelessness.",
+      "label": "body-text",
+      "word_count": 61
+    },
+    {
+      "text": "The first half of this Note, Part I, explains American homelessness and compares it to America’s international peers. Section I.A outlines its methodology showing that an approach to legal scholarship that puts black-letter law in social context is imperative for understanding law. Section I.B introduces newly synthesized data on homelessness rates and shelter rates among western democracies where data is available, showing that while America’s homelessness rate is not uniquely high, its rate of unsheltered homeless people is. The subsequent parts of this Section explain these findings. Section I.C examines government spending and America’s comparatively weak social safety net writ large. Section I.D outlines American public opinion and ideology, unveiling a culture of individualism over collectivism using a variety of political documents and public opinion polling. Section I.E discusses the role of race and homelessness, showing how America’s history of racial oppression enables and exacerbates the problem of homelessness. Section I.F explains America’s turn towards criminalization as a “solution” to homelessness, embedding it in larger trends of American history and ideology.",
+      "label": "body-text",
+      "word_count": 171
+    },
+    {
+      "text": "The second half of this Note, Part II, outlines and defends current Ninth Circuit legal doctrine on homelessness. Section II.A gives an outline of current law, showing how the Ninth Circuit used the Eighth Amendment’s status crime doctrine to bar cities from utilizing what is effectively a loophole in constitutional law. Section II.B examines the arguments made inCity of Grants Pass v. Johnson. Section II.C analyzes the Supreme Court’s eventual decision in the case. Section II.D defends the Ninths Circuit’s ruling against the Court’s decision. It takes the stance that the Ninth Circuit’s understanding and application of status crime doctrine fits well within the more collectivist understanding of reality as comprehended by those in other western democracies. Finally, Section II.E calls for a change in popular American ideology that is likely to motivate the Court’s decision and current municipal law. Only a shift away from an individualist and towards a collectivist understanding of society can fuel the political will to change homelessness law.",
+      "label": "body-text",
+      "word_count": 163
+    },
+    {
+      "text": "This Part uses the lens of American exceptionalism to elucidate homelessness data and policy in the United States, comparing it to other western democracies in order to better understand America’s turn to criminalization as a “solution” to homelessness.",
+      "label": "body-text",
+      "word_count": 38
+    },
+    {
+      "text": "This Note takes a relatively unique approach to the study of homelessness law and doctrine. That is, it does not take law as an isolated field that can (or should) be studied on its own, or with a mere dash of policy analysis thrown in at the end. Rather, it sees law as embedded in and determined by social context. Such a strategy, according to some, has been described as “the single most revolutionary development in modern legal thought.”This is not to say that all legal research must consider law this way. Rather, it is to say that doing so isusefulandworthwhile, one of many forms that legal analysis and thought can take. Thus, while not all analysis in this Note isdirectlylegal, the consequences of the ideology and governmental policies outlined in this Notearedirectly legal, manifesting in municipal decisions to criminalize homelessness and court decisions responding thereto. In addition to the strictly legal arguments made below, another contribution of this Note is an analysis ofwhat motivatesrecent American legal trends. Such an analysis is imperative not only for understanding and evaluating current trends, but also for analyzing the root causes and offering solutions in domains that extend outside of law yet influence law, such as notions about what has to change in popular American political ideology. When legal arguments go hand-in-hand with political arguments, since law is always bound up with politics,they become all the more potent. As such, this Note takes an approach that is interdisciplinary and necessarily so.",
+      "label": "body-text",
+      "word_count": 248
+    },
+    {
+      "text": "The first half of this Note uses the lens of American exceptionalism to help explain homelessness. There are many approaches to the understanding and use of the concept “American exceptionalism.”This Note seeks to add to the body of literature exploring American exceptionalism by examining a previously understudied topic: homelessness and homelessness policy. The Note deploys a method close to that developed by Charles Lockhart inThe Roots of American Exceptionalism. That is, it utilizes a schema that draws on historical, institutional, and cultural variables to explain both the nuances of America’s homelessness problem as well as America’s political reaction to homelessness.In doing so, this Note shows certain aspects in which America is exceptional with regard to its stance towards homelessness, which is reflected both in its policy and ideological belief system.",
+      "label": "body-text",
+      "word_count": 130
+    },
+    {
+      "text": "Moreover, placing America in a comparative light helps explainwhyAmerica’s response has been increasingly punitive. By analyzing recent American history, one can see how criminalizing homelessness fits within larger cultural and structural trends. A comparative understanding of American societal disposition towards economic opportunity in general and homelessness in particular is imperative for understandingwhyAmerica is making the choice to criminalize homeless people. These trends explain why the Supreme Court chose to reverse the Ninth Circuit’s ruling inJohnson.But first, these underlying trends must be identified, and they are examined below.",
+      "label": "body-text",
+      "word_count": 87
+    },
+    {
+      "text": "This Section conducts a brief, international comparison of homelessness rates to see if and how America is unique with regard to its treatment of homeless people. Delving into a data collection that is the first of its kind, this Section shows that while the rate of homelessness in America is not exceptional, the percentage of homeless Americans who are unsheltered is very high relative to other western democracies.",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "Numerous reasons might lead one to suspect that America has an exceptionally high homelessness rate compared to other western democracies.For instance, the United States, even after taxes and monetary transfers, has a very high level of income inequality relative to other western democracies.Its “Gini Coefficient,” which measures income inequality, ranks higher than Australia, New Zealand, Canada, and most European Union countries.Moreover, since the 1980s, the share of income going to the top 10% of earners has consistently increased on an annual basis.While the United States used to have a more egalitarian distribution of income in the early 20th century, this is no longer the case today.",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "However, a closer examination of the dataon homelessness rates from other western democracies reveals that, in this realm, America is unexceptional:",
+      "label": "body-text",
+      "word_count": 21
+    },
+    {
+      "text": "Figure 1. Percentage of Population Homeless by Country",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "Note: Data assembled by the author. See Appendixinfrafor methods.",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "Figure 1 shows the rate of people experiencing homelessness by the percentage of the population of the country in which they reside. Essentially, it is the homelessness rate of each country. As the chart shows, the homelessness rate in the United States is not particularly high compared to other western democracies. Among seventeen other countries where data is available, the United States ranks as having the seventh highest homelessness rate. Its rate almost exactly matches the overall homelessness rate for the European Union.",
+      "label": "body-text",
+      "word_count": 83
+    },
+    {
+      "text": "But homelessness rates alone do not tell the whole story. Delving deeper into the data, when one examines the percentage of homeless people spending nights unsheltered, one sees a very different picture:",
+      "label": "body-text",
+      "word_count": 32
+    },
+    {
+      "text": "Figure 2. Percentage of Homeless Population Unsheltered by Country",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "Note: Data assembled by the author. See Appendixinfrafor methods.",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "Not all countries included in Figure 1 have data available for the rate of unsheltered homeless people in the studies used. Still, thirteen countries do. Figure 2 shows that the percentage of unsheltered homeless people is far higher in the United States than it is in most other western democracies. Its rate of unsheltered homeless people is 33% higher than the next closest country, New Zealand. It is approximately double the EU average. Of the countries examined, only Czechia has a higher rate. Thus, while the United States does not differ in kind from other western democracies in this respect, it does significantly differ in degree.",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "As such, although there is not a particularly large number of people experiencing homelessness in the United States relative to other western democracies, the percentage of these people that areunshelteredin the United States is relatively high. This difference is important for both analyzing the problem itself and for understanding how America has reacted to homelessness. If America had a unique level of homelessness, one would seek to explain this phenomenon by examining the root causes of homelessness. However, given that America has an unusually high number of people living outdoors or on the streets, this means that shelter availability is comparatively low in the United States relative to other western democracies.",
+      "label": "body-text",
+      "word_count": 111
+    },
+    {
+      "text": "This specific intervention is important. Homelessness has been hitherto neglected in the debate around American exceptionalism. This is likely because, at first blush as shown above, America does not have an exceptionally high rate of homelessness. Still, there is a popular perception that America does have a much higher homelessness rate than other western democracies.The major difference between America and its peers is the rate of shelter availability. Because people (especially in the United States) do not see the level of homelessness in Europe, they think it does not exist.",
+      "label": "body-text",
+      "word_count": 90
+    },
+    {
+      "text": "Therefore, to understand why Americaisexceptional in the realm of homelessness, the subsequent four Sections of this Note seek to understand America’sresponseto homelessness rather than homelessness’scauses.",
+      "label": "body-text",
+      "word_count": 25
+    },
+    {
+      "text": "The first factor that helps explain why America lacks the homeless shelters that other western democracies have is the relatively weak social safety net its state, local, and federal governments maintain. Seen in this light, America’s lack of homeless shelters is not an isolated fact that sets it apart from other western democracies. Rather, it is part of a larger trend concerning America’s relatively weak social safety net.",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "In general, American total government expenditure is less, as a proportion of its total GDP, than most other western democracies. In 2019, for example, the U.S. government’s expenditure as a percentage of GDP was 36%, while France’s was 55%, Sweden’s was 48%, the United Kingdom’s was 38%, and New Zealand’s was 39%.Although these are only a few examples, there is a general historical trend of the United States’ government being outspent by other western democracies.This is in spite of the fact that America wildly outspends those same countries on maintaining its military, accounting for 39% of the world’s military expenditure.",
+      "label": "body-text",
+      "word_count": 100
+    },
+    {
+      "text": "This difference in government spending is reflected in the provision of a variety of social services. For example, many other western democracies own and operate their railroad and airline systems.In America, however, the federal government has not made a similar commitment. The same can be said for the operation of utilities. While other western democracies often directly operate means of communication (like telephone lines) or energy distribution (like gas and electricity), the United States has largely left the operation of these basic necessities to the private sector.There is thus a more minimal role of government in the coordination of economic activity in America compared to other western democracies.",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "America’s social safety net is similarly weak. In a wide variety of areas, from mandated maternity leave to child day care to low-income housing, the U.S. governmentprovides comparatively less to its residents than most other western democracies.A paradigmatic example of this trend is healthcare. The United States is the only western democracy to not ensure medical insurance coverage for virtually all of its residents.This is partially due to the fact that the United States achieves its 90% health care coverage through a patchwork system of private insurers and government programs like Medicare and Medicaid.Moreover, the story goes further than simply who is providing the care. The United States has largely left other key elements of the healthcare system to the private sector, such as price-setting. This has also contributed to the United States’ relatively high cost of healthcare.",
+      "label": "body-text",
+      "word_count": 138
+    },
+    {
+      "text": "In sum, America has a relatively weak social safety net compared to other western democracies. This is intertwined with the fact that the U.S. Constitution does not announce rights in a positive sense. Rather, it accordsnegativerights. The Constitution’s Bill of Rights consists of private activities that the government will be largely restrained from infringing upon, like the right to freedom of speech, the right to bear arms, and the right against cruel and unusual punishment.Commonplace in other western democracies, however, arepositiverights. These are rights that promise positive provisions that the government accords its citizens, such as food, shelter, and healthcare.While not all of these guarantees are necessarily lived up to by those governments, particularly those of poorer nations, the presence ofde jurepositive rights nonetheless signals a difference between America and its peers.",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "Thus, on a structural level, the United States’ relative lack of shelter for people experiencing homelessness fits well in this larger picture. America’s government spending in general and social safety net in particular are far weaker than other western democracies. Even though America’s economic and housing systems have not produced more homeless people, a relative lack of spending in social programs can begin to shed light on why American governments—federal, state, and local—have not been willing to build more shelters for those experiencing homelessness.",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "But more explanation is needed. America is, after all, a democracy.Why have Americans refrained from voting to expand their welfare state? Why are they not voting to expand government funding to include the construction of homeless shelters? What explains the gap between America and its peers?",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "To explain America’s relatively weak social safety net in general and its refusal to adequately shelter homeless people in particular, a deeper dive into American ideology and voter belief is necessary.This Section does exactly that, using a variety of public opinion polling as well as the documents of elected officials to show how ideological beliefs around individualism inform American social policy and homelessness policy.",
+      "label": "body-text",
+      "word_count": 64
+    },
+    {
+      "text": "To engage popular ideology, public opinion polling is a useful place to start. Karabel and Laurison summarized a number of useful studies comparing American public opinion to public opinion in a variety of other countries.Their analysis was enlightening. America was an outlier relative to other western democracies in a variety of ways. Americans were more likely to value freedom over equality than those in other western democracies surveyed.More specifically, Americans were more likely to believe that the freedom to pursue life’s goals outweighed the importance of the state guaranteeing that no one is in need.While the percentage of people favoring this statement was roughly 25% in France and 31% in Germany, it was over 60% in the United States.Additionally, almost 50% of Americans in one survey thought that “it should not be the responsibility of government to reduce income differences.”Amongst the other countries included in the survey, only New Zealand scored higher, and did so only by a small margin. The analogous proportion in most other western democracies was far lower. In another poll, the percentage of Americans surveyed who thought that private ownership of business is preferable to government ownership of business was over 60%, higher than any other western democracy surveyed.The analogous figures for Germany, Australia, and Canada were roughly 38%, 39%, and 52%. Finally, most on the nose, Americans agreed with the statement “it should not be the responsibility of government to provide for the unemployed” at a rate of roughly 49%.This rate was higher than every other country surveyed, except for New Zealand.",
+      "label": "body-text",
+      "word_count": 257
+    },
+    {
+      "text": "From these surveys, we can conclude that Americans not only value personal freedom more than economic equality at a higher rate than other western democracies, but also that Americans are less willing to endorse government action to assist people in dire economic straits.",
+      "label": "body-text",
+      "word_count": 43
+    },
+    {
+      "text": "Still, the differences run deeper than mere social values and government actions. Americans surveyed also differed in theirexplanationsfor the root causes of social realities themselves. For instance, one question asked whether “people are poor because of laziness and lack of willpower” or “poor because of an unfair society.” In America, 62% agreed with the former, the highest proportion of any western democracy surveyed.While 50% of both New Zealanders and Australians agreed with that statement, the analogous rate for Finland and Germany was 23% and 17%, respectively.Relatedly, Americans were more likely to believe that their society is meritocratic. For instance, 63% of Americans believed that success is determined by hard work rather than luck and connections, scoring higher than all other western democracies except for Finland.Finally, the United States had the highest rate of disagreement with the statement “success in life is pretty much determined by forces outside our control,” relative to other western democracies.Almost 70% of Americans disagreed, while most other countries surveyed had disagreement rates of 50% or less.",
+      "label": "body-text",
+      "word_count": 170
+    },
+    {
+      "text": "Thus, majorities of Americans tend to see poverty not as a social failure, but as a personal one. Moreover, Americans tend to hold these views at much higher rates than most if not all other western democracies.",
+      "label": "body-text",
+      "word_count": 37
+    },
+    {
+      "text": "These attitudes are not only passively held by Americans, but also actively practiced by their elected officials. One can see these ideas made manifest in Paul Ryan’sA Roadmap for America’s Future.In the proposal, the former Speaker of the House of Representatives meticulously lays out not only policy proposals, but also philosophical and historical rationales for those proposals. These policies largely consist of scaling back levels of spending on the federal government’s social safety net. To justify these rollbacks, he appeals to many of the values outlined above, such as personal freedom and individual responsibility. He justifies his favor of markets and individual freedom by stating that in market-based economies, like America’s, “no individual or family is bound to their circumstances: they can advance, they can improve their conditions, through their own efforts.”",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "Ryan sees this “freedom” as being threatened by government intrusion into the economy through the expansion of the social safety net. Writing of efforts to expand welfare programs, he writes that “government increasingly dictates how Americans live their lives . . . [b]ut dependency drains individual character, which in turn weakens American society.”Thus, although Ryan is a partisan actor arguing for particular policy solutions, here he is appealing to broader sentiments that resonate with large majorities of the American public.The economic failures of individuals are not seen as rooted in structural economic forces. Rather, they are seen as failures of individuals not “bound to their circumstances.’’Moreover, government action aimed at solving these problems not only fails but exacerbates them. This is in marked contrast to other western democracies, in which even conservative party members do not seek to dismantle welfare state policies.",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "Government entities, however, are not the only entities that can be used to combat poverty in general and homelessness in particular. Private charity and faith-based organizations can also play a role. The United States has the highest rate of religious belief among western democracies.Although the religious belief of its residents has been moderately decreasing in recent decades, it remains comparatively strong.Churches are an increasingly used source of housing for homeless shelters.Some politicians have also voiced support for faith-based solutions to homelessness.Given these facts, one might suspect that while Americans may be averse to government-run shelters, they may be more supportive of private, faith-based shelters. The data, however, simply does not support such a view. Faith-based shelters make up only 4% of shelter beds available to homeless people.Thus, the American ideological emphasis on self-responsibility for one’s economic conditions outweighs both private, charitable responses as well as publicly funded ones.",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "Of course, many Americans see economically deprived individuals as the products of circumstances and many Europeans view poor individuals as personally responsible for their economic circumstances. America has no monopoly on these views. However, these ideas are substantially more widespread in the United States than in other western democracies. They are also reflected in U.S. government policy. When economically destitute individuals, like Debra Blake, are seen as solely, personally responsible for their situation, it is less likely that people holding those views will favor government policies to help people falling on hard times. This means that government-run shelters are less likely to receive political support. Other western democracies, meanwhile, are more likely to see homelessness as a product of social circumstances and societal failure, and therefore provide shelter.",
+      "label": "body-text",
+      "word_count": 128
+    },
+    {
+      "text": "Seen through this lens, America’s disinclination to build shelters for individuals facing homelessness does not arise through some unique hatred that America has for homeless people, but rather as part of a larger narrative about the way Americans and policy-makers think about poverty and its root causes.",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "Inextricable from an explanation of homelessness in the United States is an account ofwhoexperiences homelessness. This Section shows not only the racial disparities of those experiencing homelessness, but also uses those demographics to help explain American homelessness policy and posture.",
+      "label": "body-text",
+      "word_count": 40
+    },
+    {
+      "text": "Obviously, the people who experience homelessness are those in poverty. Along these lines, Black and Latino people are already overrepresented, with roughly 20.1% of Black folks living in poverty in the United States today, despite being only 13.5% of the population.The respective numbers for Latino folks are 28.4% and 19.3%.But the numbers are even more exacerbated when it comes to homelessness. While 24.1% of homeless people are Latino, a staggering 37.3% of homeless people identify as Black.Thus, the intersection of homelessness and race, at least for Black folks, is not merely equivalent to that of poverty and race. Rather, homeless people are disproportionately Black at a rate even more extreme than that of poverty.",
+      "label": "body-text",
+      "word_count": 114
+    },
+    {
+      "text": "We know that the general causation of these gaps in economic wealth, income, and opportunity are due to longstanding racial oppression.But what effect does the fact that the majority of people sleeping on America’s streets are nonwhite have on our homelessness policy? Although a concrete answer is multifaceted and can probably only be arrived at indirectly, critical race theory can help provide answers. Doing so will help explain why America’s majority-minority homeless population does not receive the same amount of government and public care and attention as other countries.",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "One book within the discipline of critical race theory that can help explain why the racial makeup of the homeless population likely has an impact on the way homeless people are treated in the United States is Jody Armour’s book, provocatively titledN*gga Theory.Although the book largely focuses on criminal law, it highlights important developments in both the history of American racism and recent research into white Americans’ relationship with Black Americans in the realm of cognitive science.",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "One of Armour’s central claims is that “the dominant brand of anti-black discrimination in post-civil rights era America is not active racial animus but unconscious racial bias.”This view leads Armour to locate the disparities in treatment across races not as the result of conscious racial hatred but rather that of unconscious or subconscious behavior of white Americans.",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "One of the ways this unconscious bias operates is through disparities in empathy for others as manifested in specific “neuroanatomical circuits underlying . . . cognitive processes.”Specifically, recent studies show that particular parts of the brain, such as the bilateral anterior insula, the anterior cingulate cortex, and the medial prefrontal cortex are active when individuals are feeling empathy, in both the emotional and cognitive realm.Functional magnetic resonance imaging (“fMRI”) technology has allowed neuroscientists to measure when humans are and are not feeling empathy towards others. Unsurprisingly, many Americans tested in these studies showdecreasedempathetic neural activity when viewing people of different racial groups.This was true, for instance, when twenty-eight participants were shown scenes depicting individuals of varying racial groups in painful or neutral situations.Upon viewing these images, people who shared a social-racial identity with the person in need exhibited a higher level of empathetic neural activity than they did with those who did not share their ethnic group.This was despite the fact that many people would not likely claim they have explicit racial bias, since the social consequences of having such a bias are negative.Other studies involving mirror-neuron systems, which are responsible for unconsciously mirroring other individuals, show a similar level of racial bias.Thus, there are empathy gaps across racial lines.",
+      "label": "body-text",
+      "word_count": 210
+    },
+    {
+      "text": "Here, it is important to note that these are not inevitable biological responses to inherent human differences. On the contrary, race is not a biological category, but a social one.Thus, the status of who is “in” and “out” of one’s social group are constantly in flux.More importantly, the categories are historically contingent, the outcome of social oppression and not biology.It is likely not the supposed differences in look or skin color that is the cause of these empathy-deficits, but rather socially-reinforced differentiation and hierarchies. Thus, America, as a multiracial liberal democracy, does not inherently have these issues of empathy gaps, but rather has thembecauseof its specifically racist past and present, one that had a beginning and therefore (hopefully) has an end.",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "Armour eventually goes on to discuss how these empathy barriers contribute to disparities in judge and jury convictions of Black Americans. How do they apply to homelessness? The answer is probably intuitive: in a majority white countrywith politics dominated by white individuals and interests,a problem that largely affects nonwhite people is likely to be neglected. The fact that most homeless people are mostly not white means that our political system is less likely to respond urgently to the problem. It is a classic case of structural racism. This was true, for instance, of the natural disaster of Hurricane Katrina in 2005, wherein the government responded slower than it could have, an action which many people attributed to the fact that the people most in need were disproportionately Black.Moreover, in the man-made disaster of the Flint, Michigan water crisis of 2014, the largely Black population of Flint likely suffered more intensely and received a less urgent response from the state due to the demographic of who was suffering.In each of these catastrophes, it is likely that the empathy deficits that white officials and members of the public exhibited towards the Black victims contributed to the lackadaisical response by government actors. The same can likely be said for homelessness. If homeless people were not members of an oppressed group, it is likely that there would be a more urgent government response to their plight.",
+      "label": "body-text",
+      "word_count": 232
+    },
+    {
+      "text": "Unconscious bias may explain the lack of a response, but why the personal blame? How does the attribution of individual responsibility to those in poverty (a view that is popular in America and described above) intersect with the government’s general unwillingness to provide shelter to homeless people given the racial lens with which we are operating? Armour’s book has even more answers here. In it, he uses the work of Fritz Heider to show how people ascribe moral blame to individuals.Specifically, when judging others, people who attribute one’s actions to their social circumstances areless likelyto morally blame them for those actions than when they see those actions as stemming from an inner psychology.When people focus on the situations in which others find themselves, they are less likely to morally blame those others for their bad acts. Applying this to the criminal sphere, a study done by Birt Duncan found that “violent acts tended to be attributed to internal causes when the harm-doer was black, but to situational causes when the harm-doer was white.”Other studies have verified these findings.",
+      "label": "body-text",
+      "word_count": 178
+    },
+    {
+      "text": "If this phenomenon is occurring in the lab and in the courtroom, it is likely also occurring on the streets. In a country where people are already largely blamed for their actions, and the role of social circumstance is neglected, it makes sense that a racially-charged issue like homelessness would exacerbate this phenomenon. Racial minorities are likely being blamed for being homeless even more intensely than their white peers. Indeed, America’s response to homelessness exhibits precisely the kind of response we would expect if this were the case. Racism, individual and structural, is therefore not only responsible for Black people disproportionatelybecominghomeless, but also for theirremaininghomeless. The unwillingness to build homeless shelters and the tendency to blame people for the economic circumstances, which is exacerbated by the history of racial oppression and division in the United States, makes America’s response to homelessness much more understandable (though not justifiable). Thus, the empathy deficit and tendency to blame racial minorities—particularly Black folks—for their actions and economic status intensifies America’s lackluster response to homelessness.",
+      "label": "body-text",
+      "word_count": 170
+    },
+    {
+      "text": "The above sections explain why a substantial number of Americans likely, to a sizeable extent, blame homeless people for being homeless, but they do not explain why there has been an increasing trend towardscriminalizationof homelessness.This Section addresses this issue. Making sense of this trend requires a broader examination of criminal law and policy. Through this analysis, one can see that criminalizing homelessness and imprisoning people like Debra Blake makes sense according to the ideology of self-responsibility and America’s comparatively harsh criminal system.",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "The United States has the highest rate of incarceration of any western democracy, and nearly the highest incarceration rate in the world.America is remarkably punitive in a number of ways. Not only is it the only western democracy to retain capital punishment, but its sentencing structure is also one of the harshest in the world.This trend is relatively new. Beginning in the early 1970s, an explosion in the prison population—known popularly as “mass incarceration”—made the United States the world leader in imprisonment rates.America’s recently learned penal instinct for dealing with social problems is more intense than in any other western democracy.",
+      "label": "body-text",
+      "word_count": 101
+    },
+    {
+      "text": "Coupled with this well-known trend is a lesser known but related trend: a proliferation in economic sanctions incorporated into the criminal system. There has been a surge in civil fines, court fines, and other financial penalties levied against individuals since the early 1980s.Although debtors’ prisons are officially banned in every state, people who are unable to pay a variety of civil or court-imposed fines are being increasingly imprisoned as a result.",
+      "label": "body-text",
+      "word_count": 71
+    },
+    {
+      "text": "While laws directly, explicitly criminalizing homelessness are practically nonexistent, laws that impose fines on homeless people are increasingly being passed around the country.This is the kind of criminal penalty that Debra Blake was facing. Although the statute she violated by sleeping on public land only resulted in a fine, a repeated violation of the statute, combined with her inability to pay, would have resulted in a jail sentence.She would not have been the only homeless person with such a fate.While other countries have laws that criminalize some behavior associated with sleeping on public property,the wider availability of shelters makes those laws far less relevant to homeless people abroad.",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "The American instinct to not only blame people facing homelessness for their camping in public but also to actively oppose them through criminalization is also part of a larger trend. Violent attacks on homeless people have been on the rise in recent years.When homelessness is seen by members of the public as a problem of individual responsibility, it makes sense that when one sees individuals taking up space on public streets or parks, they are angry at the individual rather than the socio-economic system that created the situation. The instinct to criminalize such behavior therefore follows from an individualization of the problem combined with an existing propensity for criminalization. If homeless people are solely responsible for their situation, and their situation interferes with a pedestrian’s ability to move about public grounds unimpeded, the justification for imprisonment on the grounds of public interference also begins to make sense. Imprisonment will solve the immediate problem of getting the person off the street and is justified due to that person’s inability to maintain the economic resources necessary to maintain shelter for themselves.",
+      "label": "body-text",
+      "word_count": 179
+    },
+    {
+      "text": "Of course, such a logic is withdrawn from the social realities that actually create homelessness.While experts disagree on the specific means of reducing homelessness, there is a consensus that to do so, one must dramatically increase the supply of affordable housing and connect homeless people with social services and employment opportunities.Unfortunately, for homeless people and housed people, Americans have a long history of not only ignoring expert opinion, but actively loathing expert opinion and intellectualism writ large. As Richard Hofstadter wrote inAnti-Intellectualism in American Lifeover 50 years ago, “intellectuals . . . are [seen as] pretentious, conceited, effeminate, and snobbish . . . .”America has no monopoly on anti-intellectualism. Nor has anti-intellectualism as a cultural force been constant in its history. Rather, it is one that fluctuates in intensity.Our current time, however, sees a more intense moment of this fluctuation, rendering a penal response to homelessness that deviates from expert opinion even more likely.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "This hostility towards both homeless people and experts on homelessness can be seen in America’s current populist wave. While a deep analysis on the relationship between homelessness and populism is worthwhile, it extends beyond the scope of this Note. Still, a brief discussion can be given. Jan-Werner Müller defines populism as “a particular moralistic imagination of politics,” one that establishes a “morally pure” people against elites and outsiders.While modern populists have long derided experts as part of the elite outsiders,homeless people themselves are increasingly considered outsiders (and paradoxically paired with elites), deviants who are apart from and opposed to “normal” people. For instance, former Fox News host Tucker Carlson recently argued that homelessness is the result of liberal leaders becoming “more lenient on petty crime” and that “because of their liberal attitudes and the mild climate, [Seattle] is a magnet for vagrants.”Overall, political populism and a history of punitive responses to social problems are worryingly combining to produce laws that criminalize homelessness in spite of expert opinion.",
+      "label": "body-text",
+      "word_count": 167
+    },
+    {
+      "text": "In sum, America’s penal response to homelessness stems from both its conception of homelessness as a problem of individual failings combined with its comparatively harsh penal system. As a result, homelessness has become a hot-button political issue, one for which populists have whipped up anti-elite sentiment and anger about homelessness to create false narratives about homelessness and advocate punitive solutions thereto.",
+      "label": "body-text",
+      "word_count": 61
+    },
+    {
+      "text": "Now that an overview of homelessness, in both a comparative and historic-domestic light, has been given, we can return to an analysis of Debra Blake’s case and use it as a microcosm to understand and evaluate homelessness law in general. This Part, divided into several sections, outlines law concerning homelessness, both before and after the Court’s ruling inGrants Pass.Next, this Part argues that America needs a fundamental reckoning on not only the legal level, but also the ideological and social level. Only once our attitudes towards homeless people change from an individualist understanding to a collectivist understanding can our laws change to reflect that understanding. Absent such a deep reckoning, political and legal responses reflecting such a change are virtually impossible.",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "Although Debra Blake passed away, the case she and her fellow residents filed,City of Grants Pass v. Johnson, did not. This Section outlines the case law surrounding Blake’s claim.",
+      "label": "body-text",
+      "word_count": 29
+    },
+    {
+      "text": "In 1962, the Supreme Court decidedRobinson v. California. InRobinson, the Court struck down as unconstitutional part of a California statute that made it illegal “to be addicted to the use of narcotics.”The Court reasoned that while it was within California’s power to regulate behavior surrounding and including the use of drugs, criminalizing someone for their status of being addicted to illegal drugs was fundamentally different. In doing so, California was enforcing a “statute which makes the ‘status’ of narcotic addiction a criminal offense.”Rather than criminalizing an action, the status of being addicted to an illegal narcotic was criminalized. The Court likened addiction to a chronic disease, one over which the defendant had little to no control.The Court reasoned that “in the light of contemporary human knowledge, a law which made a criminal offense of such a disease would doubtless be universally thought to be an infliction of cruel and unusual punishment in violation of the Eighth and Fourteenth Amendments.”This ruling established what became popularly known as the Eighth Amendment’s ban on “status crimes.”",
+      "label": "body-text",
+      "word_count": 173
+    },
+    {
+      "text": "Six years afterRobinson, however, this doctrine was complicated by a case titledPowell v.Texas.The case concerned whether or not the state of Texas could criminalize being found drunk “in any public place, or at any private house except his own.”The petitioners argued that the statute violated the Eighth Amendment’s ban on status crimes since an alcoholic would have to drink, and would therefore inevitably violate the statute. ThePowellCourt distinguished the Texas statute from California’s statute inRobinson, however, in a number of ways. While certain parts of the decision argued that being drunk was an act rather than a status,other parts highlighted the fact that alcoholic individuals could choose to be drunk in their homes and therefore avoid violating the statute while maintaining their status as alcoholics.In a 4 plus 1 plurality, thePowellCourt upheld the statute. Although the precedential impact of this decision was disputed,it is affirmed in the Supreme Court’s decision inCity of Grants Pass.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "In 2006, a Ninth Circuit ruling found that the Constitution’s ban on status crimes covered homeless individuals. InJones v. City of Los Angeles, six homeless individuals brought suit against the city of Los Angeles for an ordinance that criminalized “sitting, lying, or sleeping on public streets and sidewalks at all times and in all places.”The Ninth Circuit ruled that the City could neither criminalize the status of being homeless, nor acts that are an inevitable result of being homeless.The Court linked the status of being homeless to the number of shelter beds available. If the number of homeless people in a municipality “far exceed[ed]” the number of shelter beds available at any given time, the municipality will have violated the homeless individuals’ Eighth Amendment rights by enforcing a statute that criminalizes an integral aspect of their status as homeless people.Although this specific ruling was later vacated on technical grounds, its logic and holdings were reincorporated into law for the Ninth Circuit in 2019, inMartin v. City of Boise.While these holdings were not binding outside of the Ninth Circuit, they are highly relevant, as many states within the Ninth Circuit, like California, Hawaii, Arizona, and Oregon, have some of the highest rates of homelessness in the nation.",
+      "label": "body-text",
+      "word_count": 206
+    },
+    {
+      "text": "BeforeMartin, the City of Grants Pass enforced ordinances that fined individuals for sleeping on public grounds.Although the city modified these ordinances in the aftermath ofMartin, it did not repeal them. Rather, it tweaked them to only ban “camping,” which it broadly defined as sleeping while using even rudimentary assistance, like sleeping bags.Still, after Debra Blake was cited for sleeping while using a sleeping bag on public property in 2019, she filed a class action lawsuit on behalf of all homeless people in Grants Pass, arguing that the city’s ordinance constituted a violation of her Eighth Amendment rights.The Ninth Circuit agreed, since Grants Pass did not have enough shelter beds to house the homeless population within city limits.Although the ordinance did not directly criminalize camping, mandating only civil fines, the Ninth Circuit panel found that these fines would still lead to criminal prosecution when they were inevitably unpaid by the homeless people fined.Furthermore, although one could still “sleep” on public property, sleeping outside in Grants Pass, Oregon, where temperatures regularly dip into the 30s,surely constituted an untenable option. To sleep outside with the assistance of a blanket was the only option for the city’s homeless residents. Thus, the ordinance was struck down as violating the plaintiffs’ Eighth Amendment rights.",
+      "label": "body-text",
+      "word_count": 208
+    },
+    {
+      "text": "This ruling seemed like a hopeful victory for homelessness advocates, one that put a check on the trend of criminalizing homelessness. But the city appealed the case to the Supreme Court, who in 2024 announced their decision overturning the Ninth Circuit’s ruling to allow municipalities to criminalize homelessness.",
+      "label": "body-text",
+      "word_count": 48
+    },
+    {
+      "text": "In a decision that made headlines nationwide in June of 2024,the Supreme Court reversed the Ninth Circuit’s decision and allowed Grants Pass to enforce its ordinance. Justice Gorsuch authored the opinion and was joined by the Court’s five other conservative Justices. The Court’s three liberals, meanwhile, dissented in an opinion written by Justice Sotomayor. Although the Court split along ideological lines in the decision, the decision was celebrated by conservative and liberal lawmakers alike.This Section provides an overview of the opinion.",
+      "label": "body-text",
+      "word_count": 81
+    },
+    {
+      "text": "The Court’s decision does not explicitly argue that homelessness is the fault of the individual and therefore subject to criminal liability. Rather, it is implied. Moreover, personal responsibility for homelessness is the result of the Court’s logic. Nonetheless, it is still worth examining the Court’s reasoning in detail. The policy arguments are analyzed first, then the more strictly doctrinal arguments.",
+      "label": "body-text",
+      "word_count": 60
+    },
+    {
+      "text": "Almost cynically, the Court, largely parroting amicus curiae briefs submitted on behalf of Grants Pass, frames the policy criminalizing sleeping in public as one “protecting the rights, dignity[,] and private property of the homeless.”The decision to ban sleeping in public, by the opinion’s logic, has as much to do with protectinghomeless peopleas it does with serving the interests of the housed public.The Court also highlights that others (with whom it is siding) have concluded that “[j]ust building more shelter beds and public housing options is almost certainly not the answer by itself.”Rather, the Court concludes in its first section, after laying out the severity of America’s homelessness problem, that municipalities need “access to the full panoply of tools in the policy toolbox” to combat the issue.",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "What is odd about this abstract characterization of the problem is that it sees the Ninth Circuit’s ruling as limiting the options that municipalities have to combat the issue. But the ruling does not ban cities from criminalizing homelessness outright. Rather, it limits municipalities from doing sowhen the number of homeless people exceeds the number of shelter beds. All cities would have to do is build homeless shelters. They could then criminalize sleeping in public as much as they want. This argument is only engaged with indirectly by the Court. Rather than engaging with it substantively, the opinion argues that the standard is somehow not clear enough, since it may be difficult to count the number of homeless people on any given night and because it may be difficult for cities to estimate the number of shelter beds available and build adequate housing.All the analysis really shows, however, is that many cities have not made good-faith efforts to comply with the ruling. Rather, cities have routinely crafted threadbare policies to “comply” in appearance only with the requirements set forth inBoise, then been challenged in court when their policies are shown for what they are, then complained to the courts that the standards are unworkable using their own ineptitude as the evidence. Thus, the Court uses the city governments’ incompetence to justify overturning the Ninth Circuit’s precedent. The logic does not acknowledge the agency of the cities and locates the failure as a lack of possibility rather than a lack of will. In reality, it is not the former, but rather the latter.",
+      "label": "body-text",
+      "word_count": 262
+    },
+    {
+      "text": "Doctrinally, the Court all but overturnsRobinson. The Court states clearly that “[t]he Cruel and Unusual Punishments Clause focuses on the question what ‘method or kind of punishment’ a government may impose after a criminal conviction, not on the question whether a government may criminalize particular behavior in the first place or how it may go about securing a conviction for that offense.”This language leaves no room forRobinson, since that ruling did place substantive limits on what could be punished. The Court states that it does not overruleRobinsonbecause no party argued for it to do so.Instead, it emphasizes that Grants Pass’s ordinance nominally criminalizes the act of camping rather than the act of being homeless. Responding to the argument that those acts inevitably follow from a status, the Court relies on the plurality inPowell, not discussing the argument that being intoxicated in public as an alcoholic is more voluntary than sleeping outside as a homeless person.The Court gives brief mention of a possible common law “necessity” defense, but does not enforce it against Grants Pass and cites a case in which an Oregon appellate court appears to refuse to apply it to the homeless person cited.Finally, the Court argues that there is no limiting principle that would restrict the conduct possibly off limits from punishment, arguing that the decision is better left to the legislature.Given this, laws that criminalize acts that inevitably follow from a status are constitutional under the Court’s standard.The decision reduces the power ofRobinsonto a mere linguistic limitation. As long as the government body does not explicitly criminalize a status, it is practically free to do so by punishing an act inevitably flowing from a status.",
+      "label": "body-text",
+      "word_count": 278
+    },
+    {
+      "text": "This Section devotes some time to defending the logic of the Ninth Circuit’s ruling and engaging critics who have spoken out against the ruling.",
+      "label": "body-text",
+      "word_count": 24
+    },
+    {
+      "text": "While many in the activist community and some in the legal community have already defended the Ninth Circuit’s logic,many more in the legal academy have criticized it.To defend many of the justifications already set forth above, the Ninth Circuit’s logic makes sense. If it is unconstitutional to punish someone for their “state of being,” something that does not have an actus reus and cannot be controlled by the individual in question, how can one criminalize acts that inevitably flow from one’s state of being? Being homeless, as the Ninth Circuit said inJones, is no more in one’s control than being addicted to narcotics.Moreover, even though Los Angeles attempted to ban “sleeping” on public property, which is an act rather than a status, the court’s logic was that to ban an act that inevitably follows from a status would be to offer a gaping loophole in status crime doctrine.It would allow the government, through a simple workaround, to criminalize statuses just as they had inRobinson. The law can and should hold accountable people who commit acts over which they have control, not acts that they are forced to do out of circumstance. Here, Justice White, in his concurrence inPowell, put the reasoning best:",
+      "label": "body-text",
+      "word_count": 202
+    },
+    {
+      "text": "If it cannot be a crime to have an irresistible compulsion to use narcotics, I do not see how it can constitutionally be a crime to yield to such a compulsion. Punishing an addict for using drugs convicts for addiction under a different name. Distinguishing between the two crimes is like forbidding criminal conviction for being sick with flu or epilepsy but permitting punishment for running a fever or having a convulsion. UnlessRobinsonis to be abandoned, the use of narcotics by an addict must be beyond the reach of the criminal law.",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "The same goes for homelessness. If it is unconstitutional to explicitly punish the status of “being homeless,” it should also be unconstitutional to punish acts that inevitably follow from being homeless, like sleeping on the street with a blanket in Oregon.",
+      "label": "body-text",
+      "word_count": 41
+    },
+    {
+      "text": "Moreover, it practically goes without saying that a prison sentence for homelessness will likely be short and will not solve the root causes of homelessness in the first place.It will merely create a cycle of imprisonment and release that will only intensify and worsen the already terrible experience of homelessness.",
+      "label": "body-text",
+      "word_count": 50
+    },
+    {
+      "text": "Other legal scholars, like Martin Gardner, have argued that the logic of five Justices inPowell, and their logical descendants inJones, apply a logic that would implode the entire criminal justice system.Gardner argues that courts inquiring into the social circumstances of individuals who commit certain acts to determine whether or not they have the proper mens rea for violating a statute “is unwise and poses a radical threat to traditional criminal law doctrine that perhaps even threatens the continued existence of the criminal law itself.”Such hand-wringing is likely unwarranted. Realistically, it is hard to imagine the doctrine of banning status crimes and statutes that indirectly criminalize statuses as going much further than narcotics addiction, homelessness, and perhaps some immigration status issues. Indeed, Gardner himself is light on examples.Thus, a worry that criminal law in general faces a “radical threat” fromRobinsonand its progeny is likely undue.",
+      "label": "body-text",
+      "word_count": 144
+    },
+    {
+      "text": "But, for a moment, let us assume Gardner is correct, and that the logic ofRobinson,Powell, andJones, which begin to consider the social circumstances that affect the human agency of individuals who commit crimes,doesbegin to question the underlying premises of criminal law. Below, this Note will take the view that the aforementioned European view of human nature and decision-making is the more accurate one than the hyper-individualistic American view. Considering that view with specific regard to this case, this Note asks: why not? If people accept the underlying logic ofRobinson, why not “carry things to their logical conclusion”and begin to inquire into the social circumstances of criminals? It seems that Gardner, like the majority inMcCleskey v. Kempaccording to Justice Brennan, is simply afraid of “too much justice.”",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "From a more abstract standpoint, the status crime doctrine juxtaposed to the traditional schema for construing criminal law through actus reus and mens rea can be understood as a counter-principle juxtaposed to a principle. That is, while in current law the counter-principle takes up a minority space relative to the space occupied by the general principle, this Note argues in the general spirit of critical legal studies that there should be an inversion between the two.That is, the status crime doctrinecouldbe the central principle from which courts begin their analysis, while the classical view could take the minority, exceptional position.",
+      "label": "body-text",
+      "word_count": 100
+    },
+    {
+      "text": "Finally, as elaborated on below, extending the status crime doctrine to include homeless individuals better reflects the reality of their circumstances. Homelessnessisa status, and sleeping on the streetisan inevitable act that follows from that status. Legally acknowledging this reality not only offers protections to homeless people, but also narrows the legislative path to policies that actually address the root causes of homelessness.",
+      "label": "body-text",
+      "word_count": 62
+    },
+    {
+      "text": "Although Gardner concedes that such a reconsideration might be warranted, he argues that it must come from the legislative process rather than through courts.While there is some merit to this argument, other movements for social change have seen courts play a pivotal role in leading the way, likeBrown v. Boardof Education, which was responsible for ending the policy of separate but equal across the United States.Furthermore, others have argued that dramatic changes that moderate or curtail criminal punishment are far more likely to come from political elites (even democratically elected ones) than through mass movements or popular referenda.Thus, the mere fact that courts would be responsible for such a change is not enough to object to the possibility of such change where an alternative route is not possible or highly unlikely to yield results.",
+      "label": "body-text",
+      "word_count": 134
+    },
+    {
+      "text": "One aspect of the doctrine that Gardner is correct to criticize is the status crime doctrine’s placement in the Eighth Amendment. Indeed, the Eighth Amendment was originally intended only to curtail certainmethodsof punishments, rather than impose substantive limits onwhatcould be punished.While originalism is a deeply flawed and unwise approach to constitutional law,the original intent of an amendment should probably carry some weight. As such, Gardner thinks that the status crime doctrine should be constitutionally grounded in the Fourteenth Amendment’s Due Process Clause rather than in the Eighth Amendment.Indeed,Robinsonis the only case that has imposed substantive limits onwhatcan be punished under the Eighth Amendment.This Note agrees that a Fourteenth Amendment grounding is the superior place to couch the status crime doctrine. Still, this Note does not agree with Gardner that doing so would necessarily limit the logical and doctrinal consequences ofRobinson, nor should it. The same arguments will inevitably be made no matter where in the Constitution status crime doctrine is placed.",
+      "label": "body-text",
+      "word_count": 161
+    },
+    {
+      "text": "In sum, the Court should have upheld the Ninth Circuit’s decision and not allowed municipalities a cheap workaround to avoid status crime doctrine. In doing so, the Court has solidified and given legal sanction to the nation’s increasing trend of criminalizing homelessness.",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "Now that the Court has delivered its ruling and allowed the criminalization of homelessness, a change in popular ideology and legislative posture must now precede any novel constitutional argument or policy proposals to tackle homelessness. Essentially, popular consciousness must change and precede any future change in legality in this domain. Ultimately, this Note takes the view that the European conceptualization of economic conditions in general, and homelessness in particular, better recognizes reality. Peopleareproducts of their environment.Luck plays a role not only in the situations into which people are thrown, but also the decisions they end up making in those situations.Once more Americans begin to agree with the statement “people are poor because of an unfair society” than “people are poor because of laziness and lack of willpower,” homelessness policy can turn away from its increasingly penal tendencies and towards building shelters and restructuring economic relations. While the Ninth Circuit’s ruling was imperfect in that it did not explicitly guarantee minimum requirements of safety and standards for homeless shelters,it acknowledged that homelessness is a “status” akin to drug addiction—one that is dependent on social circumstances and not controllable predominantly by the individual. Thus, the Ninth Circuit’s ruling already contains in it the ideological shift required by the rest of the country for combatting homelessness. But absent a larger, popular recognition of the principle, our law is unlikely to reflect such a principle.",
+      "label": "body-text",
+      "word_count": 231
+    },
+    {
+      "text": "Many specific policies for ending homelessness do already exist.Moreover, legal arguments, like the ones outlined above and ignored by the Court, also already exist. But all of these are moot absent a shift in popular consciousness away from individualism and towards collectivism.",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "The Supreme Court decision reversing the Ninth Circuit’s ruling inJohnsonis the culmination of long-standing trends of the individualization of societal problems. While America’s homelessness rate is not particularly high relative to other western democracies, its rate of unsheltered homeless people is. This is explained by America’s comparative unwillingness to spend as much as other western democracies on its social safety net. But it is also more fundamentally the product of broadly and deeply held beliefs about the root causes of poverty and homelessness as problems of individual rather than societal failure, beliefs that are exacerbated by structural racism.",
+      "label": "body-text",
+      "word_count": 98
+    },
+    {
+      "text": "The Ninth Circuit’s interpretation of the Constitution’s status crime doctrine makes sense in this light, since it accurately and shrewdly closed a loophole that governments could use to circumvent status crime doctrine. Nonetheless, the Court reversed the ruling and allowed municipalities to criminalize homelessness. The Court’s ruling effectively legitimized the view that homelessness is an individual “failing” like murder and allowed cities to criminalize people like Debra Blake. This Note has argued not only that such a ruling is misguided, but also that it rests on a fundamentally flawed view of how individuals and society interact. America’s legal approach to homelessness must see it as a social problem rather than a problem arising from a set of atomized individuals. The Supreme Court, however, has taken the opposite view. Seen through the lens of American exceptionalism, it is an exceptionally American response to further allow the criminalization of homelessness.",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "Unable to find a previously published report comparing international homelessness rates, the author assembled this data using a variety of sources. This the first known assemblage of such data and should help contribute to future research in the realm of comparative politics and sociology. For Europe and the U.K., the source used is Fédération Européenne d’Associations Nationales Travaillant avec les Sans-Abri (“FEANTSA”)’s 2023 report titledEighth Overview of Housing Exclusion.For America, the U.S. Department of Housing and Urban Development’s report titledThe 2022 Annual Homelessness Assessment Report (AHAR) to Congressis used.For Canada, the report used is the Government of Canada’s “Everyone Counts 2020-2022” survey.For Australia, see the Australian Institute of Health and Welfare’s data on homelessness and homelessness services.For New Zealand, see theNew Zealand Ministry of Housing and Urban Development, Homelessness Outlookreport.These reports consist of the most recent available data for each respective country.",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "Each study qualifies that their methods are imperfect and likely undercount the number of homeless people. The point of this Note is not to betheauthoritative comparative source on national homelessness rates, since the data is constantly changing and not always reliable, but rather to generally observe that America has a higher rate of unsheltered homeless people than all western democracies analyzed but one, a limited claim which is justified despite some uncertainty in the data. Furthermore, this Note is meant to offer a starting point for future research on the subject, as homelessness is in flux in both the United States and in Europe.",
+      "label": "body-text",
+      "word_count": 104
+    },
+    {
+      "text": "For the population counts, this Note used the following reports: For Europe, see the same FEANTSA report referenced above.For the United States, see the 2022 Census Bureau Data.For Canada, see 2021 Canadian Census data.For Australia, see the Australian Bureau of Statistics.For New Zealand, see the New Zealand Government “Stats.”",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "It is important to note, however, that various countries define homelessness differently. For instance, New Zealand counts as “homeless” people who are staying with relatives temporarily,while the United States and other countries do not count this group.Thus, in order to ensure that the proper, equivalent numbers are being compared, the data selected from each of the above sources is limited to people falling into one of three categories: (1) people “sleeping rough,” generally outdoors, (2) people sleeping in various forms of short-term emergency housing, and (3) people spending nights in designated homeless shelters. Thus, for the European data, the data from categories one, two, and three from the European Typology of Homelessness and Housing Exclusion (“ETHOS”) is used.For the U.S. data, no special selection is required. For the Canadian data, “sheltered” and “unsheltered” people are counted.For Australia, the categories of “[p]eople temporarily staying with other households” and “[p]eople living in ‘severely’ crowded dwellings” are excluded.For New Zealand, the number of total homeless people is limited to people “[w]ithout shelter” and to those living in “[t]emporary accommodation,” since including the other categories would have been overinclusive.",
+      "label": "body-text",
+      "word_count": 185
+    },
+    {
+      "text": "Compiling the data from the preceding sources yields the following chart:",
+      "label": "body-text",
+      "word_count": 11
+    },
+    {
+      "text": "Figure 1. Percentage of Population Homeless by Country",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "The table with the raw numbers is included at the end of this Appendix for reference. For the second round of comparisons, which compared countries’ homelessness rate relative to shelter available, the following method of calculation was used. The number of people living without shelter was divided by the number of homeless people using the above methods for determining the number of homeless people. Thus, for the European data, ETHOS category 1 was used.For the United States, the “unsheltered” category was used.For Canada, the “[u]nsheltered” category was used.For Australia, the “[p]eople living in improvised dwellings, tents, or sleeping out (rough sleepers)” category was used.For New Zealand, the “[w]ithout shelter” category was used.The data yields the following chart:",
+      "label": "body-text",
+      "word_count": 117
+    },
+    {
+      "text": "Figure 2. Percentage of Homeless Population Unsheltered by Country",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "It should be noted that not all countries, particularly in the FEANTSA report, had specific data for the number of people sheltered versus unsheltered. Five countries were unable to be included, therefore, in Figure 2: Finland, France, Ireland, Luxembourg, and Sweden. For the specific numerical breakdown of each category, a chart of the collected data is pasted below. Each number in the chart was collected using the methodology outlined above, and each chart is compiled using this data:",
+      "label": "body-text",
+      "word_count": 78
+    },
+    {
+      "text": "Table 1. Homelessness Data by Country",
+      "label": "body-text",
+      "word_count": 6
+    },
+    {
+      "text": "Country",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Homeless Count",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "National Population",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "% of Population",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Homeless Unsheltered",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "% of Homeless Population Unsheltered",
+      "label": "body-text",
+      "word_count": 5
+    },
+    {
+      "text": "Belgium",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "6,700",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "11,554,767",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.058",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "1,187",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "17.71641791",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Czechia",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "19,653",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "10,649,800",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.185",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "8,892",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "45.24500076",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Denmark",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "3,738",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "5,873,420",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.064",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "535",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "14.31246656",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Finland",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "794",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "5,548,241",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.014",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "France",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "209,074",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "67,656,682",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.309",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Germany",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "210,612",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "83,237,124",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.253",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "32,467",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "15.41555087",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Hungary",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "6,944",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "9,689,010",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.072",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "1,649",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "23.74711982",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Ireland",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "11,632",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "5,060,005",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.230",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Luxembourg",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "420",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "590,667",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.071",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Poland",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "23,812",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "37,972,812",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.063",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "2,551",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "10.71308584",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Portugal",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "9,604",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "10,298,252",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.093",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Spain",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "16,006",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "47,432,805",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.034",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "4,508",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "28.16443834",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Sweden",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "14,065",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "9,995,153",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.141",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "990",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "7.0387487",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "EU Rate (FEANTSA)",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "533,054",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "305,558,738",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.174",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "N/A",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": ". . .",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "United States",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "582,462",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "333,287,557",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.175",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "233,832",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "40.14545155",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "United Kingdom",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "86,288",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "66,796,807",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.129",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "17,012",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "19.71537178",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Canada",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "20,000",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "36,991,981",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.054",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "5,000",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "25.0",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Australia",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "58,002",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "25,760,867",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.220",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "7,636",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "13.165063",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "New Zealand",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "11,553",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "4,900,600",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "0.230",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "3,624",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "31.3684757",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "Note:Data used to produce Figures 1 and 2.",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "Download",
+      "label": "body-text",
+      "word_count": 1
+    },
+    {
+      "text": "*Articles Editor, Southern California Law Review, Volume 98; J.D. Candidate 2025, University of Southern California Gould School of Law; M.A. 2021, University of Warwick; B.A. 2020, University of Southern California.",
+      "label": "body-text",
+      "word_count": 30
+    },
+    {
+      "text": "Blake v. City of Grants Pass, No. 18-cv-01823, 2020 U.S. Dist. LEXIS 129494, at *11 (D. Or. July 22, 2020).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at *17.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at *11.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Johnson v. City of Grants Pass, 72 F.4th 868, 875 (9th Cir. 2023).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Penny Rosenberg, A Look at the Legal System and the Lawsuits Leading to Oregon HB 3115, Alb. Democrat-Herald (June 28, 2024),https://democratherald.com/news/local/government-politics/the-lawsuits-leading-to-oregon-hb-3115/article_db1386fa-67a1-11ee-acd4-2701a6f853a7.html[https://perma.cc/9KNN-K4YQ].",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "When comparing countries’ homelessness rates later, the year 2022 will be used due to the availability of quality data.",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "U.S. Dep’t of Hous. & Urb. Dev., The 2024 Annual Homelessness Assessment Report (AHAR) to Congress 2 (2024),https://www.huduser.gov/portal/sites/default/files/pdf/2024-AHAR-Part-1.pdf[https://perma.cc/N3EW-6R6G].",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "Eric S. Tars, Criminalization of Homelessness, in Nat’l Low Income Hous. Coal., Advocates Guide ‘21: A Primer on Federal Affordable Housing & Community Development Programs & Policies 6-36 (2021),https://nlihc.org/sites/default/files/AG-2021/06-08_Criminalization-of-Homelessness.pdf[https://perma.cc/53YG-FBGT].",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "Blake v. City of Grants Pass, No. 18-cv-01823, 2020 U.S. Dist. LEXIS 129494, at *11–12 (D. Or. July 22, 2020).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Id. at *12–13.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Johnson v. City of Grants Pass, 72 F.4th 868, 891 (9th Cir. 2023).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "City of Grants Pass v. Johnson, 144 S. Ct. 2202, 2228 (2024).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Samuel Moyn, Reconstructing Critical Legal Studies, 134 Yale L.J. 77, 84 (2024).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Id. at 87.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "These include both political and scholarly usages. The scholarly discipline has been in existence for many years and largely precedes the political usage. See generally James W. Ceaser, The Origins and Character of American Exceptionalism, 1 Am. Pol. Thought 3 (2012). Some scholars, like Jerome Karabel and Daniel Laurison, use the term in a value-neutral sense, asking if America is in fact an “exception” relative to other countries. See generally Jerome Karabel & Daniel Laurison, An Exceptional Nation? American Political Values in Comparative Perspective (U.C. Berkeley Inst. for Rsch. on Lab. & Emp., Working Paper No. 136-12, 2012). Others, like John Wilsey, seek to formulate a version of American exceptionalism in a way that “contributes to human flourishing,” arguing for the political mobilization of the concept. See John D. Wilsey, American Exceptionalism and Civil Religion 34 (2015). This Note largely works with the former concept of American exceptionalism, though it does not assume from the outset that America is exceptional regarding homelessness.",
+      "label": "footnote-text",
+      "word_count": 162
+    },
+    {
+      "text": "Charles Lockhart, The Roots of American Exceptionalism: Institutions, Culture, and Policies ix (2d ed. 2012).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": "This Note does not argue that this outcome and these trends are inevitable. Rather, it argues that certain entrenched, oft-used paths of political and social responses to a variety of societal problems are being similarly used to respond to homelessness.",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": "For the purposes of this Note, “western democracies” refers to Canada, Australia, New Zealand, and many European liberal democracies where homelessness data is available.",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "Jeffrey D. Sachs, Building the New American Economy: Smart, Fair & Sustainable 42 (2017).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Thomas Piketty, Capital in the Twenty-First Century 365–67 (Arthur Goldhammer trans., 2014).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "See Appendix infra for data collection notes.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Homelessness rates in some European countries have been rising in recent years. See Isabel Marques da Silva, At Least 895,000 People Are Homeless in Europe as Unfit Housing Conditions Persist, New Report Says, Euronews (May 9, 2023, 5:10 PM),https://www.euronews.com/my-europe/2023/09/05/at-least-895000-people-are-homeless-in-europe-as-unfit-housing-conditions-persist-new-repo[https://perma.cc/VUC2-KD2H]. Meanwhile, the number of homeless people in the United States has remained flat. Tanya de Sousa, Alyssa Andrichik, Marissa Cuellar, Jhenelle Marson, Ed Prestera & Katherine Rush, U.S. Dep’t of Hous. & Urb. Dev., The 2022 Annual Homelessness Assessment Report (AHAR) to Congress 10 (2022) [hereinafter AHAR 2022],https://www.huduser.gov/portal/sites/default/files/pdf/2022-AHAR-Part-1.pdf[https://perma.cc/8NAU-3F7F]. Even if America was at one point an outlier among western democracies in this regard, it no longer is.",
+      "label": "footnote-text",
+      "word_count": 106
+    },
+    {
+      "text": "Larry Wilson, Why Are There so Few Homeless People in Western Europe?, Pasadena Star-News, (Aug. 7, 2022, 7:00 AM),https://www.pasadenastarnews.com/2022/08/07/why-are-there-no-homeless-people-in-europe[https://perma.cc/9TBA-UWR3].",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "Government Expenditure, Percent of GDP, Int’l Monetary Fund (2022),https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/NZL/POL/AUS/DNK/BEL[https://perma.cc/L8GC-YW99].",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "John W. Kingdon, America the Unusual 19–21 (1999).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "Diego Lopes da Silva, Nan Tian, Lucie Béraud-Dudreau, Alexandra Marksteiner & Xiao Liang, SIPRI, Trends in World Military Expenditure, 2021 (2022),https://www.sipri.org/publications/2022/sipri-fact-sheets/trends-world-military-expenditure-2021[https://perma.cc/A959-92JC].",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "Kingdon, supra note 29, at 16.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "And here “government” means government on the local, state, and federal levels.",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Kingdon, supra, note 29, at 17.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Org. for Econ. Coop. & Dev., Health at a Glance 2019, at 29 (2019).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "Sachs, supra, note 21, at 61–65.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "See Sarah L. Barber, Luca Lorenzoni & Paul Ong, Price Setting and Price Regulation in Healthcare: Lessons for Advancing Universal Health Coverage 3–4 (2019),https://iris.who.int/bitstream/handle/10665/325547/9789241515924-eng.pdf[https://perma.cc/XXV8-VTKC]; Gerard F. Anderson, Peter Hussey, & Varduhi Petrosyan, It’s Still the Prices, Stupid: Why the US Spends So Much on Health Care, and a Tribute to Uwe Reinhardt, 38 Health Affs. 87, 89 (2019).",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": "Perhaps the lone exception is the Sixth Amendment’s right to counsel, which has been interpreted to mean the positive granting of an attorney when an indigent person is charged with a crime. See Gideon v. Wainwright, 372 U.S. 335, 339–41 (1963).",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": "Michael Ignatieff, Introduction: American Exceptionalism and Human Rights, in American Exceptionalism and Human Rights 1, 10 (Michael Ignatieff ed., 2005).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Well, in a sense. Corporate influence remains a major flaw in America’s political system. See Samar Ahmad, Unmaking Democracy: How Corporate Influence Is Eroding Democratic Governance, Harvard Int’l Rev. (May 4, 2020),https://hir.harvard.edu/unmaking-democracy-how-corporate-influence-is-eroding-democratic-governance[https://perma.cc/NSD2-6CFX].",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": "This is not to say that government action and structures do not influence voter behavior and ideology. They certainly do. But public opinion and ideology can also affect government policy. There is a feedback loop between the two, and an intervention on either side of the loop can influence the entire ecosystem of ideology and government policy.",
+      "label": "footnote-text",
+      "word_count": 57
+    },
+    {
+      "text": "Karabel & Laurison, supra note 17, at 5–10.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "Id. at 5.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 6.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 7.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 10.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 8.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 11.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 14.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 15.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Paul Ryan, A Roadmap for America’s Future: Version 2.0, at 17 (2010). Although the roadmap itself is somewhat dated, Paul Ryan was the speaker of the U.S. House of Representatives until as recently as 2019. More recent versions of Republican policy do not strongly deviate from these principles.",
+      "label": "footnote-text",
+      "word_count": 48
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 13.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "These appeals have a bipartisan history. For instance, Democratic President Bill Clinton once bragged that an entitlement reform bill “will help dramatically to reduce welfare, increase independence, and reinforce parental responsibility.” Bill Clinton, Remarks on Signing the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 and an Exchange with Reporters, 1047 Pub. Papers 1325, 1326 (Aug. 22, 1996),https://www.govinfo.gov/content/pkg/PPP-1996-book2/pdf/PPP-1996-book2-doc-pg1325.pdf[https://perma.cc/BQT2-87E2].",
+      "label": "footnote-text",
+      "word_count": 59
+    },
+    {
+      "text": "Ryan, supra note 54, at 17.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "The far-right Dutch politician Geert Wilders is just one example. See Stijn van Kessel, Geert Wilders’ Win Shows the Far Right Is Being Normalised. Mainstream Parties Must Act, The Guardian (Nov. 26, 2023, 1:00 AM),https://www.theguardian.com/world/2023/nov/26/far-right-normalised-mainstream-parties-geert-wilders-dutch#:~:text=In%20the%20Dutch%20election%20campaign,for%20%E2%80%9Cundeserving%E2%80%9D%20ethnic%20minorities[https://perma.cc/4QYP-U5K6]. An added piece of nuance must be noted, however. Many European conservatives do seek to reduce the role of government in the lives of citizens. However, the actual policy proposals are far more moderate in scale relative to those proposed by American conservatives. See Mugambi Jouet, Exceptional America, 143–93 (2017).",
+      "label": "footnote-text",
+      "word_count": 85
+    },
+    {
+      "text": "Mugambi Jouet, A History of Post-Roe America and Canada: From Intertwined Abortion Battles to American Exceptionalism, 23 Nw. J. Hum. Rts. (forthcoming 2025) (manuscript at 54),https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4430602.",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": "Religion in Depth, Gallup,https://news.gallup.com/poll/1690/religion.aspx[https://perma.cc/2483-884C].",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "Megan Henry, Tanya de Sousa, Colette Tano, Nathaniel Dick, Rhaia Hull, Meghan Shea, Tori Morris & Sean Morris, U.S. Dep.’t of Hous. & Urb. Dev., The 2021 Annual Homelessness Assessment Report (AHAR) to Congress 6 (2021) [hereinafter AHAR 2021],https://www.huduser.gov/portal/sites/default/files/pdf/2021-AHAR-Part-1.pdf[https://perma.cc/ZMR7-6FXZ].",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "Republicans ACT on Homelessness, Cal. Senate Republicans,https://src.senate.ca.gov/issue/actonhomelessness[https://perma.cc/N27A-YJ4D].",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "AHAR 2021, supra note 62, at 31.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Em Shrider, Poverty Rate for the Black Population Fell Below Pre-Pandemic Levels, U.S. Census Bureau (Sept. 12, 2023),https://www.census.gov/library/stories/2023/09/black-poverty-rate.html[https://perma.cc/AT8U-YNXA].",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "AHAR 2022, supra note 26, at 12.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "See generally Angela Hanks, Danyelle Solomon, & Christian E. Weller, Ctr. for Am. Progress, Systematic Inequality: How America’s Structural Racism Helped Create the Black-White Wealth Gap (2018),https://www.americanprogress.org/wp-content/uploads/sites/2/2018/02/RacialWealthGap-report.pdf[https://perma.cc/6TBM-LF2N].",
+      "label": "footnote-text",
+      "word_count": 27
+    },
+    {
+      "text": "This is not to say other western democracies do not have disproportionately nonwhite homeless populations. They do. See infra note 91.",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "Jody Armour, N*gga Theory (2020).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "Id. at 41–42.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 89.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 90.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 89.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 89–90.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Alexandra Goedderz & Adam Hahn, Biases Left Unattended: People Are Surprised at Racial Bias Feedback Until They Pay Attention to Their Biased Reactions, J. Experimental Soc. Psych., Sept. 2022, at 1.",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "Armour, supra note 70, at 95–97.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Karen E. Fields & Barbara J. Fields, Racecraft: The Soul of Inequality in American Life 1–21 (2012).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 289–90.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "See Racial Inequalities in Homelessness, by the Numbers, Nat’l All. to End Homelessness (June 1, 2022),https://endhomelessness.org/resource/racial-inequalities-homelessness-numbers[https://perma.cc/5BW2-HL8G].",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": "See Derrick A. Bell, Comment, Brown v. Board of Education and the Interest-Convergence Dilemma, 93 Harv. L. Rev. 518 passim (1980).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "Ismail K. White, Tasha S. Philpot, Kristin Wylie & Ernest McGowen, Feeling the Pain of My People: Hurricane Katrina, Racial Inequality, and the Psyche of Black America, 37 J. Black Stud. 523, 523–24 (2007).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": "See generally Mich. C.R. Comm’n, The Flint Water Crisis: Systemic Racism Through the Lens of Flint (2017),https://www.michigan.gov/mdcr/-/media/Project/Websites/mdcr/mcrc/reports/2017/flint-crisis-report-edited.pdf?rev=4601519b3af345cfb9d468ae6ece9141[https://perma.cc/7DCH-UT9P].",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": "Armour, supra note 70, at 85–86.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id at 86.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. (citing Birt L. Duncan, Differential Social Perception and Attribution of Intergroup Violence: Testing the Lower Limits of Stereotyping of Blacks, 34 J. Personality & Soc. Psych. 590, 595– 97 (1976))",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "See id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": "This is not to say other western democracies do not have disproportionately nonwhite homeless populations. They do. For example, in the UK, despite making up only 3% of the population, Black people account for 11% of homeless people. See How Racism Causes Homelessness, Single Homeless Project,https://www.shp.org.uk/homelessness-explained/how-racism-causes-homelessness[https://perma.cc/J2RZ-V76K]. However, despite a history of racial oppression, the reason homeless people receive more humane treatment in the U.K. and other countries is because, in the view of this Note and at least in part, there are simply fewer minorities in those countries. Thus, because the median homeless person is white in many other western democracies, the image conjured by the government and public of a homeless person is more likely to align with the group of the ethnic majority in that country.",
+      "label": "footnote-text",
+      "word_count": 128
+    },
+    {
+      "text": "Due to a lack of space, this Section does not delve deeply into the issue of race and incarceration, instead focusing on the class dimensions of incarceration. Nonetheless, the racial dimension of homelessness, outlined above, no doubt plays a role in America’s turn towards criminalization. Concerning the racial impact of the recent trend of mass incarceration, see generally Michelle Alexander, The New Jim Crow: Mass Incarceration in the Age of Colorblindness (2010).",
+      "label": "footnote-text",
+      "word_count": 72
+    },
+    {
+      "text": "This Note does not claim that America is unique in its increasing tendency to criminalize and possibly jail homeless people. Other countries make it illegal to be homeless in certain parts of larger cities and regularly clear homeless encampments in city centers like the United States does. See Matthew Yglesias, They Have Homelessness in Europe, Too, Slow Boring (Jan. 24, 2022),https://www.slowboring.com/p/they-have-homelessness-in-europe[https://perma.cc/WFU5-GYZY]. However, the key difference is the availability of shelter. Because, as shown above, shelter availability is much higher in Europe, these laws have a far less deleterious effect on homeless people than similar policies do in the US. Shelters give people a place to go, making spending nights on the street a choice. While Europe’s system is far from perfect, it is different from (and better than) that of the United States.",
+      "label": "footnote-text",
+      "word_count": 133
+    },
+    {
+      "text": "See Countries with the Largest Number of Prisoners per 100,000 of the National Population, as of January 2024, Statista,https://www.statista.com/statistics/262962/countries-with-the-most-prisoners-per-100-000-inhabitants[https://perma.cc/E67R-72J9].",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "Carol S. Steiker & Jordan M. Steiker, Global Abolition of Capital Punishment: Contributors, Challenges, and Conundrums, in Comparative Capital Punishment 388, 392 (Carol S. Steiker & Jordan M. Steiker eds., 2019).",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "Kevin R. Reitz, Introduction to American Exceptionalism in Crime and Punishment 1, 3 (Kevin R. Reitz ed., 2017).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "See generally Neil L. Sobol, Charging the Poor: Criminal Justice Debt & Modern-Day Debtors’ Prisons, 75 Md. L. Rev. 486 (2016).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "Id. at 490–98.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Nat’l L. Ctr. on Homelessness & Poverty, Housing not Handcuffs 2019: Ending the Criminalization of Homelessness in U.S. Cities 27–57 (2019),https://homelesslaw.org/wp-content/uploads/2019/12/HOUSING-NOT-HANDCUFFS-2019-FINAL.pdf[https://perma.cc/SM3J-8G47]. That said, there are some important exceptions. For instance, New York City guarantees short-term shelter to people experiencing homelessness. Noah Bierman, What One Man’s Castle in Scotland Says About L.A.’s Homelessness Crisis, L.A. Times (Nov. 27, 2023),https://www.latimes.com/homeless-housing/story/2023-11-27/homeless-los-angeles-right-to-housing-scotland-california[https://web.archive.org/web/20241009012946/https://www.latimes.com/homeless-housing/story/2023-11-27/homeless-los-angeles-right-to-housing-scotland-california].",
+      "label": "footnote-text",
+      "word_count": 58
+    },
+    {
+      "text": "Johnson v. City of Grants Pass, 72 F.4th 868, 875 (9th Cir. 2023). Notably, the Ninth Circuit did not explicitly make the leap to jailtime for such an action. Still, criminal trespass in Oregon is punishable by jailtime. See David N. Lesh, Oregon Criminal Trespass Laws, Or. Theft Guide,https://www.oregoncrimes.com/oregon_criminal_trespass_offenses.html[https://perma.cc/6SUU-3P3K]; Or. Rev. Stat. §§ 161.615(3), 164.245(2) (2024). In the absence of a penalty beyond civil fines, which homeless people are extremely unlikely to be able to pay, it is all but inevitable that they will be sentenced with jailtime after being found guilty of criminal trespass.",
+      "label": "footnote-text",
+      "word_count": 95
+    },
+    {
+      "text": "Stacey McKenna, Jailed for Being Homeless, Salon (Feb. 28, 2016, 12:30 AM),https://www.salon.com/2016/02/28/jailed_for_being_homeless_partner[https://perma.cc/B84F-7KTM].",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Eur. Fed’n of Nat’l Ass’ns Working with the Homeless, Criminalising Homeless People: Banning Begging in the EU 9 (2015),https://www.feantsa.org/download/2015-02-07_draft_criminalisation_policy_statement-38703600034690521366.pdf[https://perma.cc/69WF-YQZ9]. Some countries, like Finland and Scotland, even have a positive right to housing. See Bierman, supra note 99.",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": "Margot Kushel, Violence Against People Who Are Homeless: The Hidden Epidemic, U.C.S.F. Benioff Homelessness & Hous. Initiative (July 14, 2022),https://homelessness.ucsf.edu/blog/violence-against-people-homeless-hidden-epidemic[https://perma.cc/545J-ULZK].",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "While the author’s sympathies certainly do not lie with the trend of criminalizing homeless people, the Note’s goal is not to criticize the trend, but merely to explain it.",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "Statement on the California Community Assistance Recovery, and Empowerment (CARE) Court Program, Nat’l All. to End Homelessness (Sept. 20, 2022),https://endhomelessness.org/blog/statement-on-the-california-community-assistance-recovery-and-empowerment-care-court-program/#:~:text=The%20consensus%20among%20academics%2C%20practitioners,be%20they%20in%20behavioral%20health[https://perma.cc/X4KK-CQY6].",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Richard Hofstadter, Anti-Intellectualism in American Life 18–19 (1963).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "Id. at 7.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Marc Hetherington & Jonathan M. Ladd, Destroying Trust in the Media, Science, and Government has Left America Vulnerable to Disaster, Brookings (May 1, 2020),https://www.brookings.edu/articles/destroying-trust-in-the-media-science-and-government-has-left-america-vulnerable-to-disaster[https://web.archive.org/web/20241204081855/https://www.brookings.edu/articles/destroying-trust-in-the-media-science-and-government-has-left-america-vulnerable-to-disaster].",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "Jan-Werner Müller, What Is Populism? 19–20 (2017).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Courtney Hagle, Fox News Zeroes in on a New Target: The Homeless, MediaMatters (June 4, 2019, 3:41 PM),https://www.mediamatters.org/fox-news/fox-news-zeroes-new-target-homeless[https://perma.cc/DHF5-3FCY].",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "Robinson v. California, 370 U.S. 660, 662 (1962). This case also incorporated Eighth Amendment protections to the states.",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "Id. at 666.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 675.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Powell v. Texas, 392 U.S. 514 (1968).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id. at 516.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 532.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Petition for Writ of Certiorari at 16, City of Grants Pass v. Johnson, 144 S. Ct. 2202 (2024) (No. 23-175),https://www.supremecourt.gov/DocketPDF/23/23-175/275911/20230823153037814_Grants%20Pass%20v.%20Johnson_cert%20petition_corrected.pdf[https://perma.cc/29GY-QG3C].",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Jones v. City of Los Angeles, 444 F.3d 1118, 1120 (9th Cir. 2006).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Id. at 1132.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Martin v. City of Boise, 920 F.3d 584, 590 (9th Cir. 2019).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "AHAR 2022, supra note 26, at 17.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "City of Grants Pass v. Johnson, 72 F.4th 868, 876 (2022).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "Id. at 889.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 882.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 894.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 880.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Climate Grants Pass – Oregon, U.S. Climate Data (2024),https://www.usclimatedata.com/climate/grants-pass/oregon/united-states/usor0146[https://perma.cc/9QYC-HP32].",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "Johnson, 72 F.4th at 896.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "City of Grants Pass v. Johnson, 144 S. Ct. 2202 (2024).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "E.g., Abbie VanSickle, Supreme Court Upholds Ban on Sleeping Outdoors in Homelessness Case, N.Y. Times (June 28, 2024),https://www.nytimes.com/2024/06/28/us/politics/supreme-court-homelessness.html.",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "See Press Release, Governor Gavin Newson, Governor Newsom Statement on Supreme Court’s Homeless Encampments Decision (June 28, 2024),https://www.gov.ca.gov/2024/06/28/governor-newsom-statement-on-supreme-courts-homeless-encampments-decision[https://perma.cc/9Z82-S6ZG]; Press Release, Oregon Senate Republican Leader, Legislative Action Must Follow Supreme Court’s Common-Sense Grants Pass v. Johnson Decision (June 28, 2024),https://www.oregonlegislature.gov/senaterepublicans/Documents/2024-6-28%20Legislative%20Action%20Must%20Follow%20Supreme%20Courts%20Common-Sense%20Grants%20Pass%20v.%20Johnson%20Decision.pdf[https://perma.cc/3NEU-CJMQ].",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "Johnson, 144 S. Ct. at 2208.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "For example, the Court writes that “[w]e are told, for example, that the ‘exponential increase in . . . encampments in recent years has resulted in an increase in crimes both against the homeless and by the homeless.’ ”Id. at 2209.",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Id. at 2211.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 2222–24.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Imagine if this logic had been applied in the years following Gideon v. Wainwright, 372 U.S. 225 (1963). It has taken some time for public defender’s offices to offer adequate legal services, and many still do not. However, nobody argues against the fact that the project has, on the whole, been a success, despite it being a court-mandated policy to provide people attorneys.",
+      "label": "footnote-text",
+      "word_count": 63
+    },
+    {
+      "text": "Johnson, 144 S. Ct. at 2216.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id. at 2218.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 2219–20.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 2220.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. at 2221. This kind of appeal to the legislature is made almost every time a court refuses to strike down a law as unconstitutional. This argument is analyzed below.",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": "In criticizing the Ninth Circuit’s decision, the Court argues that it is too difficult to know if a person is camping on the street by choice. Id. at 2221–22. But this problem is solved by the Ninth Circuit’s decision, which does not inquire into the specific circumstances of the person arrested. Rather, it looks at the number of homeless people and shelters to determine this fact. By citing a common law defense of necessity as a possible statutory location of refuge for future defendants, the Court incentivizes looking into those very personal circumstances it wanted to avoid analyzing. Thus, the Court creates the very problem it claims to solve in this ruling.This telling moment of the text also indirectly affirms the sentiment that many people are homeless by choice. By stating that only some people are involuntarily homeless, it follows that others are voluntarily so.",
+      "label": "footnote-text",
+      "word_count": 145
+    },
+    {
+      "text": "E.g., Erwin Chemerinsky, Opinion: In California, Homelessness Isn’t a Crime. Is the Supreme Court About to Change That?, L.A. Times (Jan. 12, 2024),https://www.latimes.com/opinion/story/2024-01-12/supreme-court-homeless-housing-johnson-vs-grants-pass-martin-vs-boise-california-oregon-9th-circuit[https://perma.cc/JFK8-TC4M]; Maria Foscarinis, Nat’l L. Ctr. on Homelessness & Poverty, Martin v. Boise: A Victory in Fighting The Criminalization of Rough-Sleeping (2020),https://www.feantsa.org/public/user/Resources/magazine/2020/Martin_v._Boise_-_a_victory_in_fighting_the_criminalisation_of_rough_sleeping_-_Homeless_in_Europe_Magazine_Spring2020_Criminalisation_of_homelessness-9.pdf[https://perma.cc/FW4G-S82D].",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": "See generally, e.g., Martin R. Gardner, Rethinking Robinson v. California in the Wake of Jones v. Los Angeles: Avoiding the “Demise of the Criminal Law” by Attending to “Punishment,” 98 J. Crim. L. & Criminology 429 (2008); Mary Boatright, Note, Jones v. City of Los Angeles: In Search of a Judicial Test of Anti-Homeless Ordinances, 25 Law & Ineq. 515 (2007).",
+      "label": "footnote-text",
+      "word_count": 61
+    },
+    {
+      "text": "Jones v. City of Los Angeles, 444 F.3d 1118, 1132 (9th Cir. 2006).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Powell v. Texas, 392 U.S. 514, 548–49 (1968) (White, J., concurring) (citation omitted).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Tars, supra note 10, at 6-39.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "Gardner, supra note 149, at 429.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id. This argument is similar to the one made by the Supreme Court in Grants Pass. See City of Grants Pass v. Johnson, 144 S. Ct. 2202, 2221–22 (2024).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "See generally Gardner, supra note 149.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Id. at 482.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "McCleskey v. Kemp, 481 U.S. 279, 339 (1987) (Brennan, J., dissenting). This case concerned the constitutionality of the death penalty in Georgia. After a social science study, popularly known as the “Baldus Study,” showed that people who were convicted of murdering white people were much more likely to be sentenced to death than individuals convicted of killing Black people, the Court upheld Georgia’s practice. They did so in part because, despite the clear evidence showing racial disparities, the same logic could be applied to the entirety of the criminal justice system, since racial disparities appear in every aspect of the criminal system, from arrests to convictions to sentencing. This is what inspired Justice Brennan’s remark that the majority feared “too much justice.”",
+      "label": "footnote-text",
+      "word_count": 122
+    },
+    {
+      "text": "See Roberto Mangabeira Unger, The Critical Legal Studies Movement, 96 Harv. L. Rev. 561, 569 (1983).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": "Gardner, supra note 149, at 481.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Brown v. Bd. of Educ. of Topeka, 347 U.S. 483, 493 (1954).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "See generally Andrew Hammel, Ending the Death Penalty: The European Experience in Global Perspective (2010).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": "This Note does not take a stance on the desirability of judicial review in general. Rather, the Note is simply arguing that in our current system of judicial review, courts should wield the power in the way argued above.",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "Anthony F. Granucci, “Nor Cruel and Unusual Punishments Inflicted:” The Original Meaning, 57 Calif. L. Rev. 839, 842 (1969). This piece is cited by originalist Justice Scalia. See Harmelin v. Michigan, 501 U.S. 957, 979 (1991).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": "See generally Erwin Chemerinsky, Worse Than Nothing: The Dangerous Fallacy of Originalism (2022).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Gardner, supra note 149, at 482–87.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Petition for Writ of Certiorari, supra note 120, at 3–4.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": "This idea has been the subject of debate for generations, but many have taken the side that this Note takes. For an early example, see Emile Durkheim’s work on suicide as a product of social environments. See generally Emile Durkheim, Suicide (George Simpson ed., John A. Spaulding & George Simpson trans., Taylor & Francis e-Library 2005) (1897).",
+      "label": "footnote-text",
+      "word_count": 57
+    },
+    {
+      "text": "Armour, supra note 70, at 65–86.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "It merely states that the shelter must be “adequate.” Martin v. City of Boise, 920 F.3d 584, 617 n.8 (2019).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Solutions, Nat’l All. to End Homelessness,https://endhomelessness.org/ending-homelessness/solutions[https://perma.cc/R2HK-MSGU].",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Fédération Européenne d’Associations Nationales Travaillant avec les Sans-Abri, Eighth Overview of Housing Exclusion in Europe (2023) [hereinafter FEANTSA],https://www.feantsa.org/public/user/Resources/reports/2023/OVERVIEW/Rapport_EN.pdf[https:/perma.cc/H6UP-BB4C].",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "AHAR 2022, supra note 26.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "Everyone Counts 2020-2022: Preliminary Highlights Report, Gov’t of Can. (Apr. 28, 2023),https://www.infrastructure.gc.ca/homelessness-sans-abri/reports-rapports/pit-counts-dp-2020-2022-highlights-eng.html#h2.4[https://perma.cc/F65U-QMWT].",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "Homelessness and Homelessness Services, Austl. Inst. of Health & Welfare (Feb. 27, 2024),https://www.aihw.gov.au/reports/australias-welfare/homelessness-and-homelessness-services[https://web.archive.org/web/20241022123239/https://www.aihw.gov.au/reports/australias-welfare/homelessness-and-homelessness-services].",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "Homelessness Outlook, Ministry of Hous. & Urb. Dev.,https://www.hud.govt.nz/stats-and-insights/homelessness-outlook/homelessness-indicators[https://perma.cc/8XS2-J9T8]. Note: The linked source allows one to download from the database the data appearing in the table below and charts above.",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "See FEANTSA, supra note 173.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "Quick Facts, U.S. Census Bureau,https://www.census.gov/quickfacts/fact/table/US/PST045222[https://web.archive.org/web/20240620094111/hhttps://www.census.gov/quickfacts/fact/table/US/PST045222].",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "Census of Population, Gov’t. of Can. (2021),https://www12.statcan.gc.ca/census-recensement/index-eng.cfm[https://perma.cc/BX4A-LQRX].",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Population Clock and Pyramid, Austl. Bureau of Stat.,https://www.abs.gov.au/statistics/people/population/population-clock-pyramid[https://perma.cc/4L5K-JMCV].",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "Population, Stats NZ,https://www.stats.govt.nz/topics/population[https://perma.cc/WU69-WX2R].",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "See Ministry of Hous. & Urb. Dev., supra note 177; see also New Zealand Definition of Homelessness, Stats NZ (July 14, 2022, 4:06:03 PM),https://aria.stats.govt.nz/aria/?_ga=2.239608195.1644262357.1589145430-1129135485.1581538382#StandardView:uri=http://stats.govt.nz/cms/StatisticalStandard/TLkT54sjpxE30mJ4[https://perma.cc/W5TS-L44P].",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "See, e.g., AHAR 2022, supra note 26, at 4.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "FEANTSA, supra note 173, at 16.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Gov’t of Can., supra note 175.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Austl. Inst. of Health & Welfare, supra note 176.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "Stats NZ, supra note 183.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "FEANTSA, supra note 173, at 16.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "AHAR 2022, supra note 26, at 12.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Gov’t of Can., supra note 175.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "Austl. Inst. of Health & Welfare, supra note 176.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "Ministry of Hous. & Urb. Dev., supra note 177.",
+      "label": "footnote-text",
+      "word_count": 9
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "basename": "guaranteed__the_federal_education_duty",
+  "journal": "Columbia Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 19,
+    "body_text": 8,
+    "footnote_text": 11,
+    "total_words": 1175
+  },
+  "paragraphs": [
+    {
+      "text": "The Supreme Court has long emphasized state and local supremacy over public schooling. This theory of education federalism has been at the heart of the Court’s decisions pulling back on school desegregation and refusing to find a federal fundamental right to education. Today, America’s schools are as segregated as they were in the 1970s and often fail to prepare Americans for democratic participation. Despite the national impact of school failures, the federal government is seen to have only a minimal role in public education.",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "This Note argues that the Constitution’s guarantee of a republican form of government creates a federal duty to provide for public education. From the Founding through Reconstruction, America’s education system has expanded to account for its broadening electorate, and education has been understood as a core foundation of republican government. Moreover, Congress has historically taken an active role in shaping state education systems. Recognizing this relationship suggests broader powers for both courts and Congress to intervene in public education to ensure an educated electorate.",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "The full text of this Note can be found by clicking the PDF link to the left.",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "* J.D. Candidate 2025, Columbia Law School. Thank you to Professor David Pozen for his invaluable guidance throughout the writing process. Many thanks also to Professors James S. Liebman, Derek W. Black, and Michael A. Rebell for their tremendous support, encouragement, and feedback. This Note is dedicated to my public school teachers.",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "American education is in crisis. 1 1 See Robin Lake & Travis Pillow, The Alarming State of the American Student in 2022, Brookings: Brown Ctr. Chalkboard (Nov. 1, 2022), https://www.brookings.edu/ articles/the-alarming-state-of-the-american-student-in-2022/ [https://perma.cc/7N69-H3 A3] (calling the COVID-19 pandemic a “wrecking ball for U.S. public education”); David Steiner, Opinion, America’s Education System Is a Mess, and It’s Students Who Are Paying the Price, The 74 (July 20, 2023), https://www.the74million.org/article/americas-education-system-is-a-mess-and-its-students-who-are-paying-the-price/ [https://perma.cc/E AH5-6YM8] (describing “two decades of disappointing [academic achievement] results” as fueling a turn away from content mastery). ... Close 21% of Americans struggle to com­pare information, paraphrase, or make low-level inferences. 2 2 Adult Literacy in the United States, Nat’l Ctr. for Educ. Stats. (July 2019), https://nces.ed.gov/pubs2019/2019179/index.asp [https://perma.cc/X2DR-RJB6]. ... Close Roughly eight million American adults are functionally illiterate in English; 3 3 Id. An additional 8.2 million adults couldn’t be interviewed because of a language barrier or cognitive or physical disability. Id. ... Close 54% are partially illiterate. 4 4 Jonathan Rothwell, Gallup, Assessing the Economic Gains of Eradicating Illiteracy Nationally and Regionally in the United States 3, 6 (2020), https://www.barbarabush.org/wp-content/uploads/2020/09/ BBFoundation_GainsFromEradicating Illiteracy_9_8.pdf [https://perma.cc/FNQ7-H5EL]. ... Close In 2022, only 47% of American adults could name all three branches of government. 5 5 Americans’ Civics Knowledge Drops on First Amendment and Branches of Government, Annenberg Pub. Pol’y Ctr. (Sept. 13, 2022), https://www.annenbergpublic policycenter.org/americans-civics-knowledge-drops-on-first-amendment-and-branches-of-government/ [https://perma.cc/8BCE-U5RP]. ... Close 25% could not name any. 6 6 Id. ... Close In a twist of dark irony, only a third of Americans can pass the U.S. Citizenship Test. 7 7 See Press Release, Inst. for Citizens & Scholars, National Survey Finds Just 1 in 3 Americans Would Pass Citizenship Test (Oct. 3, 2018), https://citizensandscholars.org/ resource/national-survey-finds-just-1-in-3-americans-would-pass-citizenship-test/ [https:// perma.cc/N2AZ-QPLG]. ... Close These outcomes are driven by schools as unequal as they are inadequate: School segregation has returned to levels not seen since the 1960s. 8 8 See Gary Orfield & Danielle Jarvie, UCLA C.R. Project, Black Segregation Matters: School Resegregation and Black Educational Opportunity 11 (2020), https:// www.civilrightsproject.ucla.edu/research/k-12-education/integration-and-diversity/black-segregation-matters-school-resegregation-and-black-educational-opportunity/BLACK-SEG REGATION-MATTERS-final-121820.pdf [https://perma.cc/6K8G-6XRB] (“School segre­gation is now more severe than in the late 1960s.”). ... Close Put simply, schools fail to prepare students for participation in America’s republican form of government, with disastrous consequences at the state and national levels. 9 9 See Campaign for the Civic Mission of Schs., Guardian of Democracy: The Civic Mission of Schools 4–7 (2011), https://media.carnegie.org/ filer_public/ab/dd/abdda62e-6e84-47a4-a043-348d2f2085ae/ ccny_grantee_2011_guardian.pdf [https://perma.cc/E25R-YXEL] (noting that declining civics education decreases trust in democratic institutions). ... Close",
+      "label": "body-text",
+      "word_count": 403
+    },
+    {
+      "text": "Despite these risks, national change in education is stymied by America’s federal system. The Supreme Court’s commitment to state and local supremacy in education has consistently limited the federal govern­ment’s capacity to ensure educational equality and adequacy. 10 10 See infra Part I. ... Close This Note argues that the Guarantee Clause demands a broader federal role in edu­cation policymaking, reorienting education toward public schooling’s central purpose since America’s Founding: self-governance.",
+      "label": "body-text",
+      "word_count": 71
+    },
+    {
+      "text": "While other scholars have noted the connection between education and the Guarantee Clause, 11 11 See infra notes 82–85 and accompanying text. ... Close this Note makes several novel contributions. It articulates the educated-electorate principle, relying on the close rela­tionship between enfranchisement and education to argue that education inheres in the republican form of government. This principle provides a conceptual framework for linking education to the American tradition of republicanism as preserved by the Guarantee Clause. Relying on the prin­ciple, this Note provides the first comprehensive argument that the Guarantee Clause creates a federal duty to ensure that state electorates receive a sufficient education to participate in republican government.",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "This Note proceeds in three parts. Part I examines the legal regime that has inhibited the creation of robust and equitable public school sys­tems capable of preparing students to participate in a republican form of government. Part II relies on text and history to argue that the educated-electorate principle inheres in the republican form of government, mak­ing the Guarantee Clause a hook for federal intervention. Finally, Part III describes the Guarantee Clause power and articulates how the courts and Congress could meet their constitutional obligation to provide for an educated electorate.",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "See Robin Lake & Travis Pillow, The Alarming State of the American Student in 2022, Brookings: Brown Ctr. Chalkboard (Nov. 1, 2022), https://www.brookings.edu/ articles/the-alarming-state-of-the-american-student-in-2022/ [https://perma.cc/7N69-H3 A3] (calling the COVID-19 pandemic a “wrecking ball for U.S. public education”); David Steiner, Opinion, America’s Education System Is a Mess, and It’s Students Who Are Paying the Price, The 74 (July 20, 2023), https://www.the74million.org/article/americas-education-system-is-a-mess-and-its-students-who-are-paying-the-price/ [https://perma.cc/E AH5-6YM8] (describing “two decades of disappointing [academic achievement] results” as fueling a turn away from content mastery).",
+      "label": "footnote-text",
+      "word_count": 78
+    },
+    {
+      "text": "Adult Literacy in the United States, Nat’l Ctr. for Educ. Stats. (July 2019), https://nces.ed.gov/pubs2019/2019179/index.asp [https://perma.cc/X2DR-RJB6].",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": "Id. An additional 8.2 million adults couldn’t be interviewed because of a language barrier or cognitive or physical disability. Id.",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Jonathan Rothwell, Gallup, Assessing the Economic Gains of Eradicating Illiteracy Nationally and Regionally in the United States 3, 6 (2020), https://www.barbarabush.org/wp-content/uploads/2020/09/ BBFoundation_GainsFromEradicating Illiteracy_9_8.pdf [https://perma.cc/FNQ7-H5EL].",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "Americans’ Civics Knowledge Drops on First Amendment and Branches of Government, Annenberg Pub. Pol’y Ctr. (Sept. 13, 2022), https://www.annenbergpublic policycenter.org/americans-civics-knowledge-drops-on-first-amendment-and-branches-of-government/ [https://perma.cc/8BCE-U5RP].",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "Id.",
+      "label": "footnote-text",
+      "word_count": 1
+    },
+    {
+      "text": "See Press Release, Inst. for Citizens & Scholars, National Survey Finds Just 1 in 3 Americans Would Pass Citizenship Test (Oct. 3, 2018), https://citizensandscholars.org/ resource/national-survey-finds-just-1-in-3-americans-would-pass-citizenship-test/ [https:// perma.cc/N2AZ-QPLG].",
+      "label": "footnote-text",
+      "word_count": 27
+    },
+    {
+      "text": "See Gary Orfield & Danielle Jarvie, UCLA C.R. Project, Black Segregation Matters: School Resegregation and Black Educational Opportunity 11 (2020), https:// www.civilrightsproject.ucla.edu/research/k-12-education/integration-and-diversity/black-segregation-matters-school-resegregation-and-black-educational-opportunity/BLACK-SEG REGATION-MATTERS-final-121820.pdf [https://perma.cc/6K8G-6XRB] (“School segre­gation is now more severe than in the late 1960s.”).",
+      "label": "footnote-text",
+      "word_count": 35
+    },
+    {
+      "text": "See Campaign for the Civic Mission of Schs., Guardian of Democracy: The Civic Mission of Schools 4–7 (2011), https://media.carnegie.org/ filer_public/ab/dd/abdda62e-6e84-47a4-a043-348d2f2085ae/ ccny_grantee_2011_guardian.pdf [https://perma.cc/E25R-YXEL] (noting that declining civics education decreases trust in democratic institutions).",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": "See infra Part I.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra notes 82–85 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 7
+    }
+  ]
+}

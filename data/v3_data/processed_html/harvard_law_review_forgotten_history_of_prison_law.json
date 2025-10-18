@@ -1,0 +1,278 @@
+{
+  "basename": "harvard_law_review_forgotten_history_of_prison_law",
+  "journal": "Harvard Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 53,
+    "body_text": 18,
+    "footnote_text": 35,
+    "total_words": 3767
+  },
+  "paragraphs": [
+    {
+      "text": "Prison law is characterized by judicial deference to penal administrators. Despite the well-documented horrors that occur behind prison walls, federal and state courts often decline to intervene, asserting, among other things, that prisoners’ rights are limited and that the judicial branch lacks the power and expertise to get involved in the inner workings of detention facilities. Moreover, jurists often assume that the nation’s first courts largely stayed out of prisons and jails, and contemporary judicial deference is therefore historically rooted. This Article complicates that historical narrative. It shows that the nation’s Founding generation established an expansive system of judicial oversight over prisons and jails that lasted through much of the nineteenth century. During that period, state and local judges across the fledgling republic conducted regular inspections of detention facilities; set prison and jail rules and policies; appointed, removed, and occasionally served as penal administrators; managed the funding and building of jail facilities; and remedied abuses. On occasion, federal courts also interceded on behalf of prisoners. Relying on neglected state statutes, case law, and reports, as well as the writings of prison theorists and observers, this Article explores the oft-ignored history of American prison law. In so doing, this Article shows how far modern courts have diverged from their early predecessors, especially at the state and local levels. For jurists — and particularly originalists — who use history to inform contemporary doctrine, this Article provides a fuller account of the early relationship between courts and prisons. Finally, this Article reveals a model of judicial oversight from which scholars and advocates can learn.",
+      "label": "body-text",
+      "word_count": 261
+    },
+    {
+      "text": "Every few months in the early 1790s, more than a dozen people showed up at the Walnut Street Jail, 1 where America’s first penitentiary had just been established. 2 They were there to ensure that the penitentiary was operating in accordance with its design, which was meant to create a humane, rehabilitative environment for those detained within. 3 Among the regular visitors were the Governor of Pennsylvania and the Mayor of Philadelphia, as well as a Board of Inspectors. 4 But many of the visitors fell into a category rarely seen in prisons today: judges. 5 At least quarterly, “Judges of the Supreme Court” 6 of Pennsylvania and “all the Judges of the several Courts of th[e] City and County” of Philadelphia personally examined the conditions at Walnut Street. 7",
+      "label": "body-text",
+      "word_count": 130
+    },
+    {
+      "text": "Although they would be anomalies today, the Pennsylvania judges who visited Walnut Street were not so in their time. In fact, from the late eighteenth century through much of the nineteenth century, state and local judges across a young America regularly visited prisons and jails. 8 And that’s not all. They also investigated complaints and remedied abuses in prisons and jails; enacted rules, policies, and practices for carceral settings; appointed, approved, removed, and sometimes even served as penal authorities; and oversaw the financing, building, and repair of detention facilities. 9 These responsibilities were, according to some of the most influential penal reform theorists and advocates of the era, essential to a humane and effective carceral system. 10",
+      "label": "body-text",
+      "word_count": 117
+    },
+    {
+      "text": "Today, the relationship between courts and prisons looks dramatically different. Modern courts — including local, state, and federal courts — largely stay out of the workings of prisons and jails. 11 Without litigation, courts have little to no authority to intervene behind prison and jail walls. And in the course of litigation, jurists grant a high degree of deference to prison administrators. 12 The result is that courts are often unable or unwilling to intervene on behalf of prisoners, 13 despite the fact that, as one scholar recently put it, prisons regularly “fail to provide even minimally safe and healthy living conditions.” 14",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "In the course of prison litigation, federal and state jurists often give a number of reasons for their reluctance to interfere in the workings of detention facilities. 15 Prominent among these reasons is the idea that prisoners’ rights are more limited than those in the free world. 16 Another is a notion that the separation of powers counsels against judicial interference. 17 And still another is that judges lack the expertise needed to monitor correctional facilities and ensure that they remain safe and secure. 18",
+      "label": "body-text",
+      "word_count": 85
+    },
+    {
+      "text": "In presenting these justifications for restraint, courts sometimes appeal to history 19 — but an incomplete account of it. Jurists regularly suggest that early prisoners were considered “slaves of the State” who lacked the opportunity to seek redress in court. 20 Further, jurists assert that early courts largely stayed out of detention settings due to concerns about the separation of powers. 21 Sometimes, this history merely serves as a backdrop for deference today. 22 But other times, and especially for jurists with originalist leanings, this purported history seems to be a justification for modern-day restraint. 23 As one current Supreme Court Justice wrote, interfering in prison administration would be improper because it would constitute a “refusal — for the first time ever — to defer to the expert judgment of prison officials.” 24",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "This Article complicates that narrative. First, by highlighting several cases in which federal and state judges recognized prisoners’ constitutional and common law rights, this Article suggests that the “slave of the State” attitude may have been less pervasive than modern courts sometimes make it out to be. 25 Next, by detailing the vast system of legislatively authorized state and local court oversight over prisons and jails, this Article casts doubt on several assumptions about the judicial role historically. 26 It provides evidence that the separation of powers, as understood in the nation’s early years, contemplated some judicial oversight over prisons and jails, particularly by state and local courts, both in the course of litigation and outside of it. 27 It also suggests that, unlike courts today, the nation’s first state and local courts were expected to have the expertise needed to ensure that detention facilities met their penological aims, among them safety, security, and rehabilitation. 28",
+      "label": "body-text",
+      "word_count": 156
+    },
+    {
+      "text": "To uncover the history presented in this Article, I combed through early state codes from more than a dozen states, locating provisions directed at the operation of local prisons and jails. I also searched through compilations of nineteenth-century case law on prison conditions. Finding that eighteenthand nineteenth-century courts were heavily involved in the administration of prison and jail systems and hoping to better understand the origins of that involvement, I looked to the writings of early prison theorists. Ultimately, this process revealed a robust system of judicial power over detention facilities during the nation’s Founding era and for much of the century that followed. This Article resurfaces some of that history for the first time.",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "While this Article conveys a number of novel findings, it is situated at the intersection of at least two existing bodies of literature. The first of these bodies describes the country’s first prisons 29 and includes some recent pieces that have pushed back on assumptions about early penal policies and prison law. 30 The second body explores twentiethand twenty-first-century developments in prison law 31 and includes a collection of work that critiques the judiciary’s current policy of deference to prison and jail administrators. 32 By considering how the early judicial-carceral relationship bears on deference in contemporary prison law, this Article sits between both sets of literature, drawing on each and informing each in turn. 33",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "In presenting this history, this Article has a few aims. First, it seeks to draw out a comparison between the judicial-carceral relationship of past and present. Specifically, it shows that although courts of all kinds typically maintain a distant relationship with prisons today, they were once much more closely enmeshed, especially at the state and local levels. What’s more, this Article shows that not only has the modern relationship between courts and prisons changed, but some of the reasons for the cold relationship today — including notions about prisoners’ rights, the separation of powers, and judicial expertise — were more complex in the young nation than modern courts sometimes suggest.",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "Second, insofar as courts rely on historical accounts of the relationship between judges and prisons to explain, ground, or — for originalists — justify judicial restraint in prison doctrine today, this Article seeks to provide a fuller account of that history so as to properly inform the doctrine. Specifically, this Article casts doubt on the narrative that there existed widespread judicial deference in the nation’s early years that justifies deference by nearly all courts today. Because early state courts were particularly involved in prison and jail administration, originalist justifications for deference by state courts are especially susceptible to reevaluation — an important conclusion given the increasing focus on state litigation among prison advocates and scholars. 34 But early federal courts also interceded on behalf of prisoners, thereby weakening originalist justifications at the federal level, too.",
+      "label": "body-text",
+      "word_count": 135
+    },
+    {
+      "text": "Finally, the historical account presented herein provides a model of prison oversight from which reform advocates can learn. It shows that early prison theorists viewed judicial oversight as essential to ensuring humane carceral institutions and empowered courts accordingly. Although prison systems are significantly larger and more professionalized today than they were in the eighteenth and nineteenth centuries, modern day reform advocates might do well to consider reintroducing some judicial oversight provisions.",
+      "label": "body-text",
+      "word_count": 71
+    },
+    {
+      "text": "This Article proceeds in three parts. Part I describes the role that deference to prison administrators plays in contemporary prison doctrine. Specifically, it explains how deference has made its way into substantive standards governing prisoners’ constitutional rights as well as standards for judicial remedies behind bars. This Part also details how judges, and especially originalists, sometimes attempt to root their explanations for deference in historical accounts of the relationship between courts and prisons. Part II details the role that courts played in prisons and jails in the eighteenth and early nineteenth centuries. This Part begins with the theoretical foundation for judicial oversight devised by reformers in the eighteenth century. It then describes the constitutional and common law rights recognized by early federal and state courts. Next, it delves into the wide array of statutorily authorized oversight responsibilities held by state and local courts. Part II concludes with an account of the disempowerment of the judiciary over the course of the nineteenth century. Part III turns to this Article’s implications. It describes how the relationship between courts and prisons has changed since the nation’s first years and the ways that the historical relationship might bear on contemporary prison doctrine. Part III also provides insight into some potential reasons and models for increased judicial oversight over prisons and jails outside of litigation.",
+      "label": "body-text",
+      "word_count": 220
+    },
+    {
+      "text": "If early theorists, advocates, judges, and even prison authorities were somehow to see the carceral system that has emerged in the twentieth century, they would likely be shocked by several features: the scale, the filth, and the use of long-term solitary confinement, to name a few. But should they learn of one more feature — the gaping absence of judicial oversight — they might understand how all the rest came to be. Indeed, the Founding generation and those that followed believed that the judiciary served as an essential guardrail against the kind of cruel and ineffective penal system they feared. The modern era may have proved them right.",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "Continue Reading in the Full PDF",
+      "label": "body-text",
+      "word_count": 6
+    },
+    {
+      "text": "* Lecturer in Law, UCLA; Liman Fellow, MacArthur Justice Center. For their insights and support, I am grateful to Gregory Cui, Sharon Dolovich, Bradley Graham, Pinchas Huberman, Gabriel Karger, Emma Kaufman, Aaron Littman, Lissa Muscatine, Devi Rao, Judith Resnik, Margo Schlanger, Charles F. Walker, and Alex Weiss. Special thanks to Justin Driver for his mentorship. Finally, my gratitude to the thoughtful editors of the Harvard Law Review .",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "Copyright © 1887-2025 Harvard Law Review. All Rights Reserved. Accessibility",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "WordPress vector logo kevinleary.net",
+      "label": "body-text",
+      "word_count": 4
+    },
+    {
+      "text": "^ See Rex A. Skidmore, Penological Pioneering in the Walnut Street Jail, 1789–1799 , 39 J. Crim. L. & Criminology 167, 171 (1948).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": "^ Melvin Gutterman, Prison Objectives and Human Dignity: Reaching a Mutual Accommodation , 1992 BYU L. Rev. 857, 862.",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "^ See Negley K. Teeters & John D. Shearer, The Prison at Philadelphia, Cherry Hill 5 (1957); David M. Shapiro, Solitary Confinement in the Young Republic , 133 Harv. L. Rev. 542, 553 (2019) (quoting Constitution of the Philadelphia Society for Alleviating the Miseries of Public Prisons, quoted in Richard Vaux, Brief Sketch of the Origin and History of the State Penitentiary for the Eastern District of Pennsylvania, at Philadelphia 9 (Philadelphia, McLaughlin Bros. 1872)). “[T]he philosophy of the penitentiary was first implemented in Philadelphia [at the Walnut Street Jail] through the efforts of the Philadelphia Society for Alleviating the Miseries of Public Prisons.” Teeters & Shearer, supra , at 5. “ It was the Society’s moral ambition to spare prisoners from ‘undue and illegal sufferings’ and to find the ‘degrees and modes of punishment’ that would ‘restor[e] our fellow creatures to virtue and happiness.’” Shapiro, supra , at 553 (quoting Constitution of the Philadelphia Society for Alleviating the Miseries of Public Prisons , supra , at 9); see also Teeters & Shearer , supra , at 5, 8.",
+      "label": "footnote-text",
+      "word_count": 179
+    },
+    {
+      "text": "^ Skidmore, supra note 1, at 171.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": "^ Caleb Lownes, An Account of the Alteration and Present State of the Penal Laws of Pennsylvania. Containing, Also, An Account of the Gaol and Penitentiary House of Philadelphia — And the Interior Management Thereof 11 (Boston, Young & Minns 1799). In the 1790s, Pennsylvania’s so-called supreme court had both trial and appellate jurisdiction and was not the state’s court of last resort. See The Unified Jud. Sys. of Pa. , The Supreme Court of Pennsylvania 9, https://www.pacourts.us/Storage/media/pdfs/20220509/143332-supreme300booklet_web.pdf [https://perma.cc/D7F8-CLKR].",
+      "label": "footnote-text",
+      "word_count": 79
+    },
+    {
+      "text": "^ Lownes, supra note 6, at 11.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section II.B.2.b, pp. 1745–50.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section II.B, pp. 1738–59.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section II.A, pp. 1735–38.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ But cf. infra note 362 (describing how some jurisdictions still authorize or require judges to visit detention facilities).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "^ See Sharon Dolovich, Forms of Deference in Prison Law , 24 Fed. Sent’g Rep. 245, 245 (2012); see, e.g. , Colvin v. Inslee, 467 P.3d 953, 964 (Wash. 2020); Bresolin v. Morris, 558 P.2d 1350, 1352 (Wash. 1977).",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "^ Throughout this Article, I use the term “prisoner” to refer to people detained in prisons and jails, either pretrial or postconviction. Similarly, by “prison law,” I refer to law related to both prisons and jails, including both preand postconviction detention. The law does not usually distinguish between the former (prisons and jails), but it does sometimes distinguish between the latter (preand postconviction detention). Nevertheless, both preand postconviction law center judicial deference and have developed based on much of the same reasoning. Compare Shaw v. Murphy, 532 U.S. 223, 228 (2001) (centering judicial deference in the postconviction context), with Bell v. Wolfish, 441 U.S. 520, 547 & n.29 (1979) (citing Jones v. N.C. Prisoners’ Lab. Union, Inc., 433 U.S. 119, 126, 129 (1977); Pell v. Procunier, 417 U.S. 817, 822, 826–27 (1974); Procunier v. Martinez, 416 U.S. 396, 404–05, 412–14 (1974)) (centering judicial deference in the preconviction context), and Florence v. Bd. of Chosen Freeholders, 566 U.S. 318, 326–28 (2012) (citing Turner v. Safley, 482 U.S. 78, 84–85 (1987); Wolfish , 441 U.S. at 546, 548, 558; Block v. Rutherford, 468 U.S. 576, 584–86 (1984)) (same). So this Article speaks to both preand postconviction law, and unless otherwise specified, I mean to include both under the term “prison law.”",
+      "label": "footnote-text",
+      "word_count": 209
+    },
+    {
+      "text": "^ Sharon Dolovich, The Coherence of Prison Law , 135 Harv. L. Rev. F. 302, 302–03 (2022); see also Justin Driver & Emma Kaufman, The Incoherence of Prison Law , 135 Harv. L. Rev. 515, 539 (2021) (“[P]rison law [is] so unfavorable to prisoners’ civil rights claims that they are almost invariably extinguished by [the] courts.”). Outside the courts, prison reform has received bipartisan support. See Joe Davidson, Opinion, Federal Prison Reform Has Bipartisan Support. But It’s Moving Slowly. , Wash. Post (Jan. 9, 2020), https://www.washingtonpost.com/politics/federal-prison-reform-has-bipartisan-support-but-its-moving-slowly/2020/01/08/81edfbd6-3268-11ea-898f-eb846b7e9feb_story.html [perma.cc/W37W-TNMV].",
+      "label": "footnote-text",
+      "word_count": 87
+    },
+    {
+      "text": "^ See Margo Schlanger et al., Incarceration and the Law: Cases and Materials 54 (10th ed. 2020).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": "^ See infra section I.A, pp. 1725–30.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section I.B.1, pp. 1731–33.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section I.B.2, p. 1734.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See, e.g. , Shaw v. Murphy, 532 U.S. 223, 228 (2001) (quoting Jones v. N.C. Prisoners’ Lab. Union, Inc., 433 U.S. 119, 139 (1977) (Marshall, J., dissenting)); Colvin v. Inslee, 467 P.3d 953, 964 (Wash. 2020).",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": "^ See, e.g. , Murphy , 532 U.S. at 228 (quoting Jones , 433 U.S. at 139 (Marshall, J., dissenting)); Lewis v. Casey, 518 U.S. 343, 404 (1996) (Stevens, J., dissenting) (quoting Ruffin v. Commonwealth, 62 Va. (21 Gratt.) 790, 796 (1871)); Meachum v. Fano, 427 U.S. 215, 231 (1976) (Stevens, J., dissenting) (citing Ruffin , 62 Va. (21 Gratt.) at 796); Azeez v. Fairman, 795 F.2d 1296, 1298 (7th Cir. 1986) (citing Ruffin , 62 Va. (21 Gratt.) at 796); In re Jordan, 500 P.2d 873, 875 (Cal. 1972) (citing Ruffin , 62 Va. (21 Gratt.) at 796); Yount v. Pa. Dep’t of Corr., 966 A.2d 1115, 1124–25 (Pa. 2009) (Todd, J., concurring) (citing Murphy , 532 U.S. at 228–29). I use Murphy rather than Shaw for the short citation here because the former was the name of the prisoner-plaintiff. See Murphy , 532 U.S. at 228. I make similar choices for other cases throughout this Article.",
+      "label": "footnote-text",
+      "word_count": 158
+    },
+    {
+      "text": "^ See, e.g. , Johnson v. California, 543 U.S. 499, 528, 547 (2005) (Thomas, J., dissenting); Casey , 518 U.S. at 386 (Thomas, J., concurring); Colvin , 467 P.3d at 960.",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "^ See, e.g. , Johnson , 543 U.S. at 547 (Thomas, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "^ Cf., e.g. , id. at 547–48.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ Id. at 547.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "^ See infra section II.B.1, pp. 1739–42. As I explain below, while prisoners’ rights cases were few and far between, their rarity can be explained by factors other than an absence of rights. See infra notes 191–94 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": "^ See infra section II.B.2, pp. 1742–59.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section II.B.2, pp. 1742–59.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "^ See infra section II.B.2, pp. 1742–59. As discussed below in Part III, not all of the judicial responsibilities held by early courts bear on modern prison law in the same way. See infra Part III, pp. 1761–67. For example, the powers held by state courts do not provide much insight into the role that federal courts should play today. And judicial oversight outside of litigation bears on deference in the context of litigation only in circumscribed ways.",
+      "label": "footnote-text",
+      "word_count": 78
+    },
+    {
+      "text": "^ General accounts of the early history of prisons include Edward Marston, Prison: Five Hundred Years of Life Behind Bars (2009) ; 2 Pioneers in Penology: The Reformers, The Institutions, and the Societies, 1557–1900 (David M. Horton ed., 2006) ; Thomas G. Blomberg & Karol Lucken, American Penology: A History of Control (2d ed. 2010); Michael Meranze, Histories of the Modern Prison: Renewal, Regression and Expansion , in The Oxford Handbook of the History of Crime and Criminal Justice 672, 672–94 (Paul Knepper & Anja Johansen eds., 2016); and The Oxford History of the Prison: The Practice of Punishment in Western Society (Norval Morris & David J. Rothman eds., 1998) .",
+      "label": "footnote-text",
+      "word_count": 111
+    },
+    {
+      "text": "^ See generally, e.g., Donald H. Wallace, Ruffin v. Virginia and Slaves of the State: A Nonexistent Baseline of Prisoners’ Rights Jurisprudence , 20 J. Crim. Just. 333 (1992) (arguing that prisoners were not denied all of their rights in the late nineteenth and early twentieth centuries); Shapiro, supra note 3 (arguing that, contrary to the beliefs of some, the country’s earliest forms of solitary confinement were subject to significant regulation); Leonard G. Leverson, Constitutional Limits on the Power to Restrict Access to Prisons: An Historical Re-Examination , 18 Harv. C.R.-C.L. L. Rev. 409 (1983) (challenging the misperception that early prisons were closed to the public). In Solitary Confinement in the Young Republic , Professor David Shapiro notes that judicial oversight existed in the late eighteenth century at Walnut Street Jail. See Shapiro, supra note 3, at 561–62. However, Shapiro does not explore the extent of early judicial oversight of penal institutions throughout this period and the decades that followed. See id. at 547 (“It may be true that courts did not superintend prison conditions generally, but this Article shows such a claim would be incorrect if applied to solitary confinement specifically.”).",
+      "label": "footnote-text",
+      "word_count": 192
+    },
+    {
+      "text": "^ See, e.g. , Barbara Belbot, Where Can a Prisoner Find a Liberty Interest These Days? The Pains of Imprisonment Escalate , 42 N.Y. L. Sch. L. Rev. 1, 1–3 (1998); Susan N. Herman, Slashing and Burning Prisoners’ Rights: Congress and the Supreme Court in Dialogue , 77 Or. L. Rev. 1229, 1229–30 (1998); Judith Resnik, The Puzzles of Prisoners and Rights: An Essay in Honor of Frank Johnson , 71 Ala. L. Rev. 665, 693 (2020); Judith Resnik et al., Essay, Punishment in Prison: Constituting the “Normal” and the “Atypical” in Solitary and Other Forms of Confinement , 115 Nw. U. L. Rev. 45, 48–50 (2020); Margo Schlanger, The Constitutional Law of Incarceration, Reconfigured , 103 Cornell L. Rev. 357, 359–61 (2018) ; Margo Schlanger, Civil Rights Injunctions Over Time: A Case Study of Jail and Prison Court Orders , 81 N.Y.U. L. Rev. 550, 554 (2006); Margo Schlanger, Inmate Litigation , 116 Harv. L. Rev . 1555, 1562–63 (2003); Developments in the Law — The Law of Prisons , 115 Harv. L. Rev. 1838, 1844–45 (2002).",
+      "label": "footnote-text",
+      "word_count": 178
+    },
+    {
+      "text": "^ See, e.g. , Dolovich, supra note 12, at 245; Driver & Kaufman, supra note 14, at 538–39; Gutterman, supra note 2, at 859, 899–905; David M. Shapiro & Charles Hogle, The Horror Chamber: Unqualified Impunity in Prison , 93 Notre Dame L. Rev. 2021, 2037–42 (2018); James E. Robertson, “Catchall” Prison Rules and the Courts: A Study of Judicial Review of Prison Justice , 14 St. Louis U. Pub. L. Rev. 153, 153–54 (1994).",
+      "label": "footnote-text",
+      "word_count": 75
+    },
+    {
+      "text": "^ Just last year, Ryan Pollock argued in a Note in the Yale Law Journal that early conceptions of the separation of powers placed prisons under the purview of the executive branch rather than the judiciary. See generally Ryan Francis Pollock, Note, The Eyes-On Doctrine , 134 Yale L.J. 200 (2024). He identifies several of the same historical sources I present here, and although our pieces focus on different elements of the history of prison law, there is some overlap in our discussion of the separation of powers during the Founding era. Throughout this Article, I refer to his analysis where relevant.",
+      "label": "footnote-text",
+      "word_count": 102
+    },
+    {
+      "text": "^ See Robert J. Smith et al., State Constitutionalism and the Crisis of Excessive Punishment , 108 Iowa L. Rev. 537, 568 (2023) (“There is a recently reinvigorated dialogue among jurists and scholars aimed at restoring the primacy of state constitutions and state courts in enforcing individual rights.”).",
+      "label": "footnote-text",
+      "word_count": 48
+    },
+    {
+      "text": "May 12, 2025",
+      "label": "footnote-text",
+      "word_count": 3
+    }
+  ]
+}

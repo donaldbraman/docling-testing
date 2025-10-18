@@ -1,0 +1,823 @@
+{
+  "basename": "california_law_review_loving-borders",
+  "journal": "California Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 162,
+    "body_text": 46,
+    "footnote_text": 116,
+    "total_words": 9579
+  },
+  "paragraphs": [
+    {
+      "text": "In a term filled with high-profile cases,Department of State v. Muñoz[1]did not receive high-profile treatment. But the case was a critically important successor toDobbs v. Jackson Women’s Health Organization.[2]InMuñoz, the Court continued efforts, launched inDobbs, to shrink the protective force of the Due Process Clause. Even more significantly, inMuñoz, the Court launched another attack on the equality principle undergirdingLoving v. Virginia,[3]Lawrence v. Texas,[4]United States v. Windsor,[5]andObergefell v. Hodges.[6]Those cases embodied what Laurence Tribe once dubbed a “double helix” of due process and equal protection principles.[7]They show the Court’s effort (albeit imperfect) to weave together liberty guarantees and equality principles to better protect human dignity.[8]Muñozmade clear that the Court’s post-Dobbsreordering of constitutional principles is taking direct aim at both strands of the double helix. Through its rejection of substantive due process protections, the Court is intentionally weakening a broad swath of antidiscrimination protections and procedural due process rights.",
+      "label": "body-text",
+      "word_count": 147
+    },
+    {
+      "text": "This Essay explores the implications of theMuñozdecision. Part I summarizes the litigation and the resulting Supreme Court opinion. The Court took an unnecessarily maximalist approach inMuñoz, undermining the practical value of the right to marriage for individuals married to noncitizens. Part II argues that the Court did so through one of its frequently used moves: namely, denying rights protections to a U.S. resident (here, a citizen by birth and resident of California) through a sleight of hand that reducedMuñoz’s constitutional rights and interests to those of a constitutional “outsider.”[9]This aspect of the case foreshadows the continued erosion of constitutional protections for the members of historically subordinated groups. Part III explains how the decision rewrote five decades of constitutional case law by denying courts a role in reviewing immigrant admissions decisions of the political branches. Part IV excavates the racially discriminatory reasoning that implicitly undergirded the Court’s substantive due process analysis in Muñoz.[10]Invidious discrimination drove, and was manifested in, the Court’s reading of both founding-era history and its own precedent. Part V critiques the historical errors of the Court’s purportedly originalist account and its selected level of generality. The Essay concludes by highlighting the troubling implications ofMuñozfor the Constitution’s promise of equal protection.Muñoz’s limited reading of the “right to marriage” obviously shrinks the protective scope of the Constitution’s due process protections. But in so doing, it also legitimates familiar patterns of subordination along lines of race, gender, sexual orientation, and citizenship.",
+      "label": "body-text",
+      "word_count": 240
+    },
+    {
+      "text": "Table of ContentsShow",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "Sandra Muñoz, a U.S. citizen by birth, a workers’ rights lawyer, and a resident of Los Angeles,[11]filed a lawsuit when her husband, Luis Asencio-Cordero, was denied entry into the United States after he traveled to El Salvador.[12]Prior to his trip to El Salvador, Asencio-Cordero had been residing in the United States without documentation.[13]Several years after his marriage to Muñoz made him eligible for a family-based immigrant visa, he applied for his visa. Because the law required him to travel to El Salvador to process his visa,[14]Asencio-Cordero also applied for and received from the Department of Homeland Security a waiver of the unlawful presence bar that would otherwise have prevented him from returning to the United States for ten years.[15]Armed with that waiver, he left the United States to complete his visa application process in El Salvador.[16]Unfortunately, when he then sought to return to the United States, the State Department’s consular officials working in the embassy in El Salvador denied his visa application.[17]In justifying the visa denial, the government offered no formal explanation beyond a citation to a statutory provision: 8 U.S.C. § 1182(a)(3)(A)(ii). This provision bars the admission of a noncitizen whom the officer “knows, or has reasonable ground to believe, seeks to enter the United States to engage solely, principally, or incidentally in” certain specified offenses or “any other unlawful activity.”[18]",
+      "label": "body-text",
+      "word_count": 222
+    },
+    {
+      "text": "Muñoz argued that the U.S. Constitution protects the right to marriage and that her right to marriage was infringed by the government’s denial, without adequate explanation, of her husband’s entry into the United States.[19]She asked the Court to decide whether that infringement was permissible in light of the Fifth Amendment’s due process guarantee.",
+      "label": "body-text",
+      "word_count": 53
+    },
+    {
+      "text": "Ordinarily, where the fundamental right to marriage is infringed, strict scrutiny is the appropriate level of judicial scrutiny for the government’s infringing action.[20]Justice Barrett’s opinion for the Court’s majority acknowledged that the government’s infringement upon a fundamental right triggers strict scrutiny.[21]But this case also involved the government’s imposition of an immigration restriction. The Court previously held inKleindienst v. Mandel,[22]and reaffirmed quite recently inTrump v. Hawaii,[23]that the government’s national security interests in immigration regulation require courts to tread more lightly when reviewing such regulations.[24]",
+      "label": "body-text",
+      "word_count": 83
+    },
+    {
+      "text": "Accepting this earlier precedent, Muñoz conceded in litigation that the government was only required to provide a “facially legitimate and bona fide reason” for its denial of her husband’s visa.[25]Nevertheless, she argued that the government’s mere citation to a broad and vague statutory bar did not meet this standard. The government’s failure to provide her with a sufficient reason for the visa denial thereby unconstitutionally infringed on her right to marry.[26]The government provided her with additional information later, but this information was not given to her in time to allow her to contest the basis of the government’s decision.[27]",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "The Court could have focused, as Justice Gorsuch’s concurring opinion did,[28]on the question of whether the government’s explanation for the visa denial was constitutionally sufficient. Precedential decisions on that question had set the bar very, very low,[29]and it was plausible to conclude that the government met that bar. This was particularly the case since the government eventually did provide a more detailed reason for its exclusion of Asencio-Cordero.[30]",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "But rather than narrowly hold that the government’s explanations in this case complied with the Constitution’s requirement,[31]Justice Barrett’s majority opinion went significantly further than it needed to go in denying the claim. The majority concluded that Sandra Muñoz had no constitutional right at stake at all.[32]Instead of affirming that the fundamental right to marriage was implicated, but this infringement was constitutionally justified, the Court wrote that Muñoz was claiming “the right to bring her noncitizen spouse to the United States”[33]and concluded that such a constitutional right does not exist.[34]According to the Court, the government therefore owed Muñoz nothing beyond what Congress required when it barred her husband indefinitely from returning home to her. There is no constitutional right at stake when her husband is denied entry into the United States and therefore no constitutional floor for the procedures and justifications relating to the denial.",
+      "label": "body-text",
+      "word_count": 144
+    },
+    {
+      "text": "The majority’s opinion began: “Luis Asencio-Cordero seeks to enter the United States to live with Sandra Muñoz, his wife.”[35]The first line is misdirection. Although Asencio-Cordero was indeed a party to the lawsuit, it was Sandra Muñoz, a U.S. citizen, whose constitutional rights claim was before the Court. She sought information to help her better respond to the government’s denial of her husband’s admission to the United States.",
+      "label": "body-text",
+      "word_count": 67
+    },
+    {
+      "text": "The Court’s rhetorical move inMuñozis a familiar one. Four years ago, writing about the Court’s decision inDepartment of Commerce v. New York[36]andTrump v. Hawaii,[37]I observed that “a majority of the Supreme Court’s Justices are comfortable placing legal insiders outside of the scope of the Constitution’s protections. Both decisions . . . illustrate how they can easily do so, as both a doctrinal and a discursive matter, because of the proximity of these legal insiders to legal outsiders.”[38]Similarly, with its opening line inMuñoz, the Supreme Court conflated Muñoz’s legal claim with Asencio-Cordero’s. While their personal stakes were commensurate, their legal positions were not.",
+      "label": "body-text",
+      "word_count": 102
+    },
+    {
+      "text": "The purportedly originalist majority opinion inMuñozleaned hard into an expansive notion of plenary immigration authority that had been invented by the Court in the mid-twentieth century. The decision also relied heavily on another twentieth-century creation: the doctrine of consular nonreviewability. Subject to these doctrinal devices, as a noncitizen seeking entry, Asencio-Cordero was someone the Court treated as devoid of constitutional protections.",
+      "label": "body-text",
+      "word_count": 61
+    },
+    {
+      "text": "For the past seventy years, the Court has reasoned that noncitizens seeking admission are entitled to no rights beyond that which Congress grants them.[39]There is good reason to doubt whether the Court is right to treat Congress’s power over returning noncitizens as plenary and unchecked by constitutional constraints. Jack Chin has long disputed whether the late-nineteenth-century immigration cases that are understood as the source of immigration plenary power actually treat immigration as exceptional. He views the outcomes of these cases as consistent with other constitutional decisions of the time period that also tolerated comparable discrimination, rather than illustrative of an exceptional plenary immigration power.[40]Adam Cox has argued that the contemporary understanding of Congress’s immigration power as “plenary” is nowhere to be found in these early cases and is better understood as an invention of the Cold War era.[41]Deploying this broad, mid-twentieth-century notion of immigration plenary power, the Court has given Congress an unchecked ability to discriminate in ways that would be impermissible in almost all other areas of law.[42]",
+      "label": "body-text",
+      "word_count": 169
+    },
+    {
+      "text": "In the same time period, the Court also began to build out the “doctrine of consular nonreviewability,” which prevents courts from reviewing decisions by consular officials to deny admission to a noncitizen.[43]TheMuñozmajority adopted an absolutist approach to that doctrine, opining that “[v]isa denials are insulated from judicial review by the doctrine of consular nonreviewability.”[44]Notably, however, many courts have held that even if noncitizens lack a constitutional right to enter, they still have a legally cognizable interest in the question of their admissibility sufficient to give them standing to challenge their visa adjudication procedures in federal court.[45]",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "Courts have also recognized a constitutional dimension to judicial oversight of the immigration process, at least for noncitizens with “substantial connections” to the United States.[46]But the Court inMuñozembraced the doctrine of consular nonreviewability broadly and uncritically; it did nothing to assess the depths of Asencio-Cordero’s ties to the United States.[47]Instead, in coupling pat recitations of the broad sweep of consular nonreviewability with an equally underexamined acceptance of congressional plenary power over immigration, the Court rendered Asencio-Cordero rightless. The opinion repeatedly referenced and reaffirmed Asencio-Cordero’s utter lack of constitutional protection, drawing on numerous hand-picked decisions over the past seventy-five years while ignoring a wide swath of cases before and since that favor a much more nuanced inquiry.[48]",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "But what of Muñoz? Even if Asencio-Cordero is a stranger to the Constitution,[49]his spouse, a U.S. citizen and resident, is protected by the Constitution, and she claimed that the government infringed upon her right to marry. The Court has held that the Constitution’s Due Process Clauses protect the right to marry.[50]Indeed, in recent years, some lower courts have interpreted Supreme Court case law to mean that the denial of a spouse’s visa infringes on that constitutionally protected right and that the government is required to justify this infringement by providing an adequate explanation for the denial of that visa.[51]",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "Ordinarily, where the fundamental right to marriage is infringed, strict scrutiny is the appropriate level of scrutiny.[52]Because this case involved an immigration restriction—and because the Court held in cases likeMandel(as reaffirmed inTrump v. Hawaii) that the government’s national security interests in immigration regulation require courts to tread lightly when reviewing such regulations—the government was only required to provide a “facially legitimate and bona fide reason” for its infringement on the right.[53]Significantly, the fact that the case involved an immigration regulation does not negate the existence of the underlying constitutional right; it simply allows for a modification of the standard the government must meet to justify the infringement of the right. The question still should have been whether the government has done what was required to justify its infringement of the right.",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "Muñoz’s argument, then, was that the Constitution protects the right to marry, that the government’s action infringed her right to marriage, and that the Court must therefore decide whether that infringement was legally justified. But the majority slammed the door on her claim at the first step. Rather than analyzing the infringement on Muñoz’s right to marry, the Court reframed her claimed right as “the right to bring one’s noncitizen spouse into the country” and said that such a right does not exist. Rejecting the notion that “[t]he right to live with her noncitizen spouse in the United States is implicit in the ‘liberty’ protected by the Fifth Amendment,” Justice Barrett wrote for the majority:",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "Muñoz’s argument fails at the threshold. Her argument is built on the premise that the right to bring her noncitizen spouse to the United States is an unenumerated constitutional right. To establish this premise, she must show that the asserted right is “‘deeply rooted in this Nation’s history and tradition.’”Washington v. Glucksberg, 521 U.S. 702, 720–721 (1997). She cannot make that showing. In fact, Congress’s longstanding regulation of spousal immigration—including through bars on admissibility—cuts the other way.[54]",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "The Court pointed to statutory provisions of the last 150 years that barred the admission of certain noncitizens (including the spouses of U.S. citizens) as evidence that Muñoz had no constitutional interest in her husband’s case. In truth, the existence of these statutes established no such thing. The statutesdoestablish that Congress has passed laws at various points in time that have excluded some citizens’ noncitizen spouses, just as Congress has passed laws limiting gun ownership and prohibiting certain forms of speech and association. The existence of gun, speech, and associational regulations (including constitutional ones) does not mean that Second and First Amendment rights do not exist; the Court is still charged with assessing the constitutionality of Congress’s curtailment of these rights. That is what the Court should have done with Muñoz’s due process claim, just as it did previously when a visa denial implicated the rights of U.S. citizens inMandel.[55]",
+      "label": "body-text",
+      "word_count": 150
+    },
+    {
+      "text": "Instead, just as inRegentsandHawaii, the Court glossed over the effects of governmental officials’ conduct on an individual unquestionably protected by the Constitution—here, barring her spouse without explanation—by focusing on the absence of rights of the legal outsider and failing to recognize the distinct harms to (and rights claims of) a legal insider.",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "Nor are the constitutional implications of the case limited to the narrowing of substantive due process protections for marriage. As part of its analysis, the Court inMuñozalso erased certain protections for First Amendment rights, essentially rewriting its own opinion inKleindienst v. Mandel. InMandel, U.S. citizen faculty members challenged a State Department decision to exclude, without explanation, a Belgian journalist and Marxian theoretician that the U.S. professors sought to bring to the United States for debate and discussion.[56]While the Court inMandelreiterated its mid-twentieth-century conclusion that noncitizens outside the United States had no legal basis upon which to challenge their exclusion,[57]the Court also recognized that the U.S. professors’ “First Amendment rights [were] implicated”[58]by Mandel’s exclusion because they had a First Amendment right to hear Mandel speak. Thus, the Court recognized that the constitutional rights of U.S. citizens were implicated even if noncitizens did not have a legal basis to challenge the visa denial. Nonetheless, the Court found that those interests were outweighed in the case at hand because the government had provided a “facially legitimate and bona fide reason” for Mandel’s exclusion.[59]Given the supposed national security implications inhering in the government’s decision to admit a noncitizen, the Court was not willing to look further behind the government’s explanation.",
+      "label": "body-text",
+      "word_count": 206
+    },
+    {
+      "text": "In the intervening decades,Mandelhas been read to signify that the government must offer a “facially legitimate and bona fide reason” for the exclusion of a noncitizen when that exclusion infringes on the rights of U.S. citizens.[60]As recently as 2018, the Court itself reiterated that principle.[61]Yet inMuñoz, the majority walked away from this understanding ofMandelentirely. Justice Barrett wrote for the majority that “[t]he ‘facially legitimate and bona fide reason’ inMandelwas the justification for avoiding a difficult question of statutory interpretation; it had nothing to do with procedural due process.”[62]The opinion continued, “Whatever else it may stand for,Mandeldoes not hold that a citizen’s independent constitutional right (say, a free speech claim) gives that citizen a procedural due process right to a ‘facially legitimate and bona fide reason’ for why someone else’s visa was denied.”[63]The upshot is that even if a U.S. citizen does have a protected constitutional right that is implicated by the denial of a noncitizen’s visa, there is no procedural remedy for that constitutional infringement unless Congress provides for it.",
+      "label": "body-text",
+      "word_count": 170
+    },
+    {
+      "text": "This was a startling re-reading ofMandel. Under the majority’s novel reading ofMandel, no U.S. citizen could ever challenge a visa denial that infringed on their constitutional rights unless Congress provided some statutory mechanism for such a challenge. If this has always been the law, one wonders why the Court inTrump v. Hawaiiin 2018 wrote: “[A]lthough foreign nationals seeking admission have no constitutional right to entry, this Court has engaged in a circumscribed judicial inquiry when the denial of a visa allegedly burdens the constitutional rights of a U. S. citizen.”[64]With the novel reading ofMandeloffered by the Court inMuñoz, the Court not only eviscerated constitutional marital protections in the visa process, but also appear to have extinguished a full array of associational and speech protections for individuals whose rights are intertwined with legal outsiders seeking entry.",
+      "label": "body-text",
+      "word_count": 135
+    },
+    {
+      "text": "IfMuñozfits into a familiar pattern of turning constitutional protections inside out, it is familiar in other ways as well. Most notably, Muñoz’s failed constitutional claim stands in a long line of cases in which the Court endorses a racialized narrative of an immigration threat to the nation in order to justify sharp curtailments of rights, including substantive and procedural due process protections.[65]The Court gestured to national security concerns to justify its decision not to require the government to do more than cite to a broad and vague statutory provision in denying entry to Muñoz’s spouse. This is a recurring motif in the Court’s decisions concerning immigrant admissions. In fact, the racist roots of the contemporary plenary power doctrine and the rhetoric that has been offered in support of it are well documented.[66]",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "But it is not just the doctrinal history that is tainted. So too is the analysis inMuñoz. After opening with a sentence framing the case as a question of Asencio-Cordero’s legal rights,[67]the majority wrote: “A consular officer denied his application, however, after finding that Asencio-Cordero is affiliated with MS–13, a transnational criminal gang. Because of national security concerns, the consular officer did not disclose the basis for his decision.”[68]",
+      "label": "body-text",
+      "word_count": 69
+    },
+    {
+      "text": "After the couple filed a lawsuit in federal district court to unearth the reasons for the denial, the district court ordered discovery:",
+      "label": "body-text",
+      "word_count": 22
+    },
+    {
+      "text": "In a sworn declaration, an attorney adviser from the State Department explained that Asencio-Cordero was deemed inadmissible because he belonged to MS–13 . . . . ”based on the in-person interview, a criminal review of . . . Asencio[-]Cordero, and a review of [his] tattoos.” App. to Pet. for Cert. 124a. In addition to the affidavit, the State Department provided the District Court with confidential law enforcement information, which it reviewedin camera, identifying Asencio-Cordero as a member of MS–13.[69]",
+      "label": "body-text",
+      "word_count": 79
+    },
+    {
+      "text": "Apparently, then, the governmentcouldprovide a federal court with the basis for its denial without posing a national security threat; the government eventually did so in Muñoz’s case, though too late to allow for timely contestation of the evidence.[70]Over the course of the litigation in district court, however, the government continued to deny the couple the ability to see and contest much of this evidence. Confronted with a racialized set of conclusions about tattoos and gang membership,[71]the couple had the opportunity to introduce evidence contesting the government’s conclusion that Asencio-Cordero’s tattoos signified gang membership.[72]But they had no way to assess, let alone refute, other bases of the consular official’s conclusions concerning Asencio-Cordero’s purported gang involvement, such as the law enforcement affidavit that was reviewed by that official.[73]",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "The existence of a law enforcement affidavit of uncertain content, upon which the State Department relied in refusing Asencio-Cordero entry, is hardly reassuring, given the well-documented problems with law enforcement gang designations.[74]In Asencio-Cordero’s state of residence, California, problems with the state’s gang database have been extensively documented by the state’s own auditor.[75]The California legislature ultimately enacted new laws to limit gang designations and improve oversight of and data entry into the system,[76]but these reforms were enacted after Asencio-Cordero left the country.[77]The Court’s easy acceptance of the government’s assertion that Asencio-Cordero, a man who had lived in the United States for ten years prior to his 2015 departure without a criminal record,[78]posed a national security threat reflects the Court’s own comfort with the government’s racialized threat narrative.",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "Once the Court made plain that it had no intention of providing Muñoz with a way to learn more about the government’s proffered justifications for excluding a long-time resident with deep familial ties to citizens in the United States, it refashioned its due process analysis to provide historical and doctrinal ballast for the conclusion. The historical analysis that the Court offers is unsatisfying. As noted earlier,[79]the Court’s many citations to previous regulations limiting the entry of noncitizen spouses did not, as the Court argued, require the conclusion that there is no right to marriage infringed upon in this case.[80]",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "But the problems run deeper and are particularly notable in an analysis that purports to look to original meaning to determine whether a right is supported by the nation’s “history and tradition.”[81]Most troublingly, the historical examples the Court used were simply inaccurate. The only founding-era evidence that the Court provided to refute Muñoz’s claimed right was a miscitation to James Madison.[82]Ilya Somin has pointed out that the cited passage stands for precisely the opposite proposition to the one advanced by the Court.[83]If the question is truly “does ‘history and tradition’ at the time of the founding reflect unregulated spousal immigration,” the answer would appear to be “yes” since there wasnolaw limiting the immigration of the spouses of U.S. citizens on the books until decades after the founding.[84]The earliest example of bars to spousal admission that the majority opinion provided was from the heyday of racist exclusion policies: 1882.[85]This matters because it shows how mobility restrictions in the United States have been deeply intertwined with a project of racial exclusion.[86]",
+      "label": "body-text",
+      "word_count": 169
+    },
+    {
+      "text": "A selective history of the nation’s immigration laws was one tool that the Court used in denying Muñoz’s claim; a second was its selected level of generality. In determining whether Asencio-Cordero’s visa denial violated Muñoz’s constitutional rights, the Court needed to determine the level of generality at which to define the right in question. InMuñoz, the dissent defined the right in question as Muñoz’s right to marry and identified the infringement as the government’s denial, without explanation, of Asencio-Cordero’s visa.[87]The majority, on the other hand, concluded that the right to marry was not implicated here; Muñoz was “already married” and sought something more—here, the right to immigrate her spouse.[88]But due to its insistence that the right encompasses only formal governmental recognition of a marriage, the Court was forced to ignore the facts of many cases in which the Court has analyzed the right to marry. The Lovings were “already married,” but they wanted to live together as married in Virginia.[89]Windsor was “already married,” but she sought the tax benefits of a married person.[90]Obergefell was “already married,” but he sought recognition of his marriage in another state.[91]It is no answer to the claim to say that Muñoz is married. The cases concerning the right to marry make clear that the right has substantive dimensions. The Court’s opinion ignored this reality, laying the groundwork for further limiting the protective scope of the right to marry in future cases.",
+      "label": "body-text",
+      "word_count": 236
+    },
+    {
+      "text": "In this way, theMuñozdecision is part of a broader effort by the Court’s conservative majority to use its selected level of generality to narrow the scope of substantive due process protections.[92]Again, the Court uses the claims of legal outsiders to reframe and weaken the rights protections of legal insiders.[93]And by mobilizing racialized, criminalizing tropes to frame Asencio-Cordero’s claim, the Court not only allowed for completely unjustified impositions on the right to marriage at the will of the consulate, but also narrowed, for everyone, the scope of rights protections embedded in the right to marriage.",
+      "label": "body-text",
+      "word_count": 94
+    },
+    {
+      "text": "The Court’s due process analysis inMuñozalso threatens a broad swath of jurisprudential equality principles. Since the late 1960s, the Court increasingly shifted its protection of equality rights for political minorities and historically disfavored groups from the domain of equal protection analysis to that of liberty of due process. In 1974, Louis Henkin wrote about “constitutional displacement,” using the phrase to refer to the way that the Court used enumerated rights to do the work of substantive due process in a period when the latter doctrine had been discredited during the New Deal.[94]Kenji Yoshino repurposed Henkin’s insight in his 2011 article,The New Equal Protection, in which he both described and celebrated the Court’s evolving approach to equality claims.[95]He read Henkin’s analysis to suggest that “[s]queezing law is often like squeezing a balloon. The contents do not escape but erupt in another area.”[96]",
+      "label": "body-text",
+      "word_count": 141
+    },
+    {
+      "text": "Yoshino noted that the Court at that time was increasingly leaning into due process as the legal basis for the protection of rights that it might just as easily analyze as equal protection problems—a new example of constitutional displacement. He traced these developments back to the example ofLoving, in which Justice Warren used a “double barreled” approach, combining equal protection and due process analysis.[97]Yoshino contended that Justice Warren did so to “overc[o]me (as much as is possible in conventional doctrinal terms) the hermetic separation of liberty and equality claims, emphasizing again the interrelationship between the two.”[98]He described the Court’s continuation of this trend in cases likeLawrence v. Texas—a decision that he framed as “an end run around bars on heightened scrutiny.”[99]",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "Scholars before and after Yoshino have recognized and analyzed the interplay between liberty and equality in the Court’s substantive due process decisions inLoving,[100]Roe,[101]Lawrence,[102]and beyond. In particular, scholars who had made the case for abortion rights as an equality concern have long noted the interplay of liberty and equality protections at issue in the Court’s abortion rights analysis.[103]Several opinions of the Court inPlanned Parenthood of Southeastern Pennsylvania v. Caseyalso reflect this notion.[104]More recently, in analyzing theObergefellmarriage equality decision, Laurence Tribe argued that “Obergefell’s chief jurisprudential achievement is to have tightly wound the double helix of Due Process and Equal Protection into a doctrine ofequal dignity—and to have located that doctrine in a tradition of constitutional interpretation as an exercise in public education.”[105]Both Yoshino and Tribe sawObergefell’s equal dignity principle as replacing the substantive due process inquiry outlined inGlucksberg, which bound the analysis to wooden interpretations of historic and traditional rights.[106]",
+      "label": "body-text",
+      "word_count": 149
+    },
+    {
+      "text": "Muñozmade clear that the current Court intends to treat the emergence of constitutional notions of equal dignity as a jurisprudential blip. TheMuñozdecision gave pride of place to the approach inGlucksbergthat defines the claimed right at a very high level of specificity,[107]rejecting Muñoz’s fundamental rights claim through its narrow application of a history and tradition test founded upon a highly selective historical narrative.[108]In cases likeLawrence, and most certainly inObergefell, the Court was able to affirm substantive due process protections by setting a generous level of generality when defining the right in question. The level of generality at which the Court evaluated the right was key to the Court’s affirmation of substantive due process protection for the liberty of one consenting adult to engage in sexual activity with another.[109]The same was true of the Court’s decision recognizing the constitutional protection of same-sex marriage.[110]The majority opinion inMuñozseemingly closed the door on the capacious substantive due process analysis of these earlier cases.[111]And in failing to recognize that the facts of the case implicated any legal protections whatsoever for Muñoz’s marriage, the Court went even further, threatening every meaningful substantive and procedural protection that might otherwise have been thought to inhere in the marriage right.",
+      "label": "body-text",
+      "word_count": 200
+    },
+    {
+      "text": "What does this portend for equality claims more broadly? When Yoshino wrote about the “new equal protection” in 2011, it was to express optimism about the Court’s liberty turn. Yoshino attributed the Court’s reluctance to expand equal protection categories to “pluralism anxiety”—that is to say, the Court’s reluctant approach to equal protection emerged out of a concern that there were simply too many different groups that might claim the protection of heightened tiers of scrutiny.[112]Yoshino himself suggested that the tier stratifications of the equal protection doctrine carried both jurisprudential and political costs.[113]He therefore saw the liberty turn as a way for the Court to extend rights protections without reliance on identity categories, optimistically believing that it was “pluralism anxiety” rather than an “anti-antidiscrimination agenda”[114]that motivated the Court’s turn away from robust equal protection applications.[115]",
+      "label": "body-text",
+      "word_count": 134
+    },
+    {
+      "text": "But the Court’s most recent decisions make clear that liberty of due process can no longer serve an equality-promoting function. With its hard turn to a conservative history and tradition analysis, the Court has signaled an intention to anchor due process analysis in the power hierarchies of an imagined past. At the same time, the Court’s religious liberty and equal protection jurisprudence has also been reconfigured in ways that promote those same hierarchies.[116]",
+      "label": "body-text",
+      "word_count": 73
+    },
+    {
+      "text": "TheMuñozmajority opinion does not revisit the Court’s previous marriage cases, but the revivifiedGlucksberganalysis inMuñozraises some questions about their continued robustness.Muñozportends a “right to marriage” with little substantive content and a hard national border that affords no rights to those whose associational ties span it. The Court’s decision inMuñozillustrates how shifts in its doctrinal analysis threaten both the libertyandequality values embodied in the line of cases that only very recently began to provide constitutional protections for the marriages and intimate associations of all the nation’s people, including those most politically vulnerable.",
+      "label": "body-text",
+      "word_count": 90
+    },
+    {
+      "text": "Copyright © 2025 Jennifer M. Chacón, Bruce Tyson Mitchell Professor of Law, Stanford Law School. I would like to thank all of the participants in the 2024California Law Review“Equality Besieged: A Critical Analysis of Supreme Court Jurisprudence” Symposium, and especially the organizers, Jonathan D. Glater and Russell Robinson, and Dean Erwin Chemerinsky. I would also like to thank the many people who engaged with this piece at various stages of completion, including Natalia Anguiano, Matthew Boaz, Linus Chen, Colleen Chien, Jack Chin, Jill Hasday, Eisha Jain, Jonathan Shaub, Liliana Zaragoza, and the many other student and faculty participants at workshops at the University of Minnesota, the University of Kentucky Rosenberg College of Law, and theNorth Carolina Law ReviewSymposium Justice in the Age of Criminal Records.",
+      "label": "body-text",
+      "word_count": 125
+    },
+    {
+      "text": "The new regulations governing the use of the database are therefore of little help to Asencio-Cordero and others like him, who continue to be haunted by designations that remain tied to their official and unofficial records.See alsoAna Muñiz, Borderland Circuitry: Immigration Surveillance in the United States and Beyond 25–31 (2022); Jennifer M. Chacón,Whose Community Shield?: Examining the Removal of the “Criminal Street Gang Member,”2007 U. Chi. Legal F. 317, 340 (2007) (arguing that federal officers likely resort to racial profiling in the absence of a legal definition of criminal street gang membership); Katherine Conway,Fundamentally Unfair: Databases, Deportation, and the Crimmigrant Gang Member, 67 Am. U. L. Rev. 269, 285, 291 (2017) (finding that database entries present significant due process and data accuracy concerns, with many people not knowing that they are listed in these databases); Mary Holper,Gang Accusations: The Beast that Burdens Non-Citizens, 89 Brook. L. Rev. 119, 138 (2023) (“As one critique of the Boston Gang Database put it, ‘[g]ang designations function like a caste: once a person has been branded a gang member, that label follows them in every interaction they have with law enforcement.’”).",
+      "label": "body-text",
+      "word_count": 187
+    },
+    {
+      "text": "The Court has used liberty analysis to mitigate its curtailment of group-based equality analysis. This movement toward liberty has not secured all the ends that would have been available under an extension of the traditional group-based equal protection analysis. Nonetheless, progressives should pay more heed to this move toward liberty. The liberty-based dignity claim has been the Court’s way of splitting the difference between a direct extension of equality analysis and its absolute foreclosure.",
+      "label": "body-text",
+      "word_count": 74
+    },
+    {
+      "text": "Yoshino,supranote 8,at 776.",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "© 2025California Law Review,Inc. All rights reserved.",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "[1]. See generally602 U.S. 899 (2024) (holding that a U.S. citizen has no constitutional right to reside in the United States with her noncitizen spouse).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "[2]. See generally597 U.S. 215 (2022) (holding that the Constitution does not protect a right to abortion).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": "[3]. See generally388 U.S. 1 (1967) (holding that the Constitution protects the right to marry and live as married with a person of a different race).",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": "[4]. See generally539 U.S. 558 (2003) (holding that the Constitution protects the right of consenting adults to engage in same-sex sexual activity).",
+      "label": "footnote-text",
+      "word_count": 22
+    },
+    {
+      "text": "[5]. See generally570 U.S. 744 (2013) (holding that the Constitution protects the right of married same-sex couples to all of the federal benefits of marriage).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "[6]. See generally576 U.S. 644 (2015) (holding that the Constitution protects the right of same-sex couples to marry and live as married). For discussions of the role of the equality principle in the cases leading up toWindsorandObergefell, seeLaurence H. Tribe, Lawrence v. Texas: The “Fundamental Right” That Dare Not Speak Its Name, 117 Harv. L. Rev. 1893, 1897–98 (2004) (“Lawrence. . . both presupposed and advanced an explicitly equality-based and relationally situated theory of substantive liberty.”); Rebecca L. Brown,Liberty, the New Equality, 77 N.Y.U. L. Rev. 1491, 1506–09 (2002) (discussing the liberty-protective work of equal protection jurisprudence inLovingand other cases); William N. Eskridge, Jr.,Destabilizing Due Process and Evolutive Equal Protection, 47 UCLA L. Rev. 1183, 1195 (2000) (“The Court has applied the right to marry with attention to the Fourteenth Amendment’s overall goals and without regard to the particular [due process or equal protection] constitutional provision invoked.”); Kenneth L. Karst,The Liberties of Equal Citizens: Groups and the Due Process Clause, 55 UCLA L. Rev. 99, 99 (2007) (“The Fourteenth Amendment’s guarantee of equal citizenship includes a generous measure of equal liberties. True, the right of equal citizenship usually is realized in the name of the Equal Protection Clause. But, it has also found notable expression in substantive liberties protected by the Due Process Clause.”).",
+      "label": "footnote-text",
+      "word_count": 214
+    },
+    {
+      "text": "[7]. SeeTribe,supranote 6, at 1898.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[8]. See id.;see alsoKenji Yoshino,The New Equal Protection, 124 Harv. L. Rev. 747, 749 (2011) (arguing that expansive interpretations of due process rights partly compensated for the diminishing rights protections arising out of the Supreme Court’s limiting interpretations of the equal protection clause).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "[9]. This portion of the Essay contends thatDepartment of State v. Muñozis a new example of this phenomenon, which I first described in my 2020 Supreme Court Review article.SeeJennifer M. Chacón,The Inside-Out Constitution:Department of Commerce v. New York, 2019 Sup. Ct. Rev. 231, 235 (2020).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": "[10]. This portion of the Essay reflects back on, builds upon, and offers some correctives to my 2007 article.See generallyJennifer M. Chacón,Loving Across Borders: Immigration Law and the Limits ofLoving, 2007 Wis. L. Rev. 345 (2007) (analyzing the ways that federal immigration restrictions infringe on the right to marry).",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": "[11]. Dep’t of State v. Muñoz, 602 U.S. 899, 927 (2024) (Sotomayor, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "[12]. Id.at 904–05 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[13]. See id.at 904.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "[14]. Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": "[15]. See8 U.S.C. § 1182(a)(9)(B)(i)(II). This bar was enacted as part of the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 1996. In 2019, the Migration Policy Institute issued a report estimating that “roughly 1.2 million spouses of U.S. citizens or green-card holders are effectively blocked by the ten-year bar from obtaining green cards for which they might otherwise be eligible.” Doris Meissner & Julia Gelatt, Migration Pol’y Inst., Eight Key U.S. Immigration Policy Issues: State of Play and Unanswered Questions 16 (2019), https://www.migrationpolicy.org/sites/default/files/publications/ImmigrationIssues2019_Final_WEB.pdf [https://perma.cc/568H-Z79N].",
+      "label": "footnote-text",
+      "word_count": 86
+    },
+    {
+      "text": "[16]. Muñoz, 602 U.S. at 904.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[17]. Id.at 905.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[18]. 8 U.S.C. § 1182(a)(3)(A)(ii). The statute generally requires that individuals be provided with a “timely written notice” that states the government’s determination and cites applicable law but contains an exception for individuals excluded on crime and security related grounds. Prior to this decision, the Court had found that a citation to the statutory grounds of exclusion would satisfy the constitutional claims of a family member of an excluded noncitizen.SeeKerry v. Din, 576 U.S. 86, 104 (2015) (Kennedy, J., concurring). AfterMuñoz, even a statutory citation is unnecessary unless Congress requires it.",
+      "label": "footnote-text",
+      "word_count": 91
+    },
+    {
+      "text": "[19]. Muñoz, 602 U.S. at 903, 910.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "[20]. See, e.g., Zablocki v. Redhail, 434 U.S. 374, 381, 384, 388 (1978) (“AlthoughLovingarose in the context of racial discrimination, prior and subsequent decisions of this Court confirm that the right to marry is of fundamental importance for all individuals . . . . When a statutory classification significantly interferes with the exercise of a fundamental right, it cannot be upheld unless it is supported by sufficiently important state interests and is closely tailored to effectuate only those interests.”).",
+      "label": "footnote-text",
+      "word_count": 79
+    },
+    {
+      "text": "[21]. Muñoz, 602 U.S. at 910. Justice Barrett’s framing of the issue is notable because several of the justices who signed on to the opinion have previously raised questions about the continued viability of the tiers of scrutiny approach.See, e.g., Whole Woman’s Health v. Hellerstedt, 579 U.S. 582, 638–41 (2016) (Thomas, J., dissenting) (criticizing the Court’s reliance on “made-up tests” that displace the country’s “longstanding national traditions” in determining what the Constitution means); United States v. Rahimi, 602 U.S. 680, 731–32 (2024) (Kavanaugh, J., concurring) (“I am challenging the notion that those tests are the ordinary approach to constitutional interpretation. And I am arguing against extending those tests to new areas . . . .”). Indeed, recent Second Amendment cases rely solely on historical tests rather than on an articulation of heightened scrutiny for the right.See, e.g., N.Y. State Rifle & Pistol Ass’n, Inc. v. Bruen, 597 U.S. 1, 24 (2022) (finding that, to survive constitutional review, the government must show that a gun control measure “is consistent with the Nation’s historical tradition of firearm regulation”).",
+      "label": "footnote-text",
+      "word_count": 176
+    },
+    {
+      "text": "[22]. See generally408 U.S. 753 (1972) (affirming the exclusion of a Belgian journalist from the United States on security grounds, notwithstanding the imposition on the First Amendment rights of U.S. citizens, where the government provided a facially legitimate and bona fide reason for the exclusion).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": "[23]. 585 U.S. 667, 702–03 (2018) (“For more than a century, this Court has recognized that the admission and exclusion of foreign nationals is a ‘fundamental sovereign attribute exercised by the Government’s political departments largely immune from judicial control’ . . . . Nonetheless, although foreign nationals seeking admission have no constitutional right to entry, this Court has engaged in a circumscribed judicial inquiry when the denial of a visa allegedly burdens the constitutional rights of a U.S. citizen.”) (internal citations omitted).",
+      "label": "footnote-text",
+      "word_count": 82
+    },
+    {
+      "text": "[24]. Id.at 704;Mandel, 408 U.S. at 765, 770.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "[25]. See Muñoz, 602 U.S. at 907 n.2;id.at 920 (Gorsuch, J., concurring);see also id.at 921 (Sotomayor, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "[26]. Id.at 906, 910 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[27]. Id.at 929 (Sotomayor, J., dissenting) (discussing the Ninth Circuit’s opinion adopting this argument).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "[28]. Id.at 920 (Gorsuch, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[29]. InKerry v. Din, for example, Justice Kennedy’s necessary concurrence assumed without deciding that the visa denial infringed upon the right to marry, but found the government had sufficiently justified this infringement by offering a facially legitimate and bona fide reason for the denial in the form of a citation to a different, more descriptive, statutory provision than the one at issue inMuñoz. 576 U.S. 86, 105 (2015) (Kennedy, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 71
+    },
+    {
+      "text": "[30]. See Muñoz, 602 U.S. at 906–07.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "[31]. This was what Justice Kennedy’s necessary concurrence did inDin.See576 U.S. at 104 (Kennedy, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": "[32]. Muñoz, 602 U.S. at 919.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[33]. Id.at 903.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[34]. Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": "[35]. Id.at 902.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[36]. See generally588 U.S. 752 (2019) (upholding the District Court’s injunction of the Commerce Department’s addition of a citizenship question to the 2020 census because the Department’s proffered justifications for the question were pretextual in violation of the Administrative Procedure Act).",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": "[37]. See generally587 U.S. 667 (2018) (upholding the President’s entry restrictions on migrants from eight countries, most of which were predominantly Muslim).",
+      "label": "footnote-text",
+      "word_count": 22
+    },
+    {
+      "text": "[38]. Chacón,supranote 9.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[39]. Kleindienst v. Mandel, 408 U.S. 753, 762 (1972).But seeLandon v. Plasencia, 459 U.S. 21, 32–34 (1982) (acknowledging that a noncitizen seeking to return to the United States is entitled to some constitutional protection if they were a “continuously present” permanent resident). Here, the Court did not consider the question of whether Asencio-Cordero’s long residence and deep familial ties in the United States might entitle him to greater constitutional protection than that afforded to noncitizens in cases likeUnited States ex rel. Knauff v. Shaughnessy, 388 U.S. 537 (1950), upon which the majority leaned heavily inMuñoz.Muñoz, 602 U.S. at 914.",
+      "label": "footnote-text",
+      "word_count": 99
+    },
+    {
+      "text": "[40]. Gabriel J. Chin,Is There a Plenary Power Doctrine? A Tentative Apology and Prediction for Our Strange but Unexceptional Constitutional Immigration Law, 14 Geo. Immigr. L.J. 257, 287 (2000).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "[41]. Adam Cox,The Invention of Immigration Exceptionalism, 134 Yale L.J. 329, 417–19 (2024).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": "[42]. Seeid.at 437.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[43]. Although the Court treats the doctrine as a timeless historical artifact, it is not. Judicial decisions declining to review challenges to consular decision-making have only cited cases from the 1930s onward and have suggested that, in earlier times, all such disputes were resolved through diplomacy.See, e.g., Saavedra Bruno v. Albright, 197 F.3d 1153, 1159–60 (D.C. Cir. 1999). As Justice Sotomayor noted in her dissent, “Judges created this doctrine because of the otherwise ‘strong presumption that Congress intends judicial review of administrative action.’”Muñoz, 602 U.S. at 935 n.4 (Sotomayor, J., dissenting) (quoting Bowen v. Mich. Acad. of Fam. Physicians, 476 U.S. 667, 670 (1986)). Far from a historically mandated requirement, the “doctrine” should be understood as a judicially-created exception to congressionally-enacted administrative procedure requirements that contain no such exception.",
+      "label": "footnote-text",
+      "word_count": 129
+    },
+    {
+      "text": "[44]. Muñoz, 602 U.S. at 906.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[45]. See, e.g., Ranjan v. U.S. Dep’t of Homeland Sec., No. 23-2453, 2024 WL 3835355, at *4, *7–8 (D.D.C. Aug. 15, 2024) (citing numerous cases to assert that “courts in this district have routinely held that plaintiffs living outside the United States have standing to challenge unreasonable delays in the adjudication of their visa applications”).",
+      "label": "footnote-text",
+      "word_count": 55
+    },
+    {
+      "text": "[46]. Id.at *5;see alsoLandon v. Plasencia, 459 U.S. 21, 32–34 (1982);supratext accompanying note 39.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "[47]. SeeMuñoz, 602 U.S. at 908 (quickly dispensing with any claim Asencio-Cordero may have to a constitutional right).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "[48]. SeeCox,supranote 41, at 439. (“KnauffandMezei’s mid-twentieth-century reimagining of those foundational immigration cases . . . had ignored four decades of jurisprudence in which the Supreme Court had required due process forallnoncitizens facing expulsion, even those stopped at the border who had yet to enter.”).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": "[49]. Cf.generallyGerald L. Neuman, Strangers to the Constitution: Immigrants, Borders, and Fundamental Law (1996) (documenting the repeated efforts of U.S. citizen insiders to claim the Constitution as their exclusive property and to deny constitutional rights to noncitizens and even citizens abroad). The Court has steadily expanded the category of unprotected individuals to include those who are in administrative proceedings and detained in the United States.See, e.g., Dep’t of Homeland Sec. v. Thuraissigiam, 591 U.S. 103 (2020) (denying federal judicial review and the protection of both the Constitution’s Suspension Clause and Due Process Clause to certain noncitizens detained on U.S. soil). For a discussion of the significance of the case, see Jennifer M. Chacón,Stranger Still:Thuraissigiamand the Shrinking Constitution, Am. Const. Soc’y, https://www.acslaw.org/stranger-still-thuraissigiam-and-the-shrinking-constitution/ [https://perma.cc/VZB8-DM9U].",
+      "label": "footnote-text",
+      "word_count": 122
+    },
+    {
+      "text": "[50]. SeeLoving v. Virginia, 388 U.S. 1, 12 (1967) (recognizing that the “freedom to marry has long been recognized as one of the vital personal rights essential to the orderly pursuit of happiness by free men”); Zablocki v. Redhail, 434 U.S. 374, 386 (1978) (summarizing the Court’s long line of cases treating marriage as a fundamental right and reiterating “that every state regulation which relates in any way to the incidents of or prerequisites for marriage must be subjected to rigorous scrutiny”); Obergefell v. Hodges, 576 U.S. 644, 663–65 (2015) (same).",
+      "label": "footnote-text",
+      "word_count": 91
+    },
+    {
+      "text": "[51]. This was true in the Ninth Circuit’s decision inMuñoz.Muñoz v. U.S. Dep’t of State, 50 F.4th 906, 909 (9th Cir. 2022),cert. granted in part, rev’d sub nom.Dep’t of State v. Muñoz, 602 U.S. 899 (2024);see alsoCardenas v. United States, 826 F.3d 1164, 1172 (9th Cir. 2016). Courts in some other circuits have recently held to the contrary, prefiguring the Court’s conclusion inMuñoz.See, e.g., Colindres v. U.S. Dep’t of State, 71 F.4th 1018, 1023 (D.C. Cir. 2023) (“[Plaintiffs] cannot show that the Government’s visa denial burdened [petitioner’s spouse’s] fundamental rights.”). UntilMuñoz, the Supreme Court had avoided directly answering the question, though inKerry v. Din, the majority of the Justices either concluded that such a right existed or assumed, without deciding, that a visa denial implicated the marriage right.SeeKerry v. Din, 576 U.S. 86, 102 (2015) (Kennedy, J., concurring);id.at 102. (Breyer, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 142
+    },
+    {
+      "text": "[52]. See,e.g.,Zablocki, 434 U.S. at 386–87 (noting that not all regulations that incidentally affect marriage receive the highest levels of scrutiny, but regulations that “interfere directly and substantially with the right to marry” receive “rigorous scrutiny”).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": "[53]. SeeKleindienst v. Mandel, 408 U.S. 753, 765, 770 (1972);Din, 576 U.S. at 103–05 (Kennedy, J., concurring); Trump v. Hawaii, 587 U.S. 667, 704 (2018).",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "[54]. Muñoz, 602 U.S. at 903.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[55]. Mandel, 408 U.S. at 765 (first recognizing that Mandel’s visa denial implicated citizens’ First Amendment rights before noting that this was “not dispositive of our inquiry,” and ultimately concluding that the government had sufficiently justified Mandel’s exclusion despite the constitutional interests at stake).",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": "[56]. Id.at 756–59.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[57]. SeeHarisiades v. Shaughnessy, 342 U.S. 580, 591–92 (1952);see alsoUnited Statesex rel.Knauff v. Shaughnessy, 338 U.S. 537, 542–43 (1950).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": "[58]. Mandel, 408 U.S. at 765.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[59]. Id.at 769–70.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[60]. SeePeter H. Schuck, Kleindienst v. Mandel,inImmigration Stories 169 (David A. Martin & Peter H. Schuck eds., 2005).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": "[61]. Trump v. Hawaii, 587 U.S. 667, 702–04 (2018).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "[62]. Dep’t of State v. Muñoz, 602 U.S. 899, 918 (2024).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "[63]. Id.at 919.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[64]. Hawaii, 587 U.S. at 702.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[65]. SeePing v. United States (The Chinese Exclusion Case), 130 U.S. 581, 606 (1889) (“If, therefore, the government of the United States, through its legislative department, considers the presence of foreigners of a different race in this country, who will not assimilate with us, to be dangerous to its peace and security, their exclusion is not to be stayed because at the time there are no actual hostilities with the nation of which the foreigners are subjects.”); Fong Yue Ting v. United States, 149 U.S. 698, 706–07 (1893); Nishimura Ekiu v. United States, 142 U.S. 651, 659–60 (1892);Hawaii, 585 U.S. at 751 (Sotomayor, J., dissenting) (“In holding that the First Amendment gives way to an executive policy that a reasonable observer would view as motivated by animus against Muslims, the majority opinion upends this Court’s precedent, repeats tragic mistakes of the past, and denies countless individuals the fundamental right of religious liberty.”).",
+      "label": "footnote-text",
+      "word_count": 152
+    },
+    {
+      "text": "[66]. SeeThe Chinese Exclusion Case, 130 U.S. at 606;see generallyMaggie Blackhawk,The Constitution of American Colonialism, 137 Harv. L. Rev. 1 (2023) (theorizing the plenary power doctrine as a manifestation of the constitutional law of the racialized project of American colonialism); Jennifer M. Chacón,Immigration and Race,inThe Oxford Handbook on Race & Law in the U.S. (Devon Carbado, Emily Houh & Khiara M. Bridges eds., 2022) (in progress) (manuscript at 2) (explaining how “the regulation of immigration and citizenship is inextricably intertwined with the United States’ history of race and racism”); Sarah H. Cleveland,Powers Inherent in Sovereignty: Indians, Aliens, Territories, and the Nineteenth Century Origins of Plenary Power over Foreign Affairs, 81 Tex. L. Rev. 1, 14 (2002) (exploring the origin of the plenary power doctrine in “a peculiarly unattractive, late-nineteenth-century nationalist and racist view of American society and federal power,” and tracing “the evolution of the doctrine of inherent powers in cases involving Indians, aliens, and territories in an attempt to discern the origins of the doctrine and its relationship to traditional constitutional jurisprudence”); Kevin R. Johnson,Systemic Racism in the U.S. Immigration Laws, 97 Ind. L.J. 1455 (2022) (exploring the originating role of anti-Chinese racism at the end of the nineteenth century in the development of immigration law’s plenary power doctrine).",
+      "label": "footnote-text",
+      "word_count": 210
+    },
+    {
+      "text": "[67]. Seesupratext accompanying notes 35–36.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[68]. Dep’t of State v. Muñoz, 602 U.S. 899, 902 (2024).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "[69]. Id.at 906.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[70]. Seeid.at 906–07 (discussing the Ninth Circuit’s reasoning on this issue).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "[71]. SeeCal. Dep’t of Just., Attorney General’s Annual Report on CalGang 3 (2017), https://oag.ca.gov/sites/all/files/agweb/pdfs/calgang/ag-annual-report-calgang-2017.pdf [https://perma.cc/MSP9-E9QX] (showing that the vast majority of individuals listed in CalGang, a shared gang intelligence database, are identified as Hispanic). Beth Caldwell explains that “[a]cross California, ninety-two percent of all people sentenced to prison with gang sentencing enhancements are people of color.” Beth Caldwell,Reifying Injustice: Using Culturally Specific Tattoos as a Marker of Gang Membership, 98 Wash. L. Rev. 787, 792 n.24 (2023) (cleaned up). This is a recurring problem in gang databases throughout the country.Id.at 791–92;see alsoUnmasking the Boston Police Department’s Gang Database: How an Arbitrary System Criminalizes Innocent Conduct, 137 Harv. L. Rev. 1381, 1386–87, 1389 (2024) (explaining that an officer could enter someone in the gang database “based solely on their appearance, [such as having a known group tattoo,] without any other indicator that they are attempting to engage in criminal activity”).",
+      "label": "footnote-text",
+      "word_count": 149
+    },
+    {
+      "text": "[72]. Muñoz, 602 U.S. at 906.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[73]. Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": "[74]. Caldwell specifically explores how tattoos associated with Chicanx and Latinx identity have come to be treated as symbols of gang membership.See generallyCaldwell,supranote 71, at 809–29.",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": "[75]. SeeCal. St. Auditor, The CalGang Criminal Intelligence System Report 2015-130 31–32 (2016), https://cdn.kpbs.org/news/documents/2016/08/16/CalGangs-audit.pdf [https://perma.cc/PK7E-7LRH] (finding that law enforcement agencies did not always establish that they had adequate legal support to justify the inclusion of certain groups and individuals they entered into CalGang).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "[76]. See, e.g., Assemb. B. 90, 2017–2018 Reg. Sess. (Cal. 2017).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "[77]. Asencio-Cordero left in 2015.Muñoz, 602 U.S. at 927 (Sotomayor, J., dissenting). The laws went into effect in 2017. California continues to maintain its gang database, and the newer regulations do not modify information previously included in the database.See CalGang Frequently Asked Questions (FAQs), Cal. Dep’t Just., https://oag.ca.gov/calgang/faqs [https://perma.cc/HM2B-Y7K2].",
+      "label": "footnote-text",
+      "word_count": 49
+    },
+    {
+      "text": "[78]. Muñoz, 602 U.S. at 921 (Sotomayor, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "[79]. See supratext accompanying notes 54–55.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "[80]. See id.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[81]. See Muñoz, 602 U.S. at 903 (citing this formulation fromWashington v.Glucksberg, 521 U.S. 702, 720–21 (1997) as the relevant test).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "[82]. See id.at 912.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "[83]. SeeIlya Somin,The Supreme Court’s Dubious Use of History inDepartment of State v. Muñoz, Reason (June 24, 2024), https://reason.com/volokh/2024/06/24/the-supreme-courts-dubious-use-of-history-in-department-of-state-v-munoz/ [https://perma.cc/RK4Y-27TB].",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "[84]. The opinion gestured to the heavily criticized Alien Enemies Act of 1798—which is problematic in itself, as Ilya Somin argues—but even here, the Court provided no evidence that the Act was used to exclude U.S. citizen spouses.See id.;Muñoz, 602 U.S. at 912.",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "[85]. The restrictions that the majority opinion cited were part of grotesquely racist immigration laws—something that, like the bar on a citizen’s spouse, should be subject to judicial scrutiny today even if the problem escaped legal scrutiny then.SeeChin,supranote 40, at 285–86.",
+      "label": "footnote-text",
+      "word_count": 41
+    },
+    {
+      "text": "[86]. For more on this point, see generallyDaniel Kanstroom, Deportation Nation: Outsiders in American History (2007); Kevin R. Johnson,Race, the Immigration Laws, and Domestic Race Relations: A “Magic Mirror” Into the Heart of Darkness, 73 Ind. L.J. 1111 (1998); Chin,supranote 40, at 260–64.",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": "[87]. Muñoz, 602 U.S. at 922 (Sotomayor, J., dissenting).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "[88]. Id.at 910 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[89]. Loving v. Virginia, 388 U.S. 1, 2–3 (1967).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "[90]. United States v. Windsor, 570 U.S. 744, 749–50 (2013).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": "[91]. Obergefell v. Hodges, 576 U.S. 644, 655 (2015). Some cases involve marriages that were prevented—Zablocki v. Redhail, 434 U.S. 374, 395 (1978) (Stewart, J., concurring) and Turner v. Safley, 482 U.S. 78, 97–99 (1987)—but in these cases (and many others like them), the marriage right was found to trump the government’s financial and security concerns.",
+      "label": "footnote-text",
+      "word_count": 56
+    },
+    {
+      "text": "[92]. SeeReva B. Siegel,The Levels of Generality Game: ‘History and Tradition’ in the Roberts Court, 47 Harv. J.L. & Pub. Pol’y 539, 595–96 (2024). Siegel provides an overview of the longstanding academic and doctrinal debates—which she traces back to the beginning of the 1980s—over the selected level of generality. Originalists like Robert Bork and Justice Antonin Scalia maintained that the selection of the correct, specific level of generality at which to define a particular fundamental right avoided arbitrary decision-making and operated as a constraint on judges.Id.at 591–95. In recent decades, the Court’s conservative justices largely have maintained a commitment to selecting the correct level of generality at which to define the right and continued to justify this analysis as a constraint on judicial discretion.See, e.g., Michael H. v. Gerald D., 491 U.S. 110, 127 n.6 (1989) (opining that the Court needed to adopt “the most specific tradition as the point of reference” to avoid arbitrariness in judging); Washington v. Glucksberg, 521 U.S. 702, 721 (1997) (calling for a “careful description” of the asserted liberty interest); Dobbs v. Jackson Women’s Health Org., 597 U.S. 215, 257 (2022) (“Attempts to justify abortion through appeals to a broader right to autonomy and to define one’s ‘concept of existence’ prove too much. Those criteria, at a high level of generality, could license fundamental rights to illicit drug use, prostitution, and the like.”) (internal citation omitted). But, as Siegel notes, many academic originalists no longer maintain that the level of generality analysis constrains judicial decision-making, despite the fact that this was the initial justification for this analytic approach. Siegel,supranote 92, at 580–84.See alsoWilliam Baude,Originalism as a Constraint on Judges, 84 U. Chi. L. Rev. 2213, 2216–17 (2018).",
+      "label": "footnote-text",
+      "word_count": 282
+    },
+    {
+      "text": "[93]. SeeChacón,supranote 9, at 233.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[94]. Louis Henkin,Privacy and Autonomy, 74 Colum. L. Rev. 1410, 1417 (1974).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": "[95]. After describing the Court’s growing reluctance to expand the list of protected classes entitled to heightened scrutiny, Yoshino observed:",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "[96]. Id.at 748.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[97]. SeeLoving v. Virginia, 388 U.S. 1, 12 (1967) (“To deny this fundamental freedom [of marriage] on so unsupportable a basis as the racial classifications embodied in these statutes, classifications so directly subversive of the principle of equality at the heart of the Fourteenth Amendment, is surely to deprive all the State’s citizens of liberty without due process of law.”).",
+      "label": "footnote-text",
+      "word_count": 60
+    },
+    {
+      "text": "[98]. Yoshino,supranote 8, at 790.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[99]. Id.at 776.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[100]. 388 U.S. at 12.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[101]. Roe v. Wade, 410 U.S. 113, 153 (1973) (acknowledging the burdens of pregnancy and childbirth on “the woman,” though never analyzing abortion restrictions as an equal protection problem).",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": "[102]. Lawrence v. Texas, 539 U.S. 558, 575 (2003).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": "[103]. See, e.g., Kathleen M. Sullivan,The Supreme Court 1991 Term–Foreword: The Justices of Rules and Standards, 106 Harv. L. Rev. 22, 27–28 (1992);see alsoCary Franklin,History and Tradition’s Equality Problem, 133 Yale L.J. F. 946, 953 (2024) (“When the Court decided to hew closely to (its account of) past practice in the context of abortion, it suggested that laws banning abortion raise no equality concerns. This suggestion disregards half a century of legal development in the context of equal protection and the construction of an equality-based body of law limiting how the state may regulate pregnancy.”); Reva B. Siegel,Dignity and the Politics of Protection: Abortion Restrictions UnderCasey/Carhart, 117 Yale L.J. 1694, 1765 (2008) (“Respecting women’s capacity to decide whether and when to become a mother—and prohibiting government policies that impose traditional sex-roles on women—simultaneously vindicates the autonomy and the equality dimensions of dignity, much as the Court’s equal protection sex discrimination opinions do.”); Reva B. Siegel,Sex Equality Arguments for Reproductive Rights: Their Critical Basis and Evolving Constitutional Expression, 56 Emory L.J. 815, 823–26 (2007) (illustrating how Court opinions and amicus briefs have invoked a combination of liberty and equality on behalf of abortion rights).",
+      "label": "footnote-text",
+      "word_count": 193
+    },
+    {
+      "text": "[104]. Sullivan,supranote 103, at 27–28, 28 n.26 (“AlthoughRoe, of course, grounded the abortion right in liberty, some commentators have argued that abortion bans discriminate on the basis of sex. The leading sources of this argument are cited inCasey. . . [and]Abortion Politics: Writing for an Audience of One. . . . Although this argument has never been adopted by the Court, several opinions inCaseyacknowledged it.”).",
+      "label": "footnote-text",
+      "word_count": 65
+    },
+    {
+      "text": "[105]. Laurence H. Tribe,Equal Dignity: Speaking Its Name, 129 Harv. L. Rev. F. 16, 17 (2015).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": "[106]. Seeid.;see alsoKenji Yoshino,A New Birth of Freedom?:Obergefell v. Hodges, 129 Harv. L. Rev. 147, 166 (2015).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": "[107]. Dep’t of State v. Muñoz, 602 U.S. 899, 910 (2024).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "[108]. Seesupratext accompanying notes 81–86.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[109]. SeeLawrence v. Texas, 539 U.S. 558, 578–79 (2003) (“Had those who drew and ratified the Due Process Clauses of the Fifth Amendment or the Fourteenth Amendment known the components of liberty in its manifold possibilities, they might have been more specific. They did not presume to have this insight. They knew times can blind us to certain truths and later generations can see that laws once thought necessary and proper in fact serve only to oppress. As the Constitution endures, persons in every generation can invoke its principles in their own search for greater freedom.”).",
+      "label": "footnote-text",
+      "word_count": 96
+    },
+    {
+      "text": "[110]. See Obergefell v. Hodges, 576 U.S. 644, 663–66 (2015) (identifying the fundamental right as the “right to marry” and broadly drawing on cases protecting intimate association to conclude that the right was not limited to “relationship[s] involving opposite-sex partners”).",
+      "label": "footnote-text",
+      "word_count": 40
+    },
+    {
+      "text": "[111]. Justice Barrett’s sense that there is a “right” level of generality to be found in the ether also made an appearance in herRahimiconcurrence. United States v. Rahimi, 602 U.S. 680, 740 (2024) (Barrett, J., concurring) (“Here, though, the Court settles on just the right level of generality: ‘Since the founding, our Nation’s firearm laws have included provisions preventing individuals who threaten physical harm to others from misusing firearms.’”).",
+      "label": "footnote-text",
+      "word_count": 69
+    },
+    {
+      "text": "[112]. Yoshino,supranote 8, at 748.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[113]. Id.at 755.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "[114]. Here, Yoshino was responding to Jed Rubenfeld.SeeJed Rubenfeld,The Anti-Antidiscrimination Agenda, 111 Yale L.J. 1141, 1142–43 (2002) (defining an anti-antidiscrimination agenda as “an effort, sometimes overt but sometimes covert as well, to find constitutional grounds for invalidating laws perceived to take antidiscrimination ideology too far”).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": "[115]. Yoshino,supranote 8, at 786.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": "[116]. See, e.g., 303 Creative LLC v. Elenis, 600 U.S. 570 (2023) (holding that requiring a business to offer wedding website services to a same-sex couple violates the First Amendment because same-sex marriage was inconsistent with the business owner’s religious beliefs); Parents Involved in Cmty. Schs. v. Seattle Sch. Dist. No. 1, 551 U.S. 701 (2007) (holding that the Equal Protection Clause barred voluntarily and democratically enacted race-conscious school integration measures); Students for Fair Admissions, Inc. v. President & Fellows of Harvard Coll., 600 U.S. 181 (2023) (using the Fourteenth Amendment, enacted to guarantee the equal citizenship of Black people, to strike down race-based admissions policies).",
+      "label": "footnote-text",
+      "word_count": 106
+    }
+  ]
+}

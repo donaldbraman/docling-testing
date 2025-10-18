@@ -1,0 +1,1458 @@
+{
+  "basename": "texas_law_review_repealing-environmental-laws-magna-carta",
+  "journal": "Texas Law Review",
+  "extraction_method": "positive_inclusion",
+  "stats": {
+    "total_paragraphs": 289,
+    "body_text": 88,
+    "footnote_text": 201,
+    "total_words": 15598
+  },
+  "paragraphs": [
+    {
+      "text": "Article by Richard Lazarus Online Edition Volume 104",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "To a certain extent, the Supreme Court’s recent ruling in Seven County Infrastructure Coalition v. Eagle County [1] is hardly surprising. The environmental plaintiffs in the case lost their claim that a federal agency had violated the National Environmental Policy Act (NEPA). [2] The bigger news by far would have been if they had instead won.",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "The Supreme Court has now decided eighteen cases arising under NEPA―long dubbed environmental law’s Magna Carta [3] ― since President Nixon signed the Act into law on January 1, 1970. [4] And the environmental plaintiffs have lost every one of them. Worse still, they were the respondents in all eighteen of the cases, meaning the Court reversed a lower court ruling in their favor in each of those cases. Only once in more than half a century has the Court even granted a petition for a writ of certiorari filed by environmental plaintiffs seeking to overturn a lower court ruling adverse to their interests. [5] And the Court soon thereafter dismissed the petition as moot and never ruled on the merits. [6]",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "Nor is the fact that the environmental plaintiffs unanimously lost on the judgment in Seven County remotely remarkable . Here again, it would have been more surprising had they secured a single vote of a Justice in dissent. Out of the eighteen NEPA cases that the Court has decided, in only six of those cases was there a dissent. [7] All the cases decided after 1976 and before 2008―a span of 42 years―were effectively unanimous losses. [8]",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "Yet, there is something qualitatively different, and especially portentous, about this latest High Court loss. Seven County is not at all isolated. It was the sixth significant environmentalist loss in the Supreme Court in the past four years, and the losses involved four different important environmental protection laws. [9] In two of those prior cases, [10] the Court cut sharply back on the reach of two of the nation’s most important pollution control laws: the Clean Air Act and the Clean Water Act. With Seven County, the Justices have now completed the trifecta―undercutting the nation’s foundational environmental planning law and its lofty purpose to “prevent or eliminate damage to the environment” [11] ―based on their own version of “common sense.” [12]",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "Seven County is also the first major loss that may have occurred partly as a result of the enactment of recent legislation instead of, as with all the others, being the product of the absence of such legislation. In the latter circumstance, the Court held that existing statutory language, passed decades earlier, did not provide the necessary clear congressional authorization for ambitious federal environmental protection programs supported by environmentalists. [13] In Seven County , it was the passage of bipartisan legislation amending NEPA for the first time in more than fifty years that seemed to help persuade the Justices to erode the Act’s requirements. [14]",
+      "label": "body-text",
+      "word_count": 105
+    },
+    {
+      "text": "Perhaps even more significantly still, the Court’s reasoning in Seven County , combined with that of the Court’s other recent environmental rulings adverse to environmentalists, suggest the possibility of a broader theoretical unraveling of the nation’s environmental protection laws. For much of the past five decades, since the emergence of modern environmental statutory law in the 1970s, the evolving process of environmental lawmaking prompted courts and legislatures to reconcile the inevitable conflicts generated between new environmental laws and pre-existing, cross-cutting areas of law by making the latter more accommodating to the former. This was evident in evolving principles of administrative law, constitutional law, corporate law, and criminal law during that time, all of which changed in ways to make environmental protection law more effective. [15]",
+      "label": "body-text",
+      "word_count": 125
+    },
+    {
+      "text": "However, in more recent times, the evolutionary trends seem to have slowed and even to have reversed direction. In cases like Seven County , what is now appearing is a devolving of environmental law. Environmental protection objectives have lost their status as especially worthy. And it is now the existing environmental laws that are being unraveled when in tension with many of the same cross-cutting areas as before, whether administrative law, constitutional law, corporate law, or criminal law. In all its most recent rulings, the Court has relied upon doctrine in these and other areas of law to weaken existing environmental laws. [16]",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "The purpose of this essay is two-fold. First, the essay assesses the impact on NEPA of the Court’s recent Seven County decision, and the extent to which through the guise of a mere “course correction,” its cuts back significantly on the Act’s reach. [17] Second, the essay makes clear how Seven County both fits in and is different from the Court’s other recent rulings hostile to effective environmental protection law.",
+      "label": "body-text",
+      "word_count": 70
+    },
+    {
+      "text": "Part I describes the Seven County litigation and the Court’s ruling. This includes both its immediate and long-term significance reflected in the majority’s reasoning. Part II relates the Seven County decision to the other recent major environmental losses at the Court. Finally, Part III considers the portent of all six cases for what appears to be an accelerating devolution of environmental law in the United States.",
+      "label": "body-text",
+      "word_count": 66
+    },
+    {
+      "text": "Case background . In many respects, Seven County was a straightforward NEPA case. NEPA requires that federal agencies prepare environmental impact statements (EISs) for any proposals for “major federal actions significantly affecting the quality of the human environment.” [18] There was no dispute here that an EIS was required. There was the requisite federal agency (the Surface Transportation Board). That agency was proposing a major federal action (permitting the 88-mile extension of an existing freight rail line in Utah to facilitate development and production of waxy crude oil in the Uinta Basin—the geographic area to be served by that rail line). [19] And that railway line, if permitted, would result in significant adverse environmental effects. [20] There was similarly no dispute under established Supreme Court precedent that the EIS need not consider all the “but for” adverse consequences of the proposed Board action to be adequate. [21]",
+      "label": "body-text",
+      "word_count": 147
+    },
+    {
+      "text": "The issue raised by Seven County was whether the Board EIS had adequately considered the proposed action’s environmental effects. [22] The D.C. Circuit had ruled the Board had not. [23] And the parties differed on what subset of but-for consequences fell within the required scope of an EIS. [24]",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "The but-for environmental effects of the proposed railway line range from the most immediate to the most distant in time and space. The most immediate effects included the construction and operation of the railroad itself bounded by its 88-mile length. That these effects were included was uncontested. [25] Less immediate effects—but effects with an obvious tie to the railroad project—included the adverse environmental effects caused by the increased oil production activities in the Uinta Basin area that the new railway line was designed to service. These are “upstream” consequences. [26] After all, the very purpose of the railway line was to promote that increased oil production activity. [27] Looking outside the geographic boundaries of the project, other possible adverse environmental effects would be to look “downstream” of the project to the increased railway traffic the new railway line might cause outside its own 88-mile length, including railway accidents and oil spills. [28] Finally, even further removed in time and space, the effects might include the increased greenhouse gas emissions and air pollution caused by the refining of the crude oil once it reached its final destination hundreds of miles away in the Gulf States. [29]",
+      "label": "body-text",
+      "word_count": 195
+    },
+    {
+      "text": "The Surface Transportation Board EIS considered impacts that the railway extension construction and operation would have on water resources, sage grouse, ambient levels of noise, and existing land uses. [30] The EIS considered some upstream consequences as well, including some of the impact of oil production where it would take place, and some downstream consequences, including whether there would be increased greenhouse gas emissions and climate change impacts from refining in the Gulf States. [31] The EIS also estimated the number of increased oil wells likely generated upstream by the railroad extension and some of the downstream consequences. [32] The Board held six public meetings on the project and received more than 1,900 comments on its Draft EIA. [33] The Board’s final EIS, when combined with supporting documentation, was more than 3,600 pages long. [34] The Board considered the findings of the EIS and other statutorily required factors in deciding whether to permit the railway line, which the Board approved for construction and operation. [35]",
+      "label": "body-text",
+      "word_count": 165
+    },
+    {
+      "text": "Environmental groups and Eagle County, Colorado, filed petitions for review in the U.S. Court of Appeals for the D.C. Circuit, challenging the adequacy of the Board EIS’s discussion of the adverse environmental effects of the Board’s permitting decision. [36] The D.C. Circuit rejected many of their claims but agreed with the petitioners that the EIS had not adequately considered upstream and downstream consequences of the oil and gas development that would occur as a result of the new railway’s operation. [37] The consequences include risks of wildfires, accidental spills, and greenhouse gas and air pollution emissions resulting from the refining in the Gulf States of the crude oil mined. [38] The appellate court further agreed with petitioners that the Board could not avoid their inclusion within the EIS either on the ground that those upstream and downstream consequences were not “reasonably foreseeable” or on the ground that the Board lacked the statutory authority to prevent those consequences. [39] With regard to the former, the court reasoned that these consequences were within the scope of “reasonably foreseeable” effects. [40] And with regard to the latter, the court held that the Board was authorized to consider the environmental consequences of the proposed railway operation in deciding whether to issue a permit. [41]",
+      "label": "body-text",
+      "word_count": 210
+    },
+    {
+      "text": "The Supreme Court proceedings . When Seven County Infrastructure Coalition and Uinta Railway Basin petitioned for review of the D.C. Circuit’s NEPA ruling in Seven County and the Supreme Court subsequently granted plenary review, there was no serious doubt that the Justices anticipated a reversal in an opinion that would significantly cut back on NEPA. There was otherwise too little reason to grant review. The Board had lost on multiple grounds in the D.C. Circuit, [42] only one of which was NEPA, which meant that regardless of the outcome of Seven County in the Supreme Court , the Board would need to revisit its permitting decision. Indeed, that is one reason the Solicitor General opposed the Court’s review. [43]",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "The Solicitor General’s opposition to the industry cert petition would normally be fatal to another party’s cert petition, especially where, as here, the federal government was taking the position that the ruling below was not sufficiently important to warrant review. [44] A sufficient number of Justices, however―it requires a minimum of four to grant review―apparently agreed with the industry petitioners that Seven County provided a good enough vehicle to rein in the D.C. Circuit, which petitioners argued had taken an unduly expansive view of environmental effects in a series of rulings. [45]",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "In these circumstances, once Supreme Court plenary review was secured, the primary strategy of the industry petitioners was to secure the broadest and most significant ruling possible. They were confident they were going to win, and they did not want to waste that win by having it based on narrow rather than broad grounds. [46] Industry petitioners’ briefs reflected that confidence and ambition. With their new counsel of record, Paul Clement, they swung for the fences. They had no interest in embracing the Solicitor General’s sharply contrasting effort to secure a win for the federal Surface Transportation Board on narrow, case-specific grounds only. [47]",
+      "label": "body-text",
+      "word_count": 104
+    },
+    {
+      "text": "Petitioners instead made a series of far-reaching arguments that sought to categorically exclude from NEPA EIS consideration of adverse environmental effects that had long been understood to be within the Act’s reach, including all upstream and downstream consequences outside the project area itself. [48] This was not an argument they had made below, and the Surface Transportation Board had considered some, but not all, of those upstream and downstream consequences. [49] Nor was it an argument that was raised even by their petition for a writ of certiorari, [50] so it arguably was not even fairly before the Court. This categorical argument repeatedly relied on Congress’s 2023 amendment of NEPA―even though the amendment was made years after the EIS was completed―as making clear that Congress did not support the D.C. Circuit’s expansive reading of what constituted “reasonably foreseeable” environmental consequences that an EIS must consider. [51]",
+      "label": "body-text",
+      "word_count": 146
+    },
+    {
+      "text": "Congress in the 2023 amendments had provided that final EISs should generally not be more than 150 pages long, [52] even though the average EIS had historically been more than 600 pages long. [53] The amendments further provided that preparation of the final EIS should take no more than two years, [54] when the average length of time had been between four and five years. [55] The implication, petitioners argued, was clear. The new congressional limits could not be squared with the kind of sweeping EISs contemplated by respondents and the D.C. Circuit. Here, the respondents were arguing, and the D.C. Circuit had held, that an EIS related to an 88-mile railway line had failed to consider all the reasonably foreseeable consequences—when the Surface Transportation Board’s EIS was itself more than 600 pages long, and supplemented by almost 3,000 additional pages of appendices and responses to public comments. [56] Absent a significant cutback on what was considered a reasonably foreseeable consequence of a proposed major federal action, federal agencies could not possibly realize Congress’s clear understanding, at least as of 2023, of the more limited role that NEPA should play.",
+      "label": "body-text",
+      "word_count": 190
+    },
+    {
+      "text": "The Court’s Ruling. Petitioners did not just win. They won big, as they had hoped. There were no dissents and a broad ruling in their favor was joined by five Justices, with Justice Kavanaugh writing the majority opinion. [57]",
+      "label": "body-text",
+      "word_count": 39
+    },
+    {
+      "text": "The Court faulted the D.C. Circuit ruling on two grounds. The first was the D.C. Circuit’s failure to “afford the Board the substantial judicial deference required in NEPA cases.” [58] The Court sidestepped its recent ruling in Loper Bright Enterprises v. Raimondo , [59] providing that judicial review of an agency interpretation of a statute is “de novo,” on the ground that here the Board was not interpreting a statute but was “exercis[ing] discretion . . . granted by a statute,” which was governed by the Administrative Procedure Act’s highly deferential “arbitrary and capricious” standard of judicial review. [60] The meaning of “detailed” in NEPA’s requirement that an EIS be a “detailed statement” may be a question of law, the Court reasoned, but how much “detail” must be in a particular EIS is a question of fact to which judicial deference to the agency’s assessment is warranted. [61]",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "The Court cautioned, moreover, that courts should not mistake an EIS’s length for detail. “A relatively brief agency explanation can be reasoned and detailed,” and courts should accordingly recognize that an agency has ‘substantial discretion’” to keep EIS discussion of environmental effects and feasible alternatives short. [62] In support, the Court relied on the recent amendments to NEPA that imposed page and timing limits on the production of an EIS, including that “an EIS ‘shall not exceed 150 pages’ and must be completed in 2 years’ or less.” [63]",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "The Court also grounded its decision on its ruling that the lower “court incorrectly interpreted NEPA to require the Board to consider environmental effects of upstream and downstream projects that are separate in time or place from the Uinta Basin Railway.” [64] The agency need consider “only the effects of the 88-mile railroad line.” [65]",
+      "label": "body-text",
+      "word_count": 55
+    },
+    {
+      "text": "The Court, however, was vaguer about its underlying reasoning. In particular, it failed to clarify whether it was ruling that such upstream and downstream consequences were categorically outside the scope of NEPA review as a matter of law or instead that a court should defer to an agency’s determination that they should be because “agencies possess discretion and must have broad latitude to draw a ‘manageable line.’” [66] The industry petitioners had argued for a categorical rule to that effect while the Solicitor General had argued for an agency deference rationale. [67] The wording of the Court’s opinion seems in closer harmony to that of the Solicitor General: “Courts should afford substantial deference and should not micromanage those agency choices so long as they fall within a broad zone of reasonableness.” [68] The Court faulted the lower courts for failing to do so and causing NEPA to be “transformed from a modest procedural requirement into a blunt and haphazard tool” used to stop needed infrastructure in the nation. [69]",
+      "label": "body-text",
+      "word_count": 169
+    },
+    {
+      "text": "The practical impact on NEPA of the majority’s ruling is potentially enormous. Whether one thinks the Court was correct or incorrect on its legal ruling, it cannot be gainsaid that this is a sea change of what had long been settled NEPA law. To be sure, there had been lots of litigation of to what extent upstream and downstream consequences could be considered “reasonably foreseeable,” which all agreed was the governing legal touchstone. [70] And those debates had certainly intensified during the past decade when the issue extended to whether those upstream or downstream consequences extended to greenhouse gas emissions. [71] But no court, including the Supreme Court in any of its prior seventeen NEPA cases, had ever suggested that agencies basically had carte blanche to exclude all downstream and upstream effects in drawing “manageable” boundaries for what environmental effects an EIS must discuss.",
+      "label": "body-text",
+      "word_count": 144
+    },
+    {
+      "text": "The Seven County Court is wrong, moreover, in suggesting that because NEPA is merely “procedural,” [72] and includes no substantive requirements, the information it produces is not significant. NEPA’s ultimate strength lies in its required disclosure in an EIS to federal agencies and the general public of the full scope of the reasonably foreseeable significant adverse consequences of a proposed major federal action. Of course, it is not a violation of NEPA itself if an agency then goes on to give those same consequences little or no weight at all in its decision. But what the Court is overlooking is that agencies may be reluctant without NEPA to do the work necessary to discover those significant adverse environmental consequences and yet, once discovered, they regularly revise their decisions to lessen their adverse impact by adopting mitigation measures. [73]",
+      "label": "body-text",
+      "word_count": 138
+    },
+    {
+      "text": "Over the past half century, they have voluntarily embraced measures that mitigate the consequences. And they have chosen alternatives that are less harmful, but that the EIS had revealed can achieve similar results. In short, government officials act in good faith when faced with full information—even with information they would have been reluctant to discover absent NEPA’s requirements. And that is what NEPA is about. The power of information disclosure and how, absent command-and-control government requirements, information disclosure by itself can do a lot of good. [74]",
+      "label": "body-text",
+      "word_count": 87
+    },
+    {
+      "text": "Nor is NEPA toothless if the federal agency chooses to ignore the teachings of their own EIS. True, their actions do not violate NEPA. But that is not the end of the story. They can be readily found to violate other statutory requirements that do have substantive bite on the agency’s decision, such as the federal Administrative Procedure Act. As has happened not infrequently, a court may strike down the federal agency action as arbitrary and capricious for failing to adequately consider the adverse environmental effects revealed, because of NEPA, in the administrative record before the agency. [75]",
+      "label": "body-text",
+      "word_count": 98
+    },
+    {
+      "text": "While largely ignored by the Court, NEPA’s significant positive value does not answer the larger issue raised in Seven County , which is whether those benefits still exceed the costs. And that is what is the most fascinating part of the Court’s ruling. The Court opinion directly answered that question with a resounding “no.”",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "The Court concluded that “[a] course correction of sorts is appropriate to bring judicial review under NEPA back in line with the statutory text and common sense.” [76] Without even purporting to cite to any authority at all, the Court announced that “NEPA has transformed from a modest procedural requirement into a blunt and haphazard tool . . . to stop or at least slow down new infrastructure and construction projects.” [77] According to the majority, NEPA has had disastrous consequences on the nation. It has resulted in “fewer and more expensive railroads, airports, wind turbines, transmission lines, dams, housing developments highways, bridges, subways, stadiums, arenas, data centers and the like.” [78] It has meant “fewer jobs.” [79]",
+      "label": "body-text",
+      "word_count": 118
+    },
+    {
+      "text": "That sounds pretty bad and would certainly be a compelling policy justification for cutting back on NEPA. But there is one curious thing about the Court’s opinion. It states matter-of-factly all this harshly critical stuff about NEPA yet fails to cite to any authority to support its factual claims. Perhaps what the Court says is true. Or perhaps, just the opposite is true. As described above, NEPA routinely improves agency decision making by prompting agencies voluntarily to adopt measures to mitigate serious environmental impacts. And, in some instances, it has resulted in overturning proposed federal projects because of adverse and serious environmental consequences discovered during the NEPA assessment process―for instance, from comments supplied by other federal agencies with relevant environmental expertise pursuant to NEPA section 102(2)(C). [80] Looking at the four corners of the Court’s opinion, the Court appears to be relying on little more than its own intuition or unverified information not in the record that more infrastructure is good and any government regulation that might slow it down is bad.",
+      "label": "body-text",
+      "word_count": 172
+    },
+    {
+      "text": "Left largely unmentioned by the Court, apart from a passing reference to the courts in the 1970s, [81] is what may have actually been motivating the majority’s thinking. When NEPA became law in 1970, there was nothing about the Act that made it seem remotely obvious that it would end up having the major impact it has had for the past fifty-five years. [82] The Act announced a grand and sweeping purpose―“[t]o declare a national policy which will encourage productive and enjoyable harmony between man and his environment” [83] ―but the only actual requirement it imposed was the preparation of a “detailed” statement of the environmental consequences of “major Federal actions significantly affecting the quality of the human environment,” [84] including “alternatives to the proposed action.” [85] There was no statutory guidance on what any of those terms meant―“major,” “federal,” “action,” “significantly,” “affecting,” “human environment,” or “detailed”―and there was no statutory charge to the federal agency responsible for NEPA’s administration to promulgate NEPA regulations interpreting those statutory terms that would then be binding on the rest of the federal government. [86] Nor was there any language within NEPA itself to suggest that compliance with its requirements was subject to judicial review.",
+      "label": "body-text",
+      "word_count": 201
+    },
+    {
+      "text": "It was the federal courts who made NEPA into what it became. The courts in the early 1970s seized upon NEPA’s ambitions and embraced them. Most famously, in Calvert Cliffs’ Coordinating Committee v U.S. Atomic Energy Commission , [87] the D.C. Circuit announced that it was the “judicial role” to ensure that “the promise of this legislation”―then just one year old―would “become a reality.” [88] “Our duty,” the court unabashedly declared, “is to see that important legislative purposes, heralded in the halls of Congress, are not lost or misdirected in the vast hallways of the federal bureaucracy.” [89] These were not the words of a court suggesting it will defer to federal agencies. This was a court on a mission. The Supreme Court has repeatedly limited NEPA over the years, including ruling that its requirements are only procedural and not substantive. [90] However, the federal courts have, following Calvert Cliffs’ lead, largely supported the expansive and demanding view of NEPA’s requirements―“Congress did not intend the Act to be such a paper tiger” [91] ―based on general acceptance that such information disclosure was a good thing. [92] As described by Justice Marshall in a 1976 concurring opinion, the courts responded to “this vaguely worded statute” by “creat[ing]” “a ‘common law’ of NEPA,” which “is the source of NEPA’s success.” [93]",
+      "label": "body-text",
+      "word_count": 219
+    },
+    {
+      "text": "The short, silent message of the Seven County Court is that what was essentially created by court rulings and less-than-clear congressional language can just as quickly be undone by a later court ruling. The courts in the 1970s converted NEPA’s soaring language into a detailed set of strict procedural requirements not reflected in clear statutory command. [94] And the Supreme Court could now undo that same command in light of its own view that shifting national priorities in favor of infrastructure growth now regard NEPA as doing more harm than good. The Court’s embrace of that negative view of NEPA, as interpreted in the past, is the impetus of the Seven County Court’s remarkable understatement that it is merely making “a course correction” in order to “bring judicial review under NEPA back in line with the statutory text and common sense.” [95] Indeed, the Court’s reference to common sense is one of its more revealing. The Court’s guidepost here is what a majority believe makes sense as a matter of sound policy. Apparently gone are the days when conservative Justices rejected the notion that their own sense of sound public policy should guide their interpretations of statutes.",
+      "label": "body-text",
+      "word_count": 197
+    },
+    {
+      "text": "Seven County as Number Six. With the Seven County case, environmentalists lost their sixth big case in only four years before the Court. [96] In 2022, in West Virginia v. EPA , [97] the Court effectively upheld President Trump’s repeal of the Clean Air Act’s Clean Power Plan, President Obama’s signature regulatory achievement for reducing greenhouse gases from the nation’s coal-fired power plants. [98] In 2023, in Sackett v. EPA , [99] the Court sharply cut back on the geographic reach of the Clean Water Act in a manner imperiling the federal government’s ability to protect the nation’s waterways from destructive pollution. [100]",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "Around a year ago on June 28, 2024, in Loper Bright , the Court overturned the judicial doctrine underpinning the lower courts’ upholding of the National Marine Fisheries Service’s rule requiring covered fishing operations to pay for government officials to ride on their boats to collect data necessary for species conservation. [101] Just the day prior, on June 27, 2024, the Court ruled in Ohio v. EPA [102] in favor of a collection of states and industry groups’ request to stay a major EPA Clean Air Act rule governing interstate air pollution while the D.C. Circuit considered the merits of the rule. [103] And finally, in March 2025, just a few months before Seven County was decided, the Court in City of San Francisco v. EPA [104] overturned a Ninth Circuit ruling that the EPA had not exceeded its authority under the Clean Water Act by requiring compliance with certain state water quality standards under the City of San Francisco’s discharge permit. [105]",
+      "label": "body-text",
+      "word_count": 163
+    },
+    {
+      "text": "All five recent cases amounted to significant losses in federal government environmental protection authority important to realizing the ambitious objectives of the relevant federal statutes under which they had been designed. Whatever one thinks of the merits of the legal argument supporting the Clean Power Plan, the upholding of its repeal in West Virginia deprived the federal government of the authority to adopt what amounted to the most common sense, cost-effective, fair, and efficient program for reducing greenhouse gas emissions from one of the nation’s largest sources of such emissions. Perhaps even more devastating, however, was the enormous reduction in Sackett of the geographic scope of the Clean Water Act. [106] In West Virginia, unlike in Sackett , EPA was trying to craft a new, bold, and to some extent unprecedented interpretation of a federal act to address a new problem. In Sackett , however, no such claim could be made about the government’s position. The Court rejected the government’s fifty-year view of the Clean Water Act’s jurisdictional reach. [107] In its stead, the Court insisted on an unduly rigid textual interpretation [108] that ignored the realities of water, making it impossible for the government to protect the nation’s waters as the Act had contemplated.",
+      "label": "body-text",
+      "word_count": 205
+    },
+    {
+      "text": "In Loper Bright , the Court upset a program designed by the National Marine Fisheries Service to ensure that fishing vessels complied with federally mandated fishing quotas. [109] Based on its many years of experience administering fishing quotas, the agency concluded that what was needed to meet those quotas was to mandate that the Atlantic herring fishery fund the costs for on-board observers to monitor for possible violations. [110] Yet, by overturning Chevron , the Court ruled that the validity of the monitoring program no longer turned on whether the expert agency’s judgment amounted to a reasonable construction of otherwise ambiguous governing statutory language. [111] A court’s own view of the “best” interpretation of that language should instead be controlling. [112]",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "In Ohio v. EPA , the Court split five to four on whether EPA’s interstate air pollution rule should be stayed during the time required for the D.C. Circuit to consider the lawfulness of EPA’s rule. [113] The Court’s ruling was not on the merits but on interlocutory review of the appellate court’s denial of a stay. Unusual in those circumstances, the Court granted plenary review of the stay question, including oral argument before reaching a decision. [114] The stay motion was filed in October, and the Court’s ruling on the question was not until June 27, 2024, eight months later, and one of the Court’s last rulings before the summer recess. [115]",
+      "label": "body-text",
+      "word_count": 113
+    },
+    {
+      "text": "Normally, a Court decision granting or denying a stay request would be a mere one-line order without any elaboration and, for that same reason, establishing no precedent. [116] The Ohio case, however, was different, and therefore potentially precedentially significant. There were full-throated opinions supporting both the majority and dissenting views. The majority favoring the stay rested almost exclusively on its view that the industry petitioners were likely to prevail on the merits, having concluded that in environmental cases there are invariably public interest and equitable concerns in equipoise on both sides. [117]",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "The Court’s granting of the stay accordingly sent a strong signal to the D.C. Circuit that the Justices thought the EPA interstate air pollution rule was likely unlawful. That rule is one of the Agency’s most important and challenging rules because it seeks to resolve one of the hardest pollution control issues: how to allocate the respective air pollution reduction responsibilities of dozens of upwind states that are causing downwind states to fail to meet the Clean Air Act National Ambient Air Quality Standards, which has serious consequences for public health of their populations. The Court’s 2014 six-to-two majority upholding EPA’s similarly designed previous Good Neighbor Rule in EPA v. EME Homer City Generation, L.P. [118] has long been a high-water mark for environmentalists who strongly supported EPA’s rule. For that same reason, however, the Court’s conclusion in Ohio underscored how much the Court had changed since then, including by adding a Justice (Kavanaugh) whose opinion for the D.C. Circuit had been overturned by the Court a decade earlier in EME Homer. [119]",
+      "label": "body-text",
+      "word_count": 173
+    },
+    {
+      "text": "Finally, the Court’s ruling in City of San Francisco provided the sequel to Sackett by seriously undercutting the Clean Water Act’s ability to ensure that state water quality standards are met by the nation’s industrial polluters. Congress in 1972 had carefully crafted a two-step approach to protecting the nation’s waters, first by insisting that industrial dischargers met strict and ambitious technology-based effluent reduction requirements. [120] And second, to guard against the possibility that such technology-based limitations would not be sufficient to protect some state waters, Congress insisted on a second layer of state water quality-based effluent limitations. [121] Congress was well aware of the challenges of having effluent limitations based solely on water quality. In City of San Francisco, however, the Court effectively decided that the same challenges that Congress had considered and resolved in the statute should be resolved in a different way, more forgiving to industry needs. The latter might or might not make good policy sense, but it had already been asked and answered differently by Congress. The Court majority, however, insisted on a somewhat stretched “textual” reading to rule against EPA. [122]",
+      "label": "body-text",
+      "word_count": 186
+    },
+    {
+      "text": "The Portent of the Six Rulings. Perhaps more foreboding than the outcomes in these cases was the reasoning of the majorities and many of the concurring Justices. In combination, they have left the strong impression that the Court might soon support even more drastic cutbacks on the nation’s environmental protection law.",
+      "label": "body-text",
+      "word_count": 51
+    },
+    {
+      "text": "In West Virginia, the Court formally invoked the Major Questions Doctrine for the first time, [123] which threatens to upend the authority of executive branch agencies to address in a meaningful way important issues not specifically contemplated by a Congress when it enacted the relevant statutory language. The Major Questions Doctrine requires that for major rules an agency such as EPA must demonstrate “clear congressional authorization” for their regulation. [124]",
+      "label": "body-text",
+      "word_count": 70
+    },
+    {
+      "text": "Prior to West Virginia , only the plain meaning of the statutory language could defeat an agency’s reasonable interpretation of statutory language that the agency was charged by Congress with administering. Now, after West Virginia , the agency view can prevail for major rules only when the agency possesses clear authorization; broad authority that might reasonably be read to include the agency’s interpretation is insufficient. Because, moreover, Congress has failed for decades to amend the nation’s major environmental laws to expressly address many compelling problems like climate change, the practical effect of the West Virginia ruling on future cases is especially foreboding.",
+      "label": "body-text",
+      "word_count": 102
+    },
+    {
+      "text": "Certainly, the concurring opinion of Justice Gorsuch in West Virginia , joined by Justice Alito, did little to allay environmentalists’ concerns. While joining the majority opinion, the two Justices made clear their willingness to go further in cutting back on agency authority based on nondelegation doctrine and separation-of-powers concerns. [125] Nor does it seem at all a stretch to assume that at least one more of their colleagues (Justice Thomas) shares their view. [126]",
+      "label": "body-text",
+      "word_count": 74
+    },
+    {
+      "text": "In Sackett , the Court piled on even further to limit an environmental agency’s authority. While the opinion smacked of another instance of the Major Questions Doctrine, the majority did not formally rely on that doctrine. [127] It instead offered a series of canons of statutory construction to justify rejecting the government’s longstanding view of the broad geographic reach of the Clean Water Act.",
+      "label": "body-text",
+      "word_count": 64
+    },
+    {
+      "text": "These canons include a federalism canon , which calls for avoiding constructions of federal statutes in a way that might be understood as undercutting the power of states; a property rights canon, which called into question statutory interpretations that potentially impair private property rights in natural resources such as land without exceedingly clear congressional authorization; and the rule of lenity canon, which disfavors interpretations of federal statutes that threaten individuals with criminal prosecution absent fair notice of the illegality of their conduct. [128] Because federal environmental laws frequently assert federal rather than state sovereign authority, limit private property rights that threaten environmental degradation, and include federal criminal penalties parallel to a civil enforcement scheme, the Sackett Court’s reasoning seemed to place another bullseye on broader agency interpretations of federal environmental protection laws. [129]",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "Here too, a separate concurring opinion, this time by Justice Thomas joined by Justice Gorsuch, fires an even further warning shot across the landscape of environmental law. While joining the majority, the two Justices added that they believed that the Clean Water Act should be reduced in geographic scope even further still―to apply only to the far smaller subset of traditional navigable waters. [130] And, even more extreme still, the Justices singled out federal environmental law as an area of law in which Congress had categorically exceeded the scope of its Commerce Clause authority. [131]",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "In Loper Bright , the Court closed the deal foreshadowed by West Virginia and Sackett by formally overruling its 1984 decision in Chevron U.S.A. Inc. v. Natural Resources Defense Council, Inc . [132] While the environmentalists had actually lost the case in Chevron , the framework announced by Justice Stevens for the Court in that case for how courts should consider the lawfulness of a federal agency’s interpretation of a federal statute had become one of the most cited and relied upon Court rulings for decades. [133] It was a framework that environmentalists had concluded allowed them to put forward their best arguments despite its origins in a case they had lost. [134] Chevron governed in particular when and to what extent a court should or should not defer to an agency interpretation of statutory language it was charged by Congress with administering. [135] Even in an otherwise sharply divided Court, there appeared to be common ground within the Court on the applicability of Chevron even if there were invariably instances when the individual Justices disagreed about which outcome Chevron supported in particular cases.",
+      "label": "body-text",
+      "word_count": 184
+    },
+    {
+      "text": "By the time of the Loper Bright decision, however, there was nothing remotely surprising about the Court’s overruling of Chevron notwithstanding its historic pedigree. A sufficient number of individual Justices had made their objections to Chevron known, [136] and the Court had not applied Chevron deference since 2016. [137] One Justice on the Court, Justice Gorsuch, had seemed even to campaign for a Supreme Court nomination based on his desire to overrule Chevron . [138] Since Justice Gorsuch had joined the Court, both West Virginia’s Major Questions Doctrine and Sackett’s invocation of multiple canons of statutory construction also left little room for Chevron. Loper Bright for that reason was undoubtedly historically significant given Chevron’s outsized role for decades, but the judicial handwriting was well on the wall before its formal overruling. [139]",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "Justice Thomas and Justice Gorsuch also filed separate concurring opinions underscoring their desire to base Chevron’s overruling on even more far-reaching grounds than the Chief Justice’s reliance on the Administrative Procedure Act. [140] Neither of the concurring Justices disputed the validity of the majority’s reliance on that Act, but they grounded their views on theories of federal constitutional law, which, unlike a federal statute, is not so readily susceptible to subsequent amendment. According to Thomas, Chevron deference impermissibly “compromises . . . separation of powers in two ways. It curbs the judicial power afforded to courts and simultaneously expands agencies’ executive power beyond constitutional limits.” [141] Justice Gorsuch’s separate opinion is mostly focused on offering a treatise on why Court precedent is not entitled to such presumptive weight against its overruling and faults Chevron in particular for “preclud[ing] courts from exercising the judicial power vested in them by Article III to say what the law is.” [142]",
+      "label": "body-text",
+      "word_count": 157
+    },
+    {
+      "text": "The Ohio ruling was also precedentially significant beyond its impact on an exceedingly important EPA rule. It made clear that the Court would give no particular weight in balancing the equities to environmental protection concerns in deciding whether a stay of the rule is warranted. [143] The environmental benefits of the rule subject to a stay motion could be significant, but so too would be the economic costs of imposing the rule on industry. [144] The majority’s reasoning in Ohio also revealed an aggressive willingness to conclude that an agency had acted arbitrarily and capriciously in promulgating a rule―the judicial standard of review that is most deferential to agency decision making. The Court ruled that EPA had not quite sufficiently considered all possible contingencies in promulgating the rule, [145] even in the face of Justice Barrett’s dissent, which well argued that was not a fair characterization of the actual rulemaking record. [146] Justice Barrett, writing for Justices Sotomayor, Kagan, and Jackson, pulled no punches in making her points with detailed parsing of the administrative record. [147]",
+      "label": "body-text",
+      "word_count": 176
+    },
+    {
+      "text": "The reasoning underlying the Court’s ruling, and not just the resulting cutback on environmental protections, was also significant in City of San Francisco . As described by Justice Barrett in her City of San Francisco dissent, the Court relied on “a theory largely of its own making” to support a result that made more policy sense to those Justices. [148] It reasoned that a permit limitation could not, despite language to the contrary, be based on the relevant body of water’s compliance with state water quality standards but only on the permittee’s compliance with implementing measures designed to meet such standards. [149] The former would, they contended, be impermissibly conditioning permit compliance on an end result while the latter would rely on conditioning compliance on a permittee taking certain implementing steps and would not predicate their permit compliance on actual compliance with state water quality standards. [150]",
+      "label": "body-text",
+      "word_count": 147
+    },
+    {
+      "text": "To be sure, the majority offered some good policy arguments that it was fairer and made more sense to turn permit compliance on a permittee taking certain steps rather than on achieving an end result especially where, as here, factors outside the permittee’s control might affect whether that result is reached. [151] The problem, however, is that is not what the statute provides, which is that a permit must contain, in addition to “effluent limitations,” [152] “any more stringent limitation” that is “ necessary to meet ” certain “water quality standards” that are imposed under state law. [153] Contrary to the majority’s tortured reasoning, that this same subsection goes on to say that a permit must also include “any more stringent limitation” that is “required to implement any applicable water quality standard established pursuant to this” Act does not dilute the clear command of the first clause. [154]",
+      "label": "body-text",
+      "word_count": 148
+    },
+    {
+      "text": "The best the majority could muster is some cockamamie distinction―politely described by Justice Barrett as the “theory largely of its own making”―between what the majority described as the “without” use of the word “limitation” and the “within” use of the word “limitation.” [155] An end-result permit condition, the majority insists, is an impermissible use of a “within” use of the term “limitation.” [156] But a condition that bases permit compliance on a permittee’s agreeing to take certain steps to achieve that end result, even if those steps prove unsuccessful, is a permissible “without” use of the term limitation. [157]",
+      "label": "body-text",
+      "word_count": 99
+    },
+    {
+      "text": "Justice Barrett’s dissent, which Justices Sotomayor, Kagan, and Jackson joined, generously describes the majority reasoning as “puzzling,” [158] which is Supreme Court Justice speak for “huh?” More to the point, the dissent simply states “it is wrong as a matter of ordinary English. It is commonplace for ‘limitations’ to state ‘that a particular end result must be achieved and that it is up to the [recipient] to figure out what it should do.’” [159] Not surprisingly, the majority fails to cite to any precedent of any kind in support of its “within” versus “without” distinction. [160]",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "In the aftermath of West Virginia , Sackett and Loper Bright , the added significance appears to be how the Court thinks the courts should take on their new assignment, now that Chevron is overruled, of determining the best interpretation of a federal statute. One might have fairly thought that when the meaning of the language was plain, that plain meaning would still, as before, control. And the judicial responsibility for now determining the “best” interpretation would be triggered only in those instances where the statutory meaning was otherwise ambiguous and subject to several possible reasonable interpretations. But, given City of San Francisco’s puzzling effort to invent statutory ambiguity were none existed, the import of Loper Bright seems potentially even greater still. The Court seems willing to insist on its view of the “best” interpretation even when, as in City of San Francisco , the meaning of the relevant statutory text has long been considered plain and unambiguous.",
+      "label": "body-text",
+      "word_count": 158
+    },
+    {
+      "text": "Finally, Seven County followed naturally from the other five recent environmental cases, though only Loper Bright gets any mention in the Court’s opinion. And that is for the intriguing statement that, unlike in Loper Bright , the level of detail required by NEPA to be included in an EIS is not so much a legal rather than a factual question for which agencies are entitled to deference. [161] The common themes in all six cases are that the relevant environmental statutory language does not compel a strict reading in support of demanding environmental regulation and that in “cases involving the American economy, courts should strive, where possible, for clarity and predictability.” [162] The latter canon, newly announced in Seven County , seems to equate “clarity and predictability” with less environmental regulation.",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "Evolution is, by its nature, hard to discern. In contrast to revolution, evolution does not occur abruptly or in explosive bursts. Evolution is marked by slower incremental change over time. Yet the fact of legal evolution is axiomatic: “virtually a canon of professional faith for American lawyers.” [163] And legal scholars, especially in the early twentieth century, drew parallels between the theories of biological evolution that had taken the biological sciences by Darwinian storm to a process of legal evolution. [164]",
+      "label": "body-text",
+      "word_count": 81
+    },
+    {
+      "text": "From an evolutionary perspective, law is the result of an equilibrium, sometimes shifting, between competing interests at any moment in time. John Henry Wigmore long ago described law as “a series of wrestling bouts; the prize to the final winner signifies the enactment of the winning force as a rule of law.” [165] As areas of law confront each other in overlapping areas, they reform and modify each other, based on competition between, and accommodation and reconciliation of, their respective premises and goals.",
+      "label": "body-text",
+      "word_count": 83
+    },
+    {
+      "text": "The history of the emergence of modern environmental law in the United States over the past half century has featured both: revolution and evolution. During the 1970s, Congress passed eighteen separate, significant environmental laws governing pollution control and natural resource managements. [166] The laws upended prior understandings and fundamentally redefined the role of the federal government. [167] The laws were ambitious, radically redistributive, and demanding in their declared short deadlines for change in what had been business as usual, no doubt sometimes unreasonably so. [168] And, notwithstanding a President of the United States openly skeptical of the laws, the 1970s laws were followed up in the 1980s with a series of even more demanding laws. [169] It was truly a legal revolution. [170]",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "There was, moreover, a no less significant, though quieter and less formally visible, evolutionary dimension to environmental law in United States. No area of law, including environmental law, exists in a vacuum. Environmental law does its work to protect the nation’s environment not just within the statutes themselves, but also in how the administration and enforcement of those laws interact with other cross-cutting areas of law, including those that define the operation of the nation’s lawmaking institutions. Most prominently, but not exclusively, those cross-cutting areas include constitutional law, administrative law, civil procedure, corporate law, criminal law, federal courts, legislation, and state and local government law. Each distinct area of law has its own doctrine, policy preferences, and priorities, both procedural and substantive, that any field of law like environmental law must intersect. The result is often conflict and tension between the two areas of law that must be resolved and accommodated. [171]",
+      "label": "body-text",
+      "word_count": 152
+    },
+    {
+      "text": "For much of the first several decades of modern environmental law’s evolution in the United States, environmental law was generally the dominant force in the evolutionary process. Other intersecting areas of law were modified and reformed in light of the teachings and policy weight of environmental protection laws, rather than the other way around.",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "Courts, albeit in fits and starts, generally relaxed Article III standing requirements in recognition of the fact that strict notions of “imminent” and “concrete” injuries, “causal nexus,” and “redressability” were hard to square with the kind of large spatial and temporal dimensions defined by environmental injuries and Congress’s clear desire for citizen-suit enforcement of environmental laws. [172] Courts ultimately rebuffed aggressive theories of regulatory takings, aimed at how environmental laws erode private property rights in natural resources, in recognition of the importance of those environmental restrictions. [173] Courts similarly embraced expansive views of congressional Commerce Clause authority to uphold the validity of the new laws. [174]",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "Administrative law was famously reformed in response to the need for agencies to implement environmental laws through informal agency rulemaking notwithstanding the enormous economic sweep of the resulting agency rules and regulations on the nation’s industries. [175] A doctrine like Chevron allowed agencies to apply their expertise in getting the necessary work done to protect the nation’s environment despite possible tensions with separation-of-powers concerns. [176] Yet, courts simultaneously made clear their responsibility to ensure that those same federal agencies did not give short shrift to environmental concerns. [177] Nondelegation doctrine concerns were rejected by the Supreme Court. [178] And the courts rebuffed seemingly forceful claims against the availability of joint and several liability under the federal Superfund law: a radically demanding hazardous waste law that the federal government successfully claimed may impose retroactive, strict, and in certain circumstances, joint and several liability on hundreds of thousands of activities across the nation for cleanup of hazardous waste sites. [179] The urgent need for expeditious cleanup of those sites warranted such liability, which even extended to severe limits on an accused party’s ability to file a preemptive lawsuit designed to establish that it was not liable. [180]",
+      "label": "body-text",
+      "word_count": 195
+    },
+    {
+      "text": "The courts similarly rejected in footnotes the argument that the fact that the environmental statutory requirements could be subject to criminal enforcement supported a narrow interpretation of the statute’s reach consistent with the rule of lenity. [181] And they gave short shrift to federalism concerns that advocates argued warranted interpreting federal environmental statutes narrowly to reduce the scope of federal environmental protection law in favor of state primacy over natural resources within their borders like water. [182]",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "With the benefit of hindsight, however, it is increasingly apparent that the dominance of environmental law in that evolutionary process has waned. Indeed, as underscored by the six recent Supreme Court rulings, there is reason to believe that the process has effectively reversed. And environmental law is now devolving as the weaker force in the legal evolutionary process.",
+      "label": "body-text",
+      "word_count": 58
+    },
+    {
+      "text": "The theory of legal evolution embraces the possibility of just such a devolution at a later time. An equilibrium struck at any one time is always susceptible to destabilization in responses to changes in and of the factors underlying it, including changing facts, values, and distribution of political or economic power. While Wigmore, as mentioned above, engagingly described the process of legal evolution as akin to a “series of wrestling bouts,” he also cautioned that a “victory does not signify the annihilation of the losing force . . . [just] a more or less temporary rest.” [183]",
+      "label": "body-text",
+      "word_count": 97
+    },
+    {
+      "text": "Much has shifted since environmental law’s heydays of congressional activity in the 1970s and 1980s, even though the statutes themselves have largely been unchanged. Congress has not undertaken any major overhauling of the nation’s environmental laws. [184] It instead has been largely paralyzed by partisan gridlock for decades. But for legal evolution, there is a cost to such absence of legislative change, especially when the environmental problems that need to be addressed and the relevant factors for effective environmental regulation have both changed. The terms of the existing laws no longer clearly meet the demands of contemporary times, requiring ever ambitious agency interpretations to justify regulatory programs up to the challenge. [185]",
+      "label": "body-text",
+      "word_count": 112
+    },
+    {
+      "text": "This invariably puts executive branch environmental lawmaking without clear congressional authority in increasing tension with notions of separations of powers. It can render courts more skeptical of intrusions on private property rights and of criminal liability for violations of now seemingly ambiguous statutory provisions; more sensitive to the economic costs on those subject to regulation; and more responsive to state claims of federal government intrusions on state sovereignty.",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "The changing makeup of the Supreme Court is also clearly not an incidental factor in this shift. For decades, the outcome in environmental cases was largely dictated by conservative, yet ultimately pragmatic Justices―Justices O’Connor and Kennedy in particular―who were wary of the potential for government overreaching but also acknowledged the need for other areas of law to accommodate environmental laws to allow the latter to achieve their important purposes. [186] Their pragmatism was critical to Court rulings that rejected regulatory takings claims, upheld environmental plaintiff standing, and sustained bold federal environmental programs dependent on judicial deference to agency expertise in interpreting ambiguous statutory language.",
+      "label": "body-text",
+      "word_count": 104
+    },
+    {
+      "text": "The Court is now dominated, and likely not coincidentally, by a majority that is skeptical of demanding environmental laws. Their concerns are triggered by what they perceive as violations of separation-of-powers concerns extending to the once largely discredited nondelegation doctrine. They invoke notions of rule of lenity, private property protections, and state sovereignty as reasons to cut back on the reach of environmental law. Some further question whether the laws transgress proper Commerce Clause limits on congressional authority, inviting even greater cutbacks on existing statutory protections. And they seem ready to cut back on relaxed notions of environmental citizen-suit plaintiff standing, essential for ensuring effective enforcement of federal requirements.",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "Nor have these countervailing concerns sprung up just in the past few years. They have been part of the debate surrounding environmental law for decades. [187] The difference, however, is that these concerns are generally prevailing and environmental laws are seemingly devolving as a result.",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "The six recent cases are illustrative. The loss of the Clean Power Plan and the invention of the Major Questions Doctrine in West Virginia was triggered by separation-of-powers concerns—demanding for the first time ever that federal agencies demonstrate “clear congressional authorization” for any agency rules that reflect any exercise of “highly consequential power.” [188] The devastation of the government’s ability to protect the nation’s waters in Sackett and the invocation of the statutory construction canons were rooted in private property rights, federalism, and the rule of lenity. [189] Separation-of-powers concerns also prompted the Court’s dismissal of agency expertise in interpreting statutes to address the nation’s environmental problems in Loper Bright in favor of a court’s divining for itself the “best” interpretation even when, as in City of San Francisco , there is nothing remotely ambiguous about the relevant statutory language. And, in Ohio v. EPA , the Court further rejected any scintilla of deference to agency expertise even when the most deferential judicial standard of review was applied―whether an agency action is arbitrary and capricious―in staying the critically important and vexing environmental problem of interstate air pollution. Underscoring how quickly the environmental protection had lost weight in the judicial calculus, only a decade earlier six Justices had voted to reject an analogous challenge to a similar interstate air pollution program. In that earlier case, the majority demonstrated awareness of the propriety of deference to an agency’s effort to deal with a seemingly complex and potentially intractable problem like interstate air pollution. [190]",
+      "label": "body-text",
+      "word_count": 252
+    },
+    {
+      "text": "This latest environmental defeat, Seven County , is to similar effect but with an added, troubling twist. In all the other recent cases, the environmentalists Achilles’ heel was the absence of clear congressional text in favor of their (and often also EPA’s) position. For instance, in West Virginia , the policy merits of the Clean Power Plan were overwhelming, but the argument that the relevant Clean Air Act provision enacted fifty years earlier allowed for the Plan was less so. In Sackett , the need for a broad definition of the Clean Water Act’s jurisdiction reach was compelling and supported by five decades of practice, but Congress’s invocation of the word “navigable” created a genuine legal issue. In Loper Bright , the undeniable need for judicial deference to agency expertise was clear, but it became harder to defend with increasingly old statutes, as Congress had dropped out of any significant amendment of the Clean Air Act, Clean Water Act, hazardous waste law, or the Endangered Species Act for more than thirty years.",
+      "label": "body-text",
+      "word_count": 172
+    },
+    {
+      "text": "In Seven County , the environmentalists’ legal argument was not vulnerable due to the absence of a recent congressional enactment. Just the opposite. It had been undermined by a recent congressional amendment of NEPA included in a budget bill, amending the law in 2023 for the first time since it was signed into law in 1970s. [191] The amendments, moreover, occurred years after the Surface Transportation Board prepared its EIS, and only a few months after the D.C. Circuit’s ruling.",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "The 2023 amendments introduced a paradox into the case. Courts for years had broadly construed the environmental effects of a proposed major federal action significantly affecting the human environment for NEPA purposes. To be sure, it had long been understood that the environmental effects had to be “reasonably foreseeable” and, after the Court’s ruling in Department of Transportation v. Public Citizen , effects the agency had the legal authority to control in making its decision. But other than impressionistic notions of remoteness and speculation, there had been no hard and fast categorical rules for which effects were or were not “reasonably foreseeable.” And there was never a rule that the effect was outside the scope of an agency’s required EIS analysis merely because another agency had regulatory authority over it.",
+      "label": "body-text",
+      "word_count": 130
+    },
+    {
+      "text": "It was hard, seemingly even impossibly hard, to square what had been longstanding NEPA practice with the new NEPA amendments. While EISs had normally been 600 pages long and taken years to develop, the new law provided that EISs were to be no longer than 150 pages long unless the agency action was of “extraordinary complexity,” in which case it could extend to 300 pages. [192] The EIS should take no longer than two years to prepare and a project sponsor could take the agency to court should it fail to meet the deadline. [193]",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "But of course, here is the rub. That kind of shortened page and time limit cannot be accomplished unless the scope of an EIS is also cut back on sharply. Yet the 2023 amendments were essentially silent on that issue. The Act’s description of the required scope of an EIS is no different from what the prior statute and then-applicable CEQ regulations required. [194]",
+      "label": "body-text",
+      "word_count": 64
+    },
+    {
+      "text": "What, however, is historically significant is that the NEPA amendments in question were part of a legislative budget bill drafted by Democrats in power in both the White House and the Senate at the time. [195] The Democratic party, which has long championed more stringent environmental protection requirements, was willing to accept significant amendments to NEPA―one of the nation’s most important environmental laws―in exchange for Republican votes for the budget bill. Past efforts to amend NEPA had consistently failed. [196] But, NEPA was now clearly on the table to be negotiated away.",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "Part of the reason for this major shift in policy was the apparently growing sentiment among some Democrats and perhaps even some environmentalists that NEPA had become a mixed bag because its insistence on rigorous environmental review risked slowing down the transformation of the nation’s system of delivering electricity required to address climate change. [197] A slowing down of the infrastructure necessary to grid transformation, moreover, was no neutral matter given the longer it takes to reduce greenhouse gas emissions, the exponentially harder it is to do so. [198]",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "The Seven County Court understood this and understandably used it to its advantage for making the case that NEPA had “hindered” important infrastructure. The Court stressed that “[i]ndeed, certain project opponents have relied on NEPA to fight even clean-energy projects―from wind farms to hydroelectric dams, from solar farms to geothermal wells.” [199] It is a valid point. With the perception that NEPA may now be interfering with climate goals, a bipartisan agreement was reached in 2023 to amend the law, even if amending only part of the law makes little sense in light of the rest of the law left unchanged. Ironically, in the case of Seven County , an immediate cost of NEPA’s cutback is a loss of EIS consideration of upstream and downstream impacts on climate change.",
+      "label": "body-text",
+      "word_count": 129
+    },
+    {
+      "text": "The Court’s reversal of the D.C. Circuit’s judgment in Seven County was not, standing alone, breaking news. More akin to same-old, same-old. But viewed not in isolation but in the broader context of our times, the ruling may well prove to be symptomatic of an ongoing devolving of environmental law. It is too soon to know for sure. That is necessarily true about discerning historical, evolutionary trends. No one isolated moment tells the full story. For those, however, who, like me, believe that environmental law has been one of law’s great success stories in the United States over the past half century, the suggestion of such an unraveling is discouraging.",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "Certainly, environmental law is being tested as never before. As described, it is being tested by the changing priorities of the current Supreme Court in areas of law that cross-cut with environmental law. It is being tested by a Congress that paradoxically passes a law that reduces environmental protections for the supposed purpose of addressing climate change more expeditiously but then fails to enact any substantive legislation directed to the climate issue itself. And, of course, it is being tested to an unprecedented extent by a President who, unable to erase the federal environmental statutes on the books, seeks to create a legal revolution akin to the antithesis of that which created environmental law in the 1970s―by destroying the federal government agencies’ ability to administer that law through massive freezing of previously appropriated funding, future budget cuts, layoffs, and destruction of career employee morale, [200] and by relying on the Court’s recent rulings to justify eliminating all Clean Air Act authority to regulate greenhouse gas emissions. [201] The Seven County opinion provides more reason still to worry with the obvious loss of much of the moral and legal force of one of the nation’s most important laws―NEPA.",
+      "label": "body-text",
+      "word_count": 197
+    },
+    {
+      "text": "Download PDF",
+      "label": "body-text",
+      "word_count": 2
+    },
+    {
+      "text": "Privacy Policy 2025 © Texas Law Review",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": ". 145 S. Ct. 1497 (2025).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". 42 U.S.C. §§ 4321–4370.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See, e.g. , Savannah Bergeron, Note, It’s Not Easy Being Green: The FDA’s Duties Under NEPA and ESA When Approving New Drugs and Biological Products , 48 Harv. Env’t L. Rev . 555, 574 (2024); John Gorham Palfrey, Energy and the Environment: The Special Case of Nuclear Power , 74 Colum. L. Rev. 1375, 1395 (1974).",
+      "label": "footnote-text",
+      "word_count": 57
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. 1497; Monsanto Co. v. Geertson Seed Farms, 561 U.S. 139 (2010); Winter v. Nat. Res. Def. Council, Inc., 555 U.S. 7 (2008); Norton v. S. Utah Wilderness All., 542 U.S. 55 (2004); Dep’t of Transp. v. Pub. Citizen, 541 U.S. 752 (2004); Robertson v. Seattle Audubon Soc’y, 503 U.S. 429 (1992); Marsh v. Or. Nat. Res. Council, 490 U.S. 360 (1989); Robertson v. Methow Valley Citizens Council, 490 U.S. 332 (1989); Balt. Gas & Elec. Co. v. Nat. Res. Def. Council, Inc., 462 U.S. 87 (1983); Metro. Edison Co. v. People Against Nuclear Energy, 460 U.S. 766 (1983); Weinberger v. Catholic Action of Haw./Peace Educ. Project, 454 U.S. 139 (1981); Strycker’s Bay Neighborhood Council, Inc. v. Karlen, 444 U.S. 223 (1980); Andrus v. Sierra Club, 442 U.S. 347 (1979); Vt. Yankee Nuclear Power Corp. v. Nat. Res. Def. Council, Inc., 435 U.S. 519 (1978); Kleppe v. Sierra Club, 427 U.S. 390 (1976); Flint Ridge Dev. Co. v. Scenic Rivers Ass’n of Okla., 426 U.S. 776 (1976); Aberdeen & Rockfish R.R. Co. v. Students Challenging Regul. Agency Procs. (SCRAP), 422 U.S. 289 (1975); United States v. Students Challenging Regul. Agency Procs. (SCRAP), 412 U.S. 669 (1973).",
+      "label": "footnote-text",
+      "word_count": 202
+    },
+    {
+      "text": ". Upper Pecos Ass’n v. Peterson, 406 U.S. 944 (1972).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Upper Pecos Ass’n v. Peterson, 409 U.S. 1021 (1972).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Geertson Seed , 561 U.S. at 166 (Stevens, J., dissenting); Winter , 555 U.S. at 34 (Breyer, J., concurring in part and dissenting in part); Strycker’s Bay , 444 U.S. at 228 (Marshall, J., dissenting); Kleppe , 427 U.S. at 415 (Marshall, concurring in part and dissenting in part); Aberdeen & Rockfish R.R. Co. , 422 U.S. at 328 (Douglas, J., dissenting in part); United States v. SCRAP , 412 U.S. at 699 (Douglas, J., dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 79
+    },
+    {
+      "text": ". See Norton , 542 U.S. 55; Pub. Citizen , 541 U.S. 752; Seattle Audubon , 503 U.S. 429; Marsh , 490 U.S. 360; Methow Valley , 490 U.S. 332; Balt. Gas & Electric Co. , 462 U.S. 87; Metro. Edison Co. , 460 U.S. 766; Weinberger , 454 U.S. 139; Andrus , 442 U.S. 347; Vt. Yankee Nuclear Power Corp. , 435 U.S. 519. Justice Brennan joined the Court’s opinion but filed a brief concurrence in both Methow Valley and Metropolitan Edison Co. Justice Blackmun, joined by Justice Brennan, concurred in the judgment in Weinberger .",
+      "label": "footnote-text",
+      "word_count": 97
+    },
+    {
+      "text": ". See City of San Francisco v. EPA, 145 S. Ct. 704 (2025) (Clean Water Act); Ohio v. EPA, 144 S. Ct. 2040 (2024) (Clean Air Act); Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244 (2024) (Magnuson-Stevens Fishery Conservation and Management Act); Sackett v. EPA, 143 S. Ct. 1322 (2023) (Clean Water Act); West Virginia v. EPA, 142 S. Ct. 2587 (2022) (Clean Air Act). And a few weeks after Seven County, the Court ruled against the legal arguments of EPA and environmental groups in a seventh case. See Diamond Alt. Energy v. EPA, 145 S. Ct. 2121, 2130 (2025) (Clean Air Act standing case).",
+      "label": "footnote-text",
+      "word_count": 106
+    },
+    {
+      "text": ". Sackett v. EPA, 143 S. Ct. 1322 (2023); West Virginia v. EPA, 142 S. Ct. 2587 (2022).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": ". 42 U.S.C. § 4321.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497, 1514 (2025).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". See infra text accompanying notes 123–39, 190–91.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See infra text accompanying notes 48–57 .",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See infra text accompanying notes 170–82.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See infra text accompanying notes 123–35.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1514.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". 42 U.S.C. § 4332(2)(C).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Seven Cnty ., 145 S. Ct. at 1507.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See Eagle County v. Surface Transp. Bd., 82 F.4th 1152, 1168 (D.C. Cir. 2023), cert. granted sub nom. , Seven Cnty. Infrastructure Coal. v. Eagle County, 144 S. Ct. 2680 (2024), and rev’d and remanded , 145 S. Ct. 1497 (2025).",
+      "label": "footnote-text",
+      "word_count": 42
+    },
+    {
+      "text": ". See Dep’t of Transp. v. Pub. Citizen, 541 U.S. 752, 767–68 (2004).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1169; Seven Cnty. , 145 S. Ct. at 1510–11.",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1196.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 1177.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 1175–89 (describing the arguments raised by petitioners and respondents regarding the scope of the EIS in turn).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1508–09.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1180.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 1181.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See id. at 1177.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. at 1175; see generally Surface Transp. Bd., STB Docket No. FD 36284, Uinta Basin Railway Final Environmental Impact Statement §§ 3.3 Water Resources, 3.4 Biological Resources, 3.6 Noise and Vibration, 3.11 Land Use and Recreation (2021) .",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1176.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See Brief for Petitioners at 12, 42–44, Seven Cnty. , 145 S. Ct. 1497 (No. 23-975).",
+      "label": "footnote-text",
+      "word_count": 17
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1167.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1508. As detailed by the Solicitor General, this total included an EIS of more than 600 pages, “more than 2200 pages of appendices containing technical analysis and other materials, as well as a separate 728-page document with the Board’s responses to public comments.” Brief for the Federal Respondents Supporting Petitioners at 6, Seven Cnty. , 145 S. Ct. 1497 (No. 23-975).",
+      "label": "footnote-text",
+      "word_count": 69
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1508–09.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Eagle County , 82 F.4th at 1168–69.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 1177–86.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1168, 1177, 1182–83, 1195.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 1177–80.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1179–80.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1180.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1188 (“The Board arbitrarily narrowed the scope of [Endangered Species Act] review and the [U.S. Fish & Wildlife] Service adopted that flawed determination without interrogation.”); id. at 1190 (finding the Board’s Final Exemption Order “arbitrary and capricious under the [ICC Termination Act]”).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": ". Brief for the Federal Respondents United States of America and U.S. Fish and Wildlife Service in Opposition at 8, Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497 (2025) (No. 23-975).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". See id. at 16–17.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Petition for a Writ of Certiorari at 6, 14, Seven Cnty. , 145 S. Ct. 1497 (No. 23-975).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". Petitioners, however, had reason to lose some of that confidence after the briefing when only a few days before oral argument, Justice Gorsuch announced his recusal from the case. Letter from Scott S. Harris, Clerk of the Supreme Court to Paul D. Clement, Elizabeth B. Prelogar, William McGinley Jay, & Kirti Datla, Counsel of Record (Dec. 4, 2024), Seven Cnty. , 145 S. Ct. 1497 (No. 23-975). Justice Gorsuch’s recusal appears to have been triggered by a judicial inquiry whether a close personal friend of the Justice had a financial interest in the case. A few weeks before Gorsuch announced his recusal, he received a letter from several members of Congress asserting that his recusal in the case was required because a former client and close friend of the Justice had a financial interest in the case. John Fritze, Justice Gorsuch Recuses Himself from Key Environmental Case with Ties to Longtime Ally , CNN ( Dec. 4, 2024, at 6:59 PM ET), https://www.cnn.com/2024/12/04/politics/gorsuch-anschutz-eagle-county-supreme-court/index.html [ https://perma.cc/A5ZD-QLS7] ; Letter from Representative Henry C. “Hank” Johnson and Twelve Other Members of Congress to The Honorable Neil Gorsuch (Nov. 20, 2024), https://hankjohnson.house.gov/sites/evo-subsites/hankjohnson.house.gov/files/evo-media-document/2024.11.20%20Letter%20to%20Justice%20Gorsuch.pdf [https://perma.cc/5YP6-44Y2]. As a result of Gorsuch’s recusal, petitioners now were aware they needed to secure the vote of Justice Barrett to win a majority for a broad ruling, which did not seem nearly as sure a vote in their favor as Gorsuch had been, given Barrett’s recently joining the more progressive Justices in several high-profile dissents in environmental cases both before and after the Seven County argument. See Ohio v. EPA, 144 S. Ct. 2040, 2058 (2024) (Barrett, J., dissenting); City of San Francisco v. EPA, 145 S. Ct. 704, 720 (2025) (Barrett, J., dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 286
+    },
+    {
+      "text": ". The Solicitor General flatly rejected the categorical approaches of the industry petitioners. See Brief for the Federal Respondents Supporting Petitioners, supra note 34, at 31. She faulted petitioners for “impos[ing] rigid bright-line rules that woodenly excuse harms based solely on their geographic or temporal distance from the agency action.” Id. at 37. The Solicitor General instead proffered “a variety of context-specific factors in determining whether and to what extent the proposed agency action is the ‘legally relevant cause’ of a particular harm” for NEPA EIS purposes. Id. at 17. As further described by the Solicitor General, this context-specific inquiry seeks to “take into account whether and to what extent harms have a reasonably close causal relationship to the agency’s action” or are “too attenuated, speculative, contingent, and otherwise insufficiently material” to the agency decision under consideration. Id. at 20.",
+      "label": "footnote-text",
+      "word_count": 140
+    },
+    {
+      "text": ". See Brief for Petitioners, supra note 32, at 19–26.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". See Environmental Respondents’ Brief at 20–23, Seven Cnty. , 145 S. Ct. 1497 (No. 23-975); supra text accompanying notes 30–41.",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". See Petition for a Writ of Certiorari, supra note 45, at iv–v, 4–6.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". Brief for Petitioners, supra note 32, at 2, 7–8, 27–29.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Fiscal Responsibility Act of 2023, Pub. L. No. 118-5, sec. 321(b), § 107(e)(1)(A), 137 Stat. 10, 39, 41 (codified as amended at 42 U.S.C. § 4336a(e)(1)(A)).",
+      "label": "footnote-text",
+      "word_count": 27
+    },
+    {
+      "text": ". Council on Env’t Quality, Exec. Off. of the President, Fact Sheet: CEQ Report on Length of Environmental Impact Statements (2013-2018) 1 (2020).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". Fiscal Responsibility Act of 2023, sec. 321(b), § 107(g)(1), 137 Stat. at 39, 42.",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". Council on Env’t Quality, Exec. Off. of the President, supra note 53.",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". See supra note 34 and accompanying text.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1506, 1506 (2025). Justice Sotomayor wrote a concurring opinion, which Justices Kagan and Jackson joined, on narrower grounds for reversal. Id. at 1508.",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". Id. at 1510.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". 144 S. Ct. 2244 (2024).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1511 (citing Loper Bright , 144 S. Ct. at 2261–62).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": ". Id. at 1512.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". Id. at 1512 n.3 (quoting 42 U.S.C. §§ 4336a(e)(1)(A), (g)(1)(A)).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Id. at 1510–11.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1508.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1513 (quoting Dep’t of Transp. v. Pub. Citizen, 541 U.S. 752, 767 (2004)).",
+      "label": "footnote-text",
+      "word_count": 16
+    },
+    {
+      "text": ". See supra note 47 and text accompanying notes 46–51.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". Seven Cnty., 145 S. Ct. at 1513.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See Pub. Citizen , 541 U.S. at 767, 769.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". See Jayni Foley Hein & Natalie Jacewicz, Implementing NEPA in the Age of Climate Change , 10 Mich. J. Env’t & Admin. L. 1, 7–8, 18, 25–29, 34–38 (2020).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1507.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". For instance, NEPA environmental assessments regularly prompt agencies to adopt measures to mitigate the adverse environmental impacts, once discovered by the assessment process, of their proposed actions. See Memorandum on the Appropriate Use of Mitigation and Monitoring and Clarifying the Appropriate Use of Mitigated Findings of No Significant Impact from Nancy H. Sutley, Chair, Council on Env’t Quality, Exec. Off. of the President, to Heads of Federal Departments and Agencies 4–5 (Jan. 14, 2011); Robertson v. Methow Valley Citizens Council, 490 U.S. 332, 349–52 (1989) (describing how NEPA prompts, but does not require, agencies to adopt mitigation measures to limit adverse environmental impacts).",
+      "label": "footnote-text",
+      "word_count": 104
+    },
+    {
+      "text": ". See Council on Env’t Quality, Exec. Off. of the President, The National Environmental Policy Act: A Study of its Effectiveness After Twenty-five Years 17, 19–20 (1997) (explaining that “[t]he success of a NEPA process heavily depends on whether an agency has systematically reached out to those who will be most affected by a proposal, gathered information and ideas from them, and responded to the input by modifying or adding alternatives, throughout the entire course of a planning process” and observing that “[m]any study participants believed that this interchange has improved the quality of projects and reduced impacts on the environment”); see also, e.g. , Robert V. Percival, Christopher H. Schroeder, Alan S. Miller & James P. Leape, Environmental Regulation: Law, Science, and Policy 288 (10th ed. 2024) (describing how information disclosure requirements such as California’s Proposition 65 can effectively lead to reduced pollution absent formal governmental imposition of pollution limits).",
+      "label": "footnote-text",
+      "word_count": 151
+    },
+    {
+      "text": ". See, e.g. , Sierra Club v. U.S. Army Corps of Eng’rs, 701 F.2d 1011, 1032–33 (2d Cir. 1983).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1514.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Id. at 1513.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. at 1514.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See, e.g. , Sierra Club v. U.S. Army Corps of Eng’rs, 701 F.2d 1011, 1029–32, 1034 (2d. Cir. 1983) (invalidating federal permit based on adverse environmental impacts of proposed federal action revealed by NEPA assessment); see also National Environmental Policy Act of 1969 § 102(2)(C), 42 U.S.C. § 4332(2)(C).",
+      "label": "footnote-text",
+      "word_count": 50
+    },
+    {
+      "text": ". Seven Cnty. , 145 S. Ct. at 1511.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See Brigham Daniels, Andrew P. Follett & James Salzman, Reconsidering NEPA , 96 Ind. L.J . 865, 869 (2021).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": ". 42 U.S.C. § 4321.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. § 4332(2)(C).",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id. § 4332(2)(C)(iii).",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". In 1977, President Carter issued an Executive Order purportedly authorizing the President’s Council on Environmental Quality, which was itself created by NEPA, to issue such binding regulations. See Exec. Order No. 11,991, 42 Fed. Reg. 26967 (May 24, 1977). For decades, CEQ did just that and the Court deferred within normal bounds to the CEQ regulations. See Andrus v. Sierra Club, 442 U.S. 347, 357–58 (1979). More recently, however, some courts have called into question the validity of President Carter’s authority to confer on CEQ such rulemaking authority, Iowa v. Council on Env’t Quality, 765 F. Supp. 3d 859 (D.N.D. 2025), and President Trump has revoked that administrative order. Exec. Order No. 14,154, 90 Fed. Reg. 8353, 8355 (Jan. 20, 2025). CEQ has in turn eliminated its CEQ regulations entirely, see Removal of National Environmental Policy Act Implementing Regulations, 90 Fed. Reg. 10610 (Feb. 25, 2025) (to be codified at 40 C.F.R. pts. 1500, 1501, 1502, 1503, 1504, 1506, 1507, 1508) (CEQ interim final rule), and agencies charged with complying with NEPA, like the Department of the Interior, have taken the further step of converting their own NEPA regulations into guidelines not published in the Code of Federal Regulations except for a few provisions intended to make NEPA compliance easier. See National Environmental Policy Act Implementing Regulations, 90 Fed. Reg. 29498 (July 3, 2025) (to be codified at 43 C.F.R. pt. 46) (Interior interim final rule). No doubt that is why neither of the two Supreme Court opinions in Seven County reference the CEQ NEPA regulations in force at the time of the Surface Transportation Board’s drafting of its EIS. Indeed, remarkably, neither opinion even refers to CEQ at all.",
+      "label": "footnote-text",
+      "word_count": 281
+    },
+    {
+      "text": ". 449 F.2d 1109 (D.C. Cir. 1971).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 1111.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". Id.",
+      "label": "footnote-text",
+      "word_count": 2
+    },
+    {
+      "text": ". See Hein & Jacewicz, supra note 71, at 14; Strycker’s Bay Neighborhood Council, Inc. v. Karlen, 444 U.S. 223, 227–28 (1980) (observing that NEPA only requires analysis of agencies’ procedures by reviewing courts).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". Calvert Cliffs , 449 F.2d at 1114.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See Daniels et al., supra note 82, at 871, 874.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". Kleppe v. Sierra Club, 427 U.S. 390, 421 (1976) (Marshall, J., concurring in part and dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". The President’s Council on Environmental Quality then codified those judicial rules in formal regulations, which were in place for decades but are currently defunct. See supra note 86.",
+      "label": "footnote-text",
+      "word_count": 29
+    },
+    {
+      "text": ". Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497, 1514 (2025).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See supra note 9 and accompanying text. As noted earlier, environmentalists lost their seventh case, relating to the Clean Air Act and industry standing and not nearly as important as Seven County , a few weeks after the Court decided Seven County . Id.",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": ". 142 S. Ct. 2587 (2022).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". See id. at 2602–05, 2615–16.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". 143 S. Ct. 1322 (2023).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". See id. at 1331–32, 1341; infra text accompanying notes 106–08.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". 144 S. Ct. 2244, 2255–56, 2273 (2024).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". 144 S. Ct. 2040 (2024).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Id. at 2048–49, 2051–52, 2058.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". 145 S. Ct. 704 (2025).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Id. at 710–11, 713.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". William W. Buzbee, The Lawlessness of Sackett v. EPA, 74 Case W. Rsrv. L. Rev. 317, 318 (2023).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". See Sackett v. EPA, 143 S. Ct. 1322, 1367 (2023) (Kavanaugh, J., concurring in the judgment); Richard J. Lazarus, Judicial Destruction of the Clean Water Act: Sackett v. EPA, U. Chi. L. Rev. Online , Aug. 11, 2023, at *1, *2–4, https://lawreview.uchicago.edu/judicial-destruction-clean-water-act-sackett-v-epa [https://perma.cc/SD3X-PA2X].",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". See id. at 1336–38.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2254–55, 2273 (2024).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See id. at 2255; Relentless Inc. v. U.S. Dep’t of Com., No. 20-cv-00108, 2025 WL 1939025, at *2 (D.R.I. July 15, 2025).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". See id. at 2256, 2273.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". See id. at 2266, 2273.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". Ohio v. EPA, 144 S. Ct. 2040, 2046, 2051, 2058 (2024).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". See id. at 2052.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See Emergency Application for Stay of Final Agency Action Pending Judicial Review at 27, Ohio v. EPA, 144 S. Ct. 2040 (2024) (No. 23A384) (showing filing on October 26, 2023); Opinions of the Court – 2023 , Sup. Ct. of the U.S. , https://www.supremecourt.gov/opinions/slipopinion/23 [https://perma.cc/C92F-G3TQ] (showing opinion release dates during the 2023 October Term from most to least recent).",
+      "label": "footnote-text",
+      "word_count": 60
+    },
+    {
+      "text": ". See Erwin Chemerinsky, Why the Shadow Docket Should Concern Us All , SCOTUSblog (Aug. 4, 2025), https://www.scotusblog.com/2025/08/why-the-shadow-docket-should-concern-us-all/ [https://perma.cc/ZQ3A-CCV9]; see also, e.g. , Miscellaneous Orders, 582 U.S. 963 (2017) (granting various applications for stays in orders consisting of one or two sentences each).",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": ". See Ohio v. EPA , 144 S. Ct. at 2052–54, 2058.",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". 572 U.S. 489, 493, 495–96 (2014).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See EME Homer City Generation, L.P. v. EPA, 696 F.3d 7 (D.C. Cir. 2012).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". John Davidson, Clean Water Act: Thinking About Our Polluted Rivers , Sierra Club S.D. , https://www.sierraclub.org/south-dakota/clean-water-act [https://perma.cc/F58P-PNGQ] (summarizing the Clean Water Act’s two-step approach); Federal Water Pollution Control Act Amendments of 1972, Pub. L. No. 92-500, § 301, 86 Stat. 816, 844–46.",
+      "label": "footnote-text",
+      "word_count": 43
+    },
+    {
+      "text": ". Davidson, supra note 120; Federal Water Pollution Control Act Amendments of 1972, § 303(a)–(c), 86 Stat. at 846–48.",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". See infra text accompanying notes 148–60 .",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Rachel Rothschild, The Origins of the Major Questions Doctrine , 100 I nd . L.J. 57, 59–60 (2024).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". West Virginia v. EPA, 142 S. Ct. 2587, 2609 (2022) (quoting Util. Air Regul. Grp. v. EPA, 573 U.S. 302, 324 (2014)).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". See id. at 2617–19 (Gorsuch, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". See id. ; Pamela King, Where Supreme Court Justices Stand on EPA, Climate , E&E News, Politico (Nov. 3, 2021, at 1:11 ET), https://www.eenews.net/articles/where-supreme-court-justices-stand-on-epa-climate/ [https://perma.cc/4QNW-UKNB].",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": ". See Sackett v. EPA, 143 S. Ct. 1322, 1331–44 (2023).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". See id. at 1341–43; id. at 1367 (Kavanaugh, J., concurring in the judgment).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See id. at 1341–44 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 1344–45, 1352–53 (Thomas, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 1358–59.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". 467 U.S. 837 (1984), overruled by , Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244 (2024).",
+      "label": "footnote-text",
+      "word_count": 18
+    },
+    {
+      "text": ". For more on Chevron’s “legal evolution,” see Thomas W. Merrill, The Chevron Doctrine, Its Rise and Fall, and the Future of the Administrative State , 80–99 (2022).",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": ". David Doniger, The Supreme Court Ruled Against Me to Empower Federal Agencies. They Got It Right , The Hill (Jan. 17, 2024, 1:30 PM ET), https://thehill.com/opinion/judiciary/4413225-the-supreme-court-ruled-against-me-to-empower-federal-agencies-they-got-it-right/ [https://perma.cc/JA9K-RQK5].",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": ". See Loper Bright , 144 S. Ct. at 2254.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". See, e.g. , Michigan v. EPA, 576 U.S. 743, 761–62 (2015) (Thomas, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". Loper Bright , 144 S. Ct. at 2291 (Gorsuch, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 12
+    },
+    {
+      "text": ". See Gutierrez-Brizuela v. Lynch, 834 F.3d 1142, 1149, 1152–55, 1158 (10th Cir. 2016). Curiously, Justice Gorsuch wrote a separate opinion concurring to his own opinion for the court to make clear his vehement personal position that Chevron is unconstitutional and should be overruled.",
+      "label": "footnote-text",
+      "word_count": 44
+    },
+    {
+      "text": ". The Court’s ruling in Seven County , however, adds a new, interesting twist on Loper Bright . To justify its holding that courts should defer to a federal agency’s decision on the proper boundaries for an EIS’s consideration of a proposed agency action’s environmental effects, the majority felt compelled to explain that the deference would not be to the agency’s legal interpretation of a statutory term within NEPA but instead “[f]or the most part” to the agency’s factual determination of “what details need to be included in any given EIS.” See Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497, 1512 (2025). According to the Court, “whether a particular report is detailed enough in a particular case itself requires the exercise of agency discretion―which should not be excessively second-guessed by a court.” Id. The majority analogizes this kind of judicial determination to “whether the agency action was reasonable and reasonably explained” as required by the Administrative Procedure Act, thereby warranting application of that same Act’s “deferential arbitrary-and-capricious” standard consistent with Motor Vehicle Mfrs. Ass’n of the U.S., Inc. v. State Farm Mut. Auto. Ins. Co. , 463 U.S. 29, 43 (1983). Id. at 1511. As the Court’s inclusion of the caveat “for the most part” readily acknowledges, the distinction here of Loper Bright is a bit messy. Sometimes an agency is not merely assessing facts. Its determination of what facts are relevant can naturally be framed as turning on a question of law, including the meaning of statutory terms such as “environmental effects” and “detailed” in NEPA. For this reason, some may view Seven County as cutting back on Loper Bright , while others may view Seven County as simply making clear the longstanding distinction between judicial review of statutory interpretation under Chevron and judicial review of agency factual assessments under State Farm .",
+      "label": "footnote-text",
+      "word_count": 307
+    },
+    {
+      "text": ". See Loper Bright , 144 S. Ct. at 2274–75 (Thomas, J., concurring); id. at 2283–85 (Gorsuch, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". Id. at 2274 (Thomas, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". Id. at 2285 (Gorsuch, J., concurring).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See Ohio v. EPA, 144 S. Ct. 2040, 2052–53 (2024).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". See id.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": ". See id. at 2053–54.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See id. at 2058–68 (Barrett, J., dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": ". See id.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": ". City of San Francisco v. EPA, 145 S. Ct. 704, 722 (2025) (Barrett, J., dissenting); see also id. at 726 (“Really, the Court’s argument reduces to the broader policy concern that it may be difficult for regulated entities to comply with receiving water limitations and that they may lack adequate notice of a violation.”).",
+      "label": "footnote-text",
+      "word_count": 55
+    },
+    {
+      "text": ". See id. at 715–16 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See id. at 715–18.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See id. at 717–18.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". 33 U.S.C. § 1311(b)(1)(A)–(B).",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Id. § 1311(b)(1)(C) (emphasis added).",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": ". See id.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": ". See City of San Francisco , 145 S. Ct. at 715; Id. at 722 (Barrett, J., dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": ". See id. at 715 (majority opinion).",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See id.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": ". Id. at 722 (Barrett, J., dissenting in part).",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". Id. at 723 (alteration in original) (quoting id. at 715 (majority opinion)).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". See id. at 715.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497, 1512 (2025).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". Id. at 1518.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See E. Donald Elliott, The Evolutionary Tradition in Jurisprudence , 85 Colum. L. Rev . 38, 51 (1985).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". See generally, e.g. , Evolution of Law: Select Readings on the Origin and Development of Legal Institutions (Albert Kocourek & John H. Wigmore eds., 1915-1918) (tracing the evolution of legal institutions through compiled works by various scholarly figures over the course of three volumes).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": ". John H. Wigmore, Planetary Theory of the Law’s Evolution , in 3 Evolution of Law , supra note 164, at 531; see Oliver Wendell Holmes, Law in Science and Science in Law , 12 Harv. L. Rev . 443, 449 (1899) (describing, similarly, “the struggle for life among competing ideas, and of the ultimate victory and survival of the strongest”).",
+      "label": "footnote-text",
+      "word_count": 61
+    },
+    {
+      "text": ". Richard J. Lazarus, The Making of Environmental Law , 84 (2d ed. 2023).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See id. at 100.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See id . at 56, 81–88, 95.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": ". Id. at 115 (noting that President Reagan’s efforts “to make environmental policies friendlier to business . . . were rebuffed with such ferocity that a series of even more demanding federal laws were enacted”).",
+      "label": "footnote-text",
+      "word_count": 35
+    },
+    {
+      "text": ". Id. at 81–89.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": ". See Richard J. Lazarus, Restoring What’s Environmental About Environmental Law in the Supreme Court , 47 U.C.L.A. L. Rev. 703, 749–59 (2000).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". See, e.g. , Massachusetts v. EPA, 549 U.S. 497, 519–21 (2007) (holding that a coastal state had standing to challenge an EPA regulation affecting greenhouse gas emissions); Friends of the Earth, Inc. v. Laidlaw Env’t Servs., Inc., 528 U.S. 167, 173–74, 185–87 (2000) (holding that a Clean Water Act citizen suit could proceed, as the polluter’s compliance with its NPDES permit after the suit was filed did not pose a mootness problem, and the deterrence effect imposed by civil penalties payable to the United States Treasury satisfied redressability).",
+      "label": "footnote-text",
+      "word_count": 89
+    },
+    {
+      "text": ". See, e.g. , Murr v. Wisconsin, 582 U.S. 383, 387, 405 (2017) (holding that considering two parcels of land as a single unit for development purposes did not create a compensable taking); Tahoe-Sierra Pres. Council, Inc. v. Tahoe Reg’l Plan. Agency, 535 U.S. 302, 306–07, 324–25 (2002) (holding that a moratorium on construction pending a regional land-use plan was not a compensable taking).",
+      "label": "footnote-text",
+      "word_count": 64
+    },
+    {
+      "text": ". See, e.g. , Hodel v. Virginia Surface Mining & Reclamation Ass’n, 452 U.S. 264, 281–82 (1981) (holding that congressional regulation of surface coal mining was a valid exercise of its power under the Commerce Clause).",
+      "label": "footnote-text",
+      "word_count": 36
+    },
+    {
+      "text": ". See generally Harold Leventhal, Environmental Decisionmaking and the Role of the Courts , 122 U. Penn. L. Rev. 509 (1974) (addressing the role of judicial review of administrative decisionmaking in light of the proliferation of environmental regulation).",
+      "label": "footnote-text",
+      "word_count": 38
+    },
+    {
+      "text": ". See, e.g. , Chevron U.S.A. Inc. v. Nat. Res. Def. Council, 467 U.S. 837, 866 (1984), overruled by , Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244 (2024).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". See, e.g. , Env’t Def. Fund, Inc. v. Ruckelshaus, 439 F.2d 584, 597–98 (D.C. Cir. 1971) (“We stand on the threshold of a new era in the history of the long and fruitful collaboration of administrative agencies and reviewing courts. . . . [I]nterests in life, health, and liberty . . . . have always had a special claim to judicial protection.”).",
+      "label": "footnote-text",
+      "word_count": 63
+    },
+    {
+      "text": ". See, e.g. , Whitman v. Am. Trucking Ass’ns, 531 U.S. 457, 472, 474–75 (2001).",
+      "label": "footnote-text",
+      "word_count": 15
+    },
+    {
+      "text": ". See United States v. Chem-Dyne Corp., 572 F. Supp. 802, 805–08, 810–11 (S.D. Ohio 1983); Burlington N. & Santa Fe Ry. Co. v. United States, 556 U.S. 599, 613 (2009) (describing the district court’s decision in Chem-Dyne as the “seminal opinion” on Superfund liability).",
+      "label": "footnote-text",
+      "word_count": 45
+    },
+    {
+      "text": ". Gen. Elec. Co. v. Jackson, 610 F.3d 110, 113–15 (D.C. Cir. 2010).",
+      "label": "footnote-text",
+      "word_count": 13
+    },
+    {
+      "text": ". Babbitt v. Sweet Home Chapter of Cmtys. for a Great Or., 515 U.S. 687, 690–91, 704 n.18 (1995).",
+      "label": "footnote-text",
+      "word_count": 19
+    },
+    {
+      "text": ". See, e.g. , PUD No. 1 of Jefferson Cnty. v. Wash. Dep’t. of Ecology, 511 U.S. 700, 720 (1994); Brief for Petitioners at 37–39, PUD No. 1 , 511 U.S. 700 (No. 92-1911).",
+      "label": "footnote-text",
+      "word_count": 34
+    },
+    {
+      "text": ". Wigmore, supra note 165, at 531. For instance, in Murr v. Wisconsin , those favoring land-use restrictions on development of fragile ecosystems won a major victory when the Supreme Court rejected a regulatory takings challenge to a county ordinance that limited residential construction in a parcel of land adjacent to the St. Croix River. See Murr v. Wisconsin, 582 U.S. 383, 388–91, 405 (2017). The victory, however, was short-lived when the state legislature, in response to complaints from landowners, subsequently amended state law to allow such development in that area. See Murr v. Wisconsin , Pac. Legal Found. , https://pacificlegal.org/case/murr-v-wisconsin/ [https://perma.cc/T5WZ-6HL5].",
+      "label": "footnote-text",
+      "word_count": 102
+    },
+    {
+      "text": ". See Jody Freeman & David B. Spence, Old Statutes, New Problems , 163 U. P a . L. R ev . 1, 8, 10 (2014).",
+      "label": "footnote-text",
+      "word_count": 26
+    },
+    {
+      "text": ". Id. at 42–43, 62–63.",
+      "label": "footnote-text",
+      "word_count": 5
+    },
+    {
+      "text": ". See Lazarus, supra note 171, at 715, 720–21, 733–34, 765–66.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". See id. at 727 & n.126, 749–56, 759 (discussing trends in the Court’s perspectives on these concerns in an article published in 2000).",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": ". West Virginia v. EPA, 142 S. Ct. 2587, 2609 (2022) (quoting Util. Air Regul. Grp. v. EPA, 573 U.S. 302, 324 (2014)).",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": ". See Sackett v. EPA, 143 S. Ct. 1322, 1341–43 (2023).",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": ". See EPA v. EME Homer City Generation, L.P., 572 U.S. 489, 514–15, 520 (2014) (acknowledging the “thorny causation problem” EPA faced in addressing the complexities of interstate air pollution).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". See supra text accompanying notes 48–57.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": ". See supra text accompanying notes 52–55; Fiscal Responsibility Act of 2023, Pub. L. No. 118-5, sec. 321(b), § 107(e)(1)(B), 137 Stat. 10, 39, 41–42.",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": ". See supra text accompanying note 54; Fiscal Responsibility Act of 2023, sec. 321(b), § 107(g)(3)(A), 137 Stat. at 39, 42.",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": ". To similar policy ends, Congress during the Trump administration recently amended NEPA further. In the One Big Beautiful Act, signed by the President on July 4, 2025, a “project sponsor” whose project is subject to NEPA review may opt to pay the fees necessary for that review and in exchange any environmental assessment for which such a fee has been paid “shall be completed not later than 180 days after the date on which the fee is paid.” One Big Beautiful Bill Act, Pub. L. No. 119-21, sec. 60026, § 112(a)(3)–(4), 139 Stat. 72, 157 (2025). Furthermore, any environmental impact statement for which such a fee has been paid “shall be completed not later than 1 year after the date of publication of the notice of intent to prepare the environmental impact statement.” Id.",
+      "label": "footnote-text",
+      "word_count": 135
+    },
+    {
+      "text": ". See Jennifer Scholtes, Caitlin Emma, Meredith Lee Hill & Josh Siegel, Here are the 6 must-know provisions of the new debt ceiling deal , Politico (May 28, 2023, at 12:17 AM ET), https://www.politico.com/news/2023/05/28/6-pillars-of-the-debt-ceiling-deal-00099108 [https://perma.cc/5XBS-WFL5].",
+      "label": "footnote-text",
+      "word_count": 35
+    },
+    {
+      "text": ". Daniels et al., supra note 82, at 873.",
+      "label": "footnote-text",
+      "word_count": 9
+    },
+    {
+      "text": ". See, e.g. , J.B. Ruhl & James Salzman, What Happens When the Green New Deal Meets the Old Green Laws? , 44 Vt. L. Rev. 693, 696–97, 716–18 (2020).",
+      "label": "footnote-text",
+      "word_count": 30
+    },
+    {
+      "text": ". This apparent shift in public sentiment regarding the efficacy of procedural requirements like NEPA to the extent that those requirements are seen as hindering needed growth are reflected in the recent book Abundance , which was published months after Seven County was briefed and argued. See generally Ezra Klein & Derek Thompson, Abundance (2025) (contending that ambitious and important public projects can be unduly hindered by laws like NEPA that require government agencies to consider the consequences of their actions before they act). More concretely, such a shift in public attitudes is reflected by California’s decision a month after Seven County to roll back its own state environmental assessment law, the California Environmental Quality Act, over environmentalist objections, based on an emerging consensus that such environmental review requirements interfere with the siting and construction of necessary affordable housing. See Lauren Rosenhall, Soumya Karlamangla & Adam Nagourney, California Rolls Back Its Landmark Environmental Law , N.Y. Times (June 30, 2025), https://www.nytimes.com/2025/06/30/us/california-environment-newsom-ceqa.html [https://perma.cc/2D5D-BSBP].",
+      "label": "footnote-text",
+      "word_count": 162
+    },
+    {
+      "text": ". Seven Cnty. Infrastructure Coal. v. Eagle County, 145 S. Ct. 1497, 1513 (2025).",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": ". See, e.g. , Lisa Friedman, Trump Administration to End Protections for 58 Million Acres of National Forests , N.Y. Times (June 23, 2025), https://www.nytimes.com/2025/06/23/climate/trump-end-protections-for-58-million-acres-of-national-forests.html [https://perma.cc/LV3F-TS4M]; Lisa Friedman, EPA Axes Biden’s Climate and Pollution Limits on Power Plants , N.Y. Times (June 11, 2025), https://www.nytimes.com/2025/06/11/climate/epa-power-plants-mercury-carbon-trump.html [https://perma.cc/CX35-8NRE]; Hiroko Tabuchi, E.P.A. Set to Cancel Grants Aimed at Protecting Children From Toxic Chemicals , N.Y. Times (Apr. 21, 2025), https://www.nytimes.com/2025/04/21/climate/epa-cuts-forever-chemicals-grants.html [https://perma.cc/H2TT-ZGLC]; Lisa Friedman, Trump Aims to Eliminate to Eliminate E.PA.’s Scientific Research Arm , N.Y. Times (Mar. 17, 2025), https://www.nytimes.com/2025/03/17/climate/trump-eliminates-epa-science.html [https://perma.cc/B6J3-CG2W].",
+      "label": "footnote-text",
+      "word_count": 88
+    },
+    {
+      "text": ". Reconsideration of 2009 Endangerment Finding and Greenhouse Gas Vehicle Standards, 90 Fed. Reg. 36288, 36289–91, 36299 (proposed Aug. 1, 2025) (to be codified at 40 C.F.R. pts. 85, 86, 600, 1036, 1037, 1039) (“The Agency did not have the benefit of the Court’s decisions in Loper Bright and West Virginia . . . when issuing the Endangerment Finding in 2009.”).",
+      "label": "footnote-text",
+      "word_count": 61
+    }
+  ]
+}
