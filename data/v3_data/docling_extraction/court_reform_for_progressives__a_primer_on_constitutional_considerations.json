@@ -1,0 +1,4665 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "court_reform_for_progressives__a_primer_on_constitutional_considerations",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 11927206486530062388,
+    "filename": "court_reform_for_progressives__a_primer_on_constitutional_considerations.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/125"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/130"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.998,
+            "t": 668.064,
+            "r": 466.534,
+            "b": 643.394,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "COURT REFORM FOR PROGRESSIVES: A PRIMER ON CONSTITUTIONAL CONSIDERATIONS",
+      "text": "COURT REFORM FOR PROGRESSIVES: A PRIMER ON CONSTITUTIONAL CONSIDERATIONS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 266.117,
+            "t": 628.213,
+            "r": 345.84,
+            "b": 618.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "M ARK T USHNET *",
+      "text": "M ARK T USHNET *",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 537.253,
+            "r": 468.019,
+            "b": 527.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Conclusion .......................................................................  92",
+      "text": "Conclusion .......................................................................  92"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.597,
+            "t": 510.133,
+            "r": 388.449,
+            "b": 500.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "I NTRODUCTION AND P RELIMINARIES",
+      "text": "I NTRODUCTION AND P RELIMINARIES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 485.173,
+            "r": 471.336,
+            "b": 345.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            760
+          ]
+        }
+      ],
+      "orig": "This brief and basically unannotated essay lays out some constitutional considerations associated with prominent (and some not so prominent)  proposals  for  Supreme  Court  reform  circulating  among progressives. 1 I confess to the feeling that writing this in the summer of 2024  resembles  analysis  of  policy  proposals  for  the  German  Social Democratic  Party  in  January  1933.  Here  are  two  'defenses.'  Saying something useful about the obviously more important questions on the table is outside my area of expertise. Legal progressives have typically, though not universally, focused on policy proposals for adoption in the short term; legal conservatives successfully played the long game. Legal progressives might learn something from that.",
+      "text": "This brief and basically unannotated essay lays out some constitutional considerations associated with prominent (and some not so prominent)  proposals  for  Supreme  Court  reform  circulating  among progressives. 1 I confess to the feeling that writing this in the summer of 2024  resembles  analysis  of  policy  proposals  for  the  German  Social Democratic  Party  in  January  1933.  Here  are  two  'defenses.'  Saying something useful about the obviously more important questions on the table is outside my area of expertise. Legal progressives have typically, though not universally, focused on policy proposals for adoption in the short term; legal conservatives successfully played the long game. Legal progressives might learn something from that."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 342.133,
+            "r": 471.35,
+            "b": 202.63699999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            805
+          ]
+        }
+      ],
+      "orig": "Two preliminary points: first, actually accomplishing Court reform by statute, one might think, requires (at least) what's come to be called the  'trifecta:'  control  of  the  House,  Senate,  and  the  Presidency  by  a single party whose members are generally committed to the idea of Court reform. The idea of 'control' is a bit complicated. Court reform can be accomplished by constitutional  amendment,  of  course,  which  requires supermajorities  in  the  House,  the  Senate,  and  the  states-but  not  the presidency. I generally put Court reform via constitutional amendment to one side in this essay, though the existence of the amendment process comes  up  in  connection  with  some  proposals  for  statutory  reform. 'Control' of the House and the Presidency is straight-forward, that of",
+      "text": "Two preliminary points: first, actually accomplishing Court reform by statute, one might think, requires (at least) what's come to be called the  'trifecta:'  control  of  the  House,  Senate,  and  the  Presidency  by  a single party whose members are generally committed to the idea of Court reform. The idea of 'control' is a bit complicated. Court reform can be accomplished by constitutional  amendment,  of  course,  which  requires supermajorities  in  the  House,  the  Senate,  and  the  states-but  not  the presidency. I generally put Court reform via constitutional amendment to one side in this essay, though the existence of the amendment process comes  up  in  connection  with  some  proposals  for  statutory  reform. 'Control' of the House and the Presidency is straight-forward, that of"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 178.336,
+            "r": 470.775,
+            "b": 160.039,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "* William  Nelson  Cromwell  Professor  of  Law  emeritus,  Harvard  Law School.",
+      "text": "* William  Nelson  Cromwell  Professor  of  Law  emeritus,  Harvard  Law School."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 156.49599999999998,
+            "r": 470.731,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "orig": "1. The President's Commission's report focused on policy considerations and touched on constitutional issues only in passing. P RESIDENTIAL C OMM ' N ON THE S UP . C T . OF THE U.S., Final Report (2021), https://www.whitehouse.gov/wpcontent/uploads/2021/12/SCOTUS-Report-Final-12.8.21-1.pdf [https://perma.cc/XS3U-YTCC].",
+      "text": "1. The President's Commission's report focused on policy considerations and touched on constitutional issues only in passing. P RESIDENTIAL C OMM ' N ON THE S UP . C T . OF THE U.S., Final Report (2021), https://www.whitehouse.gov/wpcontent/uploads/2021/12/SCOTUS-Report-Final-12.8.21-1.pdf [https://perma.cc/XS3U-YTCC]."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "80",
+      "text": "80"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.261,
+            "b": 653.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "the Senate less so. There it might be a majority large enough to overcome a filibuster, or it might be a majority willing to enact legislation by simple majority, ignoring the filibuster on this issue or in general.",
+      "text": "the Senate less so. There it might be a majority large enough to overcome a filibuster, or it might be a majority willing to enact legislation by simple majority, ignoring the filibuster on this issue or in general."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 650.293,
+            "r": 471.41,
+            "b": 484.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            891
+          ]
+        }
+      ],
+      "orig": "Second, I focus on proposals that would affect the Court immediately upon adoption. Ordinarily politicians have incentives to use their political capital to work for adoption of legislation that will give them immediate political benefit. Members of Congress typically don't spend their capital on projects that will pay off fifteen years down the road. So, for example, a proposal to limit the terms of those Supreme Court  justices  appointed  hereafter  has  little  in  it  to  recommend  to  a politician who believes that voters want change in the Supreme Court now . 2 There's one qualification: proposals with long-term payoffs might be part of a comprehensive institutional reform package-call it a 'good government' program-with some immediate payoffs and some deferred payoffs. At the moment, though, Supreme Court reform doesn't seem to be part of such a broader reform movement.",
+      "text": "Second, I focus on proposals that would affect the Court immediately upon adoption. Ordinarily politicians have incentives to use their political capital to work for adoption of legislation that will give them immediate political benefit. Members of Congress typically don't spend their capital on projects that will pay off fifteen years down the road. So, for example, a proposal to limit the terms of those Supreme Court  justices  appointed  hereafter  has  little  in  it  to  recommend  to  a politician who believes that voters want change in the Supreme Court now . 2 There's one qualification: proposals with long-term payoffs might be part of a comprehensive institutional reform package-call it a 'good government' program-with some immediate payoffs and some deferred payoffs. At the moment, though, Supreme Court reform doesn't seem to be part of such a broader reform movement."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 481.333,
+            "r": 471.36,
+            "b": 315.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            928
+          ]
+        }
+      ],
+      "orig": "It turns out, though, that focusing on immediate effects might not mean  focusing  on  statutes  that  are  actually  enacted.  There's  some evidence from political scientists that the introduction of court-curbing proposals-not  their  enactment-affects  the  Court's  overall  behavior. 3 The introduction of such proposals in sufficient volume signals to the Court  that  a  non-trivial  number  of  legislators  think  the  Court  has overreached, and the Court appears to react by pulling back from its more advanced positions. The mechanism by which this effect occurs is quite  obscure  and  not,  I  think,  well  described  in  the  political  science literature.  It  might  have  to  do  with  individual  justices'  desires  to  get approval from 'attentive' audiences-and if so the effect might be muted in today's political world where conservative and liberal justices have separate circles of social approval. 4",
+      "text": "It turns out, though, that focusing on immediate effects might not mean  focusing  on  statutes  that  are  actually  enacted.  There's  some evidence from political scientists that the introduction of court-curbing proposals-not  their  enactment-affects  the  Court's  overall  behavior. 3 The introduction of such proposals in sufficient volume signals to the Court  that  a  non-trivial  number  of  legislators  think  the  Court  has overreached, and the Court appears to react by pulling back from its more advanced positions. The mechanism by which this effect occurs is quite  obscure  and  not,  I  think,  well  described  in  the  political  science literature.  It  might  have  to  do  with  individual  justices'  desires  to  get approval from 'attentive' audiences-and if so the effect might be muted in today's political world where conservative and liberal justices have separate circles of social approval. 4"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 313.085,
+            "r": 471.255,
+            "b": 289.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "As already indicated, I keep annotations to a bare minimum. 5 As a primer this essay doesn't deal with every wrinkle in the arguments, just",
+      "text": "As already indicated, I keep annotations to a bare minimum. 5 As a primer this essay doesn't deal with every wrinkle in the arguments, just"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 253.93600000000004,
+            "r": 470.747,
+            "b": 182.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            576
+          ]
+        }
+      ],
+      "orig": "2. That's why the idea of adopting term limits to take effect gradually differs from the Twenty-Second Amendment, which imposed term limits on the presidency but exempted the sitting president. U.S. C ONST . amend. XXII. At the time of its proposal and adoption no one expected Harry Truman to serve more than two terms anyway. Giving it prospective effect wasn't politically costly and might have helped build a crossparty coalition in its favor (and such a coalition might have existed no matter what because the parties were less ideologically unified than they are today).",
+      "text": "2. That's why the idea of adopting term limits to take effect gradually differs from the Twenty-Second Amendment, which imposed term limits on the presidency but exempted the sitting president. U.S. C ONST . amend. XXII. At the time of its proposal and adoption no one expected Harry Truman to serve more than two terms anyway. Giving it prospective effect wasn't politically costly and might have helped build a crossparty coalition in its favor (and such a coalition might have existed no matter what because the parties were less ideologically unified than they are today)."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 165.6,
+            "t": 179.29600000000005,
+            "r": 451.799,
+            "b": 171.31899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "3. T OM C LARK , T HE L IMITS OF J UDICIAL I NDEPENDENCE 62-121 (2011).",
+      "text": "3. T OM C LARK , T HE L IMITS OF J UDICIAL I NDEPENDENCE 62-121 (2011)."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 168.01599999999996,
+            "r": 470.05,
+            "b": 149.47900000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "4. N EAL D EVINS & L AWRENCE B AUM , T HE C OMPANY T HEY K EEP : H OW P ARTISAN D IVISIONS C AME TO THE S UPREME C OURT 15-58 (2019).",
+      "text": "4. N EAL D EVINS & L AWRENCE B AUM , T HE C OMPANY T HEY K EEP : H OW P ARTISAN D IVISIONS C AME TO THE S UPREME C OURT 15-58 (2019)."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 145.93600000000004,
+            "r": 470.74,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "5. Readers who wonder about the support for my assertions about possible constitutional problems should regularly say to themselves, 'For the analysis underlying this  proposition, see Henry Hart, The Power of Congress to Limit the Jurisdiction of Federal Court: An Exercise in Dialectic , 66 H ARV . L. R EV . 1362 (1953).'",
+      "text": "5. Readers who wonder about the support for my assertions about possible constitutional problems should regularly say to themselves, 'For the analysis underlying this  proposition, see Henry Hart, The Power of Congress to Limit the Jurisdiction of Federal Court: An Exercise in Dialectic , 66 H ARV . L. R EV . 1362 (1953).'"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "81",
+      "text": "81"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.257,
+            "b": 666.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "those at the core. Readers who wonder about some point that I don't address should feel free to contact me.",
+      "text": "those at the core. Readers who wonder about some point that I don't address should feel free to contact me."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 663.253,
+            "r": 471.315,
+            "b": 536.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            696
+          ]
+        }
+      ],
+      "orig": "The  essay  has  four  parts,  dealing  successively  with  low-hanging fruit  (about  which  there  are  few  constitutional  questions-though  not none), statutory term limits including 'bells-and-whistles' proposals for accomplishing  effective  term  limits,  jurisdiction-stripping,  and  Court expansion. The conclusion: proposals for Court reform raise rather deep questions about the kind of democratic self-governance system we want to have-as does resistance to such proposals (that is, saying that Court reform is a bad idea raises deep questions about the kind of democratic self-governance system we want to have and which the objector believes to be close to what we actually have).",
+      "text": "The  essay  has  four  parts,  dealing  successively  with  low-hanging fruit  (about  which  there  are  few  constitutional  questions-though  not none), statutory term limits including 'bells-and-whistles' proposals for accomplishing  effective  term  limits,  jurisdiction-stripping,  and  Court expansion. The conclusion: proposals for Court reform raise rather deep questions about the kind of democratic self-governance system we want to have-as does resistance to such proposals (that is, saying that Court reform is a bad idea raises deep questions about the kind of democratic self-governance system we want to have and which the objector believes to be close to what we actually have)."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 251.181,
+            "t": 519.013,
+            "r": 360.893,
+            "b": 509.357,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "I. L OW -H ANGING F RUIT",
+      "text": "I. L OW -H ANGING F RUIT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 494.293,
+            "r": 471.353,
+            "b": 341.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            823
+          ]
+        }
+      ],
+      "orig": "Any Court reform can be achieved through constitutional amendment, of course. Impeachment is another constitutionally authorized method for affecting the Court's composition. 6 It requires a majority  in  the  House  and  a  supermajority  in  the  Senate  (and  no participation by the president). The failed impeachment of Samuel Chase is conventionally taken to stand for the proposition that judges cannot be impeached merely for disagreement with their rulings. More formally, I suppose, the Chase impeachment (and the fact that no federal judges, including Justices, have been impeached for anything other than ethical lapses) is taken to be a congressional interpretation of the term 'good behavior.' 'Good behavior' means, roughly, 'ethical behavior' rather than 'behavior that advances a good vision of the law.' 7",
+      "text": "Any Court reform can be achieved through constitutional amendment, of course. Impeachment is another constitutionally authorized method for affecting the Court's composition. 6 It requires a majority  in  the  House  and  a  supermajority  in  the  Senate  (and  no participation by the president). The failed impeachment of Samuel Chase is conventionally taken to stand for the proposition that judges cannot be impeached merely for disagreement with their rulings. More formally, I suppose, the Chase impeachment (and the fact that no federal judges, including Justices, have been impeached for anything other than ethical lapses) is taken to be a congressional interpretation of the term 'good behavior.' 'Good behavior' means, roughly, 'ethical behavior' rather than 'behavior that advances a good vision of the law.' 7"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 339.245,
+            "r": 471.398,
+            "b": 302.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            213
+          ]
+        }
+      ],
+      "orig": "Congress  also  controls  the  Supreme  Court's  budget. 8 I  have regularly, and without any success, raised the possibility that Congress could reduce the number of law clerks each justice is authorized to hire.",
+      "text": "Congress  also  controls  the  Supreme  Court's  budget. 8 I  have regularly, and without any success, raised the possibility that Congress could reduce the number of law clerks each justice is authorized to hire."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 165.6,
+            "t": 274.81600000000003,
+            "r": 286.902,
+            "b": 266.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "6. U.S. C ONST . art. II, §4.",
+      "text": "6. U.S. C ONST . art. II, §4."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 263.29600000000005,
+            "r": 470.724,
+            "b": 181.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            670
+          ]
+        }
+      ],
+      "orig": "7. In  July  2024,  Representative  Alexandria  Ocasio-Cortez  introduced  a resolution of impeachment for Justices Clarence Thomas and Samuel Alito that referred to  what  the  resolution  described  as  their  unethical  behavior-and  notably  she  did  not introduce a resolution with respect to other members of the Court's conservative majority. Press  Release,  Alexandria  Ocasio-Cortez,  Congresswoman,  House  of  Representative, Ocasio-Cortez Introduces Articles of Impeachment Against Justice Thomas and Justice Alito (July 10, 2024), https://ocasio-cortez.house.gov/media/press-releases/ocasiocortez-introduces-articles-impeachment-against-justice-thomas-and",
+      "text": "7. In  July  2024,  Representative  Alexandria  Ocasio-Cortez  introduced  a resolution of impeachment for Justices Clarence Thomas and Samuel Alito that referred to  what  the  resolution  described  as  their  unethical  behavior-and  notably  she  did  not introduce a resolution with respect to other members of the Court's conservative majority. Press  Release,  Alexandria  Ocasio-Cortez,  Congresswoman,  House  of  Representative, Ocasio-Cortez Introduces Articles of Impeachment Against Justice Thomas and Justice Alito (July 10, 2024), https://ocasio-cortez.house.gov/media/press-releases/ocasiocortez-introduces-articles-impeachment-against-justice-thomas-and"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 179.29600000000005,
+            "r": 470.757,
+            "b": 129.31899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            363
+          ]
+        }
+      ],
+      "orig": "[https://perma.cc/8ADV-53PX]. The Abe Fortas episode deserves mention as well. He resigned in the fact of realistic threats of impeachment, the substance of which would have  involved  serious  ethical  lapses  but  the  motivation  for  which  certainly  included disagreement with his substantive positions. The ethical lapses were more than a fig-leaf, though.",
+      "text": "[https://perma.cc/8ADV-53PX]. The Abe Fortas episode deserves mention as well. He resigned in the fact of realistic threats of impeachment, the substance of which would have  involved  serious  ethical  lapses  but  the  motivation  for  which  certainly  included disagreement with his substantive positions. The ethical lapses were more than a fig-leaf, though."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 165.6,
+            "t": 126.01599999999996,
+            "r": 286.902,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "8. U.S. C ONST . art. II, §4.",
+      "text": "8. U.S. C ONST . art. II, §4."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "82",
+      "text": "82"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.393,
+            "b": 510.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            973
+          ]
+        }
+      ],
+      "orig": "The rationale is that the Court has substantially reduced the number of cases it decides on the merits while retaining and even expanding the number of law clerks each justice has-and that it is good public policy for justices to write more of 'their' opinions ('more of' meaning both a larger number written personally by each justice and a greater portion of each opinion issued under the justice's name). We know enough about the way justices employ law clerks to believe that reducing the number of law clerks will give incentives to older justices to retire (that is, we know that as justices serve more years on the Court they delegate more opinion-drafting responsibility to their law clerks-in my view, I should add, an entirely sensible course of action). They might respond to the reduction in the number of law clerks by reorganizing their offices, which is  to  say  that  the  incentive  effects  of  this  proposal  are  only  incentive effects, not mandates.",
+      "text": "The rationale is that the Court has substantially reduced the number of cases it decides on the merits while retaining and even expanding the number of law clerks each justice has-and that it is good public policy for justices to write more of 'their' opinions ('more of' meaning both a larger number written personally by each justice and a greater portion of each opinion issued under the justice's name). We know enough about the way justices employ law clerks to believe that reducing the number of law clerks will give incentives to older justices to retire (that is, we know that as justices serve more years on the Court they delegate more opinion-drafting responsibility to their law clerks-in my view, I should add, an entirely sensible course of action). They might respond to the reduction in the number of law clerks by reorganizing their offices, which is  to  say  that  the  incentive  effects  of  this  proposal  are  only  incentive effects, not mandates."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 507.253,
+            "r": 471.389,
+            "b": 276.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1290
+          ]
+        }
+      ],
+      "orig": "This proposal has several features that deserve specific mention. It is framed as a 'good government' measure-people who do less work than they used to should get fewer resources than they used to. It might have an effect similar to term limits, though the choice to retire is left to each justice. And the increased incentive to retire might be an intended effect.  This  third  feature  raises  a  question  I  address  in  more  detail  in connection with Court expansion. Suppose a proposal would have the effect  of  changing  the  Court's  composition  in  a  setting  where  it's reasonable  to  believe  that  Congress  disagrees  with  the  substantive decisions  the  justices-and  in  particular  disproportionately  the  older justices who will feel the incentives most strongly-have rendered. Is it sufficient that there be a 'good government' rationale for the proposal (that is, is the proposal insulated from constitutional invalidation by the existence of such a rationale)? Or must the 'good government' rationale actually motivate the proposal's adoption (is that rationale a mere fig-leaf badly  concealing  an  intention  to  alter  outcomes)?  Perhaps  there's  a convention, similar to that associated with impeachment, that mere 'fig leaf' rationales are inadequate.",
+      "text": "This proposal has several features that deserve specific mention. It is framed as a 'good government' measure-people who do less work than they used to should get fewer resources than they used to. It might have an effect similar to term limits, though the choice to retire is left to each justice. And the increased incentive to retire might be an intended effect.  This  third  feature  raises  a  question  I  address  in  more  detail  in connection with Court expansion. Suppose a proposal would have the effect  of  changing  the  Court's  composition  in  a  setting  where  it's reasonable  to  believe  that  Congress  disagrees  with  the  substantive decisions  the  justices-and  in  particular  disproportionately  the  older justices who will feel the incentives most strongly-have rendered. Is it sufficient that there be a 'good government' rationale for the proposal (that is, is the proposal insulated from constitutional invalidation by the existence of such a rationale)? Or must the 'good government' rationale actually motivate the proposal's adoption (is that rationale a mere fig-leaf badly  concealing  an  intention  to  alter  outcomes)?  Perhaps  there's  a convention, similar to that associated with impeachment, that mere 'fig leaf' rationales are inadequate."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 273.25299999999993,
+            "r": 471.369,
+            "b": 146.47699999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            726
+          ]
+        }
+      ],
+      "orig": "There is then a further question: what if the rationale is not a 'mere' fig  leaf?  Suppose  we  have  (as  we  almost  inevitably  would)  a  'mixed motive' case. Members supporting the proposal do think that there's a good-government rationale for decreasing the number of law clerks but some (or all) of them also think that the changed incentive structure will lead in the relatively short run to a change in the Court's composition that will mean that the Court will render fewer decisions with which they disagree.  I'm  reasonably  confident  that  the  answer  you  give  will  be entirely  parasitic  on  your  views  about  the  decisions  supported  by  the justices likely to respond to the incentives by retiring.",
+      "text": "There is then a further question: what if the rationale is not a 'mere' fig  leaf?  Suppose  we  have  (as  we  almost  inevitably  would)  a  'mixed motive' case. Members supporting the proposal do think that there's a good-government rationale for decreasing the number of law clerks but some (or all) of them also think that the changed incentive structure will lead in the relatively short run to a change in the Court's composition that will mean that the Court will render fewer decisions with which they disagree.  I'm  reasonably  confident  that  the  answer  you  give  will  be entirely  parasitic  on  your  views  about  the  decisions  supported  by  the justices likely to respond to the incentives by retiring."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "83",
+      "text": "83"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 240.061,
+            "t": 689.173,
+            "r": 372.004,
+            "b": 679.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "II. S TATUTORY T ERM L IMITS",
+      "text": "II. S TATUTORY T ERM L IMITS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 664.213,
+            "r": 471.371,
+            "b": 537.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            667
+          ]
+        }
+      ],
+      "orig": "Statutory  term  limits  typically  operate  as  follows:  a  person  is nominated  for  a  position  on  the  United  States  courts.  The  person's commission would read, 'During good behavior, on the Supreme Court for [eighteen] years and thereafter on a court of appeals to be designated by [the Chief Justice or some other person or body within the judicial branch].'  Note  of  course  that  the  commissions  of  currently  sitting Supreme Court justices do not read that way. Statutory term limits, then, have only prospective effect, which means that, despite their popularity, no member of Congress has much reason to expend much effort to get them enacted.",
+      "text": "Statutory  term  limits  typically  operate  as  follows:  a  person  is nominated  for  a  position  on  the  United  States  courts.  The  person's commission would read, 'During good behavior, on the Supreme Court for [eighteen] years and thereafter on a court of appeals to be designated by [the Chief Justice or some other person or body within the judicial branch].'  Note  of  course  that  the  commissions  of  currently  sitting Supreme Court justices do not read that way. Statutory term limits, then, have only prospective effect, which means that, despite their popularity, no member of Congress has much reason to expend much effort to get them enacted."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 534.133,
+            "r": 471.379,
+            "b": 342.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1061
+          ]
+        }
+      ],
+      "orig": "One possible constitutional difficulty with this strategy is that the two-part  commission  might  not  be  permissible.  One  way  to  see  this involves noting that Congress is under no obligation to create federal courts of appeals. Suppose a person receives a two-part commission and Congress  then  abolishes  the  federal  courts  of  appeals.  The  person's tenure during good behavior is replaced by a term of years. Alternatively, the only court specifically identified in the Constitution is the Supreme Court. 9 That might be taken to imply that a person's commission must refer only to that Court. Or, the Constitution refers to 'one Supreme Court,' 10 implying  that  a  person  can  be  appointed  to  only  that  Court (otherwise the person would serve on 'one Supreme Court' and a court of  appeals).  Or,  yet  again,  at  least  for  the  transition  period  before currently sitting justices depart we would have two Supreme Courts, one consisting of Justices with life tenure on the Court, the other of justices with the two-part commission.",
+      "text": "One possible constitutional difficulty with this strategy is that the two-part  commission  might  not  be  permissible.  One  way  to  see  this involves noting that Congress is under no obligation to create federal courts of appeals. Suppose a person receives a two-part commission and Congress  then  abolishes  the  federal  courts  of  appeals.  The  person's tenure during good behavior is replaced by a term of years. Alternatively, the only court specifically identified in the Constitution is the Supreme Court. 9 That might be taken to imply that a person's commission must refer only to that Court. Or, the Constitution refers to 'one Supreme Court,' 10 implying  that  a  person  can  be  appointed  to  only  that  Court (otherwise the person would serve on 'one Supreme Court' and a court of  appeals).  Or,  yet  again,  at  least  for  the  transition  period  before currently sitting justices depart we would have two Supreme Courts, one consisting of Justices with life tenure on the Court, the other of justices with the two-part commission."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 339.253,
+            "r": 471.307,
+            "b": 264.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            370
+          ]
+        }
+      ],
+      "orig": "None  of  these  are  knock-down  arguments,  of  course,  and  I'm inclined to think that they ought to be rejected on the merits. But neither you  nor  I  are  the  relevant  decision-makers  here;  the  justices  of  the Supreme Court are, and I would guess that they'd be unsympathetic to efforts to alter the tenure status of those who would join them on the Court.",
+      "text": "None  of  these  are  knock-down  arguments,  of  course,  and  I'm inclined to think that they ought to be rejected on the merits. But neither you  nor  I  are  the  relevant  decision-makers  here;  the  justices  of  the Supreme Court are, and I would guess that they'd be unsympathetic to efforts to alter the tenure status of those who would join them on the Court."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 261.25299999999993,
+            "r": 471.4,
+            "b": 186.55700000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            428
+          ]
+        }
+      ],
+      "orig": "The  'complex  commission'  problem  attends  the  most  prominent 'bells and whistles' alternatives to statutory term limits, such as Epps and Sitaraman's 'lottery court,' 11 in which each court of appeals judge would receive a commission to sit on the Supreme Court for two weeks at random intervals. And 'bells and whistles' proposals have their own political  drawbacks.  Ordinary  people  can  understand  what's  going  on",
+      "text": "The  'complex  commission'  problem  attends  the  most  prominent 'bells and whistles' alternatives to statutory term limits, such as Epps and Sitaraman's 'lottery court,' 11 in which each court of appeals judge would receive a commission to sit on the Supreme Court for two weeks at random intervals. And 'bells and whistles' proposals have their own political  drawbacks.  Ordinary  people  can  understand  what's  going  on"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 165.6,
+            "t": 159.37599999999998,
+            "r": 289.89,
+            "b": 151.399,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "9. U.S. C ONST . art. III, §1.",
+      "text": "9. U.S. C ONST . art. III, §1."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 165.6,
+            "t": 147.856,
+            "r": 206.105,
+            "b": 139.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "10. Id.",
+      "text": "10. Id."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 136.336,
+            "r": 470.691,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "11. Daniel Epps & Ganesh Sitaraman, How to Save the Supreme Court , 129 Y ALE L.J. 181-92 (2019).",
+      "text": "11. Daniel Epps & Ganesh Sitaraman, How to Save the Supreme Court , 129 Y ALE L.J. 181-92 (2019)."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "84",
+      "text": "84"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.345,
+            "b": 627.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            350
+          ]
+        }
+      ],
+      "orig": "when the proposals on the table are term limits or Court expansion or (maybe) even jurisdiction stripping. Politicians can explain why those proposals are good ideas (if they are). 'Bells and whistles' proposals are different. They're so complicated that all a politician can say, really, is something like 'Trust me, this is going to fix the Court.'",
+      "text": "when the proposals on the table are term limits or Court expansion or (maybe) even jurisdiction stripping. Politicians can explain why those proposals are good ideas (if they are). 'Bells and whistles' proposals are different. They're so complicated that all a politician can say, really, is something like 'Trust me, this is going to fix the Court.'"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 241.506,
+            "t": 609.973,
+            "r": 370.587,
+            "b": 600.317,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "III. J URISDICTION S TRIPPING",
+      "text": "III. J URISDICTION S TRIPPING",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 585.253,
+            "r": 471.347,
+            "b": 458.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            708
+          ]
+        }
+      ],
+      "orig": "Consider a federal campaign finance statute that's plainly inconsistent with Citizens United 12 and the overall jurisprudence currently governing campaign contributions and independent expenditures (I'll call this a CUI statute-for ' Citizens United inconsistent') or a federal statute mandating affirmative action in the admissions policies of the nation's military  service  academies.  Congress  attempts  to  insulate  the  statutes from invalidation by denying courts jurisdiction to consider whether they are consistent with the Constitution. Here I consider only proposals to strip all courts of jurisdiction to consider the constitutionality of specific federal statutes or categories of statutes. 13",
+      "text": "Consider a federal campaign finance statute that's plainly inconsistent with Citizens United 12 and the overall jurisprudence currently governing campaign contributions and independent expenditures (I'll call this a CUI statute-for ' Citizens United inconsistent') or a federal statute mandating affirmative action in the admissions policies of the nation's military  service  academies.  Congress  attempts  to  insulate  the  statutes from invalidation by denying courts jurisdiction to consider whether they are consistent with the Constitution. Here I consider only proposals to strip all courts of jurisdiction to consider the constitutionality of specific federal statutes or categories of statutes. 13"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 455.173,
+            "r": 471.334,
+            "b": 354.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            597
+          ]
+        }
+      ],
+      "orig": "A bit of background, again quite simplified: most scholars think that Congress need not create any lower federal courts. Having the power to create  them  or  not,  Congress,  most  scholars  think,  has  essentially unlimited power to 'define their jurisdiction,' that is, to say which kinds of  cases  they  are  authorized  to  hear  (and  which  they  can't).  The Constitution requires that there be a Supreme Court, 14 but it also (scholars generally think) gives Congress the power to limit the categories of cases it hears on appeal from the lower federal courts and from the state courts.",
+      "text": "A bit of background, again quite simplified: most scholars think that Congress need not create any lower federal courts. Having the power to create  them  or  not,  Congress,  most  scholars  think,  has  essentially unlimited power to 'define their jurisdiction,' that is, to say which kinds of  cases  they  are  authorized  to  hear  (and  which  they  can't).  The Constitution requires that there be a Supreme Court, 14 but it also (scholars generally think) gives Congress the power to limit the categories of cases it hears on appeal from the lower federal courts and from the state courts."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 351.253,
+            "r": 471.318,
+            "b": 250.63699999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            595
+          ]
+        }
+      ],
+      "orig": "Actually  putting  the  idea  of  jurisdiction-stripping  into  statutory language  that  does  the  job  is  quite  difficult.  The  CUI  statute  limits contributions and independent expenditures. How are the limitations to be enforced? Typically (if the drafters don't get extremely creative) by injunctions or criminal prosecutions. Now suppose the CUI statute has a jurisdiction-stripping provision stating 'No court, federal or state, and including  the  United  States  Supreme  Court,  shall  have  jurisdiction  to determine whether or not the limitations herein are constitutional.' 15",
+      "text": "Actually  putting  the  idea  of  jurisdiction-stripping  into  statutory language  that  does  the  job  is  quite  difficult.  The  CUI  statute  limits contributions and independent expenditures. How are the limitations to be enforced? Typically (if the drafters don't get extremely creative) by injunctions or criminal prosecutions. Now suppose the CUI statute has a jurisdiction-stripping provision stating 'No court, federal or state, and including  the  United  States  Supreme  Court,  shall  have  jurisdiction  to determine whether or not the limitations herein are constitutional.' 15"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 165.6,
+            "t": 222.49599999999998,
+            "r": 367.915,
+            "b": 214.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "12. Citizens United v. FEC , 558 U.S. 310 (2010).",
+      "text": "Citizens United v. FEC , 558 U.S. 310 (2010).",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 210.976,
+            "r": 470.781,
+            "b": 150.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            517
+          ]
+        }
+      ],
+      "orig": "13. If you don't like the Supreme Court and only the Supreme Court (the set of people with such a view is I think pretty close to empty), you could limit the Court's jurisdiction to cases that fall within the constitutionally mandated original jurisdiction and-if you think that invoking the 'exceptions' clause requires that there be something left  to  the  appellate  jurisdiction-cases  'between  Citizens  of  the  same  State  claiming Lands under Grants of different States.' U.S. C ONST . art. III, §2, cl. 1.",
+      "text": "If you don't like the Supreme Court and only the Supreme Court (the set of people with such a view is I think pretty close to empty), you could limit the Court's jurisdiction to cases that fall within the constitutionally mandated original jurisdiction and-if you think that invoking the 'exceptions' clause requires that there be something left  to  the  appellate  jurisdiction-cases  'between  Citizens  of  the  same  State  claiming Lands under Grants of different States.' U.S. C ONST . art. III, §2, cl. 1.",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 165.6,
+            "t": 146.89599999999996,
+            "r": 262.521,
+            "b": 138.91899999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "14. Id. at art. III, §1.",
+      "text": "Id. at art. III, §1.",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 135.37599999999998,
+            "r": 470.69,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "15. The Supreme Court is specifically mentioned to avoid the possibility that, with respect to a statute referring generically only to 'courts,' the Court would invoke a clear-statement rule and hold that the generic term refers only to lower courts.",
+      "text": "The Supreme Court is specifically mentioned to avoid the possibility that, with respect to a statute referring generically only to 'courts,' the Court would invoke a clear-statement rule and hold that the generic term refers only to lower courts.",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "85",
+      "text": "85"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.408,
+            "b": 549.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            768
+          ]
+        }
+      ],
+      "orig": "An action for injunctive relief is brought in a federal or state court to prohibit a banned independent expenditure. That court has to decide whether to issue the injunction. Maybe it will say, 'I still have equitable discretion here. Because Congress has withdrawn one obviously relevant consideration  from  my  overall  calculus,  I'm  going  to  exercise  that discretion to deny the injunction.' Perhaps that seems an overreach, with equitable discretion used as an indirect way of saying that the substantive provisions  are  or  probably  are  unconstitutional.  Still,  one  reading  of United States v. Klein 16 is that Congress can't tell the courts that they have to rule in one direction only, when there's a constitutional issue lurking behind the scenes.",
+      "text": "An action for injunctive relief is brought in a federal or state court to prohibit a banned independent expenditure. That court has to decide whether to issue the injunction. Maybe it will say, 'I still have equitable discretion here. Because Congress has withdrawn one obviously relevant consideration  from  my  overall  calculus,  I'm  going  to  exercise  that discretion to deny the injunction.' Perhaps that seems an overreach, with equitable discretion used as an indirect way of saying that the substantive provisions  are  or  probably  are  unconstitutional.  Still,  one  reading  of United States v. Klein 16 is that Congress can't tell the courts that they have to rule in one direction only, when there's a constitutional issue lurking behind the scenes."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 546.133,
+            "r": 471.376,
+            "b": 471.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            383
+          ]
+        }
+      ],
+      "orig": "Perhaps we can get around the equitable-discretion obstacle. The court  will  be  asked  next  to  hold  the  jurisdiction-stripping  provision unconstitutional. That provision, as written, doesn't eliminate jurisdiction to consider that question (Hart's version is that a federal court will  rely  on  the  general  federal  question  jurisdiction  to  consider  that question. 17 )",
+      "text": "Perhaps we can get around the equitable-discretion obstacle. The court  will  be  asked  next  to  hold  the  jurisdiction-stripping  provision unconstitutional. That provision, as written, doesn't eliminate jurisdiction to consider that question (Hart's version is that a federal court will  rely  on  the  general  federal  question  jurisdiction  to  consider  that question. 17 )"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 468.133,
+            "r": 471.379,
+            "b": 341.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            675
+          ]
+        }
+      ],
+      "orig": "I note, not entirely incidentally, that those who actually sit down to write jurisdiction-stripping statutes rarely anticipate this problem, perhaps because doing so introduces a 'bells and whistles' difficulty in explaining what's going on. Suppose, though, that anticipating it the CUI statute not only denies jurisdiction to consider the constitutionality of the regulations of contributions and independent expenditures but also denies jurisdiction to consider the constitutionality of the jurisdiction-stripping provision  (in  Hart's  version,  Congress  removes  challenges  to  the jurisdiction-stripping provision from the general federal question jurisdiction 18 ).",
+      "text": "I note, not entirely incidentally, that those who actually sit down to write jurisdiction-stripping statutes rarely anticipate this problem, perhaps because doing so introduces a 'bells and whistles' difficulty in explaining what's going on. Suppose, though, that anticipating it the CUI statute not only denies jurisdiction to consider the constitutionality of the regulations of contributions and independent expenditures but also denies jurisdiction to consider the constitutionality of the jurisdiction-stripping provision  (in  Hart's  version,  Congress  removes  challenges  to  the jurisdiction-stripping provision from the general federal question jurisdiction 18 )."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 338.293,
+            "r": 471.318,
+            "b": 198.55700000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            811
+          ]
+        }
+      ],
+      "orig": "Is  the  two-level  jurisdiction-stripping  provision  unconstitutional? The  CUI  statute  (arguably)  violates  the  First  Amendment.  Does  the jurisdiction-stripping provision? 19 Probably the most that can be said is that existing First Amendment doctrine isn't well-designed to answer that question.  It's  hard  to  say,  for  example,  that  the  jurisdiction-stripping provision restricts speech based upon its viewpoint, content, or subject matter-or at least that it does so in the way the Court has used those terms  heretofore.  Maybe  the  Court  could  develop  something  like  a 'disparate  impact'  theory  of  viewpoint  regulation.  Regulations  not dealing directly with speech might be viewpoint based if they disproportionately  have  viewpoint  effects.  It's  hard  to  know  what  the",
+      "text": "Is  the  two-level  jurisdiction-stripping  provision  unconstitutional? The  CUI  statute  (arguably)  violates  the  First  Amendment.  Does  the jurisdiction-stripping provision? 19 Probably the most that can be said is that existing First Amendment doctrine isn't well-designed to answer that question.  It's  hard  to  say,  for  example,  that  the  jurisdiction-stripping provision restricts speech based upon its viewpoint, content, or subject matter-or at least that it does so in the way the Court has used those terms  heretofore.  Maybe  the  Court  could  develop  something  like  a 'disparate  impact'  theory  of  viewpoint  regulation.  Regulations  not dealing directly with speech might be viewpoint based if they disproportionately  have  viewpoint  effects.  It's  hard  to  know  what  the"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 165.6,
+            "t": 170.89599999999996,
+            "r": 431.978,
+            "b": 162.91899999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "16. United States v. Klein , 80 U.S. (13 Wall.) 128, 146-48 (1871).",
+      "text": "16. United States v. Klein , 80 U.S. (13 Wall.) 128, 146-48 (1871)."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 165.6,
+            "t": 159.37599999999998,
+            "r": 315.137,
+            "b": 151.399,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "17. Hart, supra note 5, at 1387-96.",
+      "text": "17. Hart, supra note 5, at 1387-96."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 165.6,
+            "t": 147.856,
+            "r": 263.861,
+            "b": 139.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "18. Id. at 1396-1401.",
+      "text": "18. Id. at 1396-1401."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 136.336,
+            "r": 470.639,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "19. In the literature this is phrased as, 'Is there an external limit on Congress's power to regulate jurisdiction?'",
+      "text": "19. In the literature this is phrased as, 'Is there an external limit on Congress's power to regulate jurisdiction?'"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "86",
+      "text": "86"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.287,
+            "b": 653.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "contours  of  such  a  doctrine  would  be  and  in  particular  whether  the doctrine would be more than an ad hoc way to deal with this specific problem.",
+      "text": "contours  of  such  a  doctrine  would  be  and  in  particular  whether  the doctrine would be more than an ad hoc way to deal with this specific problem."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 650.293,
+            "r": 471.284,
+            "b": 523.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            742
+          ]
+        }
+      ],
+      "orig": "It's  sometimes  suggested  that  there's  something  like  an  equal protection  problem  here  (putting  aside  the  problem  that  the  Equal Protection clause doesn't apply to congressional action). The idea is that the First Amendment rights implicated by the CUI statute are treated less favorably  than  other  constitutional  rights.  One  response  is,  so  what? Rights don't have rights, people do. As a regulation of the jurisdiction of the lower federal courts, the jurisdiction-stripping provision is a docketcontrol measure: 'Leave these questions to state courts.' You can gin up an equal-protection-like argument against doing that but here too existing equal protection doctrine isn't well-designed to deal with the problem.",
+      "text": "It's  sometimes  suggested  that  there's  something  like  an  equal protection  problem  here  (putting  aside  the  problem  that  the  Equal Protection clause doesn't apply to congressional action). The idea is that the First Amendment rights implicated by the CUI statute are treated less favorably  than  other  constitutional  rights.  One  response  is,  so  what? Rights don't have rights, people do. As a regulation of the jurisdiction of the lower federal courts, the jurisdiction-stripping provision is a docketcontrol measure: 'Leave these questions to state courts.' You can gin up an equal-protection-like argument against doing that but here too existing equal protection doctrine isn't well-designed to deal with the problem."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 520.213,
+            "r": 471.318,
+            "b": 406.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            605
+          ]
+        }
+      ],
+      "orig": "One possibility is this: laws adopted for the purpose and with the likely effect of denying someone her constitutional rights are unconstitutional no matter what their form. Maybe so, but proponents of the CUI state don't say that they want to deny anyone their true First Amendment  rights.  In  their  view,  the  Supreme  Court  has  seriously misinterpreted the Constitution and the CUI statute is a way of correcting that misinterpretation. According to proponents, if the Court can overrule its  own  decisions  as  wrong  on  the  day  they  were  decided,  why  can't Congress? More on this below.",
+      "text": "One possibility is this: laws adopted for the purpose and with the likely effect of denying someone her constitutional rights are unconstitutional no matter what their form. Maybe so, but proponents of the CUI state don't say that they want to deny anyone their true First Amendment  rights.  In  their  view,  the  Supreme  Court  has  seriously misinterpreted the Constitution and the CUI statute is a way of correcting that misinterpretation. According to proponents, if the Court can overrule its  own  decisions  as  wrong  on  the  day  they  were  decided,  why  can't Congress? More on this below."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 403.333,
+            "r": 471.387,
+            "b": 263.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            761
+          ]
+        }
+      ],
+      "orig": "Note, though, that the CUI statute refers to both federal and state courts. Where does Congress get the power to deny state courts the power to determine the constitutionality of a federal statute? Start with the CUI statute. Election law specialists say that Congress has the power to enact it as a regulation of commerce among the several states. Sending money to  a  candidate  or  election  committee  headquartered  in  another  state probably  does  count  as  interstate  commerce  even  under  postLopez jurisprudence, though we might expect cognitive pressure on the justices to revive limits on the commerce power when confronted with a statute relying  on  it  to  preclude  state  court  jurisdiction  over  constitutionally problematic legislation.",
+      "text": "Note, though, that the CUI statute refers to both federal and state courts. Where does Congress get the power to deny state courts the power to determine the constitutionality of a federal statute? Start with the CUI statute. Election law specialists say that Congress has the power to enact it as a regulation of commerce among the several states. Sending money to  a  candidate  or  election  committee  headquartered  in  another  state probably  does  count  as  interstate  commerce  even  under  postLopez jurisprudence, though we might expect cognitive pressure on the justices to revive limits on the commerce power when confronted with a statute relying  on  it  to  preclude  state  court  jurisdiction  over  constitutionally problematic legislation."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 260.293,
+            "r": 471.325,
+            "b": 107.59699999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            897
+          ]
+        }
+      ],
+      "orig": "Perhaps we could try to deal with this by making jurisdiction over all  questions  associated  with  the  CUI  statute  exclusive  in  the  federal courts (and then, of course, eliminating that jurisdiction). Consider here the 'affirmative action for service academies' statute. Suppose it has a provision saying that jurisdiction over constitutional questions associated with the statute is exclusive in the federal courts. Exclusive jurisdiction might be permissible because of the congeries of constitutional provisions dealing with the armed forces of the United States (there are too many to list here). I don't think something similar could be said about the power to  regulate  elections;  indeed,  the  relevant  clause  gives  states  the  first move in designing regulations, with a congressional power to displace or supplement them. This suggests that the power can't support exclusive",
+      "text": "Perhaps we could try to deal with this by making jurisdiction over all  questions  associated  with  the  CUI  statute  exclusive  in  the  federal courts (and then, of course, eliminating that jurisdiction). Consider here the 'affirmative action for service academies' statute. Suppose it has a provision saying that jurisdiction over constitutional questions associated with the statute is exclusive in the federal courts. Exclusive jurisdiction might be permissible because of the congeries of constitutional provisions dealing with the armed forces of the United States (there are too many to list here). I don't think something similar could be said about the power to  regulate  elections;  indeed,  the  relevant  clause  gives  states  the  first move in designing regulations, with a congressional power to displace or supplement them. This suggests that the power can't support exclusive"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "87",
+      "text": "87"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.277,
+            "b": 640.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "federal jurisdiction. And, once again, we have the recursion problem: can Congress prevent the state courts from considering the constitutionality of the provision conferring exclusive jurisdiction on the federal courts?",
+      "text": "federal jurisdiction. And, once again, we have the recursion problem: can Congress prevent the state courts from considering the constitutionality of the provision conferring exclusive jurisdiction on the federal courts?"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 637.333,
+            "r": 471.381,
+            "b": 497.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            813
+          ]
+        }
+      ],
+      "orig": "I'm  going  to  stop  proliferating  problems  here.  It  turns  out  to  be really difficult to draft a statute that will prevent state courts (at least) from considering the  constitutionality  of  the  CUI  statute's  substantive provisions.  Suppose,  though,  that  all  the  difficulties  were  overcome. With the state courts in the picture, we can now consider what seems to me  the  scholarly  consensus  about  jurisdiction-stripping.  According  to that consensus, our constitutional system rests on the presuppositionnot written anywhere in the Constitution (but we know that there are such presuppositions-see Trump v. United States 20 )-that somewhere there's a  court  with  the  power  to  determine  the  constitutionality  of  federal legislation, 21 at least absent truly compelling reasons. 22",
+      "text": "I'm  going  to  stop  proliferating  problems  here.  It  turns  out  to  be really difficult to draft a statute that will prevent state courts (at least) from considering the  constitutionality  of  the  CUI  statute's  substantive provisions.  Suppose,  though,  that  all  the  difficulties  were  overcome. With the state courts in the picture, we can now consider what seems to me  the  scholarly  consensus  about  jurisdiction-stripping.  According  to that consensus, our constitutional system rests on the presuppositionnot written anywhere in the Constitution (but we know that there are such presuppositions-see Trump v. United States 20 )-that somewhere there's a  court  with  the  power  to  determine  the  constitutionality  of  federal legislation, 21 at least absent truly compelling reasons. 22"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 494.293,
+            "r": 471.4,
+            "b": 354.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            792
+          ]
+        }
+      ],
+      "orig": "So, sure, maybe Congress can use its power to regulate the lower federal courts (and make exceptions to the Supreme Court's appellate jurisdiction) to prevent a federal court from considering the constitutionality of the CUI statute's substantive provisions. But it can't do that for the state courts. State courts can always unwrap the layers of protection Congress has wrapped around the substantive provisions. A state court invokes the presupposition to hold the provision giving federal courts  exclusive  jurisdiction  unconstitutional,  then  holds  the  provision purporting to strip state courts of jurisdiction unconstitutional because, for example, it's not within the power to regulate commerce among the several states, and then holds the substantive provisions unconstitutional.",
+      "text": "So, sure, maybe Congress can use its power to regulate the lower federal courts (and make exceptions to the Supreme Court's appellate jurisdiction) to prevent a federal court from considering the constitutionality of the CUI statute's substantive provisions. But it can't do that for the state courts. State courts can always unwrap the layers of protection Congress has wrapped around the substantive provisions. A state court invokes the presupposition to hold the provision giving federal courts  exclusive  jurisdiction  unconstitutional,  then  holds  the  provision purporting to strip state courts of jurisdiction unconstitutional because, for example, it's not within the power to regulate commerce among the several states, and then holds the substantive provisions unconstitutional."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 351.253,
+            "r": 471.294,
+            "b": 224.47699999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            742
+          ]
+        }
+      ],
+      "orig": "Here it's worth mentioning what's basically a policy consideration. What's a state court to do about the merits of the challenge to the CUI's substantive provisions? Does the statute freeze the law in place, leaving Citizens United as controlling precedent? If so, the substantive provisions are  unconstitutional.  If  not,  state  courts  are  free  to  examine  the substantive constitutional question as a matter of first principles. Some state courts will say that Citizens United remains controlling law, others will disagree and consider the First Amendment issues ab initio. Among the  latter,  some  will  end  up  agreeing  that Citizens  United correctly interpreted  the  First  Amendment  and  others  will  end  up  disagreeing.",
+      "text": "Here it's worth mentioning what's basically a policy consideration. What's a state court to do about the merits of the challenge to the CUI's substantive provisions? Does the statute freeze the law in place, leaving Citizens United as controlling precedent? If so, the substantive provisions are  unconstitutional.  If  not,  state  courts  are  free  to  examine  the substantive constitutional question as a matter of first principles. Some state courts will say that Citizens United remains controlling law, others will disagree and consider the First Amendment issues ab initio. Among the  latter,  some  will  end  up  agreeing  that Citizens  United correctly interpreted  the  First  Amendment  and  others  will  end  up  disagreeing."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 165.6,
+            "t": 201.37599999999998,
+            "r": 376.875,
+            "b": 193.399,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "20. Trump v. United States , 144 S. Ct. 2312 (2024).",
+      "text": "20. Trump v. United States , 144 S. Ct. 2312 (2024)."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 189.856,
+            "r": 470.762,
+            "b": 139.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            413
+          ]
+        }
+      ],
+      "orig": "21. You  can  shoehorn  the  presupposition  into  the  Fifth  Amendment's  Due Process Clause but I'm pretty sure you'd do so only if you already thought there was such a presupposition-that is, you can't find in the usual sources for interpreting the Due Process Clause enough material to establish that somewhere there has to be a court with the power to determine the constitutionality of federal legislation.",
+      "text": "21. You  can  shoehorn  the  presupposition  into  the  Fifth  Amendment's  Due Process Clause but I'm pretty sure you'd do so only if you already thought there was such a presupposition-that is, you can't find in the usual sources for interpreting the Due Process Clause enough material to establish that somewhere there has to be a court with the power to determine the constitutionality of federal legislation."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 144.0,
+            "t": 136.336,
+            "r": 470.746,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "22. The 'truly compelling reasons' clause here might be invoked in connection with the service-academies statute.",
+      "text": "22. The 'truly compelling reasons' clause here might be invoked in connection with the service-academies statute."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "88",
+      "text": "88"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.376,
+            "b": 575.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            613
+          ]
+        }
+      ],
+      "orig": "Limits on contributions and independent expenditures will be constitutional  in  some  state  and  not  in  others.  Some  (not  me)  will  be troubled by this disuniformity, which might affect ('distort,' opponents of  jurisdiction-stripping  will  say)  the  pattern  of  contributions. 23 These policy  concerns  will  affect  politicians'  incentives  to  vote  for  the  CUI statute, particularly because they're not going to be able to predict well what the courts of their states will do and so won't be able to predict well what the statute's effects on their constituents (and their candidacies) will be.",
+      "text": "Limits on contributions and independent expenditures will be constitutional  in  some  state  and  not  in  others.  Some  (not  me)  will  be troubled by this disuniformity, which might affect ('distort,' opponents of  jurisdiction-stripping  will  say)  the  pattern  of  contributions. 23 These policy  concerns  will  affect  politicians'  incentives  to  vote  for  the  CUI statute, particularly because they're not going to be able to predict well what the courts of their states will do and so won't be able to predict well what the statute's effects on their constituents (and their candidacies) will be."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 572.293,
+            "r": 471.338,
+            "b": 393.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            986
+          ]
+        }
+      ],
+      "orig": "There's another wrinkle. Suppose the CUI statute is enforced via a criminal  prosecution.  I'm  going  to  be  quite  telegraphic  about  the arguments here. The defendant says, 'You can't convict me because the statute's unconstitutional.' The trial court and appeals court say, 'Sorry, we don't have jurisdiction to consider that defense.' The defendant, now convicted, seeks habeas corpus relief in a federal court. The habeas court says,  'Sorry,  etc.'  The  defendant/habeas  petitioner  says,  'Wait  a minute, that means that Congress has suspended the habeas clause. First of all, there (ought to be) a clear statement rule here: if Congress wants to suspend habeas it's got to say so explicitly. And second, this isn't a case of 'Rebellion or Invasion' so Congress doesn't have the power to suspend.' The habeas court says, 'Interesting arguments, but we think the  statute's  clear  enough  and  denies  us  jurisdiction  to  consider  your 'Rebellion or Invasion' argument.'",
+      "text": "There's another wrinkle. Suppose the CUI statute is enforced via a criminal  prosecution.  I'm  going  to  be  quite  telegraphic  about  the arguments here. The defendant says, 'You can't convict me because the statute's unconstitutional.' The trial court and appeals court say, 'Sorry, we don't have jurisdiction to consider that defense.' The defendant, now convicted, seeks habeas corpus relief in a federal court. The habeas court says,  'Sorry,  etc.'  The  defendant/habeas  petitioner  says,  'Wait  a minute, that means that Congress has suspended the habeas clause. First of all, there (ought to be) a clear statement rule here: if Congress wants to suspend habeas it's got to say so explicitly. And second, this isn't a case of 'Rebellion or Invasion' so Congress doesn't have the power to suspend.' The habeas court says, 'Interesting arguments, but we think the  statute's  clear  enough  and  denies  us  jurisdiction  to  consider  your 'Rebellion or Invasion' argument.'"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 390.133,
+            "r": 471.371,
+            "b": 289.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            577
+          ]
+        }
+      ],
+      "orig": "The defendant now goes to state court seeking habeas relief. The federal government says, 'Independent of the CUI statute, state courts don't have habeas jurisdiction over federal prisoners.' The state court (subject to the considerations in the preceding paragraph about variation among state courts) responds, 'The cases you rely on do say 'exclusive jurisdiction,' but they all assume that there's habeas jurisdiction in the federal  courts.  And  the  presupposition  about  the  availability  of  some court kicks in here. So we're going to decide the case on the merits.'",
+      "text": "The defendant now goes to state court seeking habeas relief. The federal government says, 'Independent of the CUI statute, state courts don't have habeas jurisdiction over federal prisoners.' The state court (subject to the considerations in the preceding paragraph about variation among state courts) responds, 'The cases you rely on do say 'exclusive jurisdiction,' but they all assume that there's habeas jurisdiction in the federal  courts.  And  the  presupposition  about  the  availability  of  some court kicks in here. So we're going to decide the case on the merits.'"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 286.213,
+            "r": 471.34,
+            "b": 185.59699999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            585
+          ]
+        }
+      ],
+      "orig": "What  happens  when  the  case  gets  to  the  Supreme  Court?  Again stripping away all the preliminaries, either the Supreme Court says, 'We don't have jurisdiction per the CUI statute (so the state court decision stands),' or it says, 'We have jurisdiction and we have to consider the defendant's claims on the merits. Otherwise, Congress would be telling us that we have to, in effect, affirm a conviction that's defensible only if the underlying statute is constitutional. We know that Congress can tell us  how  to  resolve  statutory  questions  (even  by  using  jurisdictional",
+      "text": "What  happens  when  the  case  gets  to  the  Supreme  Court?  Again stripping away all the preliminaries, either the Supreme Court says, 'We don't have jurisdiction per the CUI statute (so the state court decision stands),' or it says, 'We have jurisdiction and we have to consider the defendant's claims on the merits. Otherwise, Congress would be telling us that we have to, in effect, affirm a conviction that's defensible only if the underlying statute is constitutional. We know that Congress can tell us  how  to  resolve  statutory  questions  (even  by  using  jurisdictional"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 144.0,
+            "t": 145.93600000000004,
+            "r": 470.76,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            311
+          ]
+        }
+      ],
+      "orig": "23. 'Might,'  because  the  distortion  would  consist  of  money  flowing  from states with limits to states without (unless the states with limits say that their limitations apply  to  contributions  and  expenditures  outside  their  boundaries,  which  would  raise another set of constitutional questions).",
+      "text": "23. 'Might,'  because  the  distortion  would  consist  of  money  flowing  from states with limits to states without (unless the states with limits say that their limitations apply  to  contributions  and  expenditures  outside  their  boundaries,  which  would  raise another set of constitutional questions)."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "89",
+      "text": "89"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.164,
+            "b": 666.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "language to specify what the statute really means), but it can't do that for constitutional questions.'",
+      "text": "language to specify what the statute really means), but it can't do that for constitutional questions.'"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 663.253,
+            "r": 471.323,
+            "b": 419.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1368
+          ]
+        }
+      ],
+      "orig": "At  the  end  of  the  road,  then,  we  have  two  issues  to  resolve  for jurisdiction-stripping to 'work.' In reverse order of their appearance: 'Why  not?'  That  is,  why  can't  Congress  tell  the  courts  what  the Constitution means? True, it's emphatically the province and duty of the courts to say what the law is, but that doesn't have mean that only the courts can say what the law is. And second (perhaps the same question in different words), where does the presupposition about there being a court somewhere with the power to resolve constitutional questions come from?  And,  perhaps  more  pointedly,  even  if  there  is  such  a general presupposition,  why  can't  we  acknowledge  a  power  in  Congress selectively  to  disregard  the  presupposition?  As  the  preceding  material shows (and there are lots of details I've omitted that would drive the point home even more forcefully), it's really hard to exercise such a power effectively. There certainly would be political costs associated with doing so,  which  suggests  that  any  slippery  slope  here  would  have  a  lot  of friction and resistance. And, maybe, sliding gradually down the slope wouldn't  be  so  bad  for  democratic  self-governance  ('slowly'  matters because we'd want to allow people to adapt their political behavior as the presupposition gradually fades away).",
+      "text": "At  the  end  of  the  road,  then,  we  have  two  issues  to  resolve  for jurisdiction-stripping to 'work.' In reverse order of their appearance: 'Why  not?'  That  is,  why  can't  Congress  tell  the  courts  what  the Constitution means? True, it's emphatically the province and duty of the courts to say what the law is, but that doesn't have mean that only the courts can say what the law is. And second (perhaps the same question in different words), where does the presupposition about there being a court somewhere with the power to resolve constitutional questions come from?  And,  perhaps  more  pointedly,  even  if  there  is  such  a general presupposition,  why  can't  we  acknowledge  a  power  in  Congress selectively  to  disregard  the  presupposition?  As  the  preceding  material shows (and there are lots of details I've omitted that would drive the point home even more forcefully), it's really hard to exercise such a power effectively. There certainly would be political costs associated with doing so,  which  suggests  that  any  slippery  slope  here  would  have  a  lot  of friction and resistance. And, maybe, sliding gradually down the slope wouldn't  be  so  bad  for  democratic  self-governance  ('slowly'  matters because we'd want to allow people to adapt their political behavior as the presupposition gradually fades away)."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 253.348,
+            "t": 402.133,
+            "r": 358.739,
+            "b": 392.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "IV. C OURT E XPANSION",
+      "text": "IV. C OURT E XPANSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 377.173,
+            "r": 471.311,
+            "b": 315.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            348
+          ]
+        }
+      ],
+      "orig": "Why isn't Court expansion a low-hanging fruit? The Court's size is set  by  statute  and  it  has  varied  from  time  to  time.  Indeed,  proposals surface from time to time to amend the Constitution to set the Court's size,  which  suggests  that  under  current  law  Congress  does  have  the power to set the Court's size wherever it wants. 24",
+      "text": "Why isn't Court expansion a low-hanging fruit? The Court's size is set  by  statute  and  it  has  varied  from  time  to  time.  Indeed,  proposals surface from time to time to amend the Constitution to set the Court's size,  which  suggests  that  under  current  law  Congress  does  have  the power to set the Court's size wherever it wants. 24"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 312.133,
+            "r": 471.334,
+            "b": 211.51700000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            578
+          ]
+        }
+      ],
+      "orig": "Here's a specific proposal grounded in historical experience. There used to be one Supreme Court justice 'for' each circuit court of appeals. The practice of one circuit, one justice arose when the justices actually 'rode circuit,' that is, sat on courts within those circuits. This 'good government' rationale for changing the Court's size doesn't stand alone, though. Justin Crowe has shown that the timing of the creation of new circuits, and so of new justices, was often driven in substantial part by the expected effect of a new appointee on the court's decisions. 25 And,",
+      "text": "Here's a specific proposal grounded in historical experience. There used to be one Supreme Court justice 'for' each circuit court of appeals. The practice of one circuit, one justice arose when the justices actually 'rode circuit,' that is, sat on courts within those circuits. This 'good government' rationale for changing the Court's size doesn't stand alone, though. Justin Crowe has shown that the timing of the creation of new circuits, and so of new justices, was often driven in substantial part by the expected effect of a new appointee on the court's decisions. 25 And,"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 189.856,
+            "r": 470.757,
+            "b": 139.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "orig": "24. I note simply in passing that the Constitution's 'numerical' provisionstwo senators for every state, age qualifications, the twenty-dollar jury trial right-are among its most problematic precisely because the numbers were set against a background in which they probably made sense, but they have come into question as the background has changed.",
+      "text": "24. I note simply in passing that the Constitution's 'numerical' provisionstwo senators for every state, age qualifications, the twenty-dollar jury trial right-are among its most problematic precisely because the numbers were set against a background in which they probably made sense, but they have come into question as the background has changed."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 11,
+          "bbox": {
+            "l": 144.0,
+            "t": 136.336,
+            "r": 470.044,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "25. J USTIN C ROWE , B UILDING THE J UDICIARY : L AW , C OURTS , AND THE P OLITICS OF I NSTITUTIONAL D EVELOPMENT (2012).",
+      "text": "25. J USTIN C ROWE , B UILDING THE J UDICIARY : L AW , C OURTS , AND THE P OLITICS OF I NSTITUTIONAL D EVELOPMENT (2012)."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "90",
+      "text": "90"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.391,
+            "b": 575.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            607
+          ]
+        }
+      ],
+      "orig": "the  temporary  reduction  in  the  Court's  size  after  the  Civil  War  was almost entirely driven by politics-to  deny  Andrew  Johnson  the opportunity to name justices to the Court. 26 Today's proponents of Court expansion would add the Senate's inaction on the nomination of Merrick Garland to the list of actions taken for purely political reasons to affect the  Court's  size.  Overall,  then,  we  have  a  history  of  modifying  the Court's  size  for  plausible  good  government  reasons  tempered  by politics-and  one  or  two  examples  of  purely  political  changes  in  the Court's size.",
+      "text": "the  temporary  reduction  in  the  Court's  size  after  the  Civil  War  was almost entirely driven by politics-to  deny  Andrew  Johnson  the opportunity to name justices to the Court. 26 Today's proponents of Court expansion would add the Senate's inaction on the nomination of Merrick Garland to the list of actions taken for purely political reasons to affect the  Court's  size.  Overall,  then,  we  have  a  history  of  modifying  the Court's  size  for  plausible  good  government  reasons  tempered  by politics-and  one  or  two  examples  of  purely  political  changes  in  the Court's size."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 572.293,
+            "r": 471.418,
+            "b": 497.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            384
+          ]
+        }
+      ],
+      "orig": "Today there are thirteen circuit courts, so the Court's size 'should be' expanded to thirteen. Though the justices don't ride circuit, even today they do some circuit-specific work. Most notably, they rule on emergency  motions  coming  from  the  circuits  for  which  they  are responsible.  So,  the  'one  circuit,  one  justice'  rule  has  some  modest functional justification.",
+      "text": "Today there are thirteen circuit courts, so the Court's size 'should be' expanded to thirteen. Though the justices don't ride circuit, even today they do some circuit-specific work. Most notably, they rule on emergency  motions  coming  from  the  circuits  for  which  they  are responsible.  So,  the  'one  circuit,  one  justice'  rule  has  some  modest functional justification."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 494.293,
+            "r": 471.336,
+            "b": 419.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            385
+          ]
+        }
+      ],
+      "orig": "But, of course, there's more than that going on. If Democrats won the  trifecta  and  added  four  justices,  the  Court's  composition  would change from six justices nominated by Republican presidents and three by Democrats, to seven nominated by Democrat and six nominated by Republicans.  That  effect  opens  up  the  possibility  of  constitutional challenges to Court expansion.",
+      "text": "But, of course, there's more than that going on. If Democrats won the  trifecta  and  added  four  justices,  the  Court's  composition  would change from six justices nominated by Republican presidents and three by Democrats, to seven nominated by Democrat and six nominated by Republicans.  That  effect  opens  up  the  possibility  of  constitutional challenges to Court expansion."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 416.293,
+            "r": 471.303,
+            "b": 250.63699999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            932
+          ]
+        }
+      ],
+      "orig": "Here everything turns, I believe, on whether we give constitutional significance to the defeat of FDR's Court-packing plan in 1937 (and on ignoring the Andrew-Johnson era reduction in the Court's size). Was that defeat an  ordinary  political  loss  or  did  it  somehow  establish  or consolidate  some  sort  of  constitutional  rule  limiting  the  occasions  for changing the Court's size? The best recent scholarship establishes that neither  Congress  nor  'the  country'  decisively  repudiated  the  Courtpacking plan. It was a close-run race up to the very end. FDR packaged the plan as a good-government measure, pretending that the Court needed new  members  to  do  work  that  elderly  justices  were  unable  to  do effectively. His disingenuousness impaired the political effort to get the plan adopted. Yet, constitutional language, mostly about judicial independence, pervaded the arguments of the plan's opponents.",
+      "text": "Here everything turns, I believe, on whether we give constitutional significance to the defeat of FDR's Court-packing plan in 1937 (and on ignoring the Andrew-Johnson era reduction in the Court's size). Was that defeat an  ordinary  political  loss  or  did  it  somehow  establish  or consolidate  some  sort  of  constitutional  rule  limiting  the  occasions  for changing the Court's size? The best recent scholarship establishes that neither  Congress  nor  'the  country'  decisively  repudiated  the  Courtpacking plan. It was a close-run race up to the very end. FDR packaged the plan as a good-government measure, pretending that the Court needed new  members  to  do  work  that  elderly  justices  were  unable  to  do effectively. His disingenuousness impaired the political effort to get the plan adopted. Yet, constitutional language, mostly about judicial independence, pervaded the arguments of the plan's opponents."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 247.33299999999997,
+            "r": 471.316,
+            "b": 159.67700000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            515
+          ]
+        }
+      ],
+      "orig": "The 'ordinary politics versus constitutional deliberation' question is  difficult  to  answer  because  we  have only one data point. Or, more precisely, we have only one serious effort in the past hundred years or so to change the Court's size. Recent discussions of the new 'history and tradition'  approach  to  constitutional  interpretation  have  brought  to attention  a  systematic  problem  when  evidence  of  practice  is  so  thin. Perhaps there's a tradition of not changing the Court's size for purely",
+      "text": "The 'ordinary politics versus constitutional deliberation' question is  difficult  to  answer  because  we  have only one data point. Or, more precisely, we have only one serious effort in the past hundred years or so to change the Court's size. Recent discussions of the new 'history and tradition'  approach  to  constitutional  interpretation  have  brought  to attention  a  systematic  problem  when  evidence  of  practice  is  so  thin. Perhaps there's a tradition of not changing the Court's size for purely"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 12,
+          "bbox": {
+            "l": 144.0,
+            "t": 135.37599999999998,
+            "r": 470.687,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "26. The best recent comparative scholarship makes it clear that court-packing and court-slimming are, under the right circumstances, similar ways of using changes in the court's size to achieve substantive outcomes.",
+      "text": "26. The best recent comparative scholarship makes it clear that court-packing and court-slimming are, under the right circumstances, similar ways of using changes in the court's size to achieve substantive outcomes."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2024",
+      "text": "2024"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 231.325,
+            "t": 717.912,
+            "r": 380.67,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Court Reform for Progressives",
+      "text": "Court Reform for Progressives"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "91",
+      "text": "91"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.338,
+            "b": 627.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            310
+          ]
+        }
+      ],
+      "orig": "political reasons, Or perhaps there's no such tradition, because no one tried to do so, thinking that such action wasn't necessary. To use a cliché, absence of evidence (of purely politically driven changes in the Court's size)  isn't  evidence  of  absence  (of  congressional  power  to  make  such changes).",
+      "text": "political reasons, Or perhaps there's no such tradition, because no one tried to do so, thinking that such action wasn't necessary. To use a cliché, absence of evidence (of purely politically driven changes in the Court's size)  isn't  evidence  of  absence  (of  congressional  power  to  make  such changes)."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 624.133,
+            "r": 471.317,
+            "b": 497.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            707
+          ]
+        }
+      ],
+      "orig": "Note  the  formulation:  purely  politically  driven  changes.  Suppose proponents of change offer some modest good-government rationale for the change-in my example, the value of one justice per circuit. If that's a  pure  fig-leaf,  meaning  here,  not  even  a  decent  rationale  on  its  own terms (which it might well not be), we have the purely politically driven question. What if the good-government rationale gets over some probably low bar of plausibility, but that isn't what motivates its supporters? That is, they support the change mostly because it would likely lead to changes in the decisions the Court hands down but believe as well that it would have some modest good-government effects.",
+      "text": "Note  the  formulation:  purely  politically  driven  changes.  Suppose proponents of change offer some modest good-government rationale for the change-in my example, the value of one justice per circuit. If that's a  pure  fig-leaf,  meaning  here,  not  even  a  decent  rationale  on  its  own terms (which it might well not be), we have the purely politically driven question. What if the good-government rationale gets over some probably low bar of plausibility, but that isn't what motivates its supporters? That is, they support the change mostly because it would likely lead to changes in the decisions the Court hands down but believe as well that it would have some modest good-government effects."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 494.293,
+            "r": 471.358,
+            "b": 406.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            462
+          ]
+        }
+      ],
+      "orig": "At this point the precedent of the failed Chase impeachment might matter. Impeaching a justice for 'wrong' decisions changes the Court's composition  with  the  likely  effect  of  changing  outcomes  (on  the assumption that the impeached justice's replacement would vote differently). If you can't use a supermajority requirement (conviction in the Senate) to do that, you shouldn't be able to use ordinary majorities to do so by manipulating the Court's size.",
+      "text": "At this point the precedent of the failed Chase impeachment might matter. Impeaching a justice for 'wrong' decisions changes the Court's composition  with  the  likely  effect  of  changing  outcomes  (on  the assumption that the impeached justice's replacement would vote differently). If you can't use a supermajority requirement (conviction in the Senate) to do that, you shouldn't be able to use ordinary majorities to do so by manipulating the Court's size."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 403.333,
+            "r": 471.39,
+            "b": 341.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            358
+          ]
+        }
+      ],
+      "orig": "On this view, we can change the Court's size for good-government reasons  even  if  we  know  that  doing  so  will  have  some  effects  on outcomes.  Otherwise,  we  have  to  rely  on  the  ordinary  processes  of retirement and death to replace justices, backed up by the possibility of a constitutional amendment with a strong supermajority requirement.",
+      "text": "On this view, we can change the Court's size for good-government reasons  even  if  we  know  that  doing  so  will  have  some  effects  on outcomes.  Otherwise,  we  have  to  rely  on  the  ordinary  processes  of retirement and death to replace justices, backed up by the possibility of a constitutional amendment with a strong supermajority requirement."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 338.293,
+            "r": 471.243,
+            "b": 250.63699999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            435
+          ]
+        }
+      ],
+      "orig": "It's important to see what this (supposed) restriction on congressional power to alter the Court's size rests on: giving a great deal of weight to the failure of the Court-packing plan, ignoring the Johnsonera events, treating the absence of efforts to change the Court's size as an indication of a normative view about congressional power, and some inferences from the structurally similar issue of impeaching for erroneous decisions.",
+      "text": "It's important to see what this (supposed) restriction on congressional power to alter the Court's size rests on: giving a great deal of weight to the failure of the Court-packing plan, ignoring the Johnsonera events, treating the absence of efforts to change the Court's size as an indication of a normative view about congressional power, and some inferences from the structurally similar issue of impeaching for erroneous decisions."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 13,
+          "bbox": {
+            "l": 144.0,
+            "t": 247.33299999999997,
+            "r": 471.307,
+            "b": 133.51700000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            578
+          ]
+        }
+      ],
+      "orig": "But of course there's actually more to it: a view about the proper role of the Supreme Court in our system of democratic self-governance, as  I  put  it  in  connection  with  jurisdiction-stripping.  I  suspect  that  the specific elements of the argument matter pretty much only because you might have a view that a system in which the Supreme Court has real power to implement its views about constitutional meaning (against the views of Congress) is better than one in which congressional views about constitutional meaning  have substantial and sometimes overriding weight.",
+      "text": "But of course there's actually more to it: a view about the proper role of the Supreme Court in our system of democratic self-governance, as  I  put  it  in  connection  with  jurisdiction-stripping.  I  suspect  that  the specific elements of the argument matter pretty much only because you might have a view that a system in which the Supreme Court has real power to implement its views about constitutional meaning (against the views of Congress) is better than one in which congressional views about constitutional meaning  have substantial and sometimes overriding weight."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "92",
+      "text": "92"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.329,
+            "b": 588.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            573
+          ]
+        }
+      ],
+      "orig": "The case against congressional power to change the Court's size for purely  political  reasons  relies  on  rather  expansive  inferences  from specific structural arrangements to deeper 'postulates which limit and control'  ( Principality  of  Monaco  v.  Mississippi 27 )  and  'penumbras, formed by emanations' ( Griswold v. Connecticut 28 ),  which  one  might think would be disfavored by the current Court. 'Disfavored' doesn't mean 'always to be disparaged,' as Trump v. United States 29 shows. That's why this discussion isn't in the 'low-hanging fruit' section. 30",
+      "text": "The case against congressional power to change the Court's size for purely  political  reasons  relies  on  rather  expansive  inferences  from specific structural arrangements to deeper 'postulates which limit and control'  ( Principality  of  Monaco  v.  Mississippi 27 )  and  'penumbras, formed by emanations' ( Griswold v. Connecticut 28 ),  which  one  might think would be disfavored by the current Court. 'Disfavored' doesn't mean 'always to be disparaged,' as Trump v. United States 29 shows. That's why this discussion isn't in the 'low-hanging fruit' section. 30"
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 276.024,
+            "t": 571.093,
+            "r": 336.062,
+            "b": 561.437,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "C ONCLUSION",
+      "text": "C ONCLUSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 546.133,
+            "r": 471.369,
+            "b": 497.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "All  the  proposals  for  statutory  Supreme  Court  reform  considered here  run  up  against  constitutional  objections,  some  substantial,  others merely plausible. My guess is that the same would be true of any other proposals for statutory Supreme Court reform.",
+      "text": "All  the  proposals  for  statutory  Supreme  Court  reform  considered here  run  up  against  constitutional  objections,  some  substantial,  others merely plausible. My guess is that the same would be true of any other proposals for statutory Supreme Court reform."
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 494.293,
+            "r": 471.296,
+            "b": 406.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            480
+          ]
+        }
+      ],
+      "orig": "The real  lesson,  though,  is  that  we  can't  resolve  those  questions through  careful  analysis  of  the  Constitution's  text  and  structure  and existing  constitutional  doctrine.  Anyone  who  says either 'obviously unconstitutional' or 'obviously constitutionally permissible' is blowing smoke. What's at stake-that is, how you think the questions should be resolved-depends  upon  your  vision  of  how  to  run  a  well-designed system of democratic self-governance.",
+      "text": "The real  lesson,  though,  is  that  we  can't  resolve  those  questions through  careful  analysis  of  the  Constitution's  text  and  structure  and existing  constitutional  doctrine.  Anyone  who  says either 'obviously unconstitutional' or 'obviously constitutionally permissible' is blowing smoke. What's at stake-that is, how you think the questions should be resolved-depends  upon  your  vision  of  how  to  run  a  well-designed system of democratic self-governance."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 403.333,
+            "r": 471.294,
+            "b": 250.63699999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            829
+          ]
+        }
+      ],
+      "orig": "I'll end with a common argument, seemingly policy-based, against Court expansion. It's the 'tit for tat' retaliation point. You do it when you  have  the  trifecta  and  your  opponents  will  do  it  when  they  do, ultimately giving  a  Court  with  57  members.  That  might  be  an exaggeration. One paper models the 'trifecta' scenario and concludes that sixty years from now the Court might have 27 members 31 -in my view not unwieldy. The Court would be so large that it wouldn't be able to  develop  a  consistent  constitutional  jurisprudence.  The  American people would come to see the Court as simply another actor in ordinary politics, not an institution dedicated to the principled interpretation of the Constitution. One perfectly sensible response to that argument (mine, I freely admit) is, 'And your point is?'",
+      "text": "I'll end with a common argument, seemingly policy-based, against Court expansion. It's the 'tit for tat' retaliation point. You do it when you  have  the  trifecta  and  your  opponents  will  do  it  when  they  do, ultimately giving  a  Court  with  57  members.  That  might  be  an exaggeration. One paper models the 'trifecta' scenario and concludes that sixty years from now the Court might have 27 members 31 -in my view not unwieldy. The Court would be so large that it wouldn't be able to  develop  a  consistent  constitutional  jurisprudence.  The  American people would come to see the Court as simply another actor in ordinary politics, not an institution dedicated to the principled interpretation of the Constitution. One perfectly sensible response to that argument (mine, I freely admit) is, 'And your point is?'"
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 165.6,
+            "t": 181.45600000000002,
+            "r": 439.269,
+            "b": 173.47900000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "27. Principality of Monaco v. Mississippi , 292 U.S. 313, 322 (1934).",
+      "text": "Principality of Monaco v. Mississippi , 292 U.S. 313, 322 (1934).",
+      "enumerated": true,
+      "marker": "27."
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 165.6,
+            "t": 169.93600000000004,
+            "r": 391.158,
+            "b": 161.95900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "28. Griswold v. Connecticut , 381 U.S. 479, 484 (1965).",
+      "text": "Griswold v. Connecticut , 381 U.S. 479, 484 (1965).",
+      "enumerated": true,
+      "marker": "28."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 165.6,
+            "t": 158.41599999999994,
+            "r": 312.153,
+            "b": 150.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "29. Trump , 144 S. Ct. at 2346-47.",
+      "text": "Trump , 144 S. Ct. at 2346-47.",
+      "enumerated": true,
+      "marker": "29."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 165.6,
+            "t": 146.89599999999996,
+            "r": 271.472,
+            "b": 138.91899999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "30. See infra Section I.",
+      "text": "See infra Section I.",
+      "enumerated": true,
+      "marker": "30."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 14,
+          "bbox": {
+            "l": 144.0,
+            "t": 135.37599999999998,
+            "r": 470.748,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "31. Adam Chilton, Daniel Epps, Kyle Rozema & Maya Sen, The Endgame of Court-Packing (May 3, 2021) (Working Paper), https://papers.ssrn.com/abstract=3835502 [https://perma.cc/8KC2-GLJJ].",
+      "text": "31. Adam Chilton, Daniel Epps, Kyle Rozema & Maya Sen, The Endgame of Court-Packing (May 3, 2021) (Working Paper), https://papers.ssrn.com/abstract=3835502 [https://perma.cc/8KC2-GLJJ]."
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 142.87127685546875,
+            "t": 603.5553436279297,
+            "r": 468.31787109375,
+            "b": 529.558349609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 189.707,
+              "r": 468.019,
+              "b": 199.36300000000006,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 2,
+            "text": "Introduction and Preliminaries................................................79",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 202.66700000000003,
+              "r": 151.317,
+              "b": 212.32299999999998,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "I.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 202.66700000000003,
+              "r": 468.019,
+              "b": 212.32299999999998,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Low-Hanging Fruit .....................................................81",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 215.86699999999996,
+              "r": 154.969,
+              "b": 225.52300000000002,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "II.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 215.86699999999996,
+              "r": 274.0,
+              "b": 225.52300000000002,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Statutory Term Limits",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 277.578,
+              "t": 215.86699999999996,
+              "r": 468.019,
+              "b": 225.52300000000002,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": ".................................................83",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 228.827,
+              "r": 158.621,
+              "b": 238.48299999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "III.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 228.827,
+              "r": 468.019,
+              "b": 238.48299999999995,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Jurisdiction Stripping...................................................84",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 241.78700000000003,
+              "r": 159.231,
+              "b": 251.44299999999998,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "IV.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 241.78700000000003,
+              "r": 249.246,
+              "b": 251.44299999999998,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Court Expansion",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 252.012,
+              "t": 241.78700000000003,
+              "r": 468.019,
+              "b": 251.44299999999998,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "........................................................89",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 3,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 189.707,
+                "r": 468.019,
+                "b": 199.36300000000006,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Introduction and Preliminaries................................................79",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 189.707,
+                "r": 468.019,
+                "b": 199.36300000000006,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 2,
+              "text": "Introduction and Preliminaries................................................79",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 202.66700000000003,
+                "r": 151.317,
+                "b": 212.32299999999998,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "I.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 202.66700000000003,
+                "r": 468.019,
+                "b": 212.32299999999998,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Low-Hanging Fruit .....................................................81",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 215.86699999999996,
+                "r": 154.969,
+                "b": 225.52300000000002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "II.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 215.86699999999996,
+                "r": 274.0,
+                "b": 225.52300000000002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Statutory Term Limits",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 277.578,
+                "t": 215.86699999999996,
+                "r": 468.019,
+                "b": 225.52300000000002,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": ".................................................83",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 228.827,
+                "r": 158.621,
+                "b": 238.48299999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "III.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 228.827,
+                "r": 468.019,
+                "b": 238.48299999999995,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Jurisdiction Stripping...................................................84",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 241.78700000000003,
+                "r": 159.231,
+                "b": 251.44299999999998,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "IV.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 241.78700000000003,
+                "r": 249.246,
+                "b": 251.44299999999998,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Court Expansion",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 252.012,
+                "t": 241.78700000000003,
+                "r": 468.019,
+                "b": 251.44299999999998,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "........................................................89",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 10
+    },
+    "11": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 11
+    },
+    "12": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 12
+    },
+    "13": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 13
+    },
+    "14": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 14
+    }
+  }
+}

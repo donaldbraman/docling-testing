@@ -1,0 +1,77 @@
+{
+  "critical": [
+    {
+      "basename": "afrofuturism_in_protest__dissent_and_revolution",
+      "html_words": 5281,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "guaranteed__the_federal_education_duty",
+      "html_words": 1175,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "harvard_law_review_excited_delirium",
+      "html_words": 3663,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "harvard_law_review_forgotten_history_of_prison_law",
+      "html_words": 3767,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "harvard_law_review_law_and_lawlessness_of_immigration_detention",
+      "html_words": 4718,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "harvard_law_review_unwarranted_warrants",
+      "html_words": 4571,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "harvard_law_review_waste_property_and_useless_things",
+      "html_words": 4616,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "law_of_protest",
+      "html_words": 8428,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "overbroad_protest_laws",
+      "html_words": 4835,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "policing_campus_protest",
+      "html_words": 12194,
+      "pdf_words": 0,
+      "rate": 0.0
+    },
+    {
+      "basename": "wisconsin_law_review_marriage_equality_comes_to_wisconsin",
+      "html_words": 9376,
+      "pdf_words": 0,
+      "rate": 0.0
+    }
+  ],
+  "warnings": [],
+  "summary": {
+    "total": 73,
+    "critical_count": 11,
+    "warning_count": 0,
+    "good_count": 62
+  }
+}

@@ -579,9 +579,11 @@ def extract_virginia_law_review_positive(soup: BeautifulSoup) -> tuple[list[str]
     """
     Extract Virginia Law Review using PURE POSITIVE INCLUSION.
 
+    Virginia uses INLINE footnotes - footnote content is embedded within paragraphs.
+
     Definitive markers:
-    - Footnotes: <li id="post-NNNN-footnote-N"> items (anywhere in document)
-    - Body text: <p> tags NOT inside footnote lists
+    - Footnotes: <span class="foot-ref"> (inline within <p>) + <li id="post-NNNN-footnote-N">
+    - Body text: <p> tags with footnote spans REMOVED
 
     NO exclusion filters - if it's in the definitive tag, include it.
     Only skip truly empty elements (whitespace only).
@@ -591,7 +593,20 @@ def extract_virginia_law_review_positive(soup: BeautifulSoup) -> tuple[list[str]
     body = []
     footnotes = []
 
-    # Find ALL <li id="post-*-footnote-N"> items using regex pattern
+    # Extract inline footnotes from <span class="foot-ref"> spans
+    inline_fn_spans = soup.find_all("span", class_=re.compile(r"foot-ref"))
+    for fn_span in inline_fn_spans:
+        text = fn_span.get_text(strip=True)
+        # Skip ONLY truly empty spans
+        if not text or len(text) == 0:
+            continue
+        # Remove "Show More" markers and navigation symbols
+        text = text.replace("Show More", "").replace("↑", "").replace("↩", "").strip()
+        # Remove leading footnote numbers (e.g., "1. " or "2. ")
+        text = re.sub(r"^\d+\.\s*", "", text)
+        footnotes.append(normalize_text(text))
+
+    # Find ALL <li id="post-*-footnote-N"> items (backup footnotes at end of article)
     note_items = soup.find_all("li", id=re.compile(r"post-\d+-footnote-\d+"))
 
     # Collect all parent lists containing footnotes (to exclude from body extraction)
@@ -602,7 +617,7 @@ def extract_virginia_law_review_positive(soup: BeautifulSoup) -> tuple[list[str]
         if parent_list and parent_list not in footnote_lists:
             footnote_lists.append(parent_list)
 
-    # Extract footnotes from all matching <li> items
+    # Extract footnotes from all matching <li> items (if not already extracted from inline)
     for li in note_items:
         text = li.get_text(separator=" ", strip=True)
         # Skip ONLY truly empty list items
@@ -610,16 +625,29 @@ def extract_virginia_law_review_positive(soup: BeautifulSoup) -> tuple[list[str]
             continue
         # Remove back arrows or other navigation symbols
         text = text.replace("↑", "").replace("↩", "").strip()
+        # Remove leading footnote numbers
+        text = re.sub(r"^\d+\.\s*", "", text)
         footnotes.append(normalize_text(text))
 
-    # Extract body text (excluding footnote lists)
+    # Extract body text from <p> tags, excluding the inline footnote content
     for p in soup.find_all("p"):
         # Skip if inside any footnote list
         in_footnote_list = any(p in fn_list.find_all("p") for fn_list in footnote_lists)
         if in_footnote_list:
             continue
 
-        text = p.get_text(separator=" ", strip=True)
+        # Create a copy to avoid modifying the original soup
+        p_copy = BeautifulSoup(str(p), "html.parser").find("p")
+
+        # Remove footnote spans and superscript markers from the copy
+        for fn_span in p_copy.find_all("span", class_=re.compile(r"foot-ref")):
+            fn_span.decompose()
+        for sup in p_copy.find_all("sup", class_="footnote"):
+            sup.decompose()
+
+        # Get the remaining text (body only)
+        text = p_copy.get_text(strip=True)
+
         # Skip ONLY truly empty paragraphs
         if not text or len(text) == 0:
             continue

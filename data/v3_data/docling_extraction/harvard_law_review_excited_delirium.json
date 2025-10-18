@@ -1,0 +1,561 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "harvard_law_review_excited_delirium",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 15469504308623991837,
+    "filename": "harvard_law_review_excited_delirium.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 34,
+          "bbox": {
+            "l": 138.07589721679688,
+            "t": 431.9884033203125,
+            "r": 471.4168395996094,
+            "b": 255.96771240234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 52,
+          "bbox": {
+            "l": 147.56646728515625,
+            "t": 460.591796875,
+            "r": 463.8350830078125,
+            "b": 292.9085388183594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 54,
+          "bbox": {
+            "l": 157.96142578125,
+            "t": 654.4407653808594,
+            "r": 452.6852722167969,
+            "b": 265.97576904296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 152.36666870117188,
+            "t": 483.3177795410156,
+            "r": 474.41461181640625,
+            "b": 247.83807373046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [],
+        "num_rows": 0,
+        "num_cols": 0,
+        "grid": []
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 10
+    },
+    "11": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 11
+    },
+    "12": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 12
+    },
+    "13": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 13
+    },
+    "14": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 14
+    },
+    "15": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 15
+    },
+    "16": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 16
+    },
+    "17": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 17
+    },
+    "18": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 18
+    },
+    "19": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 19
+    },
+    "20": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 20
+    },
+    "21": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 21
+    },
+    "22": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 22
+    },
+    "23": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 23
+    },
+    "24": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 24
+    },
+    "25": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 25
+    },
+    "26": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 26
+    },
+    "27": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 27
+    },
+    "28": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 28
+    },
+    "29": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 29
+    },
+    "30": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 30
+    },
+    "31": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 31
+    },
+    "32": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 32
+    },
+    "33": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 33
+    },
+    "34": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 34
+    },
+    "35": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 35
+    },
+    "36": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 36
+    },
+    "37": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 37
+    },
+    "38": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 38
+    },
+    "39": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 39
+    },
+    "40": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 40
+    },
+    "41": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 41
+    },
+    "42": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 42
+    },
+    "43": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 43
+    },
+    "44": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 44
+    },
+    "45": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 45
+    },
+    "46": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 46
+    },
+    "47": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 47
+    },
+    "48": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 48
+    },
+    "49": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 49
+    },
+    "50": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 50
+    },
+    "51": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 51
+    },
+    "52": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 52
+    },
+    "53": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 53
+    },
+    "54": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 54
+    },
+    "55": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 55
+    },
+    "56": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 56
+    }
+  }
+}

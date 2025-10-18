@@ -1,0 +1,3374 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "flexibility_resilience_are_essential_legal_skills",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 15280855374329216730,
+    "filename": "flexibility_resilience_are_essential_legal_skills.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 212.054,
+            "t": 668.064,
+            "r": 563.942,
+            "b": 643.154,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "FLEXIBILITY & RESILIENCE ARE ESSENTIAL LEGAL SKILLS",
+      "text": "FLEXIBILITY & RESILIENCE ARE ESSENTIAL LEGAL SKILLS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 258.567,
+            "t": 627.733,
+            "r": 356.69,
+            "b": 618.077,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "M ARGIE A LSBROOK *",
+      "text": "M ARGIE A LSBROOK *",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 165.6,
+            "t": 603.616,
+            "r": 449.169,
+            "b": 480.679,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            882
+          ]
+        }
+      ],
+      "orig": "The legal profession is facing an era of change driven by technological advancements, environmental crises, shifting client expectations, and evolving societal norms. This article argues that flexibility and resilience are not  just  positive  personality  traits  but  essential  legal  skills  that  should  be intentionally cultivated in law school curricula. By integrating adaptability into  legal  education-through  emphasizing  the  evolving  nature  of  law, incorporating interdisciplinary approaches, reshaping assessments, and fostering  collaborative  learning-law  schools  can  better  equip  students  to navigate  an  unpredictable  future.  Encouraging  law  students  to  embrace flexibility and resilience as a professional skill will not only enhance their long-term success but also strengthen the legal profession's ability to lead in times of transformation.",
+      "text": "The legal profession is facing an era of change driven by technological advancements, environmental crises, shifting client expectations, and evolving societal norms. This article argues that flexibility and resilience are not  just  positive  personality  traits  but  essential  legal  skills  that  should  be intentionally cultivated in law school curricula. By integrating adaptability into  legal  education-through  emphasizing  the  evolving  nature  of  law, incorporating interdisciplinary approaches, reshaping assessments, and fostering  collaborative  learning-law  schools  can  better  equip  students  to navigate  an  unpredictable  future.  Encouraging  law  students  to  embrace flexibility and resilience as a professional skill will not only enhance their long-term success but also strengthen the legal profession's ability to lead in times of transformation."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 271.226,
+            "t": 260.773,
+            "r": 340.88,
+            "b": 251.11699999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "I NTRODUCTION",
+      "text": "I NTRODUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 237.005,
+            "r": 471.321,
+            "b": 213.437,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "The only thing constant in life is change. 1 The past century alone has  seen  tremendous  changes  in  the  lives  of  human  beings  due  to",
+      "text": "The only thing constant in life is change. 1 The past century alone has  seen  tremendous  changes  in  the  lives  of  human  beings  due  to"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 189.856,
+            "r": 470.754,
+            "b": 150.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            309
+          ]
+        }
+      ],
+      "orig": "* Assistant Professor, Mercer University School of Law. She would like to thank the members of the Balance and Well-Being Section of the Association of American Law  Schools  (AALS)  for  their  encouragement  and  feedback,  particularly  Professor Kendall Karew of Georgia State University's College of Law.",
+      "text": "* Assistant Professor, Mercer University School of Law. She would like to thank the members of the Balance and Well-Being Section of the Association of American Law  Schools  (AALS)  for  their  encouragement  and  feedback,  particularly  Professor Kendall Karew of Georgia State University's College of Law."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.0,
+            "t": 146.89599999999996,
+            "r": 470.795,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            258
+          ]
+        }
+      ],
+      "orig": "1. On the first and last days of her classes the author reminds her students 'the only thing constant in life is change.' This article was inspired by the realization that this statement has a much broader implication in the age of climate change, generative",
+      "text": "1. On the first and last days of her classes the author reminds her students 'the only thing constant in life is change.' This article was inspired by the realization that this statement has a much broader implication in the age of climate change, generative"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "34",
+      "text": "34"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.26,
+            "b": 653.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "technological changes, which have also impacted the practice of law in continuingly rippling ways. 2 And the only thing that most future-oriented scholars seem to agree upon is that even more changes are coming soon. 3",
+      "text": "technological changes, which have also impacted the practice of law in continuingly rippling ways. 2 And the only thing that most future-oriented scholars seem to agree upon is that even more changes are coming soon. 3"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 650.293,
+            "r": 471.349,
+            "b": 575.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            375
+          ]
+        }
+      ],
+      "orig": "Thus, it is highly likely that our current and future law students will experience drastic changes in their lives and careers, often due to forces beyond their control. Yet many law school curriculums still focus on the law as it exists in the moment, and deemphasize that the law, the practice of law, and possibly even society as a whole will change in the decades to come.",
+      "text": "Thus, it is highly likely that our current and future law students will experience drastic changes in their lives and careers, often due to forces beyond their control. Yet many law school curriculums still focus on the law as it exists in the moment, and deemphasize that the law, the practice of law, and possibly even society as a whole will change in the decades to come."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 572.293,
+            "r": 471.389,
+            "b": 471.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            570
+          ]
+        }
+      ],
+      "orig": "This article proposes a shift in perspective in legal education, which hopefully  will  result  in  an  increase  in  recognizing  flexibility  and resilience as valuable characteristics for future lawyers. 4 Whether future changes generate from climate change, evolving technologies, changing societal norms, client expectations, or all of the above, 5 Law students will need to understand that adapting rapidly is a valuable skill for law and leadership, and cultivating flexibility while practicing resilience in times of inevitable stress are essential legal skills.",
+      "text": "This article proposes a shift in perspective in legal education, which hopefully  will  result  in  an  increase  in  recognizing  flexibility  and resilience as valuable characteristics for future lawyers. 4 Whether future changes generate from climate change, evolving technologies, changing societal norms, client expectations, or all of the above, 5 Law students will need to understand that adapting rapidly is a valuable skill for law and leadership, and cultivating flexibility while practicing resilience in times of inevitable stress are essential legal skills."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 338.896,
+            "r": 470.69,
+            "b": 320.359,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "artificial intelligence, and other potential impending changes to modern American society and legal education.",
+      "text": "artificial intelligence, and other potential impending changes to modern American society and legal education."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 316.816,
+            "r": 470.822,
+            "b": 266.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            369
+          ]
+        }
+      ],
+      "orig": "2. See, e.g. , Eric Biber, Law in the Anthropocene Epoch , 106 G EO . L. J. 1, 13 (2017) ('Since World War II, society's impairments of global systems have undergone what some scientists have called the 'Great Acceleration.' The Great Acceleration is a result of globalization, rapid population growth, and rapid technological change over the past seventy-five years').",
+      "text": "2. See, e.g. , Eric Biber, Law in the Anthropocene Epoch , 106 G EO . L. J. 1, 13 (2017) ('Since World War II, society's impairments of global systems have undergone what some scientists have called the 'Great Acceleration.' The Great Acceleration is a result of globalization, rapid population growth, and rapid technological change over the past seventy-five years')."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 263.29600000000005,
+            "r": 470.704,
+            "b": 192.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            568
+          ]
+        }
+      ],
+      "orig": "3. See, e.g. , Stuart A.  Forsyth, Perspectives from  a Legal  Futurist: Challenges to the Courts and the Legal Community , 51 S. T EX . L. R EV . 913, 919 (2010) ('Our  jobs,  careers  and  lives  are  changing,  changing,  changing,  at  a  seemingly unprecedented rate.'); René  Reich-Graefe, Foreword: Anthropocenic Disruption, Community Resilience and the Law , 41 W. N EW E NG . L. R EV . 411 (2019) (predicting dire changes for the future, including a dire reduction of human influence and control, as well as related wealth and control over natural resources).",
+      "text": "3. See, e.g. , Stuart A.  Forsyth, Perspectives from  a Legal  Futurist: Challenges to the Courts and the Legal Community , 51 S. T EX . L. R EV . 913, 919 (2010) ('Our  jobs,  careers  and  lives  are  changing,  changing,  changing,  at  a  seemingly unprecedented rate.'); René  Reich-Graefe, Foreword: Anthropocenic Disruption, Community Resilience and the Law , 41 W. N EW E NG . L. R EV . 411 (2019) (predicting dire changes for the future, including a dire reduction of human influence and control, as well as related wealth and control over natural resources)."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 188.89599999999996,
+            "r": 470.744,
+            "b": 138.91899999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            357
+          ]
+        }
+      ],
+      "orig": "4. A  consulting  company  specializing  in  legal  resilience  reports  that  most lawyers  score  well  below  the  average  person  in  tests  that  measure  resilience.  Larry Richard, Resilience and Lawyer Negativity ,  L AWYER B RAIN (Sept. 19, 2012), https://www.lawyerbrain.com/2012/09/resilience-and-lawyer-negativity/ [https://perma.cc/VBM3-DYH5].",
+      "text": "4. A  consulting  company  specializing  in  legal  resilience  reports  that  most lawyers  score  well  below  the  average  person  in  tests  that  measure  resilience.  Larry Richard, Resilience and Lawyer Negativity ,  L AWYER B RAIN (Sept. 19, 2012), https://www.lawyerbrain.com/2012/09/resilience-and-lawyer-negativity/ [https://perma.cc/VBM3-DYH5]."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.0,
+            "t": 135.37599999999998,
+            "r": 470.88,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "5. Many of the changes to the profession in the future will likely be caused by forces that have yet to be contemplated or fully understood as of the publication of this article.",
+      "text": "5. Many of the changes to the profession in the future will likely be caused by forces that have yet to be contemplated or fully understood as of the publication of this article."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2025",
+      "text": "2025"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 231.316,
+            "t": 717.912,
+            "r": 380.676,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "FLEXIBILITY & RESILIENCE",
+      "text": "FLEXIBILITY & RESILIENCE"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "35",
+      "text": "35"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 186.962,
+            "t": 689.173,
+            "r": 425.12,
+            "b": 679.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "I. T HE O NLY T HING C ERTAIN IS C HANGE IS C OMING",
+      "text": "I. T HE O NLY T HING C ERTAIN IS C HANGE IS C OMING",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 665.165,
+            "r": 471.29,
+            "b": 576.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            448
+          ]
+        }
+      ],
+      "orig": "In addition to continuing technological advancements, 6 current and future law students will also face drastic environmental changes, 7 calls for  large-scale  reforms  to  the  bench  and  the  bar  from  the  public, 8 economic shifts, and unprecedented societal challenges. 9 This environment of rapid and inevitable change will require future lawyers to continually review and renew their skills throughout their careers in order to keep up. 10",
+      "text": "In addition to continuing technological advancements, 6 current and future law students will also face drastic environmental changes, 7 calls for  large-scale  reforms  to  the  bench  and  the  bar  from  the  public, 8 economic shifts, and unprecedented societal challenges. 9 This environment of rapid and inevitable change will require future lawyers to continually review and renew their skills throughout their careers in order to keep up. 10"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 573.253,
+            "r": 471.36,
+            "b": 498.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            400
+          ]
+        }
+      ],
+      "orig": "Changing  technologies,  business  models,  and  client  needs  will require modern law students and lawyers to have increased flexibility and the ability to evolve. This means that whatever knowledge and skills new lawyers learn in their first few years of practice will need to be constantly reshaped  and  resharpened  if  they  are  going  to  survive  and  thrive throughout their legal careers.",
+      "text": "Changing  technologies,  business  models,  and  client  needs  will require modern law students and lawyers to have increased flexibility and the ability to evolve. This means that whatever knowledge and skills new lawyers learn in their first few years of practice will need to be constantly reshaped  and  resharpened  if  they  are  going  to  survive  and  thrive throughout their legal careers."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 423.856,
+            "r": 470.752,
+            "b": 279.31899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1151
+          ]
+        }
+      ],
+      "orig": "6. See, e.g. , Joseph J. Avery, Patricia Sánchez Abril & Alissa del Riego, ChatGPT, Esq.: Recasting Unauthorized Practice of Law in the Era of Generative AI , 26 Y ALE J. L. & T ECH . 65 (2023) (arguing that the rules against the unauthorized practice of law will be inevitably changed in the era of generative AI and those changes will have broad implications for the current business model used by lawyers); Michael Simon, Alvin F. Lindsay, Loly Sosa & Paige Comparato, Lola v. Skadden and the Automation of the Legal Profession , 20 Y ALE J. L. & T ECH . 234 (2018) (discussing the potential for generative AI programs to replace attorneys in the document review process); Brenda M. Simon, Using Artificial Intelligence in the Law Review Submissions Process , 56 U.C. D AVIS L. R EV .  347  (2022)  (analyzing  the  promise  and  potential  perils  of  integrating artificial intelligence into the law review publication process and pointing out that it could be a huge benefit for law students but could also deepen the biases that are already present in legal academia which would then have a negative impact on the entire American legal system).",
+      "text": "6. See, e.g. , Joseph J. Avery, Patricia Sánchez Abril & Alissa del Riego, ChatGPT, Esq.: Recasting Unauthorized Practice of Law in the Era of Generative AI , 26 Y ALE J. L. & T ECH . 65 (2023) (arguing that the rules against the unauthorized practice of law will be inevitably changed in the era of generative AI and those changes will have broad implications for the current business model used by lawyers); Michael Simon, Alvin F. Lindsay, Loly Sosa & Paige Comparato, Lola v. Skadden and the Automation of the Legal Profession , 20 Y ALE J. L. & T ECH . 234 (2018) (discussing the potential for generative AI programs to replace attorneys in the document review process); Brenda M. Simon, Using Artificial Intelligence in the Law Review Submissions Process , 56 U.C. D AVIS L. R EV .  347  (2022)  (analyzing  the  promise  and  potential  perils  of  integrating artificial intelligence into the law review publication process and pointing out that it could be a huge benefit for law students but could also deepen the biases that are already present in legal academia which would then have a negative impact on the entire American legal system)."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 276.0160000000001,
+            "r": 470.787,
+            "b": 257.47900000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "7. See, e.g. , Warren G. Lavey, Toolkit for Integrating Climate Change into Ten High-Enrollment Law School Courses , 49 E NV ' T . L. 513 (2019).",
+      "text": "7. See, e.g. , Warren G. Lavey, Toolkit for Integrating Climate Change into Ten High-Enrollment Law School Courses , 49 E NV ' T . L. 513 (2019)."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 253.93600000000004,
+            "r": 470.731,
+            "b": 214.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            263
+          ]
+        }
+      ],
+      "orig": "8. See,  e.g. , Elizabeth  Yoder, The Dobbs Leak  as  an  Illustration  of  the Impasse Between Legal Ethics and Reality , 36 G EO . J. L. E THICS 881 (2023); Charles Gardner Geyh, Can the Rule of Law Survive Judicial Politics? , 97 C ORNELL L. R EV . 191 (2012).",
+      "text": "8. See,  e.g. , Elizabeth  Yoder, The Dobbs Leak  as  an  Illustration  of  the Impasse Between Legal Ethics and Reality , 36 G EO . J. L. E THICS 881 (2023); Charles Gardner Geyh, Can the Rule of Law Survive Judicial Politics? , 97 C ORNELL L. R EV . 191 (2012)."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 210.976,
+            "r": 470.725,
+            "b": 150.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            436
+          ]
+        }
+      ],
+      "orig": "9. See, e.g. , Julia Puaschunder & Martin Gelter, The Law, Economics, and Governance of Generation COVID-19 Long Haul , 19 I ND . H EALTH L. R EV . 47 (2002) (detailing some of the major challenges young people will face in their life-times through the lens of people with long-haul COVID-19 complications; predicted challenges include increased economic disparity, decreased privacy, and new health threats and health-care challenges).",
+      "text": "9. See, e.g. , Julia Puaschunder & Martin Gelter, The Law, Economics, and Governance of Generation COVID-19 Long Haul , 19 I ND . H EALTH L. R EV . 47 (2002) (detailing some of the major challenges young people will face in their life-times through the lens of people with long-haul COVID-19 complications; predicted challenges include increased economic disparity, decreased privacy, and new health threats and health-care challenges)."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 144.0,
+            "t": 146.89599999999996,
+            "r": 470.733,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            210
+          ]
+        }
+      ],
+      "orig": "10. See, e.g. , Simon, Lindsay, Sosa & Comparato, supra note 6 (explaining how this new wave of technical changes will be unending, and some of the many ways in which lawyers will need to adapt their practice).",
+      "text": "10. See, e.g. , Simon, Lindsay, Sosa & Comparato, supra note 6 (explaining how this new wave of technical changes will be unending, and some of the many ways in which lawyers will need to adapt their practice)."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "36",
+      "text": "36"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.343,
+            "b": 562.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            747
+          ]
+        }
+      ],
+      "orig": "Legal academia has seen a growing call for 'increasing resilience' in  law  students, 11 but  that  discussion  is  usually  had  in  the  context  of personal identity and mental health. 12 The larger pedagogy of law schools has yet to fully embrace the idea that expecting change is a professional skill, but in the future it will be vital that all professors teach students to expect  change  and  to  cultivate  flexibility  and  resilience.  Law  schools have the opportunity to subtly shift the way students relate to the law by broadening the approach to encouraging flexibility and resilience. This in turn has real potential to increase future student success, 13 and increase the longevity of law schools in these evolving times as well.",
+      "text": "Legal academia has seen a growing call for 'increasing resilience' in  law  students, 11 but  that  discussion  is  usually  had  in  the  context  of personal identity and mental health. 12 The larger pedagogy of law schools has yet to fully embrace the idea that expecting change is a professional skill, but in the future it will be vital that all professors teach students to expect  change  and  to  cultivate  flexibility  and  resilience.  Law  schools have the opportunity to subtly shift the way students relate to the law by broadening the approach to encouraging flexibility and resilience. This in turn has real potential to increase future student success, 13 and increase the longevity of law schools in these evolving times as well."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 174.974,
+            "t": 545.173,
+            "r": 439.7,
+            "b": 522.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "II. O PTIMISTIC S UGGESTIONS AND P OTENTIAL P RACTICAL A PPROACHES",
+      "text": "II. O PTIMISTIC S UGGESTIONS AND P OTENTIAL P RACTICAL A PPROACHES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 507.253,
+            "r": 471.254,
+            "b": 445.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            307
+          ]
+        }
+      ],
+      "orig": "Here is a list of potential starting points and practical suggestions for law professors, legal education professionals, and administrators who are  contemplating  how  to  best  increase  resilience  in  the  profession starting in law school by helping equip law students for the challenges of the future.",
+      "text": "Here is a list of potential starting points and practical suggestions for law professors, legal education professionals, and administrators who are  contemplating  how  to  best  increase  resilience  in  the  profession starting in law school by helping equip law students for the challenges of the future."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.528,
+            "t": 428.293,
+            "r": 552.495,
+            "b": 405.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "A. Increase Assessments of Critical Thinking Skills and Problem Solving Abilities",
+      "text": "A. Increase Assessments of Critical Thinking Skills and Problem Solving Abilities",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 390.133,
+            "r": 471.223,
+            "b": 367.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "The call for increased assessments in law school pedagogy is not a new one, 14 and will likely become inevitable as more states adopt the new",
+      "text": "The call for increased assessments in law school pedagogy is not a new one, 14 and will likely become inevitable as more states adopt the new"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 316.816,
+            "r": 470.69,
+            "b": 266.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            368
+          ]
+        }
+      ],
+      "orig": "11. See, e.g. , Kaci  Bishop, Framing  Failure  in  the  Legal  Classroom: Techniques  for  Encouraging  Growth  and  Resilience , 70  A RK . L. R EV .  959  (2018); Kenneth Townsend, Forming Good Lawyers , 58 W AKE F OREST L. R EV . 981, 998 (2023) ('Developing  virtues  such  as  resilience,  honesty,  civility,  and  open-mindedness  is intrinsically valuable.').",
+      "text": "11. See, e.g. , Kaci  Bishop, Framing  Failure  in  the  Legal  Classroom: Techniques  for  Encouraging  Growth  and  Resilience , 70  A RK . L. R EV .  959  (2018); Kenneth Townsend, Forming Good Lawyers , 58 W AKE F OREST L. R EV . 981, 998 (2023) ('Developing  virtues  such  as  resilience,  honesty,  civility,  and  open-mindedness  is intrinsically valuable.')."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 263.29600000000005,
+            "r": 470.715,
+            "b": 223.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            275
+          ]
+        }
+      ],
+      "orig": "12. See, e.g. , Heather D. Baum, Inward Bound: An Exploration of Character Development in Law School , 39 U. A RK . L ITTLE R OCK L. R EV . 25 (2016); see also Natalie Netzel, Trauma-Informed (As A Matter of) Course , 31 A M . U. J. G ENDER , S OC . P OL ' Y & L. 383 (2023).",
+      "text": "12. See, e.g. , Heather D. Baum, Inward Bound: An Exploration of Character Development in Law School , 39 U. A RK . L ITTLE R OCK L. R EV . 25 (2016); see also Natalie Netzel, Trauma-Informed (As A Matter of) Course , 31 A M . U. J. G ENDER , S OC . P OL ' Y & L. 383 (2023)."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 220.336,
+            "r": 470.644,
+            "b": 202.039,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "13. Paula Davis-Laack, Building Resilience in the Law Makes Good Business Sense , 88 W IS . L AW . 41 (2015).",
+      "text": "13. Paula Davis-Laack, Building Resilience in the Law Makes Good Business Sense , 88 W IS . L AW . 41 (2015)."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.0,
+            "t": 198.49599999999998,
+            "r": 470.746,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            703
+          ]
+        }
+      ],
+      "orig": "14. See, e.g. , Emily Zimmerman, What Do Law Students Want?: The Missing Piece  of  the  Assessment  Puzzle ,  42  R UTGERS L.J. 1,  4  (2010)  (citing Douglas  A. Henderson, Uncivil Procedure: Ranking Law Students Among Their Peers , 27 U. M ICH . J.L. R EFORM 399, 411-13 (1994)); cf. Joseph A. McClain, Jr., Legal Education: Extent to Which 'Know-How' in Practice Should be Taught in Law Schools , 6 J. L EGAL E DUC . 302, 302 (1954) (arguing for integrating more practical skills in legal education as early as 1954) (citing A LFRED Z. R EED , C ARNEGIE F OUNDATION FOR THE A DVANCEMENT OF T EACHING , R EVIEW OF L EGAL E DUCATION IN THE U NITED S TATES AND C ANADA FOR THE Y EAR 1929, at 4 (1930)).",
+      "text": "14. See, e.g. , Emily Zimmerman, What Do Law Students Want?: The Missing Piece  of  the  Assessment  Puzzle ,  42  R UTGERS L.J. 1,  4  (2010)  (citing Douglas  A. Henderson, Uncivil Procedure: Ranking Law Students Among Their Peers , 27 U. M ICH . J.L. R EFORM 399, 411-13 (1994)); cf. Joseph A. McClain, Jr., Legal Education: Extent to Which 'Know-How' in Practice Should be Taught in Law Schools , 6 J. L EGAL E DUC . 302, 302 (1954) (arguing for integrating more practical skills in legal education as early as 1954) (citing A LFRED Z. R EED , C ARNEGIE F OUNDATION FOR THE A DVANCEMENT OF T EACHING , R EVIEW OF L EGAL E DUCATION IN THE U NITED S TATES AND C ANADA FOR THE Y EAR 1929, at 4 (1930))."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2025",
+      "text": "2025"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 231.316,
+            "t": 717.912,
+            "r": 380.676,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "FLEXIBILITY & RESILIENCE",
+      "text": "FLEXIBILITY & RESILIENCE"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "37",
+      "text": "37"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 690.125,
+            "r": 471.265,
+            "b": 588.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            522
+          ]
+        }
+      ],
+      "orig": "NextGen Bar Examination. 15 Fortunately, changing curriculum approaches to help students succeed on the new bar examination can also be  an  opportunity  to  weave  in  assessments  of  critical-thinking  skills, problem-solving abilities, 16 and a willingness to embrace new challenges. The good news is that law schools do not have to figure this out alone: there is already extensive research on ways schools can evolve to increase their students' readiness for unpredictable challenges and critical thinking skills. 17",
+      "text": "NextGen Bar Examination. 15 Fortunately, changing curriculum approaches to help students succeed on the new bar examination can also be  an  opportunity  to  weave  in  assessments  of  critical-thinking  skills, problem-solving abilities, 16 and a willingness to embrace new challenges. The good news is that law schools do not have to figure this out alone: there is already extensive research on ways schools can evolve to increase their students' readiness for unpredictable challenges and critical thinking skills. 17"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 585.253,
+            "r": 471.279,
+            "b": 484.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            543
+          ]
+        }
+      ],
+      "orig": "Developing  robust  decision-making  capabilities  for  high-stakes environments with imperfect information will be vital to the success of lawyers in the coming decades. The future holds no shortage of difficult judgment calls on complex issues at the intersection of law, technology, the  environment,  and  human  rights.  When  law  schools  commit  to adapting their pedagogical approaches and assessment methods to meet the call of the NextGen Bar Exam, they will hopefully also be increasing their students' adaptability skills as well.",
+      "text": "Developing  robust  decision-making  capabilities  for  high-stakes environments with imperfect information will be vital to the success of lawyers in the coming decades. The future holds no shortage of difficult judgment calls on complex issues at the intersection of law, technology, the  environment,  and  human  rights.  When  law  schools  commit  to adapting their pedagogical approaches and assessment methods to meet the call of the NextGen Bar Exam, they will hopefully also be increasing their students' adaptability skills as well."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 218.886,
+            "t": 467.173,
+            "r": 565.092,
+            "b": 444.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "B. Form Interdisciplinary Partnerships for Increased Pedagogical Success",
+      "text": "B. Form Interdisciplinary Partnerships for Increased Pedagogical Success",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 429.253,
+            "r": 471.307,
+            "b": 315.677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            644
+          ]
+        }
+      ],
+      "orig": "The challenges facing legal education are complex and multifaceted and  cannot  be  solved  by  small  task  forces  or  siloed  curriculum committees.  Keeping  up  with  constantly  evolving  bar  rules,  business trends,  technological  developments,  and  unpredictable  future  needs  is more  than  what  current  faculties  are  equipped  for,  and  a  massive challenge in already challenging times. Future success will require higher levels  of  understanding  of  evolving  technology,  business  economics, political  forecasting,  and  pedagogical  techniques  than  any  one  law professor or small faculty group can achieve alone.",
+      "text": "The challenges facing legal education are complex and multifaceted and  cannot  be  solved  by  small  task  forces  or  siloed  curriculum committees.  Keeping  up  with  constantly  evolving  bar  rules,  business trends,  technological  developments,  and  unpredictable  future  needs  is more  than  what  current  faculties  are  equipped  for,  and  a  massive challenge in already challenging times. Future success will require higher levels  of  understanding  of  evolving  technology,  business  economics, political  forecasting,  and  pedagogical  techniques  than  any  one  law professor or small faculty group can achieve alone."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 312.133,
+            "r": 471.401,
+            "b": 289.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "An interdisciplinary approach that pulls in more voices will not only increase confidence in decisions but also increase chances of success.",
+      "text": "An interdisciplinary approach that pulls in more voices will not only increase confidence in decisions but also increase chances of success."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 264.496,
+            "r": 470.729,
+            "b": 224.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            271
+          ]
+        }
+      ],
+      "orig": "15. Melissa Bezanson Shultz, Professor, Please Help Me Pass the Bar Exam: #NextGenBar2026 , 71 J. L EGAL E DUC . 141 (2021) (explaining some of the rapid shifts law schools will need to make to help their students pass the new bar exam and its focus on practical skills).",
+      "text": "15. Melissa Bezanson Shultz, Professor, Please Help Me Pass the Bar Exam: #NextGenBar2026 , 71 J. L EGAL E DUC . 141 (2021) (explaining some of the rapid shifts law schools will need to make to help their students pass the new bar exam and its focus on practical skills)."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 221.29600000000005,
+            "r": 470.795,
+            "b": 181.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            292
+          ]
+        }
+      ],
+      "orig": "16. Julianne Hill, Less Litigation, More Practical Skills in Law School Needed, Junior Associates Say , ABA J OURNAL (Apr. 30, 2024, 10:55 AM), https://www.abajournal.com/web/article/less-litigation-more-practical-skills-in-lawschool-needed-junior-associates-say [https://perma.cc/H6VZ-6NNX].",
+      "text": "16. Julianne Hill, Less Litigation, More Practical Skills in Law School Needed, Junior Associates Say , ABA J OURNAL (Apr. 30, 2024, 10:55 AM), https://www.abajournal.com/web/article/less-litigation-more-practical-skills-in-lawschool-needed-junior-associates-say [https://perma.cc/H6VZ-6NNX]."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 144.0,
+            "t": 178.336,
+            "r": 470.731,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            437
+          ]
+        }
+      ],
+      "orig": "17. See, e.g. , Tenielle Fordyce-Ruff, Research Across the Curriculum: Using Cognitive Science to Answer the Call for Better Legal Research Instruction , 125 D ICK . L. R EV . 1 (2020) (describing the various calls for reform in legal education going back to the 1800s when the 'case method' was first introduced, and discussing some of the major studies and reports that have been published in the past thirty years suggesting changes).",
+      "text": "17. See, e.g. , Tenielle Fordyce-Ruff, Research Across the Curriculum: Using Cognitive Science to Answer the Call for Better Legal Research Instruction , 125 D ICK . L. R EV . 1 (2020) (describing the various calls for reform in legal education going back to the 1800s when the 'case method' was first introduced, and discussing some of the major studies and reports that have been published in the past thirty years suggesting changes)."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "38",
+      "text": "38"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.347,
+            "b": 640.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "orig": "Also, legal academia is not the only place in higher education to face these challenges, and the law schools who adapt an early willingness to learn from their interdisciplinary peers will likely be the law schools who continue to thrive in the future.",
+      "text": "Also, legal academia is not the only place in higher education to face these challenges, and the law schools who adapt an early willingness to learn from their interdisciplinary peers will likely be the law schools who continue to thrive in the future."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 150.73,
+            "t": 623.173,
+            "r": 464.404,
+            "b": 600.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "C. Reframe Student Honor Codes to Allow for More Collaboration in Writing-Based Assessments",
+      "text": "C. Reframe Student Honor Codes to Allow for More Collaboration in Writing-Based Assessments",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 585.253,
+            "r": 471.391,
+            "b": 406.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            982
+          ]
+        }
+      ],
+      "orig": "Building law student resilience does not mean that law schools must train students to practice complete self-reliance. Research indicates the opposite: increased resilience is easier in communal environments with strong social support. 18 The traditional approach to ethics in law school has tended to encourage students to operate in silos, something that must be rapidly unlearned when they enter the practice of law. 19 While the curved nature of law school assessments means that every course must have a heavily-weighted individual assessment component, finding more ways to incorporate partnered and grouped exercises will help students understand that individual success can be enhanced with group collaboration in a rapidly changing world. By fostering a collaborative mindset  early  in  the  careers  of  future  lawyers,  law  schools  can  help prepare students to tackle the interconnected challenges of the future with increased creativity, innovation, and confidence.",
+      "text": "Building law student resilience does not mean that law schools must train students to practice complete self-reliance. Research indicates the opposite: increased resilience is easier in communal environments with strong social support. 18 The traditional approach to ethics in law school has tended to encourage students to operate in silos, something that must be rapidly unlearned when they enter the practice of law. 19 While the curved nature of law school assessments means that every course must have a heavily-weighted individual assessment component, finding more ways to incorporate partnered and grouped exercises will help students understand that individual success can be enhanced with group collaboration in a rapidly changing world. By fostering a collaborative mindset  early  in  the  careers  of  future  lawyers,  law  schools  can  help prepare students to tackle the interconnected challenges of the future with increased creativity, innovation, and confidence."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 156.015,
+            "t": 389.173,
+            "r": 459.242,
+            "b": 379.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "D. Resist the Resistance from Student, Faculty, and Administration",
+      "text": "D. Resist the Resistance from Student, Faculty, and Administration",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 365.165,
+            "r": 471.333,
+            "b": 289.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            444
+          ]
+        }
+      ],
+      "orig": "Modern law  students  crave  certainty, 20 which  is  unfortunately  in scarce supply as individuals and institutions prepare to face the challenges of  the  coming  century.  In  addition,  most  law  students  (and  most  law professors)  have  traditionally  preferred  the  well-worn  path  of  least resistance towards a destination bestowed  with honors indicating inevitable success. 21 Unfortunately, the twin tornadoes of generative AI",
+      "text": "Modern law  students  crave  certainty, 20 which  is  unfortunately  in scarce supply as individuals and institutions prepare to face the challenges of  the  coming  century.  In  addition,  most  law  students  (and  most  law professors)  have  traditionally  preferred  the  well-worn  path  of  least resistance towards a destination bestowed  with honors indicating inevitable success. 21 Unfortunately, the twin tornadoes of generative AI"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 264.496,
+            "r": 470.694,
+            "b": 224.83899999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            340
+          ]
+        }
+      ],
+      "orig": "18. See,  e.g. , Steven  M.  Southwick,  Lauren  Sippel,  John  Krystal,  Dennis Charney, Linda Mayes & Robert H. Pietrzak, Why Are Some Individuals More Resilient Than Others: The Role of Social  Support ,  15  W ORLD P SYCHIATRY 77,  77-79  (2016) ('Social support from one's community can also help foster resilience in the individual').",
+      "text": "18. See,  e.g. , Steven  M.  Southwick,  Lauren  Sippel,  John  Krystal,  Dennis Charney, Linda Mayes & Robert H. Pietrzak, Why Are Some Individuals More Resilient Than Others: The Role of Social  Support ,  15  W ORLD P SYCHIATRY 77,  77-79  (2016) ('Social support from one's community can also help foster resilience in the individual')."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 221.29600000000005,
+            "r": 470.69,
+            "b": 192.43899999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "19. Charity  Scott, Collaborating  with  the  Real  World:  Opportunities  for Developing  Skills  and  Values  in  Law  Teaching ,  9  I ND . H EALTH L. R EV .  409  (2012) (suggesting numerous ways to increase student collaboration in law school curriculums).",
+      "text": "19. Charity  Scott, Collaborating  with  the  Real  World:  Opportunities  for Developing  Skills  and  Values  in  Law  Teaching ,  9  I ND . H EALTH L. R EV .  409  (2012) (suggesting numerous ways to increase student collaboration in law school curriculums)."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 188.89599999999996,
+            "r": 470.72,
+            "b": 160.039,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "20. See  generally Laura  P.  Graham, Generation  Z  Goes  to  Law  School: Teaching and Reaching Law Students in the Post-Millennial Generation , 41 U NIV . A RK . L ITTLE R OCK L. R EV . 29 (2018).",
+      "text": "20. See  generally Laura  P.  Graham, Generation  Z  Goes  to  Law  School: Teaching and Reaching Law Students in the Post-Millennial Generation , 41 U NIV . A RK . L ITTLE R OCK L. R EV . 29 (2018)."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 144.0,
+            "t": 156.49599999999998,
+            "r": 470.744,
+            "b": 106.519,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            441
+          ]
+        }
+      ],
+      "orig": "21. See, e.g. , Anita Bernstein, Pitfalls Ahead: A Manifesto for the Training of Lawyers ,  94  C ORNELL L. R EV .  479,  500  (2009)  (explaining  'law  schools  teach  risk aversion to a population inclined in that direction' and 'legal educators . . . 'train lawyers to be more adept at criticizing ideas than creating them'') (quoting Paul Brest & Linda Krieger, On Teaching Professional Judgment , 69 W ASH . L. R EV . 527, 541 (1994)).",
+      "text": "21. See, e.g. , Anita Bernstein, Pitfalls Ahead: A Manifesto for the Training of Lawyers ,  94  C ORNELL L. R EV .  479,  500  (2009)  (explaining  'law  schools  teach  risk aversion to a population inclined in that direction' and 'legal educators . . . 'train lawyers to be more adept at criticizing ideas than creating them'') (quoting Paul Brest & Linda Krieger, On Teaching Professional Judgment , 69 W ASH . L. R EV . 527, 541 (1994))."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 171.446,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2025",
+      "text": "2025"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 231.316,
+            "t": 717.912,
+            "r": 380.676,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "FLEXIBILITY & RESILIENCE",
+      "text": "FLEXIBILITY & RESILIENCE"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 456.047,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "39",
+      "text": "39"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.307,
+            "b": 588.557,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            583
+          ]
+        }
+      ],
+      "orig": "and climate  change  mean  that  many  well-worn  paths  of  certainty  and stability have been taken over by the raging wildfires of societal change. So when law students come to administrators with inevitable complaints about new teaching ways, law schools will need to resist the temptation to offer false reassurances. Instead law school communities can embrace the opportunity to practice what they preach and remind students they are preparing  them  for  the  volatility  of  the  future  by  teaching  them  to approach inevitable challenges with adaptability and resilience.",
+      "text": "and climate  change  mean  that  many  well-worn  paths  of  certainty  and stability have been taken over by the raging wildfires of societal change. So when law students come to administrators with inevitable complaints about new teaching ways, law schools will need to resist the temptation to offer false reassurances. Instead law school communities can embrace the opportunity to practice what they preach and remind students they are preparing  them  for  the  volatility  of  the  future  by  teaching  them  to approach inevitable challenges with adaptability and resilience."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 585.253,
+            "r": 471.38,
+            "b": 497.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            492
+          ]
+        }
+      ],
+      "orig": "Resistance to the idea of embracing a tolerance of uncertainty will likely come from some law professors and traditional administrators as well. Many scholars have commented on the reputation of law schools and law professors as being infamously resistant to change. 22 Professors who are comfortable with their current teaching methods, and confident in their ability to replicate past successes in the current environment, 23 have traditionally pushed back against calls for improvement. 24",
+      "text": "Resistance to the idea of embracing a tolerance of uncertainty will likely come from some law professors and traditional administrators as well. Many scholars have commented on the reputation of law schools and law professors as being infamously resistant to change. 22 Professors who are comfortable with their current teaching methods, and confident in their ability to replicate past successes in the current environment, 23 have traditionally pushed back against calls for improvement. 24"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 170.31,
+            "t": 480.133,
+            "r": 444.947,
+            "b": 470.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "E. Embrace Opportunities to Discuss Ethical Considerations",
+      "text": "E. Embrace Opportunities to Discuss Ethical Considerations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 455.173,
+            "r": 471.333,
+            "b": 328.637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            727
+          ]
+        }
+      ],
+      "orig": "As technology advancements, environmental crises, and economic shifts reshape the legal landscape, law professors also have an opportunity to help law students consider the ethical implications related to the future practice of law. The American Bar Association is already encouraging  law  schools  to  foster  discussions  about  bias  and  societal challenges, 25 and law professors can reinforce overall societal resilience by embracing change as an opportunity to challenge students to consider how cultural  change  cultivates  the  growth  of  tough  issues.  It  is  welldocumented  that  many  of  today's  law  students  will  go  on  to  become tomorrow's leaders of society. 26 By teaching students that changes are",
+      "text": "As technology advancements, environmental crises, and economic shifts reshape the legal landscape, law professors also have an opportunity to help law students consider the ethical implications related to the future practice of law. The American Bar Association is already encouraging  law  schools  to  foster  discussions  about  bias  and  societal challenges, 25 and law professors can reinforce overall societal resilience by embracing change as an opportunity to challenge students to consider how cultural  change  cultivates  the  growth  of  tough  issues.  It  is  welldocumented  that  many  of  today's  law  students  will  go  on  to  become tomorrow's leaders of society. 26 By teaching students that changes are"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 297.856,
+            "r": 470.658,
+            "b": 268.999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            242
+          ]
+        }
+      ],
+      "orig": "22. See  generally Lauren  Carasik, Renaissance  or  Retrenchment:  Legal Education at a Crossroads , 44 I ND . L. R EV . 735 (2011); Patrick H. Gaughan, Facilitating Meaningful Change Within U.S. Law Schools , 16 U.N.H. L. R EV . 243 (2018).",
+      "text": "22. See  generally Lauren  Carasik, Renaissance  or  Retrenchment:  Legal Education at a Crossroads , 44 I ND . L. R EV . 735 (2011); Patrick H. Gaughan, Facilitating Meaningful Change Within U.S. Law Schools , 16 U.N.H. L. R EV . 243 (2018)."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 165.6,
+            "t": 265.456,
+            "r": 328.236,
+            "b": 257.47900000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "23. See Carasik, supra note 22, at 810.",
+      "text": "23. See Carasik, supra note 22, at 810."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 253.93600000000004,
+            "r": 470.708,
+            "b": 203.95900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            408
+          ]
+        }
+      ],
+      "orig": "24. See  id. at  814  (noting  that  some  professors'  '[r]eluctance  to  support curricular reform may in fact reveal some discomfort with curricular modifications that may make certain faculty members feel a lack of confidence in their ability to take part in new, more modern visions of law teaching') (citing Toni M. Fine, Reflections on U.S. Law Curricular Reform , 10 G ERMAN L.J. 717, 729-30 (2009)).",
+      "text": "24. See  id. at  814  (noting  that  some  professors'  '[r]eluctance  to  support curricular reform may in fact reveal some discomfort with curricular modifications that may make certain faculty members feel a lack of confidence in their ability to take part in new, more modern visions of law teaching') (citing Toni M. Fine, Reflections on U.S. Law Curricular Reform , 10 G ERMAN L.J. 717, 729-30 (2009))."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 200.41599999999994,
+            "r": 470.74,
+            "b": 181.87900000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "25. See, e.g. , Jennifer M. Fernandez, The Time is Now: ABA Standard 303(c) as the Impetus for a Truly Inclusive 1L Classroom, 73 W ASH . U. J.L. & P OL ' Y 78 (2024).",
+      "text": "25. See, e.g. , Jennifer M. Fernandez, The Time is Now: ABA Standard 303(c) as the Impetus for a Truly Inclusive 1L Classroom, 73 W ASH . U. J.L. & P OL ' Y 78 (2024)."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 144.0,
+            "t": 178.336,
+            "r": 470.766,
+            "b": 118.03899999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            459
+          ]
+        }
+      ],
+      "orig": "26. Leah Teague, Modernizing Legal Education Through Leadership Development Programs: Equipping Lawyers for Success, Significance and Satisfaction Through Service ,  58 W AKE F OREST L. R EV .  943, 944 (2023) (explaining that lawyers 'disproportionately  serve  in  positions  of  influence  and  leadership  in  all  manner  of organizations'  and  advocating  that  law  schools  'must  teach,  train  and  mentor  future lawyers to fulfill these roles.').",
+      "text": "26. Leah Teague, Modernizing Legal Education Through Leadership Development Programs: Equipping Lawyers for Success, Significance and Satisfaction Through Service ,  58 W AKE F OREST L. R EV .  943, 944 (2023) (explaining that lawyers 'disproportionately  serve  in  positions  of  influence  and  leadership  in  all  manner  of organizations'  and  advocating  that  law  schools  'must  teach,  train  and  mentor  future lawyers to fulfill these roles.')."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 717.912,
+            "r": 159.493,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 256.002,
+            "t": 717.912,
+            "r": 471.54,
+            "b": 707.416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "WISCONSIN LAW REVIEW FORWARD",
+      "text": "WISCONSIN LAW REVIEW FORWARD"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 689.173,
+            "r": 471.269,
+            "b": 653.597,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "not  just  challenges  but  instead  opportunities,  law  professors  can  plant early seeds to help prepare law students to navigate the complexities of the future with resilience, integrity, and compassion.",
+      "text": "not  just  challenges  but  instead  opportunities,  law  professors  can  plant early seeds to help prepare law students to navigate the complexities of the future with resilience, integrity, and compassion."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 276.024,
+            "t": 636.133,
+            "r": 336.062,
+            "b": 626.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "C ONCLUSION",
+      "text": "C ONCLUSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 144.0,
+            "t": 611.173,
+            "r": 471.371,
+            "b": 523.517,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            456
+          ]
+        }
+      ],
+      "orig": "By  adopting  an  approach  that  encourages  students  to  develop flexibility and resilience in an ever-changing legal landscape, law schools can help their students succeed in an uncertain future. And with a focus towards fostering flexible and resilient legal and local communities in addition  to  singular  self-reliance,  law  schools  can  help  educate  future lawyers and leaders who can help society survive and even thrive in the decades ahead.",
+      "text": "By  adopting  an  approach  that  encourages  students  to  develop flexibility and resilience in an ever-changing legal landscape, law schools can help their students succeed in an uncertain future. And with a focus towards fostering flexible and resilient legal and local communities in addition  to  singular  self-reliance,  law  schools  can  help  educate  future lawyers and leaders who can help society survive and even thrive in the decades ahead."
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 143.01036071777344,
+            "t": 457.6145935058594,
+            "r": 468.3113098144531,
+            "b": 280.173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 334.907,
+              "r": 468.019,
+              "b": 344.563,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 3,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 3,
+            "text": "Introduction ......................................................................33",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 347.867,
+              "r": 151.317,
+              "b": 357.523,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "I.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 347.867,
+              "r": 468.019,
+              "b": 357.523,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 3,
+            "text": "The Only Thing Certain is Change is Coming.....................35",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 144.0,
+              "t": 361.067,
+              "r": 154.969,
+              "b": 370.723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "II.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 361.067,
+              "r": 435.886,
+              "b": 370.723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 2,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 3,
+            "text": "Optimistic Suggestions and Potential Practical Approaches",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 438.281,
+              "t": 361.067,
+              "r": 468.019,
+              "b": 370.723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": ".....36",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 374.027,
+              "r": 185.577,
+              "b": 383.683,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "A.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.0,
+              "t": 374.027,
+              "r": 468.019,
+              "b": 396.643,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Increase Assessments of Critical Thinking Skills & Problem Solving Abilities........................................36",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 399.947,
+              "r": 184.562,
+              "b": 409.603,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "B.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.0,
+              "t": 399.947,
+              "r": 468.019,
+              "b": 422.563,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Form Interdisciplinary Partnerships for Increased Pedagogical Success ..............................................37",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 425.867,
+              "r": 185.169,
+              "b": 435.523,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "C.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.0,
+              "t": 425.867,
+              "r": 468.019,
+              "b": 448.723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Reframe Student Honor Codes to Allow for More Collaboration in Writing-Based Assessments.................38",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 452.027,
+              "r": 185.781,
+              "b": 461.683,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "D.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.0,
+              "t": 452.027,
+              "r": 468.019,
+              "b": 474.643,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Resist the Resistance from Students, Faculty, and Administration .....................................................38",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 174.0,
+              "t": 477.947,
+              "r": 184.562,
+              "b": 487.603,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "E.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 194.0,
+              "t": 477.947,
+              "r": 468.019,
+              "b": 500.563,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Embrace Opportunities to Discuss Ethical Considerations .....................................................39",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 8,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 334.907,
+                "r": 468.019,
+                "b": 344.563,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Introduction ......................................................................33",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 334.907,
+                "r": 468.019,
+                "b": 344.563,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Introduction ......................................................................33",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 334.907,
+                "r": 468.019,
+                "b": 344.563,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "Introduction ......................................................................33",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 347.867,
+                "r": 151.317,
+                "b": 357.523,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "I.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 347.867,
+                "r": 468.019,
+                "b": 357.523,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "The Only Thing Certain is Change is Coming.....................35",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 347.867,
+                "r": 468.019,
+                "b": 357.523,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "The Only Thing Certain is Change is Coming.....................35",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 144.0,
+                "t": 361.067,
+                "r": 154.969,
+                "b": 370.723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "II.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 361.067,
+                "r": 435.886,
+                "b": 370.723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "Optimistic Suggestions and Potential Practical Approaches",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 361.067,
+                "r": 435.886,
+                "b": 370.723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 2,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 3,
+              "text": "Optimistic Suggestions and Potential Practical Approaches",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 438.281,
+                "t": 361.067,
+                "r": 468.019,
+                "b": 370.723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": ".....36",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 374.027,
+                "r": 185.577,
+                "b": 383.683,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "A.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.0,
+                "t": 374.027,
+                "r": 468.019,
+                "b": 396.643,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Increase Assessments of Critical Thinking Skills & Problem Solving Abilities........................................36",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 399.947,
+                "r": 184.562,
+                "b": 409.603,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "B.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.0,
+                "t": 399.947,
+                "r": 468.019,
+                "b": 422.563,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Form Interdisciplinary Partnerships for Increased Pedagogical Success ..............................................37",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 425.867,
+                "r": 185.169,
+                "b": 435.523,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "C.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.0,
+                "t": 425.867,
+                "r": 468.019,
+                "b": 448.723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Reframe Student Honor Codes to Allow for More Collaboration in Writing-Based Assessments.................38",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 452.027,
+                "r": 185.781,
+                "b": 461.683,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "D.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.0,
+                "t": 452.027,
+                "r": 468.019,
+                "b": 474.643,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Resist the Resistance from Students, Faculty, and Administration .....................................................38",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 477.947,
+                "r": 184.562,
+                "b": 487.603,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "E.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 194.0,
+                "t": 477.947,
+                "r": 468.019,
+                "b": 500.563,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Embrace Opportunities to Discuss Ethical Considerations .....................................................39",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    }
+  }
+}

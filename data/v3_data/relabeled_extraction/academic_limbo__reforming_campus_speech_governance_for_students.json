@@ -1,0 +1,1087 @@
+{
+  "basename": "academic_limbo__reforming_campus_speech_governance_for_students",
+  "method": "sequential_fuzzy_matching",
+  "match_threshold": 70,
+  "text_blocks": [
+    {
+      "text": "ACADEMIC LIMBO: REFORMING CAMPUS SPEECH GOVERNANCE FOR STUDENTS",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 1,
+      "bbox": {
+        "l": 155.522,
+        "t": 668.064,
+        "r": 460.01,
+        "b": 643.394,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 19.6078431372549,
+      "matched": false
+    },
+    {
+      "text": "C HENG -CHI (K IRIN ) C HANG * & Y INN -CHING L U †",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 1,
+      "bbox": {
+        "l": 194.674,
+        "t": 628.213,
+        "r": 420.583,
+        "b": 618.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 37.254901960784316,
+      "matched": false
+    },
+    {
+      "text": "This  essay  examines  the  structural  inequalities  in  academic  freedom protections between faculty and students at private universities, highlighted by  the  2023  Gaza-related  campus  protests.  While  faculty  members  enjoy multiple layers of protection through tenure, contracts, and legal precedents, students must rely solely on discretionary university policies interpreted by the  administrators  who  restrict  their  speech.  Through  analysis  of  recent campus conflicts, this essay argues that current frameworks for protecting student academic freedom in private universities are fundamentally inadequate and proposes establishing institutional oversight boards inspired by  social  media  governance  models.  Unlike  temporary  committees,  these boards  would  provide  consistent,  transparent  adjudication  processes  while building precedent for future cases. This essay demonstrates why university implementation of such oversight mechanisms offers distinct advantages over social  media  models,  including  manageable  case  volumes  and  clearer contextual  standards.  By  creating  institutional  separation  of  powers,  these reforms would help align administrative actions with stated commitments to academic freedom while maintaining necessary operational control.",
+      "original_label": "text",
+      "corrected_label": "text",
+      "page_num": 1,
+      "bbox": {
+        "l": 165.6,
+        "t": 604.096,
+        "r": 449.162,
+        "b": 429.079,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 44.199999999999996,
+      "matched": false
+    },
+    {
+      "text": "* Associate  Director  &  Academic  Fellow,  AI  and  the  Future  of  Work Program at Emory University School of Law.",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 1,
+      "bbox": {
+        "l": 144.0,
+        "t": 252.976,
+        "r": 470.722,
+        "b": 234.43899999999996,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 40.67796610169492,
+      "matched": false
+    },
+    {
+      "text": "† Research  Scholar,  AI  and  the  Future  of  Work  Program  at  Emory University  School  of  Law.  Doctoral  Candidate  at  Emory  University  School  of  Law; LL.M., University of Chicago Law School.",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 1,
+      "bbox": {
+        "l": 144.0,
+        "t": 230.89599999999996,
+        "r": 470.755,
+        "b": 202.039,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 37.65903307888041,
+      "matched": false
+    },
+    {
+      "text": "We extend our appreciation to Dr. Ifeoma Ajunwa, Alex Chu, Rachel Cohen, Yilin (Jenny) Lu, Nanfeng Li, Yenpo Tseng, Jeffrey Chang, Wolf (Chun-Ting) Cho, Zih-Ting You, Youyang Zhong, Ssu-Yuan (Iris) Yang, Arron Fang, Edison Li, Shijie Xu, and Yizhang  (Yilia)  Shen  for  their  valuable  insights  and  feedback  on  this  article.  Their contributions have significantly enhanced this work. We are grateful to Sumner Pitt and the other editors of the Wisconsin Law Review for their diligent efforts in bringing this article to publication. Any errors or oversights are our sole responsibility. The views expressed in this essay are solely our own and do not represent those of any affiliated institutions.",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 1,
+      "bbox": {
+        "l": 144.0,
+        "t": 198.49599999999998,
+        "r": 470.739,
+        "b": 106.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 40.800000000000004,
+      "matched": false
+    },
+    {
+      "text": "I NTRODUCTION",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 2,
+      "bbox": {
+        "l": 271.226,
+        "t": 689.173,
+        "r": 340.88,
+        "b": 679.517,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 23.076923076923073,
+      "matched": false
+    },
+    {
+      "text": "In October 2023, students erected protest encampments across major university  campuses  -  from  Columbia  to  Georgetown. 1 Within  days, Columbia's administration suspended two student groups, setting off a chain  reaction  of  protests  and  administrative  crackdowns  nationwide. 2 This  moment  crystallized  a  fundamental  paradox:  while  universities celebrate  academic  freedom  in  principle,  their  responses  to  student expression often reveal a starkly different reality.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 664.213,
+        "r": 471.246,
+        "b": 576.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 94.98399146211312,
+      "matched": true
+    },
+    {
+      "text": "Consider  the  stark  disparity  in  speech  protections.  When  faculty members  take  controversial  positions,  they  enjoy  multiple  layers  of security - tenure, contracts, and established legal precedent. Students, however, must rely on malleable university policies interpreted by the very  administrators  restricting  their  speech.  At  private  institutions beyond  Constitutional  reach,  this  power  imbalance  proves  especially acute.  When  Columbia  dismantled  protest  encampments  or  Harvard struggled to balance competing speech interests, students found themselves without meaningful recourse to challenge these decisions. 3",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 573.253,
+        "r": 471.318,
+        "b": 459.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.80000000000001,
+      "matched": true
+    },
+    {
+      "text": "This  essay  argues  that  current  frameworks  for  protecting  student academic freedom in private universities are fundamentally broken. The stakes extend far beyond individual disputes - they touch the core mission of higher education itself. Each time administrators shut down controversial  expression  without  principled  justification  or  meaningful review,  they  signal  that  institutional  convenience  trumps  the  robust discourse essential for knowledge creation and truth-seeking.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 456.133,
+        "r": 471.329,
+        "b": 368.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 96.36552440290758,
+      "matched": true
+    },
+    {
+      "text": "Drawing  inspiration  from  recent  experiments  in  social  media governance,  this  Article  proposes  establishing  permanent  oversight boards within private universities to adjudicate speech-related conflicts. Unlike  temporary  committees  formed  after  controversies  erupt,  these boards would provide consistent, transparent processes while building",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 365.173,
+        "r": 471.298,
+        "b": 303.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.1921921921922,
+      "matched": true
+    },
+    {
+      "text": "1. Kasprzak, supra note 1 ('Columbia University students rally in support of Palestine on October 12, 2023, in New York City. Pro-Palestinian groups are staging boycotts on Black Friday.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 273.856,
+        "r": 470.662,
+        "b": 244.99900000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 39.39393939393939,
+      "matched": false
+    },
+    {
+      "text": "2. Johanna  Alonso, Columbia  Suspends  2  Pro-Palestine  Groups ,  I NSIDE H IGHER E D (Nov. 10, 2023), https://www.insidehighered.com/news/students/freespeech/2023/11/10/columbia-suspends-two-pro-palestinian-groups  (last  visited  Nov  8, 2024)  [https://perma.cc/H2W9-YRTZ];  Liset  Cruz  &  Claire  Fahy, Columbia  Faces Protests  After  Suspending  2  Pro-Palestinian  Groups ,  N.Y. T IMES (Nov.  15,  2023) https://www.nytimes.com/2023/11/15/nyregion/columbia-university-ban-studentgroups-israel-hamas-war.html [https://perma.cc/JPJ8-L8MR].",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 241.45600000000002,
+        "r": 470.7,
+        "b": 170.35900000000004,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 91.2,
+      "matched": true
+    },
+    {
+      "text": "3. Andrew Marantz, How Columbia's Campus Was Torn Apart Over Gaza , N EW Y ORKER (Apr. 25, 2024), https://www.newyorker.com/news/daily-comment/howcolumbias-campus-was-torn-apart-over-gaza [https://perma.cc/CR2H-P4KA] (arguing that students lacked meaningful recourse when universities took action - facing arrest, suspension,  or  eviction,  while  university  leadership  made  decisions  under  external pressure without student input.).",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 2,
+      "bbox": {
+        "l": 144.0,
+        "t": 166.81600000000003,
+        "r": 470.694,
+        "b": 106.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.71206690561529,
+      "matched": true
+    },
+    {
+      "text": "precedent  to  guide  future  cases.  The  timing  for  such  reform  proves especially  advantageous  -  unlike  social  media  platforms  dealing  with billions of content decisions, universities face manageable case volumes allowing careful consideration of each dispute's broader implications.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.374,
+        "b": 640.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 86.09523809523809,
+      "matched": true
+    },
+    {
+      "text": "Part  II  examines  why  current  approaches  to  student  academic freedom prove structurally inadequate, particularly in private institutions beyond Constitutional reach. Part III analyzes the specific vulnerabilities that  subject  students  to  administrative  overreach,  using  recent  campus protests as illustrative case studies. Part IV develops the oversight board proposal,  explaining  why  university  implementation  offers  distinct advantages over social media models while addressing potential challenges to adoption.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 637.333,
+        "r": 471.322,
+        "b": 536.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.69311064718163,
+      "matched": true
+    },
+    {
+      "text": "I. S TRUCTURAL D ISPARITIES IN A CADEMIC F REEDOM P ROTECTIONS",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 3,
+      "bbox": {
+        "l": 152.558,
+        "t": 519.013,
+        "r": 459.49,
+        "b": 509.357,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 22.580645161290324,
+      "matched": false
+    },
+    {
+      "text": "Academic  freedom  encompasses  three  fundamental  principles: member independence  from  university  control,  institutional  autonomy from state interference, and university's duty to safeguard both. 4 Within university  communities, student academic freedom warrants particular attention due to its unique vulnerabilities.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 494.293,
+        "r": 471.371,
+        "b": 432.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 81.5217391304348,
+      "matched": true
+    },
+    {
+      "text": "Students contribute essential elements to university education despite their developing expertise. 5 First, their willingness to receive information from  instructors  drives  intellectual  growth. 6 The  right  to  learn  and exchange  ideas  with  teachers  embodies  academic  freedom. 7 Second, student engagement through questioning and debate forms an essential part  of  the  educational  process  itself.  When  students  from  varied backgrounds challenge assumptions and propose alternative viewpoints, they expand the scope of academic inquiry. A university that suppresses",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 429.253,
+        "r": 471.358,
+        "b": 328.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 93.80710659898477,
+      "matched": true
+    },
+    {
+      "text": "4. See Jogchum Vrielink, Paul Lemmens & Stephan Parmentier, Academic Freedom as a Fundamental Right , 13 P ROCEDIA -S OC . & B EHAV . S CI . 117, 117 (2011) ('Academic freedom can be considered to comprise . . . individual rights to expressive freedoms  for  members  of  the  academic  community  [both  staff  and  students]  .  .  . institutional autonomy . . .'); T HOMAS M ILES & T OM G INSBURG , F REEDOM OF A CADEMIC E XPRESSION : A U NIVERSITY OF C HICAGO P ERSPECTIVE 6  (2024)  ('[I]t  comprises  three related principles: (1) the individual rights of professors and students to hold and express opinions; (2) the institutional autonomy of the university from direct state interference; and (3) the state's obligation to protect and enable (1) and (2).').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 307.456,
+        "r": 473.345,
+        "b": 215.47900000000004,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 75.2,
+      "matched": true
+    },
+    {
+      "text": "5. See D AVID M. R ABBAN , A CADEMIC F REEDOM : F ROM P ROFESSIONAL N ORM TO F IRST A MENDMENT R IGHT 283 (2024) (comparing students with faculty about different justifications to exercise academic freedom).",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 211.93600000000004,
+        "r": 470.634,
+        "b": 182.83899999999994,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 67.07692307692308,
+      "matched": false
+    },
+    {
+      "text": "6. See Sweezy v. New Hampshire , 354 U.S. 234, 250 (1957) ('Teachers and students must always remain free to inquire, to study and to evaluate, to gain new maturity and understanding; otherwise our civilization will stagnate and die.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 179.29600000000005,
+        "r": 470.74,
+        "b": 150.43899999999996,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 98.30508474576271,
+      "matched": true
+    },
+    {
+      "text": "7. See Bd. of Regents of Univ. of Wis. Sys. v. Southworth , 529 U.S. 217, 237 (Souter, J., concurring) (2000) ('Academic freedom thrives . . . on the independent and uninhibited exchange of ideas among teachers and students . . .').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 3,
+      "bbox": {
+        "l": 144.0,
+        "t": 146.89599999999996,
+        "r": 470.69,
+        "b": 118.03899999999999,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 98.27586206896551,
+      "matched": true
+    },
+    {
+      "text": "student  voices  risks  creating  an  echo  chamber  antithetical  to  genuine scholarship. 8",
+      "original_label": "text",
+      "corrected_label": "text",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.239,
+        "b": 666.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 44.08602150537635,
+      "matched": false
+    },
+    {
+      "text": "Yet despite their importance to academic discourse, students occupy a  structurally  inferior  position  regarding  speech  protections.  Faculty members enjoy multiple layers of security - tenure, employment contracts, and often union representation - allowing them to express controversial views with relative safety. 9 When universities take adverse action against faculty speech, established legal frameworks on employment contract, contract law, and civil procedures provide clear paths for challenge and review.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 663.253,
+        "r": 474.876,
+        "b": 562.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 96.2283384301733,
+      "matched": true
+    },
+    {
+      "text": "Students face a markedly different reality. When facing disciplinary decisions, students must rely primarily on internal university procedures to  address  speech-related  grievances. 10 These  procedures  often  grant broad  discretion  to  the  same  administrators  who  initiated  the  original restrictions, creating an inherent conflict of interest. The consequences of speech-related sanctions also weigh more heavily on students. While the  contract  relationship  between  the  private  university  and  student permits legal action, 11 students rarely succeed because courts typically defer to institutional policy interpretations. Also, while faculty members dismissed from one institution can often secure positions elsewhere based on their established reputations and credentials, students face potentially career-ending consequences from expulsions or disciplinary actions that permanently mark their academic records.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 559.333,
+        "r": 471.423,
+        "b": 393.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 95.39999999999999,
+      "matched": true
+    },
+    {
+      "text": "8. See Report of the Ad Hoc Committee on Protest and Dissent , U NIV . OF C HI . (Jan. 13, 2014), https://provost.uchicago.edu/sites/default/files/documents/reports/Report%20Protest%2 0and%20Dissent.pdf [https://perma.cc/CR2H-P4KA] ('Especially in a university community,  the  absence  of  dissent  and  protest-not  its  presence-is  a  cause  for concern.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 358.816,
+        "r": 470.7,
+        "b": 298.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 91.96675900277008,
+      "matched": true
+    },
+    {
+      "text": "9. While  we  here  emphasize  students'  position  relative  to  faculty  within academic freedom, we are aware of and share concerns about recent university politics undermining institutional protections for faculty, such as tenure. See Joan Wallach Scott, Academic Freedom & the Politics of the University ,  153  D AEDALUS 149,  160  (2024) ('The current move in red states to outlaw tenure entirely, driven by a desire to get rid of troublesome critical faculty and not necessarily motivated by workforce calculations, will surely finish the job.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 294.976,
+        "r": 470.799,
+        "b": 223.87900000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 85.37117903930131,
+      "matched": true
+    },
+    {
+      "text": "10. See Jacob  E.  Gersen  &  Jeannie  Suk  Gersen, Academic  Freedom  and Discipline: The Case of the Arguably Peaceful Protestors , 76 S TAN . L. R EV . 1537, 1541 (2024)  ('Those  complaints  are  investigated  and  adjudicated  within  a  university's disciplinary system, the proceedings and decisions of which are generally confidential.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 220.336,
+        "r": 470.724,
+        "b": 180.91899999999998,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 90.7514450867052,
+      "matched": true
+    },
+    {
+      "text": "11. See Max M. Schanzenbach & Kimberly Yuracko, What is the UniversityStudent Contract? , 65 A RIZ . L. R EV . 965, 966 (2023) ('Courts today readily accept that the  university-student  relationship  is  fundamentally  contractual');  K.B.  Melear, The Contractual Relationship between Student and Institution: Disciplinary, Academic and Consumer  Contexts  Book  Review ,  30  J. C OLL . & U NI . L.  175,  175  (2003)  ('In  its contemporary  manifestation,  contract  theory  provides  students  an  outlet  that  was previously unavailable to seek redress against their colleges and universities.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 4,
+      "bbox": {
+        "l": 144.0,
+        "t": 177.37599999999998,
+        "r": 470.7,
+        "b": 106.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 87.28024819027922,
+      "matched": true
+    },
+    {
+      "text": "The structural  vulnerability  of  student  academic  freedom  extends beyond  mere  procedural  inequities.  Universities  often  justify  speech restrictions  through  broadly-worded  policies  targeting  'disruption'  or 'harm' - malleable concepts that administrators can interpret expansively. Without  external  oversight  or  meaningful  appeal  mechanisms,  these policies  can  become  tools  for  suppressing  uncomfortable  but  valuable discourse rather than protecting legitimate institutional interests.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 474.95,
+        "b": 601.517,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 87.43400211193241,
+      "matched": true
+    },
+    {
+      "text": "Yet acknowledging students' inferior position does not imply they should  enjoy  unlimited  expression  rights.  Universities  must  balance competing  interests  -  maintaining  functional  educational  environments while  protecting  robust  debate.  The  challenge  lies  not  in  choosing between  absolute  freedom  and  complete  control,  but  in  developing principled frameworks for drawing appropriate lines between protected and restricted speech.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 598.213,
+        "r": 471.375,
+        "b": 510.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 83.65019011406845,
+      "matched": true
+    },
+    {
+      "text": "II. I NSTITUTIONAL B ARRIERS TO S TUDENT E XPRESSION R IGHTS",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 5,
+      "bbox": {
+        "l": 162.965,
+        "t": 493.093,
+        "r": 449.098,
+        "b": 483.437,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 23.33333333333333,
+      "matched": false
+    },
+    {
+      "text": "The  fundamental weakness in current approaches to student academic freedom stems from two interconnected problems: the absence of constitutional protections in private institutions and the inadequacy of existing university policies as meaningful substitutes.",
+      "original_label": "text",
+      "corrected_label": "text",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 468.133,
+        "r": 471.303,
+        "b": 419.597,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 67.51918158567776,
+      "matched": false
+    },
+    {
+      "text": "Private  universities  operate  outside  First  Amendment  constraints, thereby creating a legal vacuum where student expression rights depend entirely on institutional policies and administrative discretion. The First Amendment applies mainly to government actors, not private institutions. 12 Despite limited exceptions through statutory restrictions 13 and state action doctrine, 14 most private universities remain unconstrained by constitutional speech protections.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 416.293,
+        "r": 471.294,
+        "b": 328.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 87.69414575866189,
+      "matched": true
+    },
+    {
+      "text": "12. U.S. C ONST . amend. I ('Congress shall make no law . . . abridging the freedom of speech, or of the press').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 274.81600000000003,
+        "r": 470.695,
+        "b": 256.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 91.1504424778761,
+      "matched": true
+    },
+    {
+      "text": "13. For example, California's Leonard Law (1992) bars '[p]rivate postsecondary  educational  institutions'  from  'subjecting  any  student  to  disciplinary sanctions solely on the basis of conduct that is speech or other communication that, when engaged  in  outside  the  campus  or  facility  of  a  private  postsecondary  institution,  is protected from governmental restriction by the First Amendment to the United States Constitution.' C AL . E DUC . C ODE § 94367 (West 2024). The Leonard Law remains the only statute requiring private universities to observe First Amendment protections.",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 252.976,
+        "r": 470.791,
+        "b": 181.87900000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.2,
+      "matched": true
+    },
+    {
+      "text": "14. In 1946, the Supreme Court adopted the state action doctrine subjecting private property 'use[d] by the public in general' to First Amendment restrictions. Marsh v.  Alabama ,  326  U.S.  501,  506  (1946).  'Many  people  in  the  United  States  live  in company-owned towns . . . There is no more reason for depriving these people of the liberties guaranteed by the First and Fourteenth Amendments.' Id. at 508. However, the Supreme Court has never recognized private universities as state actors.",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 5,
+      "bbox": {
+        "l": 144.0,
+        "t": 178.336,
+        "r": 470.724,
+        "b": 118.03899999999999,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 96.2,
+      "matched": true
+    },
+    {
+      "text": "A promising trend appears. Several prestigious private universities claim  to  observe  First  Amendment  principles. 15 Moreover,  many institutions voluntarily adopt free speech principles in campus policies. Major universities involved in Gaza protests - Columbia, 16 Harvard, 17 Pennsylvania, 18 and Northwestern 19 - have enacted such speech policies. This approach attempts to shield classroom speech and protect campus dissent, though scholars criticize this 'First Amendment fetishism' as inappropriate  for  campus  settings,  particularly  regarding  hate  speech protections. 20 While  these  guidelines  provide  some  framework,  their value remains limited.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.358,
+        "b": 562.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 84.28246013667426,
+      "matched": true
+    },
+    {
+      "text": "However, these commitments, this essay argues, represent mere lip service  and  hollow  hopes  within  academic  institutions,  rather  than meaningful protection for students, because they lack external enforcement mechanisms or consistent interpretation standards.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 559.333,
+        "r": 471.336,
+        "b": 510.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 96.99248120300751,
+      "matched": true
+    },
+    {
+      "text": "To be more specific, the University speech policies typically suffer from three critical  deficiencies.  First,  they  grant  administrators  broad",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 507.253,
+        "r": 471.238,
+        "b": 484.637,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 95.91836734693877,
+      "matched": true
+    },
+    {
+      "text": "15. Kiara  Alfonseca, Free  Speech  Debate  Intensifies  after  Controversial Hearing with University Presidents ,  ABC N EWS (Dec. 15, 2023, 5:16  AM), https://abcnews.go.com/US/free-speech-debate-intensifies-after-controversial-hearinguniversity/story?id=105583764 [https://perma.cc/N2C7-BHQK] (then-presidents Claudine Gay at Harvard University and Elizabeth Magill at University of Pennsylvania claimed that the norm of speech in campus is influenced by the First Amendment in a congressional hearing regarding allegations of antisemitism at their schools).",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 423.856,
+        "r": 470.706,
+        "b": 352.999,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 97.8,
+      "matched": true
+    },
+    {
+      "text": "16. Rules of University Conduct , C OLUMBIA U NIV . P OLICIES , https://universitypolicies.columbia.edu/content/rules-university-conduct [https://perma.cc/G77G-XXQC] (last visited Nov  8, 2024) ('§440. Affirmative Statement  .  .  .  Because  of  the  University's  function  as  an  incubator  of  ideas  and viewpoints, the principle of free expression must be jealously guarded.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 349.456,
+        "r": 470.706,
+        "b": 299.479,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 88.08864265927978,
+      "matched": true
+    },
+    {
+      "text": "Free Speech Guidelines , H ARVARD F AC . OF A RTS & S CIENCES (Feb. 13 & May 15, 1990), https://handbook.college.harvard.edu/sites/projects.iq.harvard.edu/files/collegehandboo k/files/fas_free_speech_guidelines.pdf [https://perma.cc/QGE4-G4WT] ('Free speech is uniquely important to the University because we are a community committed to reason and rationale discourse.').",
+      "original_label": "list_item",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 295.936,
+        "r": 470.691,
+        "b": 235.399,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 90.93525179856114,
+      "matched": true
+    },
+    {
+      "text": "18. Guidelines on Open Expression , U NIV . OF P A ., https://catalog.upenn.edu/pennbook/open-expression/ [https://perma.cc/EC6W-8C77] (last visited Nov 8, 2024) ('The University of Pennsylvania, as a community of scholars, affirms, supports and cherishes the concepts of freedom of thought, inquiry, speech, and lawful assembly.').",
+      "original_label": "text",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 231.856,
+        "r": 470.704,
+        "b": 181.87900000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 90.49180327868852,
+      "matched": true
+    },
+    {
+      "text": "19. Northwestern Policies Overview: Campus  Inclusion  &  Community , N ORTHWESTERN U NIV .,  https://www.northwestern.edu/inclusion/respectnu/nu-policiesoverview.html [https://perma.cc/3RQ2-YY6R] (last visited Nov 8, 2024).",
+      "original_label": "text",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 178.336,
+        "r": 470.691,
+        "b": 149.47900000000004,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 77.00258397932816,
+      "matched": true
+    },
+    {
+      "text": "20. Kenji Yoshino, Reconsidering the First Amendment Fetishism of Non-State Actors: The Case of Hate Speech on Social Media Platforms and at Private Universities , 76 S TAN . L. R EV . 1755, 1757 (2024) ('Penn and Harvard engage in what might be called 'First Amendment fetishism' in that they protect speech beyond what law requires.').",
+      "original_label": "text",
+      "corrected_label": "footnote",
+      "page_num": 6,
+      "bbox": {
+        "l": 144.0,
+        "t": 145.93600000000004,
+        "r": 470.691,
+        "b": 106.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 86.18421052631578,
+      "matched": true
+    },
+    {
+      "text": "interpretive  latitude  through  vague  standards  rather  than  clear  rules. 21 While  flexibility  in  policy  application  seems  desirable  in  theory,  in practice  it  creates  uncertainty  that  chills  student  expression.  Students facing  unclear  boundaries  and  unpredictable  enforcement  often  selfcensor rather than risk sanctions.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 690.125,
+        "r": 471.362,
+        "b": 627.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 90.83094555873924,
+      "matched": true
+    },
+    {
+      "text": "Second, universities can unilaterally modify these policies without meaningful input from affected students. Unlike traditional contractual relationships  where  parties  negotiate  terms  as  equals,  the  universitystudent relationship features  inherent  power  imbalances.  Students' theoretical  ability  to  'vote  with  their  feet'  by  leaving  provides  little practical  leverage  given  the  significant  costs  of  transferring  and  the limited number of elite institutions.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 624.133,
+        "r": 471.347,
+        "b": 536.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 93.04347826086956,
+      "matched": true
+    },
+    {
+      "text": "Third, current frameworks lack meaningful accountability mechanisms for reviewing administrative decisions on speech restrictions. Student  speech  on  campus  faces  various  interferences,  from  prior restraints to ongoing shutdowns  and  post-event discipline.  While discipline  activates  remedy  procedures,  speech  shutdowns  and  prior restraints rarely trigger review processes. The recent Gaza protests at universities  demonstrate  this  gap  perfectly.  Without  formal  sanctions, administrators bypass reviewing their interventions. Furthermore, even when  sanctions follow 'disruptive' speech, no independent body evaluates whether these actions serve educational purposes or align with institutional principles. Reviews focus solely on disciplinary correctness, ignoring  speech  intervention  legitimacy.  Critical  questions  about  the necessity and proportionality of university responses remain unanswered, lost in a void of administrative discretion.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 533.173,
+        "r": 474.977,
+        "b": 354.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 93.50912778904666,
+      "matched": true
+    },
+    {
+      "text": "III. O VERSIGHT B OARDS AS C ONSTITUTIONAL G OVERNANCE R EFORM",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 7,
+      "bbox": {
+        "l": 148.647,
+        "t": 337.093,
+        "r": 463.462,
+        "b": 327.437,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 22.580645161290324,
+      "matched": false
+    },
+    {
+      "text": "The structural deficiencies in protecting student academic freedom demand institutional innovation. Drawing from constitutional principles and  recent  developments  in  private  sector  governance,  this  article proposes establishing permanent oversight boards within private universities to adjudicate speech-related disputes.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 312.133,
+        "r": 471.258,
+        "b": 250.63699999999994,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 97.71689497716895,
+      "matched": true
+    },
+    {
+      "text": "These boards would function as independent bodies within university  governance  structures,  creating  a  quasi-judicial  branch  that mirrors the judiciary in the United States' constitutional system. When conflicts arise between student expression and institutional restrictions,",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 247.33299999999997,
+        "r": 471.258,
+        "b": 198.55700000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 98.38420107719928,
+      "matched": true
+    },
+    {
+      "text": "21. U NIV . OF C HI ., supra note 9 ('The University's policies should . . . make clear what discipline will be imposed for violations of University rules . . . More directly relevant to protest and dissent, we note that the University's statutes appear to provide that  discipline  can  be  imposed for '[c]onduct . . . disruptive of the operations of the University.' . . . This prohibition, taken literally, is too broad.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 7,
+      "bbox": {
+        "l": 144.0,
+        "t": 168.01599999999996,
+        "r": 470.713,
+        "b": 118.03899999999999,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 89.48717948717949,
+      "matched": true
+    },
+    {
+      "text": "parties could present their cases before this independent forum. Board decisions would analyze whether administrative actions align with stated university  principles  and  provide  detailed  reasoning.  This  process illuminates disciplinary decisions while building consistent precedent for future cases. 22",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.358,
+        "b": 627.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 97.85123966942149,
+      "matched": true
+    },
+    {
+      "text": "The  effectiveness  of  such  oversight  boards  depends  critically  on their independence from regular administrative structures. Board members should include representatives of students, university administration,  faculty,  and  experts  possessing  relevant  expertise  in academic freedom, constitutional law, and university governance. Some experts should maintain distance from daily institutional management to ensure  unbiased  judgment  and  diverse  discussion.  Terms  of  service should be fixed and staggered to prevent political pressure from affecting decision-making.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 624.133,
+        "r": 471.338,
+        "b": 510.557,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 96.2,
+      "matched": true
+    },
+    {
+      "text": "The  Board's  judgments  would  have  weak  constraint,  meaning administrators  can  reject  decisions  with  articulated  reasons.  Since  the Board includes external experts, strong constraints could interfere with university autonomy, contradicting academic freedom principles. Weak constraints allow administrators to evaluate actions and balance interests. While universities might initially resist binding judgments, even advisory decisions would improve current conditions through reasoned analysis.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 507.253,
+        "r": 471.291,
+        "b": 419.597,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 94.62809917355372,
+      "matched": true
+    },
+    {
+      "text": "Written opinions analyzing speech restrictions would create valuable precedents, developing coherent campus free expression doctrines. First Amendment  law  might  misfit  the  academic  setting  given  differences between  criminal  imprisonment  and  school  suspension.  A  campus doctrine  developed  by  experts  and  institutional  representatives  can address  each  university's  unique  characteristics.  This  process  would constrain future administrative discretion by requiring justified departures  from  established  principles  rather  than  permitting  arbitrary interpretations.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 416.293,
+        "r": 471.371,
+        "b": 302.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 93.19999999999999,
+      "matched": true
+    },
+    {
+      "text": "The  social  media  oversight  board  model,  particularly  Meta's experience, provides valuable lessons while highlighting why university implementation might prove more successful. Meta's board was established to govern Facebook's problematic content moderation policy in light of international human rights law. 23 However, the board performs",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 299.173,
+        "r": 471.273,
+        "b": 237.67700000000002,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 84.33333333333333,
+      "matched": true
+    },
+    {
+      "text": "22. See Gersen  &  Gersen, supra note  11,  at  1541  ('While  a  university's website may publicize its disciplinary policies and procedures, the confidentiality of cases means  the  public  has  no  way  to  examine  the  workings,  reasoning,  or  results  of complaints, investigations, and adjudicative decisions').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 210.01599999999996,
+        "r": 470.83,
+        "b": 170.35900000000004,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 82.20183486238533,
+      "matched": true
+    },
+    {
+      "text": "23. See generally Kate Klonick, The New Governors: The People, Rules, and Processes  Governing  Online  Speech ,  131  H ARV . L. R EV .  1598  (2017)  (tracing  the formation of content moderation policies in social media); Kate Klonick, The Facebook Oversight  Board:  Creating  an  Independent  Institution  to  Adjudicate  Online  Free Expression , 129 Y ALE L. J. 2418 (2019) (tracing the history and reason for establishing the Oversight Board).",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 8,
+      "bbox": {
+        "l": 144.0,
+        "t": 166.81600000000003,
+        "r": 470.791,
+        "b": 106.519,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 82.6086956521739,
+      "matched": true
+    },
+    {
+      "text": "below  expectations  due  to  significant  challenges:  overwhelming  case volumes, 24 diverse  international  speech  standards, 25 and  topic-sensitive content  moderation  needs. 26 Unlike Meta's  experience, university oversight boards would encounter more favorable conditions for effective operation.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.296,
+        "b": 627.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 79.3713163064833,
+      "matched": true
+    },
+    {
+      "text": "Campus  speech  disputes  arise  less  frequently  than  social  media conflicts, allowing thorough consideration of each case's implications. Universities also operate within more defined cultural and legal contexts than global platforms, facilitating consistent doctrine development. While social media requires near-instantaneous content moderation, academic freedom  disputes  typically  involve  ongoing  situations  where  careful deliberation proves both possible and beneficial.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 624.133,
+        "r": 471.278,
+        "b": 536.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 86.08187134502924,
+      "matched": true
+    },
+    {
+      "text": "A permanent oversight structure offers distinct advantages over ad hoc  investigation  committees  sometimes  formed  after  controversial incidents. Temporary bodies, while potentially valuable for specific cases, cannot develop consistent principles or hold administrations accountable over time. Their recommendations remain isolated to particular circumstances,  allowing  future  administrators  to  distinguish  or  ignore precedent easily.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 533.173,
+        "r": 474.814,
+        "b": 445.517,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 83.09305373525558,
+      "matched": true
+    },
+    {
+      "text": "Permanent oversight boards, conversely, create institutional memory and consistent pressure for principled decision-making. Their ongoing presence encourages administrators to consider potential review when  crafting  and  implementing  speech  policies.  This  accountability mechanism helps align institutional behavior with stated commitments to academic freedom.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 442.213,
+        "r": 471.365,
+        "b": 367.517,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 77.38693467336684,
+      "matched": true
+    },
+    {
+      "text": "C ONCLUSION",
+      "original_label": "section_header",
+      "corrected_label": "section_header",
+      "page_num": 9,
+      "bbox": {
+        "l": 276.024,
+        "t": 350.053,
+        "r": 338.66,
+        "b": 340.397,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 18.181818181818176,
+      "matched": false
+    },
+    {
+      "text": "The current state of student academic freedom in private universities reveals a troubling paradox that undermines higher education's",
+      "original_label": "text",
+      "corrected_label": "text",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 325.333,
+        "r": 471.365,
+        "b": 302.477,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 46.21212121212122,
+      "matched": false
+    },
+    {
+      "text": "24. See Evelyn Douek, The Siren Call of Content Moderation Formalism , in S OCIAL M EDIA , F REEDOM OF S PEECH , AND THE F UTURE OF OUR D EMOCRACY 139, 146 (Lee C. Bollinger & Geoffrey R. Stone eds., 2022) ('The flood of speech that the internet has enabled and that content moderation must govern is truly staggering.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 274.81600000000003,
+        "r": 470.763,
+        "b": 235.399,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 71.34502923976609,
+      "matched": true
+    },
+    {
+      "text": "25. See id. at  145  ('[T]he tens of thousands of them distributed around the globe will never agree on their application, like whether a particular picture meets the specific definition of breast-squeezing'); J ACK G OLDSMITH & T IM W U , W HO C ONTROLS THE I NTERNET ?: I LLUSIONS OF A B ORDERLESS W ORLD 150 (2006) ('[T]here is very little to say in favor of a single global rule for Internet speech . . . These dramatically different attitudes  toward  proper  speech  among  the  mature  democracies  reflect  important differences  among  the  peoples  that  populate  these  countries-differences  in  culture, history, and tastes.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 231.856,
+        "r": 470.737,
+        "b": 150.43899999999996,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 82.0,
+      "matched": true
+    },
+    {
+      "text": "26. See Evelyn Douek, The Meta Oversight Board and the Empty Promise of Legitimacy , 37 H ARV . J. L. & T ECH . 373, 430 (2023) ('[T]he Board has a clear pattern of ducking the most controversial questions that come before it.').",
+      "original_label": "footnote",
+      "corrected_label": "footnote",
+      "page_num": 9,
+      "bbox": {
+        "l": 144.0,
+        "t": 146.89599999999996,
+        "r": 470.766,
+        "b": 118.03899999999999,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 42.465753424657535,
+      "matched": false
+    },
+    {
+      "text": "fundamental  mission.  While  these  institutions  proclaim  unwavering commitment  to  free  inquiry  and  open  discourse,  they  simultaneously maintain  governance  structures  that  render  student  expression  rights precarious  and  easily  restricted.  The  consequences  of  this  power imbalance  extend  beyond  individual  cases  to  shape  campus  culture, potentially  discouraging  the  very  forms  of  challenging  discourse  that universities should cultivate. As recent campus protests over international conflicts demonstrate, students must rely on malleable university policies interpreted by the same administrators who restrict their speech, while faculty  members  enjoy  multiple  layers  of  security  through  tenure  and established legal precedents.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 10,
+      "bbox": {
+        "l": 144.0,
+        "t": 689.173,
+        "r": 471.323,
+        "b": 549.677,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 92.0,
+      "matched": true
+    },
+    {
+      "text": "The establishment  of  institutional  oversight  boards  within  private universities  offers  a  promising  solution  to  this  structural  inequality, serving both institutional and student interests. By creating transparent, principled  processes  for  resolving  speech  disputes,  universities  can demonstrate genuine commitment to academic freedom while maintaining necessary operational control. Unlike social media oversight models, university boards would operate under more favorable conditions with manageable case volumes and clearer contextual standards.  The  success  of  these  reforms  will  ultimately  depend  on institutional willingness to accept meaningful constraints on administrative discretion, recognizing that true commitment to academic freedom requires governance structures that protect student expression rights even when that expression proves uncomfortable or challenging. Universities that embrace such accountability mechanisms will not only protect student academic freedom but also strengthen their educational missions while building more vibrant academic communities.",
+      "original_label": "text",
+      "corrected_label": "body_text",
+      "page_num": 10,
+      "bbox": {
+        "l": 144.0,
+        "t": 546.133,
+        "r": 471.388,
+        "b": 341.597,
+        "coord_origin": "BOTTOMLEFT"
+      },
+      "match_confidence": 97.0,
+      "matched": true
+    }
+  ]
+}

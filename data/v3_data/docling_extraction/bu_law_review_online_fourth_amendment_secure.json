@@ -1,0 +1,2028 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "bu_law_review_online_fourth_amendment_secure",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 16268064986165533383,
+    "filename": "bu_law_review_online_fourth_amendment_secure.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 166.366,
+            "t": 666.258,
+            "r": 449.045,
+            "b": 642.228,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE IN THEIR PERSONS'? †",
+      "text": "CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE IN THEIR PERSONS'? †",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 265.791,
+            "t": 625.722,
+            "r": 346.6,
+            "b": 616.3,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "B RUCE A. G REEN *",
+      "text": "B RUCE A. G REEN *",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 576.985,
+            "r": 475.916,
+            "b": 400.3,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1182
+          ]
+        }
+      ],
+      "orig": "In  her  Article, Something  Rots  in  Law  Enforcement  and  It's  the  Search Warrant: The Breonna Taylor Case , 1 Professor  Blanche  Bong  Cook,  a  legal scholar and former prosecutor, digs deeply into the events leading to Breonna Taylor's  death  at  the  hands  of  the  Louisville  Metro  Police  Department ('LMPD'). Cook shows that the central factual premise for searching Taylor's apartment for her ex-boyfriend's drugs-namely, that the ex-boyfriend received packages there-was almost certainly a lie; 2 that even with that lie, the judge should not have found probable cause to believe that drugs would be found in Taylor's apartment; 3 that the judge also had no legitimate grounds to authorize the police to force their way into Taylor's residence without first knocking and announcing  themselves; 4 and  that the  subsequent  police  account  of  the circumstances  of  their  invasion  of  Taylor's  residence  was  almost  certainly another lie, facilitated both by their failure to wear cameras or to turn them on at the time of the search, and by the later opportunity-conventionally afforded the police-to get their lies straight before answering questions. 5",
+      "text": "In  her  Article, Something  Rots  in  Law  Enforcement  and  It's  the  Search Warrant: The Breonna Taylor Case , 1 Professor  Blanche  Bong  Cook,  a  legal scholar and former prosecutor, digs deeply into the events leading to Breonna Taylor's  death  at  the  hands  of  the  Louisville  Metro  Police  Department ('LMPD'). Cook shows that the central factual premise for searching Taylor's apartment for her ex-boyfriend's drugs-namely, that the ex-boyfriend received packages there-was almost certainly a lie; 2 that even with that lie, the judge should not have found probable cause to believe that drugs would be found in Taylor's apartment; 3 that the judge also had no legitimate grounds to authorize the police to force their way into Taylor's residence without first knocking and announcing  themselves; 4 and  that the  subsequent  police  account  of  the circumstances  of  their  invasion  of  Taylor's  residence  was  almost  certainly another lie, facilitated both by their failure to wear cameras or to turn them on at the time of the search, and by the later opportunity-conventionally afforded the police-to get their lies straight before answering questions. 5"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 396.985,
+            "r": 475.875,
+            "b": 352.3,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            313
+          ]
+        }
+      ],
+      "orig": "This  is  the  unusual  case  of  police  misconduct  where  some  measure  of accountability followed. In September 2020, the City of Louisville agreed to compensate  Taylor's  family  and  to  make  policing  reforms,  albeit  without acknowleding wrongdoing. 6 And in August 2022, a federal grand jury indicted",
+      "text": "This  is  the  unusual  case  of  police  misconduct  where  some  measure  of accountability followed. In September 2020, the City of Louisville agreed to compensate  Taylor's  family  and  to  make  policing  reforms,  albeit  without acknowleding wrongdoing. 6 And in August 2022, a federal grand jury indicted"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 293.406,
+            "r": 475.522,
+            "b": 274.05099999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "† An invited response to Blanche Bong Cook, Something Rots in Law Enforcement and It's the Search Warrant: The Breonna Taylor Case , 102 B.U. L. R EV . 1 (2022).",
+      "text": "† An invited response to Blanche Bong Cook, Something Rots in Law Enforcement and It's the Search Warrant: The Breonna Taylor Case , 102 B.U. L. R EV . 1 (2022)."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 270.606,
+            "r": 475.513,
+            "b": 251.01099999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "* Louis Stein Chair of Law, Fordham University School of Law; Director, Stein Center for Law and Ethics, Fordham University.",
+      "text": "* Louis Stein Chair of Law, Fordham University School of Law; Director, Stein Center for Law and Ethics, Fordham University."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 247.56600000000003,
+            "r": 475.459,
+            "b": 227.971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            138
+          ]
+        }
+      ],
+      "orig": "1 Blanche Bong Cook, Something Rots in Law Enforcement and It's the Search Warrant: The Breonna Taylor Case , 102 B.U. L. R EV . 1 (2022).",
+      "text": "1 Blanche Bong Cook, Something Rots in Law Enforcement and It's the Search Warrant: The Breonna Taylor Case , 102 B.U. L. R EV . 1 (2022)."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.286,
+            "t": 224.52600000000007,
+            "r": 291.848,
+            "b": 215.971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "2 Cook, supra note 1, at 17-18, 25-29.",
+      "text": "2 Cook, supra note 1, at 17-18, 25-29."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.286,
+            "t": 212.52600000000007,
+            "r": 202.595,
+            "b": 203.971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "3 Id. at 29-44.",
+      "text": "3 Id. at 29-44."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.286,
+            "t": 200.52600000000007,
+            "r": 204.845,
+            "b": 191.971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "4 Id. at 50-52.",
+      "text": "4 Id. at 50-52."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.286,
+            "t": 188.52600000000007,
+            "r": 228.092,
+            "b": 179.971,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "5 Id. at 52-54, 62-66.",
+      "text": "5 Id. at 52-54, 62-66."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.206,
+            "t": 176.52600000000007,
+            "r": 475.486,
+            "b": 134.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            354
+          ]
+        }
+      ],
+      "orig": "6 Andrew Wolfson,  Darcy  Costello  &  Tessa  Duvall, Louisville  Agrees  to  $12  Million Settlement, Police Reforms in Breonna Taylor Lawsuit , C OURIER J. (Jan. 24, 2021, 4:14 PM), https://www.courier-journal.com/story/news/local/breonna-taylor/2020/09/15/breonnataylor-shooting-city-louisville-settles-family/5792731002/ [https://perma.cc/78U6-2HVG].",
+      "text": "6 Andrew Wolfson,  Darcy  Costello  &  Tessa  Duvall, Louisville  Agrees  to  $12  Million Settlement, Police Reforms in Breonna Taylor Lawsuit , C OURIER J. (Jan. 24, 2021, 4:14 PM), https://www.courier-journal.com/story/news/local/breonna-taylor/2020/09/15/breonnataylor-shooting-city-louisville-settles-family/5792731002/ [https://perma.cc/78U6-2HVG]."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 300.956,
+            "t": 127.94499999999994,
+            "r": 311.486,
+            "b": 119.25999999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "92",
+      "text": "92"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 706.825,
+            "r": 445.679,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'",
+      "text": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 462.706,
+            "t": 706.825,
+            "r": 475.846,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "93",
+      "text": "93"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 681.882,
+            "r": 475.86,
+            "b": 564.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            802
+          ]
+        }
+      ],
+      "orig": "four of the police officers who had a role in the killing. 7 But if the results had not been so tragic, resulting in so much public outrage, the police misconduct would probably have been ignored. If Taylor had survived, she would not have filed a suppression motion in a criminal case because there would have been no case  against  her:  the  police  search  found  no  evidence  that  she  did  anything wrong. 8 She would not have brought a civil rights action after the police invaded her apartment  because  qualified  immunity  would  almost  certainly  have protected  the  police  from  liability. 9 It  seems  unlikely  that  the  state  Attorney General would have taken action, 10 or that the police department would itself have disciplined the officers involved or revisited its practices.",
+      "text": "four of the police officers who had a role in the killing. 7 But if the results had not been so tragic, resulting in so much public outrage, the police misconduct would probably have been ignored. If Taylor had survived, she would not have filed a suppression motion in a criminal case because there would have been no case  against  her:  the  police  search  found  no  evidence  that  she  did  anything wrong. 8 She would not have brought a civil rights action after the police invaded her apartment  because  qualified  immunity  would  almost  certainly  have protected  the  police  from  liability. 9 It  seems  unlikely  that  the  state  Attorney General would have taken action, 10 or that the police department would itself have disciplined the officers involved or revisited its practices."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 561.882,
+            "r": 475.857,
+            "b": 420.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            945
+          ]
+        }
+      ],
+      "orig": "Cook levels some blame for Taylor's death on the U.S. Supreme Court, 11 which  gives  with  one  hand  while  taking  with  the  other:  while  its  Fourth Amendment opinions recognize the sanctity of the home, the Court has also eliminated incentives for the police to comply with the constitutional restrictions when homes are searched. Cook takes special aim at Hudson v. Michigan , 12 which held the exclusionary rule inapplicable when police violate the ordinary requirement to knock and announce themselves before forcing their way into a home. 13 One might add that the Court has eviscerated the Fourth Amendment remedies  in  many  more  ways  than  one.  Even  when,  as  in  Taylor's  case,  an inattentive or indifferent judge issues a warrant unsupported by probable cause, the police can ordinarily assume that if they happen to discover evidence, it will be admissible under the so-called 'good-faith exception' to the exclusionary",
+      "text": "Cook levels some blame for Taylor's death on the U.S. Supreme Court, 11 which  gives  with  one  hand  while  taking  with  the  other:  while  its  Fourth Amendment opinions recognize the sanctity of the home, the Court has also eliminated incentives for the police to comply with the constitutional restrictions when homes are searched. Cook takes special aim at Hudson v. Michigan , 12 which held the exclusionary rule inapplicable when police violate the ordinary requirement to knock and announce themselves before forcing their way into a home. 13 One might add that the Court has eviscerated the Fourth Amendment remedies  in  many  more  ways  than  one.  Even  when,  as  in  Taylor's  case,  an inattentive or indifferent judge issues a warrant unsupported by probable cause, the police can ordinarily assume that if they happen to discover evidence, it will be admissible under the so-called 'good-faith exception' to the exclusionary"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 358.446,
+            "r": 475.496,
+            "b": 251.01099999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            833
+          ]
+        }
+      ],
+      "orig": "7 Press  Release,  U.S.  Dep't  of  Just.,  Current  and  Former  Louisville,  Kentucky  Police Officers Charged with Federal Crimes Related to Death of Breonna Taylor (Aug. 4, 2022) (available  at  https://www.justice.gov/opa/pr/current-and-former-louisville-kentucky-policeofficers-charged-federal-crimes-related-death  [https://perma.cc/J4NM-88GZ]).  Previously, the state charged one of the officers, Brett Hankinson, with wantonly endangering Taylor's neighbors by shooting blindly into the building; he was tried and acquitted in March 2022. Steve Almasy, Aaron Cooper & Eric Levenson, Ex-officer Brett Hankison Was Found Not Guilty of Endangering Breonna Taylor's Neighbors in a Botched Raid , CNN (Mar. 4, 2022, 8:41 AM), https://www.cnn.com/2022/03/03/us/brett-hankison-trial-closing/index.html [https://perma.cc/QGE9-MPMF].",
+      "text": "7 Press  Release,  U.S.  Dep't  of  Just.,  Current  and  Former  Louisville,  Kentucky  Police Officers Charged with Federal Crimes Related to Death of Breonna Taylor (Aug. 4, 2022) (available  at  https://www.justice.gov/opa/pr/current-and-former-louisville-kentucky-policeofficers-charged-federal-crimes-related-death  [https://perma.cc/J4NM-88GZ]).  Previously, the state charged one of the officers, Brett Hankinson, with wantonly endangering Taylor's neighbors by shooting blindly into the building; he was tried and acquitted in March 2022. Steve Almasy, Aaron Cooper & Eric Levenson, Ex-officer Brett Hankison Was Found Not Guilty of Endangering Breonna Taylor's Neighbors in a Botched Raid , CNN (Mar. 4, 2022, 8:41 AM), https://www.cnn.com/2022/03/03/us/brett-hankison-trial-closing/index.html [https://perma.cc/QGE9-MPMF]."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.286,
+            "t": 247.56600000000003,
+            "r": 263.846,
+            "b": 239.01099999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "8 Cook, supra note 1, at at 4-5.",
+      "text": "8 Cook, supra note 1, at at 4-5."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.286,
+            "t": 235.56600000000003,
+            "r": 222.094,
+            "b": 227.01099999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "9 See infra note 15.",
+      "text": "9 See infra note 15."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 223.56600000000003,
+            "r": 475.477,
+            "b": 192.93100000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            265
+          ]
+        }
+      ],
+      "orig": "10 As it was, the state brought charges against only one of the police officers; a public protest in Louisville followed. Rukmini Callimachi et al., Fired Officer Is Indicted in Breonna Taylor Case; Protesters Wanted Stronger Charges , N.Y. T IMES , Sept. 23, 2020.",
+      "text": "10 As it was, the state brought charges against only one of the police officers; a public protest in Louisville followed. Rukmini Callimachi et al., Fired Officer Is Indicted in Breonna Taylor Case; Protesters Wanted Stronger Charges , N.Y. T IMES , Sept. 23, 2020."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.206,
+            "t": 189.486,
+            "r": 475.449,
+            "b": 158.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "11 Cook, supra note  1,  at  7  ('A  confluence  of  the  War  on  Drugs,  the  subsequent militarization of policing, and the Supreme Court's gradual erosion of Fourth Amendment protections facilitated Taylor's death.').",
+      "text": "11 Cook, supra note  1,  at  7  ('A  confluence  of  the  War  on  Drugs,  the  subsequent militarization of policing, and the Supreme Court's gradual erosion of Fourth Amendment protections facilitated Taylor's death.')."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.286,
+            "t": 155.40599999999995,
+            "r": 239.975,
+            "b": 146.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "12 547 U.S. 586 (2006).",
+      "text": "12 547 U.S. 586 (2006)."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.286,
+            "t": 143.40599999999995,
+            "r": 359.708,
+            "b": 134.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "13 Id. at 589; see also Cook, supra note 1, at 8, 55-60, 81.",
+      "text": "13 Id. at 589; see also Cook, supra note 1, at 8, 55-60, 81."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 706.825,
+            "r": 149.736,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "94",
+      "text": "94"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 202.126,
+            "t": 706.825,
+            "r": 475.846,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 102:92",
+      "text": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 102:92"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 681.882,
+            "r": 475.867,
+            "b": 612.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            435
+          ]
+        }
+      ],
+      "orig": "rule. 14 Other Supreme Court decisions limit who has standing to challenge illegal searches, 15 so  that  if  evidence  were  discovered  illegally  in  Breonna  Taylor's apartment,  her  ex-boyfriend,  who  was  not  present,  could  not  challenge  the unlawful entry or search. Of course, police would have little reason to fear a lawsuit, given the Court's exaltation of police officers' qualified immunity from civil liability. 16",
+      "text": "rule. 14 Other Supreme Court decisions limit who has standing to challenge illegal searches, 15 so  that  if  evidence  were  discovered  illegally  in  Breonna  Taylor's apartment,  her  ex-boyfriend,  who  was  not  present,  could  not  challenge  the unlawful entry or search. Of course, police would have little reason to fear a lawsuit, given the Court's exaltation of police officers' qualified immunity from civil liability. 16"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 609.145,
+            "r": 475.87,
+            "b": 540.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            412
+          ]
+        }
+      ],
+      "orig": "Cook  is  right  that  the  remedies  for  Fourth  Amendment  violations  are inadequate, neither deterring wrongful searches and seizures nor compensating for them. But the larger story she tells also illustrates that in the Court's hands, the right itself has been interpreted too ungenerously. The problem is not just with  the  Fourth  Amendment  right  to  be  secure  in  one's  home,  which  Cook targets.",
+      "text": "Cook  is  right  that  the  remedies  for  Fourth  Amendment  violations  are inadequate, neither deterring wrongful searches and seizures nor compensating for them. But the larger story she tells also illustrates that in the Court's hands, the right itself has been interpreted too ungenerously. The problem is not just with  the  Fourth  Amendment  right  to  be  secure  in  one's  home,  which  Cook targets."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 537.145,
+            "r": 475.911,
+            "b": 432.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            729
+          ]
+        }
+      ],
+      "orig": "The Fourth Amendment also promises people '[t]he right . . . to be secure in their  persons . . . against  unreasonable  searches  and  seizures.' 17 The  Court's decisions, even if complied with, would not make people of color 'secure in their persons.' Noting that '[b]eing killed by police is a leading cause of death among young men of color,' 18 Cook recounts a history of police violence that inflicts  a  cultural  trauma  on  the  Black  community. 19 This  history  makes  it reasonable for people of color to fear any encounter with the police, and certainly one  involving  a  stop,  arrest,  or  search.  That  is  why  Black  children  are customarily given 'The Talk' about what to do when stopped by the police. 20",
+      "text": "The Fourth Amendment also promises people '[t]he right . . . to be secure in their  persons . . . against  unreasonable  searches  and  seizures.' 17 The  Court's decisions, even if complied with, would not make people of color 'secure in their persons.' Noting that '[b]eing killed by police is a leading cause of death among young men of color,' 18 Cook recounts a history of police violence that inflicts  a  cultural  trauma  on  the  Black  community. 19 This  history  makes  it reasonable for people of color to fear any encounter with the police, and certainly one  involving  a  stop,  arrest,  or  search.  That  is  why  Black  children  are customarily given 'The Talk' about what to do when stopped by the police. 20"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 403.086,
+            "r": 475.485,
+            "b": 372.451,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "14 See, e.g. , United States v. Leon, 468 U.S. 897, 913 (1984). Cook maintains that Taylor's case was the unusual one where the search warrant application was so woefully deficient that the police could not have relied in good faith on the warrant. Cook, supra note 1, at 45-47.",
+      "text": "14 See, e.g. , United States v. Leon, 468 U.S. 897, 913 (1984). Cook maintains that Taylor's case was the unusual one where the search warrant application was so woefully deficient that the police could not have relied in good faith on the warrant. Cook, supra note 1, at 45-47."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 369.006,
+            "r": 475.483,
+            "b": 349.411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "15 See, e.g. , Minnesota v. Carter, 525 U.S. 83, 91 (1998) (holding that a temporary guest in an apartment does not have standing to challenge a search of the apartment).",
+      "text": "15 See, e.g. , Minnesota v. Carter, 525 U.S. 83, 91 (1998) (holding that a temporary guest in an apartment does not have standing to challenge a search of the apartment)."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 345.966,
+            "r": 475.536,
+            "b": 205.41100000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1115
+          ]
+        }
+      ],
+      "orig": "16 The Court has produced a long line of decisions recognizing that police and other law enforcement  officers  are  immune  from  civil  liability  for  alleged  Fourth  Amendment violations, especially those involving excessive force, except in extremely limited circumstances. See  generally,  e.g. ,  City  of  Escondido  v.  Emmons,  139  S.  Ct.  500  (2019) (upholding officers' qualified immunity in excessive force case); Mullenix v. Luna, 577 U.S. 7 (2015) (upholding officer's qualified immunity for shooting fleeing fugitive); Plumhoff v. Rickard, 572 U.S. 765 (2014) (upholding officers' qualified immunity for shooting driver of fleeing car); Scott v. Harris, 550 U.S. 372 (2007) (holding deputy immune from liability for excessive use of force in forcing driver off road during chase); Osagie K. Obasogie & Anna Zaret, Plainly Incompetent: How Qualified Immunity Became an Exculpatory Doctrine of Police Excessive Force ,  170  U. P A . L. R EV .  407  (2022) (tracing development of qualified immunity doctrine in cases where police allegedly violated the Fourth Amendment by using excessive force).",
+      "text": "16 The Court has produced a long line of decisions recognizing that police and other law enforcement  officers  are  immune  from  civil  liability  for  alleged  Fourth  Amendment violations, especially those involving excessive force, except in extremely limited circumstances. See  generally,  e.g. ,  City  of  Escondido  v.  Emmons,  139  S.  Ct.  500  (2019) (upholding officers' qualified immunity in excessive force case); Mullenix v. Luna, 577 U.S. 7 (2015) (upholding officer's qualified immunity for shooting fleeing fugitive); Plumhoff v. Rickard, 572 U.S. 765 (2014) (upholding officers' qualified immunity for shooting driver of fleeing car); Scott v. Harris, 550 U.S. 372 (2007) (holding deputy immune from liability for excessive use of force in forcing driver off road during chase); Osagie K. Obasogie & Anna Zaret, Plainly Incompetent: How Qualified Immunity Became an Exculpatory Doctrine of Police Excessive Force ,  170  U. P A . L. R EV .  407  (2022) (tracing development of qualified immunity doctrine in cases where police allegedly violated the Fourth Amendment by using excessive force)."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.286,
+            "t": 202.284,
+            "r": 248.979,
+            "b": 193.41100000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "17 U.S. C ONST . amend. IV.",
+      "text": "17 U.S. C ONST . amend. IV."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.286,
+            "t": 189.966,
+            "r": 255.224,
+            "b": 181.41100000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "18 Cook, supra note 1, at 73.",
+      "text": "18 Cook, supra note 1, at 73."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.286,
+            "t": 177.966,
+            "r": 205.715,
+            "b": 169.41100000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "19 Id. at 66-78.",
+      "text": "19 Id. at 66-78."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.206,
+            "t": 165.966,
+            "r": 475.486,
+            "b": 146.37099999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "20 See Angela Onwuachi-Willig & Anthony V. Alfieri, (Re)Framing Race in Civil Rights Lawyering ,  130 Y ALE L.J. 2052, 2058 (2021) (reviewing H ENRY L OUIS G ATES , J R ., S TONY",
+      "text": "20 See Angela Onwuachi-Willig & Anthony V. Alfieri, (Re)Framing Race in Civil Rights Lawyering ,  130 Y ALE L.J. 2052, 2058 (2021) (reviewing H ENRY L OUIS G ATES , J R ., S TONY"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 706.825,
+            "r": 445.679,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'",
+      "text": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 462.706,
+            "t": 706.825,
+            "r": 475.846,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "95",
+      "text": "95"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 681.145,
+            "r": 475.995,
+            "b": 540.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            900
+          ]
+        }
+      ],
+      "orig": "Can anyone believe that people of color confronted by the police will feel secure in their persons as long as the police stay within the confines of the Fourth Amendment case law-for example, that people of color will not fear for their safety as long as the use of special weapons and tactics ('SWAT') teams and other militarized police action abides by the Court's decisions? Suppose that the LMPD officers, this time having a valid warrant in hand, announced themselves moments before breaking down Taylor's door. The police would probably have set  off  precisely  the  same  explosion  of  violence:  someone  inside  Taylor's apartment fires a gun kept for self-defense, as may predictably occur after the Court held in District of Columbia v. Heller 21 that individuals have a Second Amendment right to bear arms. 22 Then responding to the danger that the police created, the police fire back.",
+      "text": "Can anyone believe that people of color confronted by the police will feel secure in their persons as long as the police stay within the confines of the Fourth Amendment case law-for example, that people of color will not fear for their safety as long as the use of special weapons and tactics ('SWAT') teams and other militarized police action abides by the Court's decisions? Suppose that the LMPD officers, this time having a valid warrant in hand, announced themselves moments before breaking down Taylor's door. The police would probably have set  off  precisely  the  same  explosion  of  violence:  someone  inside  Taylor's apartment fires a gun kept for self-defense, as may predictably occur after the Court held in District of Columbia v. Heller 21 that individuals have a Second Amendment right to bear arms. 22 Then responding to the danger that the police created, the police fire back."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 537.145,
+            "r": 475.958,
+            "b": 396.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            952
+          ]
+        }
+      ],
+      "orig": "One does not have to be a critical race theorist-and I am not-to think that the  Fourth  Amendment,  by  its  terms,  must  be  read  to  take  into  account  the history of racially motivated police violence against people of color. Accounting for this history, a robust Fourth Amendment jurisprudence would protect the right of all members of the political community, including people of color, to be 'secure  in  their  persons'  by  restraining  the  police  so  that  police  conducting searches  and  seizures  would  not  unreasonably  put  people  in  fear  for  their personal safety. Doing this work reasonably means reducing risks and threats of physical harm, not escalating them. For example, even if the LMPD officers had grounds to search Taylor's apartment for drugs, it would have been unreasonable to do so at night, when the police could have known she was home and likely in bed, rather than earlier in the day when she was at work.",
+      "text": "One does not have to be a critical race theorist-and I am not-to think that the  Fourth  Amendment,  by  its  terms,  must  be  read  to  take  into  account  the history of racially motivated police violence against people of color. Accounting for this history, a robust Fourth Amendment jurisprudence would protect the right of all members of the political community, including people of color, to be 'secure  in  their  persons'  by  restraining  the  police  so  that  police  conducting searches  and  seizures  would  not  unreasonably  put  people  in  fear  for  their personal safety. Doing this work reasonably means reducing risks and threats of physical harm, not escalating them. For example, even if the LMPD officers had grounds to search Taylor's apartment for drugs, it would have been unreasonable to do so at night, when the police could have known she was home and likely in bed, rather than earlier in the day when she was at work."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 393.145,
+            "r": 475.977,
+            "b": 348.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            327
+          ]
+        }
+      ],
+      "orig": "The public should breathe life into the Fourth Amendment by insisting that states acknowledge and respect '[t]he right of the people to be secure in their persons' as a collective right of all the people all of the time, not just as a right for  individuals  occasionally  to  invoke  in  court. 23 The  Court's  constitutional",
+      "text": "The public should breathe life into the Fourth Amendment by insisting that states acknowledge and respect '[t]he right of the people to be secure in their persons' as a collective right of all the people all of the time, not just as a right for  individuals  occasionally  to  invoke  in  court. 23 The  Court's  constitutional"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 321.872,
+            "r": 475.498,
+            "b": 281.491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            336
+          ]
+        }
+      ],
+      "orig": "THE R OAD : R ECONSTRUCTION , W HITE S UPREMACY , AND  THE R ISE  OF J IM C ROW (2019)) (describing 'The Talk' as 'an intergenerational script of advice and warnings by black parents and nonblack parents of black children that is designed to prepare black kids for surviving the police stops they will encounter in our racist society').",
+      "text": "THE R OAD : R ECONSTRUCTION , W HITE S UPREMACY , AND  THE R ISE  OF J IM C ROW (2019)) (describing 'The Talk' as 'an intergenerational script of advice and warnings by black parents and nonblack parents of black children that is designed to prepare black kids for surviving the police stops they will encounter in our racist society')."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.286,
+            "t": 278.04600000000005,
+            "r": 237.725,
+            "b": 269.491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "21 554 U.S. 570 (2008).",
+      "text": "21 554 U.S. 570 (2008)."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.286,
+            "t": 266.04600000000005,
+            "r": 198.218,
+            "b": 257.491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "22 Id. at 635.",
+      "text": "22 Id. at 635."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.206,
+            "t": 254.04600000000005,
+            "r": 475.65,
+            "b": 146.37099999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            925
+          ]
+        }
+      ],
+      "orig": "23 In referring to the Fourth Amendment as a collective right, I do not mean to suggest that it would be reasonable to limit individuals' Fourth Amendment rights to protect the public's collective security. By way of comparison, see Thomas K. Clancy, The Fourth Amendment as a Collective Right , 43 T EX . T ECH L. R EV . 255, 256 (2010). On the contrary, I argue for an expansive (if not wholly judicially unenforceable) reading of the right-one that restrains unreasonable police conduct that threatens the personal security of members of the political community collectively, not just the personal security of any particular individual. I am also not arguing here that the concept of the Fourth Amendment as a collective right would justify one person in seeking a remedy for the violation of another's rights. By way of comparison, see Donald L. Doernberg, 'The Right of the People': Reconciling Collective and Individual",
+      "text": "23 In referring to the Fourth Amendment as a collective right, I do not mean to suggest that it would be reasonable to limit individuals' Fourth Amendment rights to protect the public's collective security. By way of comparison, see Thomas K. Clancy, The Fourth Amendment as a Collective Right , 43 T EX . T ECH L. R EV . 255, 256 (2010). On the contrary, I argue for an expansive (if not wholly judicially unenforceable) reading of the right-one that restrains unreasonable police conduct that threatens the personal security of members of the political community collectively, not just the personal security of any particular individual. I am also not arguing here that the concept of the Fourth Amendment as a collective right would justify one person in seeking a remedy for the violation of another's rights. By way of comparison, see Donald L. Doernberg, 'The Right of the People': Reconciling Collective and Individual"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 706.825,
+            "r": 149.736,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "96",
+      "text": "96"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 202.126,
+            "t": 706.825,
+            "r": 408.926,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "BOSTON UNIVERSITY LAW REVIEW ONLINE",
+      "text": "BOSTON UNIVERSITY LAW REVIEW ONLINE"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 419.542,
+            "t": 706.825,
+            "r": 475.846,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "[Vol. 102:92",
+      "text": "[Vol. 102:92"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 681.145,
+            "r": 475.922,
+            "b": 588.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            653
+          ]
+        }
+      ],
+      "orig": "jurisprudence rarely offers a way to hold police accountable for practices that make  broad  swaths  of  the  population,  and  particularly  people  of  color,  feel personally insecure-for example, baseless and pretextual stops of pedestrians and drivers, or the use of military weaponry and other excessive force in making arrests and conducting searches. Recurring reports of racially motivated policing that  people  find  traumatic  are  surely  just  the  tip  of  the  iceberg. 24 There  is  a constitutional imperative for states to restrain police conduct that unreasonably erodes people's collective, as well as individual, sense of security.",
+      "text": "jurisprudence rarely offers a way to hold police accountable for practices that make  broad  swaths  of  the  population,  and  particularly  people  of  color,  feel personally insecure-for example, baseless and pretextual stops of pedestrians and drivers, or the use of military weaponry and other excessive force in making arrests and conducting searches. Recurring reports of racially motivated policing that  people  find  traumatic  are  surely  just  the  tip  of  the  iceberg. 24 There  is  a constitutional imperative for states to restrain police conduct that unreasonably erodes people's collective, as well as individual, sense of security."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 585.145,
+            "r": 475.937,
+            "b": 456.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            821
+          ]
+        }
+      ],
+      "orig": "Concern for people's collective security may justify a broader interpretation of  individuals'  enforceable  rights  under  the  Fourth  Amendment. 25 But  when talking  about  policing,  it  is  fair  to  call  out  unreasonably  threatening  police practices as Fourth Amendment violations, regardless of whether the Supreme Court acknowledges individual rights and remedies. Not all constitutional rights are  individual  and  not  all  are  justiciable.  The  Constitution  may  establish nonjusticiable collective rights (as the Second Amendment was thought to do preHeller )  no  less  than  judicially  enforceable  individual  rights.  The  Fourth Amendment does establish individual rights, but it may also establish a more demanding right of the people collectively, which the public should insist be respected.",
+      "text": "Concern for people's collective security may justify a broader interpretation of  individuals'  enforceable  rights  under  the  Fourth  Amendment. 25 But  when talking  about  policing,  it  is  fair  to  call  out  unreasonably  threatening  police practices as Fourth Amendment violations, regardless of whether the Supreme Court acknowledges individual rights and remedies. Not all constitutional rights are  individual  and  not  all  are  justiciable.  The  Constitution  may  establish nonjusticiable collective rights (as the Second Amendment was thought to do preHeller )  no  less  than  judicially  enforceable  individual  rights.  The  Fourth Amendment does establish individual rights, but it may also establish a more demanding right of the people collectively, which the public should insist be respected."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 453.145,
+            "r": 475.9,
+            "b": 312.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            913
+          ]
+        }
+      ],
+      "orig": "An extrajudicial constitutional jurisprudence on the people's collective right to be 'secure in their persons . . . against unreasonable searches and seizures' does not depend on a radical interpretative approach. On the contrary, a Fourth Amendment jurisprudence saying that the police may not create an unreasonable risk or threat of physical harm to others would be true to the words of the Fourth Amendment.  Freedom  from  the  apprehension  of  harm  to  one's  person  is precisely what the Fourth Amendment promises us as a people. And to the extent that one looks to common law understandings for guidance, they reinforce this expectation. The common law tort of assault was meant, in general, to protect people against threats to personal safety, even if nineteenth-century common law courts  could  not  have  contemplated  precisely  how  the  police  would  one  day make people fear for their lives.",
+      "text": "An extrajudicial constitutional jurisprudence on the people's collective right to be 'secure in their persons . . . against unreasonable searches and seizures' does not depend on a radical interpretative approach. On the contrary, a Fourth Amendment jurisprudence saying that the police may not create an unreasonable risk or threat of physical harm to others would be true to the words of the Fourth Amendment.  Freedom  from  the  apprehension  of  harm  to  one's  person  is precisely what the Fourth Amendment promises us as a people. And to the extent that one looks to common law understandings for guidance, they reinforce this expectation. The common law tort of assault was meant, in general, to protect people against threats to personal safety, even if nineteenth-century common law courts  could  not  have  contemplated  precisely  how  the  police  would  one  day make people fear for their lives."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 309.145,
+            "r": 475.909,
+            "b": 252.46000000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            395
+          ]
+        }
+      ],
+      "orig": "A public conversation about minority communities' rights to be protected, not put in fear, by the police, might help loosen the Court's grip on the meaning of the  Fourth Amendment. It is important to move the conversation outside the Court  because  some  or  most  of  its  current  members  envision  the  Fourth Amendment as less of an antimajoritarian right of vulnerable people to personal",
+      "text": "A public conversation about minority communities' rights to be protected, not put in fear, by the police, might help loosen the Court's grip on the meaning of the  Fourth Amendment. It is important to move the conversation outside the Court  because  some  or  most  of  its  current  members  envision  the  Fourth Amendment as less of an antimajoritarian right of vulnerable people to personal"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 221.55200000000002,
+            "r": 476.472,
+            "b": 203.01099999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            186
+          ]
+        }
+      ],
+      "orig": "Interests Under the Fourth Amendment , 58 N.Y.U. L. R EV . 259, 261 (2008), and David Gray, Collective Standing Under the Fourth Amendment , 55 A M . C RIM . L. R EV . 77, 97-103 (2018).",
+      "text": "Interests Under the Fourth Amendment , 58 N.Y.U. L. R EV . 259, 261 (2008), and David Gray, Collective Standing Under the Fourth Amendment , 55 A M . C RIM . L. R EV . 77, 97-103 (2018)."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 199.56600000000003,
+            "r": 475.487,
+            "b": 168.93100000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            267
+          ]
+        }
+      ],
+      "orig": "24 See, e.g. , Kurt Streeter, Trauma Brought By a Traffic Stop May Never Fade , N.Y. T IMES , May 14, 2022, at B8 (recounting Georgia sheriff's deputies' stop of bus of mostly Black college lacrosse players in 2022 and the author's similar experiences years earlier).",
+      "text": "24 See, e.g. , Kurt Streeter, Trauma Brought By a Traffic Stop May Never Fade , N.Y. T IMES , May 14, 2022, at B8 (recounting Georgia sheriff's deputies' stop of bus of mostly Black college lacrosse players in 2022 and the author's similar experiences years earlier)."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.206,
+            "t": 165.486,
+            "r": 475.476,
+            "b": 134.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "25 See, e.g. , David Gray, Collective Rights and the Fourth Amendment After Carpenter, 79 M D . L. R EV . 66, 66-67 (2019); Richard H. McAdams, Note, Tying Privacy in Knotts : Beeper Monitoring and Collective Fourth Amendment Rights , 71 V A . L. R EV . 297, 340-41 (1985).",
+      "text": "25 See, e.g. , David Gray, Collective Rights and the Fourth Amendment After Carpenter, 79 M D . L. R EV . 66, 66-67 (2019); Richard H. McAdams, Note, Tying Privacy in Knotts : Beeper Monitoring and Collective Fourth Amendment Rights , 71 V A . L. R EV . 297, 340-41 (1985)."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.206,
+            "t": 706.825,
+            "r": 445.679,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'",
+      "text": "2022] CAN THE FOURTH AMENDMENT KEEP PEOPLE 'SECURE'"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 462.706,
+            "t": 706.825,
+            "r": 475.846,
+            "b": 698.14,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "97",
+      "text": "97"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.206,
+            "t": 681.145,
+            "r": 475.937,
+            "b": 528.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1053
+          ]
+        }
+      ],
+      "orig": "security and more of a landowner's property right that protects against physical trespasses, much as the Takings Clause protects against outright confiscations. For example, with seemingly low regard for individuals' interests in personal security,  Justice  Gorsuch  joined  a  5-4  decision  holding  that  the  parents  of  a fifteen-year-old Mexican child gunned down by a Border Patrol agent could not seek compensation, 26 and wrote a dissent asserting that the Fourth Amendment allowed officers to fire thirteen shots at a driver (who thought she was escaping carjackers),  hitting  her  twice  in  the  back,  because  she  was  still  able  to  keep driving  (trying  to  get  herself  to  a  hospital)  and  therefore  she  was  never 'seized.' 27 But on the other hand, in a case the Court decided not to review, Justice Gorsuch lamented that game wardens approaching a rural residence to ask the owners about illegal deer hunting may have stayed too long or strayed too far from the path to the front door to satisfy an earlier precedent. 28",
+      "text": "security and more of a landowner's property right that protects against physical trespasses, much as the Takings Clause protects against outright confiscations. For example, with seemingly low regard for individuals' interests in personal security,  Justice  Gorsuch  joined  a  5-4  decision  holding  that  the  parents  of  a fifteen-year-old Mexican child gunned down by a Border Patrol agent could not seek compensation, 26 and wrote a dissent asserting that the Fourth Amendment allowed officers to fire thirteen shots at a driver (who thought she was escaping carjackers),  hitting  her  twice  in  the  back,  because  she  was  still  able  to  keep driving  (trying  to  get  herself  to  a  hospital)  and  therefore  she  was  never 'seized.' 27 But on the other hand, in a case the Court decided not to review, Justice Gorsuch lamented that game wardens approaching a rural residence to ask the owners about illegal deer hunting may have stayed too long or strayed too far from the path to the front door to satisfy an earlier precedent. 28"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.206,
+            "t": 525.145,
+            "r": 475.932,
+            "b": 360.46,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1129
+          ]
+        }
+      ],
+      "orig": "The  Justices'  predispositions  are  unlikely  to  change  any  time  soon,  but legislative change is possible. The silver lining in Cook's account is that in the aftermath  of  Taylor's  death,  Louisville  passed  Breonna's  Law,  and  other jurisdictions proposed similar laws, to regulate how the police execute searches, including by banning  no-knock  warrants. 29 That is  a  measure  of  how recognizably  awful  the  police  conduct  was  in  Breonna  Taylor's  case.  Cook advocates further reforms, not all requiring legislation, to redress the inadequacies of Fourth Amendment case law. 30 That may be an uphill battle, because  Bill  of  Rights  provisions  such  as  the  Fourth  Amendment  protect minority  rights  precisely  because  minorities  lack  equal  power  at  the  voting booth. 31 But it is a battle worth fighting, and perhaps it will be aided by a robust public  understanding  of  the  Fourth  Amendment  that  differs  from  the  current Court's understanding-one that takes a more generous view of peoples' right 'to be secure in their persons . . . against unreasonable searches and seizures.'",
+      "text": "The  Justices'  predispositions  are  unlikely  to  change  any  time  soon,  but legislative change is possible. The silver lining in Cook's account is that in the aftermath  of  Taylor's  death,  Louisville  passed  Breonna's  Law,  and  other jurisdictions proposed similar laws, to regulate how the police execute searches, including by banning  no-knock  warrants. 29 That is  a  measure  of  how recognizably  awful  the  police  conduct  was  in  Breonna  Taylor's  case.  Cook advocates further reforms, not all requiring legislation, to redress the inadequacies of Fourth Amendment case law. 30 That may be an uphill battle, because  Bill  of  Rights  provisions  such  as  the  Fourth  Amendment  protect minority  rights  precisely  because  minorities  lack  equal  power  at  the  voting booth. 31 But it is a battle worth fighting, and perhaps it will be aided by a robust public  understanding  of  the  Fourth  Amendment  that  differs  from  the  current Court's understanding-one that takes a more generous view of peoples' right 'to be secure in their persons . . . against unreasonable searches and seizures.'"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.286,
+            "t": 269.40599999999995,
+            "r": 366.445,
+            "b": 260.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "26 Hernandez v. Mesa, 140 S. Ct. 735, 740, 749-50 (2020).",
+      "text": "26 Hernandez v. Mesa, 140 S. Ct. 735, 740, 749-50 (2020)."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.286,
+            "t": 257.40599999999995,
+            "r": 422.453,
+            "b": 248.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "27 Torres v. Madrid, 141 S. Ct. 989, 1003 (2021) (Gorsuch, J., dissenting).",
+      "text": "27 Torres v. Madrid, 141 S. Ct. 989, 1003 (2021) (Gorsuch, J., dissenting)."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.206,
+            "t": 245.40599999999995,
+            "r": 475.497,
+            "b": 226.05099999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "28 Bovat v. Vermont, 141 S. Ct. 22, 22-23 (2020) (Gorsuch, J., respecting the denial of certiorari).",
+      "text": "28 Bovat v. Vermont, 141 S. Ct. 22, 22-23 (2020) (Gorsuch, J., respecting the denial of certiorari)."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.286,
+            "t": 222.606,
+            "r": 269.471,
+            "b": 214.05099999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "29 Cook, supra note 1, at 63-64.",
+      "text": "29 Cook, supra note 1, at 63-64."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.286,
+            "t": 210.606,
+            "r": 207.965,
+            "b": 202.05099999999993,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "30 Id. at 78-85.",
+      "text": "30 Id. at 78-85."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.206,
+            "t": 198.606,
+            "r": 475.476,
+            "b": 134.851,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            492
+          ]
+        }
+      ],
+      "orig": "31 Perhaps legislation is less challenging to achieve when it aims to restrain police conduct targeting everyone relatively equally. For example, most people carry cell phones and use computers and have a stake in keeping their data private, so one might expect legislation to adequately protect people from unreasonable searches of electronic data. But much of the police conduct threatening people's individual and collective sense of security targets people with the least political clout.",
+      "text": "31 Perhaps legislation is less challenging to achieve when it aims to restrain police conduct targeting everyone relatively equally. For example, most people carry cell phones and use computers and have a stake in keeping their data private, so one might expect legislation to adequately protect people from unreasonable searches of electronic data. But much of the police conduct threatening people's individual and collective sense of security targets people with the least political clout."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    }
+  }
+}

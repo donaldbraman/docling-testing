@@ -1,0 +1,226 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "wisconsin_law_review_marriage_equality_comes_to_wisconsin",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 3738887532081236345,
+    "filename": "wisconsin_law_review_marriage_equality_comes_to_wisconsin.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/tables/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 142.85276794433594,
+            "t": 605.9994049072266,
+            "r": 468.1809997558594,
+            "b": 466.79925537109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [],
+        "num_rows": 0,
+        "num_cols": 0,
+        "grid": []
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 10
+    },
+    "11": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 11
+    },
+    "12": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 12
+    },
+    "13": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 13
+    },
+    "14": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 14
+    },
+    "15": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 15
+    },
+    "16": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 16
+    },
+    "17": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 17
+    },
+    "18": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 18
+    },
+    "19": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 19
+    },
+    "20": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 20
+    },
+    "21": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 21
+    },
+    "22": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 22
+    }
+  }
+}

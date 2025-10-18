@@ -1,0 +1,3756 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "bu_law_review_online_reasonable_yet_suspicious",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5832180782911461777,
+    "filename": "bu_law_review_online_reasonable_yet_suspicious.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.08,
+            "t": 666.574,
+            "r": 468.95,
+            "b": 628.481,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "REASONABLE, YET SUSPICIOUS: THE MARYLAND SUPREME COURT WRESTLES WITH THE PARADOX OF FLIGHT FROM POLICE",
+      "text": "REASONABLE, YET SUSPICIOUS: THE MARYLAND SUPREME COURT WRESTLES WITH THE PARADOX OF FLIGHT FROM POLICE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 247.1,
+            "t": 612.051,
+            "r": 364.9,
+            "b": 602.477,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "ALIZA HOCHMAN BLOOM ",
+      "text": "ALIZA HOCHMAN BLOOM ",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 273.63,
+            "t": 563.447,
+            "r": 341.275,
+            "b": 554.406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "INTRODUCTION",
+      "text": "INTRODUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 547.447,
+            "r": 475.825,
+            "b": 418.366,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            876
+          ]
+        }
+      ],
+      "orig": "Around  noon  on  July  9,  2020,  Mr.  Tyrie  Washington  and  a  friend  were standing in an alley in Northwest Baltimore. Upon seeing an approaching police car, they ran away. 1  Mr. Washington maintained that he feared for his safety given  the  tenuous  relationship  between  police  and  Black  men,  which  in Baltimore had proven explosive after the 2015 police killing of Freddie Gray. 2 Thus, he insisted that his reasonable, fear-based flight from police should not contribute to the 'reasonable suspicion' required for those officers to stop and search  him. 3   In  December,  the  Maryland  Supreme  Court 4   conceded  that  Mr. Washington's flight from police was a reasonable reaction amid public instances of  police  violence  against  young  Black  men,  especially  in  Baltimore,  and empirical evidence of racialized policing. 5 While engaging with Mr.",
+      "text": "Around  noon  on  July  9,  2020,  Mr.  Tyrie  Washington  and  a  friend  were standing in an alley in Northwest Baltimore. Upon seeing an approaching police car, they ran away. 1  Mr. Washington maintained that he feared for his safety given  the  tenuous  relationship  between  police  and  Black  men,  which  in Baltimore had proven explosive after the 2015 police killing of Freddie Gray. 2 Thus, he insisted that his reasonable, fear-based flight from police should not contribute to the 'reasonable suspicion' required for those officers to stop and search  him. 3   In  December,  the  Maryland  Supreme  Court 4   conceded  that  Mr. Washington's flight from police was a reasonable reaction amid public instances of  police  violence  against  young  Black  men,  especially  in  Baltimore,  and empirical evidence of racialized policing. 5 While engaging with Mr."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 397.788,
+            "r": 475.39,
+            "b": 368.618,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": " Assistant Professor of Law, Northeastern University School of Law; J.D., Columbia Law School;  B.A.,  Yale  University.  Many  thanks  to  student  editors  Julie  Antonellis  and Prasanna Rajasekaran for their outstanding editorial support.",
+      "text": " Assistant Professor of Law, Northeastern University School of Law; J.D., Columbia Law School;  B.A.,  Yale  University.  Many  thanks  to  student  editors  Julie  Antonellis  and Prasanna Rajasekaran for their outstanding editorial support."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 365.788,
+            "r": 475.429,
+            "b": 326.086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            332
+          ]
+        }
+      ],
+      "orig": "1 Washington v. Maryland, 287 A.3d 301, 308 (Md. 2022). Detective Noesi ' testified that he was assigned to the Northwest District Action Team, ' a narcotics team ' whose ' main focus is  pretty  much  driving  around  hot  areas . . . ,  high-crime  areas  and  enforc[ing]  drug distribution and handgun violations. '' Id. at 310.",
+      "text": "1 Washington v. Maryland, 287 A.3d 301, 308 (Md. 2022). Detective Noesi ' testified that he was assigned to the Northwest District Action Team, ' a narcotics team ' whose ' main focus is  pretty  much  driving  around  hot  areas . . . ,  high-crime  areas  and  enforc[ing]  drug distribution and handgun violations. '' Id. at 310."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 323.008,
+            "r": 475.45,
+            "b": 283.338,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            309
+          ]
+        }
+      ],
+      "orig": "2 This incident notably occurred less than two months after the widely publicized police killing of George Floyd in Minneapolis, Minnesota. See Evan Hill et al., How George Floyd Was Killed in Police Custody ,  N.Y. TIMES (May 31, 2020), https://www.nytimes.com/2020 /05/31/us/george-floyd-investigation.html.",
+      "text": "2 This incident notably occurred less than two months after the widely publicized police killing of George Floyd in Minneapolis, Minnesota. See Evan Hill et al., How George Floyd Was Killed in Police Custody ,  N.Y. TIMES (May 31, 2020), https://www.nytimes.com/2020 /05/31/us/george-floyd-investigation.html."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 149.08,
+            "t": 280.488,
+            "r": 266.1,
+            "b": 271.81600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "3 Washington , 287 A.3d at 308.",
+      "text": "3 Washington , 287 A.3d at 308."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 268.98800000000006,
+            "r": 475.45,
+            "b": 218.81799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            412
+          ]
+        }
+      ],
+      "orig": "4 On  December  14,  2022,  a  state  constitutional  amendment  took  effect,  renaming  the ' Court of Appeals of Maryland ' as the ' Supreme Court of Maryland. ' Maryland Judiciary, Press Release, Voter-Approved Constitutional Change Renames High Courts to Supreme and Appellate  Court  of  Maryland  (Dec.  14,  2022),  https://www.courts.state.md.us/media/news /2022/pr20221214 [https://perma.cc/Q96Y-A6YZ].",
+      "text": "4 On  December  14,  2022,  a  state  constitutional  amendment  took  effect,  renaming  the ' Court of Appeals of Maryland ' as the ' Supreme Court of Maryland. ' Maryland Judiciary, Press Release, Voter-Approved Constitutional Change Renames High Courts to Supreme and Appellate  Court  of  Maryland  (Dec.  14,  2022),  https://www.courts.state.md.us/media/news /2022/pr20221214 [https://perma.cc/Q96Y-A6YZ]."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 139.05,
+            "t": 215.98800000000006,
+            "r": 475.42,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            705
+          ]
+        }
+      ],
+      "orig": "5 For example, the court cites a 2016 Department of Justice report that the Baltimore Police Department  used  unconstitutional  and  corrupt  tactics  that  had  an ' unjustified ' impact  on Black  people. Washington ,  287  A.3d  at  307  (citing  U.S.  DEP ' T  OF  JUST.,  C.R.  DIV., INVESTIGATION OF THE BALTIMORE CITY POLICE  DEPARTMENT 8 (Aug. 16, 2016), https://www.justice.gov/crt/file/883296/download [https://perma.cc/CD36-5EAG] [hereinafter DOJ, BALTIMORE POLICE INVESTIGATION]). For a detailed independent investigation into the corruption of the Baltimore Police Department ' s Gun Trace Task Force (GTTF), including various allegations of officers planting evidence, see STEPTOE & JOHNSON",
+      "text": "5 For example, the court cites a 2016 Department of Justice report that the Baltimore Police Department  used  unconstitutional  and  corrupt  tactics  that  had  an ' unjustified ' impact  on Black  people. Washington ,  287  A.3d  at  307  (citing  U.S.  DEP ' T  OF  JUST.,  C.R.  DIV., INVESTIGATION OF THE BALTIMORE CITY POLICE  DEPARTMENT 8 (Aug. 16, 2016), https://www.justice.gov/crt/file/883296/download [https://perma.cc/CD36-5EAG] [hereinafter DOJ, BALTIMORE POLICE INVESTIGATION]). For a detailed independent investigation into the corruption of the Baltimore Police Department ' s Gun Trace Task Force (GTTF), including various allegations of officers planting evidence, see STEPTOE & JOHNSON"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 300.88,
+            "t": 128.04700000000003,
+            "r": 313.88,
+            "b": 119.00599999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "59",
+      "text": "59"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.257,
+            "r": 475.825,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "60 BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59",
+      "text": "60 BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.674,
+            "b": 624.686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            323
+          ]
+        }
+      ],
+      "orig": "Washington's arguments and those of courts that discount 'flight from police' and 'high -crime area' as factors in the reasonable suspicion calculus because of their racialized application, the court concluded that  Mr.  Washington's unprovoked flight in a high-crime area gave officers the reasonable suspicion required. 6",
+      "text": "Washington's arguments and those of courts that discount 'flight from police' and 'high -crime area' as factors in the reasonable suspicion calculus because of their racialized application, the court concluded that  Mr.  Washington's unprovoked flight in a high-crime area gave officers the reasonable suspicion required. 6"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 621.737,
+            "r": 475.825,
+            "b": 552.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            492
+          ]
+        }
+      ],
+      "orig": "The conclusion that, despite detectives' failure to articulate facts that initiated their pursuit, Mr. Washington's flight in a high -crime area supplied them with reasonable suspicion for a search, highlights a criminal procedure paradox. How can  flight  from  police  be  three  things  simultaneously:  (1)  constitutionally protected;  (2)  a  reasonable,  fear-based  reaction  of  young  Black  men  in Baltimore; and yet (3) a factor generating criminal suspicion for a stop or frisk?",
+      "text": "The conclusion that, despite detectives' failure to articulate facts that initiated their pursuit, Mr. Washington's flight in a high -crime area supplied them with reasonable suspicion for a search, highlights a criminal procedure paradox. How can  flight  from  police  be  three  things  simultaneously:  (1)  constitutionally protected;  (2)  a  reasonable,  fear-based  reaction  of  young  Black  men  in Baltimore; and yet (3) a factor generating criminal suspicion for a stop or frisk?"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 549.697,
+            "r": 475.616,
+            "b": 492.636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            359
+          ]
+        }
+      ],
+      "orig": "Substantial empirical data confirms that Black Americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of  force  by  police. 7   Courts  must  critically  evaluate  police  assertions  of suspicious behaviors and question facially race-neutral reasoning because this reasoning has consistently led to unjust results.",
+      "text": "Substantial empirical data confirms that Black Americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of  force  by  police. 7   Courts  must  critically  evaluate  police  assertions  of suspicious behaviors and question facially race-neutral reasoning because this reasoning has consistently led to unjust results."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 233.85,
+            "t": 477.687,
+            "r": 380.775,
+            "b": 468.633,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "I. WARDLOW ' S OPEN QUESTION",
+      "text": "I. WARDLOW ' S OPEN QUESTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 461.687,
+            "r": 475.744,
+            "b": 392.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            448
+          ]
+        }
+      ],
+      "orig": "The framework surrounding the legal issue in Washington -whether a young Black  man's  unprovoked  flight  from  police  constitutes reasonable  suspicion under  the  Fourth  Amendment -is  widely  known.  Before  conducting  an investigative stop, police must have 'reasonable suspicion' that an individual is committing or about to commit a crime. 8  This suspicion must be more than a 'mere hunch,' and based on specific and articulable facts. 9",
+      "text": "The framework surrounding the legal issue in Washington -whether a young Black  man's  unprovoked  flight  from  police  constitutes reasonable  suspicion under  the  Fourth  Amendment -is  widely  known.  Before  conducting  an investigative stop, police must have 'reasonable suspicion' that an individual is committing or about to commit a crime. 8  This suspicion must be more than a 'mere hunch,' and based on specific and articulable facts. 9"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 389.667,
+            "r": 475.585,
+            "b": 368.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "In Illinois v. Wardlow , the Supreme Court concluded that flight from police in  a  high-crime  neighborhood  was  suggestive  of  wrongdoing  and  could  be",
+      "text": "In Illinois v. Wardlow , the Supreme Court concluded that flight from police in  a  high-crime  neighborhood  was  suggestive  of  wrongdoing  and  could  be"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 333.837,
+            "r": 475.449,
+            "b": 274.318,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            470
+          ]
+        }
+      ],
+      "orig": "LLP,  ANATOMY  OF  THE  GUN  TRACE  TASK  FORCE  SCANDAL:  ITS  ORIGINS,  CAUSES,  AND CONSEQUENCES 498 (2022), https://www.steptoe.com/a/web/219380/3ZF1Gi/gttf-report.pdf [https://perma.cc/VN9T-QCMB]  (noting  the ' broad  consensus  that  corruption -including thefts of cash during street encounters, warrantless entries into homes, residential thefts, and planting evidence -has been centered in plainclothes [law enforcement] units that focus on drugs and guns ' ).",
+      "text": "LLP,  ANATOMY  OF  THE  GUN  TRACE  TASK  FORCE  SCANDAL:  ITS  ORIGINS,  CAUSES,  AND CONSEQUENCES 498 (2022), https://www.steptoe.com/a/web/219380/3ZF1Gi/gttf-report.pdf [https://perma.cc/VN9T-QCMB]  (noting  the ' broad  consensus  that  corruption -including thefts of cash during street encounters, warrantless entries into homes, residential thefts, and planting evidence -has been centered in plainclothes [law enforcement] units that focus on drugs and guns ' )."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 271.23800000000006,
+            "r": 475.428,
+            "b": 221.31600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            419
+          ]
+        }
+      ],
+      "orig": "6 The court contrasted Mr. Washington ' s ' headlong flight from police, ' which contributed to  suspicion,  with ' leaving  the  area  in  a  reasonable  manner  to  passively  avoid  police. ' Washington ,  287  A.3d  at  316.  The  court  found  that  Detective  Rodriguez  had  reasonable suspicion  pursuant  to  both  the  Fourth  Amendment,  and  Article  26  of  the  Maryland Declaration of Rights. Id. at 309.",
+      "text": "6 The court contrasted Mr. Washington ' s ' headlong flight from police, ' which contributed to  suspicion,  with ' leaving  the  area  in  a  reasonable  manner  to  passively  avoid  police. ' Washington ,  287  A.3d  at  316.  The  court  found  that  Detective  Rodriguez  had  reasonable suspicion  pursuant  to  both  the  Fourth  Amendment,  and  Article  26  of  the  Maryland Declaration of Rights. Id. at 309."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 139.05,
+            "t": 218.48800000000006,
+            "r": 475.45,
+            "b": 158.038,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            455
+          ]
+        }
+      ],
+      "orig": "7 See Justin Nix, Bradley A. Campbell, Edward H. Byers, & Geoffrey P. Alpert, A Bird ' s Eye View of Civilians Killed by Police in 2015 , 16 CRIMINOLOGY & PUB. POL ' Y 309, 325-26, 328-29  (2017);  Radley  Balko, There ' s  Overwhelming  Evidence  that  the  Criminal  Justice System Is Racist. Here ' s the Proof. , WASH. POST (June 10, 2020), https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidencecriminal-justice-system/.",
+      "text": "7 See Justin Nix, Bradley A. Campbell, Edward H. Byers, & Geoffrey P. Alpert, A Bird ' s Eye View of Civilians Killed by Police in 2015 , 16 CRIMINOLOGY & PUB. POL ' Y 309, 325-26, 328-29  (2017);  Radley  Balko, There ' s  Overwhelming  Evidence  that  the  Criminal  Justice System Is Racist. Here ' s the Proof. , WASH. POST (June 10, 2020), https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidencecriminal-justice-system/."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.08,
+            "t": 154.95799999999997,
+            "r": 292.63,
+            "b": 146.288,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "8 Terry v. Ohio, 392 U.S. 1, 27 (1968).",
+      "text": "8 Terry v. Ohio, 392 U.S. 1, 27 (1968)."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 149.08,
+            "t": 143.45799999999997,
+            "r": 339.65,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "9 Navarette v. California, 572 U.S. 393, 397 (2014).",
+      "text": "9 Navarette v. California, 572 U.S. 393, 397 (2014)."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 163.577,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "2023]",
+      "text": "2023]"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 229.6,
+            "t": 707.257,
+            "r": 381.275,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "REASONABLE, YET SUSPICIOUS",
+      "text": "REASONABLE, YET SUSPICIOUS"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 462.7,
+            "t": 707.247,
+            "r": 475.825,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "61",
+      "text": "61"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.737,
+            "r": 475.805,
+            "b": 540.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            946
+          ]
+        }
+      ],
+      "orig": "sufficient to support a Terry stop. 10  There, Mr. Wardlow looked at the uniformed police  officers  as  they  drove  by  him  and  fled.  He  was  ultimately  followed, cornered, stopped, and searched. The Court concluded that '[h]eadlong flightwherever  it  occurs -is  the  consummate  act  of  evasion:  It  is  not  necessarily indicati ve  of  wrongdoing,  but  it  is  certainly  suggestive  of  such.' 11   Justice Stevens clarified that any per se rule about flight from police in a high-crime area  was  unwarranted.  He  cautioned  that  flight  from  police  may  not  reflect criminality '[a]mong some citize ns, particularly minorities and those residing in high crime areas, there is . . . the possibility that the fleeing person is entirely innocent, but, with or without justification, believes that contact with police can itself be dangerous, apart from any c riminal activity associated with the officer's sudden presence.' 12",
+      "text": "sufficient to support a Terry stop. 10  There, Mr. Wardlow looked at the uniformed police  officers  as  they  drove  by  him  and  fled.  He  was  ultimately  followed, cornered, stopped, and searched. The Court concluded that '[h]eadlong flightwherever  it  occurs -is  the  consummate  act  of  evasion:  It  is  not  necessarily indicati ve  of  wrongdoing,  but  it  is  certainly  suggestive  of  such.' 11   Justice Stevens clarified that any per se rule about flight from police in a high-crime area  was  unwarranted.  He  cautioned  that  flight  from  police  may  not  reflect criminality '[a]mong some citize ns, particularly minorities and those residing in high crime areas, there is . . . the possibility that the fleeing person is entirely innocent, but, with or without justification, believes that contact with police can itself be dangerous, apart from any c riminal activity associated with the officer's sudden presence.' 12"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 537.707,
+            "r": 475.812,
+            "b": 396.613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            937
+          ]
+        }
+      ],
+      "orig": "Fast forward twenty-two years. The parties in Washington sharply disagreed on Wardlow 's  application.  The  state  argued  that Wardlow indicated  that Washington's flight from police in a high -crime area provided the detective with reasonable suspicion, 13  while Mr. Washington insisted that Wardlow concluded that  unprovoked  flight  from  police  was  merely  one  factor  to  consider  in  the reasonable  suspicion  calculus.  Moreover,  in  the  decades  since Wardlow ,  Mr. Washington explained that it was reasonable for a young Black man 'to distrust the  police  in  Baltimore,'  and  that  his  flight  from  officers  should  not  be considered as support for reasonable suspicion. 14  Ultimately, the court explained that it was applying Wardlow as it always had, in holding that flight from police in a high-crime area is relevant to the totality of circumstances but does not per se establish reasonable suspicion. 15",
+      "text": "Fast forward twenty-two years. The parties in Washington sharply disagreed on Wardlow 's  application.  The  state  argued  that Wardlow indicated  that Washington's flight from police in a high -crime area provided the detective with reasonable suspicion, 13  while Mr. Washington insisted that Wardlow concluded that  unprovoked  flight  from  police  was  merely  one  factor  to  consider  in  the reasonable  suspicion  calculus.  Moreover,  in  the  decades  since Wardlow ,  Mr. Washington explained that it was reasonable for a young Black man 'to distrust the  police  in  Baltimore,'  and  that  his  flight  from  officers  should  not  be considered as support for reasonable suspicion. 14  Ultimately, the court explained that it was applying Wardlow as it always had, in holding that flight from police in a high-crime area is relevant to the totality of circumstances but does not per se establish reasonable suspicion. 15"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 393.667,
+            "r": 475.826,
+            "b": 336.586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            411
+          ]
+        }
+      ],
+      "orig": "Since Terry, the  Supreme  Court  has  seldom  intervened  to  decide  what constitutes something more than a 'hunch' but less than probable cause. 16  In the absence of additional guidance since Wardlow ,  lower courts wrestle with how much conduct that is consistent with lawful behavior, but subjectively suspicious to  a  police  officer,  is  sufficient  to  support  reasonable  suspicion. 17   The  Fifth",
+      "text": "Since Terry, the  Supreme  Court  has  seldom  intervened  to  decide  what constitutes something more than a 'hunch' but less than probable cause. 16  In the absence of additional guidance since Wardlow ,  lower courts wrestle with how much conduct that is consistent with lawful behavior, but subjectively suspicious to  a  police  officer,  is  sufficient  to  support  reasonable  suspicion. 17   The  Fifth"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.08,
+            "t": 307.258,
+            "r": 330.13,
+            "b": 298.588,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "10 Illinois v. Wardlow, 528 U.S. 119, 124 (2000).",
+      "text": "10 Illinois v. Wardlow, 528 U.S. 119, 124 (2000)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.08,
+            "t": 295.758,
+            "r": 197.83,
+            "b": 287.086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "11 Id . at 124.",
+      "text": "11 Id . at 124."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.08,
+            "t": 283.988,
+            "r": 392.92,
+            "b": 275.31600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "12 Id. at 132 (Stevens, J., concurring in part and dissenting in part).",
+      "text": "12 Id. at 132 (Stevens, J., concurring in part and dissenting in part)."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 272.48800000000006,
+            "r": 475.45,
+            "b": 243.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "13 Washington v. Maryland, 287 A.3d 301, 312 (Md. 2022) (citing Wardlow , 528 U.S. at 125)  ( ' [T]he  defendant ' s  presence  in  an  area  of  heavy  narcotics  trafficking  and  his unprovoked flight upon noticing police created reasonable suspicion justifying a Terry stop. ' ).",
+      "text": "13 Washington v. Maryland, 287 A.3d 301, 312 (Md. 2022) (citing Wardlow , 528 U.S. at 125)  ( ' [T]he  defendant ' s  presence  in  an  area  of  heavy  narcotics  trafficking  and  his unprovoked flight upon noticing police created reasonable suspicion justifying a Terry stop. ' )."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.08,
+            "t": 240.23800000000006,
+            "r": 269.1,
+            "b": 231.56600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "14 Washington , 287 A.3d at 313.",
+      "text": "14 Washington , 287 A.3d at 313."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 149.08,
+            "t": 228.73800000000006,
+            "r": 197.83,
+            "b": 220.06600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "15 Id. at 322.",
+      "text": "15 Id. at 322."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 217.23800000000006,
+            "r": 475.429,
+            "b": 187.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "16 See Seth  W.  Stoughton,  Kyle  McLean,  Justin  Nix,  &  Geoffrey  Alpert, Policing Suspicion: Qualified Immunity and ' Clearly Established ' Standards of Proof , 112 J. CRIM. L. & CRIMINOLOGY 37, 47-48 (2022).",
+      "text": "16 See Seth  W.  Stoughton,  Kyle  McLean,  Justin  Nix,  &  Geoffrey  Alpert, Policing Suspicion: Qualified Immunity and ' Clearly Established ' Standards of Proof , 112 J. CRIM. L. & CRIMINOLOGY 37, 47-48 (2022)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 139.05,
+            "t": 184.95799999999997,
+            "r": 475.405,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            441
+          ]
+        }
+      ],
+      "orig": "17 See, e.g. , Commonwealth v. Feyenord , 833 N.E.2d 590, 596 (Mass. 2005); Huff v. City of Burbank, 632 F.3d 539, 546-48 (9th Cir. 2011), rev ' d sub nom. Ryburn v. Huff, 565 U.S. 469, 474-75 (2012); Commonwealth v. Barreto, 136 N.E.3d 697, 704 (Mass. 2019) (quoting Commonwealth v. Torres, 74 N.E.2d 638, 644 (Mass. 1997)) ( ' Adding up eight innocuous observations -eight zeros -does not produce a sum of [reasonable suspicion] . . . ' ).",
+      "text": "17 See, e.g. , Commonwealth v. Feyenord , 833 N.E.2d 590, 596 (Mass. 2005); Huff v. City of Burbank, 632 F.3d 539, 546-48 (9th Cir. 2011), rev ' d sub nom. Ryburn v. Huff, 565 U.S. 469, 474-75 (2012); Commonwealth v. Barreto, 136 N.E.3d 697, 704 (Mass. 2019) (quoting Commonwealth v. Torres, 74 N.E.2d 638, 644 (Mass. 1997)) ( ' Adding up eight innocuous observations -eight zeros -does not produce a sum of [reasonable suspicion] . . . ' )."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.257,
+            "r": 475.825,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "62 BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59",
+      "text": "62 BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.825,
+            "b": 540.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            914
+          ]
+        }
+      ],
+      "orig": "Circuit recently found police had reasonable suspicion to detain an individual where the officer observed him sitting in the front seat of his car for ten to fifteen seconds, parked in the lot of an open convenience store in a high-crime area. 18 On the other hand, several federal circuits and state courts refuse to permit a person's lawful conduct in a high -crime area, on its own, to constitute reasonable suspicion. 19 Because reasonable suspicion is a contextual, totality of circumstances  determination,  it  is  difficult  for  reviewing  courts  to  determine which factor was dispositive when several factors, each themselves consistent with innocent  behavior,  is  'relevant.' As  the  Seventh  Circuit  acknowledged, '[w]hether you stand still or move, drive above, below, or at the speed limit, you will be described by the police as acting suspiciously should they wish to stop and arrest you.' 20",
+      "text": "Circuit recently found police had reasonable suspicion to detain an individual where the officer observed him sitting in the front seat of his car for ten to fifteen seconds, parked in the lot of an open convenience store in a high-crime area. 18 On the other hand, several federal circuits and state courts refuse to permit a person's lawful conduct in a high -crime area, on its own, to constitute reasonable suspicion. 19 Because reasonable suspicion is a contextual, totality of circumstances  determination,  it  is  difficult  for  reviewing  courts  to  determine which factor was dispositive when several factors, each themselves consistent with innocent  behavior,  is  'relevant.' As  the  Seventh  Circuit  acknowledged, '[w]hether you stand still or move, drive above, below, or at the speed limit, you will be described by the police as acting suspiciously should they wish to stop and arrest you.' 20"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 144.3,
+            "t": 525.697,
+            "r": 470.325,
+            "b": 516.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "II. MR. WASHINGTON HAS THE CONSTITUTIONAL RIGHT TO AVOID POLICE",
+      "text": "II. MR. WASHINGTON HAS THE CONSTITUTIONAL RIGHT TO AVOID POLICE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 509.677,
+            "r": 475.689,
+            "b": 428.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            520
+          ]
+        }
+      ],
+      "orig": "The paradox of relying on flight from police for reasonable suspicion begins with a foundational principle -individuals have 'a right to ignore the police and go about [their]  business.' 21 The Fourth Amendment protects an individual's 'right  to  decline  to  interact  with  police  and  'go  on  one's  way.'' 22 Wardlow reaffirmed  that  'when  an  officer,  without  reasonable  suspicion  or  probable cause, approaches an individual, the individual has a right to ignore the police and go about his business.' 23",
+      "text": "The paradox of relying on flight from police for reasonable suspicion begins with a foundational principle -individuals have 'a right to ignore the police and go about [their]  business.' 21 The Fourth Amendment protects an individual's 'right  to  decline  to  interact  with  police  and  'go  on  one's  way.'' 22 Wardlow reaffirmed  that  'when  an  officer,  without  reasonable  suspicion  or  probable cause, approaches an individual, the individual has a right to ignore the police and go about his business.' 23"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 425.657,
+            "r": 475.825,
+            "b": 344.586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            507
+          ]
+        }
+      ],
+      "orig": "The constitutionally protected right to ignore police is so fundamental that it forms the doctrinal border for a seizure. The  interaction between  law enforcement and individuals known as a 'consensual encounter' is defined as any encounter with police in which a reasonable person, in view of all of the circumstances surrounding the incident, would have believed that they were free to  leave and  disregard  police  presence. 24   A  consensual encounter  requires  no suspicion of criminal behavior. 25",
+      "text": "The constitutionally protected right to ignore police is so fundamental that it forms the doctrinal border for a seizure. The  interaction between  law enforcement and individuals known as a 'consensual encounter' is defined as any encounter with police in which a reasonable person, in view of all of the circumstances surrounding the incident, would have believed that they were free to  leave and  disregard  police  presence. 24   A  consensual encounter  requires  no suspicion of criminal behavior. 25"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 307.258,
+            "r": 475.417,
+            "b": 267.56600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            309
+          ]
+        }
+      ],
+      "orig": "18 United States  v.  Flowers , 6  F.4th  651,  656  (5th  Cir.  2021).  A  divided  Fifth  Circuit concluded that two men seen ' dawdling in a Cadillac parked out of view from inside the convenience store ' in a high-crime neighborhood supported the officer ' s reasonable suspicion to search. Id. at 656-57.",
+      "text": "18 United States  v.  Flowers , 6  F.4th  651,  656  (5th  Cir.  2021).  A  divided  Fifth  Circuit concluded that two men seen ' dawdling in a Cadillac parked out of view from inside the convenience store ' in a high-crime neighborhood supported the officer ' s reasonable suspicion to search. Id. at 656-57."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 264.48800000000006,
+            "r": 475.405,
+            "b": 245.56799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "19 United  States  v.  Jones,  606  F.3d  964,  967-68  (2010); see  also United  States  v. Hernandez, 847 F.3d 1257, 1268 (10th Cir. 2017).",
+      "text": "19 United  States  v.  Jones,  606  F.3d  964,  967-68  (2010); see  also United  States  v. Hernandez, 847 F.3d 1257, 1268 (10th Cir. 2017)."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.08,
+            "t": 242.73800000000006,
+            "r": 390.9,
+            "b": 234.06600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "20 United States v. Broomfield , 417 F.3d 654, 655 (7th Cir. 2005).",
+      "text": "20 United States v. Broomfield , 417 F.3d 654, 655 (7th Cir. 2005)."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.08,
+            "t": 231.23800000000006,
+            "r": 330.13,
+            "b": 222.56799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "21 Illinois v. Wardlow, 528 U.S. 119, 125 (2000).",
+      "text": "21 Illinois v. Wardlow, 528 U.S. 119, 125 (2000)."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 219.48800000000006,
+            "r": 475.316,
+            "b": 190.28600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "22 Id. at 122-23. It was because of this right to avoid a police interaction that the Illinois Supreme Court concluded that Mr. Wardlow ' s  flight  from police was of limited probative value. Id.",
+      "text": "22 Id. at 122-23. It was because of this right to avoid a police interaction that the Illinois Supreme Court concluded that Mr. Wardlow ' s  flight  from police was of limited probative value. Id."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.08,
+            "t": 187.20799999999997,
+            "r": 384.4,
+            "b": 178.53600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "23 Id. at 125 (citing Florida v. Royer, 460 U.S. 491, 498 (1983)).",
+      "text": "23 Id. at 125 (citing Florida v. Royer, 460 U.S. 491, 498 (1983))."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 139.05,
+            "t": 175.70799999999997,
+            "r": 475.45,
+            "b": 146.53600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "24 United States v. Mendenhall, 446 U.S. 544, 554 (1980). Police-citizen encounters are grouped  into  three  broad  categories:  exchanges  lacking  coercion  or  detention,  known  as ' consensual encounters, ' brief investigatory detentions known as Terry stops, and full arrests.",
+      "text": "24 United States v. Mendenhall, 446 U.S. 544, 554 (1980). Police-citizen encounters are grouped  into  three  broad  categories:  exchanges  lacking  coercion  or  detention,  known  as ' consensual encounters, ' brief investigatory detentions known as Terry stops, and full arrests."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 149.08,
+            "t": 143.45799999999997,
+            "r": 209.83,
+            "b": 134.78600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "25 Id. at 553-54.",
+      "text": "25 Id. at 553-54."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 163.577,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "2023]",
+      "text": "2023]"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 229.6,
+            "t": 707.257,
+            "r": 381.275,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "REASONABLE, YET SUSPICIOUS",
+      "text": "REASONABLE, YET SUSPICIOUS"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 462.7,
+            "t": 707.247,
+            "r": 475.825,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "63",
+      "text": "63"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.828,
+            "b": 564.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            799
+          ]
+        }
+      ],
+      "orig": "To resolve this conflict between the right to avoid police and the suspiciousness  of  flight, Wardlow reasoned  that  unprovoked  flight  from  law enforcement is 'just the opposite' of 'going about one's business' and ignorin g police  presence. 26   But  the  difference  between  these  two  is  unclear.  The Massachusetts  Supreme  Judicial  Court  ('SJC')  acknowledged  the  'factual irony' that  the  law  purports  to  protect  a  person's  freedom  not  to  speak  with police  but  has  traditionally  viewed  flight  from  police  as  inculpatory. 27   In Commonwealth v. Warren , the SJC held that because a Black man may have valid reasons unrelated to consciousness of guilt to avoid contact with the police, flight should be given minimal weight in reasonable suspicion calculus. 28",
+      "text": "To resolve this conflict between the right to avoid police and the suspiciousness  of  flight, Wardlow reasoned  that  unprovoked  flight  from  law enforcement is 'just the opposite' of 'going about one's business' and ignorin g police  presence. 26   But  the  difference  between  these  two  is  unclear.  The Massachusetts  Supreme  Judicial  Court  ('SJC')  acknowledged  the  'factual irony' that  the  law  purports  to  protect  a  person's  freedom  not  to  speak  with police  but  has  traditionally  viewed  flight  from  police  as  inculpatory. 27   In Commonwealth v. Warren , the SJC held that because a Black man may have valid reasons unrelated to consciousness of guilt to avoid contact with the police, flight should be given minimal weight in reasonable suspicion calculus. 28"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 561.707,
+            "r": 475.505,
+            "b": 528.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "For courts applying Wardlow , reconciling the constitutionally protected right to ignore police with criminally suspicious flight from police proves challenging.",
+      "text": "For courts applying Wardlow , reconciling the constitutionally protected right to ignore police with criminally suspicious flight from police proves challenging."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 151.58,
+            "t": 513.677,
+            "r": 463.075,
+            "b": 504.636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "III.  MR. WASHINGTON ' S FEAR OF POLICE INTERACTION IS REASONABLE",
+      "text": "III.  MR. WASHINGTON ' S FEAR OF POLICE INTERACTION IS REASONABLE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 497.677,
+            "r": 475.775,
+            "b": 368.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            889
+          ]
+        }
+      ],
+      "orig": "Mr.  Washington  argued  that  inferring  guilt  in  his  flight  from  police  is inconsistent  with  legitimate  reasons  why  young  Black  men  flee  from  police. Increased awareness that young Black men are disproportionately likely to be the  victims  of  police  violence,  combined  with  the  specific  history  of  police misconduct in Baltimore, rendered his own fear of mistreatment at the hands of police reasonable. 29  Mr. Washington relied upon three categories in support of his argument: (1) empirical data confirming that Black men are disproportionately stopped, searched, arrested by police, and more likely to be subject  to  the  use  of  force; 30   (2) the  proliferation  of  publicly  disseminated footage depicting police violence against Black men, making flight a reasonable reaction; 31  and (3) particular events such as the prominent death of Freddie Gray",
+      "text": "Mr.  Washington  argued  that  inferring  guilt  in  his  flight  from  police  is inconsistent  with  legitimate  reasons  why  young  Black  men  flee  from  police. Increased awareness that young Black men are disproportionately likely to be the  victims  of  police  violence,  combined  with  the  specific  history  of  police misconduct in Baltimore, rendered his own fear of mistreatment at the hands of police reasonable. 29  Mr. Washington relied upon three categories in support of his argument: (1) empirical data confirming that Black men are disproportionately stopped, searched, arrested by police, and more likely to be subject  to  the  use  of  force; 30   (2) the  proliferation  of  publicly  disseminated footage depicting police violence against Black men, making flight a reasonable reaction; 31  and (3) particular events such as the prominent death of Freddie Gray"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 149.08,
+            "t": 346.258,
+            "r": 257.35,
+            "b": 337.586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "26 Wardlow , 528 U.S. at 125.",
+      "text": "26 Wardlow , 528 U.S. at 125."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 149.08,
+            "t": 334.758,
+            "r": 396.17,
+            "b": 326.088,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "27 Commonwealth v. Warren, 58 N.E.3d 333, 342-43 (Mass. 2016).",
+      "text": "27 Commonwealth v. Warren, 58 N.E.3d 333, 342-43 (Mass. 2016)."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 149.08,
+            "t": 323.008,
+            "r": 168.833,
+            "b": 314.336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "28 Id.",
+      "text": "28 Id."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 311.508,
+            "r": 475.356,
+            "b": 292.588,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "29 See Brief of Appellant at 16-22, Washington v. Maryland , 287 A.3d 301 (Md. 2022) (No. 739), 221 WL 5416364.",
+      "text": "29 See Brief of Appellant at 16-22, Washington v. Maryland , 287 A.3d 301 (Md. 2022) (No. 739), 221 WL 5416364."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 289.758,
+            "r": 475.45,
+            "b": 239.56600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            410
+          ]
+        }
+      ],
+      "orig": "30 See Fatal Force , WASH. POST (last updated Mar. 1, 2023), https://www.washingtonpost.com/graphics/investigations/police-shootings-database/ (database  tracking  disproportionate  fatalities  at  hands  of  police  between  2015  and  2023). Black people are disproportionately likely to be stopped, searched and arrested by the police, and are more likely to be subject to use of force. Balko, supra note 7.",
+      "text": "30 See Fatal Force , WASH. POST (last updated Mar. 1, 2023), https://www.washingtonpost.com/graphics/investigations/police-shootings-database/ (database  tracking  disproportionate  fatalities  at  hands  of  police  between  2015  and  2023). Black people are disproportionately likely to be stopped, searched and arrested by the police, and are more likely to be subject to use of force. Balko, supra note 7."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 139.05,
+            "t": 236.73800000000006,
+            "r": 475.45,
+            "b": 134.78600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            881
+          ]
+        }
+      ],
+      "orig": "31 See, e.g. , Jocelyn R. Smith Lee & Michael A. Robinson, ' That ' s My Number One Fear in  Life.  It ' s  the  Police ' :  Examining  Young  Black  Men ' s  Exposures  to  Trauma  and  Loss Resulting from Police Violence and Police Killings , 45 J. BLACK PSYCH. 143, 144 (2019); Michael A. Fletcher, For Black Motorists, a Never Ending Fear of Being Stopped ,  NAT ' L GEOGRAPHIC MAG. (Mar. 12, 2018), https://www.nationalgeographic.com/magazine/article /the-stop-race-police-traffic;  Nikole  Hannah-Jones, Yes,  Black  America  Fears  the  Police. Here ' s Why , PROPUBLICA (Mar. 4, 2015, 9:14 p.m.), https://www.propublica.org/article/yesblack-america-fears-the-police-heres-why  [https://perma.cc/MA2P-BWRM]. See  generally Amanda Graham et al., Race and Worrying About Police Brutality: The Hidden Injuries of Minority Status in America , 15 VICTIMS & OFFENDERS 549 (2020) .",
+      "text": "31 See, e.g. , Jocelyn R. Smith Lee & Michael A. Robinson, ' That ' s My Number One Fear in  Life.  It ' s  the  Police ' :  Examining  Young  Black  Men ' s  Exposures  to  Trauma  and  Loss Resulting from Police Violence and Police Killings , 45 J. BLACK PSYCH. 143, 144 (2019); Michael A. Fletcher, For Black Motorists, a Never Ending Fear of Being Stopped ,  NAT ' L GEOGRAPHIC MAG. (Mar. 12, 2018), https://www.nationalgeographic.com/magazine/article /the-stop-race-police-traffic;  Nikole  Hannah-Jones, Yes,  Black  America  Fears  the  Police. Here ' s Why , PROPUBLICA (Mar. 4, 2015, 9:14 p.m.), https://www.propublica.org/article/yesblack-america-fears-the-police-heres-why  [https://perma.cc/MA2P-BWRM]. See  generally Amanda Graham et al., Race and Worrying About Police Brutality: The Hidden Injuries of Minority Status in America , 15 VICTIMS & OFFENDERS 549 (2020) ."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 149.55,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "64",
+      "text": "64"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 202.08,
+            "t": 707.257,
+            "r": 409.045,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "BOSTON UNIVERSITY LAW REVIEW ONLINE",
+      "text": "BOSTON UNIVERSITY LAW REVIEW ONLINE"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 419.43,
+            "t": 707.247,
+            "r": 475.825,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "[Vol. 103:59",
+      "text": "[Vol. 103:59"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.823,
+            "b": 600.686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            543
+          ]
+        }
+      ],
+      "orig": "in  police  custody,  the  Department  of  Justice's  documented  investigation into Baltimore City Police, and the recent scandal within the Gun Trace Task Force, which affirmed a fear of police among Baltimore city residents. 32  Within this context, Mr. Washington reasoned that Wardlow' s conclusion -that unprovoked  flight  from  police  suggests  criminal  wrongdoing -is  profoundly outdated. Instead, flight from police reflects a reasonable fear for on e's safety and merits minimal or no weight in establishing reasonable suspicion.",
+      "text": "in  police  custody,  the  Department  of  Justice's  documented  investigation into Baltimore City Police, and the recent scandal within the Gun Trace Task Force, which affirmed a fear of police among Baltimore city residents. 32  Within this context, Mr. Washington reasoned that Wardlow' s conclusion -that unprovoked  flight  from  police  suggests  criminal  wrongdoing -is  profoundly outdated. Instead, flight from police reflects a reasonable fear for on e's safety and merits minimal or no weight in establishing reasonable suspicion."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 597.697,
+            "r": 475.751,
+            "b": 444.636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1000
+          ]
+        }
+      ],
+      "orig": "Indeed, this argument persuaded the SJC six years ago when presented with similar facts in Warren . An officer saw Mr. Warren with another young Black man walking in Boston and believed that they matched the general description provided by a burglary victim earlier that night. Upon being asked by the officer to 'wait a minute,' the two men ran into a park. The SJC concluded that the victim's description of the perpetra tor, proximity to the alleged burglary, and the defendant's flight did not constitute reasonable suspicion. 33  Focusing on a report documenting  a  pattern  of  racial  profiling  of  Black  men  in  Boston,  the  court recognized 'a reason for flight totally unrelated to the consciousness of guilt,' explaining that Mr. Warren's flight 'might just as easily be motivated by the desire to avoid the recurring indignity of being racially profiled.' Thus, flight from  police  should  be  given  'little,  if  any,  weight  as  a  factor probative  in reasonable suspicion.' 34",
+      "text": "Indeed, this argument persuaded the SJC six years ago when presented with similar facts in Warren . An officer saw Mr. Warren with another young Black man walking in Boston and believed that they matched the general description provided by a burglary victim earlier that night. Upon being asked by the officer to 'wait a minute,' the two men ran into a park. The SJC concluded that the victim's description of the perpetra tor, proximity to the alleged burglary, and the defendant's flight did not constitute reasonable suspicion. 33  Focusing on a report documenting  a  pattern  of  racial  profiling  of  Black  men  in  Boston,  the  court recognized 'a reason for flight totally unrelated to the consciousness of guilt,' explaining that Mr. Warren's flight 'might just as easily be motivated by the desire to avoid the recurring indignity of being racially profiled.' Thus, flight from  police  should  be  given  'little,  if  any,  weight  as  a  factor probative  in reasonable suspicion.' 34"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 441.667,
+            "r": 475.749,
+            "b": 336.586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            681
+          ]
+        }
+      ],
+      "orig": "Warren was  lauded  for  recognizing that  racialized experiences  of  policing affect an individual's behavior in response to police, and thus a person's anxious behavior should not establish the suspicion required for a stop. 35  Four years after Warren ,  the  SJC  expand ed  'the  reasoning  of Warren '  in  holding  that  'the weight of the defendant's nervous and evasive behavior should be significantly discount[ed] in assessing whether police had reasonable suspicion for a stop.' 36 Meanwhile, other courts have recognized that behaviors traditionally thought of as contributory to reasonable suspicion may also be responses to an individual's encounter with police. 37",
+      "text": "Warren was  lauded  for  recognizing that  racialized experiences  of  policing affect an individual's behavior in response to police, and thus a person's anxious behavior should not establish the suspicion required for a stop. 35  Four years after Warren ,  the  SJC  expand ed  'the  reasoning  of Warren '  in  holding  that  'the weight of the defendant's nervous and evasive behavior should be significantly discount[ed] in assessing whether police had reasonable suspicion for a stop.' 36 Meanwhile, other courts have recognized that behaviors traditionally thought of as contributory to reasonable suspicion may also be responses to an individual's encounter with police. 37"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.08,
+            "t": 315.258,
+            "r": 377.9,
+            "b": 306.586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "32 DOJ, BALTIMORE POLICE INVESTIGATION, supra note 5, at 3.",
+      "text": "32 DOJ, BALTIMORE POLICE INVESTIGATION, supra note 5, at 3."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.08,
+            "t": 303.508,
+            "r": 268.85,
+            "b": 294.836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "33 Warren, 58 N.E.3d at 342-43.",
+      "text": "33 Warren, 58 N.E.3d at 342-43."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 149.08,
+            "t": 292.008,
+            "r": 209.83,
+            "b": 283.336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "34 Id. at 341-42.",
+      "text": "34 Id. at 341-42."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 280.488,
+            "r": 475.458,
+            "b": 199.288,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            713
+          ]
+        }
+      ],
+      "orig": "35 See Terrence  Scudieri, Fleeing  While  Black:  How  Massachusetts  Reshaped  the Contours of the Terry Stop, 54 AM. CRIM. L. REV. ONLINE 42, 44, 49 (2017). At least Illinois and the District of Columbia have followed suit. See People v. Horton, 142 N.E.3d 854, 868 (Ill.  App.  Ct.  2019)  (concluding  empirical  data  offered  an ' eminently  reasonable  and noncriminal reason ' for Black man ' s flight); Mayo v. United States, 266 A.3d 244, 260-61 (D.C. 2022) (recognizing empirical data provided ' myriad reasons ' that ' undermine[d] the reasonableness  of  an  inference  of  criminal  activity  from  all  instances  of  flight ' and discounting relevance of flight in reasonable suspicion analysis).",
+      "text": "35 See Terrence  Scudieri, Fleeing  While  Black:  How  Massachusetts  Reshaped  the Contours of the Terry Stop, 54 AM. CRIM. L. REV. ONLINE 42, 44, 49 (2017). At least Illinois and the District of Columbia have followed suit. See People v. Horton, 142 N.E.3d 854, 868 (Ill.  App.  Ct.  2019)  (concluding  empirical  data  offered  an ' eminently  reasonable  and noncriminal reason ' for Black man ' s flight); Mayo v. United States, 266 A.3d 244, 260-61 (D.C. 2022) (recognizing empirical data provided ' myriad reasons ' that ' undermine[d] the reasonableness  of  an  inference  of  criminal  activity  from  all  instances  of  flight ' and discounting relevance of flight in reasonable suspicion analysis)."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 196.45799999999997,
+            "r": 475.361,
+            "b": 167.038,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "36 Commonwealth  v.  Evelyn,  152  N.E.3d  108,  121-22  (Mass.  2020)  (concluding  that Evelyn was seized when, having trailed him for 100 yards in the cruiser and repeatedly trying to converse with him, the officer in the front passenger seat opened the door of the vehicle).",
+      "text": "36 Commonwealth  v.  Evelyn,  152  N.E.3d  108,  121-22  (Mass.  2020)  (concluding  that Evelyn was seized when, having trailed him for 100 yards in the cruiser and repeatedly trying to converse with him, the officer in the front passenger seat opened the door of the vehicle)."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 139.05,
+            "t": 164.20799999999997,
+            "r": 475.402,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            286
+          ]
+        }
+      ],
+      "orig": "37 See, e.g. , United States v. McKoy, 428 F.3d 38, 40 (1st Cir. 2005) ( ' Nervousness is a common and entirely natural reaction to police presence . . . ' ); United States v. Richardson, 385  F.3d  625,  630-31  (6th  Cir.  2004)  ( ' [A]lthough  nervousness  has  been  considered  in",
+      "text": "37 See, e.g. , United States v. McKoy, 428 F.3d 38, 40 (1st Cir. 2005) ( ' Nervousness is a common and entirely natural reaction to police presence . . . ' ); United States v. Richardson, 385  F.3d  625,  630-31  (6th  Cir.  2004)  ( ' [A]lthough  nervousness  has  been  considered  in"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 163.577,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "2023]",
+      "text": "2023]"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 229.6,
+            "t": 707.257,
+            "r": 381.275,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "REASONABLE, YET SUSPICIOUS",
+      "text": "REASONABLE, YET SUSPICIOUS"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 462.7,
+            "t": 707.247,
+            "r": 475.825,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "65",
+      "text": "65"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.683,
+            "b": 564.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            753
+          ]
+        }
+      ],
+      "orig": "Other  courts  have  cited  reports  of  police  use  of  disproportionate  and unreasonable force as providing a reasonable, non-suspicious, basis for flight from police. In 2019, the Appellate Court of Illinois took judicial notice of a Department of Justice report finding that the Chicago Police had engaged in a 'pattern or practice of unreasonable force,' concluding that defendant's flight from police could be explained by ' an eminently reasonable and noncriminal reason.' 38   Also in 2019, the Ninth Circuit recognized that the increase of data since Wardlow on racially disparate policing 'can inform the inferences to be drawn from an individual who decides to step away, run, or flee from police without a clear reason to do otherwise.' 39",
+      "text": "Other  courts  have  cited  reports  of  police  use  of  disproportionate  and unreasonable force as providing a reasonable, non-suspicious, basis for flight from police. In 2019, the Appellate Court of Illinois took judicial notice of a Department of Justice report finding that the Chicago Police had engaged in a 'pattern or practice of unreasonable force,' concluding that defendant's flight from police could be explained by ' an eminently reasonable and noncriminal reason.' 38   Also in 2019, the Ninth Circuit recognized that the increase of data since Wardlow on racially disparate policing 'can inform the inferences to be drawn from an individual who decides to step away, run, or flee from police without a clear reason to do otherwise.' 39"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 561.697,
+            "r": 475.823,
+            "b": 420.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            914
+          ]
+        }
+      ],
+      "orig": "Relatedly, based on similar empirical data, several courts recognize that an individual's race is relevant to when they have been 'seized' by police. In 2022, the Washington Supreme Court 'formally recognize[d] what has always been true: in interactions with law enforcement, race and ethnicity matter,' holding that courts  must consider race when determining whether that individual has been seized by law enforcement. 40 New Hampshire's highest court also held that 'race is an appropriate circumstance to consider in conducting the totality of the circumstances seizure analysis.' 41  Federal circuit courts are in conflict: the Ninth and  D.C.  Circuit  have  held  that  a  defendant's  race  can  inform  the  seizure analysis, 42  but the Tenth and Eleventh Circuits exclude consideration of race in the seizure analysis, arguing that doing so would transform an objective inquiry into a subjective one. 43",
+      "text": "Relatedly, based on similar empirical data, several courts recognize that an individual's race is relevant to when they have been 'seized' by police. In 2022, the Washington Supreme Court 'formally recognize[d] what has always been true: in interactions with law enforcement, race and ethnicity matter,' holding that courts  must consider race when determining whether that individual has been seized by law enforcement. 40 New Hampshire's highest court also held that 'race is an appropriate circumstance to consider in conducting the totality of the circumstances seizure analysis.' 41  Federal circuit courts are in conflict: the Ninth and  D.C.  Circuit  have  held  that  a  defendant's  race  can  inform  the  seizure analysis, 42  but the Tenth and Eleventh Circuits exclude consideration of race in the seizure analysis, arguing that doing so would transform an objective inquiry into a subjective one. 43"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 417.667,
+            "r": 475.637,
+            "b": 372.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            321
+          ]
+        },
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 327.087,
+            "r": 475.412,
+            "b": 267.568,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            322,
+            814
+          ]
+        }
+      ],
+      "orig": "Yet  in  the  decades  since Wardlow, research  confirms  an  entrenched  false association between  Blackness  and  criminality  which  profoundly  affects policing, 44   and  empirical  evidence  demonstrates  that  interacting  with  law enforcement  is  more  dangerous  for  Black  men  than  for  other  demographic finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop. Any citizens become nervous during a traffic stop, even when they have nothing to hide or fear. ' ); State v. Andrade-Reyes , 442 P.3d 111, 115, 119 (Kan. 2019) (rejecting a finding of reasonable suspicion where lower courts inappropriately  relied  upon  the  defendant ' appear[ing]  startled ' when  approached  by  an officer in a high-crime area).",
+      "text": "Yet  in  the  decades  since Wardlow, research  confirms  an  entrenched  false association between  Blackness  and  criminality  which  profoundly  affects policing, 44   and  empirical  evidence  demonstrates  that  interacting  with  law enforcement  is  more  dangerous  for  Black  men  than  for  other  demographic finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop. Any citizens become nervous during a traffic stop, even when they have nothing to hide or fear. ' ); State v. Andrade-Reyes , 442 P.3d 111, 115, 119 (Kan. 2019) (rejecting a finding of reasonable suspicion where lower courts inappropriately  relied  upon  the  defendant ' appear[ing]  startled ' when  approached  by  an officer in a high-crime area)."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 149.08,
+            "t": 264.48800000000006,
+            "r": 259.85,
+            "b": 255.81600000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "38 Horton , 142 N.E.3d at 868.",
+      "text": "38 Horton , 142 N.E.3d at 868."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 149.08,
+            "t": 252.98800000000006,
+            "r": 382.9,
+            "b": 244.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "39 United States v. Brown, 925 F.3d 1150, 1156 (9th Cir. 2019).",
+      "text": "39 United States v. Brown, 925 F.3d 1150, 1156 (9th Cir. 2019)."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 149.08,
+            "t": 241.48800000000006,
+            "r": 319.517,
+            "b": 232.81799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "40 State v. Sum, 511 P.3d 92, 97 (Wash. 2022).",
+      "text": "40 State v. Sum, 511 P.3d 92, 97 (Wash. 2022)."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 149.08,
+            "t": 229.98800000000006,
+            "r": 330.63,
+            "b": 221.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "41 State v. Jones, 235 A.3d 119, 126 (N.H. 2020).",
+      "text": "41 State v. Jones, 235 A.3d 119, 126 (N.H. 2020)."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 218.48800000000006,
+            "r": 475.402,
+            "b": 189.038,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "42 United States v. Washington, 490 F.3d 765, 773-74 (9th Cir. 2007); Dozier v. United States, 220 A.3d 933, 944 (D.C. 2019); United States v. Smith, 794 F.3d 681, 688 (7th Cir. 2015).",
+      "text": "42 United States v. Washington, 490 F.3d 765, 773-74 (9th Cir. 2007); Dozier v. United States, 220 A.3d 933, 944 (D.C. 2019); United States v. Smith, 794 F.3d 681, 688 (7th Cir. 2015)."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 186.20799999999997,
+            "r": 475.33,
+            "b": 167.038,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "43 United States v. Easley , 911 F.3d 1074, 1082 (10th Cir. 2018); United States v. Knights, 989 F.3d 1281, 1288-89 (11th Cir. 2021).",
+      "text": "43 United States v. Easley , 911 F.3d 1074, 1082 (10th Cir. 2018); United States v. Knights, 989 F.3d 1281, 1288-89 (11th Cir. 2021)."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 164.20799999999997,
+            "r": 475.311,
+            "b": 145.28600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "44 See generally Bennet Capers, Criminal Procedure and the Good Citizen , 118 COLUM. L. REV. 663 (2018); Elizabeth A. Gaynes, The Urban Criminal Justice System: Where Young",
+      "text": "44 See generally Bennet Capers, Criminal Procedure and the Good Citizen , 118 COLUM. L. REV. 663 (2018); Elizabeth A. Gaynes, The Urban Criminal Justice System: Where Young"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 139.05,
+            "t": 142.54600000000005,
+            "r": 401.18,
+            "b": 134.78600000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "+ Black + Male = Probable Cause , 20 FORDHAM URB. L. J. 621 (1993).",
+      "text": "+ Black + Male = Probable Cause , 20 FORDHAM URB. L. J. 621 (1993)."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 149.55,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "66",
+      "text": "66"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 202.08,
+            "t": 707.257,
+            "r": 475.825,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59",
+      "text": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.78,
+            "b": 468.636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1442
+          ]
+        }
+      ],
+      "orig": "groups. 45  One study concluded that police use lethal violence more frequently in areas with higher African-American and Latinx populations. 46  Upon analyzing 990  shooting  incidents  from  the Washington  Post's national  police  shooting database, 'Fatal Force,' another study concluded thateven after controlling for  variables  like  age,  mental  illness,  crime  severity,  and  jurisdiction  size -Black individuals were more than twice as likely as white individuals to have been  unarmed  when  killed  by  police. 47   Relative  to  their  White  peers,  Black citizens are more often stopped by police, subject to the use of force, and viewed by officers as posing a safety threat. 48  A third study of police-civilian encounters indicates that officers aimed or shot a gun at Black individuals at eight times the rate of white individuals, and threatened force or engaged in physical contact against Black individuals at four times the rate of white individuals. 49  More than two decades ago, a Massachusetts court explained that 'historically . . . [B]lacks who have walked, run, or raced away from inquisitive police officers have ended up  beaten  and  battered  a nd  sometimes  dead.' 50 It  is  thus  not  surprising  that 'Black people often tread more carefully around law enforcement,' 51  reasonably believing based on 'pervasive' and 'persuasive' evidence, that 'contact with the police can itself be dangerous.' 52",
+      "text": "groups. 45  One study concluded that police use lethal violence more frequently in areas with higher African-American and Latinx populations. 46  Upon analyzing 990  shooting  incidents  from  the Washington  Post's national  police  shooting database, 'Fatal Force,' another study concluded thateven after controlling for  variables  like  age,  mental  illness,  crime  severity,  and  jurisdiction  size -Black individuals were more than twice as likely as white individuals to have been  unarmed  when  killed  by  police. 47   Relative  to  their  White  peers,  Black citizens are more often stopped by police, subject to the use of force, and viewed by officers as posing a safety threat. 48  A third study of police-civilian encounters indicates that officers aimed or shot a gun at Black individuals at eight times the rate of white individuals, and threatened force or engaged in physical contact against Black individuals at four times the rate of white individuals. 49  More than two decades ago, a Massachusetts court explained that 'historically . . . [B]lacks who have walked, run, or raced away from inquisitive police officers have ended up  beaten  and  battered  a nd  sometimes  dead.' 50 It  is  thus  not  surprising  that 'Black people often tread more carefully around law enforcement,' 51  reasonably believing based on 'pervasive' and 'persuasive' evidence, that 'contact with the police can itself be dangerous.' 52"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 465.677,
+            "r": 475.404,
+            "b": 432.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "Within  t his  excruciating  context,  Mr.  Washington's  argument  that  he  fled police because he feared a police interaction, and therefore that this flight should not generate criminal suspicion, is convincing.",
+      "text": "Within  t his  excruciating  context,  Mr.  Washington's  argument  that  he  fled police because he feared a police interaction, and therefore that this flight should not generate criminal suspicion, is convincing."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 379.538,
+            "r": 475.45,
+            "b": 350.338,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "45 See Brandon Hasbrouck, The Unconstitutional Police , 56 HARV. C.R.-C.L. L. REV. 239, 253 (2021). See generally MICHELLE ALEXANDER, THE NEW JIM CROW: MASS INCARCERATION IN THE AGE OF COLORBLINDNESS (New Press, 2010).",
+      "text": "45 See Brandon Hasbrouck, The Unconstitutional Police , 56 HARV. C.R.-C.L. L. REV. 239, 253 (2021). See generally MICHELLE ALEXANDER, THE NEW JIM CROW: MASS INCARCERATION IN THE AGE OF COLORBLINDNESS (New Press, 2010)."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 347.508,
+            "r": 475.443,
+            "b": 318.088,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "46 For the full study, see generally Ronald Helms & S.E. Costanza, Contextualizing Race: A Conceptual and Empirical Study of Fatal Interactions with Police Across US Counties , 18 J. ETHNICITY CRIM. JUST. 43 (2019).",
+      "text": "46 For the full study, see generally Ronald Helms & S.E. Costanza, Contextualizing Race: A Conceptual and Empirical Study of Fatal Interactions with Police Across US Counties , 18 J. ETHNICITY CRIM. JUST. 43 (2019)."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 315.258,
+            "r": 475.45,
+            "b": 296.086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "47 Nix et al., supra note 7, at 309, 325-26, 328-29 (analyzing 2015 data from Fatal Force , supra note 30).",
+      "text": "47 Nix et al., supra note 7, at 309, 325-26, 328-29 (analyzing 2015 data from Fatal Force , supra note 30)."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 293.258,
+            "r": 475.376,
+            "b": 253.56799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            320
+          ]
+        }
+      ],
+      "orig": "48 Rory Kramer & Brianna Remster, Stop, Frisk, and Assault? Racial Disparities in Police Use of Force During Investigatory Stops , 52 LAW & SOC ' Y REV. 960, 982 (2018) (showing that Black civilians were more likely than White civilians to experience lethal force even when police did not uncover any criminal behavior).",
+      "text": "48 Rory Kramer & Brianna Remster, Stop, Frisk, and Assault? Racial Disparities in Police Use of Force During Investigatory Stops , 52 LAW & SOC ' Y REV. 960, 982 (2018) (showing that Black civilians were more likely than White civilians to experience lethal force even when police did not uncover any criminal behavior)."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 250.73800000000006,
+            "r": 475.375,
+            "b": 221.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "49 ERIKA HARRELL & ELIZABETH DAVIS, BUREAU OF JUST. STATS., U.S. DEP ' T OF JUSTICE, CONTACTS  BETWEEN  POLICE  AND  THE  PUBLIC,  2018 -STATISTICAL  TABLES,  at  3,  7  (last updated Feb. 3, 2023).",
+      "text": "49 ERIKA HARRELL & ELIZABETH DAVIS, BUREAU OF JUST. STATS., U.S. DEP ' T OF JUSTICE, CONTACTS  BETWEEN  POLICE  AND  THE  PUBLIC,  2018 -STATISTICAL  TABLES,  at  3,  7  (last updated Feb. 3, 2023)."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 218.48800000000006,
+            "r": 475.432,
+            "b": 168.288,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            373
+          ]
+        }
+      ],
+      "orig": "50 Commonwealth v. Hart, 695 N.E.2d 226, 228 (Mass. App. Ct. 1998). See also, e.g. , U.S. DEP ' T OF JUST., INVESTIGATION OF THE CHICAGO POLICE DEPARTMENT 146-47 (Jan. 13, 2017); DOJ, BALTIMORE POLICE INVESTIGATION, supra note 5, at 79, 95; Rob Voigt et al., Language from Police Body Camera Footage Shows Racial Disparities in Officer Respect , 114 PNAS 6521, 6521 (2017).",
+      "text": "50 Commonwealth v. Hart, 695 N.E.2d 226, 228 (Mass. App. Ct. 1998). See also, e.g. , U.S. DEP ' T OF JUST., INVESTIGATION OF THE CHICAGO POLICE DEPARTMENT 146-47 (Jan. 13, 2017); DOJ, BALTIMORE POLICE INVESTIGATION, supra note 5, at 79, 95; Rob Voigt et al., Language from Police Body Camera Footage Shows Racial Disparities in Officer Respect , 114 PNAS 6521, 6521 (2017)."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 139.05,
+            "t": 165.45799999999997,
+            "r": 475.232,
+            "b": 146.538,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "51 United  States  v.  Knights,  989  F.3d  1281,  1297  (11th  Cir.  2021)  (Rosenbaum,  J., concurring).",
+      "text": "51 United  States  v.  Knights,  989  F.3d  1281,  1297  (11th  Cir.  2021)  (Rosenbaum,  J., concurring)."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 149.08,
+            "t": 143.45799999999997,
+            "r": 420.17,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "52 Illinois v. Wardlow, 528 U.S. 119, 132 (2000) (Stevens, J., concurring).",
+      "text": "52 Illinois v. Wardlow, 528 U.S. 119, 132 (2000) (Stevens, J., concurring)."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 163.577,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "2023]",
+      "text": "2023]"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 229.6,
+            "t": 707.257,
+            "r": 381.275,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "REASONABLE, YET SUSPICIOUS",
+      "text": "REASONABLE, YET SUSPICIOUS"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 462.7,
+            "t": 707.247,
+            "r": 475.825,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "67",
+      "text": "67"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 202.83,
+            "t": 681.727,
+            "r": 412.045,
+            "b": 672.686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "IV. FLIGHT FROM POLICE IS (STILL) SUSPICIOUS",
+      "text": "IV. FLIGHT FROM POLICE IS (STILL) SUSPICIOUS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 665.727,
+            "r": 475.425,
+            "b": 632.686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "orig": "Individuals  have  the  constitutional  right  to  ignore  police.  Empirical  data suggests that young Black men have legitimate reason to fear police interactions. And yet, the third truth: flight from police contributes to reasonable suspicion.",
+      "text": "Individuals  have  the  constitutional  right  to  ignore  police.  Empirical  data suggests that young Black men have legitimate reason to fear police interactions. And yet, the third truth: flight from police contributes to reasonable suspicion."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 629.737,
+            "r": 475.679,
+            "b": 488.636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            943
+          ]
+        }
+      ],
+      "orig": "On the one hand, Washington ex plicitly recognizes that 'the circumstance that people, particularly young African American men, may flee police for innocent reasons  may  be  considered  in  the  Fourth  Amendment  reasonable  suspicion calculus.' 53  This acknowledgment that flight from police may be innocent, and even be reasonable, is a major step towards reducing reliance on a person's flight to justify a police intervention. On the other hand, the court was persuaded that Mr. Washington's flight  from police in a high-crime neighborhood supported reasonable  suspicion,  emphasizing  that  his  flight  was  'headlong,  completely unprovoked, simultaneously with the other individual standing near him in the alley.' 54  In other words, the court found that flight is reasonable for young Black men in Baltimore, and generally shouldn't be given weight in the reasonable suspicion calculus, but it was suspicious for Mr. Washington.",
+      "text": "On the one hand, Washington ex plicitly recognizes that 'the circumstance that people, particularly young African American men, may flee police for innocent reasons  may  be  considered  in  the  Fourth  Amendment  reasonable  suspicion calculus.' 53  This acknowledgment that flight from police may be innocent, and even be reasonable, is a major step towards reducing reliance on a person's flight to justify a police intervention. On the other hand, the court was persuaded that Mr. Washington's flight  from police in a high-crime neighborhood supported reasonable  suspicion,  emphasizing  that  his  flight  was  'headlong,  completely unprovoked, simultaneously with the other individual standing near him in the alley.' 54  In other words, the court found that flight is reasonable for young Black men in Baltimore, and generally shouldn't be given weight in the reasonable suspicion calculus, but it was suspicious for Mr. Washington."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 485.677,
+            "r": 475.829,
+            "b": 416.613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            454
+          ]
+        }
+      ],
+      "orig": "Indeed, the majority concedes that Mr. Washington was engaged in wholly innocuous conduct prior to their pursuit, and detectives pursued him because he fled in a high-crime area without provocation, without having  a prior 'particularized and objective basis' to suspect him of criminal wrongdoing. 55 Therefore, while the court states that it  is applying Wardlow to make flight a factor for reasonable suspicion, it is seemingly applying a per se rule.",
+      "text": "Indeed, the majority concedes that Mr. Washington was engaged in wholly innocuous conduct prior to their pursuit, and detectives pursued him because he fled in a high-crime area without provocation, without having  a prior 'particularized and objective basis' to suspect him of criminal wrongdoing. 55 Therefore, while the court states that it  is applying Wardlow to make flight a factor for reasonable suspicion, it is seemingly applying a per se rule."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 413.657,
+            "r": 475.811,
+            "b": 332.583,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            566
+          ]
+        }
+      ],
+      "orig": "Some courts have accepted that young Black men in particular are more likely to exhibit 'nervous'  or  'evasive' behaviors, considering the signific ant empirical data confirming that Black Americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of force by police. The First,  Fifth,  Sixth,  Eighth,  Ninth,  and  Tenth  Circuits  have  held  that  general nervousness, re gardless of an individual's race, is 'of limited value in assessing reasonable suspicion' and/or is so common that it cannot justify a Terry stop. 56",
+      "text": "Some courts have accepted that young Black men in particular are more likely to exhibit 'nervous'  or  'evasive' behaviors, considering the signific ant empirical data confirming that Black Americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of force by police. The First,  Fifth,  Sixth,  Eighth,  Ninth,  and  Tenth  Circuits  have  held  that  general nervousness, re gardless of an individual's race, is 'of limited value in assessing reasonable suspicion' and/or is so common that it cannot justify a Terry stop. 56"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 149.08,
+            "t": 302.508,
+            "r": 368.4,
+            "b": 293.838,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "53 Washington v. Maryland, 287 A.3d 301, 316 (Md. 2022).",
+      "text": "53 Washington v. Maryland, 287 A.3d 301, 316 (Md. 2022)."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 290.758,
+            "r": 475.45,
+            "b": 261.568,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "54 Id. at  325  ( ' [I]t  is  still  as  accurate  today  as  it  was  when  the  Supreme  Court  issued Wardlow in 2000 that people flee from police officers for reasons associated with involvement in criminal activity. ' ).",
+      "text": "54 Id. at  325  ( ' [I]t  is  still  as  accurate  today  as  it  was  when  the  Supreme  Court  issued Wardlow in 2000 that people flee from police officers for reasons associated with involvement in criminal activity. ' )."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 258.48800000000006,
+            "r": 475.229,
+            "b": 229.31799999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            253
+          ]
+        }
+      ],
+      "orig": "55 Id. at 340 (Hotten, J., dissenting). Maryland argued that the Fourth Amendment does not require officers to ' rule out a suspect ' s  innocent explanation for suspicious facts. ' Id. (citing District of Columbia v. Wesby, 138 S. Ct. 577, 588 (2018)).",
+      "text": "55 Id. at 340 (Hotten, J., dissenting). Maryland argued that the Fourth Amendment does not require officers to ' rule out a suspect ' s  innocent explanation for suspicious facts. ' Id. (citing District of Columbia v. Wesby, 138 S. Ct. 577, 588 (2018))."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 139.05,
+            "t": 226.23800000000006,
+            "r": 475.407,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            781
+          ]
+        }
+      ],
+      "orig": "56 United  States  v.  Simpson,  609  F.3d  1140,  1147  (10th  Cir.  2010);  United  States  v. McKoy, 428 F.3d 38, 40 (1st Cir. 2005) ( ' [N]ervousness is a common and entirely natural reaction to police presence . . . . ' ); United States v. Richardson, 385 F.3d 625, 630-31 (6th Cir. 2004) ( ' [A]lthough nervousness has been considered in finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop. ' );  United States v. Portillo-Aguirre, 311 F.3d 647, 656 n.49 (5th Cir. 2002) (same); United States v. Jones, 269 F.3d 919, 929 (8th Cir. 2001) (same); United States v. Chavez Valenzuela, 268 F.3d 719, 726 (9th Cir. 2001) (same); United States v. Brown, 188 F.3d 860, 865 (7th Cir. 1999) (same).",
+      "text": "56 United  States  v.  Simpson,  609  F.3d  1140,  1147  (10th  Cir.  2010);  United  States  v. McKoy, 428 F.3d 38, 40 (1st Cir. 2005) ( ' [N]ervousness is a common and entirely natural reaction to police presence . . . . ' ); United States v. Richardson, 385 F.3d 625, 630-31 (6th Cir. 2004) ( ' [A]lthough nervousness has been considered in finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop. ' );  United States v. Portillo-Aguirre, 311 F.3d 647, 656 n.49 (5th Cir. 2002) (same); United States v. Jones, 269 F.3d 919, 929 (8th Cir. 2001) (same); United States v. Chavez Valenzuela, 268 F.3d 719, 726 (9th Cir. 2001) (same); United States v. Brown, 188 F.3d 860, 865 (7th Cir. 1999) (same)."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 139.05,
+            "t": 707.247,
+            "r": 149.55,
+            "b": 698.206,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "68",
+      "text": "68"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 202.08,
+            "t": 707.257,
+            "r": 475.825,
+            "b": 698.203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59",
+      "text": "BOSTON UNIVERSITY LAW REVIEW ONLINE [Vol. 103:59"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 139.05,
+            "t": 681.727,
+            "r": 475.523,
+            "b": 648.686,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "Yet despite research showing that nervousness is a reasonable response for those routinely policed, other c ourts continue to rely on 'shifty eyes, shaking hands, and trembling body' as providing the facts required for reasonable suspicion. 57",
+      "text": "Yet despite research showing that nervousness is a reasonable response for those routinely policed, other c ourts continue to rely on 'shifty eyes, shaking hands, and trembling body' as providing the facts required for reasonable suspicion. 57"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 139.05,
+            "t": 645.727,
+            "r": 475.825,
+            "b": 576.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            439
+          ]
+        }
+      ],
+      "orig": "Because  the  Supreme  Court  rejects  a  'divide  and  conquer'  approach, individual  factors,  each  innocuous  alone,  can  together  support  a  finding  of reasonable suspicion. 58  In Washington , the Maryland Supreme Court recognized that Mr. Washington's flight from police could be a fear -based response, while simultaneously holding that his 'unprovoked flight' from police in a high -crime area satisfied reasonable suspicion.",
+      "text": "Because  the  Supreme  Court  rejects  a  'divide  and  conquer'  approach, individual  factors,  each  innocuous  alone,  can  together  support  a  finding  of reasonable suspicion. 58  In Washington , the Maryland Supreme Court recognized that Mr. Washington's flight from police could be a fear -based response, while simultaneously holding that his 'unprovoked flight' from police in a high -crime area satisfied reasonable suspicion."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 278.13,
+            "t": 561.697,
+            "r": 336.775,
+            "b": 552.656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "CONCLUSION",
+      "text": "CONCLUSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 139.05,
+            "t": 545.697,
+            "r": 475.811,
+            "b": 392.616,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            980
+          ]
+        }
+      ],
+      "orig": "Flight  from  police may be the reasonable response of Black men like Mr. Washington and other people who are disproportionately affected by policing, and therefore flight should typically receive minimal weight in the reasonable suspicion  analysis.  But  the  paradox  of  flight  from  police  as  it  relates  to reasonable suspicion for police intervention is emblematic of a larger problem. Courts must critically evaluate police assertions of suspicious behaviors that are often  ambiguous,  such  as  those  exhibited  by  Mr.  Washington.  For  example, courts  could  interrogate  seemingly  facially  race-neutral  reasoning  of  police officers,  because  of  empirical  evidence  that  this  reasoning  leads  to  racially disparate results. Without such intervention, Terry's requirement of particularized suspicion will further erode, and we will continue to provide less Fourth  Amendment  protection to those  who  live  in  the most heavily  policed communities.",
+      "text": "Flight  from  police may be the reasonable response of Black men like Mr. Washington and other people who are disproportionately affected by policing, and therefore flight should typically receive minimal weight in the reasonable suspicion  analysis.  But  the  paradox  of  flight  from  police  as  it  relates  to reasonable suspicion for police intervention is emblematic of a larger problem. Courts must critically evaluate police assertions of suspicious behaviors that are often  ambiguous,  such  as  those  exhibited  by  Mr.  Washington.  For  example, courts  could  interrogate  seemingly  facially  race-neutral  reasoning  of  police officers,  because  of  empirical  evidence  that  this  reasoning  leads  to  racially disparate results. Without such intervention, Terry's requirement of particularized suspicion will further erode, and we will continue to provide less Fourth  Amendment  protection to those  who  live  in  the most heavily  policed communities."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 149.08,
+            "t": 175.70799999999997,
+            "r": 416.93,
+            "b": 167.038,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "57 United States v. Brigham, 382 F.3d 500, 509 (5th Cir. 2004) (en banc).",
+      "text": "57 United States v. Brigham, 382 F.3d 500, 509 (5th Cir. 2004) (en banc)."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 139.05,
+            "t": 164.20799999999997,
+            "r": 475.209,
+            "b": 134.788,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "58 United States v. Arvizu, 534 U.S. 266, 274 (2002) (rejecting a ' divide-and-conquer ' approach of analyzing reasonable suspicion factors in isolation from each other instead of weighing them together).",
+      "text": "58 United States v. Arvizu, 534 U.S. 266, 274 (2002) (rejecting a ' divide-and-conquer ' approach of analyzing reasonable suspicion factors in isolation from each other instead of weighing them together)."
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 10
+    }
+  }
+}

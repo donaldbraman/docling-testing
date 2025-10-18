@@ -3,10 +3,10 @@
   "journal": "Virginia Law Review",
   "extraction_method": "positive_inclusion",
   "stats": {
-    "total_paragraphs": 95,
+    "total_paragraphs": 221,
     "body_text": 33,
-    "footnote_text": 62,
-    "total_words": 13234
+    "footnote_text": 188,
+    "total_words": 17640
   },
   "paragraphs": [
     {
@@ -15,9 +15,9 @@
       "word_count": 87
     },
     {
-      "text": "This Article demonstrates—for the first time—that at least one such power exists: the power to charter corporations. Trillions of dollars circulate through the federal corporate form. Yet scholars often assume that the Constitution has nothing to say about corporations. The doctrine of federal incorporation, meanwhile, is confused: courts analogize federal corporations to state corporations or federal agencies, despite obvious inconsistencies, or avoid them altogether. As this Article demonstrates, however, the Framers understood the power to charter corporations as an independent power with its own prerogatives and limits, and there was little doubt about the power’s constitutionality following ratification. In fact, as this Article shows, the Marshall Court constructed doctrine defining this preexisting power across three cases— Trustees of Dartmouth College v. Woodward , McCulloch v. Maryland , and Osborn v. Bank of the United States — establishing an independent threshold for the creation of federal corporations: “constitutional” purpose. Congress has effectively relied on this tacit, but independent, legal power for over two centuries.",
+      "text": "This Article demonstrates—for the first time—that at least one such power exists: the power to charter corporations. Trillions of dollars circulate through the federal corporate form. Yet scholars often assume that the Constitution has nothing to say about corporations. The doctrine of federal incorporation, meanwhile, is confused: courts analogize federal corporations to state corporations or federal agencies, despite obvious inconsistencies, or avoid them altogether. As this Article demonstrates, however, the Framers understood the power to charter corporations as an independent power with its own prerogatives and limits, and there was little doubt about the power’s constitutionality following ratification. In fact, as this Article shows, the Marshall Court constructed doctrine defining this preexisting power across three cases—Trustees of Dartmouth College v. Woodward,McCulloch v. Maryland, andOsborn v. Bank of the United States— establishing an independent threshold for the creation of federal corporations: “constitutional” purpose. Congress has effectively relied on this tacit, but independent, legal power for over two centuries.",
       "label": "body-text",
-      "word_count": 163
+      "word_count": 157
     },
     {
       "text": "This Article provides the first comprehensive account of the doctrine of federal incorporation and its current use, as well as an index of all federal corporations from the Founding to the present. In addition, this Article makes two important interventions. First, by clarifying the legal basis of federal incorporation, the existence of the charter power may offer alternative rationales for the constitutionality of federal legislation, alternatives to existing constructions of administrative law, and a coherent way to analyze large transactions which currently defy categorization. Second, as the current Court considers whether to invalidate existing jurisprudence which endorses “implied” rights, the existence of the charter power cuts against the theoretical case for doing so. Challenging the presumption against the legitimacy of unenumerated powers and rights, the charter power demonstrates that, in at least one case, a “silent” power is concrete, constrained, and original.",
@@ -30,84 +30,84 @@
       "word_count": 1
     },
     {
-      "text": "This Article shows that Congress has an independent constitutional power to charter corporations. Because the word “corporation” is not in the Constitution, scholars have generally overlooked this power. 1 1. See Erwin Chemerinsky, Constitutional Law 120–21, 155, 1846 (6th ed. 2020) (discussing McCulloch v. Maryland but containing no index entry for “corporation” as it relates to Congress); Geoffrey R. Stone, Louis Michael Seidman, Cass R. Sunstein, Mark V. Tushnet & Pamela S. Karlan, Constitutional Law 66–68, 1644 (8th ed. 2018) (discussing McCulloch v. Maryland but containing no index entry for “corporation”); see also Randy E. Barnett & Josh Blackman, Constitutional Law: Cases in Context 116, 1768 (3d ed. 2018) (mentioning a “power of incorporation” in passing in reference to McCulloch but containing no index entry for “corporation”); Paul Brest, Sanford Levinson, Jack M. Balkin, Akhil Reed Amar & Reva B. Siegel, Processes of Constitutional Decisionmaking: Cases and Materials 27–28, 59, 1774 (7th ed. 2018) (focusing on “banking” but not on corporations, noting that the First and Second Banks were formed by incorporation but refraining from offering an opinion as to whether or not the power to incorporate was drafted into the Constitution, and containing no index entry for “corporation”). Show More The few that have noted the possibility of the corporate power’s existence have done so in passing, without developing why it is constitutional, describing what its legal parameters are, or explaining what it means today. 2 2. Charles Black, Jr., noted in 1969 that, in McCulloch v. Maryland , Chief Justice Marshall “decided . . . that Congress possesses the power . . . [of] chartering corporations” on bases other than the Necessary and Proper Clause. Charles L. Black, Jr., Structure and Relationship in Constitutional Law 14 (1969). Recently, scholars have stated that the corporate power exists and is constitutional but have not developed the point further. See, e.g., Nikolas Bowie, Corporate Personhood v. Corporate Statehood, 132 Harv. L. Rev. 2009, 2015 (2019) (reviewing Adam Winkler, We the Corporations: How American Businesses Won Their Civil Rights (2018)) (“Even though the U.S. Constitution didn’t mention corporations, members of all three of the federal government’s branches considered the power of incorporation such an inherent feature of sovereignty that they authorized Congress to charter corporations as the Constitution’s first implied power.”); see also Jonathan Gienapp, The Lost Constitution: The Rise and Fall of James Wilson’s and Gouverneur Morris’s Constitutionalism at the Founding 46 n.146 (Mar. 4, 2020) [hereinafter Gienapp, Lost Constitution] (unpublished manuscript) (on file with author) (“The real question . . . was whether it was politically useful to reinforce the already vested [incorporation] power through enumeration or not.” (citation omitted)); Robert J. Kaczorowski, Inherent National Sovereignty Constitutionalism: An Original Understanding of the U.S. Constitution, 101 Minn. L. Rev. 699, 701–02, 706 (2016) (describing incorporation as “one of [Congress’s] inherent sovereign powers”—evidence of a broader theory of constitutional understanding he argues existed in the early republic called “inherent national sovereignty constitutionalism”—but leaving ambiguous the scope, nature, number, independence, or possible contemporary applications of the powers that flow from this theory).As I discuss in Part II, a broad “sovereignty” argument is, on its own, insufficient to clear the hurdle of proving federal incorporation’s status as an autonomous constitutional power, not least because sovereignty itself was transformed by the change from the British to the American Constitution. Along similar lines, as I explain in Part III, the power was not “vested,” in the sense that it simply continued unabated, but had to be constructed by the Marshall Court. For the enumerated/unenumerated debate at the Founding generally, see Richard Primus, “The Essential Characteristic”: Enumerated Powers and the Bank of the United States, 117 Mich. L. Rev. 415, 417–26 (2018) [hereinafter Primus, Essential Characteristic]. Show More Some go so far as to erroneously claim that “[a]s best we can tell, the people who wrote and ratified the Constitution simply never considered whether the Constitution applied to corporations.” 3 3. Winkler, supra note 2, at 3; see also Jack N. Rakove, Original Meanings: Politics and Ideas in the Making of the Constitution 355 (1996) (arguing that James Madison’s motion at the Constitutional Convention to grant Congress a power of incorporation “obviously presumed that such authority did not yet exist elsewhere in the Constitution” and that Alexander Hamilton was “less likely to agonize over constitutional distinctions with Madison’s intensity”). Show More This oversight has left fundamentally unstable a field of law that sits at the center of American economic life. Even more importantly, it has meant that both the practical and theoretical implications of an entire constitutional power have remained unexplored.",
-      "label": "body-text",
-      "word_count": 764
-    },
-    {
-      "text": "For over two hundred years, Congress has chartered corporate entities, from the Bank of the United States to the Union Pacific Railroad, from the Reconstruction Finance Company (“RFC”) to the National Railroad Passenger Corporation (“Amtrak”), and from the Federal National Mortgage Association (“Fannie Mae”) and the Federal Home Loan Mortgage Corporation (“Freddie Mac”) to the COVID-19 bailout—trillions of dollars circulate through the federal corporate form. 4 4. See infra Appendix; infra Part I. Show More Courts and scholars do not question whether or not federal incorporation is legal as a general concern, but there is a broad and long-standing consensus that the existing law of federal corporations is dysfunctional. 5 5. See infra Part I; see, e.g., Warren M. Persons, Government Experimentation in Business, at ii, ix, 5 (1934); John McDiarmid, Government Corporations and Federal Funds 5 (1938); Annmarie Hauck Walsh, The Public’s Business: The Politics and Practices of Government Corporations 353 (1978); Harold Seidman & Robert Gilmour, Politics, Position, and Power: From the Positive to the Regulatory State 307–25 (4th ed. 1986); Francis J. Leazes, Jr., Accountability and the Business State: The Structure of Federal Corporations 3, 75 (1987); A. Michael Froomkin, Reinventing the Government Corporation, 1995 U. Ill. L. Rev. 543, 547–58; Kenneth J. Meier, Foreword to Jerry Mitchell, The American Experiment with Government Corporations, at xii (1999); Gillian E. Metzger, Privatization as Delegation, 103 Colum. L. Rev. 1367, 1370–71 (2003); Government by Contract: Outsourcing and American Democracy 3 (Jody Freeman & Martha Minow eds., 2009) [hereinafter Government by Contract]. Show More Contemporary doctrine is either inconsistent, unstable, or avoidant. 6 6. Lebron v. Nat’l R.R. Passenger Corp., 513 U.S. 374, 407–08 (1995) (O’Connor, J., dissenting) (“Despite the prevalence of publicly owned corporations, whether they are Government agencies is a question seldom answered, and then only for limited purposes.” (first citing Cherry Cotton Mills, Inc. v. United States, 327 U.S. 536, 539 (1946); and then citing Nat’l R.R. Passenger Corp. v. Atchinson, Topeka & Santa Fe Ry. Co., 470 U.S. 451, 471 (1985))); see also Froomkin, supra note 5, at 564 (“[T]he Supreme Court’s decisions relating to [federal corporations] do not follow a consistent pattern except that most of the decisions have been brief and, when taken as a group, contradictory.”). Show More In fact, the doctrine of constitutional avoidance itself emerged out of a confrontation with a federal corporation—the Tennessee Valley Authority (“TVA”)—in Ashwander v. TVA . 7 7. Ashwander v. Tenn. Valley Auth., 297 U.S. 288, 346–48 (1936) (Brandeis, J., concurring) (detailing reasons courts should avoid constitutional questions). Show More",
-      "label": "body-text",
-      "word_count": 424
-    },
-    {
-      "text": "The legal costs of leaving the law of federal incorporation incoherent are wide-ranging and systemically significant. Among other problems, this incoherence contributed to the fallout from the 2008 financial crisis: not only did federal incorporation imply federal backing which, in turn, encouraged financial institutions to incorrectly price mortgage-backed securities, but the lack of clear legal rules governing this area of law also exacerbated the failure of public confidence in government that followed. 8 8. Additional problems are discussed later in the Introduction and in Section I.B. For discussion of the financial crisis, see infra Paragraph I.B.2.i. For a discussion on mortgages, see Jacobs v. Fed. Hous. Fin. Agency, 908 F.3d 884, 887 (3d Cir. 2018). It is important to note that federal incorporation was on both sides of the financial crisis: the federal takeover of General Motors transformed General Motors into a federal corporation because over fifty percent of the stock was held by the federal government. See 28 U.S.C. § 1349. For a discussion of the problems associated with the legality of the bailout, see Dennis K. Berman, Debating the Legality of the Bailout, Wall St. J., https://www.wsj.com/articles/SB100014240‌52748703471904576003880475807692 (last updated Dec. 7, 2010, 12:01 AM) (reporting on a bipartisan conference at Stanford Law School in 2010 on the Constitution and the 2008–2009 bailout); David Zaring, Litigating the Financial Crisis, 100 Va. L. Rev. 1405, 1406–08 (2014). Show More",
-      "label": "body-text",
-      "word_count": 229
-    },
-    {
-      "text": "As a matter of constitutional theory, the costs are arguably even greater. In overturning Roe v. Wade , the Court’s recent case law has raised the stakes of the perennial contest over whether constitutional law should recognize unenumerated rights and powers and on what basis. 9 9. Dobbs v. Jackson Women’s Health Org., 142 S. Ct. 2228, 2242 (2022); see Jeannie Suk Gersen, If Roe v. Wade Is Overturned, What’s Next?, New Yorker (Apr. 17, 2022), https://w‌ww.newyorker.com/magazine/2022/04/25/if-roe-v-wade-is-overturned-whats-next [hereinafter Gersen, Roe ]. Show More Thanks to the Ninth Amendment, no one formally disputes the possible existence of unenumerated rights—even Robert Bork’s famous “ink blot” statement about the Ninth Amendment conceded, hypothetically, that unenumerated rights might exist. 10 10. Nomination of Robert H. Bork to Be Associate Justice of the Supreme Court of the United States: Hearings Before the S. Comm. on the Judiciary, 100th Cong. 249 (1987) [hereinafter Bork Nomination] (statement of Hon. Robert H. Bork). The Ninth Amendment, of course, expressly contemplates unenumerated rights. U.S. Const. amend. IX. Importantly, powers are less limited by constitutional text than scholars often assume: Congress overwhelmingly voted against attaching “expressly” to “delegated” in the Tenth Amendment, clearly rejecting the Articles of Confederation’s prior restriction, by a vote of 32-17. U.S. Const. amend. X; 1 Annals of Cong. 797 (1789) (Joseph Gales ed., 1834); see also John Mikhail, Fixing Implied Constitutional Powers in the Founding Era, 34 Const. Comment. 507, 513 (2019) (reviewing Jonathan Gienapp, The Second Creation: Fixing the American Constitution in the Founding Era (2018) [hereinafter Gienapp, Second Creation]) (arguing that several states ratified the Constitution without amendment because they understood the Constitution to contain implied powers).Scholars have long considered the possibility of unenumerated constitutionalism as a matter of general inquiry. See Black, supra note 2, at 7–8; Thomas C. Grey, Do We Have an Unwritten Constitution?, 27 Stan. L. Rev. 703, 703–05 (1975); Laurence H. Tribe, The Invisible Constitution, at xx (2008); Akhil Reed Amar, America’s Unwritten Constitution: The Precedents and Principles We Live By, at ix–xvi (2012); Farah Peterson, Constitutionalism in Unexpected Places, 106 Va. L. Rev. 559, 562 (2020). Show More And for much of the twentieth century, the expansion of Commerce Clause doctrine hardly made the search for more congressional power—enumerated or otherwise—seem urgent. 11 11. See infra Subsection IV.A.3. Show More Yet the relative absence of examples of unenumerated rights or powers that are not so heavily politicized has long cast a shadow over even those unenumerated rights and legislative or executive prerogatives that have, for long stretches of time, been doctrinally stable. 12 12. See John Hart Ely, The Wages of Crying Wolf: A Comment on Roe v. Wade , 82 Yale L.J. 920, 935–37 (1973); see also Roe v. Wade, 410 U.S. 113, 174–76 (1973) (Rehnquist, J., dissenting) (comparing Roe to Lochner v. New York , 198 U.S. 45, 74 (1905)); Brief for Petitioners at 1, Dobbs , 142 S. Ct. 2228 (No. 19-1392) (arguing that “nothing in constitutional text, structure, history, or tradition supports a right to abortion”). For further evidence of the shadow that hangs over the idea of unenumerated constitutionalism, see infra Section IV.B. Show More While this disfavor has most visibly affected rights, there are signs that it has affected congressional power as well. 13 13. See, e.g., NFIB v. Sebelius, 567 U.S. 519, 533–35 (2012); United States v. Lopez, 514 U.S. 549, 567–68 (1995); see also Andrew Coan & David S. Schwartz, The Original Meaning of Enumerated Powers, 109 Iowa L. Rev. 971, 973–75 (2024) (surveying the landscape of recent Supreme Court jurisprudence for why “enumerationism lies around like a loaded weapon, potentially threatening a broad range of federal environmental, civil-rights, public-health, wage-and-hour, and workplaceand consumer-safety regulations” (citations omitted)). In other words, while the distinction between rights and powers matters in many contexts, to the extent that such a presumption encompasses both, it is immaterial. See infra Subsection IV.B.3. Show More",
-      "label": "body-text",
-      "word_count": 650
-    },
-    {
-      "text": "In recent years, scholars have discussed and debated unenumerated constitutional law in two ways. 14 14. For further discussion of the debate over unenumerated rights and how it fits into the problem of unenumerated law generally, see infra Section IV.B. Show More There is a growing school of thought that argues that it is a mistake to understand the Constitution as one of “enumerated powers.” 15 15. See Coan & Schwartz, supra note 13, at 974–75; Robert J. Reinstein, The Aggregate and Implied Powers of the United States, 69 Am. U. L. Rev. 3, 7 (2019); Primus, Essential Characteristic, supra note 2, at 417–26; John Mikhail, Fixing the Constitution’s Implied Powers, Balkinization (Oct. 25, 2018), https://balkin.blogspot.com/2018/10/fixing-constitutio‌ns-implied-powers.html [https://perma.cc/MFB5-KYK6]; Andrew Coan, Implementing Enumeration, 57 Wm. & Mary L. Rev. 1985, 1989 (2016); John Mikhail, The Necessary and Proper Clauses, 102 Geo. L.J. 1045, 1047 (2014) [hereinafter Mikhail, Necessary and Proper]; Richard Primus, The Limits of Enumeration, 124 Yale L.J. 576, 580 (2014). Show More Scholars have also identified or otherwise theorized the existence of silent or unnamed “backdrops” or “conventions” in the law. 16 16. E.g., Stephen E. Sachs, Constitutional Backdrops, 80 Geo. Wash. L. Rev. 1813, 1816 (2012); Ashraf Ahmed, A Theory of Constitutional Norms, 120 Mich. L. Rev. 1361, 1364 (2022). But see Roderick M. Hills, Jr., Strategic Ambiguity and Article VII: Why the Framers Decided Not to Decide, 1 J. Am. Const. Hist. 379, 383–84 (2023) (detailing how ambiguous terms in Article VII were meant to be ambiguous and had no hidden or fixed meaning in order to reassure Federalists and Anti-Federalists alike when ratifying the Constitution). Show More Neither group, however, has articulated what a concrete, entirely “silent” constitutional power might be. 17 17. “Constructions” or “conventions” refer to authoritative ideas and lenses which solve for constitutional confusion and may have become law-like over time. They are not the same thing as silent or unenumerated powers and rights, which are understood as existing in the Constitution itself. As a result, scholars of conventions are under no burden to find silent rights or powers. Because they exist in the same family of authoritative silent concepts, however, I nevertheless include them here. For a discussion on the distinction between “constructions” and the interpretation of rights or powers, see Jack M. Balkin, The New Originalism and the Uses of History, 82 Fordham L. Rev. 641, 648–54 (2013).Critics of “enumerationism” have argued that their work has substantive contemporary implications. But they have generally relied on existing dormant clauses which broadly gesture toward federal legislative power for that content—for instance, the General Welfare Clause, the Necessary and Proper Clause, and the Preamble. Compare Coan & Schwartz, supra note 13, at 974–75, 977 (arguing that these three clauses are “most naturally read to create a federal government empowered to address all important national problems”), with Reinstein, supra note 15, at 7 (arguing that the General Welfare Clause is overbroad and that there is a four-point grouping of federal power clustered in categories that interact with the Necessary and Proper Clause but not creating a stand-alone right or power). See also Jonathan Gienapp, The Myth of the Constitutional Given: Enumeration and National Power at the Founding, 69 Am. U. L. Rev. F. 183, 193, 207 (2020) [hereinafter Gienapp, Myth] (arguing that the General Welfare Clause and the Preamble were meant to be active clauses as part of a “Wilsonian” understanding of the Constitution). Show More",
-      "label": "body-text",
-      "word_count": 570
-    },
-    {
-      "text": "This Article shows that although the word “corporation” is not in the Constitution, Congress has an independent constitutional power to charter corporations—and has since the ratification of the Constitution. Offering the first comprehensive excavation of the corporate power, I argue that like the powers to coin and tax, the corporate power is a distinct constitutional power, not a subset of the legislative power nor an administrative prerogative alone. 18 18. See infra Part III. Show More In other words, the corporate power exists independently of the Necessary and Proper Clause, the Commerce Clause, and the spending power. 19 19. See infra Part III. Show More Modern doctrinal indeterminacy and scholarly confusion about both federal corporate law and unenumerated constitutional powers and rights can be clarified by canonizing—or rather re-canonizing—the corporate power.",
+      "text": "This Article shows that Congress has an independent constitutional power to charter corporations. Because the word “corporation” is not in the Constitution, scholars have generally overlooked this power.The few that have noted the possibility of the corporate power’s existence have done so in passing, without developing why it is constitutional, describing what its legal parameters are, or explaining what it means today.Some go so far as to erroneously claim that “[a]s best we can tell, the people who wrote and ratified the Constitution simply never considered whether the Constitution applied to corporations.”This oversight has left fundamentally unstable a field of law that sits at the center of American economic life. Even more importantly, it has meant that both the practical and theoretical implications of an entire constitutional power have remained unexplored.",
       "label": "body-text",
       "word_count": 131
     },
     {
-      "text": "To demonstrate the existence of the corporate power, this Article relies on several interpretive modes of argument. 20 20. This approach is indebted to Philip Bobbitt, Constitutional Fate: Theory of the Constitution 6–8 (1982), though the arguments here do not follow his modalities exactly. Show More Part I, which is discussed further in the Introduction, describes the twentieth-century case law of federal incorporation. Proceeding chronologically, Part II builds on recent advances in historical research, showing how the corporate power was drafted into the Constitution and illuminating the early legal parameters of the corporate power. As Part II shows, contemporaneous legal sources and the transcripts of the Constitutional Convention make clear that the Framers understood federal incorporation as a distinct legal power. There was no confusion that the power to incorporate was part of another field of law. 21 21. See infra Section II.B. Show More Further, the fact that the word “corporation” was left out of the Constitution did not mean that the power was legally absent. Scholars have sometimes taken this omission to signal that the possibility of a corporate power was rejected. 22 22. See Rakove, supra note 3, at 355 (describing as authoritative Madison’s argument that the power was rejected); Brest et al., supra note 1, at 27–28 (leaving open the question of whether the power was rejected or not for pedagogical reasons); cf. Winkler, supra note 2, at 3–5 (arguing that, while corporations influenced the Framers, the Framers never considered whether the Constitution applied to corporations). Show More But as the Framers discussed themselves, they had specific reasons to omit the word for this corporate power. 23 23. 2 The Records of the Federal Convention of 1787, at 615–16 (Max Farrand ed., 1911) [hereinafter Farrand]; see also 3 Farrand, supra, at 375–76 (describing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying should the power to charter corporations be included). Show More At the time the Constitution was drafted, anti-monopoly sentiment was high. 24 24. See infra Sections II.A–B. Show More The political climate meant that including the word “corporation” in the Constitution posed nothing less than a threat to ratification. 25 25. See 2 Farrand, supra note 23, at 615–16 (recording concerns raised at the Constitutional Convention that the inclusion of a corporate power would prejudice and divide the states against ratification); see also Bray Hammond, Banks and Politics in America from the Revolution to the Civil War 104–05 (1957) (citing reports of non-Convention members who were told that while individuals wished to propose that the Constitution authorize the charter of a bank, the mere mention of it would destroy ratification); 3 Farrand, supra note 23, at 375–76 (listing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying the Constitution). Show More The Framers discussed drafting strategies which explicitly took into consideration that the corporate power could be drafted into the Constitution—and predictably relied upon as such—even if it was not expressly labeled by name. 26 26. 2 Farrand, supra note 23, at 615–16; see infra Part II. Show More The early Congress passed federal incorporation laws by an overwhelming majority. 27 27. The House voted 39-19 to adopt the bill chartering the First Bank of the United States. R.K. Moulton, Legislative and Documentary History of the Banks of the United States 13–18 (New York, G. & C. Carvill & Co. 1834). Show More And for years after ratification, the legal matter was uncontested: until James Madison raised political objections to the first bank bill and then again after that bill was passed, architects of government action relying on the corporate power did not appear to have thought it was necessary to engage in any sustained legal defense of their project. 28 28. See infra Section II.B; Ron Chernow, Alexander Hamilton 349–54 (2004) (explaining that Hamilton “had not foreseen the looming constitutional crisis that his bank bill was to instigate,” discussing the constitutionality of the Bank of the United States, noting that the bill “virtually breezed through the Senate,” and observing that “nothing presaged” the fight over the Bank that was soon to emerge); see also Primus, Essential Characteristic, supra note 2, at 424 (“[A]s far as I can tell, nobody thought the [First] Bank raised that kind of [constitutional] problem at any time between Hamilton’s submitting his Report on a National Bank to Congress and shortly before Madison made his famous speeches in the House.”). That Congress resumed its use of federal incorporation in earnest after Madison’s defeat over the first bank bill, chartering a second bank among other things, further suggests that the weight of legal opinion was for, not against, federal incorporation. Show More As Part II explains, these facts together indicate that, as a legal matter, the corporate power was in the Constitution from the beginning. 29 29. See infra Section II.A. Richard Primus has suggested that the corporate power was left silent thanks to a coalition of those who rejected it outright and those who were worried that the naming of the power would have adverse political—but not legal—effects. See Primus, Essential Characteristic, supra note 2, at 427–28. This Article argues in Parts II and III that, whether or not this was the case, the legally predictable outcome of this approach—one which would have been clear to most lawyers at the time—was that the corporate power was enforceable. For the classic statement of predictability as legal knowledge, see Oliver Wendell Holmes, The Path of the Law, 10 Harv. L. Rev. 457, 457 (1897). Show More",
+      "text": "For over two hundred years, Congress has chartered corporate entities, from the Bank of the United States to the Union Pacific Railroad, from the Reconstruction Finance Company (“RFC”) to the National Railroad Passenger Corporation (“Amtrak”), and from the Federal National Mortgage Association (“Fannie Mae”) and the Federal Home Loan Mortgage Corporation (“Freddie Mac”) to the COVID-19 bailout—trillions of dollars circulate through the federal corporate form.Courts and scholars do not question whether or not federal incorporation is legal as a general concern, but there is a broad and long-standing consensus that the existing law of federal corporations is dysfunctional.Contemporary doctrine is either inconsistent, unstable, or avoidant.In fact, the doctrine of constitutional avoidance itself emerged out of a confrontation with a federal corporation—the Tennessee Valley Authority (“TVA”)—inAshwander v. TVA.",
       "label": "body-text",
-      "word_count": 915
+      "word_count": 127
     },
     {
-      "text": "Once the charter power was drafted into the Constitution in this manner, the Marshall Court built out the corporate power—again, as an independent power. Constitutional powers and rights generally have “paradigmatic” case law, or doctrinal foundations on which subsequent law is moored. 30 30. For a discussion of the “paradigm-case method,” see Jed Rubenfeld, Revolution by Judiciary: The Structure of American Constitutional Law 15–18 (2005). Show More Part III excavates this foundation for federal incorporation law. 31 31. This Article uses sources like the Marshall Court and William Blackstone as the legal authorities they have been and continue to be. For a discussion of Blackstone, see infra note 252. Chief Justice Marshall has sometimes been scrutinized for his Federalist politics. See John Fabian Witt, The Operative: How John Marshall Built the Supreme Court Around His Political Agenda, New Republic (Jan. 7, 2019), https://newrepublic.com/article/152667/john-marshall-political-supreme-court-justice [https://perma.cc/HM9Q-3TU3]; see also Kurt Lash, Response, McCulloch v. Madison: John Marshall’s Effort to Bury Madisonian Federalism, 73 Ark. L. Rev. 106, 115 (2020) (alternatively paginated version, beginning on page 119, appears in some online databases) (“ McCulloch . . . [was] a failed effort to bury the federalist interpretive theories of James Madison and reinvent the nature and origins of the American Constitution.”). This Article does not highlight recent criticism of Chief Justice Marshall to the same extent as it does with Madison, however, because a chorus of historians agree that Madison was inconsistent both about enumeration and the Bank question—each of which directly affects how scholars have understood federal incorporation in particular. E.g., Mary Sarah Bilder, Madison’s Hand: Revising the Constitutional Convention 2 (2015) [hereinafter Bilder, Madison’s Hand]. By contrast, while there is no question Chief Justice Marshall was a Federalist, Witt, supra, there is also no clear evidence that he was judging in bad faith when he wrote McCulloch . See David S. Schwartz, Misreading McCulloch v. Maryland , 18 U. Pa. J. Const. L. 1, 68 (2015) (arguing that “Marshall’s approach to implied powers reflects moderate, rather than aggressive nationalism”). Show More Scholars often read McCulloch v. Maryland for its holding that the Bank of the United States was constitutional. In doing so, they treat McCulloch as a singular case: the constitutionality of the Bank of the United States is a stand-alone issue—not about the legal form of federal incorporation which created the Bank, but about the Bank as a sui generis creation—and the constitutionality of the question ultimately turns on the Necessary and Proper Clause, more or less alone. 32 32. See, e.g., Chemerinsky, supra note 1, at 120–21, 155; Stone et al., supra note 1, at 66–68; Jeff Neal, McCulloch v. Maryland: Two Centuries Later, Harv. L. Today (Sept. 23, 2019), https://hls.harvard.edu/today/mcculloch-v-maryland-two-centuries-later/ [https://perma.cc/69‌FX-4YEJ]. Show More",
+      "text": "The legal costs of leaving the law of federal incorporation incoherent are wide-ranging and systemically significant. Among other problems, this incoherence contributed to the fallout from the 2008 financial crisis: not only did federal incorporation imply federal backing which, in turn, encouraged financial institutions to incorrectly price mortgage-backed securities, but the lack of clear legal rules governing this area of law also exacerbated the failure of public confidence in government that followed.",
       "label": "body-text",
-      "word_count": 453
+      "word_count": 72
     },
     {
-      "text": "But as Part III shows, McCulloch was only one pillar on which the early “canonical” case law of federal incorporation rested. More importantly, in constructing the corporate power, the Court was not inventing the law of federal incorporation or simply resolving the question of the Bank’s constitutionality. To the contrary, the Court was solving secondary problems related to the preexisting constitutional power of incorporation. Offering new readings of McCulloch v. Maryland , Dartmouth College v. Woodward , and Osborn v. Bank of the United States , this Article shows how these cases operated as a trinity in which the Marshall Court organized how the national government’s power to create corporations—generally, not just the Bank specifically—would operate in the new federal system. 33 33. See infra Part III. Dartmouth has, of course, long been read for the origins of the “private,” presumptively state-chartered, corporation. Gordon S. Wood, Empire of Liberty: A History of the Early Republic, 17891815, at 465–66 (2009) [hereinafter Wood, Empire] (describing the “momentous implications” of Dartmouth , which transformed hundreds of business corporations into private property of individuals); Morton J. Horwitz, The Transformation of American Law, 1780–1860, at 112 (1977) (describing Justice Story’s concurring opinion in Dartmouth as solidifying the conception of corporations as private bodies). For a discussion of the relationship between state law and corporate law, see, e.g., Lev Menand & Morgan Ricks, Federal Corporate Law and the Business of Banking, 88 U. Chi. L. Rev. 1361, 1362 (2021) (“It is a bedrock . . . principle of U.S. business law that corporate formation and governance are the province of state, not federal, law.”). For the colloquial usage of Dartmouth as the foundation of that regime, see, e.g., Zephyr Teachout, October’s Book Club Pick: How Businesses Became People, N.Y. Times (Mar. 5, 2018), https://www.nytimes.com/2018/03/05‌/books/review/adam-winkler-we-the-corporations.html (reviewing Winkler, supra note 2) (describing Dartmouth as “a pathbreaking case from 1819 establishing that corporations are [presumptively state-based] private entities over which a state has limited control”). Part III shows how Dartmouth offers insight into federal, not state, incorporation. Show More In addition to other relevant rules governing federal incorporation, the Marshall Court articulated an independent threshold for when federal corporations were proper: “constitutional” purpose. 34 34. McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316, 419–21 (1819); see infra Section III.B. Show More",
+      "text": "As a matter of constitutional theory, the costs are arguably even greater. In overturningRoe v. Wade, the Court’s recent case law has raised the stakes of the perennial contest over whether constitutional law should recognize unenumerated rights and powers and on what basis.Thanks to the Ninth Amendment, no one formally disputes the possible existence of unenumerated rights—even Robert Bork’s famous “ink blot” statement about the Ninth Amendment conceded, hypothetically, that unenumerated rights might exist.And for much of the twentieth century, the expansion of Commerce Clause doctrine hardly made the search for more congressional power—enumerated or otherwise—seem urgent.Yet the relative absence of examples of unenumerated rights or powers that are not so heavily politicized has long cast a shadow over even those unenumerated rights and legislative or executive prerogatives that have, for long stretches of time, been doctrinally stable.While this disfavor has most visibly affected rights, there are signs that it has affected congressional power as well.",
       "label": "body-text",
-      "word_count": 382
+      "word_count": 156
     },
     {
-      "text": "Parts II and III challenge long-standing assumptions common in constitutional legal scholarship that attribute unwarranted authority to James Madison’s famous denunciation of the Bank of the United States as unconstitutional on the grounds that it was not named in the Constitution. 35 35. Legislative and Documentary History of the Bank of the United States 39–41 (M. St. Clair Clarke & D.A. Hall eds., Washington, Gales & Seaton 1832) [hereinafter St. Clair Clarke & Hall]; see also Rakove, supra note 3, at 351–54 (quoting to Madison’s February 8, 1791, speech against the bank bill, stating that while powers of the Constitution at the time of the Convention were “dark, inexplicable and dangerous,” they are now “clear and luminous” (citation omitted)). Show More Thanks largely to Madison’s statement, it has become commonplace to assert that the Constitution is only one of “enumerated powers.” 36 36. The Tenth Amendment’s statement that the Constitution is one of “delegated” powers is frequently conflated with “enumerated” powers. U.S. Const. amend. X; see The Founders and Federalism, Am. Gov’t, USHistory.org, https://www.ushistory.org/gov/3a.asp [https://perma.‌cc/V2EF-RFED] (last visited Feb. 9, 2025) (“[D]elegated (sometimes called enumerated or expressed) powers are specifically granted to the federal government in Article I, Section 8 of the Constitution.”); see also Primus, Essential Characteristic, supra note 2, at 419–20 (critiquing the common assumption that limits on Congress are embodied in an enumeration of powers rather than built into the process of federal lawmaking). Show More Building on advances in historical scholarship, this Article shows that Madison’s arguments were an early use of constitutional argument as political sally: articulated for a political audience, they did not unsettle the underlying legal consensus that the power enjoyed. 37 37. See Noah Feldman, The Three Lives of James Madison: Genius, Partisan, President 286 (2017) (describing Madison’s arguments against the Bank, which relied not on policy grounds but on its constitutionality, as “initiat[ing] what [would] become [Madison’s] repeated practice of claiming that political enemies are bent on subverting the basic principles of the Constitution”); Gordon S. Wood, Revolutionary Characters: What Made the Founders Different 148–59 (2006) [hereinafter Wood, Revolutionary Characters] (describing contrasting Madisons: one who was subject to political influence, and the other who was a strict constitutionalist); Bilder, Madison’s Hand, supra note 31, at 2 (noting that “[a]s a reliable source . . . Madison’s Notes [to the Constitutional Convention] are a problem”). Show More",
+      "text": "In recent years, scholars have discussed and debated unenumerated constitutional law in two ways.There is a growing school of thought that argues that it is a mistake to understand the Constitution as one of “enumerated powers.”Scholars have also identified or otherwise theorized the existence of silent or unnamed “backdrops” or “conventions” in the law.Neither group, however, has articulated what a concrete, entirely “silent” constitutional power might be.",
       "label": "body-text",
-      "word_count": 394
+      "word_count": 67
     },
     {
-      "text": "History and early doctrine are not the only modes of argument which demonstrate the existence of the corporate power. As this Article shows, the text of the Constitution, contemporary reliance, and doctrinal coherence all underscore that the corporate power is clearly present—though still unnamed—today. In other words, independent of one’s methodological commitments regarding the importance history has for law, the corporate power’s existence is clear. As Part II explains, the equal footing doctrine, 38 38. U.S. Const. art. IV, § 3, cl. 1. Show More the Territory Clause, 39 39. Id. art. IV, § 3, cl. 2. Show More the Patent Clause, 40 40. Id. art. I, § 8, cl. 8. Show More and the First Amendment 41 41. Id. amend. I. Show More all bear the marks of the corporate power.",
+      "text": "This Article shows that although the word “corporation” is not in the Constitution, Congress has an independent constitutional power to charter corporations—and has since the ratification of the Constitution. Offering the first comprehensive excavation of the corporate power, I argue that like the powers to coin and tax, the corporate power is a distinct constitutional power, not a subset of the legislative power nor an administrative prerogative alone.In other words, the corporate power exists independently of the Necessary and Proper Clause, the Commerce Clause, and the spending power.Modern doctrinal indeterminacy and scholarly confusion about both federal corporate law and unenumerated constitutional powers and rights can be clarified by canonizing—or rather re-canonizing—the corporate power.",
       "label": "body-text",
-      "word_count": 132
+      "word_count": 113
     },
     {
-      "text": "To show the contemporary existence of the corporate power—and thus, both reliance and coherence arguments for the power—this Article offers the first survey of the twentieth-century doctrine of federal incorporation. 42 42. There is no casebook for federal incorporation. Among the most helpful preexisting sources are a survey which specifically covers the federal jurisdiction features of federal incorporation, and white papers from the Congressional Research Service. Paul E. Lund, Federally Chartered Corporations and Federal Jurisdiction, 36 Fla. St. U. L. Rev. 317, 317–59 (2009) (providing a survey of federal jurisdiction features of federally chartered corporations); see Kevin R. Kosar, Cong. Rsch. Serv., RL30533, The Quasi Government: Hybrid Organizations with Both Government and Private Sector Legal Characteristics 1–10 (2011) (classifying forms of “hybrid organizations,” which are federal entities that have been assigned legal characteristics of both governmental and private sectors). Show More This survey appears in Part I, thereby setting the stage for Parts II and III. As Part I demonstrates, the use of federal incorporation by both Congress and the executive has been important and continuous: in relying on the corporate power to this extent, Congress and the executive have demonstrated its constitutional existence.",
+      "text": "To demonstrate the existence of the corporate power, this Article relies on several interpretive modes of argument.Part I, which is discussed further in the Introduction, describes the twentieth-century case law of federal incorporation. Proceeding chronologically, Part II builds on recent advances in historical research, showing how the corporate power was drafted into the Constitution and illuminating the early legal parameters of the corporate power. As Part II shows, contemporaneous legal sources and the transcripts of the Constitutional Convention make clear that the Framers understood federal incorporation as a distinct legal power. There was no confusion that the power to incorporate was part of another field of law.Further, the fact that the word “corporation” was left out of the Constitution did not mean that the power was legally absent. Scholars have sometimes taken this omission to signal that the possibility of a corporate power was rejected.But as the Framers discussed themselves, they had specific reasons to omit the word for this corporate power.At the time the Constitution was drafted, anti-monopoly sentiment was high.The political climate meant that including the word “corporation” in the Constitution posed nothing less than a threat to ratification.The Framers discussed drafting strategies which explicitly took into consideration that the corporate power could be drafted into the Constitution—and predictably relied upon as such—even if it was not expressly labeled by name.The early Congress passed federal incorporation laws by an overwhelming majority.And for years after ratification, the legal matter was uncontested: until James Madison raised political objections to the first bank bill and then again after that bill was passed, architects of government action relying on the corporate power did not appear to have thought it was necessary to engage in any sustained legal defense of their project.As Part II explains, these facts together indicate that, as a legal matter, the corporate power was in the Constitution from the beginning.",
       "label": "body-text",
-      "word_count": 194
+      "word_count": 311
     },
     {
-      "text": "Simultaneously, however, in the absence of a clear understanding of the corporate power, judicial efforts to address federal incorporation have been incoherent. Part I shows why—despite the continuous reliance on the federal corporate form by Congress and the executive—existing legal understandings of that activity are inadequate. As Part I explains, the legal uncertainty that has defined federal incorporation in its modern form has, at times, made this device more valuable, not less. This Part shows how, as administrativeand private-law regimes grew increasingly organized and regulated in the twentieth century, the existence of a legal device which remained comparatively murky offered Congress and the executive branch valuable legal and financial flexibility. Not inconsequentially, this meant that a range of actors had little incentive to clarify this field of law. 43 43. See infra Subsection I.A.1. For instance, federal incorporation can allow Congress to engage in off-budget accounting. See United States ex rel. Skinner & Eddy Corp. v. McCarl, 275 U.S. 1, 8 (1927) (“[A]n important if not the chief reason for employing these incorporated agencies was to enable them to employ commercial methods and to conduct their operations with a freedom supposed to be inconsistent with accountability to the Treasury under its established procedure of audit and control over the financial transactions of the United States.” (citation omitted)). Show More",
+      "text": "Once the charter power was drafted into the Constitution in this manner, the Marshall Court built out the corporate power—again, as an independent power. Constitutional powers and rights generally have “paradigmatic” case law, or doctrinal foundations on which subsequent law is moored.Part III excavates this foundation for federal incorporation law.Scholars often readMcCulloch v. Marylandfor its holding that the Bank of the United States was constitutional. In doing so, they treatMcCullochas a singular case: the constitutionality of the Bank of the United States is a stand-alone issue—not about the legal form of federal incorporation which created the Bank, but about the Bank as asui generiscreation—and the constitutionality of the question ultimately turns on the Necessary and Proper Clause, more or less alone.",
       "label": "body-text",
-      "word_count": 219
+      "word_count": 121
     },
     {
-      "text": "The costs of leaving the corporate power inchoate counsel against leaving it as it stands. As Part I argues, the legal ambiguity around federal incorporation in the aggregate has come at a cost to constitutional coherence and legitimacy, outweighing the legal and financial flexibility that the uncertainty of the corporate power has sometimes enabled. Part I outlines those costs. First, the corporate power’s indeterminacy encourages large actors to use privatization or public backing to escape the constraints of either public or private law—encouraging financial boom-bust cycles and corroding public trust. 44 44. Metzger, supra note 5, at 1370–71; Government by Contract, supra note 5, at 3; Berman, supra note 8; Zaring, supra note 8, at 1406–08; see infra Subsection I.B.2. Show More Second, confusion about the status of federal incorporation may lead the current Court to mistake legitimate federal corporate activity for “illegitimate” administrative action as it continues to redefine various aspects of administrative law. 45 45. See infra Paragraph I.B.2.ii. Show More Third, in the twenty-first century, Congress has increasingly engaged in large transactions, which are difficult to reconcile with and may disrupt existing fields of law, ranging from the 2008 financial bailout to the Puerto Rican debt crisis to the recent Oxycontin settlement. 46 46. Housing and Economic Recovery Act of 2008, 12 U.S.C. §§ 4501–4642; Puerto Rico Oversight, Management, and Economic Stability Act (“PROMESA”), 48 U.S.C. §§ 2101–2241; Press Release, Off. of Pub. Affs., U.S. Dep’t of Just., Justice Department Announces Global Resolution of Criminal and Civil Investigations with Opioid Manufacturer Purdue Pharma and Civil Settlement with Members of the Sackler Family (Oct. 21, 2020) [hereinafter Justice Department Announces Global Resolution], https://www.justice.gov/opa/pr/justice-department-announces-global-resolution-criminal-and-civil-investigations-opioid [https://per‌ma.cc/W3XU-5EDK]; see also Samuel Issacharoff & Adam Littlestone-Luria, Remedy Becomes Regulation: State Making After the Fact, DePaul L. Rev. (forthcoming) (manuscript at 26–27), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4869528 [https://perma.cc/Y‌Q2N-BCJB] (describing institutional design through the courts but driven by private litigants that defies existing categories, similar to that analyzed here). Show More The lack of a legal category for understanding this activity arguably stems from—and might be alleviated by addressing—our failure to recognize the corporate power in the first instance. Part I argues that these transactions are the latest “generation” in federal corporate activity.",
+      "text": "But as Part III shows,McCullochwas only one pillar on which the early “canonical” case law of federal incorporation rested. More importantly, in constructing the corporate power, the Court was not inventing the law of federal incorporation or simply resolving the question of the Bank’s constitutionality. To the contrary, the Court was solving secondary problems related to the preexisting constitutional power of incorporation. Offering new readings ofMcCulloch v. Maryland,Dartmouth College v. Woodward, andOsborn v. Bank of the United States, this Article shows how these cases operated as a trinity in which the Marshall Court organized how the national government’s power to create corporations—generally, not just the Bank specifically—would operate in the new federal system.In addition to other relevant rules governing federal incorporation, the Marshall Court articulated an independent threshold for when federal corporations were proper: “constitutional” purpose.",
       "label": "body-text",
-      "word_count": 364
+      "word_count": 136
     },
     {
-      "text": "With the charter power thus established in Parts I, II, and III, Part IV makes two interventions. Section IV.A shows how we might develop an understanding of federal incorporation as positive law, independent from the administrative-, legislative-, and private-law categories scholars have previously struggled to reconcile out of necessity. Once we recognize that the corporate power is a stand-alone constitutional power, we can begin to describe its legal particulars, just like any other independent power or right. Federal corporations differ from state corporations and federal agencies in important ways. Among other things, federal corporations allow the federal government to craft a corporate form that includes the kind of substantive, not economic, rules that regulatory agencies are currently prohibited from imposing on state-chartered corporations. 47 47. E.g., Nat’l Ass’n of Mfrs. v. SEC, 800 F.3d 518, 520–22 (D.C. Cir. 2015) (holding that the Securities and Exchange Commission (“SEC”) cannot require companies to adhere to certain disclosure requirements). Show More Federal corporations remain bespoke, are not governed by general incorporation laws, and support the production of goods and services—they are not just devices for federal spending. 48 48. See infra Appendix. Show More Along with Part I, Section IV.A helps to outline these activities and differences. 49 49. There are also important questions about when and whether federal corporations (or the federal government) can take over existing corporations as well and what occurs when they do. See Regional Rail Reorganization Act Cases, 419 U.S. 102, 161–62 (1974) (Douglas, J., dissenting); Marcel Kahan & Edward B. Rock, When the Government Is the Controlling Shareholder, 89 Tex. L. Rev. 1293, 1295 (2011); Steven M. Davidoff & David Zaring, Regulation by Deal: The Government’s Response to the Financial Crisis, 61 Admin. L. Rev. 463, 465 (2009). Also, forced consolidation resulted in the Railway Express Agency. See infra Appendix. This Article leaves these questions for future work to discuss in full. Show More",
+      "text": "Parts II and III challenge long-standing assumptions common in constitutional legal scholarship that attribute unwarranted authority to James Madison’s famous denunciation of the Bank of the United States as unconstitutional on the grounds that it was not named in the Constitution.Thanks largely to Madison’s statement, it has become commonplace to assert that the Constitution is only one of “enumerated powers.”Building on advances in historical scholarship, this Article shows that Madison’s arguments were an early use of constitutional argument as political sally: articulated for a political audience, they did not unsettle the underlying legal consensus that the power enjoyed.",
       "label": "body-text",
-      "word_count": 317
+      "word_count": 98
     },
     {
-      "text": "Drawing on Parts II and III, Section IV.A also offers three new tools for courts and scholars focused on contemporary doctrine: (1) clarity with respect to threshold questions such as when a federal corporation has “private” status; (2) an alternative justification for federal legislation that engages in financial activity, broadly defined; 50 50. For example, rather than relying on the Commerce Clause, the spending power, or the tax power, courts might find legislation like the Affordable Care Act constitutional because this legislation creates a federal corporation. See infra Paragraph I.B.2.iii. Show More and (3) a category of analysis which remains bounded by constitutional restrictions but rests outside of usual administrative-law rules. As Part I details, the Court has signaled that it may revisit federal corporation law as part of its general reconsideration of administrative law. 51 51. See infra Paragraph I.B.2.ii. Show More A clear understanding of federal incorporation may prove important if it does so, not least because federal corporate activity may intersect with the rapidly changing landscape of Appointments Clause jurisprudence.",
+      "text": "History and early doctrine are not the only modes of argument which demonstrate the existence of the corporate power. As this Article shows, the text of the Constitution, contemporary reliance, and doctrinal coherence all underscore that the corporate power is clearly present—though still unnamed—today. In other words, independent of one’s methodological commitments regarding the importance history has for law, the corporate power’s existence is clear. As Part II explains, the equal footing doctrine,the Territory Clause,the Patent Clause,and the First Amendmentall bear the marks of the corporate power.",
       "label": "body-text",
-      "word_count": 173
+      "word_count": 87
+    },
+    {
+      "text": "To show the contemporary existence of the corporate power—and thus, both reliance and coherence arguments for the power—this Article offers the first survey of the twentieth-century doctrine of federal incorporation.This survey appears in Part I, thereby setting the stage for Parts II and III. As Part I demonstrates, the use of federal incorporation by both Congress and the executive has been important and continuous: in relying on the corporate power to this extent, Congress and the executive have demonstrated its constitutional existence.",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "Simultaneously, however, in the absence of a clear understanding of the corporate power, judicial efforts to address federal incorporation have been incoherent. Part I shows why—despite the continuous reliance on the federal corporate form by Congress and the executive—existing legal understandings of that activity are inadequate. As Part I explains, the legal uncertainty that has defined federal incorporation in its modern form has, at times, made this device more valuable, not less. This Part shows how, as administrativeand private-law regimes grew increasingly organized and regulated in the twentieth century, the existence of a legal device which remained comparatively murky offered Congress and the executive branch valuable legal and financial flexibility. Not inconsequentially, this meant that a range of actors had little incentive to clarify this field of law.",
+      "label": "body-text",
+      "word_count": 128
+    },
+    {
+      "text": "The costs of leaving the corporate power inchoate counsel against leaving it as it stands. As Part I argues, the legal ambiguity around federal incorporation in the aggregate has come at a cost to constitutional coherence and legitimacy, outweighing the legal and financial flexibility that the uncertainty of the corporate power has sometimes enabled. Part I outlines those costs. First, the corporate power’s indeterminacy encourages large actors to use privatization or public backing to escape the constraints of either public or private law—encouraging financial boom-bust cycles and corroding public trust.Second, confusion about the status of federal incorporation may lead the current Court to mistake legitimate federal corporate activity for “illegitimate” administrative action as it continues to redefine various aspects of administrative law.Third, in the twenty-first century, Congress has increasingly engaged in large transactions, which are difficult to reconcile with and may disrupt existing fields of law, ranging from the 2008 financial bailout to the Puerto Rican debt crisis to the recent Oxycontin settlement.The lack of a legal category for understanding this activity arguably stems from—and might be alleviated by addressing—our failure to recognize the corporate power in the first instance. Part I argues that these transactions are the latest “generation” in federal corporate activity.",
+      "label": "body-text",
+      "word_count": 204
+    },
+    {
+      "text": "With the charter power thus established in Parts I, II, and III, Part IV makes two interventions. Section IV.A shows how we might develop an understanding of federal incorporation as positive law, independent from the administrative-, legislative-, and private-law categories scholars have previously struggled to reconcile out of necessity. Once we recognize that the corporate power is a stand-alone constitutional power, we can begin to describe its legal particulars, just like any other independent power or right. Federal corporations differ from state corporations and federal agencies in important ways. Among other things, federal corporations allow the federal government to craft a corporate form that includes the kind of substantive, not economic, rules that regulatory agencies are currently prohibited from imposing on state-chartered corporations.Federal corporations remain bespoke, are not governed by general incorporation laws, and support the production of goods and services—they are not just devices for federal spending.Along with Part I, Section IV.A helps to outline these activities and differences.",
+      "label": "body-text",
+      "word_count": 160
+    },
+    {
+      "text": "Drawing on Parts II and III, Section IV.A also offers three new tools for courts and scholars focused on contemporary doctrine: (1) clarity with respect to threshold questions such as when a federal corporation has “private” status; (2) an alternative justification for federal legislation that engages in financial activity, broadly defined;and (3) a category of analysis which remains bounded by constitutional restrictions but rests outside of usual administrative-law rules. As Part I details, the Court has signaled that it may revisit federal corporation law as part of its general reconsideration of administrative law.A clear understanding of federal incorporation may prove important if it does so, not least because federal corporate activity may intersect with the rapidly changing landscape of Appointments Clause jurisprudence.",
+      "label": "body-text",
+      "word_count": 122
     },
     {
       "text": "Section IV.B discusses the theoretical implications of the corporate power, or where we might go “beyond” enumerationism. It is beyond the scope of this Article to answer whether or not there are more silent powers or rights in the Constitution. This Article also does not contend that the mere presence of one unenumerated power means that all other unenumerated rights or powers are suddenly doctrinally unimpeachable. Nevertheless, the fact of the corporate power has several important methodological implications for how we think about constitutional interpretation generally—and for how we address “silent” rights and powers in particular.",
@@ -120,29 +120,29 @@
       "word_count": 67
     },
     {
-      "text": "This oversight is, in part, due to a long textualist tradition of equating constitutional rights and powers with single-clause labels. This tradition has venerable roots: among other sources, it sprang from the transformative mid-century First Amendment fundamentalism of Justice Black. 52 52. See Griswold v. Connecticut, 381 U.S. 479, 508–09 (1965) (Black, J., dissenting). Justice Black’s dissent was based on his opposition to the resurrection of the “ordered liberty” test that Dobbs relies on. Id. at 526 n.21 (“[C]ases applying specific Bill of Rights provisions to the States do not in my view stand for the proposition that this Court can rely on its own concept of ‘ordered liberty’ or ‘shocking the conscience’ or natural law to decide what laws it will permit state legislatures to enact.” (citing Gideon v. Wainwright, 372 U.S. 335 (1963))). Justice Black’s worry about “ordered liberty” stemmed from not only his commitment to the hard-won First Amendment rights his fundamentalism protected, id. at 509 (“One of the most effective ways of diluting . . . a constitutionally guaranteed right is to substitute for the crucial word or words of a constitutional guarantee another word or words, more or less flexible and more or less restricted in meaning.”), but also the possibility that incorporation—extending federal constitutional rights to protect Americans against state overreach, which he supported—would be diluted if it were conflated with the “ordered liberty” test. Id. In short, he appears to have feared that Griswold ’s embrace of unenumerated rights would require legal logic that would, in turn, call into question the incorporation of First Amendment rights he had made his life’s work. Show More But the corporate power demonstrates that textualism—and indeed, interpretation that, like Black’s, takes rights and powers seriously—must be distinguished from mere taxonomy to remain coherent. Specifically, this Article shows that the tradition of unenumerated interpretation which the corporate power demonstrates cuts against the presumption against unenumerated rights that the Court relied on, for example, in Dobbs v. Jackson Women’s Health Organization . 53 53. See infra Subsection IV.B.2. Show More The corporate power also suggests that there is firmer existing interpretive ground for unenumerated law than we have previously considered possible. The drafting approaches of the Framers detailed here—what is usually referred to as the “structuralism” of the Marshall Court, and what we might term the “interprovision interpretation” of the Warren Court—indicate as much. 54 54. For the canonical statement of “structural interpretation,” see Black, supra note 2, at 7. Show More This interpretive unity transcends disagreements about Federalist politics and the particular legal climate of the 1960s and deserves further attention on its own.",
+      "text": "This oversight is, in part, due to a long textualist tradition of equating constitutional rights and powers with single-clause labels. This tradition has venerable roots: among other sources, it sprang from the transformative mid-century First Amendment fundamentalism of Justice Black.But the corporate power demonstrates that textualism—and indeed, interpretation that, like Black’s, takes rights and powers seriously—must be distinguished from mere taxonomy to remain coherent. Specifically, this Article shows that the tradition of unenumerated interpretation which the corporate power demonstrates cuts against the presumption against unenumerated rights that the Court relied on, for example, inDobbs v. Jackson Women’s Health Organization.The corporate power also suggests that there is firmer existing interpretive ground for unenumerated law than we have previously considered possible. The drafting approaches of the Framers detailed here—what is usually referred to as the “structuralism” of the Marshall Court, and what we might term the “interprovision interpretation” of the Warren Court—indicate as much.This interpretive unity transcends disagreements about Federalist politics and the particular legal climate of the 1960s and deserves further attention on its own.",
       "label": "body-text",
-      "word_count": 436
+      "word_count": 174
     },
     {
-      "text": "This Article also contributes to debate over how we should think about the relationship between history and law today. In part because of the increasingly long shadow originalism casts, legal scholars have recently tended in either originalist or realist directions when engaging with the history of the Constitution. 55 55. For a helpful survey of originalism, see Gregory Ablavsky, Akhil Amar’s Unusable Past, 121 Mich. L. Rev. 1119, 1119–27 (2023) (reviewing Akhil Reed Amar, The Words That Made Us: America’s Constitutional Conversation, 1760–1840 (2021)). For an example of realism, see, e.g., Ryan D. Doerfler & Samuel Moyn, The Constitution Is Broken and Should Not Be Reclaimed, N.Y. Times (Aug. 19, 2022), https://www.nytimes.com/2022/08/19/opinion/liber‌als-constitution.html (urging a shift away from constitutional law and toward “ordinary expressions of popular will”); Sanford Levinson, What Is This Project, Anyway?, Democracy J., Summer 2021, https://democracyjournal.org/magazine/61/what-is-this-project-anyway/ [https://perma.cc/9R2S-C8DM] (describing the Constitution as “a clear and present danger” and proposing significant reforms). Show More This has had the side effect of causing legal scholarship to address the distinction between law and politics in one of two ways. Both approaches elide the law-politics distinction. Original meaning attempts to “democratize” originalism by assuming that there is no distinction between the two in a positive manner. 56 56. See infra Subsection IV.B.1. This effort is not limited to the Founding: renewed interest in “popular constitutionalism” has encouraged scholars to search for public-legal fusion across American history. For a recent example, see Joseph Fishkin & William E. Forbath, The Anti-Oligarchy Constitution: Reconstructing the Economic Foundations of American Democracy 484–87 (2022). Show More Conversely, those favoring a realist approach—rightly refusing to ignore evidence of political disagreement in the past—often conclude from this disagreement that no clear legal meaning can be found. 57 57. See, e.g., Richard H. Fallon, Jr., The Chimerical Concept of Original Public Meaning, 107 Va. L. Rev. 1421, 1427 (2021) (positing that original public meanings “are insufficient to resolve any historically contested or otherwise reasonably disputable issue”); Gienapp, Second Creation, supra note 10, at 1–12 (arguing against the concept of a “fixed” Constitution). Show More What is lost is the reality of historical friction between law and politics. This, in turn, endangers the possibility that accurate historical work might coexist with positive legal argument. 58 58. For a discussion of further implications, see infra Subsection IV.B.1. Show More The corporate power is evidence of the kind of collateral damage that can occur when we are limited to realist or originalist perspectives: if we fully commit to either at the expense of contradictory evidence, we would be unable to explain its presence.",
+      "text": "This Article also contributes to debate over how we should think about the relationship between history and law today. In part because of the increasingly long shadow originalism casts, legal scholars have recently tended in either originalist or realist directions when engaging with the history of the Constitution.This has had the side effect of causing legal scholarship to address the distinction between law and politics in one of two ways. Both approaches elide the law-politics distinction. Original meaning attempts to “democratize” originalism by assuming that there is no distinction between the two in a positive manner.Conversely, those favoring a realist approach—rightly refusing to ignore evidence of political disagreement in the past—often conclude from this disagreement that no clear legal meaning can be found.What is lost is the reality of historical friction between law and politics. This, in turn, endangers the possibility that accurate historical work might coexist with positive legal argument.The corporate power is evidence of the kind of collateral damage that can occur when we are limited to realist or originalist perspectives: if we fully commit to either at the expense of contradictory evidence, we would be unable to explain its presence.",
       "label": "body-text",
-      "word_count": 429
+      "word_count": 193
     },
     {
-      "text": "Beyond the remit of these methodological considerations, contemporary doctrine and legal theory alike have important interpretive conventions which presume against the possibility that legal meaning might be hidden in some sense. 59 59. These interpretive conventions fall into roughly two groups: interpretive conventions about legibility, such as statutory canons and constitutional interpretation, and statutory disclosure rules. Show More These conventions spring from a deep-rooted understanding, shared by both the public and experts, that the legitimacy of American law depends upon it remaining democratically accountable. 60 60. The Constitution’s brevity, textual nature, and pre-ratification discussion in the press, usually framed in contrast to British constitutional law, have long been taken to mean that we should understand the Constitution as animated by values of legibility. In McCulloch v. Maryland , Chief Justice Marshall himself argues that the Constitution does not exhibit the “prolixity of a legal code” because if it did “[i]t would probably never be understood by the public.” 17 U.S. (4 Wheat.) 316, 407 (1819). Importantly, however, Chief Justice Marshall relies on this lack of prolixity as one of several reasons that the corporate power is clearly in the Constitution. See id. at 410–24. Show More For this reason, more than any other, it may be tempting to assume that there cannot be a “silent” constitutional power. Part IV addresses possible criticisms of the interpretation this Article lays out, explaining how the fact that the corporate power exists does not legitimate “secret deals” or find “elephants in mouseholes.” 61 61. Among other things, statutory conventions which require clarity in specific ways do not automatically apply to constitutional law. Scholars have, for other reasons, suggested we see the ways in which constitutional law is similar to legislation. See, e.g., Farah Peterson, Expounding the Constitution, 130 Yale L.J. 2, 7 (2020). But in important ways, constitutional law is also a distinct topic—with its own rules of interpretation as a result. For one example of constitutional law’s singularity, see David E. Pozen, Constitutional Bad Faith, 129 Harv. L. Rev. 885, 886 (2016). Show More To the contrary, it is not by recognizing, but by continuing to overlook the corporate power that legal analysis has failed to constrain it.",
+      "text": "Beyond the remit of these methodological considerations, contemporary doctrine and legal theory alike have important interpretive conventions which presume against the possibility that legal meaning might be hidden in some sense.These conventions spring from a deep-rooted understanding, shared by both the public and experts, that the legitimacy of American law depends upon it remaining democratically accountable.For this reason, more than any other, it may be tempting to assume that there cannot be a “silent” constitutional power. Part IV addresses possible criticisms of the interpretation this Article lays out, explaining how the fact that the corporate power exists does not legitimate “secret deals” or find “elephants in mouseholes.”To the contrary, it is not by recognizing, but by continuing to overlook the corporate power that legal analysis has failed to constrain it.",
       "label": "body-text",
-      "word_count": 365
+      "word_count": 130
     },
     {
-      "text": "In sum, this Article offers important evidence that an interpretive approach focused on discrete, individual, yet unnamed powers (or rights) might lead to more robust and actionable insights than we have previously thought. It calls into question the ongoing presumption that unenumerated rights and powers are inherently suspect or political. 62 62. As discussed in Part IV, there are, of course, important doctrinal distinctions that may be made between different unenumerated rights and powers. In this sense, the corporate power stands on its own. Show More And most importantly, it shows that such rights and powers are not merely “aspirational”—nor do they live only as lost historical alternatives. They are present in the law right now.",
+      "text": "In sum, this Article offers important evidence that an interpretive approach focused on discrete, individual, yet unnamed powers (or rights) might lead to more robust and actionable insights than we have previously thought. It calls into question the ongoing presumption that unenumerated rights and powers are inherently suspect or political.And most importantly, it shows that such rights and powers are not merely “aspirational”—nor do they live only as lost historical alternatives. They are present in the law right now.",
       "label": "body-text",
-      "word_count": 116
+      "word_count": 79
     },
     {
-      "text": "This Article proceeds in four parts. Part I lays out the existing law of federal incorporation, explains how transactions may also be understood as corporations, and shows how the indeterminacy created by the current law’s contradictions undermines the legitimacy of federal corporate activity, resulting in significant legal costs, not just political and financial costs. Part II describes the original drafting of the charter power, addressing the debate over whether the corporate power was originally in the Constitution and on what basis. Part III describes the Marshall Court doctrine that constructed the power: McCulloch , Dartmouth , and Osborn . Part IV first details what implications a revived corporate power has for both considering and constructing federal corporations today; second, it explains how understanding the corporate power affects wider constitutional debates about implied powers and rights.",
+      "text": "This Article proceeds in four parts. Part I lays out the existing law of federal incorporation, explains how transactions may also be understood as corporations, and shows how the indeterminacy created by the current law’s contradictions undermines the legitimacy of federal corporate activity, resulting in significant legal costs, not just political and financial costs. Part II describes the original drafting of the charter power, addressing the debate over whether the corporate power was originally in the Constitution and on what basis. Part III describes the Marshall Court doctrine that constructed the power:McCulloch,Dartmouth, andOsborn. Part IV first details what implications a revived corporate power has for both considering and constructing federal corporations today; second, it explains how understanding the corporate power affects wider constitutional debates about implied powers and rights.",
       "label": "body-text",
-      "word_count": 135
+      "word_count": 129
     },
     {
       "text": "This Article also provides a list of existing chartered corporations in the Appendix, something that has not been attempted in several decades. Due to the nature of existing records and legal ambiguity, this list cannot be definitive; it errs on the side of inclusivity. This list is a “living” one, designed to be updated periodically.",
@@ -173,6 +173,636 @@
       "text": "The harms of solitary confinement have been well-documented for centuries, yet the practice persists. Despite recent efforts to reform the use of solitary confinement in certain states and localities, over 120,000 people remain confined in solitary …",
       "label": "body-text",
       "word_count": 37
+    },
+    {
+      "text": "*Samuel I. Golieb Fellow, NYU School of Law; J.D., Yale Law School, 2014; PhD Candidate, Princeton University. Thank you to Jeremy Adelman, Bastiaan Bouwman, Guido Calabresi, Josh Chafetz, Nathaniel Donahue, Bill Eskridge, Noah Feldman, Joshua Getzler, Maeve Glass, David Golove, Jamal Greene, Philip Hamburger, Henry Hansmann, Hendrik Hartog, Liane Hewitt, Daniel Hulsebosch, Emma Kaufman, Jeremy Kessler, Noam Maggor, Jane Manners, Lev Menand, Bill Nelson, Jacob Noti-Victor, Farah Peterson, David Pozen, Pablo Pryluka, Daniel Rauch, Catherine Sharkey, Ganesh Sitaraman, James Whitman, and Sean Wilentz. Thank you also to the editors of the Virginia Law Review.",
+      "label": "footnote-text",
+      "word_count": 94
+    },
+    {
+      "text": "*Samuel I. Golieb Fellow, NYU School of Law; J.D., Yale Law School, 2014; PhD Candidate, Princeton University. Thank you to Jeremy Adelman, Bastiaan Bouwman, Guido Calabresi, Josh Chafetz, Nathaniel Donahue, Bill Eskridge, Noah Feldman, Joshua Getzler, Maeve Glass, David Golove, Jamal Greene, Philip Hamburger, Henry Hansmann, Hendrik Hartog, Liane Hewitt, Daniel Hulsebosch, Emma Kaufman, Jeremy Kessler, Noam Maggor, Jane Manners, Lev Menand, Bill Nelson, Jacob Noti-Victor, Farah Peterson, David Pozen, Pablo Pryluka, Daniel Rauch, Catherine Sharkey, Ganesh Sitaraman, James Whitman, and Sean Wilentz. Thank you also to the editors of the Virginia Law Review.",
+      "label": "footnote-text",
+      "word_count": 94
+    },
+    {
+      "text": "See Erwin Chemerinsky, Constitutional Law 120–21, 155, 1846 (6th ed. 2020) (discussingMcCulloch v. Marylandbut containing no index entry for “corporation” as it relates to Congress); Geoffrey R. Stone, Louis Michael Seidman, Cass R. Sunstein, Mark V. Tushnet & Pamela S. Karlan, Constitutional Law 66–68, 1644 (8th ed. 2018) (discussingMcCulloch v. Marylandbut containing no index entry for “corporation”); see also Randy E. Barnett & Josh Blackman, Constitutional Law: Cases in Context 116, 1768 (3d ed. 2018) (mentioning a “power of incorporation” in passing in reference toMcCullochbut containing no index entry for “corporation”); Paul Brest, Sanford Levinson, Jack M. Balkin, Akhil Reed Amar & Reva B. Siegel, Processes of Constitutional Decisionmaking: Cases and Materials 27–28, 59, 1774 (7th ed. 2018) (focusing on “banking” but not on corporations, noting that the First and Second Banks were formed by incorporation but refraining from offering an opinion as to whether or not the power to incorporate was drafted into the Constitution, and containing no index entry for “corporation”).",
+      "label": "footnote-text",
+      "word_count": 163
+    },
+    {
+      "text": "See Erwin Chemerinsky, Constitutional Law 120–21, 155, 1846 (6th ed. 2020) (discussingMcCulloch v. Marylandbut containing no index entry for “corporation” as it relates to Congress); Geoffrey R. Stone, Louis Michael Seidman, Cass R. Sunstein, Mark V. Tushnet & Pamela S. Karlan, Constitutional Law 66–68, 1644 (8th ed. 2018) (discussingMcCulloch v. Marylandbut containing no index entry for “corporation”); see also Randy E. Barnett & Josh Blackman, Constitutional Law: Cases in Context 116, 1768 (3d ed. 2018) (mentioning a “power of incorporation” in passing in reference toMcCullochbut containing no index entry for “corporation”); Paul Brest, Sanford Levinson, Jack M. Balkin, Akhil Reed Amar & Reva B. Siegel, Processes of Constitutional Decisionmaking: Cases and Materials 27–28, 59, 1774 (7th ed. 2018) (focusing on “banking” but not on corporations, noting that the First and Second Banks were formed by incorporation but refraining from offering an opinion as to whether or not the power to incorporate was drafted into the Constitution, and containing no index entry for “corporation”).",
+      "label": "footnote-text",
+      "word_count": 163
+    },
+    {
+      "text": "Charles Black, Jr., noted in 1969 that, inMcCulloch v. Maryland, Chief Justice Marshall “decided . . . that Congress possesses the power . . . [of] chartering corporations” on bases other than the Necessary and Proper Clause. Charles L. Black, Jr., Structure and Relationship in Constitutional Law 14 (1969). Recently, scholars have stated that the corporate power exists and is constitutional but have not developed the point further. See, e.g., Nikolas Bowie, Corporate Personhood v. Corporate Statehood, 132 Harv. L. Rev. 2009, 2015 (2019) (reviewing Adam Winkler, We the Corporations: How American Businesses Won Their Civil Rights (2018)) (“Even though the U.S. Constitution didn’t mention corporations, members of all three of the federal government’s branches considered the power of incorporation such an inherent feature of sovereignty that they authorized Congress to charter corporations as the Constitution’s first implied power.”); see also Jonathan Gienapp, The Lost Constitution: The Rise and Fall of James Wilson’s and Gouverneur Morris’s Constitutionalism at the Founding 46 n.146 (Mar. 4, 2020) [hereinafter Gienapp, Lost Constitution] (unpublished manuscript) (on file with author) (“The real question . . . was whether it was politically useful to reinforce the already vested [incorporation] power through enumeration or not.” (citation omitted)); Robert J. Kaczorowski, Inherent National Sovereignty Constitutionalism: An Original Understanding of the U.S. Constitution, 101 Minn. L. Rev. 699, 701–02, 706 (2016) (describing incorporation as “one of [Congress’s] inherent sovereign powers”—evidence of a broader theory of constitutional understanding he argues existed in the early republic called “inherent national sovereignty constitutionalism”—but leaving ambiguous the scope, nature, number, independence, or possible contemporary applications of the powers that flow from this theory).As I discuss in Part II, a broad “sovereignty” argument is, on its own, insufficient to clear the hurdle of proving federal incorporation’s status as an autonomous constitutional power, not least because sovereignty itself was transformed by the change from the British to the American Constitution. Along similar lines, as I explain in Part III, the power was not “vested,” in the sense that it simply continued unabated, but had to be constructed by the Marshall Court. For the enumerated/unenumerated debate at the Founding generally, see Richard Primus, “The Essential Characteristic”: Enumerated Powers and the Bank of the United States, 117 Mich. L. Rev. 415, 417–26 (2018) [hereinafter Primus, Essential Characteristic].",
+      "label": "footnote-text",
+      "word_count": 379
+    },
+    {
+      "text": "Charles Black, Jr., noted in 1969 that, inMcCulloch v. Maryland, Chief Justice Marshall “decided . . . that Congress possesses the power . . . [of] chartering corporations” on bases other than the Necessary and Proper Clause. Charles L. Black, Jr., Structure and Relationship in Constitutional Law 14 (1969). Recently, scholars have stated that the corporate power exists and is constitutional but have not developed the point further. See, e.g., Nikolas Bowie, Corporate Personhood v. Corporate Statehood, 132 Harv. L. Rev. 2009, 2015 (2019) (reviewing Adam Winkler, We the Corporations: How American Businesses Won Their Civil Rights (2018)) (“Even though the U.S. Constitution didn’t mention corporations, members of all three of the federal government’s branches considered the power of incorporation such an inherent feature of sovereignty that they authorized Congress to charter corporations as the Constitution’s first implied power.”); see also Jonathan Gienapp, The Lost Constitution: The Rise and Fall of James Wilson’s and Gouverneur Morris’s Constitutionalism at the Founding 46 n.146 (Mar. 4, 2020) [hereinafter Gienapp, Lost Constitution] (unpublished manuscript) (on file with author) (“The real question . . . was whether it was politically useful to reinforce the already vested [incorporation] power through enumeration or not.” (citation omitted)); Robert J. Kaczorowski, Inherent National Sovereignty Constitutionalism: An Original Understanding of the U.S. Constitution, 101 Minn. L. Rev. 699, 701–02, 706 (2016) (describing incorporation as “one of [Congress’s] inherent sovereign powers”—evidence of a broader theory of constitutional understanding he argues existed in the early republic called “inherent national sovereignty constitutionalism”—but leaving ambiguous the scope, nature, number, independence, or possible contemporary applications of the powers that flow from this theory).As I discuss in Part II, a broad “sovereignty” argument is, on its own, insufficient to clear the hurdle of proving federal incorporation’s status as an autonomous constitutional power, not least because sovereignty itself was transformed by the change from the British to the American Constitution. Along similar lines, as I explain in Part III, the power was not “vested,” in the sense that it simply continued unabated, but had to be constructed by the Marshall Court. For the enumerated/unenumerated debate at the Founding generally, see Richard Primus, “The Essential Characteristic”: Enumerated Powers and the Bank of the United States, 117 Mich. L. Rev. 415, 417–26 (2018) [hereinafter Primus, Essential Characteristic].",
+      "label": "footnote-text",
+      "word_count": 379
+    },
+    {
+      "text": "Winkler, supra note 2, at 3; see also Jack N. Rakove, Original Meanings: Politics and Ideas in the Making of the Constitution 355 (1996) (arguing that James Madison’s motion at the Constitutional Convention to grant Congress a power of incorporation “obviously presumed that such authority did not yet exist elsewhere in the Constitution” and that Alexander Hamilton was “less likely to agonize over constitutional distinctions with Madison’s intensity”).",
+      "label": "footnote-text",
+      "word_count": 68
+    },
+    {
+      "text": "Winkler, supra note 2, at 3; see also Jack N. Rakove, Original Meanings: Politics and Ideas in the Making of the Constitution 355 (1996) (arguing that James Madison’s motion at the Constitutional Convention to grant Congress a power of incorporation “obviously presumed that such authority did not yet exist elsewhere in the Constitution” and that Alexander Hamilton was “less likely to agonize over constitutional distinctions with Madison’s intensity”).",
+      "label": "footnote-text",
+      "word_count": 68
+    },
+    {
+      "text": "See infra Appendix; infra Part I.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "See infra Appendix; infra Part I.",
+      "label": "footnote-text",
+      "word_count": 6
+    },
+    {
+      "text": "See infra Part I; see, e.g., Warren M. Persons, Government Experimentation in Business, at ii, ix, 5 (1934); John McDiarmid, Government Corporations and Federal Funds 5 (1938); Annmarie Hauck Walsh, The Public’s Business: The Politics and Practices of Government Corporations 353 (1978); Harold Seidman & Robert Gilmour, Politics, Position, and Power: From the Positive to the Regulatory State 307–25 (4th ed. 1986); Francis J. Leazes, Jr., Accountability and the Business State: The Structure of Federal Corporations 3, 75 (1987); A. Michael Froomkin, Reinventing the Government Corporation, 1995 U. Ill. L. Rev. 543, 547–58; Kenneth J. Meier, ForewordtoJerry Mitchell, The American Experiment with Government Corporations, at xii (1999); Gillian E. Metzger, Privatization as Delegation, 103 Colum. L. Rev. 1367, 1370–71 (2003); Government by Contract: Outsourcing and American Democracy 3 (Jody Freeman & Martha Minow eds., 2009) [hereinafter Government by Contract].",
+      "label": "footnote-text",
+      "word_count": 139
+    },
+    {
+      "text": "See infra Part I; see, e.g., Warren M. Persons, Government Experimentation in Business, at ii, ix, 5 (1934); John McDiarmid, Government Corporations and Federal Funds 5 (1938); Annmarie Hauck Walsh, The Public’s Business: The Politics and Practices of Government Corporations 353 (1978); Harold Seidman & Robert Gilmour, Politics, Position, and Power: From the Positive to the Regulatory State 307–25 (4th ed. 1986); Francis J. Leazes, Jr., Accountability and the Business State: The Structure of Federal Corporations 3, 75 (1987); A. Michael Froomkin, Reinventing the Government Corporation, 1995 U. Ill. L. Rev. 543, 547–58; Kenneth J. Meier, ForewordtoJerry Mitchell, The American Experiment with Government Corporations, at xii (1999); Gillian E. Metzger, Privatization as Delegation, 103 Colum. L. Rev. 1367, 1370–71 (2003); Government by Contract: Outsourcing and American Democracy 3 (Jody Freeman & Martha Minow eds., 2009) [hereinafter Government by Contract].",
+      "label": "footnote-text",
+      "word_count": 139
+    },
+    {
+      "text": "Lebron v. Nat’l R.R. Passenger Corp., 513 U.S. 374, 407–08 (1995) (O’Connor, J., dissenting) (“Despite the prevalence of publicly owned corporations, whether they are Government agencies is a question seldom answered, and then only for limited purposes.” (first citing Cherry Cotton Mills, Inc. v. United States, 327 U.S. 536, 539 (1946); and then citing Nat’l R.R. Passenger Corp. v. Atchinson, Topeka & Santa Fe Ry. Co., 470 U.S. 451, 471 (1985))); see also Froomkin, supra note 5, at 564 (“[T]he Supreme Court’s decisions relating to [federal corporations] do not follow a consistent pattern except that most of the decisions have been brief and, when taken as a group, contradictory.”).",
+      "label": "footnote-text",
+      "word_count": 109
+    },
+    {
+      "text": "Lebron v. Nat’l R.R. Passenger Corp., 513 U.S. 374, 407–08 (1995) (O’Connor, J., dissenting) (“Despite the prevalence of publicly owned corporations, whether they are Government agencies is a question seldom answered, and then only for limited purposes.” (first citing Cherry Cotton Mills, Inc. v. United States, 327 U.S. 536, 539 (1946); and then citing Nat’l R.R. Passenger Corp. v. Atchinson, Topeka & Santa Fe Ry. Co., 470 U.S. 451, 471 (1985))); see also Froomkin, supra note 5, at 564 (“[T]he Supreme Court’s decisions relating to [federal corporations] do not follow a consistent pattern except that most of the decisions have been brief and, when taken as a group, contradictory.”).",
+      "label": "footnote-text",
+      "word_count": 109
+    },
+    {
+      "text": "Ashwander v. Tenn. Valley Auth., 297 U.S. 288, 346–48 (1936) (Brandeis, J., concurring) (detailing reasons courts should avoid constitutional questions).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Ashwander v. Tenn. Valley Auth., 297 U.S. 288, 346–48 (1936) (Brandeis, J., concurring) (detailing reasons courts should avoid constitutional questions).",
+      "label": "footnote-text",
+      "word_count": 20
+    },
+    {
+      "text": "Additional problems are discussed later in the Introduction and in Section I.B. For discussion of the financial crisis, see infra Paragraph I.B.2.i. For a discussion on mortgages, see Jacobs v. Fed. Hous. Fin. Agency, 908 F.3d 884, 887 (3d Cir. 2018). It is important to note that federal incorporation was on both sides of the financial crisis: the federal takeover of General Motors transformed General Motors into a federal corporation because over fifty percent of the stock was held by the federal government. See 28 U.S.C. § 1349. For a discussion of the problems associated with the legality of the bailout, see Dennis K. Berman, Debating the Legality of the Bailout, Wall St. J., https://www.wsj.com/articles/SB100014240‌52748703471904576003880475807692 (last updated Dec. 7, 2010, 12:01 AM) (reporting on a bipartisan conference at Stanford Law School in 2010 on the Constitution and the 2008–2009 bailout); David Zaring, Litigating the Financial Crisis, 100 Va. L. Rev. 1405, 1406–08 (2014).",
+      "label": "footnote-text",
+      "word_count": 153
+    },
+    {
+      "text": "Additional problems are discussed later in the Introduction and in Section I.B. For discussion of the financial crisis, see infra Paragraph I.B.2.i. For a discussion on mortgages, see Jacobs v. Fed. Hous. Fin. Agency, 908 F.3d 884, 887 (3d Cir. 2018). It is important to note that federal incorporation was on both sides of the financial crisis: the federal takeover of General Motors transformed General Motors into a federal corporation because over fifty percent of the stock was held by the federal government. See 28 U.S.C. § 1349. For a discussion of the problems associated with the legality of the bailout, see Dennis K. Berman, Debating the Legality of the Bailout, Wall St. J., https://www.wsj.com/articles/SB100014240‌52748703471904576003880475807692 (last updated Dec. 7, 2010, 12:01 AM) (reporting on a bipartisan conference at Stanford Law School in 2010 on the Constitution and the 2008–2009 bailout); David Zaring, Litigating the Financial Crisis, 100 Va. L. Rev. 1405, 1406–08 (2014).",
+      "label": "footnote-text",
+      "word_count": 153
+    },
+    {
+      "text": "Dobbs v. Jackson Women’s Health Org., 142 S. Ct. 2228, 2242 (2022); see Jeannie Suk Gersen, If Roe v. Wade Is Overturned, What’s Next?, New Yorker (Apr. 17, 2022), https://w‌ww.newyorker.com/magazine/2022/04/25/if-roe-v-wade-is-overturned-whats-next [hereinafter Gersen,Roe].",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": "Dobbs v. Jackson Women’s Health Org., 142 S. Ct. 2228, 2242 (2022); see Jeannie Suk Gersen, If Roe v. Wade Is Overturned, What’s Next?, New Yorker (Apr. 17, 2022), https://w‌ww.newyorker.com/magazine/2022/04/25/if-roe-v-wade-is-overturned-whats-next [hereinafter Gersen,Roe].",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": "Nomination of Robert H. Bork to Be Associate Justice of the Supreme Court of the United States: Hearings Before the S. Comm. on the Judiciary, 100th Cong. 249 (1987) [hereinafter Bork Nomination] (statement of Hon. Robert H. Bork). The Ninth Amendment, of course, expressly contemplates unenumerated rights. U.S. Const. amend. IX. Importantly, powers are less limited by constitutional text than scholars often assume: Congress overwhelmingly voted against attaching “expressly” to “delegated” in the Tenth Amendment, clearly rejecting the Articles of Confederation’s prior restriction, by a vote of 32-17. U.S. Const. amend. X; 1 Annals of Cong. 797 (1789) (Joseph Gales ed., 1834); see also John Mikhail, Fixing Implied Constitutional Powers in the Founding Era, 34 Const. Comment. 507, 513 (2019) (reviewing Jonathan Gienapp, The Second Creation: Fixing the American Constitution in the Founding Era (2018) [hereinafter Gienapp, Second Creation]) (arguing that several states ratified the Constitution without amendment because they understood the Constitution to contain implied powers).Scholars have long considered the possibility of unenumerated constitutionalism as a matter of general inquiry. See Black, supra note 2, at 7–8; Thomas C. Grey, Do We Have an Unwritten Constitution?, 27 Stan. L. Rev. 703, 703–05 (1975); Laurence H. Tribe, The Invisible Constitution, at xx (2008); Akhil Reed Amar, America’s Unwritten Constitution: The Precedents and Principles We Live By, at ix–xvi (2012); Farah Peterson, Constitutionalism in Unexpected Places, 106 Va. L. Rev. 559, 562 (2020).",
+      "label": "footnote-text",
+      "word_count": 232
+    },
+    {
+      "text": "Nomination of Robert H. Bork to Be Associate Justice of the Supreme Court of the United States: Hearings Before the S. Comm. on the Judiciary, 100th Cong. 249 (1987) [hereinafter Bork Nomination] (statement of Hon. Robert H. Bork). The Ninth Amendment, of course, expressly contemplates unenumerated rights. U.S. Const. amend. IX. Importantly, powers are less limited by constitutional text than scholars often assume: Congress overwhelmingly voted against attaching “expressly” to “delegated” in the Tenth Amendment, clearly rejecting the Articles of Confederation’s prior restriction, by a vote of 32-17. U.S. Const. amend. X; 1 Annals of Cong. 797 (1789) (Joseph Gales ed., 1834); see also John Mikhail, Fixing Implied Constitutional Powers in the Founding Era, 34 Const. Comment. 507, 513 (2019) (reviewing Jonathan Gienapp, The Second Creation: Fixing the American Constitution in the Founding Era (2018) [hereinafter Gienapp, Second Creation]) (arguing that several states ratified the Constitution without amendment because they understood the Constitution to contain implied powers).Scholars have long considered the possibility of unenumerated constitutionalism as a matter of general inquiry. See Black, supra note 2, at 7–8; Thomas C. Grey, Do We Have an Unwritten Constitution?, 27 Stan. L. Rev. 703, 703–05 (1975); Laurence H. Tribe, The Invisible Constitution, at xx (2008); Akhil Reed Amar, America’s Unwritten Constitution: The Precedents and Principles We Live By, at ix–xvi (2012); Farah Peterson, Constitutionalism in Unexpected Places, 106 Va. L. Rev. 559, 562 (2020).",
+      "label": "footnote-text",
+      "word_count": 232
+    },
+    {
+      "text": "See infra Subsection IV.A.3.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Subsection IV.A.3.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See John Hart Ely, The Wages of Crying Wolf: A Comment onRoe v. Wade, 82 Yale L.J. 920, 935–37 (1973); see also Roe v. Wade, 410 U.S. 113, 174–76 (1973) (Rehnquist, J., dissenting) (comparingRoetoLochner v. New York, 198 U.S. 45, 74 (1905)); Brief for Petitioners at 1,Dobbs, 142 S. Ct. 2228 (No. 19-1392) (arguing that “nothing in constitutional text, structure, history, or tradition supports a right to abortion”). For further evidence of the shadow that hangs over the idea of unenumerated constitutionalism, see infra Section IV.B.",
+      "label": "footnote-text",
+      "word_count": 86
+    },
+    {
+      "text": "See John Hart Ely, The Wages of Crying Wolf: A Comment onRoe v. Wade, 82 Yale L.J. 920, 935–37 (1973); see also Roe v. Wade, 410 U.S. 113, 174–76 (1973) (Rehnquist, J., dissenting) (comparingRoetoLochner v. New York, 198 U.S. 45, 74 (1905)); Brief for Petitioners at 1,Dobbs, 142 S. Ct. 2228 (No. 19-1392) (arguing that “nothing in constitutional text, structure, history, or tradition supports a right to abortion”). For further evidence of the shadow that hangs over the idea of unenumerated constitutionalism, see infra Section IV.B.",
+      "label": "footnote-text",
+      "word_count": 86
+    },
+    {
+      "text": "See, e.g., NFIB v. Sebelius, 567 U.S. 519, 533–35 (2012); United States v. Lopez, 514 U.S. 549, 567–68 (1995); see also Andrew Coan & David S. Schwartz, The Original Meaning of Enumerated Powers, 109 Iowa L. Rev. 971, 973–75 (2024) (surveying the landscape of recent Supreme Court jurisprudence for why “enumerationism lies around like a loaded weapon, potentially threatening a broad range of federal environmental, civil-rights, public-health, wage-and-hour, and workplaceand consumer-safety regulations” (citations omitted)). In other words, while the distinction between rights and powers matters in many contexts, to the extent that such a presumption encompasses both, it is immaterial. See infra Subsection IV.B.3.",
+      "label": "footnote-text",
+      "word_count": 104
+    },
+    {
+      "text": "See, e.g., NFIB v. Sebelius, 567 U.S. 519, 533–35 (2012); United States v. Lopez, 514 U.S. 549, 567–68 (1995); see also Andrew Coan & David S. Schwartz, The Original Meaning of Enumerated Powers, 109 Iowa L. Rev. 971, 973–75 (2024) (surveying the landscape of recent Supreme Court jurisprudence for why “enumerationism lies around like a loaded weapon, potentially threatening a broad range of federal environmental, civil-rights, public-health, wage-and-hour, and workplaceand consumer-safety regulations” (citations omitted)). In other words, while the distinction between rights and powers matters in many contexts, to the extent that such a presumption encompasses both, it is immaterial. See infra Subsection IV.B.3.",
+      "label": "footnote-text",
+      "word_count": 104
+    },
+    {
+      "text": "For further discussion of the debate over unenumerated rights and how it fits into the problem of unenumerated law generally, see infra Section IV.B.",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "For further discussion of the debate over unenumerated rights and how it fits into the problem of unenumerated law generally, see infra Section IV.B.",
+      "label": "footnote-text",
+      "word_count": 24
+    },
+    {
+      "text": "See Coan & Schwartz, supra note 13, at 974–75; Robert J. Reinstein, The Aggregate and Implied Powers of the United States, 69 Am. U. L. Rev. 3, 7 (2019); Primus, Essential Characteristic, supra note 2, at 417–26; John Mikhail, Fixing the Constitution’s Implied Powers, Balkinization (Oct. 25, 2018), https://balkin.blogspot.com/2018/10/fixing-constitutio‌ns-implied-powers.html [https://perma.cc/MFB5-KYK6]; Andrew Coan, Implementing Enumeration, 57 Wm. & Mary L. Rev. 1985, 1989 (2016); John Mikhail, The Necessary and Proper Clauses, 102 Geo. L.J. 1045, 1047 (2014) [hereinafter Mikhail, Necessary and Proper]; Richard Primus, The Limits of Enumeration, 124 Yale L.J. 576, 580 (2014).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": "See Coan & Schwartz, supra note 13, at 974–75; Robert J. Reinstein, The Aggregate and Implied Powers of the United States, 69 Am. U. L. Rev. 3, 7 (2019); Primus, Essential Characteristic, supra note 2, at 417–26; John Mikhail, Fixing the Constitution’s Implied Powers, Balkinization (Oct. 25, 2018), https://balkin.blogspot.com/2018/10/fixing-constitutio‌ns-implied-powers.html [https://perma.cc/MFB5-KYK6]; Andrew Coan, Implementing Enumeration, 57 Wm. & Mary L. Rev. 1985, 1989 (2016); John Mikhail, The Necessary and Proper Clauses, 102 Geo. L.J. 1045, 1047 (2014) [hereinafter Mikhail, Necessary and Proper]; Richard Primus, The Limits of Enumeration, 124 Yale L.J. 576, 580 (2014).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": "E.g., Stephen E. Sachs, Constitutional Backdrops, 80 Geo. Wash. L. Rev. 1813, 1816 (2012); Ashraf Ahmed, A Theory of Constitutional Norms, 120 Mich. L. Rev. 1361, 1364 (2022). But see Roderick M. Hills, Jr., Strategic Ambiguity and Article VII: Why the Framers Decided Not to Decide, 1 J. Am. Const. Hist. 379, 383–84 (2023) (detailing how ambiguous terms in Article VII were meant to be ambiguous and had no hidden or fixed meaning in order to reassure Federalists and Anti-Federalists alike when ratifying the Constitution).",
+      "label": "footnote-text",
+      "word_count": 85
+    },
+    {
+      "text": "E.g., Stephen E. Sachs, Constitutional Backdrops, 80 Geo. Wash. L. Rev. 1813, 1816 (2012); Ashraf Ahmed, A Theory of Constitutional Norms, 120 Mich. L. Rev. 1361, 1364 (2022). But see Roderick M. Hills, Jr., Strategic Ambiguity and Article VII: Why the Framers Decided Not to Decide, 1 J. Am. Const. Hist. 379, 383–84 (2023) (detailing how ambiguous terms in Article VII were meant to be ambiguous and had no hidden or fixed meaning in order to reassure Federalists and Anti-Federalists alike when ratifying the Constitution).",
+      "label": "footnote-text",
+      "word_count": 85
+    },
+    {
+      "text": "“Constructions” or “conventions” refer to authoritative ideas and lenses which solve for constitutional confusion and may have become law-like over time. They are not the same thing as silent or unenumerated powers and rights, which are understood as existing in the Constitution itself. As a result, scholars of conventions are under no burden to find silent rights or powers. Because they exist in the same family of authoritative silent concepts, however, I nevertheless include them here. For a discussion on the distinction between “constructions” and the interpretation of rights or powers, see Jack M. Balkin, The New Originalism and the Uses of History, 82 Fordham L. Rev. 641, 648–54 (2013).Critics of “enumerationism” have argued that their work has substantive contemporary implications. But they have generally relied on existing dormant clauses which broadly gesture toward federal legislative power for that content—for instance, the General Welfare Clause, the Necessary and Proper Clause, and the Preamble. Compare Coan & Schwartz, supra note 13, at 974–75, 977 (arguing that these three clauses are “most naturally read to create a federal government empowered to address all important national problems”), with Reinstein, supra note 15, at 7 (arguing that the General Welfare Clause is overbroad and that there is a four-point grouping of federal power clustered in categories that interact with the Necessary and Proper Clause but not creating a stand-alone right or power). See also Jonathan Gienapp, The Myth of the Constitutional Given: Enumeration and National Power at the Founding, 69 Am. U. L. Rev. F. 183, 193, 207 (2020) [hereinafter Gienapp, Myth] (arguing that the General Welfare Clause and the Preamble were meant to be active clauses as part of a “Wilsonian” understanding of the Constitution).",
+      "label": "footnote-text",
+      "word_count": 282
+    },
+    {
+      "text": "“Constructions” or “conventions” refer to authoritative ideas and lenses which solve for constitutional confusion and may have become law-like over time. They are not the same thing as silent or unenumerated powers and rights, which are understood as existing in the Constitution itself. As a result, scholars of conventions are under no burden to find silent rights or powers. Because they exist in the same family of authoritative silent concepts, however, I nevertheless include them here. For a discussion on the distinction between “constructions” and the interpretation of rights or powers, see Jack M. Balkin, The New Originalism and the Uses of History, 82 Fordham L. Rev. 641, 648–54 (2013).Critics of “enumerationism” have argued that their work has substantive contemporary implications. But they have generally relied on existing dormant clauses which broadly gesture toward federal legislative power for that content—for instance, the General Welfare Clause, the Necessary and Proper Clause, and the Preamble. Compare Coan & Schwartz, supra note 13, at 974–75, 977 (arguing that these three clauses are “most naturally read to create a federal government empowered to address all important national problems”), with Reinstein, supra note 15, at 7 (arguing that the General Welfare Clause is overbroad and that there is a four-point grouping of federal power clustered in categories that interact with the Necessary and Proper Clause but not creating a stand-alone right or power). See also Jonathan Gienapp, The Myth of the Constitutional Given: Enumeration and National Power at the Founding, 69 Am. U. L. Rev. F. 183, 193, 207 (2020) [hereinafter Gienapp, Myth] (arguing that the General Welfare Clause and the Preamble were meant to be active clauses as part of a “Wilsonian” understanding of the Constitution).",
+      "label": "footnote-text",
+      "word_count": 282
+    },
+    {
+      "text": "See infra Part III.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Part III.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Part III.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Part III.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "This approach is indebted to Philip Bobbitt, Constitutional Fate: Theory of the Constitution 6–8 (1982), though the arguments here do not follow his modalities exactly.",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "This approach is indebted to Philip Bobbitt, Constitutional Fate: Theory of the Constitution 6–8 (1982), though the arguments here do not follow his modalities exactly.",
+      "label": "footnote-text",
+      "word_count": 25
+    },
+    {
+      "text": "See infra Section II.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Section II.B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See Rakove, supra note 3, at 355 (describing as authoritative Madison’s argument that the power was rejected); Brest et al., supra note 1, at 27–28 (leaving open the question of whether the power was rejected or not for pedagogical reasons); cf. Winkler, supra note 2, at 3–5 (arguing that, while corporations influenced the Framers, the Framers never considered whether the Constitution applied to corporations).",
+      "label": "footnote-text",
+      "word_count": 64
+    },
+    {
+      "text": "See Rakove, supra note 3, at 355 (describing as authoritative Madison’s argument that the power was rejected); Brest et al., supra note 1, at 27–28 (leaving open the question of whether the power was rejected or not for pedagogical reasons); cf. Winkler, supra note 2, at 3–5 (arguing that, while corporations influenced the Framers, the Framers never considered whether the Constitution applied to corporations).",
+      "label": "footnote-text",
+      "word_count": 64
+    },
+    {
+      "text": "2 The Records of the Federal Convention of 1787, at 615–16 (Max Farrand ed., 1911) [hereinafter Farrand]; see also 3 Farrand, supra, at 375–76 (describing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying should the power to charter corporations be included).",
+      "label": "footnote-text",
+      "word_count": 42
+    },
+    {
+      "text": "2 The Records of the Federal Convention of 1787, at 615–16 (Max Farrand ed., 1911) [hereinafter Farrand]; see also 3 Farrand, supra, at 375–76 (describing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying should the power to charter corporations be included).",
+      "label": "footnote-text",
+      "word_count": 42
+    },
+    {
+      "text": "See infra Sections II.A–B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Sections II.A–B.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See 2 Farrand, supra note 23, at 615–16 (recording concerns raised at the Constitutional Convention that the inclusion of a corporate power would prejudice and divide the states against ratification); see also Bray Hammond, Banks and Politics in America from the Revolution to the Civil War 104–05 (1957) (citing reports of non-Convention members who were told that while individuals wished to propose that the Constitution authorize the charter of a bank, the mere mention of it would destroy ratification); 3 Farrand, supra note 23, at 375–76 (listing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying the Constitution).",
+      "label": "footnote-text",
+      "word_count": 98
+    },
+    {
+      "text": "See 2 Farrand, supra note 23, at 615–16 (recording concerns raised at the Constitutional Convention that the inclusion of a corporate power would prejudice and divide the states against ratification); see also Bray Hammond, Banks and Politics in America from the Revolution to the Civil War 104–05 (1957) (citing reports of non-Convention members who were told that while individuals wished to propose that the Constitution authorize the charter of a bank, the mere mention of it would destroy ratification); 3 Farrand, supra note 23, at 375–76 (listing concerns that anti-bank sentiment would prevent Pennsylvania from ratifying the Constitution).",
+      "label": "footnote-text",
+      "word_count": 98
+    },
+    {
+      "text": "2 Farrand, supra note 23, at 615–16; see infra Part II.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "2 Farrand, supra note 23, at 615–16; see infra Part II.",
+      "label": "footnote-text",
+      "word_count": 11
+    },
+    {
+      "text": "The House voted 39-19 to adopt the bill chartering the First Bank of the United States. R.K. Moulton, Legislative and Documentary History of the Banks of the United States 13–18 (New York, G. & C. Carvill & Co. 1834).",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "The House voted 39-19 to adopt the bill chartering the First Bank of the United States. R.K. Moulton, Legislative and Documentary History of the Banks of the United States 13–18 (New York, G. & C. Carvill & Co. 1834).",
+      "label": "footnote-text",
+      "word_count": 39
+    },
+    {
+      "text": "See infra Section II.B; Ron Chernow, Alexander Hamilton 349–54 (2004) (explaining that Hamilton “had not foreseen the looming constitutional crisis that his bank bill was to instigate,” discussing the constitutionality of the Bank of the United States, noting that the bill “virtually breezed through the Senate,” and observing that “nothing presaged” the fight over the Bank that was soon to emerge); see also Primus, Essential Characteristic, supra note 2, at 424 (“[A]s far as I can tell,nobodythought the [First] Bank raised that kind of [constitutional] problem at any time between Hamilton’s submitting his Report on a National Bank to Congress and shortly before Madison made his famous speeches in the House.”). That Congress resumed its use of federal incorporation in earnest after Madison’s defeat over the first bank bill, chartering a second bank among other things, further suggests that the weight of legal opinion was for, not against, federal incorporation.",
+      "label": "footnote-text",
+      "word_count": 150
+    },
+    {
+      "text": "See infra Section II.B; Ron Chernow, Alexander Hamilton 349–54 (2004) (explaining that Hamilton “had not foreseen the looming constitutional crisis that his bank bill was to instigate,” discussing the constitutionality of the Bank of the United States, noting that the bill “virtually breezed through the Senate,” and observing that “nothing presaged” the fight over the Bank that was soon to emerge); see also Primus, Essential Characteristic, supra note 2, at 424 (“[A]s far as I can tell,nobodythought the [First] Bank raised that kind of [constitutional] problem at any time between Hamilton’s submitting his Report on a National Bank to Congress and shortly before Madison made his famous speeches in the House.”). That Congress resumed its use of federal incorporation in earnest after Madison’s defeat over the first bank bill, chartering a second bank among other things, further suggests that the weight of legal opinion was for, not against, federal incorporation.",
+      "label": "footnote-text",
+      "word_count": 150
+    },
+    {
+      "text": "See infra Section II.A. Richard Primus has suggested that the corporate power was left silent thanks to a coalition of those who rejected it outright and those who were worried that the naming of the power would have adverse political—but not legal—effects. See Primus, Essential Characteristic, supra note 2, at 427–28. This Article argues in Parts II and III that, whether or not this was the case, the legally predictable outcome of this approach—one which would have been clear to most lawyers at the time—was that the corporate power was enforceable. For the classic statement of predictability as legal knowledge, see Oliver Wendell Holmes, The Path of the Law, 10 Harv. L. Rev. 457, 457 (1897).",
+      "label": "footnote-text",
+      "word_count": 116
+    },
+    {
+      "text": "See infra Section II.A. Richard Primus has suggested that the corporate power was left silent thanks to a coalition of those who rejected it outright and those who were worried that the naming of the power would have adverse political—but not legal—effects. See Primus, Essential Characteristic, supra note 2, at 427–28. This Article argues in Parts II and III that, whether or not this was the case, the legally predictable outcome of this approach—one which would have been clear to most lawyers at the time—was that the corporate power was enforceable. For the classic statement of predictability as legal knowledge, see Oliver Wendell Holmes, The Path of the Law, 10 Harv. L. Rev. 457, 457 (1897).",
+      "label": "footnote-text",
+      "word_count": 116
+    },
+    {
+      "text": "For a discussion of the “paradigm-case method,” see Jed Rubenfeld, Revolution by Judiciary: The Structure of American Constitutional Law 15–18 (2005).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "For a discussion of the “paradigm-case method,” see Jed Rubenfeld, Revolution by Judiciary: The Structure of American Constitutional Law 15–18 (2005).",
+      "label": "footnote-text",
+      "word_count": 21
+    },
+    {
+      "text": "This Article uses sources like the Marshall Court and William Blackstone as the legal authorities they have been and continue to be. For a discussion of Blackstone, see infra note 252. Chief Justice Marshall has sometimes been scrutinized for his Federalist politics. See John Fabian Witt, The Operative: How John Marshall Built the Supreme Court Around His Political Agenda, New Republic (Jan. 7, 2019), https://newrepublic.com/article/152667/john-marshall-political-supreme-court-justice [https://perma.cc/HM9Q-3TU3]; see also Kurt Lash, Response,McCullochv. Madison: John Marshall’s Effort to Bury Madisonian Federalism, 73 Ark. L. Rev. 106, 115 (2020) (alternatively paginated version, beginning on page 119, appears in some online databases) (“McCulloch. . . [was] a failed effort to bury the federalist interpretive theories of James Madison and reinvent the nature and origins of the American Constitution.”). This Article does not highlight recent criticism of Chief Justice Marshall to the same extent as it does with Madison, however, because a chorus of historians agree that Madison was inconsistent both about enumeration and the Bank question—each of which directly affects how scholars have understood federal incorporation in particular. E.g., Mary Sarah Bilder, Madison’s Hand: Revising the Constitutional Convention 2 (2015) [hereinafter Bilder, Madison’s Hand]. By contrast, while there is no question Chief Justice Marshall was a Federalist, Witt, supra, there is also no clear evidence that he was judging in bad faith when he wroteMcCulloch. See David S. Schwartz, MisreadingMcCulloch v. Maryland, 18 U. Pa. J. Const. L. 1, 68 (2015) (arguing that “Marshall’s approach to implied powers reflects moderate, rather than aggressive nationalism”).",
+      "label": "footnote-text",
+      "word_count": 250
+    },
+    {
+      "text": "This Article uses sources like the Marshall Court and William Blackstone as the legal authorities they have been and continue to be. For a discussion of Blackstone, see infra note 252. Chief Justice Marshall has sometimes been scrutinized for his Federalist politics. See John Fabian Witt, The Operative: How John Marshall Built the Supreme Court Around His Political Agenda, New Republic (Jan. 7, 2019), https://newrepublic.com/article/152667/john-marshall-political-supreme-court-justice [https://perma.cc/HM9Q-3TU3]; see also Kurt Lash, Response,McCullochv. Madison: John Marshall’s Effort to Bury Madisonian Federalism, 73 Ark. L. Rev. 106, 115 (2020) (alternatively paginated version, beginning on page 119, appears in some online databases) (“McCulloch. . . [was] a failed effort to bury the federalist interpretive theories of James Madison and reinvent the nature and origins of the American Constitution.”). This Article does not highlight recent criticism of Chief Justice Marshall to the same extent as it does with Madison, however, because a chorus of historians agree that Madison was inconsistent both about enumeration and the Bank question—each of which directly affects how scholars have understood federal incorporation in particular. E.g., Mary Sarah Bilder, Madison’s Hand: Revising the Constitutional Convention 2 (2015) [hereinafter Bilder, Madison’s Hand]. By contrast, while there is no question Chief Justice Marshall was a Federalist, Witt, supra, there is also no clear evidence that he was judging in bad faith when he wroteMcCulloch. See David S. Schwartz, MisreadingMcCulloch v. Maryland, 18 U. Pa. J. Const. L. 1, 68 (2015) (arguing that “Marshall’s approach to implied powers reflects moderate, rather than aggressive nationalism”).",
+      "label": "footnote-text",
+      "word_count": 250
+    },
+    {
+      "text": "See, e.g., Chemerinsky, supra note 1, at 120–21, 155; Stone et al., supra note 1, at 66–68; Jeff Neal, McCulloch v. Maryland: Two Centuries Later, Harv. L. Today (Sept. 23, 2019), https://hls.harvard.edu/today/mcculloch-v-maryland-two-centuries-later/ [https://perma.cc/69‌FX-4YEJ].",
+      "label": "footnote-text",
+      "word_count": 33
+    },
+    {
+      "text": "See, e.g., Chemerinsky, supra note 1, at 120–21, 155; Stone et al., supra note 1, at 66–68; Jeff Neal, McCulloch v. Maryland: Two Centuries Later, Harv. L. Today (Sept. 23, 2019), https://hls.harvard.edu/today/mcculloch-v-maryland-two-centuries-later/ [https://perma.cc/69‌FX-4YEJ].",
+      "label": "footnote-text",
+      "word_count": 33
+    },
+    {
+      "text": "See infra Part III.Dartmouthhas, of course, long been read for the origins of the “private,” presumptively state-chartered, corporation. Gordon S. Wood, Empire of Liberty: A History of the Early Republic, 17891815, at 465–66 (2009) [hereinafter Wood, Empire] (describing the “momentous implications” ofDartmouth, which transformed hundreds of business corporations into private property of individuals); Morton J. Horwitz, The Transformation of American Law, 1780–1860, at 112 (1977) (describing Justice Story’s concurring opinion inDartmouthas solidifying the conception of corporations as private bodies). For a discussion of the relationship between state law and corporate law, see, e.g., Lev Menand & Morgan Ricks, Federal Corporate Law and the Business of Banking, 88 U. Chi. L. Rev. 1361, 1362 (2021) (“It is a bedrock . . . principle of U.S. business law that corporate formation and governance are the province of state, not federal, law.”). For the colloquial usage ofDartmouthas the foundation of that regime, see, e.g., Zephyr Teachout, October’s Book Club Pick: How Businesses Became People, N.Y. Times (Mar. 5, 2018), https://www.nytimes.com/2018/03/05‌/books/review/adam-winkler-we-the-corporations.html (reviewing Winkler, supra note 2) (describingDartmouthas “a pathbreaking case from 1819 establishing that corporations are [presumptively state-based] private entities over which a state has limited control”). Part III shows howDartmouthoffers insight into federal, not state, incorporation.",
+      "label": "footnote-text",
+      "word_count": 203
+    },
+    {
+      "text": "See infra Part III.Dartmouthhas, of course, long been read for the origins of the “private,” presumptively state-chartered, corporation. Gordon S. Wood, Empire of Liberty: A History of the Early Republic, 17891815, at 465–66 (2009) [hereinafter Wood, Empire] (describing the “momentous implications” ofDartmouth, which transformed hundreds of business corporations into private property of individuals); Morton J. Horwitz, The Transformation of American Law, 1780–1860, at 112 (1977) (describing Justice Story’s concurring opinion inDartmouthas solidifying the conception of corporations as private bodies). For a discussion of the relationship between state law and corporate law, see, e.g., Lev Menand & Morgan Ricks, Federal Corporate Law and the Business of Banking, 88 U. Chi. L. Rev. 1361, 1362 (2021) (“It is a bedrock . . . principle of U.S. business law that corporate formation and governance are the province of state, not federal, law.”). For the colloquial usage ofDartmouthas the foundation of that regime, see, e.g., Zephyr Teachout, October’s Book Club Pick: How Businesses Became People, N.Y. Times (Mar. 5, 2018), https://www.nytimes.com/2018/03/05‌/books/review/adam-winkler-we-the-corporations.html (reviewing Winkler, supra note 2) (describingDartmouthas “a pathbreaking case from 1819 establishing that corporations are [presumptively state-based] private entities over which a state has limited control”). Part III shows howDartmouthoffers insight into federal, not state, incorporation.",
+      "label": "footnote-text",
+      "word_count": 203
+    },
+    {
+      "text": "McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316, 419–21 (1819); see infra Section III.B.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316, 419–21 (1819); see infra Section III.B.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "Legislative and Documentary History of the Bank of the United States 39–41 (M. St. Clair Clarke & D.A. Hall eds., Washington, Gales & Seaton 1832) [hereinafter St. Clair Clarke & Hall]; see also Rakove, supra note 3, at 351–54 (quoting to Madison’s February 8, 1791, speech against the bank bill, stating that while powers of the Constitution at the time of the Convention were “dark, inexplicable and dangerous,” they are now “clear and luminous” (citation omitted)).",
+      "label": "footnote-text",
+      "word_count": 76
+    },
+    {
+      "text": "Legislative and Documentary History of the Bank of the United States 39–41 (M. St. Clair Clarke & D.A. Hall eds., Washington, Gales & Seaton 1832) [hereinafter St. Clair Clarke & Hall]; see also Rakove, supra note 3, at 351–54 (quoting to Madison’s February 8, 1791, speech against the bank bill, stating that while powers of the Constitution at the time of the Convention were “dark, inexplicable and dangerous,” they are now “clear and luminous” (citation omitted)).",
+      "label": "footnote-text",
+      "word_count": 76
+    },
+    {
+      "text": "The Tenth Amendment’s statement that the Constitution is one of “delegated” powers is frequently conflated with “enumerated” powers. U.S. Const. amend. X; see The Founders and Federalism, Am. Gov’t, USHistory.org, https://www.ushistory.org/gov/3a.asp [https://perma.‌cc/V2EF-RFED] (last visited Feb. 9, 2025) (“[D]elegated (sometimes called enumerated or expressed) powers are specifically granted to the federal government in Article I, Section 8 of the Constitution.”); see also Primus, Essential Characteristic, supra note 2, at 419–20 (critiquing the common assumption that limits on Congress are embodied in an enumeration of powers rather than built into the process of federal lawmaking).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": "The Tenth Amendment’s statement that the Constitution is one of “delegated” powers is frequently conflated with “enumerated” powers. U.S. Const. amend. X; see The Founders and Federalism, Am. Gov’t, USHistory.org, https://www.ushistory.org/gov/3a.asp [https://perma.‌cc/V2EF-RFED] (last visited Feb. 9, 2025) (“[D]elegated (sometimes called enumerated or expressed) powers are specifically granted to the federal government in Article I, Section 8 of the Constitution.”); see also Primus, Essential Characteristic, supra note 2, at 419–20 (critiquing the common assumption that limits on Congress are embodied in an enumeration of powers rather than built into the process of federal lawmaking).",
+      "label": "footnote-text",
+      "word_count": 93
+    },
+    {
+      "text": "See Noah Feldman, The Three Lives of James Madison: Genius, Partisan, President 286 (2017) (describing Madison’s arguments against the Bank, which relied not on policy grounds but on its constitutionality, as “initiat[ing] what [would] become [Madison’s] repeated practice of claiming that political enemies are bent on subverting the basic principles of the Constitution”); Gordon S. Wood, Revolutionary Characters: What Made the Founders Different 148–59 (2006) [hereinafter Wood, Revolutionary Characters] (describing contrasting Madisons: one who was subject to political influence, and the other who was a strict constitutionalist); Bilder, Madison’s Hand, supra note 31, at 2 (noting that “[a]s a reliable source . . . Madison’s Notes [to the Constitutional Convention] are a problem”).",
+      "label": "footnote-text",
+      "word_count": 113
+    },
+    {
+      "text": "See Noah Feldman, The Three Lives of James Madison: Genius, Partisan, President 286 (2017) (describing Madison’s arguments against the Bank, which relied not on policy grounds but on its constitutionality, as “initiat[ing] what [would] become [Madison’s] repeated practice of claiming that political enemies are bent on subverting the basic principles of the Constitution”); Gordon S. Wood, Revolutionary Characters: What Made the Founders Different 148–59 (2006) [hereinafter Wood, Revolutionary Characters] (describing contrasting Madisons: one who was subject to political influence, and the other who was a strict constitutionalist); Bilder, Madison’s Hand, supra note 31, at 2 (noting that “[a]s a reliable source . . . Madison’s Notes [to the Constitutional Convention] are a problem”).",
+      "label": "footnote-text",
+      "word_count": 113
+    },
+    {
+      "text": "U.S. Const. art. IV, § 3, cl. 1.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "U.S. Const. art. IV, § 3, cl. 1.",
+      "label": "footnote-text",
+      "word_count": 8
+    },
+    {
+      "text": "Id. art. IV, § 3, cl. 2.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id. art. IV, § 3, cl. 2.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id. art. I, § 8, cl. 8.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id. art. I, § 8, cl. 8.",
+      "label": "footnote-text",
+      "word_count": 7
+    },
+    {
+      "text": "Id. amend. I.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "Id. amend. I.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "There is no casebook for federal incorporation. Among the most helpful preexisting sources are a survey which specifically covers the federal jurisdiction features of federal incorporation, and white papers from the Congressional Research Service. Paul E. Lund, Federally Chartered Corporations and Federal Jurisdiction, 36 Fla. St. U. L. Rev. 317, 317–59 (2009) (providing a survey of federal jurisdiction features of federally chartered corporations); see Kevin R. Kosar, Cong. Rsch. Serv., RL30533, The Quasi Government: Hybrid Organizations with Both Government and Private Sector Legal Characteristics 1–10 (2011) (classifying forms of “hybrid organizations,” which are federal entities that have been assigned legal characteristics of both governmental and private sectors).",
+      "label": "footnote-text",
+      "word_count": 107
+    },
+    {
+      "text": "There is no casebook for federal incorporation. Among the most helpful preexisting sources are a survey which specifically covers the federal jurisdiction features of federal incorporation, and white papers from the Congressional Research Service. Paul E. Lund, Federally Chartered Corporations and Federal Jurisdiction, 36 Fla. St. U. L. Rev. 317, 317–59 (2009) (providing a survey of federal jurisdiction features of federally chartered corporations); see Kevin R. Kosar, Cong. Rsch. Serv., RL30533, The Quasi Government: Hybrid Organizations with Both Government and Private Sector Legal Characteristics 1–10 (2011) (classifying forms of “hybrid organizations,” which are federal entities that have been assigned legal characteristics of both governmental and private sectors).",
+      "label": "footnote-text",
+      "word_count": 107
+    },
+    {
+      "text": "See infra Subsection I.A.1. For instance, federal incorporation can allow Congress to engage in off-budget accounting. See United States ex rel. Skinner & Eddy Corp. v. McCarl, 275 U.S. 1, 8 (1927) (“[A]n important if not the chief reason for employing these incorporated agencies was to enable them to employ commercial methods and to conduct their operations with a freedom supposed to be inconsistent with accountability to the Treasury under its established procedure of audit and control over the financial transactions of the United States.” (citation omitted)).",
+      "label": "footnote-text",
+      "word_count": 87
+    },
+    {
+      "text": "See infra Subsection I.A.1. For instance, federal incorporation can allow Congress to engage in off-budget accounting. See United States ex rel. Skinner & Eddy Corp. v. McCarl, 275 U.S. 1, 8 (1927) (“[A]n important if not the chief reason for employing these incorporated agencies was to enable them to employ commercial methods and to conduct their operations with a freedom supposed to be inconsistent with accountability to the Treasury under its established procedure of audit and control over the financial transactions of the United States.” (citation omitted)).",
+      "label": "footnote-text",
+      "word_count": 87
+    },
+    {
+      "text": "Metzger, supra note 5, at 1370–71; Government by Contract, supra note 5, at 3; Berman, supra note 8; Zaring, supra note 8, at 1406–08; see infra Subsection I.B.2.",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": "Metzger, supra note 5, at 1370–71; Government by Contract, supra note 5, at 3; Berman, supra note 8; Zaring, supra note 8, at 1406–08; see infra Subsection I.B.2.",
+      "label": "footnote-text",
+      "word_count": 28
+    },
+    {
+      "text": "See infra Paragraph I.B.2.ii.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Paragraph I.B.2.ii.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "Housing and Economic Recovery Act of 2008, 12 U.S.C. §§ 4501–4642; Puerto Rico Oversight, Management, and Economic Stability Act (“PROMESA”), 48 U.S.C. §§ 2101–2241; Press Release, Off. of Pub. Affs., U.S. Dep’t of Just., Justice Department Announces Global Resolution of Criminal and Civil Investigations with Opioid Manufacturer Purdue Pharma and Civil Settlement with Members of the Sackler Family (Oct. 21, 2020) [hereinafter Justice Department Announces Global Resolution], https://www.justice.gov/opa/pr/justice-department-announces-global-resolution-criminal-and-civil-investigations-opioid [https://per‌ma.cc/W3XU-5EDK]; see also Samuel Issacharoff & Adam Littlestone-Luria, Remedy Becomes Regulation: State Making After the Fact, DePaul L. Rev. (forthcoming) (manuscript at 26–27), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4869528 [https://perma.cc/Y‌Q2N-BCJB] (describing institutional design through the courts but driven by private litigants that defies existing categories, similar to that analyzed here).",
+      "label": "footnote-text",
+      "word_count": 113
+    },
+    {
+      "text": "Housing and Economic Recovery Act of 2008, 12 U.S.C. §§ 4501–4642; Puerto Rico Oversight, Management, and Economic Stability Act (“PROMESA”), 48 U.S.C. §§ 2101–2241; Press Release, Off. of Pub. Affs., U.S. Dep’t of Just., Justice Department Announces Global Resolution of Criminal and Civil Investigations with Opioid Manufacturer Purdue Pharma and Civil Settlement with Members of the Sackler Family (Oct. 21, 2020) [hereinafter Justice Department Announces Global Resolution], https://www.justice.gov/opa/pr/justice-department-announces-global-resolution-criminal-and-civil-investigations-opioid [https://per‌ma.cc/W3XU-5EDK]; see also Samuel Issacharoff & Adam Littlestone-Luria, Remedy Becomes Regulation: State Making After the Fact, DePaul L. Rev. (forthcoming) (manuscript at 26–27), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4869528 [https://perma.cc/Y‌Q2N-BCJB] (describing institutional design through the courts but driven by private litigants that defies existing categories, similar to that analyzed here).",
+      "label": "footnote-text",
+      "word_count": 113
+    },
+    {
+      "text": "E.g., Nat’l Ass’n of Mfrs. v. SEC, 800 F.3d 518, 520–22 (D.C. Cir. 2015) (holding that the Securities and Exchange Commission (“SEC”) cannot require companies to adhere to certain disclosure requirements).",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "E.g., Nat’l Ass’n of Mfrs. v. SEC, 800 F.3d 518, 520–22 (D.C. Cir. 2015) (holding that the Securities and Exchange Commission (“SEC”) cannot require companies to adhere to certain disclosure requirements).",
+      "label": "footnote-text",
+      "word_count": 31
+    },
+    {
+      "text": "See infra Appendix.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "See infra Appendix.",
+      "label": "footnote-text",
+      "word_count": 3
+    },
+    {
+      "text": "There are also important questions about when and whether federal corporations (or the federal government) can take over existing corporations as well and what occurs when they do. See Regional Rail Reorganization Act Cases, 419 U.S. 102, 161–62 (1974) (Douglas, J., dissenting); Marcel Kahan & Edward B. Rock, When the Government Is the Controlling Shareholder, 89 Tex. L. Rev. 1293, 1295 (2011); Steven M. Davidoff & David Zaring, Regulation by Deal: The Government’s Response to the Financial Crisis, 61 Admin. L. Rev. 463, 465 (2009). Also, forced consolidation resulted in the Railway Express Agency. See infra Appendix. This Article leaves these questions for future work to discuss in full.",
+      "label": "footnote-text",
+      "word_count": 109
+    },
+    {
+      "text": "There are also important questions about when and whether federal corporations (or the federal government) can take over existing corporations as well and what occurs when they do. See Regional Rail Reorganization Act Cases, 419 U.S. 102, 161–62 (1974) (Douglas, J., dissenting); Marcel Kahan & Edward B. Rock, When the Government Is the Controlling Shareholder, 89 Tex. L. Rev. 1293, 1295 (2011); Steven M. Davidoff & David Zaring, Regulation by Deal: The Government’s Response to the Financial Crisis, 61 Admin. L. Rev. 463, 465 (2009). Also, forced consolidation resulted in the Railway Express Agency. See infra Appendix. This Article leaves these questions for future work to discuss in full.",
+      "label": "footnote-text",
+      "word_count": 109
+    },
+    {
+      "text": "For example, rather than relying on the Commerce Clause, the spending power, or the tax power, courts might find legislation like the Affordable Care Act constitutional because this legislation creates a federal corporation. See infra Paragraph I.B.2.iii.",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": "For example, rather than relying on the Commerce Clause, the spending power, or the tax power, courts might find legislation like the Affordable Care Act constitutional because this legislation creates a federal corporation. See infra Paragraph I.B.2.iii.",
+      "label": "footnote-text",
+      "word_count": 37
+    },
+    {
+      "text": "See infra Paragraph I.B.2.ii.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Paragraph I.B.2.ii.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See Griswold v. Connecticut, 381 U.S. 479, 508–09 (1965) (Black, J., dissenting). Justice Black’s dissent was based on his opposition to the resurrection of the “ordered liberty” test thatDobbsrelies on. Id. at 526 n.21 (“[C]ases applying specific Bill of Rights provisions to the States do not in my view stand for the proposition that this Court can rely on its own concept of ‘ordered liberty’ or ‘shocking the conscience’ or natural law to decide what laws it will permit state legislatures to enact.” (citing Gideon v. Wainwright, 372 U.S. 335 (1963))). Justice Black’s worry about “ordered liberty” stemmed from not only his commitment to the hard-won First Amendment rights his fundamentalism protected, id. at 509 (“One of the most effective ways of diluting . . . a constitutionally guaranteed right is to substitute for the crucial word or words of a constitutional guarantee another word or words, more or less flexible and more or less restricted in meaning.”), but also the possibility that incorporation—extending federal constitutional rights to protect Americans against state overreach, which he supported—would be diluted if it were conflated with the “ordered liberty” test. Id. In short, he appears to have feared thatGriswold’s embrace of unenumerated rights would require legal logic that would, in turn, call into question the incorporation of First Amendment rights he had made his life’s work.",
+      "label": "footnote-text",
+      "word_count": 223
+    },
+    {
+      "text": "See Griswold v. Connecticut, 381 U.S. 479, 508–09 (1965) (Black, J., dissenting). Justice Black’s dissent was based on his opposition to the resurrection of the “ordered liberty” test thatDobbsrelies on. Id. at 526 n.21 (“[C]ases applying specific Bill of Rights provisions to the States do not in my view stand for the proposition that this Court can rely on its own concept of ‘ordered liberty’ or ‘shocking the conscience’ or natural law to decide what laws it will permit state legislatures to enact.” (citing Gideon v. Wainwright, 372 U.S. 335 (1963))). Justice Black’s worry about “ordered liberty” stemmed from not only his commitment to the hard-won First Amendment rights his fundamentalism protected, id. at 509 (“One of the most effective ways of diluting . . . a constitutionally guaranteed right is to substitute for the crucial word or words of a constitutional guarantee another word or words, more or less flexible and more or less restricted in meaning.”), but also the possibility that incorporation—extending federal constitutional rights to protect Americans against state overreach, which he supported—would be diluted if it were conflated with the “ordered liberty” test. Id. In short, he appears to have feared thatGriswold’s embrace of unenumerated rights would require legal logic that would, in turn, call into question the incorporation of First Amendment rights he had made his life’s work.",
+      "label": "footnote-text",
+      "word_count": 223
+    },
+    {
+      "text": "See infra Subsection IV.B.2.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "See infra Subsection IV.B.2.",
+      "label": "footnote-text",
+      "word_count": 4
+    },
+    {
+      "text": "For the canonical statement of “structural interpretation,” see Black, supra note 2, at 7.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "For the canonical statement of “structural interpretation,” see Black, supra note 2, at 7.",
+      "label": "footnote-text",
+      "word_count": 14
+    },
+    {
+      "text": "For a helpful survey of originalism, see Gregory Ablavsky, Akhil Amar’s Unusable Past, 121 Mich. L. Rev. 1119, 1119–27 (2023) (reviewing Akhil Reed Amar, The Words That Made Us: America’s Constitutional Conversation, 1760–1840 (2021)). For an example of realism, see, e.g., Ryan D. Doerfler & Samuel Moyn, The Constitution Is Broken and Should Not Be Reclaimed, N.Y. Times (Aug. 19, 2022), https://www.nytimes.com/2022/08/19/opinion/liber‌als-constitution.html (urging a shift away from constitutional law and toward “ordinary expressions of popular will”); Sanford Levinson, What Is This Project, Anyway?, Democracy J., Summer 2021, https://democracyjournal.org/magazine/61/what-is-this-project-anyway/ [https://perma.cc/9R2S-C8DM] (describing the Constitution as “a clear and present danger” and proposing significant reforms).",
+      "label": "footnote-text",
+      "word_count": 102
+    },
+    {
+      "text": "For a helpful survey of originalism, see Gregory Ablavsky, Akhil Amar’s Unusable Past, 121 Mich. L. Rev. 1119, 1119–27 (2023) (reviewing Akhil Reed Amar, The Words That Made Us: America’s Constitutional Conversation, 1760–1840 (2021)). For an example of realism, see, e.g., Ryan D. Doerfler & Samuel Moyn, The Constitution Is Broken and Should Not Be Reclaimed, N.Y. Times (Aug. 19, 2022), https://www.nytimes.com/2022/08/19/opinion/liber‌als-constitution.html (urging a shift away from constitutional law and toward “ordinary expressions of popular will”); Sanford Levinson, What Is This Project, Anyway?, Democracy J., Summer 2021, https://democracyjournal.org/magazine/61/what-is-this-project-anyway/ [https://perma.cc/9R2S-C8DM] (describing the Constitution as “a clear and present danger” and proposing significant reforms).",
+      "label": "footnote-text",
+      "word_count": 102
+    },
+    {
+      "text": "See infra Subsection IV.B.1. This effort is not limited to the Founding: renewed interest in “popular constitutionalism” has encouraged scholars to search for public-legal fusion across American history. For a recent example, see Joseph Fishkin & William E. Forbath, The Anti-Oligarchy Constitution: Reconstructing the Economic Foundations of American Democracy 484–87 (2022).",
+      "label": "footnote-text",
+      "word_count": 51
+    },
+    {
+      "text": "See infra Subsection IV.B.1. This effort is not limited to the Founding: renewed interest in “popular constitutionalism” has encouraged scholars to search for public-legal fusion across American history. For a recent example, see Joseph Fishkin & William E. Forbath, The Anti-Oligarchy Constitution: Reconstructing the Economic Foundations of American Democracy 484–87 (2022).",
+      "label": "footnote-text",
+      "word_count": 51
+    },
+    {
+      "text": "See, e.g., Richard H. Fallon, Jr., The Chimerical Concept of Original Public Meaning, 107 Va. L. Rev. 1421, 1427 (2021) (positing that original public meanings “are insufficient to resolve any historically contested or otherwise reasonably disputable issue”); Gienapp, Second Creation, supra note 10, at 1–12 (arguing against the concept of a “fixed” Constitution).",
+      "label": "footnote-text",
+      "word_count": 53
+    },
+    {
+      "text": "See, e.g., Richard H. Fallon, Jr., The Chimerical Concept of Original Public Meaning, 107 Va. L. Rev. 1421, 1427 (2021) (positing that original public meanings “are insufficient to resolve any historically contested or otherwise reasonably disputable issue”); Gienapp, Second Creation, supra note 10, at 1–12 (arguing against the concept of a “fixed” Constitution).",
+      "label": "footnote-text",
+      "word_count": 53
+    },
+    {
+      "text": "For a discussion of further implications, see infra Subsection IV.B.1.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": "For a discussion of further implications, see infra Subsection IV.B.1.",
+      "label": "footnote-text",
+      "word_count": 10
+    },
+    {
+      "text": "These interpretive conventions fall into roughly two groups: interpretive conventions about legibility, such as statutory canons and constitutional interpretation, and statutory disclosure rules.",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": "These interpretive conventions fall into roughly two groups: interpretive conventions about legibility, such as statutory canons and constitutional interpretation, and statutory disclosure rules.",
+      "label": "footnote-text",
+      "word_count": 23
+    },
+    {
+      "text": "The Constitution’s brevity, textual nature, and pre-ratification discussion in the press, usually framed in contrast to British constitutional law, have long been taken to mean that we should understand the Constitution as animated by values of legibility. InMcCulloch v. Maryland, Chief Justice Marshall himself argues that the Constitution does not exhibit the “prolixity of a legal code” because if it did “[i]t would probably never be understood by the public.” 17 U.S. (4 Wheat.) 316, 407 (1819). Importantly, however, Chief Justice Marshall relies on this lack of prolixity as one of several reasons that the corporate power is clearly in the Constitution. See id. at 410–24.",
+      "label": "footnote-text",
+      "word_count": 106
+    },
+    {
+      "text": "The Constitution’s brevity, textual nature, and pre-ratification discussion in the press, usually framed in contrast to British constitutional law, have long been taken to mean that we should understand the Constitution as animated by values of legibility. InMcCulloch v. Maryland, Chief Justice Marshall himself argues that the Constitution does not exhibit the “prolixity of a legal code” because if it did “[i]t would probably never be understood by the public.” 17 U.S. (4 Wheat.) 316, 407 (1819). Importantly, however, Chief Justice Marshall relies on this lack of prolixity as one of several reasons that the corporate power is clearly in the Constitution. See id. at 410–24.",
+      "label": "footnote-text",
+      "word_count": 106
+    },
+    {
+      "text": "Among other things, statutory conventions which require clarity in specific ways do not automatically apply to constitutional law. Scholars have, for other reasons, suggested we see the ways in which constitutional law is similar to legislation. See, e.g., Farah Peterson, Expounding the Constitution, 130 Yale L.J. 2, 7 (2020). But in important ways, constitutional law is also a distinct topic—with its own rules of interpretation as a result. For one example of constitutional law’s singularity, see David E. Pozen, Constitutional Bad Faith, 129 Harv. L. Rev. 885, 886 (2016).",
+      "label": "footnote-text",
+      "word_count": 89
+    },
+    {
+      "text": "Among other things, statutory conventions which require clarity in specific ways do not automatically apply to constitutional law. Scholars have, for other reasons, suggested we see the ways in which constitutional law is similar to legislation. See, e.g., Farah Peterson, Expounding the Constitution, 130 Yale L.J. 2, 7 (2020). But in important ways, constitutional law is also a distinct topic—with its own rules of interpretation as a result. For one example of constitutional law’s singularity, see David E. Pozen, Constitutional Bad Faith, 129 Harv. L. Rev. 885, 886 (2016).",
+      "label": "footnote-text",
+      "word_count": 89
+    },
+    {
+      "text": "As discussed in Part IV, there are, of course, important doctrinal distinctions that may be made between different unenumerated rights and powers. In this sense, the corporate power stands on its own.",
+      "label": "footnote-text",
+      "word_count": 32
+    },
+    {
+      "text": "As discussed in Part IV, there are, of course, important doctrinal distinctions that may be made between different unenumerated rights and powers. In this sense, the corporate power stands on its own.",
+      "label": "footnote-text",
+      "word_count": 32
     },
     {
       "text": "See Erwin Chemerinsky, Constitutional Law 120–21, 155, 1846 (6th ed. 2020) (discussing McCulloch v. Maryland but containing no index entry for “corporation” as it relates to Congress); Geoffrey R. Stone, Louis Michael Seidman, Cass R. Sunstein, Mark V. Tushnet & Pamela S. Karlan, Constitutional Law 66–68, 1644 (8th ed. 2018) (discussing McCulloch v. Maryland but containing no index entry for “corporation”); see also Randy E. Barnett & Josh Blackman, Constitutional Law: Cases in Context 116, 1768 (3d ed. 2018) (mentioning a “power of incorporation” in passing in reference to McCulloch but containing no index entry for “corporation”); Paul Brest, Sanford Levinson, Jack M. Balkin, Akhil Reed Amar & Reva B. Siegel, Processes of Constitutional Decisionmaking: Cases and Materials 27–28, 59, 1774 (7th ed. 2018) (focusing on “banking” but not on corporations, noting that the First and Second Banks were formed by incorporation but refraining from offering an opinion as to whether or not the power to incorporate was drafted into the Constitution, and containing no index entry for “corporation”).",
