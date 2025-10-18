@@ -1,0 +1,113 @@
+FOOTNOTE PATTERNS ACROSS ALL JOURNALS
+================================================================================
+(examining one representative file per journal)
+
+Arxiv
+  File: arxiv_2510_14164.html
+  Total files: 76
+    • 11 <sup> tags
+
+BU Law Review
+  File: bu_law_review_nil_compliance.html
+  Total files: 14
+    • 165 <p> tags starting with [N]
+
+California Law Review
+  File: california_law_review_Access_Without_the_ADA_The_Implications_of_the_Federal_Judiciarys_Exemption_from_Following_the_Disab.html
+  Total files: 37
+    • 200 <p> tags starting with [N]
+
+Columbia Law Review
+  File: columbia_two_cheers_evidence.html
+  Total files: 1
+    • No clear footnote pattern detected
+
+Duke Law Journal
+  File: duke_law_journal_transnational_corporate_law.html
+  Total files: 5
+    • No clear footnote pattern detected
+
+Gallery.Html
+  File: gallery.html
+  Total files: 1
+    • No clear footnote pattern detected
+
+Harvard Law Review
+  File: harvard_law_review_Fighting_Words_At_The_Founding.html
+  Total files: 7
+    • 259 <sup> tags
+
+Michigan Law Review
+  File: michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.html
+  Total files: 20
+    • 132 <span class='modern-footnotes-footnote__note'>
+    • 134 <sup> tags
+
+Minnesota Law Review
+  File: minnesota_law_review_Full_Text.html
+  Total files: 1
+    • Error reading file: 'utf-8' codec can't decode byte 0xba in position 10: invalid start byte
+
+Northwestern Law Review
+  File: northwestern_law_review_Issues.html
+  Total files: 1
+    • No clear footnote pattern detected
+
+Pdf
+  File: pdf_tag_visualization.html
+  Total files: 1
+    • No clear footnote pattern detected
+
+Pmc
+  File: pmc_12020646.html
+  Total files: 4
+    • 15 <sup> tags
+
+Supreme Court Review
+  File: supreme_court_review_the_presidency_after_trump_v_united_states.html
+  Total files: 3
+    • 223 <span class='NLM_fn'>
+    • 442 <sup> tags
+
+Texas Law Review
+  File: texas_fallon_selective_originalism.html
+  Total files: 45
+    • 387 <sup> tags
+
+UCLA Law Review
+  File: ucla_law_review_episode_82_professor_sanford_williams_friends_family_and_the_fcc.html
+  Total files: 9
+    • No clear footnote pattern detected
+
+USC Law Review
+  File: usc_law_review_listening_on_campus_academic_freedom_and_its_audiences.html
+  Total files: 30
+    • 147 <span class='modern-footnotes-footnote__note'>
+    • 147 <sup> tags
+
+University of Chicago Law Review
+  File: chicago_law_review_search-strategy-sampling-and-competition-law.html
+  Total files: 6
+    • No clear footnote pattern detected
+
+Virginia Law Review
+  File: virginia_law_review_the-unenumerated-power.html
+  Total files: 2
+    • 64 <sup> tags
+
+Washington University Law Review
+  File: washington_university_law_review_Print.html
+  Total files: 6
+    • No clear footnote pattern detected
+
+Wisconsin Law Review
+  File: wisconsin_law_review_marriage_equality_comes_to_wisconsin.html
+  Total files: 3
+    • 375 <sup> tags
+
+
+================================================================================
+SUMMARY
+================================================================================
+Total journals surveyed: 20
+Total HTML files examined: 272

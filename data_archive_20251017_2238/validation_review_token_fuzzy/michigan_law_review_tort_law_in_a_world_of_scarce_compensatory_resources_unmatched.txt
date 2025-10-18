@@ -1,0 +1,64 @@
+UNMATCHED LINES FOR: michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources
+================================================================================
+Total unmatched: 6
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/6
+Best match score: 58.33%
+Method: no_match
+Tokens matched: 14/24
+Avg token similarity: 77.9%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this article is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/6
+Best match score: 54.55%
+Method: no_match
+Tokens matched: 12/22
+Avg token similarity: 75.3%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/6
+Best match score: 73.08%
+Method: no_match
+Tokens matched: 19/26
+Avg token similarity: 86.1%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+13 debtor's prison-a prospect tort defendants faced in many states until the early twentieth century 14 -supplied a powerful normative reason for sharply limiting tort liability.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/6
+Best match score: 69.23%
+Method: no_match
+Tokens matched: 18/26
+Avg token similarity: 84.6%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+debt bondage continues to be shockingly common around the world today, 111 although matters have improved considerably for insolvent debtors in the united states and elsewhere.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/6
+Best match score: 78.05%
+Method: no_match
+Tokens matched: 32/41
+Avg token similarity: 88.2%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+due to its primary emphasis on preventing the irreparable injury of physical harm, the duty with compensatory damages, the defendant is prevented from making the 'coldblooded calculation' that it is more profitable to pay claims than correct a defect.'); fischer v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/6
+Best match score: 79.73%
+Method: no_match
+Tokens matched: 59/74
+Avg token similarity: 90.9%
+Word count: 74 words
+────────────────────────────────────────────────────────────────────────────────
+as was true for the customary practices that first informed the early common law, an injurer's failure to compensate the victim's injury can be a culpable form of disrespect or mistreatment, regardless of whether the injury was otherwise due to faulty behavior-the 'value of an eye for an eye.' 202 over time, this compensatory practice evolved into the important rules comprising modern tort law, including the rule of strict liability for abnormally dangerous activities.

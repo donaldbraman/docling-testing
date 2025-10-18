@@ -1,0 +1,128 @@
+NEW ARTICLE PAIRS FROM DOWNLOADS FOLDER
+================================================================================
+
+MATCHED PAIRS (40 total):
+
+BU Law Review: 5 pairs
+  - bu_law_review_online_law_and_culture
+  - bu_law_review_online_building_new_constitutional_jerusalem
+  - bu_law_review_online_nil_compliance
+  - bu_law_review_online_reasonable_yet_suspicious
+  - bu_law_review_online_fourth_amendment_secure
+
+Columbia Law Review: 7 pairs
+  - LAW OF PROTEST
+  - POLICING CAMPUS PROTEST
+  - AFROFUTURISM IN PROTEST: DISSENT AND REVOLUTION
+  - GUARANTEED: THE FEDERAL EDUCATION DUTY
+  - OVERBROAD PROTEST LAWS
+  - PLATFORM LIABILITY FOR PLATFORM MANIPULATION
+  - SACRED THOUGHTS, SECULAR HARMS
+
+Penn Law Review: 4 pairs
+  - Against The Sliding Scale
+  - Trump v. United States and the Separation of Powers
+  - Ordinary Public Meaning & Habeas Power to Review State Convictions
+  - Common-Law Limits on Firearms Purchases by Minors
+
+Supreme Court Review: 5 pairs
+  - The Trump Disqualification Case: The Halley's Comet Of Constitutional Law
+  - Purdue Pharma and the New Bankruptcy Exceptionalism
+  - The Presidency After Trump v. United States
+  - The Old Regime and the Loper Bright "Revolution"
+  - Fear of Balancing
+
+Wisconsin Law Review: 5 pairs
+  - Academic Limbo: Reforming Campus Speech Governance for Students
+  - Stategraft: Facilitating Predatory Takings by Eminent Domain
+  - Court Reform for Progressives: A Primer on Constitutional Considerations
+  - NextGen Bar Success: A Student-Tested, Student-Approved Method
+  - Flexibility & Resilience are Essential Legal Skills
+
+Harvard Law Review: 5 pairs
+  - harvard_law_review_excited_delirium
+  - harvard_law_review_forgotten_history_of_prison_law
+  - harvard_law_review_law_and_lawlessness_of_immigration_detention
+  - harvard_law_review_unwarranted_warrants
+  - harvard_law_review_waste_property_and_useless_things
+
+Other Sources: 9 pairs
+  - DETERRING UNENFORCEABLE TERMS (Westlaw)
+  - POLITICAL MOOTNESS (Westlaw)
+  - Hiding Lawyer Misconduct: Evidence From Florida (JELS)
+  - In the Eye of the Beholder: How Lawyers Perceive Legal Ethics (JELS)
+  - The Diffusion of Deal Innovations in Complex Contractual Networks (JELS)
+  - FREE SPEECH, BREATHING SPACE, AND LIABILITY INSURANCE (Westlaw)
+  - ANTITRUST'S INTERDEPENDENCE PARADOX (Westlaw)
+  - THE ASSOCIATION GAME (Westlaw)
+  - Does compliance with the global anticorruption regime require use of... (ABLJ)
+
+
+UNPAIRED FILES (16 total):
+
+HTML without PDF (8):
+  - Memory, Invisibility, & Power (Penn Law Review)
+  - Cliff Running (Washington University Law Review)
+  - When is Discrimination Harmful? (Washington University Law Review)
+  - Drug Dealing: Making Public Pharma Work (Washington University Law Review)
+  - Personal Jurisdiction and Federalism (Washington University Law Review)
+  - The Consequences of Ending Birthright Citizenship (Washington University Law Review)
+  - Measuring the Perceived (In)accessibility of Courts (JELS)
+  - Transnational Litigation in U.S. Courts (JELS)
+
+PDF without HTML (8):
+  - 10_Dodson_FINAL-08.12.25-.pdf
+  - 11_Agrawal-et-al_FINAL-09.02.25-1.pdf
+  - 12_Sperino_FINAL-08.12.25-.pdf
+  - 13_Fox-Ortman_FINAL-08.29.25-.pdf
+  - 14_Hamburger_FINAL-08.30.25.pdf
+  - Memory Invisibility & Power.pdf
+  - J Empirical Legal Studies - 2022 - Whytock - Transnational Litigation.pdf
+  - J Empirical Legal Studies - 2025 - Denvir - Measuring the Perceived.pdf
+
+
+================================================================================
+PROJECTED TOTALS AFTER ADDING NEW FILES
+================================================================================
+
+Current corpus (from earlier count):
+  BU Law Review: 14 articles
+  California Law Review: 37 articles
+  Michigan Law Review: 20 articles
+  USC Law Review: 30 articles
+  Supreme Court Review: 3 articles
+  Harvard Law Review: 7 articles
+  Texas Law Review: 45 articles
+  Virginia Law Review: 2 articles
+  Wisconsin Law Review: 3 articles
+  Columbia Law Review: 1 article
+  University of Chicago Law Review: 6 articles
+
+After adding Downloads:
+  BU Law Review: 14 + 5 = 19 articles ✓ (5+ target met)
+  Columbia Law Review: 1 + 7 = 8 articles ✓ (5+ target met)
+  Penn Law Review: 0 + 4 = 4 articles (need 1 more)
+  Supreme Court Review: 3 + 5 = 8 articles ✓ (5+ target met)
+  Wisconsin Law Review: 3 + 5 = 8 articles ✓ (5+ target met)
+  Harvard Law Review: 7 + 5 = 12 articles ✓ (5+ target met)
+
+Still below 5:
+  Penn Law Review: 4 articles (HTML for 5th exists: "Memory, Invisibility, & Power")
+  Virginia Law Review: 2 articles
+
+
+================================================================================
+FOOTNOTE PATTERNS FOR NEW JOURNALS
+================================================================================
+
+Penn Law Review:
+  - Need to examine one file to identify footnote pattern
+  - Similar prestige to other top law reviews, likely has clear footnote markup
+
+Harvard Law Review (already identified):
+  - Pattern: Superscript (<sup> tags)
+  - Already in corpus with 7 articles, adding 5 more
+
+Wisconsin Law Review (already identified):
+  - Pattern: Superscript (<sup> tags)
+  - Currently has 3 articles, adding 5 more

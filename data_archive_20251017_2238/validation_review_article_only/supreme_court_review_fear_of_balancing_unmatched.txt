@@ -1,0 +1,14 @@
+UNMATCHED LINES FOR: supreme_court_review_fear_of_balancing
+================================================================================
+Total unmatched: 1
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/1
+Best match score: 72.73%
+Method: no_match
+Tokens matched: 16/22
+Avg token similarity: 87.4%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+when the text is vague and the pre-rati /unifb01 cation history is elusive or inconclusive, post-rati /unifb01 cation history becomes especially important.

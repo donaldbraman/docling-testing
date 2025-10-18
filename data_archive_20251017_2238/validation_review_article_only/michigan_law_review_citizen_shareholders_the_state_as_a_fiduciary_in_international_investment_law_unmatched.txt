@@ -1,0 +1,54 @@
+UNMATCHED LINES FOR: michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law
+================================================================================
+Total unmatched: 5
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/5
+Best match score: 58.33%
+Method: no_match
+Tokens matched: 14/24
+Avg token similarity: 80.4%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this note is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/5
+Best match score: 59.09%
+Method: no_match
+Tokens matched: 13/22
+Avg token similarity: 79.9%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/5
+Best match score: 71.43%
+Method: no_match
+Tokens matched: 15/21
+Avg token similarity: 84.7%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+aside from customary international law, 34 which is vaguely defined and difficult to outline, 35 most international law emanates from treaties.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/5
+Best match score: 72.00%
+Method: no_match
+Tokens matched: 18/25
+Avg token similarity: 87.3%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+52 by contrast, the united states, despite having a gdp over one thousand times larger than albania's, 53 had only ten more claims against it.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/5
+Best match score: 73.91%
+Method: no_match
+Tokens matched: 17/23
+Avg token similarity: 86.4%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+they are long-term treaties, often lasting indefinitely once they have entered into force, 71 covering a wide range of economic activity and industries.

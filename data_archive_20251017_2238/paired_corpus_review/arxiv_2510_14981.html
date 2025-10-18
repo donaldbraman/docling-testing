@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Coupled Diffusion Sampling for Training-free Multi-view Image Editing</title>
+<!--Generated on Thu Oct 16 05:46:49 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14981v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S1" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S2" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Related work</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Method</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.SS1" title="In 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1 </span>Background</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.SS1.SSS0.Px1" title="In 3.1 Background ‣ 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title">Diffusion Models.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.SS2" title="In 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.2 </span>Coupled DDPM Sampling</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.SS2.SSS0.Px1" title="In 3.2 Coupled DDPM Sampling ‣ 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title">Problem.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.SS2.SSS0.Px2" title="In 3.2 Coupled DDPM Sampling ‣ 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title">Algorithm.</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Experiments</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.SS1" title="In 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.1 </span>Multi-view spatial editing</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.SS2" title="In 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.2 </span>Multi-view Stylization</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.SS3" title="In 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.3 </span>Multi-view Relighting</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S5" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Analysis Experiments</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S6" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>Discussion and Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A1" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">A </span>Additional discussion of limitations</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A2" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B </span>Implementation details</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A3" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">C </span>Coupled Diffusion Sampling with Flow Models</span></a>
+<ol class="ltx_toclist ltx_toclist_appendix">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A3.SS1" title="In Appendix C Coupled Diffusion Sampling with Flow Models ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">C.1 </span>Effects of Guidance Strength</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A4" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">D </span>User study on IC-Light</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A5" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">E </span>Effects of stochasticity</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A6" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">F </span>Additional T2MV Results</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A7" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">G </span>Applications with MV-Adapter</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A8" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">H </span>Outputs of InstructNeRF2NeRF</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Coupled Diffusion Sampling for Training-free Multi-view Image Editing</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><math alttext="\textbf{Hadi Alzayer}^{1,2}" class="ltx_Math" display="inline" id="m1" intent=":literal"><semantics><msup><mtext class="ltx_mathvariant_bold">Hadi Alzayer</mtext><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msup><annotation encoding="application/x-tex">\textbf{Hadi Alzayer}^{1,2}</annotation></semantics></math>
+ <math alttext="\textbf{Yunzhi Zhang}^{1}" class="ltx_Math" display="inline" id="m2" intent=":literal"><semantics><msup><mtext class="ltx_mathvariant_bold">Yunzhi Zhang</mtext><mn>1</mn></msup><annotation encoding="application/x-tex">\textbf{Yunzhi Zhang}^{1}</annotation></semantics></math>
+ <math alttext="\textbf{Chen Geng}^{1}" class="ltx_Math" display="inline" id="m3" intent=":literal"><semantics><msup><mtext class="ltx_mathvariant_bold">Chen Geng</mtext><mn>1</mn></msup><annotation encoding="application/x-tex">\textbf{Chen Geng}^{1}</annotation></semantics></math>
+ <math alttext="\textbf{Jia-Bin Huang}^{2}" class="ltx_Math" display="inline" id="m4" intent=":literal"><semantics><msup><mtext class="ltx_mathvariant_bold">Jia-Bin Huang</mtext><mn>2</mn></msup><annotation encoding="application/x-tex">\textbf{Jia-Bin Huang}^{2}</annotation></semantics></math>
+ <math alttext="\textbf{Jiajun Wu}^{1}" class="ltx_Math" display="inline" id="m5" intent=":literal"><semantics><msup><mtext class="ltx_mathvariant_bold">Jiajun Wu</mtext><mn>1</mn></msup><annotation encoding="application/x-tex">\textbf{Jiajun Wu}^{1}</annotation></semantics></math>
+<br class="ltx_break"/>
+<br class="ltx_break"/><math alttext="{}^{1}\text{Stanford University}" class="ltx_Math" display="inline" id="m6" intent=":literal"><semantics><mmultiscripts><mtext>Stanford University</mtext><mprescripts></mprescripts><mrow></mrow><mn>1</mn></mmultiscripts><annotation encoding="application/x-tex">{}^{1}\text{Stanford University}</annotation></semantics></math>
+<br class="ltx_break"/><math alttext="{}^{2}\text{University of Maryland, College Park}" class="ltx_Math" display="inline" id="m7" intent=":literal"><semantics><mmultiscripts><mtext>University of Maryland, College Park</mtext><mprescripts></mprescripts><mrow></mrow><mn>2</mn></mmultiscripts><annotation encoding="application/x-tex">{}^{2}\text{University of Maryland, College Park}</annotation></semantics></math>
+</span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">We present an inference-time diffusion sampling method to perform multi-view consistent image editing using pre-trained 2D image editing models.
+These models can independently produce high-quality edits for each image in a set of multi-view images of a 3D scene or object, but they do not maintain consistency across views.
+Existing approaches typically address this by optimizing over <span class="ltx_text ltx_font_italic">explicit</span> 3D representations, but they suffer from a lengthy optimization process and instability under sparse view settings.
+We propose an <span class="ltx_text ltx_font_italic">implicit</span> 3D regularization approach by constraining the generated 2D image sequences to adhere to a pre-trained multi-view image distribution.
+This is achieved through <span class="ltx_text ltx_font_italic">coupled diffusion sampling</span>, a simple diffusion sampling technique that concurrently samples two trajectories from both a multi-view image distribution and a 2D edited image distribution, using a coupling term to enforce the multi-view consistency among the generated images.
+We validate the effectiveness and generality of this framework on three distinct multi-view image editing tasks, demonstrating its applicability across various model architectures and highlighting its potential as a general solution for multi-view consistent editing.</p>
+<p class="ltx_p">Project page: <a class="ltx_ref ltx_href" href="https://coupled-diffusion.github.io" title="">https://coupled-diffusion.github.io</a></p>
+</div>
+<figure class="ltx_figure" id="S0.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="194" id="S0.F1.g1" src="x1.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+<span class="ltx_text ltx_font_bold">Applications of coupled diffusion sampling.</span>
+Our approach enables lifting off-the-shelf 2D editing models into multi-view by combining the sampling process of 2D diffusion models with multi-view diffusion models to produce view-consistent edits.
+Here we showcase example view-consistent results using a 2D spatial editing model, stylization, and text-based relighting.</figcaption>
+</figure>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para ltx_noindent" id="S1.p1">
+<p class="ltx_p">Diffusion-based image editing models have demonstrated unprecedented realism across diverse tasks via end-to-end training.
+These include object relighting <cite class="ltx_cite ltx_citemacro_citep">(Jin et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib18" title="">2024</a>; Magar et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib31" title="">2025</a>; Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib53" title="">2025a</a>)</cite>, spatial structure editing <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib49" title="">2024b</a>; Mu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib36" title="">2024</a>; Alzayer et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib2" title="">2025b</a>; Vavilala et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib43" title="">2025</a>)</cite>, and stylization <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib52" title="">2023</a>)</cite>.
+However, collecting and curating 3D data is significantly more costly than working with 2D data.
+As a result, recent research has explored test-time optimization methods for multi-view editing that leverage pre-trained 2D image diffusion models <cite class="ltx_cite ltx_citemacro_citep">(Poole et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib37" title="">2023</a>; Haque et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib14" title="">2023</a>)</cite>.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p2">
+<p class="ltx_p">Lifting 2D image editing models directly to the 3D multi-view domain is non-trivial, primarily due to the difficulty in ensuring 3D consistency across different viewpoints.
+To address this, most existing methods <cite class="ltx_cite ltx_citemacro_citep">(Haque et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib14" title="">2023</a>; Jin et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib18" title="">2024</a>)</cite> rely on explicit 3D representations, <span class="ltx_text ltx_font_italic">i.e.,</span> NeRF <cite class="ltx_cite ltx_citemacro_citep">(Mildenhall et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib34" title="">2020</a>)</cite> or 3D Gaussian Splatting <cite class="ltx_cite ltx_citemacro_citep">(Kerbl et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib20" title="">2023</a>)</cite>.
+Despite achieving promising results in certain scenarios, these methods typically require time-consuming optimization and dense input view coverage.
+This significantly limits their applicability to real-time, real-world scenarios.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p3">
+<p class="ltx_p">Can we directly extend the capabilities of 2D image editing models to the multi-view domain <em class="ltx_emph ltx_font_italic">without</em> relying on explicit 3D representations or incurring additional training overhead?
+We answer this question affirmatively by introducing a novel diffusion sampling method—<em class="ltx_emph ltx_font_italic">coupled diffusion sampling</em>.
+As shown in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S0.F1" title="In Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">1</span></a>, our approach enables multi-view consistent image editing across diverse applications, including multi-view spatial editing, stylization, and relighting.</p>
+</div>
+<figure class="ltx_figure ltx_align_floatright" id="S1.F2">
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:198.7pt;height:104.3pt;vertical-align:-0.0pt;"><span class="ltx_transformed_inner" style="transform:translate(-29.4pt,15.4pt) scale(0.771984719373208,0.771984719373208) ;"><img alt="Refer to caption" class="ltx_graphics ltx_img_landscape" height="259" id="S1.F2.g1" src="x2.png" width="481"/>
+</span></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span><span class="ltx_text ltx_font_bold">Limitations of baselines.</span> Using a pre-trained image-to-multiview model conditioned on an edited image, can only be faithful to that single image but not the rest of the input views. On the other hand, editing each image individually with the 2D model produces highly inconsistent results. While prior work <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite> proposes a method to compose diffusion models within the same domain, we find that their approach produces flickering results and cannot guarantee being faithful to the input views.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S1.p4">
+<p class="ltx_p">As shown in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S1.F2" title="In 1 Introduction ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">2</span></a>, sampling from two diffusion models independently yields samples that are inconsistent across views.
+Conditioning a multi-view model using a single edited image, however, fails to preserve identity and align with the editing objective across all views.
+While prior work <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>; Du et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite> explored combining diffusion models within a modality, we observe that such approaches do not maintain multi-view consistency and can stray from the editing objective.
+Our approach is motivated by the observation that, any sequence of images generated by a pre-trained multi-view image diffusion model inherently exhibit multi-view consistency.
+To this end, we embrace an implicit 3D regularization paradigm by leveraging scores estimated from multi-view diffusion models during the diffusion sampling process.
+Specifically, for any multi-view image editing task with a pre-trained 2D model, we couple it with a foundation multi-view diffusion model and perform sampling under dual guidance from both models.
+This process ensures that the resulting samples satisfy both the editing objective and multi-view 3D consistency, yet without any additional explicit 3D regularization or training overhead.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p5">
+<p class="ltx_p">We propose a practical sampling framework to achieve the above-mentioned goal by steering the standard diffusion sampling trajectory with an energy term coupling two sampling trajectories.
+This method ensures that each sample from one diffusion model remains within its own distribution while being guided by the other.
+In particular, samples from the multi-view diffusion model maintain multi-view consistency while being steered by the content edits from the 2D model.
+Conversely, the 2D model is steered so that its edits remain faithful to the inputs while being consistent across independently edited frames.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p6">
+<p class="ltx_p">Our solution is conceptually simple, broadly applicable, and adaptable to a variety of settings.
+We showcase its effectiveness across three distinct multi-view image editing tasks: multi-view spatial editing, stylization, and relighting.
+Through comprehensive experiments on each task, we demonstrate the advantages of our method over the state-of-the-art.
+We further validate the generalizability of our approach by applying it to diverse diffusion backbones and latent spaces, underscoring its promise as a general multi-view image editing engine.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Related work</h2>
+<div class="ltx_para ltx_noindent" id="S2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Test-time diffusion guidance.</span>
+Test-time guidance approaches for diffusion models have been proposed to steer diffusion models toward external objectives.
+Test-time scaling methods <cite class="ltx_cite ltx_citemacro_citep">(Ma et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib30" title="">2025</a>; Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib24" title="">2024</a>)</cite>, such as rejection sampling or verifier-based search over large latent spaces, passively filter generated samples.
+In contrast, optimization-based guidance actively steers diffusion trajectories, offering a more efficient alternative.
+A widely used technique is classifier guidance, where a discriminative classifier steers the diffusion trajectory toward a target label <cite class="ltx_cite ltx_citemacro_citep">(Dhariwal &amp; Nichol, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib11" title="">2021</a>)</cite>.
+When the objective is differentiable, gradient-based guidance can be directly applied during sampling <cite class="ltx_cite ltx_citemacro_citep">(Bansal et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib4" title="">2024</a>)</cite>
+In other cases, prior work has explored diffusion guidance using degradation operators, which require additional assumptions in the forward process, e.g., as in linear inverse problems <cite class="ltx_cite ltx_citemacro_citep">(Kawar et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib19" title="">2022</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib44" title="">2023a</a>; Chung et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib9" title="">2023</a>)</cite>.
+However, in more general scenarios, such constraints are often intractable, making the proposed framework particularly suitable for these settings.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">3D and multiview editing.</span>
+With the advent of diffusion models capable of producing high-quality 2D image edits <cite class="ltx_cite ltx_citemacro_citep">(Kulikov et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib22" title="">2025</a>; Cao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib6" title="">2023</a>; Mokady et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib35" title="">2023</a>)</cite>,
+a natural question has been how to leverage those capabilities for 3D editing.
+One common approach is to optimize a 3D representation, such as Neural Radiance Fields (NeRF) <cite class="ltx_cite ltx_citemacro_citep">(Mildenhall et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib34" title="">2020</a>)</cite>, so that its multiview renderings satisfy the editing goal.
+Bridging diffusion and NeRF can be achieved either by modifying the training dataset during the optimization loop <cite class="ltx_cite ltx_citemacro_citep">(Haque et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib14" title="">2023</a>; Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib48" title="">2024a</a>)</cite> or through score distillation sampling <cite class="ltx_cite ltx_citemacro_citep">(Poole et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib37" title="">2023</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib45" title="">2023b</a>; McAllister et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib32" title="">2024</a>; Yan et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib50" title="">2025</a>)</cite>.
+However, both approaches are prone to visual artifacts, which is fundamentally caused by the fact that 2D diffusion models lack 3D consistency awareness.
+To address this fundamental challenge, prior work has directly trained multiview diffusion models <cite class="ltx_cite ltx_citemacro_citep">(Litman et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib27" title="">2025</a>; Alzayer et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib1" title="">2025a</a>; Trevithick et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib42" title="">2025</a>)</cite> for consistent editing.
+However, training a multiview diffusion model for each individual editing task is computationally expensive, and suitable training datasets are scarce.
+In our approach, we propose reusing existing multiview <span class="ltx_text ltx_font_italic">generation</span> models <cite class="ltx_cite ltx_citemacro_citep">(Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib13" title="">2024</a>; Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib55" title="">2025</a>)</cite> for multiview <span class="ltx_text ltx_font_italic">editing</span> by combining them with a 2D editing model, thereby incurring no additional training cost. In contrast to NeRF-based approaches, our method does not require a costly optimization process, as it relies solely on feed-forward sampling.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Compositional diffusion sampling.</span>
+Compositional sampling methods for diffusion models have been proposed to combine the priors of multiple models.
+Examples include product-of-experts sampling <cite class="ltx_cite ltx_citemacro_citep">(Hinton, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib15" title="">2002</a>; Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib54" title="">2025b</a>)</cite>, which samples from the product distribution of individual models. However, this approach imposes a strict requirement that valid samples lie in the intersection of the support of each model and fails when no such joint support exists.
+MultiDiffusion <cite class="ltx_cite ltx_citemacro_citep">(Bar-Tal et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib5" title="">2023</a>)</cite> and SyncTweedies <cite class="ltx_cite ltx_citemacro_citep">(Kim et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib21" title="">2024</a>)</cite> apply score composition for stitching panoramas or large images.
+However, their primary focus is on handling out-of-distribution scenarios, such as oversized images, whereas our work emphasizes remaining within each model’s prior distribution while steering generation toward satisfying cross-model constraints.
+Prior works <cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>); Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite> address inference-time composition for diffusion models, but these works focus on the same data modality.
+In contrast, our work bridges 2D and 3D modalities to tackle the practical challenge of 3D data sparsity.</p>
+</div>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Method</h2>
+<section class="ltx_subsection" id="S3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.1 </span>Background</h3>
+<section class="ltx_paragraph" id="S3.SS1.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">Diffusion Models.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS0.Px1.p1">
+<p class="ltx_p">Let <math alttext="x_{0}\sim p_{\text{data}}(x_{0})" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m1" intent=":literal"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>∼</mo><mrow><msub><mi>p</mi><mtext>data</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{0}\sim p_{\text{data}}(x_{0})</annotation></semantics></math> be a data sample and consider the forward noising process:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="q(x_{t}\mid x_{t-1})=\mathcal{N}(x_{t}\mid\sqrt{1-\sigma_{t}}x_{t-1},\sigma_{t}I)," class="ltx_Math" display="block" id="S3.E1.m1" intent=":literal"><semantics><mrow><mrow><mrow><mi>q</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mi>t</mi></msub><mo>∣</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mi>t</mi></msub><mo>∣</mo><mrow><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mi>σ</mi><mi>t</mi></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow><mo>,</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi>I</mi></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">q(x_{t}\mid x_{t-1})=\mathcal{N}(x_{t}\mid\sqrt{1-\sigma_{t}}x_{t-1},\sigma_{t}I),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">with a variance schedule <math alttext="\{\sigma_{t}\}_{t=1}^{T}" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m2" intent=":literal"><semantics><msubsup><mrow><mo stretchy="false">{</mo><msub><mi>σ</mi><mi>t</mi></msub><mo stretchy="false">}</mo></mrow><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>T</mi></msubsup><annotation encoding="application/x-tex">\{\sigma_{t}\}_{t=1}^{T}</annotation></semantics></math>.
+<cite class="ltx_cite ltx_citemacro_citep">(Ho et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib16" title="">2020</a>)</cite> proposes to train a neural network <math alttext="\epsilon_{\theta}(x_{t},t)" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m3" intent=":literal"><semantics><mrow><msub><mi>ϵ</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\epsilon_{\theta}(x_{t},t)</annotation></semantics></math>, where <math alttext="\theta" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m4" intent=":literal"><semantics><mi>θ</mi><annotation encoding="application/x-tex">\theta</annotation></semantics></math> denotes network parameters, such that when starting with an initial noise <math alttext="x_{T}\sim\mathcal{N}(0,I)" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m5" intent=":literal"><semantics><mrow><msub><mi>x</mi><mi>T</mi></msub><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>I</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{T}\sim\mathcal{N}(0,I)</annotation></semantics></math>, it allows one to gradually denoise the sample to <math alttext="x_{0}\sim p_{\text{data}}(x_{0})" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m6" intent=":literal"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>∼</mo><mrow><msub><mi>p</mi><mtext>data</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{0}\sim p_{\text{data}}(x_{0})</annotation></semantics></math> via</p>
+<table class="ltx_equationgroup ltx_eqn_align ltx_eqn_table" id="A8.EGx1">
+<tbody id="S3.E2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math alttext="\displaystyle\hat{x}_{0}" class="ltx_Math" display="inline" id="S3.E2.m1" intent=":literal"><semantics><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn></msub><annotation encoding="application/x-tex">\displaystyle\hat{x}_{0}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math alttext="\displaystyle=\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta}(x_{t}))" class="ltx_Math" display="inline" id="S3.E2.m2" intent=":literal"><semantics><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></msqrt></mfrac></mstyle><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mi>t</mi></msub><mo>−</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\displaystyle=\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta}(x_{t}))</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+<tbody id="S3.E3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math alttext="\displaystyle x_{t-1}" class="ltx_Math" display="inline" id="S3.E3.m1" intent=":literal"><semantics><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><annotation encoding="application/x-tex">\displaystyle x_{t-1}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math alttext="\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t})+\sigma_{t}z," class="ltx_Math" display="inline" id="S3.E3.m2" intent=":literal"><semantics><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn></msub></mrow><mo>+</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi>z</mi></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t})+\sigma_{t}z,</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(3)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\alpha_{t}=1-\sigma_{t},\bar{\alpha}_{t}:=\prod_{s=1}^{t}\alpha_{s}" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m7" intent=":literal"><semantics><mrow><mrow><msub><mi>α</mi><mi>t</mi></msub><mo>=</mo><mrow><mn>1</mn><mo>−</mo><msub><mi>σ</mi><mi>t</mi></msub></mrow></mrow><mo>,</mo><mrow><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub><mo rspace="0.111em">:=</mo><mrow><msubsup><mo>∏</mo><mrow><mi>s</mi><mo>=</mo><mn>1</mn></mrow><mi>t</mi></msubsup><msub><mi>α</mi><mi>s</mi></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">\alpha_{t}=1-\sigma_{t},\bar{\alpha}_{t}:=\prod_{s=1}^{t}\alpha_{s}</annotation></semantics></math>.
+The next-step prediction <math alttext="x_{t-1}" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m8" intent=":literal"><semantics><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><annotation encoding="application/x-tex">x_{t-1}</annotation></semantics></math> is obtained by computing the <span class="ltx_text ltx_font_italic">clean</span> image estimate <math alttext="\hat{x}_{0}" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m9" intent=":literal"><semantics><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn></msub><annotation encoding="application/x-tex">\hat{x}_{0}</annotation></semantics></math> and re-injecting a decreasing amount of random noise <math alttext="z\sim\mathcal{N}(0,I)" class="ltx_Math" display="inline" id="S3.SS1.SSS0.Px1.p1.m10" intent=":literal"><semantics><mrow><mi>z</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>I</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">z\sim\mathcal{N}(0,I)</annotation></semantics></math>.</p>
+</div>
+</section>
+</section>
+<section class="ltx_subsection" id="S3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.2 </span>Coupled DDPM Sampling</h3>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">Problem.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px1.p1">
+<p class="ltx_p">Given two diffusion models <math alttext="\epsilon_{\theta^{A}}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m1" intent=":literal"><semantics><msub><mi>ϵ</mi><msup><mi>θ</mi><mi>A</mi></msup></msub><annotation encoding="application/x-tex">\epsilon_{\theta^{A}}</annotation></semantics></math> and <math alttext="\epsilon_{\theta^{B}}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m2" intent=":literal"><semantics><msub><mi>ϵ</mi><msup><mi>θ</mi><mi>B</mi></msup></msub><annotation encoding="application/x-tex">\epsilon_{\theta^{B}}</annotation></semantics></math> for a shared data domain <math alttext="\mathbb{R}^{d}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m3" intent=":literal"><semantics><msup><mi>ℝ</mi><mi>d</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^{d}</annotation></semantics></math> and with a shared DDPM schedule, our goal is to obtain two samples <math alttext="x^{A},x^{B}\in\mathbb{R}^{d}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m4" intent=":literal"><semantics><mrow><mrow><msup><mi>x</mi><mi>A</mi></msup><mo>,</mo><msup><mi>x</mi><mi>B</mi></msup></mrow><mo>∈</mo><msup><mi>ℝ</mi><mi>d</mi></msup></mrow><annotation encoding="application/x-tex">x^{A},x^{B}\in\mathbb{R}^{d}</annotation></semantics></math> such that they follow the data distribution prescribed by the pre-trained models <math alttext="p_{\text{data}}^{A}(x)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m5" intent=":literal"><semantics><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>A</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">p_{\text{data}}^{A}(x)</annotation></semantics></math> and <math alttext="p_{\text{data}}^{B}(x)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m6" intent=":literal"><semantics><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>B</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">p_{\text{data}}^{B}(x)</annotation></semantics></math>, respectively, while staying close to each other.
+This objective can be interpreted as tilting the distribution <math alttext="p_{\text{data}}^{A}(x)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m7" intent=":literal"><semantics><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>A</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">p_{\text{data}}^{A}(x)</annotation></semantics></math> to be close to a sample <math alttext="x^{B}(x)\sim p_{\text{data}}^{B}(x)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m8" intent=":literal"><semantics><mrow><mrow><msup><mi>x</mi><mi>B</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∼</mo><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>B</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">x^{B}(x)\sim p_{\text{data}}^{B}(x)</annotation></semantics></math>, and vice versa.
+We introduce a coupling function <math alttext="U:\mathbb{R}^{d}\times\mathbb{R}^{d}\rightarrow\mathbb{R}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m9" intent=":literal"><semantics><mrow><mi>U</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msup><mi>ℝ</mi><mi>d</mi></msup><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mi>ℝ</mi><mi>d</mi></msup></mrow><mo stretchy="false">→</mo><mi>ℝ</mi></mrow></mrow><annotation encoding="application/x-tex">U:\mathbb{R}^{d}\times\mathbb{R}^{d}\rightarrow\mathbb{R}</annotation></semantics></math> that measures the closeness of two samples. A natural choice is the Euclidean Distance and in this work, we use <math alttext="U(x,x^{\prime})=-\frac{\lambda}{2}\|x-x^{\prime}\|_{2}^{2}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m10" intent=":literal"><semantics><mrow><mrow><mi>U</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mrow><mfrac><mi>λ</mi><mn>2</mn></mfrac><mo lspace="0em" rspace="0em">​</mo><msubsup><mrow><mo stretchy="false">‖</mo><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup></mrow><mo stretchy="false">‖</mo></mrow><mn>2</mn><mn>2</mn></msubsup></mrow></mrow></mrow><annotation encoding="application/x-tex">U(x,x^{\prime})=-\frac{\lambda}{2}\|x-x^{\prime}\|_{2}^{2}</annotation></semantics></math> with a constant coefficient <math alttext="\lambda\in\mathbb{R}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m11" intent=":literal"><semantics><mrow><mi>λ</mi><mo>∈</mo><mi>ℝ</mi></mrow><annotation encoding="application/x-tex">\lambda\in\mathbb{R}</annotation></semantics></math>.
+Formally, our objective is written as</p>
+<table class="ltx_equationgroup ltx_eqn_gather ltx_eqn_table" id="A8.EGx2">
+<tbody id="S3.E4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\displaystyle\min_{x^{A},x^{B}}\mathcal{J}^{A}(x^{A},x^{B})+\mathcal{J}^{B}(x^{A},x^{B}),\quad\text{where}" class="ltx_Math" display="block" id="S3.E4.m1" intent=":literal"><semantics><mrow><mrow><mrow><mrow><munder><mi>min</mi><mrow><msup><mi>x</mi><mi>A</mi></msup><mo>,</mo><msup><mi>x</mi><mi>B</mi></msup></mrow></munder><mo lspace="0.167em">⁡</mo><msup><mi class="ltx_font_mathcaligraphic">𝒥</mi><mi>A</mi></msup></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mi>A</mi></msup><mo>,</mo><msup><mi>x</mi><mi>B</mi></msup><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msup><mi class="ltx_font_mathcaligraphic">𝒥</mi><mi>B</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mi>A</mi></msup><mo>,</mo><msup><mi>x</mi><mi>B</mi></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mtext>where</mtext></mrow><annotation encoding="application/x-tex">\displaystyle\min_{x^{A},x^{B}}\mathcal{J}^{A}(x^{A},x^{B})+\mathcal{J}^{B}(x^{A},x^{B}),\quad\text{where}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(4)</span></td>
+</tr></tbody>
+<tbody id="S3.E5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\displaystyle\mathcal{J}^{A}(x;x^{\prime}):=p_{\text{data}}^{A}(x)\exp U(x,\mathrm{sg}(x^{\prime}))," class="ltx_Math" display="block" id="S3.E5.m1" intent=":literal"><semantics><mrow><mrow><mrow><msup><mi class="ltx_font_mathcaligraphic">𝒥</mi><mi>A</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>;</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>A</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo lspace="0.167em" rspace="0em">​</mo><mrow><mi>exp</mi><mo lspace="0.167em">⁡</mo><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mrow><mi>sg</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathcal{J}^{A}(x;x^{\prime}):=p_{\text{data}}^{A}(x)\exp U(x,\mathrm{sg}(x^{\prime})),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(5)</span></td>
+</tr></tbody>
+<tbody id="S3.E6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\displaystyle\mathcal{J}^{B}(x;x^{\prime}):=p_{\text{data}}^{B}(x)\exp U(\mathrm{sg}(x),x^{\prime})," class="ltx_Math" display="block" id="S3.E6.m1" intent=":literal"><semantics><mrow><mrow><mrow><msup><mi class="ltx_font_mathcaligraphic">𝒥</mi><mi>B</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>;</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><msubsup><mi>p</mi><mtext>data</mtext><mi>B</mi></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo lspace="0.167em" rspace="0em">​</mo><mrow><mi>exp</mi><mo lspace="0.167em">⁡</mo><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi>sg</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle\mathcal{J}^{B}(x;x^{\prime}):=p_{\text{data}}^{B}(x)\exp U(\mathrm{sg}(x),x^{\prime}),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(6)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\mathrm{sg}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m12" intent=":literal"><semantics><mi>sg</mi><annotation encoding="application/x-tex">\mathrm{sg}</annotation></semantics></math> denotes the stop gradient operation.
+Taking the gradients:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E7">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\nabla_{x}\mathcal{J}^{i}(x,x^{\prime})=\nabla_{x}\log p^{i}(x)+\nabla_{x}U(x,x^{\prime}),\quad i\in\{A,B\}." class="ltx_Math" display="block" id="S3.E7.m1" intent=":literal"><semantics><mrow><mrow><mrow><mrow><mrow><msub><mo>∇</mo><mi>x</mi></msub><msup><mi class="ltx_font_mathcaligraphic">𝒥</mi><mi>i</mi></msup></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mrow><msub><mo rspace="0.167em">∇</mo><mi>x</mi></msub><mi>log</mi></mrow><mo lspace="0.167em">⁡</mo><msup><mi>p</mi><mi>i</mi></msup></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mrow><msub><mo rspace="0.167em">∇</mo><mi>x</mi></msub><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mi>i</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo stretchy="false">}</mo></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\nabla_{x}\mathcal{J}^{i}(x,x^{\prime})=\nabla_{x}\log p^{i}(x)+\nabla_{x}U(x,x^{\prime}),\quad i\in\{A,B\}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(7)</span></td>
+</tr></tbody>
+</table>
+</div>
+<figure class="ltx_figure" id="S3.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="285" id="S3.F3.g1" src="x3.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span><span class="ltx_text ltx_font_bold">Overview of the proposed coupled sampling method.</span> Given two target statistical distributions modeled with diffusion models: (a) standard DDPM sampling generates two instances independently, using scores from each distribution, which leads to samples without spatial alignment; (b) in contrast, the proposed coupled DDPM sampling introduces coupling terms <math alttext="\nabla U" class="ltx_Math" display="inline" id="S3.F3.m2" intent=":literal"><semantics><mrow><mo rspace="0.167em">∇</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">\nabla U</annotation></semantics></math> that pull the two sample paths together, producing spatially and semantically aligned outputs; and (c) as illustrated, samples from the standard DDPM sampling produce independent samples. In contrast, coupled sampling produces spatially aligned samples while each sample correctly remain within its distribution.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px1.p2">
+<p class="ltx_p">Here, the additional term <math alttext="\nabla_{x}U(x,x^{\prime})" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p2.m1" intent=":literal"><semantics><mrow><mrow><msub><mo>∇</mo><mi>x</mi></msub><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\nabla_{x}U(x,x^{\prime})</annotation></semantics></math> biases the sample trajectory <math alttext="\{x_{t}^{i}\}_{t}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p2.m2" intent=":literal"><semantics><msub><mrow><mo stretchy="false">{</mo><msubsup><mi>x</mi><mi>t</mi><mi>i</mi></msubsup><mo stretchy="false">}</mo></mrow><mi>t</mi></msub><annotation encoding="application/x-tex">\{x_{t}^{i}\}_{t}</annotation></semantics></math> from the standard diffusion trajectory following <math alttext="p^{i}(x)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p2.m3" intent=":literal"><semantics><mrow><msup><mi>p</mi><mi>i</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">p^{i}(x)</annotation></semantics></math> to satisfy the goal. Tilting diffusion model sampling towards inference-time reward functions or constraints has been widely studied for preference alignment <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib47" title="">2023</a>)</cite> and inverse problems <cite class="ltx_cite ltx_citemacro_citep">(Chung et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib9" title="">2023</a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib8" title="">2022</a>)</cite>, with gradient likelihood of a form similar to <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S3.E7" title="In Problem. ‣ 3.2 Coupled DDPM Sampling ‣ 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Eq.</span> <span class="ltx_text ltx_ref_tag">7</span></a>, although typically under a fixed target. In contrast, in this work, the optimization target depends on another variable.</p>
+</div>
+<figure class="ltx_float ltx_float_algorithm ltx_framed ltx_framed_top" id="alg1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_float"><span class="ltx_text ltx_font_bold">Algorithm 1</span> </span> Coupled DDPM Sampling</figcaption>
+<div class="ltx_listing ltx_listing">
+<div class="ltx_listingline" id="alg1.l1">
+<span class="ltx_tag ltx_tag_listingline">1:</span><math alttext="\theta_{2D}" class="ltx_Math" display="inline" id="alg1.l1.m1" intent=":literal"><semantics><msub><mi>θ</mi><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><annotation encoding="application/x-tex">\theta_{2D}</annotation></semantics></math>: Text2Image diffusion model
+</div>
+<div class="ltx_listingline" id="alg1.l2">
+<span class="ltx_tag ltx_tag_listingline">2:</span><math alttext="\theta_{MV}" class="ltx_Math" display="inline" id="alg1.l2.m1" intent=":literal"><semantics><msub><mi>θ</mi><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></msub><annotation encoding="application/x-tex">\theta_{MV}</annotation></semantics></math>: Text2MultiView diffusion model
+</div>
+<div class="ltx_listingline" id="alg1.l3">
+<span class="ltx_tag ltx_tag_listingline">3:</span><math alttext="x_{T,2D},x_{T,MV}\sim\mathcal{N}(0,I)" class="ltx_Math" display="inline" id="alg1.l3.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>x</mi><mrow><mi>T</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo>,</mo><msub><mi>x</mi><mrow><mi>T</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub></mrow><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>I</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{T,2D},x_{T,MV}\sim\mathcal{N}(0,I)</annotation></semantics></math>: initial latents
+</div>
+<div class="ltx_listingline" id="alg1.l4">
+<span class="ltx_tag ltx_tag_listingline">4:</span><math alttext="x_{T,2D},x_{T,MV}" class="ltx_Math" display="inline" id="alg1.l4.m1" intent=":literal"><semantics><mrow><msub><mi>x</mi><mrow><mi>T</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo>,</mo><msub><mi>x</mi><mrow><mi>T</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub></mrow><annotation encoding="application/x-tex">x_{T,2D},x_{T,MV}</annotation></semantics></math> shapes: <math alttext="N\times H\times W\times C" class="ltx_Math" display="inline" id="alg1.l4.m2" intent=":literal"><semantics><mrow><mi>N</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>H</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>W</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">N\times H\times W\times C</annotation></semantics></math> where <math alttext="N" class="ltx_Math" display="inline" id="alg1.l4.m3" intent=":literal"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math> is # of views
+
+</div>
+<div class="ltx_listingline" id="alg1.l5">
+<span class="ltx_tag ltx_tag_listingline">5:</span><span class="ltx_text ltx_font_bold">for</span> <math alttext="t\in T,...,0" class="ltx_Math" display="inline" id="alg1.l5.m1" intent=":literal"><semantics><mrow><mi>t</mi><mo>∈</mo><mrow><mi>T</mi><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mn>0</mn></mrow></mrow><annotation encoding="application/x-tex">t\in T,...,0</annotation></semantics></math> <span class="ltx_text ltx_font_bold">do</span>
+</div>
+<div class="ltx_listingline" id="alg1.l6">
+<span class="ltx_tag ltx_tag_listingline">6:</span>  <math alttext="\hat{x}_{0,MV}\leftarrow\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t,MV}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta,MV}(x_{t,MV}))" class="ltx_Math" display="inline" id="alg1.l6.m1" intent=":literal"><semantics><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mn>0</mn><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><mfrac><mn>1</mn><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></msqrt></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo>−</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mrow><mi>θ</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\hat{x}_{0,MV}\leftarrow\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t,MV}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta,MV}(x_{t,MV}))</annotation></semantics></math> <span class="ltx_text" style="float:right;"><math alttext="\triangleright" class="ltx_Math" display="inline" id="alg1.l6.m2" intent=":literal"><semantics><mo>⊳</mo><annotation encoding="application/x-tex">\triangleright</annotation></semantics></math> <math alttext="x_{0}" class="ltx_Math" display="inline" id="alg1.l6.m3" intent=":literal"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding="application/x-tex">x_{0}</annotation></semantics></math> prediction
+</span>
+</div>
+<div class="ltx_listingline" id="alg1.l7">
+<span class="ltx_tag ltx_tag_listingline">7:</span>  <math alttext="\hat{x}_{0,2D}\leftarrow\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t,2D}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta,2D}(x_{t,2D}))" class="ltx_Math" display="inline" id="alg1.l7.m1" intent=":literal"><semantics><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mn>0</mn><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><mfrac><mn>1</mn><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></msqrt></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo>−</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mi>t</mi></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mrow><mi>θ</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\hat{x}_{0,2D}\leftarrow\frac{1}{\sqrt{\bar{\alpha}_{t}}}(x_{t,2D}-\sqrt{1-\bar{\alpha}_{t}}\epsilon_{\theta,2D}(x_{t,2D}))</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l8">
+<span class="ltx_tag ltx_tag_listingline">8:</span>  <math alttext="\hat{x}_{t-1,MV}\leftarrow\sqrt{\bar{\alpha}_{t-1,MV}}\hat{x}_{MV,0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t,MV})+\sigma_{t}z" class="ltx_Math" display="inline" id="alg1.l8.m1" intent=":literal"><semantics><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><mrow><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub></mrow><mo>+</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi>z</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\hat{x}_{t-1,MV}\leftarrow\sqrt{\bar{\alpha}_{t-1,MV}}\hat{x}_{MV,0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t,MV})+\sigma_{t}z</annotation></semantics></math> <span class="ltx_text" style="float:right;"><math alttext="\triangleright" class="ltx_Math" display="inline" id="alg1.l8.m2" intent=":literal"><semantics><mo>⊳</mo><annotation encoding="application/x-tex">\triangleright</annotation></semantics></math> DDPM step
+</span>
+</div>
+<div class="ltx_listingline" id="alg1.l9">
+<span class="ltx_tag ltx_tag_listingline">9:</span>  <math alttext="\hat{x}_{t-1,2D}\leftarrow\sqrt{\bar{\alpha}_{t-1,MV}}\hat{x}_{MV,0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t,2D})+\sigma_{t}z" class="ltx_Math" display="inline" id="alg1.l9.m1" intent=":literal"><semantics><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><mrow><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub></mrow><mo>+</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><msub><mi>ϵ</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mrow><mi>t</mi><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi>z</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">\hat{x}_{t-1,2D}\leftarrow\sqrt{\bar{\alpha}_{t-1,MV}}\hat{x}_{MV,0}+\sqrt{1-\bar{\alpha}_{t-1}}\epsilon_{\theta}(x_{t,2D})+\sigma_{t}z</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l10">
+<span class="ltx_tag ltx_tag_listingline">10:</span>  <math alttext="x_{t-1,2D}\leftarrow\hat{x}_{t-1,2D}-\sqrt{1-\bar{\alpha}_{t-1}}\lambda(\hat{x}_{2D,0}-\hat{x}_{MV,0})" class="ltx_Math" display="inline" id="alg1.l10.m1" intent=":literal"><semantics><mrow><msub><mi>x</mi><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></mrow></msub><mo>−</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><mi>λ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub><mo>−</mo><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{t-1,2D}\leftarrow\hat{x}_{t-1,2D}-\sqrt{1-\bar{\alpha}_{t-1}}\lambda(\hat{x}_{2D,0}-\hat{x}_{MV,0})</annotation></semantics></math> <span class="ltx_text" style="float:right;"><math alttext="\triangleright" class="ltx_Math" display="inline" id="alg1.l10.m2" intent=":literal"><semantics><mo>⊳</mo><annotation encoding="application/x-tex">\triangleright</annotation></semantics></math> Coupled guidance step
+</span>
+</div>
+<div class="ltx_listingline" id="alg1.l11">
+<span class="ltx_tag ltx_tag_listingline">11:</span>  <math alttext="x_{t-1,MV}\leftarrow\hat{x}_{t-1,MV}-\sqrt{1-\bar{\alpha}_{t-1}}\lambda(\hat{x}_{MV,0}-\hat{x}_{2D,0})" class="ltx_Math" display="inline" id="alg1.l11.m1" intent=":literal"><semantics><mrow><msub><mi>x</mi><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">←</mo><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mo>,</mo><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow></mrow></msub><mo>−</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><mi>λ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mi>M</mi><mo lspace="0em" rspace="0em">​</mo><mi>V</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub><mo>−</mo><msub><mover accent="true"><mi>x</mi><mo>^</mo></mover><mrow><mrow><mn>2</mn><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow><mo>,</mo><mn>0</mn></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">x_{t-1,MV}\leftarrow\hat{x}_{t-1,MV}-\sqrt{1-\bar{\alpha}_{t-1}}\lambda(\hat{x}_{MV,0}-\hat{x}_{2D,0})</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l12">
+<span class="ltx_tag ltx_tag_listingline">12:</span><span class="ltx_text ltx_font_bold">end</span> <span class="ltx_text ltx_font_bold">for</span>
+</div>
+</div>
+</figure>
+</section>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px2">
+<h4 class="ltx_title ltx_title_paragraph">Algorithm.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px2.p1">
+<p class="ltx_p">Let <math alttext="x_{t}^{A},x_{t}^{B}\in\mathbb{R}^{d}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m1" intent=":literal"><semantics><mrow><mrow><msubsup><mi>x</mi><mi>t</mi><mi>A</mi></msubsup><mo>,</mo><msubsup><mi>x</mi><mi>t</mi><mi>B</mi></msubsup></mrow><mo>∈</mo><msup><mi>ℝ</mi><mi>d</mi></msup></mrow><annotation encoding="application/x-tex">x_{t}^{A},x_{t}^{B}\in\mathbb{R}^{d}</annotation></semantics></math> be two data samples.</p>
+<table class="ltx_equationgroup ltx_eqn_align ltx_eqn_table" id="A8.EGx3">
+<tbody id="S3.E8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math alttext="\displaystyle x_{t-1}^{A}" class="ltx_Math" display="inline" id="S3.E8.m1" intent=":literal"><semantics><msubsup><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mi>A</mi></msubsup><annotation encoding="application/x-tex">\displaystyle x_{t-1}^{A}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math alttext="\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}^{A}+\sqrt{1-\bar{\alpha}_{t-1}}(\epsilon_{\theta^{A}}(x_{t}^{A})+\nabla_{\hat{x}_{0}^{A}}U(\hat{x}_{0}^{A},\hat{x}_{0}^{B}))+\sigma_{t}z^{A},\quad z^{A}\sim\mathcal{N}(0,I)," class="ltx_Math" display="inline" id="S3.E8.m2" intent=":literal"><semantics><mrow><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></msqrt><mo lspace="0em" rspace="0em">​</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup></mrow><mo>+</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>ϵ</mi><msup><mi>θ</mi><mi>A</mi></msup></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mi>x</mi><mi>t</mi><mi>A</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mrow><msub><mo rspace="0.167em">∇</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup></msub><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup><mo>,</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><msup><mi>z</mi><mi>A</mi></msup></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><msup><mi>z</mi><mi>A</mi></msup><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>I</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}^{A}+\sqrt{1-\bar{\alpha}_{t-1}}(\epsilon_{\theta^{A}}(x_{t}^{A})+\nabla_{\hat{x}_{0}^{A}}U(\hat{x}_{0}^{A},\hat{x}_{0}^{B}))+\sigma_{t}z^{A},\quad z^{A}\sim\mathcal{N}(0,I),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(8)</span></td>
+</tr></tbody>
+<tbody id="S3.E9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math alttext="\displaystyle x_{t-1}^{B}" class="ltx_Math" display="inline" id="S3.E9.m1" intent=":literal"><semantics><msubsup><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mi>B</mi></msubsup><annotation encoding="application/x-tex">\displaystyle x_{t-1}^{B}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math alttext="\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}^{B}+\sqrt{1-\bar{\alpha}_{t-1}}(\epsilon_{\theta^{B}}(x_{t}^{B})+\nabla_{\hat{x}_{0}^{B}}U(\hat{x}_{0}^{B},\hat{x}_{0}^{A}))+\sigma_{t}z^{B},\quad z^{B}\sim\mathcal{N}(0,I)." class="ltx_Math" display="inline" id="S3.E9.m2" intent=":literal"><semantics><mrow><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><msqrt><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></msqrt><mo lspace="0em" rspace="0em">​</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup></mrow><mo>+</mo><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mover accent="true"><mi>α</mi><mo>¯</mo></mover><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow></msqrt><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>ϵ</mi><msup><mi>θ</mi><mi>B</mi></msup></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mi>x</mi><mi>t</mi><mi>B</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mrow><msub><mo rspace="0.167em">∇</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup></msub><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup><mo>,</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>σ</mi><mi>t</mi></msub><mo lspace="0em" rspace="0em">​</mo><msup><mi>z</mi><mi>B</mi></msup></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><msup><mi>z</mi><mi>B</mi></msup><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>I</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\displaystyle=\sqrt{\bar{\alpha}_{t-1}}\hat{x}_{0}^{B}+\sqrt{1-\bar{\alpha}_{t-1}}(\epsilon_{\theta^{B}}(x_{t}^{B})+\nabla_{\hat{x}_{0}^{B}}U(\hat{x}_{0}^{B},\hat{x}_{0}^{A}))+\sigma_{t}z^{B},\quad z^{B}\sim\mathcal{N}(0,I).</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(9)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Let <math alttext="f^{A}(x_{t}^{A};t):=\exp U(\hat{x}_{0}^{A},\hat{x}_{0}^{B})\propto\exp-\frac{1}{2}\frac{\|\hat{x}_{0}^{A}-\hat{x}_{0}^{B}\|_{2}^{2}}{1/\lambda}=\mathcal{N}(\hat{x}_{0}^{B},1/\sqrt{\lambda}I)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m2" intent=":literal"><semantics><mrow><mrow><msup><mi>f</mi><mi>A</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mi>x</mi><mi>t</mi><mi>A</mi></msubsup><mo>;</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><mrow><mi>exp</mi><mo lspace="0.167em">⁡</mo><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup><mo>,</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow><mo>∝</mo><mrow><mi>exp</mi><mo lspace="0em">−</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace="0em" rspace="0em">​</mo><mfrac><msubsup><mrow><mo stretchy="false">‖</mo><mrow><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup><mo>−</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup></mrow><mo stretchy="false">‖</mo></mrow><mn>2</mn><mn>2</mn></msubsup><mrow><mn>1</mn><mo>/</mo><mi>λ</mi></mrow></mfrac></mrow></mrow><mo>=</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup><mo>,</mo><mrow><mrow><mn>1</mn><mo>/</mo><msqrt><mi>λ</mi></msqrt></mrow><mo lspace="0em" rspace="0em">​</mo><mi>I</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">f^{A}(x_{t}^{A};t):=\exp U(\hat{x}_{0}^{A},\hat{x}_{0}^{B})\propto\exp-\frac{1}{2}\frac{\|\hat{x}_{0}^{A}-\hat{x}_{0}^{B}\|_{2}^{2}}{1/\lambda}=\mathcal{N}(\hat{x}_{0}^{B},1/\sqrt{\lambda}I)</annotation></semantics></math>, providing the interpretation that <math alttext="f^{A}(x_{t}^{A};t)" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m3" intent=":literal"><semantics><mrow><msup><mi>f</mi><mi>A</mi></msup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msubsup><mi>x</mi><mi>t</mi><mi>A</mi></msubsup><mo>;</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">f^{A}(x_{t}^{A};t)</annotation></semantics></math> assigns low energy to <math alttext="\hat{x}_{0}^{A}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m4" intent=":literal"><semantics><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>A</mi></msubsup><annotation encoding="application/x-tex">\hat{x}_{0}^{A}</annotation></semantics></math> close to <math alttext="\hat{x}_{0}^{B}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m5" intent=":literal"><semantics><msubsup><mover accent="true"><mi>x</mi><mo>^</mo></mover><mn>0</mn><mi>B</mi></msubsup><annotation encoding="application/x-tex">\hat{x}_{0}^{B}</annotation></semantics></math> in during the sampling process, and similarly for <math alttext="x_{t}^{B}" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m6" intent=":literal"><semantics><msubsup><mi>x</mi><mi>t</mi><mi>B</mi></msubsup><annotation encoding="application/x-tex">x_{t}^{B}</annotation></semantics></math>. This term effectively serves as a soft regularization that encourages two samples to stay close.
+The gradient term <math alttext="\nabla_{x}U(x,x^{\prime})=-\lambda(x-x^{\prime})" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px2.p1.m7" intent=":literal"><semantics><mrow><mrow><mrow><msub><mo>∇</mo><mi>x</mi></msub><mi>U</mi></mrow><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mrow><mi>λ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">\nabla_{x}U(x,x^{\prime})=-\lambda(x-x^{\prime})</annotation></semantics></math> is easy to compute with minimal computation overhead. The sampling algorithm is summarized in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#alg1" title="In Problem. ‣ 3.2 Coupled DDPM Sampling ‣ 3 Method ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Algorithm</span> <span class="ltx_text ltx_ref_tag">1</span></a>.</p>
+</div>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Experiments</h2>
+<figure class="ltx_figure" id="S4.F4"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="680" id="S4.F4.g1" src="x4.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span><span class="ltx_text ltx_font_bold">Multi-view stylization.</span> We show three examples of multi-view stylization of our method against the baselines. Prior work on combining diffusion models <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>; Du et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite> suffer from inconsistencies across frames. SDS based methods <cite class="ltx_cite ltx_citemacro_citep">(Richardson et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib38" title="">2023</a>)</cite> suffer from severe artifacts. Hunyuan 3D’s results follow the prompt loosely when doing retexturing. </figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">We refer the readers to the supplementary webpage for video results.</span></p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.p2">
+<p class="ltx_p">To demonstrate the versatility of our method, we select tasks that highlight various editing aspects.
+1) <em class="ltx_emph ltx_font_italic">Spatial editing</em>: We use Magic Fixup <cite class="ltx_cite ltx_citemacro_citep">(Alzayer et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib2" title="">2025b</a>)</cite> to highlight the ability of making geometric changes in a scene.
+2) <em class="ltx_emph ltx_font_italic">Stylization</em>:
+We perform stylization using Control-Net <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib52" title="">2023</a>)</cite> with edge control, demonstrating how we can alter the general appearance of the input while preserving its overall shape.
+3) <em class="ltx_emph ltx_font_italic">Relighting</em>:
+We perform relighting using two different models: 1) Neural-Gaffer <cite class="ltx_cite ltx_citemacro_citep">(Jin et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib18" title="">2024</a>)</cite>, which takes an explicit environment map as input, and 2) IC-Light <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib53" title="">2025a</a>)</cite>, which is text-conditioned, producing more diverse edits.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.p3">
+<p class="ltx_p">For each of these tasks, we begin with a collection of input images and additional task-specific conditioning.
+The 2D model is capable of editing each image individually, but this often leads to inconsistencies across the set.
+In contrast, the multi-view model <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib55" title="">2025</a>)</cite> is a novel view synthesis model that takes a set of consistent images and generates novel views.
+Our pipeline first edits a single image using the 2D model and then uses it as a reference for the multi-view model.
+However, editing only a single image is insufficient to fully preserve the identity of the input, as illustrated in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S1.F2" title="Figure 2 ‣ 1 Introduction ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">2</span></a>.
+To address this, we couple the two models, enabling the multi-view model to maintain identity while ensuring consistency across multiple views.
+We perform the coupling in the latent space, and in all these experiments, both the image editing models and the multi-view model operate in the latent space of Stable Diffusion 2.1 <cite class="ltx_cite ltx_citemacro_citep">(Rombach et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib39" title="">2022</a>)</cite>.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.p4">
+<p class="ltx_p">For each task, we adopt <cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite> and <cite class="ltx_cite ltx_citemacro_cite">Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite> as general-purpose baselines for combining our two diffusion models.
+We also include task-specific baselines tailored to each scenario.
+To provide a comprehensive evaluation, we conduct user studies with 25 participants for all tasks, comparing our approach to all baselines using best-of-<math alttext="n" class="ltx_Math" display="inline" id="S4.p4.m1" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> preference questions.</p>
+</div>
+<section class="ltx_subsection" id="S4.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.1 </span>Multi-view spatial editing</h3>
+<figure class="ltx_table" id="S4.T2">
+<div class="ltx_flex_figure ltx_flex_table">
+<div class="ltx_flex_cell ltx_flex_size_2">
+<figure class="ltx_figure ltx_figure_panel ltx_minipage ltx_align_center ltx_align_bottom" id="S4.T2.fig1" style="width:212.5pt;">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Table 1: </span>Quantitative comparison on spatial editing. We evaluate against GT renders of the target edit, and use MEt3r for geometric consistency.</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:433.6pt;height:83.9pt;vertical-align:-39.8pt;"><span class="ltx_transformed_inner" style="transform:translate(-36.5pt,7.1pt) scale(0.856062197396368,0.856062197396368) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_th ltx_th_row ltx_border_r ltx_border_tt"></th>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="3">Per-image metrics</td>
+<td class="ltx_td ltx_align_center ltx_border_tt">MV metric</td>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Method</th>
+<td class="ltx_td ltx_align_center ltx_border_t">PSNR <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m1" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">SSIM <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m2" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">LPIPS <math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m3" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">MEt3r <math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m4" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center">Users <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m5" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t">Per-image</th>
+<td class="ltx_td ltx_align_center ltx_border_t">16.5</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.550</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.253</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.353</td>
+<td class="ltx_td ltx_align_center ltx_border_t">-</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Image-to-MV</th>
+<td class="ltx_td ltx_align_center">12.84</td>
+<td class="ltx_td ltx_align_center">0.400</td>
+<td class="ltx_td ltx_align_center">0.556</td>
+<td class="ltx_td ltx_align_center">0.417</td>
+<td class="ltx_td ltx_align_center">-</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t"><cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite></th>
+<td class="ltx_td ltx_align_center ltx_border_t">16.5</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.530</td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">0.354</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.368</td>
+<td class="ltx_td ltx_align_center ltx_border_t">9%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r"><cite class="ltx_cite ltx_citemacro_cite">Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite></th>
+<td class="ltx_td ltx_align_center">16.7</td>
+<td class="ltx_td ltx_align_center">0.548</td>
+<td class="ltx_td ltx_align_center">0.411</td>
+<td class="ltx_td ltx_align_center">0.344</td>
+<td class="ltx_td ltx_align_center">1%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">SDEdit</th>
+<td class="ltx_td ltx_align_center">15.4</td>
+<td class="ltx_td ltx_align_center">0.458</td>
+<td class="ltx_td ltx_align_center">0.468</td>
+<td class="ltx_td ltx_align_center">0.393</td>
+<td class="ltx_td ltx_align_center">11%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r"><span class="ltx_text ltx_font_bold">Ours</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">17.0</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.550</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb">0.421</td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.335</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">80%</span></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+</div>
+<div class="ltx_flex_cell ltx_flex_size_2">
+<figure class="ltx_figure ltx_figure_panel ltx_minipage ltx_align_center ltx_align_bottom" id="S4.T2.fig2" style="width:212.5pt;">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Table 2: </span>Quantitative comparison on relighting. We evaluate against GT relighting results in terms of per-image metrics, and evaluate multi-view consistency with MEt3r.</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:433.6pt;height:83.9pt;vertical-align:-39.8pt;"><span class="ltx_transformed_inner" style="transform:translate(-36.5pt,7.1pt) scale(0.856062197396368,0.856062197396368) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_th ltx_th_row ltx_border_r ltx_border_tt"></th>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="3">Per-image metrics</td>
+<td class="ltx_td ltx_align_center ltx_border_tt">MV metric</td>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Method</th>
+<td class="ltx_td ltx_align_center ltx_border_t">PSNR <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m6" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">SSIM <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m7" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">LPIPS <math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m8" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">MEt3r <math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m9" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center">Users <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T2.m10" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t">Per-image</th>
+<td class="ltx_td ltx_align_center ltx_border_t">22.7</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.862</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.159</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.243</td>
+<td class="ltx_td ltx_align_center ltx_border_t">-</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Image-to-MV</th>
+<td class="ltx_td ltx_align_center">19.3</td>
+<td class="ltx_td ltx_align_center">0.815</td>
+<td class="ltx_td ltx_align_center">0.193</td>
+<td class="ltx_td ltx_align_center">0.229</td>
+<td class="ltx_td ltx_align_center">-</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t"><cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite></th>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">23.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">0.871</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">0.152</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.220</td>
+<td class="ltx_td ltx_align_center ltx_border_t">10%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r"><cite class="ltx_cite ltx_citemacro_cite">Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite></th>
+<td class="ltx_td ltx_align_center">22.1</td>
+<td class="ltx_td ltx_align_center">0.863</td>
+<td class="ltx_td ltx_align_center">0.158</td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold">0.217</span></td>
+<td class="ltx_td ltx_align_center">19%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">NeRF + NG</th>
+<td class="ltx_td ltx_align_center">22.4</td>
+<td class="ltx_td ltx_align_center">0.865</td>
+<td class="ltx_td ltx_align_center">0.162</td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold">0.217</span></td>
+<td class="ltx_td ltx_align_center">25%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r"><span class="ltx_text ltx_font_bold">Ours</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">23.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb">0.868</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">0.157</td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.217</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">46%</span></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+</div>
+</div>
+</figure>
+<figure class="ltx_figure" id="S4.F5"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="663" id="S4.F5.g1" src="x5.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 5: </span><span class="ltx_text ltx_font_bold">Qualitative comparison on multi-view spatial editing.</span>
+The baselines struggle in preserving the identity of the input, and produce flickering artifacts across edited frames, while our results achieve both editing targets and multi-view consistency.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.SS1.p1">
+<p class="ltx_p">Spatial editing is challenging because it requires accurately harmonizing the scene, including object interactions and changes in shadows and reflections resulting from edits.
+There are no large-scale datasets available for training spatial editing models.
+As a result, previous work on 2D spatial editing has relied on large-scale video datasets <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib49" title="">2024b</a>; Cheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib7" title="">2025</a>; Alzayer et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib2" title="">2025b</a>)</cite> to learn natural object motion.
+However, such data sources do not exist for multi-view datasets, as dynamic multi-view or 4D datasets are extremely scarce and are typically created only for evaluation purposes.
+Our coupled sampling paradigm addresses this gap.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.SS1.p2">
+<p class="ltx_p">We use Magic Fixup <cite class="ltx_cite ltx_citemacro_citep">(Alzayer et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib2" title="">2025b</a>)</cite> for the 2D editing model.
+This model takes the original image and a coarse edit that specifies the desired spatial changes.
+For multi-view editing, it is necessary to apply the edit consistently across all views.
+In our experiments, we unproject the target object in each image using a depth map.
+We then apply a 3D transformation to the object and reproject it into the image.
+As a baseline, we also use SDEdit <cite class="ltx_cite ltx_citemacro_citep">(Meng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib33" title="">2022</a>)</cite>, which similarly accepts a coarse edit.
+Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.F5" title="Figure 5 ‣ 4.1 Multi-view spatial editing ‣ 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">5</span></a> presents three different coarse edits, with two frames from each edit shown to illustrate consistency.
+In the first example, we find that our method correctly translated and rotated the car, while preserving the identity of the input.
+By contrast, the baselines struggle to maintain the back view of the scene.
+In the final edit, our method produces smooth shadows that match the ground truth, whereas the baseline results in highly irregular shadows.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.SS1.p3">
+<p class="ltx_p">To quantitatively evaluate performance, we render the ground truth 3D transformation for each edit using Blender.
+We use standard reconstruction metrics, and MEt3r <cite class="ltx_cite ltx_citemacro_citep">(Asim et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib3" title="">2025</a>)</cite>, which measures the 3D consistency of multi-view outputs.
+Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.T2" title="Table 2 ‣ 4.1 Multi-view spatial editing ‣ 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">2</span></a> demonstrates that our method achieves higher PSNR and SSIM scores, along with superior multi-view consistency.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S4.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.2 </span>Multi-view Stylization</h3>
+<div class="ltx_para ltx_noindent" id="S4.SS2.p1">
+<p class="ltx_p">Stylization is a common application of diffusion models, where an input sequence, the spatial structure of the desired output, and a text prompt specifying the style are provided.
+Control-Net <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib52" title="">2023</a>)</cite> enables this type of stylization by incorporating geometry-related conditioning, such as the Canny edges of an image.
+Because ControlNet is trained on a large dataset, it achieves higher text fidelity than text-to-MV models.
+A closely related task is 3D re-texturing, in which a 3D mesh is given and a new texture is generated using a generative model.
+To assess our method, we rendered ten different scenes and applied stylization to each using user-defined prompts.
+For a comprehensive comparison, we also include baselines that operate directly on the 3D mesh, such as TEXTure <cite class="ltx_cite ltx_citemacro_citep">(Richardson et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib38" title="">2023</a>)</cite>, which synthesizes new textures using SDS <cite class="ltx_cite ltx_citemacro_citep">(Poole et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib37" title="">2023</a>)</cite>, and Hunyuan3D <cite class="ltx_cite ltx_citemacro_citep">(Team, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib41" title="">2025</a>)</cite>, which employs a feed-forward multi-view model to generate textures. We omit InstructNeRF2NeRF as it fails on our inputs.
+In <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.F4" title="In 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">4</span></a>, we present results from three representative examples.
+In the first example, score averaging methods have difficulty preserving the identity of the edited subject, resulting in color changes or the changing identity across frames.
+In contrast, TEXTure exhibits severe artifacts due to its SDS-based approach.
+Hunyuan3D produces very simple edits that often do not align with the text prompt.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.SS2.p2">
+<p class="ltx_p">Although the quantitative evaluation of stylization remains challenging, we assess both temporal and subject consistency in our generated videos using VBench <cite class="ltx_cite ltx_citemacro_cite">Zhang et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib51" title="">2024</a>)</cite> and measure geometric consistency with MEt3r <cite class="ltx_cite ltx_citemacro_citep">(Asim et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib3" title="">2025</a>)</cite>.
+Our results show that our method achieves superior temporal and subject consistency compared to previous approaches for combining diffusion models.
+For reference, we also report results from mesh-based methods on rendered videos, which are inherently temporally consistent due to the underlying mesh representation.</p>
+</div>
+<figure class="ltx_table" id="S4.T3">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 3: </span>Quantitative comparison on stylization. We evaluate the temporal and subject consistency, and MEt3r score for geometric consistency. CLIP score is computed against the edit prompt. </figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:397.5pt;height:60.9pt;vertical-align:-29.1pt;"><span class="ltx_transformed_inner" style="transform:translate(-161.4pt,24.7pt) scale(0.55186998096007,0.55186998096007) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_th ltx_th_row ltx_border_r ltx_border_tt"></th>
+<td class="ltx_td ltx_align_center ltx_border_tt">Per-img metric</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="3">MV metrics</td>
+<td class="ltx_td ltx_border_tt"></td>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Method</th>
+<td class="ltx_td ltx_align_center ltx_border_t">CLIP score <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m1" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Temp. consis. <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m2" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Subject consist. <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m3" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">MEt3r <math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m4" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center">User pref. <math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m5" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</td>
+<td class="ltx_td ltx_align_center">Mesh-free</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t">Per-image <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib52" title="">2023</a>)</cite>
+</th>
+<td class="ltx_td ltx_align_center ltx_border_t">30.0</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.922</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.740</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.546</td>
+<td class="ltx_td ltx_align_center ltx_border_t">-</td>
+<td class="ltx_td ltx_align_center ltx_border_t"><math alttext="\checkmark" class="ltx_Math" display="inline" id="S4.T3.m6" intent=":literal"><semantics><mi mathvariant="normal">✓</mi><annotation encoding="application/x-tex">\checkmark</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Image-to-MV <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib55" title="">2025</a>)</cite>
+</th>
+<td class="ltx_td ltx_align_center">29.5</td>
+<td class="ltx_td ltx_align_center">0.927</td>
+<td class="ltx_td ltx_align_center">0.787</td>
+<td class="ltx_td ltx_align_center">0.382</td>
+<td class="ltx_td ltx_align_center">-</td>
+<td class="ltx_td ltx_align_center"><math alttext="\checkmark" class="ltx_Math" display="inline" id="S4.T3.m7" intent=":literal"><semantics><mi mathvariant="normal">✓</mi><annotation encoding="application/x-tex">\checkmark</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t">TEXTure <cite class="ltx_cite ltx_citemacro_citep">(Richardson et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib38" title="">2023</a>)</cite>
+</th>
+<td class="ltx_td ltx_align_center ltx_border_t">28.4</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.967</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.748</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.426</td>
+<td class="ltx_td ltx_align_center ltx_border_t">14%</td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_markedasmath ltx_font_sansserif">X</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">Hunyuan3D <cite class="ltx_cite ltx_citemacro_citep">(Team, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib41" title="">2025</a>)</cite>
+</th>
+<td class="ltx_td ltx_align_center">29.9</td>
+<td class="ltx_td ltx_align_center">0.952</td>
+<td class="ltx_td ltx_align_center">0.754</td>
+<td class="ltx_td ltx_align_center">0.391</td>
+<td class="ltx_td ltx_align_center">8%</td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_markedasmath ltx_font_sansserif">X</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t"><cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite></th>
+<td class="ltx_td ltx_align_center ltx_border_t">30.1</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.934</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.759</td>
+<td class="ltx_td ltx_align_center ltx_border_t">0.461</td>
+<td class="ltx_td ltx_align_center ltx_border_t">19%</td>
+<td class="ltx_td ltx_align_center ltx_border_t"><math alttext="\checkmark" class="ltx_Math" display="inline" id="S4.T3.m10" intent=":literal"><semantics><mi mathvariant="normal">✓</mi><annotation encoding="application/x-tex">\checkmark</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r"><cite class="ltx_cite ltx_citemacro_cite">Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold">30.2</span></td>
+<td class="ltx_td ltx_align_center">0.926</td>
+<td class="ltx_td ltx_align_center">0.762</td>
+<td class="ltx_td ltx_align_center">0.461</td>
+<td class="ltx_td ltx_align_center">12%</td>
+<td class="ltx_td ltx_align_center"><math alttext="\checkmark" class="ltx_Math" display="inline" id="S4.T3.m11" intent=":literal"><semantics><mi mathvariant="normal">✓</mi><annotation encoding="application/x-tex">\checkmark</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r"><span class="ltx_text ltx_font_bold">Coupled Sampling (Ours)</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb">29.68</td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.946</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.807</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">0.392</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">47%</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><math alttext="\checkmark" class="ltx_Math" display="inline" id="S4.T3.m12" intent=":literal"><semantics><mi mathvariant="normal">✓</mi><annotation encoding="application/x-tex">\checkmark</annotation></semantics></math></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+</section>
+<section class="ltx_subsection" id="S4.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.3 </span>Multi-view Relighting</h3>
+<figure class="ltx_figure" id="S4.F6"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="421" id="S4.F6.g1" src="x6.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 6: </span><span class="ltx_text ltx_font_bold">Qualitative comparison on environment map based relighting.</span>
+Other methods tend to produce flickering artifacts (notice the change in color in the first two rows for <cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>); Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite>). The usage of NeRF will make the lighting changes to be baked into the view dependent effects. Our method achieves the best overall result.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Environment map conditioned relighting.</span>
+When the variance of the 2D diffusion results is low, meaning the sampling distribution is narrow, radiance fields can effectively regularize inconsistencies.
+However, this requires obtaining a consistent geometry beforehand.
+As an alternative, we demonstrate that a multi-view diffusion model can regularize inconsistencies in 2D relighting through coupled sampling.
+Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.F6" title="Figure 6 ‣ 4.3 Multi-view Relighting ‣ 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">6</span></a> presents two relighting examples to illustrate this.
+We observe that prior methods for combining diffusion models <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>; Du et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite> can introduce flickering artifacts, as evidenced by abrupt color changes in the top two rows.
+In contrast, NeRF-based approaches may incorrectly attribute lighting variance to view-dependent effects, as illustrated in the bottom two rows of the backpack example.
+To quantitatively compare these methods, we use the 3D objects from Neural-Gaffer <cite class="ltx_cite ltx_citemacro_citep">(Jin et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib18" title="">2024</a>)</cite>, and add both a diffuse and a glossy object, resulting in a total of seven objects with five relightings each.
+We compute per-image reconstruction metrics and geometric consistency using MEt3r, as shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.T2" title="Table 2 ‣ 4.1 Multi-view spatial editing ‣ 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">2</span></a>.
+Although these metrics do not capture subtle lighting flicker, our method achieves competitive results in both reconstruction and consistency.
+Importantly, we also report metrics for relighting each image individually, which serves as a coarse upper bound, and observe no degradation in performance.</p>
+</div>
+<figure class="ltx_figure" id="S4.F7"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="310" id="S4.F7.g1" src="x7.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 7: </span><span class="ltx_text ltx_font_bold">Text based relighting.</span> We combine IC-Light <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib53" title="">2025a</a>)</cite>, which enables text-based relighting with stable virtual camera to obtain multi-view results.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Text conditioned relighting.</span>
+To show more drastic relighting outputs, we use IC-Light <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib53" title="">2025a</a>)</cite>, which operates by relighting the object and adding a suitable background.
+While Stable-Virtual-Camera <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib55" title="">2025</a>)</cite> may have a weak prior for regularizing backgrounds due to its training data, we find that it still ensures the object is consistently lit across frames.
+In <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4.F7" title="In 4.3 Multi-view Relighting ‣ 4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">7</span></a> we show diverse multi-view relighting results using our method.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Analysis Experiments</h2>
+<div class="ltx_para ltx_noindent" id="S5.p1">
+<p class="ltx_p">In this section, we demonstrate that the benefits of coupled sampling extend to various models, and analyze how varying the guidance strength in our approach influence the results.</p>
+</div>
+<figure class="ltx_figure" id="S5.F8"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="339" id="S5.F8.g1" src="x8.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 8: </span><span class="ltx_text ltx_font_bold">Coupling in different multi-view models.</span> We implement coupling on T2I and T2MV models with two different backbones. We couple SD2.1 with MVDream <cite class="ltx_cite ltx_citemacro_citep">(Shi et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib40" title="">2024</a>)</cite>, and SDXL with MVAdapter <cite class="ltx_cite ltx_citemacro_citep">(Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib17" title="">2024</a>)</cite>, which operates in SDXL latent space. In both cases, the coupled multiview samples show an increase in realism and a decrease in “objaverse” appearance.</figcaption>
+</figure>
+<figure class="ltx_figure" id="S5.F9"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="244" id="S5.F9.g1" src="x9.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 9: </span><span class="ltx_text ltx_font_bold">Image space coupling.</span> Using Flux, we perform coupled sampling on different prompts. We show that the coupled samples are spatially aligned while being faithful to the prompt.
+</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S5.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Backbone variations.</span>
+In Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S4" title="4 Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">4</span></a>, we presented multi-view editing results using Stable Virtual Camera <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib55" title="">2025</a>)</cite>.
+Here, we further examine the impact of coupling on text-to-multi-view models, specifically MVDream <cite class="ltx_cite ltx_citemacro_citep">(Shi et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib40" title="">2024</a>)</cite>, which extends Stable Diffusion 1.5 to produce four consistent views, and MV-Adapter <cite class="ltx_cite ltx_citemacro_citep">(Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib17" title="">2024</a>)</cite>, which leverages the more advanced SDXL backbone and operates in the SDXL latent space. For coupling, we use SD1.5 and SDXL as the respective text-to-image models.
+As shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S5.F8" title="Figure 8 ‣ 5 Analysis Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">8</span></a>, text-to-multi-view models often generate objects with a CGI-like appearance, likely due to their training on datasets such as Objaverse <cite class="ltx_cite ltx_citemacro_citep">(Deitke et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib10" title="">2023</a>)</cite>.
+Introducing our coupling approach encourages the multi-view samples to better resemble real images, as modeled by the 2D diffusion models.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S5.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Coupling Text-to-image flow models.</span>
+
+Coupled diffusion sampling can be applied to both 2D and multi-view settings.
+To illustrate the effects of coupled sampling, we implement our method using the text-to-image model Flux <cite class="ltx_cite ltx_citemacro_citep">(Labs, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib23" title="">2024</a>)</cite>.
+Although Flux is a flow-based model <cite class="ltx_cite ltx_citemacro_citep">(Lipman et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib25" title="">2023</a>; Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib29" title="">2023</a>)</cite>, we show that our coupling approach remains effective.
+We test coupled sampling by generating two samples from the same model, each conditioned on a different prompt.
+As shown in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S5.F9" title="In 5 Analysis Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">9</span></a>, without coupling, the outputs are typically very distinct.
+With the coupled sampling, the outputs become spatially aligned while still reflecting their respective prompts.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S5.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Guidance strength analysis.</span>
+We quantitatively evaluate the effects of guidance strength <math alttext="\lambda" class="ltx_Math" display="inline" id="S5.p4.m1" intent=":literal"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math> on spatial editing performance.
+When <math alttext="\lambda" class="ltx_Math" display="inline" id="S5.p4.m2" intent=":literal"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math> is very small, the model output resembles image-to-MV sampling, resulting in low reconstruction performance.
+As <math alttext="\lambda" class="ltx_Math" display="inline" id="S5.p4.m3" intent=":literal"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math> increases, reconstruction performance improves.
+However, with further increases in <math alttext="\lambda" class="ltx_Math" display="inline" id="S5.p4.m4" intent=":literal"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math>, consistency across frames degrades as the outputs become more similar to 2D model samples and eventually collapse.</p>
+</div>
+<figure class="ltx_figure ltx_align_floatright" id="S5.F10">
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:190.8pt;height:118.8pt;vertical-align:-0.0pt;"><span class="ltx_transformed_inner" style="transform:translate(-775.2pt,482.6pt) scale(0.109577841519265,0.109577841519265) ;"><img alt="Refer to caption" class="ltx_graphics ltx_img_landscape" height="1500" id="S5.F10.g1" src="images/guidance_strength_ablation_log.png" width="2400"/>
+</span></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 10: </span><span class="ltx_text ltx_font_bold">Guidance strength analysis.</span> As we increase the guidance strength, the reconstruction improves but the consistency drops.</figcaption>
+</figure>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Discussion and Conclusion</h2>
+<div class="ltx_para ltx_noindent" id="S6.p1">
+<p class="ltx_p">We introduce a simple and effective approach for coupling diffusion models, enabling 2D diffusion models to generate consistent multi-view edits when used with multi-view diffusion models.
+Our method is efficient, versatile, and achieves high-quality results.
+By guiding the diffusion sampling process, our approach produces outputs that retain the strengths of the underlying models, while also inheriting their limitations.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S6.p2">
+<p class="ltx_p">We believe this coupling strategy has potential applications beyond multi-view editing. In the future, our paradigm could extend the capabilities of image-editing models to video editing by integrating with video diffusion models, without incurring additional computational overhead.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S6.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Acknowledgments.</span> We would like to thank Gordon Wetzstein, Jon Barron, Ben Poole, Michael Gharbi, and Songwei Ge for the fruitful discussions.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Alzayer et al. (2025a)</span>
+<span class="ltx_bibblock">
+Hadi Alzayer, Philipp Henzler, Jonathan T. Barron, Jia-Bin Huang, Pratul P. Srinivasan, and Dor Verbin.
+
+</span>
+<span class="ltx_bibblock">Generative multiview relighting for 3d reconstruction under extreme illumination variation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, June 2025a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Alzayer et al. (2025b)</span>
+<span class="ltx_bibblock">
+Hadi Alzayer, Zhihao Xia, Xuaner (Cecilia) Zhang, Eli Shechtman, Jia-Bin Huang, and Michael Gharbi.
+
+</span>
+<span class="ltx_bibblock">Magic fixup: Streamlining photo editing by watching dynamic videos.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">ACM Trans. Graph.</em>, 2025b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Asim et al. (2025)</span>
+<span class="ltx_bibblock">
+Mohammad Asim, Christopher Wewer, Thomas Wimmer, Bernt Schiele, and Jan Eric Lenssen.
+
+</span>
+<span class="ltx_bibblock">Met3r: Measuring multi-view consistency in generated images.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bansal et al. (2024)</span>
+<span class="ltx_bibblock">
+Arpit Bansal, Hong-Min Chu, Avi Schwarzschild, Roni Sengupta, Micah Goldblum, Jonas Geiping, and Tom Goldstein.
+
+</span>
+<span class="ltx_bibblock">Universal guidance for diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bar-Tal et al. (2023)</span>
+<span class="ltx_bibblock">
+Omer Bar-Tal, Lior Yariv, Yaron Lipman, and Tali Dekel.
+
+</span>
+<span class="ltx_bibblock">Multidiffusion: fusing diffusion paths for controlled image generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">Int. Conf. Mach. Learn.</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Cao et al. (2023)</span>
+<span class="ltx_bibblock">
+Mingdeng Cao, Xintao Wang, Zhongang Qi, Ying Shan, Xiaohu Qie, and Yinqiang Zheng.
+
+</span>
+<span class="ltx_bibblock">Masactrl: Tuning-free mutual self-attention control for consistent image synthesis and editing.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Cheng et al. (2025)</span>
+<span class="ltx_bibblock">
+Yen-Chi Cheng, Krishna Kumar Singh, Jae Shin Yoon, Alexander Schwing, Liangyan Gui, Matheus Gadelha, Paul Guerrero, and Nanxuan Zhao.
+
+</span>
+<span class="ltx_bibblock">3D-Fixup: Advancing Photo Editing with 3D Priors.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">Proceedings of the SIGGRAPH Conference Papers</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chung et al. (2022)</span>
+<span class="ltx_bibblock">
+Hyungjin Chung, Byeongsu Sim, Dohoon Ryu, and Jong Chul Ye.
+
+</span>
+<span class="ltx_bibblock">Improving diffusion models for inverse problems using manifold constraints.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chung et al. (2023)</span>
+<span class="ltx_bibblock">
+Hyungjin Chung, Jeongsol Kim, Michael T Mccann, Marc L Klasky, and Jong Chul Ye.
+
+</span>
+<span class="ltx_bibblock">Diffusion posterior sampling for general noisy inverse problems.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Deitke et al. (2023)</span>
+<span class="ltx_bibblock">
+Matt Deitke, Dustin Schwenk, Jordi Salvador, Luca Weihs, Oscar Michel, Eli VanderBilt, Ludwig Schmidt, Kiana Ehsani, Aniruddha Kembhavi, and Ali Farhadi.
+
+</span>
+<span class="ltx_bibblock">Objaverse: A universe of annotated 3d objects.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Dhariwal &amp; Nichol (2021)</span>
+<span class="ltx_bibblock">
+Prafulla Dhariwal and Alexander Quinn Nichol.
+
+</span>
+<span class="ltx_bibblock">Diffusion models beat GANs on image synthesis.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Du et al. (2023)</span>
+<span class="ltx_bibblock">
+Yilun Du, Conor Durkan, Robin Strudel, Joshua B. Tenenbaum, Sander Dieleman, Rob Fergus, Jascha Sohl-Dickstein, Arnaud Doucet, and Will Grathwohl.
+
+</span>
+<span class="ltx_bibblock">Reduce, reuse, recycle: compositional generation with energy-based diffusion models and mcmc.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">Int. Conf. Mach. Learn.</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gao et al. (2024)</span>
+<span class="ltx_bibblock">
+Ruiqi Gao, Aleksander Holynski, Philipp Henzler, Arthur Brussee, Ricardo Martin-Brualla, Pratul P. Srinivasan, Jonathan T. Barron, and Ben Poole.
+
+</span>
+<span class="ltx_bibblock">Cat3d: Create anything in 3d with multi-view diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Haque et al. (2023)</span>
+<span class="ltx_bibblock">
+Ayaan Haque, Matthew Tancik, Alexei A Efros, Aleksander Holynski, and Angjoo Kanazawa.
+
+</span>
+<span class="ltx_bibblock">Instruct-nerf2nerf: Editing 3d scenes with instructions.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hinton (2002)</span>
+<span class="ltx_bibblock">
+Geoffrey E Hinton.
+
+</span>
+<span class="ltx_bibblock">Training products of experts by minimizing contrastive divergence.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Neural computation</em>, 14(8):1771–1800, 2002.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ho et al. (2020)</span>
+<span class="ltx_bibblock">
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+
+</span>
+<span class="ltx_bibblock">Denoising diffusion probabilistic models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, volume 33, pp.  6840–6851, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2024)</span>
+<span class="ltx_bibblock">
+Zehuan Huang, Yuanchen Guo, Haoran Wang, Ran Yi, Lizhuang Ma, Yan-Pei Cao, and Lu Sheng.
+
+</span>
+<span class="ltx_bibblock">Mv-adapter: Multi-view consistent image generation made easy.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Jin et al. (2024)</span>
+<span class="ltx_bibblock">
+Haian Jin, Yuan Li, Fujun Luan, Yuanbo Xiangli, Sai Bi, Kai Zhang, Zexiang Xu, Jin Sun, and Noah Snavely.
+
+</span>
+<span class="ltx_bibblock">Neural gaffer: Relighting any object via diffusion.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kawar et al. (2022)</span>
+<span class="ltx_bibblock">
+Bahjat Kawar, Michael Elad, Stefano Ermon, and Jiaming Song.
+
+</span>
+<span class="ltx_bibblock">Denoising diffusion restoration models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kerbl et al. (2023)</span>
+<span class="ltx_bibblock">
+Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, and George Drettakis.
+
+</span>
+<span class="ltx_bibblock">3d gaussian splatting for real-time radiance field rendering.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">ACM Trans. Graph.</em>, 42(4):139–1, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kim et al. (2024)</span>
+<span class="ltx_bibblock">
+Jaihoon Kim, Juil Koo, Kyeongmin Yeo, and Minhyuk Sung.
+
+</span>
+<span class="ltx_bibblock">Synctweedies: A general generative framework based on synchronized diffusions.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kulikov et al. (2025)</span>
+<span class="ltx_bibblock">
+Vladimir Kulikov, Matan Kleiner, Inbar Huberman-Spiegelglas, and Tomer Michaeli.
+
+</span>
+<span class="ltx_bibblock">Flowedit: Inversion-free text-based editing using pre-trained flow models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Labs (2024)</span>
+<span class="ltx_bibblock">
+Black Forest Labs.
+
+</span>
+<span class="ltx_bibblock">Flux.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_url ltx_font_typewriter" href="https://github.com/black-forest-labs/flux" title="">https://github.com/black-forest-labs/flux</a>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2024)</span>
+<span class="ltx_bibblock">
+Xiner Li, Yulai Zhao, Chenyu Wang, Gabriele Scalia, Gokcen Eraslan, Surag Nair, Tommaso Biancalani, Shuiwang Ji, Aviv Regev, Sergey Levine, et al.
+
+</span>
+<span class="ltx_bibblock">Derivative-free guidance in continuous and discrete diffusion models with soft value-based decoding.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2408.08252</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lipman et al. (2023)</span>
+<span class="ltx_bibblock">
+Yaron Lipman, Ricky TQ Chen, Heli Ben-Hamu, Maximilian Nickel, and Matt Le.
+
+</span>
+<span class="ltx_bibblock">Flow matching for generative modeling.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lipman et al. (2024)</span>
+<span class="ltx_bibblock">
+Yaron Lipman, Marton Havasi, Peter Holderrieth, Neta Shaul, Matt Le, Brian Karrer, Ricky TQ Chen, David Lopez-Paz, Heli Ben-Hamu, and Itai Gat.
+
+</span>
+<span class="ltx_bibblock">Flow matching guide and code.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2412.06264</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Litman et al. (2025)</span>
+<span class="ltx_bibblock">
+Yehonathan Litman, Fernando De la Torre, and Shubham Tulsiani.
+
+</span>
+<span class="ltx_bibblock">Lightswitch: Multi-view relighting with material-guided diffusion.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2022)</span>
+<span class="ltx_bibblock">
+Nan Liu, Shuang Li, Yilun Du, Antonio Torralba, and Joshua B Tenenbaum.
+
+</span>
+<span class="ltx_bibblock">Compositional visual generation with composable diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2023)</span>
+<span class="ltx_bibblock">
+Xingchao Liu, Chengyue Gong, and Qiang Liu.
+
+</span>
+<span class="ltx_bibblock">Flow straight and fast: Learning to generate and transfer data with rectified flow.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ma et al. (2025)</span>
+<span class="ltx_bibblock">
+Nanye Ma, Shangyuan Tong, Haolin Jia, Hexiang Hu, Yu-Chuan Su, Mingda Zhang, Xuan Yang, Yandong Li, Tommi Jaakkola, Xuhui Jia, et al.
+
+</span>
+<span class="ltx_bibblock">Inference-time scaling for diffusion models beyond scaling denoising steps.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Magar et al. (2025)</span>
+<span class="ltx_bibblock">
+Nadav Magar, Amir Hertz, Eric Tabellion, Yael Pritch, Alex Rav-Acha, Ariel Shamir, and Yedid Hoshen.
+
+</span>
+<span class="ltx_bibblock">Lightlab: Controlling light sources in images with diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">SIGGRAPH</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">McAllister et al. (2024)</span>
+<span class="ltx_bibblock">
+David McAllister, Songwei Ge, Jia-Bin Huang, David W. Jacobs, Alexei A. Efros, Aleksander Holynski, and Angjoo Kanazawa.
+
+</span>
+<span class="ltx_bibblock">Rethinking score distillation as a bridge between image distributions.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Meng et al. (2022)</span>
+<span class="ltx_bibblock">
+Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, and Stefano Ermon.
+
+</span>
+<span class="ltx_bibblock">SDEdit: Guided image synthesis and editing with stochastic differential equations.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Mildenhall et al. (2020)</span>
+<span class="ltx_bibblock">
+Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng.
+
+</span>
+<span class="ltx_bibblock">Nerf: Representing scenes as neural radiance fields for view synthesis.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Mokady et al. (2023)</span>
+<span class="ltx_bibblock">
+Ron Mokady, Amir Hertz, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or.
+
+</span>
+<span class="ltx_bibblock">Null-text inversion for editing real images using guided diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Mu et al. (2024)</span>
+<span class="ltx_bibblock">
+Jiteng Mu, Michaël Gharbi, Richard Zhang, Eli Shechtman, Nuno Vasconcelos, Xiaolong Wang, and Taesung Park.
+
+</span>
+<span class="ltx_bibblock">Editable image elements for controllable synthesis.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Poole et al. (2023)</span>
+<span class="ltx_bibblock">
+Ben Poole, Ajay Jain, Jonathan T. Barron, and Ben Mildenhall.
+
+</span>
+<span class="ltx_bibblock">Dreamfusion: Text-to-3d using 2d diffusion.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Richardson et al. (2023)</span>
+<span class="ltx_bibblock">
+Elad Richardson, Gal Metzer, Yuval Alaluf, Raja Giryes, and Daniel Cohen-Or.
+
+</span>
+<span class="ltx_bibblock">Texture: Text-guided texturing of 3d shapes.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ACM SIGGRAPH Conference Proceedings</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Rombach et al. (2022)</span>
+<span class="ltx_bibblock">
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer.
+
+</span>
+<span class="ltx_bibblock">High-resolution image synthesis with latent diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shi et al. (2024)</span>
+<span class="ltx_bibblock">
+Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, and Xiao Yang.
+
+</span>
+<span class="ltx_bibblock">MVDream: Multi-view diffusion for 3d generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Team (2025)</span>
+<span class="ltx_bibblock">
+Tencent Hunyuan3D Team.
+
+</span>
+<span class="ltx_bibblock">Hunyuan3d 2.0: Scaling diffusion models for high resolution textured 3d assets generation, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib42">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Trevithick et al. (2025)</span>
+<span class="ltx_bibblock">
+Alex Trevithick, Roni Paiss, Philipp Henzler, Dor Verbin, Rundi Wu, Hadi Alzayer, Ruiqi Gao, Ben Poole, Jonathan T. Barron, Aleksander Holynski, Ravi Ramamoorthi, and Pratul P. Srinivasan.
+
+</span>
+<span class="ltx_bibblock">Simvs: Simulating world inconsistencies for robust view synthesis.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib43">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Vavilala et al. (2025)</span>
+<span class="ltx_bibblock">
+Vaibhav Vavilala, Seemandhar Jain, Rahul Vasanth, D. A. Forsyth, and Anand Bhattad.
+
+</span>
+<span class="ltx_bibblock">Generative blocks world: Moving things around in pictures, 2025.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://arxiv.org/abs/2506.20703" title="">https://arxiv.org/abs/2506.20703</a>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib44">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2023a)</span>
+<span class="ltx_bibblock">
+Yinhuai Wang, Jiwen Yu, and Jian Zhang.
+
+</span>
+<span class="ltx_bibblock">Zero-shot image restoration using denoising diffusion null-space model.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2023a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib45">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2023b)</span>
+<span class="ltx_bibblock">
+Zhengyi Wang, Cheng Lu, Yikai Wang, Fan Bao, Chongxuan Li, Hang Su, and Jun Zhu.
+
+</span>
+<span class="ltx_bibblock">Prolificdreamer: High-fidelity and diverse text-to-3d generation with variational score distillation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2023b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib46">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Weber et al. (2024)</span>
+<span class="ltx_bibblock">
+Ethan Weber, Aleksander Holynski, Varun Jampani, Saurabh Saxena, Noah Snavely, Abhishek Kar, and Angjoo Kanazawa.
+
+</span>
+<span class="ltx_bibblock">Nerfiller: Completing scenes via generative 3d inpainting.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib47">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2023)</span>
+<span class="ltx_bibblock">
+Luhuan Wu, Brian Trippe, Christian Naesseth, David Blei, and John P Cunningham.
+
+</span>
+<span class="ltx_bibblock">Practical and asymptotically exact conditional sampling in diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib48">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2024a)</span>
+<span class="ltx_bibblock">
+Rundi Wu, Ben Mildenhall, Philipp Henzler, Keunhong Park, Ruiqi Gao, Daniel Watson, Pratul P. Srinivasan, Dor Verbin, Jonathan T. Barron, Ben Poole, and Aleksander Ho?y?ski.
+
+</span>
+<span class="ltx_bibblock">Reconfusion: 3d reconstruction with diffusion priors.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib49">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2024b)</span>
+<span class="ltx_bibblock">
+Ziyi Wu, Yulia Rubanova, Rishabh Kabra, Drew A. Hudson, Igor Gilitschenski, Yusuf Aytar, Sjoerd van Steenkiste, Kelsey R Allen, and Thomas Kipf.
+
+</span>
+<span class="ltx_bibblock">Neural assets: 3d-aware multi-object scene synthesis with image diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">NeurIPS</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib50">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yan et al. (2025)</span>
+<span class="ltx_bibblock">
+Runjie Yan, Yinbo Chen, and Xiaolong Wang.
+
+</span>
+<span class="ltx_bibblock">Consistent flow distillation for text-to-3d generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib51">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2024)</span>
+<span class="ltx_bibblock">
+Fan Zhang, Shulin Tian, Ziqi Huang, Yu Qiao, and Ziwei Liu.
+
+</span>
+<span class="ltx_bibblock">Evaluation agent: Efficient and promptable evaluation framework for visual generative models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2412.09645</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib52">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2023)</span>
+<span class="ltx_bibblock">
+Lvmin Zhang, Anyi Rao, and Maneesh Agrawala.
+
+</span>
+<span class="ltx_bibblock">Adding conditional control to text-to-image diffusion models, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib53">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2025a)</span>
+<span class="ltx_bibblock">
+Lvmin Zhang, Anyi Rao, and Maneesh Agrawala.
+
+</span>
+<span class="ltx_bibblock">Scaling in-the-wild training for diffusion-based illumination harmonization and editing by imposing consistent light transport.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2025a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib54">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2025b)</span>
+<span class="ltx_bibblock">
+Yunzhi Zhang, Carson Murtuza-Lanier, Zizhang Li, Yilun Du, and Jiajun Wu.
+
+</span>
+<span class="ltx_bibblock">Product of experts for visual generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.08894</em>, 2025b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib55">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhou et al. (2025)</span>
+<span class="ltx_bibblock">
+Jensen (Jinghao) Zhou, Hang Gao, Vikram Voleti, Aaryaman Vasishta, Chun-Han Yao, Mark Boss, Philip Torr, Christian Rupprecht, and Varun Jampani.
+
+</span>
+<span class="ltx_bibblock">Stable virtual camera: Generative view synthesis with diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2025.
+
+</span>
+</li>
+</ul>
+</section>
+<section class="ltx_appendix" id="A1">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix A </span>Additional discussion of limitations</h2>
+<div class="ltx_para ltx_noindent" id="A1.p1">
+<p class="ltx_p">While the proposed method offers a simple and efficient framework for multi-view consistent image editing, several notable limitations remain.
+First, running both the 2D editing model and the multi-view diffusion model in parallel increases memory and computational requirements.
+This limitation could be addressed in future work by exploring adaptive guidance strength or applying guidance during only a subset of sampling steps.
+Second, the edited outputs are not perfectly 3D consistent compared to test-time optimization-based methods.
+This residual inconsistency can be further reduced by robustly fitting a NeRF or 3D Gaussian Splatting model to the generated views, as shown in prior work <cite class="ltx_cite ltx_citemacro_cite">Haque et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib14" title="">2023</a>); Weber et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib46" title="">2024</a>)</cite>, while still maintaining much faster inference than optimization-based approaches.</p>
+</div>
+</section>
+<section class="ltx_appendix" id="A2">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix B </span>Implementation details</h2>
+<div class="ltx_para ltx_noindent" id="A2.p1">
+<p class="ltx_p">As our primary multi-view generation base model, we use Stable-Virtual-Camera (SVC) which is trained to process 21 frames at once, and use one or several consistent images for novel view synthesis. As we would like to edit a collection of views, we do not have access to more than one consistent <span class="ltx_text ltx_font_italic">edited</span> photos, since we can only edit one image at a time with the 2D editing model. In our experiments, we edit a reference image, and then use it as the conditioning view. Note that this conditioning view has great influence on the outcome, as it dictates the distribution of acceptable 3D scenes that SVC would synthesize.
+<br class="ltx_break"/>We transform stable-virtual-camera into DDPM by converting the EDM based sampler into a DDPM scheduled by computing converting the noise levels into the appropriate alphas. Afterwards, since SVC was trained with a shifted noise schedule compared to SD2.1 image models, we re-align SVC’s schedule with the 2D model’s schedule for the coupled sampling to be effective.
+<br class="ltx_break"/>We conduct our experiments using NVIDIA A6000 GPUs. As our approach only requires a feed forward pass, the memory requirement is equivalent to the combined memory of the two models used. A better memory utilization can be further achieved by loading and off-loading the models from the GPU, as we can run them sequentially and then compute the coupling term. We use 50 denoising steps for spatial editing and stylization, and 100 denoising steps with Neural Gaffer relighting. The runtime of the sampling process is  130 seconds using our GPU resources for generating the full 21 frames sequence.
+<br class="ltx_break"/>In the experiments with Neural-Gaffer, one challenge is that Neural-Gaffer is trained on 256x256 images. On the other hand, SVC was trained on 576x576 images. We found that SVC performs very poorly on images of that size, and neural-gaffer does not generalize to 512x512 images or larger. After experimenting with the models, we found that at resolution size of 384x384, both models perform reasonably well and adopt that for the neural-gaffer experiments.</p>
+</div>
+</section>
+<section class="ltx_appendix" id="A3">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix C </span>Coupled Diffusion Sampling with Flow Models</h2>
+<div class="ltx_para ltx_noindent" id="A3.p1">
+<p class="ltx_p">Note that Flux <cite class="ltx_cite ltx_citemacro_citep">(Labs, <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib23" title="">2024</a>)</cite>, the text-to-image model used in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#S5.F9" title="In 5 Analysis Experiments ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">9</span></a> is a flow model. To sample from Flux using our proposed sampling method, first we transform the velocity <math alttext="v_{\theta}(x_{t})" class="ltx_Math" display="inline" id="A3.p1.m1" intent=":literal"><semantics><mrow><msub><mi>v</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">v_{\theta}(x_{t})</annotation></semantics></math> to the score function <math alttext="s_{\theta}(x_{t})" class="ltx_Math" display="inline" id="A3.p1.m2" intent=":literal"><semantics><mrow><msub><mi>s</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">s_{\theta}(x_{t})</annotation></semantics></math>, as it can be linearly transformed into score functions via
+<math alttext="s_{\theta}(x_{t})=-\frac{-tv_{\theta}(x_{t})+x_{t}}{1-t}" class="ltx_Math" display="inline" id="A3.p1.m3" intent=":literal"><semantics><mrow><mrow><msub><mi>s</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mfrac><mrow><mrow><mo>−</mo><mrow><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>v</mi><mi>θ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>+</mo><msub><mi>x</mi><mi>t</mi></msub></mrow><mrow><mn>1</mn><mo>−</mo><mi>t</mi></mrow></mfrac></mrow></mrow><annotation encoding="application/x-tex">s_{\theta}(x_{t})=-\frac{-tv_{\theta}(x_{t})+x_{t}}{1-t}</annotation></semantics></math>.
+Then transform the inference schedule to be DDPM via time reparameterization <cite class="ltx_cite ltx_citemacro_citep">(Lipman et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib26" title="">2024</a>)</cite> by computing the appropriate alpha values that match the noise levels associated with each time step.</p>
+</div>
+<section class="ltx_subsection" id="A3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">C.1 </span>Effects of Guidance Strength</h3>
+<figure class="ltx_figure" id="A3.F11"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="463" id="A3.F11.g1" src="x10.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 11: </span><span class="ltx_text ltx_font_bold">Effects of coupling strength.</span> We illustrate the effects of coupling strength on the spatial alignment between samples as we vary the coupling strength while keeping the initial noise and random seed.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="A3.SS1.p1">
+<p class="ltx_p">As an additional illustration, in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A3.F11" title="In C.1 Effects of Guidance Strength ‣ Appendix C Coupled Diffusion Sampling with Flow Models ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">11</span></a> we show how the samples change as we increase the coupling strength, while using the same initial random noise and randomness seed.</p>
+</div>
+</section>
+</section>
+<section class="ltx_appendix" id="A4">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix D </span>User study on IC-Light</h2>
+<div class="ltx_para ltx_noindent" id="A4.p1">
+<p class="ltx_p">For completion, we include the results of our user study on IC-Light in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A4.T4" title="In Appendix D User study on IC-Light ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Tab.</span> <span class="ltx_text ltx_ref_tag">4</span></a>. We show that our outputs are preferred by users over either of prior work on combinign diffusion models, as they tend to produce high flickering artifacts in the relit outputs.</p>
+</div>
+<figure class="ltx_table" id="A4.T4">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 4: </span>User study results on text-based relighting.</figcaption>
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_r ltx_border_tt">Method</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt">User pref. <math alttext="\uparrow" class="ltx_Math" display="inline" id="A4.T4.m1" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t"><cite class="ltx_cite ltx_citemacro_cite">Liu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib28" title="">2022</a>)</cite></th>
+<td class="ltx_td ltx_align_center ltx_border_t">24%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r"><cite class="ltx_cite ltx_citemacro_cite">Du et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib12" title="">2023</a>)</cite></th>
+<td class="ltx_td ltx_align_center">26.5%</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r"><span class="ltx_text ltx_font_bold">Coupled Sampling (Ours)</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text ltx_font_bold">49.5%</span></td>
+</tr>
+</tbody>
+</table>
+</figure>
+<figure class="ltx_figure" id="A4.F12"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="340" id="A4.F12.g1" src="x11.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 12: </span><span class="ltx_text ltx_font_bold">Sampler comparison.</span> When using a stochastic sampler, the coupling can lead to natural guidance pulling the outputs towards each other. On the other hand, a deterministic sampler would simply output the average of both samples, as ODE based sampling does cannot recover from noisy guidance.</figcaption>
+</figure>
+</section>
+<section class="ltx_appendix" id="A5">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix E </span>Effects of stochasticity</h2>
+<div class="ltx_para ltx_noindent" id="A5.p1">
+<p class="ltx_p">One observation one would make is that our coupling term resembles linearly combining the intermediate samples of the two models, so one may wonder why we do not simply get images that are a linear average of the two outputs. Indeed, when we use a deterministic sampler, like Euler Discrete Sampler that’s commonly used, this is the outcome that we encounter as we show in <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A4.F12" title="In Appendix D User study on IC-Light ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">12</span></a>. However, when using a stochastic sampler like DDPM where noise is injected at every timestep, the model needs to correct for the added noise. When we include our coupling term in the stochastic step, the model can naturally correct or reject parts of the guidance that steers it away from its training distribution. This is also the reason we make our coupling term to be correlated with the noise level, by scaling it with <math alttext="\sqrt{1-\alpha_{t}}" class="ltx_Math" display="inline" id="A5.p1.m1" intent=":literal"><semantics><msqrt><mrow><mn>1</mn><mo>−</mo><msub><mi>α</mi><mi>t</mi></msub></mrow></msqrt><annotation encoding="application/x-tex">\sqrt{1-\alpha_{t}}</annotation></semantics></math>, since at step <math alttext="t" class="ltx_Math" display="inline" id="A5.p1.m2" intent=":literal"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>, the model has the ability to correct for noise at that level, but steering the sample by a larger magnitude risks pulling the intermediate latents outside of the training distribution. Additionally, as intuitively understood about diffusion sampling, at the later time steps the structure of the outputs is already determined, so shifting the intermediate latents in a large direction can disrupt the sampling process.</p>
+</div>
+</section>
+<section class="ltx_appendix" id="A6">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix F </span>Additional T2MV Results</h2>
+<div class="ltx_para ltx_noindent" id="A6.p1">
+<p class="ltx_p">In <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A6.F13" title="In Appendix F Additional T2MV Results ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">13</span></a> and <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A6.F14" title="In Appendix F Additional T2MV Results ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">14</span></a>, we highlight additional results from coupling text-to-multi-view models along with text-to-image models.</p>
+</div>
+<figure class="ltx_figure" id="A6.F13"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_portrait" height="895" id="A6.F13.g1" src="x12.png" width="533"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 13: </span><span class="ltx_text ltx_font_bold">Additional MVDream T2MV coupling results.</span> Here we show additional results on the output of Text-to-Multiview MVDream when coupled with Text-to-Image SD2.1.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A6.F14"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="869" id="A6.F14.g1" src="x13.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 14: </span><span class="ltx_text ltx_font_bold">Additional MV-Adapter T2MV coupling results.</span> Here we show additional results on the output of Text-to-Multiview MV-Adapter when coupled with Text-to-Image SDXL.</figcaption>
+</figure>
+</section>
+<section class="ltx_appendix" id="A7">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix G </span>Applications with MV-Adapter</h2>
+<div class="ltx_para ltx_noindent" id="A7.p1">
+<p class="ltx_p">One of the limitations of MV-Adapter is that it can only generate fixed set of camera views, making its utility for editing limited. Nonetheless, we show that we can still use it by editing the outputs it produces by performing coupling with single-image editing models. In <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#A7.F15" title="In Appendix G Applications with MV-Adapter ‣ Coupled Diffusion Sampling for Training-free Multi-view Image Editing"><span class="ltx_text ltx_ref_tag">Fig.</span> <span class="ltx_text ltx_ref_tag">15</span></a>, we show an example of using MV-Adapter for stylization, and relighting.</p>
+</div>
+<figure class="ltx_figure" id="A7.F15"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="552" id="A7.F15.g1" src="x14.png" width="760"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 15: </span><span class="ltx_text ltx_font_bold">Multiview editing with MV-Adapter.</span> Here we show editing results with MV-Adapter to achieve stylization by combining it with Control-Net <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib52" title="">2023</a>)</cite> and relighting using IC-Light <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib53" title="">2025a</a>)</cite>.</figcaption>
+</figure>
+</section>
+<section class="ltx_appendix" id="A8">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix H </span>Outputs of InstructNeRF2NeRF</h2>
+<figure class="ltx_figure" id="A8.F16"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="302" id="A8.F16.g1" src="x15.png" width="761"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 16: </span><span class="ltx_text ltx_font_bold">InstructNeRF2NeRF outputs.</span> When running InstructNeRF2NeRF <cite class="ltx_cite ltx_citemacro_citep">(Haque et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14981v1#bib.bib14" title="">2023</a>)</cite> on our input views, we find that the editing training loop with InstructPix2Pix completely collapses.</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="A8.p1">
+<p class="ltx_p">When running InstructNeRF2NeRF on our input sequences used for stylization with the same number of frames as our method and other baselines (21 frames), we find that the radiance field completely collapses. This is likely due to NeRF’s inability to gradually handle inconsistency with less dense camera coverage.</p>
+</div>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 05:46:49 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

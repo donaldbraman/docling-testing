@@ -1,0 +1,970 @@
+UNMATCHED LINES FOR: michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources
+================================================================================
+Total unmatched: 138
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/138
+Best match score: 47.13%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this article is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/138
+Best match score: 48.72%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/138
+Best match score: 66.67%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+2 although the case turned on the statutory powers of federal bankruptcy courts, 3 it painfully illustrates how bankruptcy affects tort compensation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/138
+Best match score: 67.09%
+Word count: 53 words
+────────────────────────────────────────────────────────────────────────────────
+under the plan the bankruptcy court approved, 'if people experienced a potentially deadly addiction that could be linked to a purdue prescription, they may receive the minimum payout, $3,500-a paltry sum.' 4 cases like this underscore the self-evident proposition that the compensatory properties of tort law depend on the availability of compensatory resources.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/138
+Best match score: 78.43%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+'compensation of persons injured by wrongdoing is one of the generally accepted aims of tort law.' 5 compensation is a guiding concern of tort law, yet no one has rigorously analyzed whether substantive tort law should be affected by the scarcity of compensatory resources, and if so, how.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/138
+Best match score: 80.35%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this is because tort claims are general unsecured claims, which are subordinate to secured claims under state law and the united states bankruptcy code.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/138
+Best match score: 73.08%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+liability insurance' beyond its 'being a mere source of funding.' 6 in their view, a satisfactory theoretical account must 'recognize the centrality of liability insurance for the doctrinal evolution of tort and .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/138
+Best match score: 75.74%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+mentioning the availability of liability insurance as a factor in decisions about the proper scope of tort liability would conflict with this fiction.' 10
+
+────────────────────────────────────────────────────────────────────────────────
+Line 9/138
+Best match score: 82.52%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+weinrib, supra note 9, at 681-82 (observing that 'the courts' tailoring of liability rules to the operation of insurance would be regarded as bizarre' in canada, an approach which conforms to 'the conception of tort law that is prevalent in non-american common-law jurisdictions').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 10/138
+Best match score: 81.48%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+first, money is a poor substitute for bodily injury-there is not enough money to compensate for a lost life, and money does not perfectly replace broken bones or fully correct for the fundamental alteration of one's life.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 11/138
+Best match score: 69.05%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+13 debtor's prison-a prospect tort defendants faced in many states until the early twentieth century 14 -supplied a powerful normative reason for sharply limiting tort liability.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 12/138
+Best match score: 76.36%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+extensive liabilities for ordinary negligence did not justify a prison sentence; tort liability had to be proportional to the defendant's culpability.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 13/138
+Best match score: 80.69%
+Word count: 75 words
+────────────────────────────────────────────────────────────────────────────────
+the foundational need for all legal rules, according to karl llewellyn, plausibly stems from the demand for a neutral third party to mediate the conflicting interests of the parties in a dispute: 'i should indeed be tempted to argue that the differentiation of anything we can perceive as law begins with this.' 15 the conflicting interests at the heart of legal disputes is underscored by guido calabresi and douglas melamed's influential analysis of legal entitlements:
+
+────────────────────────────────────────────────────────────────────────────────
+Line 14/138
+Best match score: 75.00%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+absent such a decision, access to goods, services, and life itself will be decided on the basis of 'might makes right'-whoever is stronger or shrewder will win.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 15/138
+Best match score: 84.62%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+regardless of the underlying rationale for tort liability, any tort right necessarily prioritizes the right-holder's legally protected interest over a specified conflicting, subordinate interest of the dutybearer.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 16/138
+Best match score: 82.89%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+an absolute priority would justify negating these potentially conflicting (absolutely subordinate) liberty interests with a legal rule that prohibits driving anytime the activity would threaten injury to a pedestrianeven if the risk of injury were minuscule.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 17/138
+Best match score: 79.06%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+toprioritize among conflicting interests, a tort rule must first normatively distinguish them in a manner that justifies an interpersonal priority of one interest (such as security) over another (such as liberty).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 18/138
+Best match score: 82.98%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+for example, in a tort case involving an automobile driver who accidentally injured a pedestrian, the court must determine whether the pedestrian's interest in bodily security is prioritized over the driver's conflicting liberty interest.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 19/138
+Best match score: 84.21%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+thus, although '[t]ort liability of course depends on balancing competing interests,' to 'identify an interest deserving protection does not suffice to collect damages from anyone who causes injury to that interest .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 20/138
+Best match score: 66.89%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+is redressable in damages.' 21 relative rights grant legal protection to the conflicting interests of both the plaintiff and the defendant.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 21/138
+Best match score: 84.10%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+for example, courts could balance conflicting interpersonal interests in security and liberty by reference to an underlying principle of substantive equality that gives everyone an equal right to selfdetermination or autonomy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 22/138
+Best match score: 81.67%
+Word count: 61 words
+────────────────────────────────────────────────────────────────────────────────
+because it does not fully determine the answers to tort questions, the normative calculus of tort law gives shape to what cass sunstein calls 'incompletely theorized agreements' that enable judges to be 'clear on the result' for the case at hand 'without agreeing on the most general theory that accounts for it.' 26 these incompletely theorized agreements are based on intermediate
+
+────────────────────────────────────────────────────────────────────────────────
+Line 23/138
+Best match score: 84.02%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+different theories of justice disagree about 'which specific kind of equality is required by the more abstract idea of treating people as equals.' will kymlicka, contemporary political philosophy: an introduction 4 (2d ed.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 24/138
+Best match score: 83.89%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+27 as stephen smith explains, intermediate moral principles are 'more general than the particular rules that they are employed to justify,' while also being 'narrower than the foundational principle or principles that define comprehensive moral theories' for justifying tort liability.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 25/138
+Best match score: 80.71%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+28 intermediate moral principles of fairness and reasonableness are the normative medium through which courts specify how conflicting interpersonal interests are balanced, weighed, or mediated in the normative calculus of tort law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 26/138
+Best match score: 78.71%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+31 even within a tort system like the modern one that recognizes such a plurality of values, there is an identifiable normative calculus that structures substantive law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 27/138
+Best match score: 82.91%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+35 how, then, could the availability of compensatory resources be a normatively relevant factor for determining the duty a defendant in principle owed to the plaintiff right-holder?
+
+────────────────────────────────────────────────────────────────────────────────
+Line 28/138
+Best match score: 73.18%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+thus, to properly protect tort rights and enforce their correlative duties, '[j]udges must make their common-law decisions on grounds of principle, not policy.' 33
+
+────────────────────────────────────────────────────────────────────────────────
+Line 29/138
+Best match score: 73.68%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+describes a general right everyone is supposed to have.' 37 as a matter of formal equality, any principle for justifying a general right also applies with equal force to the correlative general duty.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 30/138
+Best match score: 78.09%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+entails an instrumentalist and legislative conception of law.'); see also zhong xing tan, the enigma of interpersonal justice in private law theory , 43 oxford j.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 31/138
+Best match score: 81.44%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+39 the underlying normative problem-the fair way to balance conflicting interpersonal interests in liberty and security-does not disappear when courts address the antecedent question of whether the defendant owed a duty of care.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 32/138
+Best match score: 82.20%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+41 by implication, an increase in the burden faced by the ordinary duty-bearer across the relevant category of cases makes it more difficult to justify the tort duty, whereas a decreased burden has the opposite effect, all else being equal.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 33/138
+Best match score: 80.72%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+2010) ('conduct is negligent if its disadvantages outweigh its advantages, while conduct is not negligent if its advantages outweigh its disadvantages.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 34/138
+Best match score: 83.57%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+the 'advantages' of the conduct relate to the burden of risk prevention that is avoided when the actor declines to incorporate some precaution.'); benjamin c.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 35/138
+Best match score: 76.68%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+a compensatory currency with these normative properties was utilized by ancient societies that existed prior to the emergence of centralized government, an era somewhat misleadingly called the 'state of nature.' 45 a close look at this currency shows why the compensatory ideal for bodily injury is conceptually sound.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 36/138
+Best match score: 67.77%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+the term 'primitive money' is 'the sort one encounters in places where there are no states or markets.' 46 but as the economic anthropologist david graeber explains:
+
+────────────────────────────────────────────────────────────────────────────────
+Line 37/138
+Best match score: 83.16%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+consider, for example, the available historical materials from medieval ireland which largely consist of 'a series of law codes' that 'endlessly and meticulously' specify the amount of compensation for various injuries.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 38/138
+Best match score: 79.03%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+52 'the key to the system was a notion of honor' whereby injury compensation, in principle, could be the full and perfect equivalent for the honor one would otherwise lose for having been harmed by another.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 39/138
+Best match score: 67.61%
+Word count: 46 words
+────────────────────────────────────────────────────────────────────────────────
+if he be slain, it is the blood of the kin that has been shed, and the kin is entitled to compensation or to vengeance.' 57 having killed someone from another clan, the injurer (or more accurately, the injurer's clan) could in principle fully compensate the
+
+────────────────────────────────────────────────────────────────────────────────
+Line 40/138
+Best match score: 67.56%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+when the debt is cancelled, that equality is restored and both parties can walk away and have nothing further to do with each other.' 60
+
+────────────────────────────────────────────────────────────────────────────────
+Line 41/138
+Best match score: 82.70%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+with corrective justice for reasons both of structure and of content.' 66 by relying on a normative ideal of full and perfect compensation, this formulation of corrective justice renders both deterrence and punishment irrelevant.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 42/138
+Best match score: 78.79%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+an aggressive attack instead merited a punitive response to protect the victim's honorthe 'eye for an eye.' punishment has long been tied to the inadequacy of compensatory damages.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 43/138
+Best match score: 78.11%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+71 on one account, social currency naturally fit this bill and evolved into the medium of exchange for trade between clans and other kinds of communities.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 44/138
+Best match score: 77.52%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+72 another account locates the origins of money in the early state, which issued coins and the like as the means for subjects to pay taxes or tributes in exchange for services.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 45/138
+Best match score: 78.34%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+73 according to the 'dominant model of the origins of law and the state,' the most important service the early state provided was to protect individuals and provide them with legal avenues for injury redress.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 46/138
+Best match score: 81.94%
+Word count: 44 words
+────────────────────────────────────────────────────────────────────────────────
+'what happens, for instance, when the same money once used to arrange marriages and settle affairs of honor can also be used to pay for the services of prostitutes?' 75 as the market economy developed and money became increasingly infused with the impersonal mo-
+
+────────────────────────────────────────────────────────────────────────────────
+Line 47/138
+Best match score: 75.22%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+76 money today is not the kind of social currency that can readily readjust social relations to obtain an equitable balance between the interacting parties.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 48/138
+Best match score: 81.47%
+Word count: 108 words
+────────────────────────────────────────────────────────────────────────────────
+for example, in discussing early germanic cultures' compensatory practices involving the use of ordinary money, james whitman refers to the way in which a compensatory 'payment could also belong, in a non-commercial way, to an economy of honor and shame.' 81 here, whitman is summarizing the historical conclusions of the german scholar wilhelm eduard wilda, who observed that 'all germanic legal systems' refer to '[c]ompensatory 'amends,' ' which means ' 'correction,' the making good of a wrong that has been done through payment of money or money's worth.' 82 because the compensatory payment of money was infused with this normative meaning, it was 'an admission that the wrong
+
+────────────────────────────────────────────────────────────────────────────────
+Line 49/138
+Best match score: 74.72%
+Word count: 63 words
+────────────────────────────────────────────────────────────────────────────────
+this normative calculus changed in cases of accidental harm, justifying a compensatory remedy-'the value of an eye for an eye.' 79 compensation in cases of accidental harm would restore equitable balance-the injurer did not benefit at the expense of the victim's person or property-while deterring others from engaging in such risky conduct by sending the message: don't expect to benefit at my expense!
+
+────────────────────────────────────────────────────────────────────────────────
+Line 50/138
+Best match score: 79.33%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+had been committed, and to that degree a humiliation on the part of the payor, and accordingly to some degree a reestablishment of honor for the injured party.' 83
+
+────────────────────────────────────────────────────────────────────────────────
+Line 51/138
+Best match score: 75.90%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+these practices subsequently shaped the early common law in medieval england, which 'simply codified existing custom' in the preceding state of nature.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 52/138
+Best match score: 83.28%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+these developments have led to the now conventional understanding that the early common law 'approach[ed] the field of tort through the field of crime.' 87
+
+────────────────────────────────────────────────────────────────────────────────
+Line 53/138
+Best match score: 77.22%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+a tort plaintiff's pain and suffering could be fully and perfectly compensated by the amount of money that would restore their welfare to the level prior to injury.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 54/138
+Best match score: 83.39%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+91 within a nonwelfarist tort system, tort damages that fully restore the plaintiff's lost welfare do not inevitably attain perfect compensation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 55/138
+Best match score: 81.88%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+these constraints are harms.' 92 ordinary money's capacity to enhance welfare does not perfectly satisfy the compensatory demands of a pluralist tort system that is also concerned about giving individuals a fair opportunity to lead a life of their own choosing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 56/138
+Best match score: 78.15%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+this distinction explains why the damages rule only requires 'some pecuniary return' for nonmonetary injuries rather than the amount that would fully restore the plaintiff's welfare to the pre-injury state.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 57/138
+Best match score: 76.72%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+'some pecuniary return' can be adequately compensatory in a normative sense even if its market value does not fully restore the plaintiff's welfare to the pre-injury state.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 58/138
+Best match score: 73.89%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+these normative characterizations of the compensatory damages remedy assume that money's commercial meaning can be adequately distinguished from its social meaning.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 59/138
+Best match score: 76.83%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+the claim that tort damages are adequately compensatory is bankrupted by the common-law rule that barred recovery in the event of the right-holder's death.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 60/138
+Best match score: 83.23%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+zelizer, supra note 49, at 200 (quoting simmel, supra note 49, at 444-45) ('to classical theorists the 'mathematical character' of money filled social life with 'measuring and weighing,' with an 'ideal of numerical calculability,' which necessarily blunted personal, social, and moral distinctiveness.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 61/138
+Best match score: 78.79%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+a process which is still felt to be a substitute for private war [the blood feud] may seem incapable of being continued on behalf of or against a dead man's estate .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 62/138
+Best match score: 72.30%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+1, 18-33 (2005) (finding that the decedent's loss of life's pleasures is not compensable by the compensatory damages remedy in the vast majority of states).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 63/138
+Best match score: 83.12%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+103 criminal liability does not attach to all accidents causing premature death, and in these cases, tort law does not compensate decedents for their loss of life's pleasures.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 64/138
+Best match score: 77.68%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+in that event, imperfect injury compensation via the damages remedy for wrongful death would influence the negligence rule's substantive formulation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 65/138
+Best match score: 67.18%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+debt bondage continues to be shockingly common around the world today, 111 although matters have improved considerably for insolvent debtors in the united states and elsewhere.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 66/138
+Best match score: 71.09%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+likewise, '[b]ankrupts in england were treated as criminals by early statutes.' 108 having 'existed in england for three hundred years,' imprisonment for debt was an 'unquestioned piece of the cultural baggage' imported into the american colonies.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 67/138
+Best match score: 72.80%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+one's failure to pay off a commercial debt is normatively different from the failure to pay off a moral debt.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 68/138
+Best match score: 77.60%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+suits for alimony, child support, and wrongful behavior.' 114 the exceptional treatment of wrongful behavior giving rise to tort liability persisted in many states into the early twentieth century.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 69/138
+Best match score: 81.90%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+the social currency perfectly substitutes for the victim's lost bodily integrity in the relevant normative sense, thereby erasing any inherent normative difference between the victim's physical-security interest and the injurer's conflicting liberty interest.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 70/138
+Best match score: 74.39%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+, dworkin, supra note 24, at 148-49 ('[a]ny competent baseline liberty/constraint system would include a principle of security: this would mandate constraints on liberty
+
+────────────────────────────────────────────────────────────────────────────────
+Line 71/138
+Best match score: 75.79%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+the prospect of debtor's prison made it even more difficult for tort law to prioritize a right-holder's interest in physical security over the duty-bearer's conflicting liberty interest.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 72/138
+Best match score: 72.15%
+Word count: 85 words
+────────────────────────────────────────────────────────────────────────────────
+in the harsh, uncompromising words of an english judge of the sixteenth century, a debtor in prison 'ought to live of his own, and neither the plaintiff nor the sheriff is bound to give him meat or drink, no more than if one distrains cattle, and puts them in a pound.' if the debtor cannot feed himself, necessary to provide people with enough physical security and enough control over their own property to allow them to make and carry out plans and projects.'); gregory c.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 73/138
+Best match score: 72.24%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+'the prevailing view of american tort history regards nineteenth-century tort doctrine as deliberately structured to accommodate the economic interests of emerging industry.' 124 the associated claim that courts limited liability to 'subsidize' the newly industrializing economy is hard to square with available evidence.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 74/138
+Best match score: 77.03%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+the lack of social wealth in this era largely eliminated the normative difference between one's security interest and another's conflicting liberty interest chiefly concerned about survival.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 75/138
+Best match score: 79.62%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+123 unable to normatively distinguish the injury victim's security interest from the injurer's associated liberty interest, tort law had to let the loss lie where it fell-on the injured party.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 76/138
+Best match score: 80.88%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+life expectancy at birth significantly improves with a 'sharp increase' in gdp per capita, underscoring the relation between survival and wealth.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 77/138
+Best match score: 79.90%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+rather than being largely concerned about survival and avoiding debtor's prison, the ordinary duty-bearer now has the resources to consume modern life's conveniences and comforts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 78/138
+Best match score: 66.16%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+that a remedy which prevents a threatened wrong is in its essential nature better than a remedy which permits the wrong to be done, and then attempts to pay for it.' 133 this equitable principle, though conventionally framed in remedial terms, has behavioral implications for substantive tort law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 79/138
+Best match score: 76.47%
+Word count: 53 words
+────────────────────────────────────────────────────────────────────────────────
+142 but to account for how scarce compensatory resources result in irreparable injuries like premature death, tort law must legally evaluate these injuries within the standard of care by their social value and not their associproduct causes personal injury or other property damage, the manufacturer may yet be subject to liability in tort.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 80/138
+Best match score: 77.65%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+to be more precise, 'deterrence is not merely influencing conduct, but doing so in a particular way: by creating a prudential reason' not to engage in the conduct.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 81/138
+Best match score: 70.45%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+as ernest weinrib puts it, '[f]or corrective justice, deterrence plays no role in defining the nature of the wrong.' 148
+
+────────────────────────────────────────────────────────────────────────────────
+Line 82/138
+Best match score: 67.60%
+Word count: 71 words
+────────────────────────────────────────────────────────────────────────────────
+so interpreted, 'tort law 'corrects' the injusticerestores the pre-existing equilibrium-by ordering that the full value of the loss be transferred to the responsible party via a damage payment equal to the value of the loss.' 144 by assuming that compensatory damages are 'equal to the full value of the loss,' these accounts utterly ignore the problem of irreparable injuries and the fundamental importance of preventing those harms in the first instance.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 83/138
+Best match score: 79.88%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+a defendant who consciously disregards or intentionally violates the plaintiff's tort right is subject to punishment under both tort law and criminal law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 84/138
+Best match score: 72.73%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+151 byimplication, the retributive rationale unambiguously applies to cases in which the defendant expects to incur liability and pay compensatory damages.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 85/138
+Best match score: 74.55%
+Word count: 62 words
+────────────────────────────────────────────────────────────────────────────────
+'[t]he legal culture lacks a full normative account of the relationship between retributive goals and punitive damages.' 153 the defendant's bad-faith rejection of the primary obligation to exercise reasonable care, even when coupled with the payment of compensatory damages for the breach, is reprehensible only because the compensatory damages remedy does not adequately protect the tort right in cases of irreparable injury.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 86/138
+Best match score: 76.33%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+these kinds of retributive problems create a complementary role for criminal liability, explaining why 'punitive or exemplary damages have been assessed .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 87/138
+Best match score: 68.95%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+due to its primary emphasis on preventing the irreparable injury of physical harm, the duty with compensatory damages, the defendant is prevented from making the 'coldblooded calculation' that it is more profitable to pay claims than correct a defect.'); fischer v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 88/138
+Best match score: 77.14%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+to do so, tort law must prioritize the right-holder's interest in physical security (the protected object) over the duty-bearer's compensatory obligation and the associated burden on liberty.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 89/138
+Best match score: 84.78%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+161 in the early twentieth century, this deterrence reasoning helped justify workers' compensation statutes that displace negligence liability with a regime subjecting employers to no-fault or strict liability for work-related injuries.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 90/138
+Best match score: 78.19%
+Word count: 53 words
+────────────────────────────────────────────────────────────────────────────────
+as oliver wendell holmes explained, in these cases 'the safest way to secure care is to throw the risk upon the person who decides what precautions shall be taken.' 159 rather than have the court make the safety decision based on the evidence a plaintiff presents, strict liability 'throws' that decision on duty-bearers.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 91/138
+Best match score: 76.78%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+but by making deterrence and conductbased liability rules so vitally important, the problem of scarce compensatory resources masks the extent to which tort law is based on a compensatory norm.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 92/138
+Best match score: 84.06%
+Word count: 55 words
+────────────────────────────────────────────────────────────────────────────────
+this compensatory norm of strict liability was first embodied in the early common-law rule that 'a man acts at his peril,' which, according to holmes, 'seems' to have been 'adopted by some of the greatest common-law authorities.' 167 the 'peril' of risky conduct resides in the obligation to compensate the ensuing injuries, regardless of fault.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 93/138
+Best match score: 77.23%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+the common law limits liability to foreseeable harms; liability does not extend to all the causally related harms flowing from one's acts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 94/138
+Best match score: 75.16%
+Word count: 49 words
+────────────────────────────────────────────────────────────────────────────────
+rights up to the point at which enforcementceases to be in the interests of those the rights are supposed to protect.' 171 tort law cannot justifiably enforce a compensatory right when doing so would ultimately work to the net detriment of the right-holders who are supposed to be compensated.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 95/138
+Best match score: 72.61%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+was his decision to organize tort law around the principle of liability for negligence [which] gave torts a conceptual and doctrinal center.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 96/138
+Best match score: 75.44%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+was never intended to make the manufacturer or distributor of a product its insurer.' 175 strict products liability instead fairly protects consumer right-holders by obligating commercial sellers to provide reasonably safe, non-defective products, with the compensatory damages remedy enforcing that obligation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 97/138
+Best match score: 75.94%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+state.' 177 in justifying this compensatory form of strict liability, the restatement (third) of torts observes that this 'position resonates deeply in public attitudes .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 98/138
+Best match score: 82.35%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+a situation, it can be said that the defendant is deliberately engaging in risk-creating activity for the sake of the defendant's own advantage.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 99/138
+Best match score: 74.20%
+Word count: 69 words
+────────────────────────────────────────────────────────────────────────────────
+however, '[t]he fact of insurance generally has no probative value in proving the two issues prevalent in every negligence case-negligence and damages.' 187 consequently, there is a 'firmly established' evidentiary rule which 'prohibits disclosure at the trial that the defendant is insured against liability.' 188 the irrelevance of liability insurance for establishing liability may explain why there is a 'glaring gap' in tort theory involving 'its failure to take
+
+────────────────────────────────────────────────────────────────────────────────
+Line 100/138
+Best match score: 79.18%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+due to the negligence rule's unrealistic behavioral demands-always pay attention, never make mistakes-the ordinary duty-bearer is simply unable to exercise reasonable care at all times in all places.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 101/138
+Best match score: 83.65%
+Word count: 44 words
+────────────────────────────────────────────────────────────────────────────────
+but what kind of money it is and whose money also matter greatly.' 197 consistent with these findings, tom baker interviewed personalinjury lawyers in connecticut and found that they often distinguish 'insurance money' from 'blood money' that defendants pay 'out of their own pockets.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 102/138
+Best match score: 73.23%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+as their term reflects, blood money hurts defendants in a way that money paid on behalf of a defendant by a liability insurance company cannot.' 198
+
+────────────────────────────────────────────────────────────────────────────────
+Line 103/138
+Best match score: 70.00%
+Word count: 74 words
+────────────────────────────────────────────────────────────────────────────────
+as was true for the customary practices that first informed the early common law, an injurer's failure to compensate the victim's injury can be a culpable form of disrespect or mistreatment, regardless of whether the injury was otherwise due to faulty behavior-the 'value of an eye for an eye.' 202 over time, this compensatory practice evolved into the important rules comprising modern tort law, including the rule of strict liability for abnormally dangerous activities.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 104/138
+Best match score: 81.42%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+as these questions suggest, liability insurance fits awkwardly-at bestwithin a tort system designed to deliver interpersonal redress for prohibited forms of culpable mistreatment.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 105/138
+Best match score: 71.95%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+moreover, the extent to which tort damages can effectively function as 'blood money' has been largely eliminated by modern bankruptcy law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 106/138
+Best match score: 77.03%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+203 the supreme court recently ended the practice of extending such protection to third parties who have not declared bankruptcy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 107/138
+Best match score: 78.53%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+necessarily desires to compensate the damage,' for to 'offer no atonement, is regarded as the highest brutality'); emily sherwin, interpreting tort law , 39 fla.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 108/138
+Best match score: 84.58%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+in either case, what triggers resentment is not the injurer's initial conduct toward the victim (which does not invite blame), but the injurer's failure to suffer its consequences.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 109/138
+Best match score: 83.23%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+bankruptcy law is grounded in the united states constitution, which vests congress with the authority to establish 'uniform laws on the subject of bankruptcies.' 210 although there are only a 'few aspects of commercial life .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 110/138
+Best match score: 76.60%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+of bankruptcy' because 'failure was seen as a big problem.' 211 this big problem stems from social practices originating in the state of nature that deemed insolvency to be the debtor's moral failure, meriting bondage and imprisonment.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 111/138
+Best match score: 74.07%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+212 at the founding, this punitive practice was at odds with the ethos of market competition for which the risk of commercial failure is an ordinary cost of doing business.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 112/138
+Best match score: 78.62%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+it was not decisively resolved until congress enacted the bankruptcy act of 1898, 213 which 'ushered in the modern era of liberal debtor treatment in united states bankruptcy laws.' 214
+
+────────────────────────────────────────────────────────────────────────────────
+Line 113/138
+Best match score: 84.55%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+during the era when insolvent tort defendants faced imprisonment, any formulation of a tort duty that would involve a considerable risk of insolvency necessarily implicated debtor's prison-a severe deprivation of liberty for those subject to the tort duty.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 114/138
+Best match score: 73.28%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+these bankruptcy reforms combined with liability insurance's increased availability significantly reduced the burden of a tort duty throughout the twentieth century.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 115/138
+Best match score: 77.40%
+Word count: 47 words
+────────────────────────────────────────────────────────────────────────────────
+'the reasons for this inhibition have not traditionally been clear,' 220 but once these claims are situated in a world of scarce compensatory resources, the rationale for limiting liability becomes more apparent: the ordinary dutybearer does not have the financial resources to fully compensate all the harms
+
+────────────────────────────────────────────────────────────────────────────────
+Line 116/138
+Best match score: 75.62%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+222 by contrast, as a leading treatise observes, 'no equivalent proposition ever has been adopted with respect to emotional harm.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 117/138
+Best match score: 77.84%
+Word count: 58 words
+────────────────────────────────────────────────────────────────────────────────
+nor, given the ubiquity of emotional harms, is it likely to be.' 223 similarly, the restatement (third) of torts recognizes that '[a]n actor has no general duty to avoid the unintentional infliction of economic loss on another.' 224 negligence liability is ordinarily limited to cases of physical harma limitation of liability embodied in the physical-harm or physical-injury requirement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 118/138
+Best match score: 73.30%
+Word count: 59 words
+────────────────────────────────────────────────────────────────────────────────
+numerous rationales for this liability-limiting doctrine have been proffered over the years, yet as courts recognize in cases adopting an exception, these reasons for 'denying liability are no longer tenable, and it is questionable if they ever were.' 225 courts nevertheless invoke these same rationales in deciding that liability for economic losses or stand-alone emotional harms would be excessive.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 119/138
+Best match score: 84.48%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+in that event, liability would be excessive for exhausting the negligent defendant's financial resources and preventing the physically harmed victims from being fully compensated.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 120/138
+Best match score: 76.51%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+see lloyd dixon, geoffrey mcgovern & amy coombe, rand corp., asbestos bankruptcy trusts: an overview of trust structure and activity with detailed reports on the largest trusts 21, 38 fig.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 121/138
+Best match score: 80.24%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+957, 959 (1982) (arguing that tangible forms of property 'are part of the way we constitute ourselves as continuing personal entities in the world'); o.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 122/138
+Best match score: 68.79%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+to test whether the physical-harm requirement implements such a 'worst goes first' equitable maxim, we can consider its established exceptions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 123/138
+Best match score: 77.48%
+Word count: 65 words
+────────────────────────────────────────────────────────────────────────────────
+in applying the physical injury rule, it is important to consider why the rule exists and whether these purposes are at work in this case.' 242 consequently, when the purposes or rationales for the physical-harm requirement 'are weak or absent,' the restatement (third) of torts observes that courts are willing to 'recognize duties of care' in cases of pure economic loss and stand-alone emotional harm.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 124/138
+Best match score: 79.95%
+Word count: 50 words
+────────────────────────────────────────────────────────────────────────────────
+in most jurisdictions, the ordinary duty now permits recovery for standalone emotional distress when the negligent act 'places the other in danger of immediate bodily harm and the emotional harm results from the danger.' 246 this particular duty encompasses everyone in the so-called 'zone of danger,' including physically harmed victims.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 125/138
+Best match score: 82.44%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+in a recent state-of-the-art opinion dismissing plaintiffs' tort claims for this type of economic loss, the california supreme court discussed a prior case in which it had explained why the tort duty does not encompass these foreseeable injuries:
+
+────────────────────────────────────────────────────────────────────────────────
+Line 126/138
+Best match score: 82.32%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+based on concerns about limitless liability and unending litigation, as well as on long-standing legal consensus, we considered that prospect 'doubtful.' 251
+
+────────────────────────────────────────────────────────────────────────────────
+Line 127/138
+Best match score: 62.77%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+in an asbestos case, the supreme court of the united states recognized this equitable problem, 254 and a few other courts have followed suit in the context of a mass tort.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 128/138
+Best match score: 83.64%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+2001) (invoking this equitable concern for a case brought by the plaintiff on 'behalf of himself and a putative class of persons similarly situated, .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 129/138
+Best match score: 75.07%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+269, 290 (1991) ('the actuality or imminent probability of bankruptcy has increasingly come to dominate most mass tort, or at least mega-mass tort, litigation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 130/138
+Best match score: 75.07%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+see generally geistfeld, supra note 221 (arguing that the equitable maxim of the 'worst goes first' does not defensibly limit the medical-monitoring cause of action).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 131/138
+Best match score: 84.57%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+the 'worst goes first' equitable rationale for the physical-harm requirement might seem to be an implausibly blunt legal instrument for managing the problem of insolvency.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 132/138
+Best match score: 77.00%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+perhaps the appropriate set of procedural rules would provide a much more sensible way to fairly distribute a defendant's limited pool of assets across multiple tort claimants.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 133/138
+Best match score: 84.57%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+259 such a procedural solution would make limiting the substantive duty unnecessary to give the physically harmed victims a reasonable opportunity to obtain full recovery.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 134/138
+Best match score: 81.75%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+to equitably distribute an insolvent defendant's assets across all these claims, a court would have to reduce the defendant's debt owed to some or all the individual plaintiffs.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 135/138
+Best match score: 75.74%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+have the power to commandeer both state and federal litigants into a single forum and halt all other civil litigation, no matter what court it is in.' 263
+
+────────────────────────────────────────────────────────────────────────────────
+Line 136/138
+Best match score: 76.74%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+within the bankruptcy code, 'a significant part of its distributional scheme is oriented toward establishing priorities among creditors.' 264 secured creditors are prioritized over unsecured creditors, and all tort claimants are lumped together as unsecured creditors.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 137/138
+Best match score: 74.64%
+Word count: 39 words
+────────────────────────────────────────────────────────────────────────────────
+such an action is an essential characteristic of every true tort.' 266 the tort remedy depends on the scarce resource of money, yet no one has comprehensively analyzed how the associated scarcity of compensatory resources affects substantive tort law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 138/138
+Best match score: 78.72%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+aside from this article, to my knowledge, the only other extended analysis of this question asks how courts should formulate tort rules in an 'age of austerity.' 267 an interesting question for sure.

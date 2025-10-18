@@ -1,0 +1,1047 @@
+UNMATCHED LINES FOR: michigan_law_review_law_enforcement_privilege
+================================================================================
+Total unmatched: 149
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/149
+Best match score: 47.77%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this article is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/149
+Best match score: 48.08%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/149
+Best match score: 79.14%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+it risks perpetuating unconstitutional conduct, enabling wrongful convictions, and rendering fourth amendment, sixth amendment, brady , and statutory discovery laws moot.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/149
+Best match score: 83.87%
+Word count: 45 words
+────────────────────────────────────────────────────────────────────────────────
+5 though not always invoked and not always upheld, the privilege has been cited in over eleven hundred federal opinions in the past forty years and has almost certainly successfully concealed police conduct in many more discovery disputes that did not culminate in written opinions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/149
+Best match score: 76.19%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+this approach offers an array of substantive and procedural benefits 7 and finds helpful precedents in other privilege doctrines, trade secret law, and secrecy scholarship.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/149
+Best match score: 76.77%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+10 protests following george floyd's murder by police led to, among other achievements, increased public access to police misconduct records.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/149
+Best match score: 80.69%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+3, 2021) https://www.nytimes.com/2021/11/03/business/nso-group-spyware-blacklist.html [perma.cc/pn44-azjd]; commerce adds nso group and other foreign companies to entity list for malicious cyber activities , u.s.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/149
+Best match score: 77.94%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+13 this oversight is especially concerning given the high stakes of privilege law for both police accountability and the accurate resolution of criminal cases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 9/149
+Best match score: 72.01%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+14 by impeding judicial review of these methods, 15 the law enforcement privilege risks perpetuating unconstitutional conduct, enabling wrongful convictions, and rendering fourth amendment, 16 sixth amendment, brady , 17 and statutory discovery laws moot.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 10/149
+Best match score: 74.22%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+moreover, law enforcement officials can abuse the secrecy power if they overclaim the privilege or lie about their investigative methods, 18 whether to conceal mistakes and wrongdoing or simply to shield methods on which they rely from adversarial scrutiny and judicial review.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 11/149
+Best match score: 80.90%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+on broad societal and democratic harms of secret surveillance programs that are difficult for courts to review, see amna akbar, policing 'radicalization' , 3 u.c.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 12/149
+Best match score: 64.43%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+22 police officers routinely used these surveillance devices without a warrant, 23 made misleading omissions in warrant affidavits and pen register applications, 24 lied about the technology in probable cause hearings, 25 and refused to answer questions about the technology in courtroom testimony.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 13/149
+Best match score: 65.88%
+Word count: 44 words
+────────────────────────────────────────────────────────────────────────────────
+27 contracts for the sale of these devices required police purchasers to withhold information about how the technology works, including 'in response to court ordered disclosure.' 28 contractual promises to disobey court-ordered disclosures are-or at least should be-unenforceable as a matter of contract law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 14/149
+Best match score: 79.17%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+the power that gave the stingray's contractual gag provision legal weight, even in the face of a contrary court order, was the law enforcement privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 15/149
+Best match score: 80.12%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+whenthe secrecy was finally exposed (extraordinarily, by a pro se criminal defendant who spent years in prison researching the police department that
+
+────────────────────────────────────────────────────────────────────────────────
+Line 16/149
+Best match score: 62.03%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+33 legal scholars lambasted this 'unacceptable secrecy' 34 as an illustration that 'far too much of policing lives in a dark hole of ignorance.' 35 multiple courts held that the fourth amendment requires police to obtain a warrant before using a stingray.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 17/149
+Best match score: 69.03%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+for criticisms in the national press, see ellen nakashima, littleknown surveillance tool raises concerns by judges, privacy activists , wash.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 18/149
+Best match score: 74.84%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+of homeland sec., pol'y directive 047-02, department policy regarding the use of cell-site simulator technology 4 (2015); press release, off.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 19/149
+Best match score: 83.82%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+38 most recently, a report by the department of homeland security office of inspector general revealed that, despite these reform efforts, the secret service and immigration and customs enforcement still did not always comply with the statutes and policies regulating stingray use.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 20/149
+Best match score: 71.32%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+pirosko 43 -a sixth circuit opinion that has been cited over four hundred times 44 and characterized by one federal court as
+
+────────────────────────────────────────────────────────────────────────────────
+Line 21/149
+Best match score: 74.87%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+of inspector gen., dep't of homeland sec., oig-23-17, secret service and ice did not always adhere to statute and policies governing use of cell-site simulators (redacted) 6 (2023).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 22/149
+Best match score: 60.61%
+Word count: 45 words
+────────────────────────────────────────────────────────────────────────────────
+spawning a 'line of cases' that deny criminal defense teams 'access to confidential government investigative software' 45 -the defense sought to test a program's 'reliability and capabilities,' 46 both to support a suppression motion and to contest the accuracy of the government's evidence of guilt.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 23/149
+Best match score: 84.23%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+clements , a federal district court denied a criminal defendant access to an executable copy of a surveillance software program for testing after the government opposed the defendant's discovery motion by asserting the law enforcement privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 24/149
+Best match score: 83.81%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+one such fbi hacking tool, which deanonymized computers visiting websites devoted to child sexual abuse material, was leaked to reddit and, 'within twelve hours,' the vulnerability that it exploited was patched, rendering the tool useless.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 25/149
+Best match score: 81.29%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+62 having no privilege protections for those types of investigative methods could effectively prevent law enforcement from using them at all.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 26/149
+Best match score: 67.33%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+65 indeed, judges sometimes just take police officers at their word and decline to look at the privileged information to check each claim.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 27/149
+Best match score: 70.34%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+67 even important sub-issues have received sustained scholarly attention, such as precisely how much deference judges should afford to the government's national security claims 68 and whether public leaks of information vitiate the state secrets privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 28/149
+Best match score: 82.29%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+serv., r47081, the state secrets privilege: national security informationin civil litigation 13, 19 (2022); anthony john trenga, what judges say and do in deciding national security cases: the example of the state secrets privilege , harv.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 29/149
+Best match score: 67.54%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+more broadly, in developing this proposal, this article articulates a general theory of confidentiality's role in privilege law as a whole.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 30/149
+Best match score: 82.29%
+Word count: 39 words
+────────────────────────────────────────────────────────────────────────────────
+75 in a recent report exposing it, the united states department of justice described how law enforcement maintained a vast, secretive system 'to track, manage, and reward' the informants, 76 while concealing exculpatory information about them from the defendants
+
+────────────────────────────────────────────────────────────────────────────────
+Line 31/149
+Best match score: 80.76%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+alternately, they can conceal their methods through 'parallel construction,' a constitutionally suspect tactic of conducting a second, transparent investigation to rediscover evidence in a judicially palatable form.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 32/149
+Best match score: 72.46%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+80 state courts have done so less than one hundred times, 81 but many state courts protect similar information using alternate privilege names, such as the 'official information privilege' 82 or by analogy to the confidential informant privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 33/149
+Best match score: 82.11%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+9, 2013) (applying a california state evidence code provision that 'provides a privilege against public disclosure of 'official information.' '); people v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 34/149
+Best match score: 53.11%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+pirosko has been cited in at least eighty-nine criminal cases, 84 similar internet investigative software programs have been cited in at least sixty-four criminal cases, 85 and password-cracking data extraction tools that also trigger law enforcement privilege claims 86 have been cited in over six hundred criminal cases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 35/149
+Best match score: 80.39%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+87 these numbers almost certainly vastly understate the number of times the privilege has successfully concealed police conduct in discovery disputes that did not lead to written opinions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 36/149
+Best match score: 68.87%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+90 they may seek to argue that the outputs are biased based on race or other constitutionally protected characteristics, 91 or are otherwise insufficiently reliable to establish probable cause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 37/149
+Best match score: 67.07%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+94 in the context of facial recognition software in particular, defendants may seek to argue that use of the software constituted an unreliable 95 or unduly suggestive 96 identification procedure in violation of due process.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 38/149
+Best match score: 83.58%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+police may rely on the outputs of that software to establish probable cause to obtain a warrant and then use the warrant to conduct a physical search of a suspect's home and computer.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 39/149
+Best match score: 83.92%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+103 concern that defense counsel might undertake a graymail strategy seeking access to classified information led congress to enact the classified information procedures act (cipa).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 40/149
+Best match score: 66.67%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+110 in contrast, defendants' compulsory process rights are generally weaker pretrial 111 -a consequential distinction given that over ninety percent of criminal defendants plead guilty pretrial.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 41/149
+Best match score: 83.44%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+the baseline criminal procedure rules do so in part by placing strict limits on defendants' affirmative rights to compel access to information.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 42/149
+Best match score: 78.87%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+criminal discovery rules require defendants to show that any documents or data they seek from the government are 'material to preparing the defense,' 106 meaning the information has 'more than .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 43/149
+Best match score: 83.55%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+these heightened protections impose wellrecognized costs on the accuracy and fairness of adjudicatory outcomes because they necessarily suppress relevant evidence from the opposing party, judge, and jury alike.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 44/149
+Best match score: 80.88%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+in the supreme court's oft-repeated words, privileges 'are in derogation of the search for truth.' 115 privilege law attempts to balance those costs against the benefits that privileges supposedly provide for social policies that are extrinsic to the truth-seeking function of the courts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 45/149
+Best match score: 83.39%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+117 if everyone knew the location of secret serial numbers on vehicles, it would be easier for people stealing cars to tamper with that evidence.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 46/149
+Best match score: 70.82%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+118 if everyone knew the range and location of an audio bug, it would be easier for people to go talk somewhere else.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 47/149
+Best match score: 71.47%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+125 in 2000, the department of justice admitted to a series of 'misstatements and omissions of material facts' in applications for fisa warrants.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 48/149
+Best match score: 82.37%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+126 in 1997, montgomery police were found to have falsified the identity of informants and 'recorded informant money as being transferred to non-existent informants, presumably pocketing the money themselves.' 127 in 1989, boston police admitted to falsifying a nonexistent informant.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 49/149
+Best match score: 60.76%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+they might overclaim the privilege due to a general culture of secrecy 123 or out of an institutional interest in avoiding adversarial scrutiny.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 50/149
+Best match score: 81.71%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+fourteen heavily armed chicago police officers broke into an apartment to assassinate black panther leader fred hampton, 129 they used a warrant based on a perjured affidavit about a confidential informant who did not exist.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 51/149
+Best match score: 75.84%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+budziak , 136 one of the rare federal appellate opinions rejecting a law enforcement privilege claim for information about an internet monitoring software system.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 52/149
+Best match score: 76.33%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+138 criminal defendants seeking access to information about internet surveillance, remote computer access, and government hacking tools frequently rely on
+
+────────────────────────────────────────────────────────────────────────────────
+Line 53/149
+Best match score: 71.48%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+for instance, courts have declined to categorically refute claims that the privilege shields the type of batteries used in an audio recording device, 131 or 'the charts, graphs, and raw data' generated during a polygraph examination.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 54/149
+Best match score: 80.66%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+jonathan manes has argued that courts evaluating law enforcement privilege claims 'often require little if any demonstration that disclosure of the information sought would create a significant risk of circumvention.' id.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 55/149
+Best match score: 82.32%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+140 despite the centrality of the case, courts and commentators have overlooked key facts in budziak that illustrate why it is so harmful when judges rubber stamp privilege claims.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 56/149
+Best match score: 78.29%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+149 at this point, the prosecution revealed that the software was not actually created 'by the fbi,' 150 but rather by a private
+
+────────────────────────────────────────────────────────────────────────────────
+Line 57/149
+Best match score: 68.25%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+141 the defense sought access to an executable copy, technical specifications, and documentation for the software 142 for purposes of a fourth amendment suppression motion.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 58/149
+Best match score: 63.38%
+Word count: 50 words
+────────────────────────────────────────────────────────────────────────────────
+143 the prosecution asserted the law enforcement privilege, arguing that the software was 'created by the fbi and used exclusively for law enforcement purposes,' 144 and that disclosure 'would reveal confidential features of the software' 145 that would help criminal actors 'to frustrate the fbi's ability to detect them .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 59/149
+Best match score: 77.32%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+[and] jeopardize ongoing and future investigations.' 146 nonetheless, the ninth circuit held that the defendant was entitled to discover the information, 147 and, on remand, the district court ordered disclosure not merely of the executable software but also of the program's source code, subject to a protective order.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 60/149
+Best match score: 84.70%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+in budziak , the ninth circuit reasoned that 'criminal defendants should not have to rely solely on the government's word that .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 61/149
+Best match score: 80.89%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+151 moreover, the contractor's employees had since dispersed, and the fbi did not know whether any of them possessed copies of the information.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 62/149
+Best match score: 83.83%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+152 the prosecution's inability to comply with the court's disclosure order ultimately led to a dismissal of criminal charges in the case.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 63/149
+Best match score: 76.44%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+raising the stakes further still, new technologiesfrom taser-equipped persistent surveillance drones to social media monitoring software, facial recognition algorithms, and the pervasive use of license plate readers 154 -threaten to entrench and automate the harms of unequitable and unaccountable policing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 64/149
+Best match score: 68.75%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+government investigative software' 155 will no doubt influence the terms of secrecy for a far broader array of police technologies.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 65/149
+Best match score: 70.77%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+if yes, then the second step requires balancing law enforcement's interest in secrecy against the defendant's interest in accessing the information.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 66/149
+Best match score: 63.20%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+157 the supreme court has never spoken to the contours of the law enforcement privilege, or even to its existence.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 67/149
+Best match score: 80.72%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+as with all evidentiary privileges, there is a separate and distinct conflict between secrecy interests and the public's right of access to the courts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 68/149
+Best match score: 80.24%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+168 for instance, to overcome the privilege at the balancing stage, defendants may have to show that information is not merely relevant-the baseline requirement for discovery and subpoenas 169 -but also necessary to their defense.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 69/149
+Best match score: 69.32%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+circuits have adopted a ten-factor balancing test for weighing law enforcement privilege claims 162 drawn from a 1970s civil rights case called frankenhauser v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 70/149
+Best match score: 72.47%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+even if the defense manages to show that information is necessary, law enforcement can undercut that showing by offering an alternate, watereddown, form of proof.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 71/149
+Best match score: 76.13%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+172 since the balancing analysis poses such challenges to the defense, threshold claims to the privilege play a significant gatekeeping role.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 72/149
+Best match score: 68.41%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+175 the court did not revisit the privilege until 2010, at which point it held that the privilege applies to 'law enforcement techniques and procedures' 176 if disclosure 'risks undermining important [police] investigatory procedures,' 177 but offered no additional constraints.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 73/149
+Best match score: 78.37%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+the leading first circuit opinion on the privilege similarly reiterated the rule that it applies to 'law enforcement techniques and procedures' if disclosure would 'jeopardize future criminal investigations,' 178 but provided no further guidance.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 74/149
+Best match score: 67.64%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+henry , required that the claim be asserted by the head of a department after 'personal consideration by that official.' 179 the tenth circuit has imposed similar procedural requirements.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 75/149
+Best match score: 65.35%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+some courts require the claimant to be a high-level government official, 181 while others permit any law enforcement officer or even a private entity acting on the government's behalf.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 76/149
+Best match score: 58.90%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+182 it is unclear whether the official claiming privilege must review the secret information directly, 183 or simply personally consider the secrecy claim based, for instance, on recommendations from others.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 77/149
+Best match score: 80.23%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+189 knowing that police engage in traffic stops, collect cellular location data, or use dogs to sniff drugs could all conceivably help someone evade detection.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 78/149
+Best match score: 68.83%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+194 on the other hand, it is unclear how many more people commit crimes wearing gloves than would if fingerprinting were a secret technique.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 79/149
+Best match score: 79.71%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+in the absence of empirical evidence that publicity would or would not aid countermeasures, which is exceedingly hard to obtain, 195 plausible arguments exist on both sides of the issue.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 80/149
+Best match score: 73.97%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+ruled 'on the admissibility of such evidence based on relevance and materiality, without resort to any type of evidentiary privilege.' 198 judge smith provides strong examples in support.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 81/149
+Best match score: 76.02%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+before 1977, no published federal or state court opinion used the phrase 'law enforcement privilege,' 'law enforcement evidentiary privilege,' or 'law enforcement investigatory privilege.' 203 the d.c.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 82/149
+Best match score: 75.55%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+a new common-law privilege to ensure that the privilege 'promotes sufficiently important interests to outweigh the need for probative evidence.' 212 none of the federal circuit opinions that initiate the phrase 'law enforcement privilege' conducted or even acknowledged the jaffee analysis.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 83/149
+Best match score: 82.88%
+Word count: 86 words
+────────────────────────────────────────────────────────────────────────────────
+213 yet the witness refused to disclose his 'method and manner of decyphering' because doing so would 'instruct ill-designing men to contrive more difficult cyphers.' 214 the testimony was admitted over defense objection on the basis that it was 'not consistent with the public safety, to ask the decypherers any questions, which may tend to discover the art or mystery of decyphering.' 215 privileges are public policy-based rules for withholding relevant evidence, 216 so the public safety rationale effectively recognized a privilege for the decryption method.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 84/149
+Best match score: 73.40%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+atterbury's case was especially far from binding precedent because it was a bill of attainder proceeding in which the standard rules of evidence did not apply, see 16 how.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 85/149
+Best match score: 81.82%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+old the policy concerns are that underly the privilege and how improbable that no united states court would have adopted a similar ruling before the midtwentieth century.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 86/149
+Best match score: 72.59%
+Word count: 71 words
+────────────────────────────────────────────────────────────────────────────────
+treatises and codes since the late-nineteenth century have described a variety of hazily defined governmental privileges that courts could easily have applied to shield investigative methods, such as a privilege for 'the channels through which information of breaches of the law reached the prosecuting authorities.' 218 john henry wigmore's influential 1905 united states evidence law treatise described 'a privilege of secrecy in general for official documents in an officer's possession .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 87/149
+Best match score: 68.86%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+and in these precedents no question whatever of international politics or military defence [sic] was involved.' 219 among the precedents wigmore cited in support of this privilege, which he opined 'undoubtedly exists' albeit with uncertain scope, 220 was the atterbury ruling.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 88/149
+Best match score: 70.41%
+Word count: 74 words
+────────────────────────────────────────────────────────────────────────────────
+221 and in 1942-more than a decade before hoover allegedly began campaigning for the creation of a law enforcement privilege 222 -the model code of evidence recognized an 'official information' privilege that applied to information if a judge determined that its disclosure 'will be harmful to the interests of the government.' 223 in short, historical evidence tomes and texts did not need to specify a privilege for law enforcement investigative methods in method, id.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 89/149
+Best match score: 80.12%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+the reference is most likely to edward coleman's 1678 treason trial before the king's bench, in which the prosecution introduced multiple letters as evidence.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 90/149
+Best match score: 76.03%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+for instance, in 1903, a federal court for the western district of arkansas upheld a privilege for irs officers' observations made while discharging official duties.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 91/149
+Best match score: 73.10%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+224 in 1931, the wisconsin supreme court recognized a privilege for 'such matters as may form the result' of an arson investigation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 92/149
+Best match score: 77.68%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+226 he identified the privilege as that for 'the names or statements of informers,' and described it as 'an instance' of the state secrets privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 93/149
+Best match score: 75.81%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+228 to be sure, judge hand conceded that '[t]his privilege will often impose a grievous hardship, for it may deprive parties .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 94/149
+Best match score: 79.62%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+to criminal prosecutions of power to assert their rights or to defend themselves.' 229 yet, such hardship cannot disqualify a privilege from existing because, as judge hand concluded, it is 'a consequence of any evidentiary privilege.' 230
+
+────────────────────────────────────────────────────────────────────────────────
+Line 95/149
+Best match score: 83.03%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+the documents at issue in andolschek would arguably qualify as brady material today because the criminal prosecution in that case was 'founded upon those very dealings to which the [privileged] documents relate, and whose criminality they will, or may, tend to exculpate.' id.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 96/149
+Best match score: 83.40%
+Word count: 72 words
+────────────────────────────────────────────────────────────────────────────────
+the prosecution's objection at the 1959 trial was that 'it would be against public policy to require the public disclosure of the location of an automobile's confidential serial number, since the purpose of a confidential number is to make it difficult for car thieves to conceal thefts by altering these numbers.' 231 once again, privileges are public policy based rules for excluding evidence, so the prosecution's objection was implicitly a privilege claim.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 97/149
+Best match score: 82.09%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+232 indeed, california courts have protected the same hidden vehicle serial numbers under the state's statutory 'official information privilege' since at least 1976.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 98/149
+Best match score: 84.47%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+most likely, before the phrase 'law enforcement privilege' gained prominence among federal courts, judges simply applied different labels to similar privilege rulings.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 99/149
+Best match score: 68.76%
+Word count: 65 words
+────────────────────────────────────────────────────────────────────────────────
+as laura donohue recognized in the related context of the state secrets privilege (which many have similarly argued was invented in its modern form during the mid-twentieth century 234 ), there is a risk of overestimating the recent vintage of privileges due to absences of 'historical exposition' coupled with the challenge of researching an area of law where 'relevant documents are difficult to obtain .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 100/149
+Best match score: 63.83%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+[and] often heavily redacted.' 235 inconsistent terminology for the various government privileges, 236 and judges' tendencies to blur findings of privilege with findings of immateriality, 237 muddles the issue of novelty further still.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 101/149
+Best match score: 81.48%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+while a party's objection at trial does not carry precedential weight, it reflects litigants' presumptions about the existence of privileges and suggests that the trial court may have ruled based on a privilege rationale.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 102/149
+Best match score: 58.65%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+in recent years, scholars have argued for 'limiting police power and the space in which it operates;' 239 developed abolitionist approaches to police surveillance technologies 240 and forensic methods; 241 and recommended eliminating public prosecutors' 'monopoly' on criminal cases, 242 among other proposals.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 103/149
+Best match score: 74.71%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+without privilege, the baseline subpoena and discovery rules would entitle defendants to information about law enforcement investigative methods by showing mere relevance, 243 meaning 'any tendency' to make a fact more or less likely than it would be without the information.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 104/149
+Best match score: 68.94%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+1987), but a shift in terminology to the 'law enforcement privilege' has left courts without clear guidance, see shah v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 105/149
+Best match score: 81.74%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+southerland, the master's tools and a mission: using community control and oversight laws to resist and abolish police surveillance technologies , 70 ucla l.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 106/149
+Best match score: 72.56%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+while some law enforcement techniques should undoubtedly be banned, the decision should depend on more salient characteristics, such as their dangerousness, 245 brutality, 246 unreliability, 247 or bias, 248 not their susceptibility to leaks.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 107/149
+Best match score: 50.00%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+recognition software, 253 social media 254 and internet surveillance software, 255 dna analysis software, 256 phone and other digital device hacking technologies, 257 wireless network forensic tools, 258 and more.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 108/149
+Best match score: 78.77%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+261 therefore, so long as the prosecution team stays ignorant about how a technology works, they can use that technology without disclosing its functional details.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 109/149
+Best match score: 77.99%
+Word count: 74 words
+────────────────────────────────────────────────────────────────────────────────
+at least one federal district court considering a defense request for source code for an internet surveillance software held that the privilege 'applies only to government documents.' 263 the prosecution's apparent double dipping vexed the court: the prosecution initially denied discovery by claiming ignorance of how the software worked 264 andmaintaining that the software was controlled by a private vendor, 265 but then later asserted privilege to stop the defense from subpoenaing the vendor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 110/149
+Best match score: 79.15%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+271 most federal circuits have held that the foia exemption for inter-agency and intra-agency memoranda shields information possessed by private consultants who are working for the government.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 111/149
+Best match score: 78.11%
+Word count: 62 words
+────────────────────────────────────────────────────────────────────────────────
+272 the invention secrecy act permits the united states patent and trademark office to bar disclosures of private sector inventions that might be 'detrimental to the national security.' 273 and under the atomic energy act, information is famously 'born secret' 274 ; the act automatically classifies nuclear discoveries at inception, even if made by private entities with no government aid or involvement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 112/149
+Best match score: 77.75%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+circuit has held that the law enforcement privilege must be claimed by a governmental official who has personally 'seen and considered the contents of the documents .' 277 other circuits seemingly lack this requirement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 113/149
+Best match score: 83.09%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+federal appellate case law simply reiterates the privilege's policy rationale as the test for asserting threshold claims and, consequently, imposes virtually no meaningful constraint on law enforcement's secrecy power.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 114/149
+Best match score: 81.84%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+as one federal judge opined, '[i]n a society where government is supposed to be open, where it is supposed to be the servant of and responsive to the people .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 115/149
+Best match score: 78.12%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+281 a federal defendant in missouri faced life in prison after being denied access to source code, manuals, and an executable copy of a 'law enforcement software program' used to establish probable cause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 116/149
+Best match score: 84.94%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+283 in each of these cases, and many more like them, the law enforcement privilege barred defendants from fully scrutinizing the evidence against them.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 117/149
+Best match score: 62.34%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+federal law enforcement has been conducting 'online surveillance and sting operations' 284 and developing 'custom malware' to deanonymize users, hack into servers, 285 and investigate the darknet 286 for years.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 118/149
+Best match score: 77.83%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+287 but law enforcement hacking will not remain a federal enterprise, nor will privilege claims for such methods stay cabined in the comparatively small percentage of federal criminal cases nationwide.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 119/149
+Best match score: 73.25%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+if courts fail to do so, or in states where courts lack common-law authority over privileges, 291 legislators should codify the requirements, either in evidence codes or in community control over police surveillance laws.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 120/149
+Best match score: 70.21%
+Word count: 77 words
+────────────────────────────────────────────────────────────────────────────────
+existing appellate opinions state the rationale far too abstractly: 'to prevent disclosure of law enforcement techniques and procedures'; 293 to avoid 'undermining important [police] investigatory procedures'; 294 to bar disclosures that might 'jeopardize future criminal investigations'; 295 and to conceal 'investigative techniques or sources.' 296 properly unpacked, the logic behind these nebulous assertions is not merely that secrecy helps to prevent countermeasures, because information disclosed in court, subject to a protective order, is still secret information .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 121/149
+Best match score: 84.11%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+298 they can require the recipient, on pain of civil 299 and criminal contempt, to use the information solely for a particular case and to return or destroy it after the proceeding ends.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 122/149
+Best match score: 68.36%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+attorneys or experts may leak information despite the threat of sanction, 303 and leaks can be difficult to trace and remedy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 123/149
+Best match score: 84.64%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+305 while both post-dispute courtroom testimony and pre-dispute conduct can be falsified, the motive to falsify is likely to increase once litigation begins.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 124/149
+Best match score: 70.10%
+Word count: 66 words
+────────────────────────────────────────────────────────────────────────────────
+309 and while defense counsel's duty of zealous advocacy might indicate a higher risk compared to law enforcement's more generalized duties to the public, 310 other facts suggest the risks may be equivalent: both law enforcement and defense counsel can be subject to disciplinary sanction, both operate within a range of institutional structures and oversight mechanisms, and many defense counsel, like law enforcement, are public employees.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 125/149
+Best match score: 84.43%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+2009); bob egelko, lawyer admits leaking balco testimony / he agrees to plead guilty-prosecutors say they'll end effort to jail reporters , sfgate (feb.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 126/149
+Best match score: 65.11%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+321 more recently, scholars have questioned whether it valuably limits the scope of privilege protections 322 or conflicts with peoples' actual perceptions about their communications (and should thus be abolished).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 127/149
+Best match score: 84.83%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+326 for instance, the ninth circuit invalidated a trade secret because a company failed to take reasonable secrecy precautions when it permitted employees to remove information from the premises and to retain possession after their employment ended.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 128/149
+Best match score: 78.92%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+327 (compare that ruling to budziak , in which no court considered the fbi's similar conduct when assessing its claim to the law enforcement privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 129/149
+Best match score: 64.72%
+Word count: 51 words
+────────────────────────────────────────────────────────────────────────────────
+332 and mary cheh argues that courts should concentrate on 'policies or processes of concealment' rather than try 'to review the validity of particular secrecy decisions.' 333 each of these approaches shares the same key kernel of wisdom that secrets can be judged by their metadata rather than by their innards.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 130/149
+Best match score: 83.20%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+'present for the review.' 335 had the district court assessed pre-dispute confidentiality when initially ruling on the threshold privilege claim, it might have denied the privilege in the first place and avoided overruling on appeal.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 131/149
+Best match score: 66.93%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+for an easy example, grayshift, a company that sells hacking services to law enforcement to 'extract evidence from mobile devices,' 340 explicitly warns its contracting partners that information is subject to court-ordered disclosure.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 132/149
+Best match score: 73.27%
+Word count: 59 words
+────────────────────────────────────────────────────────────────────────────────
+its contracts with police departments state that 'disclosure of confidential information that is legally compelled to be disclosed pursuant to a subpoena, summons, order or other judicial or governmental process shall not be considered a breach of this agreement.' 341 there is no reason, then, for grayshift users to expect secrecy from the courts: the privilege should not apply.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 133/149
+Best match score: 70.14%
+Word count: 66 words
+────────────────────────────────────────────────────────────────────────────────
+or consider pirosko , in which the district court and sixth circuit both upheld the privilege for another internet surveillance software program, reasoning that defense access risked enabling criminal actors to 'find ways to avoid these surveillance systems' 336 and 'frustrate future surveillance efforts.' 337 as it turns out, the software developer's own website boasts that '[m]ore than 10,000 law enforcement officers in all 50 u.s.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 134/149
+Best match score: 61.15%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+states and in 102 countries around the globe [h]ave been trained on our technology.' 338 those ten thousand people have access under what can be no more than contractual promises of confidentiality.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 135/149
+Best match score: 81.27%
+Word count: 56 words
+────────────────────────────────────────────────────────────────────────────────
+342 its contracts with police departments 343 say it will not disclose sources or methods in 'any investigations, indictments, motions, hearings, trials, or any other form of judicial proceedings.' 344 they also state that the company will refuse to comply with court-ordered disclosures for information other than chain of custody or data extracted from particular devices.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 136/149
+Best match score: 82.83%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+346 hence, claiming privilege could become more like a means of ensuring a strong protective order than a route to total nondisclosure.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 137/149
+Best match score: 84.50%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+2021) ('[t]he appropriate course of action is for the parties to submit a joint motion for a protective order that will cover the documents subject to the confidentiality agreement .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 138/149
+Best match score: 70.32%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+349 to be sure, courts might worry about applying such punitive logic if the officials who engaged in poor behavior will not internalize the costs, 350 and especially so if the public will instead accrue those costs.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 139/149
+Best match score: 78.06%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+351 nonetheless, disclosure in litigation does not necessarily cost the public; it merely creates a risk that protective orders can mitigate.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 140/149
+Best match score: 79.56%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+1755, 1757 (2024) ('in theory, the [exclusionary rule] is supposed to deter police officers from violating the fourth amendment, by warning them that the evidence they obtain may be inadmissible in court.').
+
+────────────────────────────────────────────────────────────────────────────────
+Line 141/149
+Best match score: 83.38%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+352 and the potential for other judges to order disclosure in similar circumstances should still motivate law enforcement to be more careful moving forward.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 142/149
+Best match score: 81.14%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+whether evaluating their pre-dispute conduct will help judges depends on whether one thinks the individuals' incentives to lie will increase or decrease as litigation proceeds.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 143/149
+Best match score: 79.30%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+if the incentives to lie will decrease, perhaps because the risk of punishment for perjury creates a successful deterrent, then this is the edge case where this article's reform proposal will offer no benefit.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 144/149
+Best match score: 77.14%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+358 further, some judges no doubt believe that comparative institutional competencies and judicial restraint counsel an overarching tilt toward noninterference with law enforcement practices.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 145/149
+Best match score: 84.36%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+for instance, police departments' internal misconduct records revealed under a protective order in one case may constitute brady material in another, but the protective order may impede prosecutors in the first case from disclosing the information in
+
+────────────────────────────────────────────────────────────────────────────────
+Line 146/149
+Best match score: 75.41%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+jonathan abel, brady 's blind spot: impeachment evidence in police personnel files and the battle splitting the prosecution team , 67 stan.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 147/149
+Best match score: 82.60%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+more generally, this article's analysis suggests a new 'circumstantial evidence' theory of confidentiality's role in privilege law as a whole, with potentially radical implications for government privilege writ large.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 148/149
+Best match score: 80.21%
+Word count: 55 words
+────────────────────────────────────────────────────────────────────────────────
+368 he reasoned that privileges should apply only to communications that would not occur but for this incentive or, in his words, to communications that 'originate in a confidence that they will not be disclosed.' 369 that way, privileges could be characterized as cost-free to the courts, suppressing only evidence that would not otherwise exist.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 149/149
+Best match score: 79.81%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+if the safeguards available through a court-ordered protective order could match or exceed law enforcement's own prior confidentiality requirements, courts should default to ordering disclosure.

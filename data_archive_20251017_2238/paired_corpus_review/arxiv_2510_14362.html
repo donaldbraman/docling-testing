@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Anti-Interference Communication Using Computational Antenna</title>
+<!--Generated on Thu Oct 16 06:58:00 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14362v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S1" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">I </span><span class="ltx_text ltx_font_smallcaps">Introduction</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S2" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">II </span><span class="ltx_text ltx_font_smallcaps">Modeling and Theoretical Analysis</span></span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S2.SS1" title="In II Modeling and Theoretical Analysis ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">II-A </span><span class="ltx_text ltx_font_italic">The Principle of Computational Antennas</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S2.SS2" title="In II Modeling and Theoretical Analysis ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">II-B </span><span class="ltx_text ltx_font_italic">Communication Modeling</span></span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S3" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">III </span><span class="ltx_text ltx_font_smallcaps">Signal Processing Algorithm</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S4" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">IV </span><span class="ltx_text ltx_font_smallcaps">Experimental Validation</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S5" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">V </span><span class="ltx_text ltx_font_smallcaps">Analysis and Discussions</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S6" title="In Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">VI </span><span class="ltx_text ltx_font_smallcaps">Conclusions</span></span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Anti-Interference Communication Using Computational Antenna</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Xiaocun Zong, , Fan Yang*, ,
+<br class="ltx_break"/>Shenheng Xu, , Maokun Li
+</span><span class="ltx_author_notes">This work is supported by the National Key Research and Development
+Program of China under Grant No. 2023YFB3811501. (Corresponding Author: <span class="ltx_text ltx_font_italic">Fan Yang</span>)
+The authors are with the Department of Electronic Engineering, State Key laboratory of Space Network and Communications, Tsinghua University, Beijing 100084, China.
+</span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">This letter proposes a novel anti-interference communication method leveraging computational antennas, utilizing time averaging and 1-bit reconfigurable intelligent surfaces (RIS) to achieve robust signal modulation with minimal hardware complexity. We develop a communication model for computational antennas and propose an efficient signal processing algorithm optimized for temporal modulation. A USRP-based experimental platform is established to validate the approach under strong interference conditions (e.g., 5 dB jamming-to-signal ratio). Experimental results reveal up to an 80.9% reduction in bit error rate (BER) and effective restoration of distorted images in transmission tests. Compared to conventional techniques like spread spectrum or frequency hopping, which require significant spectral resources, our method offers superior anti-interference performance without additional spectral overhead. This research provides valuable insights for radar detection, military communications, and next-generation wireless networks.</p>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">I </span><span class="ltx_text ltx_font_smallcaps">Introduction</span>
+</h2>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p">The rapid proliferation of wireless devices and the escalating complexity of electromagnetic environments have significantly heightened the need for robust anti-interference techniques in modern wireless communication systems. Applications such as radar detection, military communications, and emerging sixth-generation (6G) wireless networks demand reliable signal transmission amidst challenging interference conditions <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib1" title="">1</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib2" title="">2</a>]</cite>. Conventional anti-interference methods, including spread spectrum, frequency hopping, often require additional spectral resources or sophisticated hardware, leading to increased system overhead, reduced spectral efficiency, and higher implementation costs <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib3" title="">3</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib4" title="">4</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p">Recent advancements in reconfigurable intelligent surfaces (RIS) have demonstrated transformative potential for enhancing wireless communication by enabling dynamic control over the propagation environment <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib5" title="">5</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib6" title="">6</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib7" title="">7</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib8" title="">8</a>]</cite>. By manipulating the phase and amplitude of reflected signals, RIS can optimize signal paths, improve coverage, and mitigate interference. However, their application in anti-interference scenarios is constrained by the requirement for multi-bit phase control, which introduces significant computational complexity and hardware costs <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib9" title="">9</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib10" title="">10</a>]</cite>. Similarly, time-modulated array antennas (TMAAs) have been explored for their ability to dynamically shape radiation patterns through temporal modulation. Despite their flexibility, TMAAs often prioritize harmonic frequencies, leaving the fundamental frequency underutilized for anti-interference purposes, thus limiting their effectiveness in complex electromagnetic environments <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib11" title="">11</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib12" title="">12</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#bib.bib13" title="">13</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p">To overcome these challenges, we propose a novel paradigm termed <span class="ltx_text ltx_font_italic">Computational Antennas</span>, which leverages precise temporal control through a 1-bit RIS to optimize radiation characteristics at the fundamental frequency. By employing a time-averaging technique with carefully designed phase constants, our approach significantly reduces equivalent sidelobe levels, enhancing antenna directivity and system efficiency without requiring additional spectral resources. This computationally efficient method offers a breakthrough in achieving robust anti-interference performance, making it well-suited for dynamic and interference-heavy environments.</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p">In this letter, we present a comprehensive theoretical and experimental investigation into the application of Computational Antennas for anti-interference communication. Our contributions are threefold: First, we develop a novel communication model for Computational Antennas, integrating a signal processing algorithm optimized for temporal modulation to enhance the signal-to-noise ratio (SNR) or signal-to-interference-plus-noise ratio (SINR). Second, we establish a Universal Software Radio Peripheral (USRP)-based experimental platform to validate the proposed method under strong interference conditions, with jamming-to-signal ratios (JSR) of 0 dB and 5 dB. Third, we demonstrate that our approach achieves up to an 80.9% reduction in bit error rate (BER) and effectively restores distorted images in transmission experiments, surpassing the performance of conventional anti-interference techniques. These findings provide significant insights for applications in radar detection, military communications, and next-generation wireless systems, paving the way for more resilient and efficient communication technologies.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">II </span><span class="ltx_text ltx_font_smallcaps">Modeling and Theoretical Analysis</span>
+</h2>
+<section class="ltx_subsection" id="S2.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">II-A </span><span class="ltx_text ltx_font_italic">The Principle of Computational Antennas</span>
+</h3>
+<div class="ltx_para" id="S2.SS1.p1">
+<p class="ltx_p">For a reconfigurable intelligent surface comprising <math alttext="M\times N" class="ltx_Math" display="inline" id="S2.SS1.p1.m1" intent=":literal"><semantics><mrow><mi>M</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">M\times N</annotation></semantics></math> elements, the array radiation pattern is expressed as (1), where the parameter <math alttext="A_{mn}" class="ltx_Math" display="inline" id="S2.SS1.p1.m2" intent=":literal"><semantics><msub><mi>A</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow></msub><annotation encoding="application/x-tex">A_{mn}</annotation></semantics></math> represents the amplitude of the <math alttext="(m,n)" class="ltx_Math" display="inline" id="S2.SS1.p1.m3" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(m,n)</annotation></semantics></math>-th element, <math alttext="\phi_{mn}^{ini}" class="ltx_Math" display="inline" id="S2.SS1.p1.m4" intent=":literal"><semantics><msubsup><mi>ϕ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi></mrow></msubsup><annotation encoding="application/x-tex">\phi_{mn}^{ini}</annotation></semantics></math> denotes the initial phase, <math alttext="\phi_{mn}^{out}" class="ltx_Math" display="inline" id="S2.SS1.p1.m5" intent=":literal"><semantics><msubsup><mi>ϕ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mrow><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi></mrow></msubsup><annotation encoding="application/x-tex">\phi_{mn}^{out}</annotation></semantics></math> is the output phase, and <math alttext="\phi_{mn}^{Q}" class="ltx_Math" display="inline" id="S2.SS1.p1.m6" intent=":literal"><semantics><msubsup><mi>ϕ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mi>Q</mi></msubsup><annotation encoding="application/x-tex">\phi_{mn}^{Q}</annotation></semantics></math> is the quantization phase of the <math alttext="(m,n)" class="ltx_Math" display="inline" id="S2.SS1.p1.m7" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(m,n)</annotation></semantics></math>-th element.</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p2">
+<table class="ltx_equation ltx_eqn_table" id="S2.E1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="E(\theta,\phi)=\sum_{m=1}^{M}\sum_{n=1}^{N}A_{mn}e^{j(\varphi_{mn}^{ini}+\varphi_{mn}^{out}+\varphi_{mn}^{Q})}" class="ltx_Math" display="block" id="S2.E1.m1" intent=":literal"><semantics><mrow><mrow><mi>E</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>θ</mi><mo>,</mo><mi>ϕ</mi><mo stretchy="false">)</mo></mrow></mrow><mo rspace="0.111em">=</mo><mrow><munderover><mo movablelimits="false" rspace="0em">∑</mo><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow><mi>M</mi></munderover><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mrow><msub><mi>A</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><msup><mi>e</mi><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>φ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi></mrow></msubsup><mo>+</mo><msubsup><mi>φ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mrow><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi></mrow></msubsup><mo>+</mo><msubsup><mi>φ</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow><mi>Q</mi></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">E(\theta,\phi)=\sum_{m=1}^{M}\sum_{n=1}^{N}A_{mn}e^{j(\varphi_{mn}^{ini}+\varphi_{mn}^{out}+\varphi_{mn}^{Q})}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+</div>
+<div class="ltx_para" id="S2.SS1.p3">
+<p class="ltx_p">In practical applications of 1-bit reconfigurable reflective arrays, a phase offset <math alttext="\Delta\varphi" class="ltx_Math" display="inline" id="S2.SS1.p3.m1" intent=":literal"><semantics><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>φ</mi></mrow><annotation encoding="application/x-tex">\Delta\varphi</annotation></semantics></math> is introduced prior to quantization, influencing the post-quantization phase distribution. For antenna pattern calculations, four phase constants are defined: <math alttext="\Delta\varphi_{1}=0" class="ltx_Math" display="inline" id="S2.SS1.p3.m2" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>φ</mi><mn>1</mn></msub></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\Delta\varphi_{1}=0</annotation></semantics></math>, <math alttext="\Delta\varphi_{2}=\pi/4" class="ltx_Math" display="inline" id="S2.SS1.p3.m3" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>φ</mi><mn>2</mn></msub></mrow><mo>=</mo><mrow><mi>π</mi><mo>/</mo><mn>4</mn></mrow></mrow><annotation encoding="application/x-tex">\Delta\varphi_{2}=\pi/4</annotation></semantics></math>, <math alttext="\Delta\varphi_{3}=\pi/2" class="ltx_Math" display="inline" id="S2.SS1.p3.m4" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>φ</mi><mn>3</mn></msub></mrow><mo>=</mo><mrow><mi>π</mi><mo>/</mo><mn>2</mn></mrow></mrow><annotation encoding="application/x-tex">\Delta\varphi_{3}=\pi/2</annotation></semantics></math>, and <math alttext="\Delta\varphi_{4}=3\pi/4" class="ltx_Math" display="inline" id="S2.SS1.p3.m5" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>φ</mi><mn>4</mn></msub></mrow><mo>=</mo><mrow><mrow><mn>3</mn><mo lspace="0em" rspace="0em">​</mo><mi>π</mi></mrow><mo>/</mo><mn>4</mn></mrow></mrow><annotation encoding="application/x-tex">\Delta\varphi_{4}=3\pi/4</annotation></semantics></math>. The corresponding radiation patterns <math alttext="E_{1}" class="ltx_Math" display="inline" id="S2.SS1.p3.m6" intent=":literal"><semantics><msub><mi>E</mi><mn>1</mn></msub><annotation encoding="application/x-tex">E_{1}</annotation></semantics></math>, <math alttext="E_{2}" class="ltx_Math" display="inline" id="S2.SS1.p3.m7" intent=":literal"><semantics><msub><mi>E</mi><mn>2</mn></msub><annotation encoding="application/x-tex">E_{2}</annotation></semantics></math>, <math alttext="E_{3}" class="ltx_Math" display="inline" id="S2.SS1.p3.m8" intent=":literal"><semantics><msub><mi>E</mi><mn>3</mn></msub><annotation encoding="application/x-tex">E_{3}</annotation></semantics></math>, and <math alttext="E_{4}" class="ltx_Math" display="inline" id="S2.SS1.p3.m9" intent=":literal"><semantics><msub><mi>E</mi><mn>4</mn></msub><annotation encoding="application/x-tex">E_{4}</annotation></semantics></math> are obtained for these <math alttext="\Delta\varphi" class="ltx_Math" display="inline" id="S2.SS1.p3.m10" intent=":literal"><semantics><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>φ</mi></mrow><annotation encoding="application/x-tex">\Delta\varphi</annotation></semantics></math> values. The average radiation pattern <math alttext="E_{ave}" class="ltx_Math" display="inline" id="S2.SS1.p3.m11" intent=":literal"><semantics><msub><mi>E</mi><mrow><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>v</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow></msub><annotation encoding="application/x-tex">E_{ave}</annotation></semantics></math> is then computed through time-averaging as:</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p4">
+<table class="ltx_equation ltx_eqn_table" id="S2.E2">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="E_{ave}(\theta,\phi)=\frac{1}{4}\left(E_{1}+e^{-j\pi/4}E_{2}+e^{-j\pi/2}E_{3}+e^{-j3\pi/4}E_{4}\right)" class="ltx_Math" display="block" id="S2.E2.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>E</mi><mrow><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>v</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>θ</mi><mo>,</mo><mi>ϕ</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><mo>(</mo><mrow><msub><mi>E</mi><mn>1</mn></msub><mo>+</mo><mrow><msup><mi>e</mi><mrow><mo>−</mo><mrow><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><mi>π</mi></mrow><mo>/</mo><mn>4</mn></mrow></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msub><mi>E</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><msup><mi>e</mi><mrow><mo>−</mo><mrow><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><mi>π</mi></mrow><mo>/</mo><mn>2</mn></mrow></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msub><mi>E</mi><mn>3</mn></msub></mrow><mo>+</mo><mrow><msup><mi>e</mi><mrow><mo>−</mo><mrow><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><mn>3</mn><mo lspace="0em" rspace="0em">​</mo><mi>π</mi></mrow><mo>/</mo><mn>4</mn></mrow></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msub><mi>E</mi><mn>4</mn></msub></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">E_{ave}(\theta,\phi)=\frac{1}{4}\left(E_{1}+e^{-j\pi/4}E_{2}+e^{-j\pi/2}E_{3}+e^{-j3\pi/4}E_{4}\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+</table>
+</div>
+<figure class="ltx_figure" id="S2.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="313" id="S2.F1.g1" src="png/SLL.png" width="592"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 1</span>: </span><span class="ltx_text" style="font-size:90%;">Time-averaged signal transmission and reception process diagram and the suppressed sidelobes.</span></figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS1.p5">
+<p class="ltx_p">Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S2.F1" title="Figure 1 ‣ II-A The Principle of Computational Antennas ‣ II Modeling and Theoretical Analysis ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">1</span></a> describes the principle of Computational Antennas. By employing the time-averaging method, the equivalent sidelobe levels of the radiation pattern can be effectively reduced.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S2.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">II-B </span><span class="ltx_text ltx_font_italic">Communication Modeling</span>
+</h3>
+<div class="ltx_para" id="S2.SS2.p1">
+<p class="ltx_p">Drawing on the concept of equivalent sidelobe reduction via computational antennas, we propose a communication model based on computational antennas. The transmitting antenna employs a 1-bit RIS and transmits four identical data streams using the previously described phase constant control method. At the receiving end, a dedicated algorithm processes the received signal to enhance the equivalent SNR or signal-to-interference-plus-noise ratio (SINR).</p>
+</div>
+<div class="ltx_para" id="S2.SS2.p2">
+<p class="ltx_p">For instance, in a continuous communication scenario in Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S2.F2" title="Figure 2 ‣ II-B Communication Modeling ‣ II Modeling and Theoretical Analysis ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">2</span></a> with a carrier frequency of 5.8 GHz, a symbol rate of 20 MHz, and an 80 MHz phase constant switching rate (The phase constant switching rate must be four times the symbol rate to enable each symbol to be divided into four equal parts, followed by time-stretching and weighted averaging.), each symbol is divided into four segments for transmission. At the receiver, the symbol is segmented into four equal parts, time-stretched, and weighted-averaged to reconstruct the equivalent communication signal within the computational antenna framework. To streamline experiments, real-time signal processing is conducted offline by transmitting the same signal four times with different phase constants, followed by post-processing of the resulting signals.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.p3">
+<p class="ltx_p">The aforementioned transmission and reception processes are reciprocal, and the reconfigurable intelligent surface can achieve equivalent performance when employed for reception.</p>
+</div>
+<figure class="ltx_figure" id="S2.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="269" id="S2.F2.g1" src="png/Concept2.png" width="479"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 2</span>: </span><span class="ltx_text" style="font-size:90%;">Framework of the Computational Antennas communication system.</span></figcaption>
+</figure>
+</section>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">III </span><span class="ltx_text ltx_font_smallcaps">Signal Processing Algorithm</span>
+</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p">The time-averaging method, introduces distinct phase constants to the antenna’s radiation patterns. In the context of communication systems, this approach results in signals with varying initial phases across four time segments, each corresponding to a phase constant (<math alttext="\Delta\varphi=0^{\circ},45^{\circ},90^{\circ},135^{\circ}" class="ltx_Math" display="inline" id="S3.p1.m1" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>φ</mi></mrow><mo>=</mo><mrow><msup><mn>0</mn><mo>∘</mo></msup><mo>,</mo><msup><mn>45</mn><mo>∘</mo></msup><mo>,</mo><msup><mn>90</mn><mo>∘</mo></msup><mo>,</mo><msup><mn>135</mn><mo>∘</mo></msup></mrow></mrow><annotation encoding="application/x-tex">\Delta\varphi=0^{\circ},45^{\circ},90^{\circ},135^{\circ}</annotation></semantics></math>). To mitigate the impact of these phase variations, the receiver must align the signals before combining them. Unlike antenna measurements, where signals with different phase constants have uniform amplitude, real-world communication scenarios exhibit varying signal strengths due to channel effects and noise. Consequently, direct summation of these signals is suboptimal; instead, we employ maximum ratio combining (MRC) to perform weighted averaging.</p>
+</div>
+<div class="ltx_para" id="S3.p2">
+<p class="ltx_p">The MRC process involves computing complex weights for each of the four signal segments. The phase of each weight, <math alttext="\theta_{k}" class="ltx_Math" display="inline" id="S3.p2.m1" intent=":literal"><semantics><msub><mi>θ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\theta_{k}</annotation></semantics></math>, is determined by the cross-correlation between the received signal segment <math alttext="r_{k}[n]" class="ltx_Math" display="inline" id="S3.p2.m2" intent=":literal"><semantics><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{k}[n]</annotation></semantics></math> and a reference signal <math alttext="r_{0}[n]" class="ltx_Math" display="inline" id="S3.p2.m3" intent=":literal"><semantics><mrow><msub><mi>r</mi><mn>0</mn></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{0}[n]</annotation></semantics></math>, as shown in Equation (3). The amplitude of each weight, <math alttext="w_{k}" class="ltx_Math" display="inline" id="S3.p2.m4" intent=":literal"><semantics><msub><mi>w</mi><mi>k</mi></msub><annotation encoding="application/x-tex">w_{k}</annotation></semantics></math>, is calculated as the proportion of the SNR of the <math alttext="k" class="ltx_Math" display="inline" id="S3.p2.m5" intent=":literal"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>-th segment to the total SNR across all segments, as given in Equation (3). The merged signal, <math alttext="r_{merged}" class="ltx_Math" display="inline" id="S3.p2.m6" intent=":literal"><semantics><msub><mi>r</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi></mrow></msub><annotation encoding="application/x-tex">r_{merged}</annotation></semantics></math>, is then obtained by weighted averaging, as expressed in Equation (<a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S3.E4" title="In III Signal Processing Algorithm ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">4</span></a>). This process, which can be seen in Algorithm <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#alg1.fig1" title="Algorithm 1 ‣ III Signal Processing Algorithm ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">1</span></a>, effectively enhances the signal quality by constructively combining the in-phase components while suppressing noise or interference through anti-phase cancellation. In the presence of interference during the communication process, the signal-to-noise ratio (SNR) is replaced by the signal-to-interference-plus-noise ratio (SINR). Essentially, this is a weighted averaging method based on signal strength.</p>
+</div>
+<div class="ltx_para" id="S3.p3">
+<table class="ltx_equation ltx_eqn_table" id="S3.E3">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\theta_{k}=\angle\left(\sum_{n=1}^{N}r_{k}[n]r_{0}^{*}[n]\right),\ \ w_{k}=\frac{\textit{SNR}_{k}}{\sum_{i=0}^{3}\textit{SNR}_{i}}" class="ltx_Math" display="block" id="S3.E3.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>θ</mi><mi>k</mi></msub><mo>=</mo><mrow><mi mathvariant="normal">∠</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo>(</mo><mrow><munderover><mo lspace="0em" movablelimits="false">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>r</mi><mn>0</mn><mo>∗</mo></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><msub><mi>w</mi><mi>k</mi></msub><mo>=</mo><mfrac><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>k</mi></msub><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></msubsup><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>i</mi></msub></mrow></mfrac></mrow></mrow><annotation encoding="application/x-tex">\theta_{k}=\angle\left(\sum_{n=1}^{N}r_{k}[n]r_{0}^{*}[n]\right),\ \ w_{k}=\frac{\textit{SNR}_{k}}{\sum_{i=0}^{3}\textit{SNR}_{i}}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(3)</span></td>
+</tr></tbody>
+</table>
+</div>
+<div class="ltx_para" id="S3.p4">
+<table class="ltx_equation ltx_eqn_table" id="S3.E4">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="r_{merged}=\sum_{k=0}^{3}r_{k}[n]\cdot w_{k}e^{j\theta_{k}}" class="ltx_Math" display="block" id="S3.E4.m1" intent=":literal"><semantics><mrow><msub><mi>r</mi><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi></mrow></msub><mo rspace="0.111em">=</mo><mrow><munderover><mo movablelimits="false">∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></munderover><mrow><mrow><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo rspace="0.055em" stretchy="false">]</mo></mrow></mrow><mo rspace="0.222em">⋅</mo><msub><mi>w</mi><mi>k</mi></msub></mrow><mo lspace="0em" rspace="0em">​</mo><msup><mi>e</mi><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>θ</mi><mi>k</mi></msub></mrow></msup></mrow></mrow></mrow><annotation encoding="application/x-tex">r_{merged}=\sum_{k=0}^{3}r_{k}[n]\cdot w_{k}e^{j\theta_{k}}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(4)</span></td>
+</tr></tbody>
+</table>
+</div>
+<figure class="ltx_float ltx_minipage ltx_align_center ltx_align_middle ltx_framed ltx_framed_top" id="alg1.fig1" style="width:429.3pt;">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_float"><span class="ltx_text ltx_font_bold">Algorithm 1</span> </span> Advanced Maximum Ratio Combining (MRC) for Computational Antenna Multi-Segment QPSK Signal Fusion and Robust Enhancement</figcaption>
+<div class="ltx_listing ltx_listing">
+<div class="ltx_listingline" id="alg1.l1">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">1:</span></span>Four received QPSK signal segments <math alttext="\{r_{k}[n]\}_{k=0}^{3}\in\mathbb{C}^{N}" class="ltx_Math" display="inline" id="alg1.l1.m1" intent=":literal"><semantics><mrow><msubsup><mrow><mo stretchy="false">{</mo><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">}</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></msubsup><mo>∈</mo><msup><mi>ℂ</mi><mi>N</mi></msup></mrow><annotation encoding="application/x-tex">\{r_{k}[n]\}_{k=0}^{3}\in\mathbb{C}^{N}</annotation></semantics></math>, segment-specific signal quality metrics <math alttext="\{\textit{SNR}_{k}\}_{k=0}^{3}\in\mathbb{R}^{+}" class="ltx_Math" display="inline" id="alg1.l1.m2" intent=":literal"><semantics><mrow><msubsup><mrow><mo stretchy="false">{</mo><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>k</mi></msub><mo stretchy="false">}</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></msubsup><mo>∈</mo><msup><mi>ℝ</mi><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">\{\textit{SNR}_{k}\}_{k=0}^{3}\in\mathbb{R}^{+}</annotation></semantics></math> (or <math alttext="\textit{SINR}_{k}" class="ltx_Math" display="inline" id="alg1.l1.m3" intent=":literal"><semantics><msub><mtext class="ltx_mathvariant_italic">SINR</mtext><mi>k</mi></msub><annotation encoding="application/x-tex">\textit{SINR}_{k}</annotation></semantics></math> in interference-dominated regimes)
+
+</div>
+<div class="ltx_listingline" id="alg1.l2">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">2:</span></span>Enhanced Computational Antenna QPSK signal <math alttext="r_{\text{merged}}[n]\in\mathbb{C}^{N}" class="ltx_Math" display="inline" id="alg1.l2.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>r</mi><mtext>merged</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo>∈</mo><msup><mi>ℂ</mi><mi>N</mi></msup></mrow><annotation encoding="application/x-tex">r_{\text{merged}}[n]\in\mathbb{C}^{N}</annotation></semantics></math>, yielding maximal post-combination SNR/SINR via adaptive diversity exploitation
+
+</div>
+<div class="ltx_listingline" id="alg1.l3">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">3:</span></span>Identify the reference segment <math alttext="r_{0}[n]" class="ltx_Math" display="inline" id="alg1.l3.m1" intent=":literal"><semantics><mrow><msub><mi>r</mi><mn>0</mn></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{0}[n]</annotation></semantics></math> as the one with the supremum SNR: <math alttext="r_{0}[n]\leftarrow\arg\max_{k\in\{0,1,2,3\}}\textit{SNR}_{k}" class="ltx_Math" display="inline" id="alg1.l3.m2" intent=":literal"><semantics><mrow><mrow><msub><mi>r</mi><mn>0</mn></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">←</mo><mrow><mi>arg</mi><mo lspace="0.167em">⁡</mo><mrow><msub><mi>max</mi><mrow><mi>k</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy="false">}</mo></mrow></mrow></msub><mo lspace="0.167em">⁡</mo><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>k</mi></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">r_{0}[n]\leftarrow\arg\max_{k\in\{0,1,2,3\}}\textit{SNR}_{k}</annotation></semantics></math>
+<span class="ltx_text" style="float:right;"><math alttext="\triangleright" class="ltx_Math" display="inline" id="alg1.l3.m3" intent=":literal"><semantics><mo>⊳</mo><annotation encoding="application/x-tex">\triangleright</annotation></semantics></math> Selection of the highest-SNR segment as the intrinsic reference ensures alignment fidelity without external priors, leveraging inherent channel diversity.
+</span>
+</div>
+<div class="ltx_listingline" id="alg1.l4">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">4:</span></span>Initialize the fused signal accumulator: <math alttext="r_{\text{merged}}[n]\leftarrow\mathbf{0}_{N}" class="ltx_Math" display="inline" id="alg1.l4.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>r</mi><mtext>merged</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">←</mo><msub><mn>𝟎</mn><mi>N</mi></msub></mrow><annotation encoding="application/x-tex">r_{\text{merged}}[n]\leftarrow\mathbf{0}_{N}</annotation></semantics></math> for all <math alttext="n=1,\dots,N" class="ltx_Math" display="inline" id="alg1.l4.m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>N</mi></mrow></mrow><annotation encoding="application/x-tex">n=1,\dots,N</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l5">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">5:</span></span><span class="ltx_text ltx_font_bold">for</span> <math alttext="k=0" class="ltx_Math" display="inline" id="alg1.l5.m1" intent=":literal"><semantics><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">k=0</annotation></semantics></math> <span class="ltx_text ltx_font_bold">to</span> <math alttext="3" class="ltx_Math" display="inline" id="alg1.l5.m2" intent=":literal"><semantics><mn>3</mn><annotation encoding="application/x-tex">3</annotation></semantics></math> <span class="ltx_text ltx_font_bold">do</span>
+</div>
+<div class="ltx_listingline" id="alg1.l6">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">6:</span></span>  Compute the phase offset <math alttext="\theta_{k}" class="ltx_Math" display="inline" id="alg1.l6.m1" intent=":literal"><semantics><msub><mi>θ</mi><mi>k</mi></msub><annotation encoding="application/x-tex">\theta_{k}</annotation></semantics></math> as the argument of the complex cross-correlation between <math alttext="r_{k}[n]" class="ltx_Math" display="inline" id="alg1.l6.m2" intent=":literal"><semantics><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{k}[n]</annotation></semantics></math> and the reference <math alttext="r_{0}[n]" class="ltx_Math" display="inline" id="alg1.l6.m3" intent=":literal"><semantics><mrow><msub><mi>r</mi><mn>0</mn></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{0}[n]</annotation></semantics></math>:
+
+<table class="ltx_equation ltx_eqn_table" id="S3.Ex1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\theta_{k}=\angle\left(\sum_{n=1}^{N}r_{k}[n]\,r_{0}^{*}[n]\right)" class="ltx_Math" display="block" id="S3.Ex1.m1" intent=":literal"><semantics><mrow><msub><mi>θ</mi><mi>k</mi></msub><mo>=</mo><mrow><mi mathvariant="normal">∠</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo>(</mo><mrow><munderover><mo lspace="0em" movablelimits="false">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mrow><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow><mo lspace="0.170em" rspace="0em">​</mo><msubsup><mi>r</mi><mn>0</mn><mo>∗</mo></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\theta_{k}=\angle\left(\sum_{n=1}^{N}r_{k}[n]\,r_{0}^{*}[n]\right)</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+<div class="ltx_listingline" id="alg1.l7">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">7:</span></span>  Derive the normalized amplitude weight <math alttext="w_{k}" class="ltx_Math" display="inline" id="alg1.l7.m1" intent=":literal"><semantics><msub><mi>w</mi><mi>k</mi></msub><annotation encoding="application/x-tex">w_{k}</annotation></semantics></math> as the fractional contribution of the <math alttext="k" class="ltx_Math" display="inline" id="alg1.l7.m2" intent=":literal"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>-th segment’s SNR to the aggregate:
+
+<table class="ltx_equation ltx_eqn_table" id="S3.Ex2">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="w_{k}=\frac{\textit{SNR}_{k}}{\sum_{i=0}^{3}\textit{SNR}_{i}}" class="ltx_Math" display="block" id="S3.Ex2.m1" intent=":literal"><semantics><mrow><msub><mi>w</mi><mi>k</mi></msub><mo>=</mo><mfrac><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>k</mi></msub><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><mn>3</mn></msubsup><msub><mtext class="ltx_mathvariant_italic">SNR</mtext><mi>i</mi></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">w_{k}=\frac{\textit{SNR}_{k}}{\sum_{i=0}^{3}\textit{SNR}_{i}}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+This proportionality scheme, rooted in MRC optimality, amplifies reliable segments while mitigating the impact of degraded ones, with <math alttext="\sum_{k}w_{k}=1" class="ltx_Math" display="inline" id="alg1.l7.m3" intent=":literal"><semantics><mrow><mrow><msub><mo>∑</mo><mi>k</mi></msub><msub><mi>w</mi><mi>k</mi></msub></mrow><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\sum_{k}w_{k}=1</annotation></semantics></math>.
+
+</div>
+<div class="ltx_listingline" id="alg1.l8">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">8:</span></span>  Generate the phase-compensated and weighted segment: <math alttext="r_{k}^{\prime}[n]\leftarrow w_{k}\,r_{k}[n]\,e^{j\theta_{k}}" class="ltx_Math" display="inline" id="alg1.l8.m1" intent=":literal"><semantics><mrow><mrow><msubsup><mi>r</mi><mi>k</mi><mo>′</mo></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">←</mo><mrow><msub><mi>w</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>r</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow><mo lspace="0.170em" rspace="0em">​</mo><msup><mi>e</mi><mrow><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>θ</mi><mi>k</mi></msub></mrow></msup></mrow></mrow><annotation encoding="application/x-tex">r_{k}^{\prime}[n]\leftarrow w_{k}\,r_{k}[n]\,e^{j\theta_{k}}</annotation></semantics></math> for all <math alttext="n=1,\dots,N" class="ltx_Math" display="inline" id="alg1.l8.m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>N</mi></mrow></mrow><annotation encoding="application/x-tex">n=1,\dots,N</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l9">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">9:</span></span>  Incrementally fuse the compensated segment: <math alttext="r_{\text{merged}}[n]\leftarrow r_{\text{merged}}[n]+r_{k}^{\prime}[n]" class="ltx_Math" display="inline" id="alg1.l9.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>r</mi><mtext>merged</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">←</mo><mrow><mrow><msub><mi>r</mi><mtext>merged</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><msubsup><mi>r</mi><mi>k</mi><mo>′</mo></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">r_{\text{merged}}[n]\leftarrow r_{\text{merged}}[n]+r_{k}^{\prime}[n]</annotation></semantics></math> for all <math alttext="n=1,\dots,N" class="ltx_Math" display="inline" id="alg1.l9.m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>N</mi></mrow></mrow><annotation encoding="application/x-tex">n=1,\dots,N</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l10">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">10:</span></span><span class="ltx_text ltx_font_bold">end</span> <span class="ltx_text ltx_font_bold">for</span>
+</div>
+<div class="ltx_listingline" id="alg1.l11">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">11:</span></span><span class="ltx_text ltx_font_bold">return</span> <math alttext="r_{\text{merged}}[n]" class="ltx_Math" display="inline" id="alg1.l11.m1" intent=":literal"><semantics><mrow><msub><mi>r</mi><mtext>merged</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mi>n</mi><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">r_{\text{merged}}[n]</annotation></semantics></math>, the coherence-enhanced computational antenna signal primed for downstream synchronization and demodulation
+
+</div>
+</div>
+</figure>
+<div class="ltx_para" id="S3.p5">
+<p class="ltx_p">For online continuous transmission processing, the signal processing at the receiving end involves dividing each symbol into four equal parts, replicating each symbol four times its original length, and then performing weighted averaging of the four signals to maintain consistent signal length. In offline local processing, the same signal is transmitted four times, and the four received signals are processed locally through weighted averaging.</p>
+</div>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">IV </span><span class="ltx_text ltx_font_smallcaps">Experimental Validation</span>
+</h2>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p">A USRP-based experimental platform is established ato validate the proposed method. The setup consists of a Computational Antenna RIS with <math alttext="16\times 16" class="ltx_Math" display="inline" id="S4.p1.m1" intent=":literal"><semantics><mrow><mn>16</mn><mo lspace="0.222em" rspace="0.222em">×</mo><mn>16</mn></mrow><annotation encoding="application/x-tex">16\times 16</annotation></semantics></math> elements, working at 5.8GHz, and a USRP-Y230 software-defined radio. The experimental setup, as depicted in the Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S4.F3" title="Figure 3 ‣ IV Experimental Validation ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">3</span></a>, illustrates the relative positions of the signal source, interference source, and RIS. The interference source and signal source are positioned adjacent to each other, emitting signals at the same frequency and direction. The RIS, configured for signal reception, is placed 11.5 meters from the transmitter. Due to the low transmit power of the USRP, a low-noise amplifier is employed at the receiver to enhance signal strength.</p>
+</div>
+<figure class="ltx_figure" id="S4.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="276" id="S4.F3.g1" src="png/position.png" width="568"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 3</span>: </span><span class="ltx_text" style="font-size:90%;">Relative position diagram of each object in the experiment</span></figcaption>
+</figure>
+<div class="ltx_para" id="S4.p2">
+<p class="ltx_p">The experiment was conducted in the B3 anechoic chamber of the Rohm Building at Tsinghua University to ensure a pure environment and high signal fidelity. The final configuration of the experimental platform is shown in the Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S4.F4" title="Figure 4 ‣ IV Experimental Validation ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">4</span></a>.</p>
+</div>
+<figure class="ltx_figure" id="S4.F4"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="202" id="S4.F4.g1" src="png/environment.png" width="568"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 4</span>: </span><span class="ltx_text" style="font-size:90%;">Experiment environment.</span></figcaption>
+</figure>
+<div class="ltx_para" id="S4.p3">
+<p class="ltx_p">Experiments were conducted under strong interference conditions, with jamming-to-signal ratios (JSR) of 0 dB and 5 dB. As depicted in Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S4.F5" title="Figure 5 ‣ IV Experimental Validation ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">5</span></a>, when the interference and signal strengths are equal (JSR = 0 dB), the received image quality experiences minor degradation, resulting in slight bit errors. To evaluate the performance, we analyzed the antenna radiation pattern, signal reception constellation diagram, and received image quality across different phase constants and after applying time-averaging. Following signal processing using the computational antenna, the SNR is improved by 3.4 to 8 dB, the bit error rate was reduced by up to 18.9%, and the distorted image is fully restored, demonstrating the effectiveness of the proposed method in mitigating interference and enhancing communication reliability.</p>
+</div>
+<figure class="ltx_figure" id="S4.F5"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="299" id="S4.F5.g1" src="png/JSR0dB.png" width="568"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 5</span>: </span><span class="ltx_text" style="font-size:90%;">Experimental results when JSR=0dB.</span></figcaption>
+</figure>
+<div class="ltx_para" id="S4.p4">
+<p class="ltx_p">When the jamming-to-signal ratio (JSR) reaches 5 dB, channel quality deteriorates due to intensified interference, leading to complete distortion of the transmitted image, which can be seen in Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S4.F6" title="Figure 6 ‣ IV Experimental Validation ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">6</span></a>. To enhance anti-interference performance, we configured eight sets of phase constants for corresponding experiments to further mitigate interference effects. Nevertheless, by applying signal processing with the computational antenna, the bit error rate was reduced by up to 80.9%, the distorted image is fully restored, demonstrating the robustness of the proposed method.</p>
+</div>
+<figure class="ltx_figure" id="S4.F6"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="323" id="S4.F6.g1" src="png/JSR5dB2.png" width="568"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 6</span>: </span><span class="ltx_text" style="font-size:90%;">Experimental results when JSR=5dB.</span></figcaption>
+</figure>
+<div class="ltx_para" id="S4.p5">
+<p class="ltx_p">It should be noted that under interference conditions, the most pronounced performance improvement is observed in the signal-to-interference-plus-noise ratio (SINR). However, our current calculation software is unable to provide precise SINR data. Nevertheless, based on the successful image recovery results, it is evident that the SINR has been significantly enhanced.</p>
+</div>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">V </span><span class="ltx_text ltx_font_smallcaps">Analysis and Discussions</span>
+</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p">To elucidate the distinctions between conventional communication signals and those modulated by computational antennas, employing the same signal processing algorithm, the following points are analyzed:</p>
+<ul class="ltx_itemize" id="S5.I1">
+<li class="ltx_item" id="S5.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S5.I1.i1.p1">
+<p class="ltx_p">In the absence of interference, weighted averaging of the four signals results in both the conventional signal and the computational antenna-modulated signal being in phase. However, as noise is random, it remains statistically indistinguishable after averaging. Consequently, the signal-to-noise ratio (SNR) for both signal types is enhanced.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S5.I1.i2.p1">
+<p class="ltx_p">In the presence of interference, as shown in Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.14362v1#S5.F7" title="Figure 7 ‣ V Analysis and Discussions ‣ Anti-Interference Communication Using Computational Antenna"><span class="ltx_text ltx_ref_tag">7</span></a>, the continuous interference signal maintains a consistent initial phase across its four equally divided segments. In contrast, the four communication signals modulated by computational antennas possess distinct initial phases. After alignment, the original signals become in-phase, while the interference signal, due to its uniform initial phase, undergoes phase shifts that lead to mutual cancellation. This process significantly improves the signal-to-interference-plus-noise ratio (SINR) and overall signal quality. However, for conventional signals, both the signal and interference are phase-continuous. As a result, after dividing into four equal parts and aligning, the signal and interference become in-phase and constructively combine, leading to no improvement in the signal-to-interference-plus-noise ratio.</p>
+</div>
+</li>
+</ul>
+</div>
+<figure class="ltx_figure" id="S5.F7"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="301" id="S5.F7.g1" src="png/contrast.png" width="538"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure"><span class="ltx_text" style="font-size:90%;">Figure 7</span>: </span><span class="ltx_text" style="font-size:90%;">Contrast between computational antenna signal and interference.</span></figcaption>
+</figure>
+<div class="ltx_para" id="S5.p2">
+<p class="ltx_p">Thus, our proposed algorithm, leveraging computational antennas, enhances the SNR under non-interference conditions and the SINR in the presence of interference. Although it provides no anti-interference advantages for conventional signals, it still improves SNR to a certain extent. This underscores the versatility and robustness of our algorithm across diverse signal environments.</p>
+</div>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">VI </span><span class="ltx_text ltx_font_smallcaps">Conclusions</span>
+</h2>
+<div class="ltx_para" id="S6.p1">
+<p class="ltx_p">This letter introduces a novel anti-interference communication approach utilizing Computational Antennas, which employs time-averaging with a 1-bit Reconfigurable Intelligent Surface (RIS) to enhance signal robustness without additional spectral resources. Through rigorous theoretical modeling and experimental validation on a USRP-based platform under strong interference conditions (JSR of 0 dB and 5 dB), the method achieves up to an 80.9% reduction in bit error rate (BER) and effectively restores distorted images in transmission tests. These outcomes demonstrate the method’s capability to maintain reliable communication in challenging electromagnetic environments. The findings position Computational Antennas as a promising solution for applications in radar detection, military communications, and future wireless systems like 6G. Future research will aim to enhance the communication protocol to enable real-time online processing of signal algorithms, improve computational efficiency and investigate the method’s adaptability across a broader range of operational scenarios.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+C. Lv and L. Zhou, “Anti-interference technology of communication system,” <em class="ltx_emph ltx_font_italic">J. Commun. Technol.</em>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Y. Zhang <em class="ltx_emph ltx_font_italic">et al.</em>, “6G wireless networks: Vision, requirements, and enabling technologies,” <em class="ltx_emph ltx_font_italic">IEEE Wireless Commun.</em>, vol. 30, no. 2, pp. 88–95, Apr. 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+P. Rysavy, “Challenges and considerations in defining spectrum efficiency,” <em class="ltx_emph ltx_font_italic">Proc. IEEE</em>, vol. 102, no. 3, pp. 386–392, Mar. 2014.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+L. M. D. Le, K. C. Teh, and K. H. Li, “Survey on diversity-combining techniques for interference suppression in fast frequency hopping systems,” <em class="ltx_emph ltx_font_italic">IET Commun.</em>, vol. 9, no. 12, pp. 1501–1509, Aug. 2015.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+P. Nayeri, F. Yang, and A. Z. Elsherbeni, <em class="ltx_emph ltx_font_italic">Reflectarray Antennas: Theory, Designs, and Applications</em>. Hoboken, NJ, USA: Wiley, 2018.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+C. Liu, F. Yang, S. Xu, and M. Li, “Reconfigurable metasurface: A systematic categorization and recent advances,” <em class="ltx_emph ltx_font_italic">Electromagn. Sci.</em>, vol. 1, no. 4, pp. 1–23, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+P. Nayeri, F. Yang, and A. Z. Elsherbeni, “Beam scanning reflectarray antennas: A technical overview and state of the art,” <em class="ltx_emph ltx_font_italic">IEEE Antennas Propag. Mag.</em>, vol. 57, no. 4, pp. 32–47, Aug. 2015.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+X. Zong, F. Yang, S. Xu, and M. Li, “A study of spatial quantization effects on reconfigurable reflectarray antennas,” <em class="ltx_emph ltx_font_italic">IEEE Antennas Wireless Propag. Lett.</em>, vol. 24, no. 8, pp. 2607–2611, Aug. 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+R. Kaur, B. Bansal, S. Majhi, <em class="ltx_emph ltx_font_italic">et al.</em>, “A survey on reconfigurable intelligent surface for physical layer security of next-generation wireless communications,” <em class="ltx_emph ltx_font_italic">IEEE Open J. Veh. Technol.</em>, vol. 5, pp. 172–199, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+G. C. Alexandropoulos, N. Shlezinger, and P. Del Hougne, “Reconfigurable intelligent surfaces for rich scattering wireless communications: Recent experiments, challenges, and opportunities,” <em class="ltx_emph ltx_font_italic">IEEE Commun. Mag.</em>, vol. 59, no. 6, pp. 28–34, Jun. 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+B. A. Abdelmagid, K. S. Choi, and H. Wang, “Time-modulated dynamic arrays for integrated communication and sensing: A review of opportunities, system considerations and challenges,” <em class="ltx_emph ltx_font_italic">IEEE J. Sel. Topics Electromagn., Antennas Propag.</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+H. Li, Y. Chen, and S. Yang, “Harmonic beamforming in antenna array with time-modulated amplitude-phase weighting technique,” <em class="ltx_emph ltx_font_italic">IEEE Trans. Antennas Propag.</em>, vol. 67, no. 10, pp. 6461–6472, Oct. 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+S. Liu <em class="ltx_emph ltx_font_italic">et al.</em>, “Programmable time-domain digital-coding metasurface for nonlinear harmonic manipulation,” <em class="ltx_emph ltx_font_italic">Natl. Sci. Rev.</em>, vol. 7, no. 12, pp. 1878–1886, Dec. 2020.
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 06:58:00 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

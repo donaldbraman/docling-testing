@@ -1,0 +1,1432 @@
+[
+  {
+    "text": "citizen shareholders: the state as a fiduciary in international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "eleanor l. thompson university of michigan law school",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "follow this and additional works at: https://repository.law.umich.edu/mlr",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "part of the human rights law commons, international law commons, and the international trade law commons",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "eleanor l. thompson, citizen shareholders: the state as a fiduciary in international investment law, 124 mich. l. rev. 155 (2025).",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "available at: https://repository.law.umich.edu/mlr/vol124/iss1/5",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "https://doi.org/10.36644/mlr.124.1.citizen",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "this note is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository. it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository. for more information, please contact mlaw.repository@umich.edu.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "citizen shareholders: the state as a fiduciary in international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "citizen shareholders: the state as a fiduciary in international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "international investment law provides stability for investors, helps capital flow across the globe, and can be a critical tool for sustainable development. this regime, however, has become increasingly controversial, in part due to its inability to reconcile investor obligations with competing human rights obligations. international investment treaties provide substantive guarantees to investors, including submission to binding arbitration in the event of breach. when found in breach of one of these guarantees, international investment arbitral tribunal awards are often in the hundreds of millions of dollars, potentially creating 'regulatory chill' for states that may otherwise take affirmative action to protect human rights out of concern that regulation may run afoul of their treaties' international investment provisions.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "some legal scholars have posited a fiduciary theory of statehood, whereby a state owes a fiduciary duty to its people, much like that in domestic corporate law. this note proposes looking to the fiduciary theory of statehood for a path forward. it then advocates for its implementation through three approaches: (1) the contractual approach (treaty drafting), (2) the judicial approach (interpretative methods for existing treaties), and (3) the atmospheric approach (norm diffusion among stakeholders). the fiduciary theory not only provides a principled method to prioritize human rights but also enhances the legitimacy of the international investment legal regime. this framework offers a timely, pragmatic solution as the international community actively reconsiders the balance between investor protection and state sovereignty.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in november 2007, the peruvian government granted a concession to bear creek mining corporation, a canadian company, to develop a silver",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "* j.d. candidate, may 2026, university of michigan law school. thank you to professor steven ratner for invaluable feedback on numerous drafts of this piece and to professor julian arato for first introducing me to international investment law. i am grateful to the vol. 124 notes team-luke pomrenke, suji kim, jacob c. león, ruben m. piñuelas, haley m. rogers, and dustin r. smith-for their excellent edits and improvements. to my family (mom, dad, clay, and uncle si) and friends, thank you for all your love and support. finally, to my grandfather, dennis britt, thank you for inspiring my love for the law. all errors are my own.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "mining project in the puno region near the border with bolivia. 1 the concession enabled bear creek to conduct fruitful exploration work and complete an environmental and social impact assessment. 2",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the project faced strong resistance from local communities, and social opposition was fierce: the mining project's camp was looted and burned down in 2008. 9 protests continued, growing increasingly violent with cities shut down, trade routes blocked, and several peruvian citizens injured or killed. 10 by 2011, the unrest reached a fever pitch-leading a newly elected government to issue supreme decree 032, which shut down the mining project entirely. 11",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in addition to being resource-rich, the area held cultural significance for the indigenous aymara people. 3 when approving the environmental and social impact assessment, the peruvian authorities instructed bear creek to set up community participation mechanisms. 4 of the more than thirty distinct communities that the project would impact, bear creek worked with only four. 5 bear creek 'did not understand the aymaras and . . . their communal relations.' 6 experts believed that the aymara people who participated in the outreach program were forced to attend and 'offer tacit approval.' 7 furthermore, all community outreach programs were conducted in spanish, and not the aymara community's native language. 8",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "1. bear creek mining corp. v. republic of perú, icsid case no. arb/14/21, award, ¶ 149 (nov. 30, 2017), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/ c3745/ds10808_en.pdf [perma.cc/3muj-d844]; stefanie schacherer, bear creek v. peru , iisd (oct. 18, 2018), https://www.iisd.org/itn/2018/10/18/bear-creek-v-peru [perma.cc/dz4hq3bm]. a mining concession is a kind of permit or license given by a government to a company that allows for the exploration and perhaps eventual resource extraction of a mine. mining concessions , land portal, https://landportal.org/es/taxonomy/term/8906 [perma.cc/s9hastgc].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, award, ¶¶ 168, 291.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "5. bear creek mining corp. v. republic of peru, icsid case no. arb/14/21, partial dissenting opinion, ¶¶ 24-26 (nov. 30, 2017), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c3745/ds10808_en.pdf [perma.cc/3muj-d844].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, award, ¶ 155.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "10. bear creek mining corp. v. republic of perú, icsid case no. arb/14/21, respondent's counter-memorial on the merits and memorial on jurisdiction, ¶ 7 (oct. 6, 2015), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c3745/dc6978_en.pdf [perma.cc/849d-78s3].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, award, ¶¶ 195, 202.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "in many instances, sovereign immunity would mean the end of this story. 12 the canada-peru free trade agreement, however, entitled bear creek to bring peru into binding arbitration, where they sought over $520 million (usd) 13 in damages. 14 in bear creek v. peru , bear creek alleged that by revoking the concession, the peruvian government had not afforded it fair and equitable treatment. 15 it also alleged that decree 032 amounted to an indirect expropriation. 16 either allegation, if proven, would amount to breach of substantive promises memorialized in the free trade agreement that peru made to canadian investors. peru argued that bear creek had not obtained a 'social license' to operate in the area. 17 further, peru asserted that bear creek should have known the state was a party to convention no. 169 of the international labor organization (ilo), which codifies indigenous peoples' right to consultation on projects pertaining to their lands. 18",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the tribunal's majority found for the investors, holding that peru failed to show a causal link between bear creek's activities and unrest in the area. 19 if peru wanted its indigenous peoples' human rights to be honored, the majority declared, it needed to have established its own framework for effective",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "generally, a state is not subject to the jurisdiction of courts and tribunals without its express consent. ugale anastasiya & kondrashov nikita, sovereign immunity from execution (in enforcement) , jus mundi (oct. 29, 2024), https://jusmundi.com/en/document/publication/ensovereign-inmunity-from-execution-in-enforcement [perma.cc/l82h-3jal]. the united states government, for example, has expressly consented to suit in rare instances. see, e.g. , administrative procedure act, 5 u.s.c. § 702; federal tort claims act, 28 u.s.c. § 2674; tucker act, 28 u.s.c. § 1346(a).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "all amounts contained herein are in usd, unless otherwise noted.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining v. peru , investment dispute settlement navigator , unctad, https://investmentpolicy.unctad.org/investment-dispute-settlement/cases/589/bear-creekmining-v-peru [perma.cc/san5-llrt].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "id. indirect expropriation is a governmental measure taken that deprives an investor of the use of their investment, even if the investment is not seized outright. this is also sometimes referred to as a 'regulatory taking.' un environment & iisd, a sustainability toolkit for trade negotiators § 5.44, https://www.iisd.org/toolkits/sustainability-toolkit-for-trade-negotiators/5investment-provisions/5-4-safeguarding-policy-space/5-4-4-indirect-expropriation-regulatorytaking [perma.cc/6m23-d2yy]. here, in canceling bear creek's concession, the peruvian government did not seize anything from bear creek in a literal sense but instead rendered its investment worthless since it no longer had the necessary government permissions.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, respondent's counter-memorial on the merits and memorial on jurisdiction, ¶ 24. for an exploration of the social license to operate (slo), see geert demuijnck & björn fasterling, the social license to operate , 136 j. bus. ethics 675, 675 (2016) (citations omitted) ('[t]he slo is conventionally defined as the acceptance or approval by local-if not indigenous-communities and stakeholders of a business enterprise's operations or projects in a certain area.').",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, respondent's counter-memorial on the merits and memorial on jurisdiction, ¶ 62.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek mining corp. , icsid case no. arb/14/21, award, ¶ 411.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "consultation with which investors could have complied. 20 the tribunal awarded bear creek over $20 million. 21",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "how might a state reconcile its obligations under an iia when they are at odds with its population's human rights? the answer is currently unclear. arbitral tribunals are divided over what measure of deference to afford states in fulfilling their human rights obligations. for example, in urbaser v. argentina , the tribunal found that investors must 'frame their expectations' of 'fair and equitable treatment' within the regime of 'universal basic human right[s].' 23 by contrast, the tribunal in suez v. argentina found argentina equally subject to both investment treaty and human rights obligations, unable to relax the former to accommodate the latter. 24",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "bear creek is not an isolated incident. given international investment law's broad scope, there is great potential for conflict between investors' rights under international investment agreements (iia) and human rights obligations. investment arbitration tribunal awards can be staggering, with tribunals awarding investors damages in the hundreds of millions of u.s. dollars. some scholars fear the concern over running afoul of iias creates 'regulatory chill' for states that would otherwise take affirmative action to protect their populations' human rights. 22",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in examining the modern understanding of state sovereignty, this note provides a clarifying framework, proposing that iias cannot derogate a state's obligation to protect its people's human rights through regulation. many legal scholars have posited an agent-principal theory of statehood, whereby a state acts as the agent on behalf of its population. 25 much like in corporate law, this",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "id. ¶ 738. note that the damages were reduced to this figure due to the speculative nature of the mining project's profitability rather than any acknowledgement of contributory fault by the investors. see id. ¶ 590.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "david r. boyd (special rapporteur on human rights and the environment), paying polluters: the catastrophic consequences of investor-state dispute settlement for climate and environment action and human rights , ¶¶ 49-52, u.n. doc. a/78/168 (july 13, 2023); gudrun monika zagel , india's international investment agreements (iias) and sustainable development: friends or foes? , 12 indian j. int'l econ. l. 1, 3 (2020); bruno simma, foreign investment arbitration: a place for human rights? , 60 int'l & compar. l.q. 573, 580 (2011).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "urbaser s.a. v. argentine republic, icsid case no. arb/07/26, award, ¶¶ 622-24 (dec. 8, 2016) https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c255/ dc9852_en.pdf [perma.cc/js8a-r2z5].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "suez v. argentine republic, icsid case no. arb/03/19, decision on liability, ¶ 262 (july 30, 2010), https://www.italaw.com/sites/default/files/case-documents/ita0826.pdf [perma.cc/6xdl-bkvj].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see, e.g. , cristina lafont, sovereignty and the international protection of human rights , 24 j. pol. phil. 427 (2016) [hereinafter lafont, sovereignty ]; christina lafont, neoliberal globalization and the international protection of human rights , 25 constellations 315 (2018); eyal benvenisti, sovereigns as trustees of humanity: on the accountability of states to foreign stakeholders , 107 am. j. int'l l. 295 (2013).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "agent-principal dynamic creates a fiduciary duty owed by a state to its people. 26 understanding the state as a fiduciary to its people, iias cannot be interpreted to allow states to contract away the ability to protect their populations' human rights. thus, under this conceptual framework, arbitral tribunals cannot resolve conflicts between iias and human rights obligations in a way that forces a state to breach its fiduciary duties to its people.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "part i of this note evaluates the current international investment law landscape, its advantages, and its relationship with human rights. part ii introduces the fiduciary theory and explores its moral, philosophical, and legal justifications. it then demonstrates how this theory is applied to international investment law. finally, part iii presents three different contexts for implementing the theory in practice, emphasizing why this is a critical moment for reform.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "i. international investment law and human rights: legal and factual background",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "international investment law governs access and standards of treatment for foreign investment. 27 the regime encompasses a myriad of legal mechanisms, but this note focuses on international investment agreements-the system's backbone. the international centre for settlement of investment disputes (icsid) describes iias as bilateral or multilateral treaties between states, that create procedures and protections for investors from one country investing in another country. 28 typical clauses contain assurances that the host government will afford investors 'fair and equitable treatment' (known as an fet clause), guarantees against expropriation of investments, and 'protection and security.' 29 in addition to substantive promises, iias typically include a provision whereby a host country submits to binding arbitration to settle a foreign investor's claim, whenever they should choose to bring one, that the host country's government violated the iia's terms. 30",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "26. see evan j. criddle & evan fox-decent, a fiduciary theory of jus cogens , 34 yale j. int'l l. 331 (2009); see also evan j. criddle & evan fox-decent, fiduciaries of humanity (2016) [hereinafter fiduciaries of humanity].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "27. lorenzo cotula, int'l inst. for env't & dev., democratising international investment law 3 (2015).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "28. investment treaties , icsid, https://icsid.worldbank.org/node/20271 [perma.cc/ ups6-yr2g].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "29. steven r. ratner, fair and equitable treatment and human rights: a moral and legal reconciliation , 25 j. int'l econ. l. 568, 572 (2022).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "30. primer on international investment treaties and investor-state dispute settlement , colum. ctr. on sustainable inv., https://ccsi.columbia.edu/content/primer-internationalinvestment-treaties-and-investor-state-dispute-settlement [perma.cc/93xc-qfwh].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "a. international investment law and its advantages",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "standardization, substantive guarantees, and enforcement provide stability and a more certain environment for international investment. when investors have assurances of fair and equitable treatment, guarantees against expropriation, and clear recourse for dispute resolution, they will be more likely to invest in foreign jurisdictions. foreign investment can be a win-win situation for foreign investors and participants in domestic economies alike. the european commission hailed foreign direct investment (fdi), which iias aim to facilitate, 31 as 'a driver of competitiveness and economic development.' 32 at the height of the covid-19 crisis, the world bank advocated for fdi as instrumental to developing economies' recovery. 33",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "for many of the same reasons that strong contract law is important in a domestic legal system, a strong international investment regime is equally desirable. in the united states, the uniform commercial code has been widely adopted by states, 37 partly to ensure certainty that contracting parties may receive the 'benefit of the bargain' across jurisdictions. 38 some scholars have argued that this formal legal system is key to creating economic stability. 39",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "aside from customary international law, 34 which is vaguely defined and difficult to outline, 35 most international law emanates from treaties. 36 a treaty is essentially a contract under which two or more states consent to bind themselves to agreed-upon parameters. iias, like contracts, allow states to agree ex ante upon the standards of treatment they want for their investors.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "foreign direct investments (fdi), eur. comm'n, https://ec.europa.eu/inter-nal_market/scoreboard/_docs/2021/12/integration-market-openness/fdi_en.pdf [perma.cc/ub77-hkjk].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "ceyla pazarbasioglu, reviving fdi flows is crucial to economic recovery in developing economies , world bank blogs: voices (june 12, 2020), https://blogs.worldbank.org/en/ voices/reviving-fdi-flows-crucial-economic-recovery-developing-economies [perma.cc/zka57sym].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "customary international law consists of rules that emerge from a combination of widespread state practice and opinio juris (the belief that certain conduct is undertaken because there is an obligation to do so). customary international law , eur. ctr. for const. & hum. rts., https://www.ecchr.eu/en/glossary/customary-international-law [perma.cc/6nrn-lvar].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see jörg kammerhofer, uncertainty in the formal sources of international law: customary international law and some of its problems , 15 eur. j. int'l l. 523 (2004).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "christopher greenwood, sources of international law: an introduction 2 (2008), https://legal.un.org/avl/pdf/ls/greenwood_outline.pdf [perma.cc /skb5-gjsk].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "u.c.c. (a.l.i. & unif. l. comm'n amended 2022).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see mark a. lemley, the benefit of the bargain , 2023 wis. l. rev. 237, 238-39 (2023).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see, e.g. , david m. trubek, reconstructing max weber's sociology of law , 37 stan. l. rev. 919, 921 (1985) (book review); david m. trubek, max weber's tragic modernism and the study of law in society , 20 law & soc'y rev. 573, 580-81 (1986) (book review); karl n. llewellyn, why we need the uniform commercial code , 10 u. fla. l. rev. 367, 370 (1957).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "commercial firms appreciate this certainty and seek similar levels of certainty in international investment law. 40",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "b. critiques of international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "states face complications when the duties they owe their populations directly conflict with investors' rights under iias. for example, in suez v. argentina , an investor sued argentina after its government forbade the investor from raising prices for water and sewage services amid a financial crisis. 41 in rejecting argentina's necessity defense, the tribunal stated:",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "argentina is subject to both international obligations, i.e. human rights and treaty obligation, and must respect both of them equally. under the circumstances of these cases, argentina's human rights obligations and its investment treaty obligations are not inconsistent, contradictory, or mutually exclusive. thus, as discussed above, argentina could have respected both types of obligations. viewing each treaty as a whole, the tribunal does not find that any of them excluded the defense of necessity. 42",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the tribunal proceeded to award the investors over $225 million. 43 awards of this scope are not unusual. in over a quarter of all investor-state dispute settlements (isds), tribunals awarded investors damages exceeding $100 million. 44 as of 2023, 127 isds claims sought damages over $1 billion. 45",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "see benny hutahayan, mohamad fadli, satria amiputra amimakmur & reka dewantara, investment decision, legal certainty and its determinant factors: evidence from the indonesia stock exchange , 11 cogent bus. & mgmt., apr. 2024, at 1-2, 11.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "suez v. argentine republic, icsid case no. arb/03/19, decision on liability, (july 30, 2010), https://www.italaw.com/sites/default/files/case-documents/ita0826.pdf [perma.cc/6xdl-bkvj].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "suez and interagua v. argentina , investment dispute settlement navigator , unctad, https://investmentpolicy.unctad.org/investment-dispute-settlement/cases/120/suez-and-interagua-v-argentina [perma.cc/fc7v-8hge]. indeed, there are numerous cases with similar necessity defenses and competing obligations in argentina alone. for additional examples, please see cms gas transmission co. v. argentine republic, icsid case no arb/01/8, award (may 12, 2005), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c4/dc50 4_en.pdf [perma.cc/5sfj-a4qg]; azurix corp v. argentine republic, icsid case no arb/01/12, award (july 14, 2006), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c5/dc507_en.pdf [perma.cc/tee4-aywr]; siemens a.g. v. argentine republic, icsid case no arb/02/8, award (feb. 6, 2007), https://www.italaw.com/sites/default/files/case-documents/ita0790.pdf [perma.cc/k358-gpyv]; sempra energy international v. argentine republic, icsid case no arb/02/16, award (sep. 28, 2007), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c8/dc694_en.pdf [perma.cc/734a-wmx4].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "unctad, compensation and damages in investor-state dispute settlement proceedings , iia issues note, sep. 2024, at 1, https://unctad.org/system/files/official-document/di-aepcbinf2024d3_en.pdf [perma.cc/s3st-8f7x].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "boyd, supra note 22, ¶ 4.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "the vast majority of these awards were made in disputes under the old generation of iias, which contain little to no guidance on damages and compensation. 46",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "for a lowor middle-income country, a billion-dollar judgment against it can be debilitating. for example, in april of 2025, the international monetary fund placed albania's gdp at roughly $28 billion. 51 with fourteen investor claims lodged against its government at the same time, half of its gdp could become subject to investor damage awards. 52 by contrast, the united states, despite having a gdp over one thousand times larger than albania's, 53 had only ten more claims against it. 54 additionally, while albania has been the home country to only one claimant, the united states has been home to 234 claimants engaged in isds proceedings. 55",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "these numbers are especially alarming considering that developing countries serve as respondents in almost 80% of investor-state arbitrations. 47 at first, this seems logical. after all, are these not the countries predominantly seeking foreign investment? but the data shows that investors disproportionately levy claims against these countries relative to the foreign investment the countries attract. latin american countries received 9.3% of global fdi in 2022, yet they were subject to 27.5% of all investor claims. 48 in the same year, african countries received 5.4% of fdi but were respondents in 16.2% of all claims. 49 not only are these countries disproportionately sued, but they also have lower rates of success in proceedings: developed countries won 53.6% of all cases lodged against them, while developing countries won a mere 33.3% of claims. 50",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "given these inhospitable conditions for developing economies, iias have the potential to create regulatory chill where states may otherwise act in protection of their populations' human rights. 56 for example, many countries",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "unctad, supra note 44, at 1.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "ryan stephan, is investment arbitration beneficial for developing countries? an empirical analysis , daily jus (june 27, 2024), https://dailyjus.com/world/2024/06/is-investmentarbitration-beneficial-for-developing-countries-an-empirical-analysis [perma.cc/fr7z-rg7s].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "albania , int'l monetary fund (apr. 2025), https://www.imf.org/external/datamapper/profile/alb [perma.cc/x8ep-ly2f].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "investment dispute settlement navigator , unctad, https://investmentpolicy.unctad.org/investment-dispute-settlement [perma.cc/2uwm-6wye].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see united states , int'l monetary fund (apr. 2025), https://www.imf.org/external/datamapper/profile/usa [perma.cc/qf3k-cgb4].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "unctad, supra note 52.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see sources cited supra note 22. for the purposes of this note, human rights are not amorphous, vaguely defined principles. instead, when referring to 'human rights,' the author means those rights enshrined in widely ratified treaties and conventions and often also adopted",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "have increased environmental regulations in the face of a dire climate crisis. these regulations will have a particular financial impact on the extractive and energy sectors, which accounted for 47% of all new icsid cases in 2021. 57 indeed, some experts estimate that state action across the globe in response to climate change could generate $340 billion in state liability. 58 more disturbing, this figure exceeds the total level of public climate finance in 2020 ($321 billion). 59",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "isds is undergoing a legitimacy crisis. criticism of the regime is widespread, voiced by stakeholders ranging from nongovernmental organizations to states themselves. 60 on balance, it is unclear whether international investment law unduly favors states. overall, states prevailed in 38% of cases between 1987and 2023, while investors prevailed 28% of the time. 61 upon closer inspection, however, states may not be faring as well as those numbers suggest. once jurisdictional challenges are removed from this sample (leaving only cases where tribunals considered the merits), investors prevailed on 60% of claims. 62 regardless of how the statistics break down, many states are losing into corresponding domestic law. for some examples of widely recognized human rights obligations please see those contained in the international covenant on economic, social and cultural rights, opened for signature dec. 19, 1966, 993 u.n.t.s. 3 (entered into force jan. 3, 1976); international convention on the elimination of all forms of racial discrimination, opened for signature mar. 7, 1966, 660 u.n.t.s. 195 (entered into force jan. 4, 1969); international covenant on civil and political rights, opened for signature dec. 19, 1966, 999 u.n.t.s. 171 (entered into force mar. 23, 1976); and convention on the rights of persons with disabilities, opened for signature mar. 30, 2007, 2515 u.n.t.s. 3 (entered into force may 3, 2008).",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "icsid releases 2021 caseload statistics , icsid (feb. 7, 2022), https://icsid.worldbank.org/news-and-events/comunicados/icsid-releases-2021-caseload-statistics [perma.cc/h2rl-ye6a].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "kyla tienhaara, rachel thrasher, b. alexander simmons & kevin p. gallagher, investor-state disputes threaten the global green energy transition , 376 science 701, 701 (2022); see also daniel m. firger & michael b. gerrard, harmonizing climate change policy and international investment law: threats, challenges and opportunities , in yearbook on international investment law & policy 2010/2011, at 517 (karl p. sauvant ed., 2011); boyd, supra note 22; lisa sachs, ella merrill & lise johnson, environmental injustice: how treaties undermine the right to a healthy environment , kluwer arb. blog (nov. 13, 2019), https://arbitrationblog.kluwerarbitration.com/2019/11/13/environmental-injustice-how-treaties-undermine-the-right-to-a-healthy-environment [perma.cc/72lq-znkk].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "tienhaara et al., supra note 58, at 703.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see, e.g. , the case against corporate courts , glob. just. now (jan. 31, 2019), https://www.globaljustice.org.uk/resource/case-against-corporate-courts [perma.cc/3chcaebd]; joshua briones & ana tagvoryan, is international arbitration in latin america in danger? , 16 law & bus. rev. ams. 131, 131-33 (2010).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "the remaining 34% of cases over this period were resolved via settlements, discontinuations, and findings of breach for which no damages were awarded. unctad, facts and figures on investor-state dispute settlement cases , iia issues note, nov. 2024, at 1, 3, 4, https://unctad.org/system/files/official-document/diaepcbinf2024d5_en.pdf [perma.cc/2mpm-zvzd].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "howard mann, isds: who wins more, investors or states? , inv. treaty news at 2 (june 2015) https://www.iisd.org/itn/wp-content/uploads/2015/06/itn-breaking-news-june2015-isds-who-wins-more-investors-or-state.pdf [perma.cc/65fe-gatt].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "patience. bolivia, ecuador, and venezuela have left the international centre for settlement of investment disputes entirely. 63 ecuador has gone so far as to place a ban on isds in its constitution. 64 additionally, from 2020 to 2023, more iias were terminated than brought into force. 65",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "although human rights-related claims have not 'overrun the dockets' of these tribunals, this is not an ancillary topic. 70 iias are vast, both temporally and conceptually. they are long-term treaties, often lasting indefinitely once they have entered into force, 71 covering a wide range of economic activity and industries. given the widespread ratification of certain human rights conventions, human rights obligations span across industries and encompass numerous actors. the indefinite and expansive scope of iias and the numerous",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "considering the landscape, it would be understandable if states subject to iias are hesitant to regulate for the protection of human rights such as the right to water, 66 the right of indigenous people to be consulted on matters concerning their ancestral land, 67 and the right to a clean, healthy, and sustainable environment. 68 increasing hesitance is further exacerbated by confusion over how these competing obligations are meant to interact. in suez , the tribunal merely held that the state must be equally subject to both obligations, without further guidance. 69 the logical conclusion of suez appears to be that states must, in fact, pay foreign investors to regulate in protection of their populations' human rights. the case law in this area is thin to begin with, and the few published opinions available provide meager instruction on how a state should proceed in these conflicts.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "63. casas manuel, denunciation of icsid convention , jus mundi (sep. 10, 2024), https://jusmundi.com/en/document/publication/en-denunciation-of-icsid-convention [perma.cc/q9dr-5jlr]; see also briones & tagvoryan, supra note 60.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "64. ecuador referendum rules out isds return, underlining public support for a sustainable path , iisd (apr. 22, 2024), https://www.iisd.org/articles/press-release/ecuador-referendum-rules-out-isds-return-underlining-public-support [perma.cc/m34h-5axt].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "65. unctad, trends in the investment treaty regime and a reform toolbox for the energy transition , iia issues note, aug. 2023, at 1, 2, https://unctad.org/system/files/official-document/diaepcbinf2023d4_en.pdf [perma.cc/zv4k-cb82].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "66. international covenant on economic, social and cultural rights, supra note 56, at art. 11(1); g.a. res. 64/292 (july 28, 2010).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "indigenous and tribal peoples convention, 1989, june 27, 1989, 1650 u.n.t.s. 383.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "68. g.a. res. 76/l.75 (july 26, 2022).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "69. suez v. argentine republic, icsid case no. arb/03/19, decision on liability, ¶ 262 (july 30, 2010), https://www.italaw.com/sites/default/files/case-documents/ita0826.pdf [perma.cc/6xdl-bkvj].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "70. simma, supra note 22, at 578.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "71. joachim pohl, temporal validity of international investment agreements: a large sample survey of treaty provisions 10 (oecd working papers on int'l inv., no. 2013/04, 2013), https://doi.org/10.1787/5k3tsjsl5fvh-en.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "economic and social rights to which states have committed themselves mean that clashes between the two bodies of law are highly likely, if not certain. 72",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "ii. thefiduciary theory of sovereignty",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "when human rights obligations conflict with investor rights, iias can be more clearly interpreted by understanding the state as a fiduciary. the fiduciary theory of sovereignty logically follows from a modern understanding of states' rights to exercise sovereign authority. 73 it provides a framework through which international investment law can be reconciled with a state's rights and obligations to protect its population's human rights. by recognizing the state as a fiduciary, stakeholders-such as treaty drafters, investors, and arbitrators-can better understand the nature of a state's authority when negotiating and entering into iias. furthermore, this theory clarifies that iias cannot be interpreted in a way that puts a domestic population's human rights in conflict with a foreign investor's rights under an iia.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "a. an introduction to the fiduciary theory of sovereignty",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory of sovereignty contends that the state's power is derived from the collective interests of its population. 74 in a fiduciary relationship, one party (the trustee) is given management power over another party (the beneficiary), allowing the trustee party to make choices on behalf of the beneficiary party. 75 to constrain this relationship, certain duties are placed on the trustee to ensure that they act to further the beneficiary's best interests. 76 this relationship exists in many contexts, but is perhaps most recognizable in corporate governance, discussed in greater detail later in this section.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "applying this fiduciary relationship to the state, all actions that a state takes must be in furtherance of its population's best interests and well-being. the state's consideration of obligations toward its people and their human rights is not a derogation of sovereignty. under a fiduciary theory, strengthening human rights protections reinforces sovereignty by giving the state a more effective 'shield' with which to undertake its fiduciary obligations. 77",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "72. simma, supra note 22 at 579. indeed, international arbitrator and former international court of justice judge bruno simma considered conflicts between these two areas to be 'inevitable.'",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "73. this modern notion of sovereignty stands in contrast to the debunked classical theory of sovereignty, which prioritized a state's autonomy above all else. see jean bodin, the six bookesofacommonweale 84 (kenneth douglas mcrae ed., harv. univ. press 1962) (1606). current understandings of sovereignty and international law discredit this school of thought. see fiduciaries of humanity, supra note 26, at 9.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "74. for a more in-depth articulation of this theory, including its implications outside of international investment law, see generally fiduciaries of humanity, supra note 26.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "77. see lafont, sovereignty , supra note 25, at 436-42.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "immanuel kant's political philosophy, familiar in other legal contexts and exemplified by the parent-child relationship, illustrates the normative underpinnings of the fiduciary relationship. kant's standard makes evident the types of relationships where fiduciary duties emerge. thus, equipped with a standard for identifying these obligations, the relationship between directors and shareholders in domestic corporate law-the paradigmatic examplecan be clearly analogized to the state and its citizenry. the philosophical explanation and the analogy to corporate law clarify how the fiduciary relationship works and why it should be applied to sovereign states.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "1. the kantian explanation",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "a fiduciary relationship can be better understood by looking at the kantian theory of right. kant believed that some rights were innate to personhood. 78 looking at the parent-child relationship, kant argues that, due to parents' unilateral act of procreation, they owe their children a duty of care. parents 'cannot destroy their child . . . since they have brought . . . a citizen of the world into a condition which cannot now be indifferent to them even just according to concepts of right.' 79 children have an innate right to their parents' care stemming from their intrinsic dignity as people. 80",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "kant also believed there was another innate right: 'the right to as much freedom' as possible while respecting in equal measure the freedom of others. 81 tovindicate each person's right to this freedom, public institutions must exist. 82 as professors evan j. criddle and evan fox-decent argue, international law affirmatively charges states with the creation of public institutions for the protection of a population's equal freedom. 83",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "there is a similar intrinsic dignity when looking at a citizenry. a population has very little choice about being subject to the sovereignty of the state. of course, modern notions of democracy and popular sovereignty empower a collective population to an extent, but it would be unheard of-even paradoxical-for individuals in a democracy to opt out of government rule entirely.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "none of this is to say that a population should be treated as incapable of making its own decisions. instead, a key feature of the fiduciary relationship is that the state exercises powers on behalf of a collective that cannot exercise those powers in an individual capacity. thus, while individuals are capable of and entitled to exercising certain tools of self-determination, some decisions require the coordinated mechanisms of the state.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "78. immanuel kant, the metaphysics of morals 63 (raymond guess ed., mary gregor trans., 1991) (1797).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "80. fiduciaries of humanity, supra note 26, at 25.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "2. the domestic corporate law analogy",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "in addition to its philosophical underpinning, the fiduciary theory of sovereignty can be understood by analogy to fiduciary duties in domestic corporate law. a corporation is defined by its separation of ownership and management. 84 the paradigmatic publicly held corporate entity has two key governing actors: directors and shareholders. 85 shareholders are the owners of the company, while the board of directors oversees the corporation's overall operations and exercises management power. a typical public company has millions of outstanding shares, if not billions. 86 thus, like a population, shareholders' ownership power is often diffuse and difficult to exercise in coordinated and collective ways. 87 thus, left unchecked, directors' management power can present an agency problem where the agent (directors) engages in opportunistic behavior at the expense of its principals (shareholders). 88 corporate law remedies this by placing fiduciary duties on directors. this safeguard includes a duty of good faith, whereby directors must act in the best interests of the corporation's shareholders. 89",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "such is the case for the state. sovereign power derives from a diffuse population but must be exercised and operationalized by a governmental entity. a government may, in theory, run the same risks of an agency problem as a corporate board. government officials can have interests that differ from the citizenry that they represent-they could be courted by lobbyists, have financial stakes in certain industries, or have political aspirations such that they use their governing power to act in ways that are not to their constituency's direct benefit. the constraint of fiduciary duties is thus as applicable to the state as it is to the corporation. fiduciary duties are one way to solve the agency problem",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "84. herbert hovenkamp, neoclassicism and the separation of ownership and control , 4 va. l. & bus. rev. 373 (2009); e.g. , del. code ann. tit. 8, § 141 (2025); model bus. corp. act § 8.01(b) (a.b.a. 2024).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "85. see akram krayem, what is corporate governance: purpose, benefits, actors, roles , governance @ work, https://governanceatwork.io/blog/what-is-corporate-governance [perma.cc/sy7h-2f7r].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "86. how many shares does a company have? understanding share structures , upcounsel (feb. 3, 2025), https://www.upcounsel.com/how-many-shares-does-a-companyhave [perma.cc/kt7p-dbym].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "87. for simplicity's sake, this note will discuss the corporate form only at its most basic level. thus, concepts such as proxy advisory firms and controlling stakes will not be discussed here.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "88. michael c. jensen, agency costs of free cash flow, corporate finance, and takeovers , 76 am. econ. rev. 323 (1986). as an example of a paradigmatic agency problem, imagine a director at company a who, on the side, owns his own consulting firm. when company a needs consulting services, this director may use his management power to ensure that his firm wins the consulting contract, perhaps even charging company a above-market consulting fees. to do so would be in the director's best interest but not that of the shareholders. while shareholders bear the consequences of such decisions, they themselves cannot exercise managerial control to vindicate their own interests.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "89. see, e.g. , in re walt disney co. derivative litig., 907 a.2d 693, 753-56 (del. ch. 2005), aff'd , 906 a.2d 27 (del. 2006).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "in a corporate context; constraining state sovereignty with fiduciary duties can solve the problem in a government context as well.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "b. the fiduciary theory of sovereignty and international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory provides a clarifying alternative to the status quo for understanding the state's obligations in the international investment context. the state can be understood as an agent, empowered on behalf of its principal-the population subject to its jurisdiction. when states enter iias, they act as agents on behalf of their citizenry. just as a company's board of directors may enter a contract on behalf of the company to benefit shareholders, states enter into iias with each other for the economic benefit of their respective populations. 90",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "when a state enters into an iia, it negotiates in its capacity as a fiduciary. a tribunal cannot understand the state to have negotiated purely for the government's own benefit or with any intention to undermine its population's human rights. to contract away the ability to protect its population's human rights would require an authority or power that does not belong to the state. to draw another parallel to the private domestic law context, when a director signs documents for their company, they are not authorized to negotiate to the company's detriment or for their own interest. a court in the united states would consider this behavior a breach of the executive's fiduciary duty and could invalidate the agreement altogether. 92 the fiduciary theory thus clarifies the nature of the state's authority and serves as a theoretical framework to understand the affirmative role that a state must play in protecting its population's human rights.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in negotiating iias, the state is contracting for the benefit of its people. entering into iias can invite foreign investment to stimulate the local economy, create jobs, and set clear expectations on both sides of the transaction. 91 thus, states enter into these agreements to further the best interests of their beneficiary population. but difficulties arise when human rights obligations come into conflict with investors' rights. this issue can be remedied by using the fiduciary theory of sovereignty as a guiding framework both in interpreting the iia in question and in understanding a state's authority to negotiate the agreement in the first place.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "90. for a discussion of the idea that an investment can fall under an iia only if it is for the explicit development of the host state, see generally dai tamada, must investments contribute to the development of the host state? the salini test scrutinised , in law and development: balancing principlesand values 95 (piotr szwedo, richard peltz-steele & dai tamada eds., 2019).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "91. see supra section i.a.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "92. see, e.g. , tornetta v. musk, 250 a.3d 793 (del. ch. 2019); coggins v. new england patriots football club, inc., 492 n.e.2d 1112 (mass. 1986).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "iii. thefiduciary theory and international investment law in practice",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory has numerous potential means of adoption. it can be implemented through the contractual approach, which informs how specific treaty provisions in next-generation iias are drafted. this approach suggests that states should explicitly incorporate the fiduciary theory into new iias going forward. the fiduciary theory can also be incorporated into the judicial approach, which focuses on the interpretation of existing treaties. the judicial approach advocates for arbitrators to consider the fiduciary theory when interpreting iias. finally, and perhaps most importantly, it can inform how practitioners think about international investment law and isds as a whole through the atmospheric approach. this approach, the most abstract of the three, encourages the diffusion and norm-casting of the fiduciary theory among key stakeholders using academic publications, amicus curiae submissions, country statements, and so on. because iias are vast agreements, foreign investor behavior can have massive implications on crucial human rights issues-from the right to water to the right to nondiscrimination in the workplace. as already discussed, this regime is adrift when it comes to reconciling this fundamental tension. the fiduciary theory provides not only a theoretical framework, but also an actionable path forward to lend legitimacy to an increasingly controversial legal regime.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "a. the contractual approach",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the contractual approach is the most concrete and direct way for states to implement the fiduciary theory of sovereignty in constructing iias. the premise is simple: insert specific provisions into new iias that better enables a state to regulate in protection of its population's human rights.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "some stakeholders have successfully advocated for new-generation iias as a tool to combat the potential tension between human rights and international investment law. 93 these new iias demonstrate that states are concerned about the right to regulate. three quarters of new-generation iias include provisions intended to protect the state's right to regulate. 94 exceptions clauses are one such example. these provisions, often using language lifted directly from the general agreement on tariffs and trade, provide that agreements",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "93. see, e.g. , unctad, towards a new generation of international investment policies: unctad's fresh approach to multilateral investment policy-making , iia issues note, july 2013, at 1, https://unctad.org/system/files/official-document/webdiaepcb2013d6_en.pdf [perma.cc/9pq9-xay2].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "94. unctad, international investment agreements trends: the increasing dichotomy between new and old treaties , iia issues note, oct. 2024, at 1, 5 [hereinafter increasing dichotomy ], https://unctad.org/system/files/official-document/diaepcbinf2024d4_en.pdf [perma.cc/7njj-qwbt].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "do not prevent the state from adopting measures 'necessary to protect human, animal or plant life or health.' 95",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "these provisions would be a redundancy measure, or a 'belt and suspenders' approach, given that an explicit provision would merely affirm rather than create the state's fiduciary duty to its people. redundancy measures, however, are used in both international and domestic law. 97 often, treaties merely codify existing international law and obligations that previously existed only through customary international law. 98 to include such a provision in iias, which reflect an existing notion of sovereignty, would be in line with the logic of treaties in general-memorializing obligations, preexisting or otherwise, to ensure that states receive the benefits of their bargains.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "specific treaty provisions could incorporate the fiduciary theory into iias. this approach fits well within current trends in international investment law, with some reformers pinning their hopes on new iias entering into force. 96 the fiduciary theory could serve as a guiding framework for treaty drafting, even if the treaty does not explicitly incorporate the theory. exceptions clauses in new-generation iias specify situations where the iia could apply but does not. by contrast, treaty provisions enacting the fiduciary theory of sovereignty would specify situations where a state's obligations to its people prevent it from contracting at all.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in addition to specific clarifying provisions, the fiduciary theory could also be fleshed out more fully in the preamble, or chapeau , which can inform a treaty's interpretation. 99 apreamble can speak directly to the object and purpose of a treaty, providing essential context for interpretation. 100 by referring to the state's role as a fiduciary-to a population with known human, social, economic, and cultural rights-specific provisions may be interpreted more faithfully to the state's intent. in the negotiating and drafting stage, states could also highlight the fiduciary theory such that it makes its way into the travaux préparatoires , or drafting history, of these treaties. though this is a secondary",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "95. general agreement on tariffs and trade, oct. 30, 1947, 61 stat. a-11, 55 u.n.t.s. 194, art. xx; see, e.g. , agreement for the promotion and protection of investments, can.-serb., art. 18, sep. 1, 2014, 2015 can. t.s. no. 6; agreement for the promotion and reciprocal protection of investments, can.-guinea, art. 18, may 27, 2015, 2017 can. t.s. no. 12; agreement for the promotion and protection of investments, can.-h.k., art. 17, feb. 10, 2016, 2016 can. t.s. 8.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "96. unctad, trends in the investment treaty regime and a reform toolbox for the energy transition , supra note 65, at 4.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "97. for an example in the domestic administrative law context, see ethan j. leib & james j. brudney, the belt-and-suspenders canon , 105 iowa l. rev. 735 (2020).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "98. greenwood, supra note 36, at 3-4.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "99. vienna convention on the law of treaties, art. 31, may 23, 1969, 1155 u.n.t.s. 331 (entered into force jan. 27, 1980) [hereinafter vclt]; see, e.g. , siemens a.g. v. argentine republic, icsid case no. arb/02/8, decision on jurisdiction, ¶ 81 (aug. 3, 2004), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c7/dc508_en.pdf [perma.cc/2ssqz5xg].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "100. zagel, supra note 22, at 13.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "resource for treaty interpretation, 101 the travaux could still place more specific provisions into context.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "yet, a contractual approach is far from a panacea. while exception clauses have worked well in international trade matters, they have had mixed results in the isds context. 103 tribunals often interpret provisions narrowly or in a way that does not provide true relief for the state.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the contractual approach is helpful because it can constrain arbitrators and give clearer effect to a state's intention in negotiating iias. if states are better able to give effect to their rights and intentions at the treaty-drafting phase, there is lower risk of those intentions being distorted through the obtuse process of judicial interpretation. furthermore, when negotiating newgeneration iias, states may consider imposing reciprocal obligations on investors, especially as they concern the protection of human and environmental rights. 102 to act as a fiduciary is to act affirmatively as a protector and only in the best interest of one's beneficiaries. thus, it may be appropriate for the state to impose reciprocal obligations onto investors to adequately satisfy its fiduciary obligations.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in eco oro , the colombian government awarded a mining concession to a canadian mining company in the páramo de santurbán area. 104 a decade later, the colombian supreme court struck down exceptions to the ban on mining in the páramos areas, citing a lack of public consultation. 105 as a result, eco oro was forced to renounce the concession. 106 eco oro subsequently filed suit under the free trade agreement between canada and colombia, alleging that colombia indirectly expropriated its investment and breached its obligation of fair and equitable treatment. 107 in response, the colombian government argued that the exceptions clause in their agreement relieved the state of any liability. 108 the tribunal interpreted the exceptions clause narrowly, ruling",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "vclt, supra note 99, art. 32; lori fisler damrosch, sean d. murphy & julian arato, international law: cases and materials 149 n.1 (8th ed. 2025).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "indeed, in recent years some states have already incorporated investor obligations in their iias. see increasing dichotomy , supra note 94, at 5. for an example of these obligations in current agreements, see supplementary act a/sa.3/12/08 adopting community rules on investment and the modalities for their implementation with ecowas, dec. 18, 2008, https://investmentpolicy.unctad.org/international-investment-agreements/treaty-files/3266/download [perma.cc/3kc9-abyz].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "103. julian arato, the institutions of exceptions , 47 mich. j. int'l l. (forthcoming) (manuscript at 5), http://dx.doi.org/10.2139/ssrn.5176248.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "eco oro minerals corp. v. republic of colombia, icsid case no. arb/16/41, decision on jurisdiction, liability and directions on quantum, ¶¶ 104-05 (sep. 9, 2021), https://www.italaw.com/sites/default/files/case-documents/italaw16212.pdf [perma.cc/x3zrgn9q].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "107. id. ¶ 76; see also free trade agreement, can.-colom., nov. 21, 2008, 2011 can. t.s. no. 11.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "108. eco oro , icsid case no. arb/16/41, decision on jurisdiction, liability and directions on quantum, ¶ 366.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "that although the provision permitted the state to act to protect its environment, the exceptions clause did not relieve the state from any obligation to pay damages. 109",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the contractual approach also requires negotiating parties to agree to the insertion of these provisions. it is difficult to imagine a state that is not interested in confirming its ability to comply with its international human rights obligations. but as noted above, certain countries are predominantly home to claimants; accordingly, these states may have different incentives and interests to vindicate than states that serve as repeat respondents. 111 nonetheless, claimant home states are still periodically targets of isds. for example, canadian investors brought a claim against the united states, seeking $15 billion for denying the permits necessary to build the keystone pipeline. 112 aside from the fact that all countries have an obligation to their citizenry to protect its human rights, all countries have an incentive to protect the exercise of their sovereignty.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "while the contractual approach can empower states to give more concrete effect to their intended bargains, tribunals may still find ways to interpret them narrowly or even in apparent contradiction of their express terms. grounding the provisions in the fiduciary theory may help resolve some of these weaknesses. by fortifying these exception-style clauses with the fiduciary theory's familiar philosophical thrust, arbitrators may be able to better understand the state's intent to protect its population's human rights. exceptions clauses do not typically give background information as to why a certain sector or measure is being excepted or excluded. 110 this dearth of context may be part of the reason that tribunals occasionally interpret these provisions counterintuitively. a preamble or chapeau provides much-needed context, especially where exceptions clauses have had comparatively little to ground their meaning.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the contractual approach attempts to give states more power as they negotiate iias and better constrain arbitrators whose perspectives on the parties' humanrights obligations may differ, resulting in inconsistent rulings. keeping the lesson of eco oro in mind, states should highlight the ideological thrust behind these new provisions where possible, referring to their role as fiduciaries to inform the object and purpose of their international agreements. as",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "109. eco oro minerals corp. v. republic of colombia, icsid case no. arb/16/41, award on damages, ¶ 829-31 (july 15, 2024), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c6086/ds19806_en.pdf [perma.cc/rbx8-gpuy].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "110. see, e.g. , free trade agreement between the government of australia and the government of the people's republic of china , june 17, 2015, [2015] ats 15 (entered into force 20 dec. 2015) art 9.8.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "111. see supra section i.b.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "112. transcanada corp. v. government of the united states of america, icsid case no. arb/16/21, request for arbitration, ¶¶ 9-15, 91 (june 24, 2016), https://www.italaw.com/ sites/default/files/case-documents/italaw7407.pdf [perma.cc/8965-hhq4].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "the only plenary subjects under international law, 113 the state owes a protectorate duty to its population, and this approach accordingly prioritizes the state. through the contractual approach, a state can take control of its bargain to ensure that it is satisfying its core duty as a fiduciary: to protect the human rights of its population.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "b. the judicial approach",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory can also inform arbitrators' interpretations of iias already in force. by using the theory as a background understanding of what the state can contract away in negotiating an iia, arbitrators can interpret existing fair and equitable treatment (fet) clauses in accordance with human rights obligations.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in bear creek , for example, the investors argued that by terminating their mining concession, the peruvian government interfered with their legitimate",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "most isds claims relate to breach of an fet clause. 114 fet clauses provide a base level of protection to foreign investors. 115 it can be unclear, however, what standard of treatment these clauses promise as they are often vaguely worded, especially in older generation iias. 116 tribunals have hewed to the notion that fet clauses protect a foreign investor's 'legitimate expectations.' 117 put differently, if an investor had a legitimate reason to expect one course of action and the state takes another, the investor may have a valid claim under the constituent treaty's fet clause. 118 this simply exchanges one vague set of terms for another. some arbitral tribunals require a clear promise from a government official to establish a legitimate expectation. 119 other tribunals, by contrast, have taken a more relaxed approach in determining whether a state has committed itself to regulatory stability, going so far as to consider preexisting regulation sufficient to give investors a reasonable expectation that the state's regulatory framework will remain in place. 120",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "see damrosch, murphy & arato, supra note 101, at 259-60.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "maria rocha, martin dietrich brauch & tehtena mebratu-tsegaye, advocates say isds is necessary because domestic courts are 'inadequate,' but claims and decisions don't reveal systemic failings , colum. ctr. on sustainable inv. (nov. 29, 2021), https://ccsi.columbia.edu/news/advocates-say-isds-necessary-because-domestic-courts-are-inadequate-claimsand-decisions-dont [perma.cc/2det-62mb].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see florencia sarmiento & suzy nikièma, fair and equitable treatment: why it matters and what can be done 2 (2022), https://www.iisd.org/system/files/202211/fair-equitable-treatment-en.pdf [perma.cc/t5tb-cx3c].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "ratner, supra note 29, at 572; sarmiento & nikièma, supra note 115, at 1-3.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "ratner, supra note 29, at 572-73.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "ugale anastasiya & knoll-tudor ioana, legitimate expectations , jus mundi (july 25, 2025), https://jusmundi.com/en/document/publication/en-legitimate-expectations [perma.cc/ n3qt-e6wm]. american jurists may understand this most readily as a reliance doctrine.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "expectations. 121 bear creek alleged that it had legitimate expectations that it would be able to mine in the region, and their disputes would not be resolved by merely terminating the concession. 122 based on this understanding, bear creek invested extensively in peru, both monetarily and through social and environmental programs. 123 thus, in terminating the concession, allegedly without notice or justification, 124 bear creek could make out a claim based on the canada-peru free trade agreement's fet guarantees. 125",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory can help clarify what constitutes a legitimate expectation for investors. human rights are just as much a part of a host state's legal framework as any other international obligation, as they come from the same sources: treaties, jus cogens , and customary international law. 128 first, investors must identify existing human rights obligations when performing their due diligence. second, they must understand the state's role in protecting human rights.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "legitimate expectations are meant to be objective, and not simply the result of an investor's wishful thinking. murphy v. ecuador held that to sustain an fet claim, investors must take an objective look at a host state's legal framework when forming legitimate expectations. 126 assessing this legal framework, tribunals have suggested there may be an incidental incentive that investors perform their due diligence, as the standard when forming legitimate expectations is what a prudent investor would have reason to know. 127",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "addressing the first prong, human rights obligations are indeed identifiable before an investor enters a host state. one option is that investors perform",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "121. bear creek mining corp. v. republic of perú, icsid case no. arb/14/21, award, ¶ 499 (nov. 30, 2017), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/ c3745/ds10808_en.pdf [perma.cc/3muj-d844].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "125. note, however, that the tribunal did not rule definitively on this claim as they had already determined that the revocation of the concession constituted an unlawful indirect expropriation. id. ¶ 533.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "126. murphy exploration & prod. co. int'l. v. republic of ecuador, pca case repository no. 2012-16, partial final award, ¶ 248 (may 6, 2016).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "127. see, e.g. , parkerings-compagniet as v. republic of lith., icsid case no. arb/05/8, award, ¶¶ 329-33 (sep. 11, 2007), https://icsidfiles.worldbank.org/icsid/ icsidblobs/onlineawards/c252/dc682_en.pdf [perma.cc/f5jn-upr6]; soles badajoz gmbh v. kingdom of spain, icsid case no. arb/15/38, award, ¶ 331 (july 31, 2019), https://www.italaw.com/sites/default/files/case-documents/italaw10836.pdf [perma.cc/j6k6sbus]; infrared env't infrastructure gp ltd. v. kingdom of spain, icsid case no. arb/14/12, award, ¶¶ 370-71 (aug. 2, 2019), https://www.italaw.com/sites/default/files/case-documents/ italaw11360.pdf [perma.cc/47jk-ftmh].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "128. international human rights law , united nations off. of the high comm'r on hum. rts., https://www.ohchr.org/en/instruments-and-mechanisms/international-humanrights-law [perma.cc/h9qg-jz4t].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "a 'human rights audit' before investing in a host state. 129 this way a state's existing, binding obligations to its population will inform an investor's legitimate expectations. this type of audit would certainly be best practice. but even without such an explicit endeavor, most, if not all, of the human rights the state is fiduciarily obligated to protect are well known. human rights have been identified through widely ratified treaties dating back at least seventy years. 130",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "particularly relevant for corporations, the international labor organization (ilo) declaration on fundamental principles and rights at work requires the right to freedom of association, collective bargaining, elimination of forced and child labor, elimination of employment and occupation discrimination, and a safe and healthy working environment. 131 the ilo has 187 states in its membership and considers all members, even if they have not ratified the conventions in question, [to] have an obligation, arising from the very fact of membership in the organization, to respect, to promote and to realize, in good faith and in accordance with the constitution, the principles concerning the fundamental rights which are the subject of those conventions . . . . 132",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "thus, these human rights obligations are easily discoverable and bind most states. additionally, for a corporation to satisfy the united nations guiding principles pillar ii responsibility to respect human rights, corporations should already be aware of them. 133 therefore, a human rights audit would not place new burdens on corporations to identify the specific obligations of the states in which they invest.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "corporations do not merely need to know what a state's human rights obligations are; they must also understand how these obligations constrain a",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "simma, supra note 22, at 594.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "the foundation of international human rights law , united nations, https://www.un.org/en/about-us/udhr/foundation-of-international-human-rights-law [perma.cc/7sjq-rjqy]; see supra note 56.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "fundamental principles and rights at work , int'l lab. org., https://www.ilo.org/projects-and-partnerships/projects/fundamental-principles-and-rightswork [perma.cc/rz3q-5zqw].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "int'l lab. org., the text of the declaration and its follow-up (2022), https://www.ilo.org/ilo-declaration-fundamental-principles-and-rights-work/about-declaration/text-declaration-and-its-follow [perma.cc/23sy-rqx4].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "in 2011, the united nations human rights council endorsed the 'responsibility to",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "protect' framework developed by professor john ruggie. background & history of the guiding principles , bus. & hum. rts. res. ctr., https://www.business-humanrights.org/en/big-issues/governing-business-human-rights/background-history-of-guiding-principles [perma.cc/7hfx-p8fb]. this three-pillar framework emphasizes the state's obligation to protect human rights (pillar i) and the corporation's responsibility to respect them (pillar ii). pillar ii characterizes the responsibility to protect as merely 'avoid[ing] infringing on the human rights of others.' john ruggie (special representative of the secretary-general), guiding principles on business and human rights: implementing the united nations 'protect, respect and remedy' framework , art. 11, hum. rts. council, u.n. doc. a/hrc/17/31 (mar. 21, 2011) [hereinafter unguiding principles ].",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "state's authority. the fiduciary theory can illuminate the scope of these constraints. with the fiduciary theory's clarification, the investor can better understand-and reasonably expect-what the state can, and more importantly, cannot contract away through an iia. at its core, the fiduciary theory is about the nature of a state's sovereignty. sovereignty is not a blank check to exercise illimitable power. instead, it is collective power bestowed by that state's citizenry to ensure they can exercise inalienable rights. consequently, contracting away the power to regulate in protection of a population's human rights through an iia is clearly outside the bounds of a state's valid exercise of sovereignty. 134",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "once investors and arbitral tribunals understand the state's role as a fiduciary and the resulting constraints on its sovereignty, there can be no legitimate expectation that an iia would preclude a state from protecting its population's human rights.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "under a legitimate expectations analysis, the bear creek tribunal would have been required to determine whether a prudent investor would have had reason to believe that peru would preserve the concession in those circumstances, as the case law is clear that legitimate expectations must be sensitive to the situation at hand. 135 given indigenous communities' right to consultation, codified in the widely ratified ilo convention 169, a prudent investor must know this human right exists. as a fiduciary, the government was under an express obligation to affirmatively protect this right. outreach to four out of the over thirty relevant communities in a language that was not their mother tongue fails to satisfy these communities' right to consultation. therefore, a prudent investor would expect that, given its inadequate attempt at consultation, the peruvian government would protect the aymara people's right to consultation.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "c. the atmospheric approach",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "the contractual and judicial implementations of the fiduciary theory are narrow and concrete. by contrast, the atmospheric approach seeks to change the norms of international investment by putting the logic of the fiduciary theory into the 'atmosphere.' this approach thus focuses on equipping all key participants with the elements required to incorporate the theory into their international investment engagements. if the fiduciary approach can inform how academics, investors, states, and practitioners think about international investment law and the state's role, it may also help to reduce the previously discussed structural barriers to the contractual and judicial approaches.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "134. see supra section ii.b.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "135. see, e.g. , pawlowski ag v. czech republic, icsid case no. arb/17/11, award, ¶ 290 (nov. 1, 2021), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "c6327/ds16910_en.pdf [perma.cc/c9nf-zlqg].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "a far more abstract approach than the former two, the atmospheric approach can be enacted in a myriad of ways by essentially any stakeholder. states can reference the fiduciary theory in treaty preambles, in statements made to the international community, or in iia negotiations with other states; academics can continue to reference the theory in their scholarship; and nongovernmental and civil society actors can feature the theory in their advocacy work targeted at states, arbitrators, and investors. additionally, any of these parties can argue the fiduciary theory through amici submissions in other isds cases. 136 perhaps most importantly, investors can consider the fiduciary theory when interacting with host state populations and when deciding whether to bring isds claims.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "as discussed earlier, arbitrators often hesitate to extinguish obligations owed to investors when considering a state's human rights obligations. 137 the contractual and judicial approaches are thus only as effective as arbitrators allow them to be. as seen in eco oro , a treaty provision can be interpreted narrowly and in seeming contradiction to its plain meaning and purpose. 138 the effectiveness of interpretive tools such as article 31(3)(c) of the vienna convention on the law of treaties 139 further depends on the willingness of a tribunal to recognize both that (a) human rights obligations constitute rules, and (b) that they are relevant to the present dispute. 140 even when a tribunal acknowledges a human right's existence, as observed in suez , 141 a tribunal may still enforce conflicting obligations owed to an investor. an integral part of the solution is to reshape internationally shared norms by advancing theoretical frameworks, such as the fiduciary theory, through which more robust human rights protections can be justified.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "136. icsid allows for submissions by non-disputing parties when the tribunal gives permission. non-disputing party and non-disputing treaty party submissions-icsid convention arbitration (2022 rules) , icsid, https://icsid.worldbank.org/procedures/arbitration/convention/ndp-submissions/2022 [perma.cc/6mxv-znhc]. this has been part of a trend toward greater transparency in isds, enabling outside stakeholders to play a greater role and often allowing for additional 'big picture' policy arguments to be made. svetlana portman & nusaybah muti, increased transparency under the new icsid rules: a way forward for isds legitimacy , daily jus (july 1, 2022), https://dailyjus.com/world/2022/07/increased-transparency-underthe-new-icsid-rules-a-way-forward-for-isds-legitimacy [perma.cc/ng8v-7uhy]. for an example of an ngo amicus submission flagging human rights concerns that were not raised by the disputing parties, see pac rim cayman llc v. republic of el salvador, icsid case no. arb/09/12, submission of amicus curiae brief (may 20, 2011), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c661/dc4255_en.pdf",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "[perma.cc/qx2r-tue3]. this is the exact kind of medium through which the atmospheric approach could be particularly effective.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "see supra notes 104-109 and accompanying text.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "this article commands that treaty provisions should be read in context with 'any relevant rules of international law applicable in the relations between the parties.' vclt, supra note 99, art. 31(3)(c).",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see simma, supra note 22, at 584-85.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see supra notes 41-43 and accompanying text.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "the atmospheric approach is not exclusively beneficial to state's human rights obligations but also empowers investors. it is the only approach of the three that does not rely entirely on either the state or an arbitral tribunal. as critical stakeholders in the system, investors are just as able as states and arbitrators to influence norms, the main thrust of the atmospheric approach. the fiduciary theory through this approach would allow investors to influence and solidify the legal framework to which they are bound.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "thinking of the state as a fiduciary may also open the door to new ways of thinking about international investors and isds. as a fiduciary to its people, the state has an affirmative obligation to further its population's best interests and protect its population's inalienable rights. this is confirmed through pillar i of the united nations guiding principles, which charges states with the responsibility to protect human rights. 144 to fulfill this obligation, states may need to take positive action, such as imposing explicit obligations on foreign investors, rather than just passive protection of its population against potential human rights abuses.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "additionally, by understanding the overarching theory at the atmospheric level, investors are incentivized to modify their own behavior to avoid infringing on the human rights of the local population. looking again to bear creek , 142 the right to consultation has reached a clear consensus in international law, as ilo convention no. 169 demonstrates. 143 investors can honor this right by setting up effective community outreach mechanisms-such as operating in the population's native language and engaging all relevant communities-and thus avoid implicating the state's known fiduciary duty.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "the second pillar of the united nations guiding principles states that all businesses have a responsibility to respect human rights. 145 a responsibility is less binding than an obligation, and respecting human rights is far more passive than affirmatively protecting human rights. this is a relatively lax 'do no harm' 146 standard, and critics have argued that pillar ii is inadequate. 147 under",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "see supra notes 121-125 and accompanying text.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see indigenous and tribal peoples convention, 1989, supra note 67.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "unguiding principles , supra note 133, art. 1.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "see david birchall, the consequentialism of the un guiding principles on business and human rights: towards the fulfilment of 'do no harm' , 24 elec. j. bus. ethics & org. stud., no. 1, 2019, at 28.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "david bilchitz & surya deva, the human rights obligations of business: a critical framework for the future , in human rights obligations of business: beyond the corporate responsibility to respect? 1 (surya deva & david bilchitz eds., 2013); un human rights council: weak stance on business standards , hum. rts. watch (june 16, 2011), https://www.hrw.org/news/2011/06/16/un-human-rights-council-weak-stance-businessstandards [perma.cc/tv8x-53jw]; rené wolfsteller & yingru li, business and human rights regulation after the un guiding principles-a critical assessment , rts. as usual (july 20, 2022), https://rightsasusual.com/2022/07/20/business-and-human-rights-regulation-after-the-unguiding-principles-a-critical-assessment [perma.cc/bsq7-trgy]; brigitte hamm, the struggle",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "the fiduciary theory, the state might need to demand more. to perform its fiduciary duty, the state could use iias to impose more demanding human rights obligations on international investors rather than merely attempting to defend against legal claims.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "through the atmospheric approach, the overarching fiduciary theory's moral underpinnings can serve as a normative basis to remedy the asymmetrical nature of international investment law. states bind themselves to guarantees against expropriation, to minimum standards of treatment, and to arbitral jurisdiction; yet very few iias require reciprocal obligations from investors. 152 as mentioned earlier in the context of the contractual approach, a state may consider adding reciprocal obligations on investors to better dispatch its duty as a fiduciary. 153 a fiduciary duty is affirmative, requiring the state to act as a protector of its beneficiaries. thus, given the potential gaps or weaknesses of pillar ii of the united nations guiding principles, it may be appropriate to impose reciprocal obligations onto investors.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in the domestic commercial law context, fiduciary duties include a duty of good faith. 148 the duty of good faith prohibits the conscious disregard of known duties. 149 it further requires that fiduciaries act in the best interest of the beneficiary entity. 150 as seen in the international law scholarship, conceiving of the state as a fiduciary imagines it as more than a passive repository of sovereignty. 151 instead, a state's legitimacy is derived from its mandate to act for the benefit of its people. this understanding is reflected in pillar i of the united nations guiding principles: the state has an affirmative obligation to protect its population's human rights. with the fiduciary theory animating, this command more strongly compels the state to protect human rights. protection is not a passive endeavor. it must be pursued actively in all areas where the state exercises sovereignty.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "some states have already begun this process. for example, india has begun imposing obligations upon investors and emphasizing the government's right to regulate. 154 like most attempts at reform, india's new iias have been implemented with mixed results. the indian government has only succeeded for legitimacy in business and human rights regulation-a consideration of the processes leading to the un guiding principles and an international treaty , 23 hum. rts. rev. 103, 106 (2021).",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "148. for simplicity, we will be looking at delaware jurisprudence, the epicenter of incorporation in the united states and thus home to most of these legal disputes. in re walt disney co. derivative litig., 907 a.2d 693, 753-56 (del. ch. 2005), aff'd , 906 a.2d 27 (del. 2006).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "151. fiduciaries of humanity, supra note 26; lafont, sovereignty , supra note 25; benvenisti, supra note 25.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "152. kraijakr thiratayakinant, investors' obligations under iias: toward a practical solution 1, colum. fdi persps. (feb. 5, 2024), https://ccsi.columbia.edu/sites/default/files/content/docs/fdi%20perspectives/no%20376%20-%20thiratayakinant%20-%20final.pdf [perma.cc/39e7-x2fy].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "153. see supra section iii.a.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "154. zagel, supra note 22, at 10-11.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "in renegotiating bilateral investment treaties with brazil, belarus, and kyrgyzstan-none of which have entered into force. 155 this again illustrates the limitations of a contractual approach: without changes to international investment law norms, the contractual and judicial approaches' successes will be limited. the atmospheric approach is thus an important first step to orienting states, investors, and practitioners toward a framework that prioritizes the state's protectorate role.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "counterclaims in isds are gaining more attention, 156 especially in the aftermath of urbaser v. argentina . 157 urbaser, a spanish company, was a shareholder in an argentine concessionaire tasked with providing water and sewage services. 158 due to a domestic financial crisis, the argentina government took emergency measures, resulting in the concessionaire's insolvency. 159 urbaser initiated proceedings pursuant to the argentina-spain bilateral investment treaty, alleging an indirect expropriation and violation of fair and equitable treatment. 160",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in addition to the asymmetry of obligations, there is also an asymmetry in the vindication of claims. under the fiduciary theory, the state must do more than merely defend against investor claims using its fiduciary duty as a defense. again, if the state is imagined as a parent or protector, then acting defensively alone is not enough. instead, to fulfill its role as a fiduciary, the state should seek justice when international investors violate a population's human rights, assuming a cause of action can be pursued through the constitutive iia.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "argentina counterclaimed, alleging that the concessionaire's failure to invest sufficiently in water and sewage services violated its population's human",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "155. harshad pathak & shantanu singh, deconstructing india's evolving approach toward international investment agreements , iisd (july 1, 2023), https://www.iisd.org/itn/en/2023/ 07/01/deconstructing-indias-evolving-approach-toward-international-investment-agreements [perma.cc/6pv6-4g9j].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "156. see, e.g. , mees brenninkmeijer & fabien gélinas , counterclaims in investment arbitration: towards an integrated approach , 38 icsid rev. 567 (2023); kiran nasir gore, opportunities for esg-related counterclaims in international investment arbitrations: a trip down the rabbit hole , kluwer arb. blog (apr. 17, 2024), https://arbitrationblog.kluwerarbitration.com/2024/04/17/opportunities-for-esg-related-counterclaims-in-international-investment-arbitrations-a-trip-down-the-rabbit-hole [perma.cc/vlj3-m2jj]; noor kadhim, counterclaims at icsid: a rising trend? , lexisnexis (mar. 6, 2023), https://www.lexisnexis.co.uk/blog/research-legal-analysis/counterclaims-at-icsid-a-rising-trend [perma.cc/992p-sujw].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "157. urbaser s.a. v. argentine republic, icsid case no. arb/07/26, award (dec. 8, 2016), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c255/dc9852_en.pdf [perma.cc/js8a-r2z5].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "158. urbaser s.a. v. argentine republic, icsid case no. arb/07/26, decision on jurisdiction, ¶¶ 28-31 (dec. 19, 2012), https://www.italaw.com/sites/default/files/case-documents/italaw1324.pdf [perma.cc/4e6r-7tlw].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "right to water. 161 notably, the tribunal agreed that it had jurisdiction over argentina's counterclaim, recognizing the human right to water. 162 the tribunal acknowledged that certain human rights obligations can, in theory, be imposed directly on corporations. 163 but the tribunal also emphasized that there must be a provision in the treaty to place positive, rather than negative, obligations on corporate entities. 164",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "in thinking creatively about international investment law to satisfy a state's obligations as a protectorate, other methods this note explores may come into consideration. the central consequence of the atmospheric approach is that it encourages all stakeholders to consider for whom this system exists: the people. whether through treaty provisions, judicial interpretation, or a complete reimagining of the system's architecture, the atmospheric approach demands an interrogation of the entire regime.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "d. why the fiduciary theory will not have a chilling effect on international investment law",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "given that international investment law is a legal regime meant to encourage international investment, some might hesitate to embrace an interpretation of iias based on the fiduciary theory. yet the fear that the fiduciary framing of iias will chill foreign investment is misplaced. the importance of iias to investors rests in their resulting stability and predictability, rather than the particular substantive guarantees that a state provides. for example, some iias specify a much more robust definition of fet than others, offering higher standards of protection. 165 given that the trend is moving toward more minimal standards of fet protection, 166 tweaks in the details of protections offered to investors do not appear to strike at the core of this regime or result in hordes of investors walking away.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "international investment arbitration, as it currently stands, is vastly unpredictable. arbitral tribunals have considered numerous questions reaching disparate results, such as the role of competing human rights obligations, contributory fault, and damage calculations. 167 this proposed framework will",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "161. urbaser s.a. , icsid case no. arb/07/26, award, ¶ 36.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "162. id. ¶ 1196-97, 1205.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "165. compare agreement between australia and japan for an economic partnership , signed july 8, 2014, [2015] ats 2 (entered into force jan. 15, 2015) art. 14.5 (offering the minimum standard of treatment of aliens from customary international law as the benchmark for fet offered to investors) with agreement between the government of the people's republic of china and the government of the republic of albania on the encouragement and reciprocal protection of investments , feb. 13, 1993, art. 3.1, alb.-china, tiaoyue ji (providing an unqualified reference to fet).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "166. sarmiento & nikièma, supra note 115, at 1-3.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "167. as already mentioned, the disparities in the human rights context can be seen in comparing urbaser s.a. v. argentine republic, icsid case no. arb/07/26, award, ¶¶ 622-24 (dec.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "continue to faithfully serve investors' interests even if it provides fewer arbitrage windfalls. on average, it costs claimants over $6 million to mount an isds case. 168 thus, investors have clear incentives to seek certainty: a system that produces systematic and dependable results is preferable to a system that erratically provides massive payouts for investors.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "as states increasingly question international investment law's legitimacy and abandon the regime, it is preferable to investors for the regime to adapt and survive rather than remain rigid and risk collapse. in addition to providing substantive guarantees and stability to investors, iias can be win-win policy tools. new-generation iias often help to open foreign markets, facilitate investment, promote cooperation, and advance sustainable development goals. 169 for example, transparency provisions are becoming increasingly common, whereby states commit to the publication and easy access of all laws and regulations potentially relevant to foreign investors. 170 iias can also facilitate the entry of employees and foreign investor leadership into the country, often circumventing traditional immigration bureaucracy. 171 investors stand to gain more from a robust and healthy international investment legal landscape than one in crisis, and this requires a functional reconciliation of human rights obligations with investor obligations.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "as mentioned in section iii.c, these approaches incentivize investors to identify and respect human rights obligations to avoid triggering a state's mandatory role as a fiduciary. part of the reason that this regime emerged in the first place was to invite investment in foreign jurisdictions by providing investors the stability they needed. the fiduciary theory provides this same stability by creating clear boundaries that must be respected, lest the state be required to intervene.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "although cases where human rights directly conflict with investor obligations make up a small proportion of investor-state disputes, a regime's inability to definitively order these obligations strikes at the very core of international investment law's perceived legitimacy. very few investors will",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "8, 2016), https://icsidfiles.worldbank.org/icsid/icsidblobs/onlineawards/c255/ dc9852_en.pdf [perma.cc/js8a-r2z5] with suez v. argentine republic, icsid case no. arb/03/19, decision on liability, ¶ 262 (july 30, 2010), https://www.italaw.com/sites/default/files/case-documents/ita0826.pdf [perma.cc/6xdl-bkvj]. for an illustration on damages, see unctad, compensation and damages in investor-state dispute settlement proceedings , supra note 44.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "168. matthewhodgson,yarik kryvoi & daniel hrcka, brit. inst. int'l & compar. l. & allen & overy, 2021 empirical study: costs, damages and duration in investorstate arbitration 10 (june 2021), https://www.biicl.org/documents/136_isds-costs-damages-duration_june_2021.pdf [perma.cc/67gy-upkf].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "169. see increasing dichotomy , supra note 94, at 5.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "170. unctad, investment facilitation in international investment agreements: trends and policy options , iia issues notes, sep. 2023, at 1, 4, https://unctad.org/system/files/officialdocument/diaepcbinf2023d5_en.pdf [perma.cc/tp6x-g7ff].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "ever be directly impacted by the fiduciary theory and its prioritization of human rights obligations-but most foreign investors will be impacted should states continue to abandon iias and isds.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "e. why the time is right for the fiduciary theory",
+    "label": "section_header",
+    "layer": "unknown"
+  },
+  {
+    "text": "as seen in eco oro , all three approaches to the fiduciary theory are limited by the extent to which arbitrators embrace them. investor-state disputes are adjudicated through ad hoc arbitral forums. 172 typically, three arbitrators are selected: one by the claimant, one by the respondent, and a chair agreed upon by the two selected arbitrators. thus, arbitrators are in some ways beholden to their litigants. to be selected for the next arbitration in a system with repeat players, arbitrators may be incentivized to signal sympathies one way or another. 173",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "additionally, the ad hoc nature of these arbitrations can impact how arbitrators view their roles and subsequently how they rule. tribunals emphasizing a lawmaking role are more likely to take larger public policy considerations into account. 176 by contrast, tribunals emphasizing a dispute-settling role tend to account less for these policy considerations. 177 in isds, arbitrators may emphasize the resolution of the present dispute and downplay big picture issues, such as the protection of human rights.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "given that these tribunals are ad hoc, arbitrators often work simultaneously as lawyers and scholars in the same field. 174 again, this can present perverse incentives. a lawyer who consistently represents claimants will likely bring this bias into arbitration, as will one who consistently represents respondents. indeed, professor mosche hirsch has noted the increasing polarization in the field, with practitioners often hewing to either pro-investor or pro-state positions. 175",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "given arbitrators' 'private law, dyadic approach to decision-making, with its origins in international commercial arbitration,' 178 a regime grounded in private corporate law concepts may be embraced more readily by arbitrators.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "172. rachel cahill-o'callaghan, anna howard & stavros brekoulakis, influence in investor-state dispute settlement: a dynamic concept , 14 j. int'l disp. settlement 24, 25 (2023).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "173. dafina atanasova, vincent beyer & josef ostransky, iisd, compensation and damages in investor-state dispute settlement 9-10 (2024), https://www.iisd.org/system/files/2024-09/compensation-damages-isds-reform.pdf [perma.cc/vyr3-7qup].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "174. moshe hirsch, the sociological dimension of international arbitration: the investment arbitration culture , in the oxford handbook of international arbitration 717, 719 (thomas schultz & federico ortino eds., 2020); yves dezalay & bryant g. garth, dealing in virtue: international commercial arbitration and the construction of a transnational legal order 49-51 (1996).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "175. hirsch, supra note 174, at 723.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "ratner, supra note 29, at 589.",
+    "label": "list_item",
+    "layer": "unknown"
+  },
+  {
+    "text": "with this framework in mind, the fiduciary theory will influence tribunals less focused on public policy in their consideration of human rights obligations. arbitrators do not need to guess at the ideal policy outcomes when balancing a domestic population's human rights against an investor's rights. instead, the legal framework is clear. the state, as a fiduciary, has no ability to contract away the power to protect its population. any interpretation to the contrary invalidates the agreement due to breach of the fiduciary duty. so long as a human rights interest is identified, this duty-obligation defense is accessible to the state. just as a domestic commercial arbitrator or judge can identify breaches of fiduciary duties in corporate disputes, an international investment arbitrator is equally capable.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "for example, the idea of a multilateral, standing court of arbitration is gaining traction within the field. a standing court of investor-state arbitration could, in an instant, remedy some of the structural barriers mentioned above. the european union has advocated for the creation of such an institution since 2015 and has even begun drafting some of its iias with explicit reference to such a court. 181 additionally, the united nations commission on international trade law (uncitral), responsible for commercial law reform and international arbitration rules, released a draft proposal for such a body in 2021. 182 uncitral working group iii has featured this proposal prominently on its agenda throughout 2024 and 2025. 183",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "although packaging a theory of human rights prioritization in private law concepts may lead to wider adoption by arbitrators, other actors may not readily embrace the fiduciary theory due to the current ad hoc system's incentives. this is not to say that the theory is without value. as mentioned earlier, isds and international investment law are weathering a legitimacy crisis. 179 some scholars and practitioners believe that the remedy to this crisis is to reform the constituent treaties; a viewpoint into which the contractual approach falls. 180 others advocate for an arbitral process-based approach.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "179. see supra section i.b.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "180. see, e.g. , unctad, towards a new generation of international investment policies , supra note 93.",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "181. multilateral investment court project , eur. comm'n, https://policy.trade.ec.europa.eu/enforcement-and-protection/multilateral-investment-court-project_en [perma.cc/tu9e-haxj].",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "182. uncitral working group iii, possible reform of investor-state dispute settlement: standing multilateral mechanism (isds), ¶ 1, u.n. doc. a/cn.9/wg.iii/wp.213 (dec. 8, 2021).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "183. ajoo kim, 2024 in review: isds reforms-busy business and progress , kluwer arb. blog (jan. 21, 2025), https://arbitrationblog.kluwerarbitration.com/2025/01/21/2024-in-review-isds-reforms-busy-business-and-progress [perma.cc/9j7z-bd4d]; see also uncitral working group iii, possible reform of investor-state dispute settlement: draft statute of a standing mechanism for the resolution of international investment disputes, u.n. doc. a/cn.9/wg.iii/wp.239 (feb. 8, 2024).",
+    "label": "footnote",
+    "layer": "unknown"
+  },
+  {
+    "text": "skeptics of the fiduciary theory may point to the perverse incentives and systemic resistance of arbitrators, but this takes for granted that the system will remain in its current form. instead, it appears increasingly clear that this system must transform to survive. the latter two vehicles for the fiduciary theory, the judicial and atmospheric frameworks, would particularly complement this change in regime. all the judiciary approach requires to become actionable is amenable arbitrators, which will be more readily available with a standing court of arbitration. arbitrators not beholden to certain types of parties will be more free to consider the public policy implications of their decisions. the adoption of the atmospheric approach by these arbitrators during this lead-up period will be transformative. it is more important than ever to disseminate theoretical frameworks through which stakeholders can understand and prioritize human rights obligations. even if those who adopt the theory are not the arbitrators of today, they may be sitting on the bench tomorrow.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "at its best, international investment law can facilitate economic growth, connect economies across the globe, and help states attract investment for particular industries to enhance economic resilience. 184 this regime can be a tool for good, but it is fundamentally undermined by its complicated relationship with human rights. human rights are not for sale. nor are they a bargaining chip at the negotiating table. instead, the protection of a citizenry's human rights is a state's raison d'être. bear creek v. peru , suez v. argentina , and eco oro v. colombia are important reminders of how international investment law can fail those people and purposes it is meant to serve. frustration is growing, and there is a real danger that this system will cease to be viable if these fundamental failures continue.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "by approaching international investment law with the fiduciary theory of sovereignty in mind, the regime's purpose to protect its investors' interests can be reconciled with the state's obligation to protect its population's human rights. it clarifies the state's authority when entering into iias and can help redirect a legal regime in crisis. this system could accomplish a lot of goodif it is realigned to serve those from whom state sovereignty emanates. protecting a citizenry's inalienable rights should be worth the investment.",
+    "label": "text",
+    "layer": "unknown"
+  },
+  {
+    "text": "this note offers a theory whereby a state's capacity to enter into iias is defined and constrained by its role as a trustee of its people. the state's right to act and regulate in the interest of its people and their human rights is not derogable by way of any iia because the state does not have the authority to sign away their duty to protect. through the contractual, judicial, and atmospheric approaches, the fiduciary theory can clarify exactly what the state and investors are committing when entering into an iia.",
+    "label": "text",
+    "layer": "unknown"
+  }
+]

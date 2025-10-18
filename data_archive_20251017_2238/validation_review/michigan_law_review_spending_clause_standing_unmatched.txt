@@ -1,0 +1,830 @@
+UNMATCHED LINES FOR: michigan_law_review_spending_clause_standing
+================================================================================
+Total unmatched: 118
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/118
+Best match score: 45.45%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this note is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/118
+Best match score: 47.44%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/118
+Best match score: 72.62%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+the biden administration's american rescue plan act allotted almost $220 billion to state, local, and tribal governments to help combat the covid-19 pandemic.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/118
+Best match score: 65.19%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+but the legislation had one key limitation: recipients could not use the money to 'directly or indirectly' cut their taxes.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/118
+Best match score: 80.36%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+with no precedent on when states can challenge congressional spending legislation, the cases navigated standing's incoherent doctrine to craft new rules.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/118
+Best match score: 76.89%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+instead of adhering to standing doctrine's core separation-of-powers principles, a majority of the involved circuit courts have enabled states to readily air their policy grievances in federal court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/118
+Best match score: 75.36%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+3 the cslfrf empowered states and local governments to spend on programs of their own choosing 4 -granting recipients wide discretion, but not a blank check.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/118
+Best match score: 84.08%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+8 several states, whether or not they had tax cuts planned, recoiled at a perceived coercive congressional limitation on their sovereign power.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 9/118
+Best match score: 71.48%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+9 the states also argued that the 'directly or indirectly' language was impermissibly ambiguous-what did it mean to 'indirectly' cut taxes?
+
+────────────────────────────────────────────────────────────────────────────────
+Line 10/118
+Best match score: 80.95%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+the sparse spending clause case law confirms that congressional 'offers'extensions of federal funds with spending or regulatory strings attached-to the states cannot be ambiguous or coercive.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 11/118
+Best match score: 53.87%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+two courts found no standing for sovereign injuries; 17 three found standing for sovereign injuries, 18 two of which enjoined the offset provision.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 12/118
+Best match score: 75.05%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+epa , the supreme court mandated that in a federal court's standing analysis, state-plaintiffs' unique sovereign status entitled them to 'special solicitude.' 13 but how should a court apply special solicitude in spending clause cases, if at all?
+
+────────────────────────────────────────────────────────────────────────────────
+Line 13/118
+Best match score: 82.08%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+15 and, although special solicitude technically retains its precedential value, the supreme court has neglected to support the doctrine-or even apply it-since massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 14/118
+Best match score: 80.35%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+the offset provision cases produced two general categories of sovereign injuries, styled here as the 'spending contract' injury and the 'tax power' injury.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 15/118
+Best match score: 68.22%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+while some legal commentators have argued that expansive state standing offers states a meaningful policy platform, 26 federal courts should not accept incoherent doctrine that
+
+────────────────────────────────────────────────────────────────────────────────
+Line 16/118
+Best match score: 73.42%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+furthermore, the tax power injury might significantly limit the use of the spending clause, granting standing if policy touches something-anything-'sovereign' enough.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 17/118
+Best match score: 67.77%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+activist states and their chief prosecutors, already relying on 'dubious' and 'lawless' standing theories to circumvent decades of article iii limitations, 23 leave the fate of consequential policy decisions in the hands of an unelected judiciary.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 18/118
+Best match score: 70.53%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+because congress often relies on its spending power for modern legislation, 24 an expansive 'welcome' mat into federal court risks further turning the judiciary into the arbiter of policy battles.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 19/118
+Best match score: 83.40%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+part iii demonstrates the danger of the circuit courts' expansive approach to spending clause standing and prescribes better rules for future cases-ones that do not rely on special solicitude or illusory, novel theories of injury.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 20/118
+Best match score: 84.36%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+30 funding everything from individual stimulus checks to school reopenings, arpa deployed congressional spending to alleviate many of the pandemic's fiscal crises.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 21/118
+Best match score: 76.28%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+34 this lofty goal was imbued with wide discretion, with recipients eligible to spend the cslfrf on nearly anything related to the 'negative economic impacts' of the pandemic until 2025.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 22/118
+Best match score: 77.81%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+35 state and local governments have authorized diverse programs to revitalize communities, with the treasury only once challenging those entities' spending decisions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 23/118
+Best match score: 75.86%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+consistent with most of the relevant cases and discussion, i refer to this condition as the 'offset provision' throughout this note.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 24/118
+Best match score: 73.38%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+other sources have called this condition the 'tax condition,' 'tax mandate,' or 'offset restriction.' these all refer to the same condition.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 25/118
+Best match score: 79.69%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+49 in response to the letter and senate banking committee questioning, secretary yellen insisted that '[n]othing in the act prevent[ed] states from enacting a broad variety of tax cuts' 50 -undercutting the 'breathtaking' accusation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 26/118
+Best match score: 81.06%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+amidst this litigation, the treasury issued an interim rule implementing the offset provision in may 2021, 56 and the final rule in 2022.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 27/118
+Best match score: 81.64%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+57 the rule reasserted that recipients of the cslfrf 'shall not use funds to either directly or indirectly offset a reduction in the net tax revenue' during the covered period and explained precisely how the provision would function.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 28/118
+Best match score: 79.66%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+54 on the merits, the state plaintiffs argued that the offset provision was unconstitutionally ambiguous and unduly coercive in violation of the spending clause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 29/118
+Best match score: 80.47%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+specifically, the treasury argued that because the states had not alleged a course of conduct that would violate the final rule's interpretation of the offset provision, the states faced no imminent injury as required by article iii.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 30/118
+Best match score: 70.89%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+the state-plaintiffs' central argument in the offset provision cases was that the provision exceeded congress's power under the spending clause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 31/118
+Best match score: 83.12%
+Word count: 58 words
+────────────────────────────────────────────────────────────────────────────────
+65 where the constitution's other grants of legislative power circumscribe the limits of congress's lawmaking, the spending clause allows congress to 'spend money in any way that advances the general welfare.' 66 in recent decades, in the midst of worsening congressional gridlock and judicial constraints on other powers, the spending power has become congress's most versatile legislative tool.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 32/118
+Best match score: 71.95%
+Word count: 47 words
+────────────────────────────────────────────────────────────────────────────────
+69 first, congress must spend 'in pursuit of 'the general welfare' '; 70 second, congress must set any conditions on federal funds unambiguously; 71 third, the funds must be related to a federal interest; 72 and fourth, there must be no independent constitutional bar on the legislation.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 33/118
+Best match score: 80.24%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+73 dole further noted that there could be circumstances in which congress's offer to the states 'might be so coercive as to pass the point at which 'pressure turns into compulsion' '-perhaps constituting an informal 'fifth' prong.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 34/118
+Best match score: 77.23%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+78 there, ' for the first time ever ,' 79 the court held that congress could not threaten the loss of existing medicaid funds if states did not accept the new
+
+────────────────────────────────────────────────────────────────────────────────
+Line 35/118
+Best match score: 80.49%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+of greatest significance to the offset provision cases (and most spending clause litigation) are the second and 'fifth' prongs of this test: congress's conditions must be unambiguous, and it may not unduly coerce the states.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 36/118
+Best match score: 81.55%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+656, 669 (1985) (holding that the federal government simply cannot 'prospectively resolve every possible ambiguity' in the structure of a grant program).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 37/118
+Best match score: 72.88%
+Word count: 77 words
+────────────────────────────────────────────────────────────────────────────────
+80 chief justice roberts's opinion for the court explained that although the congressional spending power is broad, the 'financial inducement' to encourage state participation in expanded medicaid was an unconstitutional 'gun to the head.' 81 roberts was not precise as to what exactly was the decisive, coercive factor that pushed the aca over the constitutional limit, 82 but the prevailing hypothesis is that it was congress's choice to leverage existing , as opposed to new , funding.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 38/118
+Best match score: 80.27%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+rather than involving itself in every political disagreement, the federal judiciary should step in only when necessary to ensure 'healthy federalism'when congress has actually violated dole (or sebelius ).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 39/118
+Best match score: 69.18%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+a relatively modern doctrine, 89 standing is rooted in article iii's vague articulation of the 'judicial power' of the united states.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 40/118
+Best match score: 66.40%
+Word count: 106 words
+────────────────────────────────────────────────────────────────────────────────
+90 the constitution extends the judicial power to specified 'cases' and 'controversies,' a phrase the supreme court has interpreted to limit the jurisdiction of federal courts to only ' actual cases or controversies.' 91 federal courts do not issue advisory opinions, 92 and there is no standing 'when there are no adverse parties with personal interest in the matter.' 93 to eliminate plaintiffs and disputes without 'proper' stakes, plaintiffs must demonstrate that (1) they have suffered an 'injury in fact,' (2) the injury is 'fairly traceable' to the defendant's challenged conduct, and (3) the injury is 'likely to be redressed by a favorable judicial decision.' 94
+
+────────────────────────────────────────────────────────────────────────────────
+Line 41/118
+Best match score: 74.70%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+95 standing circumscribes 'what activities are appropriate' for article iii courts, an 'irreducible constitutional minimum' for when a federal judge can grant jurisdiction and get involved.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 42/118
+Best match score: 62.87%
+Word count: 63 words
+────────────────────────────────────────────────────────────────────────────────
+injury in fact is standing's '[f]irst and foremost' element, 99 and requires plaintiffs to show the 'invasion of a legally protected interest.' 100 the supreme court has described the requirements for injury in myriad ways, 101 boiling the concept down to a number of essential characteristics: the plaintiff's injury must be 'concrete,' 'particularized,' and sufficiently 'actual or imminent, not conjectural or hypothetical.' 102
+
+────────────────────────────────────────────────────────────────────────────────
+Line 43/118
+Best match score: 76.72%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+103 the question of risk is most relevant where there is a hypothetical, illegal government enforcement of a law-but no actual enforcement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 44/118
+Best match score: 59.93%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+105 like so many areas of standing doctrine, the cases in this 'future injury' vein are messy: precisely when the harm is certain 106 or the curtailing of a constitutional right is chilled 107 enough for standing is highly case(and pleading-) specific.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 45/118
+Best match score: 81.92%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+nonetheless, given federalism's unique stakes in states' suits against the federal government, the supreme court has attempted to fashion specific rules for state standing 118 -most notably in massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 46/118
+Best match score: 79.02%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+116 additionally, courts and state plaintiffs reframe the same or similar injuries to fit different categories across cases, particularly with real property interests.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 47/118
+Best match score: 79.10%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+precisely how to apply special solicitude (or even how it functioned in massachusetts ) 128 has vexed scholars ever since.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 48/118
+Best match score: 73.50%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+the court disagreed, holding massachusetts's asserted injury-that 'rising seas' would 'swallow massachusetts' coastal land'-was sufficiently concrete and particularized for standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 49/118
+Best match score: 82.23%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+122 although the court did credit the proprietary, non-sovereign ramifications of coastal flooding vis-a-vis massachusetts as a landowner, 123 justice stevens's majority opinion also factored massachusetts's status as a state into the court's standing analysis.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 50/118
+Best match score: 84.63%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+epa and special solicitude, including, among other things: (1) massachusetts's coastal injury was arguably proprietary, theoretically not requiring any special solicitude; (2) the majority conflated sovereign and quasi-sovereign injuries throughout its explanation of special solicitude.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 51/118
+Best match score: 82.18%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+epa ].' 134 further, he continued, 'it's hard not to think, too, that lower courts should just leave that idea on the shelf .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 52/118
+Best match score: 81.59%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+as professor jessica bulman-pozen describes it, new process federalism calls for a reimagining of federalism as a highly integrated state-federal relationship in which states act as 'servant[s]' to the federal government in implementing federal policy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 53/118
+Best match score: 80.19%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+, fallon, supra note 108, at 1104-10 (arguing that standing's 'fragmentation' had created a diverse array of distinct doctrines, including for state standing rules in the wake of massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 54/118
+Best match score: 77.40%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+epa the way it did, the supreme court 'all but announced state governments as the new public interest litigants.' 146 in this way, massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 55/118
+Best match score: 73.81%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+epa has arguably stood not for any specific special solicitude doctrine, but rather a general invitation for state plaintiffs to 'push the envelope.' 147
+
+────────────────────────────────────────────────────────────────────────────────
+Line 56/118
+Best match score: 77.73%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+149 despite the corporation's 'financial and legal independence' 150 from missouri-and the corporation's ability to bring suit itself-the court's analysis ignored the core limitations that have animated standing doctrine for decades.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 57/118
+Best match score: 77.81%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+151 as justice kagan explained in dissent, the court's standing decision circumvented the political process and resolved a controversial policy matter itself.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 58/118
+Best match score: 84.62%
+Word count: 63 words
+────────────────────────────────────────────────────────────────────────────────
+of all disfavored federal policy, 154 accepting the mantle of 'omniplaintiffs.' 155 expansive state standing ensures that more and more policy decisions will be left in the hands of unelected judges, so long as plaintiffs follow a modern litigation playbook: (1) find state standing somewhere , (2) find an overreach of federal power somewhere , and (3) block the policy from taking effect.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 59/118
+Best match score: 78.24%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+158 furthermore, in dole and sebelius , there was no question that the relevant legislation's spending conditions directly affected and injured the state plaintiffs.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 60/118
+Best match score: 83.37%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+and, as unelected political interest groups pose an increasing risk of state capture, it is not clear that state attorneys general can even claim they are acting for their states' citizens.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 61/118
+Best match score: 72.88%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+the eleventh circuit opinion in the broader sebelius litigation did consider a challenge to the state-plaintiffs' standing, but not on the spending clause issue.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 62/118
+Best match score: 65.07%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+standing for sovereign injuries; 166 two held that the challenges were not justiciable with the supreme court denying certiorari in both cases; 167 and three found the offset provision unconstitutionally ambiguous on the merits.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 63/118
+Best match score: 63.64%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+169 after the eleventh circuit's decision in morrisey and subsequent denial of rehearing en banc, 170 the biden administration punted, opting not to appeal despite success in other circuits.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 64/118
+Best match score: 78.77%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+172 most relevant to this note are the entirely new asserted sovereign injuries that only a sovereign entity like a state can suffer.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 65/118
+Best match score: 66.44%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+finally, the states alleged a compliance cost injury given the need to 'track[]' if state expenditures violated the offset provision.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 66/118
+Best match score: 77.07%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+see fallon, supra note 108, at 1105 (arguing that only sovereign injuries are not 'transsubstantive,' or unique to only one type of plaintiff).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 67/118
+Best match score: 76.07%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+yellen , 39 f.4th at 1069 (alleging that a broad interpretation of the offset provision harmed missouri's 'interest' in the offer); ohio v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 68/118
+Best match score: 82.63%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+187 citing sebelius , the court stressed its role in arbitrating '[c]oercion in the bargaining process' in the contractual world of the spending clause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 69/118
+Best match score: 80.73%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+188 the fifth circuit's finding that the injury manifests as soon as congress extends its coercive offer suggests no imminent recoupment is required.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 70/118
+Best match score: 73.74%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+197 to the eleventh circuit, the spending contract injury amounted to a freestanding ability for the states to challenge federal spending legislation at any time .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 71/118
+Best match score: 67.55%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+consider a hypothetical climate change bill: with the future of executive agency deference in question, 203 congress decides to invoke its spending power to fund green energy initiatives through the states.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 72/118
+Best match score: 82.76%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+under the broad spending contract rule, ambiguity in the word 'reasonable' would immediately invalidate the spending condition, even if the overseeing agency had no plans to enforce the requirement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 73/118
+Best match score: 81.11%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+for these imminence-free conceptions of the spending clause, standing determinations are substituted with the courts' ultimate views of the merits.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 74/118
+Best match score: 69.77%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+208 rather, it is based on her general view of federalism as a means to ventilate partisan disputes and create 'deliberation-generating froth in our democratic system.' 209 states, without their traditional autonomy, need a legal environment that can help facilitate this bargaining.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 75/118
+Best match score: 76.00%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+yellen rejected the states' argument that receipt of an ambiguous or coercive offer ' in the past ' was sufficient to create present standing without proof of present or future harm.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 76/118
+Best match score: 77.49%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+both conceptions understand that the pennhurst prohibition on ambiguity arises from a desire to protect state autonomy through the spending clause's quasi-contractual nature.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 77/118
+Best match score: 78.50%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+the tax power injury describes the federal curtailing of a state's ability to exercise its sovereign tax powers, whether because of ambiguity, coercion, or undue federal limitations.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 78/118
+Best match score: 76.46%
+Word count: 58 words
+────────────────────────────────────────────────────────────────────────────────
+state plaintiffs, the theory suggests, have a cognizable injury where a spending condition 'casts a pall over' the 'exercise [of their] sovereign tax power.' 219 the tax power injury grants standing where federal legislation 'unconstitutionally intrud[es] on [a state's] sovereign authority,' 220 and threatens the state's 'sovereign prerogative to 'tax its residents as it sees fit.' ' 221
+
+────────────────────────────────────────────────────────────────────────────────
+Line 79/118
+Best match score: 72.89%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+223 the ninth circuit specifically noted the tax power injury as a distinct theory of state injury but then only analyzed the spending contract theory.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 80/118
+Best match score: 68.68%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+224 andin both the ninth and eleventh circuits, the tax power injury was still treated as 'heighten[ing the offset provision's] effect on state sovereignty.' 225 curtailing the power to tax was a vaguely articulated plus factor for standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 81/118
+Best match score: 81.47%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+the haziness of the courts' analysis complexifies what sovereign injury was really contributing to standing: was the state injured because of the 'sovereign' nature of the contract's subject matter, or was ambiguity in the federal offer sufficient?
+
+────────────────────────────────────────────────────────────────────────────────
+Line 82/118
+Best match score: 73.54%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+yellen, 53 f.4th at 989 (recounting ohio's argument that the offset provision 'cast[s] a pall over legislators' abilities to contemplate such tax changes') (quoting ohio v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 83/118
+Best match score: 77.36%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+yellen , judge nalbandian articulated the tax power injury's broadest conception: his formulation was entirely distinct from the spending contract theory and peerlessly offered massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 84/118
+Best match score: 65.24%
+Word count: 53 words
+────────────────────────────────────────────────────────────────────────────────
+epa , states are subject to a reduced imminence standard for standing and that 'as federal regulation has increased over the states, the list of sovereign injuries has grown.' 230 applying this elastic injury and imminence standard to the present case, judge nalbandian insisted that the offset provision created ongoing tax power standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 85/118
+Best match score: 60.74%
+Word count: 58 words
+────────────────────────────────────────────────────────────────────────────────
+232 even if the final rule did moot the risk of recoupment, 233 judge nalbandian argued that the rule 'narrow[s]' state regulatory flexibility, 'which in turn takes a toll on the states' citizens and economies.' 234 to judge nalbandian, regardless of imminence or actual risk, states are continuously injured if they cannot do something sovereign , like tax.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 86/118
+Best match score: 73.05%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+judge nalbandian's conception of a tax power injury, however, is completely at odds with the supreme court's modern approach to congressional lawmaking.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 87/118
+Best match score: 73.94%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+235 judge nalbandian's approach separates from more ancillary, nonsovereign regulation certain policies based on some set of core sovereign subject matters and quarantines
+
+────────────────────────────────────────────────────────────────────────────────
+Line 88/118
+Best match score: 72.14%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+237 onany of these subjects, states would be insulated from federal pressure and citizens might be marooned without federal solutions to pressing concerns.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 89/118
+Best match score: 81.52%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+240 instead, bulman-pozen argues, consistent with the new process federalism perspective on state servants in a federal regulatory system, massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 90/118
+Best match score: 84.85%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+little legal scholarship exists offering a defense of special solicitude from judge nalbandian's perspective-that states have a sovereign interest that should be protected from federal overreach.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 91/118
+Best match score: 78.70%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+243 the court explained that before the treasury's final rule, the offset provision's constraint of kentucky and tennessee's 'sovereign authority to tax .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 92/118
+Best match score: 80.10%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+245 the court reasoned that the final rule 'subsequently disavowed the states' interpretation of the offset provision,' leaving them with an outdated fear of losing the cslfrf.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 93/118
+Best match score: 73.80%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+what's more, the courts were divided on how the two sovereign injuries interacted with each other and where special solicitude played a part in their analysis, if at all.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 94/118
+Best match score: 79.68%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+in finding that the final rule did not moot the challenge, the court does mention the constraint of the state's sovereign powers but does not otherwise mention the constraint of that power as an independent basis for standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 95/118
+Best match score: 73.18%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+253 the eleventh circuit's articulation in particular-that states have a live claim to 'adjudicate [the] terms' of the offset provision-grants open-ended standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 96/118
+Best match score: 79.22%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+254 states could hunt for ambiguity in any new grant of federal money, insist that they 'cannot determine at what point a breach will occur' because of that ambiguity, and get standing to enjoin that provision.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 97/118
+Best match score: 79.72%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+258 the best way to achieve this balance of federalism and the separation of powers is to look to spending clause jurisprudence.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 98/118
+Best match score: 70.34%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+259 there, the federal offers required legislation from the states-you don't get this money unless you raise the legal drinking age.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 99/118
+Best match score: 81.28%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+260 the states had to undertake immediate and definite compliance as a condition of receiving the money and risked losing existing federal funds if they failed to comply.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 100/118
+Best match score: 67.33%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+in those circuits, the courts' standing analyses went off track in part because they misapplied the substantive spending clause precedent.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 101/118
+Best match score: 75.35%
+Word count: 66 words
+────────────────────────────────────────────────────────────────────────────────
+265 instead, as the eleventh circuit explained, they believed the pennhurst requirement incorporated in the dole rule 'is a binding constitutional command.' 266 following the 'search and destroy' theme, the fifth circuit further argued that the constitution imposes an affirmative 'bar on ambiguous spending conditions and provid[es] grounds for an injunction against the enforcement of such conditions.' 267 ignoring the supreme court's reasoning in bennett v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 102/118
+Best match score: 82.64%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+kentucky department of education , which provides that congress is not required to 'prospectively resolve every possible ambiguity concerning particular applications' of its spending conditions, 268 the fifth and eleventh circuits effectively eliminated any interpretive wiggle room.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 103/118
+Best match score: 76.15%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+congress's offer is a 'gun to the head' of the states that would immediately change state policy on an issue.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 104/118
+Best match score: 73.59%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+271 but for mere discretionary spending conditions like the offset provision, particularly one designed to ensure maintenance-of-effort, 272 states should not have standing without imminent federal enforcement.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 105/118
+Best match score: 71.92%
+Word count: 39 words
+────────────────────────────────────────────────────────────────────────────────
+yellen , that states have standing whenever legislation subjectively 'intrude[s]' or 'chill[s]' a state's sovereign authority to make laws (or broader yet, has 'negative effects' on a state's economy), 274 would grant near-absolute state standing to challenge federal spending.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 106/118
+Best match score: 81.89%
+Word count: 49 words
+────────────────────────────────────────────────────────────────────────────────
+as judge bush explains in the majority opinion, ' any law could be said to 'limit the range,' in an abstract sense, of a plaintiff's legitimate behavior.' 275 federal legislation 'cast[ing] a pall over legislators' abilities to contemplate' lawmaking is far too subjective and abstract an injury for standing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 107/118
+Best match score: 66.18%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+276 states could always suggest that anything other than no limitations on federal funds would step on their sovereign toes.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 108/118
+Best match score: 70.73%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+if a federal spending program restrains a state's ability to regulate -a state may not pass any tax cuts for two
+
+────────────────────────────────────────────────────────────────────────────────
+Line 109/118
+Best match score: 58.57%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+but if the restriction is concrete, as in actual or imminent (not ' 'conjectural' or 'hypothetical' '), 280 then states should have standing to prevent the 'loss' of their lawmaking function.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 110/118
+Best match score: 83.82%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+the eighth circuit appeared to shrug off missouri's special solicitude, holding that it had not otherwise met 'the basic requirements for standing.' 281 by contrast, the ninth and eleventh circuits, similar to their analysis of the tax power injury, 282 referenced massachusetts v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 111/118
+Best match score: 81.56%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+287 as outlined, bulman-pozen argues that expansive state standing forces federal officials to seek greater state buy-in before issuing their federal policy offer.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 112/118
+Best match score: 84.60%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+288 somehow, the looming threat of litigation to 'short-circuit' federal legislation is a more effective way to sort out inevitable federalism policy disputes than the political process.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 113/118
+Best match score: 81.06%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+texas , the best course of action is to 'just leave [special solicitude] on the shelf in future [cases].' 293 eliminating special solicitude will not instantly fix state standing's doctrinal issues, especially with the supreme court facilitating 'lawless' standing theories.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 114/118
+Best match score: 75.69%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+295 here, there are no major question doctrine hurdles to satisfy for victory: any state attorney general can enjoin any federal spending condition.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 115/118
+Best match score: 78.90%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+bulman-pozen acknowledges that '[e]ven the basic question of what warrants special solicitude remains unclear.' bulman-pozen, supra note 26, at 1745.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 116/118
+Best match score: 77.84%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+curtailing special solicitude's future use will help simplify lower federal courts' standing analyses for continuing state challenges to federal policy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 117/118
+Best match score: 70.82%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+296 state plaintiffs should not get a free pass to contest federal policy merely by virtue of their sovereign status.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 118/118
+Best match score: 67.35%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+and if they somehow do, it should at least be on a more concrete doctrinal basis, rather than 'extra-credit' and judicial spitballing.

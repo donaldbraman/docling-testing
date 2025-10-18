@@ -1,0 +1,14 @@
+UNMATCHED LINES FOR: bu_law_review_online_reasonable_yet_suspicious
+================================================================================
+Total unmatched: 1
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/1
+Best match score: 79.17%
+Method: no_match
+Tokens matched: 19/24
+Avg token similarity: 88.9%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+266, 274 (2002) (rejecting a ' divide-and-conquer ' approach of analyzing reasonable suspicion factors in isolation from each other instead of weighing them together).

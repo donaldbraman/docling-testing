@@ -1,0 +1,64 @@
+UNMATCHED LINES FOR: bu_law_review_online_nil_compliance
+================================================================================
+Total unmatched: 6
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/6
+Best match score: 66.67%
+Method: no_match
+Tokens matched: 14/21
+Avg token similarity: 85.4%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+creating and reviewing forms that athletics staff members and incoming and current student-athletes would complete and submit annually to compliance administrators.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/6
+Best match score: 67.65%
+Method: no_match
+Tokens matched: 23/34
+Avg token similarity: 84.2%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+these forms, referred to in this article as athletics staff nil form, incoming sa nil form, and returning sa nil form, respectively, would inquire regarding the subject matter of several ncaa restrictions on nil.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/6
+Best match score: 72.73%
+Method: no_match
+Tokens matched: 24/33
+Avg token similarity: 86.1%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+to monitor to ensure that student-athletes ' nil arrangements included quid pro quo, for example, the returning sa nil form would inquire regarding the services that the student-athlete provided in exchange for remuneration.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/6
+Best match score: 70.21%
+Method: no_match
+Tokens matched: 33/47
+Avg token similarity: 87.3%
+Word count: 47 words
+────────────────────────────────────────────────────────────────────────────────
+if a student-athlete indicated on the form that they did not provide any services in exchange for receiving nil compensation, compliance administrators would follow up with the student-athlete to determine whether the nil arrangement violated the ncaa requirement that student-athletes do something in exchange for nil payment.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/6
+Best match score: 50.00%
+Method: no_match
+Tokens matched: 10/20
+Avg token similarity: 74.0%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+analyzing such information would enable compliance administrators to monitor whether student-athletes receive nil compensation based on athletics performance, for example.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/6
+Best match score: 65.22%
+Method: no_match
+Tokens matched: 15/23
+Avg token similarity: 80.5%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+sit-downs between compliance administrators and high-profile student-athletes would provide a prime opportunity to monitor compliance with, and educate regarding, numerous ncaa nil restrictions.

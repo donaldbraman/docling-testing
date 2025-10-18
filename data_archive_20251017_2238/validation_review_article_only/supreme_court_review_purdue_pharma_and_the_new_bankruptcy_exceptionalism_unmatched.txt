@@ -1,0 +1,24 @@
+UNMATCHED LINES FOR: supreme_court_review_purdue_pharma_and_the_new_bankruptcy_exceptionalism
+================================================================================
+Total unmatched: 2
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/2
+Best match score: 74.07%
+Method: no_match
+Tokens matched: 20/27
+Avg token similarity: 88.5%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+it argued that nearby text in the code -found in sections 1123(b)(1) -(5) -authorizes only speci /unifb01 c plan provisions dealing with claims held by the debtor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/2
+Best match score: 77.27%
+Method: no_match
+Tokens matched: 17/22
+Avg token similarity: 87.7%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+termination of a con /unifb01 rmed plan by reason of the occurrence of a condition speci /unifb01 ed in the plan; and

@@ -1,0 +1,844 @@
+UNMATCHED LINES FOR: supreme_court_review_purdue_pharma_and_the_new_bankruptcy_exceptionalism
+================================================================================
+Total unmatched: 120
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/120
+Best match score: 75.48%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+these releases are often provided as part of a settlement in exchange for contributions from the party bene /unifb01 tting from the releases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/120
+Best match score: 73.02%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+for his part, justice kavanaugh emphasized that bankruptcy law is designed to address the kind of collectiveaction problems that arise in mass tort cases like purdue .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/120
+Best match score: 83.71%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+all courts exercise discretion and /unifb01 ll gaps, and bankruptcy court discretion is /unifb01 rmly rooted in the text of the bankruptcy code and subject to de novo review in an article iii tribunal.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/120
+Best match score: 76.62%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+with regard to article iii, the second circuit, in af /unifb01 rming the use of third-party releases, had decided that de novo review by an article iii court was required but noted it was providing that review.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/120
+Best match score: 78.65%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+as a result, the opinion is /unifb02 ush with exceptionalist rhetoric about expansive bankruptcy court power while the holding does not address the issue head on.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/120
+Best match score: 72.12%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+those issues are now percolating through the lower courts, producing inconsistent approaches by different judges -even those within the same district.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/120
+Best match score: 58.54%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+at 218 ( ' [w]e do not think paragraph (6) affords a bankruptcy court the authority the plan proponents suppose.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/120
+Best match score: 76.10%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+but the catchall cannot be fairly read to endow a bankruptcy court with the ' radically different ' power to discharge the debts of a nondebtor without the consent of affected nondebtor claimants.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 9/120
+Best match score: 83.24%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+at 218 -19 ( ' each of those ' other ' paragraphs authorizes a bankruptcy court to adjust claims without consent only to the extent such claims concern the debtor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 10/120
+Best match score: 73.35%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+at 220 ( ' [n]o one (save perhaps the dissent) thinks it provides a bankruptcy court with a roving commission to resolve all such problems that happen its way.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 11/120
+Best match score: 84.89%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+indeed, one of the foundational pillars of chapter 11 ' s statutory structure is its requirement that a plan can be con /unifb01 rmed only if it ' does not discriminate unfairly, and is fair and equitable ' to dissenting impaired classes.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 12/120
+Best match score: 84.88%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+' 16 likewise, jonathan seymour has praised recent supreme court decisions for rejecting ' bankruptcy exceptionalism, ' arguing exceptionalism ' exacerbates corrosive trends within the bankruptcy system that cannot readily be corrected by other courts, especially in the /unifb01 eld of corporate reorganizations.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 13/120
+Best match score: 70.82%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+bankruptcy courts /unifb01 ll gaps, /unifb01 nd exceptions to general rules, craft equitable remedies, and take account of unwritten norms.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 14/120
+Best match score: 77.49%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+tousthe most plausible account of the bankruptcy exceptionalism critique would re /unifb02 ect a concern that bankruptcy courts are using the code ' s broad grants of authority -for example sections like 105(a)
+
+────────────────────────────────────────────────────────────────────────────────
+Line 15/120
+Best match score: 83.80%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+claim that the bankruptcy court is a ' court of equity ' with broad equitable powers, by a distinctly equitable /unifb02 avor of statutory interpretation, or in some other form.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 16/120
+Best match score: 81.94%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+during his con /unifb01 rmation hearings, one of his tenth circuit dissenting opinions refusing to /unifb01 nd an equitable exception to a statute was widely criticized.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 17/120
+Best match score: 74.75%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+the case -commonly referred to as the ' frozen trucker case ' -involved a truck driver who was /unifb01 red for driving his employer ' s truck to safety to avoid life-threatening cold.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 18/120
+Best match score: 61.79%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+one scholar argued that gorsuch ' s approach revealed that that he might be un /unifb01 t for the supreme court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 19/120
+Best match score: 65.58%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+both are formalist approaches exhibiting a distrust of judicial discretion exercised in the /unifb01 rst instance by non-article iii judges.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 20/120
+Best match score: 75.82%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+and 1123(b)(6) 19 -to resolve issues that would ordinarily be adjudicated elsewhere but, because of the exigencies of /unifb01 nancial distress, can more ef /unifb01 ciently be resolved in a single proceeding.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 21/120
+Best match score: 84.34%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+20 though beyond the scope of this article, we think that the article iii requirement is satis /unifb01 ed by claimants ' right to appeal bankruptcy court decisions to an article iii court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 22/120
+Best match score: 71.03%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+but common-law systems have been working out those differences since long before the constitution ' s bankruptcy clause was drafted.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 23/120
+Best match score: 70.84%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+24 smith, supra note 23, at 1143 -44 (identifying equity as useful in cases that present problems of ' polycentricity, con /unifb02 icting rights, and opportunism ' ).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 24/120
+Best match score: 65.15%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+' 29 but the court ' s opinion eschews any reference to equitable remedies and focuses instead on colloquial discretion.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 25/120
+Best match score: 74.25%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+to foreshadow a bit, the court ' s dismissive approach to formal equitable doctrines in bankruptcy cases is consistent with our view of a new bankruptcy exceptionalism.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 26/120
+Best match score: 80.65%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+they seek to replicate the specialization of the delaware court of chancery, but without the speci /unifb01 c qualities of a court of equity.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 27/120
+Best match score: 63.60%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+32 samuel bray has argued that there is still a system of equity that exists within the uni /unifb01 ed federal courts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 28/120
+Best match score: 84.96%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+everywhere in bankruptcy, judges alter rights, create remedies, and steer cases out of /unifb01 delity to unwritten norms that seek to advance what those within the bankruptcy culture understand to be the better and more ef/unifb01 cient functioning of the bankruptcy system.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 29/120
+Best match score: 71.64%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+it is easy for those in a certain /unifb01 eld to convince themselves that what they are doing is ' special ' or ' unique.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 30/120
+Best match score: 72.73%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+34 recounting speci /unifb01 c unwritten norms is useful to understanding bankruptcy law, 35 just as it is useful in understanding other areas of law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 31/120
+Best match score: 76.60%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+303, 325 (2020) (describing the practice of ' equitable interpretation ' in which bankruptcy courts select whatever interpretation of the code promotes bankruptcy values).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 32/120
+Best match score: 84.38%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+for example, section 1123(b)(6) gives a bankruptcy court authority to approve a plan that includes ' any other appropriate provision not inconsistent with the applicable provisions of this title.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 33/120
+Best match score: 84.46%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+' 41 section 364(d) provides that a court ' may authorize ' the debtor to obtain credit if certain conditions are met, including a /unifb01 nding that the affected parties have received ' adequate protection.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 34/120
+Best match score: 78.40%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+464, 473 (2022) ( ' [t]he subject of bankruptcies is incapable of /unifb01 nal de /unifb01 nition, and includes nothing less than the subject of the relations between a debtor and his creditors.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 35/120
+Best match score: 77.07%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+' 44 and section 1129(b) requires that a nonconsensual plan be ' fair and equitable ' and that it not ' discriminate unfairly ' to be approved.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 36/120
+Best match score: 80.54%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+45 these provisions all explicitly delegate policymaking authority and discretion to bankruptcy courts, establishing clear statutory grounds for /unifb02 exible and responsive judicial decision-making.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 37/120
+Best match score: 81.04%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+and then there is section 105(a), which gives bankruptcy courts authority to ' issue any order, process, or judgment that is necessary or appropriate to carry out the provisions of this title.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 38/120
+Best match score: 74.60%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+see debtor ' s memorandum of law in support of con /unifb01 rmation of the second amended prepackaged chapter 11 plan of reorganization of red river talc llc at 204 -12, in re red river talc llc, no.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 39/120
+Best match score: 82.22%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+50 bankruptcy judges are not ' article iii ' judges, 51 but they are adjudicating disputes over private rights that arguably fall under the exclusive judgment power of article iii and state courts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 40/120
+Best match score: 82.16%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+that is, when bankruptcy judges exercise equitable powers -even those based on the text of the bankruptcy code -a constitutional exceptionalist would argue they must be reined in to protect the structure created by article iii.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 41/120
+Best match score: 82.78%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+thus, while it is common to talk about the powers of bankruptcy courts, it is perhaps more technically accurate to speak of bankruptcy cases or refer to a ' bankruptcy tribunal.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 42/120
+Best match score: 78.37%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+57 thus, although bankruptcy courts are the courts of /unifb01 rst instance for virtually all bankruptcy cases, they exercise that power as adjuncts to, and subject to the discretion of, an article iii district court judge.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 43/120
+Best match score: 65.99%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+according to those who hold this view, bankruptcy law ' s pursuit of judicial ef /unifb01 ciency is in tension with due process values.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 44/120
+Best match score: 80.75%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+while we are skeptical of such due process arguments -for reasons set forth elsewhere 59 -they do re /unifb02 ect a recurring concern about the constitutionality of certain bankruptcy practices.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 45/120
+Best match score: 82.91%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+56 in certain instances, the bankruptcy court ' s judgment is advisory and only becomes /unifb01 nal after de novo review at the district court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 46/120
+Best match score: 82.22%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+nordberg , the court held that the seventh amendment guaranteed the right to a jury trial for fraudulent transfer claims even though congress had designated such claims as ' core ' proceedings triable by a bankruptcy judge without a jury.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 47/120
+Best match score: 69.70%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+' 74 but these practical considerations were ' insuf /unifb01 cient to overcome the seventh amendment ' s clear command.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 48/120
+Best match score: 84.14%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+77 thecourtlater tempered this ruling when it announced that the constitution could tolerate bankruptcy court judgments over private rights when those judgments are subject to de novo review by an article iii court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 49/120
+Best match score: 70.59%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+dismiss cases for being /unifb01 led in bad faith, 82 and approve settlements that might deviate from the strict requirements of absolute priority.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 50/120
+Best match score: 84.36%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+it argued that nearby text in the code -found in sections 1123(b)(1) -(5) -authorizes only speci /unifb01 c plan provisions dealing with claims held by the debtor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 51/120
+Best match score: 79.13%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+and so, justice gorsuch wrote for the majority, ' other appropriate provisions ' must be similarly limited to provisions directly relating to claims and property of the
+
+────────────────────────────────────────────────────────────────────────────────
+Line 52/120
+Best match score: 84.02%
+Word count: 35 words
+────────────────────────────────────────────────────────────────────────────────
+415, 424 (2014) ( ' the code ' s meticulous -not to say mind-numbingly detailed -enumeration of exemptions and exceptions to those exemptions con /unifb01 rms that courts are not authorized to create additional exceptions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 53/120
+Best match score: 83.89%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+in fact, one of the most notable parts of purdue is that the case satis /unifb01 ed the article iii requirements the supreme court had established a decade earlier.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 54/120
+Best match score: 78.84%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+204, 218 -19 (2024) ( ' each of those ' other ' paragraphs authorizes a bankruptcy court to adjust claims without consent only to the extent such claims concern the debtor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 55/120
+Best match score: 82.00%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+from this, it follows naturally that an ' appropriate provision ' adopted pursuant to the catchall that purports to extinguish claims without consent should be similarly constrained.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 56/120
+Best match score: 77.80%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+at 240 (kavanaugh, j., dissenting) ( ' the court has explained on numerous occasions that the ' ordinary meaning ' of a statute authorizing appropriate relief ' confers broad discretion ' on a court.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 57/120
+Best match score: 77.78%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+for example, the majority emphasized that the third parties in purdue 94 were ' seek[ing] an injunction ' permanently and forever ' foreclosing similar suits in the future.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 58/120
+Best match score: 84.05%
+Word count: 47 words
+────────────────────────────────────────────────────────────────────────────────
+' 95 later, the majority appears to invoke due process values by claiming that purdue ' s theory of nonconsensual third-party releases ' suggests those claims can be bargained away without the consent of those affected, as if the claims were somehow purdue ' s own property.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 59/120
+Best match score: 84.36%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+surely, if congress had meant to reshape traditional practice so profoundly in the present bankruptcy code, extending to courts the capacious new power the plan proponents claim, one might have expected it to say so expressly ' somewhere in the [c]ode itself.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 60/120
+Best match score: 84.02%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+similarly, concerns about ' roving ' and ' limitless ' bankruptcy court powers resemble concerns that bankruptcy courts are exercising article iii powers.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 61/120
+Best match score: 84.27%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+those concerns all appear to have been on the minds of the justices and likely in /unifb02 uenced the court ' s interpretation of the text of the bankruptcy code.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 62/120
+Best match score: 79.69%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+because the court did not explicitly base its ultimate decision on these concerns, we cannot prove the constitutional matters were the primary driver for the court ' s decision.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 63/120
+Best match score: 75.18%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+by our reading, the other items listed in sections 1123(b)(1) -(5) are speci /unifb01 c things that the drafters worried might be viewed by courts as inconsistent with other provisions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 64/120
+Best match score: 84.43%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+the court ' s approach requires congress to add to the section 1123(b) list as every case reveals a new option.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 65/120
+Best match score: 75.26%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+' 102 some lower courts have read this statement to create a clear-statement requirement for interpreting code provisions that might con /unifb02 ict with absolute priority.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 66/120
+Best match score: 65.64%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+2025) (citing jevic for the need for a ' textual hook ' to approve certain bankruptcy settlements); in re george wash.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 67/120
+Best match score: 80.00%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+2018) (overruling a jevic -based exception and noting that the court had left open the possibility of ' code-related objectives that [other] violating distributions serve ' (quoting jevic , 580 u.s.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 68/120
+Best match score: 83.57%
+Word count: 39 words
+────────────────────────────────────────────────────────────────────────────────
+in that respect, the bankruptcy cases before the court are consistent with a new bankruptcy exceptionalism where the court -concerned about proper judicial authority -reads broad grants of authority in the bankruptcy code more narrowly than it might elsewhere.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 69/120
+Best match score: 81.99%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+besides the merits of which forum should adjudicate these cases, the majority ' s interpretive approach also introduces signi /unifb01 cant uncertainty for bankruptcy courts and practitioners.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 70/120
+Best match score: 75.00%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+across the board, bankruptcy courts have been quick to af /unifb01 rm their power to temporarily enjoin nondebtor litigation during the pendency of bankruptcy proceedings.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 71/120
+Best match score: 80.09%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+at the same time, the court explained that preliminary injunctions of third-party claims are still ' appropriate where the assertion of those claims would interfere with the debtor ' s reorganization efforts.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 72/120
+Best match score: 79.09%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+nor do we have occasion today to express a view on what quali /unifb01 es as a consensual release or pass upon a plan that provides for the full satisfaction of claims against a third-party nondebtor.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 73/120
+Best match score: 80.69%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+the court ' s speci /unifb01 c mention of full satisfaction and substantial consummation were likely included speci /unifb01 cally with the bankruptcy of boy scouts of america in mind.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 74/120
+Best match score: 71.48%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+the boy scouts ' plan was con /unifb01 rmed by the bankruptcy court and now sits under consideration before the third circuit.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 75/120
+Best match score: 71.52%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+first, at the time of the purdue decision, the boy scouts ' plan was already con /unifb01 rmed and had been making payouts to victims for over a year.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 76/120
+Best match score: 79.38%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+' 118 because the purdue court speci /unifb01 cally declined to opine on substantial consummation, one might expect the third circuit to af /unifb01 rm the case, drawing some comfort that the supreme court will not step in to reverse.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 77/120
+Best match score: 75.15%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+unlike third-party releases, it is actually a doctrine unmoored from statutory authority, which is likely to offend the court ' s sense of textualism.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 78/120
+Best match score: 82.24%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+; see also third modi /unifb01 ed fifth amended chapter 11 plan of reorganization (with technical modi /unifb01 cations) for boy scouts of america and delaware bsa, llc, boy scouts of am.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 79/120
+Best match score: 64.92%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+first, section 363(m) of the code speci /unifb01 cally protects certain asset sales from appellate review after they have been consummated.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 80/120
+Best match score: 74.63%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+as one might expect, the parties ' briefs very in their views about how intertwined the sales are with other transactions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 81/120
+Best match score: 79.34%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+§ 363(m); see supplemental brief of appellees, supra note 118, at 16 -18; appellees settling insurers supplemental brief, boy scouts of am.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 82/120
+Best match score: 76.66%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this wrinkle demonstrates the naïveté of claims that releases were not needed in purdue because the sacklers could just /unifb01 le for bankruptcy themselves.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 83/120
+Best match score: 84.42%
+Word count: 47 words
+────────────────────────────────────────────────────────────────────────────────
+7, 2024) (urging ' the court to treat the plan as the package deal that it is ' despite arguments by insurers that the court ' should uphold the buyback even if other aspects of the con /unifb01 rmation order, including the releases, are reversed ' ).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 84/120
+Best match score: 81.85%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+what does it mean then to say that the claim against the nondebtor is fully satis /unifb01 ed by the settlement trust?
+
+────────────────────────────────────────────────────────────────────────────────
+Line 85/120
+Best match score: 79.81%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+in the boy scouts case, the judge made a detailed factual /unifb01 nding based on expert testimony to the effect that there would be enough money in the settlement trust to pay all claims in full.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 86/120
+Best match score: 68.01%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+this is essentially a statistical /unifb01 nding that all potential liabilities will likely be covered, but it is far from a certainty.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 87/120
+Best match score: 79.17%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+any contract-law theory would not work for full-satisfaction releases, given that holdout creditors often refuse to consent to fullsatisfaction releases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 88/120
+Best match score: 79.13%
+Word count: 45 words
+────────────────────────────────────────────────────────────────────────────────
+this would be consistent with the court ' s authority to enter injunctions either under section 105(a) ' s grant of power necessary to enforce a plan or the all writs act ' s grant of authority in aid of a court ' s jurisdiction.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 89/120
+Best match score: 65.12%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+127 it is possible that the court will view things differently than in purdue if the litigants /unifb01 nd the right statutory authority.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 90/120
+Best match score: 71.05%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+the third circuit will likely af /unifb01 rm the con /unifb01 rmation of the plan pointing to some or all the grounds discussed, and the supreme court will sit this one out.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 91/120
+Best match score: 83.92%
+Word count: 40 words
+────────────────────────────────────────────────────────────────────────────────
+noting that there was no other provision in the code allowing for releases, he concluded that ' the only provision that could possibly supply authority to include those [consensual] releases in the bankruptcy plan is the catchall in § 1123(b)(6).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 92/120
+Best match score: 83.73%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+' 133 the problem is dif /unifb01 cult because a consensual nondebtor release included in a bankruptcy plan is more than a private settlement contract.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 93/120
+Best match score: 80.50%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+one example of such a mechanism is a settlement provision requiring that plaintiffs ' lawyers withdraw from representing clients who do not settle.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 94/120
+Best match score: 79.34%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+for example, one bankruptcy judge in delaware explained, ' [a]fter purdue pharma , a third-party release is no longer an ordinary plan provision that can properly be entered by ' default ' in the absence of an objection.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 95/120
+Best match score: 73.37%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+he concluded: ' [a] creditor cannot be deemed to consent to a third-party release without some af /unifb01 rmative expression of the creditor ' s consent.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 96/120
+Best match score: 83.00%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+' 136 that af /unifb01 rmative expression might take the form of a vote for a plan or some other form of opting in.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 97/120
+Best match score: 84.83%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+in new york, one bankruptcy judge looked to state contract law to require af /unifb01 rmative written consent from each claimholder.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 98/120
+Best match score: 83.44%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+15, 2024); findings of fact, conclusions of law and order con /unifb01 rming the second amended joint chapter 11 plan of reorganization of ftx trading ltd and its debtor af /unifb01 liates, in re ftx trading ltd., no.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 99/120
+Best match score: 83.55%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+of course, if we are right that the court is driven by broader structural concerns, then perhaps the court will /unifb01 nd in the text a path to approving consensual releases (even those with opt-out consent).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 100/120
+Best match score: 69.68%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+' 144 nonrecognition is reserved for cases where the foreign proceedings are ' manifestly contrary to the public policy of the united states.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 101/120
+Best match score: 84.34%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+the of /unifb01 ce of the united states trustee, along with the international development finance corporation, raised similar concerns related to the chapter 15 recognition of the mexican concurso plan of crédito real.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 102/120
+Best match score: 83.22%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+11, 2025, 5:48 pm edt), https://news.bloomberglaw.com/litigation/credito-real-restructuring -nets-us-recognition-despite-objection ( '' purdue only goes so far here, ' horan said during the hearing.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 103/120
+Best match score: 77.64%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+' purdue is expressly limited to a chapter 11 case and chapter 11 and chapter 15 are very different animals.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 104/120
+Best match score: 63.55%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+in the united states, this problem can be solved by bringing the bankruptcy cases for all of the af /unifb01 liates into one proceeding.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 105/120
+Best match score: 73.96%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+they allow one anchor debtor to initiate a proceeding and then propose a resolution that includes nonconsensual nondebtor releases for af /unifb01 liates.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 106/120
+Best match score: 62.96%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+brindise, choosing the ' per-debtor ' approach to plan con /unifb01 rmation in multidebtor chapter 11 proceedings , 108 nw.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 107/120
+Best match score: 84.06%
+Word count: 37 words
+────────────────────────────────────────────────────────────────────────────────
+387, 405 (2013) (noting that procedural consolidation is available in some but not other jurisdictions); see also insol int ' l, the restructuring of corporate groups: a global analysis of substantive, procedural and synthetic group procedures (2022).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 108/120
+Best match score: 83.89%
+Word count: 26 words
+────────────────────────────────────────────────────────────────────────────────
+for example, bankruptcy courts regularly grant exculpations to protect the debtor ' s agents and /unifb01 duciaries from lawsuits related to work performed during the bankruptcy.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 109/120
+Best match score: 77.86%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+155 these measures essentially require a litigant to come before the bankruptcy court asking permission to proceed with certain claims against nondebtors (usually insiders or /unifb01 duciaries).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 110/120
+Best match score: 68.18%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+rather than /unifb01 le in the united states or mexico -whose laws made the restructuring complicated -it created a u.k.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 111/120
+Best match score: 84.81%
+Word count: 21 words
+────────────────────────────────────────────────────────────────────────────────
+even more fundamentally, bankruptcy courts have long assumed the power to dismiss cases that were not /unifb01 led in good faith.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 112/120
+Best match score: 66.25%
+Word count: 27 words
+────────────────────────────────────────────────────────────────────────────────
+but it then provides a list of sixteen instances that would constitute ' cause, ' each one relating to behavior of the debtor after /unifb01 ling .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 113/120
+Best match score: 70.22%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+failure timely to pay taxes owed after the date of the order for relief or to /unifb01 le tax returns due after the date of the order for relief;
+
+────────────────────────────────────────────────────────────────────────────────
+Line 114/120
+Best match score: 72.16%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+failure to /unifb01 le a disclosure statement, or to /unifb01 le or con /unifb01 rm a plan, within the time /unifb01 xed by this title or by order of the court;
+
+────────────────────────────────────────────────────────────────────────────────
+Line 115/120
+Best match score: 77.04%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+termination of a con /unifb01 rmed plan by reason of the occurrence of a condition speci /unifb01 ed in the plan; and
+
+────────────────────────────────────────────────────────────────────────────────
+Line 116/120
+Best match score: 81.11%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+failure of the debtor to pay any domestic support obligation that /unifb01 rst becomes payable after the date of the /unifb01 ling of the petition.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 117/120
+Best match score: 79.56%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+' as article iii courts set up formalist barriers to the operation of the code as written, the practice will be forced to adopt more evasive and contrived workarounds.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 118/120
+Best match score: 83.37%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+24, 2025) (holding that purdue did not prohibit con /unifb01 rmation orders enjoining litigation against nondebtors for the /unifb01 ve-year life of a small-business plan under subchapter v of chapter 11).
+
+────────────────────────────────────────────────────────────────────────────────
+Line 119/120
+Best match score: 74.18%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+167 ironically, in doing so it constrains the power of all courts -article iii included -to resolve complex bankruptcy cases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 120/120
+Best match score: 74.15%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+and noting that ' the court has not found, and has not been pointed to, any decision extending purdue ' s decision to § 363 sales ' ).

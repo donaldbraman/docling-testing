@@ -1,0 +1,14 @@
+UNMATCHED LINES FOR: bu_law_review_online_fourth_amendment_secure
+================================================================================
+Total unmatched: 1
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/1
+Best match score: 40.00%
+Method: no_match
+Tokens matched: 8/20
+Avg token similarity: 72.2%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+* louis stein chair of law, fordham university school of law; director, stein center for law and ethics, fordham university.

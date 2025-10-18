@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability</title>
+<!--Generated on Thu Oct 16 17:54:34 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14970v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S1" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Results</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.SS1" title="In 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.1 </span>Transcriptomics-derived BINN</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.SS2" title="In 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.2 </span>Metabolomics-derived BINN</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S3" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Discussion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Methods</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS1" title="In 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.1 </span>Model Development with Biological Inductive Biases</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS1.SSS0.Px1" title="In 4.1 Model Development with Biological Inductive Biases ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">1. Pathway subnetworks.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS1.SSS0.Px2" title="In 4.1 Model Development with Biological Inductive Biases ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">2. Residual network.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS1.SSS0.Px3" title="In 4.1 Model Development with Biological Inductive Biases ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">3. Final integrator network.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS2" title="In 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.2 </span>Custom Loss Functions for Guided Training</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS2.SSS0.Px1" title="In 4.2 Custom Loss Functions for Guided Training ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Standard mean squared error (MSE).</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS2.SSS0.Px2" title="In 4.2 Custom Loss Functions for Guided Training ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Biologically informed soft‐constrained loss.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3" title="In 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.3 </span>Sensitivity Analysis for Latent Perturbations</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3.SSS0.Px1" title="In 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Overview.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3.SSS0.Px2" title="In 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Step 1: Baseline computation.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3.SSS0.Px3" title="In 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Step 2: Latent clamping and phenotype response.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3.SSS0.Px4" title="In 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Step 3: Aggregation across models.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS3.SSS0.Px5" title="In 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title">Step 4: Entity ranking and downstream analysis.</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S5" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Data Availability</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S6" title="In Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>Code Availability</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Katiana Kontolati
+<br class="ltx_break"/>Bayer Crop Science
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter">katiana.kontolati@bayer.com</span>
+<br class="ltx_break"/>&amp;Rini Jasmine Gladstone
+<br class="ltx_break"/>Bayer Crop Science
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter">rinijasmine.gladstone@bayer.com</span>
+<br class="ltx_break"/>&amp;Ian W. Davis
+<br class="ltx_break"/>Bayer Crop Science
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter">ian.davis@bayer.com</span>
+<br class="ltx_break"/>&amp;Ethan Pickering<sup class="ltx_sup"><span class="ltx_text ltx_font_italic">∗</span></sup>
+<br class="ltx_break"/>Bayer Crop Science
+<br class="ltx_break"/><span class="ltx_text ltx_font_typewriter">ethan.pickering@bayer.com</span>
+<br class="ltx_break"/>
+</span><span class="ltx_author_notes">Corresponding authors</span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">We extend biologically-informed neural networks (BINNs) for genomic prediction (GP) and selection (GS) in crops by integrating thousands of single-nucleotide polymorphisms (SNPs) with multi-omics measurements and prior biological knowledge. Traditional genotype-to-phenotype (G2P) models depend heavily on direct mappings that achieve only modest accuracy, forcing breeders to conduct large, costly field trials to maintain or marginally improve genetic gain. Models that incorporate intermediate molecular phenotypes such as gene expression can achieve higher predictive fit, but they remain impractical for GS since such data are unavailable at deployment or design time. BINNs overcome this limitation by encoding pathway-level inductive biases and leveraging multi-omics data only during training, while using genotype data alone during inference. By embedding omics-derived priors directly into the network architecture, BINN outperforms conventional models in low-data (<math alttext="n&lt;p" class="ltx_Math" display="inline" id="m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>&lt;</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n&lt;p</annotation></semantics></math>) regimes and enables sensitivity analyses that expose biologically meaningful traits. Applied to maize gene-expression and multi-environment field-trial data, BINN improves rank-correlation accuracy by up to 56% within and across subpopulations under sparse-data conditions and nonlinearly identifies genes that GWAS/TWAS fail to uncover. With complete domain knowledge for a synthetic metabolomics benchmark, BINN reduces prediction error by 75% relative to conventional neural nets and correctly identifies the most important nonlinear pathway. Importantly, both cases show highly sensitive BINN latent variables correlate with the experimental quantities they represent, despite not being trained on them. This suggests BINNs learns biologically-relevant representations, nonlinear or linear, from genotype to phenotype. Together, BINNs establish a framework that leverages intermediate domain information to improve genomic prediction accuracy and reveal nonlinear biological relationships that can guide genomic selection, candidate gene selection, pathway enrichment, and gene-editing prioritization.</p>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<figure class="ltx_figure" id="S1.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="712" id="S1.F1.g1" src="x1.png" width="622"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span><span class="ltx_text ltx_font_bold">Biology-informed neural network framework embed domain knowledge for enhanced genomic prediction and learning nonlinear biological relationships.</span> <math alttext="a)" class="ltx_math_unparsed" display="inline" id="S1.F1.m3" intent=":literal"><semantics><mrow><mi>a</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">a)</annotation></semantics></math> Conventional G2P models use genotype alone, leaving rich functional knowledge underutilized. BINNs embed curated biology (from RNA-seq (expression), methylomics (DNA methylation), metabolomics, KEGG pathway annotations, and proteomics) directly into the architecture in the form of pathway structure, regulatory priors, and sparsity constraints, to boost predictive accuracy while preserving practical utility. <math alttext="b)" class="ltx_math_unparsed" display="inline" id="S1.F1.m4" intent=":literal"><semantics><mrow><mi>b</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">b)</annotation></semantics></math> Four representative cases where GWAS, TWAS, and BINN are valid for analyzing genomic, transcriptomic, and phenomic datasets. Only BINN permits association under general nonlinearity (with the assumption the trained BINN model is accurate).</figcaption>
+</figure>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p">Feeding 10 billion people by 2050 will require faster, more reliable crop improvement. In both conventional breeding—crossing and selecting offspring—and genome editing—making targeted edits and selecting edited lines—progress hinges on accurate genotype-to-phenotype (G2P) prediction to enable genomic selection (GS) <cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib27" title="">meuwissen2001prediction, </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib13" title="">crossa2017genomic, </a>)</cite>. GS improves crop improvement efficiency by permitting early selection at the seed or edit stage and reducing dependence on slow, costly, multi-location field trials <cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib20" title="">heffner2009genomic, </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib42" title="">varshney2021genomic, </a>)</cite>. With a well-calibrated model trained on prior genotype–phenotype data, a single low-cost genotyping assay can substantially reduce phenotyping requirements in both space and time <cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib13" title="">crossa2017genomic, </a>)</cite>. A wide range of models has been applied to GS—including linear mixed models; machine-learning methods such as random forests and kernel approaches; and deep neural networks—with performance varying by trait architecture, data volume, and environment <cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib10" title="">breiman2001random, </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib50" title="">yegnanarayana2009artificial, </a>)</cite>. Current approaches fall short of capturing the true biological processes from genotype to phenotype, and the field has a long way to go toward accurate, mechanistically grounded prediction.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p">Despite the surge of countless AI models and architectures, linear mixed modeling approaches remain state-of-the-art in G2P studies, with no other class of model consistently outperforming them across crops, populations, traits, years, and locations <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib1" title="">alemu2024genomic </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib4" title="">azodi2019benchmarking </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib47" title="">washburn2025global </a></cite>. Although there are several adaptations to linear models, most are quite similar. For instance, ridge regression <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib26" title="">mcdonald2009ridge </a></cite> and its adaptation using best linear unbiased predictor, rrBLUP <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib15" title="">endelman2011ridge </a></cite>, trained using genotypic (marker) data are identical, except rrBLUP chooses the regularization parameter, <math alttext="\alpha" class="ltx_Math" display="inline" id="S1.p2.m1" intent=":literal"><semantics><mi>α</mi><annotation encoding="application/x-tex">\alpha</annotation></semantics></math>, as a ratio of variances instead of by cross-validation <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib33" title="">ogutu2012genomic </a></cite>. Likewise a genomic BLUP or GBLUP <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib12" title="">clark2013genomic </a></cite> is mathematically equivalent to rrBLUP, but with compute efficiency gains when the number of lines is less than the number of markers <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib21" title="">jacquin2016unified </a></cite>, while the "Bayesian alphabet" models (BayesA, BayesB, BayesC, etc) <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib18" title="">gianola2009additive </a></cite> differ in allowing different markers to have different priors <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib28" title="">montesinos2022bayesian </a></cite>.
+And although several promising nonlinear artificial neural network (ANN) architectures have been proposed in the literature <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib17" title="">gao2023soydngp </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib24" title="">ma2017deepgs </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib45" title="">wang2025cropformer </a></cite>, deep learning methods have yet to show consistent improvements over traditional models and have not been adopted at scale in breeding pipelines <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib29" title="">montesinos2021review </a></cite>. This is partly due to over-parameterization and the lack of tailored deep learning architectures. Further gains are unlikely without injecting biological structure such as pathways, interactions, and regulatory programs into the model, a role for which flexible AI architectures are well suited.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p">A natural route to inject such biological structure is to integrate intermediate multi-omics signals—transcripts, proteins, metabolites—as scaffolds between genotype and phenotype, enriching G2P models with mechanistic constraints <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib2" title="">atwell2010genome </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib5" title="">azodi2020transcriptome </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib11" title="">christensen2021genetic </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib20" title="">heffner2009genomic </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib23" title="">korte2013advantages </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib27" title="">meuwissen2001prediction </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib36" title="">riedelsheimer2012genomic </a></cite>. Approaches such as multi-staged analysis <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib37" title="">ritchie2015methods </a></cite> and transcriptome-wide association studies (TWAS) <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib16" title="">gamazon2015gene </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib43" title="">wainberg2019opportunities </a></cite> are proposed to integrate omics data, such as gene expression levels, between genotype and phenotype for association studies. Traditional linear mixed models, while capable of including additional covariates, are fundamentally limited in how they integrate multi-omics information. In practice, they treat each data modality as a flat feature set and cannot impose the hierarchical, pathway-level constraints that capture the flow from genotype through intermediate traits to phenotype. This lack of architectural flexibility prevents them from leveraging richer, layered representations, such as gene‐to‐metabolite cascades or expression-driven subnetworks, that can substantially boost predictive power. In contrast, ANNs provide the flexibility to integrate multiple high-dimensional data streams such as genomics, transcriptomics, proteomics, lipidomics, etc., for tasks ranging from regression and classification to unsupervised representation learning, a capability that traditional linear models lack <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib25" title="">ma2022omicsgcn </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib32" title="">nguyen2020deepprog </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib44" title="">wang2021mogonet </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib46" title="">wang2023dnngp </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib49" title="">yang2021mvae </a></cite>. In practice, downstream omics are not available for novel genotypes at design or deployment, so they can only inform training—via priors, pretraining, or architectural constraints—rather than serve as inference-time features.</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p">Biologically-informed neural networks (BINNs) have begun to provide model flexibility in embedding omics data and domain-specific knowledge such as gene, protein, or pathway relationships, directly into their architecture and training objectives to improve predictive accuracy, interpretability, and extrapolative potential. Analogous to physics-informed neural networks (PINNs) that incorporate governing equations into their loss functions <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib35" title="">raissi2019physics </a></cite>, BINNs impose biologically plausible sparsity patterns on connections, reducing parameter count and data requirements while enabling efficient integration of heterogeneous multi-omics inputs. This inductive bias not only curbs overfitting but also aligns latent representations with known biology. BINNs have been applied across population genomics and biomedicine, including cancer subtype prediction, drug response modeling, and survival analysis in frameworks like GenNet <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib40" title="">van2021gennet </a></cite>, proteomics biomarker discovery <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib19" title="">hartman2023interpreting </a></cite>, hierarchical pathway networks for prostate cancer <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib14" title="">elmarakeby2021biologically </a></cite>, and multi-omics inferral of smoking status, age, and LDL from the BIOS cohort <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib41" title="">van2024phenotype </a></cite>, demonstrating consistent gains in performance and stability. Despite their promise, existing BINNs enforce a rigid, fully interpretable mapping of neurons to biological entities, limiting architectural flexibility and nonlinear modeling, and in most cases still depend on omics measurements at deployment, undermining their practicality in plants and crop design. Furthermore, although existing BINN approaches employ ANN-based models, their method for ranking biological entities such as genes typically relies on assessing marginal associations through learned single-edge weights, an approach conceptually similar to traditional genome-wide association studies (GWAS) or TWAS. Consequently, these models tend to highlight already known significant genes while overlooking those involved in nonlinear or epistatic interactions.</p>
+</div>
+<div class="ltx_para" id="S1.p5">
+<p class="ltx_p">Here we design a BINN architecture to align with genomic selection and design of crops, explicitly integrating omics data as intermediate variables, removing the need for omics data at test/design while still allowing for biological interpretability and targeted pathway prioritization (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">1</span></a>). Our key contributions are summarized below:</p>
+<ol class="ltx_enumerate" id="S1.I1">
+<li class="ltx_item" id="S1.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S1.I1.i1.p1">
+<p class="ltx_p">A BINN architecture balancing tunable sparsity, layered nonlinearity and practicality.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S1.I1.i2.p1">
+<p class="ltx_p">Superior sparse-data performance with up to 56% test-set rank correlation increase and 75% reduction in predictive error over G2P baselines, across and within populations.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S1.I1.i3.p1">
+<p class="ltx_p">Demonstrated ability to transfer across related populations, maintaining strong predictive accuracy when genetic background is partially shared.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">4.</span>
+<div class="ltx_para" id="S1.I1.i4.p1">
+<p class="ltx_p">A novel BINN-derived sensitivity analysis framework that associates biologically meaningful intermediate traits to phenotype that are beyond the reach of conventional GWAS and TWAS approaches.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i5" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">5.</span>
+<div class="ltx_para" id="S1.I1.i5.p1">
+<p class="ltx_p">A scalable, practical framework for plant and crop genomic selection and design that marries multi-omics-driven training with genotype-only deployment.</p>
+</div>
+</li>
+</ol>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Results</h2>
+<div class="ltx_para" id="S2.p1">
+<p class="ltx_p">We develop and evaluate BINN models informed by two distinct types of intermediate omics—<span class="ltx_text ltx_font_bold">transcriptomics</span> and <span class="ltx_text ltx_font_bold">metabolomics</span>—to predict phenotypes directly from genotype. Our first case study leverages transcriptomic profiles measured in a large-scale maize field experiment<cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib39" title="">torres2024population, </a>)</cite>, where lines from multiple heterotic groups were grown under real agronomic conditions. This setting provides a realistic testbed for BINNs: gene expression captures environmentally modulated regulatory activity, offering a richer signal than raw marker data. In this context, we observe promising gains over conventional G2P models, but also important caveats due to the noise, heterogeneity, and incomplete pathway knowledge that naturally accompany field-derived omics measurements. In contrast, our second case study is a synthetic benchmark based on metabolomic traits simulated through an ordinary differential equation (ODE) model of shoot branching<cite class="ltx_cite ltx_citemacro_citep">(<a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib9" title="">bertheloot2020sugar, </a>)</cite>. Unlike the maize field data, this framework provides “perfect” domain knowledge of the true causal pathways, enabling us to rigorously stress-test BINNs and evaluate their ability to recover mechanistic structure when the ground truth is fully known. Together, these complementary case studies - one grounded in realistic breeding data, the other in controlled synthetic biology - allow us to assess both the practical utility and the methodological limits of BINNs. Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.T1" title="Table 1 ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">1</span></a> summarizes implementation details; full configurations and preprocessing steps can be found in the Supplementary Section.</p>
+</div>
+<figure class="ltx_table" id="S2.T1">
+<figcaption class="ltx_caption ltx_centering" style="font-size:80%;"><span class="ltx_tag ltx_tag_table">Table 1: </span>Implementation components for the maize TWAS dataset and synthetic shoot-branching case studies.</figcaption>
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Attribute</span></th>
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Maize TWAS Dataset</span></th>
+<th class="ltx_td ltx_nopad_r ltx_align_left ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Synthetic Shoot-Branching</span></th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text" style="font-size:80%;">Input SNPs/Genes</span></td>
+<td class="ltx_td ltx_align_left ltx_border_t">
+<math alttext="\sim" class="ltx_Math" display="inline" id="S2.T1.m1" intent=":literal"><semantics><mo mathsize="0.800em">∼</mo><annotation encoding="application/x-tex">\sim</annotation></semantics></math><span class="ltx_text" style="font-size:80%;">20,000 SNPs per trait</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_left ltx_border_t"><span class="ltx_text" style="font-size:80%;">1,600 genes</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">Intermediate Omics Data</span></td>
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">Transcriptomics</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">Metabolomics</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;"># Intermediate Traits</span></td>
+<td class="ltx_td ltx_align_left">
+<math alttext="\sim" class="ltx_Math" display="inline" id="S2.T1.m2" intent=":literal"><semantics><mo mathsize="0.800em">∼</mo><annotation encoding="application/x-tex">\sim</annotation></semantics></math><span class="ltx_text" style="font-size:80%;">1,000 genes per trait</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">4 (auxin, sucrose, cytokinin, strigolactone)</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;"># Output Phenotypes</span></td>
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">4 (anthesis NE, MI; silking NE, MI)</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">1 (time to bud outgrowth)</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">Trait Selection Method</span></td>
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">ElasticNet regression</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">From known ODE model</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">SNP Mask Construction</span></td>
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">eQTL mapping of selected genes</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">ODE‐derived gene-metabolite mappings</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">Loss Function</span></td>
+<td class="ltx_td ltx_align_left"><span class="ltx_text" style="font-size:80%;">MSE</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_left"><span class="ltx_text" style="font-size:80%;">Soft-constrained MSE</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb"><span class="ltx_text" style="font-size:80%;">Reference</span></td>
+<td class="ltx_td ltx_align_left ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">Torres-Rodriguez et al. </span><cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib39" title="">torres2024population </a></cite>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_left ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">Bertheloot et al. </span><cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib9" title="">bertheloot2020sugar </a></cite><span class="ltx_text" style="font-size:80%;"> &amp; Powell et al. </span><cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib34" title="">powell2022investigations </a></cite>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<section class="ltx_subsection" id="S2.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.1 </span>Transcriptomics-derived BINN</h3>
+<figure class="ltx_figure" id="S2.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="797" id="S2.F2.g1" src="x2.png" width="747"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span><span class="ltx_text ltx_font_bold">BINNs improve prediction accuracy and interpretability through utiliziation of gene expression in genotype to phenotype modeling.</span> (a) Schematic of the transcriptomics-derived BINN architecture. The SNP marker and gene expression data are utilized for feature selection, which serves to sparsify the connections between the input and intermediate layers of the BINN architecture. The marker data for each gene is passed through pathway subnetworks at the intermediate layer and the outputs from this layer is passed through a non-linear integrator network to predict the phenotype values. The G2P and B2P models are both linear models. (b) Predicted vs. observed phenotype days to anthesis in MI across four subpopulations (SS, NSS, IDT, and Others). Points show G2P (GBLUP on genotype; pink triangles) and G2B2P (BINN with expression-informed sparsity; blue circles). An ordinary least-squares (OLS) fit is overlaid and the Spearman correlation (<math alttext="\rho" class="ltx_Math" display="inline" id="S2.F2.m2" intent=":literal"><semantics><mi>ρ</mi><annotation encoding="application/x-tex">\rho</annotation></semantics></math>) is reported in the legend. (c) Test Spearman correlation distributions for Silking NE, comparing three predictive models (G2P, G2B2P and B2P: Ridge regression on expression, green) across five independent 20/80% train/test splits, each with five‑fold cross‑validation to capture both split‑level and CV‑level variability. Each subplot shows results for all lines pooled (“all”) and for each of the seven distinct subpopulations (SS, NSS, IDT, Popcorn, Sweet corn, Tropical and Others). The pink dashed line marks the median of the G2P baseline; the dashed line for G2B2P is colored green when its median exceeds that baseline or red when it falls below. Legends report the median percent change of G2B2P relative to G2P and titles show the number of test samples. (d) Test Spearman correlation distributions for leave-one-population-out experiments for Silking NE, comparing the same three predictive models. Each subplot shows results for the predictions on six distinct subpopulations using the models that are trained by leaving out the corresponding subpopulation from the training data. (e) Predicted latent variables vs. observed gene expression for four representative high-correlation genes per phenotype. (f) Aggregated absolute phenotypic change for 30 representative genes - 15 with high absolute Pearson correlation and 15 close to zero. (g) Aggregated absolute phenotypic change per perturbed gene, with a threshold capturing the BINN-derived 100 most significant genes which includes zap1, zmm15, zcn14 and zcn8.</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Gene-expression-informed BINNs improve spearman rank correlations over G2P models across and within populations in maize field trials.</span> BINNs embed expression-derived sparsity into a genotype-to-biological-knowledge-to-phenotype “G2B2P”, where biological-knowledge is gene expression data, network which delivers superior predictive performance compared to genotype-only GBLUP models, under sparse-data conditions (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>b). We use the maize TWAS dataset from Torres-Rodríguez et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib39" title="">torres2024population </a></cite>, which provides matched genotypes, RNA-seq expression profiles, and flowering-time phenotypes: days-to-anthesis and days-to-silking in Nebraska and Michigan (see Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>b). In five independent 20%/80% train/test splits with five-fold cross-validation on each training set, BINN achieves higher Spearman correlations than the GBLUP baseline, both when pooling all 693 lines and within each of the seven heterotic subpopulations. BINNs outperformed GBLUP in the majority of pairwise comparisons, and the advantage was statistically significant on a paired t-test (<math alttext="p=2.23\times 10^{-6}" class="ltx_Math" display="inline" id="S2.SS1.p1.m1" intent=":literal"><semantics><mrow><mi>p</mi><mo>=</mo><mrow><mn>2.23</mn><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow></mrow><annotation encoding="application/x-tex">p=2.23\times 10^{-6}</annotation></semantics></math>). Here, we report representative results for silking NE as shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>c; complete results for all phenotypes are provided in the Supplementary Figure 5. Notably, the most pronounced and consistent improvements occurred within individual subpopulations, the most critical and challenging scenario for GS, demonstrating BINN’s ability to capture subtle, group-specific genetic variation.</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINNs leverage domain knowledge to pinpoint key genes and derive SNP–gene connections that both shrink network size while preserving nonlinear modeling power.</span>
+Models that embed domain knowledge have frequently demonstrated similar or superior predictive power compared to purely genotype-based approaches <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib5" title="">azodi2020transcriptome </a></cite>. In the maize TWAS application, we observe that expression-based domain-to-phenotype (B2P) models outperform conventional G2P baselines across most evaluation settings and BINNs can translate this predictive strength into the G2P setting. Transcriptomic profiles inform the degree of architectural sparsity without ever feeding raw expression values into the prediction network at inference. Specifically, we first fit an Elastic Net model to each flowering‐time trait—tuning its L1/L2 penalty via cross‐validation—and selected the genes with nonzero coefficients, noting that the feature selection outcome was particularly sensitive to the specific cross-validation split. We then carried out eQTL mapping on these candidates to nominate their top SNP markers, which defined the sparse SNP→gene mask that shapes our G2B2P BINN architecture (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>a). As shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.T2" title="Table 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>, a sweep of the Elastic Net’s L1 ratio revealed that retaining approximately 1,000 genes per trait and split offers the best trade-off between model compactness and accuracy, recovering the major regulators identified in the original study. An important limitation to this approach is that if B2P underperforms G2P, BINNs are unlikely to provide an advantage, since intermediate feature selection would not add predictive power.</p>
+</div>
+<figure class="ltx_table" id="S2.T2">
+<figcaption class="ltx_caption ltx_centering" style="font-size:80%;"><span class="ltx_tag ltx_tag_table">Table 2: </span>Test set Spearman rank correlation of BINNs across all populations and cross-validation splits for various Elastic Net L1 ratios used to select genes for the G2B2P mask for all four phenotypes. The best setting for each trait is bolded.</figcaption>
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">L1 ratio</span></th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;"># genes</span></th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Anthesis NE</span></th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Anthesis MI</span></th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Silking NE</span></th>
+<th class="ltx_td ltx_nopad_r ltx_align_center ltx_th ltx_th_column ltx_border_tt"><span class="ltx_text ltx_font_bold" style="font-size:80%;">Silking MI</span></th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_t"><span class="ltx_text" style="font-size:80%;">0.05</span></th>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text" style="font-size:80%;">1541–2251</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">
+<span class="ltx_text" style="font-size:80%;">0.650 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m1" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.034</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">
+<span class="ltx_text" style="font-size:80%;">0.652 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m2" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.046</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_t">
+<span class="ltx_text" style="font-size:80%;">0.630 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m3" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.041</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_center ltx_border_t">
+<span class="ltx_text" style="font-size:80%;">0.649 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m4" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.036</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text ltx_font_bold" style="font-size:80%;">0.10</span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="font-size:80%;">848–1271</span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="font-size:80%;">0.655 <math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m5" intent=":literal"><semantics><mo>±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math> 0.037</span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="font-size:80%;">0.663 <math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m6" intent=":literal"><semantics><mo>±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math> 0.034</span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="font-size:80%;">0.632 <math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m7" intent=":literal"><semantics><mo>±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math> 0.040</span></td>
+<td class="ltx_td ltx_nopad_r ltx_align_center"><span class="ltx_text ltx_font_bold" style="font-size:80%;">0.660 <math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m8" intent=":literal"><semantics><mo>±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math> 0.044</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:80%;">0.20</span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="font-size:80%;">467–696</span></td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.605 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m9" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.151</span>
+</td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.656 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m10" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.038</span>
+</td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.623 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m11" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.043</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.662 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m12" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.038</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row"><span class="ltx_text" style="font-size:80%;">0.50</span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="font-size:80%;">132-301</span></td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.595 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m13" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.143</span>
+</td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.633 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m14" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.053</span>
+</td>
+<td class="ltx_td ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.593 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m15" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.127</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_center">
+<span class="ltx_text" style="font-size:80%;">0.640 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m16" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.040</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb"><span class="ltx_text" style="font-size:80%;">1.00</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="font-size:80%;">50-131</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">0.597 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m17" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.047</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">0.596 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m18" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.047</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">0.547 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m19" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.114</span>
+</td>
+<td class="ltx_td ltx_nopad_r ltx_align_center ltx_border_bb">
+<span class="ltx_text" style="font-size:80%;">0.593 </span><math alttext="\pm" class="ltx_Math" display="inline" id="S2.T2.m20" intent=":literal"><semantics><mo mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span class="ltx_text" style="font-size:80%;"> 0.059</span>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<div class="ltx_para" id="S2.SS1.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINNs exploit shared expression–trait mechanisms beyond marker structure to improve generalization but rigid priors can limit flexibility in genetically distant populations.</span> It is well established that marker data are strongly tied to population structure whereas expression data are often tissue and environment-specific and less tightly tied to ancestry <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib38" title="">torres2025evolving </a></cite>. Removing systematically distinct populations from the BINN training set revealed a clear pattern in model transferability. Expression data overall offers improved cross-population generalization compared to marker-based models as expression reflects functional output of many regulatory layers that can “normalize” some of the divergence in raw markers. However, BINN’s biologically constrained architecture can only capitalize on this advantage when the causal paths through biology are shared between train and test lines. Evidently, when one of the mainstream heterotic groups such as SS, NSS, or IDT was held out, BINN maintained robust generalization performance (see Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>d). This is particularly important for large-scale breeding programs, which rely heavily on these temperate pools for developing elite germplasm and driving genetic gain. In contrast, when genetically more distant populations were excluded from training, such as sweet corn or tropical, which represent cases where regulatory programs diverge substantially from temperate pools <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib48" title="">wu2015analysis </a></cite>, BINN appeared to overfit to pathway patterns dominated by the larger heterotic groups thereby limiting its ability to adapt. Thus, while BINNs excel when shared biological mechanisms exist, overly rigid priors limit its flexibility in zero-shot learning scenarios. However, this issue diminishes as domain knowledge improves: the more precise and mechanistically grounded it is, the larger the performance gains across tasks (see section <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.SS2" title="2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2.2</span></a>).</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Sensitivity analysis reveals nonlinear genetic contributors that TWAS/GWAS may fail to capture.</span> A key advantage of BINNs lies in their interpretability, i.e., the ability of trained models to elucidate how specific biological entities influence intermediate traits and ultimately shape the phenotype. Traditional BINNs with single-edge weights offer direct interpretability, as each parameter corresponds to a distinct marker–gene or gene–trait connection. In our implementation, we enhance model expressivity by replacing these single-edge weights with fully connected layers, sacrificing one-to-one parameter interpretability but enabling richer representations of nonlinear dependencies. To assess whether BINNs can identify biologically meaningful genes, we developed and conducted a sensitivity analysis (presented in Algorithm <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#alg1" title="Algorithm 1 ‣ Step 4: Entity ranking and downstream analysis. ‣ 4.3 Sensitivity Analysis for Latent Perturbations ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">1</span></a>) across all pathway subnetworks. Specifically, we perturbed each pathway’s latent variable in both directions and quantified the resulting change in the predicted phenotype, ranking genes by their aggregated effect. Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>e summarizes this analysis, showing that BINN recovers several TWAS-significant genes reported in Torres-Rodríguez et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib39" title="">torres2024population </a></cite>, such as the previously characterized zcn8 as well as zap1, zmm15 and zcn14, but also highlights additional candidates that may participate in epistatic interactions shaping phenotypic response. These genes may be overlooked by traditional approaches like TWAS, which rely on marginal gene-trait associations, whereas BINN’s end-to-end training captures predictive, nonlinear, and combinatorial effects beyond the reach of standard linear models. Interestingly, we found that the genes most sensitive to phenotype perturbations also exhibit strong latent-expression correlations (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F2" title="Figure 2 ‣ 2.1 Transcriptomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">2</span></a>e,f). This suggests that BINNs preferentially learn biologically grounded representations, linear or nonlinear, aligned with known mechanisms.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S2.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.2 </span>Metabolomics-derived BINN</h3>
+<div class="ltx_para" id="S2.SS2.p1">
+<p class="ltx_p">We now demonstrate that BINNs offer greater potential in both accuracy and interpretability for genomic design when <span class="ltx_text ltx_font_bold">established domain knowledge</span> is incorporated. This contrasts with the previous example, which relied solely on intermediate experimental data. To illustrate, we use a synthetic metabolomics problem in which hormone–sugar interactions are formalized through an ODE model, creating a clean G2P nonlinear test bed for evaluating BINNs. A motivating example comes from axillary bud outgrowth—the switch-like process underlying shoot branching—arising from interactions among auxin (A), cytokinin (CK), strigolactone (SL), and sucrose (S) in a minimal network <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib9" title="">bertheloot2020sugar </a></cite>, later extended with genotype-to-metabolite variation at multiple causal loci <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib34" title="">powell2022investigations </a></cite>. The domain knowledge we embed is simple but definitive: gene–metabolite, metabolite–metabolite, and metabolite–phenotype interactions. Importantly, the BINN is not provided with the full ODE details (the magnitudes of effects, equation structures, or nonlinearities) but only the associations between layers. To avoid an artificially “easy” setting and to test robustness, we perturb the simulated data by adding 5% noise to intermediate traits and 10% noise to phenotypes. This controlled setting enables us to rigorously test the BINN methodology: evaluating performance under both plentiful and sparse data conditions, examining its ability to recover known causal dynamics, and exploring extensions such as custom loss functions applied to partially observed intermediates.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINNs improve predictions under sparse‐data regimes.</span> In the genotype-to-metabolites-to-phenotype setup, BINN embeds ODE-derived metabolite pathways and constrains gene inputs through known gene–metabolite links. (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>a). Evaluated across nine geometrically-spaced training sizes from 500 to 20,000 lines, with five random splits, the standard MSE-trained BINN consistently outperformed Ridge regression and an unconstrained fully-connected network (FCN) in the sparse-data regime, i.e., when the number of training lines was smaller than the input dimensionality (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>b,c). As expected, when sample size increases, BINN performance approaches that of the FCN, indicating that the pathway-guided sparsity yields a better bias–variance trade-off when data are limited, while also preserving nonlinear expressivity as data grow. This demonstrates that BINNs can faithfully capture the intrinsic nonlinearity encoded in the underlying ODE dynamics across the entire data range, an aspect fundamentally beyond the reach of linear models like RR and GBLUP in the data-plentiful limit (<math alttext="n\gg p" class="ltx_Math" display="inline" id="S2.SS2.p2.m1" intent=":literal"><semantics><mrow><mi>n</mi><mo>≫</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n\gg p</annotation></semantics></math>) and common neural networks in the data-sparse limit (<math alttext="n\ll p" class="ltx_Math" display="inline" id="S2.SS2.p2.m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>≪</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n\ll p</annotation></semantics></math>).</p>
+</div>
+<figure class="ltx_figure" id="S2.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="626" id="S2.F3.g1" src="x3.png" width="664"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span><span class="ltx_text ltx_font_bold">BINNs significantly outperform baselines in the sparse data limit <math alttext="n&lt;p" class="ltx_Math" display="inline" id="S2.F3.m6" intent=":literal"><semantics><mrow><mi>n</mi><mo>&lt;</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n&lt;p</annotation></semantics></math></span>. (a) Schematic of the BINN architecture for the shoot‐branching network. Gene inputs are routed through four biologically‐annotated pathway subnetworks corresponding to auxin (A), sucrose (S), cytokinins (CK), and strigolactones (SL), then combined in a final integrator to predict bud‐outgrowth time. (b) Test‐set performance (MSE) for six models: ridge regression (RR), a generic fully‐connected network (FCN), BINN trained with standard MSE (BINN‐MSE), and BINN trained with the biologically‐informed soft‐constraint loss (BINN‐soft) with a varying fraction of known intermediate trait measurements (100%, 50% and 10%), evaluated across nine training‐set sizes logarithmically spaced between 500 and 20,000 samples. Boxplots display the distribution across five random initializations. The vertical black dashed line at <math alttext="n=1,600" class="ltx_Math" display="inline" id="S2.F3.m7" intent=":literal"><semantics><mrow><mi>n</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mn>600</mn></mrow></mrow><annotation encoding="application/x-tex">n=1,600</annotation></semantics></math> denotes the transition from sparse (<math alttext="n&lt;p" class="ltx_Math" display="inline" id="S2.F3.m8" intent=":literal"><semantics><mrow><mi>n</mi><mo>&lt;</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n&lt;p</annotation></semantics></math>) to plentiful (<math alttext="n&gt;p" class="ltx_Math" display="inline" id="S2.F3.m9" intent=":literal"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">n&gt;p</annotation></semantics></math>) data regimes. (c) Predicted vs observed phenotype across four training sizes (<math alttext="n" class="ltx_Math" display="inline" id="S2.F3.m10" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> = 500, 1,994, 7,953, 20,000) for three models: RR (purple circles), FCN (black triangles), and BINN (red squares). Each panel shows the identity line (y = x), and in-panel legends report Pearson correlation (r) for each model. (d) Scatter plots of predicted versus true latent values for each intermediate trait (A, S, CK, SL) under the BINN MSE (blue) and the BINN soft model (red). The fitted regression line and Pearson correlation coefficient, r, are overlaid. (e) Aggregated absolute phenotypic change per perturbed intermediate trait.</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Biology-informed loss functions, applied to intermediate variables, improves prediction accuracy and recovery of pathway dynamics with sparse intermediate labels.</span> In many systems, intermediate traits can be experimentally measured, and this information can be used to better anchor latent variables to pathway dynamics. To this end, we introduce a soft-constraint loss function (i.e. Pearson loss) that explicitly encourages latent outputs to correlate with ground-truth intermediate trait values. In realistic scenarios, budget or experimental constraints often limit the amount of intermediate data that can be collected. To reflect this, we evaluate the model under three conditions: 100%, 50%, and 10% of lines with known labels. This design preserves genotype-only inference while allowing for complete or partial pathway supervision during training. The soft-constraint approach (BINN soft), achieves the lowest test MSE in the small-data regime, and performs comparably to standard BINNs with larger datasets (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>b). Notably, the performance of is largely insensitive to the proportion of intermediate data available, indicating that even sparse biological supervision enables the network to recover the underlying hormone–sugar dynamics. In other words, even a small amount of alignment is sufficient to boost downstream phenotypic predictions.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINN architectures provide a latent variable mechanism for interpretability, uncovering the critical importance of sucrose’s impact on outgrowth.</span> When we analyze the biologically-informed latent variables via scatter‐plot diagnostics on 20,000 held-out test lines, distinct pathway-level patterns emerge. We ran this experiment under both the standard MSE objective (BINN MSE) and a custom soft-constraint MSE (BINN soft). As expected, the soft-constraint setup (see Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>d (second row)) yields stronger correlations between latent variables and ground-truth metabolites, since the model was partially supervised to do so. However, an interesting observation comes from Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>d (first row): with the standard BINN MSE, most hormone pathways show little correlation with the ground truth, yet sucrose displays a remarkably strong alignment. As shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S2.F3" title="Figure 3 ‣ 2.2 Metabolomics-derived BINN ‣ 2 Results ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>e, a post-hoc sensitivity analysis on the four intermediate traits demonstrated that the phenotype is more sensitivity to perturbations in sucrose, highlighting its importance. Indeed Bertheloot et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib9" title="">bertheloot2020sugar </a></cite>, designed their experiments to show the critical importance of sucrose in this biological example. These results illustrate how BINNs can learn nonlinear relationships and surface biologically meaningful variables when appropriate inductive bias is added, achieving interpretability through both explicit alignment losses and emergent signals in the unconstrained setting.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Discussion</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p">Biologically informed neural networks provide the flexibility to incorporate ever-growing omics datasets for genomic selection, embedding intricate biological mechanisms and delivering improved accuracy and generalization. By using intermediate molecular information to shape network sparsity and connectivity, BINNs convert domain knowledge into inductive bias that both stabilizes learning in sparse-data settings and yields pathway-level latent variables for interpretation. In this work we benchmark BINNs on two concrete tasks: an ODE-grounded, synthetic shoot-branching problem and a real maize TWAS dataset, to test whether they deliver <em class="ltx_emph ltx_font_italic">accurate yet deployable</em> genomic predictions. Across both applications, BINN outperforms baseline Ridge/FCN/GBLUP models in the <em class="ltx_emph ltx_font_italic">sparse-data regime</em>, remains stable under noise, and requires only genotypes at inference. Importantly, the trained model can be leveraged through post hoc sensitivity analysis to identify biologically relevant entities driving the phenotype, offering a nonlinear alternative to traditional GWAS and TWAS approaches.</p>
+</div>
+<div class="ltx_para" id="S3.p2">
+<p class="ltx_p">Our BINN extension is built first and foremost for genomic-selection practicality. The primary focus of existing BINN implementations in the literature has not considered GS or plant breeding utility and while although multiple studies have demonstrated the strong predictive power of omics data, it is not always clear how to translate these insights into models that rely exclusively on genomic inputs for GS. Our goal is to reframe the use of BINNs for GS that would make it relevant for many practical use cases in plant breeding. Full interpretability of existing models facilitates causal insight by directly linking predicted phenotypes to specific biological entities, but this rigid structure can constrain expressivity and thus limit predictive accuracy. A related challenge in plant breeding is scaling such models: breeders need decision‐support tools that deliver accurate predictions without incurring the time and cost of routine omics measurements. In this work, we present a new biology-aware design and demonstrate its ability to improve predictive performance and practicality for GS, offering a hopeful path toward more accurate and scalable crop improvement. This is achieved by the following key features:</p>
+</div>
+<div class="ltx_para" id="S3.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINNs do not need omics data at test time making them practical for the design phase where they are most needed and impactful.</span> As discussed, omics data carry high predictive power and, when leveraged appropriately, can enhance models that rely solely on genotype data. However, a critical constraint in this setting is that any omics data downstream of the genotype will not be available at deployment time, therefore such information must be leveraged only during training to shape model structure and guide learning, without being directly used at inference. Our BINN implementation folds omics data into inductive biases during training but never at inference allowing us to maintain full compatibility with standard GS workflows. Consistent with our out-of-distribution experiments, when the target population shares sufficient genetic background with the training cohort, these learned inductive biases transfer effectively, enabling reliable inference on new genotypes whereas gains naturally decrease for more divergent populations.</p>
+</div>
+<div class="ltx_para" id="S3.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Tunable sparsity of BINNs reduces overfitting risks, sensitivity to noise, and improved predictive performance.</span> We derive each omics‐layer mask by applying feature‐selection and association analyses to nominate candidate causal features across the dataset and match model architecture with trait complexity. Those candidates determine the sparse connectivity of the BINN model, allowing it to flexibly span oligogenic traits, where a few high-impact modules drive most of the signal, and highly polygenic traits, where predictive power emerges from many small‐effect contributors, simply by tuning the model sparsity. The tuned BINN models developed for two diverse applications delivered superior performance under sparse data, achieving up to a 56% gain in test-set rank correlation and a 75% reduction in predictive error relative to G2P baselines, within and across populations.</p>
+</div>
+<div class="ltx_para" id="S3.p5">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Layered nonlinearity increases expressivity and allows BINNs to capture epistasis and nonlinear interactions.</span> BINNs demonstrated superior performance when learning the nonlinear metabolics problem, especially under sparse data. A key distinction of our approach lies in the balance between expressivity and interpretability. Unlike existing BINNs that assign each hidden neuron to a specific biological entity such as a gene, pathway, or protein, enabling direct read-off of effect weights, we employ flexible fully connected modules at each omics layer, enabling the network to learn rich, non-linear interactions among features while still honoring sparsity constraints derived from annotation even if individual hidden units no longer carry explicit biological labels. Each module’s small FCN can capture intra-pathway epistasis among genes (or other genetic regions, e.g. SNPs) and other local non-linear effects that single-weight connections miss. This is valuable when potential locus-locus interactions contribute to the phenotype. The final integrator network fuses these module outputs, capturing higher-order, between-gene interactions.</p>
+</div>
+<div class="ltx_para" id="S3.p6">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINN latent variables offer opportunities to find hidden layer causal relationships given their stand in for biological domain knowledge.</span>
+Even though we emphasize expressivity over built-in neuron-level interpretability, our BINN framework still offers opportunities for biological insight by uncovering causal relationships and enabling targeted sensitivity analyses that can inform biological understanding and decision-making. BINNs can prioritize intermediate traits by perturbing their corresponding latent variables and observing the resulting effect on the phenotype. In our metabolomics example, the phenotype showed the strongest sensitivity to perturbations of the sucrose latent variable, suggesting that the model captures pathway-relevant biological signals even under imperfect calibration. In the transcriptomics case, BINN not only recovers genes consistent with prior TWAS findings but also uncovers a range of additional candidates potentially influencing the phenotype through nonlinear, epistatic interactions. While these findings warrant further experimental validation, BINNs provide a promising framework for prioritizing gene candidates in downstream applications such as functional genomics and gene editing.</p>
+</div>
+<div class="ltx_para" id="S3.p7">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">BINNs are not without several limitations that must be considered when designing them.</span>
+Despite the promising performance of BINNs in both applications in this study there are several important limitations to consider. Introducing sparsity constraints as inductive biases can boost accuracy in data‑scarce settings, but the degree of sparsity must be carefully calibrated. Too little or too much undermines model behavior and thus, a systematic analysis to determine the optimal sparsity level is essential. Moreover, omics datasets are often noisy and heterogeneous, making it nontrivial to translate one or multiple –omics layers into an effective BINN architecture without risking mis‑specification. Like all ANN‑based approaches, BINNs demand hyperparameter tuning and computational resources for proper calibration.</p>
+</div>
+<div class="ltx_para" id="S3.p8">
+<p class="ltx_p">One of the strengths of the BINN framework lies in its flexibility to incorporate different types of loss functions depending on the modeling objective, however, we did not find this improved results for the transcriptomics dataset. For example, one can augment the baseline predictive loss with biologically motivated constraints, such as pathway coherence penalties or sparsity-inducing terms, to encourage solutions that are both accurate and mechanistically plausible. We found that such auxiliary constraints can sometimes boost predictive accuracy, although the magnitude of improvement varies by application and requires careful balancing to avoid over-penalization. In our experiments, we also test a more rigid formulation by embedding a “hard” constrained MSE penalty designed to strongly enforce reconstruction consistency across latent pathways. However, this constraint did not yield improvements, suggesting that overly strict losses can reduce flexibility and hinder optimization. This highlights an important trade-off: while additional biological constraints can enhance performance and interpretability, they must be tuned with care.</p>
+</div>
+<div class="ltx_para" id="S3.p9">
+<p class="ltx_p">To build on these findings and design BINNs in real‑world breeding programs, more studies most be taken to understand how BINNs perform across diverse applications and populations, with different domain knowledge, on varied phenotypes, and more. The “sparse data” regime varies by dataset size and population diversity, and the benefits of BINNs will depend on both trait complexity and crop species. While our work addressed relatively simple phenotypes (flowering time and time to bud outgrowth), systematic benchmarking across a broader spectrum of traits (e.g., from highly heritable, single‑gene characteristics to complex, polygenic attributes) will be essential to fully realize the potential of such models in crop improvement.</p>
+</div>
+<figure class="ltx_table" id="S3.T3">
+<figcaption class="ltx_caption" style="font-size:90%;"><span class="ltx_tag ltx_tag_table">Table 3: </span>Biological layers, their functions, and example data types.</figcaption>
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Biological Level</span></span>
+</span>
+</th>
+<th class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Function</span></span>
+</span>
+</th>
+<th class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Example Data Type</span></span>
+</span>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Genotype</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Genetic information underlying traits</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">SNP arrays, whole-genome sequencing</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text" style="font-size:90%;">Epigenetic Modifications</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Influence gene regulation without changing DNA sequence</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">DNA methylation</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text" style="font-size:90%;">Gene Expression</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Controls gene activity affecting traits</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">RNA-seq</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text" style="font-size:90%;">Protein Interaction Networks</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Provide structural and signaling connections influencing outcomes</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">Proteomics</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text" style="font-size:90%;">Metabolites</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Biochemical traits linking genes to observable traits</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">Metabolomics</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text" style="font-size:90%;">Regulatory Pathways</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Control and coordinate gene expression</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">Pathway databases (e.g., KEGG)</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:85.4pt;"><span class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Phenotype</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:142.3pt;"><span class="ltx_text" style="font-size:90%;">Observable traits resulting from genetic and environmental interactions</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:113.8pt;"><span class="ltx_text" style="font-size:90%;">Yield, height, flowering time, etc.</span></span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<div class="ltx_para" id="S3.p10">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Importantly, BINN gains depend on the quality of domain knowledge embedded in the model.</span> Purely data-driven setups, such as our transcriptomics-derived case, are constrained by the limits of experimental measurement: gene expression, while richer than genotype alone, is highly context-dependent (tissue, environment, sampling window) and thus noisy and heterogeneous, making performance sensitive to study design. By contrast, when mechanistic knowledge is sharper and more stable, illustrated by our metabolomics example, BINNs deliver markedly better accuracy in the sparse-data regime. This underscores a broader point: advancing fundamental biological understanding is not optional but enabling for practical GS models. Progress can come both from targeted experimental studies that elucidate pathways and from computational advances, e.g., genomic language models (gLMs) <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib7" title="">benegas2023dna </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib6" title="">benegas2025dna </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib31" title="">nguyen2024hyenadna </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib30" title="">nguyen2024sequence </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib8" title="">benegas2025genomic </a></cite> and functional genomics predictors <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib3" title="">avsec2021effective </a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib22" title="">jaganathan2019predicting </a></cite>, that infer function for genes lacking annotation, ultimately converting provisional signals into strong inductive biases we can embed in BINNs.</p>
+</div>
+<div class="ltx_para" id="S3.p11">
+<p class="ltx_p">Future efforts should explore integrating environmental signals, e.g. weather time series, and further tailored strategies, such as integrating additional omics layers to more closely align BINN’s causal pathways with mechanistic biology while maintaining a sound bias-variance trade-off. A practical challenge is that available omics are often heterogeneous, collected from different tissues, developmental stages, platforms, and cohort designs (single vs. multiple genotypes, narrow vs. diverse populations), making it nontrivial to decide how, or whether, to use them as priors. As summarized in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S3.T3" title="Table 3 ‣ 3 Discussion ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">3</span></a>, priors can be drawn from transcriptomics, proteomics, metabolite pathways, and curated interaction networks, enabling models that better reflect how genetic variation propagates through biological systems to affect traits. This can be facilitated by experimenting with alternative topologies (e.g., stacked-layer, or parallel-layer BINNs), and incorporating advanced neural modules to model pathway subnetworks more effectively. The goal should not be just higher accuracy, but robust, genotype-only predictors that surface pathway importance and translate into selection decisions. With these targeted extensions, BINNs are well-positioned to improve GS at scale.</p>
+</div>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Methods</h2>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p">Here we outline the BINN design used throughout before introducing the formalism. Our networks preserve nonlinear flexibility while enforcing biology-derived sparsity: genotype inputs are routed through pathway modules defined by masks built from prior knowledge (e.g., feature selection, association/eQTL hits, curated pathways, or ODE-based links). Each module is a small fully connected subnetwork that can model local nonadditivity and epistasis, and the module latents are fused by a final integrator to predict the phenotype. Intermediate omics measurements (e.g., expression, metabolites) inform the masks and, when available, can weakly supervise the latents via a soft constraint during training, but are never required at inference, preserving genotype-only deployment. The same template flexibly instantiates single-layer, stacked, staggered, or parallel multi-omics variants (see Supplementary Material) without changing the mathematical core.</p>
+</div>
+<section class="ltx_subsection" id="S4.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.1 </span>Model Development with Biological Inductive Biases</h3>
+<div class="ltx_para" id="S4.SS1.p1">
+<p class="ltx_p">We consider <math alttext="n" class="ltx_Math" display="inline" id="S4.SS1.p1.m1" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> samples with <math alttext="p" class="ltx_Math" display="inline" id="S4.SS1.p1.m2" intent=":literal"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> SNP features collected in the matrix <math alttext="X\in\mathbb{R}^{n\times p}" class="ltx_Math" display="inline" id="S4.SS1.p1.m3" intent=":literal"><semantics><mrow><mi>X</mi><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>p</mi></mrow></msup></mrow><annotation encoding="application/x-tex">X\in\mathbb{R}^{n\times p}</annotation></semantics></math> and a scalar phenotype vector <math alttext="y\in\mathbb{R}^{n}" class="ltx_Math" display="inline" id="S4.SS1.p1.m4" intent=":literal"><semantics><mrow><mi>y</mi><mo>∈</mo><msup><mi>ℝ</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">y\in\mathbb{R}^{n}</annotation></semantics></math>. Our BINN embeds <math alttext="L" class="ltx_Math" display="inline" id="S4.SS1.p1.m5" intent=":literal"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> sequential omics layers between <math alttext="X" class="ltx_Math" display="inline" id="S4.SS1.p1.m6" intent=":literal"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> and <math alttext="y" class="ltx_Math" display="inline" id="S4.SS1.p1.m7" intent=":literal"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math>, each layer <math alttext="l" class="ltx_Math" display="inline" id="S4.SS1.p1.m8" intent=":literal"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math> producing a latent representation <math alttext="U^{(l)}\in\mathbb{R}^{n\times k_{l}}" class="ltx_Math" display="inline" id="S4.SS1.p1.m9" intent=":literal"><semantics><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><msub><mi>k</mi><mi>l</mi></msub></mrow></msup></mrow><annotation encoding="application/x-tex">U^{(l)}\in\mathbb{R}^{n\times k_{l}}</annotation></semantics></math> from its input <math alttext="U^{(l-1)}" class="ltx_Math" display="inline" id="S4.SS1.p1.m10" intent=":literal"><semantics><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">U^{(l-1)}</annotation></semantics></math>. We set <math alttext="U^{(0)}=X" class="ltx_Math" display="inline" id="S4.SS1.p1.m11" intent=":literal"><semantics><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">U^{(0)}=X</annotation></semantics></math> and denote the number of subnetworks, corresponding to biological entities such as genes, metabolites, or proteins, at layer <math alttext="l" class="ltx_Math" display="inline" id="S4.SS1.p1.m12" intent=":literal"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math> by <math alttext="k_{l}" class="ltx_Math" display="inline" id="S4.SS1.p1.m13" intent=":literal"><semantics><msub><mi>k</mi><mi>l</mi></msub><annotation encoding="application/x-tex">k_{l}</annotation></semantics></math>.</p>
+</div>
+<section class="ltx_paragraph" id="S4.SS1.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">1. Pathway subnetworks.</h4>
+<div class="ltx_para" id="S4.SS1.SSS0.Px1.p1">
+<p class="ltx_p">At omics layer <math alttext="l" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m1" intent=":literal"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math>, prior biological knowledge (e.g. eQTL links, pathway membership) is encoded by a binary mask <math alttext="M^{(l)}\in\{0,1\}^{d_{l-1}\times k_{l}}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m2" intent=":literal"><semantics><mrow><msup><mi>M</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>∈</mo><msup><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><mrow><msub><mi>d</mi><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow></msub><mo lspace="0.222em" rspace="0.222em">×</mo><msub><mi>k</mi><mi>l</mi></msub></mrow></msup></mrow><annotation encoding="application/x-tex">M^{(l)}\in\{0,1\}^{d_{l-1}\times k_{l}}</annotation></semantics></math>, where <math alttext="d_{l-1}=\text{dim}(U^{(l-1)})" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m3" intent=":literal"><semantics><mrow><msub><mi>d</mi><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>=</mo><mrow><mtext>dim</mtext><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">d_{l-1}=\text{dim}(U^{(l-1)})</annotation></semantics></math>. Specifically,</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="M^{(l)}_{ij}=\begin{cases}1,&amp;\text{if feature }i\text{ of }U^{(l-1)}\text{ maps to entity }j\text{ at layer }l,\\
+0,&amp;\text{otherwise}.\end{cases}" class="ltx_Math" display="block" id="S4.E1.m1" intent=":literal"><semantics><mrow><msubsup><mi>M</mi><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>j</mi></mrow><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" displaystyle="true" rowspacing="0pt"><mtr><mtd class="ltx_align_left" columnalign="left"><mrow><mn>1</mn><mo>,</mo></mrow></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>if feature </mtext><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mtext> of </mtext><mo lspace="0em" rspace="0em">​</mo><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><mtext> maps to entity </mtext><mo lspace="0em" rspace="0em">​</mo><mi>j</mi><mo lspace="0em" rspace="0em">​</mo><mtext> at layer </mtext><mo lspace="0em" rspace="0em">​</mo><mi>l</mi></mrow><mo>,</mo></mrow></mtd></mtr><mtr><mtd class="ltx_align_left" columnalign="left"><mrow><mn>0</mn><mo>,</mo></mrow></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mtext>otherwise</mtext><mo lspace="0em">.</mo></mrow></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">M^{(l)}_{ij}=\begin{cases}1,&amp;\text{if feature }i\text{ of }U^{(l-1)}\text{ maps to entity }j\text{ at layer }l,\\
+0,&amp;\text{otherwise}.\end{cases}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">For each of the <math alttext="k_{l}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m4" intent=":literal"><semantics><msub><mi>k</mi><mi>l</mi></msub><annotation encoding="application/x-tex">k_{l}</annotation></semantics></math> entities we define a subnetwork <math alttext="f^{(l)}_{j}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m5" intent=":literal"><semantics><msubsup><mi>f</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><annotation encoding="application/x-tex">f^{(l)}_{j}</annotation></semantics></math> that processes only the selected inputs <math alttext="U^{(l-1)}M^{(l)}_{:,j}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m6" intent=":literal"><semantics><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>M</mi><mrow><mo rspace="0em">:</mo><mo>,</mo><mi>j</mi></mrow><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><annotation encoding="application/x-tex">U^{(l-1)}M^{(l)}_{:,j}</annotation></semantics></math>. These subnetworks may have multiple hidden layers with sigmoid activations <math alttext="\sigma(u)=1/(1+e^{-u})" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m7" intent=":literal"><semantics><mrow><mrow><mi>σ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>u</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mn>1</mn><mo>/</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>u</mi></mrow></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\sigma(u)=1/(1+e^{-u})</annotation></semantics></math> to capture Hill‐type response typical in biological systems. We then concatenate their outputs into</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E2">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="T^{(l)}=\bigl[f^{(l)}_{1}(U^{(l-1)}M^{(l)}_{:,1}),\dots,f^{(l)}_{k_{l}}(U^{(l-1)}M^{(l)}_{:,k_{l}})\bigr]\in\mathbb{R}^{n\times k_{l}}," class="ltx_Math" display="block" id="S4.E2.m1" intent=":literal"><semantics><mrow><mrow><msup><mi>T</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mrow><mo maxsize="1.200em" minsize="1.200em">[</mo><mrow><msubsup><mi>f</mi><mn>1</mn><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>M</mi><mrow><mo rspace="0em">:</mo><mo>,</mo><mn>1</mn></mrow><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mrow><msubsup><mi>f</mi><msub><mi>k</mi><mi>l</mi></msub><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>M</mi><mrow><mo rspace="0em">:</mo><mo>,</mo><msub><mi>k</mi><mi>l</mi></msub></mrow><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow><mo maxsize="1.200em" minsize="1.200em">]</mo></mrow><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><msub><mi>k</mi><mi>l</mi></msub></mrow></msup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">T^{(l)}=\bigl[f^{(l)}_{1}(U^{(l-1)}M^{(l)}_{:,1}),\dots,f^{(l)}_{k_{l}}(U^{(l-1)}M^{(l)}_{:,k_{l}})\bigr]\in\mathbb{R}^{n\times k_{l}},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">and set <math alttext="U^{(l)}=T^{(l)}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px1.p1.m8" intent=":literal"><semantics><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><msup><mi>T</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">U^{(l)}=T^{(l)}</annotation></semantics></math>.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS1.SSS0.Px2">
+<h4 class="ltx_title ltx_title_paragraph">2. Residual network.</h4>
+<div class="ltx_para" id="S4.SS1.SSS0.Px2.p1">
+<p class="ltx_p">To capture genetic effects not explained by any pathway subnetworks, we apply an unconstrained residual network <math alttext="g_{r}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px2.p1.m1" intent=":literal"><semantics><msub><mi>g</mi><mi>r</mi></msub><annotation encoding="application/x-tex">g_{r}</annotation></semantics></math> (with parameters <math alttext="\theta_{r}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px2.p1.m2" intent=":literal"><semantics><msub><mi>θ</mi><mi>r</mi></msub><annotation encoding="application/x-tex">\theta_{r}</annotation></semantics></math>) to the subset of SNPs that are not connected in any mask <math alttext="M^{(l)}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px2.p1.m3" intent=":literal"><semantics><msup><mi>M</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">M^{(l)}</annotation></semantics></math>. Denoting this unannotated SNP matrix by <math alttext="X_{\mathrm{res}}\subset X" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px2.p1.m4" intent=":literal"><semantics><mrow><msub><mi>X</mi><mi>res</mi></msub><mo>⊂</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">X_{\mathrm{res}}\subset X</annotation></semantics></math>, the residual network directly predicts a scalar residual phenotype:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E3">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="r=g_{r}\bigl(X_{\mathrm{res}};\,\theta_{r}\bigr)\;\in\;\mathbb{R}^{n}," class="ltx_Math" display="block" id="S4.E3.m1" intent=":literal"><semantics><mrow><mrow><mi>r</mi><mo>=</mo><mrow><msub><mi>g</mi><mi>r</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo maxsize="1.200em" minsize="1.200em">(</mo><msub><mi>X</mi><mi>res</mi></msub><mo rspace="0.337em">;</mo><msub><mi>θ</mi><mi>r</mi></msub><mo maxsize="1.200em" minsize="1.200em" rspace="0.280em">)</mo></mrow></mrow><mo rspace="0.558em">∈</mo><msup><mi>ℝ</mi><mi>n</mi></msup></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">r=g_{r}\bigl(X_{\mathrm{res}};\,\theta_{r}\bigr)\;\in\;\mathbb{R}^{n},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(3)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">ensuring that <math alttext="r" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px2.p1.m5" intent=":literal"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math> captures variation attributable to SNPs outside known biological pathways.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS1.SSS0.Px3">
+<h4 class="ltx_title ltx_title_paragraph">3. Final integrator network.</h4>
+<div class="ltx_para" id="S4.SS1.SSS0.Px3.p1">
+<p class="ltx_p">After the last omics layer produces <math alttext="U^{(L)}\in\mathbb{R}^{n\times k_{L}}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p1.m1" intent=":literal"><semantics><mrow><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></msup><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><msub><mi>k</mi><mi>L</mi></msub></mrow></msup></mrow><annotation encoding="application/x-tex">U^{(L)}\in\mathbb{R}^{n\times k_{L}}</annotation></semantics></math>, we concatenate it with the residual output <math alttext="R\in\mathbb{R}^{n\times h_{r}}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p1.m2" intent=":literal"><semantics><mrow><mi>R</mi><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><msub><mi>h</mi><mi>r</mi></msub></mrow></msup></mrow><annotation encoding="application/x-tex">R\in\mathbb{R}^{n\times h_{r}}</annotation></semantics></math>:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E4">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="Z=[\,U^{(L)},\,R\,]\;\in\;\mathbb{R}^{n\times(k_{L}+h_{r})}." class="ltx_Math" display="block" id="S4.E4.m1" intent=":literal"><semantics><mrow><mrow><mi>Z</mi><mo>=</mo><mrow><mo rspace="0.170em" stretchy="false">[</mo><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></msup><mo rspace="0.337em">,</mo><mi>R</mi><mo lspace="0.170em" rspace="0.280em" stretchy="false">]</mo></mrow><mo rspace="0.558em">∈</mo><msup><mi>ℝ</mi><mrow><mi>n</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>k</mi><mi>L</mi></msub><mo>+</mo><msub><mi>h</mi><mi>r</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">Z=[\,U^{(L)},\,R\,]\;\in\;\mathbb{R}^{n\times(k_{L}+h_{r})}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(4)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">A final feed‐forward network <math alttext="h" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p1.m3" intent=":literal"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math> with parameters <math alttext="\theta_{f}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p1.m4" intent=":literal"><semantics><msub><mi>θ</mi><mi>f</mi></msub><annotation encoding="application/x-tex">\theta_{f}</annotation></semantics></math> then maps <math alttext="Z" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p1.m5" intent=":literal"><semantics><mi>Z</mi><annotation encoding="application/x-tex">Z</annotation></semantics></math> to the predicted phenotype</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E5">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\hat{y}=h(Z;\theta_{f})\;\in\;\mathbb{R}^{n}." class="ltx_Math" display="block" id="S4.E5.m1" intent=":literal"><semantics><mrow><mrow><mover accent="true"><mi>y</mi><mo>^</mo></mover><mo>=</mo><mrow><mi>h</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>Z</mi><mo>;</mo><msub><mi>θ</mi><mi>f</mi></msub><mo rspace="0.280em" stretchy="false">)</mo></mrow></mrow><mo rspace="0.558em">∈</mo><msup><mi>ℝ</mi><mi>n</mi></msup></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\hat{y}=h(Z;\theta_{f})\;\in\;\mathbb{R}^{n}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(5)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">which allows for the recovery of potential cross-pathway interactions.</p>
+</div>
+<div class="ltx_para" id="S4.SS1.SSS0.Px3.p2">
+<p class="ltx_p">All network parameters <math alttext="\{W^{(l)},b^{(l)}\}_{l=1}^{L}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p2.m1" intent=":literal"><semantics><msubsup><mrow><mo stretchy="false">{</mo><msup><mi>W</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>,</mo><msup><mi>b</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">}</mo></mrow><mrow><mi>l</mi><mo>=</mo><mn>1</mn></mrow><mi>L</mi></msubsup><annotation encoding="application/x-tex">\{W^{(l)},b^{(l)}\}_{l=1}^{L}</annotation></semantics></math>, <math alttext="\theta_{r}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p2.m2" intent=":literal"><semantics><msub><mi>θ</mi><mi>r</mi></msub><annotation encoding="application/x-tex">\theta_{r}</annotation></semantics></math>, and <math alttext="\theta_{f}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p2.m3" intent=":literal"><semantics><msub><mi>θ</mi><mi>f</mi></msub><annotation encoding="application/x-tex">\theta_{f}</annotation></semantics></math> are learned jointly by minimizing a suitable loss function (see Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#S4.SS2" title="4.2 Custom Loss Functions for Guided Training ‣ 4 Methods ‣ Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability"><span class="ltx_text ltx_ref_tag">4.2</span></a>). The masks <math alttext="M^{(l)}" class="ltx_Math" display="inline" id="S4.SS1.SSS0.Px3.p2.m4" intent=":literal"><semantics><msup><mi>M</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">M^{(l)}</annotation></semantics></math> enforce biological sparsity, reduce overfitting, and ensure each subnetwork aligns with known genotype–intermediate trait relationships.</p>
+</div>
+<div class="ltx_para" id="S4.SS1.SSS0.Px3.p3">
+<p class="ltx_p">Our BINN framework is highly modular: depending on the number, type, and interdependencies of available omics layers, the network can assume different connectivity patterns, ranging from single‐layer designs to staggered, stacked, or parallel architectures. A brief description of these variants is provided in the Supplementary Material.</p>
+</div>
+</section>
+</section>
+<section class="ltx_subsection" id="S4.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.2 </span>Custom Loss Functions for Guided Training</h3>
+<div class="ltx_para" id="S4.SS2.p1">
+<p class="ltx_p">BINNs are flexible and can be trained with any suitable loss function, ranging from conventional objectives to biologically informed criteria.</p>
+</div>
+<section class="ltx_paragraph" id="S4.SS2.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">Standard mean squared error (MSE).</h4>
+<div class="ltx_para" id="S4.SS2.SSS0.Px1.p1">
+<p class="ltx_p">The simplest choice is the mean squared error between the true phenotype <math alttext="y" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px1.p1.m1" intent=":literal"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math> and the prediction <math alttext="\hat{y}" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px1.p1.m2" intent=":literal"><semantics><mover accent="true"><mi>y</mi><mo>^</mo></mover><annotation encoding="application/x-tex">\hat{y}</annotation></semantics></math>:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E6">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\mathcal{L}_{\mathrm{MSE}}(y,\hat{y})=\frac{1}{n}\sum_{i=1}^{n}\bigl(y_{i}-\hat{y}_{i}\bigr)^{2}." class="ltx_Math" display="block" id="S4.E6.m1" intent=":literal"><semantics><mrow><mrow><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>MSE</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mover accent="true"><mi>y</mi><mo>^</mo></mover><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><munderover><mo movablelimits="false" rspace="0em">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo maxsize="1.200em" minsize="1.200em">(</mo><mrow><msub><mi>y</mi><mi>i</mi></msub><mo>−</mo><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mi>i</mi></msub></mrow><mo maxsize="1.200em" minsize="1.200em">)</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\mathcal{L}_{\mathrm{MSE}}(y,\hat{y})=\frac{1}{n}\sum_{i=1}^{n}\bigl(y_{i}-\hat{y}_{i}\bigr)^{2}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(6)</span></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS2.SSS0.Px2">
+<h4 class="ltx_title ltx_title_paragraph">Biologically informed soft‐constrained loss.</h4>
+<div class="ltx_para" id="S4.SS2.SSS0.Px2.p1">
+<p class="ltx_p">To encourage the model’s intermediate representations to align with measured omics traits, we add a soft constraint based on correlation. Let <math alttext="T^{(l)}=[T^{(l)}_{1},\dots,T^{(l)}_{n}]" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m1" intent=":literal"><semantics><mrow><msup><mi>T</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>T</mi><mn>1</mn><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msubsup><mi>T</mi><mi>n</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">T^{(l)}=[T^{(l)}_{1},\dots,T^{(l)}_{n}]</annotation></semantics></math> be the predicted latent values at layer <math alttext="l" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m2" intent=":literal"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math> and <math alttext="Z^{(l)}=[Z^{(l)}_{1},\dots,Z^{(l)}_{n}]" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m3" intent=":literal"><semantics><mrow><msup><mi>Z</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>Z</mi><mn>1</mn><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msubsup><mi>Z</mi><mi>n</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">Z^{(l)}=[Z^{(l)}_{1},\dots,Z^{(l)}_{n}]</annotation></semantics></math> the corresponding ground‐truth intermediate measurements. Define the sample Pearson correlation</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E7">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\rho^{(l)}=\frac{\sum_{i=1}^{n}\bigl(T^{(l)}_{i}-\bar{T}^{(l)}\bigr)\,\bigl(Z^{(l)}_{i}-\bar{Z}^{(l)}\bigr)}{\sqrt{\sum_{i=1}^{n}(T^{(l)}_{i}-\bar{T}^{(l)})^{2}}\,\sqrt{\sum_{i=1}^{n}(Z^{(l)}_{i}-\bar{Z}^{(l)})^{2}}}," class="ltx_Math" display="block" id="S4.E7.m1" intent=":literal"><semantics><mrow><mrow><msup><mi>ρ</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mfrac><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><mrow><mrow><mo lspace="0em" maxsize="1.200em" minsize="1.200em">(</mo><mrow><msubsup><mi>T</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>−</mo><msup><mover accent="true"><mi>T</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo maxsize="1.200em" minsize="1.200em">)</mo></mrow><mo lspace="0.170em" rspace="0em">​</mo><mrow><mo maxsize="1.200em" minsize="1.200em">(</mo><mrow><msubsup><mi>Z</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>−</mo><msup><mover accent="true"><mi>Z</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo maxsize="1.200em" minsize="1.200em">)</mo></mrow></mrow></mrow><mrow><msqrt><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mrow><mo lspace="0em" stretchy="false">(</mo><mrow><msubsup><mi>T</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>−</mo><msup><mover accent="true"><mi>T</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo lspace="0.170em" rspace="0em">​</mo><msqrt><mrow><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msup><mrow><mo lspace="0em" stretchy="false">(</mo><mrow><msubsup><mi>Z</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>−</mo><msup><mover accent="true"><mi>Z</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></mfrac></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\rho^{(l)}=\frac{\sum_{i=1}^{n}\bigl(T^{(l)}_{i}-\bar{T}^{(l)}\bigr)\,\bigl(Z^{(l)}_{i}-\bar{Z}^{(l)}\bigr)}{\sqrt{\sum_{i=1}^{n}(T^{(l)}_{i}-\bar{T}^{(l)})^{2}}\,\sqrt{\sum_{i=1}^{n}(Z^{(l)}_{i}-\bar{Z}^{(l)})^{2}}},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(7)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\bar{T}^{(l)}" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m4" intent=":literal"><semantics><msup><mover accent="true"><mi>T</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\bar{T}^{(l)}</annotation></semantics></math> and <math alttext="\bar{Z}^{(l)}" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m5" intent=":literal"><semantics><msup><mover accent="true"><mi>Z</mi><mo>¯</mo></mover><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\bar{Z}^{(l)}</annotation></semantics></math> are the layer‐wise means. The biologically informed loss is then</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E8">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\mathcal{L}_{\mathrm{bio}}=\mathcal{L}_{\mathrm{MSE}}(y,\hat{y})+\lambda\sum_{l=1}^{L}\bigl[\,1-\rho^{(l)}\bigr]," class="ltx_Math" display="block" id="S4.E8.m1" intent=":literal"><semantics><mrow><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>bio</mi></msub><mo>=</mo><mrow><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>MSE</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mover accent="true"><mi>y</mi><mo>^</mo></mover><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>λ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><munderover><mo movablelimits="false" rspace="0em">∑</mo><mrow><mi>l</mi><mo>=</mo><mn>1</mn></mrow><mi>L</mi></munderover><mrow><mo maxsize="1.200em" minsize="1.200em">[</mo><mrow><mn> 1</mn><mo>−</mo><msup><mi>ρ</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo maxsize="1.200em" minsize="1.200em">]</mo></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\mathcal{L}_{\mathrm{bio}}=\mathcal{L}_{\mathrm{MSE}}(y,\hat{y})+\lambda\sum_{l=1}^{L}\bigl[\,1-\rho^{(l)}\bigr],</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(8)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\lambda&gt;0" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m6" intent=":literal"><semantics><mrow><mi>λ</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\lambda&gt;0</annotation></semantics></math> is a hyperparameter balancing phenotype accuracy against intermediate‐trait alignment. One could instead enforce an exact match via an auxiliary hard-constrained MSE <math alttext="\|T^{(l)}-Z^{(l)}\|_{2}^{2}" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p1.m7" intent=":literal"><semantics><msubsup><mrow><mo stretchy="false">‖</mo><mrow><msup><mi>T</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msup><mi>Z</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo stretchy="false">‖</mo></mrow><mn>2</mn><mn>2</mn></msubsup><annotation encoding="application/x-tex">\|T^{(l)}-Z^{(l)}\|_{2}^{2}</annotation></semantics></math>, but the correlation‐based soft constraint is less restrictive and allows the model greater expressive power.</p>
+</div>
+<div class="ltx_para" id="S4.SS2.SSS0.Px2.p2">
+<p class="ltx_p">This biologically informed loss is optional: users may omit the correlation term (<math alttext="\lambda=0" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p2.m1" intent=":literal"><semantics><mrow><mi>λ</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\lambda=0</annotation></semantics></math>) to recover the standard MSE objective, or tune <math alttext="\lambda" class="ltx_Math" display="inline" id="S4.SS2.SSS0.Px2.p2.m2" intent=":literal"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math> to any desired level of guidance.</p>
+</div>
+</section>
+</section>
+<section class="ltx_subsection" id="S4.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.3 </span>Sensitivity Analysis for Latent Perturbations</h3>
+<div class="ltx_para" id="S4.SS3.p1">
+<p class="ltx_p">To quantify the contribution of intermediate biological entities to the phenotype, we perform a post-hoc <em class="ltx_emph ltx_font_italic">sensitivity analysis</em> across trained BINN ensembles. This approach assesses how controlled perturbations of individual latent variables influence the predicted phenotype, providing an interpretable measure of importance that generalizes across omics layers, phenotypes, and model instances.</p>
+</div>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">Overview.</h4>
+<div class="ltx_para" id="S4.SS3.SSS0.Px1.p1">
+<p class="ltx_p">Given a trained BINN ensemble consisting of <math alttext="S" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m1" intent=":literal"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> outer splits and <math alttext="F" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m2" intent=":literal"><semantics><mi>F</mi><annotation encoding="application/x-tex">F</annotation></semantics></math> inner folds, let <math alttext="\{\mathcal{M}_{s,f}\}_{s=1..S,\,f=1..F}" class="ltx_math_unparsed" display="inline" id="S4.SS3.SSS0.Px1.p1.m3" intent=":literal"><semantics><msub><mrow><mo stretchy="false">{</mo><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mrow><mi>s</mi><mo>,</mo><mi>f</mi></mrow></msub><mo stretchy="false">}</mo></mrow><mrow><mi>s</mi><mo>=</mo><mn>1</mn><mo lspace="0em" rspace="0.0835em">.</mo><mo lspace="0.0835em" rspace="0.167em">.</mo><mi>S</mi><mo rspace="0.337em">,</mo><mi>f</mi><mo>=</mo><mn>1</mn><mo lspace="0em" rspace="0.0835em">.</mo><mo lspace="0.0835em" rspace="0.167em">.</mo><mi>F</mi></mrow></msub><annotation encoding="application/x-tex">\{\mathcal{M}_{s,f}\}_{s=1..S,\,f=1..F}</annotation></semantics></math> denote the set of trained models for a phenotype of interest. Each model <math alttext="\mathcal{M}_{s,f}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m4" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mrow><mi>s</mi><mo>,</mo><mi>f</mi></mrow></msub><annotation encoding="application/x-tex">\mathcal{M}_{s,f}</annotation></semantics></math> contains intermediate latent representations <math alttext="U^{(l)}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m5" intent=":literal"><semantics><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">U^{(l)}</annotation></semantics></math> at layer <math alttext="l" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m6" intent=":literal"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math>, corresponding to biological entities such as genes, metabolites, or proteins. Sensitivity analysis probes each latent by replacing it with controlled constants and observing the resulting change in the model’s mean predicted phenotype <math alttext="\hat{y}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px1.p1.m7" intent=":literal"><semantics><mover accent="true"><mi>y</mi><mo>^</mo></mover><annotation encoding="application/x-tex">\hat{y}</annotation></semantics></math>.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px2">
+<h4 class="ltx_title ltx_title_paragraph">Step 1: Baseline computation.</h4>
+<div class="ltx_para" id="S4.SS3.SSS0.Px2.p1">
+<p class="ltx_p">For each trained model, we first perform a forward pass on a held-out test dataset to compute the baseline predicted phenotype <math alttext="\hat{y}_{0}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px2.p1.m1" intent=":literal"><semantics><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub><annotation encoding="application/x-tex">\hat{y}_{0}</annotation></semantics></math> and the corresponding latent activations <math alttext="U^{(l)}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px2.p1.m2" intent=":literal"><semantics><msup><mi>U</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">U^{(l)}</annotation></semantics></math>. The mean <math alttext="\mu_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px2.p1.m3" intent=":literal"><semantics><msub><mi>μ</mi><mi>j</mi></msub><annotation encoding="application/x-tex">\mu_{j}</annotation></semantics></math> and standard deviation <math alttext="\sigma_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px2.p1.m4" intent=":literal"><semantics><msub><mi>σ</mi><mi>j</mi></msub><annotation encoding="application/x-tex">\sigma_{j}</annotation></semantics></math> of each latent dimension <math alttext="u^{(l)}_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px2.p1.m5" intent=":literal"><semantics><msubsup><mi>u</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><annotation encoding="application/x-tex">u^{(l)}_{j}</annotation></semantics></math> are computed across all samples in the dataset.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px3">
+<h4 class="ltx_title ltx_title_paragraph">Step 2: Latent clamping and phenotype response.</h4>
+<div class="ltx_para" id="S4.SS3.SSS0.Px3.p1">
+<p class="ltx_p">To evaluate the sensitivity of entity <math alttext="j" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px3.p1.m1" intent=":literal"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>, we perform two controlled perturbations by <em class="ltx_emph ltx_font_italic">clamping</em> its latent activation to constant values across all samples:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E9">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="u^{(l)}_{j}(\delta)=\mu_{j}+\delta\,\sigma_{j},\quad\delta\in\{+a,\,-a\}," class="ltx_Math" display="block" id="S4.E9.m1" intent=":literal"><semantics><mrow><mrow><mrow><mrow><msubsup><mi>u</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>δ</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>μ</mi><mi>j</mi></msub><mo>+</mo><mrow><mi>δ</mi><mo lspace="0.170em" rspace="0em">​</mo><msub><mi>σ</mi><mi>j</mi></msub></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mi>δ</mi><mo>∈</mo><mrow><mo stretchy="false">{</mo><mrow><mo>+</mo><mi>a</mi></mrow><mo rspace="0.337em">,</mo><mrow><mo>−</mo><mi>a</mi></mrow><mo stretchy="false">}</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">u^{(l)}_{j}(\delta)=\mu_{j}+\delta\,\sigma_{j},\quad\delta\in\{+a,\,-a\},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(9)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">while all other latents remain unaltered. The perturbed latent is then propagated through the trained model to produce new mean phenotype predictions <math alttext="\hat{y}^{(+)}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px3.p1.m2" intent=":literal"><semantics><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">+</mo><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\hat{y}^{(+)}</annotation></semantics></math> and <math alttext="\hat{y}^{(-)}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px3.p1.m3" intent=":literal"><semantics><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">−</mo><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\hat{y}^{(-)}</annotation></semantics></math>. The per-entity sensitivity under model <math alttext="\mathcal{M}_{s,f}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px3.p1.m4" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mrow><mi>s</mi><mo>,</mo><mi>f</mi></mrow></msub><annotation encoding="application/x-tex">\mathcal{M}_{s,f}</annotation></semantics></math> is defined as the symmetric mean absolute deviation:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E10">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\Delta y^{(s,f)}_{j}=\tfrac{1}{2}\left(|\hat{y}^{(+)}-\hat{y}_{0}|+|\hat{y}^{(-)}-\hat{y}_{0}|\right)," class="ltx_Math" display="block" id="S4.E10.m1" intent=":literal"><semantics><mrow><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>y</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><mo>=</mo><mrow><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo lspace="0em" rspace="0em">​</mo><mrow><mo>(</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">+</mo><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub></mrow><mo stretchy="false">|</mo></mrow><mo>+</mo><mrow><mo stretchy="false">|</mo><mrow><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">−</mo><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub></mrow><mo stretchy="false">|</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\Delta y^{(s,f)}_{j}=\tfrac{1}{2}\left(|\hat{y}^{(+)}-\hat{y}_{0}|+|\hat{y}^{(-)}-\hat{y}_{0}|\right),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(10)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">capturing the magnitude of the phenotype’s response to both upward and downward perturbations.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px4">
+<h4 class="ltx_title ltx_title_paragraph">Step 3: Aggregation across models.</h4>
+<div class="ltx_para" id="S4.SS3.SSS0.Px4.p1">
+<p class="ltx_p">Sensitivities are aggregated across all ensemble members that include entity <math alttext="j" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px4.p1.m1" intent=":literal"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math> to obtain a robust importance estimate:</p>
+<table class="ltx_equation ltx_eqn_table" id="S4.E11">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\bar{\Delta y}_{j}=\frac{1}{|\mathcal{M}(j)|}\sum_{(s,f)\in\mathcal{M}(j)}\Delta y^{(s,f)}_{j}," class="ltx_Math" display="block" id="S4.E11.m1" intent=":literal"><semantics><mrow><mrow><msub><mover accent="true"><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>y</mi></mrow><mo>¯</mo></mover><mi>j</mi></msub><mo>=</mo><mrow><mfrac><mn>1</mn><mrow><mo stretchy="false">|</mo><mrow><mi class="ltx_font_mathcaligraphic">ℳ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><munder><mo movablelimits="false">∑</mo><mrow><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow><mo>∈</mo><mrow><mi class="ltx_font_mathcaligraphic">ℳ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></munder><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>y</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\bar{\Delta y}_{j}=\frac{1}{|\mathcal{M}(j)|}\sum_{(s,f)\in\mathcal{M}(j)}\Delta y^{(s,f)}_{j},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(11)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\mathcal{M}(j)" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px4.p1.m2" intent=":literal"><semantics><mrow><mi class="ltx_font_mathcaligraphic">ℳ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>j</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{M}(j)</annotation></semantics></math> is the subset of trained models that contain latent <math alttext="u^{(l)}_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px4.p1.m3" intent=":literal"><semantics><msubsup><mi>u</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></msubsup><annotation encoding="application/x-tex">u^{(l)}_{j}</annotation></semantics></math>. The resulting <math alttext="\bar{\Delta y}_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px4.p1.m4" intent=":literal"><semantics><msub><mover accent="true"><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>y</mi></mrow><mo>¯</mo></mover><mi>j</mi></msub><annotation encoding="application/x-tex">\bar{\Delta y}_{j}</annotation></semantics></math> represents the average change in predicted phenotype magnitude when the latent corresponding to entity <math alttext="j" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px4.p1.m5" intent=":literal"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math> is clamped to values spanning its natural variability.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px5">
+<h4 class="ltx_title ltx_title_paragraph">Step 4: Entity ranking and downstream analysis.</h4>
+<div class="ltx_para" id="S4.SS3.SSS0.Px5.p1">
+<p class="ltx_p">Entities are ranked by their aggregated sensitivity <math alttext="\bar{\Delta y}_{j}" class="ltx_Math" display="inline" id="S4.SS3.SSS0.Px5.p1.m1" intent=":literal"><semantics><msub><mover accent="true"><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>y</mi></mrow><mo>¯</mo></mover><mi>j</mi></msub><annotation encoding="application/x-tex">\bar{\Delta y}_{j}</annotation></semantics></math>, yielding a model-based importance profile for the phenotype under study. This ranking can identify key intermediate traits, benchmark model interpretability against known associations, and guide downstream analyses such as candidate gene selection, pathway enrichment, or gene-editing prioritization.</p>
+</div>
+<figure class="ltx_float ltx_float_algorithm ltx_framed ltx_framed_top" id="alg1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_float"><span class="ltx_text ltx_font_bold">Algorithm 1</span> </span> Sensitivity Analysis Across BINN Ensembles</figcaption>
+<div class="ltx_listing ltx_listing">
+<div class="ltx_listingline" id="alg1.l1">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">1:</span></span>Trained models <math alttext="\{\mathcal{M}_{s,f}\}" class="ltx_Math" display="inline" id="alg1.l1.m1" intent=":literal"><semantics><mrow><mo stretchy="false">{</mo><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mrow><mi>s</mi><mo>,</mo><mi>f</mi></mrow></msub><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\mathcal{M}_{s,f}\}</annotation></semantics></math> for a phenotype; perturbation scale <math alttext="a" class="ltx_Math" display="inline" id="alg1.l1.m2" intent=":literal"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l2">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">2:</span></span><span class="ltx_text ltx_font_bold">for</span> each outer split <math alttext="s=1..S" class="ltx_math_unparsed" display="inline" id="alg1.l2.m1" intent=":literal"><semantics><mrow><mi>s</mi><mo>=</mo><mn>1</mn><mo lspace="0em" rspace="0.0835em">.</mo><mo lspace="0.0835em" rspace="0.167em">.</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">s=1..S</annotation></semantics></math> <span class="ltx_text ltx_font_bold">do</span>
+</div>
+<div class="ltx_listingline" id="alg1.l3">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">3:</span></span>  <span class="ltx_text ltx_font_bold">for</span> each inner fold <math alttext="f=1..F" class="ltx_math_unparsed" display="inline" id="alg1.l3.m1" intent=":literal"><semantics><mrow><mi>f</mi><mo>=</mo><mn>1</mn><mo lspace="0em" rspace="0.0835em">.</mo><mo lspace="0.0835em" rspace="0.167em">.</mo><mi>F</mi></mrow><annotation encoding="application/x-tex">f=1..F</annotation></semantics></math> <span class="ltx_text ltx_font_bold">do</span>
+</div>
+<div class="ltx_listingline" id="alg1.l4">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">4:</span></span>   Load trained model <math alttext="\mathcal{M}_{s,f}" class="ltx_Math" display="inline" id="alg1.l4.m1" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mrow><mi>s</mi><mo>,</mo><mi>f</mi></mrow></msub><annotation encoding="application/x-tex">\mathcal{M}_{s,f}</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l5">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">5:</span></span>   Compute baseline mean phenotype <math alttext="\hat{y}_{0}" class="ltx_Math" display="inline" id="alg1.l5.m1" intent=":literal"><semantics><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub><annotation encoding="application/x-tex">\hat{y}_{0}</annotation></semantics></math> and latent statistics <math alttext="(\mu_{j},\sigma_{j})" class="ltx_Math" display="inline" id="alg1.l5.m2" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><msub><mi>μ</mi><mi>j</mi></msub><mo>,</mo><msub><mi>σ</mi><mi>j</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\mu_{j},\sigma_{j})</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l6">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">6:</span></span>   <span class="ltx_text ltx_font_bold">for</span> each latent entity <math alttext="j" class="ltx_Math" display="inline" id="alg1.l6.m1" intent=":literal"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math> <span class="ltx_text ltx_font_bold">do</span>
+</div>
+<div class="ltx_listingline" id="alg1.l7">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">7:</span></span>     Clamp latent <math alttext="u_{j}\leftarrow\mu_{j}\pm a\cdot\sigma_{j}" class="ltx_Math" display="inline" id="alg1.l7.m1" intent=":literal"><semantics><mrow><msub><mi>u</mi><mi>j</mi></msub><mo stretchy="false">←</mo><mrow><msub><mi>μ</mi><mi>j</mi></msub><mo>±</mo><mrow><mi>a</mi><mo lspace="0.222em" rspace="0.222em">⋅</mo><msub><mi>σ</mi><mi>j</mi></msub></mrow></mrow></mrow><annotation encoding="application/x-tex">u_{j}\leftarrow\mu_{j}\pm a\cdot\sigma_{j}</annotation></semantics></math> (constant across all samples)
+
+</div>
+<div class="ltx_listingline" id="alg1.l8">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">8:</span></span>     Forward model to compute mean predictions <math alttext="\hat{y}^{(+)}" class="ltx_Math" display="inline" id="alg1.l8.m1" intent=":literal"><semantics><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">+</mo><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\hat{y}^{(+)}</annotation></semantics></math> and <math alttext="\hat{y}^{(-)}" class="ltx_Math" display="inline" id="alg1.l8.m2" intent=":literal"><semantics><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">−</mo><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">\hat{y}^{(-)}</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l9">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">9:</span></span>     Compute <math alttext="\Delta y^{(s,f)}_{j}=\tfrac{1}{2}\left(|\hat{y}^{(+)}-\hat{y}_{0}|+|\hat{y}^{(-)}-\hat{y}_{0}|\right)" class="ltx_Math" display="inline" id="alg1.l9.m1" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>y</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace="0em" rspace="0em">​</mo><mrow><mo>(</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">+</mo><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub></mrow><mo stretchy="false">|</mo></mrow><mo>+</mo><mrow><mo stretchy="false">|</mo><mrow><msup><mover accent="true"><mi>y</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">−</mo><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msub><mover accent="true"><mi>y</mi><mo>^</mo></mover><mn>0</mn></msub></mrow><mo stretchy="false">|</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\Delta y^{(s,f)}_{j}=\tfrac{1}{2}\left(|\hat{y}^{(+)}-\hat{y}_{0}|+|\hat{y}^{(-)}-\hat{y}_{0}|\right)</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l10">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">10:</span></span>   <span class="ltx_text ltx_font_bold">end</span> <span class="ltx_text ltx_font_bold">for</span>
+</div>
+<div class="ltx_listingline" id="alg1.l11">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">11:</span></span>  <span class="ltx_text ltx_font_bold">end</span> <span class="ltx_text ltx_font_bold">for</span>
+</div>
+<div class="ltx_listingline" id="alg1.l12">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">12:</span></span><span class="ltx_text ltx_font_bold">end</span> <span class="ltx_text ltx_font_bold">for</span>
+</div>
+<div class="ltx_listingline" id="alg1.l13">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">13:</span></span>Aggregate <math alttext="\bar{\Delta y}_{j}=\text{mean}_{(s,f)}(\Delta y^{(s,f)}_{j})" class="ltx_Math" display="inline" id="alg1.l13.m1" intent=":literal"><semantics><mrow><msub><mover accent="true"><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>y</mi></mrow><mo>¯</mo></mover><mi>j</mi></msub><mo>=</mo><mrow><msub><mtext>mean</mtext><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi>y</mi><mi>j</mi><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\bar{\Delta y}_{j}=\text{mean}_{(s,f)}(\Delta y^{(s,f)}_{j})</annotation></semantics></math> over all models containing <math alttext="j" class="ltx_Math" display="inline" id="alg1.l13.m2" intent=":literal"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>
+</div>
+<div class="ltx_listingline" id="alg1.l14">
+<span class="ltx_tag ltx_tag_listingline"><span class="ltx_text" style="font-size:80%;">14:</span></span>Rank entities by <math alttext="\bar{\Delta y}_{j}" class="ltx_Math" display="inline" id="alg1.l14.m1" intent=":literal"><semantics><msub><mover accent="true"><mrow><mi mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><mi>y</mi></mrow><mo>¯</mo></mover><mi>j</mi></msub><annotation encoding="application/x-tex">\bar{\Delta y}_{j}</annotation></semantics></math>
+</div>
+</div>
+</figure>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Data Availability</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p">All data generated for the shoot‑branching problem were produced in‑house by numerically integrating the ODE frameworks described in Powell et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib34" title="">powell2022investigations </a></cite> and Betherloot et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib9" title="">bertheloot2020sugar </a></cite>. For the maize TWAS analyses, we used the publicly released genotype–expression–phenotype dataset from Torres-Rodríguez et al. <cite class="ltx_cite ltx_citemacro_cite"><a class="ltx_ref" href="https://arxiv.org/html/2510.14970v1#bib.bib39" title="">torres2024population </a></cite>, which is accessible via the original publication’s data archive.</p>
+</div>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Code Availability</h2>
+<div class="ltx_para" id="S6.p1">
+<p class="ltx_p">All simulation code, analysis scripts, ElasticNet‑derived gene lists, trained models, and code to generate the figures in this paper are available upon request and are provided for non-commercial research use only.</p>
+</div>
+</section>
+<section class="ltx_section" id="Sx1">
+<h2 class="ltx_title ltx_title_section">Acknowledgements</h2>
+<div class="ltx_para" id="Sx1.p1">
+<p class="ltx_p">We would like to thank Megan Gillespie for supporting and championing this work. Nathan Springer for his countless hours in helping us link and communicate our ideas towards biological and genomic applications. Alexis Charalampopoulos for early ideation on the concept of BINNs. As well as several team members who have contributed substantial feedback throughout this development of this work: Jaclyn Noshay, Sarah Turner-Hissong, Fabiana Freitas Moreira, Zhangyue Shi, Rocio Dominguez Vidana, and Koushik Nagasubramanian.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+Admas Alemu, Johanna Åstrand, Osval A Montesinos-Lopez, Julio Isidro y Sanchez, Javier Fernandez-Gonzalez, Wuletaw Tadesse, Ramesh R Vetukuri, Anders S Carlsson, Alf Ceplitis, Jose Crossa, et al.
+
+</span>
+<span class="ltx_bibblock">Genomic selection in plant breeding: Key factors shaping two decades of progress.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Molecular Plant</span>, 17(4):552–578, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Susanna Atwell, Yu S Huang, Bjarni J Vilhjálmsson, Glenda Willems, Matthew Horton, Yan Li, Dazhe Meng, Alexander Platt, Aaron M Tarone, Tina T Hu, et al.
+
+</span>
+<span class="ltx_bibblock">Genome-wide association study of 107 phenotypes in arabidopsis thaliana inbred lines.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature</span>, 465(7298):627–631, 2010.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+Žiga Avsec, Vikram Agarwal, Daniel Visentin, Joseph R Ledsam, Agnieszka Grabska-Barwinska, Kyle R Taylor, Yannis Assael, John Jumper, Pushmeet Kohli, and David R Kelley.
+
+</span>
+<span class="ltx_bibblock">Effective gene expression prediction from sequence by integrating long-range interactions.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature methods</span>, 18(10):1196–1203, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+Christina B Azodi, Emily Bolger, Andrew McCarren, Mark Roantree, Gustavo de Los Campos, and Shin-Han Shiu.
+
+</span>
+<span class="ltx_bibblock">Benchmarking parametric and machine learning models for genomic prediction of complex traits.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">G3: Genes, Genomes, Genetics</span>, 9(11):3691–3702, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+Christina B Azodi, Jeremy Pardo, Robert VanBuren, Gustavo de Los Campos, and Shin-Han Shiu.
+
+</span>
+<span class="ltx_bibblock">Transcriptome-based prediction of complex traits in maize.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">The Plant Cell</span>, 32(1):139–151, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+Gonzalo Benegas, Carlos Albors, Alan J Aw, Chengzhong Ye, and Yun S Song.
+
+</span>
+<span class="ltx_bibblock">A dna language model based on multispecies alignment predicts the effects of genome-wide variants.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature Biotechnology</span>, pages 1–6, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+Gonzalo Benegas, Sanjit Singh Batra, and Yun S Song.
+
+</span>
+<span class="ltx_bibblock">Dna language models are powerful predictors of genome-wide variant effects.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Proceedings of the National Academy of Sciences</span>, 120(44):e2311219120, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+Gonzalo Benegas, Chengzhong Ye, Carlos Albors, Jianan Canal Li, and Yun S Song.
+
+</span>
+<span class="ltx_bibblock">Genomic language models: opportunities and challenges.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Trends in Genetics</span>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+Jessica Bertheloot, François Barbier, Frédéric Boudon, Maria Dolores Perez-Garcia, Thomas Péron, Sylvie Citerne, Elizabeth Dun, Christine Beveridge, Christophe Godin, and Soulaiman Sakr.
+
+</span>
+<span class="ltx_bibblock">Sugar availability suppresses the auxin-induced strigolactone pathway to promote bud outgrowth.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">New Phytologist</span>, 225(2):866–879, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+Leo Breiman.
+
+</span>
+<span class="ltx_bibblock">Random forests.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Machine learning</span>, 45:5–32, 2001.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+Ole F Christensen, Vinzent Börner, Luis Varona, and Andres Legarra.
+
+</span>
+<span class="ltx_bibblock">Genetic evaluation including intermediate omics features.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Genetics</span>, 219(2):iyab130, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+Samuel A Clark and Julius van der Werf.
+
+</span>
+<span class="ltx_bibblock">Genomic best linear unbiased prediction (gblup) for the estimation of genomic breeding values.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Genome-wide association studies and genomic prediction</span>, pages 321–330, 2013.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+Jose Crossa, Paulino Pérez-Rodríguez, Javier Cuevas, Osval A Montesinos-López, Diego Jarquín, Gustavo de Los Campos, Juan Burgueño, José Manuel González-Camacho, Salvador Pérez-Elizalde, Yoseph Beyene, and Susanne Dreisigacker.
+
+</span>
+<span class="ltx_bibblock">Genomic selection in plant breeding: methods, models, and perspectives.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Trends in Plant Science</span>, 22(11):961–975, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">
+Haitham A Elmarakeby, Justin Hwang, Rand Arafeh, Jett Crowdis, Sydney Gang, David Liu, Saud H AlDubayan, Keyan Salari, Steven Kregel, Camden Richter, et al.
+
+</span>
+<span class="ltx_bibblock">Biologically informed deep neural network for prostate cancer discovery.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature</span>, 598(7880):348–352, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">
+Jeffrey B Endelman.
+
+</span>
+<span class="ltx_bibblock">Ridge regression and other kernels for genomic selection with r package rrblup.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">The plant genome</span>, 4(3), 2011.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">
+Eric R Gamazon, Heather E Wheeler, Kaanan P Shah, Sahar V Mozaffari, Keston Aquino-Michaels, Robert J Carroll, Anne E Eyler, Joshua C Denny, GTEx Consortium, Dan L Nicolae, et al.
+
+</span>
+<span class="ltx_bibblock">A gene-based association method for mapping traits using reference transcriptome data.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature genetics</span>, 47(9):1091–1098, 2015.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+Pengfei Gao, Haonan Zhao, Zheng Luo, Yifan Lin, Wanjie Feng, Yaling Li, Fanjiang Kong, Xia Li, Chao Fang, and Xutong Wang.
+
+</span>
+<span class="ltx_bibblock">Soydngp: a web-accessible deep learning framework for genomic prediction in soybean breeding.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Briefings in bioinformatics</span>, 24(6):bbad349, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">
+Daniel Gianola, Gustavo de Los Campos, William G Hill, Eduardo Manfredi, and Rohan Fernando.
+
+</span>
+<span class="ltx_bibblock">Additive genetic variability and the bayesian alphabet.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Genetics</span>, 183(1):347–363, 2009.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[19]</span>
+<span class="ltx_bibblock">
+Erik Hartman, Aaron M Scott, Christofer Karlsson, Tirthankar Mohanty, Suvi T Vaara, Adam Linder, Lars Malmström, and Johan Malmström.
+
+</span>
+<span class="ltx_bibblock">Interpreting biologically informed neural networks for enhanced proteomic biomarker discovery and pathway analysis.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature Communications</span>, 14(1):5359, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[20]</span>
+<span class="ltx_bibblock">
+Elliot L Heffner, Mark E Sorrells, and Jean-Luc Jannink.
+
+</span>
+<span class="ltx_bibblock">Genomic selection for crop improvement.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Crop Science</span>, 49(1):1–12, 2009.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[21]</span>
+<span class="ltx_bibblock">
+Laval Jacquin, Tuong-Vi Cao, and Nourollah Ahmadi.
+
+</span>
+<span class="ltx_bibblock">A unified and comprehensible view of parametric and kernel methods for genomic prediction with application to rice.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Frontiers in genetics</span>, 7:145, 2016.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[22]</span>
+<span class="ltx_bibblock">
+Kishore Jaganathan, Sofia Kyriazopoulou Panagiotopoulou, Jeremy F McRae, Siavash Fazel Darbandi, David Knowles, Yang I Li, Jack A Kosmicki, Juan Arbelaez, Wenwu Cui, Grace B Schwartz, et al.
+
+</span>
+<span class="ltx_bibblock">Predicting splicing from primary sequence with deep learning.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Cell</span>, 176(3):535–548, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[23]</span>
+<span class="ltx_bibblock">
+Arthur Korte and Ashley Farlow.
+
+</span>
+<span class="ltx_bibblock">The advantages and limitations of trait analysis with gwas: a review.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Plant methods</span>, 9:1–9, 2013.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[24]</span>
+<span class="ltx_bibblock">
+Wenlong Ma, Zhixu Qiu, Jie Song, Qian Cheng, and Chuang Ma.
+
+</span>
+<span class="ltx_bibblock">Deepgs: Predicting phenotypes from genotypes using deep learning.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">BioRxiv</span>, page 241414, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[25]</span>
+<span class="ltx_bibblock">
+Xiaojie Ma et al.
+
+</span>
+<span class="ltx_bibblock">Omicsgcn: a multi-view graph convolutional network for multi-omics data integration.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Bioinformatics</span>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[26]</span>
+<span class="ltx_bibblock">
+Gary C McDonald.
+
+</span>
+<span class="ltx_bibblock">Ridge regression.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Wiley Interdisciplinary Reviews: Computational Statistics</span>, 1(1):93–100, 2009.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[27]</span>
+<span class="ltx_bibblock">
+Theo HE Meuwissen, Ben J Hayes, and ME1461589 Goddard.
+
+</span>
+<span class="ltx_bibblock">Prediction of total genetic value using genome-wide dense marker maps.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">genetics</span>, 157(4):1819–1829, 2001.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[28]</span>
+<span class="ltx_bibblock">
+Osval Antonio Montesinos López, Abelardo Montesinos López, and Jose Crossa.
+
+</span>
+<span class="ltx_bibblock">Bayesian genomic linear regression.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">Multivariate Statistical Machine Learning Methods for Genomic Prediction</span>, pages 171–208. Springer, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[29]</span>
+<span class="ltx_bibblock">
+Osval Antonio Montesinos-López, Abelardo Montesinos-López, Paulino Pérez-Rodríguez, José Alberto Barrón-López, Johannes WR Martini, Silvia Berenice Fajardo-Flores, Laura S Gaytan-Lugo, Pedro C Santana-Mancilla, and José Crossa.
+
+</span>
+<span class="ltx_bibblock">A review of deep learning applications for genomic selection.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">BMC genomics</span>, 22(1):19, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[30]</span>
+<span class="ltx_bibblock">
+Eric Nguyen, Michael Poli, Matthew G Durrant, Brian Kang, Dhruva Katrekar, David B Li, Liam J Bartie, Armin W Thomas, Samuel H King, Garyk Brixi, et al.
+
+</span>
+<span class="ltx_bibblock">Sequence modeling and design from molecular to genome scale with evo.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Science</span>, 386(6723):eado9336, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[31]</span>
+<span class="ltx_bibblock">
+Eric Nguyen, Michael Poli, Marjan Faizi, Armin Thomas, Michael Wornow, Callum Birch-Sykes, Stefano Massaroli, Aman Patel, Clayton Rabideau, Yoshua Bengio, et al.
+
+</span>
+<span class="ltx_bibblock">Hyenadna: Long-range genomic sequence modeling at single nucleotide resolution.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>, 36, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[32]</span>
+<span class="ltx_bibblock">
+Tran Nguyen et al.
+
+</span>
+<span class="ltx_bibblock">Deepprog: an ensemble of deep-learning and machine-learning models for prognosis prediction using multi-omics data.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature Communications</span>, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[33]</span>
+<span class="ltx_bibblock">
+Joseph O Ogutu, Torben Schulz-Streeck, and Hans-Peter Piepho.
+
+</span>
+<span class="ltx_bibblock">Genomic selection using regularized linear regression models: ridge regression, lasso, elastic net and their extensions.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">BMC proceedings</span>, volume 6, pages 1–6. Springer, 2012.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[34]</span>
+<span class="ltx_bibblock">
+Owen M Powell, Francois Barbier, Kai P Voss-Fels, Christine Beveridge, and Mark Cooper.
+
+</span>
+<span class="ltx_bibblock">Investigations into the emergent properties of gene-to-phenotype networks across cycles of selection: a case study of shoot branching in plants.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">in silico Plants</span>, 4(1):diac006, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[35]</span>
+<span class="ltx_bibblock">
+Maziar Raissi, Paris Perdikaris, and George E Karniadakis.
+
+</span>
+<span class="ltx_bibblock">Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of Computational physics</span>, 378:686–707, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[36]</span>
+<span class="ltx_bibblock">
+Christian Riedelsheimer, Angelika Czedik-Eysenberg, Christoph Grieder, Jan Lisec, Frank Technow, Ronan Sulpice, Thomas Altmann, Mark Stitt, Lothar Willmitzer, and Albrecht E Melchinger.
+
+</span>
+<span class="ltx_bibblock">Genomic and metabolic prediction of complex heterotic traits in hybrid maize.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature genetics</span>, 44(2):217–220, 2012.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[37]</span>
+<span class="ltx_bibblock">
+Marylyn D Ritchie, Emily R Holzinger, Ruowang Li, Sarah A Pendergrass, and Dokyoon Kim.
+
+</span>
+<span class="ltx_bibblock">Methods of integrating data to uncover genotype–phenotype interactions.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature Reviews Genetics</span>, 16(2):85–97, 2015.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[38]</span>
+<span class="ltx_bibblock">
+J Vladimir Torres-Rodríguez, Delin Li, and James C Schnable.
+
+</span>
+<span class="ltx_bibblock">Evolving best practices for transcriptome-wide association studies accelerate discovery of gene-phenotype links.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Current Opinion in Plant Biology</span>, 83:102670, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[39]</span>
+<span class="ltx_bibblock">
+J Vladimir Torres-Rodríguez, Delin Li, Jonathan Turkus, Linsey Newton, Jensina Davis, Lina Lopez-Corona, Waqar Ali, Guangchao Sun, Ravi V Mural, Marcin W Grzybowski, et al.
+
+</span>
+<span class="ltx_bibblock">Population-level gene expression can repeatedly link genes to functions in maize.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">The Plant Journal</span>, 119(2):844–860, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[40]</span>
+<span class="ltx_bibblock">
+Arno van Hilten, Steven A Kushner, Manfred Kayser, M Arfan Ikram, Hieab HH Adams, Caroline CW Klaver, Wiro J Niessen, and Gennady V Roshchupkin.
+
+</span>
+<span class="ltx_bibblock">Gennet framework: interpretable deep learning for predicting phenotypes from genetic data.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Communications biology</span>, 4(1):1094, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[41]</span>
+<span class="ltx_bibblock">
+Arno van Hilten, Jeroen van Rooij, M Arfan Ikram, Wiro J Niessen, Joyce BJ van Meurs, and Gennady V Roshchupkin.
+
+</span>
+<span class="ltx_bibblock">Phenotype prediction using biologically interpretable neural networks on multi-cohort multi-omics data.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">NPJ systems biology and applications</span>, 10(1):81, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib42">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[42]</span>
+<span class="ltx_bibblock">
+Rajeev K Varshney, Manish Roorkiwal, and Mark E Sorrells.
+
+</span>
+<span class="ltx_bibblock">Genomic-enabled prediction models for improving crop productivity.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Trends in Plant Science</span>, 26(6):575–587, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib43">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[43]</span>
+<span class="ltx_bibblock">
+Michael Wainberg, Nasa Sinnott-Armstrong, Nicholas Mancuso, Alvaro N Barbeira, David A Knowles, David Golan, Raili Ermel, Arno Ruusalepp, Thomas Quertermous, Ke Hao, et al.
+
+</span>
+<span class="ltx_bibblock">Opportunities and challenges for transcriptome-wide association studies.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature genetics</span>, 51(4):592–599, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib44">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[44]</span>
+<span class="ltx_bibblock">
+Dong et al. Wang.
+
+</span>
+<span class="ltx_bibblock">Mogonet integrates multi-omics data through graph convolutional networks.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature Machine Intelligence</span>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib45">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[45]</span>
+<span class="ltx_bibblock">
+Hao Wang, Shen Yan, Wenxi Wang, Yongming Chen, Jingpeng Hong, Qiang He, Xianmin Diao, Yunan Lin, Yanqing Chen, Yongsheng Cao, et al.
+
+</span>
+<span class="ltx_bibblock">Cropformer: An interpretable deep learning framework for crop genomic prediction.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Plant Communications</span>, 6(3), 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib46">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[46]</span>
+<span class="ltx_bibblock">
+Kelin Wang, Muhammad Ali Abid, Awais Rasheed, Jose Crossa, Sarah Hearne, and Huihui Li.
+
+</span>
+<span class="ltx_bibblock">Dnngp, a deep neural network-based method for genomic prediction using multi-omics data in plants.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Molecular Plant</span>, 16(1):279–293, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib47">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[47]</span>
+<span class="ltx_bibblock">
+Jacob D Washburn, José Ignacio Varela, Alencar Xavier, Qiuyue Chen, David Ertl, Joseph L Gage, James B Holland, Dayane Cristina Lima, Maria Cinta Romay, Marco Lopez-Cruz, et al.
+
+</span>
+<span class="ltx_bibblock">Global genotype by environment prediction competition reveals that diverse modeling strategies can deliver satisfactory maize yield estimates.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Genetics</span>, 229(2):iyae195, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib48">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[48]</span>
+<span class="ltx_bibblock">
+Xun Wu, Yongxiang Li, Xin Li, Chunhui Li, Yunsu Shi, Yanchun Song, Zuping Zheng, Yu Li, and Tianyu Wang.
+
+</span>
+<span class="ltx_bibblock">Analysis of genetic differentiation and genomic variation to reveal potential regions of importance during maize improvement.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">BMC plant biology</span>, 15(1):256, 2015.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib49">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[49]</span>
+<span class="ltx_bibblock">
+Xinyue Yang et al.
+
+</span>
+<span class="ltx_bibblock">mmvae: a multi-modal variational autoencoder framework for integrative analysis of multi-omics data.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Bioinformatics</span>, 37(15):2151–2158, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib50">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[50]</span>
+<span class="ltx_bibblock">
+Bayya Yegnanarayana.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Artificial neural networks</span>.
+
+</span>
+<span class="ltx_bibblock">PHI Learning Pvt. Ltd., 2009.
+
+</span>
+</li>
+</ul>
+</section>
+<div class="ltx_para" id="p1">
+<p class="ltx_p">See pages - of <a class="ltx_ref" href="supplement.pdf" title="">supplement.pdf</a></p>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 17:54:34 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

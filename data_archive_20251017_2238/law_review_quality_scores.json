@@ -1,0 +1,843 @@
+{
+  "total_pairs": 206,
+  "average_jaccard": 35.477021300937636,
+  "median_jaccard": 16.28303495311168,
+  "histogram": {
+    "0-10%": 94,
+    "10-20%": 18,
+    "20-30%": 24,
+    "30-40%": 3,
+    "40-50%": 0,
+    "50-60%": 0,
+    "60-70%": 1,
+    "70-80%": 7,
+    "80-90%": 33,
+    "90-100%": 26
+  },
+  "scores": [
+    {
+      "basename": "florida_law_review_vol77_iss1_art4_going-en-banc",
+      "jaccard": 1.8854748603351956
+    },
+    {
+      "basename": "penn_law_review_default_procedures",
+      "jaccard": 1.9845644983461963
+    },
+    {
+      "basename": "texas_law_review_federalism-state-democracy",
+      "jaccard": 2.0974131903985085
+    },
+    {
+      "basename": "florida_law_review_vol76_iss6_art2_originalism-election-law",
+      "jaccard": 2.3238191462490527
+    },
+    {
+      "basename": "duke_law_journal_discretionary_immigration_detention",
+      "jaccard": 2.4384933594600477
+    },
+    {
+      "basename": "georgetown_law_journal_a_faster_way_to_yes",
+      "jaccard": 2.5119236883942766
+    },
+    {
+      "basename": "texas_law_review_mass-incarceration-history",
+      "jaccard": 2.856122813280971
+    },
+    {
+      "basename": "texas_law_review_liberty-in-loyalty-fiduciary-law",
+      "jaccard": 2.949852507374631
+    },
+    {
+      "basename": "penn_law_review_prosecuting_families",
+      "jaccard": 2.96229802513465
+    },
+    {
+      "basename": "usc_law_review_listeners_choices_online",
+      "jaccard": 3.0595369349503856
+    },
+    {
+      "basename": "florida_law_review_vol77_iss1_art1_artificial-intelligence-privacy",
+      "jaccard": 3.256477299738531
+    },
+    {
+      "basename": "duke_law_journal_transnational_corporate_law",
+      "jaccard": 3.261122757978104
+    },
+    {
+      "basename": "penn_law_review_original_meaning_of_treaties",
+      "jaccard": 3.4352744030163382
+    },
+    {
+      "basename": "duke_law_journal_illegal_corporate_cultures",
+      "jaccard": 3.4726688102893895
+    },
+    {
+      "basename": "northwestern_law_review_healing_power_antitrust",
+      "jaccard": 3.4769833496571985
+    },
+    {
+      "basename": "penn_law_review_lessons_in_climate_derisking",
+      "jaccard": 3.5150280183392764
+    },
+    {
+      "basename": "gwu_law_review_the-power-to-vacate-a-rule",
+      "jaccard": 3.527148353997435
+    },
+    {
+      "basename": "florida_law_review_vol77_iss1_art2_expressive-discrimination-universities",
+      "jaccard": 3.5679611650485437
+    },
+    {
+      "basename": "penn_law_review_ancillary_rights",
+      "jaccard": 3.616721465476749
+    },
+    {
+      "basename": "penn_law_review_control_and_its_discontents",
+      "jaccard": 3.6421911421911424
+    },
+    {
+      "basename": "duke_law_journal_burdens_of_proof",
+      "jaccard": 3.666749812920928
+    },
+    {
+      "basename": "duke_law_journal_slowing_the_burn",
+      "jaccard": 3.686050206545917
+    },
+    {
+      "basename": "gwu_law_review_the-ambiguity-fallacy",
+      "jaccard": 3.6874451273046533
+    },
+    {
+      "basename": "gwu_law_review_criminal-investors",
+      "jaccard": 3.7079162875341223
+    },
+    {
+      "basename": "northwestern_law_review_forgotten_fundamental_right_movement",
+      "jaccard": 3.731343283582089
+    },
+    {
+      "basename": "indiana_law_journal_discord_and_the_pentagon_s_watchdog_countering_extremism_in_the_u_s_military",
+      "jaccard": 3.8244835239883903
+    },
+    {
+      "basename": "northwestern_law_review_sec_entrepreneurial_enforcer",
+      "jaccard": 3.870761356365963
+    },
+    {
+      "basename": "georgetown_law_journal_the_sheriffs_constitution",
+      "jaccard": 3.872801563332741
+    },
+    {
+      "basename": "georgetown_law_journal_selective_enforcement",
+      "jaccard": 3.8866396761133606
+    },
+    {
+      "basename": "penn_law_review_unwritten_administrative_law",
+      "jaccard": 3.9185639229422065
+    },
+    {
+      "basename": "penn_law_review_spirit",
+      "jaccard": 3.997488488907493
+    },
+    {
+      "basename": "indiana_law_journal_unpacking_open_source_bio",
+      "jaccard": 3.998806326469711
+    },
+    {
+      "basename": "indiana_law_journal_moving_slow_and_fixing_things",
+      "jaccard": 4.0551500405515
+    },
+    {
+      "basename": "northwestern_law_review_ais_dream_electric_boards",
+      "jaccard": 4.085603112840467
+    },
+    {
+      "basename": "gwu_law_review_nondelegation-as-constitutional-symbolism",
+      "jaccard": 4.098566758863465
+    },
+    {
+      "basename": "gwu_law_review_coercive-settlements",
+      "jaccard": 4.187994416007445
+    },
+    {
+      "basename": "northwestern_law_review_constraining_executive_branch",
+      "jaccard": 4.219496986073581
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art3_big-cost-small-farms",
+      "jaccard": 4.259980525803311
+    },
+    {
+      "basename": "penn_law_review_realism_about_criminal_justice_localism",
+      "jaccard": 4.317980513728964
+    },
+    {
+      "basename": "northwestern_law_review_climate_exceptionalism_court",
+      "jaccard": 4.3225480283114255
+    },
+    {
+      "basename": "gwu_law_review_chenery-ii-revisited",
+      "jaccard": 4.362955032119915
+    },
+    {
+      "basename": "georgetown_law_journal_the_new_sexual_deviancy",
+      "jaccard": 4.3899762209621365
+    },
+    {
+      "basename": "indiana_law_journal_can_ai_as_such_invade_your_privacy_an_experimental_study_of_the_social_element_of_surveillance",
+      "jaccard": 4.392523364485982
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art6_tribal-courts-general-jurisdiction",
+      "jaccard": 4.421448730009407
+    },
+    {
+      "basename": "stanford_law_review_highsmith_company_town",
+      "jaccard": 4.427988514432522
+    },
+    {
+      "basename": "florida_law_review_vol76_iss6_art4_maximum-convergence-voting",
+      "jaccard": 4.5469100224143455
+    },
+    {
+      "basename": "stanford_law_review_weightman_banking_franchise",
+      "jaccard": 4.551201011378002
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art5_katz-imperfect-circle",
+      "jaccard": 4.567586366798052
+    },
+    {
+      "basename": "florida_law_review_vol76_iss6_art5_voting-rights-materiality",
+      "jaccard": 4.66710182767624
+    },
+    {
+      "basename": "stanford_law_review_khan_notice_choice_unfairness",
+      "jaccard": 4.692028985507246
+    },
+    {
+      "basename": "florida_law_review_vol76_iss6_art1_combatting-extremism",
+      "jaccard": 4.727921498661909
+    },
+    {
+      "basename": "penn_law_review_debt_tokens",
+      "jaccard": 4.753403258201294
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art1_chilling-effects-dobbs",
+      "jaccard": 4.843148046230049
+    },
+    {
+      "basename": "penn_law_review_super_dicta",
+      "jaccard": 4.861849096705632
+    },
+    {
+      "basename": "indiana_law_journal_dark_patterns_as_disloyal_design",
+      "jaccard": 4.915433403805497
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art4_originalist-case-insular-cases",
+      "jaccard": 4.946996466431095
+    },
+    {
+      "basename": "stanford_law_review_yorke_missing_canons",
+      "jaccard": 5.0038890329271455
+    },
+    {
+      "basename": "northwestern_law_review_accommodating_incompetency_immigration",
+      "jaccard": 5.008787346221441
+    },
+    {
+      "basename": "northwestern_law_review_louboutin_lawfare",
+      "jaccard": 5.012672486623487
+    },
+    {
+      "basename": "florida_law_review_vol77_iss1_art5_clayton-act-cipher",
+      "jaccard": 5.0357732526142
+    },
+    {
+      "basename": "stanford_law_review_kelley_fair_housing",
+      "jaccard": 5.052139518158936
+    },
+    {
+      "basename": "florida_law_review_vol77_iss2_art2_future-antitrust-populism",
+      "jaccard": 5.071315372424722
+    },
+    {
+      "basename": "georgetown_law_journal_renters_tax_credits",
+      "jaccard": 5.079962370649106
+    },
+    {
+      "basename": "stanford_law_review_yankah_deputization",
+      "jaccard": 5.111927831607083
+    },
+    {
+      "basename": "gwu_law_review_how-chevron-deference-fits-into-article-iii",
+      "jaccard": 5.240174672489083
+    },
+    {
+      "basename": "penn_law_review_policing_as_general_warrants",
+      "jaccard": 5.297209866558836
+    },
+    {
+      "basename": "stanford_law_review_wu_clean_water_enforcement",
+      "jaccard": 5.379557680812911
+    },
+    {
+      "basename": "florida_law_review_vol76_iss6_art3_power-electorate-state-constitutions",
+      "jaccard": 5.409356725146199
+    },
+    {
+      "basename": "indiana_law_journal_the_mirage_of_artificial_intelligence_terms_of_use_restrictions",
+      "jaccard": 5.447095685707399
+    },
+    {
+      "basename": "northwestern_law_review_against_monetary_primacy",
+      "jaccard": 5.567350790280726
+    },
+    {
+      "basename": "gwu_law_review_the-ordinary-questions-doctrine",
+      "jaccard": 5.567991046446559
+    },
+    {
+      "basename": "northwestern_law_review_racial_discrimination_returns",
+      "jaccard": 5.5697496167603475
+    },
+    {
+      "basename": "gwu_law_review_optimal-ossification",
+      "jaccard": 5.579567779960707
+    },
+    {
+      "basename": "northwestern_law_review_renaissance_private_law",
+      "jaccard": 5.596269153897402
+    },
+    {
+      "basename": "northwestern_law_review_legally_magic_words",
+      "jaccard": 5.6422170594092265
+    },
+    {
+      "basename": "northwestern_law_review_taxations_limits",
+      "jaccard": 5.6492226844755855
+    },
+    {
+      "basename": "stanford_law_review_badii_antitrust_merger",
+      "jaccard": 5.724267669981188
+    },
+    {
+      "basename": "indiana_law_journal_multiplicity_as_an_ai_governance_principle",
+      "jaccard": 5.811341942728804
+    },
+    {
+      "basename": "gwu_law_review_the-american-nondelegation-doctrine",
+      "jaccard": 5.84385226741468
+    },
+    {
+      "basename": "stanford_law_review_schuman_prosecutors_robes",
+      "jaccard": 5.847501287995879
+    },
+    {
+      "basename": "florida_law_review_vol77_iss1_art3_transunion-vermont-agency-statutory-damages",
+      "jaccard": 5.884275907159203
+    },
+    {
+      "basename": "northwestern_law_review_statutes_special_interests",
+      "jaccard": 5.8907026259758695
+    },
+    {
+      "basename": "stanford_law_review_bednar_presidential_control",
+      "jaccard": 6.00270218104613
+    },
+    {
+      "basename": "bu_law_review_beyond_vawa",
+      "jaccard": 6.015503875968992
+    },
+    {
+      "basename": "stanford_law_review_crews_vermont_yankee",
+      "jaccard": 6.1037639877924725
+    },
+    {
+      "basename": "northwestern_law_review_market_value_partisan_balance",
+      "jaccard": 6.2154696132596685
+    },
+    {
+      "basename": "indiana_law_journal_unlocking_platform_data_for_research",
+      "jaccard": 6.2202297562342395
+    },
+    {
+      "basename": "stanford_law_review_rauterberg_shadow_banking",
+      "jaccard": 6.25920471281296
+    },
+    {
+      "basename": "indiana_law_journal_the_overstated_cost_of_ai_fairness_in_criminal_justice",
+      "jaccard": 6.47279549718574
+    },
+    {
+      "basename": "gwu_law_review_delegating-and-regulating-the-presidents-section-232-and-ieepa-trade-powers",
+      "jaccard": 6.492890995260664
+    },
+    {
+      "basename": "stanford_law_review_snyder_constitutional_rights",
+      "jaccard": 6.820530485704444
+    },
+    {
+      "basename": "stanford_law_review_padmanabhan_deportation",
+      "jaccard": 6.823120382442416
+    },
+    {
+      "basename": "usc_law_review_the_first_amendment_of_fear",
+      "jaccard": 7.718696397941681
+    },
+    {
+      "basename": "harvard_law_review_How_To_Get_Free_In_A_Time_Of_Retrenchment",
+      "jaccard": 9.079550187421907
+    },
+    {
+      "basename": "columbia_law_review_guaranteed_the_federal_education_duty",
+      "jaccard": 10.472279260780287
+    },
+    {
+      "basename": "bu_law_review_suing_china_covid",
+      "jaccard": 10.551558752997602
+    },
+    {
+      "basename": "texas_law_review_damage-averaging-high-value-claims",
+      "jaccard": 11.57190635451505
+    },
+    {
+      "basename": "virginia_law_review_antitrusts-interdependence-paradox",
+      "jaccard": 14.00445765230312
+    },
+    {
+      "basename": "virginia_law_review_neo-brandeis-goes-to-washington-a-provisional-assessment-of-the-biden-administrations-antitrust-record",
+      "jaccard": 14.685314685314685
+    },
+    {
+      "basename": "ucla_law_review_broken_systems_function_by_design",
+      "jaccard": 14.77469670710572
+    },
+    {
+      "basename": "ucla_law_review_connecting_race_and_empire_what_critical_race_theory_offers_outside_the_us_legal_context",
+      "jaccard": 15.420488108192135
+    },
+    {
+      "basename": "bu_law_review_rediscovering_jacobson",
+      "jaccard": 15.69023569023569
+    },
+    {
+      "basename": "usc_law_review_listening_on_campus_academic_freedom_and_its_audiences",
+      "jaccard": 16.240835369917797
+    },
+    {
+      "basename": "ucla_law_review_bound_by_law_freed_by_solidarity_navigating_california_prisons_and_universities_as_a_jailhouse_lawye",
+      "jaccard": 16.28303495311168
+    },
+    {
+      "basename": "ucla_law_review_critical_race_theory_inside_and_beyond_the_ivory_tower",
+      "jaccard": 16.477683956574186
+    },
+    {
+      "basename": "columbia_law_review_afrofuturism_in_protest_dissent_and_revolution",
+      "jaccard": 16.7277525289547
+    },
+    {
+      "basename": "virginia_law_review_fourth-amendment-trespass-and-internet-search-history",
+      "jaccard": 17.72658988482724
+    },
+    {
+      "basename": "columbia_law_review_overbroad_protest_laws",
+      "jaccard": 17.780382962094567
+    },
+    {
+      "basename": "virginia_law_review_abortions-new-criminalization-a-history-and-tradition-right-to-health-care-access-after-dobbs",
+      "jaccard": 17.920107118946664
+    },
+    {
+      "basename": "columbia_law_review_private_prison_healthcare_as_public_accommodation_leveraging_federal_and_state_p",
+      "jaccard": 18.619582664526487
+    },
+    {
+      "basename": "columbia_law_review_a_right_of_peaceable_assembly",
+      "jaccard": 18.81895881895882
+    },
+    {
+      "basename": "ucla_law_review_insurgent_knowledge_battling_cdcr_from_inside_the_system_the_story_of_the_essential_collaboration_be",
+      "jaccard": 19.93060909791827
+    },
+    {
+      "basename": "wisconsin_law_review_wisconsin_law_review_online_2015_symposium",
+      "jaccard": 20.48267326732673
+    },
+    {
+      "basename": "yale_law_journal_The_Dangerous_Rise_of_Dual_Use_Objects_in_War",
+      "jaccard": 20.776478232618583
+    },
+    {
+      "basename": "virginia_law_review_the-association-game-applying-noscitur-a-sociis-and-ejusdem-generis",
+      "jaccard": 20.924764890282134
+    },
+    {
+      "basename": "virginia_law_review_political-mootness",
+      "jaccard": 21.169841695733833
+    },
+    {
+      "basename": "harvard_law_review_The_Law_And_Lawlessness_Of_U_S_Immigration_Detention",
+      "jaccard": 21.57767964672822
+    },
+    {
+      "basename": "virginia_law_review_the-radical-fair-housing-act",
+      "jaccard": 22.758018765001093
+    },
+    {
+      "basename": "harvard_law_review_Excited_Delirium_Policing_And_The_Law_Of_Evidence",
+      "jaccard": 23.39194302247941
+    },
+    {
+      "basename": "virginia_law_review_solitary-confinement-human-dignity-and-the-eighth-amendment",
+      "jaccard": 23.775100401606426
+    },
+    {
+      "basename": "yale_law_journal_Resurrecting_the_Trinity_of_Legislative_Constitutionalism",
+      "jaccard": 23.81542273149582
+    },
+    {
+      "basename": "yale_law_journal_The_Prison_Discovery_Crisis",
+      "jaccard": 24.047124047124047
+    },
+    {
+      "basename": "harvard_law_review_The_Forgotten_History_Of_Prison_Law_Judicial_Oversight_Of_Detention_Facilities_In_The_Nations_Early_",
+      "jaccard": 24.94612068965517
+    },
+    {
+      "basename": "harvard_law_review_Waste_Property_And_Useless_Things",
+      "jaccard": 25.33305138507084
+    },
+    {
+      "basename": "columbia_law_review_policing_campus_protest",
+      "jaccard": 25.524331734064425
+    },
+    {
+      "basename": "harvard_law_review_Unwarranted_Warrants_An_Empirical_Analysis_Of_Judicial_Review_In_Search_And_Seizure",
+      "jaccard": 26.06728310053118
+    },
+    {
+      "basename": "columbia_law_review_the_right_to_protest_in_indian_country",
+      "jaccard": 26.656588561350464
+    },
+    {
+      "basename": "virginia_law_review_the-right-thing-in-the-wrong-place-unstable-dicta-and-aesthetics-gradual-incursion-into-the-traditional-police-power-justifications",
+      "jaccard": 26.818515797207937
+    },
+    {
+      "basename": "indiana_law_journal_foreword",
+      "jaccard": 27.424749163879596
+    },
+    {
+      "basename": "virginia_law_review_deterring-unenforceable-terms",
+      "jaccard": 27.75147928994083
+    },
+    {
+      "basename": "virginia_law_review_free-speech-as-white-privilege-racialization-suppression-and-the-palestine-exception",
+      "jaccard": 27.943078913324708
+    },
+    {
+      "basename": "michigan_law_review_spending_clause_standing",
+      "jaccard": 28.518859245630175
+    },
+    {
+      "basename": "michigan_law_review_tort_law_in_a_world_of_scarce_compensatory_resources",
+      "jaccard": 28.69515011547344
+    },
+    {
+      "basename": "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking",
+      "jaccard": 28.977752745705438
+    },
+    {
+      "basename": "virginia_law_review_free-speech-breathing-space-and-liability-insurance",
+      "jaccard": 29.239960172585462
+    },
+    {
+      "basename": "virginia_law_review_an-alternative-to-constraining-judges-with-constitutional-theories-the-internal-goods-approach",
+      "jaccard": 29.864472410454983
+    },
+    {
+      "basename": "michigan_law_review_citizen_shareholders_the_state_as_a_fiduciary_in_international_investment_law",
+      "jaccard": 30.24813895781638
+    },
+    {
+      "basename": "michigan_law_review_law_enforcement_privilege",
+      "jaccard": 30.704673708580522
+    },
+    {
+      "basename": "virginia_law_review_the-unenumerated-power",
+      "jaccard": 37.3558648111332
+    },
+    {
+      "basename": "chicago_law_review_concept-common-law",
+      "jaccard": 65.17996870109546
+    },
+    {
+      "basename": "chicago_law_review_snow-rain-and-theft-limits-us-postal-service-liability-under-federal-tort-claims-act",
+      "jaccard": 74.9185667752443
+    },
+    {
+      "basename": "chicago_law_review_ai-business-judgment-rule-heightened-information-duty",
+      "jaccard": 76.98815566835871
+    },
+    {
+      "basename": "chicago_law_review_constitutional-amendment-state-statute-case-dual-sovereignty-illinois",
+      "jaccard": 77.72972972972974
+    },
+    {
+      "basename": "chicago_law_review_college-athletes-employees-implications-title-ix-and-unequal-pay",
+      "jaccard": 78.09633027522935
+    },
+    {
+      "basename": "chicago_law_review_united-states-v-harris-hard-sell-involuntary-medication-defendants",
+      "jaccard": 78.63534675615213
+    },
+    {
+      "basename": "chicago_law_review_tiktok-bans-takings-clause-blunder",
+      "jaccard": 79.19528949950933
+    },
+    {
+      "basename": "wisconsin_law_review_debunking_the_stifling_innovation_myth_the_music_businesss_successful_transition_to_digital",
+      "jaccard": 79.27677329624478
+    },
+    {
+      "basename": "chicago_law_review_blueprint-protecting-us-companies-unfair-competition-fueled-forced-labor",
+      "jaccard": 80.13307984790875
+    },
+    {
+      "basename": "harvard_law_review_Background_Principles_And_The_General_Law_Of_Property",
+      "jaccard": 81.29236330772707
+    },
+    {
+      "basename": "chicago_law_review_who-are-they-judge-scope-absolute-immunity-applied-parole-psychologists",
+      "jaccard": 81.34254689042449
+    },
+    {
+      "basename": "texas_law_review_repealing-environmental-laws-magna-carta",
+      "jaccard": 81.66608574416173
+    },
+    {
+      "basename": "wisconsin_law_review_copyright_and_innovation_d\u00e9j\u00e0_vu_all_over_again",
+      "jaccard": 82.0
+    },
+    {
+      "basename": "bu_law_review_internet_grows_up",
+      "jaccard": 82.17821782178217
+    },
+    {
+      "basename": "chicago_law_review_search-strategy-sampling-and-competition-law",
+      "jaccard": 82.48704663212435
+    },
+    {
+      "basename": "wisconsin_law_review_limelight_v_akamai_limiting_induced_infringement",
+      "jaccard": 82.6923076923077
+    },
+    {
+      "basename": "wisconsin_law_review_heterogeneity_legislative_history_and_the_costs_of_litigation_a_brief_comment_on_bruhls_hierarchy_an",
+      "jaccard": 82.69484808454426
+    },
+    {
+      "basename": "chicago_law_review_trump-20-removal-cases-new-shadow-docket",
+      "jaccard": 83.7020316027088
+    },
+    {
+      "basename": "wisconsin_law_review_response_to_sanders_maiingan_as_property",
+      "jaccard": 83.79204892966361
+    },
+    {
+      "basename": "wisconsin_law_review_judging_indian_character_the_supreme_courts_opportunity_in_nebraska_v_parker",
+      "jaccard": 83.9622641509434
+    },
+    {
+      "basename": "usc_law_review_fintech_and_techno_solutionism",
+      "jaccard": 83.98770911573916
+    },
+    {
+      "basename": "chicago_law_review_specter-circuit-split-isaacson-bankshot-and-ss-1983",
+      "jaccard": 84.04761904761905
+    },
+    {
+      "basename": "usc_law_review_criminalization_an_exceptionally_american_response_to_homele",
+      "jaccard": 84.05603735823883
+    },
+    {
+      "basename": "chicago_law_review_venue-transfers-administrative-litigation-and-neglected-percolation-argument",
+      "jaccard": 84.33981576253838
+    },
+    {
+      "basename": "bu_law_review_nil_compliance",
+      "jaccard": 84.34670116429496
+    },
+    {
+      "basename": "usc_law_review_mind_the_gap_s_mitigating_harassment_in_a_post_metoo_workpla",
+      "jaccard": 84.89010989010988
+    },
+    {
+      "basename": "wisconsin_law_review_reforming_software_claiming",
+      "jaccard": 86.18705035971223
+    },
+    {
+      "basename": "usc_law_review_familial_dna_and_due_process_for_innocents",
+      "jaccard": 86.49928943628612
+    },
+    {
+      "basename": "wisconsin_law_review_when_you_let_incumbents_veto_innovation_you_get_less_innovation",
+      "jaccard": 86.97183098591549
+    },
+    {
+      "basename": "wisconsin_law_review_disparaging_the_supreme_court_is_scotus_in_serious_trouble",
+      "jaccard": 87.05882352941177
+    },
+    {
+      "basename": "wisconsin_law_review_from_a_scream_to_a_whisper_the_supreme_court_does_little_to_fix_its_bankruptcy_court_mess_executive_",
+      "jaccard": 87.1313672922252
+    },
+    {
+      "basename": "usc_law_review_the_default_rule_and_due_process_diverging_interpretations_o",
+      "jaccard": 87.44360902255639
+    },
+    {
+      "basename": "wisconsin_law_review_requiring_exhaustion_for_cumulative_error_review_of_harmlessness_does_not_add_up",
+      "jaccard": 87.44493392070484
+    },
+    {
+      "basename": "bu_law_review_learning_from_history",
+      "jaccard": 88.39253020871476
+    },
+    {
+      "basename": "wisconsin_law_review_copyright_and_innovation_responses_to_marks_masnick_and_picker",
+      "jaccard": 88.81733021077284
+    },
+    {
+      "basename": "usc_law_review_respecting_listeners_autonomy_the_right_to_be_left_alone",
+      "jaccard": 88.8671875
+    },
+    {
+      "basename": "chicago_law_review_children-and-cars-watch-them",
+      "jaccard": 88.94447223611806
+    },
+    {
+      "basename": "bu_law_review_interest_convergence_working_class",
+      "jaccard": 89.00763358778626
+    },
+    {
+      "basename": "usc_law_review_islands_of_algorithmic_integrity_imagining_a_democratic_digi",
+      "jaccard": 89.57968476357267
+    },
+    {
+      "basename": "usc_law_review_fair_use_and_fair_price",
+      "jaccard": 89.64046313223643
+    },
+    {
+      "basename": "texas_law_review_technologies-of-violence",
+      "jaccard": 89.96243739565944
+    },
+    {
+      "basename": "wisconsin_law_review_marriage_equality_comes_to_wisconsin",
+      "jaccard": 90.05667181865019
+    },
+    {
+      "basename": "wisconsin_law_review_forbidden_films_and_the_first_amendment",
+      "jaccard": 90.29255319148936
+    },
+    {
+      "basename": "usc_law_review_in_the_name_of_accountability",
+      "jaccard": 90.99595736861448
+    },
+    {
+      "basename": "california_law_review_new-conservationism",
+      "jaccard": 91.14930182599356
+    },
+    {
+      "basename": "chicago_law_review_digital-authoritarianism",
+      "jaccard": 91.34963768115942
+    },
+    {
+      "basename": "texas_law_review_video-analytics-fourth-amendment",
+      "jaccard": 91.87725631768953
+    },
+    {
+      "basename": "wisconsin_law_review_assessing_experiential_learning_jobs_and_all_a_response_to_the_three_professors",
+      "jaccard": 91.87848729076255
+    },
+    {
+      "basename": "california_law_review_morgan-democracy",
+      "jaccard": 92.34285714285714
+    },
+    {
+      "basename": "california_law_review_loving-borders",
+      "jaccard": 92.45283018867924
+    },
+    {
+      "basename": "california_law_review_affirmative-asylum",
+      "jaccard": 93.21167883211679
+    },
+    {
+      "basename": "texas_law_review_working-with-statutes",
+      "jaccard": 93.42501883948756
+    },
+    {
+      "basename": "california_law_review_judiciary-ada",
+      "jaccard": 93.94760614272809
+    },
+    {
+      "basename": "california_law_review_amazon-trademark",
+      "jaccard": 94.63444603727217
+    },
+    {
+      "basename": "california_law_review_voter-pay",
+      "jaccard": 94.81309765285425
+    },
+    {
+      "basename": "california_law_review_indeterminacy-separation",
+      "jaccard": 94.96098104793757
+    },
+    {
+      "basename": "california_law_review_social-justice-conflicts",
+      "jaccard": 95.46893549663633
+    },
+    {
+      "basename": "bu_law_review_standing_privacy_harms",
+      "jaccard": 95.84103512014788
+    },
+    {
+      "basename": "california_law_review_incoherence-colorblind-constitution",
+      "jaccard": 96.25683846818312
+    },
+    {
+      "basename": "texas_law_review_battered-woman-syndrome",
+      "jaccard": 96.63037843442198
+    },
+    {
+      "basename": "texas_law_review_extraterritoriality-patent-infringement",
+      "jaccard": 96.64463650228775
+    },
+    {
+      "basename": "texas_law_review_contract-remedies-new-economy",
+      "jaccard": 97.72727272727273
+    },
+    {
+      "basename": "texas_law_review_cryptocurrency-credit-risk",
+      "jaccard": 98.34401709401709
+    },
+    {
+      "basename": "bu_law_review_law_and_culture",
+      "jaccard": 98.44299347061778
+    },
+    {
+      "basename": "texas_law_review_discovery-dark-matter",
+      "jaccard": 98.7330108269984
+    },
+    {
+      "basename": "texas_law_review_systemically-important-technology",
+      "jaccard": 98.87123745819399
+    },
+    {
+      "basename": "texas_law_review_state-regulation-online-behavior",
+      "jaccard": 98.99787427877315
+    }
+  ]
+}

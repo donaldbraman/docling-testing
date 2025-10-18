@@ -1,0 +1,311 @@
+{
+  "basename": "bu_law_review_online_reasonable_yet_suspicious",
+  "stats": {
+    "total_paragraphs": 60,
+    "body_text": 59,
+    "footnote_text": 1,
+    "total_words": 4414
+  },
+  "paragraphs": [
+    {
+      "text": "aliza hochman bloom * 103 b.u. l. rev. online 59 (2023) | pdf",
+      "label": "body-text",
+      "word_count": 13
+    },
+    {
+      "text": "around noon on july 9, 2020, mr. tyrie washington and a friend were standing in an alley in northwest baltimore. upon seeing an approaching police car, they ran away. [1] mr. washington maintained that he feared for his safety given the tenuous relationship between police and black men, which in baltimore had proven explosive after the 2015 police killing of freddie gray. [2] thus, he insisted that his reasonable, fear-based flight from police should not contribute to the “reasonable suspicion” required for those officers to stop and search him. [3] in december, the maryland supreme court [4] conceded that mr. washington’s flight from police was a reasonable reaction amid public instances of police violence against young black men, especially in baltimore, and empirical evidence of racialized policing. [5] while engaging with mr. washington’s arguments and those of courts that discount “flight from police” and “high-crime area” as factors in the reasonable suspicion calculus because of their racialized application, the court concluded that mr. washington’s unprovoked flight in a high-crime area gave officers the reasonable suspicion required. [6]",
+      "label": "body-text",
+      "word_count": 177
+    },
+    {
+      "text": "the conclusion that, despite detectives’ failure to articulate facts that initiated their pursuit, mr. washington’s flight in a high-crime area supplied them with reasonable suspicion for a search, highlights a criminal procedure paradox. how can flight from police be three things simultaneously: (1) constitutionally protected; (2) a reasonable, fear-based reaction of young black men in baltimore; and yet (3) a factor generating criminal suspicion for a stop or frisk?",
+      "label": "body-text",
+      "word_count": 69
+    },
+    {
+      "text": "substantial empirical data confirms that black americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of force by police. [7] courts must critically evaluate police assertions of suspicious behaviors and question facially race-neutral reasoning because this reasoning has consistently led to unjust results.",
+      "label": "body-text",
+      "word_count": 48
+    },
+    {
+      "text": "i. wardlow ’s open question",
+      "label": "body-text",
+      "word_count": 5
+    },
+    {
+      "text": "the framework surrounding the legal issue in washington -whether a young black man’s unprovoked flight from police constitutes reasonable suspicion under the fourth amendment-is widely known. before conducting an investigative stop, police must have “reasonable suspicion” that an individual is committing or about to commit a crime. [8] this suspicion must be more than a “mere hunch,” and based on specific and articulable facts. [9]",
+      "label": "body-text",
+      "word_count": 65
+    },
+    {
+      "text": "in illinois v. wardlow , the supreme court concluded that flight from police in a high-crime neighborhood was suggestive of wrongdoing and could be sufficient to support a terry stop. [10] there, mr. wardlow looked at the uniformed police officers as they drove by him and fled. he was ultimately followed, cornered, stopped, and searched. the court concluded that “[h]eadlong flight-wherever it occurs-is the consummate act of evasion: it is not necessarily indicative of wrongdoing, but it is certainly suggestive of such.” [11] justice stevens clarified that any per se rule about flight from police in a high-crime area was unwarranted. he cautioned that flight from police may not reflect criminality “[a]mong some citizens, particularly minorities and those residing in high crime areas, there is . . . the possibility that the fleeing person is entirely innocent, but, with or without justification, believes that contact with police can itself be dangerous, apart from any criminal activity associated with the officer’s sudden presence.” [12]",
+      "label": "body-text",
+      "word_count": 163
+    },
+    {
+      "text": "fast forward twenty-two years. the parties in washington sharply disagreed on wardlow ’s application. the state argued that wardlow indicated that washington’s flight from police in a high-crime area provided the detective with reasonable suspicion, [13] while mr. washington insisted that wardlow concluded that unprovoked flight from police was merely one factor to consider in the reasonable suspicion calculus. moreover, in the decades since wardlow , mr. washington explained that it was reasonable for a young black man “to distrust the police in baltimore,” and that his flight from officers should not be considered as support for reasonable suspicion. [14] ultimately, the court explained that it was applying wardlow as it always had, in holding that flight from police in a high-crime area is relevant to the totality of circumstances but does not per se establish reasonable suspicion. [15]",
+      "label": "body-text",
+      "word_count": 139
+    },
+    {
+      "text": "since terry, the supreme court has seldom intervened to decide what constitutes something more than a “hunch” but less than probable cause. [16] in the absence of additional guidance since wardlow , lower courts wrestle with how much conduct that is consistent with lawful behavior, but subjectively suspicious to a police officer, is sufficient to support reasonable suspicion. [17] the fifth circuit recently found police had reasonable suspicion to detain an individual where the officer observed him sitting in the front seat of his car for ten to fifteen seconds, parked in the lot of an open convenience store in a high-crime area. [18] on the other hand, several federal circuits and state courts refuse to permit a person’s lawful conduct in a high-crime area, on its own, to constitute reasonable suspicion. [19] because reasonable suspicion is a contextual, totality of circumstances determination, it is difficult for reviewing courts to determine which factor was dispositive when several factors, each themselves consistent with innocent behavior, is “relevant.” as the seventh circuit acknowledged, “[w]hether you stand still or move, drive above, below, or at the speed limit, you will be described by the police as acting suspiciously should they wish to stop and arrest you.” [20]",
+      "label": "body-text",
+      "word_count": 204
+    },
+    {
+      "text": "ii. mr. washington has the constitutional right to avoid police",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "the paradox of relying on flight from police for reasonable suspicion begins with a foundational principle-individuals have “a right to ignore the police and go about [their] business.” [21] the fourth amendment protects an individual’s “right to decline to interact with police and ‘go on one’s way.’” [22] wardlow reaffirmed that “when an officer, without reasonable suspicion or probable cause, approaches an individual, the individual has a right to ignore the police and go about his business.” [23]",
+      "label": "body-text",
+      "word_count": 78
+    },
+    {
+      "text": "the constitutionally protected right to ignore police is so fundamental that it forms the doctrinal border for a seizure. the interaction between law enforcement and individuals known as a “consensual encounter” is defined as any encounter with police in which a reasonable person, in view of all of the circumstances surrounding the incident, would have believed that they were free to leave and disregard police presence. [24] a consensual encounter requires no suspicion of criminal behavior. [25]",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "to resolve this conflict between the right to avoid police and the suspiciousness of flight, wardlow reasoned that unprovoked flight from law enforcement is “just the opposite” of “going about one’s business” and ignoring police presence. [26] but the difference between these two is unclear. the massachusetts supreme judicial court (“sjc”) acknowledged the “factual irony” that the law purports to protect a person’s freedom not to speak with police but has traditionally viewed flight from police as inculpatory. [27] in commonwealth v. warren , the sjc held that because a black man may have valid reasons unrelated to consciousness of guilt to avoid contact with the police, flight should be given minimal weight in reasonable suspicion calculus. [28]",
+      "label": "body-text",
+      "word_count": 118
+    },
+    {
+      "text": "for courts applying wardlow , reconciling the constitutionally protected right to ignore police with criminally suspicious flight from police proves challenging.",
+      "label": "body-text",
+      "word_count": 21
+    },
+    {
+      "text": "iii. mr. washington’s fear of police interaction is reasonable",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "mr. washington argued that inferring guilt in his flight from police is inconsistent with legitimate reasons why young black men flee from police. increased awareness that young black men are disproportionately likely to be the victims of police violence, combined with the specific history of police misconduct in baltimore, rendered his own fear of mistreatment at the hands of police reasonable. [29] mr. washington relied upon three categories in support of his argument: (1) empirical data confirming that black men are disproportionately stopped, searched, arrested by police, and more likely to be subject to the use of force; [30] (2) the proliferation of publicly disseminated footage depicting police violence against black men, making flight a reasonable reaction; [31] and (3) particular events such as the prominent death of freddie gray in police custody, the department of justice’s documented investigation into baltimore city police, and the recent scandal within the gun trace task force, which affirmed a fear of police among baltimore city residents. [32] within this context, mr. washington reasoned that wardlow’ s conclusion-that unprovoked flight from police suggests criminal wrongdoing-is profoundly outdated. instead, flight from police reflects a reasonable fear for one’s safety and merits minimal or no weight in establishing reasonable suspicion.",
+      "label": "body-text",
+      "word_count": 204
+    },
+    {
+      "text": "indeed, this argument persuaded the sjc six years ago when presented with similar facts in warren . an officer saw mr. warren with another young black man walking in boston and believed that they matched the general description provided by a burglary victim earlier that night. upon being asked by the officer to “wait a minute,” the two men ran into a park. the sjc concluded that the victim’s description of the perpetrator, proximity to the alleged burglary, and the defendant’s flight did not constitute reasonable suspicion. [33] focusing on a report documenting a pattern of racial profiling of black men in boston, the court recognized “a reason for flight totally unrelated to the consciousness of guilt,” explaining that mr. warren’s flight “might just as easily be motivated by the desire to avoid the recurring indignity of being racially profiled.” thus, flight from police should be given “little, if any, weight as a factor probative in reasonable suspicion.” [34]",
+      "label": "body-text",
+      "word_count": 159
+    },
+    {
+      "text": "warren was lauded for recognizing that racialized experiences of policing affect an individual’s behavior in response to police, and thus a person’s anxious behavior should not establish the suspicion required for a stop. [35] four years after warren , the sjc expanded “the reasoning of warren ” in holding that “the weight of the defendant’s nervous and evasive behavior should be significantly discount[ed] in assessing whether police had reasonable suspicion for a stop.” [36] meanwhile, other courts have recognized that behaviors traditionally thought of as contributory to reasonable suspicion may also be responses to an individual’s encounter with police. [37]",
+      "label": "body-text",
+      "word_count": 100
+    },
+    {
+      "text": "other courts have cited reports of police use of disproportionate and unreasonable force as providing a reasonable, non-suspicious, basis for flight from police. in 2019, the appellate court of illinois took judicial notice of a department of justice report finding that the chicago police had engaged in a “pattern or practice of unreasonable force,” concluding that defendant’s flight from police could be explained by “an eminently reasonable and noncriminal reason.” [38] also in 2019, the ninth circuit recognized that the increase of data since wardlow on racially disparate policing “can inform the inferences to be drawn from an individual who decides to step away, run, or flee from police without a clear reason to do otherwise.” [39]",
+      "label": "body-text",
+      "word_count": 117
+    },
+    {
+      "text": "relatedly, based on similar empirical data, several courts recognize that an individual’s race is relevant to when they have been “seized” by police. in 2022, the washington supreme court “formally recognize[d] what has always been true: in interactions with law enforcement, race and ethnicity matter,” holding that courts must consider race when determining whether that individual has been seized by law enforcement. [40] new hampshire’s highest court also held that “race is an appropriate circumstance to consider in conducting the totality of the circumstances seizure analysis.” [41] federal circuit courts are in conflict: the ninth and d.c. circuit have held that a defendant’s race can inform the seizure analysis, [42] but the tenth and eleventh circuits exclude consideration of race in the seizure analysis, arguing that doing so would transform an objective inquiry into a subjective one. [43]",
+      "label": "body-text",
+      "word_count": 138
+    },
+    {
+      "text": "yet in the decades since wardlow, research confirms an entrenched false association between blackness and criminality which profoundly affects policing, [44] and empirical evidence demonstrates that interacting with law enforcement is more dangerous for black men than for other demographic groups. [45] one study concluded that police use lethal violence more frequently in areas with higher african-american and latinx populations. [46] upon analyzing 990 shooting incidents from the washington post’s national police shooting database, “fatal force,” another study concluded that-even after controlling for variables like age, mental illness, crime severity, and jurisdiction size-black individuals were more than twice as likely as white individuals to have been unarmed when killed by police. [47] relative to their white peers, black citizens are more often stopped by police, subject to the use of force, and viewed by officers as posing a safety threat. [48] a third study of police-civilian encounters indicates that officers aimed or shot a gun at black individuals at eight times the rate of white individuals, and threatened force or engaged in physical contact against black individuals at four times the rate of white individuals. [49] more than two decades ago, a massachusetts court explained that “historically . . . [b]lacks who have walked, run, or raced away from inquisitive police officers have ended up beaten and battered and sometimes dead.” [50] it is thus not surprising that “black people often tread more carefully around law enforcement,” [51] reasonably believing based on “pervasive” and “persuasive” evidence, that “contact with the police can itself be dangerous.” [52]",
+      "label": "body-text",
+      "word_count": 256
+    },
+    {
+      "text": "within this excruciating context, mr. washington’s argument that he fled police because he feared a police interaction, and therefore that this flight should not generate criminal suspicion, is convincing.",
+      "label": "body-text",
+      "word_count": 29
+    },
+    {
+      "text": "iv. flight from police is (still) suspicious",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "individuals have the constitutional right to ignore police. empirical data suggests that young black men have legitimate reason to fear police interactions. and yet, the third truth: flight from police contributes to reasonable suspicion.",
+      "label": "body-text",
+      "word_count": 34
+    },
+    {
+      "text": "on the one hand, washington explicitly recognizes that “the circumstance that people, particularly young african american men, may flee police for innocent reasons may be considered in the fourth amendment reasonable suspicion calculus.” [53] this acknowledgment that flight from police may be innocent, and even be reasonable, is a major step towards reducing reliance on a person’s flight to justify a police intervention. on the other hand, the court was persuaded that mr. washington’s flight from police in a high-crime neighborhood supported reasonable suspicion, emphasizing that his flight was “headlong, completely unprovoked, simultaneously with the other individual standing near him in the alley.” [54] in other words, the court found that flight is reasonable for young black men in baltimore, and generally shouldn’t be given weight in the reasonable suspicion calculus, but it was suspicious for mr. washington.",
+      "label": "body-text",
+      "word_count": 138
+    },
+    {
+      "text": "indeed, the majority concedes that mr. washington was engaged in wholly innocuous conduct prior to their pursuit, and detectives pursued him because he fled in a high-crime area without provocation, without having a prior “particularized and objective basis” to suspect him of criminal wrongdoing. [55] therefore, while the court states that it is applying wardlow to make flight a factor for reasonable suspicion, it is seemingly applying a per se rule.",
+      "label": "body-text",
+      "word_count": 71
+    },
+    {
+      "text": "some courts have accepted that young black men in particular are more likely to exhibit “nervous” or “evasive” behaviors, considering the significant empirical data confirming that black americans are disproportionately stopped, searched, arrested, and likely to be subject to the use of force by police. the first, fifth, sixth, eighth, ninth, and tenth circuits have held that general nervousness, regardless of an individual’s race, is “of limited value in assessing reasonable suspicion” and/or is so common that it cannot justify a terry stop. [56] yet despite research showing that nervousness is a reasonable response for those routinely policed, other courts continue to rely on “shifty eyes, shaking hands, and trembling body” as providing the facts required for reasonable suspicion. [57]",
+      "label": "body-text",
+      "word_count": 120
+    },
+    {
+      "text": "because the supreme court rejects a “divide and conquer” approach, individual factors, each innocuous alone, can together support a finding of reasonable suspicion. [58] in washington , the maryland supreme court recognized that mr. washington’s flight from police could be a fear-based response, while simultaneously holding that his “unprovoked flight” from police in a high-crime area satisfied reasonable suspicion.",
+      "label": "body-text",
+      "word_count": 59
+    },
+    {
+      "text": "flight from police may be the reasonable response of black men like mr. washington and other people who are disproportionately affected by policing, and therefore flight should typically receive minimal weight in the reasonable suspicion analysis. but the paradox of flight from police as it relates to reasonable suspicion for police intervention is emblematic of a larger problem. courts must critically evaluate police assertions of suspicious behaviors that are often ambiguous, such as those exhibited by mr. washington. for example, courts could interrogate seemingly facially race-neutral reasoning of police officers, because of empirical evidence that this reasoning leads to racially disparate results. without such intervention, terry’s requirement of particularized suspicion will further erode, and we will continue to provide less fourth amendment protection to those who live in the most heavily policed communities.",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "* assistant professor of law, northeastern university school of law; j.d., columbia law school; b.a., yale university. many thanks to student editors julie antonellis and prasanna rajasekaran for their outstanding editorial support.",
+      "label": "body-text",
+      "word_count": 32
+    },
+    {
+      "text": "[1] washington v. maryland, 287 a.3d 301, 308 (md. 2022). detective noesi “testified that he was assigned to the northwest district action team, ‘a narcotics team’ whose ‘main focus is pretty much driving around hot areas . . . , high-crime areas and enforc[ing] drug distribution and handgun violations.’” id. at 310.",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "[2] this incident notably occurred less than two months after the widely publicized police killing of george floyd in minneapolis, minnesota. see evan hill et al., how george floyd was killed in police custody , n.y. times (may 31, 2020), https://www.nytimes.com/2020 /05/31/us/george-floyd-investigation.html.",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "[4] on december 14, 2022, a state constitutional amendment took effect, renaming the “court of appeals of maryland” as the “supreme court of maryland.” maryland judiciary, press release, voter-approved constitutional change renames high courts to supreme and appellate court of maryland (dec. 14, 2022), https://www.courts.state.md.us/media/news /2022/pr20221214 [https://perma.cc/q96y-a6yz].",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "[5] for example, the court cites a 2016 department of justice report that the baltimore police department used unconstitutional and corrupt tactics that had an “unjustified” impact on black people. washington , 287 a.3d at 307 (citing u.s. dep’t of just., c.r. div., investigation of the baltimore city police department 8 (aug. 16, 2016), https://www.justice.gov/crt/file/883296/download [https://perma.cc/cd36-5eag] [hereinafter doj, baltimore police investigation]). for a detailed independent investigation into the corruption of the baltimore police department’s gun trace task force (gttf), including various allegations of officers planting evidence, see steptoe & johnson llp, anatomy of the gun trace task force scandal: its origins, causes, and consequences 498 (2022), https://www.steptoe.com/a/web/219380/3zf1gi/gttf-report.pdf [https://perma.cc/vn9t-qcmb] (noting the “broad consensus that corruption-including thefts of cash during street encounters, warrantless entries into homes, residential thefts, and planting evidence-has been centered in plainclothes [law enforcement] units that focus on drugs and guns”).",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "[6] the court contrasted mr. washington’s “headlong flight from police,” which contributed to suspicion, with “leaving the area in a reasonable manner to passively avoid police.” washington , 287 a.3d at 316. the court found that detective rodriguez had reasonable suspicion pursuant to both the fourth amendment, and article 26 of the maryland declaration of rights. id. at 309.",
+      "label": "body-text",
+      "word_count": 59
+    },
+    {
+      "text": "[7] see justin nix, bradley a. campbell, edward h. byers, & geoffrey p. alpert, a bird’s eye view of civilians killed by police in 2015 , 16 criminology & pub. pol’y 309, 325-26, 328-29 (2017); radley balko, there’s overwhelming evidence that the criminal justice system is racist. here’s the proof. , wash. post (june 10, 2020), https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/.",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "[12] id. at 132 (stevens, j., concurring in part and dissenting in part).",
+      "label": "body-text",
+      "word_count": 13
+    },
+    {
+      "text": "[13] washington v. maryland, 287 a.3d 301, 312 (md. 2022) (citing wardlow , 528 u.s. at 125) (“[t]he defendant’s presence in an area of heavy narcotics trafficking and his unprovoked flight upon noticing police created reasonable suspicion justifying a terry stop.”).",
+      "label": "body-text",
+      "word_count": 41
+    },
+    {
+      "text": "[16] see seth w. stoughton, kyle mclean, justin nix, & geoffrey alpert, policing suspicion: qualified immunity and “clearly established” standards of proof , 112 j. crim. l. & criminology 37, 47-48 (2022).",
+      "label": "body-text",
+      "word_count": 32
+    },
+    {
+      "text": "[17] see, e.g. , commonwealth v. feyenord , 833 n.e.2d 590, 596 (mass. 2005); huff v. city of burbank, 632 f.3d 539, 546-48 (9th cir. 2011), rev’d sub nom. ryburn v. huff, 565 u.s. 469, 474-75 (2012); commonwealth v. barreto, 136 n.e.3d 697, 704 (mass. 2019) (quoting commonwealth v. torres, 74 n.e.2d 638, 644 (mass. 1997)) (“adding up eight innocuous observations-eight zeros-does not produce a sum of [reasonable suspicion] . . . ”).",
+      "label": "body-text",
+      "word_count": 73
+    },
+    {
+      "text": "[18] united states v. flowers , 6 f.4th 651, 656 (5th cir. 2021). a divided fifth circuit concluded that two men seen “dawdling in a cadillac parked out of view from inside the convenience store” in a high-crime neighborhood supported the officer’s reasonable suspicion to search. id. at 656-57.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "[22] id. at 122-23. it was because of this right to avoid a police interaction that the illinois supreme court concluded that mr. wardlow’s flight from police was of limited probative value. id.",
+      "label": "body-text",
+      "word_count": 33
+    },
+    {
+      "text": "[24] united states v. mendenhall, 446 u.s. 544, 554 (1980). police-citizen encounters are grouped into three broad categories: exchanges lacking coercion or detention, known as “consensual encounters,” brief investigatory detentions known as terry stops, and full arrests.",
+      "label": "body-text",
+      "word_count": 37
+    },
+    {
+      "text": "[30] see fatal force , wash. post (last updated mar. 1, 2023), https://www.washingtonpost.com/graphics/investigations/police-shootings-database/ (database tracking disproportionate fatalities at hands of police between 2015 and 2023). black people are disproportionately likely to be stopped, searched and arrested by the police, and are more likely to be subject to use of force. balko, supra note 7.",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "[31] see, e.g. , jocelyn r. smith lee & michael a. robinson, “that’s my number one fear in life. it’s the police”: examining young black men’s exposures to trauma and loss resulting from police violence and police killings , 45 j. black psych. 143, 144 (2019); michael a. fletcher, for black motorists, a never ending fear of being stopped , nat’l geographic mag. (mar. 12, 2018), https://www.nationalgeographic.com/magazine/article /the-stop-race-police-traffic; nikole hannah-jones, yes, black america fears the police. here’s why , propublica (mar. 4, 2015, 9:14 p.m.), https://www.propublica.org/article/yes-black-america-fears-the-police-heres-why [https://perma.cc/ma2p-bwrm]. see generally amanda graham et al., race and worrying about police brutality: the hidden injuries of minority status in america , 15 victims & offenders 549 (2020) .",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "[32] doj, baltimore police investigation, supra note 5, at 3.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "[35] see terrence scudieri, fleeing while black: how massachusetts reshaped the contours of the terry stop, 54 am. crim. l. rev. online 42, 44, 49 (2017). at least illinois and the district of columbia have followed suit. see people v. horton, 142 n.e.3d 854, 868 (ill. app. ct. 2019) (concluding empirical data offered an “eminently reasonable and noncriminal reason” for black man’s flight); mayo v. united states, 266 a.3d 244, 260-61 (d.c. 2022) (recognizing empirical data provided “myriad reasons” that “undermine[d] the reasonableness of an inference of criminal activity from all instances of flight” and discounting relevance of flight in reasonable suspicion analysis).",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "[36] commonwealth v. evelyn, 152 n.e.3d 108, 121-22 (mass. 2020) (concluding that evelyn was seized when, having trailed him for 100 yards in the cruiser and repeatedly trying to converse with him, the officer in the front passenger seat opened the door of the vehicle).",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "[37] see, e.g. , united states v. mckoy, 428 f.3d 38, 40 (1st cir. 2005) (“nervousness is a common and entirely natural reaction to police presence . . . ”); united states v. richardson, 385 f.3d 625, 630-31 (6th cir. 2004) (“[a]lthough nervousness has been considered in finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop. any citizens become nervous during a traffic stop, even when they have nothing to hide or fear.”); state v. andrade-reyes , 442 p.3d 111, 115, 119 (kan. 2019) (rejecting a finding of reasonable suspicion where lower courts inappropriately relied upon the defendant “appear[ing] startled” when approached by an officer in a high-crime area).",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "[44] see generally bennet capers, criminal procedure and the good citizen , 118 colum. l. rev. 663 (2018); elizabeth a. gaynes, the urban criminal justice system: where young + black + male = probable cause , 20 fordham urb. l. j. 621 (1993) .",
+      "label": "body-text",
+      "word_count": 44
+    },
+    {
+      "text": "[45] see brandon hasbrouck, the unconstitutional police , 56 harv. c.r.-c.l. l. rev. 239, 253 (2021). see generally michelle alexander, the new jim crow: mass incarceration in the age of colorblindness (new press, 2010).",
+      "label": "body-text",
+      "word_count": 34
+    },
+    {
+      "text": "[46] for the full study, see generally ronald helms & s.e. costanza, contextualizing race: a conceptual and empirical study of fatal interactions with police across us counties , 18 j. ethnicity crim. just. 43 (2019).",
+      "label": "body-text",
+      "word_count": 35
+    },
+    {
+      "text": "[48] rory kramer & brianna remster, stop, frisk, and assault? racial disparities in police use of force during investigatory stops , 52 law & soc’y rev. 960, 982 (2018) (showing that black civilians were more likely than white civilians to experience lethal force even when police did not uncover any criminal behavior).",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "[49] erika harrell & elizabeth davis, bureau of just. stats., u.s. dep’t of justice, contacts between police and the public, 2018-statistical tables, at 3, 7 (last updated feb. 3, 2023).",
+      "label": "body-text",
+      "word_count": 30
+    },
+    {
+      "text": "[50] commonwealth v. hart, 695 n.e.2d 226, 228 (mass. app. ct. 1998). see also, e.g. , u.s. dep’t of just., investigation of the chicago police department 146-47 (jan. 13, 2017); doj, baltimore police investigation, supra note 5, at 79, 95; rob voigt et al., language from police body camera footage shows racial disparities in officer respect , 114 pnas 6521, 6521 (2017).",
+      "label": "body-text",
+      "word_count": 62
+    },
+    {
+      "text": "[54] id. at 325 (“[i]t is still as accurate today as it was when the supreme court issued wardlow in 2000 that people flee from police officers for reasons associated with involvement in criminal activity.”).",
+      "label": "body-text",
+      "word_count": 35
+    },
+    {
+      "text": "[55] id. at 340 (hotten, j., dissenting). maryland argued that the fourth amendment does not require officers to “rule out a suspect’s innocent explanation for suspicious facts.” id. (citing district of columbia v. wesby, 138 s. ct. 577, 588 (2018)).",
+      "label": "body-text",
+      "word_count": 40
+    },
+    {
+      "text": "[56] united states v. simpson, 609 f.3d 1140, 1147 (10th cir. 2010); united states v. mckoy, 428 f.3d 38, 40 (1st cir. 2005) (“[n]ervousness is a common and entirely natural reaction to police presence . . . .”); united states v. richardson, 385 f.3d 625, 630-31 (6th cir. 2004) (“[a]lthough nervousness has been considered in finding reasonable suspicion in conjunction with other factors, it is an unreliable indicator, especially in the context of a traffic stop.”); united states v. portillo-aguirre, 311 f.3d 647, 656 n.49 (5th cir. 2002) (same); united states v. jones, 269 f.3d 919, 929 (8th cir. 2001) (same); united states v. chavez valenzuela, 268 f.3d 719, 726 (9th cir. 2001) (same); united states v. brown, 188 f.3d 860, 865 (7th cir. 1999) (same).",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "[58] united states v. arvizu, 534 u.s. 266, 274 (2002) (rejecting a “divide-and-conquer” approach of analyzing reasonable suspicion factors in isolation from each other instead of weighing them together).",
+      "label": "body-text",
+      "word_count": 29
+    },
+    {
+      "text": "posted 3 years ago on monday, april 17th, 2023",
+      "label": "footnote-text",
+      "word_count": 9
+    }
+  ]
+}

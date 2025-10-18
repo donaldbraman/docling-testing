@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Terra: Explorable Native 3D World Model with Point Latents</title>
+<!--Generated on Thu Oct 16 07:15:57 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14977v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S1" title="In Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S2" title="In Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Related Work</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3" title="In Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Proposed Approach</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.SS1" title="In 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1 </span>Latent Point Representation</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.SS2" title="In 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.2 </span>Point-to-Gaussian Variational Autoencoder</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.SS3" title="In 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.3 </span>Native 3D Generative Modeling</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4" title="In Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Experiments</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.SS1" title="In 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.1 </span>Datasets and Metrics</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.SS2" title="In 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.2 </span>Implementation Details</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.SS3" title="In 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.3 </span>Main Results</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.SS4" title="In 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.4 </span>Ablation Study</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S5" title="In Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Conclusion</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Terra: Explorable Native 3D World Model with Point Latents</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_text ltx_font_bold">Yuanhui Huang<sup class="ltx_sup">1</sup>
+    Weiliang Chen<sup class="ltx_sup">1</sup>
+    Wenzhao Zheng<sup class="ltx_sup">1</sup>
+    Xin Tao<sup class="ltx_sup">2</sup>
+<br class="ltx_break"/>Pengfei Wan<sup class="ltx_sup">2</sup>
+    Jie Zhou<sup class="ltx_sup">1</sup>
+    Jiwen Lu<sup class="ltx_sup">1</sup>
+<br class="ltx_break"/><sup class="ltx_sup">1</sup>Tsinghua University    
+<sup class="ltx_sup">2</sup>Kuaishou Technology    
+</span>
+</span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">World models have garnered increasing attention for comprehensive modeling of the real world.
+However, most existing methods still rely on pixel-aligned representations as the basis for world evolution, neglecting the inherent 3D nature of the physical world.
+This could undermine the 3D consistency and diminish the modeling efficiency of world models.
+In this paper, we present <span class="ltx_text ltx_font_bold">Terra</span>, a native 3D world model that represents and generates explorable environments in an intrinsic 3D latent space.
+Specifically, we propose a novel point-to-Gaussian variational autoencoder (<span class="ltx_text ltx_font_bold">P2G-VAE</span>) that encodes 3D inputs into a latent point representation, which is subsequently decoded as 3D Gaussian primitives to jointly model geometry and appearance.
+We then introduce a sparse point flow matching network (<span class="ltx_text ltx_font_bold">SPFlow</span>) for generating the latent point representation, which simultaneously denoises the positions and features of the point latents.
+Our Terra enables exact multi-view consistency with native 3D representation and architecture, and supports flexible rendering from any viewpoint with only a single generation process.
+Furthermore, Terra achieves explorable world modeling through progressive generation in the point latent space.
+We conduct extensive experiments on the challenging indoor scenes from ScanNet v2.
+Terra achieves state-of-the-art performance in both reconstruction and generation with high 3D consistency.</p>
+</div>
+<div class="ltx_logical-block">
+<div class="ltx_para" id="p1">
+<img alt="[Uncaptioned image]" class="ltx_graphics ltx_centering ltx_img_landscape" height="438" id="g1" src="x1.png" width="830"/>
+</div>
+<figure class="ltx_figure ltx_align_center" id="S0.F1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+<span class="ltx_text ltx_font_bold">Method overview.</span>
+Unlike conventional world models with pixel-aligned representations, we propose Terra as a native 3D world model that describes and generates 3D environments with point latents.
+Starting with a glimpse of the environment, Terra progressively explores the unknown regions to produce a coherent and complete world simulation.
+</figcaption>
+</figure>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para ltx_noindent" id="S1.p1">
+<p class="ltx_p">World models have emerged as a promising research direction, with the aim of understanding and simulating the underlying mechanics of the physical world <cite class="ltx_cite ltx_citemacro_citep">(Ha &amp; Schmidhuber, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib14" title="">2018</a>)</cite>.
+Unlike Large Language Models (LLMs), which are confined to textual processing <cite class="ltx_cite ltx_citemacro_citep">(Vaswani et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib45" title="">2017</a>; Brown et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib5" title="">2020</a>)</cite>, world models integrate multimodal visual data to construct a comprehensive and internal representation of the environment <cite class="ltx_cite ltx_citemacro_citep">(Ha &amp; Schmidhuber, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib14" title="">2018</a>)</cite>.
+From learning the evolution of the real world, world models enable various downstream applications, including perception <cite class="ltx_cite ltx_citemacro_citep">(Min et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib34" title="">2024</a>; Lai et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib27" title="">2025</a>)</cite>, prediction <cite class="ltx_cite ltx_citemacro_citep">(Zheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib65" title="">2024a</a>; Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib56" title="">2024</a>; Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib43" title="">2025</a>; Agarwal et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib1" title="">2025</a>)</cite>, reasoning <cite class="ltx_cite ltx_citemacro_citep">(Bruce et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib6" title="">2024</a>; Assran et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib2" title="">2023</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib20" title="">2024</a>)</cite>, and planning <cite class="ltx_cite ltx_citemacro_citep">(Ren et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib40" title="">2025</a>; Assran et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib3" title="">2025</a>; Zheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib66" title="">2024b</a>)</cite>.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p2">
+<p class="ltx_p">Scene representation is fundamental to world models <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib51" title="">2024c</a>; Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib43" title="">2025</a>; Zheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib65" title="">2024a</a>)</cite>, forming the basis for world evolution.
+Conventional methods typically rely on 2D image or video representations, simulating world dynamics through video prediction <cite class="ltx_cite ltx_citemacro_citep">(Agarwal et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib1" title="">2025</a>; Bruce et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib6" title="">2024</a>; Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib56" title="">2024</a>; Assran et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib3" title="">2025</a>)</cite>.
+However, the generated videos often lack consistency across frames <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib51" title="">2024c</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib20" title="">2024</a>; Zheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib66" title="">2024b</a>)</cite>, as the models do not consider explicit 3D priors and instead learn only implicit 3D cues from the training videos.
+To address this limitation, a line of work simultaneously predicts RGB images and depth maps to construct a pixel-aligned 2.5D representation <cite class="ltx_cite ltx_citemacro_citep">(Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib43" title="">2025</a>; Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>; Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib31" title="">2025</a>)</cite>.
+While they integrate geometric constraints into the generation process, learning the multi-view pixel correspondence remains challenging due to the ambiguity of relative camera poses.
+The physical world is inherently three-dimensional, including objects and their interactions.
+However, the rendering process only produces a partial 2D observation of the underlying 3D environment, inevitably losing crucial depth and pose information <cite class="ltx_cite ltx_citemacro_citep">(Mildenhall et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib33" title="">2021</a>; Kerbl et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib24" title="">2023</a>)</cite>.
+This poses critical challenges on the multi-view consistency of world models based on pixel-aligned representations <cite class="ltx_cite ltx_citemacro_citep">(Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib31" title="">2025</a>; Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib43" title="">2025</a>; Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib51" title="">2024c</a>)</cite>.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p3">
+<p class="ltx_p">To address this, we present Terra, a native 3D world model that describes and generates explorable environments with an intrinsic 3D representation, as shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S0.F1" title="Figure 1 ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">1</span></a>.
+At its core, we learn a native point latent space that employs spatially sparse but semantically compact point latents as the basis for reconstruction and generation.
+Accordingly, Terra completely discards pixel-aligned designs and directly learns the distribution of 3D scenes in its most natural form, achieving 3D consistency without bells and whistles.
+To elaborate, we propose a novel point-to-Gaussian variational autoencoder (P2G-VAE) that converts 3D input into the latent point representation.
+The asymmetric decoder subsequently maps these point latents to rendering-compatible 3D Gaussian primitives to jointly model geometry and appearance.
+The P2G-VAE effectively reduces the redundancy in the input 3D data and derives a compact latent space suitable for generative modeling.
+Furthermore, we propose a sparse point flow matching model (SPFlow) to learn the transport trajectory from the noise distribution to the target point distribution. The SPFlow simultaneously denoises the positions and features of the point latents to leverage the complementary nature of geometric and textural attributes to foster their mutual enhancement.
+Based on P2G-VAE and SPFlow, we formulate the explorable world model as an outpainting task in the point latent space, which we approach through progressive training with three stages: reconstruction, unconditional generative pretrain, and masked conditional generation.
+We conduct extensive experiments on the challenging indoor scenes from ScanNet v2 <cite class="ltx_cite ltx_citemacro_citep">(Dai et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib11" title="">2017</a>)</cite>.
+Our Terra achieves state-of-the-art performance in both reconstruction and generation with high 3D consistency and efficiency.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Related Work</h2>
+<div class="ltx_para ltx_noindent" id="S2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">2D world models.</span>
+Early attempts in world models focus on image or video representations, thanks to the exceptional performance of 2D diffusion models <cite class="ltx_cite ltx_citemacro_citep">(Ho et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib17" title="">2020</a>; Song et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib42" title="">2020</a>; Rombach et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib41" title="">2022</a>; Blattmann et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib4" title="">2023</a>; Peebles &amp; Xie, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib36" title="">2023</a>)</cite>.
+DriveDreamer <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib51" title="">2024c</a>)</cite> and Sora <cite class="ltx_cite ltx_citemacro_citep">(OpenAI, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib35" title="">2024</a>)</cite> represent pioneering image-based and video-based world models, respectively, both leveraging diffusion models to achieve view-consistent and temporally coherent world modeling.
+Subsequent research efforts focus primarily on enhancing the temporal consistency <cite class="ltx_cite ltx_citemacro_citep">(Henschel et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib16" title="">2025</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib20" title="">2024</a>; Yin et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib59" title="">2023</a>)</cite>, spatial coherence <cite class="ltx_cite ltx_citemacro_citep">(Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib62" title="">2024b</a>; Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib52" title="">2025</a>; Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib8" title="">2025a</a>)</cite>, physical plausibility <cite class="ltx_cite ltx_citemacro_citep">(Assran et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib2" title="">2023</a>; Agarwal et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib1" title="">2025</a>; Assran et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib3" title="">2025</a>)</cite>, and interactivity <cite class="ltx_cite ltx_citemacro_citep">(Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib56" title="">2024</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib15" title="">2025</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib48" title="">2025b</a>)</cite> of generated videos.
+Several studies also explore integrating the language modality with conventional methods to train multimodal world models <cite class="ltx_cite ltx_citemacro_citep">(Zheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib66" title="">2024b</a>; Kondratyuk et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib26" title="">2023</a>)</cite>.
+Recently, Genie-3 <cite class="ltx_cite ltx_citemacro_citep">(Bruce et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib6" title="">2024</a>)</cite> has emerged as one of the most successful video world models, which enables excellent photorealism, flexible interaction, and real-time generation.
+Despite the promising advancements, 2D world models learn the evolution of the real world solely from image or video data, overlooking the inherent 3D nature of the physical environments.
+This lack of sufficient 3D priors often results in failures to maintain 3D consistency in the generated outputs.
+Moreover, 2D world models require multiple generation passes to produce results with different viewing trajectories.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">2.5D world models.</span>
+To incorporate explicit 3D clues into world models, and also leverage the generative prior from 2D diffusion networks, a line of work <cite class="ltx_cite ltx_citemacro_citep">(Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib18" title="">2025</a>; Gu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib13" title="">2025</a>; Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib9" title="">2025b</a>; Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib58" title="">2025b</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib19" title="">2025</a>; Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib60" title="">2025</a>)</cite> proposes to jointly predict depth and RGB images as a pixel-aligned 2.5D representation.
+ViewCrafter <cite class="ltx_cite ltx_citemacro_citep">(Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib62" title="">2024b</a>)</cite> employs an off-the-shelf visual geometry estimator <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib49" title="">2024a</a>)</cite> to perform depth and pose prediction, which is then used in novel view reprojection.
+Prometheus <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>)</cite> trains a dual-modal diffusion network for joint generation of depth and RGB images conditioned on camera poses.
+Furthermore, several work <cite class="ltx_cite ltx_citemacro_citep">(Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib43" title="">2025</a>; Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib31" title="">2025</a>)</cite> converts camera poses to 2D Plücker coordinates, in order to consider camera poses, depth and RGB images in a unified framework.
+In general, these methods try to learn the joint distribution of depth, poses and texture to improve 3D consistency.
+However, these factors are deeply coupled with each other by the delicate perspective transformation, which is often challenging for neural networks to learn in an implicit data-driven manner.
+We propose a native 3D world model that represents and generates explorable environments with a native 3D latent space, and guarantees multi-view consistency with 3D-to-2D rasterization.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Native 3D generative models.</span>
+Most relevant to our work are native 3D generative models that also employ 3D representations.
+Pioneering work in this field focuses on point cloud generation.
+<cite class="ltx_cite ltx_citemacro_cite">Luo &amp; Hu (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib32" title="">2021</a>)</cite> proposes the first diffusion probabilistic model for 3D point cloud generation.
+<cite class="ltx_cite ltx_citemacro_cite">Vahdat et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib44" title="">2022</a>)</cite> later extend this paradigm to support latent point diffusion, followed by advancements in architecture <cite class="ltx_cite ltx_citemacro_citep">(Ren et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib39" title="">2024b</a>)</cite>, frequency analysis <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib67" title="">2024</a>)</cite> and flow matching <cite class="ltx_cite ltx_citemacro_citep">(Vogel et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib46" title="">2024</a>; Hui et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib21" title="">2025</a>)</cite>.
+However, these methods are confined to object or shape level generation and are unable to synthesize textured results, which greatly restricts their application.
+To integrate texture, <cite class="ltx_cite ltx_citemacro_cite">Lan et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib28" title="">2025</a>)</cite> and <cite class="ltx_cite ltx_citemacro_cite">Xiang et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib55" title="">2025</a>)</cite> adopt Gaussian splatting as the 3D representation, but they are still limited to object generation.
+<cite class="ltx_cite ltx_citemacro_cite">Zheng et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib65" title="">2024a</a>)</cite> and <cite class="ltx_cite ltx_citemacro_cite">Ren et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib38" title="">2024a</a>)</cite> extend to scene-level 3D occupancy generation, but the occupancy is coarse in granularity and does not support rendering applications.
+In summary, existing methods are restricted to either object-level fine-grained or scene-level coarse geometry generation.
+In contrast, we construct the first native 3D world model with both large-scale and rendering-compatible 3D Gaussian generation.</p>
+</div>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Proposed Approach</h2>
+<section class="ltx_subsection" id="S3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.1 </span>Latent Point Representation</h3>
+<div class="ltx_para ltx_noindent" id="S3.SS1.p1">
+<p class="ltx_p">We present Terra as a native 3D world model that represents and generates explorable environments with an intrinsic 3D representation.
+Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.F2" title="Figure 2 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">2</span></a> outlines the overall pipeline.
+Formally, we formulate explorable world models as first generating an initial scene <math alttext="{\bm{S}}_{0}" class="ltx_Math" display="inline" id="S3.SS1.p1.m1" intent=":literal"><semantics><msub><mi>𝑺</mi><mn>0</mn></msub><annotation encoding="application/x-tex">{\bm{S}}_{0}</annotation></semantics></math> and progressively expanding the known regions to produce a coherent and infinite world simulation <math alttext="{\mathbb{S}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m2" intent=":literal"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">{\mathbb{S}}</annotation></semantics></math>:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="{\bm{S}}_{0}=g(\emptyset,{\bm{C}}_{0};{\bm{\theta}}),\quad{\bm{S}}_{i}=g({\mathbb{S}}_{i-1},{\bm{C}}_{i};{\bm{\theta}}),\quad{\mathbb{S}}_{i}=\{{\bm{S}}_{0},{\bm{S}}_{1},...,{\bm{S}}_{i}\}," class="ltx_Math" display="block" id="S3.E1.m1" intent=":literal"><semantics><mrow><mrow><mrow><msub><mi>𝑺</mi><mn>0</mn></msub><mo>=</mo><mrow><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∅</mi><mo>,</mo><msub><mi>𝑪</mi><mn>0</mn></msub><mo>;</mo><mi>𝜽</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mrow><msub><mi>𝑺</mi><mi>i</mi></msub><mo>=</mo><mrow><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>𝕊</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>𝑪</mi><mi>i</mi></msub><mo>;</mo><mi>𝜽</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><msub><mi>𝕊</mi><mi>i</mi></msub><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mi>𝑺</mi><mn>0</mn></msub><mo>,</mo><msub><mi>𝑺</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>𝑺</mi><mi>i</mi></msub><mo stretchy="false">}</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">{\bm{S}}_{0}=g(\emptyset,{\bm{C}}_{0};{\bm{\theta}}),\quad{\bm{S}}_{i}=g({\mathbb{S}}_{i-1},{\bm{C}}_{i};{\bm{\theta}}),\quad{\mathbb{S}}_{i}=\{{\bm{S}}_{0},{\bm{S}}_{1},...,{\bm{S}}_{i}\},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where subscripts denote exploration steps, and <math alttext="g({\mathbb{S}}_{i-1},{\bm{C}}_{i};{\bm{\theta}})" class="ltx_Math" display="inline" id="S3.SS1.p1.m3" intent=":literal"><semantics><mrow><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>𝕊</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>𝑪</mi><mi>i</mi></msub><mo>;</mo><mi>𝜽</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">g({\mathbb{S}}_{i-1},{\bm{C}}_{i};{\bm{\theta}})</annotation></semantics></math> represents the model with learnable parameters <math alttext="{\bm{\theta}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m4" intent=":literal"><semantics><mi>𝜽</mi><annotation encoding="application/x-tex">{\bm{\theta}}</annotation></semantics></math> that generates the next-step exploration result <math alttext="{\bm{S}}_{i}" class="ltx_Math" display="inline" id="S3.SS1.p1.m5" intent=":literal"><semantics><msub><mi>𝑺</mi><mi>i</mi></msub><annotation encoding="application/x-tex">{\bm{S}}_{i}</annotation></semantics></math> based on the set of previously known regions <math alttext="{\mathbb{S}}_{i-1}" class="ltx_Math" display="inline" id="S3.SS1.p1.m6" intent=":literal"><semantics><msub><mi>𝕊</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><annotation encoding="application/x-tex">{\mathbb{S}}_{i-1}</annotation></semantics></math> and the current conditional signal <math alttext="{\bm{C}}_{i}" class="ltx_Math" display="inline" id="S3.SS1.p1.m7" intent=":literal"><semantics><msub><mi>𝑪</mi><mi>i</mi></msub><annotation encoding="application/x-tex">{\bm{C}}_{i}</annotation></semantics></math>.
+Conventional world models with pixel-aligned representations instantiate <math alttext="{\bm{S}}_{i}" class="ltx_Math" display="inline" id="S3.SS1.p1.m8" intent=":literal"><semantics><msub><mi>𝑺</mi><mi>i</mi></msub><annotation encoding="application/x-tex">{\bm{S}}_{i}</annotation></semantics></math> with colors <math alttext="{\bm{R}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m9" intent=":literal"><semantics><mi>𝑹</mi><annotation encoding="application/x-tex">{\bm{R}}</annotation></semantics></math>, depths <math alttext="{\bm{D}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m10" intent=":literal"><semantics><mi>𝑫</mi><annotation encoding="application/x-tex">{\bm{D}}</annotation></semantics></math> and poses <math alttext="{\bm{T}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m11" intent=":literal"><semantics><mi>𝑻</mi><annotation encoding="application/x-tex">{\bm{T}}</annotation></semantics></math> from different viewpoints:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E2">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="{\bm{S}}_{i}=[({\bm{R}}_{i}^{(n)},{\bm{D}}_{i}^{(n)},{\bm{T}}_{i}^{(n)})|_{n=1}^{N}]," class="ltx_Math" display="block" id="S3.E2.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>𝑺</mi><mi>i</mi></msub><mo>=</mo><mrow><mo stretchy="false">[</mo><msubsup><mrow><mrow><mo stretchy="false">(</mo><msubsup><mi>𝑹</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>,</mo><msubsup><mi>𝑫</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msubsup><mo>,</mo><msubsup><mi>𝑻</mi><mi>i</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msubsup><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><mo stretchy="false">]</mo></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">{\bm{S}}_{i}=[({\bm{R}}_{i}^{(n)},{\bm{D}}_{i}^{(n)},{\bm{T}}_{i}^{(n)})|_{n=1}^{N}],</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="N" class="ltx_Math" display="inline" id="S3.SS1.p1.m12" intent=":literal"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math> denotes the number of views in a single generation step and the superscript <math alttext="(n)" class="ltx_Math" display="inline" id="S3.SS1.p1.m13" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(n)</annotation></semantics></math> is the view index.
+On the other hand, multi-view consistency for Lambert’s model can be formulated as:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E3">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="{\bm{R}}^{(n)}|_{{\bm{x}}^{(n)}}={\bm{R}}^{(m)}|_{{\bm{x}}^{(m)}},\quad d^{(n)}{\bm{x}}^{(n)}={\bm{T}}^{(n)}{\bm{x}},\quad n,m=1,2,...,N," class="ltx_Math" display="block" id="S3.E3.m1" intent=":literal"><semantics><mrow><mrow><mrow><msub><mrow><msup><mi>𝑹</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup></msub><mo>=</mo><msub><mrow><msup><mi>𝑹</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></msup></msub></mrow><mo rspace="1.167em">,</mo><mrow><mrow><mrow><msup><mi>d</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup></mrow><mo>=</mo><mrow><mrow><msup><mi>𝑻</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo lspace="0em" rspace="0em">​</mo><mi>𝒙</mi></mrow><mo rspace="1.167em">,</mo><mi>n</mi></mrow></mrow><mo>,</mo><mrow><mi>m</mi><mo>=</mo><mrow><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>N</mi></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">{\bm{R}}^{(n)}|_{{\bm{x}}^{(n)}}={\bm{R}}^{(m)}|_{{\bm{x}}^{(m)}},\quad d^{(n)}{\bm{x}}^{(n)}={\bm{T}}^{(n)}{\bm{x}},\quad n,m=1,2,...,N,</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(3)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="{\bm{x}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m14" intent=":literal"><semantics><mi>𝒙</mi><annotation encoding="application/x-tex">{\bm{x}}</annotation></semantics></math>, <math alttext="{\bm{x}}^{(n)}" class="ltx_Math" display="inline" id="S3.SS1.p1.m15" intent=":literal"><semantics><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">{\bm{x}}^{(n)}</annotation></semantics></math>, <math alttext="d^{(n)}" class="ltx_Math" display="inline" id="S3.SS1.p1.m16" intent=":literal"><semantics><msup><mi>d</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">d^{(n)}</annotation></semantics></math>, <math alttext="{\bm{R}}^{(n)}|_{{\bm{x}}^{(n)}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m17" intent=":literal"><semantics><msub><mrow><msup><mi>𝑹</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup></msub><annotation encoding="application/x-tex">{\bm{R}}^{(n)}|_{{\bm{x}}^{(n)}}</annotation></semantics></math> denote the 3D coordinates of a visible point, the image coordinates of <math alttext="{\bm{x}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m18" intent=":literal"><semantics><mi>𝒙</mi><annotation encoding="application/x-tex">{\bm{x}}</annotation></semantics></math> in the <math alttext="n" class="ltx_Math" display="inline" id="S3.SS1.p1.m19" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-th view, the depth of <math alttext="{\bm{x}}" class="ltx_Math" display="inline" id="S3.SS1.p1.m20" intent=":literal"><semantics><mi>𝒙</mi><annotation encoding="application/x-tex">{\bm{x}}</annotation></semantics></math> in the <math alttext="n" class="ltx_Math" display="inline" id="S3.SS1.p1.m21" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-th view, and sampling <math alttext="{\bm{R}}^{(n)}" class="ltx_Math" display="inline" id="S3.SS1.p1.m22" intent=":literal"><semantics><msup><mi>𝑹</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">{\bm{R}}^{(n)}</annotation></semantics></math> at <math alttext="{\bm{x}}^{(n)}" class="ltx_Math" display="inline" id="S3.SS1.p1.m23" intent=":literal"><semantics><msup><mi>𝒙</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><annotation encoding="application/x-tex">{\bm{x}}^{(n)}</annotation></semantics></math>, respectively.
+Eq. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E3" title="Equation 3 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3</span></a>) requires that different pixels on separate views should share the same color if they are the projections of the same visible 3D point.
+Therefore, the ideal representation for conventional world models should be the combination of Eq. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E2" title="Equation 2 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">2</span></a>) and (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E3" title="Equation 3 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3</span></a>), i.e. the multi-view colors, depths and poses satisfying the reprojection constraint.
+Unfortunately, it is often challenging for neural networks to learn this constraint in an implicit data-driven manner, leading to multi-view inconsistency.
+ViewCrafter <cite class="ltx_cite ltx_citemacro_citep">(Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib62" title="">2024b</a>)</cite> bypasses this problem by taking smaller steps (<math alttext="N=1" class="ltx_Math" display="inline" id="S3.SS1.p1.m24" intent=":literal"><semantics><mrow><mi>N</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">N=1</annotation></semantics></math>) in every generation and explicitly projects previous contexts onto the novel view to enforce reprojection consistency.
+While effective, this approach significantly compromises the efficiency of exploration.</p>
+</div>
+<figure class="ltx_figure" id="S3.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="452" id="S3.F2.g1" src="x2.png" width="813"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>
+<span class="ltx_text ltx_font_bold">Overall pipeline.</span>
+Terra consists of a point-to-Gaussian VAE and a sparse point flow matching model.
+The P2G-VAE effectively learns the transformation from input RGB point cloud to point latents, and then to 3D Gaussian primitives.
+The SPFlow learns the joint distribution of geometry and appearance.
+Both P2G-VAE and SPFlow adopt native sparse 3D architectures.
+</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S3.SS1.p2">
+<p class="ltx_p">Different from the pixel-aligned counterparts, we propose latent point representation <math alttext="{\bm{P}}" class="ltx_Math" display="inline" id="S3.SS1.p2.m1" intent=":literal"><semantics><mi>𝑷</mi><annotation encoding="application/x-tex">{\bm{P}}</annotation></semantics></math> as a native 3D descriptor of the environment: <math alttext="{\bm{S}}_{i}={\bm{P}}_{i}\in{\mathbb{R}}^{M_{i}\times(3+D)}" class="ltx_Math" display="inline" id="S3.SS1.p2.m2" intent=":literal"><semantics><mrow><msub><mi>𝑺</mi><mi>i</mi></msub><mo>=</mo><msub><mi>𝑷</mi><mi>i</mi></msub><mo>∈</mo><msup><mi>ℝ</mi><mrow><msub><mi>M</mi><mi>i</mi></msub><mo lspace="0.222em" rspace="0.222em">×</mo><mrow><mo stretchy="false">(</mo><mrow><mn>3</mn><mo>+</mo><mi>D</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow><annotation encoding="application/x-tex">{\bm{S}}_{i}={\bm{P}}_{i}\in{\mathbb{R}}^{M_{i}\times(3+D)}</annotation></semantics></math>, where <math alttext="M_{i}" class="ltx_Math" display="inline" id="S3.SS1.p2.m3" intent=":literal"><semantics><msub><mi>M</mi><mi>i</mi></msub><annotation encoding="application/x-tex">M_{i}</annotation></semantics></math> and <math alttext="3+D" class="ltx_Math" display="inline" id="S3.SS1.p2.m4" intent=":literal"><semantics><mrow><mn>3</mn><mo>+</mo><mi>D</mi></mrow><annotation encoding="application/x-tex">3+D</annotation></semantics></math> denote the number of point latents for the <math alttext="i" class="ltx_Math" display="inline" id="S3.SS1.p2.m5" intent=":literal"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>-th exploration step and the sum of the dimensions for 3D coordinates and features, respectively.
+The latent point representation is similar to the actual point cloud, located sparsely on the surface of objects, but limited in number and with semantically meaningful latent features.
+It also supports adapting <math alttext="M_{i}" class="ltx_Math" display="inline" id="S3.SS1.p2.m6" intent=":literal"><semantics><msub><mi>M</mi><mi>i</mi></msub><annotation encoding="application/x-tex">M_{i}</annotation></semantics></math> according to the complexity of different regions and integrating historical contexts by simply concatenating previous <math alttext="{\bm{P}}_{i}" class="ltx_Math" display="inline" id="S3.SS1.p2.m7" intent=":literal"><semantics><msub><mi>𝑷</mi><mi>i</mi></msub><annotation encoding="application/x-tex">{\bm{P}}_{i}</annotation></semantics></math>s.
+This design completely discards the view-dependent elements (Eq. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E2" title="Equation 2 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">2</span></a>)) and the reprojection constraint (Eq. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E3" title="Equation 3 ‣ 3.1 Latent Point Representation ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3</span></a>)) from the exploration process and instead models the environment with 3D points <math alttext="{\bm{x}}" class="ltx_Math" display="inline" id="S3.SS1.p2.m8" intent=":literal"><semantics><mi>𝒙</mi><annotation encoding="application/x-tex">{\bm{x}}</annotation></semantics></math> directly.
+These point latents can be transformed into 3D Gaussian primitives for rasterization, naturally satisfying 3D consistency and enabling flexible rendering from any viewpoint without rerunning the generation pipeline.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.2 </span>Point-to-Gaussian Variational Autoencoder</h3>
+<div class="ltx_para ltx_noindent" id="S3.SS2.p1">
+<p class="ltx_p">We design the P2G-VAE to effectively generate the latent point representation from the input scene and decode it into 3D Gaussian primitives.
+We suppose the input scene is described by a colored point cloud <math alttext="{\bm{Q}}\in{\mathbb{R}}^{B\times 6}" class="ltx_Math" display="inline" id="S3.SS2.p1.m1" intent=":literal"><semantics><mrow><mi>𝑸</mi><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>B</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">{\bm{Q}}\in{\mathbb{R}}^{B\times 6}</annotation></semantics></math> to provide necessary 3D information, where <math alttext="B" class="ltx_Math" display="inline" id="S3.SS2.p1.m2" intent=":literal"><semantics><mi>B</mi><annotation encoding="application/x-tex">B</annotation></semantics></math> and <math alttext="6" class="ltx_Math" display="inline" id="S3.SS2.p1.m3" intent=":literal"><semantics><mn>6</mn><annotation encoding="application/x-tex">6</annotation></semantics></math> represent the number of points and the sum of dimensions for 3D coordinates and color, respectively.
+We build our P2G-VAE based on the point transformer architecture <cite class="ltx_cite ltx_citemacro_citep">(Zhao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib64" title="">2021</a>)</cite> for efficiency.
+Apart from removing the residual connections in the original PTv3 <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib53" title="">2024a</a>)</cite>, we include the following novel designs for a robust latent space and effective Gaussian decoding, as shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.F3" title="Figure 3 ‣ 3.2 Point-to-Gaussian Variational Autoencoder ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3</span></a>.</p>
+</div>
+<figure class="ltx_figure" id="S3.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="305" id="S3.F3.g1" src="x3.png" width="814"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>
+<span class="ltx_text ltx_font_bold">Method details.</span>
+LAP, Pos. Res., Feat. Res. and NN. denote linear assignment problem, position residual, feature residual and nearest neighbor, respectively.
+</figcaption>
+</figure>
+<div class="ltx_para ltx_noindent" id="S3.SS2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Robust position perturbation.</span>
+In conventional VAEs <cite class="ltx_cite ltx_citemacro_citep">(Kingma &amp; Welling, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib25" title="">2014</a>)</cite>, it is common to regularize the latent features with a Kullback-Leibler Divergence loss <math alttext="L_{KL}" class="ltx_Math" display="inline" id="S3.SS2.p2.m1" intent=":literal"><semantics><msub><mi>L</mi><mrow><mi>K</mi><mo lspace="0em" rspace="0em">​</mo><mi>L</mi></mrow></msub><annotation encoding="application/x-tex">L_{KL}</annotation></semantics></math> to align the feature distribution with a standard normal distribution.
+However, it is nontrivial to generalize this practice to unstructured point latents where 3D coordinates themselves contain crucial geometry information.
+Directly regularizing the coordinates to approximate Gaussian noise would have an adverse effect on the locality of point latents and the associated local structures.
+To this end, we propose a robust position perturbation technique which perturbs the coordinates of point latents with a predefined Gaussian noise <math alttext="{\bm{n}}\sim\mathcal{N}(\mathbf{0},\sigma^{2}{\bm{I}}_{3})" class="ltx_Math" display="inline" id="S3.SS2.p2.m2" intent=":literal"><semantics><mrow><mi>𝒏</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>𝟎</mn><mo>,</mo><mrow><msup><mi>σ</mi><mn>2</mn></msup><mo lspace="0em" rspace="0em">​</mo><msub><mi>𝑰</mi><mn>3</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">{\bm{n}}\sim\mathcal{N}(\mathbf{0},\sigma^{2}{\bm{I}}_{3})</annotation></semantics></math> where <math alttext="\sigma" class="ltx_Math" display="inline" id="S3.SS2.p2.m3" intent=":literal"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math> is a hyperparameter for noise intensity:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E4">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="{\bm{P}}=[({\bm{p}}^{(m)}\in{\mathbb{R}}^{3},{\bm{f}}^{(m)}\in{\mathbb{R}}^{D})|_{m=1}^{M}],\quad{\bm{p}}=\hat{{\bm{p}}}+{\bm{n}},\quad{\bm{f}}\sim\mathcal{N}(mean(\hat{{\bm{f}}}),{\rm diag}(var(\hat{{\bm{f}}})))," class="ltx_Math" display="block" id="S3.E4.m1" intent=":literal"><semantics><mrow><mrow><mrow><mi>𝑷</mi><mo>=</mo><mrow><mo stretchy="false">[</mo><msubsup><mrow><mrow><mo stretchy="false">(</mo><mrow><mrow><msup><mi>𝒑</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></msup><mo>∈</mo><msup><mi>ℝ</mi><mn>3</mn></msup></mrow><mo>,</mo><mrow><msup><mi>𝒇</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></msup><mo>∈</mo><msup><mi>ℝ</mi><mi>D</mi></msup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow><mi>M</mi></msubsup><mo stretchy="false">]</mo></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mrow><mi>𝒑</mi><mo>=</mo><mrow><mover accent="true"><mi>𝒑</mi><mo>^</mo></mover><mo>+</mo><mi>𝒏</mi></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mi>𝒇</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>𝒇</mi><mo>^</mo></mover><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>diag</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi>v</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>𝒇</mi><mo>^</mo></mover><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">{\bm{P}}=[({\bm{p}}^{(m)}\in{\mathbb{R}}^{3},{\bm{f}}^{(m)}\in{\mathbb{R}}^{D})|_{m=1}^{M}],\quad{\bm{p}}=\hat{{\bm{p}}}+{\bm{n}},\quad{\bm{f}}\sim\mathcal{N}(mean(\hat{{\bm{f}}}),{\rm diag}(var(\hat{{\bm{f}}}))),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(4)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where we split point latents <math alttext="{\bm{P}}" class="ltx_Math" display="inline" id="S3.SS2.p2.m4" intent=":literal"><semantics><mi>𝑷</mi><annotation encoding="application/x-tex">{\bm{P}}</annotation></semantics></math> into <math alttext="M" class="ltx_Math" display="inline" id="S3.SS2.p2.m5" intent=":literal"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math> position-feature pairs <math alttext="({\bm{p}},{\bm{f}})" class="ltx_Math" display="inline" id="S3.SS2.p2.m6" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><mi>𝒑</mi><mo>,</mo><mi>𝒇</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">({\bm{p}},{\bm{f}})</annotation></semantics></math> and omit the exploration step for simplicity.
+The <math alttext="\hat{{\bm{p}}}" class="ltx_Math" display="inline" id="S3.SS2.p2.m7" intent=":literal"><semantics><mover accent="true"><mi>𝒑</mi><mo>^</mo></mover><annotation encoding="application/x-tex">\hat{{\bm{p}}}</annotation></semantics></math> and <math alttext="\hat{{\bm{f}}}" class="ltx_Math" display="inline" id="S3.SS2.p2.m8" intent=":literal"><semantics><mover accent="true"><mi>𝒇</mi><mo>^</mo></mover><annotation encoding="application/x-tex">\hat{{\bm{f}}}</annotation></semantics></math> denote the positions and features of points as input to the VAE bottleneck, and <math alttext="mean(\cdot)" class="ltx_Math" display="inline" id="S3.SS2.p2.m9" intent=":literal"><semantics><mrow><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">mean(\cdot)</annotation></semantics></math>, <math alttext="var(\cdot)" class="ltx_Math" display="inline" id="S3.SS2.p2.m10" intent=":literal"><semantics><mrow><mi>v</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">var(\cdot)</annotation></semantics></math> are the functions to calculate the mean and variance of the latent features <math alttext="{\bm{f}}" class="ltx_Math" display="inline" id="S3.SS2.p2.m11" intent=":literal"><semantics><mi>𝒇</mi><annotation encoding="application/x-tex">{\bm{f}}</annotation></semantics></math>.
+The robust position perturbation enhances the robustness of the VAE decoder against slight perturbations over the positions of point latents.
+Further, it greatly improves the generation quality since generated samples inevitably contain a certain level of noise, similar to our perturbation process.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Adaptive upsampling and refinement.</span>
+Given point latents after downsampling and perturbation, the VAE decoder should upsample them to an appropriate number and restore the dense structure.
+To achieve this, we introduce the adaptive upsampling and refinement modules.
+The adaptive upsampling module splits each point <math alttext="({\bm{p}},{\bm{f}})" class="ltx_Math" display="inline" id="S3.SS2.p3.m1" intent=":literal"><semantics><mrow><mo stretchy="false">(</mo><mi>𝒑</mi><mo>,</mo><mi>𝒇</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">({\bm{p}},{\bm{f}})</annotation></semantics></math> into <math alttext="K" class="ltx_Math" display="inline" id="S3.SS2.p3.m2" intent=":literal"><semantics><mi>K</mi><annotation encoding="application/x-tex">K</annotation></semantics></math> child points <math alttext="({\bm{p}}^{(k)},{\bm{f}}^{(k)})|_{k=1}^{K}" class="ltx_Math" display="inline" id="S3.SS2.p3.m3" intent=":literal"><semantics><msubsup><mrow><mrow><mo stretchy="false">(</mo><msup><mi>𝒑</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo>,</mo><msup><mi>𝒇</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">)</mo></mrow><mo stretchy="false">|</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>K</mi></msubsup><annotation encoding="application/x-tex">({\bm{p}}^{(k)},{\bm{f}}^{(k)})|_{k=1}^{K}</annotation></semantics></math> with <math alttext="K" class="ltx_Math" display="inline" id="S3.SS2.p3.m4" intent=":literal"><semantics><mi>K</mi><annotation encoding="application/x-tex">K</annotation></semantics></math> learnable queries <math alttext="{\bm{q}}^{(k)}|_{k=1}^{K}" class="ltx_Math" display="inline" id="S3.SS2.p3.m5" intent=":literal"><semantics><msubsup><mrow><msup><mi>𝒒</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>K</mi></msubsup><annotation encoding="application/x-tex">{\bm{q}}^{(k)}|_{k=1}^{K}</annotation></semantics></math>.
+These queries first interact with each point for contexts, and then each query predicts a relative displacement <math alttext="disp(\cdot)" class="ltx_Math" display="inline" id="S3.SS2.p3.m6" intent=":literal"><semantics><mrow><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">disp(\cdot)</annotation></semantics></math> and a residual feature <math alttext="resf(\cdot)" class="ltx_Math" display="inline" id="S3.SS2.p3.m7" intent=":literal"><semantics><mrow><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">resf(\cdot)</annotation></semantics></math> for the corresponding child point:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E5">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\hat{{\bm{q}}}^{(k)}|_{k=1}^{K}=ups({\bm{f}},{\bm{q}}^{(k)}|_{k=1}^{K}),\quad{\bm{p}}^{(k)}={\bm{p}}+disp(\hat{{\bm{q}}}^{(k)}),\quad{\bm{f}}^{(k)}={\bm{f}}+resf(\hat{{\bm{q}}}^{(k)})," class="ltx_Math" display="block" id="S3.E5.m1" intent=":literal"><semantics><mrow><mrow><mrow><msubsup><mrow><msup><mover accent="true"><mi>𝒒</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>K</mi></msubsup><mo>=</mo><mrow><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>𝒇</mi><mo>,</mo><msubsup><mrow><msup><mi>𝒒</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">|</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>K</mi></msubsup><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mrow><msup><mi>𝒑</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mrow><mi>𝒑</mi><mo>+</mo><mrow><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mover accent="true"><mi>𝒒</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><msup><mi>𝒇</mi><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo>=</mo><mrow><mi>𝒇</mi><mo>+</mo><mrow><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mover accent="true"><mi>𝒒</mi><mo>^</mo></mover><mrow><mo stretchy="false">(</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\hat{{\bm{q}}}^{(k)}|_{k=1}^{K}=ups({\bm{f}},{\bm{q}}^{(k)}|_{k=1}^{K}),\quad{\bm{p}}^{(k)}={\bm{p}}+disp(\hat{{\bm{q}}}^{(k)}),\quad{\bm{f}}^{(k)}={\bm{f}}+resf(\hat{{\bm{q}}}^{(k)}),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(5)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="ups(\cdot)" class="ltx_Math" display="inline" id="S3.SS2.p3.m8" intent=":literal"><semantics><mrow><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">ups(\cdot)</annotation></semantics></math> denotes the point-query interaction module.
+This design enables controllable upsampling and avoids the complex mask-guided trimming operation in conventional methods <cite class="ltx_cite ltx_citemacro_citep">(Ren et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib38" title="">2024a</a>)</cite>.
+Similar to the upsampling module, the adaptive refinement module further adjusts the point positions with offsets predicted from the point features: <math alttext="{\bm{p}}^{\prime}={\bm{p}}+refine({\bm{f}})" class="ltx_Math" display="inline" id="S3.SS2.p3.m9" intent=":literal"><semantics><mrow><msup><mi>𝒑</mi><mo>′</mo></msup><mo>=</mo><mrow><mi>𝒑</mi><mo>+</mo><mrow><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>𝒇</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">{\bm{p}}^{\prime}={\bm{p}}+refine({\bm{f}})</annotation></semantics></math>.
+These two modules progressively densify and refine the point positions, restoring a dense and meaningful structure.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS2.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Comprehensive regularizations.</span>
+To supervise the output Gaussian primitives, we employ the conventional rendering supervisions including L2, SSIM and LPIPS <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib63" title="">2018</a>)</cite> losses.
+In addition, we also incorporate other losses to improve the reconstructed geometry and regularize the properties of Gaussians for better visual quality.
+1) We optimize the chamfer distances <math alttext="L_{cham}" class="ltx_Math" display="inline" id="S3.SS2.p4.m1" intent=":literal"><semantics><msub><mi>L</mi><mrow><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>h</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi></mrow></msub><annotation encoding="application/x-tex">L_{cham}</annotation></semantics></math> between the input point cloud and intermediate point clouds as the outputs of upsampling and refinement modules, which provides explicit guidance for the prediction of position offsets.
+2) We use the normal <math alttext="L_{norm}" class="ltx_Math" display="inline" id="S3.SS2.p4.m2" intent=":literal"><semantics><msub><mi>L</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi></mrow></msub><annotation encoding="application/x-tex">L_{norm}</annotation></semantics></math> and effective rank <math alttext="L_{rank}" class="ltx_Math" display="inline" id="S3.SS2.p4.m3" intent=":literal"><semantics><msub><mi>L</mi><mrow><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>k</mi></mrow></msub><annotation encoding="application/x-tex">L_{rank}</annotation></semantics></math> <cite class="ltx_cite ltx_citemacro_citep">(Hyung et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib22" title="">2024</a>)</cite> regularizations to regularize the rotation and scale properties of Gaussians.
+3) We propose a novel explicit color supervision <math alttext="L_{color}" class="ltx_Math" display="inline" id="S3.SS2.p4.m4" intent=":literal"><semantics><msub><mi>L</mi><mrow><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi></mrow></msub><annotation encoding="application/x-tex">L_{color}</annotation></semantics></math>, which directly aligns the color of each Gaussian with the color of the nearest point in the input point cloud.
+This loss bypasses the rasterization process and thus is more friendly for optimization.
+The overall loss function for our P2G-VAE can be formulated as:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E6">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="L_{vae}=L_{l2}+\lambda_{1}L_{ssim}+\lambda_{2}L_{lpips}+\lambda_{3}L_{cham}+\lambda_{4}L_{norm}+\lambda_{5}L_{rank}+\lambda_{6}L_{color}+\lambda_{7}L_{kl}." class="ltx_Math" display="block" id="S3.E6.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>L</mi><mrow><mi>v</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow></msub><mo>=</mo><mrow><msub><mi>L</mi><mrow><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mn>2</mn></mrow></msub><mo>+</mo><mrow><msub><mi>λ</mi><mn>1</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>2</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>p</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>h</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>4</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>5</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>k</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>6</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi></mrow></msub></mrow><mo>+</mo><mrow><msub><mi>λ</mi><mn>7</mn></msub><mo lspace="0em" rspace="0em">​</mo><msub><mi>L</mi><mrow><mi>k</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi></mrow></msub></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">L_{vae}=L_{l2}+\lambda_{1}L_{ssim}+\lambda_{2}L_{lpips}+\lambda_{3}L_{cham}+\lambda_{4}L_{norm}+\lambda_{5}L_{rank}+\lambda_{6}L_{color}+\lambda_{7}L_{kl}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(6)</span></td>
+</tr></tbody>
+</table>
+</div>
+</section>
+<section class="ltx_subsection" id="S3.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.3 </span>Native 3D Generative Modeling</h3>
+<div class="ltx_para ltx_noindent" id="S3.SS3.p1">
+<p class="ltx_p">We use flow matching <cite class="ltx_cite ltx_citemacro_citep">(Lipman et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib29" title="">2022</a>)</cite> for generative modeling of the latent point representation. Formally, we gradually add noise <math alttext="{\bm{N}}\sim\mathcal{N}(\mathbf{0},{\bm{I}})" class="ltx_Math" display="inline" id="S3.SS3.p1.m1" intent=":literal"><semantics><mrow><mi>𝑵</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>𝟎</mn><mo>,</mo><mi>𝑰</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">{\bm{N}}\sim\mathcal{N}(\mathbf{0},{\bm{I}})</annotation></semantics></math> to both the positions and features of point latents <math alttext="{\bm{P}}\in{\mathbb{R}}^{M\times(3+D)}" class="ltx_Math" display="inline" id="S3.SS3.p1.m2" intent=":literal"><semantics><mrow><mi>𝑷</mi><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>M</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mrow><mo stretchy="false">(</mo><mrow><mn>3</mn><mo>+</mo><mi>D</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow><annotation encoding="application/x-tex">{\bm{P}}\in{\mathbb{R}}^{M\times(3+D)}</annotation></semantics></math> with a schedule <math alttext="t\in[0,1]" class="ltx_Math" display="inline" id="S3.SS3.p1.m3" intent=":literal"><semantics><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow><annotation encoding="application/x-tex">t\in[0,1]</annotation></semantics></math> in the diffusion process, and predict the velocity vector <math alttext="{\bm{V}}\in{\mathbb{R}}^{M\times(3+D)}" class="ltx_Math" display="inline" id="S3.SS3.p1.m4" intent=":literal"><semantics><mrow><mi>𝑽</mi><mo>∈</mo><msup><mi>ℝ</mi><mrow><mi>M</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mrow><mo stretchy="false">(</mo><mrow><mn>3</mn><mo>+</mo><mi>D</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow><annotation encoding="application/x-tex">{\bm{V}}\in{\mathbb{R}}^{M\times(3+D)}</annotation></semantics></math> given noisy latents <math alttext="{\bm{P}}_{t}" class="ltx_Math" display="inline" id="S3.SS3.p1.m5" intent=":literal"><semantics><msub><mi>𝑷</mi><mi>t</mi></msub><annotation encoding="application/x-tex">{\bm{P}}_{t}</annotation></semantics></math> in the reverse process:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E7">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="{\bm{P}}_{t}=t{\bm{P}}+(1-t){\bm{N}},\quad{\bm{V}}=\mathcal{F}({\bm{P}}_{t},t;\bm{\phi})," class="ltx_Math" display="block" id="S3.E7.m1" intent=":literal"><semantics><mrow><mrow><mrow><msub><mi>𝑷</mi><mi>t</mi></msub><mo>=</mo><mrow><mrow><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>𝑷</mi></mrow><mo>+</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>−</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow><mo lspace="0em" rspace="0em">​</mo><mi>𝑵</mi></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mi>𝑽</mi><mo>=</mo><mrow><mi class="ltx_font_mathcaligraphic">ℱ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>𝑷</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi><mo>;</mo><mi class="ltx_mathvariant_bold-italic" mathvariant="bold-italic">ϕ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">{\bm{P}}_{t}=t{\bm{P}}+(1-t){\bm{N}},\quad{\bm{V}}=\mathcal{F}({\bm{P}}_{t},t;\bm{\phi}),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(7)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\mathcal{F}(\cdot,\cdot;\bm{\phi})" class="ltx_Math" display="inline" id="S3.SS3.p1.m6" intent=":literal"><semantics><mrow><mi class="ltx_font_mathcaligraphic">ℱ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mo lspace="0em" rspace="0em">⋅</mo><mo rspace="0em">,</mo><mo lspace="0em" rspace="0em">⋅</mo><mo>;</mo><mi class="ltx_mathvariant_bold-italic" mathvariant="bold-italic">ϕ</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{F}(\cdot,\cdot;\bm{\phi})</annotation></semantics></math> denotes a UNet <cite class="ltx_cite ltx_citemacro_citep">(Peng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib37" title="">2024</a>)</cite> with learnable parameters <math alttext="\bm{\phi}" class="ltx_Math" display="inline" id="S3.SS3.p1.m7" intent=":literal"><semantics><mi class="ltx_mathvariant_bold-italic" mathvariant="bold-italic">ϕ</mi><annotation encoding="application/x-tex">\bm{\phi}</annotation></semantics></math> based on 3D sparse convolution.
+The training objective can now be formulated as:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E8">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="L_{flow}=\mathbb{E}_{t\sim\mathcal{U}[0,1],{\bm{P}}\sim\mathcal{P},{\bm{N}}\sim\mathcal{N}(\mathbf{0},{\bm{I}})}||\mathcal{F}({\bm{P}}_{t},t;\bm{\phi})-({\bm{P}}-{\bm{N}})||^{2}," class="ltx_Math" display="block" id="S3.E8.m1" intent=":literal"><semantics><mrow><mrow><msub><mi>L</mi><mrow><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo>=</mo><mrow><msub><mi>𝔼</mi><mrow><mrow><mi>t</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒰</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>,</mo><mrow><mrow><mi>𝑷</mi><mo>∼</mo><mi class="ltx_font_mathcaligraphic">𝒫</mi></mrow><mo>,</mo><mrow><mi>𝑵</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>𝟎</mn><mo>,</mo><mi>𝑰</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></mrow></msub><mo lspace="0em" rspace="0em">​</mo><msup><mrow><mo stretchy="false">‖</mo><mrow><mrow><mi class="ltx_font_mathcaligraphic">ℱ</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>𝑷</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi><mo>;</mo><mi class="ltx_mathvariant_bold-italic" mathvariant="bold-italic">ϕ</mi><mo stretchy="false">)</mo></mrow></mrow><mo>−</mo><mrow><mo stretchy="false">(</mo><mrow><mi>𝑷</mi><mo>−</mo><mi>𝑵</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">‖</mo></mrow><mn>2</mn></msup></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">L_{flow}=\mathbb{E}_{t\sim\mathcal{U}[0,1],{\bm{P}}\sim\mathcal{P},{\bm{N}}\sim\mathcal{N}(\mathbf{0},{\bm{I}})}||\mathcal{F}({\bm{P}}_{t},t;\bm{\phi})-({\bm{P}}-{\bm{N}})||^{2},</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(8)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="\mathcal{P}" class="ltx_Math" display="inline" id="S3.SS3.p1.m8" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒫</mi><annotation encoding="application/x-tex">\mathcal{P}</annotation></semantics></math> denotes the ground truth distribution of point latents <math alttext="{\bm{P}}" class="ltx_Math" display="inline" id="S3.SS3.p1.m9" intent=":literal"><semantics><mi>𝑷</mi><annotation encoding="application/x-tex">{\bm{P}}</annotation></semantics></math>.
+During inference, we start from sampled Gaussian noise and progressively approach clean point latents along the trajectory determined by the predicted velocity vector.
+Note that we simultaneously diffuse the positions and features to learn the joint distribution of geometry and texture and facilitate their mutual enhancement.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS3.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Distance-aware trajectory smoothing.</span>
+Conventional flow matching applied to grid-based latents naturally matches noises and latents according to their grid indices.
+However, it would complicate the velocity field and the denoising trajectory if we simply match the point positions with noise samples based on their indices in the sequence <cite class="ltx_cite ltx_citemacro_citep">(Hui et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib21" title="">2025</a>)</cite>.
+Intuitively, it is unreasonable to denoise a leftmost noise sample to a rightmost point.
+To address this, we propose a distance-aware trajectory smoothing technique that effectively straightens the transport trajectory and facilitates convergence for unstructured point flow matching.
+Since it is more reasonable to choose a closer noise sample as the diffusion target than a farther one, we optimize the matching <math alttext="\mathcal{M}" class="ltx_Math" display="inline" id="S3.SS3.p2.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℳ</mi><annotation encoding="application/x-tex">\mathcal{M}</annotation></semantics></math> between point positions and noise samples to minimize the sum of distances between point-noise pairs:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.E9">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="\mathcal{M}^{*}={\rm argmin}_{\mathcal{M}}\sum_{m=1}^{M}||{\bm{p}}^{(m)}-{\bm{N}}_{\mathcal{M}_{m},:3}||^{2},\quad\mathcal{M}={\rm reorder}([1,2,...,M])," class="ltx_Math" display="block" id="S3.E9.m1" intent=":literal"><semantics><mrow><mrow><mrow><msup><mi class="ltx_font_mathcaligraphic">ℳ</mi><mo>∗</mo></msup><mo>=</mo><mrow><msub><mi>argmin</mi><mi class="ltx_font_mathcaligraphic">ℳ</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><munderover><mo movablelimits="false" rspace="0em">∑</mo><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow><mi>M</mi></munderover><msup><mrow><mo stretchy="false">‖</mo><mrow><msup><mi>𝒑</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></msup><mo>−</mo><msub><mi>𝑵</mi><mrow><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mi>m</mi></msub><mo>,</mo><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:</mo><mn>3</mn></mrow></mrow></msub></mrow><mo stretchy="false">‖</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow><mo rspace="1.167em">,</mo><mrow><mi class="ltx_font_mathcaligraphic">ℳ</mi><mo>=</mo><mrow><mi>reorder</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>M</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\mathcal{M}^{*}={\rm argmin}_{\mathcal{M}}\sum_{m=1}^{M}||{\bm{p}}^{(m)}-{\bm{N}}_{\mathcal{M}_{m},:3}||^{2},\quad\mathcal{M}={\rm reorder}([1,2,...,M]),</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right" rowspan="1"><span class="ltx_tag ltx_tag_equation ltx_align_right">(9)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where <math alttext="{\bm{N}}_{\mathcal{M}_{m},:3}" class="ltx_Math" display="inline" id="S3.SS3.p2.m2" intent=":literal"><semantics><msub><mi>𝑵</mi><mrow><msub><mi class="ltx_font_mathcaligraphic">ℳ</mi><mi>m</mi></msub><mo>,</mo><mrow><mi></mi><mo lspace="0.278em" rspace="0.278em">:</mo><mn>3</mn></mrow></mrow></msub><annotation encoding="application/x-tex">{\bm{N}}_{\mathcal{M}_{m},:3}</annotation></semantics></math> denotes the position of the noise sample assigned to the <math alttext="m" class="ltx_Math" display="inline" id="S3.SS3.p2.m3" intent=":literal"><semantics><mi>m</mi><annotation encoding="application/x-tex">m</annotation></semantics></math>-th point latent.
+We apply the Jonker-Volgenant algorithm <cite class="ltx_cite ltx_citemacro_citep">(Jonker &amp; Volgenant, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib23" title="">1987</a>)</cite> to efficienty solve Eq. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.E9" title="Equation 9 ‣ 3.3 Native 3D Generative Modeling ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">9</span></a>).</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS3.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Simple conditioning mechanism.</span>
+For an explorable model, we employ multi-stage training that consists of reconstruction, unconditional generative pretraining, and masked conditional generation.
+For masked conditions, we introduce three types of conditions to support different exploration styles: cropping, uniform sampling, and their combinations.
+We randomly crop a connected 3D region from the point latents as the cropping condition to unlock the ability to imagine and populate unknown regions.
+We uniformly sample some of the point latents across the scene as the uniform sampling condition to enable the model to refine known regions.
+We also use their combinations and first crop a connected 3D region and then apply uniform sampling inside it to simulate RGBD conditions.
+We concatenate the conditional point latents with the noisy ones and fix the condition across the diffusion process to inject conditional guidance even at the early denoising stage.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Experiments</h2>
+<figure class="ltx_table" id="S4.T1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 1: </span>
+<span class="ltx_text ltx_font_bold">Reconstruction performance.</span>
+RGB PC. and Rep. Range represent colored point cloud and representation range of the output Gaussian, respectively.
+We select 20 random scenes from the validation set to reconstruct offline Gaussians as input to Can3Tok<sup class="ltx_sup">∗</sup>.
+</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:389.5pt;height:61.8pt;vertical-align:-28.8pt;"><span class="ltx_transformed_inner" style="transform:translate(-36.0pt,5.7pt) scale(0.843959818630022,0.843959818630022) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_r ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">Method</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">Input Type</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">Rep. Range</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">PSNR<math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T1.m3" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">SSIM<math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T1.m4" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">LPIPS<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T1.m5" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">Abs. Rel.<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T1.m6" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">RMSE<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T1.m7" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt" style="padding-left:5.6pt;padding-right:5.6pt;">
+<math alttext="\delta" class="ltx_Math" display="inline" id="S4.T1.m8" intent=":literal"><semantics><mi>δ</mi><annotation encoding="application/x-tex">\delta</annotation></semantics></math>1<math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T1.m9" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">PixelSplat</th>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">RGB</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">Partial</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">18.165</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">0.686</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">0.493</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">0.094</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">0.287</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.6pt;padding-right:5.6pt;">0.832</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">MVSplat</th>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">RGB</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Partial</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">17.126</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.621</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">0.552</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.139</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.326</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.824</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Prometheus</th>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">RGBD</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Partial</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">17.279</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.644</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">0.448</span></td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.087</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.251</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.901</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Can3Tok<sup class="ltx_sup">∗</sup>
+</th>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">Gaussian</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Complete</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">19.578</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.733</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">0.514</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.031</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.151</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.6pt;padding-right:5.6pt;">0.973</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">Terra</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;">RGB PC.</td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">Complete</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">19.742</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">0.753</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:5.6pt;padding-right:5.6pt;">0.530</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">0.026</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">0.137</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.6pt;padding-right:5.6pt;"><span class="ltx_text ltx_font_bold">0.978</span></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+<section class="ltx_subsection" id="S4.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.1 </span>Datasets and Metrics</h3>
+<div class="ltx_para ltx_noindent" id="S4.SS1.p1">
+<p class="ltx_p">We conduct extensive experiments on the challenging indoor scenes from the ScanNet v2 <cite class="ltx_cite ltx_citemacro_citep">(Dai et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib11" title="">2017</a>)</cite> dataset, which is widely adopted in embodied perception <cite class="ltx_cite ltx_citemacro_citep">(Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib61" title="">2024a</a>; Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib54" title="">2024b</a>)</cite> and visual reconstruction <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib49" title="">2024a</a>; <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib47" title="">2025a</a>)</cite>.
+The dataset consists of 1513 scenes in total, covering diverse room types and layouts.
+Each scene is recorded by an RGBD video with semantic and pose annotations for each frame.
+We unproject the color and depth maps into 3D space using the poses to produce colored point clouds as input to our P2G-VAE.
+In the generative training, we preprocess the point latents from the VAE encoder by randomly cropping a smaller rectangular region in the x-y plane and filtering out overly sparse and noisy samples.
+We follow <cite class="ltx_cite ltx_citemacro_cite">Wang et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib50" title="">2024b</a>)</cite> and split the dataset into 958 and 243 scenes for training and validation, respectively.</p>
+</div>
+<figure class="ltx_figure" id="S4.F4"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="371" id="S4.F4.g1" src="x4.png" width="788"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>
+<span class="ltx_text ltx_font_bold">Visualization for reconstruction.</span>
+Terra achieves photorealistic rendering quality for RGB and depth, and learns to complete the partial objects caused by the sensor failure in dark regions.
+</figcaption>
+</figure>
+<figure class="ltx_table" id="S4.T2">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 2: </span>
+<span class="ltx_text ltx_font_bold">Generation Performance.</span>
+CD and EMD denote Chamfer and earth mover’s distances, respectively.
+Terra achieves exceptional geometry generation quality compared with other methods.
+</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:389.5pt;height:50.8pt;vertical-align:-23.3pt;"><span class="ltx_transformed_inner" style="transform:translate(-39.9pt,5.2pt) scale(0.830025080742081,0.830025080742081) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_r ltx_border_tt" rowspan="2" style="padding-left:5.2pt;padding-right:5.2pt;">Method</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_th_row ltx_border_r ltx_border_tt" rowspan="2" style="padding-left:5.2pt;padding-right:5.2pt;">Repr.</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_l ltx_border_r ltx_border_tt" colspan="4" style="padding-left:5.2pt;padding-right:5.2pt;">Unconditional</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_l ltx_border_tt" colspan="4" style="padding-left:5.2pt;padding-right:5.2pt;">Image Conditioned</th>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:5.2pt;padding-right:5.2pt;">P-FID<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m1" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">P-KID(%)<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m2" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:5.2pt;padding-right:5.2pt;">FID<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m3" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">KID(%)<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m4" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:5.2pt;padding-right:5.2pt;">CD<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m5" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">EMD<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m6" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:5.2pt;padding-right:5.2pt;">FID<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m7" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:5.2pt;padding-right:5.2pt;">KID(%)<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T2.m8" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">Prometheus</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_r ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">RGBD</th>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">32.35</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">12.481</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">263.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">10.726</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">0.374</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;">0.531</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">208.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">12.387</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">Trellis</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">3D Grid</th>
+<td class="ltx_td ltx_align_center" style="padding-left:5.2pt;padding-right:5.2pt;">19.62</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">7.658</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.2pt;padding-right:5.2pt;">361.4</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">23.748</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.2pt;padding-right:5.2pt;">0.405</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">0.589</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.2pt;padding-right:5.2pt;">314.9</td>
+<td class="ltx_td ltx_align_center" style="padding-left:5.2pt;padding-right:5.2pt;">24.713</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">Terra</span></th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_bb ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">Point</th>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">8.79</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">1.745</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.2pt;padding-right:5.2pt;">307.2</td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;">18.919</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">0.217</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:5.2pt;padding-right:5.2pt;"><span class="ltx_text ltx_font_bold">0.474</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.2pt;padding-right:5.2pt;">262.4</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:5.2pt;padding-right:5.2pt;">20.283</td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.SS1.p2">
+<p class="ltx_p">We evaluate Terra on the reconstruction, unconditional, and image-conditioned generation tasks.
+For reconstruction, we compare Terra with three lines of methods: PixelSplat <cite class="ltx_cite ltx_citemacro_citep">(Charatan et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib7" title="">2024</a>)</cite> and MVSplat <cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib10" title="">2024</a>)</cite> with RGB input, Prometheus <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>)</cite> with RGBD input, and Can3Tok <cite class="ltx_cite ltx_citemacro_citep">(Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib12" title="">2025</a>)</cite> with offline reconstructed Gaussians as input.
+We use PSNR, SSIM, and LPIPS metrics for visual quality, and Abs. Rel., RMSE, and <math alttext="\delta 1" class="ltx_Math" display="inline" id="S4.SS1.p2.m1" intent=":literal"><semantics><mrow><mi>δ</mi><mo lspace="0em" rspace="0em">​</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\delta 1</annotation></semantics></math> metrics for depth accuracy.
+For generative tasks, we compare Terra with Prometheus using RGBD <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>)</cite> representation, and Trellis <cite class="ltx_cite ltx_citemacro_citep">(Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib55" title="">2025</a>)</cite> using 3D grid representation.
+We retrain these baselines on ScanNet v2 using their official code for a fair comparison.
+For unconditional generation, we adopt point cloud FID (P-FID) and point cloud KID (P-KID) for geometry quality, and FID and KID for visual quality.
+Regarding image-conditioned generation, we adopt the Chamfer distance and earth mover’s distance for geometry quality, and FID and KID for visual quality.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S4.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.2 </span>Implementation Details</h3>
+<div class="ltx_para ltx_noindent" id="S4.SS2.p1">
+<p class="ltx_p">We construct the P2G-VAE based on PTv3 <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib53" title="">2024a</a>)</cite>, removing all residual connections and integrating the designs proposed in Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S3.SS2" title="3.2 Point-to-Gaussian Variational Autoencoder ‣ 3 Proposed Approach ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3.2</span></a>.
+We perform downsampling with stride 2 for 3 times in the encoder, reducing the number of points from 1 million to around 5000.
+In the decoder, we upsample the points also for 3 times with <math alttext="K=7,3,3" class="ltx_Math" display="inline" id="S4.SS2.p1.m1" intent=":literal"><semantics><mrow><mi>K</mi><mo>=</mo><mrow><mn>7</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>3</mn></mrow></mrow><annotation encoding="application/x-tex">K=7,3,3</annotation></semantics></math>, respectively.
+We train the P2G-VAE for 36K iterations with an AdamW <cite class="ltx_cite ltx_citemacro_citep">(Loshchilov &amp; Hutter, <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib30" title="">2017</a>)</cite> optimizer.
+Regarding the SPFlow, we employ the OA-CNNs <cite class="ltx_cite ltx_citemacro_citep">(Peng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib37" title="">2024</a>)</cite> as the UNet backbone.
+We crop a random region with a size of 2.4<math alttext="\times" class="ltx_Math" display="inline" id="S4.SS2.p1.m2" intent=":literal"><semantics><mo>×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math>2.4 m<sup class="ltx_sup">2</sup> from a complete scene as the input sample.
+We train the SPFlow for 100K and 40K iterations for unconditional pretrain and conditional generation, respectively.</p>
+</div>
+<figure class="ltx_figure" id="S4.F5"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="447" id="S4.F5.g1" src="x5.png" width="771"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>
+<span class="ltx_text ltx_font_bold">Visualization for unconditional generation.</span>
+Only Terra is able to generate diverse and reasonable scenes while Prometheus and Trellis lack consistent geometry and texture, respectively.
+</figcaption>
+</figure>
+<figure class="ltx_figure" id="S4.F6"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="425" id="S4.F6.g1" src="x6.png" width="772"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 6: </span>
+<span class="ltx_text ltx_font_bold">Visualization for image conditioned generation.</span>
+Both Terra and Prometheus are able to produce plausible images while the geometry consistency is far better than Prometheus.
+</figcaption>
+</figure>
+</section>
+<section class="ltx_subsection" id="S4.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.3 </span>Main Results</h3>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Reconstruction.</span>
+We report the results in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.T1" title="Table 1 ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">1</span></a>.
+PixelSplat <cite class="ltx_cite ltx_citemacro_citep">(Charatan et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib7" title="">2024</a>)</cite> and MVSplat <cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib10" title="">2024</a>)</cite> do not include 3D geometry information as input, and thus they might perform worse compared with others using depth or Gaussian input.
+Prometheus <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib57" title="">2025a</a>)</cite> achieves the best LPIPS because it is pretrained with a 2D diffusion model, which excels at image quality.
+Our Terra achieves the best results for all metrics except LPIPS, even better than Can3Tok <cite class="ltx_cite ltx_citemacro_citep">(Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib12" title="">2025</a>)</cite> using offline reconstructed Gaussians, demonstrating the effectiveness of our P2G-VAE.
+Furthermore, Terra is able to reconstruct the whole scene in a single forward pass and also complete partial objects with incorrect depth measurement as shown by Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.F4" title="Figure 4 ‣ 4.1 Datasets and Metrics ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">4</span></a>.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Unconditional generation.</span>
+We report the results in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.T2" title="Table 2 ‣ 4.1 Datasets and Metrics ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">2</span></a>.
+Our method achieves better P-FID and P-KID than Prometheus with 2.5D representation and Trellis <cite class="ltx_cite ltx_citemacro_citep">(Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#bib.bib55" title="">2025</a>)</cite> with 3D grid representation, validating the superiority of point latents in modeling the geometry distribution.
+However, Terra performs worse compared to Prometheus in image quality metrics FID and KID, because Prometheus, with 2D diffusion pretrain, is able to synthesize plausible images even though the underlying 3D structures could be corrupted.
+We provide visualization results in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.F5" title="Figure 5 ‣ 4.2 Implementation Details ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">5</span></a>, where only Terra generates both reasonable and diverse 3D scenes while the results of other methods either lack accurate 3D structure or vivid textures.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Image conditioned generation.</span>
+We report the results in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.T2" title="Table 2 ‣ 4.1 Datasets and Metrics ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">2</span></a> and Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.F6" title="Figure 6 ‣ 4.2 Implementation Details ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">6</span></a>.
+Given a conditional image, we first unproject it into 3D space with depth and intrinsics to produce a colored point cloud.
+Then we can formulate the image conditioned generation task as outpainting in the point latent space.
+Our Terra achieves better performance in chamfer distance and earth mover’s distance, demonstrating better geometry quality.
+Prometheus still achieves better FID and KID even though the visualizations show evident multi-view inconsistency.</p>
+</div>
+<figure class="ltx_figure" id="S4.F7"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="444" id="S4.F7.g1" src="x7.png" width="780"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 7: </span>
+<span class="ltx_text ltx_font_bold">Visualization for explorable world model.</span>
+Terra is able to generate both coherent and diverse room layouts with plausible textures from step-by-step exploration.
+</figcaption>
+</figure>
+<figure class="ltx_table" id="S4.T3">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 3: </span>
+<span class="ltx_text ltx_font_bold">Ablation Study</span>
+to validate the effectiveness of our design choices.
+</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:389.5pt;height:61pt;vertical-align:-28.7pt;"><span class="ltx_transformed_inner" style="transform:translate(-77.6pt,12.1pt) scale(0.715165551398308,0.715165551398308) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_th_row ltx_border_r ltx_border_tt" rowspan="2" style="padding-left:4.3pt;padding-right:4.3pt;">Method</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_l ltx_border_r ltx_border_tt" colspan="4" style="padding-left:4.3pt;padding-right:4.3pt;">Reconstruction</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_l ltx_border_tt" colspan="4" style="padding-left:4.3pt;padding-right:4.3pt;">Unconditional Generation</th>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:4.3pt;padding-right:4.3pt;">PSNR<math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m1" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">SSIM<math alttext="\uparrow" class="ltx_Math" display="inline" id="S4.T3.m2" intent=":literal"><semantics><mo stretchy="false">↑</mo><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:4.3pt;padding-right:4.3pt;">Abs. Rel.<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m3" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">RMSE<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m4" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:4.3pt;padding-right:4.3pt;">P-FID<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m5" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">P-KID(%)<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m6" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:4.3pt;padding-right:4.3pt;">FID<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m7" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column" style="padding-left:4.3pt;padding-right:4.3pt;">KID(%)<math alttext="\downarrow" class="ltx_Math" display="inline" id="S4.T3.m8" intent=":literal"><semantics><mo stretchy="false">↓</mo><annotation encoding="application/x-tex">\downarrow</annotation></semantics></math>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;">w.o. Robust Position Perturbation</th>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">20.487</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">0.783</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">0.023</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">0.132</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;">15.28</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;">5.218</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;">349.3</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="padding-left:4.3pt;padding-right:4.3pt;">21.884</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">w.o. Adaptive Upsampling and Refine</th>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">18.749</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.711</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">0.042</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.157</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">12.48</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">4.764</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">341.8</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">21.760</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">w.o. Explicit Color Supervision</th>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">19.582</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.739</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">0.030</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.144</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">10.61</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">3.142</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">327.9</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">19.418</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">w.o. Dist.-aware Trajectory Smoothing</th>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">19.742</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.753</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">0.026</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.137</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">24.84</td>
+<td class="ltx_td ltx_align_center ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">11.387</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">401.8</td>
+<td class="ltx_td ltx_align_center" style="padding-left:4.3pt;padding-right:4.3pt;">27.482</td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_bb ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">Terra</span></th>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:4.3pt;padding-right:4.3pt;">19.742</td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.753</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:4.3pt;padding-right:4.3pt;">0.026</td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;">0.137</td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">8.79</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">1.745</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">307.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb" style="padding-left:4.3pt;padding-right:4.3pt;"><span class="ltx_text ltx_font_bold">18.919</span></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+<div class="ltx_para ltx_noindent" id="S4.SS3.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Explorable world model.</span>
+We visualize the results for explorable world model in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.F7" title="Figure 7 ‣ 4.3 Main Results ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">7</span></a>.
+We start from a single step generation, and progressively extend the boundary to explore the unknown regions.
+In each step, we choose a random direction for exploration, take a step forward, and generate the next-step result with part of the known regions as condition.
+Our Terra is able to synthesize both coherent and diverse room layouts with plausible textures, validating the effectiveness of Terra.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S4.SS4">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.4 </span>Ablation Study</h3>
+<div class="ltx_para ltx_noindent" id="S4.SS4.p1">
+<p class="ltx_p">We conduct comprehensive ablation study to validate the effectiveness of our designs in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14977v1#S4.T3" title="Table 3 ‣ 4.3 Main Results ‣ 4 Experiments ‣ Terra: Explorable Native 3D World Model with Point Latents"><span class="ltx_text ltx_ref_tag">3</span></a>.
+Although position perturbation for point latents degrades reconstruction performance, it is crucial for the generative training because it significantly improves the robustness of the VAE decoder against positional noise.
+Both adaptive upsampling and refinement and explicit color supervision enhance the reconstruction performance and also the generation quality.
+Distance-aware trajectory smoothing takes effect in the generative training and is critical for the convergence of the model.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Conclusion</h2>
+<div class="ltx_para ltx_noindent" id="S5.p1">
+<p class="ltx_p">In this paper, we propose Terra as a native 3D world model that describes and generates explorable 3D environments with point latents.
+The point latents naturally satisfy the 3D consistency constraint crucial to world models as a native 3D representation, and support flexible rendering from any given viewpoint with a single generation process.
+To learn the intrinsic distribution of 3D data with point latents, we design the P2G-VAE and SPFlow networks for dimensionality reduction and generative modeling, respectively.
+We conduct experiments on ScanNet v2 with reconstruction, unconditional generation and image conditioned generation tasks, and Terra achieves the best overall performance both quantitatively and qualitatively.
+Furthermore, Terra is able to explore the unknown regions in a progressive manner and produce a large-scale and coherent world simulation.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Agarwal et al. (2025)</span>
+<span class="ltx_bibblock">
+Niket Agarwal, Arslan Ali, Maciej Bala, Yogesh Balaji, Erik Barker, Tiffany Cai, Prithvijit Chattopadhyay, Yongxin Chen, Yin Cui, Yifan Ding, et al.
+
+</span>
+<span class="ltx_bibblock">Cosmos world foundation model platform for physical ai.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2501.03575</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Assran et al. (2023)</span>
+<span class="ltx_bibblock">
+Mahmoud Assran, Quentin Duval, Ishan Misra, Piotr Bojanowski, Pascal Vincent, Michael Rabbat, Yann LeCun, and Nicolas Ballas.
+
+</span>
+<span class="ltx_bibblock">Self-supervised learning from images with a joint-embedding predictive architecture.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  15619–15629, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Assran et al. (2025)</span>
+<span class="ltx_bibblock">
+Mido Assran, Adrien Bardes, David Fan, Quentin Garrido, Russell Howes, Matthew Muckley, Ammar Rizvi, Claire Roberts, Koustuv Sinha, Artem Zholus, et al.
+
+</span>
+<span class="ltx_bibblock">V-jepa 2: Self-supervised video models enable understanding, prediction and planning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.09985</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Blattmann et al. (2023)</span>
+<span class="ltx_bibblock">
+Andreas Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz, Yam Levi, Zion English, Vikram Voleti, Adam Letts, et al.
+
+</span>
+<span class="ltx_bibblock">Stable video diffusion: Scaling latent video diffusion models to large datasets.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2311.15127</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Brown et al. (2020)</span>
+<span class="ltx_bibblock">
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al.
+
+</span>
+<span class="ltx_bibblock">Language models are few-shot learners.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">NIPS</em>, 33:1877–1901, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bruce et al. (2024)</span>
+<span class="ltx_bibblock">
+Jake Bruce, Michael D Dennis, Ashley Edwards, Jack Parker-Holder, Yuge Shi, Edward Hughes, Matthew Lai, Aditi Mavalankar, Richie Steigerwald, Chris Apps, et al.
+
+</span>
+<span class="ltx_bibblock">Genie: Generative interactive environments.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICML</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Charatan et al. (2024)</span>
+<span class="ltx_bibblock">
+David Charatan, Sizhe Lester Li, Andrea Tagliasacchi, and Vincent Sitzmann.
+
+</span>
+<span class="ltx_bibblock">pixelsplat: 3d gaussian splats from image pairs for scalable generalizable 3d reconstruction.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  19457–19467, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2025a)</span>
+<span class="ltx_bibblock">
+Junyi Chen, Haoyi Zhu, Xianglong He, Yifan Wang, Jianjun Zhou, Wenzheng Chang, Yang Zhou, Zizun Li, Zhoujie Fu, Jiangmiao Pang, et al.
+
+</span>
+<span class="ltx_bibblock">Deepverse: 4d autoregressive video generation as a world model.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.01103</em>, 2025a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2025b)</span>
+<span class="ltx_bibblock">
+Weiliang Chen, Jiayi Bi, Yuanhui Huang, Wenzhao Zheng, and Yueqi Duan.
+
+</span>
+<span class="ltx_bibblock">Scenecompleter: Dense 3d scene completion for generative novel view synthesis.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.10981</em>, 2025b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2024)</span>
+<span class="ltx_bibblock">
+Yuedong Chen, Haofei Xu, Chuanxia Zheng, Bohan Zhuang, Marc Pollefeys, Andreas Geiger, Tat-Jen Cham, and Jianfei Cai.
+
+</span>
+<span class="ltx_bibblock">Mvsplat: Efficient 3d gaussian splatting from sparse multi-view images.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  370–386. Springer, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Dai et al. (2017)</span>
+<span class="ltx_bibblock">
+Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner.
+
+</span>
+<span class="ltx_bibblock">Scannet: Richly-annotated 3d reconstructions of indoor scenes.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  5828–5839, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gao et al. (2025)</span>
+<span class="ltx_bibblock">
+Quankai Gao, Iliyan Georgiev, Tuanfeng Y Wang, Krishna Kumar Singh, Ulrich Neumann, and Jae Shin Yoon.
+
+</span>
+<span class="ltx_bibblock">Can3tok: Canonical 3d tokenization and latent modeling of scene-level 3d gaussians.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gu et al. (2025)</span>
+<span class="ltx_bibblock">
+Zekai Gu, Rui Yan, Jiahao Lu, Peng Li, Zhiyang Dou, Chenyang Si, Zhen Dong, Qifeng Liu, Cheng Lin, Ziwei Liu, et al.
+
+</span>
+<span class="ltx_bibblock">Diffusion as shader: 3d-aware video diffusion for versatile video generation control.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">SIGGRAPH</em>, pp.  1–12, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ha &amp; Schmidhuber (2018)</span>
+<span class="ltx_bibblock">
+David Ha and Jürgen Schmidhuber.
+
+</span>
+<span class="ltx_bibblock">World models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:1803.10122</em>, 2(3), 2018.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2025)</span>
+<span class="ltx_bibblock">
+Hao He, Yinghao Xu, Yuwei Guo, Gordon Wetzstein, Bo Dai, Hongsheng Li, and Ceyuan Yang.
+
+</span>
+<span class="ltx_bibblock">Cameractrl: Enabling camera control for video diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Henschel et al. (2025)</span>
+<span class="ltx_bibblock">
+Roberto Henschel, Levon Khachatryan, Hayk Poghosyan, Daniil Hayrapetyan, Vahram Tadevosyan, Zhangyang Wang, Shant Navasardyan, and Humphrey Shi.
+
+</span>
+<span class="ltx_bibblock">Streamingt2v: Consistent, dynamic, and extendable long video generation from text.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  2568–2577, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ho et al. (2020)</span>
+<span class="ltx_bibblock">
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+
+</span>
+<span class="ltx_bibblock">Denoising diffusion probabilistic models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">NIPS</em>, 33:6840–6851, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hu et al. (2025)</span>
+<span class="ltx_bibblock">
+Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, and Ying Shan.
+
+</span>
+<span class="ltx_bibblock">Depthcrafter: Generating consistent long depth sequences for open-world videos.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  2005–2015, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2025)</span>
+<span class="ltx_bibblock">
+Tianyu Huang, Wangguandong Zheng, Tengfei Wang, Yuhao Liu, Zhenwei Wang, Junta Wu, Jie Jiang, Hui Li, Rynson WH Lau, Wangmeng Zuo, et al.
+
+</span>
+<span class="ltx_bibblock">Voyager: Long-range and world-consistent video diffusion for explorable 3d scene generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.04225</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2024)</span>
+<span class="ltx_bibblock">
+Yuanhui Huang, Wenzhao Zheng, Yuan Gao, Xin Tao, Pengfei Wan, Di Zhang, Jie Zhou, and Jiwen Lu.
+
+</span>
+<span class="ltx_bibblock">Owl-1: Omni world model for consistent long video generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2412.09600</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hui et al. (2025)</span>
+<span class="ltx_bibblock">
+Ka-Hei Hui, Chao Liu, Xiaohui Zeng, Chi-Wing Fu, and Arash Vahdat.
+
+</span>
+<span class="ltx_bibblock">Not-so-optimal transport flows for 3d point cloud generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2502.12456</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hyung et al. (2024)</span>
+<span class="ltx_bibblock">
+Junha Hyung, Susung Hong, Sungwon Hwang, Jaeseong Lee, Jaegul Choo, and Jin-Hwa Kim.
+
+</span>
+<span class="ltx_bibblock">Effective rank analysis and regularization for enhanced 3d gaussian splatting.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">NIPS</em>, 37:110412–110435, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Jonker &amp; Volgenant (1987)</span>
+<span class="ltx_bibblock">
+Roy Jonker and Anton Volgenant.
+
+</span>
+<span class="ltx_bibblock">A shortest augmenting path algorithm for dense and sparse linear assignment problems.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Computing</em>, 38(4):325–340, 1987.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kerbl et al. (2023)</span>
+<span class="ltx_bibblock">
+Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, and George Drettakis.
+
+</span>
+<span class="ltx_bibblock">3d gaussian splatting for real-time radiance field rendering.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">ACM Trans. Graph.</em>, 42(4):139–1, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kingma &amp; Welling (2014)</span>
+<span class="ltx_bibblock">
+Diederik P Kingma and Max Welling.
+
+</span>
+<span class="ltx_bibblock">Auto-encoding variational bayes.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2014.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kondratyuk et al. (2023)</span>
+<span class="ltx_bibblock">
+Dan Kondratyuk, Lijun Yu, Xiuye Gu, José Lezama, Jonathan Huang, Grant Schindler, Rachel Hornung, Vighnesh Birodkar, Jimmy Yan, Ming-Chang Chiu, et al.
+
+</span>
+<span class="ltx_bibblock">Videopoet: A large language model for zero-shot video generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2312.14125</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lai et al. (2025)</span>
+<span class="ltx_bibblock">
+Hang Lai, Jiahang Cao, Jiafeng Xu, Hongtao Wu, Yunfeng Lin, Tao Kong, Yong Yu, and Weinan Zhang.
+
+</span>
+<span class="ltx_bibblock">World model-based perception for visual legged locomotion.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICRA</em>, pp.  11531–11537. IEEE, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lan et al. (2025)</span>
+<span class="ltx_bibblock">
+Yushi Lan, Shangchen Zhou, Zhaoyang Lyu, Fangzhou Hong, Shuai Yang, Bo Dai, Xingang Pan, and Chen Change Loy.
+
+</span>
+<span class="ltx_bibblock">Gaussiananything: Interactive point cloud latent diffusion for 3d generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICLR</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lipman et al. (2022)</span>
+<span class="ltx_bibblock">
+Yaron Lipman, Ricky TQ Chen, Heli Ben-Hamu, Maximilian Nickel, and Matt Le.
+
+</span>
+<span class="ltx_bibblock">Flow matching for generative modeling.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2210.02747</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Loshchilov &amp; Hutter (2017)</span>
+<span class="ltx_bibblock">
+Ilya Loshchilov and Frank Hutter.
+
+</span>
+<span class="ltx_bibblock">Decoupled weight decay regularization.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:1711.05101</em>, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lu et al. (2025)</span>
+<span class="ltx_bibblock">
+Yuanxun Lu, Jingyang Zhang, Tian Fang, Jean-Daniel Nahmias, Yanghai Tsin, Long Quan, Xun Cao, Yao Yao, and Shiwei Li.
+
+</span>
+<span class="ltx_bibblock">Matrix3d: Large photogrammetry model all-in-one.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  11250–11263, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Luo &amp; Hu (2021)</span>
+<span class="ltx_bibblock">
+Shitong Luo and Wei Hu.
+
+</span>
+<span class="ltx_bibblock">Diffusion probabilistic models for 3d point cloud generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  2837–2845, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Mildenhall et al. (2021)</span>
+<span class="ltx_bibblock">
+Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng.
+
+</span>
+<span class="ltx_bibblock">Nerf: Representing scenes as neural radiance fields for view synthesis.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Communications of the ACM</em>, 65(1):99–106, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Min et al. (2024)</span>
+<span class="ltx_bibblock">
+Chen Min, Dawei Zhao, Liang Xiao, Jian Zhao, Xinli Xu, Zheng Zhu, Lei Jin, Jianshu Li, Yulan Guo, Junliang Xing, et al.
+
+</span>
+<span class="ltx_bibblock">Driveworld: 4d pre-trained scene understanding via world models for autonomous driving.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  15522–15533, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI (2024)</span>
+<span class="ltx_bibblock">
+OpenAI.
+
+</span>
+<span class="ltx_bibblock">Video generation models as world simulators, 2024.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://openai.com/research/video-generation-models-as-world-simulators" title="">https://openai.com/research/video-generation-models-as-world-simulators</a>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Peebles &amp; Xie (2023)</span>
+<span class="ltx_bibblock">
+William Peebles and Saining Xie.
+
+</span>
+<span class="ltx_bibblock">Scalable diffusion models with transformers.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ICCV</em>, pp.  4195–4205, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Peng et al. (2024)</span>
+<span class="ltx_bibblock">
+Bohao Peng, Xiaoyang Wu, Li Jiang, Yukang Chen, Hengshuang Zhao, Zhuotao Tian, and Jiaya Jia.
+
+</span>
+<span class="ltx_bibblock">Oa-cnns: Omni-adaptive sparse cnns for 3d semantic segmentation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  21305–21315, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ren et al. (2024a)</span>
+<span class="ltx_bibblock">
+Xuanchi Ren, Jiahui Huang, Xiaohui Zeng, Ken Museth, Sanja Fidler, and Francis Williams.
+
+</span>
+<span class="ltx_bibblock">Xcube: Large-scale 3d generative modeling using sparse voxel hierarchies.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  4209–4219, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ren et al. (2024b)</span>
+<span class="ltx_bibblock">
+Zhiyuan Ren, Minchul Kim, Feng Liu, and Xiaoming Liu.
+
+</span>
+<span class="ltx_bibblock">Tiger: Time-varying denoising model for 3d point cloud generation with diffusion process.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  9462–9471, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ren et al. (2025)</span>
+<span class="ltx_bibblock">
+Zhongwei Ren, Yunchao Wei, Xun Guo, Yao Zhao, Bingyi Kang, Jiashi Feng, and Xiaojie Jin.
+
+</span>
+<span class="ltx_bibblock">Videoworld: Exploring knowledge learning from unlabeled videos.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  29029–29039, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Rombach et al. (2022)</span>
+<span class="ltx_bibblock">
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer.
+
+</span>
+<span class="ltx_bibblock">High-resolution image synthesis with latent diffusion models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  10684–10695, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib42">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Song et al. (2020)</span>
+<span class="ltx_bibblock">
+Jiaming Song, Chenlin Meng, and Stefano Ermon.
+
+</span>
+<span class="ltx_bibblock">Denoising diffusion implicit models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2010.02502</em>, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib43">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Team et al. (2025)</span>
+<span class="ltx_bibblock">
+Aether Team, Haoyi Zhu, Yifan Wang, Jianjun Zhou, Wenzheng Chang, Yang Zhou, Zizun Li, Junyi Chen, Chunhua Shen, Jiangmiao Pang, et al.
+
+</span>
+<span class="ltx_bibblock">Aether: Geometric-aware unified world modeling.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2503.18945</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib44">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Vahdat et al. (2022)</span>
+<span class="ltx_bibblock">
+Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis, et al.
+
+</span>
+<span class="ltx_bibblock">Lion: Latent point diffusion models for 3d shape generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">NIPS</em>, 35:10021–10039, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib45">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Vaswani et al. (2017)</span>
+<span class="ltx_bibblock">
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin.
+
+</span>
+<span class="ltx_bibblock">Attention is all you need.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">NIPS</em>, 30, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib46">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Vogel et al. (2024)</span>
+<span class="ltx_bibblock">
+Mathias Vogel, Keisuke Tateno, Marc Pollefeys, Federico Tombari, Marie-Julie Rakotosaona, and Francis Engelmann.
+
+</span>
+<span class="ltx_bibblock">P2p-bridge: Diffusion bridges for 3d point cloud denoising.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  184–201. Springer, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib47">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025a)</span>
+<span class="ltx_bibblock">
+Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, and David Novotny.
+
+</span>
+<span class="ltx_bibblock">Vggt: Visual geometry grounded transformer.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  5294–5306, 2025a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib48">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025b)</span>
+<span class="ltx_bibblock">
+Qiuheng Wang, Yukai Shi, Jiarong Ou, Rui Chen, Ke Lin, Jiahao Wang, Boyuan Jiang, Haotian Yang, Mingwu Zheng, Xin Tao, et al.
+
+</span>
+<span class="ltx_bibblock">Koala-36m: A large-scale video dataset improving consistency between fine-grained conditions and video content.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  8428–8437, 2025b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib49">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2024a)</span>
+<span class="ltx_bibblock">
+Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, and Jerome Revaud.
+
+</span>
+<span class="ltx_bibblock">Dust3r: Geometric 3d vision made easy.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  20697–20709, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib50">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2024b)</span>
+<span class="ltx_bibblock">
+Tai Wang, Xiaohan Mao, Chenming Zhu, Runsen Xu, Ruiyuan Lyu, Peisen Li, Xiao Chen, Wenwei Zhang, Kai Chen, Tianfan Xue, et al.
+
+</span>
+<span class="ltx_bibblock">Embodiedscan: A holistic multi-modal 3d perception suite towards embodied ai.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  19757–19767, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib51">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2024c)</span>
+<span class="ltx_bibblock">
+Xiaofeng Wang, Zheng Zhu, Guan Huang, Xinze Chen, Jiagang Zhu, and Jiwen Lu.
+
+</span>
+<span class="ltx_bibblock">Drivedreamer: Towards real-world-drive world models for autonomous driving.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  55–72. Springer, 2024c.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib52">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2025)</span>
+<span class="ltx_bibblock">
+Tong Wu, Shuai Yang, Ryan Po, Yinghao Xu, Ziwei Liu, Dahua Lin, and Gordon Wetzstein.
+
+</span>
+<span class="ltx_bibblock">Video world models with long-term spatial memory.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.05284</em>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib53">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2024a)</span>
+<span class="ltx_bibblock">
+Xiaoyang Wu, Li Jiang, Peng-Shuai Wang, Zhijian Liu, Xihui Liu, Yu Qiao, Wanli Ouyang, Tong He, and Hengshuang Zhao.
+
+</span>
+<span class="ltx_bibblock">Point transformer v3: Simpler faster stronger.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  4840–4851, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib54">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2024b)</span>
+<span class="ltx_bibblock">
+Yuqi Wu, Wenzhao Zheng, Sicheng Zuo, Yuanhui Huang, Jie Zhou, and Jiwen Lu.
+
+</span>
+<span class="ltx_bibblock">Embodiedocc: Embodied 3d occupancy prediction for vision-based online scene understanding.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2412.04380</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib55">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xiang et al. (2025)</span>
+<span class="ltx_bibblock">
+Jianfeng Xiang, Zelong Lv, Sicheng Xu, Yu Deng, Ruicheng Wang, Bowen Zhang, Dong Chen, Xin Tong, and Jiaolong Yang.
+
+</span>
+<span class="ltx_bibblock">Structured 3d latents for scalable and versatile 3d generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  21469–21480, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib56">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xiang et al. (2024)</span>
+<span class="ltx_bibblock">
+Jiannan Xiang, Guangyi Liu, Yi Gu, Qiyue Gao, Yuting Ning, Yuheng Zha, Zeyu Feng, Tianhua Tao, Shibo Hao, Yemin Shi, et al.
+
+</span>
+<span class="ltx_bibblock">Pandora: Towards general world model with natural language actions and video states.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2406.09455</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib57">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yang et al. (2025a)</span>
+<span class="ltx_bibblock">
+Yuanbo Yang, Jiahao Shao, Xinyang Li, Yujun Shen, Andreas Geiger, and Yiyi Liao.
+
+</span>
+<span class="ltx_bibblock">Prometheus: 3d-aware latent diffusion models for feed-forward text-to-3d scene generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  2857–2869, 2025a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib58">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yang et al. (2025b)</span>
+<span class="ltx_bibblock">
+Zhongqi Yang, Wenhang Ge, Yuqi Li, Jiaqi Chen, Haoyuan Li, Mengyin An, Fei Kang, Hua Xue, Baixin Xu, Yuyang Yin, et al.
+
+</span>
+<span class="ltx_bibblock">Matrix-3d: Omnidirectional explorable 3d world generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2508.08086</em>, 2025b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib59">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yin et al. (2023)</span>
+<span class="ltx_bibblock">
+Shengming Yin, Chenfei Wu, Huan Yang, Jianfeng Wang, Xiaodong Wang, Minheng Ni, Zhengyuan Yang, Linjie Li, Shuguang Liu, Fan Yang, et al.
+
+</span>
+<span class="ltx_bibblock">Nuwa-xl: Diffusion over diffusion for extremely long video generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2303.12346</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib60">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yu et al. (2025)</span>
+<span class="ltx_bibblock">
+Hong-Xing Yu, Haoyi Duan, Charles Herrmann, William T Freeman, and Jiajun Wu.
+
+</span>
+<span class="ltx_bibblock">Wonderworld: Interactive 3d scene generation from a single image.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  5916–5926, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib61">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yu et al. (2024a)</span>
+<span class="ltx_bibblock">
+Hongxiao Yu, Yuqi Wang, Yuntao Chen, and Zhaoxiang Zhang.
+
+</span>
+<span class="ltx_bibblock">Monocular occupancy prediction for scalable indoor scenes.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  38–54. Springer, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib62">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yu et al. (2024b)</span>
+<span class="ltx_bibblock">
+Wangbo Yu, Jinbo Xing, Li Yuan, Wenbo Hu, Xiaoyu Li, Zhipeng Huang, Xiangjun Gao, Tien-Tsin Wong, Ying Shan, and Yonghong Tian.
+
+</span>
+<span class="ltx_bibblock">Viewcrafter: Taming video diffusion models for high-fidelity novel view synthesis.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2409.02048</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib63">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2018)</span>
+<span class="ltx_bibblock">
+Richard Zhang, Phillip Isola, Alexei A Efros, Eli Shechtman, and Oliver Wang.
+
+</span>
+<span class="ltx_bibblock">The unreasonable effectiveness of deep features as a perceptual metric.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  586–595, 2018.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib64">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2021)</span>
+<span class="ltx_bibblock">
+Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip HS Torr, and Vladlen Koltun.
+
+</span>
+<span class="ltx_bibblock">Point transformer.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">CVPR</em>, pp.  16259–16268, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib65">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zheng et al. (2024a)</span>
+<span class="ltx_bibblock">
+Wenzhao Zheng, Weiliang Chen, Yuanhui Huang, Borui Zhang, Yueqi Duan, and Jiwen Lu.
+
+</span>
+<span class="ltx_bibblock">Occworld: Learning a 3d occupancy world model for autonomous driving.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  55–72. Springer, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib66">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zheng et al. (2024b)</span>
+<span class="ltx_bibblock">
+Wenzhao Zheng, Zetian Xia, Yuanhui Huang, Sicheng Zuo, Jie Zhou, and Jiwen Lu.
+
+</span>
+<span class="ltx_bibblock">Doe-1: Closed-loop autonomous driving with large world model.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2412.09627</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib67">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhou et al. (2024)</span>
+<span class="ltx_bibblock">
+Chenliang Zhou, Fangcheng Zhong, Param Hanji, Zhilin Guo, Kyle Fogarty, Alejandro Sztrajman, Hongyun Gao, and Cengiz Oztireli.
+
+</span>
+<span class="ltx_bibblock">Frepolad: Frequency-rectified point latent diffusion for point cloud generation.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">ECCV</em>, pp.  434–453. Springer, 2024.
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 07:15:57 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

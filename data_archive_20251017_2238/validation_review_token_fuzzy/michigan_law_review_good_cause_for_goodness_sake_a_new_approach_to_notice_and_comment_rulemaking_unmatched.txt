@@ -1,0 +1,84 @@
+UNMATCHED LINES FOR: michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking
+================================================================================
+Total unmatched: 8
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/8
+Best match score: 66.67%
+Method: no_match
+Tokens matched: 16/24
+Avg token similarity: 84.3%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this note is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/8
+Best match score: 59.09%
+Method: no_match
+Tokens matched: 13/22
+Avg token similarity: 79.8%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/8
+Best match score: 77.78%
+Method: no_match
+Tokens matched: 28/36
+Avg token similarity: 88.9%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+in fact, there is a situation in which agencies may bypass notice-and-comment requirements: 'good cause rulemaking.' 10 agencies likely have been reluctant to employ the good cause exception for fear of litigation and negative court reactions.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/8
+Best match score: 78.12%
+Method: no_match
+Tokens matched: 25/32
+Avg token similarity: 88.3%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+has instructed agencies to rely on the good cause exception to advance regulatory reform efforts, 11 albeit relying on a different justification within the exception than that which this note focuses on.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/8
+Best match score: 72.09%
+Method: no_match
+Tokens matched: 31/43
+Avg token similarity: 86.0%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+40 the reality of this dynamic was brought into harsher light by the behavior of president trump in the lead-up to his second term, 41 although that does not absolve the other side of the aisle from at times taking a similar approach.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/8
+Best match score: 68.97%
+Method: no_match
+Tokens matched: 20/29
+Avg token similarity: 84.8%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+this problem is likely to worsen in the current administration, given the trends of the first trump administration 44 and the inroads many executives have made with him since.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/8
+Best match score: 73.91%
+Method: no_match
+Tokens matched: 17/23
+Avg token similarity: 86.4%
+Word count: 23 words
+────────────────────────────────────────────────────────────────────────────────
+56 this imbalance is due to the complexity of notice and comment as a process, 57 which better-resourced groups can navigate more easily.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/8
+Best match score: 77.42%
+Method: no_match
+Tokens matched: 24/31
+Avg token similarity: 90.3%
+Word count: 31 words
+────────────────────────────────────────────────────────────────────────────────
+over time, those twin lines of decisions 104 have gradually transformed rulemaking-whether regulatory or deregulatory rulemaking-from the simple and speedy practice contemplated by the apa into a laborious, seemingly never-ending process.

@@ -1,0 +1,184 @@
+UNMATCHED LINES FOR: michigan_law_review_law_enforcement_privilege
+================================================================================
+Total unmatched: 18
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/18
+Best match score: 50.00%
+Method: no_match
+Tokens matched: 12/24
+Avg token similarity: 73.8%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this article is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/18
+Best match score: 59.09%
+Method: no_match
+Tokens matched: 13/22
+Avg token similarity: 76.7%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/18
+Best match score: 72.09%
+Method: no_match
+Tokens matched: 31/43
+Avg token similarity: 88.4%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+22 police officers routinely used these surveillance devices without a warrant, 23 made misleading omissions in warrant affidavits and pen register applications, 24 lied about the technology in probable cause hearings, 25 and refused to answer questions about the technology in courtroom testimony.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/18
+Best match score: 79.55%
+Method: no_match
+Tokens matched: 35/44
+Avg token similarity: 89.1%
+Word count: 44 words
+────────────────────────────────────────────────────────────────────────────────
+27 contracts for the sale of these devices required police purchasers to withhold information about how the technology works, including 'in response to court ordered disclosure.' 28 contractual promises to disobey court-ordered disclosures are-or at least should be-unenforceable as a matter of contract law.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/18
+Best match score: 66.67%
+Method: no_match
+Tokens matched: 28/42
+Avg token similarity: 83.8%
+Word count: 42 words
+────────────────────────────────────────────────────────────────────────────────
+33 legal scholars lambasted this 'unacceptable secrecy' 34 as an illustration that 'far too much of policing lives in a dark hole of ignorance.' 35 multiple courts held that the fourth amendment requires police to obtain a warrant before using a stingray.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/18
+Best match score: 77.27%
+Method: no_match
+Tokens matched: 17/22
+Avg token similarity: 88.6%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+pirosko 43 -a sixth circuit opinion that has been cited over four hundred times 44 and characterized by one federal court as
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/18
+Best match score: 77.78%
+Method: no_match
+Tokens matched: 28/36
+Avg token similarity: 89.8%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+67 even important sub-issues have received sustained scholarly attention, such as precisely how much deference judges should afford to the government's national security claims 68 and whether public leaks of information vitiate the state secrets privilege.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 8/18
+Best match score: 72.92%
+Method: no_match
+Tokens matched: 35/48
+Avg token similarity: 85.5%
+Word count: 48 words
+────────────────────────────────────────────────────────────────────────────────
+pirosko has been cited in at least eighty-nine criminal cases, 84 similar internet investigative software programs have been cited in at least sixty-four criminal cases, 85 and password-cracking data extraction tools that also trigger law enforcement privilege claims 86 have been cited in over six hundred criminal cases.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 9/18
+Best match score: 79.31%
+Method: no_match
+Tokens matched: 23/29
+Avg token similarity: 91.0%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+90 they may seek to argue that the outputs are biased based on race or other constitutionally protected characteristics, 91 or are otherwise insufficiently reliable to establish probable cause.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 10/18
+Best match score: 78.00%
+Method: no_match
+Tokens matched: 39/50
+Avg token similarity: 89.2%
+Word count: 50 words
+────────────────────────────────────────────────────────────────────────────────
+143 the prosecution asserted the law enforcement privilege, arguing that the software was 'created by the fbi and used exclusively for law enforcement purposes,' 144 and that disclosure 'would reveal confidential features of the software' 145 that would help criminal actors 'to frustrate the fbi's ability to detect them .
+
+────────────────────────────────────────────────────────────────────────────────
+Line 11/18
+Best match score: 66.67%
+Method: no_match
+Tokens matched: 16/24
+Avg token similarity: 84.6%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+circuits have adopted a ten-factor balancing test for weighing law enforcement privilege claims 162 drawn from a 1970s civil rights case called frankenhauser v.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 12/18
+Best match score: 79.31%
+Method: no_match
+Tokens matched: 23/29
+Avg token similarity: 89.8%
+Word count: 29 words
+────────────────────────────────────────────────────────────────────────────────
+henry , required that the claim be asserted by the head of a department after 'personal consideration by that official.' 179 the tenth circuit has imposed similar procedural requirements.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 13/18
+Best match score: 78.57%
+Method: no_match
+Tokens matched: 22/28
+Avg token similarity: 88.4%
+Word count: 28 words
+────────────────────────────────────────────────────────────────────────────────
+ruled 'on the admissibility of such evidence based on relevance and materiality, without resort to any type of evidentiary privilege.' 198 judge smith provides strong examples in support.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 14/18
+Best match score: 78.05%
+Method: no_match
+Tokens matched: 32/41
+Avg token similarity: 89.3%
+Word count: 41 words
+────────────────────────────────────────────────────────────────────────────────
+and in these precedents no question whatever of international politics or military defence [sic] was involved.' 219 among the precedents wigmore cited in support of this privilege, which he opined 'undoubtedly exists' albeit with uncertain scope, 220 was the atterbury ruling.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 15/18
+Best match score: 69.70%
+Method: no_match
+Tokens matched: 23/33
+Avg token similarity: 86.1%
+Word count: 33 words
+────────────────────────────────────────────────────────────────────────────────
+[and] often heavily redacted.' 235 inconsistent terminology for the various government privileges, 236 and judges' tendencies to blur findings of privilege with findings of immateriality, 237 muddles the issue of novelty further still.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 16/18
+Best match score: 69.77%
+Method: no_match
+Tokens matched: 30/43
+Avg token similarity: 84.1%
+Word count: 43 words
+────────────────────────────────────────────────────────────────────────────────
+in recent years, scholars have argued for 'limiting police power and the space in which it operates;' 239 developed abolitionist approaches to police surveillance technologies 240 and forensic methods; 241 and recommended eliminating public prosecutors' 'monopoly' on criminal cases, 242 among other proposals.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 17/18
+Best match score: 53.33%
+Method: no_match
+Tokens matched: 16/30
+Avg token similarity: 78.7%
+Word count: 30 words
+────────────────────────────────────────────────────────────────────────────────
+recognition software, 253 social media 254 and internet surveillance software, 255 dna analysis software, 256 phone and other digital device hacking technologies, 257 wireless network forensic tools, 258 and more.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 18/18
+Best match score: 65.62%
+Method: no_match
+Tokens matched: 21/32
+Avg token similarity: 82.3%
+Word count: 32 words
+────────────────────────────────────────────────────────────────────────────────
+states and in 102 countries around the globe [h]ave been trained on our technology.' 338 those ten thousand people have access under what can be no more than contractual promises of confidentiality.

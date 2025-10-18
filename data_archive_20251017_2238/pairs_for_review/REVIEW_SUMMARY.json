@@ -1,0 +1,226 @@
+[
+  {
+    "basename": "arxiv_2510_14023",
+    "jaccard": 42.71,
+    "overlap": 59.97,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14033",
+    "jaccard": 42.81,
+    "overlap": 60.21,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14055",
+    "jaccard": 40.63,
+    "overlap": 60.29,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14285",
+    "jaccard": 33.47,
+    "overlap": 56.22,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14415",
+    "jaccard": 46.64,
+    "overlap": 66.38,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14430",
+    "jaccard": 42.51,
+    "overlap": 62.13,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14482",
+    "jaccard": 36.28,
+    "overlap": 53.9,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "arxiv_2510_14523",
+    "jaccard": 47.42,
+    "overlap": 68.05,
+    "status": "PARTIAL",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "florida_law_review_vol77_iss1_art4_going-en-banc",
+    "jaccard": 1.8854748603351956,
+    "overlap": 68.35443037974683,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_default_procedures",
+    "jaccard": 1.9845644983461963,
+    "overlap": 74.48275862068967,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "texas_law_review_federalism-state-democracy",
+    "jaccard": 2.0974131903985085,
+    "overlap": 84.11214953271028,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "florida_law_review_vol76_iss6_art2_originalism-election-law",
+    "jaccard": 2.3238191462490527,
+    "overlap": 80.0,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "duke_law_journal_discretionary_immigration_detention",
+    "jaccard": 2.4384933594600477,
+    "overlap": 78.87323943661971,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "georgetown_law_journal_a_faster_way_to_yes",
+    "jaccard": 2.5119236883942766,
+    "overlap": 74.52830188679245,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "texas_law_review_mass-incarceration-history",
+    "jaccard": 2.856122813280971,
+    "overlap": 80.8080808080808,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "texas_law_review_liberty-in-loyalty-fiduciary-law",
+    "jaccard": 2.949852507374631,
+    "overlap": 91.54929577464789,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_prosecuting_families",
+    "jaccard": 2.96229802513465,
+    "overlap": 76.74418604651163,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "florida_law_review_vol77_iss1_art1_artificial-intelligence-privacy",
+    "jaccard": 3.256477299738531,
+    "overlap": 87.82051282051282,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "duke_law_journal_transnational_corporate_law",
+    "jaccard": 3.261122757978104,
+    "overlap": 82.35294117647058,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_original_meaning_of_treaties",
+    "jaccard": 3.4352744030163382,
+    "overlap": 84.1025641025641,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "duke_law_journal_illegal_corporate_cultures",
+    "jaccard": 3.4726688102893895,
+    "overlap": 83.93782383419689,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "northwestern_law_review_healing_power_antitrust",
+    "jaccard": 3.4769833496571985,
+    "overlap": 86.58536585365853,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_lessons_in_climate_derisking",
+    "jaccard": 3.5150280183392764,
+    "overlap": 83.46774193548387,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "gwu_law_review_the-power-to-vacate-a-rule",
+    "jaccard": 3.527148353997435,
+    "overlap": 81.68316831683168,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "florida_law_review_vol77_iss1_art2_expressive-discrimination-universities",
+    "jaccard": 3.5679611650485437,
+    "overlap": 85.46511627906976,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_ancillary_rights",
+    "jaccard": 3.616721465476749,
+    "overlap": 77.38693467336684,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "penn_law_review_control_and_its_discontents",
+    "jaccard": 3.6421911421911424,
+    "overlap": 73.52941176470588,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  },
+  {
+    "basename": "duke_law_journal_burdens_of_proof",
+    "jaccard": 3.666749812920928,
+    "overlap": 84.0,
+    "status": "REVIEW",
+    "html_copied": true,
+    "pdf_copied": true
+  }
+]

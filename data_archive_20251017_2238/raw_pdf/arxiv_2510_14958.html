@@ -1,0 +1,2250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning</title>
+<!--Generated on Thu Oct 16 16:04:52 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14958v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S1" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S2" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Related Work</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S2.SS0.SSS0.Px1" title="In 2 Related Work ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Mathematical Reasoning with Large Multimodal Models.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S2.SS0.SSS0.Px2" title="In 2 Related Work ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Visual Chain-of-Thought.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S2.SS0.SSS0.Px3" title="In 2 Related Work ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Datasets and Benchmarks for Multimodal Mathematical Reasoning.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Method</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1" title="In 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1 </span>Training Corpora Construction</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_subsubsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS1" title="In 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1.1 </span>Million-scale Pretraining Corpus</span></a>
+<ol class="ltx_toclist ltx_toclist_subsubsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS1.Px1" title="In 3.1.1 Million-scale Pretraining Corpus ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">MathCanvas-Edit</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS1.Px2" title="In 3.1.1 Million-scale Pretraining Corpus ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">MathCanvas-Imagen</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsubsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS2" title="In 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1.2 </span>MathCanvas-Instruct</span></a>
+<ol class="ltx_toclist ltx_toclist_subsubsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS2.Px1" title="In 3.1.2 MathCanvas-Instruct ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Dataset Construction</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS2" title="In 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.2 </span>The MathCanvas-Bench Evaluation Benchmark</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS2.SSS0.Px1" title="In 3.2 The MathCanvas-Bench Evaluation Benchmark ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Benchmark Construction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS2.SSS0.Px2" title="In 3.2 The MathCanvas-Bench Evaluation Benchmark ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Evaluation Protocol</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS3" title="In 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.3 </span>Two-Stage Training Recipe</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS3.SSS0.Px1" title="In 3.3 Two-Stage Training Recipe ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Stage I: Visual Manipulation</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS3.SSS0.Px2" title="In 3.3 Two-Stage Training Recipe ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Stage II: Strategic Visual-Aided Reasoning</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Experiments</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.SS1" title="In 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.1 </span>Benchmark Results</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.SS2" title="In 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.2 </span>Performance on Other Math Benchmarks</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.SS3" title="In 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4.3 </span>Ablation Studies</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.SS3.SSS0.Px1" title="In 4.3 Ablation Studies ‣ 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Effectiveness of the Pre-training Corpus.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.SS3.SSS0.Px2" title="In 4.3 Ablation Studies ‣ 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Importance of Visual Modality in Reasoning.</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S5" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A1" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">A </span>Training Details</span></a>
+<ol class="ltx_toclist ltx_toclist_appendix">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A1.SS0.SSS0.Px1" title="In Appendix A Training Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Stage I</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A1.SS0.SSS0.Px2" title="In Appendix A Training Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Stage II</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_appendix">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B </span>Dataset Details</span></a>
+<ol class="ltx_toclist ltx_toclist_appendix">
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS1" title="In Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B.1 </span>MathCanvas-Edit and MathCanvas-Imagen</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS1.SSS0.Px1" title="In B.1 MathCanvas-Edit and MathCanvas-Imagen ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Details on Foundational Structure Generation.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS1.SSS0.Px2" title="In B.1 MathCanvas-Edit and MathCanvas-Imagen ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Examples.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS2" title="In Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B.2 </span>MathCanvas-Instruct</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS2.SSS0.Px1" title="In B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Dataset Statistics.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS2.SSS0.Px2" title="In B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title">Examples.</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_appendix">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">C </span>Benchmark Evaluation Details</span></a>
+<ol class="ltx_toclist ltx_toclist_appendix">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3.SS1" title="In Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">C.1 </span>Weighted Scoring Weights</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3.SS2" title="In Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">C.2 </span>Evaluation Template</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A4" title="In MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">D </span>Additional Qualitative Results</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document">
+<h1 class="ltx_title ltx_title_document">MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">
+<span class="ltx_text ltx_font_bold">Weikang Shi<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Aldrich Yu<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex4"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">1</span></span></span></span></span></span>
+<span class="ltx_text ltx_font_bold">Rongyao Fang<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex5"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">1</span></span></span></span></span></span>
+<span class="ltx_text ltx_font_bold">Houxing Ren<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Ke Wang<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Aojun Zhou<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Changyao Tian<sup class="ltx_sup">1</sup></span>
+<br class="ltx_break"/><span class="ltx_text ltx_font_bold">Xinyu Fu<sup class="ltx_sup">2</sup></span>
+<span class="ltx_text ltx_font_bold">Yuxuan Hu<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Zimu Lu<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Linjiang Huang<sup class="ltx_sup">3</sup></span>
+<span class="ltx_text ltx_font_bold">Si Liu<sup class="ltx_sup">3</sup></span>
+<span class="ltx_text ltx_font_bold">Rui Liu<sup class="ltx_sup">2</sup></span>
+<span class="ltx_text ltx_font_bold">Hongsheng Li<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex6"><sup class="ltx_note_mark">3</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">3</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">3</span></span></span></span></span></span>
+<br class="ltx_break"/>
+<br class="ltx_break"/><sup class="ltx_sup">1</sup>Multimedia Laboratory (MMLab), The Chinese University of Hong Kong,
+
+<br class="ltx_break"/><sup class="ltx_sup">2</sup>Huawei Research,
+<sup class="ltx_sup">3</sup>BUAA
+
+<br class="ltx_break"/>
+<a class="ltx_ref ltx_href" href="mailto:wkshi@link.cuhk.edu.hk" title="">wkshi@link.cuhk.edu.hk</a>  
+<a class="ltx_ref ltx_href" href="mailto:hsli@ee.cuhk.edu.hk" title="">hsli@ee.cuhk.edu.hk</a>
+</span><span class="ltx_author_notes"><span class="ltx_text ltx_font_bold">Equal Contribution</span><span class="ltx_text ltx_font_bold">Project lead</span><span class="ltx_text ltx_font_bold">Corresponding author</span></span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">While Large Language Models (LLMs) have excelled in textual reasoning, they struggle with mathematical domains like geometry that intrinsically rely on visual aids. Existing approaches to Visual Chain-of-Thought (VCoT) are often limited by rigid external tools or fail to generate the high-fidelity, strategically-timed diagrams necessary for complex problem-solving.
+To bridge this gap, we introduce MathCanvas, a comprehensive framework designed to endow unified Large Multimodal Models (LMMs) with intrinsic VCoT capabilities for mathematics. Our approach consists of two phases. First, a <span class="ltx_text ltx_font_italic">Visual Manipulation</span> stage pre-trains the model on a novel 15.2M-pair corpus, comprising 10M caption-to-diagram pairs (MathCanvas-Imagen) and 5.2M step-by-step editing trajectories (MathCanvas-Edit), to master diagram generation and editing. Second, a <span class="ltx_text ltx_font_italic">Strategic Visual-Aided Reasoning</span> stage fine-tunes the model on MathCanvas-Instruct, a new 219K-example dataset of interleaved visual-textual reasoning paths, teaching it <span class="ltx_text ltx_font_italic">when</span> and <span class="ltx_text ltx_font_italic">how</span> to leverage visual aids. To facilitate rigorous evaluation, we introduce MathCanvas-Bench, a challenging benchmark with 3K problems that require models to produce interleaved visual-textual solutions. Our model, BAGEL-Canvas, trained under this framework, achieves an 86% relative improvement over strong LMM baselines on MathCanvas-Bench, demonstrating excellent generalization to other public math benchmarks. Our work provides a complete toolkit—framework, datasets, and benchmark—to unlock complex, human-like visual-aided reasoning in LMMs. Project Page: <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://mathcanvas.github.io/" title="">https://mathcanvas.github.io/</a></p>
+</div>
+<div class="ltx_para ltx_noindent" id="p1">
+<div class="ltx_block ltx_align_bottom">
+<p class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning</span></p>
+<p class="ltx_p ltx_align_center" style="width:345.0pt;"><span class="ltx_text ltx_inline-block" style="width:0.0pt;">
+<span class="ltx_tabular ltx_align_top">
+<span class="ltx_tr">
+<span class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold">
+Weikang Shi<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_thanks"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">thanks: </span>Equal Contribution</span></span></span>
+Aldrich Yu<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex1"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">1</span></span></span></span></span>
+Rongyao Fang<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex2"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">1</span></span></span></span></span><span class="ltx_note ltx_role_thanks"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">thanks: </span>Project lead</span></span></span>
+Houxing Ren<sup class="ltx_sup">1</sup>
+Ke Wang<sup class="ltx_sup">1</sup>
+Aojun Zhou<sup class="ltx_sup">1</sup>
+Changyao Tian<sup class="ltx_sup">1</sup></span></span></span>
+<span class="ltx_tr">
+<span class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold">Xinyu Fu<sup class="ltx_sup">2</sup></span>
+<span class="ltx_text ltx_font_bold">Yuxuan Hu<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Zimu Lu<sup class="ltx_sup">1</sup></span>
+<span class="ltx_text ltx_font_bold">Linjiang Huang<sup class="ltx_sup">3</sup></span>
+<span class="ltx_text ltx_font_bold">Si Liu<sup class="ltx_sup">3</sup></span>
+<span class="ltx_text ltx_font_bold">Rui Liu<sup class="ltx_sup">2</sup><span class="ltx_note ltx_role_thanks"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">thanks: </span>Corresponding author</span></span></span></span>
+<span class="ltx_text ltx_font_bold">Hongsheng Li<sup class="ltx_sup">1</sup><span class="ltx_note ltx_role_footnotemark" id="footnotex3"><sup class="ltx_note_mark">3</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">3</sup><span class="ltx_note_type">footnotemark: </span><span class="ltx_tag ltx_tag_note"><span class="ltx_text ltx_font_medium">3</span></span></span></span></span></span></span></span>
+<span class="ltx_tr">
+<span class="ltx_td ltx_align_center"><sup class="ltx_sup">1</sup>Multimedia Laboratory (MMLab), The Chinese University of Hong Kong,</span></span>
+<span class="ltx_tr">
+<span class="ltx_td ltx_align_center"><sup class="ltx_sup">2</sup>Huawei Research,
+<sup class="ltx_sup">3</sup>BUAA</span></span>
+<span class="ltx_tr">
+<span class="ltx_td ltx_align_center">
+<a class="ltx_ref ltx_href" href="mailto:wkshi@link.cuhk.edu.hk" title="">wkshi@link.cuhk.edu.hk</a>  
+<a class="ltx_ref ltx_href" href="mailto:hsli@ee.cuhk.edu.hk" title="">hsli@ee.cuhk.edu.hk</a></span></span>
+</span></span></p>
+</div>
+<img alt="[Uncaptioned image]" class="ltx_graphics ltx_img_landscape" height="262" id="p1.g1" src="x1.png" width="830"/>
+</div>
+<figure class="ltx_figure" id="S0.F1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+MathCanvas demonstrates the first successful application of intrinsic Visual Chain-of-Thought (VCoT) for complex mathematical reasoning. Prior attempts fail by generating incorrect (BAGEL-Zebra-CoT) or strategically poor (Nano-Banana) visuals, leading to wrong solutions. In contrast, MathCanvas correctly generates an intermediate visual step that unlocks a simpler, elegant solution path.
+</figcaption>
+</figure>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p">Mathematical reasoning represents a pinnacle of human intelligence, demanding a sophisticated interplay of logical deduction, symbolic manipulation, and abstract thinking. The advent of Large Language Models (LLMs) <cite class="ltx_cite ltx_citemacro_citep">(DeepSeek-AI et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib7" title="">2025</a>; Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib48" title="">2024</a>; OpenAI et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib28" title="">2024b</a>)</cite> has marked a significant milestone in artificial intelligence, demonstrating remarkable capabilities in tackling complex mathematical reasoning tasks.
+A key driver of recent progress in LLM-based reasoning has been the Chain-of-Thought (CoT) <cite class="ltx_cite ltx_citemacro_citep">(Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib46" title="">2023</a>)</cite> technique, which enables models to externalize intermediate steps and significantly improves performance on mathematical tasks.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p">However, the purely textual nature of CoT presents a fundamental limitation in domains like geometry and function analysis, where human problem-solving intrinsically involves constructing and manipulating visual aids, and even state-of-the-art models struggle in its absence (see Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A4.F12" title="Figure 12 ‣ Appendix D Additional Qualitative Results ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">12</span></a> in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A4" title="Appendix D Additional Qualitative Results ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">D</span></a>).
+This gap has motivated the development of Visual Chain-of-Thought (VCoT), which aims to integrate visual information into the reasoning process. Early approaches to VCoT have predominantly relied on external specialized tools, such as dedicated vision models <cite class="ltx_cite ltx_citemacro_citep">(Shao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib34" title="">2024a</a>; Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib17" title="">2024</a>; Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib15" title="">2025b</a>)</cite> or code interpreters <cite class="ltx_cite ltx_citemacro_citep">(Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib17" title="">2024</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib43" title="">2025c</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib44" title="">d</a>)</cite>. While effective in specific contexts, these tool-based methods are often rigid, constrained to a predefined set of operations, and dependent on specific input formats (e.g., source code), which hinders their flexibility and broader applicability.
+Recent work has explored intrinsic VCoT, where unified large multimodal models (LMMs) natively generate visual thoughts as an integral part of their reasoning process <cite class="ltx_cite ltx_citemacro_citep">(Cheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib4" title="">2025</a>; Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib19" title="">2025b</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib18" title="">a</a>; Chern et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib5" title="">2025</a>)</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p">Though promising, these previous attempts have been confined to simple domains and have yet to succeed in mathematics due to two key challenges. First, current unified LMMs lack the capability to generate and iteratively edit the high-fidelity mathematical diagrams required for precise reasoning. The generated visuals are often geometrically incorrect, rendering them useless for logical deduction, as shown with BAGEL-Zebra-CoT <cite class="ltx_cite ltx_citemacro_citep">(Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib18" title="">2025a</a>)</cite> in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S0.F1" title="Figure 1 ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a>. Second, and more fundamentally, models lack the procedural knowledge to employ visual aids as a strategic component of their reasoning process—the complex decision of determining <em class="ltx_emph ltx_font_italic">when</em> to draw, <em class="ltx_emph ltx_font_italic">what</em> to draw, and <em class="ltx_emph ltx_font_italic">how</em> to leverage the visualization for subsequent logical deduction. This strategic failure is evident even in advanced models like Nano-Banana <cite class="ltx_cite ltx_citemacro_citep">(Comanici et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib6" title="">2025</a>)</cite>, shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S0.F1" title="Figure 1 ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a>, whose generated visual acts more as a flawed decoration than an integral reasoning step, ultimately failing to uncover the key insight needed for the solution.</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p">To this end, we argue that addressing these challenges requires models capable of interleaving textual deduction with the creation and modification of visual aids. Accordingly, we introduce <span class="ltx_text ltx_font_bold">MathCanvas</span>, a comprehensive framework designed to endow unified LMMs with intrinsic VCoT capabilities for complex mathematical problem-solving.
+Our approach is structured around two complementary phases: <em class="ltx_emph ltx_font_italic">Visual Manipulation</em> and <em class="ltx_emph ltx_font_italic">Strategic Visual-Aided Reasoning</em>.</p>
+</div>
+<div class="ltx_para" id="S1.p5">
+<p class="ltx_p">The first phase, <em class="ltx_emph ltx_font_italic">Visual Manipulation</em>, focuses on equipping the model with foundational visual synthesis and editing skills. To achieve this, we construct a new million-scale pretraining corpus specifically for mathematical diagrams. This resource comprises two parts: MathCanvas-Edit, containing 5.2M step-by-step diagram editing instruction pairs generated via a hybrid pipeline that combines LLM-driven mining with programmatic synthesis, and MathCanvas-Imagen, with 10M caption-to-diagram pairs. Pretraining on them imparts the robust diagram generation and manipulation abilities that form the bedrock of our approach.</p>
+</div>
+<div class="ltx_para" id="S1.p6">
+<p class="ltx_p">The second phase, <em class="ltx_emph ltx_font_italic">Strategic Visual-Aided Reasoning</em>, aims to teach the model how to interleave diagrammatic actions with its textual reasoning steps. For this purpose, we curate <span class="ltx_text ltx_font_bold">MathCanvas-Instruct</span>, the first large-scale dataset for interleaved visual–textual mathematical reasoning. It contains 219K training examples, where each solution is represented as an interleaved sequence of textual reasoning and corresponding visual steps. As demonstrated in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S0.F1" title="Figure 1 ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a>, training on MathCanvas-Instruct enables the model to learn how to coordinate diagrammatic actions with reasoning trajectories to successfully solve complex problems.</p>
+</div>
+<div class="ltx_para" id="S1.p7">
+<p class="ltx_p">Furthermore, to rigorously evaluate models’ capabilities in visual–textual mathematical reasoning, we introduce a dedicated benchmark test set <span class="ltx_text ltx_font_bold">MathCanvas-Bench</span> comprising 3K carefully curated problems. Each test instance requires the solver to produce coherent interleaved reasoning and visual outputs. We benchmarked 20 leading LMMs on this dataset, revealing substantial performance gaps and establishing it as a challenging and comprehensive testbed for future research on Visual Chain-of-Thought reasoning.</p>
+</div>
+<figure class="ltx_figure" id="S1.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="347" id="S1.F2.g1" src="x2.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>The curation pipeline for the MathCanvas-Edit and MathCanvas-Imagen dataset.</figcaption>
+</figure>
+<div class="ltx_para" id="S1.p8">
+<p class="ltx_p">In summary, our contributions are as follows:</p>
+<ul class="ltx_itemize" id="S1.I1">
+<li class="ltx_item" id="S1.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S1.I1.i1.p1">
+<p class="ltx_p">We propose MathCanvas, a comprehensive framework that enables LMMs to perform <span class="ltx_text ltx_font_bold">intrinsic VCoT</span> reasoning for complex mathematical problem solving.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S1.I1.i2.p1">
+<p class="ltx_p">We construct two large-scale corpora tailored for our two-phase approach: a 15.2M-pair pretraining dataset for <em class="ltx_emph ltx_font_italic">Visual Manipulation</em>, and a 219K-example fine-tuning dataset for <em class="ltx_emph ltx_font_italic">Strategic Visual-Aided Reasoning</em>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S1.I1.i3.p1">
+<p class="ltx_p">We further introduce a dedicated MathCanvas-Bench test set with 3K problems and benchmark 20 leading LMMs on it, revealing substantial deficiencies and establishing a challenging evaluation bed for future research.</p>
+</div>
+</li>
+<li class="ltx_item" id="S1.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S1.I1.i4.p1">
+<p class="ltx_p">Experiments show that our model trained under the MathCanvas framework achieves a <span class="ltx_text ltx_font_bold">86% relative improvement</span> over strong LMM baselines on MathCanvas-Bench, demonstrating the effectiveness of our approach in unlocking intrinsic VCoT capabilities.</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Related Work</h2>
+<section class="ltx_paragraph" id="S2.SS0.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Mathematical Reasoning with Large Multimodal Models.</h5>
+<div class="ltx_para" id="S2.SS0.SSS0.Px1.p1">
+<p class="ltx_p">The remarkable success of text-only LLMs in mathematical reasoning, often driven by sophisticated chain-of-thought prompting <cite class="ltx_cite ltx_citemacro_citep">(Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib46" title="">2023</a>; Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib48" title="">2024</a>; Yue et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib51" title="">2023</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib41" title="">2023</a>; Shao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib35" title="">2024b</a>)</cite>, has naturally spurred interest in extending these capabilities to the multimodal domain. Initial efforts in this area have largely involved adapting LMMs by enhancing vision-text alignment on domain-specific data and then fine-tuning on mathematical question-answer pairs <cite class="ltx_cite ltx_citemacro_citep">(Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib14" title="">2025a</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib40" title="">2025a</a>; Zhuang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib54" title="">2024</a>; Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib53" title="">2024b</a>; Guo et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib16" title="">2025</a>)</cite>. While subsequent work has advanced the state of the art with techniques like reinforcement learning <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib49" title="">2025</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib42" title="">2025b</a>; Duan et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib10" title="">2025</a>; Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib47" title="">2025</a>)</cite>, these models remain fundamentally text-centric. While they effectively interpret visual information in the input, they largely neglect vision as an active, generative component of the reasoning process itself.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S2.SS0.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Visual Chain-of-Thought.</h5>
+<div class="ltx_para" id="S2.SS0.SSS0.Px2.p1">
+<p class="ltx_p">Unlike various textual chain-of-thought <cite class="ltx_cite ltx_citemacro_citep">(Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib46" title="">2023</a>; Fang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib12" title="">2025a</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib13" title="">b</a>)</cite>, visual chain-of-thought aims to bridge this gap by integrating the generation of visual aids directly into the reasoning process. Existing approaches follow two main lines. The first leverages external tools, such as vision models to extract image details <cite class="ltx_cite ltx_citemacro_citep">(Shao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib34" title="">2024a</a>; Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib3" title="">2025</a>; Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib17" title="">2024</a>; OpenAI, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib30" title="">2025b</a>; Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib15" title="">2025b</a>)</cite> or code interpreters to add auxiliary structures <cite class="ltx_cite ltx_citemacro_citep">(Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib17" title="">2024</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib43" title="">2025c</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib44" title="">d</a>)</cite>. This approach, however, is constrained, as these tools are either non-generative or lack general applicability due to rigidity. The second line explores intrinsic VCoT, where models natively generate visual thoughts as an integral part of their reasoning <cite class="ltx_cite ltx_citemacro_citep">(Cheng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib4" title="">2025</a>; Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib19" title="">2025b</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib20" title="">c</a>; Chern et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib5" title="">2025</a>; Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib18" title="">2025a</a>)</cite>. Despite its promise, this approach has so far been demonstrated primarily in simpler domains like spatial games and struggles to produce the precise, logically consistent diagrams required for complex mathematical reasoning.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S2.SS0.SSS0.Px3">
+<h5 class="ltx_title ltx_title_paragraph">Datasets and Benchmarks for Multimodal Mathematical Reasoning.</h5>
+<div class="ltx_para" id="S2.SS0.SSS0.Px3.p1">
+<p class="ltx_p">The progress in visual-mathematical reasoning is largely driven by the evolution of its benchmarks. While foundational datasets like Geometry3K <cite class="ltx_cite ltx_citemacro_citep">(Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib25" title="">2021</a>)</cite> and ScienceQA <cite class="ltx_cite ltx_citemacro_citep">(Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib26" title="">2022</a>)</cite> established the task, recent challenging benchmarks such as MMMU <cite class="ltx_cite ltx_citemacro_citep">(Yue et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib50" title="">2024</a>)</cite>, MathVista <cite class="ltx_cite ltx_citemacro_citep">(Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib24" title="">2024</a>)</cite>, Mathvision <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib39" title="">2024</a>)</cite>, and MathVerse <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib52" title="">2024a</a>)</cite>, among others <cite class="ltx_cite ltx_citemacro_citep">(Qiao et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib32" title="">2024</a>; Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib45" title="">2025e</a>; Sun et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib36" title="">2024</a>)</cite>, have pushed the limits of LMMs’ visual reasoning. However, a fundamental limitation persists: these benchmarks consist of static problem-solution pairs and lack the step-by-step <span class="ltx_text ltx_font_italic">visual</span> demonstrations required to train models for dynamic, process-oriented reasoning. This is precisely the gap our work addresses with the introduction of MathCanvas-Instruct and the MathCanvas-Bench benchmark.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Method</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p">In this section, we detail the methodology behind MathCanvas. We first describe the construction of our large-scale training corpora for visual manipulation and strategic reasoning (<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1" title="3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.1</span></a>). We then introduce MathCanvas-Bench, a dedicated benchmark for rigorous evaluation (<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS2" title="3.2 The MathCanvas-Bench Evaluation Benchmark ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.2</span></a>). Finally, we present our two-stage training recipe that leverages these resources to instill intrinsic VCoT capabilities in a unified LMM (<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS3" title="3.3 Two-Stage Training Recipe ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.3</span></a>).</p>
+</div>
+<section class="ltx_subsection" id="S3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.1 </span>Training Corpora Construction</h3>
+<section class="ltx_subsubsection" id="S3.SS1.SSS1">
+<h4 class="ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">3.1.1 </span>Million-scale Pretraining Corpus</h4>
+<div class="ltx_para" id="S3.SS1.SSS1.p1">
+<p class="ltx_p">To endow unified LMMs with the foundational visual synthesis and editing capabilities required for mathematical reasoning, we construct a comprehensive million-scale pretraining corpus comprising two complementary components: MathCanvas-Edit for diagram editing and MathCanvas-Imagen for diagram generation. The overall construction pipeline is shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S1.F2" title="Figure 2 ‣ 1 Introduction ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">2</span></a>.</p>
+</div>
+<section class="ltx_paragraph" id="S3.SS1.SSS1.Px1">
+<h5 class="ltx_title ltx_title_paragraph">MathCanvas-Edit </h5>
+<div class="ltx_para" id="S3.SS1.SSS1.Px1.p1">
+<p class="ltx_p">is designed to teach models how to iteratively modify mathematical diagrams through step-by-step transformations. We construct this dataset through a hybrid pipeline that combines complex competition-level geometry problems with systematically generated simple geometric figures, yielding a total of 5.2M edit trajectories.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS1.Px1.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Competition-Level Mining.</span> We start with 128 geometry problems from mathematical competitions to serve as realistic seed configurations. Using these seeds, we employ the AlphaGeometry LLM <cite class="ltx_cite ltx_citemacro_citep">(Trinh et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib38" title="">2024</a>)</cite> with beam search to generate numerous auxiliary line drawing methods for each problem. We then filter for geometrically invalid constructions and render the corresponding diagram sequences, where each step is an edit operation (e.g., adding an auxiliary line, marking an angle). This iterative process yields 4.2M edit trajectories capturing the complexity of competition-level reasoning. To ensure visual diversity from this limited set of seeds, the rendering of each trajectory is controlled by a unique random seed, varying visual attributes like orientation and line styles.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS1.Px1.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Foundational Structure Generation.</span> While competition problems provide realism, they tend toward complexity that may not adequately cover fundamental editing operations. To address this, we construct a complementary set of simple geometric figures using AlphaGeometry’s formal language. We first define a basic geometric primitive set (e.g., points, lines, circles) and a geometric relation set (e.g., circumcenter, incenter, parallel), the full details of which are provided in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS1" title="B.1 MathCanvas-Edit and MathCanvas-Imagen ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">B.1</span></a>. Then we develop an automated algorithm that randomly and incrementally adds geometric primitives and relations to these basic structures, creating progressively more complex diagrams. Invalid or degenerate configurations are filtered out through geometric constraint checking. By leveraging different random seeds during rendering, we obtain 1M additional edit trajectories that provide systematic coverage of fundamental geometric operations after three iterations of this synthetic generation process.</p>
+</div>
+<figure class="ltx_figure" id="S3.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="229" id="S3.F3.g1" src="x3.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Statistical analysis of the MathCanvas-Bench test set. <span class="ltx_text ltx_font_bold">Left:</span> Knowledge types distribution. <span class="ltx_text ltx_font_bold">Middle:</span> Distribution of questions and solutions containing varying numbers of images. <span class="ltx_text ltx_font_bold">Right:</span> Text length distribution of questions and solutions (measured in text tokens).</figcaption>
+</figure>
+</section>
+<section class="ltx_paragraph" id="S3.SS1.SSS1.Px2">
+<h5 class="ltx_title ltx_title_paragraph">MathCanvas-Imagen </h5>
+<div class="ltx_para" id="S3.SS1.SSS1.Px2.p1">
+<p class="ltx_p">focuses on teaching models to generate mathematical diagrams from textual descriptions. We construct it by aggregating and processing data from three complementary sources, resulting in 10M caption-to-diagram pairs.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS1.Px2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Re-purposing from MathCanvas-Edit.</span> We first leverage the edit trajectories in MathCanvas-Edit, extracting caption-to-diagram pairs from each editing step. After deduplication based on visual and textual similarity, we obtain 5.4M diverse caption-to-diagram pairs that inherently align with the types of diagrams needed for mathematical reasoning.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS1.Px2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Augmenting with Code-derived Captions.</span> To further scale our dataset, we utilize the ImgCode-8.6M <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib40" title="">2025a</a>)</cite> dataset, which contains programmatically generated mathematical diagrams paired with source code. We first apply quality filtering to remove corrupted or low-quality images. We then employ GPT-4.1-mini to generate natural language captions by taking image-code pairs as input, producing descriptions that capture both the visual content and mathematical semantics of each diagram. This process yields 4M high-quality caption-to-diagram pairs with rich, descriptive captions with diverse mathematical diagrams.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.SSS1.Px2.p4">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Incorporating Public Datasets.</span> Finally, we incorporate 612K caption-to-diagram pairs from existing public resources, including MAVIS <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib53" title="">2024b</a>)</cite> and TR-CoT <cite class="ltx_cite ltx_citemacro_citep">(Deng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib9" title="">2025b</a>)</cite>, which provide additional diversity in caption styles and diagram types, complementing our dataset.</p>
+</div>
+<div class="ltx_para" id="S3.SS1.SSS1.Px2.p5">
+<p class="ltx_p">Through this comprehensive construction process, the pretraining corpus provides a robust foundation for pretraining models on both diagram generation and editing, establishing the essential visual capabilities needed for intrinsic VCoT in mathematical reasoning.</p>
+</div>
+</section>
+</section>
+<section class="ltx_subsubsection" id="S3.SS1.SSS2">
+<h4 class="ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">3.1.2 </span>MathCanvas-Instruct</h4>
+<div class="ltx_para" id="S3.SS1.SSS2.p1">
+<p class="ltx_p">To equip models with the ability to strategically interleave visual synthesis and editing actions with their textual reasoning process, we introduce MathCanvas-Instruct, the first large-scale dataset specifically designed for interleaved visual-textual mathematical reasoning.</p>
+</div>
+<section class="ltx_paragraph" id="S3.SS1.SSS2.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Dataset Construction</h5>
+<div class="ltx_para" id="S3.SS1.SSS2.Px1.p1">
+<p class="ltx_p">We begin by gathering 632K multimodal mathematics problems and solutions from a wide array of middle school and high school textbooks, exams, and websites. From this initial pool, we implement a rigorous multi-stage filtering pipeline to ensure data quality and relevance. First, we employ GPT-5 to analyze the problems, filtering out examples where the provided images served no role in the reasoning process. This step also standardized all mathematical formulas into LaTeX format, resulting in a refined set of 367K problems. A second round of filtering, also powered by GPT-5, removes problems that contained errors, lacked explicit answers, featured low-quality or unclear images, or consisted solely of drawing tasks. This left us with 303K high-quality problems.</p>
+</div>
+<div class="ltx_para" id="S3.SS1.SSS2.Px1.p2">
+<p class="ltx_p">To ensure the novelty and diversity of the dataset, we then perform both text and image deduplication, which yielded 222K unique problem-solution pairs. The images in the remaining dataset underwent a quality enhancement step using a super-resolution model, SwinIR <cite class="ltx_cite ltx_citemacro_citep">(Liang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib21" title="">2021</a>)</cite>, to improve clarity and detail before being resized to a uniform 512x512 resolution. Finally, GPT-4.1 is used to classify all problems into a hierarchical taxonomy of 8 major categories and fine-grained subcategories.
+This collection is then partitioned to form our evaluation benchmark, MathCanvas-Bench, with the remaining 219K examples constituting the MathCanvas-Instruct training set. Further statistics and examples for MathCanvas-Instruct are presented in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.SS2" title="B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">B.2</span></a>.</p>
+</div>
+<figure class="ltx_figure" id="S3.F4"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="366" id="S3.F4.g1" src="x4.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>The two-stage training recipe for MathCanvas. <span class="ltx_text ltx_font_bold">(Left) Stage I: Visual Manipulation.</span> The model’s Generation Expert is pretrained on our MathCanvas-Edit and MathCanvas-Imagen corpora to instill foundational diagram generation and editing skills.
+<span class="ltx_text ltx_font_bold">(Right) Stage II: Strategic Visual-Aided Reasoning.</span> The entire model is then fine-tuned on MathCanvas-Instruct to learn the strategic interleaving of visual actions with textual reasoning.</figcaption>
+</figure>
+</section>
+</section>
+</section>
+<section class="ltx_subsection" id="S3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.2 </span>The MathCanvas-Bench Evaluation Benchmark</h3>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Benchmark Construction</h5>
+<div class="ltx_para" id="S3.SS2.SSS0.Px1.p1">
+<p class="ltx_p">We construct MathCanvas-Bench by sampling 3K problems from the 222K-pair collection described in Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1.SSS2" title="3.1.2 MathCanvas-Instruct ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.1.2</span></a>.
+The construction process involves three key steps. First, we exclude all multiple-choice questions to ensure that evaluation relies on generative reasoning rather than random guessing.
+Second, to create a balanced test set, we perform weighted sampling across problem categories, setting the sampling weight for each category to the 0.7 exponential power of its proportion. This strategy increases the representation of less common problem types.
+Finally, to prevent data leakage, we remove any question from the remaining 219K training set that has a 5-gram Jaccard similarity score higher than 0.4 with any problem in MathCanvas-Bench. This process helps ensure a fair evaluation of model generalization.
+Further statistics on the final benchmark are shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.F3" title="Figure 3 ‣ MathCanvas-Edit ‣ 3.1.1 Million-scale Pretraining Corpus ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3</span></a>.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Evaluation Protocol</h5>
+<div class="ltx_para" id="S3.SS2.SSS0.Px2.p1">
+<p class="ltx_p">Our evaluation protocol relies on GPT-4.1 to ensure consistent and scalable assessment. For each problem, GPT-4.1 is tasked with extracting the final answers for every sub-question from the model’s output and comparing them against the ground-truth answers. The specific prompt templates used for this process are detailed in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3" title="Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">C</span></a>. We employ two distinct metrics to score performance:</p>
+</div>
+<div class="ltx_para" id="S3.SS2.SSS0.Px2.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Complete Accuracy:</span> A binary score is awarded. A model receives 1 point only if the answers to all sub-questions are correct, and 0 otherwise. This metric evaluates the model’s ability to solve a problem completely.</p>
+</div>
+<div class="ltx_para" id="S3.SS2.SSS0.Px2.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Weighted Scoring:</span> To provide a more granular evaluation of partial progress, this metric assigns exponentially increasing weights to each sub-question. The precise formula for this weighting scheme is detailed in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3" title="Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">C</span></a>. The final score is the sum of the weights of the correctly answered sub-questions, a method that allows us to assess the model’s accuracy on intermediate steps within the reasoning chain.</p>
+</div>
+<div class="ltx_para" id="S3.SS2.SSS0.Px2.p4">
+<p class="ltx_p">Thus, MathCanvas-Bench provides a rigorous and challenging testbed for evaluating interleaved image-textual reasoning capabilities.</p>
+</div>
+<figure class="ltx_table" id="S3.T1">
+<div class="ltx_inline-block ltx_transformed_outer" style="width:345.0pt;height:160.6pt;vertical-align:-79.0pt;"><span class="ltx_transformed_inner" style="transform:translate(-166.0pt,77.3pt) scale(0.509659134211623,0.509659134211623) ;">
+<table class="ltx_tabular ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Model</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Size</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Think</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_tt" colspan="2"><span class="ltx_text ltx_font_bold">Overall</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Algebra</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2">
+<span class="ltx_inline-block ltx_parbox ltx_align_middle" style="width:37.0pt;">
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Analytic</span></span>
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Geom.</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2">
+<span class="ltx_inline-block ltx_parbox ltx_align_middle" style="width:37.0pt;">
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Calc &amp;</span></span>
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Vector</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2">
+<span class="ltx_inline-block ltx_parbox ltx_align_middle" style="width:37.0pt;">
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Plane</span></span>
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Geom.</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2">
+<span class="ltx_inline-block ltx_parbox ltx_align_middle" style="width:37.0pt;">
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Solid</span></span>
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Geom.</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Stats.</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2">
+<span class="ltx_inline-block ltx_parbox ltx_align_middle" style="width:37.0pt;">
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Transf.</span></span>
+<span class="ltx_p ltx_align_center"><span class="ltx_text ltx_font_bold">Geom.</span></span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Trig.</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">Complete</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span class="ltx_text ltx_font_bold">Weighted</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="13"><span class="ltx_text ltx_font_italic">Closed-source (unified) LMMs</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">Gemini-2.5-Pro</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">✓</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">47.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">58.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">68.0</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">59.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">60.2</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">54.8</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">48.7</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">64.5</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">58.5</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">69.9</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Gemini-2.5-Flash</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">39.3</td>
+<td class="ltx_td ltx_align_center ltx_border_r">49.5</td>
+<td class="ltx_td ltx_align_center">63.2</td>
+<td class="ltx_td ltx_align_center">56.5</td>
+<td class="ltx_td ltx_align_center">54.6</td>
+<td class="ltx_td ltx_align_center">40.7</td>
+<td class="ltx_td ltx_align_center">40.7</td>
+<td class="ltx_td ltx_align_center">61.1</td>
+<td class="ltx_td ltx_align_center">46.8</td>
+<td class="ltx_td ltx_align_center">64.6</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Gemini-2.0-Flash</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">21.2</td>
+<td class="ltx_td ltx_align_center ltx_border_r">32.6</td>
+<td class="ltx_td ltx_align_center">39.1</td>
+<td class="ltx_td ltx_align_center">32.6</td>
+<td class="ltx_td ltx_align_center">38.9</td>
+<td class="ltx_td ltx_align_center">31.1</td>
+<td class="ltx_td ltx_align_center">25.6</td>
+<td class="ltx_td ltx_align_center">51.4</td>
+<td class="ltx_td ltx_align_center">28.1</td>
+<td class="ltx_td ltx_align_center">38.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">GPT-4.1</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">19.0</td>
+<td class="ltx_td ltx_align_center ltx_border_r">30.0</td>
+<td class="ltx_td ltx_align_center">40.4</td>
+<td class="ltx_td ltx_align_center">30.7</td>
+<td class="ltx_td ltx_align_center">37.1</td>
+<td class="ltx_td ltx_align_center">24.1</td>
+<td class="ltx_td ltx_align_center">25.1</td>
+<td class="ltx_td ltx_align_center">54.0</td>
+<td class="ltx_td ltx_align_center">21.5</td>
+<td class="ltx_td ltx_align_center">42.5</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">GPT-4.1-mini</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">14.6</td>
+<td class="ltx_td ltx_align_center ltx_border_r">26.3</td>
+<td class="ltx_td ltx_align_center">35.7</td>
+<td class="ltx_td ltx_align_center">30.5</td>
+<td class="ltx_td ltx_align_center">36.5</td>
+<td class="ltx_td ltx_align_center">22.0</td>
+<td class="ltx_td ltx_align_center">22.4</td>
+<td class="ltx_td ltx_align_center">24.8</td>
+<td class="ltx_td ltx_align_center">19.7</td>
+<td class="ltx_td ltx_align_center">30.3</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">GPT-4o</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">9.9</td>
+<td class="ltx_td ltx_align_center ltx_border_r">19.4</td>
+<td class="ltx_td ltx_align_center">21.6</td>
+<td class="ltx_td ltx_align_center">17.7</td>
+<td class="ltx_td ltx_align_center">21.8</td>
+<td class="ltx_td ltx_align_center">19.5</td>
+<td class="ltx_td ltx_align_center">18.6</td>
+<td class="ltx_td ltx_align_center">17.4</td>
+<td class="ltx_td ltx_align_center">13.2</td>
+<td class="ltx_td ltx_align_center">23.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">GPT-5</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">43.5</td>
+<td class="ltx_td ltx_align_center ltx_border_r">51.4</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">68.7</span></td>
+<td class="ltx_td ltx_align_center">55.5</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">64.2</span></td>
+<td class="ltx_td ltx_align_center">45.6</td>
+<td class="ltx_td ltx_align_center">36.1</td>
+<td class="ltx_td ltx_align_center">64.5</td>
+<td class="ltx_td ltx_align_center">42.7</td>
+<td class="ltx_td ltx_align_center">66.5</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Claude-Sonnet-4</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">25.0</td>
+<td class="ltx_td ltx_align_center ltx_border_r">37.8</td>
+<td class="ltx_td ltx_align_center">44.8</td>
+<td class="ltx_td ltx_align_center">38.9</td>
+<td class="ltx_td ltx_align_center">49.3</td>
+<td class="ltx_td ltx_align_center">33.8</td>
+<td class="ltx_td ltx_align_center">33.0</td>
+<td class="ltx_td ltx_align_center">46.9</td>
+<td class="ltx_td ltx_align_center">30.3</td>
+<td class="ltx_td ltx_align_center">47.6</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Seed-1.6-Thinking</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">44.1</td>
+<td class="ltx_td ltx_align_center ltx_border_r">55.2</td>
+<td class="ltx_td ltx_align_center">67.7</td>
+<td class="ltx_td ltx_align_center">57.5</td>
+<td class="ltx_td ltx_align_center">55.9</td>
+<td class="ltx_td ltx_align_center">52.2</td>
+<td class="ltx_td ltx_align_center">45.0</td>
+<td class="ltx_td ltx_align_center">65.1</td>
+<td class="ltx_td ltx_align_center">56.8</td>
+<td class="ltx_td ltx_align_center">60.7</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Qwen3-VL-Plus</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">40.9</td>
+<td class="ltx_td ltx_align_center ltx_border_r">51.5</td>
+<td class="ltx_td ltx_align_center">67.0</td>
+<td class="ltx_td ltx_align_center">54.6</td>
+<td class="ltx_td ltx_align_center">56.9</td>
+<td class="ltx_td ltx_align_center">45.9</td>
+<td class="ltx_td ltx_align_center">42.0</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#F0BEBE;"><span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">66.7</span></td>
+<td class="ltx_td ltx_align_center">49.3</td>
+<td class="ltx_td ltx_align_center">58.9</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Nano-Banana</td>
+<td class="ltx_td ltx_align_center ltx_border_r">-</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">33.2</td>
+<td class="ltx_td ltx_align_center ltx_border_r">43.7</td>
+<td class="ltx_td ltx_align_center">55.4</td>
+<td class="ltx_td ltx_align_center">50.2</td>
+<td class="ltx_td ltx_align_center">51.8</td>
+<td class="ltx_td ltx_align_center">34.5</td>
+<td class="ltx_td ltx_align_center">36.6</td>
+<td class="ltx_td ltx_align_center">56.7</td>
+<td class="ltx_td ltx_align_center">39.4</td>
+<td class="ltx_td ltx_align_center">60.4</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_t" colspan="13"><span class="ltx_text ltx_font_italic">Open-source (unified) LMMs</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">Qwen-2.5-VL-7B</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">7B</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">✗</td>
+<td class="ltx_td ltx_align_center ltx_border_t">8.9</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">18.7</td>
+<td class="ltx_td ltx_align_center ltx_border_t">19.5</td>
+<td class="ltx_td ltx_align_center ltx_border_t">19.0</td>
+<td class="ltx_td ltx_align_center ltx_border_t">19.2</td>
+<td class="ltx_td ltx_align_center ltx_border_t">20.6</td>
+<td class="ltx_td ltx_align_center ltx_border_t">18.7</td>
+<td class="ltx_td ltx_align_center ltx_border_t">10.7</td>
+<td class="ltx_td ltx_align_center ltx_border_t">13.9</td>
+<td class="ltx_td ltx_align_center ltx_border_t">15.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Qwen-2.5-VL-32B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">32B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">15.4</td>
+<td class="ltx_td ltx_align_center ltx_border_r">27.6</td>
+<td class="ltx_td ltx_align_center">29.8</td>
+<td class="ltx_td ltx_align_center">27.4</td>
+<td class="ltx_td ltx_align_center">27.8</td>
+<td class="ltx_td ltx_align_center">27.4</td>
+<td class="ltx_td ltx_align_center">27.2</td>
+<td class="ltx_td ltx_align_center">27.9</td>
+<td class="ltx_td ltx_align_center">20.1</td>
+<td class="ltx_td ltx_align_center">30.5</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Qwen-2.5-VL-72B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">72B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">21.1</td>
+<td class="ltx_td ltx_align_center ltx_border_r">32.8</td>
+<td class="ltx_td ltx_align_center">30.6</td>
+<td class="ltx_td ltx_align_center">19.5</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">36.4</span></td>
+<td class="ltx_td ltx_align_center">34.5</td>
+<td class="ltx_td ltx_align_center">33.5</td>
+<td class="ltx_td ltx_align_center">23.9</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">33.6</span></td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">48.9</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Gemma-3-27b-it</td>
+<td class="ltx_td ltx_align_center ltx_border_r">27B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">15.8</td>
+<td class="ltx_td ltx_align_center ltx_border_r">26.6</td>
+<td class="ltx_td ltx_align_center">31.3</td>
+<td class="ltx_td ltx_align_center">28.4</td>
+<td class="ltx_td ltx_align_center">34.4</td>
+<td class="ltx_td ltx_align_center">25.8</td>
+<td class="ltx_td ltx_align_center">21.0</td>
+<td class="ltx_td ltx_align_center">40.0</td>
+<td class="ltx_td ltx_align_center">21.0</td>
+<td class="ltx_td ltx_align_center">26.9</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">InternVL3.5-8B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">8B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">16.7</td>
+<td class="ltx_td ltx_align_center ltx_border_r">26.4</td>
+<td class="ltx_td ltx_align_center">32.3</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">33.8</span></td>
+<td class="ltx_td ltx_align_center">33.8</td>
+<td class="ltx_td ltx_align_center">24.2</td>
+<td class="ltx_td ltx_align_center">26.9</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">43.7</span></td>
+<td class="ltx_td ltx_align_center">16.2</td>
+<td class="ltx_td ltx_align_center">14.9</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">InternVL3.5-30B-A3B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">30B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">11.7</td>
+<td class="ltx_td ltx_align_center ltx_border_r">22.2</td>
+<td class="ltx_td ltx_align_center">22.2</td>
+<td class="ltx_td ltx_align_center">19.9</td>
+<td class="ltx_td ltx_align_center">15.1</td>
+<td class="ltx_td ltx_align_center">24.9</td>
+<td class="ltx_td ltx_align_center">24.3</td>
+<td class="ltx_td ltx_align_center">22.1</td>
+<td class="ltx_td ltx_align_center">17.4</td>
+<td class="ltx_td ltx_align_center">18.4</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">Keye-VL-1.5-8B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">8B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✓</td>
+<td class="ltx_td ltx_align_center">17.1</td>
+<td class="ltx_td ltx_align_center ltx_border_r">27.0</td>
+<td class="ltx_td ltx_align_center" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">33.1</span></td>
+<td class="ltx_td ltx_align_center">28.0</td>
+<td class="ltx_td ltx_align_center">26.2</td>
+<td class="ltx_td ltx_align_center">27.0</td>
+<td class="ltx_td ltx_align_center">23.6</td>
+<td class="ltx_td ltx_align_center">29.5</td>
+<td class="ltx_td ltx_align_center">20.9</td>
+<td class="ltx_td ltx_align_center">26.3</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">BAGEL</td>
+<td class="ltx_td ltx_align_center ltx_border_r">7B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">8.3</td>
+<td class="ltx_td ltx_align_center ltx_border_r">18.5</td>
+<td class="ltx_td ltx_align_center">18.1</td>
+<td class="ltx_td ltx_align_center">13.1</td>
+<td class="ltx_td ltx_align_center">17.1</td>
+<td class="ltx_td ltx_align_center">20.8</td>
+<td class="ltx_td ltx_align_center">23.0</td>
+<td class="ltx_td ltx_align_center">10.9</td>
+<td class="ltx_td ltx_align_center">19.4</td>
+<td class="ltx_td ltx_align_center">13.3</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">BAGEL‑Zebra‑CoT</td>
+<td class="ltx_td ltx_align_center ltx_border_r">7B</td>
+<td class="ltx_td ltx_align_center ltx_border_r">✗</td>
+<td class="ltx_td ltx_align_center">8.0</td>
+<td class="ltx_td ltx_align_center ltx_border_r">16.6</td>
+<td class="ltx_td ltx_align_center">18.0</td>
+<td class="ltx_td ltx_align_center">15.1</td>
+<td class="ltx_td ltx_align_center">15.6</td>
+<td class="ltx_td ltx_align_center">18.0</td>
+<td class="ltx_td ltx_align_center">16.8</td>
+<td class="ltx_td ltx_align_center">20.8</td>
+<td class="ltx_td ltx_align_center">11.1</td>
+<td class="ltx_td ltx_align_center">14.1</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t"><span class="ltx_text ltx_font_bold">BAGEL-Canvas</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">7B</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">✗</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">21.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">34.4</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">29.9</td>
+<td class="ltx_td ltx_align_center ltx_border_t">27.2</td>
+<td class="ltx_td ltx_align_center ltx_border_t">17.9</td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">40.0</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t" style="--ltx-bg-color:#BED2EB;"><span class="ltx_text" style="--ltx-bg-color:#BED2EB;">35.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t">23.2</td>
+<td class="ltx_td ltx_align_center ltx_border_t">29.3</td>
+<td class="ltx_td ltx_align_center ltx_border_t">40.4</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb ltx_border_r">
+<math alttext="\Delta" class="ltx_Math" display="inline" id="S3.T1.m1" intent=":literal"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math> Over Base Model</td>
+<td class="ltx_td ltx_border_bb ltx_border_r"></td>
+<td class="ltx_td ltx_border_bb ltx_border_r"></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+13.6</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+15.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+11.8</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+14.1</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+0.8</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+19.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+12.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+12.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+9.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+27.1</span></td>
+</tr>
+</table>
+</span></div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 1: </span>Comparison of model performances across all mathematical subjects. The best <span class="ltx_text" style="--ltx-bg-color:#F0BEBE;">closed-source</span> and <span class="ltx_text" style="--ltx-bg-color:#BED2EB;">open-source</span> highest accuracy of LMMs are marked in red and blue, respectively.</figcaption>
+</figure>
+</section>
+</section>
+<section class="ltx_subsection" id="S3.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.3 </span>Two-Stage Training Recipe</h3>
+<div class="ltx_para" id="S3.SS3.p1">
+<p class="ltx_p">We implement our framework on BAGEL <cite class="ltx_cite ltx_citemacro_citep">(Deng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib8" title="">2025a</a>)</cite>, a state-of-the-art unified LMM. Its architecture features two distinct transformer experts—one for understanding and one for generation—integrated within a single, unified model structure. This design provides a strong foundation for our approach. Our MathCanvas recipe enhances this architecture through a two-stage process, as illustrated in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.F4" title="Figure 4 ‣ Dataset Construction ‣ 3.1.2 MathCanvas-Instruct ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">4</span></a>: a foundational Stage I: Visual Manipulation, followed by Stage II: Strategic Visual-Aided Reasoning.</p>
+</div>
+<section class="ltx_paragraph" id="S3.SS3.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Stage I: Visual Manipulation</h5>
+<div class="ltx_para" id="S3.SS3.SSS0.Px1.p1">
+<p class="ltx_p">The goal of this foundational stage is to instill robust visual synthesis and editing skills for mathematical diagrams. We pretrain the model on a mixture of our 5.2M-trajectory MathCanvas-Edit and 10M-pair MathCanvas-Imagen datasets. To foster iterative editing capabilities, each editing trajectory is structured as a continuous sequence of 2-4 diagram transformations. To preserve the model’s inherent reasoning abilities, we freeze the entire understanding pathway and exclusively train the Generation Expert via a Rectified-Flow Loss <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib22" title="">2022</a>)</cite> on the diagram generation task (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.F4" title="Figure 4 ‣ Dataset Construction ‣ 3.1.2 MathCanvas-Instruct ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">4</span></a>, Stage I). This approach builds a strong visual foundation without catastrophic forgetting of its core understanding capabilities.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S3.SS3.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Stage II: Strategic Visual-Aided Reasoning</h5>
+<div class="ltx_para" id="S3.SS3.SSS0.Px2.p1">
+<p class="ltx_p">With the visual foundation established, Stage II fine-tunes the model to intelligently interleave its drawing and reasoning faculties using our interleaved image-text dataset, MathCanvas-Instruct. To enable the model to strategically decide <span class="ltx_text ltx_font_italic">when</span> to draw, it is trained on a token prediction task. Following each text segment (marked by the <span class="ltx_text ltx_font_typewriter">&lt;im_end&gt;</span> token), the model must predict whether to generate the <span class="ltx_text ltx_font_typewriter">&lt;|vision_start|&gt;</span> token to initiate a drawing, or the <span class="ltx_text ltx_font_typewriter">&lt;|endoftext|&gt;</span> token to conclude the response.</p>
+</div>
+<div class="ltx_para" id="S3.SS3.SSS0.Px2.p2">
+<p class="ltx_p">To inform <span class="ltx_text ltx_font_italic">how</span> the model draws and understands, we process input and output images differently. All images provided in the question are encoded into clean VAE and ViT tokens, serving as visual context. For images within the solution, which the model must generate, we additionally include noised VAE tokens to compute the Rectified-Flow Loss. Unlike Stage I, all model components are unfrozen and trained jointly (Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.F4" title="Figure 4 ‣ Dataset Construction ‣ 3.1.2 MathCanvas-Instruct ‣ 3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">4</span></a>, Stage II). To enhance generation quality, we also leverage the architecture’s inherent dual Classifier-Free Guidance mechanism during inference. This orchestration stage culminates in a model that can autonomously generate diagrams as intermediate steps to solve complex problems. Detailed training hyperparameters are provided in Appendix <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A1" title="Appendix A Training Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">A</span></a>.</p>
+</div>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Experiments</h2>
+<figure class="ltx_table" id="S4.T2">
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:345.0pt;height:35.3pt;vertical-align:-16.2pt;"><span class="ltx_transformed_inner" style="transform:translate(-128.2pt,13.1pt) scale(0.573616520092455,0.573616520092455) ;">
+<table class="ltx_tabular ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Model</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_tt"><span class="ltx_text ltx_font_bold">MathVista</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_tt" colspan="2"><span class="ltx_text ltx_font_bold">MathVerse</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="8"><span class="ltx_text ltx_font_bold">MathVision</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_r">(GPS)</td>
+<td class="ltx_td ltx_align_center ltx_border_t">(Text Dominant)</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">(Text Lite)</td>
+<td class="ltx_td ltx_align_center ltx_border_t">(test)</td>
+<td class="ltx_td ltx_align_center ltx_border_t">AnaG</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Angle</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Area</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Len</td>
+<td class="ltx_td ltx_align_center ltx_border_t">SolG</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Alg</td>
+<td class="ltx_td ltx_align_center ltx_border_t">Others</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">BAGEL</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">68.8</td>
+<td class="ltx_td ltx_align_center ltx_border_t">49.2</td>
+<td class="ltx_td ltx_align_center ltx_border_r ltx_border_t">42.0</td>
+<td class="ltx_td ltx_align_center ltx_border_t">24.1</td>
+<td class="ltx_td ltx_align_center ltx_border_t">26.2</td>
+<td class="ltx_td ltx_align_center ltx_border_t">31.8</td>
+<td class="ltx_td ltx_align_center ltx_border_t">25.0</td>
+<td class="ltx_td ltx_align_center ltx_border_t">28.7</td>
+<td class="ltx_td ltx_align_center ltx_border_t">22.1</td>
+<td class="ltx_td ltx_align_center ltx_border_t">17.1</td>
+<td class="ltx_td ltx_align_center ltx_border_t">23.1</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r"><span class="ltx_text ltx_font_bold">BAGEL-Canvas</span></td>
+<td class="ltx_td ltx_align_center ltx_border_r">79.3</td>
+<td class="ltx_td ltx_align_center">65.4</td>
+<td class="ltx_td ltx_align_center ltx_border_r">59.9</td>
+<td class="ltx_td ltx_align_center">32.9</td>
+<td class="ltx_td ltx_align_center">48.8</td>
+<td class="ltx_td ltx_align_center">49.1</td>
+<td class="ltx_td ltx_align_center">35.2</td>
+<td class="ltx_td ltx_align_center">37.9</td>
+<td class="ltx_td ltx_align_center">31.2</td>
+<td class="ltx_td ltx_align_center">30.1</td>
+<td class="ltx_td ltx_align_center">27.9</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb ltx_border_r"><math alttext="\Delta" class="ltx_Math" display="inline" id="S4.T2.m1" intent=":literal"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+10.5</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+16.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb ltx_border_r"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+17.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+8.8</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+22.6</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+17.3</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+10.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+9.2</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+9.1</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+13.0</span></td>
+<td class="ltx_td ltx_align_center ltx_border_bb"><span class="ltx_text" style="--ltx-fg-color:#DC143C;">+4.8</span></td>
+</tr>
+</table>
+</span></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 2: </span>Generalization performance of BAGEL-Canvas compared to its base model (BAGEL) on three multimodal math benchmarks. <math alttext="\Delta" class="ltx_Math" display="inline" id="S4.T2.m3" intent=":literal"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math> indicates the absolute improvement. MathVision subject abbreviations: AnaG (Analytic Geometry), SolG (Solid Geometry), Alg (Algebra), Angle (Metric Geometry - Angle), Area (Metric Geometry - Area), and Len (Metric Geometry - Length).</figcaption>
+</figure>
+<figure class="ltx_table" id="S4.T3">
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" style="width:433.6pt;height:101.9pt;vertical-align:-46.8pt;"><span class="ltx_transformed_inner" style="transform:translate(85.7pt,-20.1pt) scale(1.65381212455613,1.65381212455613) ;">
+<table class="ltx_tabular ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Model</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="2"><span class="ltx_text ltx_font_bold">Overall</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">Complete</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">Weighted</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt"><span class="ltx_text ltx_font_bold">BAGEL-Canvas</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">21.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">34.4</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">   w/o MathCanvas-Edit</td>
+<td class="ltx_td ltx_align_center">19.8</td>
+<td class="ltx_td ltx_align_center">32.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb ltx_border_r">    w/o MathCanvas-Imagen</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">18.2</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">30.8</td>
+</tr>
+</table>
+</span></div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 3: </span>Ablation study on the pre-training corpora. We report the performance drop after removing the editing data (w/o MathCanvas-Edit) and the entire pre-training data (w/o MathCanvas-Imagen).</figcaption>
+</figure>
+<figure class="ltx_table" id="S4.T4">
+<table class="ltx_tabular ltx_centering ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt" rowspan="2"><span class="ltx_text ltx_font_bold">Model</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt" colspan="2"><span class="ltx_text ltx_font_bold">Overall</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">Complete</span></td>
+<td class="ltx_td ltx_align_center ltx_border_t"><span class="ltx_text ltx_font_bold">Weighted</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_tt"><span class="ltx_text ltx_font_bold">BAGEL-Canvas</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">21.9</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">34.4</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_r">– (Skip Image)</td>
+<td class="ltx_td ltx_align_center">19.7</td>
+<td class="ltx_td ltx_align_center">31.9</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb ltx_border_r">BAGEL-Canvas-Text</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">18.7</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">30.9</td>
+</tr>
+</table>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 4: </span>Ablation study on the visual modality. BAGEL-Canvas-Text is a variant fine-tuned without any visual data. (– Skip Image) denotes the full model being constrained to text-only reasoning during inference.</figcaption>
+</figure>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p">We compare BAGEL-Canvas against 20 prominent LMMs, including top-performing proprietary models such as the Gemini series (2.5-Pro, 2.5-Flash, Nano-Banana, 2.0-Flash) <cite class="ltx_cite ltx_citemacro_citep">(Comanici et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib6" title="">2025</a>)</cite>, the GPT series (GPT-5, GPT-4.1, GPT-4.1-mini, GPT-4o) <cite class="ltx_cite ltx_citemacro_citep">(OpenAI, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib29" title="">2025a</a>; OpenAI et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib31" title="">2024c</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib27" title="">a</a>)</cite>, Claude-Sonnet-4 <cite class="ltx_cite ltx_citemacro_citep">(Anthropic, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib1" title="">2025</a>)</cite>, other strong multimodal models like Seed-1.6-Thinking <cite class="ltx_cite ltx_citemacro_citep">(Seed et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib33" title="">2025</a>)</cite> and Qwen3-VL-Plus <cite class="ltx_cite ltx_citemacro_citep">(Bai et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib2" title="">2025</a>)</cite>, and powerful open-source models, including the Qwen-2.5-VL series (7B, 32B, 72B) <cite class="ltx_cite ltx_citemacro_citep">(Bai et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib2" title="">2025</a>)</cite>, Gemma-3-27b-it<cite class="ltx_cite ltx_citemacro_citep">(Team et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib37" title="">2025</a>)</cite>
+, InternVL3.5 (8B, 30B) <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib42" title="">2025b</a>)</cite>, and Keye-VL-1.5-8B <cite class="ltx_cite ltx_citemacro_citep">(Yang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib49" title="">2025</a>)</cite>. We also include our base model, BAGEL <cite class="ltx_cite ltx_citemacro_citep">(Deng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib8" title="">2025a</a>)</cite>, and a variant, BAGEL-Zebra-CoT <cite class="ltx_cite ltx_citemacro_citep">(Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib18" title="">2025a</a>)</cite>, to precisely measure the gains from our framework. All LMM evaluations are conducted using VLMEvalKit <cite class="ltx_cite ltx_citemacro_cite">Duan et al. (<a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib11" title="">2024</a>)</cite> to ensure a fair comparison. The comprehensive results are shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.T1" title="Table 1 ‣ Evaluation Protocol ‣ 3.2 The MathCanvas-Bench Evaluation Benchmark ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a>.</p>
+</div>
+<section class="ltx_subsection" id="S4.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.1 </span>Benchmark Results</h3>
+<div class="ltx_para" id="S4.SS1.p1">
+<p class="ltx_p">As presented in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.T1" title="Table 1 ‣ Evaluation Protocol ‣ 3.2 The MathCanvas-Bench Evaluation Benchmark ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a>, BAGEL-Canvas achieves a weighted score of 34.4% on our benchmark, establishing it as the top-performing open-source model. It surpasses all open-source competitors, including significantly larger models like Qwen-2.5-VL-72B (32.8) and InternVL3.5-30B-A3B (22.2). This result represents a substantial +15.9 point improvement over its base model, BAGEL, demonstrating the profound effectiveness of our training paradigm in unlocking advanced reasoning capabilities. Furthermore, BAGEL-Canvas proves to be highly competitive with proprietary systems, outperforming several prominent models such as Gemini-2.0-Flash (32.6) and GPT-4.1 (30.0).</p>
+</div>
+<div class="ltx_para" id="S4.SS1.p2">
+<p class="ltx_p">An analysis of performance across mathematical domains reveals that BAGEL-Canvas exhibits the most significant gains in geometry-heavy subjects: Trigonometry (+27.1), Plane Geometry (+19.2), and Solid Geometry (+12.3). This result strongly supports our hypothesis that visual reasoning is particularly beneficial for geometric problem-solving. The model also shows substantial improvements in Analytic Geometry (+14.1) and Algebra (+11.8), suggesting that the ability to visualize functions and coordinate systems enhances reasoning in broader mathematical contexts. The modest gain in Calculus &amp; Vector (+0.8) indicates that this domain may require specialized reasoning capabilities beyond the scope of our current visual augmentation techniques.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S4.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.2 </span>Performance on Other Math Benchmarks</h3>
+<div class="ltx_para" id="S4.SS2.p1">
+<p class="ltx_p">To assess the generalization capabilities of BAGEL-Canvas, we evaluate it on three established public benchmarks: the GPS category from MathVista’s <span class="ltx_text ltx_font_typewriter">testmini</span> set <cite class="ltx_cite ltx_citemacro_citep">(Lu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib24" title="">2024</a>)</cite>, the full <span class="ltx_text ltx_font_typewriter">test</span> set of MathVision <cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib39" title="">2024</a>)</cite>, and the Text Dominant/Lite subsets from MathVerse’s <span class="ltx_text ltx_font_typewriter">testmini</span> <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib52" title="">2024a</a>)</cite>. As detailed in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.T2" title="Table 2 ‣ 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">2</span></a>, BAGEL-Canvas demonstrates substantial and consistent improvements over its base model, BAGEL, across all benchmarks, with particularly strong gains on MathVerse (+17.9) and MathVista (+10.5). The detailed breakdown on MathVision further reveals significant improvements in subjects that benefit from visual intuition, such as Analytic Geometry (+22.6), Algebra (+13.0), and various plane geometry tasks (Angle: +17.3). Crucially, since these benchmarks require text-only solutions, this strong performance validates that our training paradigm fundamentally enhances the model’s intrinsic reasoning abilities, allowing it to generalize effectively to traditional problem-solving formats.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S4.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">4.3 </span>Ablation Studies</h3>
+<div class="ltx_para" id="S4.SS3.p1">
+<p class="ltx_p">We conduct a series of ablation studies to dissect the contributions of the key components within our framework: the pretraining corpus and the role of the visual modality in the final reasoning stage.</p>
+</div>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Effectiveness of the Pre-training Corpus.</h5>
+<div class="ltx_para" id="S4.SS3.SSS0.Px1.p1">
+<p class="ltx_p">We investigate the impact of our two-stage pre-training strategy by ablating the MathCanvas-Edit and MathCanvas-Imagen corpora. As shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.T3" title="Table 3 ‣ 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3</span></a>, removing the MathCanvas-Edit data (w/o MathCanvas-Edit) results in a 2.4-point drop in the weighted score. This highlights the importance of learning step-by-step diagram editing, a critical skill for solving complex problems that require constructing auxiliary elements. A further ablation, removing the entire pre-training stage (w/o MathCanvas-Imagen), leads to an additional 1.2-point performance decrease. This confirms that even foundational diagram generation capabilities provide a vital scaffold for the fine-tuning phase. Together, these results validate our two-stage pre-training approach, demonstrating that both generation and editing skills are essential for achieving optimal performance.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS3.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Importance of Visual Modality in Reasoning.</h5>
+<div class="ltx_para" id="S4.SS3.SSS0.Px2.p1">
+<p class="ltx_p">We analyze the importance of the visual modality through two ablations. First, we fine-tune a variant, BAGEL-Canvas-Text, using only the textual reasoning paths from MathCanvas-Instruct. Second, we constrain the full BAGEL-Canvas model to bypass visual generation during inference (– Skip Image). As shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S4.T4" title="Table 4 ‣ 4 Experiments ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">4</span></a>, both scenarios result in a significant performance drop. The BAGEL-Canvas-Text variant’s weighted score falls by 3.5 points, confirming that training on interleaved visual-textual data is essential for learning complex reasoning. Interestingly, the model that simply skips image generation at inference (– Skip Image) performs 1.0 point better than BAGEL-Canvas-Text, despite both producing text-only solutions. This suggests that our interleaved training paradigm not only teaches the model how to leverage visual aids but also fundamentally enhances its underlying textual reasoning capabilities.</p>
+</div>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Conclusion</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p">We introduced MathCanvas, a comprehensive framework to endow Large Multimodal Models with intrinsic Visual Chain-of-Thought capabilities for mathematical reasoning. By leveraging our newly created large-scale datasets (MathCanvas-Edit, MathCanvas-Imagen, and MathCanvas-Instruct) in a two-stage training recipe, we taught our model, BAGEL-Canvas, to master diagram manipulation and strategically interleave it with textual deduction. This approach yielded an 86% relative improvement over strong baselines on our MathCanvas-Bench benchmark. Crucially, this training paradigm not only teaches the model <span class="ltx_text ltx_font_italic">when</span> and <span class="ltx_text ltx_font_italic">how</span> to draw, but also fundamentally enhances its core textual reasoning. Our work provides a robust foundation for future research into broader and more complex multimodal reasoning.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Anthropic (2025)</span>
+<span class="ltx_bibblock">
+Anthropic. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf" title="">System card: Claude opus 4 &amp; claude sonnet 4</a>.
+
+</span>
+<span class="ltx_bibblock">Technical report, Anthropic.
+
+</span>
+<span class="ltx_bibblock">Accessed 2025-10-07.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bai et al. (2025)</span>
+<span class="ltx_bibblock">
+Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Mingkun Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, and 8 others. 2025.
+
+</span>
+<span class="ltx_bibblock">Qwen2.5-vl technical report.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2502.13923</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2025)</span>
+<span class="ltx_bibblock">
+Xinyan Chen, Renrui Zhang, Dongzhi Jiang, Aojun Zhou, Shilin Yan, Weifeng Lin, and Hongsheng Li. 2025.
+
+</span>
+<span class="ltx_bibblock">Mint-cot: Enabling interleaved visual tokens in mathematical chain-of-thought reasoning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2506.05331</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Cheng et al. (2025)</span>
+<span class="ltx_bibblock">
+Zihui Cheng, Qiguang Chen, Xiao Xu, Jiaqi Wang, Weiyun Wang, Hao Fei, Yidong Wang, Alex Jinpeng Wang, Zhi Chen, Wanxiang Che, and Libo Qin. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2505.15510" title="">Visual thoughts: A unified perspective of understanding multimodal chain-of-thought</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2505.15510.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chern et al. (2025)</span>
+<span class="ltx_bibblock">
+Ethan Chern, Zhulin Hu, Steffi Chern, Siqi Kou, Jiadi Su, Yan Ma, Zhijie Deng, and Pengfei Liu. 2025.
+
+</span>
+<span class="ltx_bibblock">Thinking with generated images.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2505.22525</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Comanici et al. (2025)</span>
+<span class="ltx_bibblock">
+Gheorghe Comanici, Eric Bieber, Mike Schaekermann, Ice Pasupat, Noveen Sachdeva, Inderjit Dhillon, Marcel Blistein, Ori Ram, Dan Zhang, Evan Rosen, Luke Marris, Sam Petulla, Colin Gaffney, Asaf Aharoni, Nathan Lintz, Tiago Cardal Pais, Henrik Jacobsson, Idan Szpektor, Nan-Jiang Jiang, and 3290 others. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2507.06261" title="">Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2507.06261.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">DeepSeek-AI et al. (2025)</span>
+<span class="ltx_bibblock">
+DeepSeek-AI, Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma, Peiyi Wang, Xiao Bi, Xiaokang Zhang, Xingkai Yu, Yu Wu, Z. F. Wu, Zhibin Gou, Zhihong Shao, Zhuoshu Li, Ziyi Gao, and 181 others. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2501.12948" title="">Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2501.12948.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Deng et al. (2025a)</span>
+<span class="ltx_bibblock">
+Chaorui Deng, Deyao Zhu, Kunchang Li, Chenhui Gou, Feng Li, Zeyu Wang, Shu Zhong, Weihao Yu, Xiaonan Nie, Ziang Song, Guang Shi, and Haoqi Fan. 2025a.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2505.14683" title="">Emerging properties in unified multimodal pretraining</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2505.14683.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Deng et al. (2025b)</span>
+<span class="ltx_bibblock">
+Linger Deng, Linghao Zhu, Yuliang Liu, Yu Wang, Qunyi Xie, Jingjing Wu, Gang Zhang, Yingying Zhu, and Xiang Bai. 2025b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2410.17885" title="">Theorem-validated reverse chain-of-thought problem generation for geometric reasoning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2410.17885.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Duan et al. (2025)</span>
+<span class="ltx_bibblock">
+Chengqi Duan, Rongyao Fang, Yuqing Wang, Kun Wang, Linjiang Huang, Xingyu Zeng, Hongsheng Li, and Xihui Liu. 2025.
+
+</span>
+<span class="ltx_bibblock">Got-r1: Unleashing reasoning capability of mllm for visual generation with reinforcement learning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2505.17022</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Duan et al. (2024)</span>
+<span class="ltx_bibblock">
+Haodong Duan, Junming Yang, Yuxuan Qiao, Xinyu Fang, Lin Chen, Yuan Liu, Xiaoyi Dong, Yuhang Zang, Pan Zhang, Jiaqi Wang, and 1 others. 2024.
+
+</span>
+<span class="ltx_bibblock">Vlmevalkit: An open-source toolkit for evaluating large multi-modality models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">Proceedings of the 32nd ACM international conference on multimedia</em>, pages 11198–11201.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Fang et al. (2025a)</span>
+<span class="ltx_bibblock">
+Rongyao Fang, Chengqi Duan, Kun Wang, Linjiang Huang, Hao Li, Shilin Yan, Hao Tian, Xingyu Zeng, Rui Zhao, Jifeng Dai, and 1 others. 2025a.
+
+</span>
+<span class="ltx_bibblock">Got: Unleashing reasoning capability of multimodal large language model for visual generation and editing.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2503.10639</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Fang et al. (2025b)</span>
+<span class="ltx_bibblock">
+Rongyao Fang, Aldrich Yu, Chengqi Duan, Linjiang Huang, Shuai Bai, Yuxuan Cai, Kun Wang, Si Liu, Xihui Liu, and Hongsheng Li. 2025b.
+
+</span>
+<span class="ltx_bibblock">Flux-reason-6m &amp; prism-bench: A million-scale text-to-image reasoning dataset and comprehensive benchmark.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2509.09680</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gao et al. (2025a)</span>
+<span class="ltx_bibblock">
+Jiahui Gao, Renjie Pi, Jipeng Zhang, Jiacheng Ye, Wanjun Zhong, Yufei Wang, Lanqing Hong, Jianhua Han, Hang Xu, Zhenguo Li, and Lingpeng Kong. 2025a.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2312.11370" title="">G-llava: Solving geometric problem with multi-modal large language model</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2312.11370.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gao et al. (2025b)</span>
+<span class="ltx_bibblock">
+Jun Gao, Yongqi Li, Ziqiang Cao, and Wenjie Li. 2025b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2411.19488" title="">Interleaved-modal chain-of-thought</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2411.19488.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Guo et al. (2025)</span>
+<span class="ltx_bibblock">
+Jarvis Guo, Tuney Zheng, Yuelin Bai, Bo Li, Yubo Wang, King Zhu, Yizhi Li, Graham Neubig, Wenhu Chen, and Xiang Yue. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2412.05237" title="">Mammoth-vl: Eliciting multimodal reasoning with instruction tuning at scale</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2412.05237.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hu et al. (2024)</span>
+<span class="ltx_bibblock">
+Yushi Hu, Weijia Shi, Xingyu Fu, Dan Roth, Mari Ostendorf, Luke Zettlemoyer, Noah A Smith, and Ranjay Krishna. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2406.09403" title="">Visual sketchpad: Sketching as a visual chain of thought for multimodal language models</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2406.09403.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2025a)</span>
+<span class="ltx_bibblock">
+Ang Li, Charles Wang, Kaiyu Yue, Zikui Cai, Ollie Liu, Deqing Fu, Peng Guo, Wang Bill Zhu, Vatsal Sharan, Robin Jia, and 1 others. 2025a.
+
+</span>
+<span class="ltx_bibblock">Zebra-cot: A dataset for interleaved vision language reasoning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2507.16746</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2025b)</span>
+<span class="ltx_bibblock">
+Chengzu Li, Wenshan Wu, Huanyu Zhang, Yan Xia, Shaoguang Mao, Li Dong, Ivan Vulić, and Furu Wei. 2025b.
+
+</span>
+<span class="ltx_bibblock">Imagine while reasoning in space: Multimodal visualization-of-thought.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2501.07542</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2025c)</span>
+<span class="ltx_bibblock">
+Chengzu Li, Wenshan Wu, Huanyu Zhang, Yan Xia, Shaoguang Mao, Li Dong, Ivan Vulić, and Furu Wei. 2025c.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2501.07542" title="">Imagine while reasoning in space: Multimodal visualization-of-thought</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2501.07542.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liang et al. (2021)</span>
+<span class="ltx_bibblock">
+Jingyun Liang, Jiezhang Cao, Guolei Sun, Kai Zhang, Luc Van Gool, and Radu Timofte. 2021.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2108.10257" title="">Swinir: Image restoration using swin transformer</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2108.10257.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2022)</span>
+<span class="ltx_bibblock">
+Xingchao Liu, Chengyue Gong, and Qiang Liu. 2022.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2209.03003" title="">Flow straight and fast: Learning to generate and transfer data with rectified flow</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2209.03003.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Loshchilov and Hutter (2019)</span>
+<span class="ltx_bibblock">
+Ilya Loshchilov and Frank Hutter. 2019.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/1711.05101" title="">Decoupled weight decay regularization</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:1711.05101.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lu et al. (2024)</span>
+<span class="ltx_bibblock">
+Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li, Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel Galley, and Jianfeng Gao. 2024.
+
+</span>
+<span class="ltx_bibblock">Mathvista: Evaluating mathematical reasoning of foundation models in visual contexts.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">International Conference on Learning Representations (ICLR)</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lu et al. (2021)</span>
+<span class="ltx_bibblock">
+Pan Lu, Ran Gong, Shibiao Jiang, Liang Qiu, Siyuan Huang, Xiaodan Liang, and Song-Chun Zhu. 2021.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2105.04165" title="">Inter-gps: Interpretable geometry problem solving with formal language and symbolic reasoning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2105.04165.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lu et al. (2022)</span>
+<span class="ltx_bibblock">
+Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, and Ashwin Kalyan. 2022.
+
+</span>
+<span class="ltx_bibblock">Learn to explain: Multimodal reasoning via thought chains for science question answering.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">The 36th Conference on Neural Information Processing Systems (NeurIPS)</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI et al. (2024a)</span>
+<span class="ltx_bibblock">
+OpenAI, :, Aaron Hurst, Adam Lerer, Adam P. Goucher, Adam Perelman, Aditya Ramesh, Aidan Clark, AJ Ostrow, Akila Welihinda, Alan Hayes, Alec Radford, Aleksander Mądry, Alex Baker-Whitcomb, Alex Beutel, Alex Borzunov, Alex Carney, Alex Chow, Alex Kirillov, and 401 others. 2024a.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2410.21276" title="">Gpt-4o system card</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2410.21276.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI et al. (2024b)</span>
+<span class="ltx_bibblock">
+OpenAI, :, Aaron Jaech, Adam Kalai, Adam Lerer, Adam Richardson, Ahmed El-Kishky, Aiden Low, Alec Helyar, Aleksander Madry, Alex Beutel, Alex Carney, Alex Iftimie, Alex Karpenko, Alex Tachard Passos, Alexander Neitz, Alexander Prokofiev, Alexander Wei, Allison Tam, and 244 others. 2024b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2412.16720" title="">Openai o1 system card</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2412.16720.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI (2025a)</span>
+<span class="ltx_bibblock">
+OpenAI. 2025a.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://cdn.openai.com/gpt-5-system-card.pdf" title="">GPT-5 System Card</a>.
+
+</span>
+<span class="ltx_bibblock">Technical report, OpenAI.
+
+</span>
+<span class="ltx_bibblock">Accessed on [YYYY-MM-DD].
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI (2025b)</span>
+<span class="ltx_bibblock">
+OpenAI. 2025b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf" title="">OpenAI o3 and o4-mini System Card</a>.
+
+</span>
+<span class="ltx_bibblock">Technical report, OpenAI.
+
+</span>
+<span class="ltx_bibblock">Accessed on [YYYY-MM-DD].
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">OpenAI et al. (2024c)</span>
+<span class="ltx_bibblock">
+OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, and 262 others. 2024c.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2303.08774" title="">Gpt-4 technical report</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2303.08774.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Qiao et al. (2024)</span>
+<span class="ltx_bibblock">
+Runqi Qiao, Qiuna Tan, Guanting Dong, Minhui Wu, Chong Sun, Xiaoshuai Song, Zhuoma GongQue, Shanglin Lei, Zhe Wei, Miaoxuan Zhang, Runfeng Qiao, Yifan Zhang, Xiao Zong, Yida Xu, Muxi Diao, Zhimin Bao, Chen Li, and Honggang Zhang. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2407.01284" title="">We-math: Does your large multimodal model achieve human-like mathematical reasoning?</a>
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2407.01284.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Seed et al. (2025)</span>
+<span class="ltx_bibblock">
+ByteDance Seed, :, Jiaze Chen, Tiantian Fan, Xin Liu, Lingjun Liu, Zhiqi Lin, Mingxuan Wang, Chengyi Wang, Xiangpeng Wei, Wenyuan Xu, Yufeng Yuan, Yu Yue, Lin Yan, Qiying Yu, Xiaochen Zuo, Chi Zhang, Ruofei Zhu, Zhecheng An, and 255 others. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2504.13914" title="">Seed1.5-thinking: Advancing superb reasoning models with reinforcement learning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2504.13914.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shao et al. (2024a)</span>
+<span class="ltx_bibblock">
+Hao Shao, Shengju Qian, Han Xiao, Guanglu Song, Zhuofan Zong, Letian Wang, Yu Liu, and Hongsheng Li. 2024a.
+
+</span>
+<span class="ltx_bibblock">Visual cot: Advancing multi-modal language models with a comprehensive dataset and benchmark for chain-of-thought reasoning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Advances in Neural Information Processing Systems</em>, 37:8612–8642.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shao et al. (2024b)</span>
+<span class="ltx_bibblock">
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei Zhang, Mingchuan Zhang, Y. K. Li, Y. Wu, and Daya Guo. 2024b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2402.03300" title="">Deepseekmath: Pushing the limits of mathematical reasoning in open language models</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2402.03300.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Sun et al. (2024)</span>
+<span class="ltx_bibblock">
+Kai Sun, Yushi Bai, Ji Qi, Lei Hou, and Juanzi Li. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2404.05091" title="">Mm-math: Advancing multimodal math evaluation with process evaluation and fine-grained classification</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2404.05091.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Team et al. (2025)</span>
+<span class="ltx_bibblock">
+Gemma Team, Aishwarya Kamath, Johan Ferret, Shreya Pathak, Nino Vieillard, Ramona Merhej, Sarah Perrin, Tatiana Matejovicova, Alexandre Ramé, Morgane Rivière, Louis Rouillard, Thomas Mesnard, Geoffrey Cideron, Jean bastien Grill, Sabela Ramos, Edouard Yvinec, Michelle Casbon, Etienne Pot, Ivo Penchev, and 197 others. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2503.19786" title="">Gemma 3 technical report</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2503.19786.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Trinh et al. (2024)</span>
+<span class="ltx_bibblock">
+Trieu Trinh, Yuhuai Wu, Quoc Le, He He, and Thang Luong. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://doi.org/10.1038/s41586-023-06747-5" title="">Solving olympiad geometry without human demonstrations</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Nature</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2024)</span>
+<span class="ltx_bibblock">
+Ke Wang, Junting Pan, Weikang Shi, Zimu Lu, Houxing Ren, Aojun Zhou, Mingjie Zhan, and Hongsheng Li. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://openreview.net/forum?id=QWTCcxMpPA" title="">Measuring multimodal mathematical reasoning with math-vision dataset</a>.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025a)</span>
+<span class="ltx_bibblock">
+Ke Wang, Junting Pan, Linda Wei, Aojun Zhou, Weikang Shi, Zimu Lu, Han Xiao, Yunqiao Yang, Houxing Ren, Mingjie Zhan, and Hongsheng Li. 2025a.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2505.10557" title="">Mathcoder-vl: Bridging vision and code for enhanced multimodal mathematical reasoning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2505.10557.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2023)</span>
+<span class="ltx_bibblock">
+Ke Wang, Houxing Ren, Aojun Zhou, Zimu Lu, Sichun Luo, Weikang Shi, Renrui Zhang, Linqi Song, Mingjie Zhan, and Hongsheng Li. 2023.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2310.03731" title="">Mathcoder: Seamless code integration in llms for enhanced mathematical reasoning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2310.03731.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib42">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025b)</span>
+<span class="ltx_bibblock">
+Weiyun Wang, Zhangwei Gao, Lixin Gu, Hengjun Pu, Long Cui, Xingguang Wei, Zhaoyang Liu, Linglin Jing, Shenglong Ye, Jie Shao, Zhaokai Wang, Zhe Chen, Hongjie Zhang, Ganlin Yang, Haomin Wang, Qi Wei, Jinhui Yin, Wenhao Li, Erfei Cui, and 56 others. 2025b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2508.18265" title="">Internvl3.5: Advancing open-source multimodal models in versatility, reasoning, and efficiency</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2508.18265.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib43">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025c)</span>
+<span class="ltx_bibblock">
+Yikun Wang, Siyin Wang, Qinyuan Cheng, Zhaoye Fei, Liang Ding, Qipeng Guo, Dacheng Tao, and Xipeng Qiu. 2025c.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2504.09130" title="">Visuothink: Empowering lvlm reasoning with multimodal tree search</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2504.09130.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib44">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025d)</span>
+<span class="ltx_bibblock">
+Yikun Wang, Yibin Wang, Dianyi Wang, Zimian Peng, Qipeng Guo, Dacheng Tao, and Jiaqi Wang. 2025d.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2506.07160" title="">Geometryzero: Improving geometry solving for llm with group contrastive policy optimization</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2506.07160.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib45">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2025e)</span>
+<span class="ltx_bibblock">
+Zhikai Wang, Jiashuo Sun, Wenqi Zhang, Zhiqiang Hu, Xin Li, Fan Wang, and Deli Zhao. 2025e.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2504.18589" title="">Benchmarking multimodal mathematical reasoning with explicit visual dependency</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2504.18589.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib46">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wei et al. (2023)</span>
+<span class="ltx_bibblock">
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2201.11903" title="">Chain-of-thought prompting elicits reasoning in large language models</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2201.11903.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib47">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wei et al. (2025)</span>
+<span class="ltx_bibblock">
+Lai Wei, Yuting Li, Kaipeng Zheng, Chen Wang, Yue Wang, Linghe Kong, Lichao Sun, and Weiran Huang. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2505.22334" title="">Advancing multimodal reasoning via reinforcement learning with cold start</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2505.22334.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib48">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yang et al. (2024)</span>
+<span class="ltx_bibblock">
+An Yang, Beichen Zhang, Binyuan Hui, Bofei Gao, Bowen Yu, Chengpeng Li, Dayiheng Liu, Jianhong Tu, Jingren Zhou, Junyang Lin, Keming Lu, Mingfeng Xue, Runji Lin, Tianyu Liu, Xingzhang Ren, and Zhenru Zhang. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2409.12122" title="">Qwen2.5-math technical report: Toward mathematical expert model via self-improvement</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2409.12122.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib49">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yang et al. (2025)</span>
+<span class="ltx_bibblock">
+Biao Yang, Bin Wen, Boyang Ding, Changyi Liu, Chenglong Chu, Chengru Song, Chongling Rao, Chuan Yi, Da Li, Dunju Zang, Fan Yang, Guorui Zhou, Guowang Zhang, Han Shen, Hao Peng, Haojie Ding, Hao Wang, Haonan Fan, Hengrui Ju, and 42 others. 2025.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2509.01563" title="">Kwai keye-vl 1.5 technical report</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2509.01563.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib50">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yue et al. (2024)</span>
+<span class="ltx_bibblock">
+Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, and 3 others. 2024.
+
+</span>
+<span class="ltx_bibblock">Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic">Proceedings of CVPR</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib51">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yue et al. (2023)</span>
+<span class="ltx_bibblock">
+Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, and Wenhu Chen. 2023.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2309.05653" title="">Mammoth: Building math generalist models through hybrid instruction tuning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2309.05653.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib52">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2024a)</span>
+<span class="ltx_bibblock">
+Renrui Zhang, Dongzhi Jiang, Yichi Zhang, Haokun Lin, Ziyu Guo, Pengshuo Qiu, Aojun Zhou, Pan Lu, Kai-Wei Chang, Peng Gao, and 1 others. 2024a.
+
+</span>
+<span class="ltx_bibblock">Mathverse: Does your multi-modal llm truly see the diagrams in visual math problems?
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">arXiv preprint arXiv:2403.14624</em>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib53">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2024b)</span>
+<span class="ltx_bibblock">
+Renrui Zhang, Xinyu Wei, Dongzhi Jiang, Ziyu Guo, Shicheng Li, Yichi Zhang, Chengzhuo Tong, Jiaming Liu, Aojun Zhou, Bin Wei, Shanghang Zhang, Peng Gao, Chunyuan Li, and Hongsheng Li. 2024b.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2407.08739" title="">Mavis: Mathematical visual instruction tuning with an automatic data engine</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2407.08739.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib54">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhuang et al. (2024)</span>
+<span class="ltx_bibblock">
+Wenwen Zhuang, Xin Huang, Xiantao Zhang, and Jin Zeng. 2024.
+
+</span>
+<span class="ltx_bibblock"><a class="ltx_ref ltx_href" href="https://arxiv.org/abs/2408.08640" title="">Math-puma: Progressive upward multimodal alignment to enhance mathematical reasoning</a>.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic">Preprint</em>, arXiv:2408.08640.
+
+</span>
+</li>
+</ul>
+</section>
+<div class="ltx_pagination ltx_role_newpage"></div>
+<section class="ltx_appendix" id="A1">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix A </span>Training Details</h2>
+<div class="ltx_para" id="A1.p1">
+<p class="ltx_p">We implement our framework on top of the publicly available <span class="ltx_text ltx_font_bold">BAGEL-7B-MoT</span> <cite class="ltx_cite ltx_citemacro_citep">(Deng et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib8" title="">2025a</a>)</cite> model. All training experiments were conducted on a cluster of 16 NVIDIA H800 GPUs. We use the AdamW <cite class="ltx_cite ltx_citemacro_citep">(Loshchilov and Hutter, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib23" title="">2019</a>)</cite> optimizer for both training stages. The detailed hyperparameters for our two-stage training recipe, corresponding to Stage I (Visual Manipulation) and Stage II (Strategic Visual-Aided Reasoning), are provided in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A1.T5" title="Table 5 ‣ Appendix A Training Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">5</span></a>.</p>
+</div>
+<figure class="ltx_table" id="A1.T5">
+<table class="ltx_tabular ltx_centering ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_tt"><span class="ltx_text ltx_font_bold">Hyperparameter</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">Stage I</span></td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text ltx_font_bold">Stage II</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t" colspan="3"><span class="ltx_text ltx_font_bold ltx_font_italic">Optimizer &amp; Scheduler</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Learning Rate (LR)</td>
+<td class="ltx_td ltx_align_center"><math alttext="2\times 10^{-5}" class="ltx_Math" display="inline" id="A1.T5.m1" intent=":literal"><semantics><mrow><mn>2</mn><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2\times 10^{-5}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center"><math alttext="1\times 10^{-5}" class="ltx_Math" display="inline" id="A1.T5.m2" intent=":literal"><semantics><mrow><mn>1</mn><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1\times 10^{-5}</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">LR Scheduler</td>
+<td class="ltx_td ltx_align_center">Cosine Decay</td>
+<td class="ltx_td ltx_align_center">Cosine Decay</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Min Learning Rate</td>
+<td class="ltx_td ltx_align_center"><math alttext="1\times 10^{-7}" class="ltx_Math" display="inline" id="A1.T5.m3" intent=":literal"><semantics><mrow><mn>1</mn><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1\times 10^{-7}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center"><math alttext="1\times 10^{-7}" class="ltx_Math" display="inline" id="A1.T5.m4" intent=":literal"><semantics><mrow><mn>1</mn><mo lspace="0.222em" rspace="0.222em">×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1\times 10^{-7}</annotation></semantics></math></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Warmup Steps</td>
+<td class="ltx_td ltx_align_center">2,000</td>
+<td class="ltx_td ltx_align_center">500</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Total Training Steps</td>
+<td class="ltx_td ltx_align_center">80,000</td>
+<td class="ltx_td ltx_align_center">16,000</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t" colspan="3"><span class="ltx_text ltx_font_bold ltx_font_italic">Model &amp; Loss</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">EMA Decay Rate</td>
+<td class="ltx_td ltx_align_center">0.999</td>
+<td class="ltx_td ltx_align_center">0.995</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Rectified-Flow Timestep Shift</td>
+<td class="ltx_td ltx_align_center">2.0</td>
+<td class="ltx_td ltx_align_center">2.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Cross-Entropy (CE) Loss Weight</td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_typewriter">N/A</span></td>
+<td class="ltx_td ltx_align_center">0.25</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Rectified-Flow (MSE) Loss Weight</td>
+<td class="ltx_td ltx_align_center">1.0 (Implicit)</td>
+<td class="ltx_td ltx_align_center">1.0</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Frozen Components</td>
+<td class="ltx_td ltx_align_center">Understanding Expert</td>
+<td class="ltx_td ltx_align_center">None</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t" colspan="3"><span class="ltx_text ltx_font_bold ltx_font_italic">Batching &amp; Tokenization</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Max Tokens per Batch</td>
+<td class="ltx_td ltx_align_center">46,080</td>
+<td class="ltx_td ltx_align_center">51,200</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Max Tokens per Sample</td>
+<td class="ltx_td ltx_align_center">8,192</td>
+<td class="ltx_td ltx_align_center">25,600</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t" colspan="3"><span class="ltx_text ltx_font_bold ltx_font_italic">Regularization (Dropout)</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Text Condition Dropout</td>
+<td class="ltx_td ltx_align_center">0.1</td>
+<td class="ltx_td ltx_align_center">0.1</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">ViT Condition Dropout</td>
+<td class="ltx_td ltx_align_center">0.3</td>
+<td class="ltx_td ltx_align_center">0.1</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb">VAE Condition Dropout</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">0.1</td>
+<td class="ltx_td ltx_align_center ltx_border_bb">0.1</td>
+</tr>
+</table>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 5: </span>Key hyperparameters for the two-stage training process. "N/A" indicates that the parameter was not applicable to that stage.</figcaption>
+</figure>
+<section class="ltx_paragraph" id="A1.SS0.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Stage I</h5>
+<div class="ltx_para" id="A1.SS0.SSS0.Px1.p1">
+<p class="ltx_p">In this stage, the primary objective is to train the model’s visual generation capabilities. As described in Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS3" title="3.3 Two-Stage Training Recipe ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.3</span></a>, we freeze the entire understanding expert and only train the generation expert. The loss is solely based on the Rectified-Flow objective <cite class="ltx_cite ltx_citemacro_citep">(Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#bib.bib22" title="">2022</a>)</cite> for diagram generation, hence the absence of a Cross-Entropy loss component. We employed a slightly higher ViT condition dropout rate (0.3) to regularize the model and prevent overfitting to the visual features of the pretrainig data.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="A1.SS0.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Stage II</h5>
+<div class="ltx_para" id="A1.SS0.SSS0.Px2.p1">
+<p class="ltx_p">In the second stage, all model components are unfrozen to enable joint optimization. The model is trained on a combined loss function: a Cross-Entropy loss for predicting the next token (either text or the special <span class="ltx_text ltx_font_typewriter">&lt;|vision_start|&gt;</span> and <span class="ltx_text ltx_font_typewriter">&lt;|endoftext|&gt;</span> token), weighted by 0.25, and the Rectified-Flow loss for generating diagrams, weighted by 1.0. The learning rate is halved, and the number of training steps is reduced, which is typical for fine-tuning tasks. The ViT condition dropout is lowered to 0.1 to better leverage visual context during strategic reasoning.</p>
+</div>
+</section>
+</section>
+<section class="ltx_appendix" id="A2">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix B </span>Dataset Details</h2>
+<section class="ltx_subsection" id="A2.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">B.1 </span>MathCanvas-Edit and MathCanvas-Imagen</h3>
+<section class="ltx_paragraph" id="A2.SS1.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Details on Foundational Structure Generation.</h5>
+<div class="ltx_para" id="A2.SS1.SSS0.Px1.p1">
+<p class="ltx_p">As described in Section <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S3.SS1" title="3.1 Training Corpora Construction ‣ 3 Method ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">3.1</span></a>, the Foundational Structure Generation pipeline for the MathCanvas-Edit dataset relies on an automated algorithm that randomly and incrementally adds geometric primitives and relations. This section specifies the exact sets used in this process.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="A2.SS1.SSS0.Px1.p2">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Geometric Primitive Set.</span> The generation process initiates by selecting one of 18 basic geometric objects from the following set:</p>
+<ul class="ltx_itemize" id="A2.I1">
+<li class="ltx_item" id="A2.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_ref ltx_nolink ltx_ref_self">segment</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">angle</span></p>
+</div>
+</li>
+<li class="ltx_item" id="A2.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I1.i2.p1">
+<p class="ltx_p">Triangles: <span class="ltx_ref ltx_nolink ltx_ref_self">triangle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">iso_triangle</span> (isosceles), <span class="ltx_ref ltx_nolink ltx_ref_self">r_triangle</span> (right), <span class="ltx_ref ltx_nolink ltx_ref_self">triangle_ab</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">ieq_triangle</span> (equilateral), <span class="ltx_ref ltx_nolink ltx_ref_self">risos</span> (right isosceles)</p>
+</div>
+</li>
+<li class="ltx_item" id="A2.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I1.i3.p1">
+<p class="ltx_p">Quadrangles: <span class="ltx_ref ltx_nolink ltx_ref_self">rectangle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">isquare</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">trapezoid</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">r_trapezoid</span> (right), <span class="ltx_ref ltx_nolink ltx_ref_self">eq_trapezoid</span> (isosceles), <span class="ltx_ref ltx_nolink ltx_ref_self">quadrangle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eq_quadrangle</span> (equilateral), <span class="ltx_ref ltx_nolink ltx_ref_self">eqdia_quadrangle</span> (equal-diagonal)</p>
+</div>
+</li>
+<li class="ltx_item" id="A2.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I1.i4.p1">
+<p class="ltx_p">Polygons: <span class="ltx_ref ltx_nolink ltx_ref_self">pentagon</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eq_pentagon</span> (equilateral)</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="ltx_para ltx_noindent" id="A2.SS1.SSS0.Px1.p3">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Geometric Relation Set.</span> Subsequently, the algorithm iteratively applies relations from a predefined set of 41 constructions. These are categorized by the number of new points they introduce (typically one or two).</p>
+<ul class="ltx_itemize" id="A2.I2">
+<li class="ltx_item" id="A2.I2.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I2.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">1-Point Relations (37):</span> <span class="ltx_ref ltx_nolink ltx_ref_self">angle_bisector</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">angle_mirror</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">circle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">circumcenter</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eq_triangle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eqangle2</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eqdistance</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">foot</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">incenter</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">excenter</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_cc</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_bline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_lc</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_aline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_ll</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_line</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_lp</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_lt</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_pp</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">intersection_tt</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">lc_tangent</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">midpoint</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">mirror</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">nsquare</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_bline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_circle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_pline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_tline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_dia</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">orthocenter</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">parallelogram</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">psquare</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">reflect</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">s_angle</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">shift</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_opline</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">eqangle3</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">on_circum</span></p>
+</div>
+</li>
+<li class="ltx_item" id="A2.I2.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A2.I2.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">2-Point Relations (4):</span> <span class="ltx_ref ltx_nolink ltx_ref_self">square</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">trisegment</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">trisect</span>, <span class="ltx_ref ltx_nolink ltx_ref_self">tangent</span></p>
+</div>
+</li>
+</ul>
+<p class="ltx_p">The automated algorithm randomly samples from these sets to build progressively more complex diagrams, ensuring systematic coverage of fundamental geometric operations.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="A2.SS1.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Examples.</h5>
+<div class="ltx_para" id="A2.SS1.SSS0.Px2.p1">
+<p class="ltx_p">An example from the MathCanvas-Edit dataset is presented in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F6" title="Figure 6 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">6</span></a>. Examples from the MathCanvas-Imagen dataset are shown in Figures <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F7" title="Figure 7 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">7</span></a> and <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F8" title="Figure 8 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">8</span></a>.</p>
+</div>
+</section>
+</section>
+<section class="ltx_subsection" id="A2.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">B.2 </span>MathCanvas-Instruct</h3>
+<section class="ltx_paragraph" id="A2.SS2.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Dataset Statistics.</h5>
+<div class="ltx_para" id="A2.SS2.SSS0.Px1.p1">
+<p class="ltx_p">We present the knowledge point distribution of the MathCanvas-Instruct training set in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F5" title="Figure 5 ‣ Dataset Statistics. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">5</span></a>. Table <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.T6" title="Table 6 ‣ Dataset Statistics. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">6</span></a> demonstrates the statistical characteristics of the MathCanvas-Instruct dataset, comprising 219K problems, of which 65% are multimodal and 35% are text-only. We have also analyzed the distribution of problem sources, the length of questions and solutions, and the number of images they contain.</p>
+</div>
+<figure class="ltx_figure" id="A2.F5"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="836" id="A2.F5.g1" src="x5.png" width="831"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>Distribution of knowledge type of MathCanvas-Instruct dataset.</figcaption>
+</figure>
+<figure class="ltx_table" id="A2.T6">
+<table class="ltx_tabular ltx_centering ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_tt"><span class="ltx_text ltx_font_bold">Statistics</span></td>
+<td class="ltx_td ltx_align_right ltx_border_tt"><span class="ltx_text ltx_font_bold">Number</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text ltx_font_bold">Total Samples</span></td>
+<td class="ltx_td ltx_align_right ltx_border_t"><span class="ltx_text ltx_font_bold">218,604</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t">- Text questions</td>
+<td class="ltx_td ltx_align_right ltx_border_t">35%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Multimodal questions</td>
+<td class="ltx_td ltx_align_right">65%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t">- Middle school questions</td>
+<td class="ltx_td ltx_align_right ltx_border_t"><span class="ltx_text ltx_font_bold">63%</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 7</td>
+<td class="ltx_td ltx_align_right">6%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 8</td>
+<td class="ltx_td ltx_align_right">17%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 9</td>
+<td class="ltx_td ltx_align_right">77%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- High school questions</td>
+<td class="ltx_td ltx_align_right"><span class="ltx_text ltx_font_bold">37%</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 10</td>
+<td class="ltx_td ltx_align_right">12%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 11</td>
+<td class="ltx_td ltx_align_right">16%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Grade 12</td>
+<td class="ltx_td ltx_align_right">72%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t">   - One question</td>
+<td class="ltx_td ltx_align_right ltx_border_t">68%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Two sub-questions</td>
+<td class="ltx_td ltx_align_right">18%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Three sub-questions</td>
+<td class="ltx_td ltx_align_right">12%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">   - Four or more sub-questions</td>
+<td class="ltx_td ltx_align_right">2%</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text ltx_font_bold">Question length (text tokens)</span></td>
+<td class="ltx_td ltx_border_t"></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Maximum</td>
+<td class="ltx_td ltx_align_right">466</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Average</td>
+<td class="ltx_td ltx_align_right">107.92</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text ltx_font_bold">Solution length (text tokens)</span></td>
+<td class="ltx_td ltx_border_t"></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Maximum</td>
+<td class="ltx_td ltx_align_right">2001</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Average</td>
+<td class="ltx_td ltx_align_right">539.66</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text ltx_font_bold">Multimodal Question Image</span></td>
+<td class="ltx_td ltx_border_t"></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Maximum number</td>
+<td class="ltx_td ltx_align_right">5</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Average number</td>
+<td class="ltx_td ltx_align_right">1.03</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_t"><span class="ltx_text ltx_font_bold">Solution Image</span></td>
+<td class="ltx_td ltx_border_t"></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">- Maximum number</td>
+<td class="ltx_td ltx_align_right">5</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left ltx_border_bb">- Average number</td>
+<td class="ltx_td ltx_align_right ltx_border_bb">1.18</td>
+</tr>
+</table>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 6: </span>More statistics of MathCanvas-Instruct dataset.</figcaption>
+</figure>
+</section>
+<section class="ltx_paragraph" id="A2.SS2.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Examples.</h5>
+<div class="ltx_para" id="A2.SS2.SSS0.Px2.p1">
+<p class="ltx_p">We showcase examples from the MathCanvas-Instruct dataset in Figures <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F9" title="Figure 9 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">9</span></a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F10" title="Figure 10 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">10</span></a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A2.F11" title="Figure 11 ‣ Examples. ‣ B.2 MathCanvas-Instruct ‣ Appendix B Dataset Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">11</span></a>.</p>
+</div>
+<figure class="ltx_figure" id="A2.F6"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="214" id="A2.F6.g1" src="x6.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 6: </span>An example from MathCanvas-Edit dataset.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A2.F7"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="215" id="A2.F7.g1" src="x7.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 7: </span>Examples from MathCanvas-Imagen dataset.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A2.F8"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="350" id="A2.F8.g1" src="x8.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 8: </span>Examples from MathCanvas-Imagen dataset.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A2.F9"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="361" id="A2.F9.g1" src="x9.png" width="829"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 9: </span>An example from MathCanvas-Instruct dataset.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A2.F10"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="332" id="A2.F10.g1" src="x10.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 10: </span>An example from MathCanvas-Instruct dataset.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A2.F11"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="435" id="A2.F11.g1" src="x11.png" width="831"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 11: </span>An example from MathCanvas-Instruct dataset.</figcaption>
+</figure>
+</section>
+</section>
+</section>
+<section class="ltx_appendix" id="A3">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix C </span>Benchmark Evaluation Details</h2>
+<section class="ltx_subsection" id="A3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">C.1 </span>Weighted Scoring Weights</h3>
+<div class="ltx_para" id="A3.SS1.p1">
+<p class="ltx_p">The weights for our Weighted Scoring metric are calculated using an exponential growth factor of 1.3, valuing later sub-questions more heavily. The specific formula for the weight <math alttext="w_{i}" class="ltx_Math" display="inline" id="A3.SS1.p1.m1" intent=":literal"><semantics><msub><mi>w</mi><mi>i</mi></msub><annotation encoding="application/x-tex">w_{i}</annotation></semantics></math> of the <math alttext="i" class="ltx_Math" display="inline" id="A3.SS1.p1.m2" intent=":literal"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>-th sub-question in a problem with <math alttext="N" class="ltx_Math" display="inline" id="A3.SS1.p1.m3" intent=":literal"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math> sub-questions is:</p>
+<table class="ltx_equation ltx_eqn_table" id="A3.Ex1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="w_{i}=\frac{1.3^{i-1}}{\sum_{j=1}^{N}1.3^{j-1}}" class="ltx_Math" display="block" id="A3.Ex1.m1" intent=":literal"><semantics><mrow><msub><mi>w</mi><mi>i</mi></msub><mo>=</mo><mfrac><msup><mn>1.3</mn><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msup><mrow><msubsup><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msup><mn>1.3</mn><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding="application/x-tex">w_{i}=\frac{1.3^{i-1}}{\sum_{j=1}^{N}1.3^{j-1}}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Since our benchmark contains problems with a maximum of four sub-questions, we use the following pre-calculated, normalized weights for evaluation. The final score for a problem is the sum of the weights of the correctly answered sub-questions.</p>
+</div>
+<div class="ltx_para" id="A3.SS1.p2">
+<ul class="ltx_itemize" id="A3.I1">
+<li class="ltx_item" id="A3.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A3.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">For 2 sub-questions:</span> [0.4348, 0.5652]</p>
+</div>
+</li>
+<li class="ltx_item" id="A3.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A3.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">For 3 sub-questions:</span> [0.2506, 0.3258, 0.4236]</p>
+</div>
+</li>
+<li class="ltx_item" id="A3.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="A3.I1.i3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">For 4 sub-questions:</span> [0.1616, 0.2101, 0.2732, 0.3551]</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="ltx_subsection" id="A3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">C.2 </span>Evaluation Template</h3>
+<div class="ltx_para" id="A3.SS2.p1">
+<p class="ltx_p">Tables <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3.T7" title="Table 7 ‣ C.2 Evaluation Template ‣ Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">7</span></a> and <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A3.T8" title="Table 8 ‣ C.2 Evaluation Template ‣ Appendix C Benchmark Evaluation Details ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">8</span></a> display the prompt templates used for MathCanvas-Bench evaluation.</p>
+</div>
+<figure class="ltx_table" id="A3.T7"><span class="ltx_inline-block"><svg class="ltx_picture ltx_centering" height="12893.35" id="A3.T7.pic1" overflow="visible" version="1.1" viewbox="0 0 477.38 12893.35" width="477.38"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,12893.35) matrix(1 0 0 -1 0 0)"><g fill="#000000" fill-opacity="1.0" style="--ltx-fill-color:#000000;"><path d="M 0 21.65 L 0 12871.69 C 0 12883.65 9.69 12893.35 21.65 12893.35 L 455.72 12893.35 C 467.68 12893.35 477.38 12883.65 477.38 12871.69 L 477.38 21.65 C 477.38 9.69 467.68 0 455.72 0 L 21.65 0 C 9.69 0 0 9.69 0 21.65 Z" style="stroke:none"></path></g><g fill="#F9F9F9" fill-opacity="1.0" style="--ltx-fill-color:#F9F9F9;"><path d="M 1.97 21.65 L 1.97 12871.69 C 1.97 12882.57 10.78 12891.38 21.65 12891.38 L 455.72 12891.38 C 466.59 12891.38 475.41 12882.57 475.41 12871.69 L 475.41 21.65 C 475.41 10.78 466.59 1.97 455.72 1.97 L 21.65 1.97 C 10.78 1.97 1.97 10.78 1.97 21.65 Z" style="stroke:none"></path></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 6443.21)"><foreignobject class="ltx_minipage" color="#000000" height="12865.79" overflow="visible" style="--ltx-fg-color:#000000;--fo_width :31.37em;--fo_height:465.15em;--fo_depth :464.65em;" transform="matrix(1 0 0 -1 0 6436.35)" width="31.37em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<table class="ltx_tabular ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">You are an expert mathematics teacher and a precise data evaluator. Your task is to analyze a given math problem, compare a predicted solution against a ground truth answer, and determine if the prediction is correct.</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">INPUT FORMAT:</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">You will be provided with a JSON string containing the following fields:
+
+<span class="ltx_itemize" id="A3.I2">
+<span class="ltx_item" id="A3.I2.i1" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I2.i1.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter">question_text</span>: The full text of the mathematical problem.</span>
+</span></span>
+<span class="ltx_item" id="A3.I2.i2" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I2.i2.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter">ground_truth_answer</span>: The correct, final answer text. This is the gold standard and is already extracted.</span>
+</span></span>
+<span class="ltx_item" id="A3.I2.i3" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I2.i3.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter">prediction_solution</span>: The full solution text from the model, from which you must extract the final answer(s).</span>
+</span></span>
+</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">TASK &amp; OUTPUT REQUIREMENTS:</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">Your output must be a single, valid JSON object. The process involves two main steps: <span class="ltx_text ltx_font_bold">Answer Parsing and Extraction</span> and <span class="ltx_text ltx_font_bold">Correctness Judgment</span>.</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Step 1: Answer Parsing and Extraction</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">Your first task is to create two lists of answers: <span class="ltx_text ltx_font_typewriter">gt_answers</span> and <span class="ltx_text ltx_font_typewriter">pred_answers</span>. The structure of the <span class="ltx_text ltx_font_typewriter">gt_answers</span> list defines the required structure for the <span class="ltx_text ltx_font_typewriter">pred_answers</span> list.</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">1.1 Parsing <span class="ltx_text ltx_font_typewriter">ground_truth_answer</span>:</span></span>
+<span class="ltx_itemize" id="A3.I3">
+<span class="ltx_item" id="A3.I3.i1" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i1.p1">
+<span class="ltx_p">The <span class="ltx_text ltx_font_typewriter">ground_truth_answer</span> is a clean, final answer.</span>
+</span></span>
+<span class="ltx_item" id="A3.I3.i2" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i2.p1">
+<span class="ltx_p">Your task is to <span class="ltx_text ltx_font_bold">parse</span> it into a list (<span class="ltx_text ltx_font_typewriter">gt_answers</span>).</span>
+</span></span>
+<span class="ltx_item" id="A3.I3.i3" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i3.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">CRITICAL PARSING RULE:</span> The <span class="ltx_text ltx_font_bold">only</span> condition for creating a list with multiple elements is the presence of explicit multi-part answer tags (e.g., <span class="ltx_text ltx_font_typewriter">&lt;1&gt;...&lt;/1&gt;</span>, <span class="ltx_text ltx_font_typewriter">&lt;2&gt;...&lt;/2&gt;</span>).</span>
+</span></span>
+<span class="ltx_item" id="A3.I3.i4" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i4.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">If tags are present:</span> Extract the content of each tag into a separate list element. <span class="ltx_text ltx_font_italic">Example:</span> <span class="ltx_text ltx_font_typewriter">"&lt;1&gt;5 cm&lt;/1&gt;&lt;2&gt;10 cm&lt;/2&gt;"</span> becomes <span class="ltx_text ltx_font_typewriter">["5 cm", "10 cm"]</span>.</span>
+</span></span>
+<span class="ltx_item" id="A3.I3.i5" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i5.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">If no such tags are present:</span> The <span class="ltx_text ltx_font_bold">entire, unmodified string</span> must be treated as the <span class="ltx_text ltx_font_bold">single element</span> of the list. Do not split the string by characters, words, commas, or any other pattern. <span class="ltx_text ltx_font_italic">Example 1:</span> <span class="ltx_text ltx_font_typewriter">"ABC"</span> must become <span class="ltx_text ltx_font_typewriter">["ABC"]</span>, <span class="ltx_text ltx_font_bold">NOT</span> <span class="ltx_text ltx_font_typewriter">["A", "B", "C"]</span>. <span class="ltx_text ltx_font_italic">Example 2:</span> <span class="ltx_text ltx_font_typewriter">"x=5, y=10"</span> must become <span class="ltx_text ltx_font_typewriter">["x=5, y=10"]</span>, <span class="ltx_text ltx_font_bold">NOT</span> <span class="ltx_text ltx_font_typewriter">["x=5", "y=10"]</span>.</span>
+</span></span>
+<span class="ltx_item" id="A3.I3.i6" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I3.i6.p1">
+<span class="ltx_p">The <span class="ltx_text ltx_font_typewriter">gt_answers</span> list will never contain <span class="ltx_text ltx_font_typewriter">null</span> elements and its length defines the number of sub-questions.</span>
+</span></span>
+</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">1.2 Extracting from <span class="ltx_text ltx_font_typewriter">prediction_solution</span>:</span></span>
+<span class="ltx_itemize" id="A3.I4">
+<span class="ltx_item" id="A3.I4.i1" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I4.i1.p1">
+<span class="ltx_p">Your primary task is to <span class="ltx_text ltx_font_bold">extract</span> the final answer(s) from the <span class="ltx_text ltx_font_typewriter">prediction_solution</span> text to create the <span class="ltx_text ltx_font_typewriter">pred_answers</span> list.</span>
+</span></span>
+<span class="ltx_item" id="A3.I4.i2" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I4.i2.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">IMPORTANT</span>: The answers to different sub-questions may appear in different places within the <span class="ltx_text ltx_font_typewriter">prediction_solution</span>, not necessarily grouped together at the end. You must treat this as a <span class="ltx_text ltx_font_bold">matching task</span>.</span>
+</span></span>
+</span>
+</span>
+</td>
+</tr>
+</table></span></span></foreignobject></g></g></svg></span>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 7: </span>
+The prompt template (part 1) used by GPT-4.1 for mathematical reasoning evaluation.</figcaption>
+</figure>
+<figure class="ltx_table" id="A3.T8"><span class="ltx_inline-block"><svg class="ltx_picture ltx_centering" height="15228.61" id="A3.T8.pic1" overflow="visible" version="1.1" viewbox="0 0 477.38 15228.61" width="477.38"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,15228.61) matrix(1 0 0 -1 0 0)"><g fill="#000000" fill-opacity="1.0" style="--ltx-fill-color:#000000;"><path d="M 0 21.65 L 0 15206.96 C 0 15218.92 9.69 15228.61 21.65 15228.61 L 455.72 15228.61 C 467.68 15228.61 477.38 15218.92 477.38 15206.96 L 477.38 21.65 C 477.38 9.69 467.68 0 455.72 0 L 21.65 0 C 9.69 0 0 9.69 0 21.65 Z" style="stroke:none"></path></g><g fill="#F9F9F9" fill-opacity="1.0" style="--ltx-fill-color:#F9F9F9;"><path d="M 1.97 21.65 L 1.97 15206.96 C 1.97 15217.83 10.78 15226.64 21.65 15226.64 L 455.72 15226.64 C 466.59 15226.64 475.41 15217.83 475.41 15206.96 L 475.41 21.65 C 475.41 10.78 466.59 1.97 455.72 1.97 L 21.65 1.97 C 10.78 1.97 1.97 10.78 1.97 21.65 Z" style="stroke:none"></path></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 7610.85)"><foreignobject class="ltx_minipage" color="#000000" height="15201.05" overflow="visible" style="--ltx-fg-color:#000000;--fo_width :31.37em;--fo_height:549.54em;--fo_depth :549.04em;" transform="matrix(1 0 0 -1 0 7603.99)" width="31.37em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<table class="ltx_tabular ltx_align_middle">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">
+<span class="ltx_itemize" id="A3.I5">
+<span class="ltx_item" id="A3.I5.i1" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I5.i1.p1">
+<span class="ltx_p">For each part of the <span class="ltx_text ltx_font_typewriter">gt_answers</span> list, you must scan the <span class="ltx_text ltx_font_bold">entire</span> <span class="ltx_text ltx_font_typewriter">prediction_solution</span> to find the corresponding predicted answer. Look for explicit labels (e.g., "(1)", "Part A"), final conclusions, boxed answers (e.g., <span class="ltx_text ltx_font_typewriter">\boxed{...}</span>), or statements that directly answer a part of the original question.</span>
+</span></span>
+<span class="ltx_item" id="A3.I5.i2" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I5.i2.p1">
+<span class="ltx_p">The final <span class="ltx_text ltx_font_typewriter">pred_answers</span> list <span class="ltx_text ltx_font_bold">must have the exact same length as the <span class="ltx_text ltx_font_typewriter">gt_answers</span> list</span>.</span>
+</span></span>
+<span class="ltx_item" id="A3.I5.i3" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I5.i3.p1">
+<span class="ltx_p">For each sub-question, if you cannot find a corresponding answer in the <span class="ltx_text ltx_font_typewriter">prediction_solution</span>, you <span class="ltx_text ltx_font_bold">must</span> use <span class="ltx_text ltx_font_typewriter">null</span> as a placeholder in that position. <span class="ltx_text ltx_font_bold">This rule is critical and applies in all cases where an answer is missing, including when the <span class="ltx_text ltx_font_typewriter">prediction_solution</span> appears incomplete or is truncated before all sub-questions are addressed.</span></span>
+</span></span>
+</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">CRITICAL RULE:</span> The final <span class="ltx_text ltx_font_typewriter">gt_answers</span> and <span class="ltx_text ltx_font_typewriter">pred_answers</span> lists <span class="ltx_text ltx_font_bold">must</span> be of equal length. The number of parts in the <span class="ltx_text ltx_font_typewriter">ground_truth_answer</span> dictates the required length for both lists.</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Step 2: Correctness Judgment</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">Your second task is to compare the <span class="ltx_text ltx_font_typewriter">pred_answers</span> list against the <span class="ltx_text ltx_font_typewriter">gt_answers</span> list, element by element.</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Judgment Rules:</span></span>
+<span class="ltx_itemize" id="A3.I6">
+<span class="ltx_item" id="A3.I6.i1" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I6.i1.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Numerical Equivalence:</span> Treat numbers as correct if they are mathematically equivalent (e.g., <span class="ltx_text ltx_font_typewriter">5</span>, <span class="ltx_text ltx_font_typewriter">5.0</span>, <span class="ltx_text ltx_font_typewriter">10/2</span>). Allow for minor floating-point rounding differences.</span>
+</span></span>
+<span class="ltx_item" id="A3.I6.i2" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I6.i2.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Textual Equivalence:</span> For text answers, judge based on semantic meaning, not exact matching. Ignore case, whitespace, and phrasing differences (e.g., "CB is parallel to PD" is equivalent to "Line CB || Line PD").</span>
+</span></span>
+<span class="ltx_item" id="A3.I6.i3" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span class="ltx_text" style="--ltx-fg-color:#000000;">•</span></span>
+<span class="ltx_para" id="A3.I6.i3.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Generate Correctness List:</span> Create a boolean list named <span class="ltx_text ltx_font_typewriter">correctness</span>. The i-th element is <span class="ltx_text ltx_font_typewriter">true</span> if the i-th predicted answer is correct, <span class="ltx_text ltx_font_typewriter">false</span> otherwise. This list <span class="ltx_text ltx_font_bold">must</span> have the same length as the answer lists.</span>
+</span></span>
+</span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Final JSON Output Structure:</span></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:433.6pt;">Your entire response must be a single, valid JSON object matching the schema below. Do not include any text outside of this JSON object.</span><pre class="ltx_verbatim ltx_font_typewriter">
+{
+  "analysis": "A brief step-by-step explanation...",
+  "gt_answers": [
+    "string",
+    ...
+  ],
+  "pred_answers": [
+    "string or null",
+    ...
+  ],
+  "correctness": [
+    true/false,
+    ...
+  ]
+}
+</pre>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">INPUT DATA:</span> <span class="ltx_text" style="--ltx-fg-color:#00FFFF;">{input_data}</span></span>
+</span>
+</td>
+</tr>
+</table></span></span></foreignobject></g></g></svg></span>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 8: </span>
+The prompt template (part 2) used by GPT-4.1 for mathematical reasoning evaluation. The text highlighted in <span class="ltx_text" style="--ltx-fg-color:#00FFFF;">cyan</span> is replaced with the specific input data for each problem being evaluated.</figcaption>
+</figure>
+</section>
+</section>
+<section class="ltx_appendix" id="A4">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix D </span>Additional Qualitative Results</h2>
+<div class="ltx_para" id="A4.p1">
+<p class="ltx_p">To further illustrate the limitations of even the most advanced LMMs when they lack intrinsic VCoT capabilities, we present qualitative examples of their performance on problems that benefit from visual manipulation. Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A4.F12" title="Figure 12 ‣ Appendix D Additional Qualitative Results ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">12</span></a> shows the solutions from Gemini-2.5-Pro and GPT-5 for the problem featured in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S0.F1" title="Figure 1 ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a> of the main paper, demonstrating their reliance on complex and sometimes flawed algebraic approaches.
+We provide more qualitative results of BAGEL-Zebra-CoT, Nano-Banana, and our method in Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#A4.F13" title="Figure 13 ‣ Appendix D Additional Qualitative Results ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">13</span></a>.</p>
+</div>
+<figure class="ltx_figure" id="A4.F12"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="796" id="A4.F12.g1" src="x12.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 12: </span>Leading LMMs (Gemini-2.5-Pro and GPT-5) solving the problem from Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.14958v1#S0.F1" title="Figure 1 ‣ MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical Reasoning"><span class="ltx_text ltx_ref_tag">1</span></a> via text-only reasoning. Their complex or incorrect algebraic approaches, in contrast to the elegant geometric solutions unlocked by intrinsic VCoT, demonstrate the necessity of our MathCanvas framework.</figcaption>
+</figure>
+<figure class="ltx_figure" id="A4.F13"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_square" height="896" id="A4.F13.g1" src="x13.png" width="831"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 13: </span>Comparison of BAGEL-Zebra-CoT, Nano-Banana, and our method.</figcaption>
+</figure>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 16:04:52 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+UNMATCHED LINES FOR: michigan_law_review_spending_clause_standing
+================================================================================
+Total unmatched: 7
+
+
+────────────────────────────────────────────────────────────────────────────────
+Line 1/7
+Best match score: 45.83%
+Method: no_match
+Tokens matched: 11/24
+Avg token similarity: 72.9%
+Word count: 24 words
+────────────────────────────────────────────────────────────────────────────────
+this note is brought to you for free and open access by the michigan law review at university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 2/7
+Best match score: 45.45%
+Method: no_match
+Tokens matched: 10/22
+Avg token similarity: 69.6%
+Word count: 22 words
+────────────────────────────────────────────────────────────────────────────────
+it has been accepted for inclusion in michigan law review by an authorized editor of university of michigan law school scholarship repository.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 3/7
+Best match score: 72.00%
+Method: no_match
+Tokens matched: 18/25
+Avg token similarity: 85.4%
+Word count: 25 words
+────────────────────────────────────────────────────────────────────────────────
+while some legal commentators have argued that expansive state standing offers states a meaningful policy platform, 26 federal courts should not accept incoherent doctrine that
+
+────────────────────────────────────────────────────────────────────────────────
+Line 4/7
+Best match score: 72.22%
+Method: no_match
+Tokens matched: 26/36
+Avg token similarity: 89.3%
+Word count: 36 words
+────────────────────────────────────────────────────────────────────────────────
+activist states and their chief prosecutors, already relying on 'dubious' and 'lawless' standing theories to circumvent decades of article iii limitations, 23 leave the fate of consequential policy decisions in the hands of an unelected judiciary.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 5/7
+Best match score: 75.00%
+Method: no_match
+Tokens matched: 15/20
+Avg token similarity: 87.5%
+Word count: 20 words
+────────────────────────────────────────────────────────────────────────────────
+precisely how to apply special solicitude (or even how it functioned in massachusetts ) 128 has vexed scholars ever since.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 6/7
+Best match score: 67.65%
+Method: no_match
+Tokens matched: 23/34
+Avg token similarity: 86.3%
+Word count: 34 words
+────────────────────────────────────────────────────────────────────────────────
+standing for sovereign injuries; 166 two held that the challenges were not justiciable with the supreme court denying certiorari in both cases; 167 and three found the offset provision unconstitutionally ambiguous on the merits.
+
+────────────────────────────────────────────────────────────────────────────────
+Line 7/7
+Best match score: 78.95%
+Method: no_match
+Tokens matched: 30/38
+Avg token similarity: 89.7%
+Word count: 38 words
+────────────────────────────────────────────────────────────────────────────────
+224 andin both the ninth and eleventh circuits, the tax power injury was still treated as 'heighten[ing the offset provision's] effect on state sovereignty.' 225 curtailing the power to tax was a vaguely articulated plus factor for standing.

@@ -1,0 +1,1441 @@
+{
+  "basename": "supreme_court_review_the_presidency_after_trump_v_united_states",
+  "stats": {
+    "total_paragraphs": 286,
+    "body_text": 286,
+    "footnote_text": 0,
+    "total_words": 22425
+  },
+  "paragraphs": [
+    {
+      "text": "search for more articles by this author",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "two months after special counsel jack smith indicted then-former president donald trump for his efforts to alter the results of the 2020 presidential election, trump’s lawyers moved “to dismiss the indictment … with prejudice, based on presidential immunity” for official acts. 1 the district court denied the motion and the court of appeals quickly affirmed in a decision that was widely described as obviously correct. 2 but the supreme court reversed, in an opinion written by chief justice roberts. 3 the court held that a former president is absolutely immune from post-presidency prosecution for actions that fall in the president’s exclusive constitutional authority, and at least presumptively immune for all other official presidential acts.",
+      "label": "body-text",
+      "word_count": 114
+    },
+    {
+      "text": "the decision in trump v. united states was not well received. 4 a primary criticism has been that the court’s ruling portends a “lawless presidency.” 5 this criticism, i will argue, rests on a misleading picture of how the criminal law operates inside the executive branch. many factors other than the president’s vulnerability to criminal law inform executive branch compliance with criminal law. one can certainly imagine a bad-man president after trump engaging in widespread lawless criminal behavior. but, unfortunately, the bad-man president had many tools to skirt the criminal law before trump , to which its uncertain immunity ruling added relatively little.",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "which is not to say that the decision won’t impact the presidency. it will, probably in a big way. but its impact will have less to do with the court’s immunity rulings than with its related rulings on the president’s exclusive removal power and exclusive power over investigation and prosecution. these rulings, which were novel, expansive, and undertheorized, will play themselves out in litigation about the scope of presidential power for years. this article, however, will mainly explore the slightly more tractable impact of the decision beyond judicial review and inside the executive branch, which will deploy the decision to help the president overcome legal constraints and win disputes with congress.",
+      "label": "body-text",
+      "word_count": 111
+    },
+    {
+      "text": "part i provides background to trump . it shows that the court’s consequential rulings about exclusive presidential power were neither raised by trump’s lawyers in the courts below nor addressed by those courts and were addressed by the supreme court as a matter of first impression. part i explores how and why this happened, and with what significance. part ii analyzes trump , with special emphasis on the exclusive power rulings. it explains the novelty in these rulings and their potentially very broad implications. part iii assesses how trump will impact presidential and executive branch compliance with criminal law and speculates how executive branch lawyers will use the exclusive power rulings in the decision to enhance executive branch power.",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "the indictment against trump alleged that he conspired with a justice department official and several private persons to overturn the results of the 2020 presidential election through public statements and through communication with and pressure on state officials, fraudulent state electors, department of justice officials, vice president mike pence, and the joint session of congress. it alleged that through this conduct trump conspired to defraud the united states in violation of 18 u.s.c. § 371; conspired to obstruct an official proceeding in violation of 18 u.s.c. § 1512(k); obstructed and attempted to obstruct an official proceeding in violation of 18 u.s.c. §§ 1512(c)(2) and 2; and conspired to deny the rights of persons to vote and have their votes counted in violation of 18 u.s.c. § 241. 6",
+      "label": "body-text",
+      "word_count": 128
+    },
+    {
+      "text": "trump’s lawyers claimed that trump was immune from all charged conduct that involved official acts. 7 and yet, as i will explain below, they failed to raise in the lower courts what would turn out to be the most important separation of powers issue in the case: limits on congress’s power to criminalize presidential conduct. ironically, the special counsel, arguing on behalf of the u.s. government, made this issue prominent in briefing and oral argument before the court. these arguments were the basis for the court’s claim that the government “agree[d] with much of [the court’s] analysis” even if the court reached conclusions sharply at odds with the government. 8 this part explains this important background.",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "before trump , the supreme court had never ruled on a former president’s immunity from suit because no administration had ever prosecuted a former president before the biden administration prosecuted trump through the quasi-independent special counsel. 9 the court had addressed related issues, however. three decisions were especially relevant in trump .",
+      "label": "body-text",
+      "word_count": 52
+    },
+    {
+      "text": "first, youngstown sheet & tube co. v. sawyer held that president harry s. truman lacked statutory or constitutional authority to direct the secretary of commerce to seize and operate certain steel mills during the korean war. 10 justice jackson’s concurrence articulated a three-tiered framework to assess presidential power claims “depending upon their disjunction or conjunction with those of congress.” 11 jackson’s third category concerned matters of “exclusive presidential control” that “disabl[e] the congress from acting upon the subject.” 12 jackson provided little guidance on category three claims beyond suggesting that the president would rarely prevail on them. 13 the full court adopted jackson’s tripartite framework three decades after youngstown . 14 but it was not until 2015, in zivotofsky v. kerry , that the court evaluated a presidential claim of exclusive authority under jackson’s third category. 15 it held that the president’s recognition power was exclusive but did not mention or apply any presumption against presidential exclusivity. 16",
+      "label": "body-text",
+      "word_count": 158
+    },
+    {
+      "text": "second, united states v. nixon recognized an article ii-based executive privilege protecting presidential and senior executive branch official communications from disclosure. 17 the court explained: “certain powers and privileges flow from the nature of enumerated powers; the protection of the confidentiality of presidential communications has similar constitutional underpinnings.” 18 the court ruled that this executive privilege was not absolute, however, due to a countervailing article iii-based judicial duty “to do justice in criminal prosecutions.” 19 the court recognized a “presumptive privilege” for presidential communications that was “fundamental to the operation of government and inextricably rooted in the separation of powers under the constitution.” 20 but it ruled that when the privilege is based on a “generalized interest in confidentiality” it “must yield to the demonstrated, specific need for evidence in a pending criminal trial.” 21",
+      "label": "body-text",
+      "word_count": 135
+    },
+    {
+      "text": "third, nixon v. fitzgerald held that due to “the special nature of the president’s constitutional office and functions,” a president receives absolute immunity “from damages liability for acts within the ‘outer perimeter’ of his official responsibility.” 22 it explained that a president’s amenability to suit turned on a “balance [of] the constitutional weight of the interest to be served against the dangers of intrusion on the authority and functions of the executive branch.” 23 pointing to youngstown and united states v. nixon , the court stated that “[w]hen judicial action is needed to serve broad public interests … the exercise of jurisdiction has been held warranted.” 24 but, it concluded that in a “merely private suit for damages based on a president’s official acts,” 25 the president receives the broad absolute immunity due to his important “discretionary responsibilities” and the extraordinary burden that inferior presidential immunity would entail. 26",
+      "label": "body-text",
+      "word_count": 149
+    },
+    {
+      "text": "three features of these foundational decisions warrant comment.",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "first, all three opinions interpret article ii to carve out areas of presidential power that are impervious to the intrusion of another branch, though in different ways and with different terminology. jackson’s youngstown category three recognized the possibility of limits on congressional power to regulate areas of exclusive presidential power. by contrast, the nixon cases recognized limitations on judicial review . nixon v. fitzgerald expressed this limitation in terms of a presidential immunity from suit for damages. united states v. nixon expressed this limitation in terms of a presidential presumptive privilege against disclosure of presidential communications in court. the limits on congressional power contemplated by youngstown go to the legality of presidential action, while the limit on judicial review contemplated by nixon v. fitzgerald accommodates the potential harms of judicial review on presidential action but does not affect the underlying legality of presidential conduct. 27",
+      "label": "body-text",
+      "word_count": 145
+    },
+    {
+      "text": "second, neither the jackson concurrence in youngstown , nor the majority opinions in the nixon cases, were examples of what we would today call originalism or even textualism. jackson did not purport to discern constitutional meaning as fixed at the founding but did poke fun at a few strands of what became modern originalism. 28 and, although he marched through the text of article ii, he did not rely on it in a serious way to deny the president’s claims. 29 the nixon opinions were not “textually based,” as michael dreeben, the counselor to the special counsel, said at the trump v. united states oral argument. 30 rather, they rested on “constitutional underpinnings,” as the tapes case put it in the context of presidential communications. 31 and the nixon opinions did not mention the views of the founders, original public meaning, or any other originalist indicator of meaning. 32",
+      "label": "body-text",
+      "word_count": 149
+    },
+    {
+      "text": "third, all three opinions identified exclusive presidential power through functionalist, not formalist, methodology. 33 jackson’s tripartite approach to presidential power is famously anti-formalist. 34 while it recognized that category three housed exclusive presidential powers, it did not reason to such exclusivity by formalist methods. rather, jackson described the president’s exclusive authority as the resolution of a clash of powers between the executive and other branches. 35 the nixon opinions were overtly anti-formalist. they both balanced presidential claims of authority against the competing claims of the other branches, and they both reached their conclusions based on the court’s functional assessment of the impact of judicial actions on executive power. 36",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "trump’s lawyers argued from the outset that a former president is immune from criminal prosecution for conduct involving official acts unless he has been impeached and convicted for the same conduct. 37 they maintained that nixon v. fitzgerald should be extended to the criminal context and that marbury and its progeny supported the president’s immunity from criminal prosecution for public acts undertaken in office. 38 the focus was on immunity from judicial review , i.e., on “article iii courts lack[ing] the power to review the president’s official acts under the separation of powers doctrine.” 39 they did not argue that the constitution’s separation of powers prevented congress from criminalizing presidential acts. 40",
+      "label": "body-text",
+      "word_count": 112
+    },
+    {
+      "text": "the court of appeals, rushing to decision, rejected trump’s argument in broad terms-too broad. 41 following trump’s lawyers’ lead, it focused on separation of powers constraints on the judiciary, not congress. in concluding that the president lacked immunity for his public acts, the court of appeals stated that “[t]he separation of powers doctrine … necessarily permits the judiciary to oversee the federal criminal prosecution of a former president for his official acts because the fact of the prosecution means that the former president has allegedly acted in defiance of the laws.” 42 the chief justice at oral argument expressed “concern” that this statement, which he saw as a holding, meant that “a former president can be prosecuted because he’s being prosecuted.” 43 and that is indeed what the statement says.",
+      "label": "body-text",
+      "word_count": 130
+    },
+    {
+      "text": "the government did not defend this reasoning by the court of appeals in the supreme court. when asked about it by chief justice roberts at oral argument, the government’s attorney, dreeben, stated that it was not “the proper approach in this case” and “certainly not the government’s approach.” 44",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "the government’s more nuanced position on presidential immunity before the supreme court reflected what dreeben described as “equities that are far beyond [the trump] prosecution.” 45 the justice department has duties to both protect the president’s law enforcement prerogatives and to protect the presidency from encroachment by other branches. trump was a highly unusual case because these interests were potentially in tension. 46 the biden administration had an interest in prosecuting the former president for his alleged crimes. but it also had an interest to prevent undue encroachments on future presidencies by congress and the courts (and, as the briefs made plain, from future justice department prosecutors). 47",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "in reflection of this tension, and of the court’s role in protecting both interests, the government emphasized in the supreme court why its argument against immunity for trump in the january 6 prosecution would not adversely impact future presidencies. one set of reasons concerned the practical barriers to prosecution, including internal justice department norms and the grand jury. 48 another set of reasons concerned separation of powers limits on congress’s power to criminalize presidential actions, which the government had mentioned in passing in its briefs below but foregrounded before the supreme court. (it is not clear why trump’s lawyers failed to address these issues below; the best explanation appears to be, amazingly, that they just missed them. 49 )",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "the centrality of separation of powers constraints on congress to the government’s argument was apparent in dreeben’s response to the first question he received at oral argument. justice thomas asked whether dreeben was arguing that there was “no … presidential immunity, even for official acts.” dreeben gave a quick affirmative answer and then immediately shifted ground to a clearly pre-planned framing: yes, justice thomas, but i think that it’s important to put in perspective the position that we are offering the court today. the president, as the head of the article ii branch, can assert as-applied article ii objections to criminal laws that interfere with an exclusive power possessed by the president or that prevent the president from accomplishing his constitutionally assigned functions. that is the constitutional doctrine that currently governs the separation of powers. 50 in its brief and at oral argument, the government explained that “the position” it was “offering the court” had several discrete components. 51",
+      "label": "body-text",
+      "word_count": 159
+    },
+    {
+      "text": "yes, justice thomas, but i think that it’s important to put in perspective the position that we are offering the court today. the president, as the head of the article ii branch, can assert as-applied article ii objections to criminal laws that interfere with an exclusive power possessed by the president or that prevent the president from accomplishing his constitutionally assigned functions. that is the constitutional doctrine that currently governs the separation of powers. 50",
+      "label": "body-text",
+      "word_count": 75
+    },
+    {
+      "text": "first, congress cannot interfere with the president’s “conclusive and preclusive,” i.e., exclusive, powers within the jackson framework. this category, the government maintained, included the president’s authority to recognize foreign nations, to veto bills, to grant pardons, and to remove at will a principal officer of a single-headed agency. 52 second, congress also cannot enact a statute that as applied to the president would “impede the president’s ability to carry out his constitutionally assigned duties.” 53",
+      "label": "body-text",
+      "word_count": 75
+    },
+    {
+      "text": "third, and closely relatedly, federal courts must construe generally worded statutes to avoid serious questions of unconstitutionality under the first two rationales. this argument came in narrow and broad versions of constitutional avoidance. in some contexts, the government argued, the president can be carved out of a statute on a case-by-case basis. but other criminal statutes burden presidential power “in such a wide range of applications” that the president must be deemed excluded from the statute in every instance. 54 (the trump lawyers raised this last component of the third argument for the first time in their brief in the supreme court but raised none of the other arguments for limits on congress’s power. 55 )",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "these arguments for constitutional constraints on congress’s power to regulate the presidency were relevant because the government maintained that congress had in fact criminalized trump’s allegedly illegal conduct and had the constitutional authority to do so. 56 the question of congress’s power to regulate the presidency was thus directly implicated in the case even if not raised by the defendant or addressed below. 57 dreeben, on behalf of the government, acknowledged at oral argument that the court had “discretion to resolve that issue.” 58",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "it is important to understand why constitutional constraints on congress’s power were relevant to immunity in the criminal context in trump but were not relevant to immunity from civil suit in fitzgerald . in contrast to trump , which was premised on congressional regulation of presidential conduct, the lawsuit in fitzgerald was based on judicially implied statutory and constitutional causes of action. in recognizing a constitutionally based absolute immunity from judicial review of civil damages suits against the president, fitzgerald assumed the validity of these implied causes of action but, under the canon of constitutional avoidance, declined to address congress’s power to create a cause of action for damages against the president. 59 the court in fitzgerald thus left open the possibility that congress had the constitutional authority to enact a statute imposing civil damages liability on the president for official acts, but said not a word about how this authority might be limited by exclusive presidential power.",
+      "label": "body-text",
+      "word_count": 158
+    },
+    {
+      "text": "the introduction at the supreme court of the issue of constitutional limits on congress’s power to criminalize official presidential acts raised a conceptual difficulty: should such limits be treated as a defense to prosecution, or as an immunity from judicial review as in fitzgerald ? 60",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "from one perspective, presidential immunity is a principle-like absolute immunity for judges, prosecutors, and legislators-that blocks “an otherwise valid legal rule [from being] enforced against a particular defendant in a particular context.” 61 since a criminal statute that intrudes on an exclusive presidential power is invalid , it would be a defense rather than an immunity on this view. 62 by contrast, one might see any constitutional constraint on adjudication, including a jackson category three constraint on congress’s power, as a presidential “immunity” in the sense of a constitutional bar on federal courts proceeding against the president. the court has, in the federalism context at least, treated analogous constraints on state power to prosecute federal executive officials as an “immunity.” 63",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "whether the constitutional constraint on congress is treated as an “immunity” matters because “the essence of absolute immunity is its possessor’s entitlement not to have to answer for his conduct.” 64 if the constitutional constraint on congress is a defense and not an immunity, then a president may have to suffer through trial under an unconstitutional law that would not be appealable until final judgment. the government had maintained this view in passing in the court of appeals and initially took that position at oral argument. 65",
+      "label": "body-text",
+      "word_count": 87
+    },
+    {
+      "text": "but justice barrett at oral argument worried that an appeal on issues of this sort only after a jury trial and final judgment may come too late to protect the president. 66 dreeben acknowledged that “the court has the authority to craft procedural rules that implement its article ii concerns.” this meant, he said, that the court could treat a president’s protection from an unconstitutional federal statute as an issue that the trial judge could address at the outset of a case and that could be subject to interlocutory review. 67",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "the government argued that its many concessions to presidential power vis-à-vis limits on congress were not implicated by the trump prosecution. all of trump’s conduct, it maintained, was covered by one of four validly enacted and applied federal criminal statutes. it offered its concessions as comfort to the court about the implications for the presidency of denying trump immunity in the case, and perhaps because it suspected the court would be interested in these issues even though they were not addressed by the courts below.",
+      "label": "body-text",
+      "word_count": 85
+    },
+    {
+      "text": "but once the government put these issues on the court’s plate, several hard questions arose-questions that did not have firm answers in the court’s case law. which and how many of the separation of powers theories offered by the government applied in the case, and how? what exactly is the scope of the president’s exclusive article ii powers? how does the court determine whether a federal criminal law unduly burdens a presidential power or prevents the president from accomplishing his constitutionally assigned duties?",
+      "label": "body-text",
+      "word_count": 83
+    },
+    {
+      "text": "the proper answers to these questions are notoriously underspecified in the court’s jurisprudence and contested among scholars. the government provided no concrete answers to these questions, and the trump team did not address them. also difficult and novel, as oral argument made clear, is the role the president’s motives for conduct play in assessing these burdens, and in determining whether his action is official or unofficial. 68",
+      "label": "body-text",
+      "word_count": 67
+    },
+    {
+      "text": "the chief justice asked dreeben at oral argument whether, considering the d.c. circuit’s overbroad and erroneous reasoning, the supreme court should simply “send [the case] back to the court of appeals or issue an opinion making clear that [its reasoning is] not the law.” 69 dreeben did not answer that question. but in light of the hard and novel issues raised for the first time before the court, and the rushed proceedings, the court and the country might have been better off if the court had taken the path suggested by the chief justice. instead, it issued an opinion that, while resolving relatively little and deeply ambiguous in places, amounted to perhaps the most consequential disquisition ever on the law of the presidency.",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "everyone in the case agreed that a former president gets no immunity for private acts. the hard questions were about how to distinguish a president’s public from private acts, and what type of immunity, if any, a former president would receive for conduct related to public acts in office.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "this part analyzes the majority opinion’s answers to these questions. it focuses primarily on the first element of the court’s immunity holding concerning the president’s exclusive powers vis-à-vis congress. it then assesses the court’s additional holding about the president’s presumptive immunity for non-exclusive powers, and related issues. the concurring and dissenting opinions are discussed as pertinent.",
+      "label": "body-text",
+      "word_count": 56
+    },
+    {
+      "text": "the majority began with the issue that the government had teed up: the president’s exclusive power vis-à-vis congress. it described the president’s protection from prosecution under an unconstitutional law as an “absolute immun[ity]” without bothering to engage the distinction between defense and immunity. 70 and then the court staked out significant new ground-both from the government’s argument and its precedents-when it applied these principles to trump’s attempt to pressure the acting attorney general, with threats of firing him, to convince states to replace their legitimate electors with trump’s fraudulent slates.",
+      "label": "body-text",
+      "word_count": 90
+    },
+    {
+      "text": "after asserting without explanation that these were public and not private acts, the court ruled that the conduct implicated the president’s exclusive authority and could not be criminalized by congress. 71 it did so in part because the president’s threatened firing of the acting attorney general, a central element of the charge of obstructing a congressional proceeding, implicated the president’s exclusive removal power. 72 the court also held that the effort to punish the president for obstruction due to his conversations with justice department officials implicated the president’s exclusive power over the investigation and prosecution of federal law, which the court appeared to tie to the take care clause. specifically, the court ruled that congress could not make it a crime for the president to obstruct a congressional proceeding based on the president’s efforts, however corrupt, to enforce federal election law. 73",
+      "label": "body-text",
+      "word_count": 142
+    },
+    {
+      "text": "these were the most far-reaching rulings in the decision, and some of the most far-reaching pronouncements about presidential power in the court’s history. four dimensions warrant comment.",
+      "label": "body-text",
+      "word_count": 27
+    },
+    {
+      "text": "the jackson category three element of trump was, like jackson’s treatment in youngstown , very light on textualism and originalism. but in contrast to jackson’s treatment, it was formalist in the extreme. 74 the court determined that the president’s communications with the justice department were exercises of the president’s article ii removal power and take care duty. and that was that: both congress’s article i powers and the courts’ article iii powers had to yield without any consideration of the scope of those powers, or how they might overlap with the president’s own powers, and without any effort at balancing the interests or powers of the branches. 75",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "this methodological approach tends to expand the category of exclusive presidential power because it does not consider any countervailing factor once an act is deemed to be an exercise of the exclusive presidential power. the approach is particularly significant because it goes to the underlying legality of presidential action and because the court married it to novel extensions of the president’s removal power and law enforcement discretion.",
+      "label": "body-text",
+      "word_count": 67
+    },
+    {
+      "text": "the court amplified its removal jurisprudence to an uncertain but potentially large degree. the court in three decisions before trump had expanded the president’s exclusive removal power in the face of statutory for-cause restrictions on presidential firings. 76 in seila law llc v. consumer financial protection bureau in 2020, the court described its precedents as recognizing “only two exceptions to the president’s unrestricted removal power”: “one for multimember expert agencies that do not wield substantial executive power, and one for inferior officers with limited duties and no policymaking or administrative authority.” 77",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "trump formally leaves these exceptions in place, though perhaps in a half-hearted way. 78 but the decision extends the president’s exclusive removal power beyond its traditional domain of resisting for-cause limits on firings to a different context. the court applied this exclusive power to deny congress the authority to criminalize a president’s use of the removal power to obstruct a congressional proceeding. that ruling is remarkable enough. but its logic appears to disable congress from punishing the president for firing or threatening to fire a subordinate official in an effort to facilitate any crime. 79",
+      "label": "body-text",
+      "word_count": 95
+    },
+    {
+      "text": "congress now might be unable, for example, to criminalize a president’s threatened or actual termination of a senior subordinate in order to obstruct justice or to use unlawful force or, possibly, to facilitate a bribe. i qualify this conclusion with respect to bribery because of an exchange between the chief justice and justice barrett about whether and how a president could be prosecuted for bribery, which opened up a possible yet ill-defined loophole to the majority’s conclusion about exclusive presidential powers. 80 even with this important caveat, the court’s removal holding is a significant and never-before-hinted-at expansion of the president’s removal power that was nowhere briefed nor publicly discussed before the ruling. the scope of the principle going forward is unclear. 81",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "third, a broader and even more significant holding is that the president has “exclusive authority over the investigative and prosecutorial functions of the justice department and its officials.” 82 the court ostensibly tied this power to the article ii command that the president shall “take care that the laws be faithfully executed.” 83",
+      "label": "body-text",
+      "word_count": 53
+    },
+    {
+      "text": "the court provided little support and no analysis for this conclusion. it cited cases about the president’s broad civil and criminal law enforcement discretion that were inapposite because the court had recognized that this discretion was subject to at least some forms of congressional regulation. the court had previously ruled, for example, that congress could “limit an agency’s exercise of enforcement power if it wishes, either by setting substantive priorities or by circumscribing an agency’s power to discriminate among issues or cases it will pursue.” 84 it has also said that an “extreme case of non-enforcement arguably could exceed the bounds of enforcement discretion” even in the criminal context. 85",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "trump additionally stated, citing united states v. nixon , that “the executive branch has ‘exclusive authority and absolute discretion’ to decide which crimes to investigate and prosecute.” 86 but this was a dictum about prosecutorial discretion vis-à-vis courts uttered while rejecting justiciability objections to adjudication of the nixon subpoena. the decision nixon primarily relied on, the confiscation cases , made clear that congress could constrain prosecutorial discretion. 87",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "nor did the court say anything about how its ruling squared with its broader take care clause jurisprudence. that clause is the main source of presidential discretion whether and how to enforce civil and criminal law. 88 but it is also the source of “the president’s duty to abide by and enforce the laws enacted by congress” as part of a president’s “duty to respect legislative supremacy and not to act contra legem .” 89 the important case here is kendall v. united states , where the court denied that the take care clause gave the president a “dispensing power” or “power to forbid [the laws’] execution,” which, if accepted, “would be clothing the president with a power entirely to control the legislation of congress, and paralyze the administration of justice.” 90",
+      "label": "body-text",
+      "word_count": 132
+    },
+    {
+      "text": "the court prior to trump had never explained how the take care clause’s power-amplifying support for broad (but defeasible) presidential enforcement discretion squared with the clause’s power-constraining command that the president must abide by and enforce federal law. it had justified presidential enforcement discretion vis-à-vis courts as a pragmatic accommodation of (i) inevitable enforcement choices and tradeoffs in the face of over-legalization by congress, (ii) changing public-welfare needs, (iii) executive branch resource constraints, and (iv) the judiciary’s “lack [of] meaningful standards for assessing the propriety of enforcement choices.” 91 at the same time, as noted above, the court had suggested-but without specificity-that congress might constrain at least some elements of executive enforcement discretion in the civil and criminal contexts. 92",
+      "label": "body-text",
+      "word_count": 120
+    },
+    {
+      "text": "the court mentioned none of this background, and none of it was discussed in the briefs or at oral argument. yet its holding that the president has exclusive power to direct subordinates in investigations and prosecutions throws a bomb into this important corner of the law. it is hard to fathom what it might entail.",
+      "label": "body-text",
+      "word_count": 55
+    },
+    {
+      "text": "the first thing it might entail is the death knell for morrison ’s holding that congress can “reduce[] the amount of control or supervision that the attorney general and, through him, the president exercises over the investigation and prosecution of a certain class of alleged criminal activity.” 93 this holding rested in part on the court’s approval of removal restrictions for an inferior officer in the justice department, a ruling that trump technically does not address. but morrison also held that congressional restrictions on presidential (and attorney-general) control over the prosecutorial discretion of a jurisdictionally constrained inferior officer did not violate the separation of powers because it did not unduly burden executive branch power. 94",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "this latter holding is hard to square with trump ’s insistence that the president’s control over investigation and prosecution is exclusive vis-à-vis congress and thus (on trump ’s formalist analysis) not subject to any countervailing burden analysis. 95 in this regard, trump quoted justice scalia’s morrison dissent that “‘investigation and prosecution of crimes is a quintessentially executive function’” in order to explain why the allegations against trump concerning his justice department efforts “plainly implicate trump’s ‘conclusive and preclusive’ authority.” 96",
+      "label": "body-text",
+      "word_count": 80
+    },
+    {
+      "text": "trump might go further and call into question some applications of the proposition from united states v. perkins , reaffirmed in myers , that “when congress by law vests the appointment of inferior oﬃcers in the heads of departments, it may limit and restrict the power of removal as it deems best for the public interest.” 97 the basic idea that the removal power is linked to the appointments power is not affected by trump . but trump arguably undercuts perkins ’ logic, not through the power of removal, but rather through the president’s exclusive power to direct law enforcement activities, which is not tied to his power over appointments. if this power is truly exclusive, then it may not be limitable by congress with respect to any executive branch action. to the extent that perkins allows congress through removal restrictions to prevent a president from directing the law enforcement actions of all subordinate executive branch officials, it might not survive trump . 98",
+      "label": "body-text",
+      "word_count": 164
+    },
+    {
+      "text": "more broadly, the law enforcement discretion ruling in trump seems to mean that the president has the discretion to use law enforcement tools to achieve ends that congress has otherwise made illegal. that is, after all, what happened in trump : congress had made it a crime to obstruct a congressional proceeding, but the court held that congress lacked the power to make this law applicable to the president’s alleged sham investigation of state election fraud because the investigation implicated the president’s exclusive investigative authority. the logic of the holding should extend beyond criminal law enforcement to civil law enforcement. 99 there seems to be no reason why it would not extend beyond the justice department to the president’s direction of all law enforcement activities around the executive branch. 100 taken for all it is worth, the take care clause discussion moves in the direction of a presidential dispensation power.",
+      "label": "body-text",
+      "word_count": 150
+    },
+    {
+      "text": "to get a flavor of the uncertainties about this aspect of the opinion, and what this holding might entail, imagine four situations: 1. congress makes it a crime for the president to obstruct a congressional proceeding, and the president decides to enforce federal election law in a way that would otherwise be the crime of obstructing a congressional proceeding. 2. congress in one law makes it a crime to transport one or more pounds of cocaine in interstate commerce and in a second law directs the justice department not to prosecute transportation of five pounds or less unless a gun was used in the violation. 3. congress enacts a law that says it shall be a crime to transport (i) more than five pounds of cocaine in interstate commerce or (ii) less than five pounds of cocaine in interstate commerce if the crime was committed with a gun. 4. congress bans tiktok from operating inside the united states and imposes large civil penalties for violations. 101",
+      "label": "body-text",
+      "word_count": 166
+    },
+    {
+      "text": "1. congress makes it a crime for the president to obstruct a congressional proceeding, and the president decides to enforce federal election law in a way that would otherwise be the crime of obstructing a congressional proceeding.",
+      "label": "body-text",
+      "word_count": 37
+    },
+    {
+      "text": "2. congress in one law makes it a crime to transport one or more pounds of cocaine in interstate commerce and in a second law directs the justice department not to prosecute transportation of five pounds or less unless a gun was used in the violation.",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "3. congress enacts a law that says it shall be a crime to transport (i) more than five pounds of cocaine in interstate commerce or (ii) less than five pounds of cocaine in interstate commerce if the crime was committed with a gun.",
+      "label": "body-text",
+      "word_count": 43
+    },
+    {
+      "text": "4. congress bans tiktok from operating inside the united states and imposes large civil penalties for violations. 101",
+      "label": "body-text",
+      "word_count": 18
+    },
+    {
+      "text": "situation one is trump v. united states . the court held that the criminal prohibition against the president obstructing a congressional proceeding had to give way to his exclusive power to enforce federal election law. although situation two is different from situation one in expressly seeking to limit law enforcement discretion, it is like situation one in seeking in one law to constrain the president’s discretion to enforce another law. it is unclear how trump operates in situation two, though one could argue that it means that the second law, the one that seeks to constrain presidential discretion, is unconstitutional.",
+      "label": "body-text",
+      "word_count": 100
+    },
+    {
+      "text": "situation two seems functionally similar to situation three. but in situation three, congress has limited presidential enforcement power not by placing limits on enforcement discretion directly, but rather in the manner it has defined the crimes. since a president has no crime-making power and cannot prosecute crimes that do not exist, congressional control of presidential enforcement discretion in situation three, though functionally like situation two, seems untouched by trump .",
+      "label": "body-text",
+      "word_count": 70
+    },
+    {
+      "text": "situation four is the tiktok ban. 102 in an executive order (eo) on january 20, president trump instructed the attorney general to not enforce the act for seventy-five days so that trump could assess the foreign policy implications of the ban and negotiate a workaround. 103 the president also ordered the attorney general to inform the private firms that “there has been no violation of the statute and that there is no liability for any conduct” in violation of the statute during the seventy-five-day period (or after the effective date of the act and before the eo). this action, unlike trump , is not the violation of a statute through enforcement of another but rather seems more like the assertion of a dispensation power not to enforce due to a policy objection. trump may point in this direction but does not by its terms go this far. and trump’s tiktok order seems to blow through the court’s concerns about blanket non-enforcement in texas and about a dispensation power in kendall .",
+      "label": "body-text",
+      "word_count": 171
+    },
+    {
+      "text": "justice barrett noted in concurrence that she did “not understand the court to hold that all exercises of the take care power fall within the core executive power,” and the court certainly did not insist or make clear otherwise. 104 so we do not know the scope of the court’s ruling on exclusive enforcement discretion or the extent to which it is tied to the take care clause. 105 my only point is that the court’s ruling about the president’s exclusive control over the investigative and prosecutorial function ostensibly tied to the take care clause opens up a bevy of possible new implications about the scope of presidential power, both vertically within the executive branch and with respect to law enforcement in the world.",
+      "label": "body-text",
+      "word_count": 124
+    },
+    {
+      "text": "the theory of the unitary executive is that all of the executive power is vested in the president and the president, through removal or other tools, thus has the authority to manage and direct all executive branch officials. 106 the theory has a long history but came to prominence during the reagan administration. 107 taken to its logical end, it entails that the president has control over every executive branch decision and that any congressional effort to deny him that power by preventing the president from ordering an action or firing an insubordinate official is unconstitutional. 108",
+      "label": "body-text",
+      "word_count": 97
+    },
+    {
+      "text": "the supreme court has never fully embraced the unitary executive theory. trump may be the closest it has ever come. 109 the court reiterated that all of the executive power is vested in the president and that “unlike anyone else, the president is a branch of government, and the constitution vests in him sweeping powers and duties.” 110 it expands presidential removal power beyond prior baselines, as noted above. 111 the court also underscored the president’s “directive power” over subordinate official actions. it did so partly in reliance on the removal power, but also stated that the president’s power to “supervise” the executive branch and “manage[]” at least “the most important of his subordinates” was exclusive. 112",
+      "label": "body-text",
+      "word_count": 117
+    },
+    {
+      "text": "perhaps most importantly, and cutting across all of the points above, the court’s ruling about the president’s exclusive authority over enforcement discretion can now be seen as an important component of unitary executive power. the court’s holding about the president’s exclusive control over how the executive branch enforces the law now adds to the president’s removal power in enhancing the president’s vertical control over executive branch action, especially since that vertical control gives the president expanded discretion from the pretrump baseline over when and how to enforce (and thus, perhaps, comply with) federal law.",
+      "label": "body-text",
+      "word_count": 94
+    },
+    {
+      "text": "the court followed its formalist analysis of presidential “immunity” for exclusive presidential powers with a functional analysis of presidential immunity for non-exclusive presidential powers “shared with congress.” 113",
+      "label": "body-text",
+      "word_count": 28
+    },
+    {
+      "text": "the court resolved this issue by melding the two functionalist nixon opinions about immunity from judicial review. contrary to what nixon v. fitzgerald had suggested, the court viewed the dangers of intrusion on the authority and functions of the presidency to be “greater” in the criminal context than in the civil context. 114 the court acknowledged that the president faced many fewer criminal than civil trials but thought the more severe consequences of criminal sanction would have a greater deterrent impact on the presidency. yet the court did not recognize a definitive absolute immunity, as in nixon v. fitzgerald , due to the countervailing public interest-not present in fitzgerald -in criminal law enforcement, including against the president. the court cited united states v. nixon as accommodating the public interest in criminal law enforcement vis-à-vis presidential claims of authority to resist the subpoena there by recognizing a defeasible “presumptive privilege.” 115",
+      "label": "body-text",
+      "word_count": 150
+    },
+    {
+      "text": "the court resolved these “competing considerations” by recognizing at least a “presumptive immunity” from criminal prosecution for the outer perimeter of non-presidential public acts that rest on non-exclusive powers. 116 the court said the immunity might ultimately be absolute but that it need not decide that question now. it instead ruled that the tentative “presumptive immunity” applied to the president’s non-exclusive official acts “unless the government can show that applying a criminal prohibition to that act would pose no ‘dangers of intrusion on the authority and functions of the executive branch.’” 117 this “balancing” test seems more generous to the president than the fitzgerald case that it quotes, since it leaves out fitzgerald ’s countervailing consideration of “the constitutional weight of the interest to be served.” 118 whatever its scope, the immunity here, as in fitzgerald itself, did not concern the legality of the president’s underlying acts, but rather shielded the president from adjudication due to the impact on the presidency.",
+      "label": "body-text",
+      "word_count": 161
+    },
+    {
+      "text": "this functional analysis has a made-up feel and is an analytical mess, though perhaps no more made up and no messier than the functional analyses in the two nixon decisions on which it relied, or any functional separation of powers analysis. 119 the court did not explain why the low chance of high-cost criminal prosecution and punishment “are plainly more likely to distort presidential decisionmaking” than the many magnitudes greater possibility of civil damages liability. one can imagine this calculus cashing out in the opposite way, as the dissent suggested, though in truth there are no metrics here. 120 nor did the court explain why it could not decide at this stage if the constitution demanded absolute or presumptive immunity in this context. 121 nixon v. fitzgerald had relied on the “dangers of intrusion on the authority and functions of the executive branch” to establish a clear rule of absolute immunity against civil suits. 122 but the court in trump seemed to render this an as-applied standard, with the burden on the government, and without countervailing considerations, again without explaining the differences. 123",
+      "label": "body-text",
+      "word_count": 183
+    },
+    {
+      "text": "in contrast to its exclusive presidential power analysis, the court did not resolve any issues in the case on the basis of the functional immunity it recognized. but the court did establish three additional propositions-none of which were briefed-that are vital to the scope of the presumptive immunity it recognized.",
+      "label": "body-text",
+      "word_count": 50
+    },
+    {
+      "text": "first, the court provided guidance on how to distinguish official from unofficial acts. 124 this is a crucial distinction since many of trump’s alleged crimes were not obviously in one camp or the other, and since unofficial acts receive no immunity. trump ruled that the president’s official acts include everything he is authorized to do and more, since some official acts, like “speaking to and on behalf of the american people,” are not authorized in any constitutionally conventional sense. 125 the court thus concluded that the “outer perimeter” of official acts includes actions that are “not manifestly or palpably beyond [his] authority.” 126 it further ruled that president trump’s communications with vice president pence to pressure him to “reject states’ legitimate electoral votes or send them back to state legislatures for review” was an official act since the discussions involved their official conduct. 127 trump was thus at least presumptively immune against this charge, though the court remanded on the question whether prosecution would unduly interfere with presidential power.",
+      "label": "body-text",
+      "word_count": 169
+    },
+    {
+      "text": "second, the court stated that “in dividing official from unofficial conduct, courts may not inquire into the president’s motives,” since that inquiry would “risk exposing even the most obvious instances of official conduct to judicial examination on the mere allegation of improper purpose, thereby intruding on the article ii interests that immunity seeks to protect.” 128 the court borrowed this idea from fitzgerald , where it was used not as a basis to distinguish official from unofficial acts, but rather as a reason the president warranted absolute immunity for official conduct in a civil suit. 129",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "third, the court ruled that in prosecuting a president for crimes committed in an unofficial capacity, the jury could not consider evidence concerning the president’s official acts. such consideration, the court explained, “would permit a prosecutor to do indirectly what he cannot do directly-invite the jury to examine acts for which a president is immune from prosecution,” thereby defeating the intended effect of immunity by “heighten[ing] the prospect that the president’s official decisionmaking will be distorted.” 130 justice barrett, who joined the rest of the majority opinion, did not join this analysis. she asserted (without further explanation) that the constitution “does not require blinding juries to the circumstances surrounding conduct for which presidents can be held liable,” and claimed that the rules of evidence could accommodate any concerns about the impact on the presidency. 131 it was in this context that justice barrett and the chief justice had the hard-to-fathom dispute about whether the majority rule would or would not permit the president to be prosecuted for a bribe. 132",
+      "label": "body-text",
+      "word_count": 170
+    },
+    {
+      "text": "trump technically decided very little-basically only that the president was immune in connection with the charge related to justice department communications, and that his communications with vice president pence were official acts for which he might receive immunity. the scope of immunity it conferred was potentially broad but also possibly quite narrow, depending on how the opinion’s ambiguities are resolved. some critics claimed that the court effectively immunized trump from all criminal liability, but that is likely not true. 133 the government’s superseding indictment on remand read trump to permit every element of the original prosecution save the one involving communications with the justice department. 134 the government was not obviously wrong in its judgment. trump was open-ended and inconclusive enough that it might well have permitted the government to surmount presidential immunity for all of the remaining charges.",
+      "label": "body-text",
+      "word_count": 139
+    },
+    {
+      "text": "we may never get clarity on the scope of the presidential immunity announced in trump . trump won the presidential election of 2024 and smith dropped all of the charges. that means that many of the open questions in the opinion about presidential immunity will not be resolved by courts until, if ever, a former president is once against prosecuted. 135 such unresolved issues could include the ultimate scope of presumptive immunity for official acts within the president’s non-exclusive power, the related issue of the distinction between official and unofficial acts in this criminal law context, and the actual availability of official acts evidence to prove unofficial acts crimes.",
+      "label": "body-text",
+      "word_count": 109
+    },
+    {
+      "text": "this does not mean, however, that trump will be irrelevant. far from it. the immunity ruling, as uncertain as it is, could impact the calculus of executive branch actors even without further judicial clarification. and entirely independently of the court’s rulings about the scope of presidential immunity, the court’s discussion of the president’s exclusive presidential power will have a large impact. it is to this issue that i now turn.",
+      "label": "body-text",
+      "word_count": 70
+    },
+    {
+      "text": "many critics claim that trump opens the floodgates to a “lawless presidency.” justice sotomayor in dissent, for example, said that the majority “effectively creates a law-free zone around the president, upsetting the status quo that has existed since the founding.” 136 justice ketanji brown jackson similarly argued that the majority opinion alters the “individual accountability model” that had previously guided presidents and thus “undermines the constraints of the law as a deterrent for future presidents who might otherwise abuse their power.” 137 critics of the opinion echoed these themes. 138 these claims must specifically concern presidential violation of criminal laws, since presidents since fitzgerald have had absolute immunity from civil suits over their official acts.",
+      "label": "body-text",
+      "word_count": 115
+    },
+    {
+      "text": "with so many loose ends in the undisciplined trump opinion, it is impossible to assess these claims with certainty. they are surely overstated at least to the extent that they assume trump clearly established a broad presidential criminal immunity. it did not. trump ’s diminishment of the deterrent effect of the criminal law, even on the critics’ assumptions, is wildly uncertain.",
+      "label": "body-text",
+      "word_count": 61
+    },
+    {
+      "text": "this part offers counterpoints to dominant claims about how trump will impact the presidency. in section iii.a, i offer reasons to doubt that the decision will lead to rampant presidential criminality. the argument here might be unsatisfying to some, since it ultimately rests on the claim that a president had all the tools he needed to achieve rampant criminality long before trump , to which the decision adds relatively little. in section iii.b, i focus on an area where i think trump will have a larger impact: in expanding the scope of presidential power vis-à-vis congress, not as a result of the immunity holding per se , but rather as a result of the court’s underlying rulings on the removal power, the take care duty, and exclusive presidential power more generally.",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "we do not have a great sense about how much, if at all, past presidents pondered or might have been deterred by criminal liability in deciding whether to commit crimes. richard nixon knowingly committed crimes in his efforts to cover up the watergate break-in, and he feared exposure and possibly jail even as he continued his criminal ways. 139 presidents after nixon have been accused of acting criminally, but we have little insight into how if at all fear of criminal liability influenced their decisions in office related to these allegations. 140 and the criminal law violations alleged in the indictment against trump do not seem to have deterred him even though it was the official view of the executive branch, and widely believed at the time, that he could be prosecuted after office for crimes committed in office. 141",
+      "label": "body-text",
+      "word_count": 140
+    },
+    {
+      "text": "without a firm sense of whether or how much presidents were deterred by criminal law prior to trump , it is hard to assess the marginal impact of an uncertain immunity from prosecution on presidential behavior. but i have found no evidence that an “individual accountability model” influenced presidential behavior related to crime. 142",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "even if one reads trump to confer a broad presidential immunity, and even if a president is more motivated to commit a crime after trump than before due to the reduced deterrent effect of criminal law, it does not follow that presidential crimes are easy to pull off. the reason is that normally, and for the vast majority of presidential criminal acts, a president must rely on executive branch subordinates who are not immune from criminal liability even if the president is immune. 143 the president cannot effectuate a coup or assassinate political rivals (to take two commonly mentioned examples) without the assistance of people who are subject to criminal law. even issuing a corrupt pardon typically involves executive branch middlemen.",
+      "label": "body-text",
+      "word_count": 121
+    },
+    {
+      "text": "subordinate liability is one reason why administrations do not engage in rampant violations of civil law. the president has absolute immunity for official acts, but subordinate officials have only qualified immunity for such acts. 144 another reason is that various professional norms have (at least historically) constrained executive branch malfeasance to some degree. 145 for similar reasons, a principle of subordinate criminal liability, combined with associated executive branch norms of right behavior, have likely been the main historical determinants of executive branch compliance with criminal law.",
+      "label": "body-text",
+      "word_count": 86
+    },
+    {
+      "text": "to see how subordinate liability works, consider justice sotomayor’s claim that a president would be immune from criminal liability if he or she ordered the navy’s seal team six to assassinate a political rival. this does not follow from trump because the assassination order would almost certainly not be an exclusive presidential power. 146 thus, if the president ordered this action, and if it were an official act, it would fall at best in the category of presumptively immune and thus possibly be defeated by the balancing test. and even if the president is immune from prosecution for ordering the assassination, the soldiers could be prosecuted by the next president.",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "the potential criminal liability for subordinates is an important hurdle for a lawless president to carry out lawless acts. consider volume two of the report on the investigation into russian interference in the 2016 presidential election , known as the “mueller report.” the report documented ten instances of then-former president trump allegedly seeking to obstruct the ongoing fbi investigation into russia’s interference in the 2016 presidential election. 147 what is remarkable about these episodes is that trump’s “efforts to influence the investigation were mostly unsuccessful, … largely because the persons who surrounded the president declined to carry out orders or accede to his requests.” 148",
+      "label": "body-text",
+      "word_count": 105
+    },
+    {
+      "text": "these officials declined to carry out the president’s instructions to impede the investigation in part, perhaps large part, out of fear of violating the criminal obstruction statute even though trump himself was oblivious to it. the mueller report included a white house counsel’s office note from march 2, 2017. 149 the note was written soon after attorney general jeff sessions had recused himself from the russia investigation in the face of pressure not to recuse from president trump through white house counsel don mcgahn. 150 the note stated: “no contact w/sessions” and “no comms / serious concerns about obstruction.” 151 journalistic treatments of this period indicate that this obstruction concern permeated the white house counsel’s office during this period. 152",
+      "label": "body-text",
+      "word_count": 120
+    },
+    {
+      "text": "one can read trump to weaken or possibly eliminate the principle of subordinate liability. 153 the court in zivotofsky ruled that a civil statute that impinged on an exclusive presidential power did not bind state department subordinates. 154 the theory seems to be that a statute that prevents a subordinate from exercising an exclusive presidential power in effect prevents the president from exercising the power. on this view, if the justice department officials whom trump tried to influence carried out his allegedly illegal scheme, they would benefit from his immunity because they are, in the words of trump , “carry[ing] out his constitutional duties” to faithfully execute the law, an exclusive presidential power for which he received immunity. 155 this conclusion may be bolstered by trump ’s statement that “the interests that underlie presidential immunity seek to protect not the president himself, but the institution of the presidency,” and by its occasional references to the “exclusive authority” of “the executive branch” in its discussion of trump’s immunity in connection with department of justice communications. 156",
+      "label": "body-text",
+      "word_count": 175
+    },
+    {
+      "text": "this is a powerful argument but there are countervailing considerations. trump nowhere hinted that it was extending immunity to subordinates. the court emphasized that its decision turned on the unique position of the president in the constitutional scheme and the need to protect presidential decisionmaking, and its holding about immunity concerned only the president. moreover, trump emphasized presidential exclusivity in the context of “discuss[ing] potential investigations and prosecutions with the attorney general and other justice department officials to carry out” his take care clause duties. 157 it is possible after trump that congress cannot apply, say, the obstruction of justice statute to subordinates who advise the president on matters within his exclusive authority but could apply it to subordinates who go beyond advice and carry out a president’s otherwise unlawful order to obstruct.",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "more fundamentally, any extension of trump to eliminate subordinate liability for exclusive presidential actions would be contrary to the care the court has taken, with respect to other remedies, to preserve subordinate liability even when granting absolute presidential immunity. for example, on the same day that nixon v. fitzgerald recognized absolute immunity from civil liability for the president, the court in harlow v. fitzgerald rejected absolute immunity for senior executive branch officials for the same conduct and instead gave them only qualified immunity. 158 similarly, the court has held that it lacks jurisdiction to enjoin the president but it is commonplace to enjoin the lower-level officials, including cabinet officials, for the same conduct. 159 the availability of remedies against presidential subordinates even when the president receives absolute immunity accommodates the president’s special position in the constitutional scheme with the need for government accountability to law. 160 the same accommodation would serve the same aim in the criminal immunity context as well.",
+      "label": "body-text",
+      "word_count": 161
+    },
+    {
+      "text": "to the extent that subordinate liability survives trump , it is, considered in isolation, a check on a lawless president. but it is only a check for a president who already possesses a sense of restraint due to law or norms or politics. if a president is determined to be lawless, then law cannot as a practical matter constrain him or her.",
+      "label": "body-text",
+      "word_count": 62
+    },
+    {
+      "text": "those who think trump leads to a lawless presidency are implicitly assuming a bad-man president who is oblivious to the norms and other non-legal expectations of the office, and who follows narrow self-interest right up to the point that the effective sanction of law allows it. 161 with the threatened sanction of criminal law gone, the critics think, the bad-man president is cut loose to do all sorts of awful illegal things that serve the president’s narrow private interests.",
+      "label": "body-text",
+      "word_count": 79
+    },
+    {
+      "text": "the problem with this argument is that once we are in the world of a bad-man president, law (including the operation of subordinate criminal liability) cannot easily constrain him. put differently, a bad-man president had the tools to effectuate widespread executive branch criminality with impunity long before trump . i will focus on two such tools-the reliance on a legal interpretation and the pardon power-but there are others.",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "since the beginning of the nation, clauses in article ii-“the executive power” and the take care clauses-have been interpreted to give the president the authority to interpret the law definitively for the executive branch. this power can be seen as an incident of the president’s enforcement power: “before the president can obey and enforce the laws, he must determine their meaning, what they authorize and prohibit, and how they fit together.” 162 this power of interpretation includes the power “to interpret and apply the constitution” and to disregard statutes that the president determines violates the constitution. 163 the president typically delegates the interpretive power to the attorney general, who in turn typically delegates it to the office of legal counsel (olc). 164",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "the attorney general and by delegation olc have an underappreciated superpower. when they write the president or another executive branch official a legal opinion concluding that a course of action is lawful under a criminal statute, that president or executive branch official will not be prosecuted by a subsequent administration. former central intelligence agency (cia) general counsel john rizzo referred to this immunity-conferring power of the justice department legal interpretations as a “golden shield.” 165 rizzo was referring specifically to the effect of the notorious olc opinions ruling that the criminal prohibition on torture did not forbid the cia’s brutal post-9/11 interrogation techniques. those opinions were sought by the white house in a distorted process that aimed to greenlight the cia program. they were badly legally flawed on multiple levels. 166",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "and yet despite these deep flaws in process and substance, the golden shield worked. president obama’s attorney general, eric holder, believed that the olc opinions were appallingly bad and that elements of the cia program were illegal. but when he ordered an investigation of the bush-era cia program, he made clear that he would, in his words, “not prosecute anyone who acted in good faith and within the scope of the legal guidance given by the office of legal counsel regarding the interrogation of detainees.” 167 there are many reasons why he might have reached this conclusion. but one reason was a legal doctrine called entrapment by estoppel . 168 under this doctrine, it is a violation of due process to prosecute anyone who reasonably relies on an authorized government representative’s claim that an action is lawful.",
+      "label": "body-text",
+      "word_count": 137
+    },
+    {
+      "text": "entrapment by estoppel is the most powerful of a cluster of executive branch doctrines that undergird the immunity-conferring power of legal advice related to criminal statutes. 169 at oral argument in trump , the government’s attorney, dreeben, held up entrapment by estoppel as an important protection for the president entirely independent of other immunity doctrines. he told the justices that “it would be a due process problem to prosecute a president who received advice from the attorney general that his actions were lawful absent the kind of collusion or conspiracy that itself represented a criminal violation, which i don’t really see as being a realistic option.” 170 dreeben mentioned the limit on entrapment by estoppel-collusion or conspiracy-but they are uncertain and distant limits. 171 the permissive olc torture opinions, to take one notorious example, did not come close to the level of a criminal conspiracy and had full legal effect as a golden shield.",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "entrapment by estoppel in this context has critics. the justice department does not offer its legal advice at arm’s length to the president so there is a danger of collusion (as mentioned above) or undue influence. 172 entrapment by estoppel if too generous threatens to blur into a dispensing power. 173 and it is an odd inversion for the attorney general, exercising interpretive power delegated from the president, to be able to protect the president from later criminal prosecution in ways that presidential auto-interpretation could not. 174",
+      "label": "body-text",
+      "word_count": 87
+    },
+    {
+      "text": "these are all fair points that might be relevant to the contours of an entrapment by estoppel defense to a federal prosecution. 175 but the real bite of reliance on an approving justice department opinion is that the department likely will not bring such a prosecution absent collusion or conspiracy. this has to do with institutional reasons that transcend the best understanding of what due process requires at trial, including the government’s need to promote reliance on authoritative legal opinions within the executive branch and inter-administration comity. 176",
+      "label": "body-text",
+      "word_count": 88
+    },
+    {
+      "text": "it is easy to imagine a prescient bad-man president getting a golden-shield legal opinion from his attorney general or olc prior to january 6 to the effect that none of the statutes that former president trump is charged with violating in the january 6 prosecution apply to the president’s official acts. such an opinion would rely on a different executive branch interpretive legal principle that was also discussed in the government’s brief: the principle that generally worded criminal statutes that “arguably limit the president’s constitutional role” or involve a “possible conflict with the president’s constitutional prerogatives” do not apply to the president absent a plain statement. 177",
+      "label": "body-text",
+      "word_count": 107
+    },
+    {
+      "text": "we do not have to speculate very much about whether this is a plausible scenario. trump’s first-term attorney general william barr in 2018, before he came back to office, wrote a famous memo that argued that the plain statement rule precluded robert mueller from applying the main obstruction of justice statute to the allegedly obstructing trump acts he was investigating in the russian collusion matter, at least as barr understood those acts at the time. 178 this is the very same statute that supports two of the four charges against trump in the january 6 prosecution.",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "people can and do disagree about how the olc plain statement rule best applies to the statutes trump is charged with violating. the special counsel acknowledged the olc principle in its brief and read it narrowly. the court cited several of the relevant olc opinions as evidence that the government “broadly agrees that the president’s official acts are entitled to some degree of constitutional protection.” 179 justice barrett said without explanation that she did not believe the olc canon “applies in this circumstance.” 180 as noted above, barr took a robust view of the canon as applied to an obstruction statute. 181",
+      "label": "body-text",
+      "word_count": 102
+    },
+    {
+      "text": "while the proper applicability of the canon is contested, what is not contestable is that a bad-man president’s attorney general could in good faith have advised the president that the plain statement rule rendered inapplicable all of the criminal statutes in smith’s indictment that “possibly” conflicted with trump’s constitutional prerogatives or “arguably” limited his constitutional role-a ruling that, on the entrapment by estoppel logic the government embraced at oral argument in trump , would likely rule out all charges involving the president’s official acts.",
+      "label": "body-text",
+      "word_count": 84
+    },
+    {
+      "text": "a second and even more robust presidential power that a bad-man president could use to defy criminal law is the pardon power. this one is easier to see, so i will be briefer.",
+      "label": "body-text",
+      "word_count": 33
+    },
+    {
+      "text": "as the court noted in trump , the pardon power is broad and exclusive. 182 “it extends to every offence known to the law, and may be exercised at any time after its commission, either before legal proceedings are taken or during their pendency or after conviction and judgment.” 183 a bad-man president could pardon subordinates who, for example, carried out an assassination or a coup, just as trump on the evening of january 6 (or any time before leaving office) could have pardoned everyone involved who was later indicted, thereby precluding the indictments. also, recall that trump pardoned cronies who were investigated and convicted by mueller. 184 finally, no one knows if a president can pardon himself, but many commentators believe the president can. 185",
+      "label": "body-text",
+      "word_count": 126
+    },
+    {
+      "text": "president biden’s recent “preemptive” pardons-i.e., pardons before charge or indictment-for officials whom he worried president trump might prosecute is perhaps the best example of how pardons can operate to immunize criminal wrongdoing. 186 i am not suggesting that the government officials biden pardoned committed crimes. but the same pardon power that biden exercised can be deployed by a bad-man president to eliminate the criminal liability of subordinate officials who commit (or might have committed) actual crimes. 187 the pardon power could, for example, wipe out the criminal liability for one who on presidential command assassinates a political opponent. and the pardon power can be used on a very broad scale. indeed, it does not appear to have limits of scale restricting the numbers of people who could be preemptively pardoned. 188",
+      "label": "body-text",
+      "word_count": 131
+    },
+    {
+      "text": "congress before trump might have been able to temper these abuses through statutes that criminalize overt presidential pardons used, for example, as bribes or to obstruct justice or as part of a conspiracy to commit a crime. a pardon (or other form of commutation) is “absolute” for the beneficiary of the pardon. as the court stated in trump , the “legislature cannot change the effect of … a pardon.” 189 it might not follow, however, that a pardon affords the president, as grantor of the pardon, freedom from criminalization of bad acts in connection with the president’s granting a pardon. 190",
+      "label": "body-text",
+      "word_count": 101
+    },
+    {
+      "text": "the court has never addressed this issue, though trump did say, in dicta, that the president’s “authority to pardon … is ‘conclusive and preclusive,’ ‘disabling the congress from acting upon the subject.’” 191 given trump ’s broad and formalistic understanding of exclusive presidential powers, any criminal statute that purports to regulate the pardon power, and not just ones that regulate the “effect” of the pardon power, may be off limits. and even if congress could in theory criminalize bad-act pardons in ways that did not limit the “effect” of a pardon, a president might well be able to issue blanket preemptive pardons to subordinates without running afoul of such statutes.",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "the pardon power, in short, is a massive criminal-law-evading mechanism in the hands of a bad-man president, right there on the face of article ii.",
+      "label": "body-text",
+      "word_count": 25
+    },
+    {
+      "text": "the point of this analysis of a bad-man president’s robust law-skirting tools is to highlight the relative insignificance of the presidential immunity ruling in trump . i have argued that presidents were not obviously deterred by criminal law prior to trump and thus that their decisional calculus in the face of criminal law might not change much after the decision; that executive branch compliance with criminal law to date has mainly been secured by norms and subordinate official liability; that a bad-man president had plenty of ways to weaken or eliminate the effect of norms and subordinate liability prior to trump , including through golden shield legal opinions and through pardons; and thus, for all of these reasons, that the marginal impact of the uncertain immunity ruling on a bad-man president is unlikely to be significant. this is a different and i believe more realistic picture of presidential compliance with criminal law than one that sees post-presidency enforcement of criminal law against the president as the main check, and a significant one, on presidential criminality.",
+      "label": "body-text",
+      "word_count": 175
+    },
+    {
+      "text": "i am not claiming that the immunity ruling in trump will have zero impact on presidential branch adherence to criminal law. under various assumptions, the ruling could embolden a president to commit more criminal acts than before or to push subordinates harder to do so. one can imagine that a bad-man president who is inclined to pardon all criminality by subordinates, and to pardon himself, and to solicit maximal protective legal opinions, might nonetheless be marginally more inclined to commit a crime in light of the uncertain immunity conferred by trump than before the decision due to the uncertainties in self-pardons and protective legal opinions and despite the uncertainties in trump . but something like this analysis, and not a version of the individual accountability model, explains the incentives of the bad-man president.",
+      "label": "body-text",
+      "word_count": 133
+    },
+    {
+      "text": "i have discussed the bad-man president because i think it is an implicit assumption in the dissents in trump and because i think it is a useful heuristic to explain the redoubtable power that the executive branch in theory has to engage in lawless criminal behavior if it really wants to, independent of and prior to the court’s immunity ruling. the larger lesson here is a sobering one: criminal law cannot constrain a determined bad-man president. the potentially effective remedies for presidential criminality are impeachment and elections. as we have learned in recent years, those remedies are not terribly effective in checking a law-defying president.",
+      "label": "body-text",
+      "word_count": 105
+    },
+    {
+      "text": "while i do not think the immunity holding of trump will have a large impact on the criminality of a bad-man presidency, i do believe that trump ’s analysis of exclusive presidential power vis-à-vis congress will have a large impact on the scope of presidential power in other respects. some and perhaps many of these implications should be worked out in the months and years ahead in federal courts as a result of the second trump administration’s aggressive assertions of presidential power on a number of fronts, many of which are potentially supported by trump . 192 the court might read the uncertainties in trump broadly or narrowly, depending on the issues that come up and how they are framed. it is hard to predict.",
+      "label": "body-text",
+      "word_count": 125
+    },
+    {
+      "text": "but it is not hard to predict how the executive branch will use the trump rulings, at least until they are later revised by courts. in litigation it will invoke them in support of broad presidential power. it will also invoke them inside the executive branch, in many contexts outside of judicial review, in deciding which executive branch actions are lawful, and in deciding, relatedly, which congressional statutes to disregard as unconstitutional. 193",
+      "label": "body-text",
+      "word_count": 73
+    },
+    {
+      "text": "executive branch lawyers do not interpret the law as courts do. they follow supreme court precedents when they are on point, but they also give great weight to executive branch historical practice and executive branch legal opinions, both of which are often more salient. 194 executive branch lawyers, and executive branch precedents, tend to view executive power in broader terms, often much broader, than do courts. especially when there is no strictly controlling judicial precedent, executive branch lawyers “tend[] to rely on general principles embodied in supreme court dicta, especially ones that favor presidential power.” 195 and they tend to construe dicta and legal ambiguities in the president’s favor. 196",
+      "label": "body-text",
+      "word_count": 110
+    },
+    {
+      "text": "one cannot say precisely how olc lawyers or other executive branch lawyers will interpret trump because lawyers across administrations take different interpretive approaches despite a common institutional outlook. as a general matter, republican executive branch lawyers are more committed to a strong view of the unitary executive and will be more likely on average than their democratic counterparts to run with trump . and the lawyers in the republican trump administration are pushing a maximalist version of the unitary executive theory. 197 there is no way to know the range of issues to which trump may be relevant inside the executive branch. we can be certain, however, that they “will interpret the decision to favor the executive branch in its manifold interactions and disputes with congress.” 198 what follows are some of the contexts in which justice department lawyers can be expected to do so.",
+      "label": "body-text",
+      "word_count": 145
+    },
+    {
+      "text": "olc has said that “the executive … has the exclusive authority to enforce the laws adopted by congress, and neither the judicial nor legislative branches may directly interfere with the prosecutorial discretion of the executive by directing the executive to prosecute particular individuals.” 199 no supreme court decision prior to trump had gone that far, but trump provides new support for this view. the executive branch will likely invoke trump in disregarding or at least pushing back on congressional efforts to shape or delegate prosecutorial discretion or civil enforcement discretion. 200",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "relatedly, a major issue in recent presidencies is the extent to which the executive branch can use imaginative interpretations of bodies of federal law, combined with law enforcement discretion (including non-enforcement discretion), to achieve policy aims arguably in tension if not at odds with the statutes that are being enforced. 201 the justice department will likely use trump ’s discussion of the exclusive power over prosecution and investigation to push the bounds of this discretion. the decision will also give ammunition to constitutional arguments in favor of impoundment (i.e., exercising law enforcement discretion to decline to spend appropriated funds) on the theory that the president has enforcement discretion over appropriation laws. 202 it will also likely be invoked, more broadly, to support non-enforcement of particular statutes based largely on policy disagreements, despite contrary indications in supreme court case law. 203",
+      "label": "body-text",
+      "word_count": 140
+    },
+    {
+      "text": "the take care clause and the vesting clause are the primary bases on which the court, and the justice department, have grounded the president’s removal power. 204 as explained above, trump expanded this power on a few dimensions. the early trump administration has engaged in a spree of firings that almost certainly rely on trump for support beyond prior removal cases. 205 the courts will ultimately decide this issue, but until qualified or narrowed, trump will assist the executive branch in disregarding all manner of congressional restrictions on removal.",
+      "label": "body-text",
+      "word_count": 89
+    },
+    {
+      "text": "the trump administration has already aggressively wielded the directive power, most notably in claiming broad dominion over independent agencies, including through full mandated office of management and budget review and by mandating that every executive branch “employee” must “advance an interpretation of the law,” including “the issuance of regulations, guidance, and positions advanced in litigation,” that reflects the views ultimately of the president. 206 olc had moved somewhat in this direction in the first trump administration. 207 the central article ii argument on which olc’s position rested was the president’s power to “supervise the execution of federal law.” 208 this power, as noted above, received its fullest expression, and indeed was amplified, in trump . 209",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "one can imagine trump being extended on this dimension in many ways. for example, the trump administration has not yet claimed full presidential control over every executive branch adjudication, but trump’s broad conception of the president’s law enforcement power can be cited in support of this position. 210 more broadly, trump opens the door for the president to challenge the once-standard view that “[w]hile the president must supervise the faithful execution of the laws, congress has the authority to define the structure of the executive branch and the responsibilities of its officers.” 211 trump might lead executive branch lawyers to push back against the contours of this congressional authority, including in the organization and allocation of authority within agencies, especially when it interferes with what trump described as the president’s “exclusive authority over the investigative and prosecutorial functions of the justice department and its officials,” and over executive branch law enforcement more generally. 212",
+      "label": "body-text",
+      "word_count": 154
+    },
+    {
+      "text": "olc has invoked the president’s constitutional power of supervision over executive branch subordinates in other ways to block congressional encroachments on executive branch prerogatives. it has done this, for example, to resist certain reporting requirements to congress, and disclosure requirements to the public, without executive branch clearance. 213 it has invoked a similar power to rule that congress cannot “compel an executive branch witness to appear without agency counsel and thereby compromise the president’s constitutional authority” to control communications with congress, and to disregard a congressional authorization to the department of housing and urban development to initiate enforcement proceedings against another executive branch agency. 214 trump amplifies the underlying presidential power here.",
+      "label": "body-text",
+      "word_count": 112
+    },
+    {
+      "text": "olc has long advised the president and his associates on whether they must respond to congressional subpoenas. 215 it frequently counsels in favor of an executive privilege or a testimonial immunity from congressional subpoenas but has acknowledged limitations on the privilege or immunity. 216 for example, in 1984, olc acknowledged that the president cannot use executive privilege to conceal evidence of wrongdoing or criminal behavior. 217 that exception can now be questioned under trump indirectly to the extent that the basis for the privilege is an exercise of an exclusive presidential power-such as discussing law enforcement issues with senior justice department officials-and thus congress cannot probe that official act even if it is ostensibly contrary to federal criminal law.",
+      "label": "body-text",
+      "word_count": 119
+    },
+    {
+      "text": "more broadly, many olc opinions on executive privilege and testimonial immunity reflect a balanced judgment about congressional need versus presidential prerogative. 218 to the extent that trump recognizes a broader-than-ever exclusive presidential power related to discussions with the “investigative and prosecutorial functions of the justice department and its officials,” executive branch lawyers can be expected to strike the balance even more frequently in favor of executive power. 219",
+      "label": "body-text",
+      "word_count": 68
+    },
+    {
+      "text": "trump made entirely new law on presidential immunity from criminal prosecution. many elements of its immunity analysis were not briefed or addressed by the courts below, or by petitioner trump in the supreme court. trump also made entirely new law on the president’s exclusive removal power and the president’s exclusive power of investigation and prosecution. none of the issues addressed in the court’s exclusive power analysis were briefed or addressed by the courts below or briefed or discussed at oral argument by either party in the supreme court. the court ruled on massively important issues of first impression about the nature and scope of presidential power in a short time frame and basically without any outside assistance. 220 the results of these unusual and possibly unprecedented circumstances, i have tried to show, were a confused mess.",
+      "label": "body-text",
+      "word_count": 136
+    },
+    {
+      "text": "most of the concern about trump has focused on the implications of its immunity rulings. i have argued that the generative element of the opinion is not the immunity ruling per se , but rather the exclusive power analysis that underlies the absolute immunity ruling. the court has traditionally proceeded cautiously and carefully when marking out exclusive presidential power because the president is known to run hard when the court recognizes such power. 221 but it did the opposite in trump . the court issued an incautious and overly broad ruling on exclusive presidential powers that presidents will use to their advantage against the other branches-especially congress. this advantage will persist until the court, in more considered reflection, acknowledges its imprudence and alters course.",
+      "label": "body-text",
+      "word_count": 124
+    },
+    {
+      "text": "jack goldsmith is the learned hand professor of law at harvard law school.",
+      "label": "body-text",
+      "word_count": 13
+    },
+    {
+      "text": "author’s note : i thank payvand ahdout, william baude, robert bauer, matthew gluck, john harrison, martin lederman, trevor morrison, saikrishna prakash, zachary price, robert reinstein, shalev roisman, thomas schmidt, adrian vermeule, edward whelan, alex whiting, and university of virginia workshop participants for comments, and daniel brickhill, lev cohen, annabelle hutchinson, nicholas nelson, coy ozias, akhil rajasekar, mark thomas, and jeremiah vroegop for research assistance. this article draws in part on a constitution day lecture delivered at the university of michigan law school on september 17, 2024.",
+      "label": "body-text",
+      "word_count": 86
+    },
+    {
+      "text": "1 motion to dismiss indictment based on presidential immunity at 1, united states v. trump, 704 f. supp. 3d 196 (d.d.c. 2023) (no. 23-cr-00257), ecf no. 74.",
+      "label": "body-text",
+      "word_count": 27
+    },
+    {
+      "text": "2 trump , 704 f. supp. 3d 196, aff’d , 91 f.4th 1173 (d.c. cir. 2024). for laudatory commentary, see, for example, scott r. anderson, quinta jurecic, anna bower, natalie k. orpett & benjamin wittes, not so immune: the d.c. circuit’s forceful rejection of trump’s claim of absolute presidential immunity , lawfare (feb. 6, 2024, 6:24 pm), https://www.lawfaremedia.org/article/not-so-immune-the-d.c.-circuit-s-forceful-rejection-of-trump-s-claim-of-absolute-presidential-immunity ; george t. conway iii, an airtight ruling against trump , atlantic (feb. 6, 2024), https://www.theatlantic.com/ideas/archive/2024/02/dc-circuit-court-ruling-on-trump-immunity/677367 ; dahlia lithwick & mark joseph stern, the supreme court knows what it must do with trump’s immunity ploy , slate (feb. 6, 2024, 2:07 pm), https://slate.com/news-and-politics/2024/02/supreme-court-trump-immunity-john-roberts.html .",
+      "label": "body-text",
+      "word_count": 102
+    },
+    {
+      "text": "4 see, e.g. , akhil reed amar, something has gone deeply wrong at the supreme court , atlantic (july 2, 2024), https://www.theatlantic.com/politics/archive/2024/07/trump-v-united-states-opinion-chief-roberts/678877 ; richard lempert, trump v. united states: explaining the outrage , brookings (july 12, 2024), https://www.brookings.edu/articles/trump-v-united-states-explaining-the-outrage ; laurence h. tribe, the trump decision reveals deep rot in the system , n.y. times (july 1, 2024), https://www.nytimes.com/2024/07/01/opinion/supreme-court-trump-immunity.html ; neil siegel, high court’s immunity case protects the president, not democracy , bloomberg l. (july 5, 2024, 4:30 am edt), https://news.bloomberglaw.com/us-law-week/high-courts-immunity-case-protects-the-president-not-democracy .",
+      "label": "body-text",
+      "word_count": 81
+    },
+    {
+      "text": "5 kate shaw, the supreme court creates a lawless presidency , n.y. times (july 2, 2024), https://www.nytimes.com/2024/07/02/opinion/supreme-court-immunity-trump.html ; see also trump , 603 u.s. at 657-86 (sotomayor, j., dissenting); trump , 603 u.s. at 686-706 (jackson, j., dissenting); michael stokes paulsen, a lawless court gives us a lawless presidency , pub. discourse (july 22, 2024), https://www.thepublicdiscourse.com/2024/07/95374 ; patrick marley, supreme court’s trump immunity ruling poses risk for democracy, experts say , wash. post (july 1, 2024), https://www.washingtonpost.com/politics/2024/07/01/supreme-court-immunity-trump-democracy .",
+      "label": "body-text",
+      "word_count": 78
+    },
+    {
+      "text": "7 motion to dismiss indictment based on presidential immunity, supra note 1, at 8-45. at oral argument, trump’s attorney appeared to concede that some of the charged conduct might have involved unofficial acts. see transcript of oral argument at 29-30, trump , 603 u.s. 593 (no. 23-939).",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "9 the criminal investigation of former president trump in connection with both the january 6 matter and the mar-a-lago classified documents matter began under the supervision of attorney general merrick garland. garland appointed special counsel jack smith on november 18, 2022, “[b]ased on recent developments, including the former president’s announcement that he is a candidate for president in the next election, and the sitting president’s stated intention to be a candidate as well.” merrick b. garland, att’y gen., u.s. dep’t of just., attorney general merrick b. garland delivers remarks on the appointment of a special counsel (nov. 18, 2022), https://www.justice.gov/archives/opa/speech/attorney-general-merrick-b-garland-delivers-remarks-appointment-special-counsel . smith retained many lawyers and investigators who had worked on the january 6 case prior to his appointment and hired new staff. perry stein, a look at the team jack smith built to try to convict donald trump , wash. post (sept. 10, 2023), https://www.washingtonpost.com/national-security/2023/09/10/jack-smith-special-counsel-trump-investigations . under justice department regulations, smith had the powers of a u.s. attorney and had to “comply” with department rules and policies and “consult” with appropriate department offices about them. 28 c.f.r. § 600.6-7(a) (2022). the attorney general retained the authority to request from the special counsel “an explanation for any investigative or prosecutorial step,” and the power to “conclude that the action is so inappropriate or unwarranted under established departmental practices that it should not be pursued.” id. § 600.7(b). a special counsel is thus quasi-independent from the attorney general, who is constitutionally subject to presidential direction but by virtue of norms-at least through the presidency of joseph biden-is independent of the white house. see daphna renan, presidential norms and article ii , 131 harv. l. rev. 2187, 2207-13 (2018).",
+      "label": "body-text",
+      "word_count": 277
+    },
+    {
+      "text": "11 youngstown , 343 u.s. at 635 (jackson, j., concurring).",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "13 id. at 638 (“presidential claim to a power at once so conclusive and preclusive must be scrutinized with caution … .”); id. at 640 (explaining that claim is “most vulnerable to attack and in the least favorable of possible constitutional postures”).",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "15 zivotofsky v. kerry, 576 u.s. 1 (2015); see also jack l. goldsmith, zivotofsky ii as precedent in the executive branch , 129 harv. l. rev. 112, 121 (2015) (explaining that zivotofsky was the first decision to evaluate exclusive authority in jackson’s third category).",
+      "label": "body-text",
+      "word_count": 44
+    },
+    {
+      "text": "16 zivotofsky , 576 u.s. at 10-32; see also goldsmith, supra note 15, at 125-26.",
+      "label": "body-text",
+      "word_count": 15
+    },
+    {
+      "text": "18 id. at 705-06 (footnote omitted). the court also recognized “the singularly unique role under art. ii of a president’s communications and activities, related to the performance of duties under that article.” id. at 715.",
+      "label": "body-text",
+      "word_count": 35
+    },
+    {
+      "text": "21 id . at 713. the court did, however, indicate openness to the prospect that presidential privilege in the confidentiality of communications might prevail if based specifically on “a claim of need to protect military, diplomatic, or sensitive national security secrets.” id. at 706.",
+      "label": "body-text",
+      "word_count": 44
+    },
+    {
+      "text": "22 nixon v. fitzgerald, 457 u.s. 731, 756 (1982); see also id . at 749-51 (outlining the president’s “unique position in the constitutional scheme” and his responsibility to “make the most sensitive and far-reaching decisions entrusted to any official under our constitutional system”).",
+      "label": "body-text",
+      "word_count": 43
+    },
+    {
+      "text": "23 id. at 754. importantly, this holding was premised on a suit based on implied causes of action; the court left open the scope of immunity should congress impose liability by statute on the president. see infra note 59 and accompanying text.",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "27 this distinction is akin to the one ann woolhandler draws between the “legality” model of official action and the “discretion” model of official action. see ann woolhandler, patterns of official immunity and accountability , 37 case w. rsrv. l. rev . 396 (1987). but it differs in several respects, especially as the supreme court used these lines of cases in trump , and so i will not follow that terminology here. but see thomas p. schmidt, immunity after trump, 79 vand. l. rev. (forthcoming 2026) (manuscript at 12-13) (on file with author) (using the woolhandler distinction as a lens through which to understand trump ).",
+      "label": "body-text",
+      "word_count": 106
+    },
+    {
+      "text": "28 youngstown , 343 u.s. at 634 (jackson, j., concurring) (“just what our forefathers did envision, or would have envisioned had they foreseen modern conditions, must be divined from materials almost as enigmatic as the dreams joseph was called upon to interpret for pharaoh.”); see also id. at 640 (“some clauses could be made almost unworkable, as well as immutable, by refusal to indulge some latitude of interpretation for changing times.”).",
+      "label": "body-text",
+      "word_count": 71
+    },
+    {
+      "text": "30 transcript of oral argument, supra note 7, at 77.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "32 nixon v. fitzgerald , 457 u.s. 731 (1982), did say that its absolute presidential immunity was “a functionally mandated incident of the president’s unique office, rooted in the constitutional tradition of the separation of powers and supported by our history.” id. at 749.",
+      "label": "body-text",
+      "word_count": 44
+    },
+    {
+      "text": "33 by “formalist” i mean the idea that “[t]he constitution sought to divide the delegated powers of the new federal government into three defined categories, legislative, executive, and judicial, to assure, as nearly as possible, that each branch of government would confine itself to its assigned responsibility.” ins v. chadha, 462 u.s. 919, 951 (1983). a formalist approach to separation of powers identifies whether the exercise of governmental power is legislative, executive, or judicial, and that identification determines which branch may exercise the power. see, e.g. , gary s. lawson, territorial governments and the limits of formalism , 78 calif. l. rev. 853, 857-88 (1990). by contrast, a functionalist approach recognizes that the three branches do not “operate with absolute independence,” morrison v. olson, 487 u.s. 654, 694 (1988) (quoting nixon , 418 u.s. at 707), and that the constitution requires only “safeguard[ing] against the encroachment or aggrandizement of one branch at the expense of the other,” id. at 693 (quoting buckley v. valeo, 424 u.s. 1, 122 (1976)). but see shalev gad roisman, balancing interests in the separation of powers , 91 u. chi. l. rev. 1331, 1375 (2024) (reading classic functionalist cases to balance the interests of the branches, defined as the reasons behind their exercises of power, rather than the powers themselves).",
+      "label": "body-text",
+      "word_count": 215
+    },
+    {
+      "text": "34 see, e.g. , harlan grant cohen, formalism and distrust: foreign affairs law in the roberts court , 83 geo. wash. l. rev. 380, 394 (2015). the majority opinion in youngstown , by contrast, was famously formalist. see, e.g. , stephen i. vladeck, foreign affairs originalism in youngstown’s shadow , 53 st. louis u. l.j. 29, 32 (2008).",
+      "label": "body-text",
+      "word_count": 58
+    },
+    {
+      "text": "35 see youngstown sheet & tube co. v. sawyer, 343 u.s. 579, 637 (1952) (jackson, j., concurring) (“when the president takes measures incompatible with the expressed or implied will of congress, his power is at its lowest ebb, for then he can rely only upon his own constitutional powers minus any constitutional powers of congress over the matter.”); id . at 640 (noting that the president can win in category three only if there is “any remainder of executive power” that survives after subtracting “such powers as congress may have over the subject”). jackson’s rejection of the proposition that the seizure of wartime “strike-bound industries is within [the president’s] domain and beyond control by congress” was also mainly functionalist but is hard to categorize because the analysis was nuanced to the point of impressionistic. id. at 640-54. but see shalev roisman, trump v. united states and the separation of powers , 173 u. pa. l. rev. online 33, 42 (2025) (arguing that “justice jackson’s opinion operates in a formalist manner in category three”).",
+      "label": "body-text",
+      "word_count": 173
+    },
+    {
+      "text": "36 see michael stokes paulsen, nixon now: the courts and the presidency after twenty-five years , 83 minn. l. rev. 1337, 1375-81 (1999).",
+      "label": "body-text",
+      "word_count": 23
+    },
+    {
+      "text": "37 motion to dismiss indictment based on presidential immunity, supra note 1, at 11-13.",
+      "label": "body-text",
+      "word_count": 14
+    },
+    {
+      "text": "40 trump filed four motions to dismiss in the district court, none of which raised congressional separation of powers or youngstown category three issues.",
+      "label": "body-text",
+      "word_count": 24
+    },
+    {
+      "text": "the motion to dismiss the indictment based on presidential immunity focused only on the line of cases involving immunity from federal judicial adjudication and did not raise separation of powers restraints on congress. it mentioned jackson’s youngstown concurrence only to emphasize that the president’s organizing a slate of electors was an independent power in jackson’s category two, and it did not claim an exclusive and preclusive power in category three. motion to dismiss indictment based on presidential immunity, supra note 1, at 44 n.7; see also reply brief in support of motion to dismiss the indictment based on presidential immunity, united states v. trump, 704 f. supp. 3d 196 (d.d.c. 2023) (no. 23-cr-00257), ecf no. 122.",
+      "label": "body-text",
+      "word_count": 116
+    },
+    {
+      "text": "the motion to dismiss on constitutional grounds mentioned separation of powers and the youngstown majority opinion only in arguing that government could not second-guess trump’s acquittal on articles of impeachment. motion to dismiss the indictment based on constitutional grounds and memorandum in support at 23, trump , 704 f. supp. 3d 196 (no. 23-cr-00257), ecf no. 113.",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "the motion to dismiss on statutory grounds raised first amendment constitutional avoidance arguments but none about the separation of powers. motion to dismiss the indictment based on statutory grounds and memorandum in support at 16-23, trump , 704 f. supp. 3d 196 (no. 23-cr-00257), ecf no. 114.",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "the motion to dismiss for selective and vindictive prosecution did not raise separation of powers issues at all. see motion to dismiss for selective and vindictive prosecution, trump , 704 f. supp. 3d 196 (no. 23-cr-00257), ecf no. 116.",
+      "label": "body-text",
+      "word_count": 39
+    },
+    {
+      "text": "the trump brief before the d.c. circuit also did not raise separation of powers constraints on congress or youngstown category three issues. see opening brief of defendant-appellant president donald j. trump, trump , 91 f.4th 1173 (no. 23-3228), 2023 wl 8874627; reply brief of defendant-appellant president donald j. trump, trump , 91 f.4th 1173 (no. 23-3228), 2024 wl 36166. trump’s failure to discuss category three constraints on congressional power in the courts below is especially remarkable because the government had hinted at such constraints as a basis for immunity. see, e.g. , response in opposition to defendant’s motion to dismiss on presidential immunity grounds at 35, trump , 704 f. supp. 3d 196 (no. 23-cr-00257), ecf no. 109.",
+      "label": "body-text",
+      "word_count": 118
+    },
+    {
+      "text": "one might speculate that trump’s lawyers declined to raise the issue of separation of powers vis-à-vis congress because they viewed the argument as a defense on the merits to be raised at a different time and perhaps did not want to raise the issue at the motion to dismiss stage for fear that they would not be able to raise harlow -type immunity on interlocutory appeal. but this speculation is implausible since, as explained above, the trump team raised many other issues in the motions to dismiss that were clearly defenses and could clearly be appealed only after trial. in addition, as justice barrett wrote in her concurrence, there was a powerful argument that the separation of powers claim, even if a defense, was still subject to interlocutory review. see trump v. united states, 603 u.s. 593, 651-55 (2024) (barrett, j., concurring in part); infra note 67 and accompanying text.",
+      "label": "body-text",
+      "word_count": 150
+    },
+    {
+      "text": "41 as the majority in trump explained, “[d]espite the unprecedented nature of this case, and the very significant constitutional questions that it raises, the lower courts rendered their decisions on a highly expedited basis.” 603 u.s. at 616. the court of appeals decided the case quickly in response to the government’s proclamation of “the imperative public importance of a prompt resolution of this case.” answering brief for the united states at 65, trump , 91 f.4th 1173 (no. 23-3228), 2023 wl 9020632. the supreme court too, under similar appeal from the government to go fast, rushed to decision. it granted certiorari on february 28, 2024, ordered expedited briefing, held oral argument on april 25, 2024, and issued the opinion on july 1, 2024.",
+      "label": "body-text",
+      "word_count": 123
+    },
+    {
+      "text": "42 trump , 91 f.4th at 1191 (emphasis added). the court additionally begged the question at the heart of the case by asserting that trump had “no structural immunity” from criminal charges because his actions “allegedly violated generally applicable criminal laws, meaning those acts were not properly within the scope of his lawful discretion.” id. at 1192.",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "43 transcript of oral argument, supra note 7, at 73.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "45 id. at 143. dreeben also made clear at oral argument that he had consulted with the solicitor general and garnered her support behind the special counsel’s position on presidential immunity before the court. see id. at 142-43.",
+      "label": "body-text",
+      "word_count": 38
+    },
+    {
+      "text": "46 see also united states v. nixon, 418 u.s. 683 (1974) (special prosecutor squaring off against sitting president); morrison v. olson, 487 u.s. 654 (1988) (independent counsel investigating the head of the office of legal counsel (olc), with dueling briefs from the independent counsel and the solicitor general).",
+      "label": "body-text",
+      "word_count": 48
+    },
+    {
+      "text": "49 see discussion and sources cited supra note 40.",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "50 transcript of oral argument, supra note 7, at 69-70 (emphasis added).",
+      "label": "body-text",
+      "word_count": 12
+    },
+    {
+      "text": "51 id. at 69-71; see also brief for the united states, supra note 47, at 4-6.",
+      "label": "body-text",
+      "word_count": 16
+    },
+    {
+      "text": "52 brief for the united states, supra note 47, at 11; transcript of oral argument, supra note 7, at 87, 115-16.",
+      "label": "body-text",
+      "word_count": 21
+    },
+    {
+      "text": "53 brief for the united states, supra note 47, at 24. the government made a closely related if not identical argument early in its brief when explaining constitutional protections for the presidency. see id. at 11-12.",
+      "label": "body-text",
+      "word_count": 36
+    },
+    {
+      "text": "54 transcript of oral argument, supra note 7, at 121.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "55 brief of petitioner president donald j. trump at 37-40, trump v. united states, 603 u.s. 593 (2024) (no. 23-939). trump’s lawyer, d. john sauer, claimed at oral argument that trump’s district-court motion to dismiss based on statutory grounds, see supra note 40, set forth “a whole panoply of clear statement rules,” transcript of oral argument, supra note 7, at 65. but, as noted above, the motion did not in fact raise the clear statement or constitutional arguments based on separation of powers. when justice jackson noted that trump “didn’t raise” the clear statement or avoidance issue below, sauer demurred and stated that the issue was “fairly included in the question presented.” id . as dreeben correctly noted at oral argument, the argument “was not raised in the district court and it was not raised in the court of appeals.” id. at 122.",
+      "label": "body-text",
+      "word_count": 143
+    },
+    {
+      "text": "56 this point is implicit in the prosecution, and dreeben stated at oral argument that a “building block of [the government’s] submission is that congress actually did apply these criminal laws to official conduct.” id. at 124; see also brief for the united states, supra note 47, at 24-26.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "57 transcript of oral argument, supra note 7, at 121-22.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "58 id. at 124; see also united states v. w. pac. r.r. co., 352 u.s. 59, 63 (1956) (exercising discretion to consider legal arguments raised by neither party or otherwise forfeited in the lower courts when they involve matters of “continuing public concern”).",
+      "label": "body-text",
+      "word_count": 43
+    },
+    {
+      "text": "59 457 u.s. 731, 748 n.27 (1982); see also schmidt, supra note 27 (manuscript at 15-16) (explaining this point).",
+      "label": "body-text",
+      "word_count": 19
+    },
+    {
+      "text": "60 for a sophisticated analysis on the various types of immunity claims in trump v. united states , see carlos m. vázquez, what is trump immunity? , 100 notre dame l. rev. (forthcoming 2025) (on file with author).",
+      "label": "body-text",
+      "word_count": 38
+    },
+    {
+      "text": "61 trevor w. morrison, moving beyond absolutes on presidential immunity , lawfare (mar. 18, 2024, 8:00 am), https://www.lawfaremedia.org/article/moving-beyond-absolutes-on-presidential-immunity .",
+      "label": "body-text",
+      "word_count": 19
+    },
+    {
+      "text": "65 answering brief for the united states, supra note 41, at 45-46; transcript of oral argument, supra note 7, at 78-80. at the same time, the government in places treated the issue of constitutional constraints on congress’s power to regulate the presidency as an “immunity.” brief for the united states, supra note 47, at 4; response in opposition to defendant’s motion to dismiss on presidential immunity grounds, supra note 40, at 35.",
+      "label": "body-text",
+      "word_count": 72
+    },
+    {
+      "text": "66 transcript of oral argument, supra note 7, at 155.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "67 id. at 155-59. dreeben’s concession has a basis in fitzgerald , which had suggested that in the presidential context collateral orders could include “serious and unsettled issues” that “alleg[e] a threatened breach of essential presidential prerogatives under the separation of powers.” 457 u.s. 731, 743 (1982).",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "70 justice barrett’s concurrence defended the treatment of the constitutional limit on congressional power as an immediately appealable issue but did not characterize the issue as an immunity. trump v. united states, 603 u.s. 593, 651 (2024) (barrett, j., concurring in part).",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "71 id. at 620 (majority opinion). the government appeared to acknowledge that the president’s acts were official when it described them as “official conduct that was intertwined with his private means of attaining the conspiracy’s aim.” brief for the united states, supra note 47, at 47.",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "74 see roisman, supra note 35, at 42.",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "75 see trump , 603 u.s. at 608 (“[o]nce it is determined that the president acted within the scope of his exclusive authority, his discretion in exercising such authority cannot be subject to further judicial examination.”).",
+      "label": "body-text",
+      "word_count": 36
+    },
+    {
+      "text": "76 see collins v. yellen, 594 u.s. 220 (2021); seila law llc v. consumer fin. prot. bureau, 591 u.s. 197 (2020); free enter. fund v. pub. co. acct. oversight bd., 561 u.s. 477 (2010). the court had in various ways narrowed humphrey’s executor v. united states , 295 u.s. 602 (1935), myers v. united states , 272 u.s. 52 (1926), and morrison v. olson , 487 u.s. 654 (1988). for an explanation, see daniel d. birk, interrogating the historical basis for a unitary executive , 73 stan. l. rev. 175, 189-92 (2021).",
+      "label": "body-text",
+      "word_count": 92
+    },
+    {
+      "text": "78 the court in trump stated that “congress lacks authority to control the president’s ‘unrestricted power of removal’ with respect to ‘executive officers of the united states whom he has appointed,’” with a “cf.” citation to the seila law exceptions. trump , 603 u.s. at 608-09 (first quoting myers , 272 u.s. at 106, 176; and then citing seila law , 591 u.s. at 215).",
+      "label": "body-text",
+      "word_count": 65
+    },
+    {
+      "text": "79 the same logic appears to apply to other exclusive powers-for example, a presidential pardon in an effort to obstruct justice would not seem to be something congress could criminalize.",
+      "label": "body-text",
+      "word_count": 30
+    },
+    {
+      "text": "80 the chief justice maintained that the government could not introduce evidence of a president’s official acts that were protected by immunity to prove crimes involving unprotected conduct. trump , 603 u.s. at 630-32 (“part iii-c”). justice barrett disagreed, arguing that a president could be prosecuted (for example) for the crime of bribery because the constitution “does not authorize a president to seek or accept bribes” and maintained that “excluding from trial any mention of the official act connected to the bribe would hamstring the prosecution.” id. at 655-66 (barrett, j., concurring in part). the chief justice replied that “the prosecutor may point to the public record to show the fact that the president performed the official act” and “may admit evidence of what the president allegedly demanded, received, accepted, or agreed to receive or accept in return for being influenced in the performance of the act” but may not “admit testimony or private records of the president or his advisers probing the official act itself.” id. at 632 n.3 (majority opinion).",
+      "label": "body-text",
+      "word_count": 172
+    },
+    {
+      "text": "the upshot of this exchange on its own terms is hard to fathom. see anna bower & benjamin wittes, what’s going on in footnote 3? , lawfare (july 23, 2024, 4:54 pm), https://www.lawfaremedia.org/article/what-s-going-on-in-footnote-3 (examining this dispute in detail). for purposes of the claim in the text, the upshot is even more uncertain since it involves a bribe facilitated by the exercise of an exclusive presidential power , a wrinkle that the roberts-barrett exchange did not consider. also unclear is the basis for justice barrett’s claim that the constitution does not authorize the president to seek or accept bribes, since that does not appear to be the court’s test for official action, much less official action for conduct concerning an exclusive presidential power.",
+      "label": "body-text",
+      "word_count": 122
+    },
+    {
+      "text": "81 it is unclear on its own terms and also due to footnote three of the majority opinion. see discussion and sources cited supra note 80.",
+      "label": "body-text",
+      "word_count": 26
+    },
+    {
+      "text": "82 trump , 603 u.s. at 621; see also id. at 620 (“[t]he executive branch has ‘exclusive authority and absolute discretion’ to decide which crimes to investigate and prosecute, including with respect to allegations of election crime.” (quoting united states v. nixon, 418 u.s. 683, 693 (1974))).",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "84 heckler v. chaney, 470 u.s. 821, 833 (1985); see also id. at 833 n.4 (mentioning the possibility of judicial review if “the agency has ‘consciously and expressly adopted a general policy’ that is so extreme as to amount to an abdication of its statutory responsibilities” (quoting adams v. richardson, 480 f.2d 1159, 1162 (d.c. cir. 1973) (en banc))).",
+      "label": "body-text",
+      "word_count": 59
+    },
+    {
+      "text": "85 united states v. texas, 599 u.s. 670, 683 (2023) (making claim in standing context on assumption that the executive branch had “wholly abandoned its statutory responsibilities to make arrests or bring prosecutions”). the court in texas stated that a requirement that the government “shall” arrest certain noncitizens “does not entitle any particular plaintiff to enforce that mandate in federal court” in light of the “deep-rooted nature of law enforcement discretion.” id. at 682 (quoting town of castle rock v. gonzales, 545 u.s. 748, 761, 764-65 (2005)). without taking a firm position, the court added that “an arrest mandate” might be enforceable in court, but only with “‘stronger indication’ from congress that judicial review of enforcement discretion is appropriate… .” id. (quoting castle rock , 545 u.s. at 761).",
+      "label": "body-text",
+      "word_count": 129
+    },
+    {
+      "text": "87 the issue in the confiscation cases , 74 u.s. (7 wall.) 454 (1868), was whether a federal attorney had discretion to dismiss a civil qui tam suit. the court stated that he did, with a large caveat about congressional control: “public prosecutions, until they come before the court to which they are returnable, are within the exclusive direction of the district attorney, and even after they are entered in court, they are so far under his control that he may enter a nolle prosequi at any time before the jury is empanelled [sic] for the trial of the case, except in cases where it is otherwise provided in some act of congress .” id. at 457 (emphasis added). nixon also cited the court of appeals decision in united states v. cox , 342 f.2d 167 (5th cir. 1965), which had affirmed only that courts (as opposed to congress) could not interfere with federal prosecutorial discretion. nixon , 418 u.s. at 693 (citing cox , 342 f.2d at 171).",
+      "label": "body-text",
+      "word_count": 169
+    },
+    {
+      "text": "89 jack goldsmith & john f. manning, the protean take care clause , 164 u. pa. l. rev. 1835, 1848 (2016).",
+      "label": "body-text",
+      "word_count": 21
+    },
+    {
+      "text": "91 texas , 599 u.s. at 679; see also zachary s. price, enforcement discretion and executive duty , 67 vand. l. rev. 671, 681-83 (2014).",
+      "label": "body-text",
+      "word_count": 25
+    },
+    {
+      "text": "96 id. at 620 (quoting brief for the united states, supra note 47, at 19). the court actually quoted justice scalia by quoting the government’s brief that had quoted the statement scalia had made in his morrison dissent. see brief for the united states, supra note 47, at 19 (quoting morrison , 487 u.s. at 706 (scalia, j., dissenting)).",
+      "label": "body-text",
+      "word_count": 59
+    },
+    {
+      "text": "98 perkins appears to survive the pretrump removal cases. see, e.g. , seila law llc v. consumer fin. prot. bureau, 591 u.s. 197, 215, 217 (2020) (citing perkins , 116 u.s. at 485).",
+      "label": "body-text",
+      "word_count": 33
+    },
+    {
+      "text": "99 the take care clause is the source of executive enforcement discretion in civil and criminal contexts. see u.s. const. art. ii, § 3. the court cited a civil enforcement discretion case, united states v. texas , 599 u.s. 670 (2023), in support of its rule. it also cited heckler v. chaney , 470 u.s. 821, 832 (1985). the court’s differential treatment of civil and criminal immunity for non-exclusive powers in a later section in trump that discussed immunity for non-exclusive presidential acts, see trump , 603 u.s. at 621-28, is not pertinent to its discussion of presidentially exclusive powers, which is based on a different constitutional logic.",
+      "label": "body-text",
+      "word_count": 108
+    },
+    {
+      "text": "100 to mention just a few examples, the drug enforcement agency, the bureau of alcohol, tobacco, and firearms, u.s. immigration and customs enforcement, the transportation security administration, and the internal revenue service all have law enforcement responsibilities, as do many traditional civil agencies, including independent ones like the securities and exchange commission and the federal trade commission.",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "101 i thank edward whelan for discussion of these points.",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "102 protecting americans from foreign adversary controlled applications act of 2024, pub. l. no. 118-50, 138 stat. 955 (codified at 15 u.s.c. § 9901).",
+      "label": "body-text",
+      "word_count": 24
+    },
+    {
+      "text": "103 exec. order no. 14,166, 90 fed. reg. 8611 (jan. 20, 2025) (“i hereby order the attorney general not to take any action on behalf of the united states to enforce the act for 75 days from the date of this order.”).",
+      "label": "body-text",
+      "word_count": 42
+    },
+    {
+      "text": "104 trump , 603 u.s. at 651 n.1 (barrett, j., concurring in part). justice sotomayor appeared to read the majority’s take care clause analysis more broadly. see id. at 676 (sotomayor, j., dissenting).",
+      "label": "body-text",
+      "word_count": 33
+    },
+    {
+      "text": "105 the implications for this part of the opinion are further diminished by the uncertainties inherent in the back and forth between the majority and justice barrett about prosecuting a president for bribery, which presumably qualify the exclusive law enforcement discretion analysis as well. see supra note 80.",
+      "label": "body-text",
+      "word_count": 48
+    },
+    {
+      "text": "106 see generally steven g. calabresi & christopher s. yoo, the unitary executive: presidential power from washington to bush (2008).",
+      "label": "body-text",
+      "word_count": 20
+    },
+    {
+      "text": "107 see id. ; see also ashraf ahmed, lev menand & noah a. rosenblum, the making of presidential administration , 137 harv. l. rev. 2131, 2133 (2024).",
+      "label": "body-text",
+      "word_count": 27
+    },
+    {
+      "text": "108 see adrian vermeule, the head and body of leviathan , new dig. (july 18, 2024), https://thenewdigest.substack.com/p/the-head-and-body-of-leviathan .",
+      "label": "body-text",
+      "word_count": 18
+    },
+    {
+      "text": "109 myers v. united states , 272 u.s. 52 (1926), endorsed a famously broad version of the unitary executive theory, but it contained qualifications. for example, myers reserved the possibility that “if a statute ‘specifically committed [a given set of decisions] to the discretion of a particular officer’ or established a ‘quasi-judicial … executive tribunal[] whose decisions after hearing affect [the] interests of individuals,’ then congress might properly foreclose the president from intervening in the decision of a particular case.” goldsmith & manning, supra note 89, at 1840-41 (quoting myers , 272 u.s. at 135). myers also left in place the rule of perkins that “when congress, by law, vests the appointment of inferior oﬃcers in the heads of departments, it may limit and restrict the power of removal as it deems best for the public interest” because “[t]he constitutional authority in congress to thus vest the appointment implies authority to limit, restrict, and regulate the removal by such laws as congress may enact in relation to the oﬃcers so appointed.” myers , 272 u.s. at 160 (quoting united states v. perkins, 116 u.s. 483, 485 (1886)); see also id. at 127, 161-62; supra notes 97-98 and accompanying text (examining the extent to which perkins survives trump ).",
+      "label": "body-text",
+      "word_count": 208
+    },
+    {
+      "text": "111 see supra notes 76-81 and accompanying text.",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "118 fitzgerald had stated that “a court, before exercising jurisdiction, must balance the constitutional weight of the interest to be served against the dangers of intrusion on the authority and functions of the executive branch.” 457 u.s. at 754. for criticisms of the court’s formulation, see schmidt, supra note 27 (manuscript at 38); trevor w. morrison, a rule for the ages, or a rule for trump? , lawfare (july 11, 2024, 1:42 pm), https://www.lawfaremedia.org/article/a-rule-for-the-ages--or-a-rule-for-trump .",
+      "label": "body-text",
+      "word_count": 75
+    },
+    {
+      "text": "119 see, e.g. , roisman, supra note 33, at 1387; martin h. redish & elizabeth j. cisar, the need for pragmatic formalism in separation of powers theory , 41 duke l.j. 449, 450, 491 (1991); suzanne prieur clair, separation of powers: a new look at the functionalist approach , 40 case w. rsrv. l. rev. 331, 338 (1989).",
+      "label": "body-text",
+      "word_count": 58
+    },
+    {
+      "text": "120 see trump , 603 u.s. at 673-74 (sotomayor, j., dissenting).",
+      "label": "body-text",
+      "word_count": 11
+    },
+    {
+      "text": "121 it is possible that a justice in the majority did not agree on this question, and that the chief justice punted the issue to maintain a majority.",
+      "label": "body-text",
+      "word_count": 28
+    },
+    {
+      "text": "123 on countervailing considerations, see supra note 118 and accompanying text.",
+      "label": "body-text",
+      "word_count": 11
+    },
+    {
+      "text": "124 the court has distinguished between official and unofficial acts implicitly in its immunity cases but has never really explained the distinction. cf. trump v. mazars, 591 u.s. 848, 868 (2020) (noting that “there is not always a clear line between [the president’s] personal and official affairs” because “[t]he interest of the man” is often “connected with the constitutional rights of the place’” (quoting the federalist no. 51, at 349 (james madison) (jacob e. cooke ed., 1961))).",
+      "label": "body-text",
+      "word_count": 77
+    },
+    {
+      "text": "131 id. at 655-56 (barrett, j., concurring in part).",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "132 see supra note 80.",
+      "label": "body-text",
+      "word_count": 5
+    },
+    {
+      "text": "133 see, e.g. , sarah fortinsky, schiff says ‘of course’ he’s concerned about trump’s personal threats against him , hill (july 7, 2024, 10:53 am et), https://thehill.com/elections/4758532-adam-schiff-donald-trump-personal-attacks ; devon ombres, the supreme court has fully embraced an antidemocratic, right-wing agenda , ctr. am. progress (july 3, 2024), https://www.americanprogress.org/article/the-supreme-court-has-fully-embraced-an-antidemocratic-right-wing-agenda .",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "135 the immunity issue would be resolved in the first instance by the justice department contemplating a prosecution of a former president, and the department could construe the immunities in trump broadly to preclude prosecution even if the court might not do so in a case presenting the issue.",
+      "label": "body-text",
+      "word_count": 49
+    },
+    {
+      "text": "136 trump , 603 u.s. at 684 (sotomayor, j., dissenting).",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "138 see supra note 5.",
+      "label": "body-text",
+      "word_count": 5
+    },
+    {
+      "text": "139 evidence of knowing criminal action can be found in the “smoking gun” tape of june 23, 1972 and nixon’s “cancer on the presidency” tape of march 21, 1973. see transcript of a recording of a meeting between the president and h.r. haldeman in the oval office on june 23, 1972, from 10:04 to 11:39 am , richard m. nixon presidential libr. , https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/wspf/741-002.pdf ; transcript of a recording of a meeting among the president, john dean, and h.r. haldeman in the oval office, on march 21, 1973, from 10:12 to 11:55 am , richard m. nixon presidential libr. , https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_12.pdf . the march 21 transcript makes pretty clear, but not perfectly clear, that nixon worried about criminal liability for himself during this period. and he clearly worried about prosecution and jail in 1974, especially in the run-up to his resignation. see garrett graff, watergate: a new history 654, 659 (2022).",
+      "label": "body-text",
+      "word_count": 151
+    },
+    {
+      "text": "140 for example, bill clinton faced potential criminal charges related to perjury and obstruction of justice in the monica lewinsky affair but was ultimately never charged. john f. harris & bill miller, in a deal, clinton avoids indictment , wash. post (jan. 19, 2001), https://www.washingtonpost.com/archive/politics/2001/01/20/in-a-deal-clinton-avoids-indictment/bb80cc4c-e72c-40c1-bb72-55b2b81c3065 . george h.w. bush was deeply implicated in elements of the iran-contra scandal as vice president, and independent counsel lawrence walsh noted “a disturbing pattern of deception and obstruction that permeated the highest levels of the reagan and bush administrations.” walter pincus, bush pardons weinberger in iran-contra affair , wash. post (dec. 24, 1992), https://www.washingtonpost.com/archive/politics/1992/12/25/bush-pardons-weinberger-in-iran-contra-affair/912743a7-026b-4134-b63d-4c1c57948673 . i have found no account of how the prospect of criminal liability influenced these men’s official acts in office.",
+      "label": "body-text",
+      "word_count": 120
+    },
+    {
+      "text": "141 see, e.g. , a sitting president’s amenability to indictment & crim. prosecution, 24 op. o.l.c. 222, 255 (2000).",
+      "label": "body-text",
+      "word_count": 19
+    },
+    {
+      "text": "142 it is conceivable that presidents prior to trump were not deterred by criminal liability when acting but that trump , by making immunity explicit and salient, will encourage more criminality than previously would have occurred.",
+      "label": "body-text",
+      "word_count": 36
+    },
+    {
+      "text": "143 zachary s. price, even if the president is immune, his subordinates are not , yale j. on regul.: notice & comment (july 11, 2024) , https://www.yalejreg.com/nc/even-if-the-president-is-immune-his-subordinates-are-not-by-zachary-s-price .",
+      "label": "body-text",
+      "word_count": 28
+    },
+    {
+      "text": "144 compare nixon v. fitzgerald, 457 u.s. 731, 749 (1982) (“[w]e hold that petitioner, as a former president of the united states, is entitled to absolute immunity from damages liability predicated on his official acts.”), with harlow v. fitzgerald, 457 u.s. 800, 813 (1982) (denying absolute immunity to presidential aides but conferring qualified immunity).",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "145 see renan, supra note 9, at 2190.",
+      "label": "body-text",
+      "word_count": 8
+    },
+    {
+      "text": "146 the court would decide whether the assassination was an exclusive presidential power, but even under the pro-president olc precedents it would not be. the hypothetical assassination would not be justified by war, but in any event olc has recognized that the president’s offensive war power is not exclusive, see, e.g. , april 2018 airstrikes against syrian chem.-weapons facilities, 42 op. o.l.c. 39, 46-47 (2018), though it once without analysis asserted that congress could not limit the president’s self-defensive reactions to the 9/11 terrorist attacks, see the president’s const. auth. to conduct mil. operations against terrorists & nations supporting them, 25 op. o.l.c. 188, 214 (2001). in the domestic realm, olc has recognized an independent but not exclusive presidential power to use force during war. see memorandum from john c. yoo, deputy assistant att’y gen., off. of legal counsel, & robert j. delahunty, special counsel, off. of legal counsel, to alberto r. gonzales, counsel to the president (oct. 23, 2001), https://www.justice.gov/sites/default/files/olc/legacy/2009/08/24/memomilitaryforcecombatus10232001.pdf . it has also recognized an article ii “protective power” to “use troops for the protection of federal property and federal functions,” fed. emps. by mayday demonstrations & consequent impairment of gov’t functions, 1 supp. op. o.l.c. 343, 344 (1971), but has never suggested that it is exclusive.",
+      "label": "body-text",
+      "word_count": 209
+    },
+    {
+      "text": "147 see generally robert s. mueller, iii, report on the investigation into russian interference in the 2016 presidential election, vol. ii of ii , u.s. dep’t of just. (mar. 2019), https://www.justice.gov/storage/report_volume2.pdf . see also john cassidy, robert mueller says it’s up to congress to indict a president , new yorker (may 29, 2019), https://www.newyorker.com/news/our-columnists/robert-mueller-says-its-up-to-congress-to-indict-a-president .",
+      "label": "body-text",
+      "word_count": 55
+    },
+    {
+      "text": "152 see, e.g. , michael s. schmidt, donald trump v. the united states: inside the struggle to stop a president 5-6 (2020).",
+      "label": "body-text",
+      "word_count": 22
+    },
+    {
+      "text": "153 an argument for this conclusion can be found in vázquez, supra note 60.",
+      "label": "body-text",
+      "word_count": 14
+    },
+    {
+      "text": "154 see zivotofsky v. kerry, 576 u.s. 1, 28-29 (2015). olc has sometimes ruled that a federal statute does not apply to a subordinate executive branch official if it would violate an exclusive presidential power. see, e.g. , statutory restrictions on the plo’s wash. off., 42 op. o.l.c. 108 (2018); memorandum from david j. barron, acting assistant att’y gen., off. of legal counsel, to joan e. donoghue, acting legal adviser, dep’t of state, constitutionality of section 7054 of the fiscal year 2009 foreign appropriations act (june 1, 2009), https://www.justice.gov/sites/default/files/olc/opinions/2009/06/31/section7054.pdf .",
+      "label": "body-text",
+      "word_count": 90
+    },
+    {
+      "text": "155 trump v. united states, 603 u.s. 593, 614 (2024). jeffrey clark, a senior justice department official who helped trump in his election fraud scheme, has made a version of this argument in his bar disciplinary proceeding. see brief of respondent at 20-23, in re jeffrey b. clark, no. 22-bd-039 (d.c. bd. pro. resp. oct. 28, 2024).",
+      "label": "body-text",
+      "word_count": 57
+    },
+    {
+      "text": "158 the court emphasized that absolute immunity was inappropriate for high-level subordinate officials because “‘[t]he greater power of high [non-presidential] officials affords a greater potential for a regime of lawless conduct.’” harlow v. fitzgerald, 457 u.s. 800, 809 (1982) (quoting butz v. economou, 438 u.s. 478, 506 (1978)). as previously discussed, the court in nixon v. fitzgerald , 457 u.s. 731 (1982), did not address whether the president would be immune from civil damages had congress expressly conferred civil liability on the president. see supra notes 23, 59 and accompanying text.",
+      "label": "body-text",
+      "word_count": 91
+    },
+    {
+      "text": "159 on the absence of jurisdiction to award injunctive relief against the president, see mississippi v. johnson, 71 u.s. 475, 501 (1866); franklin v. massachusetts, 505 u.s. 788, 802-03 (1992) (plurality opinion) (quoting johnson , 71 u.s. at 501); and franklin , 505 u.s. at 827 (scalia, j., concurring in part and in the judgment) (same). franklin also discusses the availability of injunctive relief against subordinate executive officials in lieu of such relief against the president. see franklin , 505 u.s. at 828 (noting that “[n]one of these conclusions” about the absence of injunctive relief against the president “in any way suggests that presidential action is unreviewable ” because “[r]eview of the legality of presidential action can ordinarily be obtained in a suit seeking to enjoin the officers who attempt to enforce the president’s directive”). see generally schmidt, supra note 27 (analyzing all of these cases as they relate to trump ).",
+      "label": "body-text",
+      "word_count": 152
+    },
+    {
+      "text": "160 see schmidt, supra note 27 (manuscript at 6-9). see generally richard h. fallon & daniel j. meltzer, new law, non-retroactivity, and constitutional remedies , 104 harv. l. rev. 1731 (1991) (arguing for a structure of constitutional remedies adequate to keep government within the bounds of law).",
+      "label": "body-text",
+      "word_count": 47
+    },
+    {
+      "text": "161 see adrian vermeule, “above the law,” new dig. (july 3, 2024), https://thenewdigest.substack.com/p/above-the-law .",
+      "label": "body-text",
+      "word_count": 14
+    },
+    {
+      "text": "162 goldsmith, supra note 15, at 134.",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "163 the const. separation of powers between the president & cong., 20 op. o.l.c. 124, 128 (1996).",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "165 see jack l. goldsmith, the terror presidency: law and judgment inside the bush administration 144 (2007).",
+      "label": "body-text",
+      "word_count": 17
+    },
+    {
+      "text": "167 press release, u.s. dep’t of just., statement of the attorney general regarding investigation into the interrogation of certain detainees (june 30, 2011), https://www.justice.gov/archives/opa/pr/statement-attorney-general-regarding-investigation-interrogation-certain-detainees .",
+      "label": "body-text",
+      "word_count": 25
+    },
+    {
+      "text": "168 other reasons are canvassed in note, the immunity-conferring power of the office of legal counsel , 121 harv. l. rev. 2086 (2008), which provides and analyzes the case law and commentary on entrapment by estoppel.",
+      "label": "body-text",
+      "word_count": 36
+    },
+    {
+      "text": "169 see id. at 2092-102. entrapment by estoppel “has been recognized as an exception to the mistake of law rule.” u.s. attorneys’ manual, criminal resource manual section 2055 : public authority defense , u.s. dep’t of just. , https://www.justice.gov/archives/usam/criminal-resource-manual-2055-public-authority-defense .",
+      "label": "body-text",
+      "word_count": 40
+    },
+    {
+      "text": "170 transcript of oral argument, supra note 7, at 72; see also id. at 108 (“mr. dreeben: … [i]f a [sic] authorized government representative” (i.e., the attorney general) “tells you” (i.e., the president) “that what you are about to do is lawful, it would be a root violation of due process to prosecute you” (i.e., the president) “for that.”).",
+      "label": "body-text",
+      "word_count": 59
+    },
+    {
+      "text": "171 a related condition for the defense is that reliance on the legal opinion must be reasonable. see note, supra note 168, at 2093.",
+      "label": "body-text",
+      "word_count": 24
+    },
+    {
+      "text": "172 id. at 2095; cf. zachary s. price, reliance on executive constitutional interpretation , 100 b.u. l. rev. 197, 223 (2020) (noting that “executive-branch interpreters” are often “serving as a judge in one’s own case”).",
+      "label": "body-text",
+      "word_count": 35
+    },
+    {
+      "text": "174 james m. burnham, the special counsel made a dangerous argument about trump immunity , wash. post (may 1, 2024), https://www.washingtonpost.com/opinions/2024/05/01/jack-smith-argument-trump-immunity .",
+      "label": "body-text",
+      "word_count": 22
+    },
+    {
+      "text": "175 price invokes some of these objections to conclude that entrapment by estoppel for reliance on olc advice should apply “only insofar as the opinion’s conclusions were objectively reasonable.” price, supra note 172, at 202, 244-47.",
+      "label": "body-text",
+      "word_count": 36
+    },
+    {
+      "text": "176 see note, supra note 168, at 2106-07. this is one important reason why, for the full impact of the golden shield to work, the legal advice with respect to criminal law should come from the department of justice. legal advice to the president from the white house or outside lawyers might not have the same protective effect.",
+      "label": "body-text",
+      "word_count": 58
+    },
+    {
+      "text": "177 application of 28 u.s.c. § 458 to presidential appointments of fed. judges, 19 op. o.l.c. 350, 351-52 (1995).",
+      "label": "body-text",
+      "word_count": 19
+    },
+    {
+      "text": "178 see quinta jurecic, document: william barr memo on obstruction investigation , lawfare (dec. 20, 2018, 10:04 am), https://www.lawfaremedia.org/article/document-william-barr-memo-obstruction-investigation .",
+      "label": "body-text",
+      "word_count": 20
+    },
+    {
+      "text": "180 id. at 653 n.3 (barrett, j., concurring in part).",
+      "label": "body-text",
+      "word_count": 10
+    },
+    {
+      "text": "181 for my views of this canon in the context of the mueller investigation, see jack goldsmith, the mueller report’s weak statutory interpretation analysis , lawfare (may 11, 2019, 10:00 am), https://www.lawfaremedia.org/article/mueller-reports-weak-statutory-interpretation-analysis ; and jack goldsmith, the mueller report’s weak statutory interpretation analysis: part ii , lawfare (may 23, 2019, 10:08 am), https://www.lawfaremedia.org/article/mueller-reports-weak-statutory-interpretation-analysis-part-ii .",
+      "label": "body-text",
+      "word_count": 54
+    },
+    {
+      "text": "182 see trump , 603 u.s. at 608; ex parte garland, 71 u.s. (4 wall.) 333, 380 (1866) (noting that the pardon power “is unlimited,” except by the textual limitation for impeachments, and “cannot be fettered by any legislative restrictions”).",
+      "label": "body-text",
+      "word_count": 40
+    },
+    {
+      "text": "184 see josh gerstein & kyle cheney, ‘any and all possible offenses’: trump pardon grants flynn a sweeping reprieve , politico (dec. 1, 2020, 2:10 pm est), https://www.politico.com/news/2020/11/30/trump-flynn-pardon-reprieve-441527 ; dan mangan, trump pardons 15, including people convicted in mueller probe , cnbc (dec. 23, 2020, 7:39 am est ), https://www.cnbc.com/2020/12/22/-trump-pardons-15-including-people-convicted-in-mueller-probe-.html .",
+      "label": "body-text",
+      "word_count": 51
+    },
+    {
+      "text": "185 for a range of views, see jack goldsmith, a smorgasbord of views on self-pardoning , lawfare (june 5, 2018, 11:30 am), https://www.lawfaremedia.org/article/smorgasbord-views-self-pardoning . a self-pardon, if valid, could be executed as a president’s last act of office and wipe out all crimes committed in office.",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "186 see peter baker & michael d. shear, biden in final hours pardons relatives and others to thwart trump reprisals , n.y. times (jan. 23, 2025), https://www.nytimes.com/2025/01/20/us/politics/biden-pardons-fauci-milley-cheney-jan-6.html .",
+      "label": "body-text",
+      "word_count": 28
+    },
+    {
+      "text": "187 the president probably cannot issue a pardon preemptively, i.e., before the crime is committed. see garland , 71 u.s. (4 wall.) at 380 (noting that the pardon power “may be exercised at any time after [a crime’s] commission”). this means that the bad-man president would need to convince subordinates before committing the crime that he will pardon them after its commission. the subordinates might lack certainty that the president will follow through, but the bad-man president would have every incentive to make his pledges credible.",
+      "label": "body-text",
+      "word_count": 86
+    },
+    {
+      "text": "188 president jimmy carter pardoned many thousands of vietnam draft dodgers. see pres. proc. no. 4483, 42 fed. reg. 4391 (jan. 21, 1977); exec. order no. 11,967, 42 fed. reg. 4331 (jan. 21, 1977). president lincoln issued several amnesty proclamations during the civil war, the broadest of which was on december 8, 1863, and which pardoned rebels (with certain exceptions) and restored non-slave property upon the swearing of a prescribed oath. see pres. proc. no. 11, 13 stat. 737 (1863). president andrew johnson issued an even broader pardon to rebels in his christmas 1868 pardon. see pres. proc. no. 14, 15 stat. 711 (1868).",
+      "label": "body-text",
+      "word_count": 104
+    },
+    {
+      "text": "190 see bob bauer & jack goldsmith, after trump: reconstructing the presidency 171 (2020). nor would it cover any separate crime committed by the grantee in seeking or accepting the pardon as part of a corrupt bargain. id.",
+      "label": "body-text",
+      "word_count": 38
+    },
+    {
+      "text": "192 for example, the trump administration is setting up possible supreme court rulings on removal in its firing of the for-cause-protected member of the national labor relations board and seventeen inspectors general, in its firings of civil servants in the department of justice, and in the acting solicitor general’s announcement that the government has “determined that certain for-cause removal provisions that apply to members of multi-member regulatory commissions are unconstitutional” and will not be defended. letter from sarah m. harris, acting solic. gen., u.s. dep’t of just., to hon. richard j. durbin, ranking member, comm. on the judiciary (feb. 12, 2025) (on file with author); jonathan stempel & daniel wiessner, former nlrb member sues trump for firing her , reuters (feb. 5, 2025, 2:57 pm est), https://www.reuters.com/legal/former-nlrb-member-sues-trump-administration-over-firing-2025-02-05 ; jack goldsmith, trump fired 17 inspectors general-was it legal? , lawfare (jan. 27, 2025, 9:25 am), https://www.lawfaremedia.org/article/trump-fired-17-inspectors-general-was-it-legal ; perry stein, shayna jacobs, carol d. leonnig & ann e. marimow, several top career officials ousted at justice department , wash. post (mar. 7, 2025), https://www.washingtonpost.com/national-security/2025/03/07/justice-department-trump-firings ; see also letter from sarah m. harris, acting solic. gen., u.s. dep’t of just., to hon. mike johnson, speaker, u.s. house of reps. (feb. 20, 2025) (on file with author) (announcing refusal to defend multiple layers of removal restrictions for administrative law judges (aljs)). the trump administration will also implicate the law enforcement discretion ruling of trump if it follows through on its pledge to assert a constitutional impoundment power. see tony romm & jeff stein, white house eyes fight to expand trump’s power to control spending , wash. post (jan. 30, 2025), https://www.washingtonpost.com/business/2025/01/30/trump-impoundment-spending-control .",
+      "label": "body-text",
+      "word_count": 268
+    },
+    {
+      "text": "193 this section does not make strong assumptions about a bad-man presidency. even a “normal” presidency-one that had internalized the importance of complying with law and norms, and with being perceived to have done so-would read trump to counsel stronger executive branch positions vis-à-vis congress. this point comes with the caveat, see infra p. 46, that republican and democratic executive branch lawyers on average have different views on the scope of the unitary executive and thus may read trump differently on average.",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "194 goldsmith, supra note 15, at 134-36.",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "197 see, e.g. , cass r. sunstein, this theory is behind trump’s power grab , n.y. times (feb. 26, 2025), https://www.nytimes.com/2025/02/26/opinion/trump-roberts-unitary-executive-theory.html ; jack goldsmith, the president’s favorite decision: the influence of trump v. u.s. in trump 2.0 , exec. functions (feb. 10, 2025), https://executivefunctions.substack.com/p/the-presidents-favorite-decision .",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "198 goldsmith, supra note 15, at 136.",
+      "label": "body-text",
+      "word_count": 7
+    },
+    {
+      "text": "199 cong. subpoenas of dep’t of just. investigative files, 8 op. o.l.c. 252, 264 (1984).",
+      "label": "body-text",
+      "word_count": 15
+    },
+    {
+      "text": "200 several past examples will be amplified by trump . see comptroller gen.’s auth. to relieve disbursing & certifying offs. from liab., 15 op. o.l.c. 80, 84 (1991) (arguing that congress’s effort to “authorize the comptroller general to relieve an executive branch official from liability for an improper payment” would deprive the executive branch “of the discretion to decide whether to bring suit to recover the funds from that official”); constitutionality of the qui tam provisions of the false claims act, 13 op. o.l.c. 207, 229 (1989) (concluding that qui tam provisions that “permit a private citizen to sue on behalf of the government, even though the attorney general may have decided for legitimate reasons not to prosecute the claim … removes from the executive branch the prosecutorial discretion that is at the heart of the president’s power to execute the laws”); prosecution for contempt of cong. of an exec. branch off. who has asserted a claim of exec. privilege, 8 op. o.l.c. 101, 114-28 (1984) (invoking article ii law enforcement discretion, in the context of an executive privilege response to a subpoena, to construe to the point of disregarding a statute that makes it a “duty” for a u.s. attorney to bring before a grand jury any failure to comply with a subpoena).",
+      "label": "body-text",
+      "word_count": 214
+    },
+    {
+      "text": "201 on the deferred action for childhood arrivals (daca) policy, see prioritizing & deferring removal of certain aliens unlawfully present in the u.s., 38 op. o.l.c. 39, 39-41 (2014) (withdrawn). on the obama administration’s policy of deprioritizing marijuana enforcement, see, for example, memorandum on guidance regarding marijuana related financial crimes from james m. cole, deputy att’y gen., to u.s. attorneys (feb. 14, 2014) (on file with author); memorandum on guidance regarding marijuana enforcement from james m. cole, deputy att’y gen., to u.s. attorneys (aug. 29, 2013) (on file with author). see also exec. order no. 13,765, 82 fed. reg. 8351 (2017) (directing the executive branch to “waive, defer, grant exemptions from, or delay the implementation of” the affordable care act); use of the heroes act of 2003 to cancel the principal amounts of student loans, 46 op. o.l.c., slip op. at 1-2 (2022) (arguing the president has the authority to not enforce loan repayment for a broad class of borrowers).",
+      "label": "body-text",
+      "word_count": 160
+    },
+    {
+      "text": "202 in a 1969 opinion written by then-assistant attorney general william rehnquist, olc rejected the theory “that the president has a constitutional power to decline to spend appropriated funds.” presidential auth. to impound funds appropriated for assistance to federally impacted schs., 1 op. o.l.c. 303, 309 (1969). but see mark paoletta & daniel shapiro, the president’s constitutional power of impoundment , ctr. for renewing am. (sept. 10, 2024), https://americarenewing.com/the-presidents-constitutional-power-of-impoundment (current trump administration office of management and budget general counsel mark paoletta arguing prior to service in second trump administration that trump justifies broad constitutional impoundment authority).",
+      "label": "body-text",
+      "word_count": 96
+    },
+    {
+      "text": "203 for an early example that has not as of this writing been challenged in court, see exec. order no. 14,166, 90 fed. reg. 8611, 8611-12 (jan. 20, 2025) (delaying enforcement of tiktok ban for seventy-five days). for contrary supreme court case law, see supra notes 85, 99. the solicitor general during the biden administration argued in united states v. texas , 599 u.s. 670 (2023), that no plaintiff has standing to challenge a president’s decision to enforce a law she does not like. see transcript of oral argument at 7, texas , 599 u.s. 670 (no. 22-58). as explained above, supra note 85, the court in texas did not go that far.",
+      "label": "body-text",
+      "word_count": 113
+    },
+    {
+      "text": "204 for supreme court case law, see supra pp. 17-23 and note 106. for justice department views, see constitutionality of the comm’r of soc. sec.’s tenure prot., 45 op. o.l.c., slip op. at 5 (2021); holdover & removal of members of amtrak’s reform bd., 27 op. o.l.c. 163, 166 (2003); common legis. encroachments on exec. branch auth., 13 op. o.l.c. 248, 252-53 (1989).",
+      "label": "body-text",
+      "word_count": 63
+    },
+    {
+      "text": "207 see extending regul. rev. under exec. order 12866 to indep. regul. agencies, 43 op. o.l.c. 232, 232-34 (2019) [hereinafter extending regul. rev. ] (concluding that a president can direct independent agencies to comply with cost-benefit analysis, as prescribed by exec. order no. 12866, 58 fed. reg. 51735 (sept. 30, 1993)).",
+      "label": "body-text",
+      "word_count": 51
+    },
+    {
+      "text": "210 the administration has staked a claim against double for-cause removals of aljs, see supra note 192, and has asserted dominion over “the issuance of regulations, guidance, and positions advanced in litigation,” see exec. order no. 14,215, 90 fed. reg. 10447, 10449 (feb. 18, 2025), but has not yet claimed direct presidential supervisory authority over all executive branch adjudications. for an argument that on “the maximalist logic” of the unitary executive view, “the president may either decide to exercise [adjudicative] power himself, or to command the adjudicator to rule one way or another by applying the relevant law as the president thinks warranted under that law,” see vermeule, supra note 108.",
+      "label": "body-text",
+      "word_count": 111
+    },
+    {
+      "text": "211 extending regul. review , 43 op. o.l.c. at 242; see also constitutionality of the comm’r of soc. sec.’s tenure prot., 45 op. o.l.c., slip op. at 5 (2021); centralizing border control pol’y under the supervision of the att’y gen., 26 op. o.l.c. 22, 23 (2002).",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "213 on reporting requirements, see, for example, constitutionality of the direct reporting requirement in section 802(e)(1) of the implementing recommendations of the 9/11 comm’n act of 2007, 32 op. o.l.c. 27, 27-28 (2008); constitutionality of the olc reporting act of 2008, 32 op. o.l.c. 14, 14-17 (2008); and auth. of agency offs. to prohibit emps. from providing info. to cong., 28 op. o.l.c. 79, 80-82 (2004). on disclosure requirements, see, for example, statute limiting the president’s auth. to supervise the dir. of the ctrs. for disease control in the distrib. of an aids pamphlet, 12 op. o.l.c. 47, 56-58 (1988).",
+      "label": "body-text",
+      "word_count": 100
+    },
+    {
+      "text": "214 attempted exclusion of agency couns. from cong. depositions of agency emps., 43 op. o.l.c. 131, 132 (2019); auth. of dep’t of hous. & urban dev. to initiate enf’t actions under the fair hous. act against other exec. branch agencies, 18 op. o.l.c. 101, 105-08 (1994).",
+      "label": "body-text",
+      "word_count": 46
+    },
+    {
+      "text": "215 see, e.g. , testimonial immunity before cong. of the assistant to the president & senior couns. to the president, 43 op. o.l.c. 186, 186 (2019); immunity of the assistant to the president & dir. of the off. of pol. strategy & outreach from cong. subpoena, 38 op. o.l.c. 1, 1-4 (2014); assertion of exec. privilege concerning the dismissal & replacement of u.s. att’ys, 31 op. o.l.c. 1, 1-2 (2007); assertion of exec. privilege with respect to prosecutorial documents, 25 op. o.l.c. 1, 1 (2001); assertion of exec. privilege with respect to clemency decision, 23 op. o.l.c. 1, 1-4 (1999); assertion of exec. privilege for memorandum to the president concerning efforts to combat drug trafficking, 20 op. o.l.c. 8, 8-9 (1996); assertion of exec. privilege in response to cong. demands for l. enf’t files, 6 op. o.l.c. 31, 31-32 (1982).",
+      "label": "body-text",
+      "word_count": 140
+    },
+    {
+      "text": "216 for olc’s approach to balancing congressional and presidential interests in the context of executive privilege, see, for example, assertion of exec. privilege in response to a cong. subpoena, 5 op. o.l.c. 27, 31 (1981) (“in cases in which the congress has a legitimate need for information that will help it legislate and the executive branch has a legitimate, constitutionally recognized need to keep information confidential, the courts have referred to the obligation of each branch to accommodate the legitimate needs of the other.”); and response to cong. requests for info. regarding decisions made under the indep. couns. act, 10 op. o.l.c. 68, 68 (1986) (“an assertion of executive privilege must be based upon an evaluation of the executive branch’s interest in keeping the requested information confidential, the strength of congress’ need for the information, and whether those needs can be accommodated in some other way.”).",
+      "label": "body-text",
+      "word_count": 146
+    },
+    {
+      "text": "217 cong. subpoenas of dep’t of just. investigative files, 8 op. o.l.c. 252, 267 (1984) (“an additional limitation on the assertion of executive privilege is that the privilege should not be invoked to conceal evidence of wrongdoing or criminality on the part of executive officers.”).",
+      "label": "body-text",
+      "word_count": 45
+    },
+    {
+      "text": "218 for examples of this balanced judgment in the context of executive branch law enforcement, see, for example, assertion of exec. privilege over audio recordings of the special couns.’s interviews of the president & his ghostwriter, 48 op. o.l.c., slip op. at 1, 5, 11 (2024); cong. requests for info. from inspectors gen. concerning open crim. investigations, 13 op. o.l.c. 77, 83 & n.9 (1989); and confidentiality of the att’y gen.’s commc’ns in counseling the president, 6 op. o.l.c. 481, 500 (1982).",
+      "label": "body-text",
+      "word_count": 82
+    },
+    {
+      "text": "220 on the court’s short time frame, see supra note 41.",
+      "label": "body-text",
+      "word_count": 11
+    },
+    {
+      "text": "221 it was also generally believed, until relatively recently, that, as jackson taught, a presidential claim of exclusive power in category three faced a “severe” test. youngstown sheet & tube co. v. sawyer, 343 u.s. 579, 640 (1952) (jackson, j., concurring). but in light of zivotofsky v. kerry , 576 u.s. 1 (2015), which recognized a broad and exclusive presidential recognition power without any presumption against exclusivity, see goldsmith, supra note 15, at 125-26, and now trump , which did the same for presidential removal and enforcement discretion, the idea of a “severe test” in category three can no longer be taken seriously.",
+      "label": "body-text",
+      "word_count": 103
+    },
+    {
+      "text": "permissions request permissions",
+      "label": "body-text",
+      "word_count": 3
+    },
+    {
+      "text": "© 2025 the university of chicago. all rights reserved.",
+      "label": "body-text",
+      "word_count": 9
+    },
+    {
+      "text": "crossref reports no articles citing this article.",
+      "label": "body-text",
+      "word_count": 7
+    }
+  ]
+}

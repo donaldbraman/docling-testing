@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems</title>
+<!--Generated on Thu Oct 16 09:59:35 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.14515v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Experimental Results</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.SS1" title="In 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.1 </span>Impulse Test</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.SS2" title="In 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.2 </span>Resonate-and-Fire RTD Neuron</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.SS3" title="In 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.3 </span>Multi-Wavelength Resonate-and-Fire Operation</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Neuromorphic photonic processing with R&amp;F RTD neurons</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.SS1" title="In 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1 </span>Chirp Test</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.SS2" title="In 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.2 </span>Temporal Detection Test</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.SS3" title="In 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.3 </span>Digital-to-Spike Encoding of Wavelength-Multiplexed Signals</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S4" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Discussion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S5" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>Experimental Methods</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S7" title="In Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">7 </span>Acknowledgements</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line ltx_fleqn">
+<div class="ltx_para" id="p1">
+<p class="ltx_p">[1]<span class="ltx_ERROR undefined">\fnm</span>Andrew <span class="ltx_ERROR undefined">\sur</span>Adair
+
+
+
+
+
+
+
+
+
+1]<span class="ltx_ERROR undefined">\orgdiv</span>Institute of Photonics, SUPA Dept. of Physics, University of Strathclyde, Glasgow, United Kingdom
+2]<span class="ltx_ERROR undefined">\orgdiv</span>LIP and Departamento de Física de Faculdade de Ciências de Universidade de Lisboa, Lisbon, Portugal
+3]<span class="ltx_ERROR undefined">\orgdiv</span>High Frequency Electronics Group, University of Glasgow, Kelvin Building, Glasgow, United Kingdom
+4]<span class="ltx_ERROR undefined">\orgdiv</span>International Iberian Nanotechnology Lab., Braga, Portugal
+5]<span class="ltx_ERROR undefined">\orgdiv</span>Large-Scale Integrated Photonics Lab, Hewlett Packard Enterprise Labs, Diegem, Belgium
+</p>
+</div>
+<h1 class="ltx_title ltx_title_document">Resonate-and-Fire Photonic-Electronic Spiking Neurons
+for Fast and Efficient Light-Enabled Neuromorphic Processing Systems</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">
+</span><span class="ltx_author_notes">
+<span class="ltx_contact ltx_role_email"><a href="mailto:andrew.adair@strath.ac.uk">andrew.adair@strath.ac.uk</a>
+</span></span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Dafydd <span class="ltx_ERROR undefined">\sur</span>Owen-Newns
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Giovanni <span class="ltx_ERROR undefined">\sur</span>Donati
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Joshua <span class="ltx_ERROR undefined">\sur</span>Robertson
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>José <span class="ltx_ERROR undefined">\sur</span>Figueiredo
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Eduard <span class="ltx_ERROR undefined">\sur</span>Wasige
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Qusay <span class="ltx_ERROR undefined">\sur</span>Al-Taai
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Bruno <span class="ltx_ERROR undefined">\sur</span>Romeira
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Matěj <span class="ltx_ERROR undefined">\sur</span>Hejda
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><span class="ltx_ERROR undefined">\fnm</span>Antonio <span class="ltx_ERROR undefined">\sur</span>Hurtado
+</span><span class="ltx_author_notes">
+<span class="ltx_contact ltx_role_affiliation">[
+</span>
+<span class="ltx_contact ltx_role_affiliation">[
+</span>
+<span class="ltx_contact ltx_role_affiliation">[
+</span>
+<span class="ltx_contact ltx_role_affiliation">[
+</span>
+<span class="ltx_contact ltx_role_affiliation">[
+</span></span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">Neuromorphic computing seeks to replicate the spiking dynamics of biological neurons
+for brain-inspired computation.
+While electronic implementations of artificial spiking neurons have dominated to date,
+photonic approaches are attracting increasing research interest
+as they promise ultrafast, energy-efficient operation with low-crosstalk and high bandwidth.
+Nevertheless, existing photonic neurons largely mimic integrate-and-fire models,
+but neuroscience shows that neurons also encode information through richer mechanisms,
+such as the frequency and temporal patterns of spikes.
+Here, we present a photonic–electronic resonate-and-fire (R&amp;F) spiking neuron
+that responds to the temporal structure of high-speed optical inputs.
+This is based on a light-sensitive resonant tunnelling diode that produces excitable spikes
+in response to nanosecond, low-power (<math alttext="&lt;100" class="ltx_Math" display="inline" id="m1" intent=":literal"><semantics><mrow><mi></mi><mo>&lt;</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">&lt;100</annotation></semantics></math> µW) optical signals
+at infrared telecom wavelengths.
+We experimentally demonstrate control of R&amp;F dynamics
+through inter-pulse timing of the optical stimuli and applied bias voltage,
+achieving bandpass filtering of both analogue and digital inputs.
+The R&amp;F neuron also supports optical fan-in via wavelength-division multiplexed inputs
+from four vertical-cavity surface-emitting lasers (VCSELs).
+This electronic–photonic neuron exhibits key functionalities — including spike-frequency filtering, temporal pattern recognition, and digital-to-spiking conversion
+— critical for neuromorphic optical processing.
+Our approach establishes a pathway toward low-power, high-speed temporal information processing
+for light-enabled neuromorphic computing.
+</p>
+</div>
+<div class="ltx_classification">
+<h6 class="ltx_title ltx_title_classification">keywords: </h6>Neuromorphic Photonics, Resonant Tunnelling Diode, Spiking Neurons, Resonate-and-Fire
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p">As the popularity of artificial intelligence (AI) continues to grow exponentially,
+so does the demand for efficient and fast (state-of-the-art) computing hardware.
+Novel neuromorphic (brain-inspired) processing systems,
+drawing direct inspiration from the computational capabilities of the brain
+and biological networks of neurons are attracting increasing research interest.
+Traditionally, neuromorphic computing research has mainly focused in electronic technology implementations, with developments such as the Loihi and SpiNNaker platforms
+by Intel and the University of Manchester, among others
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib1" title="">1</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib2" title="">2</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib3" title="">3</a>]</cite>.
+Nevertheless, photonic approaches for neuromorphic systems are receiving growing interest,
+given their potential to improve processing capability and efficiency
+by leveraging the low operating powers and inherent high-speed and bandwidths of light-based technologies.
+In recent years, approaches based on different photonic platforms,
+such as semiconductor lasers <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib4" title="">4</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib5" title="">5</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib6" title="">6</a>]</cite>,
+micro-ring resonators (MRRs) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib7" title="">7</a>]</cite>,
+and semiconductor optical amplifiers (SOAs)
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib8" title="">8</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib9" title="">9</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib10" title="">10</a>]</cite>,
+to name but a few, have been proposed for implementation of artificial optical neuronal models and neural networks.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p">Another platform that has also recently shown great promise
+in realising light-enabled neuronal functionalities for neuromorphic photonic processing systems
+is the resonant tunnelling diode (RTD) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib11" title="">11</a>]</cite>.
+An RTD is a mesoscopic semiconductor device that features a double-barrier quantum well (DBQW)
+(as seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>a) in its structure.
+This configuration enables quantum tunnelling effects
+that lead to a highly nonlinear current-voltage (I-V) relationship,
+defining a region of negative differential resistance (NDR),
+around which neuronal-like nonlinear dynamical regimes and excitability can be achieved <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib12" title="">12</a>]</cite>.
+Moreover, the quantum tunnelling effects at the core of the operation of RTDs as artificial neuronal models, are produced at extremely high bandwidths
+(e.g. these have been used for THz signal generation)
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib13" title="">13</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib14" title="">14</a>]</cite>;
+thus, offering promise for ultrafast and energy-efficient operation.
+Furthermore, RTDs can be made optically sensitive by adding photo-absorption layers in their epi-layer stack structure
+to allow for operation under direct injection of optical signals <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib15" title="">15</a>]</cite>.
+As a result, recent works have reported experimentally and in theory
+on the neuronal excitability properties of RTDs under electronic and photonic excitation
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib16" title="">16</a>]</cite>,
+including all-or-nothing spike firing regimes, thresholding and refractoriness
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib17" title="">17</a>]</cite>.
+Moreover, RTDs have also recently demonstrated spike rate coding <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib18" title="">18</a>]</cite>
+and flip-flop memory capabilities <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib19" title="">19</a>]</cite>;
+therefore strengthening their position as exciting candidates
+for artificial photonic-electronic spiking neurons
+towards use in future neuromorphic photonic computing systems.
+Additionally, integrate-and-fire spiking regimes have been described theoretically
+and more recently also experimentally in RTD neurons,
+demonstrating the feasibility of RTDs
+as photonic-electronic Leaky-Integrate-and-Fire (LIF) neuronal models
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib20" title="">20</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib21" title="">21</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p">However, there exists another important class of biological neurons, termed resonator neurons,
+whose behaviour cannot be described by the integrator model <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib22" title="">22</a>]</cite>.
+This resonate-and-fire (R&amp;F) computational neuronal model <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib23" title="">23</a>]</cite>
+has gained traction due to its mathematical simplicity and biological plausibility
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib24" title="">24</a>]</cite>.
+Resonator-type biological neurons are suspected to play important roles in brain function
+for timing in motor coordination, as well as specifying neural connectivity during development
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib25" title="">25</a>]</cite>.
+Yet, apart from isolated reports
+(for a review on the implementation of R&amp;F in CMOS, see <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib26" title="">26</a>]</cite>,
+and for a resonator spiking neuron model simulated with a silicon microring
+using a modulator and photodiode scheme, see <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib27" title="">27</a>]</cite>),
+their implementation and realisation with photonic hardware remains under-researched.</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p">The R&amp;F effect behind resonator spiking neurons can be best explained
+by considering the neuron’s behaviour (change in state variable)
+following a sub-threshold input perturbation <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib22" title="">22</a>]</cite>.
+During relaxation from an impulse,
+the neuron’s voltage oscillates around its rest voltage before converging.
+Hence, after an impulse,
+the threshold required to trigger spike firing in the system changes with time.
+If a pair of sub-threshold input stimuli
+(each without sufficient intensity to elicit a spike on their own) arrives at the neuron,
+then the response is dependent on the precise timing of the secondary stimulus
+relative to the phase of the relaxation oscillation induced by the primary stimulus.
+This sensitivity of the neuron to the temporal separation of incoming sub-threshold stimuli doublets
+gives rise to bandpass filtering capabilities
+(as seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>b),
+resulting in spike firing events in the system achieved
+when the inter-(sub-threshold-)stimulus time matches the resonance period of the neuron.
+Additionally, inhibition of a supra-threshold stimulus can also occur
+when an input (that would otherwise trigger a spike) enters the system
+at a time when the neuron’s voltage is in a ‘trough’ of a relaxation oscillation
+triggered by a previous sub-threshold input, such that no spike is fired.
+Interestingly, another characteristic of R&amp;F neurons
+is that a train of input pulses with reverse-polarity
+(that is, shifting the system away from its spike firing threshold)
+arriving synchronous with the neuron resonance frequency
+will cause the oscillation amplitude in the system to build until spiking threshold is reached
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib23" title="">23</a>]</cite>.
+These neural functionalities of spike-firing under sub-threshold in-resonance inputs,
+excitability from reverse-polarity stimuli, and inhibition of supra-threshold pulses
+achieved in the R&amp;F neuronal system are not observed in the LIF model.
+This uncovers additional computational capabilities for processing data in the frequency domain,
+as well as allowing new methods to encode data for neuromorphic event-based computing tasks.
+As a result, neuromorphic spiking neural network models based upon R&amp;F neurons
+have been demonstrated as enabling various practical applications, including
+visual odometry for tracking location and rotation <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib28" title="">28</a>]</cite>,
+in machine vision for visual scene understanding <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib29" title="">29</a>]</cite>,
+and in associative memory models for image retrieval <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib30" title="">30</a>]</cite>.</p>
+</div>
+<figure class="ltx_figure" id="S1.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="506" id="S1.F1.g1" src="x1.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+a) Optically-sensitive RTD neuron
+displaying excitable spike firing in response to input light stimuli.
+b) Schematic diagram of a biological neuron
+exhibiting resonate-and-fire spiking responses.
+c) SEM image of the light-sensitive RTD of this work.
+d) Experimentally-measured I-V curve of the RTD neuron
+when operated in dark conditions (<math alttext="0" class="ltx_Math" display="inline" id="S1.F1.m4" intent=":literal"><mn>0</mn></math> mW)
+and under infrared illumination of CW light at <math alttext="1550" class="ltx_Math" display="inline" id="S1.F1.m5" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math> nm with optical power of <math alttext="0.9" class="ltx_Math" display="inline" id="S1.F1.m6" intent=":literal"><semantics><mn>0.9</mn><annotation encoding="application/x-tex">0.9</annotation></semantics></math> mW.
+The NDR region of the RTD is shaded in green and the black dashed line marks a typical biasing point in the valley region.
+</figcaption>
+</figure>
+<div class="ltx_para" id="S1.p5">
+<p class="ltx_p">In this work, we demonstrate experimentally, for the first time,
+a photonic-electronic R&amp;F spiking neuron.
+Our approach is based on a photo-detecting RTD device
+capable of firing excitable electrical spikes
+in response to fast and low-power optical input signals.
+Furthermore, our approach is verified theoretically using an analytical simulation model,
+yielding excellent agreement with the experimental findings (see supporting information).
+We show the successful achievement of resonate-and-fire effects in RTD neurons
+when subjected to externally injected optical signals with encoded temporal stimuli.
+We characterise the system’s performance
+under single and multiple (wavelength-multiplexed) optical inputs,
+demonstrating resonating spike firing at nanosecond (ns) rates under light-excitation
+in the standard telecom infrared C-band range (<math alttext="1550" class="ltx_Math" display="inline" id="S1.p5.m1" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math> nm spectral window).
+Furthermore, we utilize the light-sensitive photonic-electronic R&amp;F RTD neuron of this work
+to realize multiple photon-enabled neuromorphic processing tasks at ns-rates,
+including the chirp test and a temporal pulse separation identification task.
+Moreover, we also demonstrate a digital-to-spike encoding task,
+where a resonate-and-fire light-sensitive neuron
+is combined with time- and wavelength-multiplexing techniques.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Experimental Results</h2>
+<div class="ltx_para" id="S2.p1">
+<p class="ltx_p">The experiments in this work use a photo-detecting RTD
+with a <math alttext="500" class="ltx_Math" display="inline" id="S2.p1.m1" intent=":literal"><semantics><mn>500</mn><annotation encoding="application/x-tex">500</annotation></semantics></math> nm diameter top contact nanopillar which incorporates a light absorptive layer
+with a <math alttext="9" class="ltx_Math" display="inline" id="S2.p1.m2" intent=":literal"><semantics><mn>9</mn><annotation encoding="application/x-tex">9</annotation></semantics></math> µm diameter optical window in its structure
+(as seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>a).
+This absorptive layer, located next to the DBQW,
+is a <math alttext="250" class="ltx_Math" display="inline" id="S2.p1.m3" intent=":literal"><semantics><mn>250</mn><annotation encoding="application/x-tex">250</annotation></semantics></math> nm thick spacer layer (InGaAs)
+where most of the electro-hole pair generation occurs.
+The DBQW structure is a <math alttext="5.7" class="ltx_Math" display="inline" id="S2.p1.m4" intent=":literal"><semantics><mn>5.7</mn><annotation encoding="application/x-tex">5.7</annotation></semantics></math> nm thick quantum well (In<sub class="ltx_sub"><span class="ltx_text ltx_font_italic">0.53</span></sub>Ga<sub class="ltx_sub"><span class="ltx_text ltx_font_italic">0.47</span></sub>As),
+sandwiched between two <math alttext="1.7" class="ltx_Math" display="inline" id="S2.p1.m7" intent=":literal"><semantics><mn>1.7</mn><annotation encoding="application/x-tex">1.7</annotation></semantics></math> nm barriers (AlAs).
+Full details on the RTD and its epi-layer structure can be found in <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib16" title="">16</a>]</cite>.
+Given the (In,Ga)As-based semiconductor material composition,
+the RTD is permitted to operate at infrared wavelength ranges,
+including the key telecom wavelengths of <math alttext="1310" class="ltx_Math" display="inline" id="S2.p1.m8" intent=":literal"><semantics><mn>1310</mn><annotation encoding="application/x-tex">1310</annotation></semantics></math> and <math alttext="1550" class="ltx_Math" display="inline" id="S2.p1.m9" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math> nm <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib17" title="">17</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S2.p2">
+<p class="ltx_p">Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>c
+shows a scanning electron microscope (SEM) image of the device used in this work.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>d plots the experimentally measured I-V curves of the RTD
+under dark conditions (blue trace)
+and under illumination of a <math alttext="0.9" class="ltx_Math" display="inline" id="S2.p2.m1" intent=":literal"><semantics><mn>0.9</mn><annotation encoding="application/x-tex">0.9</annotation></semantics></math> mW continuous wave (CW) optical signal
+at the infrared wavelength of <math alttext="1550" class="ltx_Math" display="inline" id="S2.p2.m2" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math> nm (yellow trace).
+These I-V curves shows the existence of a NDR region,
+within which there is a self-oscillatory region
+ranging from <math alttext="V_{RTD}=0.610" class="ltx_Math" display="inline" id="S2.p2.m3" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.610</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.610</annotation></semantics></math> V to <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S2.p2.m4" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V,
+between the boundaries of the so-called ”peak” and ”valley” biasing regions.
+Around the self-oscillatory region,
+the system can exhibit deterministic excitable spike firing regimes
+when externally perturbed <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib17" title="">17</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib31" title="">31</a>]</cite>,
+outlining the prospects of RTDs for use as artificial photonic-electronic spiking neurons <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib20" title="">20</a>]</cite>.</p>
+</div>
+<section class="ltx_subsection" id="S2.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.1 </span>Impulse Test</h3>
+<figure class="ltx_figure" id="S2.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="307" id="S2.F2.g1" src="x2.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>
+Impulse response test of the light-sensitive RTD.
+Sub-threshold optical stimuli are injected into the RTD
+biased either at (a) <math alttext="V_{RTD}=0.697" class="ltx_Math" display="inline" id="S2.F2.m6" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.697</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.697</annotation></semantics></math> V or (b) <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.F2.m7" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V in its valley biasing region.
+Top plots (red time traces) show the optical input signals injected in the RTD,
+with 5-ns (sub-threshold) square pulses encoded in the optical input
+(average optical input power of <math alttext="33.0" class="ltx_Math" display="inline" id="S2.F2.m8" intent=":literal"><semantics><mn>33.0</mn><annotation encoding="application/x-tex">33.0</annotation></semantics></math> µW).
+Bottom plots (blue time traces) show the electrical RTD response
+when biased at <math alttext="V_{RTD}=0.697" class="ltx_Math" display="inline" id="S2.F2.m9" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.697</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.697</annotation></semantics></math> V (left) and <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.F2.m10" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V (right),
+revealing the occurrence of underdamped or overdamped oscillations depending on the biasing case.
+(c) Zoomed in I-V curve of the RTD,
+marking the two bias voltage points applied to the device for the results in (a) and (b).
+</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS1.p1">
+<p class="ltx_p">To investigate the resonate-and-fire operation of the light-sensitive RTD neuron of this work,
+it is first necessary to perform an impulse test in the system
+(see Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>-<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>).
+The impulse tests permit to analyse the RTD’s temporal output
+when subject to distinct sub-threshold (optical) input perturbations
+and when biased at different voltage points,
+in order to determine the conditions under which resonate-and-fire responses may occur.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a> shows that the resonance of the RTD circuit can be measured
+by injecting a sub-threshold optical input pulse
+(with insufficient amplitude to trigger a spike firing event in the RTD)
+and observing the voltage decay to the rest state.
+For the test in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>, a signal comprised of 5 ns-long square pulses,
+generated by the arbitrary waveform generator (AWG) in the setup in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>a,
+is encoded onto the light from the tuneable laser using the Mach-Zehnder Modulator (MZM).
+The resulting optical input signal with the encoded sub-threshold optical input pulses
+(see red time-traces in the top panel in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>)
+was injected into the RTD, which was biased in the valley region of its I-V curve
+with two different DC voltages, namely <math alttext="V_{RTD}=0.697" class="ltx_Math" display="inline" id="S2.SS1.p1.m1" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.697</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.697</annotation></semantics></math> V and <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.SS1.p1.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V,
+as indicated by black markers in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>c.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>a shows that when biased at <math alttext="V_{RTD}=0.697" class="ltx_Math" display="inline" id="S2.SS1.p1.m3" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.697</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.697</annotation></semantics></math> V,
+the RTD is in the underdamped regime,
+and after the arrival of a sub-threshold optical input pulse, exhibits an oscillatory decay to rest. Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>a shows that the resonance period at <math alttext="V_{RTD}=0.697" class="ltx_Math" display="inline" id="S2.SS1.p1.m4" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.697</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.697</annotation></semantics></math> V bias
+was determined to be 48 ns (peak-to-peak of decay oscillation).
+On the contrary, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>b
+shows that when the RTD is biased at <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.SS1.p1.m5" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V,
+it is said to be in the overdamped regime,
+and after the arrival of the sub-threshold optical input pulse, the decay to rest is exponential.
+The damped oscillatory response highlighted in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>
+underpins the resonate-and-fire functionality in the RTD neuron,
+where spike firing occurs provided that sub-threshold optical inputs
+arrive at specific temporal instants coinciding with the resonance period of the RTD <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib32" title="">32</a>]</cite>.</p>
+</div>
+<figure class="ltx_figure" id="S2.F3"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="444" id="S2.F3.g1" src="x3.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>
+Characterisation of the RTD response to injected optical stimuli
+(average optical input power of <math alttext="45.0" class="ltx_Math" display="inline" id="S2.F3.m3" intent=":literal"><semantics><mn>45.0</mn><annotation encoding="application/x-tex">45.0</annotation></semantics></math> µW).
+when reverse biased at the valley operation point.
+a) RTD is biased in the underdamped regime (<math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S2.F3.m4" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V)
+for changing input pulse amplitude.
+b) RTD is injected with input pulses of equal amplitude for changing RTD bias voltage.
+</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS1.p2">
+<p class="ltx_p">Detailed impulse tests, shown in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>,
+were also performed experimentally on the light-sensitive RTD neuron
+to investigate its reaction to changes
+in both the amplitude of the sub-threshold optical input pulses (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>a)
+and in the applied bias voltage (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>b).
+First, 10 ns sub-threshold optical input pulses of varying amplitude
+(see top panel in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>a) were injected into the RTD
+at a fixed bias voltage <math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S2.SS1.p2.m1" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V
+The response of the system was found to be approximately linear
+where the amplitude of the transient response in the measured output voltage at the RTD
+follows the intensity of the optical input pulses.
+The resonance period of the RTD circuit is found to slightly increase
+(from approx. 55 to 58 ns) as the amplitude of the optical input pulses increases.
+Second, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>b shows the impulse response of the RTD
+when subject to the injection of 10 ns-long sub-threshold optical pulses of equal amplitude
+(top panel in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>b)
+into the RTD while the bias voltage is swept from <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S2.SS1.p2.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V to <math alttext="V_{RTD}=0.708" class="ltx_Math" display="inline" id="S2.SS1.p2.m3" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.708</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.708</annotation></semantics></math> V,
+in the so-called valley biasing region.
+The resonance period of the RTD was found to increase with bias voltage (from approx. 52 to 57.5 ns) for the values investigated in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>b;
+hence, indicating a tuneable resonance frequency in the system.
+Conversely, the RTD response was found to become more damped with higher bias conditions,
+showing decreased oscillation amplitudes.
+Numerical simulations of the impulse response and R&amp;F spiking regimes in RTD neurons
+have also been performed and are included in the supplementary information accompanying this work
+(see Fig.S2).
+The simulations are in good agreement with the results
+observed in the experimental impulse response analysis of the RTD neuron.
+Furthermore, these numerical findings also highlight the potentials of RTD neurons
+for ultrafast operation at sub-ns rates (see Fig.S5).</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S2.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.2 </span>Resonate-and-Fire RTD Neuron</h3>
+<div class="ltx_para" id="S2.SS2.p1">
+<p class="ltx_p">The impulse test results in Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>-<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F3" title="Figure 3 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">3</span></a>
+determined that the RTD neuron, when biased in its valley region,
+can indeed undergo resonant responses when stimulated;
+thus, paving the way to demonstrate, for the first time to our knowledge,
+of its operation as a high-speed, efficient, resonate-and-fire photonic-electronic neuron
+for use in neuromorphic computing and sensing functionalities.
+Indeed, the resonate-and-fire effect in the light-sensitive RTD neuron
+is demonstrated experimentally in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>,
+by observing the interaction of doublet (optical) input stimuli
+and the response provoked at the system’s output.
+To achieve this, pairs of sub-threshold 10 ns-long optical pulses are generated by the AWG
+and encoded onto the intensity of the external tuneable laser.
+These are injected (with average optical power of <math alttext="50.0" class="ltx_Math" display="inline" id="S2.SS2.p1.m1" intent=":literal"><semantics><mn>50.0</mn><annotation encoding="application/x-tex">50.0</annotation></semantics></math> µW)
+into the RTD (biased at <math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S2.SS2.p1.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V).
+The temporal separation between the (optical) pulses in the doublet
+is controlled and varied around the value of the inherent resonance of the RTD neuron.
+Here, the temporal separation of the doublet
+is defined as the time between the rising edges of the first and second pulse.
+When the temporal separation between the individual pulses in the doublet
+is less (32 ns, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>a) or greater (68 ns, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>c)
+than the resonance period (approx. 48 ns for the RTD circuit of this work,
+see Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F2" title="Figure 2 ‣ 2.1 Impulse Test ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">2</span></a>a),
+the RTD’s response to the second optical input pulse is decreased
+(as seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>).
+This inhibitory effect occurs since this second optical pulse is incident
+when the RTD is in the antinode (local minima) of the decay oscillation.
+On the other hand, when the separation of the two sub-threshold optical input pulses
+is within the resonance period (48 ns, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>b),
+the second pulse combines with the decay oscillation (local maxima) arising from the first input pulse.
+This permits the system to cross its activation threshold
+by transiting into its self-oscillatory region, triggering therefore an excitable excursion in current-voltage phase space,
+corresponding to firing an electrical spike event as a result of reading voltage with time.
+In this way, the R&amp;F RTD neuron
+acts like a bandpass filter to incoming (optical) stimuli,
+where spikes are only fired when the frequency of the input (optical) stimuli
+matches the resonance frequency of the RTD neuron.
+</p>
+</div>
+<div class="ltx_para" id="S2.SS2.p2">
+<p class="ltx_p">The experimental results in Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>-<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>
+are in excellent agreement with the numerical simulations of the system
+reported in the Supporting Information document (see Fig. S3).
+The theoretical analyses, therefore, validate the system’s operation as an R&amp;F spiking neuron
+exhibiting characteristic frequency-based filtering of input stimuli.
+Furthermore, our simulations also highlight the potentials of system operation
+at even faster timescales (reaching multi-GHz regimes)
+by tuning the RTD’s capacitance and inductance values
+(as seen in Fig. S6 in the Supporting Information document).
+These numerical analyses thus highlight the potentials for light-sensitive RTD neurons
+with future circuit device optimisations (e.g. reduced device footprint, circuit parasitics control)
+to act as ultrafast photonic-electronic R&amp;F neurons
+able to filter optical input stimuli at high-speed information rates.</p>
+</div>
+<figure class="ltx_figure" id="S2.F4"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="414" id="S2.F4.g1" src="x4.png" width="747"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>
+Demonstration of the resonate-and-fire effect
+where the RTD responds to optical stimuli in the form of doublets
+with different temporal separations when biased in the underdamped regime
+(<math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S2.F4.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V).
+</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS2.p3">
+<p class="ltx_p">Upon demonstrating the operation of the RTD as a photonic-electronic R&amp;F neuron,
+we investigate now the range in which this effect is obtained for different applied bias voltages
+(in its valley biasing region), and highlight its temporal tuneability,
+simply acting on an accessible system parameter (voltage bias).
+To do this, in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>,
+we measure the RTD’s response to trains of optical input sub-threshold pulse pairs,
+when the device is biased at different voltages.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a> shows that when a train of optical input doublets of equal amplitude
+and increasing temporal separation is injected into the RTD,
+the latter will spike only within a determined range of values for pulse pair temporal separation, where the separation coincides with the RTD’s damped oscillations frequency range.
+Then, a spike firing probability can be assigned to each temporal separation between pulses,
+as seen in the temporal maps included
+in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>b and Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>c.
+The centre of the measured resonance window (highlighted in yellow colours in the maps)
+corresponds to the maxima of the relaxation oscillation in the RTD,
+and where the achievement of resonate-and-fire response is most probable.
+The resonance window of the RTD neuron increases with optical input power
+since larger pulses can reach the system’s activation threshold
+at lower points on the relaxation oscillation.</p>
+</div>
+<figure class="ltx_figure" id="S2.F5"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="323" id="S2.F5.g1" src="x5.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>
+Characterisation of the resonate-and-fire effect
+where the RTD responds to optical stimuli in the form of doublets
+with different temporal separations for increasing RTD bias and injection power.
+a) Comparison of the wide and narrow filter for the same bias voltage (<math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S2.F5.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V)
+for a tunable bandpass filter width.
+Map of how resonance changes with bias displaying the
+(b) the widest filter (highest power) and (c) the narrowest filter (lowest usable power).
+</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS2.p4">
+<p class="ltx_p">To fully characterise the resonance window of the photonic-electronic RTD neuron at each voltage bias,
+two tests were performed to determine the ‘widest’ and ‘narrowest’ resonance windows.
+First, the so-called ‘widest’ resonance range is measured,
+corresponding to the highest optical injection power set for the optical input pulse trains
+for which the most spikes are triggered from the secondary pulse
+without triggering a spike from the first pulse.
+Next, the so-called ‘narrowest’ resonance window is measured,
+corresponding to the lowest injection power
+for which the least number of consistent spikes are triggered from the secondary pulse.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>a shows the outcome of these two tests
+when the device is biased at the lowest configured voltage of <math alttext="V_{RTD}=0.69" class="ltx_Math" display="inline" id="S2.SS2.p4.m1" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.69</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.69</annotation></semantics></math> V.
+The top plot in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>a shows the impulse response of the system,
+whilst the bottom plot shows the obtained ‘widest’ (blue) and ‘narrowest’ (orange) resonant windows
+measured when an average optical input power of <math alttext="9" class="ltx_Math" display="inline" id="S2.SS2.p4.m2" intent=":literal"><semantics><mn>9</mn><annotation encoding="application/x-tex">9</annotation></semantics></math> and <math alttext="12.75" class="ltx_Math" display="inline" id="S2.SS2.p4.m3" intent=":literal"><semantics><mn>12.75</mn><annotation encoding="application/x-tex">12.75</annotation></semantics></math> µW
+was set respectively for the optical input pulse train.
+The latter was formed by optical pulse pairs with temporal separation
+growing from <math alttext="25" class="ltx_Math" display="inline" id="S2.SS2.p4.m4" intent=":literal"><semantics><mn>25</mn><annotation encoding="application/x-tex">25</annotation></semantics></math> to <math alttext="65" class="ltx_Math" display="inline" id="S2.SS2.p4.m5" intent=":literal"><semantics><mn>65</mn><annotation encoding="application/x-tex">65</annotation></semantics></math> ns
+(red shaded region in the top plot in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>a)
+around the resonant frequency of the RTD neuron.
+Both the widest and narrowest resonant windows are centred around 46 ns,
+coinciding approximately with the maxima of the resonant oscillation of the system (red arrow).
+For this specific biasing case,
+the approximate ranges for the ‘widest’ and ‘narrowest’ resonant regions
+span from 23 ns to about 11 ns (measured at 0.5 spike firing probability).
+In perfect conditions, the narrowest possible resonance window
+would correspond to the width of the pulse (10 ns in our case),
+with minor differences arising from noise in the system and limitations in the experimental setup.
+The green line and green arrow in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>a indicate a case
+for which the temporal separation between pulse doublets is below the resonance period of the system.
+In that situation, the second optical input pulse
+will arrive at an instance in time close to the minima in the RTD’s resonant oscillation
+and the system will not elicit a spike firing event (spike probability is zero or close to zero).
+The temporal maps in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>b and Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>c
+combine in a single plot the responses of the RTD
+when subject to the injection of optical train pulses with increasing temporal separation
+and when the bias voltage is raised from <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S2.SS2.p4.m6" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V to <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.SS2.p4.m7" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V (in steps of 5 mV).
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>b and Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>c
+show that the central resonance period of the RTD neuron increases with bias voltage
+from 46 ns (at <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S2.SS2.p4.m8" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V) to 54 ns (at <math alttext="V_{RTD}=0.710" class="ltx_Math" display="inline" id="S2.SS2.p4.m9" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.710</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.710</annotation></semantics></math> V).
+At higher biases, optical injection powers for the ‘widest’ and ‘narrowest’ windows converge
+and spiking becomes less consistent since the oscillations are heavily damped.
+In this way, the resonance window of the RTD neuron acts in its own as a tuneable optical filter,
+whose central resonance frequency and bandwidth can be tuned controllably
+with voltage bias and optical input power, respectively
+(average input optical powers ranging from <math alttext="9" class="ltx_Math" display="inline" id="S2.SS2.p4.m10" intent=":literal"><semantics><mn>9</mn><annotation encoding="application/x-tex">9</annotation></semantics></math> to <math alttext="110" class="ltx_Math" display="inline" id="S2.SS2.p4.m11" intent=":literal"><semantics><mn>110</mn><annotation encoding="application/x-tex">110</annotation></semantics></math> µW,
+were used across all biases for the results in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F5" title="Figure 5 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">5</span></a>).</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S2.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.3 </span>Multi-Wavelength Resonate-and-Fire Operation</h3>
+<figure class="ltx_figure" id="S2.F6"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="462" id="S2.F6.g1" src="x6.png" width="622"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 6: </span>
+Demonstration of the resonate-and-fire effect
+where the RTD responds to optical stimuli from two different VCSELs
+in the form of 4.8 ns doublets with different temporal separations
+when biased in the underdamped regime (<math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S2.F6.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V).
+</figcaption>
+</figure>
+<div class="ltx_para" id="S2.SS3.p1">
+<p class="ltx_p">It is important to note here that the photonic-electronic RTD neuron of this work,
+can be excited by optical input signals across a large wavelength window in the infrared spectrum
+(determined by the bandgap of the light-absorptive layer in its structure) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib33" title="">33</a>]</cite>.
+Recent works have demonstrated the possibility to elicit spike firing regimes
+in optically-sensitive (In,Ga)As RTDs
+when excited at either <math alttext="1300" class="ltx_Math" display="inline" id="S2.SS3.p1.m1" intent=":literal"><semantics><mn>1300</mn><annotation encoding="application/x-tex">1300</annotation></semantics></math> or <math alttext="1550" class="ltx_Math" display="inline" id="S2.SS3.p1.m2" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math> nm, individually or simultaneously <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib17" title="">17</a>]</cite>.
+Therefore, given that the system can respond to Wavelength Division Multiplexed (WDM) input signals,
+this allows us to investigate the resonate-and-fire effect in light-sensitive RTD neurons
+subject to a combined optical input signal
+comprised of light from independent sources at different wavelengths.
+For this analysis, we used the experimental setup in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>b
+in which independent VCSELs are used to generate distinct optical input signals
+at various wavelengths
+which are combined into a single line for their injection into the photo-detecting region of the RTD.
+The bias current of each of the VCSELs is direct modulated with RF signals
+to encode square optical input pulses at different time instants
+in different wavelength optical inputs.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a> shows the experimentally measured response of the RTD neuron
+when subject to WDM-optical pulse doublets,
+where each pulse within the doublet comes from an individual VCSEL at separate wavelength,
+here [<math alttext="1550" class="ltx_Math" display="inline" id="S2.SS3.p1.m3" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math>, <math alttext="1553" class="ltx_Math" display="inline" id="S2.SS3.p1.m4" intent=":literal"><semantics><mn>1553</mn><annotation encoding="application/x-tex">1553</annotation></semantics></math>] nm.
+The WDM-optical signal is injected into the RTDs photo-absorption layer.
+The average optical power of the combined signal entering the RTD was <math alttext="23.9" class="ltx_Math" display="inline" id="S2.SS3.p1.m5" intent=":literal"><semantics><mn>23.9</mn><annotation encoding="application/x-tex">23.9</annotation></semantics></math> µW,
+and this was formed by optical pulses set with equal amplitude and growing temporal separation,
+from <math alttext="32" class="ltx_Math" display="inline" id="S2.SS3.p1.m6" intent=":literal"><semantics><mn>32</mn><annotation encoding="application/x-tex">32</annotation></semantics></math> ns (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>a),
+to <math alttext="48" class="ltx_Math" display="inline" id="S2.SS3.p1.m7" intent=":literal"><semantics><mn>48</mn><annotation encoding="application/x-tex">48</annotation></semantics></math> ns (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>b) and <math alttext="68" class="ltx_Math" display="inline" id="S2.SS3.p1.m8" intent=":literal"><semantics><mn>68</mn><annotation encoding="application/x-tex">68</annotation></semantics></math> ns (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>c).
+As seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>,
+for this multi-wavelength incoherent optical injection scheme,
+the RTD neuron also fires a spike only when the temporal separation between the doublet optical pulses
+is within the resonance period window of the system (Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>b),
+remaining quiescent otherwise
+(Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>a and Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>c).
+Hence, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a> demonstrates
+the multi-wavelength capability of the light-sensitive R&amp;F RTD neuron of this work;
+thus, permitting to leverage both temporal and wavelength information encoding schemes,
+and therefore enabling increased parallel computational capabilities.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Neuromorphic photonic processing with R&amp;F RTD neurons</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p">Following on the experimental demonstrations of the resonate-and-fire effect
+in light-sensitive RTD neurons,
+both under single (time-multiplexed) and multiple (wavelength-multiplexed) optical input signals
+(see Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F4" title="Figure 4 ‣ 2.2 Resonate-and-Fire RTD Neuron ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">4</span></a>-<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S2.F6" title="Figure 6 ‣ 2.3 Multi-Wavelength Resonate-and-Fire Operation ‣ 2 Experimental Results ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">6</span></a>),
+we now investigate its application to a variety of light-enabled, neuromorphic/spike-based computational tasks.</p>
+</div>
+<section class="ltx_subsection" id="S3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.1 </span>Chirp Test</h3>
+<figure class="ltx_figure" id="S3.F7"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="538" id="S3.F7.g1" src="x7.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 7: </span>
+Chirp Test.
+(a) Instantaneous period (temporal separation) of the chirp timeseries
+as a function of time with red dashed lines denoting resonance window.
+(b) AWG modulation signal for chirp with linearly increasing frequency.
+(c) Optical injection signal of sinusoid with temporal separation between peaks
+decreasing inversely with time.
+(d) RTD response to the injected signal when biased at <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S3.F7.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V.
+(e) Waterfall plot showcasing the consistency of the measurements across 50 repeats.
+</figcaption>
+</figure>
+<div class="ltx_para" id="S3.SS1.p1">
+<p class="ltx_p">The first task we focused on with the light-sensitive RTD neuron of this work,
+given the bandpass filtering nature of R&amp;F neurons is the chirp test.
+Chirped signals are utilised in distance-ranging applications, such as SONAR and RADAR <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib34" title="">34</a>]</cite>,
+and in spread spectrum communications
+where a signal is dispersed in the frequency domain of a wider frequency band <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib35" title="">35</a>]</cite>.
+This increases the signal range allowing higher resolution detection at greater distances.</p>
+</div>
+<div class="ltx_para" id="S3.SS1.p2">
+<p class="ltx_p">Here, a chirp signal is generated with the instantaneous period of the sinusoid waveform
+decreasing linearly from 150 ns to 25 ns with time,
+over a whole temporal range of <math alttext="12" class="ltx_Math" display="inline" id="S3.SS1.p2.m1" intent=":literal"><semantics><mn>12</mn><annotation encoding="application/x-tex">12</annotation></semantics></math> µs, as indicated in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>a.
+The amplitude of the chirp signal remains constant with time.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>b plots the chirp signal generated using a 12 GSa/s AWG
+which is encoded optically by modulating (with an MZM) the light from the Tuneable Laser
+in the setup in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>a.
+The time-series in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>c
+plots the features of the optically-encoded chirp signal
+prior to its injection into the R&amp;F photonic-electronic RTD neuron of this work.
+The latter was biased in its valley region (at a <math alttext="V_{RTD}=0.690" class="ltx_Math" display="inline" id="S3.SS1.p2.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.690</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.690</annotation></semantics></math> V)
+and the optical signal was set with low average optical power of <math alttext="95" class="ltx_Math" display="inline" id="S3.SS1.p2.m3" intent=":literal"><semantics><mn>95</mn><annotation encoding="application/x-tex">95</annotation></semantics></math> µW.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>d plots the temporal response of the RTD neuron
+after the injection of the optically-encoded chirp signal.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>d reveals that spike firing in the RTD occurs in a well-defined range
+for input waveform periods corresponding to the resonance window of the system (approx. 37-60 ns)
+as seen in Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>d and <a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>e.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>e plots directly the time-series measured at the output of the RTD,
+whilst Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>e provides a temporal map
+gathering in a single plot the measured RTD output for 50 repetitions of the chirp test experiment,
+highlighting the consistency and repeatability of the measured response from the system.
+As seen in Figs.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>d and <a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F7" title="Figure 7 ‣ 3.1 Chirp Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">7</span></a>e,
+the section of the chirp signal with frequencies within the bandpass window of the R&amp;F RTD neuron
+experiences an increase in oscillation amplitude until the spiking threshold is reached.
+In this way, the RTD neuron is able to filter a stimulus with changing frequency,
+so it only triggers spike firing events for the frequency range
+within the neuron’s resonance frequency window.
+This bandpass response to an optical linear chirp signal is also observed
+in the theoretical analyses included in the Supporting Information document (see Fig.S4),
+showing excellent agreement with the experimental findings.
+Moreover, our numerical simulations (see Supporting Information, Fig.S7)
+also predict much faster achievable timescales by varying the RTD’s circuit parameters.
+This opens the door for future optimised photonic-electronic RTD systems
+able to operate at multi-GHz rates.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.2 </span>Temporal Detection Test</h3>
+<div class="ltx_para" id="S3.SS2.p1">
+<p class="ltx_p">Following on the chirp test demonstration, the second task we focused on was a temporal detection test, see Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>.
+This consisted of identifying, in a random time-series input signal,
+occurrences of pulse doublets with specific time separations (within the system’s resonance window).
+For this second test, an arbitrary signal formed by a train of pulses
+with random temporal pulse separations ranging between 11-100 ns was generated,
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>b.
+This arbitrary signal had a reduced probability of generating pulses doublets
+with temporal separations within the resonance period of the R&amp;F RTD neuron
+(spanning between 30-60 ns when the device was biased at <math alttext="V_{RTD}=0.700" class="ltx_Math" display="inline" id="S3.SS2.p1.m1" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.700</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.700</annotation></semantics></math> V), see Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>a.
+The resulting optical input signal in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>b,
+was generated by externally modulating the light from a tuneable laser source
+for its injection (with an average optical power of <math alttext="28.3" class="ltx_Math" display="inline" id="S3.SS2.p1.m2" intent=":literal"><semantics><mn>28.3</mn><annotation encoding="application/x-tex">28.3</annotation></semantics></math> µW)
+into the RTD (biased at <math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S3.SS2.p1.m3" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V).
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>c plots the temporal response of the RTD,
+showing the attainment of a spike firing output that acts as a bandpass filter for the optical stimuli,
+as the RTD fires spike events only when the separation between pulses is within its resonance period.
+Further, a clear decreased amplitude RTD response is obtained
+to input pulses with separations smaller or larger than the resonance window of the system,
+as the input pulses arrive before or after the maxima of the relaxation oscillation.
+The time instants where spike firing is achieved (see Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>c),
+coincide with the locations identified in the prediction plot of Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>a,
+which shows the instances where pulses with separations within the resonance period
+are expected to elicit a response.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a> therefore demonstrates that the R&amp;F RTD neuron can indeed
+successfully detect specific temporal features in an optical input time-series signal.
+We must note that, in some cases, a double spike event was obtained
+in response to an input triplet with both a temporal separation within and outwith the resonance period.
+This is because a spike can trigger a subsequent spike
+for a pulse separation outside the resonance window
+since the firing of a spike introduces a phase offset to the relaxation oscillation
+such that the net resonance period immediately after a spike
+(rising edge of spike to first oscillation maxima)
+is greater than the case for after a sub-threshold pulse.
+This offset effect caused by spiking can be seen in the inset of Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>
+to be approximately 1.5 times the non-spiking resonance period.
+It can also be seen here that instead of firing a third spike,
+the next input pulse arrives early (off resonance)
+and interrupts the relaxation oscillation of the spike.
+It should also be noted that the amplitude of the relaxation oscillation after a spike
+is greater than that for after a sub-threshold pulse.
+The temporal map in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>d merges, in a single plot,
+the measured spiking outputs from the RTD
+when subject to 50 consecutive iterations of the optical input pattern in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>b.
+The map in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F8" title="Figure 8 ‣ 3.2 Temporal Detection Test ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">8</span></a>d shows the high consistency of the achieved spiking responses
+as highlighted by the patterns (with each spike fired marked by a yellow dot)
+appearing at the desired time locations across all 50 repetitions.</p>
+</div>
+<figure class="ltx_figure" id="S3.F8"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="441" id="S3.F8.g1" src="x8.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 8: </span>
+Temporal Detection Test.
+(a) Prediction for spiking based on separation.
+(b) Optical injection signal of 10 ns pulses with different temporal separations
+(with zoom of segment).
+(c) RTD response to the injected signal when biased at <math alttext="V_{RTD}=0.699" class="ltx_Math" display="inline" id="S3.F8.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.699</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.699</annotation></semantics></math> V (with zoom of segment).
+(d) Waterfall plot showcasing the consistency of the measurements across 50 repeats.
+</figcaption>
+</figure>
+</section>
+<section class="ltx_subsection" id="S3.SS3">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.3 </span>Digital-to-Spike Encoding of Wavelength-Multiplexed Signals</h3>
+<div class="ltx_para" id="S3.SS3.p1">
+<p class="ltx_p">We also demonstrate a scheme to encode optical digital input patterns into unique spike patterns
+produced by the resonate-and-fire photonic-electronic RTD neuron.
+Moreover, we utilize the multi-wavelength fan-in operation in the system as the input patterns are delivered
+by different WDM-optical inputs simultaneously injected into the RTD neuron. Specifically, we test the R&amp;F RTD neuron in the encoding of 4-bit patterns. These are converted into unique temporal spike patterns.
+The latter can subsequently be used to recover the initial 4-bit strings;
+hence, offering a reliable spike encoding-decoding mechanism.
+In this task, each possible combination of 4-bits represents a class
+(such that there are 16 different classes)
+and each of the 4 individual bit values represents a feature
+(such that there are 4 features per class);
+thus, defining a simple 4 feature, 16 class spike encoding task.
+We implement this task using the light-sensitive R&amp;F RTD spiking neuron of this work,
+when subject to 4 optical input signals generated with 4 separate 1550 nm-VCSELs
+(using the setup in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>b,
+and following the scheme depicted graphically in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>).
+The 4 VCSELs are all biased just above their lasing threshold current (I<sub class="ltx_sub">th</sub>),
+at values less than <math alttext="1.1\times" class="ltx_math_unparsed" display="inline" id="S3.SS3.p1.m1" intent=":literal"><semantics><mrow><mn>1.1</mn><mo lspace="0.222em">×</mo></mrow><annotation encoding="application/x-tex">1.1\times</annotation></semantics></math>I<sub class="ltx_sub">th</sub> in all cases,
+ensuring all 4 inputs have the same optical power.
+The VCSELs emit all at different wavelengths in the 1550 nm spectral window,
+at [<math alttext="1550" class="ltx_Math" display="inline" id="S3.SS3.p1.m2" intent=":literal"><semantics><mn>1550</mn><annotation encoding="application/x-tex">1550</annotation></semantics></math>, <math alttext="1553" class="ltx_Math" display="inline" id="S3.SS3.p1.m3" intent=":literal"><semantics><mn>1553</mn><annotation encoding="application/x-tex">1553</annotation></semantics></math>, <math alttext="1555" class="ltx_Math" display="inline" id="S3.SS3.p1.m4" intent=":literal"><semantics><mn>1555</mn><annotation encoding="application/x-tex">1555</annotation></semantics></math>, <math alttext="1558" class="ltx_Math" display="inline" id="S3.SS3.p1.m5" intent=":literal"><semantics><mn>1558</mn><annotation encoding="application/x-tex">1558</annotation></semantics></math> nm], respectively.
+The bias current of each VCSEL is direct modulated
+by the means of a 4-channel AWG (Moku:Pro, Liquid Instruments)
+and the four resulting optical inputs are combined into a single line
+for their injection into the light-sensitive RTD neuron.</p>
+</div>
+<figure class="ltx_figure" id="S3.F9"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="307" id="S3.F9.g1" src="x9.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 9: </span>
+Demonstration of using the resonate-and-fire effect in RTD neurons
+for spike encoding of a digital signal.
+(a) The value of each bit corresponds to the modulation amplitude of a mask for each laser.
+(b) Combined optical injection signal segment of 9.6 ns pulses,
+separated by the resonance period (48 ns).
+(c) RTD response signal segment to the injection when biased at <math alttext="V_{RTD}=0.696\&gt;V" class="ltx_Math" display="inline" id="S3.F9.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mrow><mn>0.696</mn><mo lspace="0.220em" rspace="0em">​</mo><mi>V</mi></mrow></mrow><annotation encoding="application/x-tex">V_{RTD}=0.696\&gt;V</annotation></semantics></math>.
+</figcaption>
+</figure>
+<div class="ltx_para" id="S3.SS3.p2">
+<p class="ltx_p">Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a> depicts the manner in which 4-bit digital optical patterns
+are generated with four independent 1550 nm-VCSELs,
+where each of them carries only the bit values of a given position in the 4-bit strings.
+The features (bit values) are binary,
+and are therefore represented as on-off keying (OOK) of signal from the VCSELs,
+as seen in the example provided in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>.
+The latter shows as an example the encoding of the bit string [0,0,1,1],
+also referred here as ‘class 3 pattern’.
+For this specific case, the current modulation applied to the first two VCSELs is ‘off’
+(thus yielding zero optical power),
+whilst being ‘on’ for the last two (encoding the last two bit positions).
+Each feature (bit value) of the 4-bit string is temporally-masked
+by a set of 128 randomly generated, fixed input weights within the interval [0,1);
+thus, forming a time-multiplexed optical input vector formed by a sequence of 128 virtual nodes,
+with the amplitude of each node directly corresponding to the set input weight value.
+The number of virtual temporal nodes was set to 128
+to fit within the specifications of the memory bank of the 4-channel AWG (Moku:Pro) in the setup.
+The virtual nodes were configured with a total temporal length of 48 ns,
+with a 9.6 ns-long square optical pulse at the onset to encode the input weight value
+and returning to zero for the remainder of the virtual node time.
+This process is depicted graphically in the four inset plots on the left side of Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>.
+The temporal node length was set to 48 ns to coincide with the resonance period of the RTD neuron,
+whilst also being smaller than its refractory period
+(approx. 100 ns for the device of this work <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib32" title="">32</a>]</cite>)
+to ensure non-linear temporal coupling between adjacent virtual nodes.
+A total time duration of <math alttext="6.144" class="ltx_Math" display="inline" id="S3.SS3.p2.m1" intent=":literal"><semantics><mn>6.144</mn><annotation encoding="application/x-tex">6.144</annotation></semantics></math> µs
+was therefore used for the generated 128 time-multiplexed optical input vectors
+representing the individual bits in the 4-bit pattern.</p>
+</div>
+<div class="ltx_para" id="S3.SS3.p3">
+<p class="ltx_p">The waveforms forming the 128 temporal node input vectors encoding the bit values (features)
+were generated by the AWG to directly modulate the bias currents of the VCSELs.
+Each datapoint is normalised such that the resulting combined input is within the range [0,1).
+The optical signals from the four independent 1550 nm-VCSELs in the setup,
+encoding each a different position in the 4-bit string
+(see insets at the left side of Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>)
+were combined into a single optical line using a four-to-one optical coupler.
+This permitted to directly sum the four weighted features (4-bit values in the string)
+such that each time-multiplexed node receives a contribution from each of the four VCSELs,
+as shown in the top-right plot (red-time series) in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>.
+The resulting wavelength-multiplexed optical input signal is then optically injected
+(with average optical power of <math alttext="24.0" class="ltx_Math" display="inline" id="S3.SS3.p3.m1" intent=":literal"><semantics><mn>24.0</mn><annotation encoding="application/x-tex">24.0</annotation></semantics></math> µW) into the RTD neuron at a rate of 48 ns,
+synchronous to the resonance frequency of the system
+(when biased with a DC voltage of <math alttext="V_{RTD}=0.696" class="ltx_Math" display="inline" id="S3.SS3.p3.m2" intent=":literal"><semantics><mrow><msub><mi>V</mi><mrow><mi>R</mi><mo lspace="0em" rspace="0em">​</mo><mi>T</mi><mo lspace="0em" rspace="0em">​</mo><mi>D</mi></mrow></msub><mo>=</mo><mn>0.696</mn></mrow><annotation encoding="application/x-tex">V_{RTD}=0.696</annotation></semantics></math> V)
+to ensure the virtual nodes are coupled in time
+through the resonate-and-fire dynamical response in the RTD.
+The optical input power is set to ensure that spikes are triggered in the RTD through the temporal resonate-and-fire effects, rather than just simply thresholding the largest pulses.</p>
+</div>
+<div class="ltx_para" id="S3.SS3.p4">
+<p class="ltx_p">An example of a temporal output response from the RTD-based photonic spiking processor
+is provided in the blue time series in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F9" title="Figure 9 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">9</span></a>,
+showing that the system produces a unique temporal electrical spike train pattern
+in response to each specific 4-bit digital optical input signal.
+As the node separation is equivalent to the resonance period,
+a fraction of each node is passed on to the nearest neighbouring node,
+and in that way, short-term memory propagates through the time-connected virtual nodes,
+ensuring nonlinear temporal coupling in the system.
+The nonlinear activation (spiking) function of the R&amp;F RTD neuron,
+is therefore defined by different time-dependent effects
+(e.g. spike activation, resonance, refractoriness).
+Firstly, this is determined by the intensity coupling between adjacent temporal nodes,
+enabled by relaxation oscillations elicited by sub-threshold optical inputs to the RTD,
+as well as by the relaxation oscillations elicited in the system once a spike has been fired.
+In both cases, these resulting oscillations, of different amplitudes in each case,
+approach or distance the RTD’s operation point from its self-oscillatory region; hence modulating effectively the system’s activation threshold
+and modifying dynamically the optical input power level
+required to elicit excitable spike firing events in the RTD.
+Secondly, the inhibitory temporal window defined by the system’s refractory period
+(occurring after a spike is fired)
+also contributes to enhance temporal connectivity between adjacent virtual nodes,
+as in that time, the system remains quiescent
+even when a new super-threshold optical input stimulus enters the system.
+</p>
+</div>
+<figure class="ltx_figure" id="S3.F10"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="420" id="S3.F10.g1" src="x10.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 10: </span>
+(a) A temporal map of the detected spiking responses from the R&amp;F RTD neuron
+for 10 repetitions of each bit string.
+(b) A typical confusion matrix displaying the trained network’s predictions
+against the true value for each bit string.
+</figcaption>
+</figure>
+<div class="ltx_para" id="S3.SS3.p5">
+<p class="ltx_p">To demonstrate the operation of the proposed photonic digital-to-spike encoding system,
+ten single (non-time averaged) readings are recorded for each of the 16 classes
+(ranging from ‘0000’ to ‘1111’ and all other cases in between),
+as seen in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F10" title="Figure 10 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">10</span></a>.
+These are optically injected into the light-sensitive R&amp;F RTD neuron
+which produces electrical spike firing temporal outputs in response.
+These are gathered and plotted in the temporal map of Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F10" title="Figure 10 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">10</span></a>a,
+showing that unique spike patterns are achieved to encode all 16 different classes.
+Additionally, as depicted in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F10" title="Figure 10 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">10</span></a>b,
+the temporal spike patterns from the RTD neuron,
+can also be subsequently used to recover the originally-encoded 4-bit patterns.
+This is achieved during a post-processing stage through Linear-least-squares (LLS) fitting
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib36" title="">36</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib37" title="">37</a>]</cite>,
+following the method described in <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib38" title="">38</a>]</cite>.
+For this, half of all generated 4-bit spiking patterns are used to train the system,
+and the other half used during the testing stage.
+Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S3.F10" title="Figure 10 ‣ 3.3 Digital-to-Spike Encoding of Wavelength-Multiplexed Signals ‣ 3 Neuromorphic photonic processing with R&amp;F RTD neurons ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">10</span></a>b plots the obtained confusion matrix,
+demonstrating successful operation in this 4-bit pattern spike encoding-decoding task,
+yielding an average accuracy of 95% (98.3%) with a standard deviation of 2.1% (1.7%),
+for train and test stages, respectively, when evaluated over ten data input folds.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Discussion</h2>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p">As previously discussed, the resonant tunnelling diode (RTD) is a semiconductor device
+that features a double-barrier quantum well (DBQW) in its structure
+(see diagram in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>b).
+This enables electron quantum tunnelling effects in the system
+that leads to a highly nonlinear current-voltage (I-V) relationship <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib39" title="">39</a>]</cite>.
+This has a characteristic N-shape, with a region of negative differential resistance (NDR),
+between the so-called ‘peak’ and ‘valley’ local extrema <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib40" title="">40</a>]</cite>.
+Crucially, there exists a self-oscillatory region within the NDR region,
+around which the system can exhibit neuronal-like dynamical regimes,
+such as excitability and spike firing,
+enabling the use of RTDs as ultrafast artificial neuronal models <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib20" title="">20</a>]</cite>.
+Notably, RTDs can be designed to be optically sensitive
+by incorporating light-absorption layers in their structure;
+hence, enabling photonic-electronic spiking neuron designs
+that have the highly desirable ability to respond to both photonic and electronic signals
+<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib33" title="">33</a>]</cite>, therefore enabling cascadable interlinking of RTD neurons towards spiking neural networks (SNNs) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib31" title="">31</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S4.p2">
+<p class="ltx_p">The RTD’s ability to exhibit the R&amp;F effect is mainly due
+to the interplay of the series (quiescent) resistance and the dynamic resistance.
+In the self-oscillation section of the NDR region,
+the negative dynamic resistance dominates the positive series resistance,
+hence the I-V gradient (differential resistance) is negative.
+In the underdamped region, the negative dynamic resistance is no longer sufficient
+to compensate for the positive series resistance,
+so damped oscillations are observed.
+As the DC bias is moved farther away from the NDR,
+this positive series resistance increases and the negative dynamic resistance decreases,
+leading to a reduction in oscillation amplitude.
+The valley point is reached when the negative dynamic resistance becomes zero.
+This resonant behaviour is only observed in certain kind of RTDs
+when reverse biased at the valley operation point.
+This effect is not observed in the peak region (before reaching the NDR region)
+since both resistances are positive (there is only addition).</p>
+</div>
+<div class="ltx_para" id="S4.p3">
+<p class="ltx_p">The underlying mechanism for R&amp;F behaviour relates to the Andronov-Hopf bifurcation type.
+In the RTD, this bifurcation presents as a bistable region in the NDR of the N-shaped I-V curve.
+Here, this bistable region, located between the peak/valley voltage points,
+is a consequence of the asymmetric shape of the NDR <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib40" title="">40</a>]</cite>.
+For the RTD in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>d,
+the bistable region appears particularly pronounced in the valley region).
+In this bistable region, both a stable fixed point and a stable limit cycle coexist.
+Evidently, there also exists an unstable limit cycle between these
+that acts as a threshold for the system entering the stable limit cycle.
+Note that, perturbing the system into this stable limit cycle trajectory
+is equivalent to triggering a spike.
+Consequently, after a subthreshold perturbation,
+the system relaxes toward its fixed point while oscillating a few times around it,
+which enables operation in the R&amp;F mode.</p>
+</div>
+<div class="ltx_para" id="S4.p4">
+<p class="ltx_p">Importantly, Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">1</span></a>d shows that external light injection into the RTD
+affects the I-V curve (shifting it upwards and also slightly laterally).
+Here, electron-hole pair generation increases the current in the device,
+which reduces its series resistance, leading to this voltage and current shift.
+This allows for the system to also be triggered with external optical perturbations
+to directly prompt light-elicited spike firing regimes in RTD neurons <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#bib.bib41" title="">41</a>]</cite>.</p>
+</div>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Conclusion</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p">This work demonstrates experimentally, for the first time,
+a photonic-electronic resonate-and-fire spiking neuron.
+This is realized using an optically-sensitive resonant tunnelling diode (RTD)
+allowing operation at key infrared telecom wavelengths in the C-band (1550 nm).
+</p>
+</div>
+<div class="ltx_para" id="S5.p2">
+<p class="ltx_p">This RTD neuron displays all-or-nothing spiking responses at nanosecond rates,
+and experiences an oscillatory decay to steady state when externally perturbed (optically)
+in the so-called valley region of its highly nonlinear, N-shaped I-V characteristic.
+Theoretical analyses are also carried out in this work, showing excellent agreement with the experimental findings.
+The excitability resonance period of the RTD neuron,
+ultimately determined by the RCL parameters of the circuit,
+is observed to be on the order of tens-of-nanoseconds for our current experimental setup.
+However, potentially much faster (sub-ns) rates are viable, as demonstrated numerically in this work, through circuit parameter and circuit parasitics optimisation.
+Moreover, we also found that both the resonance period
+and the damping of the relaxation oscillations in the RTD neuron
+can be tuned by acting on the applied bias voltage.
+This provides a basis for a frequency-sensitive event-based spike encoding mechanism,
+where the precise timing of input stimuli is of significant importance and unlocks extra neuron capabilities not found in the LIF neuron model.
+</p>
+</div>
+<div class="ltx_para" id="S5.p3">
+<p class="ltx_p">For the photonic-electronic R&amp;F neuron of this work,
+deterministic firing of electrical spikes from pairs of sub-threshold optical pulses is demonstrated, where a spike is fired only when the inter-pulse time interval of the stimuli
+falls within the narrow resonance window of the neuron.
+The bandpass filtering abilities of the neuron were experimentally characterised
+for injection power and bias, with resonance period increasing with bias,
+and the resonance window increasing with injection power.
+Furthermore, the multi-wavelength operation of the RTD neuron was demonstrated.
+The wide absorption band of the inbuilt photosensitive epi-layer in the device
+allows for spike triggering by multiple modulated optical input signals of different wavelengths.</p>
+</div>
+<div class="ltx_para" id="S5.p4">
+<p class="ltx_p">Finally, multiple practical tasks are experimentally demonstrated
+at fast nanosecond rates for the photonic-electronic R&amp;F RTD neuron.
+These include a spike-based bandpass filtering of optically-encoded chirp signals,
+as well as in a temporal detection test,
+where spiking is observed only in the sections of the optical input signal
+matching the RTD neuron excitability resonance window.
+A proof-of-concept demonstration for a neuromorphic photonic-electronic spike encoding scheme
+is also shown,
+where masked optical input bit-strings are transformed into event-based electrical spike patterns,
+utilizing the temporally-dependent, nonlinear and stateful (short-term memory) character
+of responses of the resonate-and-fire effect.
+The spike-encoded sequence patterns can be trained
+to recover the original bit-string with accuracy 98.3%.</p>
+</div>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Experimental Methods</h2>
+<div class="ltx_para" id="S6.p1">
+<p class="ltx_p">In this work, we demonstrate, for the first time, the operation of an RTD
+as a photonic resonate-and-fire spiking neuron.
+Moreover, we demonstrate this functionality
+when the system is subject to single or multiple optical inputs at high speeds.
+The externally optical injected signals are generated using either
+an externally-modulated tuneable laser
+or four directly-modulated Vertical-Cavity Surface Emitting Lasers (VCSELs),
+shown in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>a and Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>b, respectively.</p>
+</div>
+<div class="ltx_para" id="S6.p2">
+<p class="ltx_p">Firstly, we investigate the photonic R&amp;F neuron capabilities of the RTD
+when subject to a single ns-duration optical input signal.
+To this end, we used the setup in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>a
+in which the CW output from a 1550 nm tuneable laser (TL)
+is externally modulated using a Mach-Zehnder Modulator (MZM).
+The electrical RF signals used to modulate the TL’s light
+are generated by a high-speed (12 GSa/s, 5GHz bandwidth) arbitrary waveform generator (AWG),
+then sent to an RF amplifier (AMP) prior to their application to the MZM.
+The optical isolator (ISO) in the setup reduces unwanted back-reflections
+and the polarisation controller (POL) matches the polarisation of the TL’s light to that of the MZM
+to minimise power losses in the system.
+A variable optical attenuator (VOA) is used
+to control the injection power of the optical input signal.
+The optical path is then divided via a 50:50 fibre-optic splitter,
+with the first branch connected to a power-meter (PM) or a photodetector (PD)
+to measure the average power or monitor the optical injection signal, respectively.
+The second branch is optically injected into the light-sensitive RTD
+by means of a lensed optical fibre.
+The RTD is biased with a DC voltage generated from a power supply (PS)
+and a bias-tee (TEE) is used to allow the temporal responses of the RTD neuron
+to be read-out with a 16 GHz real-time oscilloscope
+for their subsequent capture and analysis with a computer (PC).</p>
+</div>
+<figure class="ltx_figure" id="S6.F11"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="321" id="S6.F11.g1" src="x11.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 11: </span>
+Experimental setups used to investigate the R&amp;F RTD neuron of this work
+under optical injection of fast intensity encoded stimuli from
+(a) an externally-modulated 1550 nm tuneable laser and
+(b) four directly-modulated 1550 nm-Vertical-Cavity Surface Emitting Lasers (VCSELs)
+multiplexed in wavelength.
+Arbitrary waveform generator (AWG), four-channel AWG (MOKU:PRO), RF amplifier (AMP),
+tuneable laser (TL), optical isolator (ISO), polarisation controller (POL),
+Mach-Zehnder Modulator (MZM), variable optical attenuator (VOA),
+fibre-optic splitter (50:50), four-to-one fibre-optic coupler (4:1),
+Erbium-Doped Fibre Amplifier (EDFA), power supply (PS), bias-tee (TEE),
+power-meter (PM), real-time oscilloscope (RTO), computer (PC).
+</figcaption>
+</figure>
+<div class="ltx_para" id="S6.p3">
+<p class="ltx_p">Additionally, in this work we also investigated the operation of the R&amp;F RTD neuron
+when subjected simultaneously to multiple optical inputs at different wavelengths.
+For this purpose, we used the experimental setup included in Fig.<a class="ltx_ref" href="https://arxiv.org/html/2510.14515v1#S6.F11" title="Figure 11 ‣ 6 Experimental Methods ‣ Resonate-and-Fire Photonic-Electronic Spiking Neurons for Fast and Efficient Light-Enabled Neuromorphic Processing Systems"><span class="ltx_text ltx_ref_tag">11</span></a>b,
+in which four telecom (1550 nm) VCSELs generate four independent optical input signals.
+These are biased just above their lasing threshold current
+(in the range of 2 mA at the temperature of <math alttext="25\&gt;^{\circ}" class="ltx_Math" display="inline" id="S6.p3.m1" intent=":literal"><semantics><msup><mn>25</mn><mo>∘</mo></msup><annotation encoding="application/x-tex">25\&gt;^{\circ}</annotation></semantics></math>C for all VCSELs)
+with values of [2.26, 2.02, 2.50, 2.27] mA, respectively.
+The VCSELs showed lasing emission
+at the wavelengths of [1550, 1553, 1555, 1558] nm, respectively,
+mimicking a Wavelength Division Multiplexing (WDM) system with approx. <math alttext="330" class="ltx_Math" display="inline" id="S6.p3.m2" intent=":literal"><semantics><mn>330</mn><annotation encoding="application/x-tex">330</annotation></semantics></math> GHz channel spacing.
+The current of each VCSEL was directly modulated using separate RF signals generated
+with a four channel 1.25 GSa/s AWG (Moku:Pro, Liquid Instruments).
+A four-to-one fibre-optic coupler is used to merge, in a single optical path,
+the light emission from the four individual VCSELs,
+creating effectively a WDM injection scheme.
+This strategy permits a multi-wavelength fan-in functionality in the RTD
+for the generated optical signals from the VCSELs.
+An Erbium-Doped Fibre Amplifier (EDFA) is utilised
+to boost the combined WDM optical input power from the four VCSELs
+and to overcome losses in the experimental setup.</p>
+</div>
+</section>
+<section class="ltx_section" id="S7">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">7 </span>Acknowledgements</h2>
+<div class="ltx_para" id="S7.p1">
+<p class="ltx_p">The authors acknowledge support from
+the UKRI Turing AI Acceleration Fellowships Programme (EP/V025198/1),
+the UKRI ’ProSensing’ project (EP/Y030176/1),
+the UK Multidisciplinary Centre for Neuromorphic Computing (UKRI982),
+the EU Pathfinder Open project ‘SpikePro’ (Grant ID 101129904),
+from the Fundação para a Ciência e a Tecnologia
+(FCT, projects 2022.03392.PTDC – META-LED, and ERC-PT-A),
+and from the Fraunhofer Centre for Applied Photonics, FCAP.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem">
+<span class="ltx_bibblock"><span class="ltx_ERROR undefined">\bibcommenthead</span>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Davies et al. [2018]</span>
+<span class="ltx_bibblock">
+Davies, M.,
+Srinivasa, N.,
+Lin, T.-H.,
+Chinya, G.,
+Cao, Y.,
+Choday, S.H.,
+Dimou, G.,
+Joshi, P.,
+Imam, N.,
+Jain, S.,
+Liao, Y.,
+Lin, C.-K.,
+Lines, A.,
+Liu, R.,
+Mathaikutty, D.,
+McCoy, S.,
+Paul, A.,
+Tse, J.,
+Venkataramanan, G.,
+Weng, Y.-H.,
+Wild, A.,
+Yang, Y.,
+Wang, H.:
+Loihi: A neuromorphic manycore processor with on-chip learning.
+IEEE Micro
+<span class="ltx_text ltx_font_bold">38</span>(1),
+82–99
+(2018)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/MM.2018.112130359" title="">https://doi.org/10.1109/MM.2018.112130359</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Furber et al. [2013]</span>
+<span class="ltx_bibblock">
+Furber, S.B.,
+Lester, D.R.,
+Plana, L.A.,
+Garside, J.D.,
+Painkras, E.,
+Temple, S.,
+Brown, A.D.:
+Overview of the spinnaker system architecture.
+IEEE Transactions on Computers
+<span class="ltx_text ltx_font_bold">62</span>(12),
+2454–2467
+(2013)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/TC.2012.142" title="">https://doi.org/10.1109/TC.2012.142</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">DeBole et al. [2019]</span>
+<span class="ltx_bibblock">
+DeBole, M.V.,
+Taba, B.,
+Amir, A.,
+Akopyan, F.,
+Andreopoulos, A.,
+Risk, W.P.,
+Kusnitz, J.,
+Ortega Otero, C.,
+Nayak, T.K.,
+Appuswamy, R.,
+Carlson, P.J.,
+Cassidy, A.S.,
+Datta, P.,
+Esser, S.K.,
+Garreau, G.J.,
+Holland, K.L.,
+Lekuch, S.,
+Mastro, M.,
+McKinstry, J.,
+Nolfo, C.,
+Paulovicks, B.,
+Sawada, J.,
+Schleupen, K.,
+Shaw, B.G.,
+Klamo, J.L.,
+Flickner, M.D.,
+Arthur, J.V.,
+Modha, D.S.:
+Truenorth: Accelerating from zero to 64 million neurons in 10 years.
+Computer
+<span class="ltx_text ltx_font_bold">52</span>(5),
+20–29
+(2019)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/MC.2019.2903009" title="">https://doi.org/10.1109/MC.2019.2903009</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Robertson et al. [2020a]</span>
+<span class="ltx_bibblock">
+Robertson, J.,
+Wade, E.,
+Kopp, Y.,
+Bueno, J.,
+Hurtado, A.:
+Toward neuromorphic photonic networks of ultrafast spiking laser neurons.
+IEEE Journal of Selected Topics in Quantum Electronics
+<span class="ltx_text ltx_font_bold">26</span>(1),
+1–15
+(2020)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/JSTQE.2019.2931215" title="">https://doi.org/10.1109/JSTQE.2019.2931215</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Robertson et al. [2020b]</span>
+<span class="ltx_bibblock">
+Robertson, J.,
+Hejda, M.,
+Bueno, J.,
+Hurtado, A.:
+Ultrafast optical integration and pattern classification for neuromorphic photonics based on spiking vcsel neurons.
+Scientific Reports
+<span class="ltx_text ltx_font_bold">10</span>(6098)
+(2020)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/s41598-020-62945-5" title="">https://doi.org/10.1038/s41598-020-62945-5</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bueno et al. [2021]</span>
+<span class="ltx_bibblock">
+Bueno, J.,
+Robertson, J.,
+Hejda, M.,
+Hurtado, A.:
+Comprehensive performance analysis of a vcsel-based photonic reservoir computer.
+IEEE Photonics Technology Letters
+<span class="ltx_text ltx_font_bold">33</span>(16),
+920–923
+(2021)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/LPT.2021.3075095" title="">https://doi.org/10.1109/LPT.2021.3075095</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Donati et al. [2024]</span>
+<span class="ltx_bibblock">
+Donati, G.,
+Argyris, A.,
+Mancinelli, M.,
+Mirasso, C.R.,
+Pavesi, L.:
+Time delay reservoir computing with a silicon microring resonator and a fiber-based optical feedback loop.
+Opt. Express
+<span class="ltx_text ltx_font_bold">32</span>(8),
+13419–13437
+(2024)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1364/OE.514617" title="">https://doi.org/10.1364/OE.514617</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Vandoorne et al. [2014]</span>
+<span class="ltx_bibblock">
+Vandoorne, K.,
+Mechet, P.,
+Van Vaerenbergh, T.,
+Fiers, M.,
+Morthier, G.,
+Verstraeten, D.,
+Schrauwen, B.,
+Dambre, J.,
+Bienstman, P.:
+Experimental demonstration of reservoir computing on a silicon photonics chip.
+Nature Communications
+<span class="ltx_text ltx_font_bold">5</span>(3541)
+(2014)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/ncomms4541" title="">https://doi.org/10.1038/ncomms4541</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Toole et al. [2016]</span>
+<span class="ltx_bibblock">
+Toole, R.,
+Tait, A.N.,
+Lima, T.,
+Nahmias, M.A.,
+Shastri, B.J.,
+Prucnal, P.R.,
+Fok, M.P.:
+Photonic implementation of spike-timing-dependent plasticity and learning algorithms of biological neural systems.
+Journal of Lightwave Technology
+<span class="ltx_text ltx_font_bold">34</span>(2),
+470–476
+(2016)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/JLT.2015.2475275" title="">https://doi.org/10.1109/JLT.2015.2475275</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kravtsov et al. [2011]</span>
+<span class="ltx_bibblock">
+Kravtsov, K.,
+Fok, M.P.,
+Rosenbluth, D.,
+Prucnal, P.R.:
+Ultrafast all-optical implementation of a leaky integrate-and-fire neuron.
+Opt. Express
+<span class="ltx_text ltx_font_bold">19</span>(3),
+2133–2147
+(2011)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1364/OE.19.002133" title="">https://doi.org/10.1364/OE.19.002133</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ortega-Piwonka et al. [2022]</span>
+<span class="ltx_bibblock">
+Ortega-Piwonka, I.,
+Hejda, M.,
+Alanis, J.,
+Lourenço, J.,
+Hurtado, A.,
+Figueiredo, J.,
+Romeira, B.,
+Javaloyes, J.:
+Spike propagation in a nanolaser-based optoelectronic neuron.
+Optical Materials Express
+<span class="ltx_text ltx_font_bold">12</span>,
+2679–2696
+(2022)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1364/OME.451706" title="">https://doi.org/10.1364/OME.451706</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Romeira et al. [2013]</span>
+<span class="ltx_bibblock">
+Romeira, B.,
+Javaloyes, J.,
+Ironside, C.N.,
+Figueiredo, J.M.L.,
+Balle, S.,
+Piro, O.:
+Excitability and optical pulse generation in semiconductor lasers driven by resonant tunneling diode photo-detectors.
+Optics Express
+<span class="ltx_text ltx_font_bold">21</span>(18),
+20931–40
+(2013)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1364/OE.21.020931" title="">https://doi.org/10.1364/OE.21.020931</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Cimbri et al. [2022]</span>
+<span class="ltx_bibblock">
+Cimbri, D.,
+Wang, J.,
+Al-Khalidi, A.,
+Wasige, E.:
+Resonant tunneling diodes high-speed terahertz wireless communications - a review.
+IEEE Transactions on Terahertz Science and Technology
+<span class="ltx_text ltx_font_bold">12</span>(3),
+226–244
+(2022)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/TTHZ.2022.3142965" title="">https://doi.org/10.1109/TTHZ.2022.3142965</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Nishida et al. [2019]</span>
+<span class="ltx_bibblock">
+Nishida, Y.,
+Nishigami, N.,
+Diebold, S.,
+Kim, J.,
+Fujita, M.,
+Nagatsuma, T.:
+Terahertz coherent receiver using a single resonant tunnelling diode.
+Scientific Reports
+<span class="ltx_text ltx_font_bold">9</span>(1),
+18125
+(2019)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/s41598-019-54627-8" title="">https://doi.org/10.1038/s41598-019-54627-8</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. [2021]</span>
+<span class="ltx_bibblock">
+Zhang, W.,
+Al-Khalidi, A.,
+Figueiredo, J.,
+Al-Taai, Q.R.A.,
+Wasige, E.,
+Hadfield, R.H.:
+Analysis of excitability in resonant tunneling diode-photodetectors.
+Nanomaterials
+<span class="ltx_text ltx_font_bold">11</span>(6)
+(2021)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.3390/nano11061590" title="">https://doi.org/10.3390/nano11061590</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Al-Taai et al. [2023]</span>
+<span class="ltx_bibblock">
+Al-Taai, Q.R.A.,
+Hejda, M.,
+Zhang, W.,
+Romeira, B.,
+Figueiredo, J.M.L.,
+Wasige, E.,
+Hurtado, A.:
+Optically-triggered deterministic spiking regimes in nanostructure resonant tunnelling diode-photodetectors.
+Neuromorphic Computing and Engineering
+<span class="ltx_text ltx_font_bold">3</span>(3),
+034012
+(2023)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1088/2634-4386/acf609" title="">https://doi.org/10.1088/2634-4386/acf609</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hejda et al. [2022]</span>
+<span class="ltx_bibblock">
+Hejda, M.,
+Malysheva, E.,
+Owen-Newns, D.,
+Raghib Ali Al-Taai, Q.,
+Zhang, W.,
+Ortega-Piwonka, I.,
+Javaloyes, J.,
+Wasige, E.,
+Dolores-Calzadilla, V.,
+Figueiredo, J.,
+Romeira, B.,
+Hurtado, A.:
+Artificial optoelectronic spiking neuron based on a resonant tunnelling diode coupled to a vertical cavity surface emitting laser.
+Nanophotonics
+<span class="ltx_text ltx_font_bold">12</span>,
+857–867
+(2022)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1515/nanoph-2022-0362" title="">https://doi.org/10.1515/nanoph-2022-0362</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Donati et al. [2025]</span>
+<span class="ltx_bibblock">
+Donati, G.,
+Owen-Newns, D.,
+Robertson, J.,
+Porte, X.,
+Malysheva, E.,
+Figueiredo, J.,
+Romeira, B.,
+Dolores-Calzadilla, V.,
+Hurtado, A.:
+Spiking rate and latency encoding with resonant tunneling diode neuron circuits and design influences.
+Phys. Rev. Appl.,
+(2025)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1103/n41r-3t9v" title="">https://doi.org/10.1103/n41r-3t9v</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Donati et al. [2024]</span>
+<span class="ltx_bibblock">
+Donati, G.,
+Owen-Newns, D.,
+Robertson, J.,
+Malysheva, E.,
+Adair, A.,
+Figueiredo, J.,
+Romeira, B.,
+Dolores-Calzadilla, V.,
+Hurtado, A.:
+Spiking flip-flop memory in resonant tunneling diode neurons.
+Phys. Rev. Lett.
+<span class="ltx_text ltx_font_bold">133</span>,
+267301
+(2024)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1103/PhysRevLett.133.267301" title="">https://doi.org/10.1103/PhysRevLett.133.267301</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hejda et al. [2022]</span>
+<span class="ltx_bibblock">
+Hejda, M.,
+Alanis, J.A.,
+Ortega-Piwonka, I.,
+Lourenço, J.a.,
+Figueiredo, J.,
+Javaloyes, J.,
+Romeira, B.,
+Hurtado, A.:
+Resonant tunneling diode nano-optoelectronic excitable nodes for neuromorphic spike-based information processing.
+Phys. Rev. Appl.
+<span class="ltx_text ltx_font_bold">17</span>,
+024072
+(2022)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1103/PhysRevApplied.17.024072" title="">https://doi.org/10.1103/PhysRevApplied.17.024072</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Robertson et al. [2024]</span>
+<span class="ltx_bibblock">
+Robertson, J.,
+Black, D.,
+Al-Taai, Q.R.A.,
+Donati, G.,
+Malysheva, E.,
+Romeira, B.,
+Figueiredo, J.,
+Dolores-Calzadilla, V.,
+Wasaige, E.,
+Hurtado, A.:
+Ultrafast temporal integration and pattern recognition with photonic-electronic rtd spiking neurons.
+In: 2024 IEEE Photonics Conference (IPC),
+pp. 1–2
+(2024).
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/IPC60965.2024.10799637" title="">https://doi.org/10.1109/IPC60965.2024.10799637</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Izhikevich [2000]</span>
+<span class="ltx_bibblock">
+Izhikevich, E.M.:
+Neural excitability, spiking and bursting.
+International Journal of Bifurcation and Chaos
+<span class="ltx_text ltx_font_bold">10</span>(06),
+1171–1266
+(2000)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1142/S0218127400000840" title="">https://doi.org/10.1142/S0218127400000840</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Izhikevich [2001]</span>
+<span class="ltx_bibblock">
+Izhikevich, E.M.:
+Resonate-and-fire neurons.
+Neural Networks
+<span class="ltx_text ltx_font_bold">14</span>(6),
+883–894
+(2001)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1016/S0893-6080(01)00078-8" title="">https://doi.org/10.1016/S0893-6080(01)00078-8</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huber et al. [2025]</span>
+<span class="ltx_bibblock">
+Huber, T.E.,
+Lecomte, J.,
+Polovnikov, B.,
+Arnim, A.:
+Scaling up resonate-and-fire networks for fast deep learning.
+In: Computer Vision – ECCV 2024 Workshops,
+pp. 241–258.
+Springer,
+Cham
+(2025)
+
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Llinás [1988]</span>
+<span class="ltx_bibblock">
+Llinás, R.R.:
+The intrinsic electrophysiological properties of mammalian neurons: Insights into central nervous system function.
+Science
+<span class="ltx_text ltx_font_bold">242</span>(4886),
+1654–1664
+(1988)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/http://www.jstor.org/stable/1703395" title="">https://doi.org/http://www.jstor.org/stable/1703395</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Le et al. [2023]</span>
+<span class="ltx_bibblock">
+Le, T.-K.,
+Bui, T.-T.,
+Le, D.-H.:
+Modeling and designing of an all-digital resonate-and-fire neuron circuit.
+IEEE Access
+<span class="ltx_text ltx_font_bold">11</span>,
+62318–62336
+(2023)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/ACCESS.2023.3287994" title="">https://doi.org/10.1109/ACCESS.2023.3287994</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Tamura et al. [2024]</span>
+<span class="ltx_bibblock">
+Tamura, M.,
+Morison, H.,
+Tait, A.N.,
+Shastri, B.J.:
+Design of a monolithic silicon-on-insulator resonator spiking neuron.
+Communications Physics
+<span class="ltx_text ltx_font_bold">7</span>(1),
+303
+(2024)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/s42005-024-01769-5" title="">https://doi.org/10.1038/s42005-024-01769-5</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Renner et al. [2024a]</span>
+<span class="ltx_bibblock">
+Renner, A.,
+Supic, L.,
+Danielescu, A.,
+Indiveri, G.,
+Frady, E.P.,
+Sommer, F.T.,
+Sandamirskaya, Y.:
+Visual odometry with neuromorphic resonator networks.
+Nature Machine Intelligence
+<span class="ltx_text ltx_font_bold">6</span>(6),
+653–663
+(2024)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/s42256-024-00846-2" title="">https://doi.org/10.1038/s42256-024-00846-2</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Renner et al. [2024b]</span>
+<span class="ltx_bibblock">
+Renner, A.,
+Supic, L.,
+Danielescu, A.,
+Indiveri, G.,
+Olshausen, B.A.,
+Sandamirskaya, Y.,
+Sommer, F.T.,
+Frady, E.P.:
+Neuromorphic visual scene understanding with resonator networks.
+Nature Machine Intelligence
+<span class="ltx_text ltx_font_bold">6</span>(6),
+641–652
+(2024)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1038/s42256-024-00848-0" title="">https://doi.org/10.1038/s42256-024-00848-0</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Frady and Sommer [2019]</span>
+<span class="ltx_bibblock">
+Frady, E.P.,
+Sommer, F.T.:
+Robust computation with rhythmic spike patterns.
+Proceedings of the National Academy of Sciences
+<span class="ltx_text ltx_font_bold">116</span>(36),
+18050–18059
+(2019)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1073/pnas.1902653116" title="">https://doi.org/10.1073/pnas.1902653116</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[31]</span>
+<span class="ltx_bibblock">
+Hejda, M.,
+Zhang, W.,
+Al-Taai, Q.R.A.,
+Malysheva, E.,
+Owen-Newns, D.,
+Figueiredo, J.M.L.,
+Romeira, B.,
+Robertson, J.,
+Dolores-Calzadilla, V.,
+Wasige, E.,
+Hurtado, A.:
+Programmable Optical Synaptic Linking of Neuromorphic Photonic-Electronic RTD Spiking Circuits.
+ACS Photonics
+<span class="ltx_text ltx_font_bold">11</span>(10),
+4279–4287
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1021/acsphotonics.4c01199" title="">https://doi.org/10.1021/acsphotonics.4c01199</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hejda et al. [2022]</span>
+<span class="ltx_bibblock">
+Hejda, M.,
+Malysheva, E.,
+Al-Taai, Q.R.A.,
+Wasige, E.,
+Dolores-Calzadilla, V.,
+Figueiredo, J.,
+Romeira, B.,
+Hurtado, A.:
+Artificial optoelectronic spiking neurons with laser-coupled resonant tunnelling diode systems.
+In: 2022 IEEE Photonics Conference (IPC),
+pp. 1–2
+(2022).
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/IPC53466.2022.9975655" title="">https://doi.org/10.1109/IPC53466.2022.9975655</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Romeira et al. [2013]</span>
+<span class="ltx_bibblock">
+Romeira, B.,
+Pessoa, L.M.,
+Salgado, H.M.,
+Ironside, C.N.,
+Figueiredo, J.M.L.:
+Photo-detectors integrated with resonant tunneling diodes.
+Sensors
+<span class="ltx_text ltx_font_bold">13</span>(7),
+9464–9482
+(2013)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.3390/s130709464" title="">https://doi.org/10.3390/s130709464</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Schiff et al. [2000]</span>
+<span class="ltx_bibblock">
+Schiff, S.J.,
+Colella, D.,
+Jacyna, G.M.,
+Hughes, E.,
+Creekmore, J.W.,
+Marshall, A.,
+Bozek-Kuzmicki, M.,
+Benke, G.,
+Gaillard, W.D.,
+Conry, J.,
+Weinstein, S.R.:
+Brain chirps: spectrographic signatures of epileptic seizures.
+Clinical Neurophysiology
+<span class="ltx_text ltx_font_bold">111</span>(6),
+953–958
+(2000)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1016/S1388-2457(00)00259-5" title="">https://doi.org/10.1016/S1388-2457(00)00259-5</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Springer et al. [2000]</span>
+<span class="ltx_bibblock">
+Springer, A.,
+Gugler, W.,
+Huemer, M.,
+Reindl, L.,
+Ruppel, C.C.W.,
+Weigel, R.:
+Spread spectrum communications using chirp signals.
+In: IEEE/AFCEA EUROCOMM 2000. Information Systems for Enhanced Public Safety and Security (Cat. No.00EX405),
+pp. 166–170
+(2000).
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/EURCOM.2000.874794" title="">https://doi.org/10.1109/EURCOM.2000.874794</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Patil and Sharma [2023]</span>
+<span class="ltx_bibblock">
+Patil, H.,
+Sharma, K.:
+Extreme learning machine: A comprehensive survey of theories i&amp; algorithms.
+In: 2023 International Conference on Computational Intelligence and Sustainable Engineering Solutions (CISES),
+pp. 749–756
+(2023).
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/CISES58720.2023.10183613" title="">https://doi.org/10.1109/CISES58720.2023.10183613</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. [2006]</span>
+<span class="ltx_bibblock">
+Huang, G.-B.,
+Zhu, Q.-Y.,
+Siew, C.-K.:
+Extreme learning machine: Theory and applications.
+Neurocomputing
+<span class="ltx_text ltx_font_bold">70</span>(1),
+489–501
+(2006)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1016/j.neucom.2005.12.126" title="">https://doi.org/10.1016/j.neucom.2005.12.126</a> .
+Neural Networks
+
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Owen-Newns et al. [2023]</span>
+<span class="ltx_bibblock">
+Owen-Newns, D.,
+Robertson, J.,
+Hejda, M.,
+Hurtado, A.:
+Ghz rate neuromorphic photonic spiking neural network with a single vertical-cavity surface-emitting laser (vcsel).
+IEEE Journal of Selected Topics in Quantum Electronics
+<span class="ltx_text ltx_font_bold">29</span>(2: Optical Computing),
+1–10
+(2023)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/JSTQE.2022.3205716" title="">https://doi.org/10.1109/JSTQE.2022.3205716</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ortega-Piwonka et al. [2021a]</span>
+<span class="ltx_bibblock">
+Ortega-Piwonka, I.,
+Piro, O.,
+Figueiredo, J.,
+Romeira, B.,
+Javaloyes, J.:
+Spike propagation in a nanolaser-based optoelectronic neuron.
+In: 2021 Conference on Lasers and Electro-Optics Europe I&amp; European Quantum Electronics Conference (CLEO/Europe-EQEC),
+pp. 1–1
+(2021).
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1109/CLEO/Europe-EQEC52157.2021.9541736" title="">https://doi.org/10.1109/CLEO/Europe-EQEC52157.2021.9541736</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ortega-Piwonka et al. [2021b]</span>
+<span class="ltx_bibblock">
+Ortega-Piwonka, I.,
+Piro, O.,
+Figueiredo, J.,
+Romeira, B.,
+Javaloyes, J.:
+Bursting and excitability in neuromorphic resonant tunneling diodes.
+Phys. Rev. Appl.
+<span class="ltx_text ltx_font_bold">15</span>,
+034017
+(2021)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1103/PhysRevApplied.15.034017" title="">https://doi.org/10.1103/PhysRevApplied.15.034017</a>
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Figueiredo et al. [1999]</span>
+<span class="ltx_bibblock">
+Figueiredo, J.M.L.,
+Stanley, C.R.,
+Boyd, A.R.,
+Ironside, C.N.,
+McMeekin, S.G.,
+Leite, A.M.P.:
+Optical modulation in a resonant tunneling relaxation oscillator.
+Applied Physics Letters
+<span class="ltx_text ltx_font_bold">74</span>(9),
+1197–1199
+(1999)
+<a class="ltx_ref ltx_url ltx_font_typewriter" href="https://doi.org/10.1063/1.123497" title="">https://doi.org/10.1063/1.123497</a>
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Oct 16 09:59:35 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>
