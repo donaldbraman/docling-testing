@@ -1,0 +1,62 @@
+{
+  "texas_law_review": {
+    "pdf": "texas_law_review_working-with-statutes",
+    "html": "texas_law_review_working-with-statutes",
+    "reason": "Representative medium-size law review"
+  },
+  "california_law_review": {
+    "pdf": "california_law_review_amazon-trademark",
+    "html": "california_law_review_amazon-trademark",
+    "reason": "CRITICAL: Known small caps fragmentation issue from Issue #38"
+  },
+  "usc_law_review": {
+    "pdf": "usc_law_review_listening_on_campus_academic_freedom_and_its_audiences",
+    "html": "usc_law_review_listening_on_campus_academic_freedom_and_its_audiences",
+    "reason": "Largest in corpus (20MB), tests scalability"
+  },
+  "harvard_law_review": {
+    "pdf": "harvard_law_review_unwarranted_warrants",
+    "html": "harvard_law_review_unwarranted_warrants",
+    "reason": "Largest Harvard entry (6MB)"
+  },
+  "bu_law_review": {
+    "pdf": "bu_law_review_law_and_culture",
+    "html": "bu_law_review_online_law_and_culture",
+    "reason": "Representative medium-size BU review"
+  },
+  "michigan_law_review": {
+    "pdf": "michigan_law_review_law_enforcement_privilege",
+    "html": "michigan_law_review_law_enforcement_privilege",
+    "reason": "Representative Michigan review"
+  },
+  "supreme_court_review": {
+    "pdf": "the_presidency_after_trump_v_united_states__the_supreme_court_review__vol_2024",
+    "html": "the_presidency_after_trump_v_united_states__the_supreme_court_review__vol_2024",
+    "reason": "Court review (different publication type)"
+  },
+  "wisconsin_law_review": {
+    "pdf": "wisconsin_law_review_marriage_equality_comes_to_wisconsin",
+    "html": "wisconsin_law_review_marriage_equality_comes_to_wisconsin",
+    "reason": "Only Wisconsin entry in corpus"
+  },
+  "virginia_law_review": {
+    "pdf": "virginia_law_review_the-unenumerated-power",
+    "html": "virginia_law_review_the-unenumerated-power",
+    "reason": "Only Virginia entry in corpus"
+  },
+  "ucla_law_review": {
+    "pdf": "ucla_law_review_insurgent_knowledge_battling_cdcr_from_inside_the_system_the_story_of_the_essential_collaboration_be",
+    "html": "ucla_law_review_insurgent_knowledge_battling_cdcr_from_inside_the_system_the_story_of_the_essential_collaboration_be",
+    "reason": "Only UCLA entry in corpus"
+  },
+  "misc_academic_1": {
+    "pdf": "academic_limbo__reforming_campus_speech_governance_for_students",
+    "html": "academic_limbo__reforming_campus_speech_governance_for_students",
+    "reason": "Non-law academic source (diversity)"
+  },
+  "misc_academic_2": {
+    "pdf": "antitrusts_interdependence_paradox",
+    "html": "antitrusts_interdependence_paradox",
+    "reason": "Cross-disciplinary source (diverse formatting)"
+  }
+}
