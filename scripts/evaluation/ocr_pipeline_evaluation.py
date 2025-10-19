@@ -452,8 +452,14 @@ class OCRPipelineEvaluator:
 
             ocr_start = time.time()
 
-            # Initialize PaddleOCR with GPU
-            ocr = PaddleOCR(use_gpu=True, lang="en")
+            # Initialize PaddleOCR with GPU (try multiple parameter names for compatibility)
+            try:
+                # Try new parameter name first
+                ocr = PaddleOCR(use_gpu=True, lang="en")
+            except TypeError:
+                # Fall back to no GPU parameter (will use CPU)
+                logger.warning("PaddleOCR use_gpu parameter not supported, using CPU")
+                ocr = PaddleOCR(lang="en")
 
             # Convert first 10 pages to images
             images = pdf2image.convert_from_path(str(pdf_path), first_page=1, last_page=10)
