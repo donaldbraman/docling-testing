@@ -108,6 +108,60 @@ class OCRPipelineEvaluator:
         self.extraction_results = []
         self.confusion_matrices = []
 
+        # Cache directory for image-only PDFs (single source of truth for all OCR methods)
+        self.image_only_pdf_dir = self.config.output_dir / "image_only_pdfs"
+        self.image_only_pdf_dir.mkdir(parents=True, exist_ok=True)
+
+    def _create_image_only_pdf(self, pdf_path: Path, pdf_name: str) -> Path:
+        """Create image-only PDF by rasterizing pages (strips text layer).
+
+        This creates the single source of truth for all OCR pipelines,
+        ensuring fair comparison by using identical image input for all methods.
+
+        Args:
+            pdf_path: Path to original PDF
+            pdf_name: PDF filename stem
+
+        Returns:
+            Path to image-only PDF
+        """
+        import img2pdf
+        import pdf2image
+
+        # Check cache first
+        image_only_pdf = self.image_only_pdf_dir / f"{pdf_name}_image_only.pdf"
+        if image_only_pdf.exists():
+            logger.debug(f"Using cached image-only PDF: {image_only_pdf.name}")
+            return image_only_pdf
+
+        logger.info(f"Creating image-only PDF from: {pdf_path.name}")
+
+        # Convert PDF to images (rasterize at 300 DPI for quality)
+        # Process first 10 pages only for evaluation
+        images = pdf2image.convert_from_path(
+            str(pdf_path),
+            dpi=300,
+            first_page=1,
+            last_page=10,
+            fmt="png",  # PNG for lossless quality
+        )
+
+        # Convert images to PDF (no text layer)
+        image_bytes_list = []
+        for img in images:
+            import io
+
+            img_byte_arr = io.BytesIO()
+            img.save(img_byte_arr, format="PNG")
+            image_bytes_list.append(img_byte_arr.getvalue())
+
+        # Create PDF from images (image-only, no text layer)
+        with open(image_only_pdf, "wb") as f:
+            f.write(img2pdf.convert(image_bytes_list))
+
+        logger.info(f"✓ Created image-only PDF: {len(images)} pages, {image_only_pdf.name}")
+        return image_only_pdf
+
     def run_evaluation(self) -> None:
         """Execute full evaluation pipeline."""
         logger.info("Starting OCR Pipeline Evaluation")
@@ -303,7 +357,7 @@ class OCRPipelineEvaluator:
         self._save_extraction_results()
 
     def _extract_baseline(self, pdf_path: Path, journal: str, pdf_name: str) -> ExtractionResult:
-        """Extract using baseline Docling (text layer only).
+        """Extract using baseline Docling (internal OCR + classification combined).
 
         Args:
             pdf_path: Path to PDF
@@ -318,9 +372,14 @@ class OCRPipelineEvaluator:
         try:
             from docling.document_converter import DocumentConverter
 
+            # Create image-only PDF (single source of truth)
+            image_only_pdf = self._create_image_only_pdf(pdf_path, pdf_name)
+
+            # Docling performs OCR + classification in one step when PDF has no text layer
+            ocr_start = time.time()
             converter = DocumentConverter()
-            doc = converter.convert(str(pdf_path))
-            total_time = time.time() - start
+            doc = converter.convert(str(image_only_pdf))
+            ocr_and_classification_time = time.time() - ocr_start
 
             # Metrics
             item_count = len(doc.document.texts) if doc.document.texts else 0
@@ -330,13 +389,16 @@ class OCRPipelineEvaluator:
             output_path = self.extractions_dir / f"{pdf_name}_baseline_extraction.json"
             self._save_docling_output(doc, output_path)
 
+            total_time = time.time() - start
+
             return ExtractionResult(
                 pipeline="baseline",
                 pdf_name=pdf_name,
                 journal=journal,
                 success=True,
-                extraction_time_ms=0,  # No OCR in baseline
-                classification_time_ms=total_time * 1000,
+                extraction_time_ms=ocr_and_classification_time
+                * 1000,  # Docling OCR+classification combined
+                classification_time_ms=0,  # Combined with OCR
                 total_time_ms=total_time * 1000,
                 page_count=page_count,
                 item_count=item_count,
@@ -358,7 +420,7 @@ class OCRPipelineEvaluator:
             )
 
     def _extract_ocrmypdf(self, pdf_path: Path, journal: str, pdf_name: str) -> ExtractionResult:
-        """Extract using OCRmyPDF (Tesseract).
+        """Extract using OCRmyPDF (Tesseract OCR) + Docling classification.
 
         Args:
             pdf_path: Path to PDF
@@ -371,55 +433,57 @@ class OCRPipelineEvaluator:
         start = time.time()
 
         try:
-            import tempfile
-
             import ocrmypdf
             from docling.document_converter import DocumentConverter
 
+            # Create image-only PDF (single source of truth)
+            image_only_pdf = self._create_image_only_pdf(pdf_path, pdf_name)
+
+            # Run OCRmyPDF to add text layer
             ocr_start = time.time()
 
-            # OCR the PDF (first 10 pages for speed)
-            # Use force_ocr=True to process PDFs with existing text layers
-            with tempfile.TemporaryDirectory() as tmpdir:
-                ocr_output = Path(tmpdir) / "ocr.pdf"
-                ocrmypdf.ocr(
-                    str(pdf_path),
-                    str(ocr_output),
-                    language="eng",
-                    pages="1-10",
-                    progress_bar=False,
-                    force_ocr=True,
-                )
-                ocr_time = time.time() - ocr_start
+            # Save OCR output to persistent location
+            ocrmypdf_dir = self.extractions_dir.parent / "ocrmypdf_pdfs"
+            ocrmypdf_dir.mkdir(parents=True, exist_ok=True)
+            ocrmypdf_pdf_path = ocrmypdf_dir / f"{pdf_name}_ocr.pdf"
 
-                # Extract with Docling
-                classification_start = time.time()
-                converter = DocumentConverter()
-                doc = converter.convert(str(ocr_output))
-                classification_time = time.time() - classification_start
+            ocrmypdf.ocr(
+                str(image_only_pdf),
+                str(ocrmypdf_pdf_path),
+                language="eng",
+                progress_bar=False,
+                force_ocr=True,
+            )
+            ocr_time = time.time() - ocr_start
 
-                # Metrics
-                item_count = len(doc.document.texts) if doc.document.texts else 0
-                page_count = len(doc.pages) if doc.pages else 1
+            # Run Docling classification on OCR'd PDF
+            classification_start = time.time()
+            converter = DocumentConverter()
+            doc = converter.convert(str(ocrmypdf_pdf_path))
+            classification_time = time.time() - classification_start
 
-                # Save extraction
-                output_path = self.extractions_dir / f"{pdf_name}_ocrmypdf_extraction.json"
-                self._save_docling_output(doc, output_path)
+            # Metrics
+            item_count = len(doc.document.texts) if doc.document.texts else 0
+            page_count = len(doc.pages) if doc.pages else 1
 
-                total_time = time.time() - start
+            # Save extraction JSON (includes text blocks with position data)
+            output_path = self.extractions_dir / f"{pdf_name}_ocrmypdf_extraction.json"
+            self._save_docling_output(doc, output_path)
 
-                return ExtractionResult(
-                    pipeline="ocrmypdf",
-                    pdf_name=pdf_name,
-                    journal=journal,
-                    success=True,
-                    extraction_time_ms=ocr_time * 1000,
-                    classification_time_ms=classification_time * 1000,
-                    total_time_ms=total_time * 1000,
-                    page_count=page_count,
-                    item_count=item_count,
-                    items_per_page=item_count / page_count if page_count > 0 else 0,
-                )
+            total_time = time.time() - start
+
+            return ExtractionResult(
+                pipeline="ocrmypdf",
+                pdf_name=pdf_name,
+                journal=journal,
+                success=True,
+                extraction_time_ms=ocr_time * 1000,
+                classification_time_ms=classification_time * 1000,
+                total_time_ms=total_time * 1000,
+                page_count=page_count,
+                item_count=item_count,
+                items_per_page=item_count / page_count if page_count > 0 else 0,
+            )
         except Exception as e:
             return ExtractionResult(
                 pipeline="ocrmypdf",
@@ -435,8 +499,76 @@ class OCRPipelineEvaluator:
                 error=str(e),
             )
 
+    def _create_searchable_pdf_from_paddle(
+        self, images: list, ocr_results: list, output_path: Path
+    ) -> None:
+        """Create searchable PDF from PaddleOCR results.
+
+        Creates a 'sandwich' PDF with images and invisible positioned text overlay.
+
+        Args:
+            images: List of PIL images
+            ocr_results: List of PaddleOCR results (one per page)
+            output_path: Output PDF path
+        """
+
+        from reportlab.lib.utils import ImageReader
+        from reportlab.pdfgen import canvas
+
+        # Create PDF with reportlab
+        c = canvas.Canvas(str(output_path))
+
+        for page_idx, (image, page_result) in enumerate(zip(images, ocr_results, strict=False)):
+            # Get image dimensions
+            img_width, img_height = image.size
+
+            # Set page size to match image
+            c.setPageSize((img_width, img_height))
+
+            # Draw image as background
+            img_reader = ImageReader(image)
+            c.drawImage(img_reader, 0, 0, width=img_width, height=img_height)
+
+            # Add invisible text overlay from OCR results
+            # PaddleOCR predict() returns: [OCRResult(dt_polys=[...], rec_texts=[...], rec_scores=[...])]
+            if page_result and isinstance(page_result, list) and len(page_result) > 0:
+                page_data = page_result[0]
+                # OCRResult object has dict-like access to keys
+                dt_polys = page_data.get("dt_polys", [])
+                rec_texts = page_data.get("rec_texts", [])  # Fixed: plural 'rec_texts'
+                rec_scores = page_data.get("rec_scores", [])  # Fixed: plural 'rec_scores'
+
+                for idx, (bbox, text) in enumerate(zip(dt_polys, rec_texts, strict=False)):
+                    try:
+                        if not text or not bbox or len(bbox) < 4:
+                            continue
+
+                        # Get text position (top-left corner)
+                        x = bbox[0][0]
+                        # PDF coordinates are bottom-up, so flip Y
+                        y = img_height - bbox[0][1]
+
+                        # Estimate font size from bounding box height
+                        bbox_height = abs(bbox[2][1] - bbox[0][1])
+                        font_size = max(bbox_height * 0.8, 1)  # Conservative estimate
+
+                        # Add invisible text (white text on white background)
+                        c.setFillColorRGB(1, 1, 1, alpha=0)  # Invisible
+                        c.setFont("Helvetica", font_size)
+                        c.drawString(x, y, text)
+
+                    except (IndexError, TypeError, KeyError, ValueError) as e:
+                        # Skip malformed OCR results
+                        continue
+
+            # Finish page
+            c.showPage()
+
+        # Save PDF
+        c.save()
+
     def _extract_paddleocr(self, pdf_path: Path, journal: str, pdf_name: str) -> ExtractionResult:
-        """Extract using PaddleOCR (GPU-accelerated).
+        """Extract using PaddleOCR (GPU-accelerated OCR) + Docling classification.
 
         Args:
             pdf_path: Path to PDF
@@ -449,34 +581,52 @@ class OCRPipelineEvaluator:
         start = time.time()
 
         try:
+            import numpy as np
             import pdf2image
+            from docling.document_converter import DocumentConverter
             from paddleocr import PaddleOCR
 
-            ocr_start = time.time()
+            # Create image-only PDF (single source of truth)
+            image_only_pdf = self._create_image_only_pdf(pdf_path, pdf_name)
 
-            # Initialize PaddleOCR (auto-detect GPU if available)
-            # Note: Some versions don't support explicit use_gpu parameter,
-            # so we initialize without it and let PaddleOCR handle GPU detection
+            # Convert to images for PaddleOCR
+            images = pdf2image.convert_from_path(str(image_only_pdf))
+
+            # Run PaddleOCR
+            ocr_start = time.time()
             ocr = PaddleOCR(lang="en")
 
-            # Convert first 10 pages to images
-            images = pdf2image.convert_from_path(str(pdf_path), first_page=1, last_page=10)
-
-            # Run OCR
-            item_count = 0
+            ocr_results = []
             for image in images:
-                result = ocr.ocr(image, cls=True)
-                if result and result[0]:
-                    item_count += len(result[0])
+                # PaddleOCR requires RGB images
+                if image.mode != "RGB":
+                    image = image.convert("RGB")
+                image_array = np.array(image)
+                result = ocr.predict(image_array)
+                ocr_results.append(result)
 
             ocr_time = time.time() - ocr_start
 
-            # Note: For full integration, would pass OCR results to Docling for classification
-            # For now, estimate based on page count
-            page_count = len(images)
-            items_per_page = item_count / page_count if page_count > 0 else 0
+            # Create searchable PDF from PaddleOCR results
+            paddleocr_dir = self.extractions_dir.parent / "paddleocr_pdfs"
+            paddleocr_dir.mkdir(parents=True, exist_ok=True)
+            paddleocr_pdf_path = paddleocr_dir / f"{pdf_name}_paddle_ocr.pdf"
 
-            classification_time = 0  # Placeholder
+            self._create_searchable_pdf_from_paddle(images, ocr_results, paddleocr_pdf_path)
+
+            # Run Docling classification on OCR'd PDF
+            classification_start = time.time()
+            converter = DocumentConverter()
+            doc = converter.convert(str(paddleocr_pdf_path))
+            classification_time = time.time() - classification_start
+
+            # Metrics
+            item_count = len(doc.document.texts) if doc.document.texts else 0
+            page_count = len(doc.pages) if doc.pages else 1
+
+            # Save extraction JSON
+            output_path = self.extractions_dir / f"{pdf_name}_paddleocr_extraction.json"
+            self._save_docling_output(doc, output_path)
 
             total_time = time.time() - start
 
@@ -490,7 +640,7 @@ class OCRPipelineEvaluator:
                 total_time_ms=total_time * 1000,
                 page_count=page_count,
                 item_count=item_count,
-                items_per_page=items_per_page,
+                items_per_page=item_count / page_count if page_count > 0 else 0,
             )
         except Exception as e:
             return ExtractionResult(
