@@ -379,6 +379,7 @@ class OCRPipelineEvaluator:
             ocr_start = time.time()
 
             # OCR the PDF (first 10 pages for speed)
+            # Use force_ocr=True to process PDFs with existing text layers
             with tempfile.TemporaryDirectory() as tmpdir:
                 ocr_output = Path(tmpdir) / "ocr.pdf"
                 ocrmypdf.ocr(
@@ -387,6 +388,7 @@ class OCRPipelineEvaluator:
                     language="eng",
                     pages="1-10",
                     progress_bar=False,
+                    force_ocr=True,
                 )
                 ocr_time = time.time() - ocr_start
 
@@ -452,14 +454,10 @@ class OCRPipelineEvaluator:
 
             ocr_start = time.time()
 
-            # Initialize PaddleOCR with GPU (try multiple parameter names for compatibility)
-            try:
-                # Try new parameter name first
-                ocr = PaddleOCR(use_gpu=True, lang="en")
-            except TypeError:
-                # Fall back to no GPU parameter (will use CPU)
-                logger.warning("PaddleOCR use_gpu parameter not supported, using CPU")
-                ocr = PaddleOCR(lang="en")
+            # Initialize PaddleOCR (auto-detect GPU if available)
+            # Note: Some versions don't support explicit use_gpu parameter,
+            # so we initialize without it and let PaddleOCR handle GPU detection
+            ocr = PaddleOCR(lang="en")
 
             # Convert first 10 pages to images
             images = pdf2image.convert_from_path(str(pdf_path), first_page=1, last_page=10)
