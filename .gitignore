@@ -14,6 +14,13 @@ data/raw_pdf/
 data/html_pdf_pairs/*.csv
 *.pkl
 
+# v3 data analysis artifacts (issue #38)
+data/v3_data/heinonline_pdfs/
+data/v3_data/v3_csv_v*/
+data/v3_data/*_comparison.csv
+data/v3_data/*_comparison_table.md
+data/v3_data/version_comparison.md
+
 # Models (too large for git)
 models/*.pt
 models/*.bin
