@@ -16,12 +16,16 @@ Usage:
 import argparse
 import json
 import logging
+import sys
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
+
+# Add scripts directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -135,26 +139,106 @@ class OCRPipelineEvaluator:
             raise
 
     def _extract_ground_truth(self) -> None:
-        """Extract ground truth labels from HTML files."""
-        logger.info("Extracting ground truth from HTML files...")
+        """Load/extract ground truth labels (from processed_html if available)."""
+        logger.info("Loading ground truth from processed_html...")
 
-        from scripts.evaluation.html_ground_truth_extractor import (
+        processed_html_dir = Path("data/v3_data/processed_html")
+
+        for journal, files in self.config.test_pdfs.items():
+            pdf_name = files["pdf"]
+
+            # Try to use pre-processed ground truth first
+            processed_file = processed_html_dir / f"{pdf_name}.json"
+            if processed_file.exists():
+                # Convert processed_html format to our format
+                gt_data = self._convert_processed_html_to_gt(processed_file, journal)
+
+                output_path = self.ground_truth_dir / f"{pdf_name}_ground_truth.json"
+                with open(output_path, "w") as f:
+                    json.dump(gt_data, f, indent=2)
+
+                logger.info(
+                    f"  {journal}: {pdf_name} (from processed_html: "
+                    f"{len(gt_data['body_text_paragraphs'])} body paragraphs)"
+                )
+            else:
+                # Fall back to HTML extraction if processed version not available
+                logger.warning(f"  {journal}: {pdf_name} not in processed_html, using raw HTML")
+                self._extract_from_raw_html(pdf_name, journal)
+
+        logger.info("Ground truth loading complete")
+
+    def _convert_processed_html_to_gt(self, processed_file: Path, journal: str) -> dict[str, Any]:
+        """Convert processed_html format to ground truth format.
+
+        Args:
+            processed_file: Path to processed HTML JSON
+            journal: Journal name
+
+        Returns:
+            Ground truth dict in expected format
+        """
+        with open(processed_file) as f:
+            data = json.load(f)
+
+        # Extract body_text and footnote paragraphs (labels use hyphens in processed_html)
+        body_text = [
+            {
+                "text": para["text"],
+                "source": "processed_html",
+                "length": len(para["text"]),
+            }
+            for para in data.get("paragraphs", [])
+            if para.get("label") == "body-text"
+        ]
+
+        footnotes = [
+            {
+                "text": para["text"],
+                "source": "processed_html",
+                "length": len(para["text"]),
+            }
+            for para in data.get("paragraphs", [])
+            if para.get("label") == "footnote-text"
+        ]
+
+        return {
+            "file": data.get("basename", "unknown"),
+            "journal": journal,
+            "body_text_paragraphs": body_text,
+            "footnotes": footnotes,
+            "headers": [],
+            "other_elements": [],
+            "metadata": {
+                "source": "processed_html",
+                "total_body_paragraphs": len(body_text),
+                "total_footnotes": len(footnotes),
+                "total_headers": 0,
+                "total_other": 0,
+                "extraction_method": data.get("extraction_method", "unknown"),
+                "stats": data.get("stats", {}),
+            },
+        }
+
+    def _extract_from_raw_html(self, pdf_name: str, journal: str) -> None:
+        """Fall back to raw HTML extraction if processed version not available.
+
+        Args:
+            pdf_name: PDF file name stem
+            journal: Journal name
+        """
+        from html_ground_truth_extractor import (
             HTMLGroundTruthExtractor,
         )
 
+        html_path = Path("data/v3_data/raw_html") / (pdf_name + ".html")
+
+        if not html_path.exists():
+            logger.warning(f"Neither processed nor raw HTML found for {pdf_name}")
+            return
+
         extractor = HTMLGroundTruthExtractor(output_dir=self.ground_truth_dir)
-
-        for journal, files in self.config.test_pdfs.items():
-            html_path = Path("data/v3_data/raw_html") / (files["html"] + ".html")
-
-            if not html_path.exists():
-                logger.warning(f"HTML not found: {html_path}")
-                continue
-
-            logger.info(f"  {journal}: {files['html']}")
-            extractor.extract(html_path, journal=journal)
-
-        logger.info("Ground truth extraction complete")
+        extractor.extract(html_path, journal=journal)
 
     def _run_extractions(self) -> None:
         """Run all enabled extraction pipelines."""
