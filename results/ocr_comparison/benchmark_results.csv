@@ -1,0 +1,13 @@
+pipeline,pdf,success,ocr_time_ms,classification_time_ms,total_time_ms,items,pages,items_per_page,error
+baseline,antitrusts_interdependence_paradox.pdf,False,0.0,0.0,1.9073486328125e-06,0,0,0.0,Docling converter not initialized
+print_to_image,antitrusts_interdependence_paradox.pdf,False,0.0,0.0,0.014316082000732422,0,0,0.0,pdftoppm not found (install poppler-utils)
+paddleocr,antitrusts_interdependence_paradox.pdf,False,0.0,0.0,4.231857061386108,0,0,0.0,PaddleOCR not installed: No module named 'pdf2image'
+ocrmypdf,antitrusts_interdependence_paradox.pdf,False,0.0,0.0,0.19103693962097168,0,0,0.0,Could not find program 'tesseract' on the PATH
+baseline,platform_liability_for_platform_manipulation.pdf,False,0.0,0.0,9.5367431640625e-07,0,0,0.0,Docling converter not initialized
+print_to_image,platform_liability_for_platform_manipulation.pdf,False,0.0,0.0,0.011174917221069336,0,0,0.0,pdftoppm not found (install poppler-utils)
+paddleocr,platform_liability_for_platform_manipulation.pdf,False,0.0,0.0,0.0002129077911376953,0,0,0.0,PaddleOCR not installed: No module named 'pdf2image'
+ocrmypdf,platform_liability_for_platform_manipulation.pdf,False,0.0,0.0,0.017882823944091797,0,0,0.0,Could not find program 'tesseract' on the PATH
+baseline,california_law_review_voter-pay.pdf,False,0.0,0.0,9.5367431640625e-07,0,0,0.0,Docling converter not initialized
+print_to_image,california_law_review_voter-pay.pdf,False,0.0,0.0,0.011528968811035156,0,0,0.0,pdftoppm not found (install poppler-utils)
+paddleocr,california_law_review_voter-pay.pdf,False,0.0,0.0,0.00021314620971679688,0,0,0.0,PaddleOCR not installed: No module named 'pdf2image'
+ocrmypdf,california_law_review_voter-pay.pdf,False,0.0,0.0,0.01796412467956543,0,0,0.0,Could not find program 'tesseract' on the PATH
