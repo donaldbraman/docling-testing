@@ -9,6 +9,8 @@ This module parses those strings to extract:
 - bounding box coordinates
 """
 
+from __future__ import annotations
+
 import json
 import re
 from dataclasses import dataclass
