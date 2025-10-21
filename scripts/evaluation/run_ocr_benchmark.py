@@ -218,8 +218,8 @@ class BenchmarkRunner:
             # Initialize with GPU if available
             ocr = PaddleOCR(use_gpu=True, lang="en")
 
-            # Convert to images
-            images = pdf2image.convert_from_path(str(pdf_path), first_page=1, last_page=3)
+            # Convert to images (all pages)
+            images = pdf2image.convert_from_path(str(pdf_path))
             page_count = len(images)
             item_count = 0
 
