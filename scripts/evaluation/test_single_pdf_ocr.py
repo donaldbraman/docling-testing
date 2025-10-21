@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 def create_image_only_pdf(pdf_path: Path, output_dir: Path, max_pages: int | None = None) -> Path:
-    """Create image-only PDF by rasterizing ALL pages.
+    """Create image-only PDF by rasterizing ALL pages using PyMuPDF.
 
     Args:
         pdf_path: Path to original PDF
@@ -28,8 +28,7 @@ def create_image_only_pdf(pdf_path: Path, output_dir: Path, max_pages: int | Non
     Returns:
         Path to image-only PDF
     """
-    import img2pdf
-    import pdf2image
+    import fitz  # PyMuPDF
 
     output_path = output_dir / f"{pdf_path.stem}_image_only.pdf"
 
@@ -40,33 +39,89 @@ def create_image_only_pdf(pdf_path: Path, output_dir: Path, max_pages: int | Non
     logger.info(f"  Creating image-only PDF from: {pdf_path.name}")
     logger.info(f"  Processing: {'ALL pages' if max_pages is None else f'first {max_pages} pages'}")
 
-    # Convert PDF to images at 300 DPI
-    kwargs = {
-        "dpi": 300,
-        "fmt": "png",
-    }
-    if max_pages is not None:
-        kwargs["first_page"] = 1
-        kwargs["last_page"] = max_pages
+    # Open original PDF
+    src_doc = fitz.open(str(pdf_path))
 
-    images = pdf2image.convert_from_path(str(pdf_path), **kwargs)
+    # Determine page range
+    total_pages = len(src_doc)
+    page_count = min(max_pages, total_pages) if max_pages else total_pages
 
-    # Convert images to PDF
-    import io
+    # Create new PDF document
+    img_doc = fitz.open()
 
-    image_bytes_list = []
-    for i, img in enumerate(images, 1):
-        logger.info(f"    Converting page {i}/{len(images)} to PNG...")
-        img_byte_arr = io.BytesIO()
-        img.save(img_byte_arr, format="PNG")
-        image_bytes_list.append(img_byte_arr.getvalue())
+    # Render each page as image and add to new PDF
+    for i in range(page_count):
+        logger.info(f"    Converting page {i + 1}/{page_count} to image...")
 
-    # Create image-only PDF
-    with open(output_path, "wb") as f:
-        f.write(img2pdf.convert(image_bytes_list))
+        # Get page
+        page = src_doc[i]
 
-    logger.info(f"  ✓ Created image-only PDF: {len(images)} pages")
+        # Render page to image at 300 DPI
+        mat = fitz.Matrix(300 / 72, 300 / 72)  # 300 DPI scaling
+        pix = page.get_pixmap(matrix=mat)
+
+        # Create new page with same dimensions
+        img_page = img_doc.new_page(width=page.rect.width, height=page.rect.height)
+
+        # Insert image
+        img_page.insert_image(img_page.rect, pixmap=pix)
+
+    # Save image-only PDF
+    img_doc.save(str(output_path))
+    img_doc.close()
+    src_doc.close()
+
+    logger.info(f"  ✓ Created image-only PDF: {page_count} pages")
     return output_path
+
+
+def run_docling_ocr(image_pdf: Path, output_dir: Path) -> Path:
+    """Run Docling's internal OCR and extract text directly.
+
+    Args:
+        image_pdf: Path to image-only PDF
+        output_dir: Output directory
+
+    Returns:
+        Path to extraction JSON
+    """
+    from docling.document_converter import DocumentConverter
+
+    logger.info("  Running Docling internal OCR...")
+    start = time.time()
+
+    try:
+        # Run Docling with internal OCR on image-only PDF
+        converter = DocumentConverter()
+        doc = converter.convert(str(image_pdf))
+
+        elapsed = time.time() - start
+        logger.info(f"  ✓ Docling OCR completed in {elapsed:.1f}s")
+
+        # Save extraction
+        output_path = output_dir / f"{image_pdf.stem}_baseline_extraction.json"
+        extraction_data = {
+            "texts": list(doc.document.texts) if doc.document.texts else [],
+            "page_count": len(doc.pages) if doc.pages else 0,
+            "metadata": {
+                "pipeline": "baseline",
+                "extraction_time_s": elapsed,
+            },
+        }
+
+        with open(output_path, "w") as f:
+            json.dump(extraction_data, f, indent=2, default=str)
+
+        logger.info(f"  ✓ Saved extraction: {output_path.name}")
+        logger.info(
+            f"      {len(extraction_data['texts'])} text blocks, {extraction_data['page_count']} pages"
+        )
+
+        return output_path
+
+    except Exception as e:
+        logger.error(f"  ✗ Docling OCR failed: {e}")
+        raise RuntimeError(f"Docling OCR failed: {e}") from e
 
 
 def run_ocrmypdf(image_pdf: Path, output_dir: Path) -> Path:
@@ -110,6 +165,68 @@ def run_ocrmypdf(image_pdf: Path, output_dir: Path) -> Path:
     logger.info(f"  ✓ OCRmyPDF completed in {elapsed:.1f}s")
 
     return output_path
+
+
+def run_paddleocr(image_pdf: Path, output_dir: Path) -> Path:
+    """Run PaddleOCR to extract text.
+
+    Args:
+        image_pdf: Path to image-only PDF
+        output_dir: Output directory
+
+    Returns:
+        Path to extraction JSON
+    """
+    logger.info("  Running PaddleOCR...")
+    start = time.time()
+
+    try:
+        import pdf2image
+        from paddleocr import PaddleOCR
+
+        # Initialize PaddleOCR with GPU if available
+        ocr = PaddleOCR(use_gpu=True, lang="en")
+
+        # Convert PDF to images
+        images = pdf2image.convert_from_path(str(image_pdf), dpi=300)
+        logger.info(f"    Processing {len(images)} pages...")
+
+        # Run OCR on each page
+        all_texts = []
+        for i, image in enumerate(images, 1):
+            logger.info(f"    Page {i}/{len(images)}...")
+            result = ocr.ocr(image, cls=True)
+
+            # Extract text from OCR result
+            if result and result[0]:
+                page_texts = [line[1][0] for line in result[0]]
+                all_texts.extend(page_texts)
+
+        elapsed = time.time() - start
+        logger.info(f"  ✓ PaddleOCR completed in {elapsed:.1f}s")
+
+        # Save extraction in same format as other methods
+        output_path = output_dir / f"{image_pdf.stem}_paddleocr_extraction.json"
+        extraction_data = {
+            "texts": all_texts,
+            "page_count": len(images),
+            "metadata": {
+                "pipeline": "paddleocr",
+                "extraction_time_s": elapsed,
+            },
+        }
+
+        with open(output_path, "w") as f:
+            json.dump(extraction_data, f, indent=2, default=str)
+
+        logger.info(f"  ✓ Saved extraction: {output_path.name}")
+        logger.info(f"      {len(all_texts)} text blocks, {len(images)} pages")
+
+        return output_path
+
+    except ImportError as e:
+        logger.error(f"  ✗ PaddleOCR not installed: {e}")
+        raise RuntimeError(f"PaddleOCR not installed: {e}") from e
 
 
 def extract_with_docling(pdf_path: Path, output_dir: Path, pipeline_name: str) -> Path:
@@ -177,7 +294,7 @@ def main():
     parser.add_argument(
         "--method",
         type=str,
-        choices=["baseline", "ocrmypdf"],
+        choices=["baseline", "ocrmypdf", "paddleocr"],
         default="ocrmypdf",
         help="Extraction method to test",
     )
@@ -229,17 +346,20 @@ def main():
         logger.info("[1/3] Creating image-only PDF...")
         image_pdf = create_image_only_pdf(pdf_path, output_dir, args.max_pages)
 
-        # Step 2: Run OCR (if not baseline)
-        if args.method == "ocrmypdf":
-            logger.info("\n[2/3] Running OCRmyPDF...")
+        # Step 2 & 3: Run OCR and extract text
+        if args.method == "baseline":
+            logger.info("\n[2/3] Running Docling internal OCR...")
+            extraction_path = run_docling_ocr(image_pdf, output_dir)
+            logger.info("\n[3/3] Baseline extraction complete...")
+        elif args.method == "ocrmypdf":
+            logger.info("\n[2/3] Running OCRmyPDF (Tesseract)...")
             ocr_pdf = run_ocrmypdf(image_pdf, output_dir)
-        else:
-            logger.info("\n[2/3] Skipping OCR (baseline mode)...")
-            ocr_pdf = image_pdf
-
-        # Step 3: Extract with Docling
-        logger.info("\n[3/3] Extracting with Docling...")
-        extraction_path = extract_with_docling(ocr_pdf, output_dir, args.method)
+            logger.info("\n[3/3] Extracting text from OCR'd PDF...")
+            extraction_path = extract_with_docling(ocr_pdf, output_dir, args.method)
+        elif args.method == "paddleocr":
+            logger.info("\n[2/3] Running PaddleOCR...")
+            extraction_path = run_paddleocr(image_pdf, output_dir)
+            logger.info("\n[3/3] PaddleOCR extraction complete...")
 
         logger.info("\n" + "=" * 80)
         logger.info("EXTRACTION COMPLETE")
