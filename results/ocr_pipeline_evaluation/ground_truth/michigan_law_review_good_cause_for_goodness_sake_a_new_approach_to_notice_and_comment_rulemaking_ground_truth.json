@@ -1,0 +1,453 @@
+{
+  "file": "michigan_law_review_good_cause_for_goodness_sake_a_new_approach_to_notice_and_comment_rulemaking.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Notice and comment is a public participation process, first articulated in the Administrative Procedure Act (APA), that was heralded at the time as a critical innovation to engage the general population in the administrative agency rulemaking process. It has been crippled in the past fifty years, first by a series of cases—primarily at the circuit court level—which imposed new procedural requirements on agencies outside the text of the APA itself, and then by technological advancements that have enabled sophisticated parties to game the system while boxing others out. Rather than creating a democratic open-door process, notice and comment has become inequitable, inaccessible, and ineffective. Procedural requirements imposed not by statute but by judges have created both a resource management problem and a litigation trap for administrative agencies, at times preventing them from achieving the actual governance that rules and regulations are meant to advance.",
+      "source": "article_tag",
+      "length": 972
+    },
+    {
+      "text": "This Note offers agencies a solution already enshrined in the APA that would not require the exceedingly impracticable legislative action many proposed solutions rely on. The existing statutory tool—the good cause exception to notice and comment in section 553 of the APA—should be paired with a series of public engagement tools that are already available to agencies. Unlike notice and comment, these engagement methods are minimally resource-intensive and adapted to existing twenty-first century technologies. This approach preserves meaningful public participation in the rulemaking process while addressing many of the problems apparent in notice and comment without introducing new legislation, explicitly overruling any Supreme Court jurisprudence, or imposing new resource challenges on agencies.",
+      "source": "article_tag",
+      "length": 805
+    },
+    {
+      "text": "No administrator in Washington turns to full-scale notice-and-comment rulemaking when she is genuinely interested in obtaining input from interested parties. Notice-and-comment rulemaking is to public participation as Japanese Kabuki theater is to human passions—a highly stylized process for displaying in a formal way the essence of something which in real life takes place in other venues.",
+      "source": "article_tag",
+      "length": 392
+    },
+    {
+      "text": "There is no shortage of scholarship addressing the challenges created by the process known as notice-and-comment rulemaking. Notice and comment is rooted in the Administrative Procedure Act (APA), which describes regulations promulgated through informal rulemakingby an administrative agency as “pursuant to notice and receipt of public comment.”What has been seemingly lost on many is that the APA itself creates virtually no requirements for agencies other than a handful of vague references to “notice and receipt of public comment” throughout the statute.Rather, judges created the requirements that agencies follow today through a series of cases in the 1970s and ’80s.These cases laid out specific requirements for what agencies must do vis-à-vis notice and comment to survive the APA’s arbitrary-and-capricious standard of review.Those requirements have ballooned well beyond the text of the APA, creating a procedure that is often incredibly cumbersome for agencies. Rather than enabling agencies to meaningfully engage with the public as intended, modern-day notice and comment allows business interests and other well-resourced actors to play an outsized role in the rulemaking process while draining the agency’s resources. Technological developments since the 1970s, when a series of administrative law cases expanded notice and comment, have only escalated these issues through phenomena such as mass comments.The rapid development of artificial intelligence will surely exacerbate these challenges.",
+      "source": "article_tag",
+      "length": 1512
+    },
+    {
+      "text": "Many scholars have offered suggestions for how to address these problems. Some focus on legislative reform, proposing APA amendments and/or new legislation.Others suggest introducing alternative forms of public participation, such as federal advisory committees, to supplement notice and comment.However, few have entertained the concept that agencies could do only what is strictly required of them by statute to fulfill their notice-and-comment responsibilities. In fact, there is a situation in which agencies may bypass notice-and-comment requirements: “good cause rulemaking.”Agencies likely have been reluctant to employ the good cause exception for fear of litigation and negative court reactions. This exception is, however, the most effective and realistic option currently available to agencies to circumvent the mess that notice and comment has become. The 2024 Trump White House has instructed agencies to rely on the good cause exception to advance regulatory reform efforts,albeit relying on a different justification within the exception than that which this Note focuses on.",
+      "source": "article_tag",
+      "length": 1090
+    },
+    {
+      "text": "This Note considers existing issues with public participation in the informal rulemaking process and proposes a solution that combines the statutory good cause exception with the functional implementation of public engagement methods inspired by the Biden Administration. Part I provides an overview of the existing tools for public participation in the rulemaking process, namely notice and comment; the Federal Advisory Committee Act (FACA); and off-the-record consultation between senior agency officials and their industry contacts, what this Note refers to as “Rolodex Rulemaking.” Part II describes the problems inherent to each of these three approaches. Specifically, this Note addresses the ability to manipulate existing notice-and-comment processes; limitations on agency resources that strain both notice and comment and federal advisory committees; and inequity issues stemming from industry stakeholders’ involvement across notice and comment, FACA, and Rolodex Rulemaking. Finally, Part III proposes a solution and addresses the likely outcome of legal challenges. This Note argues for adopting alternate, modernized public engagement practices, modeled on efforts by the Biden Administration, in conjunction with the expansion of good cause rulemaking to fulfill the responsibilities that judge-made law has imposed on agencies throughout the history of APA jurisprudence.",
+      "source": "article_tag",
+      "length": 1388
+    },
+    {
+      "text": "There is clear value to public participation in the rulemaking process. To the extent administrative agencies, despite being labeled by some as the “fourth branch of government,”are an extension of the democratically elected president and the executive branch, those same citizens who elect their president should have a voice in agency actions. What form that voice should take, however, is less clear. In the modern age, a handful of tools are available to engage the public in the agency rulemaking process. The most prevalent, and the most damaged, is the notice-and-comment process. Although agencies may supplement notice-and-comment procedures with other formal and informal processes, those processes do not replace notice and comment, given courts’ current expectations. The statutory requirements of notice and comment are minimal; however, case law has expanded those requirements beyond what is feasible for agencies today and beyond what the drafters of the APA envisioned.",
+      "source": "article_tag",
+      "length": 986
+    },
+    {
+      "text": "The phrase notice-and-comment rulemaking refers to the process an agency undertakes when it publishes notice of a proposed rule or regulation in the Federal Register; opens the proposed rule up for public comment; and then reviews those comments, addressing any of particular substance in its final rule.Legislators included this process—albeit a bare-bones one—in the APA “to permit [the] introduction of evidence relevant to the topic and argument about the proposed rule” through “advance notice to the public and a public hearing.”The second component of the process, a public hearing, is required only when an agency participates informalrulemaking, as described in section 553 of the APA.Since the Act’s passage, court precedent has limited formal rulemaking to only those relatively few rulemakings required by statute to be conducted “on the record after opportunity for an agency hearing.”During informal rulemaking—the focus of this Note and the venue for notice and comment—the agency must provide “[g]eneral notice” and “give interested persons an opportunity to participate.”",
+      "source": "article_tag",
+      "length": 1088
+    },
+    {
+      "text": "The plain text of the APA provides an agency with very little guidance about what constitutes notice and comment or what steps it must take to survive the standard of judicial review articulated in section 706: “[T]he reviewing court shall . . . (2) hold unlawful and set aside agency action, findings, and conclusions found to be— (A) arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law.”Not only are specific requirements, such as those that have since been created by judges, absent from the APA, but as Professor Stuart Benjamin stated, “I am aware of no statute that actually directs an agency to consider the public’s views.”",
+      "source": "article_tag",
+      "length": 666
+    },
+    {
+      "text": "The notice-and-comment requirement is introduced in section 552(a)(4)(A)(i) of the statute, and the most thorough description of the process is provided in sections 553(b) and (c):",
+      "source": "article_tag",
+      "length": 180
+    },
+    {
+      "text": "(b) General notice of proposed rule making shall be published in the Federal Register, unless persons subject thereto are named and either personally served or otherwise have actual notice thereof in accordance with law. The notice shall include—",
+      "source": "article_tag",
+      "length": 246
+    },
+    {
+      "text": "(1) a statement of the time, place, and nature of public rule making proceedings;",
+      "source": "article_tag",
+      "length": 81
+    },
+    {
+      "text": "(2) reference to the legal authority under which the rule is proposed;",
+      "source": "article_tag",
+      "length": 70
+    },
+    {
+      "text": "(3) either the terms or substance of the proposed rule or a description of the subjects and issues involved; and",
+      "source": "article_tag",
+      "length": 112
+    },
+    {
+      "text": "(4) the Internet address of a summary of not more than 100 words in length of the proposed rule, in plain language, that shall be posted on the Internet website under section 206(d) of the E-Government Act of 2002 (44 U.S.C. 3501 note) (commonly known as regulations.gov).",
+      "source": "article_tag",
+      "length": 272
+    },
+    {
+      "text": "(c) After notice required by this section, the agency shall give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments with or without opportunity for oral presentation. After consideration of the relevant matter presented, the agency shall incorporate in the rules adopted a concise general statement of their basis and purpose.",
+      "source": "article_tag",
+      "length": 399
+    },
+    {
+      "text": "Section 553 also provides four exceptions to the notice-and-comment requirements. The first exception is for “interpretative rules, general statements of policy, or rules of agency organization, procedure, or practice.”The second exception is “when the agency for good cause finds (and incorporates the finding and a brief statement of reasons therefor in the rules issued) that notice and public procedure thereon are impracticable, unnecessary, or contrary to the public interest.”The third and fourth exceptions are for rules that involve either “a military or foreign affairs function” or “a matter relating to agency management or personnel or to public property, loans, grants, benefits, or contracts.”",
+      "source": "article_tag",
+      "length": 708
+    },
+    {
+      "text": "These provisions make up the entirety of what the APA itself requires agencies to do for notice and comment. Despite the statute’s thin requirements, this process was lauded at the time of the APA’s passage as its “most important reform.”As rulemaking became more frequent in the 1960s and ’70s,the issue of what steps agencies had to take to satisfy APA notice-and-comment provisions naturally arose in litigation.This confusion prompted a rapid and dramatic expansion of notice-and-comment requirements, developed through a series of cases in the 1970s and ’80s.",
+      "source": "article_tag",
+      "length": 564
+    },
+    {
+      "text": "The Supreme Court has avoided creating additional procedures beyond notice and comment, but its interpretation of the notice-and-comment requirement has limited an agency’s discretion to leave comments unanswered or unaddressed.For an agency to be sure its rule will survive a legal challenge, it must be prepared to respond to accusations that it did not address comments of “cogent materiality.”Although the Second Circuit first introduced this concept inNova Scotia,the Supreme Court endorsed the approach in its landmarkState Farmdecision. This move created one of today’s greatest notice-and-comment challenges for an agency: It must read every comment to ensure it does not miss comments of cogent materiality. Any comments meeting that standard must be addressed either by engaging with the commenter, incorporating the feedback into a final rule, or explaining why the agency did not incorporate the comment into the final rule. Of course, this type of engagement (in moderation) is the exact reason the APA included a notice-and-comment requirement in the first place.An agency should listen to and engage with stakeholders throughout the rulemaking process, especially when their comments are objectively material. The crux of the problem today is the ease with which participants can manipulate the comment process, especially in the modern internet age, to waste agency time and resources.",
+      "source": "article_tag",
+      "length": 1401
+    },
+    {
+      "text": "There are other mechanisms that an agency can use to engage the public in the rulemaking process. However, courts generally treat these mechanisms as add-ons, rather than as alternatives to notice and comment. Some scholars have proposed using the committees authorized by the Federal Advisory Committee Act to mitigate the problems associated with notice and comment. However, such an approach is (1) unlikely to hold up against an APA legal challenge and (2) subject to many of the same issues as the notice-and-comment process. FACA “governs the process whereby the President or an administrative agency obtains advice from groups that include one or more non-federal employees.”The Act provides a framework for how such groups can be formed and specifies requirements (ranging from regularity to attendance and outcomes) for a federal advisory committee’s meetings.FACA’s requirements include procedural hurdles—such as mandatory consultation with the General Services Administration and ethics requirements for committee members.FACA’s formality often burdens the use of federal advisory committees with the same procedural challenges as notice and comment without addressing the transparency and accessibility issues created by both processes.",
+      "source": "article_tag",
+      "length": 1249
+    },
+    {
+      "text": "Others have suggested using advisory committees in conjunction with notice and comment.This route would only add to an agency’s workload. FACA is not suggested as analternativeto notice and comment: By definition, these committees have limited membership and do not provide an opportunity for truepubliccomment. Therefore, the agency would still have to take all the procedural steps that courts currently expect under notice and commentwhile also going through the hurdles of assembling an advisory committee. FACA, although well-intentioned and an important tool in an agency’s engagement toolbox, is not a realistic alternative to notice and comment.",
+      "source": "article_tag",
+      "length": 653
+    },
+    {
+      "text": "In light of the procedural challenges created by both notice and comment and the use of federal advisory committees, many executive agencies turn instead to a process this Note refers to as Rolodex Rulemaking.This process does not replace notice and comment in a formal sense since a court would not accept such a substitution. But in practice, Rolodex Rulemaking often replaces the meaningful public engagement the APA intended to foster through notice and comment.",
+      "source": "article_tag",
+      "length": 466
+    },
+    {
+      "text": "What results is a practice in which senior agency officials call on the stakeholders with whom they have personal relationships to inform their decision-making. This action occurs in place of a meaningful,openpublic participation process. Of course, given the courts’ expectations, the agency still goes through the notice-and-comment process; however, Rolodex Rulemaking makes notice and comment largely a formality, rather than a serious mechanism to collect material feedback. The dynamic between high-level government officials and corporate executives is not a secret,and information about whom a Cabinet Secretary or other government official meets with is accessible to any private citizen through the Freedom of Information Act (FOIA).The reality of this dynamic was brought into harsher light by the behavior of President Trump in the lead-up to his second term,although that does not absolve the other side of the aisle from at times taking a similar approach.In my experience as a political appointee in the Biden Administration,I witnessed government officials at virtually every level, from Cabinet Secretaries to subject matter experts, call individuals at relevant companies or trade associations to hear their thoughts on an upcoming rule or regulation.",
+      "source": "article_tag",
+      "length": 1269
+    },
+    {
+      "text": "Although agency officials do not use this who-do-you-know approach toreplacenotice and comment, it can functionally fill the engagement role. An agency will conduct notice-and-comment processes merely pro forma to avoid any potential legal challenges but gather the intel they actually care about through these informal, relationship-based phone calls. This common practice completely undermines the purpose of notice and comment that the APA envisioned, giving an outsized role to sophisticated, well-resourced parties and dissuading agency officials from seriously considering the comments raised in the formal processes. This problem is likely to worsen in the current administration, given the trends of the first Trump Administrationand the inroads many executives have made with him since.",
+      "source": "article_tag",
+      "length": 795
+    },
+    {
+      "text": "The challenges facing notice and comment are well-documented in legal scholarship. Although the APA’s framers originally imagined the process as a tool to ensure “all interested parties” have a voice in the rulemaking process to guarantee a “democratic procedure,”that vision has been corrupted on three levels. First, opportunities to manipulate the system through technological advances have rapidly expanded. Second, the complexity of the process enables groups with more resources to access the system while it remains inaccessible to others, privileging those well-resourced voices. Third, agencies lack the resources to respond when litigants challenge the adequacy of notice-and-comment procedures.",
+      "source": "article_tag",
+      "length": 705
+    },
+    {
+      "text": "As courts have clarified how they expect agencies to comply with notice-and-comment rulemaking, these decisions have also made clear to interested parties how to take advantage of those requirements. This development has enabled stakeholders to take advantage of notice-and-comment requirements by effectively forcing agencies to listen to them, regardless of whether their concerns are truly substantive or material.",
+      "source": "article_tag",
+      "length": 417
+    },
+    {
+      "text": "Throughout the twenty-first century, agencies have moved to e-rulemaking, where the rulemaking process—including opportunities for public participation—occurs almost entirely online. The original goal of e-rulemaking was not only to improve efficiency but also to expand public participation.Although new technology has helped achieve those goals, that achievement has come at a price: increased mass comment campaigns. Interest groups typically organize mass comment campaigns that consist of “the submission by individuals of multiple form letters, postcards, or e-mails to an agency, each with identical or near-identical text.”Although mass comment campaigns existed before the technological advances of e-rulemaking, the internet has made it even easier for these organizations to overwhelm agencies with thousands of duplicative comments.Early scholarship in the wake of these technological advances suggested that agencies would not necessarily be as responsive to these mass comment campaigns as they would be to “sophisticated comments.”However, more recent studies demonstrate that even if mass comment campaigns rarely result in substantive changes to a final rule, agencies tend to be at least procedurally responsive to these campaigns.",
+      "source": "article_tag",
+      "length": 1249
+    },
+    {
+      "text": "Because agencies are acutely aware of litigation risks, which could result in new, even more restrictive judge-made requirements on notice and comment, they fear what might happen if they do not at least check the box of responding to these mass comment campaigns. This hollow formality is the crux of many of the challenges facing notice and comment today: Agencies arenotlikely to actually incorporate the substantive changes requested in a mass comment campaign. Both champions and critics of mass comment campaigns acknowledge this much.Nonetheless, agencies feel pressured to participate in a pro forma practice to avoid litigation. This jurisprudence-based pressure and “the procedure fetish”problem are intertwined.",
+      "source": "article_tag",
+      "length": 722
+    },
+    {
+      "text": "Mass comments are just one way organizations might use technology to take advantage of the notice-and-comment system. With the rapid development of artificial intelligence tools, this phenomenon could worsen in the coming years. For example, a group (or an individual, for that matter) could ask ChatGPT to produce 3,000 commentsthat substantively address the same concern about a rule but appear facially distinct. An agency would have to read those 3,000 comments more closely than mass email campaign comments since the AI-generated comments would not be identical, creating an even bigger drain on the agency’s time and resources. If someone spreads out the submission of these comments, it makes it even harder for the agency to be sure that it is not passing over a substantive comment somewhere in the mix: The agency must read every comment to ensure nothing of cogent materiality goes overlooked.",
+      "source": "article_tag",
+      "length": 905
+    },
+    {
+      "text": "A separate but equally concerning issue with how notice and comment has devolved is the disproportionate use of the system by sophisticated parties.This imbalance is due to the complexity of notice and comment as a process,which better-resourced groups can navigate more easily. In addition, these stakeholders are more motivated to participate because they have “more to lose” than the broader public, who are (at least in theory) the very constituents the government aims to serve with rulemaking.",
+      "source": "article_tag",
+      "length": 499
+    },
+    {
+      "text": "The rulemaking process requires an individual or group to track an issue fairly closely to understand when and how they have the opportunity to comment, making representatives of industry and trade the most routine participants in the process.The average person does not check the Federal Register for a Notice of Proposed Rulemaking, even if it concerns an issue they might be passionate about. Advocates for the current notice-and-comment structure would likely argue that the very purpose of trade associations and advocacy groups—who commonly participate in the process—is to represent the individuals who make up the group’s membership. This contention may be true, but there is also a wide swath of people whose views arenotrepresented by the kind of large organizations that tend to submit most comments received during notice and comment.",
+      "source": "article_tag",
+      "length": 846
+    },
+    {
+      "text": "The result of this pattern is that agencies are often (at least somewhat correctly) viewed as “captured” by industry interestsand are, thus, less responsive to the public that the notice-and-comment process was originally intended to serve.This perception is exacerbated by the makeup of federal advisory committees,as well as the backdoor Rolodex Rulemaking process.Since industry officials have these other opportunities to make their voices heard, there is an even more serious impetus for agencies to engage the public in a way that does not privilege the same voices already amplified elsewhere in the regulatory process.",
+      "source": "article_tag",
+      "length": 626
+    },
+    {
+      "text": "A final and significant challenge to the notice-and-comment process is resource scarcity within an agency. This problem is particularly poignant given the “procedure fetish,” or the obsession with legitimizing government through procedure.As Professor Nicholas Bagley has explained: “We are . . . told that [strict procedural rules] are essential to public accountability because they prevent factional interests from capturing agencies.”In the context of notice and comment, the procedure fetish manifests through the hurdles imposed by the courts in the 1970s and ’80s.Judge-made additions to the notice-and-comment process exemplify the procedural rules Bagley refers to in his scholarship, overlaying procedure on top of what was initially a bare-bones set of requirements. These procedural hurdles were designed to make an agency more responsive to the general public, rather than factional interest groups. But ultimately, these procedures made it easier for those groups to capture an agency by giving industry additional opportunities to allege that the agency failed to satisfy the APA’s requirements.Bagley discusses this tension as it relates to notice and comment in some detail:",
+      "source": "article_tag",
+      "length": 1191
+    },
+    {
+      "text": "[T]he outsize participation of industry groups in notice and comment means that agencies will have a wealth of information at their disposal about the costs of agency rules and why, given certain facts about the industry, they won’t accomplish very much. As Tom McGarity and Ruth Ruttenberg have shown, “industry cost estimates have usually been high, sometimes by orders of magnitude, when compared to actual costs incurred.” In contrast, regulatory beneficiaries often lack the resources, the technical know-how, and the industry-specific knowledge to contradict those estimates, leaving agencies to do the best they can with the information they have.",
+      "source": "article_tag",
+      "length": 654
+    },
+    {
+      "text": "Bagley here is in direct dialogue with advocates for notice and comment, who would posit that “[a]n agency’s public proposal of a rule and acceptance of public comment prior to issuing the final rule can help us view the agency decision as democratic and thus essentially self-legitimating.”",
+      "source": "article_tag",
+      "length": 291
+    },
+    {
+      "text": "But the problem with the procedure fetish goes beyond what Bagley has identified. This phenomenon is emblematic of everything else that is wrong with notice and comment. Not only does the complexity of the procedure privilege industry voices,but that complexity and the resulting industry capture also create mass workloads for agencies, which must parse through mass comments.This layering of inaccessibility and increased workload for agencies creates litigation opportunities. Litigants take advantage of the courts’ posture favoring increased procedure in notice and comment. As a result, agencies do not have enough time, people, or money to handle the beast that notice and comment has become. Agencies have finite resources granted through appropriators and authorizers.Absent a massive influx of cash or hiring authority,notice and comment is unsustainable for agencies. That’s where good cause rulemaking comes in.",
+      "source": "article_tag",
+      "length": 923
+    },
+    {
+      "text": "Nested in section 553 of the APA is a tactic rarely discussed in notice-and-comment legal scholarship. Good cause rulemaking refers to the exception articulated in the APA that allows an agency to forgo notice and comment “when the agency for good cause finds . . . that notice and public procedure thereon are impracticable, unnecessary, or contrary to the public interest.”The exception has been invoked and litigated in a number of lower court cases,but the exact meaning of “impracticable, unnecessary, or contrary to the public interest” has not been addressed by the Supreme Court,leaving it unclear exactly when agencies can use the good cause exception.Given the challenges with notice and comment, the issue seems ripe for review. However, even if the Court does not take up this question directly, there is room for agencies to rely more heavily on good cause rulemaking. They should combine the good cause exception with tools of public engagement that are less cumbersome and flawed than notice and comment to demonstrate to the courts that they are attempting to bypass not thepurposeof notice and comment but instead the flawed process itself. A twofold approach—good cause rulemaking combined with practicable, modern means of public engagement—has a chance of surviving judicial scrutiny.",
+      "source": "article_tag",
+      "length": 1304
+    },
+    {
+      "text": "The notice-and-comment process has become a cumbersome, unreliable, and inequitable process. It is thus in agencies’ interests to use the good cause exception alongside other methods of public engagement to justify bypassing notice and comment. Although the Ninth Circuit has held that the exception was not created to bypass notice and comment, it did so without considering the practical challenges outlined in this Note, many of which were less prevalent or apparent in 1992 when the Ninth Circuit made that observation.Further, some courts have found that agencies can invoke good cause when engaging in standard notice and comment would undermine the underlying statute’s purpose.This jurisprudence is relevant in that notice and comment as it currently exists undermines the purpose of the APA itself—to engage the entire public—because it privileges some parties over others and may even go so far as to dissuade agencies from rulemaking at all because of the procedural burden.",
+      "source": "article_tag",
+      "length": 985
+    },
+    {
+      "text": "It is easy to imagine, however, that a court could be reluctant to grant the good cause exception on the general grounds that notice and comment as apracticehas become so impracticable that the agency has chosen to forgo it in a particular instance.Therefore, it is critical that an agency employing the good cause exception to bypass notice and comment does so in tandem with alternative means of public engagement. This approach would allow an agency to present to a court both its finding that notice and comment is impracticableandthe alterative mechanism(s) used to ensure that the purpose of the APA’s notice-and-comment provisions is fulfilled. As to this component of the proposed solution, this Note suggests that an agency model its supplemental public participation methods after a set of practices the Biden Administration encouraged White House units and administrative agencies to use.",
+      "source": "article_tag",
+      "length": 899
+    },
+    {
+      "text": "This Note recommends that an agency take a two-fold approach to rethinking public participation in rulemaking.First, an agency should bypass notice and comment altogether,invoking the good cause exception under the impracticability rationale due to the technological developments that have made the comment half of notice and comment an inequitable, inefficient, and ineffective tool for public engagement. The second step is to employ other means of public engagement to demonstrate to a court that, although notice and comment is impracticable, the agency has still made efforts to ensure the level of public participation intended by the drafters of the APA. This model of public engagement should be based on a series of tools and strategies employed by the Biden White House and its executive agencies from 2021 to 2025.Although the Biden Administration applied these tools and strategies alongside notice-and-comment procedures, the framework they established, with some adjustments, is robust enough to stand in the place of notice and comment altogether.",
+      "source": "article_tag",
+      "length": 1062
+    },
+    {
+      "text": "Agencies should engage the public in a meaningful and impactful way from the bottom up. The Biden Administration’s approach had three primary elements: (1) broad publicity,(2) listening sessions, town hall meetings, and tribal consultations, and (3) ongoing engagement during implementation.The first of these prongs, broad publicity, “used a variety of approaches to raise awareness and encourage input,”reaching a far broader audience than a publication of notice in the Federal Register. The Biden White House and its executive agencies took a modern approach to publicity, using social media posts and websites dedicated to the review of specific rules and regulations alongside direct stakeholder outreach.Critically, this direct outreach, to be implementedin place ofnotice and comment, should cover a wide swath of relevant interests, reaching community members outside traditional business interests who might be impacted by the rule under consideration. A varied approach to publicity (which could include field visits to community and faith centers, schools, local nonprofits, etc.) would reach stakeholders beyond those who traditionally participate in notice and comment, avoiding some of the inequities created by the usual process.",
+      "source": "article_tag",
+      "length": 1245
+    },
+    {
+      "text": "The second prong, town halls and listening sessions, is the bread and butter of how an agency should replace the slog of sorting through thousands of comments. Importantly, these town halls and listening sessions should be available both in-person and online. Making these public engagement sessions accessible online will make them available to virtually everyone in the country.It is also critical that these listening sessions and town halls be tiered to reflect a bottom-up approach. Although some sessions should be available for anyone to join, as was the intent of the APA, holding smaller sessions for more senior or expert participants to engage with agency leadership will allow for more technical and advanced feedback to reach critical decisionmakers. However, these higher-level sessions should be made available to any organization with a stake in the matter, so long as they can send a representative from the appropriate level—making the higher-level sessions truly open and avoiding the trap of Rolodex Rulemaking. This tiered approach allows for officials at all levels of an agency to engage with their counterpartsas well asenable participation that is truly open to the public.",
+      "source": "article_tag",
+      "length": 1198
+    },
+    {
+      "text": "Alternatively, one agency under the Biden Administration implemented what it called a “National Online Dialogue” to modernize the comment process.This platform was “easier to navigate, more efficient, more flexible, and more accessible than traditional input strategies.”It allowed participants both to submit ideas (akin to comments) and to like or reply to others’ comments.With its obvious similarities to social media platforms, this system would enable an organization to, for example, have one person submit a comment and thousands of members upvote it, rather than submit thousands of comments that the agency has to parse through.The platform, open to anyone who wanted to participate, consolidated feedback from a wide range of stakeholders through system automation—a tool that the Federal Register, unfortunately, does not offer.",
+      "source": "article_tag",
+      "length": 840
+    },
+    {
+      "text": "The final prong, ongoing engagement during implementation, has obvious benefits, although it does not directly correspond with any requirement under traditional notice and comment. The Biden Administration approached this prong as an opportunity to meet with “community organizations and data users to discuss the various changes . . . and to ensure that stakeholders understand” how a new rule or regulation works.These engagement efforts could mirror the listening sessions, town halls, and direct outreach that take place during rulemaking. But instead of providing feedback on the rule, stakeholders provide feedback on the process itself, creating a more iterative public participation mechanism than notice and comment. Ongoing engagement after a rule is finalized helps facilitate buy-in and commitment from those stakeholders who were engaged during the rulemaking process, which encourages them to continue engaging meaningfully in future rulemakings. Continued engagement with stakeholders after a rule is finalized and during its implementation stage could also help an agency demonstrate to a court its intent to fulfill the APA’s original purpose and prove that these new processes are not meant solely to make the rulemakers’ lives simpler. Although this step seems unnecessary for an agency rulemaking to survive judicial review, it is nonetheless recommended.",
+      "source": "article_tag",
+      "length": 1375
+    },
+    {
+      "text": "The strategy of invoking the good cause exception alongside modern public engagement methods to replace notice and comment will need to be battle-tested in court. Given the evolving nature of administrative law today,it seems as good a time as any for an agency to try its hand at moving the courts on this issue. The way a court will react to this new strategy depends on a number of factors, including, inter alia, the rule that is challenged, the party bringing the challenge, which court the challenge is brought in,and who is in control of the White House when the challenge is brought.",
+      "source": "article_tag",
+      "length": 591
+    },
+    {
+      "text": "The easy and reductive conclusion to draw is that, if the administration in power is the same party that appointed the majority of the justices sitting on the Court, the Court will side with the administration.However, it is also true that a conservative Court tends to oppose a strong executive and might fight even a conservative administration’s attempt to make it easier for an agency to pass new regulations.To understand how the current Supreme Court might respond to an agency’s attempt at leaning on good cause rulemaking rather than notice-and-comment rulemaking, one can look at a handful of recent decisions. Although none have directly addressed the good cause exception, there are hints suggesting how some justices would approach such a move by the Trump administration. A coalition that appears to be led by Justice Kavanaugh seems willing to entertain the expansion of the good cause exception should it come attached to a politicized issue.",
+      "source": "article_tag",
+      "length": 957
+    },
+    {
+      "text": "The Supreme Court’s most outspoken critic of notice and comment in its current form is Justice Kavanaugh, although his most obvious critiques came while he was serving on the D.C. Circuit. In hisAmerican Radio Relay League v. FCCdissent, then-Judge Kavanaugh explicitly voiced his disdain for the case law of the 1970s and ’80s that gave rise to today’s notice-and-comment requirements,describing one such case decided in the D.C. Circuit as one that “cannot be squared with the text of § 553 of the APA.”Then-Judge Kavanaugh felt that circuit courts such as his own acted inappositely to the Supreme Court’s holding inVermont Yankee: “[T]he Supreme Court forcefully stated that the text of the APA binds courts: Section 553 of the APA ‘established themaximum procedural requirementswhich Congress was willing to have the courts impose upon agencies in conducting rulemaking procedures.’ ”Judge Kavanaugh’s disapproval of the circuit court-led shift in jurisprudence came while reviewing a challenge to an agency rule that allegedly had not satisfied its notice-and-comment requirements.",
+      "source": "article_tag",
+      "length": 1087
+    },
+    {
+      "text": "Judge Kavanaugh concurred in part based on the D.C. Circuit’s existing precedent but dissented because he believed such case law should be revisited. He made it clear that if he had enough colleagues on the D.C. Circuit to do so (and surely once elevated and in a position to slap the wrists of lower courts and clarify procedural requirements), he would overrule some of those 1970s and ’80s-era procedural requirements:",
+      "source": "article_tag",
+      "length": 421
+    },
+    {
+      "text": "Over time, those twin lines of decisionshave gradually transformed rulemaking—whether regulatory or deregulatory rulemaking—from the simple and speedy practice contemplated by the APA into a laborious, seemingly never-ending process. The judicially created obstacle course can hinder Executive Branch agencies from rapidly and effectively responding to changing or emerging issues within their authority, such as consumer access to broadband, or effectuating policy or philosophical changes in the Executive’s approach to the subject matter at hand. The trend has not been good as a jurisprudential matter, and it continues to have significant practical consequences for the operation of the Federal Government and those affected by federal regulation and deregulation.",
+      "source": "article_tag",
+      "length": 769
+    },
+    {
+      "text": "Judge Kavanaugh’s apparent interest in unwinding those procedural requirements that date back as far asNova ScotiaandPortland Cementhas shown no sign of dimming since his elevation.How many other Justices he might have on his side is less clear.",
+      "source": "article_tag",
+      "length": 245
+    },
+    {
+      "text": "The Court’s 2020 decision inLittle Sisters of the Poor Saintsoffers a hint about where some other justices might sit.Considering a set of regulations issued by the Department of Health and Human Services under the Affordable Care Act addressing an employer’s obligations to provide contraceptive access through insurance plans, the majority opinionprovided the Court’s clearest view in recent years on the role of the good cause exception and the nature of section 553. The agency used the good cause exception to promulgate the relevant rules, and the Court described the good cause exception as a provision that “permits an agency to dispense with notice and comment and promulgate an [interim final rule (IFR)] that carries immediate legal force.”The Court also showed its hand on its view of the existing procedural requirements (both statutory and judge-made) with the use of one key word while describing the nature of notice-and-comment rulemaking: often. The Court observed “the Administrative Procedure Act (APA)oftenrequires [such procedures] before an agency’s regulation can ‘have the force and effect of law.’ ”",
+      "source": "article_tag",
+      "length": 1124
+    },
+    {
+      "text": "However,Little Sistersprovided little additional insight into where the justices stand on the good cause exception. Although the respondent state challenging the regulations “asserted that the IFRs were not adequately justified by good cause, meaning that the Departments impermissibly used the IFR procedure to bypass the APA’s notice and comment procedures,”the Court effectively sidestepped the question of what, in fact, justifies the invocation of the good cause exception. The Court chose instead to focus on the fact that employing the good cause exception rather than notice and comment created no prejudicial error, and, therefore, did not procedurally invalidate the rules themselves.The respondents claimed there was a procedural deficit in the published notice of the rule; perhaps the Court would have approached the good cause exception differently if the challenge had been to the comment half of the process. The Court did not find the respondents’ arguments compelling and held that the rule was in line with APA requirements.The Court’s reasoning inLittle Sistersgives some indication that, as long as bypassing the comment side of notice and comment under the good cause exception creates no prejudicial error,the Court would allow it.",
+      "source": "article_tag",
+      "length": 1254
+    },
+    {
+      "text": "TheLittle Sisterscourt adopted then-Judge Kavanaugh’s interpretation ofVermont Yankee, reiterating that “[b]ecause the APA ‘sets forth the full extent of judicial authority to review executive agency action for procedural correctness,’ . . . we have repeatedly rejected courts’ attempts to impose ‘judge-made procedur[es]’ in addition to the APA’s mandates.”Although the Court’s references toVermont Yankeehere are not in the context of the specific notice-and-comment procedures this Note identifies as problematic, the Court leaned on its precedent to decline to enforce a requirement that agencies maintain “an open mind” throughout the rulemaking process and afterward, as argued by respondents.The Court concluded that the APA requires nothing more in the way of notice-and-comment procedures than its textual requirements:",
+      "source": "article_tag",
+      "length": 828
+    },
+    {
+      "text": "[T]he APA mandates that agencies “give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments,” § 553(c); states that the final rules must include “a concise general statement of their basis and purpose,”ibid.; and requires that final rules must be published 30 days before they become effective, § 553(d).",
+      "source": "article_tag",
+      "length": 375
+    },
+    {
+      "text": "Since the rules here followed these textual requirements, the majority upheld them, despite the deficiencies the respondents identified.Little Sistersdid not contemplate an agency decision to forgo collecting comments through notice and comment and instead provide some other “opportunity to participate.”However, there is good reason to believe that those justices attached to theLittle Sistersmajority might come together to support a broader use of the good cause exception and alternative means of collecting public participation.",
+      "source": "article_tag",
+      "length": 534
+    },
+    {
+      "text": "The same five justices who signed on to theLittle Sistersopinion gave critics of the hyper-proceduralized notice-and-comment process reason to pause in a decision from the 2023–2024 term. InOhio v. EPA, these justices granted a stay because the petitioners were likely to prevail on an argument that an agency’s rule was not “reasonably explained” and “ignored ‘an important aspect of the problem’ ” raised in comments during the notice-and-comment period.There are, however, at least three reasons to think that theOhio v. EPAdecision, which effectively requires a response to comments (something not required in the text of the APA), leaves open the possibility that the conservative Supreme Court might allow for an expansion of good cause if considered during a friendly administration.",
+      "source": "article_tag",
+      "length": 790
+    },
+    {
+      "text": "First, the statutory requirements the EPA adhered to inOhio v. EPAwere not those of the APA. The regulation in question was promulgated pursuant to the notice-and-comment procedures of the Clean Air Act.Where a statute has its own notice-and-comment requirements, the APA does not apply; the other statute controls.Given this distinction, one could make the case that the reasoned explanation requirement imposed by the Court inOhio v. EPAwas applied as a requirement only for rules promulgated under the Clean Air Act, not under the APA. While the notice-and-comment provisions of section 7607(d) of the Clean Air Act are nearly identical to those of the APA,the holding inOhio v. EPAdoes not apply to notice and comment during APA rulemaking, only Clean Air Act rulemaking.",
+      "source": "article_tag",
+      "length": 775
+    },
+    {
+      "text": "Importantly, the Clean Air Act’s notice-and-comment provisionsdoextend the APA’s good cause exception to Clean Air Act rulemaking.But inOhio v. EPA, the EPA did not invoke that exception or any of the other statutory exceptions to notice and comment,meaning they had no excuse, in the Court’s eyes, for failing to provide a reasoned explanation. The Court did not hypothesize how it might have approached the issue differently if, in fact, good cause or some other statutory exception to notice and commenthadbeen invoked.This leaves open the possibility that it would not require a reasoned explanation in a situation where the good cause exception applies. Since the same five justices allowed an agency to bypass notice and comment inLittle Sisters,it is possible that theOhio v. EPAdecision turned on that agency’s decisionnotto employ the good cause exception. That is to say nothing of how the Court would view an agency’s use of the good cause exception alongside some other set of public engagement mechanisms to fulfill the purpose of notice and comment without its formal trappings.",
+      "source": "article_tag",
+      "length": 1092
+    },
+    {
+      "text": "Finally, there is the obvious political difference between what was at issue inLittle SistersandOhio v. EPA. In the former, the regulation was promulgated by the Trump Administration, and in the latter, the Biden Administration.This distinction is relevant. The current Court seems to oscillate on issues of administrative law depending on the circumstances under which the cases are brought.With the Trump Administration eager to undo much of the regulatory work implemented by its predecessors, the circumstances seem ripe for the Court to take a stand against notice and comment. Some of the arguments against notice and comment are not those which would normally resonate with the five justices of theLittle Sistersmajority.But other themes—anti-proceduralism, government efficiency—may very well resonate with five, maybe even sixof the current justices.",
+      "source": "article_tag",
+      "length": 859
+    },
+    {
+      "text": "With a new (old, but new again) administration in the White House finding a friendly set of justices on the Supreme Court, there is an opportunity for change.Regardless of one’s politics, notice and comment, as a system, is no longer accomplishing what it set out to do. That failure is not due to any statute but rather to the judges that, over the last half century, handicapped agencies through a series of cases the Supreme Court largely has declined to apply. An agency has two mechanisms it can use to circumvent these judge-made requirements: one statutory—through the APA’s good cause exception—and one functional—through this Note’s recommendations for innovative public engagement efforts. By combining these two approaches, an agency can accomplish the democratic processes envisioned by the drafters of the APA without the procedural obstacles created fifty years ago by judges. The only remaining question is whether the Supreme Court will allow it. The political landscape of administrative law jurisprudence seems to point towards yes. This Court has made its interest in reshaping administrative law doctrine apparent, and this Note’s proposal would not only reshape but re-democratize public participation in the informal rulemaking process.",
+      "source": "article_tag",
+      "length": 1258
+    },
+    {
+      "text": "*J.D. Candidate, May 2026, University of Michigan Law School. Thank you to Professor Nicholas Bagley and Professor Nina Mendelson for their invaluable feedback on this Note and my ideas. This Note would not be possible without the smart and thoughtful edits from the Vol. 124 Notes Office: Luke Pomrenke, Haley Rogers, Dustin Smith, Ruben Piñuelas, Jacob León, and Suji Kim. I would not be here without the support (read: willingness to listen to me rant about niche admin law musings at all hours) of Heather Foster, Henry Evans, Nathan Pitock, Daniel Kaylor, and Madeline Guth, as well as my mom, my dad, and my sister. Finally, although the views expressed in this publication do not reflect those of anyone else who worked at the U.S. Department of Commerce during my time there, I would not have made it to Michigan Law, let alone published this piece, without the brilliant minds I met in the Biden Administration, most of all former Deputy Secretary Don Graves.",
+      "source": "article_tag",
+      "length": 968
+    }
+  ],
+  "footnotes": [],
+  "headers": [
+    {
+      "text": "Good Cause for Goodness’ Sake: A New Approach to Notice-and-Comment Rulemaking",
+      "source": "h1",
+      "length": 78
+    },
+    {
+      "text": "Introduction",
+      "source": "h2",
+      "length": 12
+    },
+    {
+      "text": "I. Existing Mechanisms for Public Participation in Rulemaking: From the Federal Register to Speed Dial",
+      "source": "h2",
+      "length": 102
+    },
+    {
+      "text": "II. If It Is Broke . . . : Functional Challenges of Notice and Comment in the Twenty-First Century",
+      "source": "h2",
+      "length": 98
+    },
+    {
+      "text": "III. An Existing Out and a New Regime",
+      "source": "h2",
+      "length": 37
+    },
+    {
+      "text": "Conclusion",
+      "source": "h2",
+      "length": 10
+    },
+    {
+      "text": "A. Notice and Comment",
+      "source": "h3",
+      "length": 21
+    },
+    {
+      "text": "B. Additional Public Engagement Mechanisms",
+      "source": "h3",
+      "length": 42
+    },
+    {
+      "text": "A. System Manipulation",
+      "source": "h3",
+      "length": 22
+    },
+    {
+      "text": "B. Inequitable Representation",
+      "source": "h3",
+      "length": 29
+    },
+    {
+      "text": "C. Resource Limitations and “The Procedure Fetish”",
+      "source": "h3",
+      "length": 50
+    },
+    {
+      "text": "A. Incentives for Agencies",
+      "source": "h3",
+      "length": 26
+    },
+    {
+      "text": "B. Functional Implementation of This Model",
+      "source": "h3",
+      "length": 42
+    },
+    {
+      "text": "C. Opportunity for Judicial Evolution",
+      "source": "h3",
+      "length": 37
+    },
+    {
+      "text": "1. Statutory Requirement",
+      "source": "h4",
+      "length": 24
+    },
+    {
+      "text": "2. Evolution Through Jurisprudence",
+      "source": "h4",
+      "length": 34
+    },
+    {
+      "text": "1.American Radio Relay League",
+      "source": "h4",
+      "length": 29
+    },
+    {
+      "text": "2.Little Sisters of the Poor Saints",
+      "source": "h4",
+      "length": 35
+    },
+    {
+      "text": "3.Ohio v. EPA",
+      "source": "h4",
+      "length": 13
+    }
+  ],
+  "other_elements": [
+    {
+      "text": "No administrator in Washington turns to full-scale notice-and-comment rulemaking when she is genuinely interested in obtaining input from interested parties. Notice-and-comment rulemaking is to public participation as Japanese Kabuki theater is to human passions—a highly stylized process for displaying in a formal way the essence of something which in real life takes place in other venues.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 392
+    },
+    {
+      "text": "(b) General notice of proposed rule making shall be published in the Federal Register, unless persons subject thereto are named and either personally served or otherwise have actual notice thereof in accordance with law. The notice shall include—(1) a statement of the time, place, and nature of public rule making proceedings;(2) reference to the legal authority under which the rule is proposed;(3) either the terms or substance of the proposed rule or a description of the subjects and issues involved; and(4) the Internet address of a summary of not more than 100 words in length of the proposed rule, in plain language, that shall be posted on the Internet website under section 206(d) of the E-Government Act of 2002 (44 U.S.C. 3501 note) (commonly known as regulations.gov).. . . .(c) After notice required by this section, the agency shall give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments with or without opportunity for oral presentation. After consideration of the relevant matter presented, the agency shall incorporate in the rules adopted a concise general statement of their basis and purpose.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 1187
+    },
+    {
+      "text": "[T]he outsize participation of industry groups in notice and comment means that agencies will have a wealth of information at their disposal about the costs of agency rules and why, given certain facts about the industry, they won’t accomplish very much. As Tom McGarity and Ruth Ruttenberg have shown, “industry cost estimates have usually been high, sometimes by orders of magnitude, when compared to actual costs incurred.” In contrast, regulatory beneficiaries often lack the resources, the technical know-how, and the industry-specific knowledge to contradict those estimates, leaving agencies to do the best they can with the information they have.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 654
+    },
+    {
+      "text": "Over time, those twin lines of decisionshave gradually transformed rulemaking—whether regulatory or deregulatory rulemaking—from the simple and speedy practice contemplated by the APA into a laborious, seemingly never-ending process. The judicially created obstacle course can hinder Executive Branch agencies from rapidly and effectively responding to changing or emerging issues within their authority, such as consumer access to broadband, or effectuating policy or philosophical changes in the Executive’s approach to the subject matter at hand. The trend has not been good as a jurisprudential matter, and it continues to have significant practical consequences for the operation of the Federal Government and those affected by federal regulation and deregulation.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 769
+    },
+    {
+      "text": "[T]he APA mandates that agencies “give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments,” § 553(c); states that the final rules must include “a concise general statement of their basis and purpose,”ibid.; and requires that final rules must be published 30 days before they become effective, § 553(d).",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 375
+    },
+    {
+      "text": "*J.D. Candidate, May 2026, University of Michigan Law School. Thank you to Professor Nicholas Bagley and Professor Nina Mendelson for their invaluable feedback on this Note and my ideas. This Note would not be possible without the smart and thoughtful edits from the Vol. 124 Notes Office: Luke Pomrenke, Haley Rogers, Dustin Smith, Ruben Piñuelas, Jacob León, and Suji Kim. I would not be here without the support (read: willingness to listen to me rant about niche admin law musings at all hours) of Heather Foster, Henry Evans, Nathan Pitock, Daniel Kaylor, and Madeline Guth, as well as my mom, my dad, and my sister. Finally, although the views expressed in this publication do not reflect those of anyone else who worked at the U.S. Department of Commerce during my time there, I would not have made it to Michigan Law, let alone published this piece, without the brilliant minds I met in the Biden Administration, most of all former Deputy Secretary Don Graves.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 968
+    }
+  ],
+  "metadata": {
+    "total_body_paragraphs": 61,
+    "total_footnotes": 0,
+    "total_headers": 19,
+    "total_other": 6
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "file": "harvard_law_review_excited_delirium.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Police use of force continues to be a significant problem in American law and society. Recent discussions have focused on doctrinal issues such as what type of force is considered “reasonable” under the Fourth Amendment and the propriety of qualified immunity as a defense that can shield law enforcement from civil litigation. However, there has been little commentary on how these and other legal questions might be informed by medicine — specifically, victim diagnoses that might effectively absolve officers from criminal prosecution or civil liability. One prominent example concerns excited delirium, which is thought to be a psychiatric issue characterized by the acute onset of extreme agitation that can become so severe that someone might die spontaneously, on their own, without anyone to blame except the person’s own mental condition. This diagnosis has been used by coroners, medical examiners, forensic pathologists, and law enforcement to suggest that some deaths in police custody occur not because the decedent was subject to unlawful force, but because the mysterious onset of a psychiatric illness led them to die suddenly. But there are significant problems with this claim. Notably, since its inception in the 1980s, researchers have found little evidence that this medical condition exists. This lack of proof leads to a critical question: How did law become so welcoming to excited delirium when medical and scientific communities continue to have serious reservations? This Article provides the first empirical assessment of how excited delirium has been treated as an evidentiary matter within federal courts. In doing so, it explores how federal courts deploy Federal Rule of Evidence 702 to understand the claims made by expert witnesses in cases regarding the admissibility of excited delirium as a medical diagnosis that might explain deaths in police custody. The findings show that excited delirium often enters evidentiary proceedings as a contested medical concept. Yet, through the machinations of the law of evidence, these claims exit courtroom proceedings as legally relevant facts. How this transmutation happens, and the evidentiary moves that make it possible, highlight the extent to which legal doctrine can settle an otherwise unsettled — if not wholly discredited — area of medicine to make deaths in police custody seem natural, blameless, and unproblematic. Understanding how the law of evidence contributes to concealing what might otherwise be seen as unreasonable uses of force is critical for ongoing discussions concerning police reform.",
+      "source": "article_tag",
+      "length": 2589
+    },
+    {
+      "text": "Two days before Christmas in 2020, the Quinto family of Antioch, California, was in a desperate situation. Angelo Quinto, a thirty-year-old Navy veteran, was suffering from a mental health crisis.Earlier that year, Quinto had been assaulted and experienced a traumatic brain injury, which led him to have episodes of paranoia — one of which seemed to be occurring that December evening.Quinto began acting aggressively, and the family called 911 for help.When police arrived, Quinto’s family said that his mother was holding him in her arms and that he was calm.Officers Perkinson and Becerra grabbed Quinto from his mother and pinned him face down on the ground.While Quinto “pleaded ‘please, don’t kill me,’” the officers put Quinto in a prone restraint.His hands were handcuffed behind his back and his legs were crossed and bent backward.According to the Quintos, officers then held Quinto down by keeping a knee pressed behind his neck over a period of five minutes— a situation not unlike what happened to George Floyd in Minneapolis, Minnesota, earlier that year.Quinto became unresponsive.When the officers “flipped [him] over, . . . blood [had] pooled [under]neath his face.”Quinto was taken by ambulance to Sutter Delta Medical Center, where he later died.",
+      "source": "article_tag",
+      "length": 1266
+    },
+    {
+      "text": "Shortly after the death, the local coroner’s office performed an autopsy, and determined that Angelo Quinto died because of “Excited Delirium Syndrome due to Acute Drug intoxication” — referencing a diagnosis that the District Attorney described as a “physiologic response seen in arrest related death[] . . . scenarios, in which the decedents experienc[e] drug intoxication, exhaustion, [or] pre-existing physical or psychiatric conditions, all of which may trigger fatal cardiac arrhythmias.”Put differently, the coroner’s office concluded that Angelo Quinto died due topsychosomaticproblems that led him to become so physically agitated, he simply died on his own with no one else to blame.",
+      "source": "article_tag",
+      "length": 693
+    },
+    {
+      "text": "This finding shocked the Quinto family, who had watched Quinto’s brutal treatment by the police. Confused by the idea that only Quinto was responsible for his death, the family had a second autopsy performed by Dr. Bennet Omalu.Omalu found that Quinto’s eyes showed evidence ofpetechial hemorrhages— signs of asphyxiation where strangulation leads blood capillaries in the eyes to burst.While being deposed, Dr. Ikechi Ogan, the first pathologist who made the excited delirium diagnosis, “was shown a photo of Quinto’s eyes.”Ogan agreed, on the record, that the unusual hemorrhages in Quinto’s eyes were clearly visible.Yet the autopsy report failed to mention “key signs” of Quinto’s asphyxiation.",
+      "source": "article_tag",
+      "length": 698
+    },
+    {
+      "text": "Twenty-three-year-old Elijah McClain left a convenience store in Aurora, Colorado, one summer evening in 2019.As the small-framed Black man walked down the street, “someone called 911” because they believed that McClain “looked sketchy” since he “was wearing a ski mask” and appeared to be acting erratically.When McClain was confronted by three officers, he tried to explain that he did not mean to cause any trouble.He pled with them, saying, “I am an introvert . . . . Please respect my boundaries,” “I’m just different,” and “I don’t even kill flies” to prove that he was not dangerous.Nevertheless, the officers proceeded to restrain McClain, placing him in a chokehold and putting him in handcuffs.During this struggle, McClain told the officers he was having difficulty breathing and then vomited and apologized to the officers.",
+      "source": "article_tag",
+      "length": 835
+    },
+    {
+      "text": "Paramedics arrived and determined in that moment that McClain’s visible agitation was a sign that he was suffering from “excited delirium.”The paramedics injected him with ketamine — a potent drug with a sedative effect that is increasingly given to people thought to exhibit this condition.This approach to “treating” excited delirium is not uncommon, and using chemical restraints is thought by some to be a less harmful alternative to physical force.But “body camera footage shows that [the dose of ketamine] made [McClain’s] body go limp when he was loaded onto a gurney.”While being transported to the hospital in an ambulance, McClain experienced cardiac arrest and passed away shortly afterwards.",
+      "source": "article_tag",
+      "length": 703
+    },
+    {
+      "text": "Waters v. Coleman,a 2015 decision from the Tenth Circuit Court of Appeals, concerned the death of Alonzo Ashley, who was killed during a struggle with police at the Denver Zoo.After being confronted by police for allegedly attacking a security officer, Ashley began walking toward the zoo exit.Another officer noticed that Ashley was sweating heavily, which the federal judges on the Tenth Circuit described in their opinion as “a symptom of a physiological condition known asexcited delirium,” that “often [makes it] impossible to control [these] individuals . . . using traditional pain compliance techniques.”Ashley stopped and moved toward the officers, who then tried to put Ashley’s arms behind his back.Punches were exchanged.The officers then used tasers multiple times and physically restrained Ashley.Ashley was taken “to the hospital, where he was pronounced dead.”",
+      "source": "article_tag",
+      "length": 876
+    },
+    {
+      "text": "Ashley’s family brought a federal civil rights lawsuit against the officers for violating his constitutional right to be free from excessive force.However, the Tenth Circuit held that the officers were entitled to qualified immunity for the acts they took to restrain Ashley.This decision meant the officers could not be sued for these acts, since existing laws did not prevent officers from using such force against someone who was suffering from excited delirium.The court concluded that “it would not have been clear to a reasonable officer that the conduct at issue might be unlawful in these circumstances.”",
+      "source": "article_tag",
+      "length": 612
+    },
+    {
+      "text": "Police use of force and accountability have been important topics over the past few years as the public grapples with what many have described as a “racial reckoning”following several deaths of unarmed Black people in police custody that were filmed by bystanders and distributed on social and legacy media.Much of the conversation in the law literature has focused on exploring doctrinal questions such as how the Fourth Amendment structures conversations about the reasonableness of police force, which can inform whether an officer might be held civilly or criminally responsible.Yet, there has been little discussion about how doctrinal assessments regarding reasonableness can be complicated by medical diagnoses that are used to suggest that decedents died from preexisting conditions rather than the use of force. One such diagnosis isexcited delirium, which is often used to suggest that some deaths in police custody resultnot from the force that was used, but from self-induced agitation and physical stress stemming from a psychiatric condition that can lead some people to die spontaneously, through no one’s fault but their own. The vignettes at the outset of this Article highlight several instances where excited delirium has been invoked to explain the deaths of people in police custody, and how this “disease” has been positioned to deflect attention away from questions about the reasonableness of the force used and toward evaluating the decedents’ mental health. For example, as described above with respect to the Tenth Circuit’s decision inWaters v. Coleman, federal courts have used excited delirium diagnoses to shape their determinations of whether police officers can face civil liability under 42 U.S.C. § 1983.",
+      "source": "article_tag",
+      "length": 1739
+    },
+    {
+      "text": "Law’s deference to this medical diagnosis is curious, particularly since excited delirium does not seem to be a real health condition. In fact, excited delirium is a deeply contested concept among researchers and clinicians. Professional bodies such as the American Psychiatric Associationand the American Medical Associationhave made public statements on how excited delirium is not an appropriate term or diagnosis. Similarly, two of the main medical guidebooks on identifying and diagnosing psychiatric disorders — the Diagnostic and Statistical Manual of Mental Disorders (“DSM-5”) and the International Classification of Diseases (“ICD-11”) — do not recognize the term as a legitimate disorder or medical condition.This professional distancing from the concept reflects a finding easily observable in peer-reviewed scientific and clinical literature: There is little scientific evidence to support excited delirium as a legitimate medical claim and virtually no research that identifies a clear pathology on how this psychiatric condition, even if real, could cause death.",
+      "source": "article_tag",
+      "length": 1077
+    },
+    {
+      "text": "This tension between law’s regular acceptance of excited delirium and medicine’s deep skepticism gives rise to a question explored in this Article:Howhas law come to a seemingly settled understanding of a disease that science and medicine largely view as demonstrably unsettled, if not wholly unsupported? To be sure, there are many instances where medical or scientific evidence becomes part of legal disputes in which judges and juries assess the weight and importance of the evidence in relation to the facts of the case.But the issue of excited delirium stands apart from other discussions concerning the role of science in legal decisionmaking. Questions regarding excited delirium are distinct from those pertaining to the admissibility of other types of scientific or medical testimony such as DNA evidence. This distinction exists because there are no established standards for determining excited delirium, nor are there any minimal agreed-upon principles shared among professionals. From the perspective of the long history of forensic sciences and expert witness testimony,the evidentiary support for excited delirium is much closer to that of the highly questioned (and often discredited) “first generation”of forensics (such as bite mark analysis and fingerprinting) than the more “robust . . . second generation,”such as DNA typing.Given excited delirium’s methodological and evidentiary proximity to a collection of first-generation forensic practices that many frown upon, how is it that federal courts continue to allow — if not fully support — the use of excited delirium in cases concerning police use of force?",
+      "source": "article_tag",
+      "length": 1630
+    },
+    {
+      "text": "This Article explores these critical questions at the intersection of law and medicine. Part I provides a brief primer on excited delirium, its history and usage in police use of force cases, and arguments that law enforcement and some researchers have made for it as a valid explanation for some deaths in police custody. Part II then takes a closer look at the rules and doctrines concerning expert witness testimony and the admission of scientific evidence into federal courts as a way to situate the broader question that is taken up in Part III: How does excited delirium, a fringe idea within medicine with a deeply questionable origin story, enter legal discussions on police use of force and become a seemingly legitimate medical diagnosis to explain deaths in police custody? To do this, Part III looks at how expert witnesses use excited delirium in federal courts by engaging in an empirical examination that evaluates legal shifts in how this purported medical condition is discussed in the context of claims concerning police use of force, from its first articulation in federal case law in 1998 until 2023. This qualitative assessment unearths early conversations concerning excited delirium in evidentiary proceedings to show how, over time, the rules of evidence came to allow testimony not generally accepted within medicine to morph into legal claims that shape federal courts’ evaluations of use of force cases. By treating its gatekeeping function in relation to expert witness testimony as aprocedural inquiry— that is, as a process or series of boxes to check — instead of embarking on a deep assessment of the evidence and its broader implications, law has come to give excited delirium much more credibility than science or medicine ever has.",
+      "source": "article_tag",
+      "length": 1766
+    },
+    {
+      "text": "Through a detailed case-by-case examination of early disputes where excited delirium was first brought in front of federal courts, this Article shows how we have landed at a rather awkward moment when legal decisions and subsequent reliance on them as precedent are seen as more relevant to questions about the legitimacy of this medical diagnosis than the scientific research itself — at least in courtrooms where police have been accused of using excessive force. This phenomenon has tremendous implications for how we think about doctrinal rules surrounding expert witnesses, as well as basic notions of justice and accountability, in relation to both civil and criminal adjudications concerning police use of force. Part IV proposes three policy recommendations for how, considering the discussion in Part III, law should respond to both the particular issue of excited delirium in the courtroom and expert witness testimony more broadly — especially as scientific and medical evidence continue to shape legal debates and outcomes regarding police use of force.",
+      "source": "article_tag",
+      "length": 1065
+    },
+    {
+      "text": "Continue Reading in the Full PDF",
+      "source": "article_tag",
+      "length": 32
+    },
+    {
+      "text": "^Death of Antioch Man in Police Custody to Be Reviewed by California Attorney General,ABC10(Sept. 7, 2022, 6:39 PM), https://www.abc10.com/article/news/local/california-ag-reviewing-death-of-antioch-man/103-53e06d56-e2f0-478a-987d-790f7b7cda62 [https://perma.cc/YW6A-56HH].",
+      "source": "article_tag",
+      "length": 273
+    },
+    {
+      "text": "^Andie Judson,What Is Excited Delirium and Why Is It the Cause of Death for Many Restrained by Police?,ABC10(Feb. 8, 2024, 2:02 PM), https://www.abc10.com/article/news/local/what-is-excited-delirium-cause-of-death-for-many-restrained-by-police/103-5fe9aad0-8036-4012-a5e5-9d66f2ec1747 [https://perma.cc/9N7B-T67S].",
+      "source": "article_tag",
+      "length": 314
+    },
+    {
+      "text": "^Olga R. Rodriguez,Family of Man Killed After Police Put Knee to His Neck Sues,Associated Press(Aug. 9, 2021, 10:26 PM), https://apnews.com/article/health-police-feedab074748684c606085a19458ab02 [https://perma.cc/GG3L-H9HA].",
+      "source": "article_tag",
+      "length": 224
+    },
+    {
+      "text": "^SeeEvan Hill et al.,How George Floyd Was Killed in Police Custody,N.Y. Times(Jan. 24, 2022), https://www.nytimes.com/2020/05/31/us/george-floyd-investigation.html [https://perma.cc/V38B-PWN2].",
+      "source": "article_tag",
+      "length": 193
+    },
+    {
+      "text": "^Rodriguez,supranote 4.",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^Judson,supranote 3.",
+      "source": "article_tag",
+      "length": 20
+    },
+    {
+      "text": "^Bryan Ke,Family of Navy Veteran Files Wrongful Death Lawsuit Against Antioch PD, Accuses Chief of Cover-up,Yahoo! News(Aug. 11, 2021, 5:18 PM), https://www.yahoo.com/news/family-navy-veteran-files-wrongful-211812506.html[https://perma.cc/TH7G-LTWG].",
+      "source": "article_tag",
+      "length": 250
+    },
+    {
+      "text": "^Diana Becton,Contra Costa Cnty. Dist. Att’y’s Off.,Report of the Law Enforcement Involved Fatal Incident In-Custody Death of Angelo Voithugo Quinto on December 24, 2020, at 29 & n.13 (2020) (footnote omitted).",
+      "source": "article_tag",
+      "length": 210
+    },
+    {
+      "text": "^SeeJoshua Sharpe,“The Other Victim Is the Truth”: A Navy Veteran’s Family Says New Evidence Shows He Suffocated Under Police Officers’ Weight,S.F. Chron.(Mar. 16, 2023, 6:18 PM), https://www.sfchronicle.com/bayarea/article/excited-delirium-17832243.php [https://perma.cc/5557-EV5G].",
+      "source": "article_tag",
+      "length": 283
+    },
+    {
+      "text": "^SeeT. Plattner et al.,Forensic Assessment of Survived Strangulation, 153Forensic Sci. Int’l202, 203 (2005) (explaining that petechiae “are the result of a congestion . . . of venous bloodflow and rupture of capillaries” and “must be regarded as a strong indicator for a long and fierce assault”).",
+      "source": "article_tag",
+      "length": 297
+    },
+    {
+      "text": "^Sharpe,supranote 14.",
+      "source": "article_tag",
+      "length": 21
+    },
+    {
+      "text": "^Lucy Tompkins,Here’s What You Need to Know About Elijah McClain’s Death,N.Y. Times(Oct. 13, 2023), https://www.nytimes.com/article/who-was-elijah-mcclain.html [https://perma.cc/ZP3R-FDAC].",
+      "source": "article_tag",
+      "length": 189
+    },
+    {
+      "text": "^Alexander Nazaryan,“I’m Just Different”: The Family of Elijah McClain, A 23-Year-Old Black Man Killed by Colorado Cops Almost a Year Ago, Is Still Waiting for Justice,Yahoo! News(June 27, 2020),https://www.yahoo.com/video/im-just-different-the-family-of-elijah-mc-clain-a-23-yearold-black-man-killed-by-colorado-cops-090048258.html[https://perma.cc/VK3E-JETE].",
+      "source": "article_tag",
+      "length": 361
+    },
+    {
+      "text": "^Tompkins,supranote 20.",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^Nazaryan,supranote 22.",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^Id.;see also,e.g., Michael de Yoanna & Rae Solomon,Medics in Colorado Dosed 902 People with Ketamine for “Excited Delirium” in 2.5 Years,KUNC(July 21, 2020, 5:35 PM), https://www.kunc.org/news/2020-07-21/medics-in-colorado-dosed-902-people-with-ketamine-for-excited-delirium-in-2-5-years [https://perma.cc/6H4B-NEPH].",
+      "source": "article_tag",
+      "length": 318
+    },
+    {
+      "text": "^For a discussion of the use of ketamine and other chemical restraints during police interactions with civilians, see Osagie K. Obasogie & Anna Zaret,Medical Professionals, Excessive Force, and the Fourth Amendment, 109Calif. L. Rev.1, 56–57 (2021).",
+      "source": "article_tag",
+      "length": 249
+    },
+    {
+      "text": "^Tompkins,supranote 20.",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^Id.; Kiara Alfonseca,Officers, Paramedics Plead Not Guilty in Connection with Death of Elijah McClain,ABC News(Jan. 20, 2023, 4:56 PM), https://abcnews.go.com/US/officers-paramedics-arraigned-connection-death-elijah-mcclain/story?id=96561629 [https://perma.cc/6988-DFNT].",
+      "source": "article_tag",
+      "length": 272
+    },
+    {
+      "text": "^Id.(emphasis added) (quoting Waters v. City & County of Denver, No. 12-cv-01856, 2014 WL 11269945, at *5 (D. Colo. Sept. 30, 2014)).",
+      "source": "article_tag",
+      "length": 133
+    },
+    {
+      "text": "^E.g., Ailsa Chang et al.,Summer of Racial Reckoning,NPR(Aug. 16, 2020, 9:00 AM), https://www.npr.org/2020/08/16/902179773/summer-of-racial-reckoning-the-match-lit [https://perma.cc/8Y68-G6C4];Looking Back at a Year-Long Racial Reckoning Since George Floyd’s Killing,PBS News Hour(May 25, 2021, 6:52 PM), https://www.pbs.org/newshour/show/looking-back-at-a-year-long-racial-reckoning-since-george-floyds-killing [https://perma.cc/TQQ5-3ZJK].",
+      "source": "article_tag",
+      "length": 441
+    },
+    {
+      "text": "^See, e.g., Hill et al.,supranote 9; Josh Sanburn,Behind the Video of Eric Garner’s Deadly Confrontation with New York Police,Time(July 23, 2014), https://time.com/3016326/eric-garner-video-police-chokehold-death [https://perma.cc/W98E-GZJJ]; Michael S. Schmidt & Matt Apuzzo,South Carolina Officer Is Charged with Murder of Walter Scott,N.Y. Times(Apr. 7, 2015), https://www.nytimes.com/2015/04/08/us/south-carolina-officer-is-charged-with-murder-in-black-mans-death.html [https://perma.cc/8CVY-HM35].",
+      "source": "article_tag",
+      "length": 502
+    },
+    {
+      "text": "^See generally, e.g., Osagie K. Obasogie & Zachary Newman,Colorblind Constitutional Torts, 95S. Cal. L. Rev.1137 (2022); Joanna C. Schwartz,Qualified Immunity’s Boldest Lie, 88U. Chi. L. Rev.605 (2021).",
+      "source": "article_tag",
+      "length": 202
+    },
+    {
+      "text": "^Coleman, 632 Fed. App’x at 436–37.",
+      "source": "article_tag",
+      "length": 35
+    },
+    {
+      "text": "^Am. Psychiatric Ass’n,Position Statement on Concerns About Use of the Term “Excited Delirium” and Appropriate Medical Management in Out-of-Hospital Contexts(Dec. 2020), https://www.psychiatry.org/getattachment/7769e617-ee6a-4a89-829f-4fc71d831ce0/Position-Use-of-Term-Excited-Delirium.pdf [https://perma.cc/7XLP-N24N].",
+      "source": "article_tag",
+      "length": 319
+    },
+    {
+      "text": "^Press Release, Am. Med. Ass’n, New AMA Policy Opposes “Excited Delirium” Diagnosis (June 14, 2021), https://www.ama-assn.org/press-center/press-releases/new-ama-policy-opposes-excited-delirium-diagnosis [https://perma.cc/7SXW-G6SF].",
+      "source": "article_tag",
+      "length": 233
+    },
+    {
+      "text": "^See generallyAm. Psychiatric Ass’n, Diagnostic and Statistical Manual of Mental Disorders(5th ed. 2013);World Health Org., International Classification of Diseases(11th ed. 2019).",
+      "source": "article_tag",
+      "length": 180
+    },
+    {
+      "text": "^Infranotes 105–19 and accompanying text.",
+      "source": "article_tag",
+      "length": 41
+    },
+    {
+      "text": "^For a brief overview of the history and contemporary applications of law in relation to forensic science and expert testimony,see generallyNat’l Rsch. Council, Strengthening Forensic Science in the United States(2009);Terrence F. Kiely, Forensic Evidence(2d ed. 2005);David L. Faigman et al., Modern Scientific Evidence(2023–2024 ed.). For modern examples of this ongoing debate, see Aziza Ahmed,Floating Lungs: Forensic Science in Self-Induced Abortion Prosecutions, 100B.U. L. Rev.1111, 1136–49 (2020); Keith A. Findley et al.,Feigned Consensus: Usurping the Law in Shaken Baby Syndrome/Abusive Head Trauma Prosecutions, 2019Wis. L. Rev.1211, 1254–62.",
+      "source": "article_tag",
+      "length": 654
+    },
+    {
+      "text": "^Professor Erin Murphy has identified two distinct eras of forensic sciences.SeeErin Murphy,The New Forensics: Criminal Justice, False Certainty, and the Second Generation of Scientific Evidence, 95Calif. L. Rev.721, 726–30 (2007). Professor Murphy argues that the first generation of forensic techniques — traditional “analysis of bite and tool marks, hair and fiber, ballistics, handwriting, voice exemplars, and fingerprints” — had minimal utility and were “usually [used] in a supporting role to other forms of evidence like eyewitness testimony or the defendant’s own confession.”Id.at 726. The lacking scientific basis of these approaches has led them to be thought of with great skepticism due to what Murphy describes as their being (1) of “limited application”; (2) “observational, rather than technical or experimental” and “neither conceptually complicated nor scientifically rigorous,”id.; (3) “mechanically unsophisticated” in “not employ[ing] complex interpretive machinery or instrumentation”; (4) “reactive and self-contained in their investigative scope,”id.at 727; and (5) often too narrow to “implicate greater questions of personal privacy,”id.at 728. On the other hand, Murphy says that “second-generation techniques” — typified by DNA typing but also including “data mining, location tracking . . . , and biometric scanning,”id.— share different traits: They (1) have wide applicability to a range of cases,seeid.; (2) are based on robust scientific principles,seeid.at 729; (3) have both “methodological” and “mechanical sophistication,”id.; and (4) “rely upon computerized databases to store large quantities of information,”id.at 730.",
+      "source": "article_tag",
+      "length": 1659
+    },
+    {
+      "text": "Artificial Intelligence",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "Artificial Intelligence",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "Copyright © 1887-2025 Harvard Law Review. All Rights Reserved.Accessibility",
+      "source": "content_div",
+      "length": 75
+    },
+    {
+      "text": "WordPress vector logokevinleary.net",
+      "source": "content_div",
+      "length": 35
+    }
+  ],
+  "footnotes": [
+    {
+      "text": "^Death of Antioch Man in Police Custody to Be Reviewed by California Attorney General,ABC10(Sept. 7, 2022, 6:39 PM), https://www.abc10.com/article/news/local/california-ag-reviewing-death-of-antioch-man/103-53e06d56-e2f0-478a-987d-790f7b7cda62 [https://perma.cc/YW6A-56HH].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 293
+    },
+    {
+      "text": "^Id.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 24
+    },
+    {
+      "text": "^Andie Judson,What Is Excited Delirium and Why Is It the Cause of Death for Many Restrained by Police?,ABC10(Feb. 8, 2024, 2:02 PM), https://www.abc10.com/article/news/local/what-is-excited-delirium-cause-of-death-for-many-restrained-by-police/103-5fe9aad0-8036-4012-a5e5-9d66f2ec1747 [https://perma.cc/9N7B-T67S].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 334
+    },
+    {
+      "text": "^Olga R. Rodriguez,Family of Man Killed After Police Put Knee to His Neck Sues,Associated Press(Aug. 9, 2021, 10:26 PM), https://apnews.com/article/health-police-feedab074748684c606085a19458ab02 [https://perma.cc/GG3L-H9HA].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 244
+    },
+    {
+      "text": "^SeeEvan Hill et al.,How George Floyd Was Killed in Police Custody,N.Y. Times(Jan. 24, 2022), https://www.nytimes.com/2020/05/31/us/george-floyd-investigation.html [https://perma.cc/V38B-PWN2].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 213
+    },
+    {
+      "text": "^Rodriguez,supranote 4.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^Judson,supranote 3.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 40
+    },
+    {
+      "text": "^Bryan Ke,Family of Navy Veteran Files Wrongful Death Lawsuit Against Antioch PD, Accuses Chief of Cover-up,Yahoo! News(Aug. 11, 2021, 5:18 PM), https://www.yahoo.com/news/family-navy-veteran-files-wrongful-211812506.html[https://perma.cc/TH7G-LTWG].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 270
+    },
+    {
+      "text": "^Diana Becton,Contra Costa Cnty. Dist. Att’y’s Off.,Report of the Law Enforcement Involved Fatal Incident In-Custody Death of Angelo Voithugo Quinto on December 24, 2020, at 29 & n.13 (2020) (footnote omitted).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 230
+    },
+    {
+      "text": "^SeeJoshua Sharpe,“The Other Victim Is the Truth”: A Navy Veteran’s Family Says New Evidence Shows He Suffocated Under Police Officers’ Weight,S.F. Chron.(Mar. 16, 2023, 6:18 PM), https://www.sfchronicle.com/bayarea/article/excited-delirium-17832243.php [https://perma.cc/5557-EV5G].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 303
+    },
+    {
+      "text": "^SeeT. Plattner et al.,Forensic Assessment of Survived Strangulation, 153Forensic Sci. Int’l202, 203 (2005) (explaining that petechiae “are the result of a congestion . . . of venous bloodflow and rupture of capillaries” and “must be regarded as a strong indicator for a long and fierce assault”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 317
+    },
+    {
+      "text": "^Sharpe,supranote 14.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Lucy Tompkins,Here’s What You Need to Know About Elijah McClain’s Death,N.Y. Times(Oct. 13, 2023), https://www.nytimes.com/article/who-was-elijah-mcclain.html [https://perma.cc/ZP3R-FDAC].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 209
+    },
+    {
+      "text": "^Alexander Nazaryan,“I’m Just Different”: The Family of Elijah McClain, A 23-Year-Old Black Man Killed by Colorado Cops Almost a Year Ago, Is Still Waiting for Justice,Yahoo! News(June 27, 2020),https://www.yahoo.com/video/im-just-different-the-family-of-elijah-mc-clain-a-23-yearold-black-man-killed-by-colorado-cops-090048258.html[https://perma.cc/VK3E-JETE].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 381
+    },
+    {
+      "text": "^Tompkins,supranote 20.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^Nazaryan,supranote 22.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^Id.;see also,e.g., Michael de Yoanna & Rae Solomon,Medics in Colorado Dosed 902 People with Ketamine for “Excited Delirium” in 2.5 Years,KUNC(July 21, 2020, 5:35 PM), https://www.kunc.org/news/2020-07-21/medics-in-colorado-dosed-902-people-with-ketamine-for-excited-delirium-in-2-5-years [https://perma.cc/6H4B-NEPH].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 338
+    },
+    {
+      "text": "^For a discussion of the use of ketamine and other chemical restraints during police interactions with civilians, see Osagie K. Obasogie & Anna Zaret,Medical Professionals, Excessive Force, and the Fourth Amendment, 109Calif. L. Rev.1, 56–57 (2021).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 269
+    },
+    {
+      "text": "^Id.; Kiara Alfonseca,Officers, Paramedics Plead Not Guilty in Connection with Death of Elijah McClain,ABC News(Jan. 20, 2023, 4:56 PM), https://abcnews.go.com/US/officers-paramedics-arraigned-connection-death-elijah-mcclain/story?id=96561629 [https://perma.cc/6988-DFNT].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 292
+    },
+    {
+      "text": "^632 F. App’x 431 (10th Cir. 2015).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 55
+    },
+    {
+      "text": "^Id.at 433.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.(emphasis added) (quoting Waters v. City & County of Denver, No. 12-cv-01856, 2014 WL 11269945, at *5 (D. Colo. Sept. 30, 2014)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 153
+    },
+    {
+      "text": "^Id.at 434.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 442.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 438;see also id.at 436–37.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 53
+    },
+    {
+      "text": "^Id.at 438.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^E.g., Ailsa Chang et al.,Summer of Racial Reckoning,NPR(Aug. 16, 2020, 9:00 AM), https://www.npr.org/2020/08/16/902179773/summer-of-racial-reckoning-the-match-lit [https://perma.cc/8Y68-G6C4];Looking Back at a Year-Long Racial Reckoning Since George Floyd’s Killing,PBS News Hour(May 25, 2021, 6:52 PM), https://www.pbs.org/newshour/show/looking-back-at-a-year-long-racial-reckoning-since-george-floyds-killing [https://perma.cc/TQQ5-3ZJK].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 461
+    },
+    {
+      "text": "^See, e.g., Hill et al.,supranote 9; Josh Sanburn,Behind the Video of Eric Garner’s Deadly Confrontation with New York Police,Time(July 23, 2014), https://time.com/3016326/eric-garner-video-police-chokehold-death [https://perma.cc/W98E-GZJJ]; Michael S. Schmidt & Matt Apuzzo,South Carolina Officer Is Charged with Murder of Walter Scott,N.Y. Times(Apr. 7, 2015), https://www.nytimes.com/2015/04/08/us/south-carolina-officer-is-charged-with-murder-in-black-mans-death.html [https://perma.cc/8CVY-HM35].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 522
+    },
+    {
+      "text": "^See generally, e.g., Osagie K. Obasogie & Zachary Newman,Colorblind Constitutional Torts, 95S. Cal. L. Rev.1137 (2022); Joanna C. Schwartz,Qualified Immunity’s Boldest Lie, 88U. Chi. L. Rev.605 (2021).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 222
+    },
+    {
+      "text": "^Coleman, 632 Fed. App’x at 436–37.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 55
+    },
+    {
+      "text": "^Am. Psychiatric Ass’n,Position Statement on Concerns About Use of the Term “Excited Delirium” and Appropriate Medical Management in Out-of-Hospital Contexts(Dec. 2020), https://www.psychiatry.org/getattachment/7769e617-ee6a-4a89-829f-4fc71d831ce0/Position-Use-of-Term-Excited-Delirium.pdf [https://perma.cc/7XLP-N24N].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 339
+    },
+    {
+      "text": "^Press Release, Am. Med. Ass’n, New AMA Policy Opposes “Excited Delirium” Diagnosis (June 14, 2021), https://www.ama-assn.org/press-center/press-releases/new-ama-policy-opposes-excited-delirium-diagnosis [https://perma.cc/7SXW-G6SF].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 253
+    },
+    {
+      "text": "^See generallyAm. Psychiatric Ass’n, Diagnostic and Statistical Manual of Mental Disorders(5th ed. 2013);World Health Org., International Classification of Diseases(11th ed. 2019).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 200
+    },
+    {
+      "text": "^Infranotes 105–19 and accompanying text.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 61
+    },
+    {
+      "text": "^For a brief overview of the history and contemporary applications of law in relation to forensic science and expert testimony,see generallyNat’l Rsch. Council, Strengthening Forensic Science in the United States(2009);Terrence F. Kiely, Forensic Evidence(2d ed. 2005);David L. Faigman et al., Modern Scientific Evidence(2023–2024 ed.). For modern examples of this ongoing debate, see Aziza Ahmed,Floating Lungs: Forensic Science in Self-Induced Abortion Prosecutions, 100B.U. L. Rev.1111, 1136–49 (2020); Keith A. Findley et al.,Feigned Consensus: Usurping the Law in Shaken Baby Syndrome/Abusive Head Trauma Prosecutions, 2019Wis. L. Rev.1211, 1254–62.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 674
+    },
+    {
+      "text": "^Professor Erin Murphy has identified two distinct eras of forensic sciences.SeeErin Murphy,The New Forensics: Criminal Justice, False Certainty, and the Second Generation of Scientific Evidence, 95Calif. L. Rev.721, 726–30 (2007). Professor Murphy argues that the first generation of forensic techniques — traditional “analysis of bite and tool marks, hair and fiber, ballistics, handwriting, voice exemplars, and fingerprints” — had minimal utility and were “usually [used] in a supporting role to other forms of evidence like eyewitness testimony or the defendant’s own confession.”Id.at 726. The lacking scientific basis of these approaches has led them to be thought of with great skepticism due to what Murphy describes as their being (1) of “limited application”; (2) “observational, rather than technical or experimental” and “neither conceptually complicated nor scientifically rigorous,”id.; (3) “mechanically unsophisticated” in “not employ[ing] complex interpretive machinery or instrumentation”; (4) “reactive and self-contained in their investigative scope,”id.at 727; and (5) often too narrow to “implicate greater questions of personal privacy,”id.at 728. On the other hand, Murphy says that “second-generation techniques” — typified by DNA typing but also including “data mining, location tracking . . . , and biometric scanning,”id.— share different traits: They (1) have wide applicability to a range of cases,seeid.; (2) are based on robust scientific principles,seeid.at 729; (3) have both “methodological” and “mechanical sophistication,”id.; and (4) “rely upon computerized databases to store large quantities of information,”id.at 730.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1679
+    },
+    {
+      "text": "^Id.at 722.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 724.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 725.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 726–30.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 34
+    }
+  ],
+  "headers": [
+    {
+      "text": "Excited Delirium, Policing, and the Law of Evidence",
+      "source": "h1",
+      "length": 51
+    },
+    {
+      "text": "Abstract",
+      "source": "h2",
+      "length": 8
+    },
+    {
+      "text": "Introduction",
+      "source": "h2",
+      "length": 12
+    },
+    {
+      "text": "More from this Issue",
+      "source": "h2",
+      "length": 20
+    },
+    {
+      "text": "Developments in the Law — Artificial Intelligence",
+      "source": "h3",
+      "length": 49
+    },
+    {
+      "text": "Introduction",
+      "source": "h3",
+      "length": 12
+    },
+    {
+      "text": "Resetting Antidiscrimination Law in the Age of AI",
+      "source": "h3",
+      "length": 49
+    },
+    {
+      "text": "Archives",
+      "source": "h3",
+      "length": 8
+    },
+    {
+      "text": "Fellowship",
+      "source": "h3",
+      "length": 10
+    },
+    {
+      "text": "About",
+      "source": "h3",
+      "length": 5
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 48,
+    "total_footnotes": 40,
+    "total_headers": 10,
+    "total_other": 0
+  }
+}

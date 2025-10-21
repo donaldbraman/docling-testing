@@ -1,0 +1,996 @@
+{
+  "file": "the_old_regime_and_the_loper_bright_revolution__the_supreme_court_review__vol_2024.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Search for more articles by this author",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "On June 28, 2024, the Supreme Court decidedLoper Bright Enterprises v. RaimondoandRelentless, Inc. v. Department of Commerce,companion cases presenting the same question: whetherChevron, U.S.A., Inc. v. Natural Resources Defense Council, Inc.should be overruled. The Court said “yes,” and did overruleChevron.A number of popular articles and legal commentators immediately called the decision “revolutionary”or, in a variant, the culmination of a “conservative counterrevolution”against the administrative state. Others insisted that the central “grand narrative” of administrative law has now become, for better or for worse, the narrative propounded by libertarian and originalist critics of the administrative state.",
+      "source": "article_tag",
+      "length": 719
+    },
+    {
+      "text": "My own immediate reaction, published the day the decision came down, was different and more skeptical:Loper Bright, it seemed to me, was in large part a relabeling ofChevrondeference as delegated agency discretion, rather than a dramatic change in the law.I will expand on that view here, update it in light of later developments, and put it in a larger frame, offering a more general thesis—if you like, a different “grand narrative”—aboutLoper Bright, and about the broader libertarian and originalist attempt to curtail the administrative state through expanded judicial review of agency action.",
+      "source": "article_tag",
+      "length": 598
+    },
+    {
+      "text": "The thesis runs this way. A commonplace of revolutions, and counterrevolutions, is that however dramatic they may be in the short run, in the long run they often produce less change than their proponents hope and their opponents fear. Sometimes revolutions or counterrevolutions even serve to cement into place, or indeed augment, the very structures and norms that the revolutionaries found most objectionable. Such a thesis was suggested as to the most dramatic upheaval of them all: the French Revolution of 1789. InThe Ancien Régime and the French Revolution,written in 1856 after a long series of revolutions and counterrevolutions of varying description, Alexis de Tocqueville argued not only that the Revolution was as much an outgrowth of earlier laws, institutions, and norms as a departure from them, but also that those laws, institutions and norms largely survived the Revolution; indeed, they were in a sense confirmed and strengthened by it, albeit clothed in new outward forms. For Tocqueville, the Revolution had “a first phase during which the French seemed to want to abolish everything from their past, and a second in which they would recover part of what they had left behind. Many of the laws and political traditions of theAncien Régimesuddenly disappeared in 1789 only to reappear a few years later, much as certain rivers plunge underground only to reemerge somewhat farther on, bringing the same waters to new shores.”",
+      "source": "article_tag",
+      "length": 1444
+    },
+    {
+      "text": "In what follows, I will suggest the possibility of a similar thesis, of course on a much smaller scale, as to theLoper Bright“revolution” and indeed the administrative law “revolution” more generally. (This point is equally relevant for those who describeLoper Brightas a counterrevolution against the administrative state; counterrevolutions also chronically promise more than they deliver, as the supporters of the Bourbon Restoration discovered after 1815.) There is a difference to be noted right away: In the case ofLoper Bright, in contrast to the French Revolution, we do not yet have the advantage of time and hence of hindsight. We are still in the first of Tocqueville’s two phases, in which revolutionaries hope and believe that the old regime of absolutism can be entirely extirpated. For the Court’s radical critics of the administrative state, such as Justices Gorsuch and Thomas, we are in the bright dawn of the Year Zero, which is also (as the French revolutionaries themselves hoped) a restoration of the classical republic.",
+      "source": "article_tag",
+      "length": 1042
+    },
+    {
+      "text": "But it is already possible to see howLoper Brightboth grew out of pre-existing legal doctrines, principles, and trends, and also to see how the chastening of theLoper Brightrevolution could occur, leaving in place much of the oldChevronregime under different labels. Indeed, I will argue, the beginning of that process is already visible within the four corners of the majority opinion itself. Writing for the Court, its leading Girondin or moderate revolutionary, the Chief Justice, already attempts to temper theLoper Brightrevolution, writing a roadmap for a broad recharacterization of “Chevrondeference” as “Loper Brightdelegation.”In some potentially broad range of the cases that would previously have been covered by theChevrondoctrine, courts will now say that Congress has explicitly or implicitly delegated discretionary policymaking authority to the agencies. In this framework, much of the review of the outer bounds of agency discretion that previously took place under theChevronlabel will take place under the label of arbitrary-and-capricious review, but it is at best unclear how much will change in any operative sense, especially given thatChevronand arbitrariness review have long been held to overlap in part.Furthermore, even apart from delegation, the Chief Justice’s opinion for the Court leaves in place a robustSkidmoredoctrine of “respect” for persuasive agency interpretations;it also backhandedly confirms the idea associated withNLRB v. Hearst Publications, Inc.that courts owe agencies a form of deference as to “mixed questions,” or the application of legal standards to facts, which is a form of policymaking discretion.It is difficult, at least in the abstract, to identify with certainty any clear category of cases that will come out differently under the new regime than under the old one.",
+      "source": "article_tag",
+      "length": 1827
+    },
+    {
+      "text": "The overall impression thatLoper Brightmakes is a curiously schizophrenic one—ironically enough, the same impression that David Currie once attributed toCrowell v. Benson.Loper Brightostentatiously gives to the Court’s Hamburgerianswith one hand while partly taking back the gift with the other.Loper Bright, in other words, gives a highly salient (apparent) victory to the forces of libertarian administrative law,while also and simultaneously qualifying that victory to such a degree as to raise serious questions about not only how much the law will change, but whether it will significantly change at all. In part, this curious two-step appears to be an effort on the part of the Chief Justice to both satisfy and yet also preempt the more radical originalist Justices to his right, theJacobins de droite, Justices Gorsuch and Thomas. The latter would go even farther and eliminate some of the exceptions and qualifications the Court’s opinion leaves in place, or indeed would even revive the constitutional nondelegation doctrine as a tool for the more systematic destruction of the administrative state.",
+      "source": "article_tag",
+      "length": 1109
+    },
+    {
+      "text": "Only time will tell whether the Chief Justice is doomed to suffer the same fate as the Girondins of the early 1790s, who discovered to their great cost that revolutions are easier to unleash than to restrain and moderate. Even a revival of the constitutional nondelegation doctrine, however, promises more than it could deliver, as I will explain. In the long run, by far the best prediction is that, just as the basic structures of theancien régimesurvived the Revolution and were even further cemented into place, so too with the administrative state and judicial deference to administrative interpretations of law—whether that deference is explicit or implicit and whether under the label of deference, of delegated policymaking discretion, or of mere respect.",
+      "source": "article_tag",
+      "length": 763
+    },
+    {
+      "text": "Part I provides a brief requiem for theancien régime. Part II lays out the main holdings ofLoper Bright, details the thesis that the decision may change much less than might initially appear, and examines some of the many doctrinal questions raised and left open by the decision. In particular, I examine the possibility of interaction effects with the Court’s other recent decisions on administrative law, and I suggest that those effects will not do much to exacerbate the effect ofLoper Bright, in part because they cut in countervailing directions. Part III examines the main proposal of the Court’sJacobins de droite, who would revive the nondelegation doctrine as a constitutional matter, and argues that such a revival is both unlikely to occur and likely to be surprisingly inconsequential even if it does occur. I conclude that the anti-administrative revolution, dramatic though it may appear to those of us who are living through it, is likely to be at most a marginal revolution—a mild and perhaps temporary correction to the “market” for administrative authority. Just as the French State after the Revolution emerged, in a sense, even more like itself, just under different forms and labels, so too with the administrative state afterLoper Bright.",
+      "source": "article_tag",
+      "length": 1261
+    },
+    {
+      "text": "Before focusing on the detailed holdings ofLoper Bright, I begin with a brief but necessary funeral mass for the old regime, which the majority opinion dispatched with little ceremony and buried in an unmarked grave.",
+      "source": "article_tag",
+      "length": 216
+    },
+    {
+      "text": "Two points are salient. The first is that the Court unmistakably distorted the history of deference doctrine, simply omitting important strands of case law that would have considerably complicated or even compromised its historical narrative. This is not the first time such a thing has happened, of course, but the overstated and simplistic historical narrative ofLoper Brightcomes perilously close to misinformation-by-omission. Second, in Tocquevillian spirit, I will suggest that theLoper Bright“revolution” is actually best seen as building upon and bringing to a culmination prior strands in the case law, rather than effecting a radical break with the past.",
+      "source": "article_tag",
+      "length": 664
+    },
+    {
+      "text": "The Court’s historical narrative was simple. Federal courts had always asserted ultimate authority to interpret statues, de novo or independently. True, in some case law, including some very early case law from the Marshall Court—presumably at least probative evidence of the original understanding—the Justices had said that longstanding statutory constructions by the executive departments are worthy of “respect.” But theLoper BrightCourt saw this as merely a form of what today would be calledSkidmoredeference, more accurately calledSkidmore“weight.”So too, the cases that spoke of deference in the 1940s, and that formed the immediate background in place when the Administrative Procedure Act (APA) was enacted in 1946, were merely cases in which courts deferred to the application of legal standards to facts, an exercise not of legal interpretation but of policymaking. The text of the APA, on the Court’s view, then plainly confirmed the (putatively) traditional position that federal courts are to decide “all relevant questions of law” for themselves.In 1984,Chevronbroke with the traditional view, creating a category of cases in which law-interpreting power was transferred from the courts to agencies, in violation of the APA. Over time, theChevronframework became ever more complex, indeed byzantine, and eventually became so unworkable as to teeter on the brink of collapse. In this narrative, the overruling ofChevronwas not so much a forward-looking change in the Court’s approach to deference as a restoration of the original authority of courts, traditional in our constitutional order and confirmed by the text of the APA. Like the Parisian revolutionaries of 1789, the more articulate of whom saw themselves as (or at least claimed to be) restorers of classical republican liberty, the Court’s narrative claims that it is merely restoring a fundamental principle governing the relationship between courts and agencies, one that is reflected in the APA’s text.",
+      "source": "article_tag",
+      "length": 1981
+    },
+    {
+      "text": "The barest acquaintance with the Court’s case law, however, suggests that something has gone badly wrong here. I refer not toChevron, nor even to the case law of the 1940s, but rather to case law decided well before the full flowering of the administrative state. Consider a few of the Court’s earlier and emphatic statements,noneof which appear in the majority opinion.[W]here Congress has committed to the head of a department certain duties requiring the exercise of judgment and discretion, his action thereon,whether it involve questions of law or fact, will not be reviewed by the courts unless he has exceeded his authority or this Court should be of opinion that his action was clearly wrong… . [W]here the decision of questions of fact is committed by Congress to the judgment and discretion of the head of a department, his decision thereon is conclusive; and that even upon mixed questions of law and fact,or of law alone, his action will carry with it a strong presumption of its correctness, and the courts will not ordinarily review it, although they may have the power, and will occasionally exercise the right of so doing.Whether [the executive officer] decided right or wrong, is not the question. Having jurisdiction to decide at all, he had necessarily jurisdiction, andit was his duty to decide as he thought the law was, and the courts have no power whatever under those circumstances to review his determinationby mandamus or injunction.In all cases of ambiguity, the contemporaneous construction, not only of the courts but of the departments, and even of the officials whose duty it is to carry the law into effect, is universallyheld to be controlling.",
+      "source": "article_tag",
+      "length": 1677
+    },
+    {
+      "text": "[W]here Congress has committed to the head of a department certain duties requiring the exercise of judgment and discretion, his action thereon,whether it involve questions of law or fact, will not be reviewed by the courts unless he has exceeded his authority or this Court should be of opinion that his action was clearly wrong… . [W]here the decision of questions of fact is committed by Congress to the judgment and discretion of the head of a department, his decision thereon is conclusive; and that even upon mixed questions of law and fact,or of law alone, his action will carry with it a strong presumption of its correctness, and the courts will not ordinarily review it, although they may have the power, and will occasionally exercise the right of so doing.",
+      "source": "article_tag",
+      "length": 768
+    },
+    {
+      "text": "Whether [the executive officer] decided right or wrong, is not the question. Having jurisdiction to decide at all, he had necessarily jurisdiction, andit was his duty to decide as he thought the law was, and the courts have no power whatever under those circumstances to review his determinationby mandamus or injunction.",
+      "source": "article_tag",
+      "length": 321
+    },
+    {
+      "text": "In all cases of ambiguity, the contemporaneous construction, not only of the courts but of the departments, and even of the officials whose duty it is to carry the law into effect, is universallyheld to be controlling.",
+      "source": "article_tag",
+      "length": 218
+    },
+    {
+      "text": "Note that these cases are not subject to the Court’s basic maneuver of treating all previous references to deference-like principles as no more than references toSkidmore“respect” or “weight”avant la lettre.Instead these cases refer quite expressly to a stronger version of deference, under which delegated statutory discretion carries with it a presumption that agency legal interpretations are “controlling,” even as to “law alone,” unless they clearly exceed the boundaries of the agency’s statutory authority—a decent short summary of what later would be called theChevronframework. Indeed, ironically enough, it is also a decent short summary of one of the main holdings ofLoper Brightitself, which at least to some large degree recreates theChevronframework while claiming to overrule it, as I will suggest shortly. The truth is that there have always been multiple strands jostling in the Court’s case law,and these multiple strands reappeared within theChevronframework itself. The opinion inLoper Brightelides this messy history in order to portrayChevronas a kind of fall from grace, an inexplicable departure from an original and longstanding baseline approach of de novo judicial interpretation in search of the single right answer.",
+      "source": "article_tag",
+      "length": 1244
+    },
+    {
+      "text": "OverrulingChevronis thus not a simple exercise, and it has been made less simple by the Court’s transparently selective account of the history of deference law. Are cases such as the ones I have quoted here still good law? One might think the answer is a straightforward “no,” but it is not so obvious that they are not. After all, the Court does not expressly overrule or even mention them, and they might even now be described as cases of statutory delegation. Still, one may expect that either they will be folded into theSkidmoredoctrine or else treated as implicitly overruled by the Court’s holding that de novo judicial interpretation is commanded by the text of the APA—even though one does not usually treat subsequently enacted statutes as overruling large swathes of prior case law unless they do so expressly.In any case, however, what is clear is that the Court’s failure to even address such problems, in the service of a simplistic narrative, is a failure not only of candor but of legal craft.",
+      "source": "article_tag",
+      "length": 1009
+    },
+    {
+      "text": "Just as Tocqueville argued, shockingly, that the Revolution had as much built upon prior institutions and policies as departed from them, so too withLoper Bright. I will argue in Part II below that the deference and quasi-deference doctrines thatLoper Brightretains as part of the current law cover much or most of theChevronterrain, especially insofar asLoper BrightrelabelsChevron“deference” as “delegation,” express or implied. Here, it suffices merely to point out thatLoper Bright’s emphasis on delegation is not some sudden about-face by the Court. Rather it is best seen as a continuation and expansion of themes fromChevronitself—and from a notorious epicycle onChevron, theUnited States v. Mead Corporationdecision in 2001.",
+      "source": "article_tag",
+      "length": 732
+    },
+    {
+      "text": "The originalChevronopinion had of course framed its approach partly (but only partly) in terms of delegation, saying:If Congress has explicitly left a gap for the agency to fill, there is an express delegation of authority to the agency to elucidate a specific provision of the statute by regulation. Such legislative regulations are given controlling weight unless they are arbitrary, capricious, or manifestly contrary to the statute. Sometimes the legislative delegation to an agency on a particular question is implicit rather than explicit. In such a case, a court may not substitute its own construction of a statutory provision for a reasonable interpretation made by the administrator of an agency.As we will see, this sounds rather strikingly like the crucial analysis of delegation inLoper Bright—at least if we carry out the essentially semantic trick of saying that the delegation-space of agency authority to which theChevronCourt refersis itself the “one right answer” demanded byLoper Bright; and especially if, as I will argue, implicit as well as explicit delegations are and must be recognized byLoper Bright’s logic. Comparing this passage fromChevronwithLoper Bright, one might be forgiven for wondering what, exactly, all the shouting is about, putting aside the fact that the two opinions speak about essentially the same legal situation in somewhat different language.",
+      "source": "article_tag",
+      "length": 1391
+    },
+    {
+      "text": "If Congress has explicitly left a gap for the agency to fill, there is an express delegation of authority to the agency to elucidate a specific provision of the statute by regulation. Such legislative regulations are given controlling weight unless they are arbitrary, capricious, or manifestly contrary to the statute. Sometimes the legislative delegation to an agency on a particular question is implicit rather than explicit. In such a case, a court may not substitute its own construction of a statutory provision for a reasonable interpretation made by the administrator of an agency.",
+      "source": "article_tag",
+      "length": 589
+    },
+    {
+      "text": "But the delegation theme was somewhat lost or downplayed in the years afterChevron. The majority opinion inMeadonce again put delegation front and center inChevronanalysis,holding that a tariff classification ruling had no claim toChevrondeference because there was “no indication that Congress intended such a ruling to carry the force of law….”Mead’s basic rationale was that theChevroninquiry should be refocused on delegation. Adumbrating the passage fromChevronquoted above, theMeadCourt expanded upon the theme of implied delegation, saying:Congress … may not have expressly delegated authority or responsibility to implement a particular provision or fill a particular gap. Yet it can still be apparent from the agency’s generally conferred authority and other statutory circumstances that Congress would expect the agency to be able to speak with the force of law when it addresses ambiguity in the statute or fills a space in the enacted law, even one about which “Congress did not actually have an intent” as to a particular result.Implied delegations, in other words, could be indirectly inferred as a legal presumption, regardless of any inquiry into the actual intentions of actually existing legislators—inferred from what theMeadCourt called “indicator[s] of delegation.”For theMeadCourt,Chevron“was simply a case recognizing that even without express authority to fill a specific statutory gap, circumstances pointing to implicit congressional delegation present a particularly insistent call for deference.”Therefore, “ChevronleftSkidmoreintact and applicable where statutory circumstances indicate no intent to delegate general authority to make rules with force of law….”",
+      "source": "article_tag",
+      "length": 1690
+    },
+    {
+      "text": "Congress … may not have expressly delegated authority or responsibility to implement a particular provision or fill a particular gap. Yet it can still be apparent from the agency’s generally conferred authority and other statutory circumstances that Congress would expect the agency to be able to speak with the force of law when it addresses ambiguity in the statute or fills a space in the enacted law, even one about which “Congress did not actually have an intent” as to a particular result.",
+      "source": "article_tag",
+      "length": 495
+    },
+    {
+      "text": "This view reorganizes the law of judicial review of agency legal interpretations around delegation.Chevronis merely a case about legal presumptions for inferring implied delegations, which must be evaluated partly at retail, andSkidmoresurvives in situations where no delegation of lawmaking authority can be inferred at all. As we will see, this regime is not far at all from the regimeLoper Brighterects—with the added flourish in the latter decision that, after the process of legal interpretation is done, the courts insist that the answer at which they have arrived is the sole right answer, even if thecontentof that answer is that Congress has conferred upon the agency a statutorily delegated policymaking space. It is at best unclear what that extra flourish adds to the analysis, beyond the statement of a judicial mood, as I will also discuss. For now, the key Tocquevillian point is that the continuities between the old regime and the new are at least as striking as their discontinuities.",
+      "source": "article_tag",
+      "length": 1002
+    },
+    {
+      "text": "Now for the main holdings ofLoper Bright, their scope, and what if anything they change from the previous law.",
+      "source": "article_tag",
+      "length": 110
+    },
+    {
+      "text": "The Court’s most basic holding was simple: Section 706 of the APA, which says “courts shall decide all relevant questions of law,” requires courts to always and everywhere ascertain the single “best meaning” of the statute, and thus to decide all legal questions de novo, independently.In contrast toChevron, courts must not afford agency legal interpretations controlling weight even in cases of ambiguity, although as we will see courts may still afford “deference” underSkidmore, more accurately weight or respect, to persuasive agency arguments about what statutes mean. Hence,Chevronwas unlawfulab initio, wrong the day it was decided, and the Court overrules it.The basic holding was accompanied by a rather unprofitable debate about stare decisis that I will largely ignore, except insofar asLoper Brightraises the question of what happens to previous decisions from the Court and lower courts that upheld agency actions at “ChevronStep Two” under ambiguous statutory schemes.",
+      "source": "article_tag",
+      "length": 983
+    },
+    {
+      "text": "The main significance of the majority’s decision to ground its holding in the APA is that the Court did not decide that Article III precludesChevronof its own force. In theory that leaves open the possibility that Congress could enact a version ofChevronby amending the APA, although that seems extraordinarily unlikely. The concurrences by Justice Gorsuch and by Justice Thomas would have gone farther and decided the Article III question,but those Justices also joined the more limited majority opinion.",
+      "source": "article_tag",
+      "length": 505
+    },
+    {
+      "text": "What exactly is the scope ofLoper Bright? What is the prevailing law after the decision? The basic holding is importantly qualified in at least three major and critical ways. Later, I will consider some further nuances and the effect ofLoper Brighton surrounding doctrines.",
+      "source": "article_tag",
+      "length": 273
+    },
+    {
+      "text": "The first major qualification is that so-called “Skidmoredeference” remains very much alive. Recall that the Court’s basic method of cabining cases from the Marshall Court onwards that spoke of some form of deference to settled, longstanding or contemporaneous statutory constructions by the executive departments was to characterize all such cases as showing mere judicial “respect” for agency interpretations. WhetherSkidmoredeference even counts as a form of “deference,” and what effect it has, are of course much-controverted questions. At least it seems clear that the sort of deference courts owe when Congress has expressly or impliedly delegated a legal space of policymaking authority to an agency is different in principle than the sort of weight or respect owed to persuasive agency interpretations underSkidmore. The former is authority-based deference, the latter merely epistemic.",
+      "source": "article_tag",
+      "length": 895
+    },
+    {
+      "text": "Second, although the Court’s discussion is rather convoluted on this point, it seems to acknowledge the validity of what is sometimes calledHearstdeferenceon mixed questions of law and fact, or deference to the application of legal standards to facts. The main description of such cases centers on delegated discretion: InHearst,Gray v. Powell,and like cases “the Court applied deferential review upon concluding that a particular statute empowered an agency to decide how a broad statutory term applied to specific facts found by the agency.”The Court’s view seems to be that the application of law to fact is a form of “policymaking,” rather than law-interpretation per se.Thus review of agency applications of law to fact seems to be shunted into arbitrariness review.It is unclear that doing so changes very much, at least in the abstract; shortly I will discuss the possible interactions between arbitrariness review and theLoper Brightframework. Whether such a reframing of application of law to facts as policymaking makes much sense at a conceptual level is a different issue to which I also return.",
+      "source": "article_tag",
+      "length": 1107
+    },
+    {
+      "text": "Third and most importantly, the Court recognizes the validity of delegations of statutory authority to agencies to fill in statutory content. The best reading, arrived at de novo by the court, may itself just be that such a delegation exists. As the majority puts it, in a seemingly bland aside that will doubtless be critical to the legal status of agency legal interpretations in the future:In a case involving an agency, of course, the statute’s meaning may well be that the agency is authorized to exercise a degree of discretion. Congress has often enacted such statutes. For example, some statutes expressly delegate to an agency the authority to give meaning to a particular term. Others empower an agency to prescribe rules to fill up the details of a statutory scheme, or to regulate subject to the limits imposed by a term or phrase that leaves agencies with flexibility, such as “appropriate” or “reasonable.” When the best reading of a statute is that it delegates discretionary authority to an agency, the role of the reviewing court under the APA is, as always, to independently interpret the statute and effectuate the will of Congress subject to constitutional limits. The court fulfills that role by recognizing constitutional delegations, “fix[ing] the boundaries of [the] delegated authority,” H. Monaghan, Marbury and the Administrative State, 83 Colum. L. Rev. 1, 27 (1983), and ensuring the agency has engaged in reasoned decisionmaking within those boundaries. By doing so, a court upholds the traditional conception of the judicial function that the APA adopts.",
+      "source": "article_tag",
+      "length": 1585
+    },
+    {
+      "text": "In a case involving an agency, of course, the statute’s meaning may well be that the agency is authorized to exercise a degree of discretion. Congress has often enacted such statutes. For example, some statutes expressly delegate to an agency the authority to give meaning to a particular term. Others empower an agency to prescribe rules to fill up the details of a statutory scheme, or to regulate subject to the limits imposed by a term or phrase that leaves agencies with flexibility, such as “appropriate” or “reasonable.” When the best reading of a statute is that it delegates discretionary authority to an agency, the role of the reviewing court under the APA is, as always, to independently interpret the statute and effectuate the will of Congress subject to constitutional limits. The court fulfills that role by recognizing constitutional delegations, “fix[ing] the boundaries of [the] delegated authority,” H. Monaghan, Marbury and the Administrative State, 83 Colum. L. Rev. 1, 27 (1983), and ensuring the agency has engaged in reasoned decisionmaking within those boundaries. By doing so, a court upholds the traditional conception of the judicial function that the APA adopts.",
+      "source": "article_tag",
+      "length": 1192
+    },
+    {
+      "text": "Significantly, the Court here quotes and cites with approval the remarkably prescient article by Henry Monaghan, written in 1983 just beforeChevronwas decided, that argues that independent, de novo statutory interpretation by courts is entirely consistent with “deference.” Monaghan’s central point was that there was no logical inconsistency between saying two different things: (1) the constitutional power and duty of judges to say what the law is, and the APA’s instruction to courts to decide all relevant questions of law, require judges to decide all legal questions independently; (2) agencies rather than courts may have the authority to fill in the details of statutory gaps or ambiguities.The reason those two things are consistent is simple. When judges identify the “best reading” of the statute, that best reading might itself just be that an explicit or implicit congressional delegation of such authority to the agency has occurred. The consequence of all this is that some large but uncertain fraction of what used to be called “Chevrondeference” can now be relabeled “Loper Brightdelegation.” Cases that used to be labeled as “deference to reasonable agency interpretations of ambiguous statutes” will now be called “independent judicial interpretation that identifies a single best answer, an answer that consists of a delegation of discretionary authority to agencies within a given range.”",
+      "source": "article_tag",
+      "length": 1410
+    },
+    {
+      "text": "The resulting regime represents a retail rather than wholesale version ofChevron. WhereasChevronwas said to rest on a general presumption that gaps and ambiguities represented a delegation to agencies, judges will now have to decide, statute by statute and problem by problem, whether aLoper Brightdelegation is the best reading of the statute.But it is also true thatChevronwas always already a retail regime, in the sense that judges always had to decide, statute by statute and problem by problem, what decision Congress had made about the issue at hand. At most, theLoper Brightmajority and dissent disagree over whether agency authorization to fill in gaps and ambiguities should be understood as a general guiding presumption, or instead as a case-by-case conclusion.But as general presumptions have always had to be applied at retail in cases, it’s hard to see that the wholesale-to-retail transition will make any major difference, legally or substantively. Even ifLoper Brightdelegation is best understood as a retail version ofChevron, a relabeled version ofChevronit remains.",
+      "source": "article_tag",
+      "length": 1086
+    },
+    {
+      "text": "Does Monaghan’s logic, adopted by the Court, cover implied delegations as well as express delegations? I believe that it does. As such,Loper Brightshould be read as a “hermeneutic of continuity” with the preceding law. Recall that bothMeadandChevronrecognized the possibility of implied delegations. And the logic of doing so seems airtight even under the “single best reading” approach. After all, if judges conclude, all things considered, that Congress implicitly but unmistakably delegated a space of lawmaking discretion to the agency, that too just is the best reading.",
+      "source": "article_tag",
+      "length": 575
+    },
+    {
+      "text": "TheLoper BrightCourt does not expressly say that the relevant delegations can themselves be implied rather than express. But the structure of its discussion suggests that even afterLoper Bright, implied delegations have the same status as express ones.The natural reading of the Court’s discussion is that the Court mentions express delegations, such as the authority to define a statutory term, merely as one illustrative example of delegation. But the Court does not say that all delegations must be express, and it does not even purport to offer an exhaustive list of the varied types of statutory delegations.Some of the Court’s other examples are not easy to describe as examples of express delegation, or at least could just as well be effected by implied as well as express delegation. Consider the power to “fill up the details” of a statutory scheme, a power that in any given case might be discerned not from express delegation, but simply from Congress’s leaving essential details incompletely specified. The whole thrust of the Court’s approach inLoper Brightis that the court is to identify the best reading, all things considered, and that holds whether the relevant delegation is express or implied. To be sure, the Court rejected theChevronidea that statutory gaps and ambiguities should be generally presumed to represent implied delegations at wholesale,but that does not mean that an implied delegation cannot be found at retail in a particular case.",
+      "source": "article_tag",
+      "length": 1469
+    },
+    {
+      "text": "This reading is reinforced by a background principle of legal interpretation and a point of administrative law doctrine. The background interpretive principle posits that absent some special rule of clear statement, legal instruments may speak either expressly or by implication, so long as the ordinary meaning of the instrument, all things considered, is best read to so indicate. Ordinarily, absent some special canon of interpretation, what a legislature may do explicitly, it may do implicitly. The foundation of that principle is sheer common sense. After all, in every other sort of human communication, we often understand by implication something that has not been expressly said. Indeed, in any normal communicative context, it is impossible that everything should be expressly said.",
+      "source": "article_tag",
+      "length": 793
+    },
+    {
+      "text": "The point of administrative law doctrine is that to readLoper Brightto require that all delegations be express would threaten to make the major questions doctrine redundant. That doctrine requires (roughly speaking) that delegations must be express when, but only when, they authorize the agency to decide a question of major economic or political significance. It does not, however, say that all delegations must be express, period. In other words, to readLoper Brightas erecting a heretofore unknown global clear statement rule against all delegated authority, one requiring that all delegations (not just major delegations) must be express, would go even farther than the Court has gone with the major questions doctrine. This seems an implausible reading, at least until the Justices inform us otherwise. After all, as I mention shortly, the discussion inLoper Brightitself seemed to indicate that the major questions doctrine remains part of the law, a point that would have been unnecessary if that doctrine had been subsumed in an even broader rule that all delegation, of whatever scope and importance, must be clearly stated. The best reading of the Court’s discussion, then, is that even underLoper Bright, delegation of authority may be implied as well as express.",
+      "source": "article_tag",
+      "length": 1275
+    },
+    {
+      "text": "Overall, taken together with what seems to be the continuing validity ofSkidmoreandHearst, I suspect that there is less toLoper Brightthan meets the eye. Even afterLoper Brightthere is a rather large domain in which courts that would have deferred underChevroncan still defer, just with a different legal framework. Of course it is true that, we may confidently expect, at least some cases will come out differently than under theChevronregime. But theChevronregime was itself heavily qualified by the time of its demise, and agencies and courts had for some time been used to avoiding it or at least not putting too much reliance on it. And as we have seen, there is much more continuity across the triptych ofChevron,Mead, andLoper Brightthan initially appears. Delegation is a central concept in all three, and all three acknowledge that—within whatever fairly loose boundaries the constitutional nondelegation doctrine allows—Congress may “delegate” or grant to agencies a legal space within which to create binding rules, whether through rulemaking or adjudication. The task of the judge, in all three decisions, is to determine the outer boundaries of the relevant delegations. IfLoper Brightnow describes that task as determining the one right answer to statutory meaning, that is more afaçon de parlerthan an about-face.",
+      "source": "article_tag",
+      "length": 1328
+    },
+    {
+      "text": "And indeed the Court’s frequent swing voter, Justice Kavanaugh, seemed to reach the same conclusion. In public remarks delivered after the decision, Justice Kavanaugh describedLoper Brightas “a course correction consistent with the separation of powers to make sure that the executive branch is acting within the authorization granted to it by Congress” and urged:[D]on’t over-readLoper Bright, oftentimes Congress will grant a broad authorization to an executive agency. So it’s really important as a neutral umpire to respect the line that Congress has drawn, when it’s granted broad authorization, not to unduly hinder the executive branch when performing its congressional authorized functions, but at the same time not allowing the executive branch, as it could withChevronin its toolkit, to go beyond the congressional authorization.IfLoper Brightjust means that agencies may not go beyond the boundaries of “broad” congressional authorization, it reiterates, in different language, a legal constraint as old as the hills.And even if the best reading ofLoper Brightis more consequential, contrary to the account I have offered, Justice Kavanaugh’s position as the Court’s (frequent) swing voter makes his view, and my view, something of a self-fulfilling prophecy.",
+      "source": "article_tag",
+      "length": 1270
+    },
+    {
+      "text": "[D]on’t over-readLoper Bright, oftentimes Congress will grant a broad authorization to an executive agency. So it’s really important as a neutral umpire to respect the line that Congress has drawn, when it’s granted broad authorization, not to unduly hinder the executive branch when performing its congressional authorized functions, but at the same time not allowing the executive branch, as it could withChevronin its toolkit, to go beyond the congressional authorization.",
+      "source": "article_tag",
+      "length": 475
+    },
+    {
+      "text": "So far, cases in the lower courts cut in various directions, unsurprisingly. An illustrative pair of cases that have attracted early attentionare from the Seventh and Fifth Circuits, respectively. In the first, the court upheld, underLoper Bright, a rule of the Consumer Financial Protection Bureau that barred discrimination against not only applicants for credit, but also prospective applicants.The court of appeals pointed to the broad statutory delegation of rulemaking authority in the Equal Credit Opportunity Act, which vested the Bureau with the power to make rules “necessary or proper to effectuate the purposes of this title” and “to prevent circumvention or evasion thereof.”In the contrasting case, the court of appeals held that a Department of Labor rule clarifying the circumstances under which employers could reduce the wages of employees who receive tips was contrary to the Fair Labor Standards Act.Note that it is by no means clear that these cases are in any sense inconsistent. The best reading of the statute, all things considered, may just be that in the first case there was a delegation and the agency stayed within its boundaries, whereas in the second case, the agency exceeded the boundaries of its authority. If this all sounds vaguely familiar, that is no accident; it is the same sort of discussion that happened under the pre-existingChevronregime.",
+      "source": "article_tag",
+      "length": 1384
+    },
+    {
+      "text": "A corollary of the view I have advanced is thatLoper Bright’s efforts to relabel everything agencies do as “policymaking” rather than “interpretation”is something of a red herring. The Justices in the majority seem to think, and indeed more or less said, that the sort of discretionary-choice-within-a-reasonable-range that the Monaghan relabeling leaves to agencies is best understood as “policymaking” rather than “interpretation.” That understanding saves the appearances, as the theologians say, and allows the Justices to take themselves to be doing all the law, while the agencies only ever do policy. (In the loophole passage on delegation that I have quoted from the majority opinion, the majority included references to some famous cases of arbitrariness review, doubtless due to this conceptualization of discretionary-choice-within-a-reasonable-range as “policymaking.”) But of course, as many pointed out under theChevronregime,the authorized agency choice of a specifying or concretizing interpretation within a reasonable range is itself always also policymaking within a “policy space.” It is conceptually impossible for agencies to “choose policy” within a defined legal space granted by statute without first interpreting the statute to determine what the boundaries of the legal space are. Such choice by agencies is therefore both interpretation and policymaking, one hundred percent the one and one hundred percent the other, in a kind of hypostatic union of the administrative state. The Court’s relabeling of agency interpretation as agency policymaking is but a corollary of the Court’s more fundamental relabeling ofChevrondeference asLoper Brightdelegation. I have argued that the latter is more likely to confirm than to overturn the extant institutional relationship between courts and agencies, and so too with the former.",
+      "source": "article_tag",
+      "length": 1850
+    },
+    {
+      "text": "One entirely legitimate thought is that althoughLoper Brightmay not represent an “avulsive change”in administrative law taken in isolation, there may also be interaction effects with other decisions from this Term that change the surrounding legal and institutional context, and thus change the effect of the decision. Let me mention three candidates—two that possibly magnify the effect ofLoper Bright, in the sense that they will provide scope forLoper Brightto be invoked to constrain agency discretion even more than the decision suggests on its own, and one that possibly dampens it.",
+      "source": "article_tag",
+      "length": 588
+    },
+    {
+      "text": "The first possible interaction effect involves arbitrary and capricious review. InOhio v. EPA,decided the same week asLoper Bright, Justice Gorsuch wrote for the Court to overturn an Environmental Protection Agency (EPA) Federal Implementation Plan for ozone air quality standards, saying that the EPA had not adequately explained its plan in light of ongoing litigation that had in effect exempted a number of states from the plan—a problem that, the Court said, had been adequately raised during the comment period.The decision has been criticized for taking an inconsistent stance towards, on the one hand, comments by regulated parties in agency proceedings, and on the other agency rationales issued in those same proceedings; the Court read the former for all they could possibly be worth while reading EPA’s own rationale grudgingly.IfOhio v. EPAportends a general revival of “hard look” review, pervasively skeptical of the reasoning behind agency action, then it will magnify the effect ofLoper Brightin the sense that claims that used to be decided atChevronStep Two will now be channeled into arbitrariness review, which will also be heavy-handed. Although scholars like Jeffrey Pojanowski have urged the Court to adopt a model of “neoclassical administrative law,” under which the Court will review legal questions de novo but apply arbitrariness review deferentially across the board,Ohio v. EPAsuggests that there is no reason to think that the Court has adopted such a model in general.",
+      "source": "article_tag",
+      "length": 1501
+    },
+    {
+      "text": "Conversely, however, it would be wildly premature to discern any trend towards heightened “hard look” review in the Court’s recent arbitrariness decisions. Overall, those decisions display no consistent pattern. Consider the strikingly deferential arbitrariness decision written by Justice Kavanaugh inFCC v. Prometheus Radio Projectin 2021.Prometheusinvolved the Federal Communications Commission (FCC)’s repeal of certain of its ownership rules on the ground that the rules were no longer necessary to promote competition, localism, or viewpoint diversity. The repeal was challenged on the ground that the record did not adequately support the FCC’s conclusions; in particular, the claim ran, the FCC had not provided adequate reason to conclude that the repeal would not harm minority and female interests. A unanimous Court brusquely rejected the challenge, with the striking formulation, reminiscent of theChevronregime, that arbitrary and capricious review requires only that agency action fall within a “zone of reasonableness.”To be sure, there have been other more aggressive arbitrariness decisions in recent years as well,but no larger trend or pattern emerges.",
+      "source": "article_tag",
+      "length": 1172
+    },
+    {
+      "text": "A second and potentially far more consequential interaction effect arises from the Court’s decision inCorner Post, Inc. v. Board of Governors of the Federal Reserve System.Decided shortly afterLoper Bright,Corner Postread the general fallback six-year time limit for APA claims against agency action—for example, a facial challenge that a rule exceeds the agency’s authority under its organic statute—to start running not at the time of the final agency action, but at the time of injury to the plaintiff.The time limit, in the Court’s view, should be read as a statute of limitations, not a statute of repose.",
+      "source": "article_tag",
+      "length": 610
+    },
+    {
+      "text": "AlthoughCorner Postseems esoteric, it is potentially highly consequential. It means that if an agency rule was finalized decades ago, survived challenges at the time, and has structured and organized a whole sector of industry since then, a newly injured plaintiff can bring a facial challenge against it even today—inter alia, by forming a new corporation or other entity that is now injured by the rule. It is entirely legitimate to think that this will magnify the effect ofLoper Bright.",
+      "source": "article_tag",
+      "length": 490
+    },
+    {
+      "text": "In my view,Corner Postwas perhaps the worst decision of the Term from the standpoint of legal craft. It suffers from a kind of blindness to the fact that statutes are more than strings of text with putatively ordinary meaning; rather they are instruments of government that have to fit into a larger structure of law and legal institutions. Myopically reading a particular text in a way that potentially destabilizes whole industries and the settled course of administrative lawmaking verges on an absurd result—and even the most dedicated textualists have said that reading statutes to avoid absurd results is a good idea.What matters for present purposes, however, is whetherCorner Postwill result in a more robustLoper Brightthan would otherwise occur. And while it would be foolish to deny thatCorner Postmatters, there are several reasons for mild skepticism that the interaction between the two decisions will be quite as disastrous as it seems.",
+      "source": "article_tag",
+      "length": 951
+    },
+    {
+      "text": "First,Corner Postonly addressed the APA’s general default fallback statute of limitations. Many major regulatory statutes contain their own limitations periods, which (in important cases) give, for example, sixty days from the final agency action to file a petition for review in the permissible court of appeals.So the domain within whichCorner Postmatters is not wholly clear and may not be enormous.",
+      "source": "article_tag",
+      "length": 402
+    },
+    {
+      "text": "Second, the Court noted two further limits: the ability of parties to petition for agency reconsideration of an extant rule under APA Sections 553(e) and 555(e), and then seek judicial review if the agency denies the petition; and the distinction between facial challenges and as-applied challenges. As-applied challenges raised as a defense in an agency enforcement proceeding were always exempt from the six-year statute of limitations under the predominant law in the lower courts (which the Court seemingly endorsed).So as to those challenges, nothing has changed—although the Court noted that unregulated plaintiffs, harmed by the combination of the agency action and the action of directly regulated intermediaries, would not be able to raise their challenges as defenses in enforcement proceedings. Furthermore,Corner Postleft open precisely which facial challenges are eligible for the Court’s injury-focused approach. We know that facial challenges to final regulations on the substantive ground that they violate the statute do qualify, and this is a genuine interaction effect withLoper Bright. However, the Court noted the possibility that there may be a category of injuries that can only be suffered by entities that exist at the time of the relevant agency action, such as a procedural claim that a notice of proposed rulemaking was inadequate.",
+      "source": "article_tag",
+      "length": 1359
+    },
+    {
+      "text": "Finally, the interaction betweenLoper BrightandCorner Postmay not cut only in one direction. It will change the selection of cases for litigation, in ways that might cause the Court to firm up the qualifications toLoper Brightthat I laid out previously, or even to identify further limitations toCorner Post. We might imagine a set of cases in which aggressive lower courts entertain aggressive challenges to decades-old regulations, causing the Court to blanch. Of course, that is just one possibility and we can also imagine others.",
+      "source": "article_tag",
+      "length": 534
+    },
+    {
+      "text": "So far, I have mentioned two possible interaction effects with cases decided around the same time asLoper Brightthat might amplify the latter decision, resulting in greater judicial constraint on administrative discretion. But we should not overlook that the Court issued several quite restrictive standing decisions during the same Term asLoper Bright, demanding more specificity for factual showings, for claims of future injury, and for causal and remedial connections between the defendant or defendants’ action(s) and the plaintiff’s injury. In some cases, standing will now be more of a problem for challenges to agency action than it was before. ConsiderFDA v. Alliance for Hippocratic Medicine,which rejected challenges to the Food and Drug Administration’s approval of mifepristone on standing grounds, reading the relevant requirements strictly.If injury, causation, and redressability are now harder to show, the effect ofCorner Postis dampened. The standing problems become especially important as to unregulated plaintiffs who assert some sort of indirect injury by virtue of the interaction between the agency action and the behavior of directly regulated intermediaries.It is not hard to imagine, at least in the abstract, that the standing hurdle will substantially constrain the effect ofCorner Postas to such parties, although here too the direction of the doctrine is simply uncertain.",
+      "source": "article_tag",
+      "length": 1404
+    },
+    {
+      "text": "Loper Brightraises any number of further legal questions that it will doubtless take the courts years to work through. I will mention only a few of the largest questions and briefly sketch some possible paths for future law.",
+      "source": "article_tag",
+      "length": 224
+    },
+    {
+      "text": "It has been argued thatLoper Brighteliminates the major questions doctrine.The thinking is that the major questions doctrine is either now unnecessary or even positively contrary to theLoper Brightapproach, given that the courts are now tasked with identifying a single right answer. After all, once the predicate conditions for the major questions doctrine are met, the doctrine instructs courts to determine whether Congressclearlyconferred the relevant major authorization on the agency. But that inquiry seems to diverge from the right-answer question whether Congress did confer such authority on the agency, all things considered. If the answer to the latter question is “yes,” then that ought to be the end of the story.",
+      "source": "article_tag",
+      "length": 727
+    },
+    {
+      "text": "This argument seems unlikely to prevail, however, for both conceptual and pragmatic reasons. Conceptually, the mandate to identify a single right answer is not inconsistent with deploying either substantive canons or linguistic canons to help determine what the right answer is. There is an ongoing disagreement within the Court as to whether the major questions doctrine should be described as substantive, a subconstitutional mechanism for enforcing the nondelegation doctrine, or instead as linguistic, an ordinary inference from “text and context.”But on either account,Loper Brightcannot reasonably be read to eliminate all such canons from the judicial interpretive inquiry, a genuinely radical move. Pragmatically, the Court inLoper Brightitself adverted to the major questions doctrine (although, oddly, not by name) in terms that seem to implicitly reaffirm its continued existence, saying that “Chevrondoes not apply if the question at issue is one of ‘deep economic and political significance’…. We have instead expected Congress to delegate such authority ‘expressly’ if at all… .”Especially in light of the dim prospects for a revival of the constitutional nondelegation doctrine—on which more below—it seems at best improbable that the Court will discard the doctrine that it has evolved as an interpretive substitute for that doctrine.",
+      "source": "article_tag",
+      "length": 1350
+    },
+    {
+      "text": "Another crucial question is whether judicial deference to agency interpretations of their own rules survivesLoper Bright. InKisor v. Wilkie,decided in 2019, a plurality of the Court retained the basic rule, most recently affirmed by Justice Scalia’s opinion for the Court inAuer v. Robbins,that courts should defer to reasonable agency interpretations of ambiguities of rules previously issued (or decided in adjudication) by the agencies themselves. Justice Kagan’s plurality opinion inKisor, however, heavily qualified theAuerdoctrine by recognizing or adding both substantive and procedural limits.Notably, the Chief Justice provided the fifth vote inKisoron stare decisis grounds, distinguishing the question ofAuerdeference from the question ofChevrondeference.",
+      "source": "article_tag",
+      "length": 766
+    },
+    {
+      "text": "The opinions inLoper Brightlargely track the opinions inKisor, just with the relevant Justices switched around and the opposite outcome. Justice Kagan’s dissent inLoper Brightclosely tracks her plurality opinion inKisor, and the majority opinion inLoper Brightclosely tracks the basic APA arguments offered by the dissents inKisor. Furthermore, the complexity that characterized theChevronframework in its developed (or decayed) form, which theLoper Brightmajority condemned as excessive and confusing, could fairly be said to characterize the heavily qualifiedKisorframework. All this implies thatKisoris vulnerable in the future on the same grounds that madeChevronvulnerable.",
+      "source": "article_tag",
+      "length": 678
+    },
+    {
+      "text": "However, several cautions are necessary.First, the Chief Justice’s concurrence in the judgment inKisorsuggests that he sees relevant differences in the two contexts, at least as to the stare decisis question. It is unclear whether that view survives his achievement, if that is what it is, for assembling a majority to overruleChevron, but if it does, thenKisormight survive with at least one other vote from the Court’s center-right Justices. Second, ifKisor/Auerdeference is overruled, some of the same major qualifications that appear inLoper Brightwould appear in that decision as well. The Court would presumably say that where Congress is best read to have entrusted agencies with a zone of discretion, that discretion extends to the interpretation of their own prior rules, which is itself both interpretation and policymaking, inextricably fused in the way I have suggested above. And a version ofSkidmoredeference would survive in this context as well. Overall, one could well imagine a decision that does forKisor/Auerdeference whatLoper Brightdoes forChevrondeference: reframe the relevant inquiry as a search for one right answer, but include within that right-answerism the concepts of delegation and of persuasive deference, thereby folding into it much of the same operative content as currently exists.",
+      "source": "article_tag",
+      "length": 1318
+    },
+    {
+      "text": "The Court is explicit inLoper Brightthat the holdings of prior cases that relied on theChevronframework to find that specific agency actions are lawful—including the Clean Air Act holding ofChevronitself—are still subject to statutory stare decisis despite the change in interpretive methodology.This will protect a number of major rulemakings from the past forty years, and thus preserves the operative continuity between theLoper Brightregime and theancien régime.",
+      "source": "article_tag",
+      "length": 466
+    },
+    {
+      "text": "But of course this by no means answers all the critical legal questions. What if the prior case held that the agency action was permissible, but not mandatory, atChevronStep Two? May the agency now switch to the opposite rule, and what sort of justification would it have to supply—would it now have to argue that the opposite rule is the single best statutory reading, uninfected byChevron? In the latter scenario, however, it seems that the agency can still argue that the single best reading just is that the statute itself affords the agency a zone of discretion. One could spin out any number of scenarios, but what does seem clear is that it will take years to work out these details.",
+      "source": "article_tag",
+      "length": 690
+    },
+    {
+      "text": "Let me now step back to address a natural question, and a large one. If the low-temperature view ofLoper Brightthat I have advanced is correct, what was all the fuss about? What if anything was the point of the “revolution” which so many have discerned in the decision? My main general answer, in counterintuitive Tocquevillian spirit, is that the anti-administrative revolution in a sense confirms and strengthens what went before. The basic reason is that what judges do is a product not only of legal doctrine, but of the broader legal and institutional environment in which doctrine takes shape; that environment can even change or color what doctrine means.",
+      "source": "article_tag",
+      "length": 662
+    },
+    {
+      "text": "At least sinceCrowell v. Bensonin 1932, the Court has struggled with two large-scale conflicting imperatives, which I have elsewhere labeled the “deference dilemma.”The first imperative is that the administrative state not become “a government of a bureaucratic character alien to our system,”as Chief Justice Hughes put it inCrowell, in order to justify both de novo judicial review of legal questions and of a subset of factual questions, involving so-called “constitutional facts” and “jurisdictional facts.” Professor Louis Jaffe drew a crucial corollary in the middle of the twentieth century, observing that “[t]he availability of judicial review is the necessary condition, psychologically if not logically, of a system of administrative power which purports to be legitimate, or legally valid.”",
+      "source": "article_tag",
+      "length": 802
+    },
+    {
+      "text": "The second imperative, however, is captured by Justice Antonin Scalia’s observation, in his famous 1989 article defendingChevron,that the legal and institutional conditions in which judges now work have changed in ways that have affected the demand for, and the necessity of, deference itself. Scalia wrote that deference to agency legal interpretations “is a more rational presumption today than it would have been thirty years ago—which explains the change in the law. Broad delegation to the Executive is the hallmark of the modern administrative state; agency rulemaking powers are the rule rather than, as they once were, the exception….”In an environment in which agencies are given broad and sometimes ill-defined statutory authority to, for example, regulate “unreasonable risk[s] of injury to health or the environment,”putatively de novo judicial interpretation can no longer be what it once was. Judges who really try to interpret such a statute for themselves would have to decide what exactly counts as an “unreasonable risk”—a task for which nothing in their legal training equips them, and from which even the most confident judge might flinch.",
+      "source": "article_tag",
+      "length": 1159
+    },
+    {
+      "text": "At first blush, it seems thatLoper Brightopts emphatically for the first of these two imperatives and returns to the straightforwardCrowellbaseline of fully independent judicial determination of statutory questions. But that appearance is misleading because massive delegation of statutory authorities to agencies has changed the landscape of administrative law. The problem for the Court is that the statutory and regulatory environment, and indeed the whole development of the institutions of the American state, are so radically different now than in 1932 that the posture of the judiciary cannot but be different as well. De novo interpretation of broad, open-ended delegations of complex regulatory tasks is just not the same sort of interpretive task as the sort of statutory interpretation that common-law judges did. Interpreting the Toxic Substances Control Act is not the same order of legal problem as interpreting “no vehicles in the park,” although legal education lags in this regard.",
+      "source": "article_tag",
+      "length": 998
+    },
+    {
+      "text": "In such an environment, we might expect to see sensible judges committed to de novo legal interpretation attempting to square the circle. They would do so by proclaiming loudly that legal interpretation is for the courts, while adding, somewhat less loudly, that of course the content of the single right answer at which the judges arrive may itself yield the conclusion that agencies get to say what the operative legal rules are. In the world of broad delegations, the combination of a conspicuous headline victory for legal conservative-libertarians with a relabeling that preserves much of the institutional substance of theChevronregime seems an ideal path to steer between Scylla and Charybdis, to navigate the deference dilemma. And that is exactly what we do see inLoper Bright.",
+      "source": "article_tag",
+      "length": 786
+    },
+    {
+      "text": "On this view, at the level of the Court as an institutional working majority, one that expects to be in control of the law for some time to come,Loper Brightmay best be taken to “express[] a mood,” as Justice Frankfurter said of Congress inUniversal Camera.To be sure, the expression of a mood, whether by the Court or by Congress, is easy to mock as “merely” symbolic, but symbols are powerful things. The decision has a signaling effect that is not easy to capture in articulated legal doctrine, but that also radiates beyond the official doctrine. The diffuse effect of the Court’s mood, the background music ofLoper Bright, may be to embolden lower courts.",
+      "source": "article_tag",
+      "length": 660
+    },
+    {
+      "text": "On the other hand,Loper Brightsuggests that the Chief Justice and a subset of his colleagues are very much attuned to the deeper institutional and structural rationales that animatedChevrondeference in the first place. The Chief Justice is nothing if not institutionally sensitive, and he is surely aware that a regime of genuinely de novo interpretation, withoutLoper Bright’s major qualifications and especially its large loophole for delegation, is potentially a recipe for disaster. The Court spent much of the past Term overturning decisions from overly aggressive lower appellate courts, most conspicuously the Fifth Circuit.In that world, the combination of an apparent headline victory for legal conservative-libertarians with a relabeling that preserves much of the institutional substance of theChevronregime seems an ideal recipe for a Tocquevillian pseudo-revolution. Most courts, including most of the Supreme Court majority, do not want to be in the position of deciding for themselves what counts as, for example, an “unreasonable risk of toxicity.” Only time will tell which of these forces will predominate, but it would be foolish to bet that the operative landscape of judicial review of agency action will look markedly different in 2044 than it did in 1984.",
+      "source": "article_tag",
+      "length": 1278
+    },
+    {
+      "text": "InLoper Bright, as I mentioned, the Chief Justice plays the Court’s leading Girondin—the moderate revolutionary who hopes to go so far, and no farther. To his right flank are the Justices we might call theJacobins de droite, Justices Gorsuch and Thomas, who press for more rigorous and throughgoing revolutionary action. Although both joined the majority opinion, both also filed lengthy separate concurrences that laid out a more ambitious vision: a revival of the so-called “nondelegation doctrine” at the constitutional level.From one standpoint, Justices Gorsuch and Thomas are asking exactly the right question, whatever the validity of the answers they give. As I have argued, the basic legal situation identified by Justice Scalia as the main engine ofChevrondeference, now largely relabeled as “Loper Brightdelegation,” is that Congress has granted an indefinite range of broad and open-ended authorizations to the agencies. In that world, no adjustment of the doctrine concerning judicial review of agency statutory interpretations is likely to seriously curtail agency discretion, for the simple reason that judges know how little they know, and—under whatever doctrinal label—will flinch from the task of genuinely independent review. By attempting to revive the constitutional nondelegation doctrine, theJacobins de droiteare striking at (what they see as) the root of the problem.",
+      "source": "article_tag",
+      "length": 1393
+    },
+    {
+      "text": "In my longstanding view, amplified by more recent scholarship, the originalist credentials of the constitutional nondelegation doctrine are desperately thin.Furthermore, and more generally, the expansive statutory authorities given to the executive branch that have accumulated over the course of American history are not plausibly described as a kind of “abdication” by Congress. Rather they are the product of a sustained course of action by Congress, as an institution extended over time, to build the administrative state. The fundamental logic of the nondelegation argument—that Congress must itself specify substantive policy because of the unique deliberative and democratic features of the lawmaking process laid out in Article I—is self-defeating; the same logic implies that Congress will, deliberating democratically, decide to grant statutory authority to the agencies when the public interest will be best served by doing so.",
+      "source": "article_tag",
+      "length": 938
+    },
+    {
+      "text": "For present purposes, however, I will bracket these familiar arguments to focus on two different and mutually related questions: How likely is a genuine revival of the constitutional nondelegation doctrine, and how much difference would it make if it were revived? My answers to these two questions are “highly unlikely” and “not much,” respectively.",
+      "source": "article_tag",
+      "length": 350
+    },
+    {
+      "text": "As for the prospects of a genuine revival, that possibility has been a staple of the conservative-libertarian legal movement time out of mind, at least since Justice Rehnquist’s concurrence in theBenzene Case.It is a staple of judicial concurrences, of Federalist Society panels, and of student notes. Legal conservative-libertarians breathlessly await the eschaton. But where constitutional nondelegation shows surprisingly little influence is in actual law. So far, at least, it has been a case of “jam yesterday and jam tomorrow, but never jam today.”",
+      "source": "article_tag",
+      "length": 554
+    },
+    {
+      "text": "The Court’s most recent sustained encounter with the constitutional nondelegation doctrine,Gundy v. United States,more or less fizzled out. Justice Kagan’s plurality opinionoffered a constrained reading of the statute and then, with this reading in hand, straightforwardly rejected the nondelegation challenge under the longstanding “intelligible principle” test, partly on the ground that the statute as so construed was no broader or more discretionary than a myriad of other authorities that the Court had upheld over the decades and indeed centuries since the Founding.Justice Alito wrote a somewhat tortuous concurrence in which he declined to vote to declare the statute unconstitutional under current law, but said that he might reconsider if a majority of the Court were willing to do so.",
+      "source": "article_tag",
+      "length": 796
+    },
+    {
+      "text": "Overall, it is hard to seeGundyas anything but a kind of flinch. The Court as a body showed little apparent appetite for any real revival of the constitutional nondelegation doctrine, and subsequent attempts to find a vehicle for revisiting the issue have attracted little support. InAllstates Refractory Contractors, LLC v. Su,the Court recently denied a petition for certiorari from a Sixth Circuit decision that upheld against a nondelegation challenge a central provision of the Occupational Safety and Health Act: the Occupational Safety and Health Administration’s power to enact and enforce any workplace safety standard that it deems “reasonably necessary or appropriate.” That issue had sparked much excitable academic discussion,and it typifies the sort of broad open-ended authority that will makeLoper Brightdelegation operationally similar toChevrondeference.The only Justices to dissent from that denial were Justices Gorsuch and Thomas, who seem unable to spark much interest among their colleagues for their project of mounting a heroicdéfense de la république. In general, the major questions doctrine, which Gorsuch (but not Justice Barrett) sees as implementing the nondelegation doctrine as a subconstitutional matter, has become a kind of substitute for enforcement of nondelegation at the constitutional level.",
+      "source": "article_tag",
+      "length": 1332
+    },
+    {
+      "text": "But suppose that the dam finally breaks, as it might someday; there is currently a bit of ferment in the lower courts, mostly as to the so-called issue of “private delegations” pushed by ambitious decisions of the Fifth Circuit.Suppose that Justice Gorsuch’sGundydissent were written into the law. What if anything would change? Probably not much. That dissent proposed a nominal narrowing of the constitutional test. Rejecting the “intelligible principle” formulation, Gorsuch would have limited the valid categories of delegated statutory authority to (1) executive fact-finding and application of law to fact; (2) “fill[ing] up the details” of statutory schemes in which the basic policy choices have been made by Congress; and (3) assignment to the executive or judicial branches of “certain non-legislative responsibilities.”The problem with this approach is that it is unclear how much ice would really be cut by eliminating the “intelligible principle” test. Most or all of the broad and open-ended grants of statutory authority to which Justice Scalia adverted could be said, with a straight face at least, to fall into one or the other, or a combination, of Justice Gorsuch’s categories of valid delegation. Were the Court to formally abandon the “intelligible principle” test, one might well see one or two dramatic headline invalidations of federal statutes, followed by a relapse towards the status quo ante. An analogy here is to the Court’s Commerce Clause jurisprudence, in which the dramatic revival of judicial limits inUnited States v. Lopezdid not, in the end, turn out to be the harbinger of dramatic change.",
+      "source": "article_tag",
+      "length": 1628
+    },
+    {
+      "text": "In earlier work,I compared the growth of the administrative state and the limited scope of judicial review—“deference” in the old language, “delegated discretion” in the new—to the stock market, which rises over time but not in a perfectly linear way. At any given moment, cutbacks, corrections or retrenchments occur and loom very large for the people living at those moments. Yet over a longer time scale, the market tends to return to its growth trendline. So too, while the administrative state can be shaped, constrained and curtailed at various margins by specific decisions, the secular trend is likely to persist. I still think this is a helpful frame.",
+      "source": "article_tag",
+      "length": 660
+    },
+    {
+      "text": "Tocqueville’s account of his times, however, supplies a more apt “grand narrative”for our times. What it captures, and what the stock market analogy fails to capture, is the sheer ideological passion of many of the participants in the conservative-libertarian legal movement—the patent fact that many ofChevron’s critics in the bar and the academy, and some of the Justices who voted to overruleChevron, are gripped by no less than a kind of revolutionary fervor for “anti-administrativism.”And the narrative parallel is only enhanced when we realize that among the Justices who voted to overruleChevronare some, like the Chief Justice and perhaps to a lesser degree Justice Kavanaugh, who play the part of more moderate revolutionaries, and who seem to have tried to preempt theJacobins de droitefrom taking things too far. It is very much an open question in the short run whether the moderates will succeed in arresting the course of the revolution, taking it so far and no farther. One recalls that the original Girondins ended up beneath the blade. But Tocqueville’s whole point, his striking thesis, is that whether or not the moderate revolutionaries succeed or, as in his case, fail, nonetheless in the longer run the Revolution merely served to reinforce and consolidate the order against which it rebelled. The laws and customs of theancien régimewere reintroduced in new forms and under new labels. Whatever happens in the next year, or five years, I believe that a few decades on, one will look back and say: so too withChevronandLoper Bright.",
+      "source": "article_tag",
+      "length": 1555
+    },
+    {
+      "text": "Adrian Vermeule is the Ralph S. Tyler, Jr. Professor of Constitutional Law at Harvard Law School.",
+      "source": "article_tag",
+      "length": 97
+    },
+    {
+      "text": "Author’s note:Thanks to Sam Delmer for excellent research assistance and to multiple colleagues and friends for extensive discussion of these issues.",
+      "source": "article_tag",
+      "length": 149
+    },
+    {
+      "text": "Loper Bright, 144 S. Ct. at 2273.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "See, e.g., Adeola Adeosun,Neil Gorsuch Leading ‘Revolution’ in Supreme Court Ruling,Newsweek(June 30, 2024, 6:19 PM EDT),https://www.newsweek.com/neil-gorsuch-leading-revolution-supreme-court-ruling-shan-wu-1919288; Squire Patton Boggs,The 2024 Revolution in Administrative Law: Chevronand Beyond,YouTube(July 19, 2024),https://www.youtube.com/watch?v=XiR8ytgeBYY. For a large collection of varying initial responses to the decision ranging from skeptical to dramatic, see generally Cary Coglianese & Daniel E. Walters,The Great Unsettling: Administrative Governance AfterLoper Bright, 77Admin. L. Rev.1 (2025).",
+      "source": "article_tag",
+      "length": 611
+    },
+    {
+      "text": "SeeDavid L. Franklin,This Supreme Court Has Betrayed Antonin Scalia’s Legacy,Slate(June 28, 2024, 4:36 PM),https://slate.com/news-and-politics/2024/06/supreme-court-opinions-antonin-scalia-betrayal.html(describingLoper Brightboth as part of a “conservative counterrevolution” and as a “revolution” that betrays the legacy of Justice Antonin Scalia as a proponent ofChevron).",
+      "source": "article_tag",
+      "length": 374
+    },
+    {
+      "text": "SeeCass R. Sunstein,Administrative Law’s Grand Narrative(Harvard Pub. L. Working Paper No. 24-21, 2024),https://ssrn.com/abstract=4986085[hereinafter Sunstein,Administrative Law’s Grand Narrative];see alsoCass R. Sunstein,The Consequences ofLoper Bright 13 (Harvard Pub. L. Working Paper No. 24-29, 2024),https://ssrn.com/abstract=4881501(“Loper Brightis a leading exhibit in the rise (and rise) of libertarian administrative law… .”).",
+      "source": "article_tag",
+      "length": 435
+    },
+    {
+      "text": "SeeAdrian Vermeule, Chevronby Any Other Name: From‘ChevronDeference’ to‘Loper BrightDelegation,’New Dig.(June 28, 2024),https://thenewdigest.substack.com/p/chevron-by-any-other-name. For a similarly skeptical view, although one focused onSkidmoredeference rather than delegation, see Jonathan H. Adler,From Deference to Respect – The Real Import ofLoper Bright,Reason(July 3, 2024, 1:36 PM),https://reason.com/volokh/2024/07/03/from-deference-to-respect-the-real-import-of-loper-bright. And for some suggestive remarks of Justice Kavanaugh along similar lines, seeinfranote 51 and accompanying text. For a piece that propounds essentially the same thesis onLoper Brightdelegation as Vermeule,supra, see Thomas W. Merrill, Case Comment,The Demise of Deference—and the Rise of Delegation to Interpret?, 138Harv. L. Rev.227 (2024).",
+      "source": "article_tag",
+      "length": 828
+    },
+    {
+      "text": "Alexis de Tocqueville, The Ancien Régime and the French Revolution(Arthur Goldhammer trans., Cambridge Univ. Press 2011) (1856).",
+      "source": "article_tag",
+      "length": 128
+    },
+    {
+      "text": "As previously argued in Vermeule,supranote 7.",
+      "source": "article_tag",
+      "length": 45
+    },
+    {
+      "text": "Judulang v. Holder, 565 U.S. 42, 52 n.7 (2011) (“The Government urges us instead to analyze this case under the second step of the test we announced inChevron… . Were we to do so, our analysis would be the same, because underChevronstep two, we ask whether an agency interpretation is ‘arbitrary or capricious in substance.’” (internal citation omitted) (quoting Mayo Found. for Med. Educ. & Rsch. v. United States, 562 U.S. 44, 53 (2011))).",
+      "source": "article_tag",
+      "length": 441
+    },
+    {
+      "text": "Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2263 (2024).",
+      "source": "article_tag",
+      "length": 63
+    },
+    {
+      "text": "Id.at 2259–60;seeNLRB v. Hearst Publ’ns, Inc., 322 U.S. 111, 131 (1944).",
+      "source": "article_tag",
+      "length": 72
+    },
+    {
+      "text": "SeeDavid P. Currie, The Constitution in the Supreme Court: The Second Century, 1888–1986, at 215 (1990) (explaining that in the second half of the opinion, “Hughes neatly refuted his own argument”).",
+      "source": "article_tag",
+      "length": 198
+    },
+    {
+      "text": "SeePhilip Hamburger, Is Administrative Law Unlawful?(2014);see alsoGutierrez-Brizuela v. Lynch, 834 F.3d 1142, 1151 (10th Cir. 2016) (Gorsuch, J., concurring) (citingHamburger,supra, at 287–91); Dep’t of Transp. v. Ass’n of Am. R.Rs., 575 U.S. 43, 71 (2015) (Thomas, J., concurring in the judgment) (citingHamburger,supra, at 33–34, 35–36, 38). For my own views on Hamburgerism, see Adrian Vermeule,“No,”93Tex. L. Rev. 1547 (2015).",
+      "source": "article_tag",
+      "length": 431
+    },
+    {
+      "text": "Cass R. Sunstein & Adrian Vermeule,Libertarian Administrative Law, 82U. Chi. L. Rev.393 (2015).",
+      "source": "article_tag",
+      "length": 95
+    },
+    {
+      "text": "See, e.g.,Ass’n of Am. R.Rs., 575 U.S. at 77 (Thomas, J., concurring in the judgment); Gundy v. United States, 588 U.S. 128, 179 (2019) (Gorsuch, J., dissenting).",
+      "source": "article_tag",
+      "length": 162
+    },
+    {
+      "text": "Peter L. Strauss,“Deference” Is Too Confusing—Let’s Call Them“ChevronSpace” and“SkidmoreWeight,”112Colum. L. Rev.1143, 1145–46 (2012) (“‘Skidmoreweight’ addresses the possibility that an agency’s view on a given statutory question may in itself warrant respect by judges who themselves have ultimate interpretive authority… . It is not only that agencies have the credibility of their circumstances, but also that they can contribute to an efficient, predictable, and nationally uniform understanding of the law that would be disrupted by the variable results to be expected from a geographically and politically diverse judiciary encountering the hardest … issues… .”).",
+      "source": "article_tag",
+      "length": 670
+    },
+    {
+      "text": "Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2261 (2024) (“The APA … specifies that courts, not agencies, will decide ‘allrelevant questions of law’ arising on review of agency action … even those involving ambiguous laws … and set aside any such action inconsistent with the law as they interpret it.”).",
+      "source": "article_tag",
+      "length": 310
+    },
+    {
+      "text": "Bates & Guild Co. v. Payne, 194 U.S. 106, 108–10 (1904) (emphasis added).",
+      "source": "article_tag",
+      "length": 73
+    },
+    {
+      "text": "U.S.ex rel.Riverside Oil Co. v. Hitchcock, 190 U.S. 316, 324–25 (1903) (emphasis added).",
+      "source": "article_tag",
+      "length": 88
+    },
+    {
+      "text": "Schell v. Fauché, 138 U.S. 562, 572 (1891) (emphasis added).",
+      "source": "article_tag",
+      "length": 60
+    },
+    {
+      "text": "Loper Bright, 144 S. Ct. at 2258–59 (“But the Court did not extend similar deference to agency resolutions of questions oflaw…. [S]uch deferential review … was cabined to factbound determinations… .”).",
+      "source": "article_tag",
+      "length": 201
+    },
+    {
+      "text": "As the Court noted expressly as early asBates & Guild Co., 194 U.S. at 108–10.",
+      "source": "article_tag",
+      "length": 78
+    },
+    {
+      "text": "Cf.5 U.S.C. § 559 (“[The subchapter of the Administrative Procedure Act (APA)] … do[es] not limit or repeal additional requirements imposed by statute or otherwise recognized by law…. [A s]ubsequent statute may not be held to supersede or modify this subchapter, [or] chapter 7 … except to the extent that it does so expressly.”).",
+      "source": "article_tag",
+      "length": 330
+    },
+    {
+      "text": "Chevron, U.S.A., Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843–44 (1984).",
+      "source": "article_tag",
+      "length": 83
+    },
+    {
+      "text": "Strauss,supranote 18, at 1145 (“‘Chevronspace’ denotes the area within which an administrative agency has been statutorily empowered to act in a manner that creates legal obligation or constraints… .”).",
+      "source": "article_tag",
+      "length": 202
+    },
+    {
+      "text": "Mead, 533 U.S. at 227. Indeed,Loper Brightseems to praiseMeadas at least a step in the right direction, describing it as a “refinement[] … to matchChevron’s presumption to reality.” Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2268 (2024).",
+      "source": "article_tag",
+      "length": 245
+    },
+    {
+      "text": "Id.at 229 (quotingChevron, 467 U.S. at 845).",
+      "source": "article_tag",
+      "length": 44
+    },
+    {
+      "text": "Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2261–63 (2024).",
+      "source": "article_tag",
+      "length": 66
+    },
+    {
+      "text": "Id.at 2274 (Thomas, J., concurring) (“I write separately to underscore the more fundamental problem:Chevrondeference also violates our Constitution’s separation of powers….”);id.at 2285 (Gorsuch, J., concurring) (“Chevrondeference … precludes courts from exercising the judicial power vested in them by Article III to say what the law is.”).",
+      "source": "article_tag",
+      "length": 341
+    },
+    {
+      "text": "Id.at 2265 (majority opinion) (“And although exercising independent judgment is consistent with the “respect” historically given to Executive Branch interpretations …Chevroninsists on much more.” (citations omitted) (quoting Edwards’ Lessee v. Darby, 25 U.S. (12 Wheat) 206, 210 (1827); and Skidmore v. Swift & Co., 323 U.S. 134, 140 (1944))).",
+      "source": "article_tag",
+      "length": 343
+    },
+    {
+      "text": "NLRB v. Hearst Publ’ns, 322 U.S. 111 (1944).",
+      "source": "article_tag",
+      "length": 44
+    },
+    {
+      "text": "Gray v. Powell, 314 U.S. 402 (1941).",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "Loper Bright, 144 S. Ct. at 2259.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "Id.at 2268 (“That is not to say that Congress cannot or does not confer discretionary authority on agencies…. But to stay out of discretionary policymaking left to the political branches, judges need only fulfill their obligations under the APA… .”).",
+      "source": "article_tag",
+      "length": 250
+    },
+    {
+      "text": "Id.at 2261 (“Section 706doesmandate that judicial review of agency policymaking … be deferential.”).",
+      "source": "article_tag",
+      "length": 100
+    },
+    {
+      "text": "Id.at 2263 (citations and internal quotation marks omitted);see also id. at 2268 (noting that Congress can “confer discretionary authority on agencies”).",
+      "source": "article_tag",
+      "length": 153
+    },
+    {
+      "text": "Henry P. Monaghan, Marburyand the Administrative State, 83Colum. L. Rev.1, 6 (1983) (“Where deference exists, the court must specify the boundaries of agency authority,within which the agency is authorized to fashion authoritatively part, often a large part, of the meaning of the statute.” (emphasis added)).",
+      "source": "article_tag",
+      "length": 309
+    },
+    {
+      "text": "Cf. Loper Bright, 144 S. Ct. at 2263–64 (“As an early proponent (and later critic) ofChevronrecounted, courts during [the period of the APA] thus identified delegation of discretionary authority to agencies on a ‘statute-by-statute basis.’” (quoting Antonin Scalia,Judicial Deference to Administrative Interpretations of Law, 1989Duke L.J. 511, 516)).",
+      "source": "article_tag",
+      "length": 351
+    },
+    {
+      "text": "Compare id.at 2265–66 (“Chevroncannot be reconciled with the APA … by presuming that statutory ambiguities are implicit delegations to agencies. … Courts instead understand that such statutes … have a single, best meaning.” (citations omitted)),with id.at 2297 (Kagan, J., dissenting) (“[Chevron’s rule of deferring to reasonable agency constructions if the statute is ambiguous], the Court has long explained, rests on a presumption about legislative intent—about what Congress wants when a statute it has charged an agency with implementing contains an ambiguity or gap.”).",
+      "source": "article_tag",
+      "length": 575
+    },
+    {
+      "text": "The next few paragraphs draw upon material initially published as Adrian Vermeule,Implied Delegations AfterLoper,Yale J. on Regul.: Notice & Comment(July 9, 2024),https://www.yalejreg.com/nc/implied-delegations-after-loper-by-adrian-vermeule.",
+      "source": "article_tag",
+      "length": 242
+    },
+    {
+      "text": "As the Court likes to remind us, we are not to read judicial opinions as though they are comprehensive statutes.See, e.g., Nat’l Pork Producers Council v. Ross, 598 U.S. 356, 373 (2023); Brown v. Davenport, 596 U.S. 118, 141 (2022); Borden v. United States, 593 U.S. 420, 443 n.9 (2021) (plurality opinion).See generallyMargaret H. Lemos,Should Judicial Opinions Be Read Like Statutes?(Duke L. Sch. Pub. L. & Legal Theory Working Paper No. 2024-51, 2024),https://ssrn.com/abstract=4911985(collecting cases).",
+      "source": "article_tag",
+      "length": 507
+    },
+    {
+      "text": "Loper Bright, 144 S. Ct. at 2265 (“Chevroncannot be reconciled with the APA … by presuming that statutory ambiguities are implicit delegations to agencies.”).",
+      "source": "article_tag",
+      "length": 158
+    },
+    {
+      "text": "A Conversation with Brett Kavanaugh Transcript,Cath. Univ. of Am.(Sept. 26, 2024),https://cit.catholic.edu/a-conversation-with-brett-kavanaugh-transcript.",
+      "source": "article_tag",
+      "length": 154
+    },
+    {
+      "text": "See, e.g., Little v. Barreme, 6 U.S. (2 Cranch) 170 (1804); Kendall v. U.S.ex rel.Stokes, 37 U.S. 524 (1838).",
+      "source": "article_tag",
+      "length": 109
+    },
+    {
+      "text": "SeeChristopher N. LaVigne, Kimberly Pallen, Jordan Garmen & Vahe Mesropyan,Employment Update: Recent Decisions and Agency Actions,N.Y. L.J.(Nov. 4, 2024, 8:00 AM),https://www.law.com/newyorklawjournal/2024/11/04/employment-update-recent-decisions-and-agency-actions.",
+      "source": "article_tag",
+      "length": 266
+    },
+    {
+      "text": "Consumer Fin. Prot. Bureau v. Townstone Fin., Inc., 107 F.4th 768, 776–77 (7th Cir. 2024).",
+      "source": "article_tag",
+      "length": 90
+    },
+    {
+      "text": "Id.at 776;see alsoMayfield v. U.S. Dep’t of Lab., 117 F.4th 611, 614 (5th Cir. 2024) (upholding the Department of Labor’s Minimum Salary Rule under the “Department’s explicitly delegated authority to define and delimit the terms of the [statute]”).",
+      "source": "article_tag",
+      "length": 248
+    },
+    {
+      "text": "See supranotes 39–43 and accompanying text.",
+      "source": "article_tag",
+      "length": 43
+    },
+    {
+      "text": "See, e.g., E. Donald Elliott, ChevronMatters: How theChevronDoctrine Redefined the Roles of Congress, Courts and Agencies in Environmental Law, 16Vill. Env’t L.J.1 (2005).",
+      "source": "article_tag",
+      "length": 171
+    },
+    {
+      "text": "United States v. Mead Corp., 533 U.S. 218, 239 (2001) (Scalia, J., dissenting).",
+      "source": "article_tag",
+      "length": 79
+    },
+    {
+      "text": "SeeDaniel Deacon, Ohio v. EPAand the Future of APA Arbitrariness Review,Yale J. on Regul.: Notice & Comment(June 27, 2024),https://www.yalejreg.com/nc/ohio-v-epa-and-the-future-of-apa-arbitrariness-review.",
+      "source": "article_tag",
+      "length": 205
+    },
+    {
+      "text": "SeeJeffrey A. Pojanowski,Neoclassical Administrative Law, 133Harv. L. Rev.852, 857 (2020) (“The neoclassical approach rejects judicial deference on legal questions while respecting the policy choices that agencies legislate in the discretionary space Congress has given them.”). For a response questioning whether such a framework is feasible after failing in the past, see Adrian Vermeule,Neo-?, 133Harv. L. Rev. F.103 (2020).",
+      "source": "article_tag",
+      "length": 427
+    },
+    {
+      "text": "Id.at 423 (“A court [reviewing under the arbitrary-and-capricious standard] simply ensures that the agency has acted within a zone of reasonableness and, in particular, has reasonably considered the relevant issues and reasonably explained the decision.”).",
+      "source": "article_tag",
+      "length": 256
+    },
+    {
+      "text": "See,e.g., Dep’t of Homeland Sec. v. Regents of the Univ. of Cal., 591 U.S. 1, 26–28 (2020) (holding that the Department of Homeland Security’s rescission of Deferred Action for Child Arrivals (DACA) was arbitrary and capricious for not addressing all aspects of the program).",
+      "source": "article_tag",
+      "length": 275
+    },
+    {
+      "text": "Corner Post, 144 S. Ct. at 2450–52.",
+      "source": "article_tag",
+      "length": 35
+    },
+    {
+      "text": "Id.at 2452 (“Section 2401(a) thus operates as a statute of limitations rather than a statute of repose.”).",
+      "source": "article_tag",
+      "length": 106
+    },
+    {
+      "text": "See,e.g., City of Columbus v. Ours Garage & Wrecker Serv., Inc., 536 U.S. 424, 449 n.4 (2002) (“A possibility so startling … is well enough precluded by the rule that a statute should not be interpret to produce absurd results.”); Linda D. Jellum,But That Is Absurd! Why Specific Absurdity Undermines Textualism, 76Brook. L. Rev. 917, 918 n.3 (2011) (collecting this and other quotations).",
+      "source": "article_tag",
+      "length": 389
+    },
+    {
+      "text": "See, e.g., 28 C.F.R. § 68.57 (2023) (“In cases arising under section 247B of the INA, any person aggrieved by a final agency order … may, within sixty (60) days after entry of the order, seek review of the final agency order in the United States Court of Appeals….”).",
+      "source": "article_tag",
+      "length": 267
+    },
+    {
+      "text": "“Regulated parties ‘may always assail a regulation as exceeding the agency’s statutory authority in enforcement proceedings against them’ or ‘petition an agency to reconsider a longstanding rule and then appeal the denial of that petition.’”Corner Post, 144 S. Ct. at 2458 (quoting Herr v. U.S. Forest Serv., 803 F.3d 809, 821–22 (6th Cir. 2015)).",
+      "source": "article_tag",
+      "length": 347
+    },
+    {
+      "text": "Id.at 2459 n.8 (“It also may be that some injuries can only be suffered by entities that existed at the time of the challenged action.”).",
+      "source": "article_tag",
+      "length": 137
+    },
+    {
+      "text": "Susan C. Morse,Time Bars for Administrative Procedure Claims AfterCorner Post, 114Calif. L. Rev.(forthcoming 2026) (manuscript at 25–30),https://ssrn.com/abstract=4909489.",
+      "source": "article_tag",
+      "length": 171
+    },
+    {
+      "text": "Richard J. Pierce, Jr.,Two Neglected Effects ofLoper Bright,Regul. Rev.(July 1, 2024),https://www.theregreview.org/2024/07/01/pierce-two-neglected-effects-of-loper-bright(“Taken together …Ohio v. EPAandLoper Bright… eliminate any plausible basis for the major questions doctrine.”).",
+      "source": "article_tag",
+      "length": 282
+    },
+    {
+      "text": "For an account of the respective positions of Justices Gorsuch and Barrett on these issues, and for my deep skepticism about the latter’s view, see Adrian Vermeule,Text and “Context,”Yale J. on Regul.: Notice & Comment(July 13, 2023),https://www.yalejreg.com/nc/text-and-context-by-adrian-vermeule.",
+      "source": "article_tag",
+      "length": 298
+    },
+    {
+      "text": "Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2269 (2024) (quoting King v. Burwell, 576 U.S. 473, 486 (2015)).",
+      "source": "article_tag",
+      "length": 115
+    },
+    {
+      "text": "InAlliance for Fair Board Recruitment v. SEC, 125 F.4th 159 (5th Cir. 2024) (en banc), the Fifth Circuit reviewed NASDAQ rules, approved by the Securities and Exchange Commission, that mandated disclosure about the racial, gender, and sexual diversity of company directors. The en banc panel held that the rules were inconsistent with the Securities Exchange Act of 1934, relying both onLoper Brightand the major questions doctrine; the panel said that the major questions doctrine “confirms our interpretation of the plain meaning” of the relevant statutory provisions.Id.at 168. This seems to track Justice Barrett’s approach, under which “the MQD often usefully may be invoked as ‘an additional point’ that ‘reinforces’ the conclusion reached as a result of a ‘best reading’ analysis.”SeeRandolph May,What’s Up First—MQD or BR?,Yale J. on Regul.: Notice & Comment(Jan. 24, 2025),https://www.yalejreg.com/nc/whats-up-first-mqd-or-br-by-randolph-may(quoting Biden v. Nebraska, 600 U.S. 477, 520, 507, 521 (2023) (Barrett, J., concurring)).",
+      "source": "article_tag",
+      "length": 1040
+    },
+    {
+      "text": "Kisor, 588 U.S. at 574–79 (clarifying that a court should not giveAuerdeference unless it is ambiguous after “exhausting all of the ‘traditional tools’ of construction,” and that the rule must be a reasonable rule, held by the agency, implicating substantive expertise after “fair and considered judgment” (first quoting Chevron, U.S.A., Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843 n.9 (1984); and then quotingAuer, 519 U.S. at 462)).",
+      "source": "article_tag",
+      "length": 446
+    },
+    {
+      "text": "Id.at 590–91 (Roberts, C.J., concurring in part).",
+      "source": "article_tag",
+      "length": 49
+    },
+    {
+      "text": "I put aside the (correct) observation that the specific texts of the APA at issue in the two contexts are different, see Chad Squitieri, AuerAfterLoper Bright,Yale J. on Regul.: Notice & Comment(Oct. 15, 2024),https://www.yalejreg.com/nc/auer-after-loper-bright-by-chad-squitieri.CompareLoper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2260 (2024) (citing APA Section 706 for the rule that courts must “decide all relevant questions of law”),with Kisor, 588 U.S. at 581 (citing APA Section 706 for the rule that courts must “determine the meaning or applicability of the terms of agency action”). As Professor Squitieri notes, it is not at all obvious how this difference is legally relevant.SeeSquitieri,supra.",
+      "source": "article_tag",
+      "length": 713
+    },
+    {
+      "text": "Loper Bright, 144 S. Ct. at 2273.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "Adrian Vermeule,The Deference Dilemma, 31Geo. Mason L. Rev.619 (2024).",
+      "source": "article_tag",
+      "length": 70
+    },
+    {
+      "text": "Crowell, 285 U.S. at 57.",
+      "source": "article_tag",
+      "length": 24
+    },
+    {
+      "text": "Louis L. Jaffe, Judicial Control of Administrative Action320 (1965).",
+      "source": "article_tag",
+      "length": 68
+    },
+    {
+      "text": "Antonin Scalia,Judicial Deference to Administrative Interpretations of Law, 1989Duke L.J.511.",
+      "source": "article_tag",
+      "length": 93
+    },
+    {
+      "text": "Toxic Substances Control Act, 15 U.S.C. § 2605.",
+      "source": "article_tag",
+      "length": 47
+    },
+    {
+      "text": "Universal Camera Corp. v. NLRB, 340 U.S. 474, 487 (1951).",
+      "source": "article_tag",
+      "length": 57
+    },
+    {
+      "text": "See,e.g., Moody v. NetChoice, LLC, 603 U.S. 707 (2024); Gonzalez v. Trevino, 602 U.S. 653 (2024); FDA v. All. for Hippocratic Med., 602 U.S. 367 (2024); Consumer Fin. Prot. Bureau v. Cmty. Fin. Servs. Ass’n of Am., Ltd., 601 U.S. 416 (2024); Murthy v. Missouri, 603 U.S. 43 (2024); United States v. Rahimi, 602 U.S. 680 (2024).",
+      "source": "article_tag",
+      "length": 327
+    },
+    {
+      "text": "In a somewhat ambiguous jab at the majority’s reformulation of deference as delegated policymaking discretion, Justice Thomas wrote that “Chevrondeference ‘cannot be salvaged’ by recasting it as deference to an agency’s ‘formulation of policy.’ … If that were true,Chevronwould mean that ‘agencies are unconstitutionally exercising legislative Powers vested in Congress.’” Loper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2275 (Thomas, J., concurring) (quoting Baldwin v. United States, 140 S. Ct. 690, 691 (2020) (Thomas, J., dissenting from the denial of certiorari)). This view rests on a theory of nondelegation that is different and far more extreme than the standard theory, as explained inStephen G. Breyer, Richard B. Stewart, Cass R. Sunstein, Adrian Vermeule & Michael Herz, Administrative Law and Regulatory Policy: Problems, Text, and Cases45–46 (9th ed. 2022).",
+      "source": "article_tag",
+      "length": 875
+    },
+    {
+      "text": "SeeEric A. Posner & Adrian Vermeule,Interring the Nondelegation Doctrine, 69U. Chi. L. Rev.1721, 1733–41 (2002) (“What is true of legislative precedent from early Congresses is also true of early judicial precedent; in the latter setting, as in the former, there is nothing to indicate that the nondelegation metaphor can boast a venerable pedigree.”); Julian Davis Mortenson & Nicholas Bagley,Delegation at the Founding, 121Colum. L. Rev.277, 282 (2021) (“The nondelegation doctrine has nothing to do with the Constitution as it was originally understood.”).",
+      "source": "article_tag",
+      "length": 559
+    },
+    {
+      "text": "Adrian Vermeule, Law’s Abnegation43–44 (2016).",
+      "source": "article_tag",
+      "length": 46
+    },
+    {
+      "text": "Indus. Union Dep’t, AFL-CIO v. Am. Petroleum Inst., 448 U.S. 607, 671 (1980) (Rehnquist, J., concurring).",
+      "source": "article_tag",
+      "length": 105
+    },
+    {
+      "text": "SeeAdrian Vermeule,Never Jam Today,Yale J. on Regul.: Notice & Comment(June 20, 2019),https://www.yalejreg.com/nc/never-jam-today-by-adrian-vermeule.",
+      "source": "article_tag",
+      "length": 149
+    },
+    {
+      "text": "As Justice Kavanaugh did not participate, the Kagan opinion was actually for four of the eight participating Justices.",
+      "source": "article_tag",
+      "length": 118
+    },
+    {
+      "text": "Gundy, 588 U.S. at 146 (plurality opinion).",
+      "source": "article_tag",
+      "length": 43
+    },
+    {
+      "text": "Id. at 148–49 (Alito, J., concurring) (“If a majority of this Court were willing to reconsider the approach we have taken for the past 84 years, I would support that effort. But because a majority is not willing to do that, it would be freakish to single out the provision at issue here for special treatment.”).",
+      "source": "article_tag",
+      "length": 312
+    },
+    {
+      "text": "See, e.g., Cass R. Sunstein,Is OSHA Unconstitutional?, 94Va. L. Rev.1407 (2008).",
+      "source": "article_tag",
+      "length": 80
+    },
+    {
+      "text": "SeeVermeule,supranote 7.",
+      "source": "article_tag",
+      "length": 24
+    },
+    {
+      "text": "The Court recently granted a certiorari petition from the United States in a case in which the Fifth Circuit invalidated a statutory authority of the Federal Communications Commission on “private nondelegation” grounds.SeeConsumers’ Rsch. v. FCC, 109 F.4th 743 (5th Cir. 2024) (en banc),cert. granted, No. 24-354, 2024 WL 4864036 (U.S. Nov. 22, 2024). It is noteworthy, however, that we do not see the opposite and more telling case of the Court granting cert in a case in which the lower courtdenieda nondelegation claim. The latter, unlike the former, would suggest a real appetite for a change in the law.",
+      "source": "article_tag",
+      "length": 608
+    },
+    {
+      "text": "Gundy, 588 U.S. at 157–59 (Gorsuch, J., dissenting).",
+      "source": "article_tag",
+      "length": 52
+    },
+    {
+      "text": "Vermeule,supranote 99, at 12.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "Cf.Sunstein,Administrative Law’s Grand Narrative,supranote 6.",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "Gillian E. Metzger,The Supreme Court, 2016 Term—Foreword: 1930s Redux: The Administrative State Under Siege, 131Harv. L. Rev.1, 4 (2017).",
+      "source": "article_tag",
+      "length": 137
+    },
+    {
+      "text": "PermissionsRequest permissions",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "© 2025 The University of Chicago. All rights reserved.",
+      "source": "article_tag",
+      "length": 54
+    },
+    {
+      "text": "Crossref reports the following articles citing this article:",
+      "source": "article_tag",
+      "length": 60
+    }
+  ],
+  "footnotes": [],
+  "headers": [
+    {
+      "text": "Search",
+      "source": "h1",
+      "length": 6
+    },
+    {
+      "text": "The Old Regime and the Loper Bright “Revolution”",
+      "source": "h1",
+      "length": 48
+    },
+    {
+      "text": "I. A Requiem for the Old Regime",
+      "source": "h2",
+      "length": 31
+    },
+    {
+      "text": "II. The Law of, and After,Loper Bright",
+      "source": "h2",
+      "length": 38
+    },
+    {
+      "text": "III. TheJacobins de Droite",
+      "source": "h2",
+      "length": 26
+    },
+    {
+      "text": "Conclusion: A Marginal Revolution",
+      "source": "h2",
+      "length": 33
+    },
+    {
+      "text": "Notes",
+      "source": "h2",
+      "length": 5
+    },
+    {
+      "text": "A. The History",
+      "source": "h3",
+      "length": 14
+    },
+    {
+      "text": "B. Continuity",
+      "source": "h3",
+      "length": 13
+    },
+    {
+      "text": "A. The Baseline Holding",
+      "source": "h3",
+      "length": 23
+    },
+    {
+      "text": "B. Critical Qualifications",
+      "source": "h3",
+      "length": 26
+    },
+    {
+      "text": "C. Policymaking and Interpretation",
+      "source": "h3",
+      "length": 34
+    },
+    {
+      "text": "D. Interaction Effects?",
+      "source": "h3",
+      "length": 23
+    },
+    {
+      "text": "E. Open Legal Questions",
+      "source": "h3",
+      "length": 23
+    },
+    {
+      "text": "F. What Was the Point?",
+      "source": "h3",
+      "length": 22
+    },
+    {
+      "text": "Article DOI",
+      "source": "h3",
+      "length": 11
+    },
+    {
+      "text": "1. Implied Delegations?",
+      "source": "h4",
+      "length": 23
+    },
+    {
+      "text": "1. “Hard Look” Review",
+      "source": "h4",
+      "length": 21
+    },
+    {
+      "text": "2. Delayed Challenges to Agency Action",
+      "source": "h4",
+      "length": 38
+    },
+    {
+      "text": "3. Standing",
+      "source": "h4",
+      "length": 11
+    },
+    {
+      "text": "1. Major Questions?",
+      "source": "h4",
+      "length": 19
+    },
+    {
+      "text": "2. Kisor/Auer Deference?",
+      "source": "h4",
+      "length": 24
+    },
+    {
+      "text": "3. Pre-Existing ChevronCases and Statutory Stare Decisis?",
+      "source": "h4",
+      "length": 57
+    },
+    {
+      "text": "1. Expressing a Mood",
+      "source": "h4",
+      "length": 20
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 172,
+    "total_footnotes": 0,
+    "total_headers": 24,
+    "total_other": 0
+  }
+}

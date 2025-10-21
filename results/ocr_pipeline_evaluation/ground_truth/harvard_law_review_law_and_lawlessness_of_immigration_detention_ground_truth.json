@@ -1,0 +1,732 @@
+{
+  "file": "harvard_law_review_law_and_lawlessness_of_immigration_detention.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "The United States operates the largest immigration detention system in the world. Immigrants and watchdog groups have reported poor conditions of confinement, including medical mistreatment and neglect, inadequate nutrition, unsanitary conditions, and overcrowding. To challenge these conditions of confinement, immigrants have raised a variety of constitutional, statutory, and administrative claims in federal court. Some courts have rejected these claims, reluctant to intercede in agency management of the detention system and override the will of the political branches. This emerging jurisprudence assumes that the sole interest of the political branches in detention is to facilitate the exclusion and deportation of immigrants, with little consideration given to how immigrants are detained. These courts view agency regulation of detention as gratuitous self-regulation, neither required by law nor enforceable, even when violations of these rules threaten the life and liberty of those detained. The result is a weakened rights framework that does little to protect the substantive rights of immigrants in detention. This Article challenges these judicial assumptions by unearthing a more nuanced account of the political branches’ “civil detention interest.” A careful review of legislative and regulatory history across three periods of detention expansion demonstrates the political branches’ interest in ensuring the civil conditions of immigration detention and a growing legislative distrust of agency management of detention conditions. This civil detention interest should inform how courts adjudicate challenges to immigration detention conditions. The relative failure of any branch of government to effectuate this interest exposes the lawlessness of the immigration detention system in the United States.",
+      "source": "article_tag",
+      "length": 1826
+    },
+    {
+      "text": "On May 25, 2020, U.S. Immigration and Customs Enforcement (ICE) announced the death of Santiago Baten-Oxlaj, a thirty-four-year-old man who contracted COVID-19 while detained in the Stewart Detention Center in Lumpkin, Georgia.He was the first person in Stewart and at least the second person nationwide to die from the disease while in ICE custody.Watchdog groups had long been concerned about conditions at Stewart, a private immigration prison accused of medical neglect, abuse, and unsanitary living conditions.As COVID-19 began to spread rapidly through the facility, immigrants held in Stewart and a neighboring Georgia immigration prison filed suit against ICE, arguing that their conditions of confinement violated substantive due process and the Agency’s own rules governing the prevention of communicable disease in detention.InA.S.M. v.Warden, Stewart County Detention Center,a federal district court denied their claims.The court held that ICE had done enough to meet constitutional requirements and that its detention standards — which direct the Agency to do more — were not enforceable.Following the decision inA.S.M., the disease continued to spread rapidly through the facility and three more people detained at Stewart — Cipriano Chavez-Alvarez, sixty-one; Jose Guillen-Vega, seventy; and Felipe Montes, fifty-seven — died from COVID-19 complications.",
+      "source": "article_tag",
+      "length": 1369
+    },
+    {
+      "text": "The COVID-19 pandemic resurfaced a longstanding question: What law governs the conditions of confinement within the U.S. immigration detention system? The question is of significant importance. The United States operates the largest immigration detention system in the world, confining nearly 300,000 people each year.Congress has authorized federal immigration officials to detain any immigrantpending their possible exclusion or deportation (collectively described as “removal”) from the country.Procedural avenues for seeking release from immigration detention have narrowed over time.As a result, immigrants may face the prospect of weeks, months, or years of detention before their cases are resolved either through a grant of permission to remain in the United States or deportation.While detained, immigrants rely on the government and government contractors to provide their necessary medical care, food, and safety. Yet the U.S. immigration detention system has become notorious for unsanitary conditions, inedible food, excessive use of force, racialized abuse, medical neglect, and preventable death.The law — or lawlessness — governing the rights of people within the immigration detention system therefore has serious, even life-or-death consequences.",
+      "source": "article_tag",
+      "length": 1264
+    },
+    {
+      "text": "The answer to this question ostensibly rests within various sources of law, including the U.S. Constitution. The government has an affirmative constitutional duty to meet the “basic human needs” of the people it confines, including the provision of “food, clothing, shelter, medical care, and reasonable safety.”The government is prohibited from exhibiting “deliberate indifference to [a person’s] serious medical needs” in confinement.The Supreme Court has categorized immigration detention as a form of civil detention.The government is prohibited from subjecting individuals in civil detention to punitive conditions of confinement, that is, conditions that are “express[ly] inten[ded] to punish,” not rationally related to a legitimate government objective, or excessive to that objective.",
+      "source": "article_tag",
+      "length": 793
+    },
+    {
+      "text": "These constitutional rights are further supplemented by statutory and administrative law. The Immigration and Nationality Act(INA) requires federal immigration officials to “arrange for appropriate places of detention”and to work with states and localities to ensure “acceptable conditions of confinement” where jail settings are used.After intense legislative scrutiny of detention conditions, the U.S. Immigration and Naturalization Service (INS) — the predecessor agency to ICE— began working on a set of detention standards in 1980 to manage its growing network of contract facilities.Released, amended, and reissued in 1998, 2000, 2008, 2011, 2016, and 2019,the detention standards remain the Agency’s primary written set of rules regulating the conditions of confinement in the U.S. immigration detention system and serve as the basis of a congressionally mandated inspection system.",
+      "source": "article_tag",
+      "length": 889
+    },
+    {
+      "text": "This array of constitutional, statutory, and administrative law is the main substantive law of immigration detention.Yet when detained immigrants seek to enforce their rights under this body of law, the law is often unequal to the task. During the COVID-19 pandemic, many federal district courts applied constitutional, statutory, and administrative law principles to release medically vulnerable immigrants or order other remedies to protect the health and welfare of people in immigration detention.But some federal district courts, like the court inA.S.M., rejected detained immigrants’ claims in light of the interests of the legislative and executive branches in maintaining their detention system.Two of the most significant district court victories for detained immigrants were overturned by federal appellate courts based in part on this rationale.",
+      "source": "article_tag",
+      "length": 856
+    },
+    {
+      "text": "One such case isHope v. Warden York County Prison,where the Third Circuit overturned a district court’s decisions that released at-risk immigrants from facilities in Pennsylvania.Similar framing characterized the Ninth Circuit’s majority decision inFraihat v. U.S. Immigration & Customs Enforcement,which overturned a nationwide preliminary injunction ordering ICE to engage in individualized custody reviews for immigrants with certain disabilities or at high risk of serious medical complications or death from COVID-19.The Ninth Circuit rejected the lower court’s deliberate indifference analysis, faulting the court for its lack of deference to “the Executive Branch’s preeminent role in managing immigration detention facilities and its greater institutional competence in this area.”It emphasized the government’s legitimate interest in immigration detention and rejected the contention that conditions had become unconstitutionally punitive.The court further concluded that the petitioners’ claim of deliberate indifference was unlikely to succeed on the merits, emphasizing ICE’s issuance of “mandatory” guidance to its detention facilities to address COVID-19.",
+      "source": "article_tag",
+      "length": 1169
+    },
+    {
+      "text": "Immigrants’ attempts to enforce compliance with the “mandatory” detention standards have also been fraught. The analysis inA.S.M.exemplifies the broader trend. After rejecting immigrants’ substantive due process claims for the same reasons that were later adopted by the Third and Ninth Circuits, the court inA.S.M.also rejected the petitioners’ claim that, at minimum, ICE must be required to comply with its standards.For this claim, the petitioners relied on the doctrine applied inUnited States ex rel. Accardi v. Shaughnessy,in which the Supreme Court invalidated a deportation order based on the Agency’s failure to follow its own rules.The district court rejected theAccardiclaim, concluding that theAccardidoctrine applied only to agency procedural rules promulgated with the force and effect of law.The court characterized the Agency’s adoption of standards as purely voluntary and unenforceable, in part because there was no identified “source of statutory authority that would even permit such agency rule-making delegation under these circumstances.”",
+      "source": "article_tag",
+      "length": 1062
+    },
+    {
+      "text": "This recent line of cases raises a number of serious questions. If constitutional protections against punitive detention rise and fall on the courts’ perception of the government’s legitimate interest in detention, what meaningful limits on the conditions of confinement apply? If agency detention standards both are unenforceableandimmunize the agency against claims of deliberate indifference, what law actually protects the rights and interests of people in detention? The answer is either nothing — a steady state of relative lawlessness in immigration detention — or that these courts are approaching the doctrinal inquiries incorrectly.",
+      "source": "article_tag",
+      "length": 642
+    },
+    {
+      "text": "This Article explores the latter possibility as a potential salve for the former — that some courts have faltered in their approach to conditions of confinement claims in the immigration detention context. The analyses in cases likeHope,Fraihat, andA.S.M.suggest that part of the problem stems from a shared feature of immigration, administrative, and prison law: the judiciary’s expansive deference to one or both political branches of government. In immigration law, the judiciary defers to the political branches’ “plenary power,”declining to scrutinize “the wisdom, the policy or the justice of the measures” by which noncitizens are excluded or expelled from the United States.In administrative law, the judiciary defers to agency interpretations of ambiguous regulations.In prison law, the judiciary employs “penal power,”“canons of evasion,”and “dispositional favoritism”to defer to prison operators, observing that “the operation of our correctional facilities is peculiarly the province of the Legislative and Executive Branches of our Government, not the Judicial.”It is therefore unsurprising that the combination of immigration, administrative, and prison law — the law of immigration detention — also relies on significant deference to the political branches, which in turn undermines meaningful judicial constraints on the conditions of confinement.",
+      "source": "article_tag",
+      "length": 1363
+    },
+    {
+      "text": "Scholars have rigorously critiqued the role of deference in the underenforcement of rights for people in confinement.I have previously argued that deference to the Executive should have limited application in habeas challenges to the government’s authority to detain.Heavy deference to the political branches improperly amplifies the interests of the prosecutor and jailer over the interests of the person detained.Eliminating deference can open space for greater enforcement of constitutional, statutory, and regulatory rights through liberty-enhancing norms.The demise ofChevrononly buttresses these efforts for more searching judicial review.",
+      "source": "article_tag",
+      "length": 645
+    },
+    {
+      "text": "This Article examines the issue of deference from a related angle: whether the courts have properly assessed the will of the political branches — particularly Congress — in the rush to defer. A closer look at legislative and regulatory history demonstrates that federal courts have largely conflated Congress’s interests in exclusion and deportation with its interests in detention. The stock story is one of a legislative body eager to detain, broadly authorizing federal immigration officials to operationalize a detention system in any manner they see fit in order to meet the demands of legislative and executive exclusion and deportation priorities. This view of congressional intent has in turn colored courts’ perspectives on executive action, or inaction, in managing detention conditions. Agency regulation of immigration detention operates in an informal sphere, manifesting primarily as standards, guidance, and other informal rules. Some courts have therefore viewed agency regulation of detention as gratuitous self-regulation, neither required by law nor enforceable, even when violations of these rules threaten the life and liberty of those detained. Because these courts believe that nothing requires the agency to act, any action is laudable and any inaction is free from scrutiny.",
+      "source": "article_tag",
+      "length": 1299
+    },
+    {
+      "text": "These judicial perspectives on the will of the political branches are incorrect. The stock story misses two important aspects of the legislative and regulatory history of immigration detention. First is the legislative will to ensure civil — that is, humane and nonpunitive — conditions of immigration detention. Congress initially federalized immigration detention to standardize and improve the conditions of such detention and subsequently required the Executive to ensure “appropriate places of detention”and “acceptable conditions of confinement.”Second is legislative distrust of agency management of detention conditions. Initially, federal immigration officials cooperatively engaged in the regulation of detention conditions.Over time, however, reports of agency malfeasance and neglect prompted greater oversight from Congress.Congressional inquiries and directives drove the Agency to adopt its modern-day detention standards and compliance mechanisms.Most recently, congressional distrust of agency detention management prompted the creation of an independent office of investigation and compliance.With this Article, I introduce the term “civil detention interest” to describe the two intertwined threads of this more nuanced account.",
+      "source": "article_tag",
+      "length": 1247
+    },
+    {
+      "text": "The civil detention interest is relevant to the substantive rights of detained immigrants in several important respects, three of which are the focus of this Article. First, the civil detention interest informs how courts should treat substantive due process challenges to immigration detention. By separating Congress’s interest in regulating conditions from its interest in expanding detention, courts may reevaluate the proper approach to substantive due process claims in the immigration context. Courts may better assess whether a particular condition serves or is excessive to a legitimate nonpunitive governmental purpose, whether the Agency’s issuance of informal rules should defeat a deliberate indifference claim, and whether deliberate indifference is the proper inquiry at all. A more fulsome consideration of the civil detention interest should also lead courts to question the application of deference to the Agency on issues requiring detention management expertise. Second, the civil detention interest informs how courts should construe provisions within the INA governing “appropriate places of detention”and the “acceptable conditions of confinement.”Many courts have either ignored these provisions or construed them as expanding executive authority to decide where to detain individuals and in what conditions.By contrast, the legislative and regulatory history suggests that these provisions were intended to constrain such authority and direct the Agency to protect the rights of people in detention. Third, the civil detention interest informs how courts should assess claims seeking to enforce informal agency rules governing detention conditions. Agency action stems in part from longstanding congressional oversight concerning the rights and interests of detained people, and thus enforcement of detention standards fits well within theAccardidoctrine.The Agency should be bound by its detention standards absent a conflict with more rigorous statutory or constitutional requirements.",
+      "source": "article_tag",
+      "length": 2012
+    },
+    {
+      "text": "By emphasizing the interests of the political branches in regulating the conditions of immigration detention, I do not suggest that Congress or the Agency has taken a benign approach to immigration detention, or that courts have properly categorized the purpose of immigration detention as civil. As scholars have argued, the expansion of mandatory detention in the 1980s and 1990s and its ties to criminal legal consequences suggest that the federal government uses immigration detention for punitive purposes of retribution and deterrence.So long as courts continue to categorize immigration detention as a form of civil confinement, however, they must consider the full range of interests at stake. This Article challenges courts to take seriously their role in identifying and enforcing the substantive rights of immigrants in detention in light of the doctrinal frameworks that courts have created and continue to maintain.",
+      "source": "article_tag",
+      "length": 928
+    },
+    {
+      "text": "This Article proceeds in three parts. Part I describes how federal courts have interpreted potential sources of substantive immigration detention law and why some have produced, through their decisions, lawlessness for immigrants facing poor conditions of confinement.I focus on three areas: substantive due process, statutory immigration law interpretation, and the enforcement of agency detention standards. In each of these realms, a growing number of courts have rejected detained immigrants’ claims based on a perceived conflict with the political branches’ interest in unfettered detention authority.",
+      "source": "article_tag",
+      "length": 606
+    },
+    {
+      "text": "Part II challenges this judicial account by unearthing the history of congressional and administrative action to address the conditions of civil immigration confinement, unwinding the political branches’ civil detention interest from their broader expansion of detention overall. I focus on congressional and executive action to regulate the conditions of immigration confinement during three periods — the federalization of immigration detention at the turn of the twentieth century, the expansion of detention during the internal security era, and the entrenchment of detention during the modern era. I argue that the political branches have expressed significant concern over the conditions of immigration confinement, with Congress directing federal immigration authorities to ensure civil conditions in the face of perceived agency mismanagement.",
+      "source": "article_tag",
+      "length": 851
+    },
+    {
+      "text": "Part III then considers the doctrinal implications of the civil detention interest, returning to the substantive due process jurisprudence, statutory interpretation questions, and enforcement of agency detention standards discussed in Part I. Courts have placed undue weight on the federal government’s interest in detention when addressing whether conditions are unconstitutionally punitive and whether jailers demonstrate deliberate indifference. Courts have either ignored or misconstrued statutory provisions that direct administrative officials to ensure appropriate conditions of confinement. Courts’ reluctance to require the Agency to comply with detention standards is misplaced, as the enforcement of these standards implicates the concerns at the heart of theAccardidoctrine and aligns with congressional intent. A shift in judicial approach to conditions claims — one that more fully considers the complex interests of the political branches in regulating the conditions of detention — should result in more robust enforcement of substantive rights for detained immigrants. I conclude, however, by taking seriously the proposition that some courts will continue to fail to enforce the substantive law governing the conditions of immigration detention. This failure lends weight to critiques of the immigration detention system as a whole.",
+      "source": "article_tag",
+      "length": 1350
+    },
+    {
+      "text": "Continue Reading in the Full PDF",
+      "source": "article_tag",
+      "length": 32
+    },
+    {
+      "text": "* Professor of Clinical Law, New York University School of Law. I am grateful to SabrinehArdalan, Eunice Cho, Sharon Dolovich, Mark Fleming, Alexis Karteron, Emma Kaufman, NancyMorawetz, John Peng, Jessica Rofé, and participants of the Immigration Law Teachers and Scholars Workshop and the Law and Society Association Global Meeting for their thoughtful feedback. I thank my wonderful research assistants Zaynab Said, Jacob Park, Kayla Yoon, and Sam Karnes.",
+      "source": "article_tag",
+      "length": 458
+    },
+    {
+      "text": "^Press Release, U.S. Immigr. & Customs Enf’t, Guatemalan Man in ICE Custody Passes Away in Georgia (May 25, 2020), https://www.ice.gov/news/releases/guatemalan-man-ice-custody-passes-away-georgia [https://perma.cc/L6XC-7L27]; Jeremy Redmon,ICE Detainee Held in South Georgia Dies from COVID-19,Atlanta J.-Const.(May 25, 2020), https://www.ajc.com/news/breaking-news/ice-detainee-held-south-georgia-dies-from-covid/Irdtr5BSTV7SpZP7Z3BNOL [https://perma.cc/3YC9-N2QJ].",
+      "source": "article_tag",
+      "length": 466
+    },
+    {
+      "text": "^SeeRedmon,supranote 1.",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^See, e.g.,Project S. & Penn State L., Ctr. for Immigrants’ Rts. Clinic, Imprisoned Justice: Inside Two Georgia Immigrant Detention Centers31, 35, 37 (2017), https://projectsouth.org/wp-content/uploads/2017/06/Imprisoned_Justice_Report-1.pdf [https://perma.cc/E74B-CM99];Eunice Hyunhye Cho & Paromita Shah, S. Poverty L. Ctr. et al., Shadow Prisons: Immigrant Detention in the South40–41 (2016), https://www.splcenter.org/sites/default/files/ijp_shadow_prisons_immigrant_detention_report.pdf [https://perma.cc/VR9G-K3PN].",
+      "source": "article_tag",
+      "length": 521
+    },
+    {
+      "text": "^SeePetition for Writ of Habeas Corpus Pursuant to 28 U.S.C. § 2241 and Complaint for Declaratory and Injunctive Relief at 16, 24, 44, A.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341 (M.D. Ga. 2020) (No. 20-CV-62).",
+      "source": "article_tag",
+      "length": 230
+    },
+    {
+      "text": "^Id.at 1344 (denying motion for preliminary injunction).",
+      "source": "article_tag",
+      "length": 56
+    },
+    {
+      "text": "^SeeJeremy Redmon,Fourth ICE Detainee Dies from COVID-19 in Southwest Georgia,Atlanta J.-Const.(Jan. 31, 2021), https://www.ajc.com/news/fourth-ice-detainee-dies-from-covid-19-in-southwest-georgia/TNPDEQCTD5AJNEJG3AB5UODNGQ [https://perma.cc/W9M5-LXD7].",
+      "source": "article_tag",
+      "length": 253
+    },
+    {
+      "text": "^SeeImmigration Detention101,Det.WatchNetwork, https://www.detentionwatchnetwork.org/issues/detention-101 [https://perma.cc/6H2U-9VJL].",
+      "source": "article_tag",
+      "length": 135
+    },
+    {
+      "text": "^In this Article, I use the term “immigrant” to refer to any person within the United States who lacks U.S. citizenship status.",
+      "source": "article_tag",
+      "length": 127
+    },
+    {
+      "text": "^SeeHillel R. Smith, Cong. Rsch. Serv., IF11343, The Law of Immigration Detention: A Brief Introduction1 (2022).",
+      "source": "article_tag",
+      "length": 112
+    },
+    {
+      "text": "^The Supreme Court has upheld the constitutionality of mandatory detention as applied to individuals who have conceded removability and has rejected lower court decisions construing federal detention law narrowly, as a matter of statutory interpretation, to avoid prolonged detention.See, e.g., Demore v. Kim, 538 U.S. 510, 513, 530–31 (2003) (holding that mandatory detention under 8 U.S.C. § 1226(c) is constitutional for the brief period of time necessary to conclude removal proceedings for an individual who conceded removability); Jennings v. Rodriguez, 138 S. Ct. 830, 842–44, 852 (2018) (rejecting the application of the constitutional avoidance canon to the mandatory detention provisions of 8 U.S.C. §§ 1226(c) and 1225(b) and thus reversing a lower court decision ordering bond hearings within six months of detention); Nielsen v. Preap, 139 S. Ct. 954, 971 (2019) (interpreting the “when . . . released” clause in 8 U.S.C. § 1226(c) to permit mandatory detention any time after release from prior custody); Johnson v. Arteaga-Martinez, 142 S. Ct. 1827, 1833 (2022) (rejecting the application of the constitutional avoidance canon to the detention provision of 8 U.S.C. § 1231(a)(6)).",
+      "source": "article_tag",
+      "length": 1195
+    },
+    {
+      "text": "^SeeDetention by the Numbers,Freedom for Immigrants, https://www.freedomforimmigrants.org/detention-statistics [https://perma.cc/FC6R-UKJD];Nat’l Immigrant Just. Ctr., Locked Away: The Urgent Need for Immigration Detention Bond Reform4 (2023), https://immigrantjustice.org/sites/default/files/content-type/research-item/documents/2023-06/NIJC-Policy-Brief_ICE-Bond-Reform_May-2023.pdf [https://perma.cc/CV6M-FB95].",
+      "source": "article_tag",
+      "length": 414
+    },
+    {
+      "text": "^Seesources citedinfranote 69.",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "^DeShaney v. Winnebago Cnty. Dep’t of Soc. Servs., 489 U.S. 189, 200 (1989) (citing Estelle v. Gamble, 429 U.S. 97, 103–04 (1976); Youngberg v. Romeo, 457 U.S. 307, 315–16 (1982)).",
+      "source": "article_tag",
+      "length": 180
+    },
+    {
+      "text": "^Gamble, 429 U.S. at 104.",
+      "source": "article_tag",
+      "length": 25
+    },
+    {
+      "text": "^SeeWong Wing v. United States, 163 U.S. 228, 235 (1896);see alsoZadvydas v. Davis, 533 U.S. 678, 690 (2001).",
+      "source": "article_tag",
+      "length": 109
+    },
+    {
+      "text": "^Bell v. Wolfish, 441 U.S. 520, 538 (1979) (quoting Kennedy v. Mendoza-Martinez, 372 U.S. 144, 168–69 (1963)) (citing Flemming v. Nestor, 363 U.S. 603, 617 (1960)).",
+      "source": "article_tag",
+      "length": 164
+    },
+    {
+      "text": "^Immigration and Nationality Act of 1952, Pub. L. No. 82-414, 66 Stat. 163 (codified as amended in scattered sections of 8 U.S.C.).",
+      "source": "article_tag",
+      "length": 131
+    },
+    {
+      "text": "^Id.§ 1103(a)(11)(B);see also infrasection II.A, pp. 1217–24.",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "^SeeSteven Neeley, Comment,Immigration Detention: The Inaction of the Bureau of Immigration and Customs Enforcement, 60Admin. L. Rev.729, 730–32 (2008).",
+      "source": "article_tag",
+      "length": 152
+    },
+    {
+      "text": "^Seeinfra notes 379–82and accompanying text.",
+      "source": "article_tag",
+      "length": 44
+    },
+    {
+      "text": "^SeeICE Detention Standards,U.S. Immigr. & Customs Enf’t(Aug. 8, 2023), https://www.ice.gov/factsheets/ice-detention-standards [https://perma.cc/XFZ9-TZA8];see also infranotes 191–93 and accompanying text.",
+      "source": "article_tag",
+      "length": 205
+    },
+    {
+      "text": "^Seeinfrasection II.C, pp. 1233–44.",
+      "source": "article_tag",
+      "length": 35
+    },
+    {
+      "text": "^Throughout this Article, I focus primarily on the law and history of adult immigration detention. I do not incorporate the unique context of modern-era family and juvenile detention, in part because of the different interests involved when children are detained.",
+      "source": "article_tag",
+      "length": 263
+    },
+    {
+      "text": "^See, e.g., Brandon L. Garrett & Lee Kovarsky,Viral Injustice, 110Calif. L. Rev.117, 151–54 (2022) (describing the relative success of COVID-19 claims for people in immigration detention when compared to other incarcerated individuals).",
+      "source": "article_tag",
+      "length": 236
+    },
+    {
+      "text": "^SeeinfraPart I, pp. 1196–216; A.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341, 1353–54 (M.D. Ga. 2020).",
+      "source": "article_tag",
+      "length": 120
+    },
+    {
+      "text": "^See id.at 317, 326, 330–31. For further discussion, seeinfrapp. 1202–04.",
+      "source": "article_tag",
+      "length": 73
+    },
+    {
+      "text": "^See id.at 618. Notably, the Ninth Circuit has declined to overturn district court relief addressing poor conditions of immigration confinement in the COVID-19 context.See, e.g., Zepeda Rivas v. Jennings, 845 F. App’x 530, 535 (9th Cir. 2021); Roman v. Wolf, 977 F.3d 935, 939 (9th Cir. 2020).",
+      "source": "article_tag",
+      "length": 293
+    },
+    {
+      "text": "^Fraihat, 16 F.4th at 638 (citing Bell v. Wolfish, 441 U.S. 520, 548 (1979);Roman, 977 F.3d at 947 (Miller, J., concurring in part and concurring in the judgment)).",
+      "source": "article_tag",
+      "length": 164
+    },
+    {
+      "text": "^See id.at 647–48 (citing, inter alia,Wolfish, 441 U.S. at 539).",
+      "source": "article_tag",
+      "length": 64
+    },
+    {
+      "text": "^SeeA.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341, 1354 (M.D. Ga. 2020).",
+      "source": "article_tag",
+      "length": 90
+    },
+    {
+      "text": "^See A.S.M., 467 F. Supp. 3d at 1351–53 (citingAccardi, 347 U.S. at 264–68).",
+      "source": "article_tag",
+      "length": 76
+    },
+    {
+      "text": "^E.g., Hiroshi Motomura,Immigration Law After a Century of Plenary Power: Phantom Constitutional Norms and Statutory Interpretation, 100Yale L.J.545, 547 (1990).",
+      "source": "article_tag",
+      "length": 161
+    },
+    {
+      "text": "^Fong Yue Ting v. United States, 149 U.S. 698, 731 (1893).",
+      "source": "article_tag",
+      "length": 58
+    },
+    {
+      "text": "^See, e.g.,Kisor v. Wilkie, 139 S. Ct. 2400, 2408 (2019) (citing Auer v. Robbins, 519 U.S. 452, 461 (1997); Bowles v. Seminole Rock & Sand Co., 325 U.S. 410 (1945));Auer, 519 U.S. at 461. Federal courts long deferred to agency interpretations of ambiguous statutes as well, but the Supreme Court recently overturned that doctrine.SeeLoper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2273 (2024) (overturning Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837 (1984)).",
+      "source": "article_tag",
+      "length": 483
+    },
+    {
+      "text": "^Emma Kaufman,Segregation by Citizenship, 132Harv. L. Rev.1379, 1383 (2019) (using the term “penal power doctrine” to describe how “in cases involving prisons, courts routinely defer to penal policies that restrict prisoners’ rights, including the right to equal protection, on the ground that prisons are difficult institutions to run”).",
+      "source": "article_tag",
+      "length": 338
+    },
+    {
+      "text": "^Sharon Dolovich,The Coherence of Prison Law, 135Harv. L. Rev. F.301, 303 (2022) (emphasis omitted) (using the term “canons of evasion” to describe the Supreme Court’s use of “a set of maneuvers . . . to construct doctrinal standards for prison law cases that strongly incline courts to rule in favor of the state”).",
+      "source": "article_tag",
+      "length": 316
+    },
+    {
+      "text": "^Id.at 304 (emphasis omitted) (using the term “dispositional favoritism” to describe a “moral psychology . . . which orients courts to regard prison officials’ arguments favorably while viewing prisoners’ claims with skepticism and even hostility,” which results in decisions that “wind up favoring defendants in any number of ways hard to square with either the record or the relevant legal rules”).",
+      "source": "article_tag",
+      "length": 400
+    },
+    {
+      "text": "^Bell v. Wolfish, 441 U.S. 520, 548 (1979) (citing Procunier v. Martinez, 416 U.S. 396, 405 (1974)).",
+      "source": "article_tag",
+      "length": 100
+    },
+    {
+      "text": "^See, e.g., Dolovich,supranote 45, at 308–16 (critiquing the Supreme Court’s deference to prison officials in cases involving the constitutional rights of people in prison); Kaufman,supranote 44, at 1383–84 (describing and critiquing how, in the context of criminal incarceration of foreign nationals, “two discrete deference regimes — one from immigration law, the other prison law — combine to give federal prison officials broad latitude to determine how and where noncitizens can be punished,”id.at 1384, and noting that the interaction of plenary and penal power doctrines has been overlooked); Alina Das,Unshackling Habeas Review:ChevronDeference and Statutory Interpretation in Immigration Detention Cases, 90N.Y.U. L. Rev.143, 146–49 (2015) (critiquing the application ofChevrondeference in immigration detention cases as creating “a presumption in favor of detention,”id.at 149); Sharon Dolovich,Forms of Deference in Prison Law, 24Fed. Sent’g Rep.245, 245–46, 249 (2012) (describing and critiquing applications of deference in prison law).",
+      "source": "article_tag",
+      "length": 1049
+    },
+    {
+      "text": "^SeeDas,supranote 48, at 173–74.",
+      "source": "article_tag",
+      "length": 32
+    },
+    {
+      "text": "^See id.at 191–205 (detailing the use of liberty-enhancing norms in detention law and their relationship with deference);cf.Nancy Morawetz,Immigration Law AfterLoper Bright: TheMeaning of 8 U.S.C. § 1103(a)(1), 99N.Y.U. L. Rev. Online282, 283 (2024) (characterizing the Solicitor General’s pursuit of deference in immigration cases as “depriv[ing] immigrants facing deportation . . . the benefit of arguments available to other litigants challenging the government’s interpretation of statutes”).",
+      "source": "article_tag",
+      "length": 496
+    },
+    {
+      "text": "^Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837 (1984),overruled byLoper Bright Enters. v. Raimondo, 144 S. Ct. 2244 (2024).",
+      "source": "article_tag",
+      "length": 143
+    },
+    {
+      "text": "^Id.§ 1103(a)(11)(B);see also infrasection II.A, pp. 1217–24.",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "^See infrasection II.B, pp. 1224–33.",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "^See infrasection II.C, pp. 1233–44.",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "^See infrasection II.C, pp. 1233–44.",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "^See infrapp. 1243–44.",
+      "source": "article_tag",
+      "length": 22
+    },
+    {
+      "text": "^See infrapp. 1210–11.",
+      "source": "article_tag",
+      "length": 22
+    },
+    {
+      "text": "^See infranotes 212–25 and accompanying text.",
+      "source": "article_tag",
+      "length": 45
+    },
+    {
+      "text": "^See, e.g., César Cuauhtémoc García Hernández,Immigration Detention as Punishment, 61UCLA L. Rev.1346, 1372–79 (2014); Juliet P. Stumpf,Civil Detention and Other Oxymorons, 40Queen’s L.J.55, 68–72 (2014).",
+      "source": "article_tag",
+      "length": 204
+    },
+    {
+      "text": "^By “lawlessness,” I refer to the absence of predictable and enforceable standards by which detained immigrants may measure the lawfulness of their substantive conditions of confinement and seek meaningful redress.",
+      "source": "article_tag",
+      "length": 214
+    },
+    {
+      "text": "Copyright © 1887-2025 Harvard Law Review. All Rights Reserved.Accessibility",
+      "source": "content_div",
+      "length": 75
+    },
+    {
+      "text": "WordPress vector logokevinleary.net",
+      "source": "content_div",
+      "length": 35
+    }
+  ],
+  "footnotes": [
+    {
+      "text": "^Press Release, U.S. Immigr. & Customs Enf’t, Guatemalan Man in ICE Custody Passes Away in Georgia (May 25, 2020), https://www.ice.gov/news/releases/guatemalan-man-ice-custody-passes-away-georgia [https://perma.cc/L6XC-7L27]; Jeremy Redmon,ICE Detainee Held in South Georgia Dies from COVID-19,Atlanta J.-Const.(May 25, 2020), https://www.ajc.com/news/breaking-news/ice-detainee-held-south-georgia-dies-from-covid/Irdtr5BSTV7SpZP7Z3BNOL [https://perma.cc/3YC9-N2QJ].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 486
+    },
+    {
+      "text": "^SeeRedmon,supranote 1.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^See, e.g.,Project S. & Penn State L., Ctr. for Immigrants’ Rts. Clinic, Imprisoned Justice: Inside Two Georgia Immigrant Detention Centers31, 35, 37 (2017), https://projectsouth.org/wp-content/uploads/2017/06/Imprisoned_Justice_Report-1.pdf [https://perma.cc/E74B-CM99];Eunice Hyunhye Cho & Paromita Shah, S. Poverty L. Ctr. et al., Shadow Prisons: Immigrant Detention in the South40–41 (2016), https://www.splcenter.org/sites/default/files/ijp_shadow_prisons_immigrant_detention_report.pdf [https://perma.cc/VR9G-K3PN].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 541
+    },
+    {
+      "text": "^SeePetition for Writ of Habeas Corpus Pursuant to 28 U.S.C. § 2241 and Complaint for Declaratory and Injunctive Relief at 16, 24, 44, A.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341 (M.D. Ga. 2020) (No. 20-CV-62).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 250
+    },
+    {
+      "text": "^467 F. Supp. 3d 1341 (M.D. Ga. 2020).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 58
+    },
+    {
+      "text": "^Id.at 1344 (denying motion for preliminary injunction).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 76
+    },
+    {
+      "text": "^Id.at 1353–57.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": "^SeeJeremy Redmon,Fourth ICE Detainee Dies from COVID-19 in Southwest Georgia,Atlanta J.-Const.(Jan. 31, 2021), https://www.ajc.com/news/fourth-ice-detainee-dies-from-covid-19-in-southwest-georgia/TNPDEQCTD5AJNEJG3AB5UODNGQ [https://perma.cc/W9M5-LXD7].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 273
+    },
+    {
+      "text": "^SeeImmigration Detention101,Det.WatchNetwork, https://www.detentionwatchnetwork.org/issues/detention-101 [https://perma.cc/6H2U-9VJL].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 155
+    },
+    {
+      "text": "^In this Article, I use the term “immigrant” to refer to any person within the United States who lacks U.S. citizenship status.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 147
+    },
+    {
+      "text": "^SeeHillel R. Smith, Cong. Rsch. Serv., IF11343, The Law of Immigration Detention: A Brief Introduction1 (2022).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 132
+    },
+    {
+      "text": "^The Supreme Court has upheld the constitutionality of mandatory detention as applied to individuals who have conceded removability and has rejected lower court decisions construing federal detention law narrowly, as a matter of statutory interpretation, to avoid prolonged detention.See, e.g., Demore v. Kim, 538 U.S. 510, 513, 530–31 (2003) (holding that mandatory detention under 8 U.S.C. § 1226(c) is constitutional for the brief period of time necessary to conclude removal proceedings for an individual who conceded removability); Jennings v. Rodriguez, 138 S. Ct. 830, 842–44, 852 (2018) (rejecting the application of the constitutional avoidance canon to the mandatory detention provisions of 8 U.S.C. §§ 1226(c) and 1225(b) and thus reversing a lower court decision ordering bond hearings within six months of detention); Nielsen v. Preap, 139 S. Ct. 954, 971 (2019) (interpreting the “when . . . released” clause in 8 U.S.C. § 1226(c) to permit mandatory detention any time after release from prior custody); Johnson v. Arteaga-Martinez, 142 S. Ct. 1827, 1833 (2022) (rejecting the application of the constitutional avoidance canon to the detention provision of 8 U.S.C. § 1231(a)(6)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1215
+    },
+    {
+      "text": "^SeeDetention by the Numbers,Freedom for Immigrants, https://www.freedomforimmigrants.org/detention-statistics [https://perma.cc/FC6R-UKJD];Nat’l Immigrant Just. Ctr., Locked Away: The Urgent Need for Immigration Detention Bond Reform4 (2023), https://immigrantjustice.org/sites/default/files/content-type/research-item/documents/2023-06/NIJC-Policy-Brief_ICE-Bond-Reform_May-2023.pdf [https://perma.cc/CV6M-FB95].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 434
+    },
+    {
+      "text": "^Seesources citedinfranote 69.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": "^DeShaney v. Winnebago Cnty. Dep’t of Soc. Servs., 489 U.S. 189, 200 (1989) (citing Estelle v. Gamble, 429 U.S. 97, 103–04 (1976); Youngberg v. Romeo, 457 U.S. 307, 315–16 (1982)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 200
+    },
+    {
+      "text": "^Gamble, 429 U.S. at 104.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 45
+    },
+    {
+      "text": "^SeeWong Wing v. United States, 163 U.S. 228, 235 (1896);see alsoZadvydas v. Davis, 533 U.S. 678, 690 (2001).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 129
+    },
+    {
+      "text": "^Bell v. Wolfish, 441 U.S. 520, 538 (1979) (quoting Kennedy v. Mendoza-Martinez, 372 U.S. 144, 168–69 (1963)) (citing Flemming v. Nestor, 363 U.S. 603, 617 (1960)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 184
+    },
+    {
+      "text": "^Immigration and Nationality Act of 1952, Pub. L. No. 82-414, 66 Stat. 163 (codified as amended in scattered sections of 8 U.S.C.).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 151
+    },
+    {
+      "text": "^8 U.S.C. § 1231(g)(1).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^Id.§ 1103(a)(11)(B);see also infrasection II.A, pp. 1217–24.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 81
+    },
+    {
+      "text": "^SeeSteven Neeley, Comment,Immigration Detention: The Inaction of the Bureau of Immigration and Customs Enforcement, 60Admin. L. Rev.729, 730–32 (2008).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 172
+    },
+    {
+      "text": "^Seeinfra notes 379–82and accompanying text.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 64
+    },
+    {
+      "text": "^SeeICE Detention Standards,U.S. Immigr. & Customs Enf’t(Aug. 8, 2023), https://www.ice.gov/factsheets/ice-detention-standards [https://perma.cc/XFZ9-TZA8];see also infranotes 191–93 and accompanying text.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 225
+    },
+    {
+      "text": "^Seeinfrasection II.C, pp. 1233–44.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 55
+    },
+    {
+      "text": "^Throughout this Article, I focus primarily on the law and history of adult immigration detention. I do not incorporate the unique context of modern-era family and juvenile detention, in part because of the different interests involved when children are detained.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 283
+    },
+    {
+      "text": "^See, e.g., Brandon L. Garrett & Lee Kovarsky,Viral Injustice, 110Calif. L. Rev.117, 151–54 (2022) (describing the relative success of COVID-19 claims for people in immigration detention when compared to other incarcerated individuals).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 256
+    },
+    {
+      "text": "^SeeinfraPart I, pp. 1196–216; A.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341, 1353–54 (M.D. Ga. 2020).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 140
+    },
+    {
+      "text": "^972 F.3d 310 (3d Cir. 2020).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": "^See id.at 317, 326, 330–31. For further discussion, seeinfrapp. 1202–04.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 93
+    },
+    {
+      "text": "^16 F.4th 613 (9th Cir. 2021).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": "^See id.at 618. Notably, the Ninth Circuit has declined to overturn district court relief addressing poor conditions of immigration confinement in the COVID-19 context.See, e.g., Zepeda Rivas v. Jennings, 845 F. App’x 530, 535 (9th Cir. 2021); Roman v. Wolf, 977 F.3d 935, 939 (9th Cir. 2020).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 313
+    },
+    {
+      "text": "^Fraihat, 16 F.4th at 638 (citing Bell v. Wolfish, 441 U.S. 520, 548 (1979);Roman, 977 F.3d at 947 (Miller, J., concurring in part and concurring in the judgment)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 184
+    },
+    {
+      "text": "^See id.at 647–48 (citing, inter alia,Wolfish, 441 U.S. at 539).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 84
+    },
+    {
+      "text": "^Id.at 638.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^SeeA.S.M. v. Warden, Stewart Cnty. Det. Ctr., 467 F. Supp. 3d 1341, 1354 (M.D. Ga. 2020).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 110
+    },
+    {
+      "text": "^347 U.S. 260 (1954).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^See A.S.M., 467 F. Supp. 3d at 1351–53 (citingAccardi, 347 U.S. at 264–68).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 96
+    },
+    {
+      "text": "^See id.at 1353–54.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": "^Id.at 1354.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^E.g., Hiroshi Motomura,Immigration Law After a Century of Plenary Power: Phantom Constitutional Norms and Statutory Interpretation, 100Yale L.J.545, 547 (1990).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 181
+    },
+    {
+      "text": "^Fong Yue Ting v. United States, 149 U.S. 698, 731 (1893).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 78
+    },
+    {
+      "text": "^See, e.g.,Kisor v. Wilkie, 139 S. Ct. 2400, 2408 (2019) (citing Auer v. Robbins, 519 U.S. 452, 461 (1997); Bowles v. Seminole Rock & Sand Co., 325 U.S. 410 (1945));Auer, 519 U.S. at 461. Federal courts long deferred to agency interpretations of ambiguous statutes as well, but the Supreme Court recently overturned that doctrine.SeeLoper Bright Enters. v. Raimondo, 144 S. Ct. 2244, 2273 (2024) (overturning Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837 (1984)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 503
+    },
+    {
+      "text": "^Emma Kaufman,Segregation by Citizenship, 132Harv. L. Rev.1379, 1383 (2019) (using the term “penal power doctrine” to describe how “in cases involving prisons, courts routinely defer to penal policies that restrict prisoners’ rights, including the right to equal protection, on the ground that prisons are difficult institutions to run”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 358
+    },
+    {
+      "text": "^Sharon Dolovich,The Coherence of Prison Law, 135Harv. L. Rev. F.301, 303 (2022) (emphasis omitted) (using the term “canons of evasion” to describe the Supreme Court’s use of “a set of maneuvers . . . to construct doctrinal standards for prison law cases that strongly incline courts to rule in favor of the state”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 336
+    },
+    {
+      "text": "^Id.at 304 (emphasis omitted) (using the term “dispositional favoritism” to describe a “moral psychology . . . which orients courts to regard prison officials’ arguments favorably while viewing prisoners’ claims with skepticism and even hostility,” which results in decisions that “wind up favoring defendants in any number of ways hard to square with either the record or the relevant legal rules”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 420
+    },
+    {
+      "text": "^Bell v. Wolfish, 441 U.S. 520, 548 (1979) (citing Procunier v. Martinez, 416 U.S. 396, 405 (1974)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 120
+    },
+    {
+      "text": "^See, e.g., Dolovich,supranote 45, at 308–16 (critiquing the Supreme Court’s deference to prison officials in cases involving the constitutional rights of people in prison); Kaufman,supranote 44, at 1383–84 (describing and critiquing how, in the context of criminal incarceration of foreign nationals, “two discrete deference regimes — one from immigration law, the other prison law — combine to give federal prison officials broad latitude to determine how and where noncitizens can be punished,”id.at 1384, and noting that the interaction of plenary and penal power doctrines has been overlooked); Alina Das,Unshackling Habeas Review:ChevronDeference and Statutory Interpretation in Immigration Detention Cases, 90N.Y.U. L. Rev.143, 146–49 (2015) (critiquing the application ofChevrondeference in immigration detention cases as creating “a presumption in favor of detention,”id.at 149); Sharon Dolovich,Forms of Deference in Prison Law, 24Fed. Sent’g Rep.245, 245–46, 249 (2012) (describing and critiquing applications of deference in prison law).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1069
+    },
+    {
+      "text": "^SeeDas,supranote 48, at 173–74.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 52
+    },
+    {
+      "text": "^See id.at 148–49, 190.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^See id.at 191–205 (detailing the use of liberty-enhancing norms in detention law and their relationship with deference);cf.Nancy Morawetz,Immigration Law AfterLoper Bright: TheMeaning of 8 U.S.C. § 1103(a)(1), 99N.Y.U. L. Rev. Online282, 283 (2024) (characterizing the Solicitor General’s pursuit of deference in immigration cases as “depriv[ing] immigrants facing deportation . . . the benefit of arguments available to other litigants challenging the government’s interpretation of statutes”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 516
+    },
+    {
+      "text": "^Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837 (1984),overruled byLoper Bright Enters. v. Raimondo, 144 S. Ct. 2244 (2024).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 163
+    },
+    {
+      "text": "^See infrasection II.B, pp. 1224–33.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 56
+    },
+    {
+      "text": "^See infrasection II.C, pp. 1233–44.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 56
+    },
+    {
+      "text": "^See infrapp. 1243–44.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": "^Id.§ 1103(a)(11)(B).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^See infrapp. 1210–11.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": "^See infranotes 212–25 and accompanying text.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 65
+    },
+    {
+      "text": "^See, e.g., César Cuauhtémoc García Hernández,Immigration Detention as Punishment, 61UCLA L. Rev.1346, 1372–79 (2014); Juliet P. Stumpf,Civil Detention and Other Oxymorons, 40Queen’s L.J.55, 68–72 (2014).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 224
+    },
+    {
+      "text": "^By “lawlessness,” I refer to the absence of predictable and enforceable standards by which detained immigrants may measure the lawfulness of their substantive conditions of confinement and seek meaningful redress.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 234
+    }
+  ],
+  "headers": [
+    {
+      "text": "The Law and Lawlessness of U.S. Immigration Detention",
+      "source": "h1",
+      "length": 53
+    },
+    {
+      "text": "Abstract",
+      "source": "h2",
+      "length": 8
+    },
+    {
+      "text": "Introduction",
+      "source": "h2",
+      "length": 12
+    },
+    {
+      "text": "More from this Issue",
+      "source": "h2",
+      "length": 20
+    },
+    {
+      "text": "Waste, Property, and Useless Things",
+      "source": "h3",
+      "length": 35
+    },
+    {
+      "text": "Who’s Afraid of Bankruptcy",
+      "source": "h3",
+      "length": 26
+    },
+    {
+      "text": "Does the Twenty-First Amendment DisplacePikeBalancing?",
+      "source": "h3",
+      "length": 54
+    },
+    {
+      "text": "Archives",
+      "source": "h3",
+      "length": 8
+    },
+    {
+      "text": "Fellowship",
+      "source": "h3",
+      "length": 10
+    },
+    {
+      "text": "About",
+      "source": "h3",
+      "length": 5
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 73,
+    "total_footnotes": 60,
+    "total_headers": 10,
+    "total_other": 0
+  }
+}

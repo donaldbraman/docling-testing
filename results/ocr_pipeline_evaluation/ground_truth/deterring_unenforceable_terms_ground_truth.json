@@ -1,0 +1,74 @@
+{
+  "file": "deterring_unenforceable_terms.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [],
+  "footnotes": [],
+  "headers": [
+    {
+      "text": "DETERRING UNENFORCEABLE TERMS",
+      "source": "h1",
+      "length": 29
+    },
+    {
+      "text": "Profile",
+      "source": "h2",
+      "length": 7
+    },
+    {
+      "text": "Document",
+      "source": "h2",
+      "length": 8
+    },
+    {
+      "text": "Citing ReferencesNavigate Citing References",
+      "source": "h2",
+      "length": 43
+    },
+    {
+      "text": "Table of Authorities",
+      "source": "h2",
+      "length": 20
+    },
+    {
+      "text": "DETERRING UNENFORCEABLE TERMS",
+      "source": "h2",
+      "length": 29
+    },
+    {
+      "text": "Footnotes",
+      "source": "h2",
+      "length": 9
+    },
+    {
+      "text": "Donald Braman",
+      "source": "h3",
+      "length": 13
+    }
+  ],
+  "other_elements": [
+    {
+      "text": "Contract law doesn't work the way most people--that is, most nonlawyers-- think it works. People think that if they agree to a contract, they are bound by its terms--no matter if those terms are unfair or legally unenforceable. But that's not correct. Although there is a default presumption that the law will enforce terms that parties agree to, courts can and do decline to enforce terms when they are contrary to statute, regulation, or common law.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 451
+    },
+    {
+      "text": "This is a bad arrangement. Because people do not understand how enforceability works, contract drafters can include unenforceable terms and benefit from them even when they are contrary to law. Clearly unenforceable terms are used in a wide range of cases, and those terms impose costs on consumers and employees despite being formally toothless.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 346
+    },
+    {
+      "text": "This Article argues for a change. The problems of unenforceable terms arise from the burden of determining whether a contractual provision is enforceable. The current law makes little effort to allocate or mitigate that burden. But in a common scenario--where a sophisticated actor*944drafts mass contracts for many unsophisticated counterparties--the drafter is much better positioned to determine the contract's enforceability. The law should therefore penalize such drafters for including clearly unenforceable terms in their contracts. This Article describes the basic normative case for such a penalty, considers how it might best be designed, and assesses the opportunities and limitations in existing law for applying a penalty to deter the use of unenforceable terms in mass contracts.",
+      "type": "blockquote",
+      "source": "blockquote_tag",
+      "length": 793
+    }
+  ],
+  "metadata": {
+    "total_body_paragraphs": 0,
+    "total_footnotes": 0,
+    "total_headers": 8,
+    "total_other": 3
+  }
+}

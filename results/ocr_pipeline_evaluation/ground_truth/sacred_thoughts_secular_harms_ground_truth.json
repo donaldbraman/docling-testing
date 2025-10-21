@@ -1,0 +1,989 @@
+{
+  "file": "sacred_thoughts_secular_harms.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Freedom of thought has long been revered as a fundamental right, yet its doctrinal contours have remained underdeveloped. Two recent Supreme Court decisions—National Institute of Family and Life Advocates v. Becerra (NIFLA)and303 Creative LLC v. Elenis—suggest a nascent but expansive free thought jurisprudence, one that increasingly shields religious actors not just from government interference in belief but also compliance with generally applicable laws.",
+      "source": "article_tag",
+      "length": 459
+    },
+    {
+      "text": "For decades, the Supreme Court had maintained several guardrails to cabin religious practice without unduly infringing on religious thought. These guardrails—evaluating the government’s purpose behind a law, considering whether a religious exemption would cause third-party harm, and questioning the sincerity of a religious plaintiff—have ensured that religiously motivated conduct does not override neutral laws.NIFLAand303 Creative, though, weaken these constraints and offer plaintiffs a roadmap to use free thought to challenge a wide range of laws, including antidiscrimination protections, workplace regulations, and public health measures.",
+      "source": "article_tag",
+      "length": 647
+    },
+    {
+      "text": "This Piece examines the erosion of these guardrails and argues that, without intervention, religious free thought could become an unchecked tool for breaking the law. It concludes by proposing doctrinal recalibrations to preserve freedom of thought without allowing it to imperil the rights and dignity of others.",
+      "source": "article_tag",
+      "length": 313
+    },
+    {
+      "text": "The full text of this Piece can be found by clicking the PDF link to the left.",
+      "source": "article_tag",
+      "length": 78
+    },
+    {
+      "text": "* Assistant Professor of Law and Director of Supreme Court Litigation Clinic, University of Virginia School of Law. My thanks always to Lauren Kaufmann for her support and encouragement, to Katie Eyer and Micah Schwartzman for helpful comments, and to Mackenzie Kubik and Caroline Morris for helpful research assistance. I am grateful to the editors ofColumbia Law Review, especially T. Aubrey Vial and T.J. Braxton, for their comments and feedback.",
+      "source": "article_tag",
+      "length": 449
+    },
+    {
+      "text": "Freedom of thought is finally having its moment. Though long venerated by scholars and judges,it was for many years the rare legal right searching for a legal wrong to redress.True, free thought might have held “a central place among our constitutional liberties.”But many struggled to explain what it was supposed to protect that would not otherwise be covered by free speech, free exercise, or another fundamental right.Today, though, the ever-increasing encroachment of technology has turned freedom of thought into the go-to answer for any number of modern ills, from social media manipulation,to data harvesting,to substance abuse.Even so, attendees of the free thought renaissance fair often skip over an important point: The Supreme Court has, over the last several years, in fact laid out what a more robust free thought doctrine might look like in practice. And that vision should give pause even to free thought’s most ardent champions.",
+      "source": "article_tag",
+      "length": 946
+    },
+    {
+      "text": "The Court has referred to the freedom of thought by name twice in the past decade. The first time was seven years ago inNational Institute of Family and Life Advocates v. Becerra(NIFLA).There, several crisis pregnancy centerschallenged a California law requiring them to post notices about the availability of “low-cost access to comprehensive family planning services (including all FDA-approved methods of contraception), prenatal care, and abortion.”According to a study the legislature commissioned to aid it in drafting the legislation, most crisis pregnancy centers were “pro-life” organizations whose “aim [was] to discourage and prevent women from seeking abortions.”The notice requirement sought to ensure that pregnant women were aware of all available reproductive services, not just the limited range offered by the centers.",
+      "source": "article_tag",
+      "length": 836
+    },
+    {
+      "text": "The centers saw the issue differently. They objected to “provid[ing] a government-drafted script about the availability of state-sponsored services,” including “abortion—the very practice” they were “devoted to opposing.”The Court agreed, and held that the notice likely constituted an impermissible regulation of speech.Justice Anthony Kennedy, in a concurrence joined by Justices Clarence Thomas and Neil Gorsuch, went a step further and invoked freedom of thought as a basis behind his decision: “Governments,” Justice Kennedy wrote, “must not be allowed to force persons to express a message contrary to their deepest convictions.”That is because the “[f]reedom of speech secures freedom of thought and belief,” and California’s “law imperils those liberties.”",
+      "source": "article_tag",
+      "length": 764
+    },
+    {
+      "text": "The next (and, at the time of this writing, most recent) occasion in which the Court discussed freedom of thought was303 Creative LLCv. Elenis.In that case, plaintiff Lorie Smith refused to design wedding webpages for same-sex couples because doing so purportedly offended “[h]er belief that marriage is a union between one man and one woman.”The Court sided with Smith, holding a Colorado antidiscrimination law unconstitutional as applied to her.In so doing, the Court’s majority opinion, written by Justice Gorsuch, returned to and expounded upon the themes Justice Kennedy articulated inNIFLA. Justice Gorsuch emphasized that the “framers designed the Free Speech Clause of the First Amendment to protect the ‘freedom to think as you will and to speak as you think.’”“[T]he freedom to think and speak,” he stressed, “is among our inalienable human rights,”and “the opportunity to think for ourselves and to express those thoughts freely is among our most cherished liberties and part of what keeps our Republic strong.”Colorado “seeks to deny that promise” to its citizens by forcing them to speak in a manner that contravenes their religious beliefs.",
+      "source": "article_tag",
+      "length": 1155
+    },
+    {
+      "text": "NIFLAand303 Creativeboth involved the intersection of free thought and religious exercise. That fact alone is not particularly surprising, as thought and religion have long been intertwined.What is remarkable, though, ishowthe Court connected these two concepts.",
+      "source": "article_tag",
+      "length": 262
+    },
+    {
+      "text": "To see why, consider the types of laws at issue in these cases. Governments can, and often do, require businesses to display notices, just like the notices inNIFLA—consider the warnings one sees on cigarette packsand pesticide bottles,or the signs one might see in a grocery store or doctor’s office.Governments can, and also often do, seek to protect their citizens from discrimination, just like Colorado tried to do with its antidiscrimination law.Many object to both sorts of laws. No one thinks Philip Morris wants to tell its customers that smoking kills on each pack of Marlboros that they buy. And our shared history unfortunately makes clear that many businesses would freely discriminate based on race, sex, or sexual orientation if the law did not make it illegal for them to do so.But the law does make it illegal, and it usually doesn’t give out a pass to those who do not want to comply.",
+      "source": "article_tag",
+      "length": 901
+    },
+    {
+      "text": "InNIFLAand303 Creative, however, the Court broke from that general rule and explicitly invoked freedom of thought as a basis for doing so. Although the Court claimedit was only protecting religious thought, the practical effect of its holding was to insulate religious action, even when such action contravenes other important legal obligations.",
+      "source": "article_tag",
+      "length": 345
+    },
+    {
+      "text": "Nor areNIFLAand303 Creativeone-off decisions. To the contrary, they should be conceived as part of a broader set of recent cases that have tested the boundaries of what a robust religious free thought doctrine could potentially encompass. Other examples, currently being litigated in the lower courts, abound. “Religious” hospitals, for instance, have started denying reproductive health services and treatments.“Religious” employers have denied fertility treatments to lesbian and gay couples.“Religious” employees have compelled companies and governments to suspend critical vaccination campaigns.“Religious” teachers have refused to use students’ preferred pronouns and have won six-figure settlements when school districts try to take disciplinary action against them.And in just the past few years, “more than 120 religious schools obtained exemptions from Title IX that allow them to discriminate against LGBTQ students in areas such as admissions, housing, access to classes, financial aid, [and] counseling.”",
+      "source": "article_tag",
+      "length": 1016
+    },
+    {
+      "text": "The Court has not always conceived of the relationship between free exercise and free thought the way that it did inNIFLAand303 Creative.",
+      "source": "article_tag",
+      "length": 137
+    },
+    {
+      "text": "InReynolds v. United States, it upheld a statute criminalizing polygamy and rejected a challenge from a group whose faith mandated the practice.“Laws,” it declared, “are made for the government of actions, and while they cannot interfere with mere religious belief and opinions, they may with practices.”Where a statute “is constitutional and valid as prescribing a rule of action for all,” an individual cannot “excuse his practices to the contrary because of his religious belief.”“To permit this would be to make the professed doctrines of religious belief superior to the law of the land, and in effect to permit every citizen to become a law unto himself.”Reynoldsthusunderscored that, though thought and belief are sacrosanct, regulating specific practices must remain a fundamental function of governance. And post-Reynolds, the Court developed three important tools to cabin religious practices without unduly infringing on religious thought.",
+      "source": "article_tag",
+      "length": 950
+    },
+    {
+      "text": "First, the Court has considered the government purpose behind a law. InEmployment Division v. Smith, for instance, the Court upheld an Oregon law banning peyote, even though the law incidentally burdened the religious practices of Native American plaintiffs.As the Court inSmithexplained, “The free exercise of religion” includes both “the right to believe and profess whatever religious doctrine one desires” and “the performance of (or abstention from) physical acts.”“[T]he First Amendment obviously excludes all ‘governmental regulation of religious beliefs . . . .’”And it bars governmental actors from passing laws with the purpose of burdening religion.But echoingReynolds, theSmithCourtunderscored that neither the Constitution nor any other law gives plaintiffs a right to challenge “a generally applicable and otherwise valid provision” just because that provision might have an “incidental effect” on a religious practice.To emphasize the point, Justice Antonin Scalia, writing for the majority, explained that “[w]e have never held that an individual’s religious beliefs excuse him from compliance with an otherwise valid law prohibiting conduct that the State is free to regulate.”",
+      "source": "article_tag",
+      "length": 1194
+    },
+    {
+      "text": "Second, the Court has looked to whether a religious carve-out would cause third-party harm. InUnited States v. Lee, it rejected an Amish employer’s challenge to paying social security taxes.As Justice John Paul Stevens observed in his concurring opinion, Congress had already “granted the Amish a limited exemption from social security taxes” by allowing self-employed Amish people the choice of opting out if they could prove a sincere religious objection.He added, “[I]t would [have] be[en] a relatively simple matter to extend the exemption” by excluding both self-employed Amish (which the statute already exempted) and Amish employers (which would have required the Court to recognize an additional exemption) from having to pay social security taxes.Doing so might have even “benefit[ted] the social security system because the nonpayment of these taxes by the Amish would be more than offset by the elimination of their right to collect benefits.”But the Court declined to create a judicial carve-out on top of the statutory carve-out that Congress had already provided. Were it to open that door, “it would be difficult to accommodate [a] comprehensive social security system with myriad exceptions flowing from a wide variety of religious beliefs”—a clear nod to the harm that other, non-religious parties would suffer.",
+      "source": "article_tag",
+      "length": 1328
+    },
+    {
+      "text": "In addition to the sorts of financial harms inLee, the Court has also refused to allow groups to impose dignitary harms on others in the name of religion. When, inNewman v. Piggie Park Enterprises, several restaurants refused to serve Black customers, claiming that the Civil Rights Act “was invalid because it ‘contravene[d] the will of God’ and constitute[d] an interference with the ‘free exercise of [their] religion,’” the Court dismissed the defense as “patently frivolous.”And when, inBob Jones University v. United States, racially discriminatory schools challenged the government’s decision to revoke their tax-exempt status on the grounds that their religion required them to discriminate on the basis of race, the Court repudiated that effort, too.",
+      "source": "article_tag",
+      "length": 759
+    },
+    {
+      "text": "Third, the Court has looked to the plaintiffs’ sincerity to ensure that any special treatment for religion is afforded only to the true believer, rather than the make-believer. During the 1950s and ’60s, judges carefully examined whether a plaintiff’s religious convictions were genuine and required respecting not only religious thought but also religious action.To undertake that analysis, courts often asked plaintiffs to produce significant and voluminous evidence showing internal consistency of belief and practice.",
+      "source": "article_tag",
+      "length": 521
+    },
+    {
+      "text": "Together, these three tools—purpose, harm, and sincerity—prevented unimpaired religious belief from spilling over into unfettered religious practice. But they have each fallen into disrepair.",
+      "source": "article_tag",
+      "length": 191
+    },
+    {
+      "text": "Start with purpose. Despite a seemingly unending supply of literature criticizingSmith,the Court has declined to overrule the case.As a formal legal matter, generally applicable laws today remain insulated from legal challenge, while those targeting religion do not.What the Courthasdone, though, is redraw the lines of engagement so that only a vanishingly small number of laws are now considered generally applicable, and laws that have nothing to do with religion are categorized as targeting religious belief or practice.",
+      "source": "article_tag",
+      "length": 525
+    },
+    {
+      "text": "InFulton v. City of Philadelphia, for example, Catholic Social Services (CSS) refused to comply with Philadelphia’s foster care contract, which required prospective foster care–placement organizations to certify that they would not discriminate based on protected characteristics.CSS objected, citing its belief that marriage was meant to be between a man and a woman.Like the peyote ban inSmith, there is little evidence that the city intended, through its antidiscrimination provision, to single out or target religion. But the Court nonetheless ruled in CSS’s favor because a separate provision in the foster care contract contemplated an “exception” from this antidiscrimination requirement, to be granted at the “sole discretion” of the City Commissioner.This provision, the Court opined, meant that the city’s policy was not actually generally applicable, since the contract “invite[d]” the government to consider the particular reasons for a person’s conduct and “decide which reasons for not complying with the policy are worthy of solicitude.”",
+      "source": "article_tag",
+      "length": 1052
+    },
+    {
+      "text": "Such a rule might at first glance seem innocuous. That is especially so because, were one only to read theFultonmajority opinion, one might easily have gotten the impression that the city was offering exemptions left and right to secular organizations, while declining them to religious ones. But that was not the case. The city, to be sure, had “no intention of handing” an exception to CSS.Yet it had also “nevergranted such an exemption” to anyone—religious or secular.No matter. What counted for the Court was that an exemption wastheoreticallypossible.",
+      "source": "article_tag",
+      "length": 557
+    },
+    {
+      "text": "That feature, however, characterizes most laws. The pardon power, for example, creates an implicit exception to every criminal law.Executive discretion recognizes a similar exception to federal immigration law.And many environmental laws explicitly contemplate the granting of individualized waivers or exemptions.",
+      "source": "article_tag",
+      "length": 314
+    },
+    {
+      "text": "To grasp the mess thatFultonmade, consider that a secular plaintiff would obviously not receive heightened review if they were to challenge any of the above laws.But if someone commits a crime and claims they did so for religious reasons, the government must prove—at least ifFultonis to be taken seriously—not only that it “has a compelling interest in enforcing” the law generally but also “an interest in denying an exception” to a particular plaintiff.The same would hold true if an individual or organization claimed a religious right to pollute. These sorts of scenarios go beyond merely modifyingSmith’s framework. They gut it.",
+      "source": "article_tag",
+      "length": 634
+    },
+    {
+      "text": "Third-party harm follows a similar path, with the Court’s approach to the contraceptive mandate offering a particularly instructive example. That mandate, a part of the Affordable Care Act, was meant to “serve[] the Government’s compelling interest in providing insurance coverage . . . necessary to protect the health of female employees.”As initially drafted, compliance was mandatory for nearly everyone, with a very narrow exception for churches that might object to the mandate on religious grounds.Almost immediately after that exemption went into effect, though, many other organizations complained, arguing that the exemption “furnished insufficient protection for” their religious exercise (even if they were not, as a formal matter, in the religion business).",
+      "source": "article_tag",
+      "length": 769
+    },
+    {
+      "text": "These issues came to a head inBurwell v. Hobby Lobby Stores, Inc., when a for-profit crafts company challenged the government’s decision to limit its religious exemption to churches and their auxiliaries.Hobby Lobby did not argue that it was a church, a church-related organization, or even that its employees were all members of the same church or had the same views on contraception.It instead insisted that, as a closely held corporation, its sincere beliefs should override the government’s judgment regarding the availability and provisioning of reproductive health services.The Court agreed.And by ruling in Hobby Lobby’s favor, the Court effectively required the government to extend an exemption to the contraceptive mandate to virtually any employer—religious or secular, for-profit or nonprofit.",
+      "source": "article_tag",
+      "length": 805
+    },
+    {
+      "text": "In reaching that conclusion, the Court both under- and over-readUnited States v. Lee, the Amish taxpayer exemption case. It under-readLeebecause, according toHobby Lobby, courts should “scrutiniz[e] the asserted harm of granting specific exemptions to particular religious claimants” when evaluating third-party harm.But that is not howLeethought about harm. If it was, there would have been no issue inLeewith granting a tax exemption to the single objecting plaintiff that brought the case, since doing so would have been a “relatively simple” administrative matter and maybe, as Justice Stevens pointed out, even good fiscal policy.Instead,Leeconsidered the harm that would result ifothersbegan seeking and obtaining a free pass from paying Social Security taxes.That scenario, of one exemption leading to many, stands in stark contrast to the constrained assessment of the marginal benefits and costs of granting a one-off exemption inHobby Lobby.",
+      "source": "article_tag",
+      "length": 951
+    },
+    {
+      "text": "Hobby Lobbyalso over-readLeebecause it characterized the case as a challenge to the entire tax system.Such a characterization had the benefit of making theHobby Lobbyplaintiffs seem more reasonable, since they were only seeking to excuse themselves from one part of the “ACA’s comprehensive scheme.”But that characterization was incorrect.Leedid not involve a wholesale attack on the tax system. The plaintiff objected only to paying social security taxes, not all state or federal taxes.It was the Court which inferred that a successful challenge for one employer on one form of taxation would inevitably lead to challenges by other employers to other forms of taxation.Hobby Lobbydeclined to undertake such an analysis; the Court insisted on looking at the facts of the singular plaintiff, rather than considering whether its ruling would lead to a dramatic rise in exemption requests.",
+      "source": "article_tag",
+      "length": 887
+    },
+    {
+      "text": "The practical effect ofHobby Lobby’s under- and over-reading ofLeeis to minimize consideration of third-party harm in law and religion cases. Indeed, afterHobby Lobby, accommodation requests skyrocketed, which ultimately prompted the government to make the original, narrowly drawn church exemption available toall“non-governmental employers” that might object either on “religious” oreven just “moral” grounds.This rule—upheld against a legal challenge inLittle Sisters of the Poor Saints Peter & Paul Home v. Pennsylvania—all but strikes the contraceptive mandate from the books. After all, if an entity can evade a mandate by simply saying it has “moral” qualms with it, the mandate isn’t a mandate at all.",
+      "source": "article_tag",
+      "length": 709
+    },
+    {
+      "text": "Sincerity, too, has turned into an empty requirement.The Court has gone from requiring plaintiffs to show significant evidence of their religious beliefs and practices to now holding that “religious beliefs need not be acceptable, logical, consistent, or comprehensible” to be considered sincere.That doctrinal shift is borne out in the data. In the past three decades, federal appellate courts and the Supreme Court have considered sincerity in about 350 cases brought under the Religious Freedom Restoration Act (RFRA) and the Religious Land Use and Institutionalized Persons Act (RLUIPA), the two statutes under which most religious plaintiffs seek relief.The religious plaintiff was found to be sincere in ninety-three percent of cases.Indeed, in four circuits (the First, Second, Fourth, and Eighth), “no RFRA or RLUIPA plaintiff has ever been found to be insincere.”The percentages in the Supreme Court are even more lopsided. The Court hasnever, in any RFRA or RLUIPA case, ruled that a plaintiff was insincere.",
+      "source": "article_tag",
+      "length": 1018
+    },
+    {
+      "text": "Carter v. Transport Workers Union of America, Local 556offers a vivid example of these shortcomings in practice. That case is best known for the district court’s decision to require, as a sanction, that Southwest Airlines’s counsel undergo religious-liberty training conducted by the Alliance Defending Freedom.But this headline ruling obscures a more important second point.",
+      "source": "article_tag",
+      "length": 375
+    },
+    {
+      "text": "At issue in the case was Southwest Airlines’s decision to fire Charlene Carter, one of its flight attendants, “for publicly posting and privately messaging” other Southwest employees “images of aborted fetuses.”Carter also sent harassing texts and emails to Southwest’s union president, calling her (among other things) “[d]espicable,” “a SHEEP in Wolves Clothing,” and a supporter of “[m]urder” for attending the 2017 Women’s March.Southwest cited harassment and violation of other company policies as grounds for letting Carter go. Carter subsequently sued for wrongful termination.Her initial complaint did not say that her speech was motivated by a sincere religious belief.In fact, it did not even mention religion. Only a year later, right before Southwest filed its motion to dismiss and after Carter retained new counsel, did Carter begin claiming that Southwest had infringed on her religious beliefs by disciplining her.",
+      "source": "article_tag",
+      "length": 930
+    },
+    {
+      "text": "Based on these circumstances, Southwest had several credible bases to call Carter’s sincerity into question. After all, for nearly a year, none of Carter’s legal filings mentioned religion. Nor did she refer to religion in many of the messages she sent to her coworkers that led to her filing. Southwest had little if any notice that it could have been engaging in impermissible religious discrimination rather than merely firing an employee for violating company policy. Were sincerity a genuine limit on free exercise, Southwest should have pressed all of these arguments. It pressed none of them.",
+      "source": "article_tag",
+      "length": 599
+    },
+    {
+      "text": "The unraveling of these guardrails—purpose, harm, and sincerity—helped pave the way forNIFLAand303 Creative.Had purpose been an actual check on religious exercise, neitherNIFLAnor303 Creativeshould have gotten off the ground in the first place, since the laws at issue had nothing to do with religion: California wanted to promote public health; Colorado wanted to root out invidious discrimination. Had the Court thought of harm the way it did inLee,Piggie Park, orBob Jones University, theNIFLAand303 Creativeplaintiffs also would not have had much of a case. And had anyone bothered to examine sincerity, one should have at the very least questioned why303 Creativeplaintiff Lorie Smith felt the need to sue even though no same sex couple had ever asked her to design a wedding pageand no enforcement actions had ever been filed against her.",
+      "source": "article_tag",
+      "length": 844
+    },
+    {
+      "text": "But when purpose, harm, and sincerity no longer work, what remains is the sort of radical conception of religious free thought expressed inNIFLAand303 Creative. That freedom has long prevented the government from interfering with one’s religious beliefs. But today it also allows a plaintiff to break laws (1) that have nothing to do with religion, (2) regardless of the harm to others, (3) so long as they claim they did so for religious reasons. That result cannot be what anyone wants.",
+      "source": "article_tag",
+      "length": 488
+    },
+    {
+      "text": "So where should we go from here? Thus far, citing the Court’s old religion cases back to them in litigation has proven exceptionally futile.The Court has shown little interest in revivingSmith,Lee, or any of its other cases in this line.",
+      "source": "article_tag",
+      "length": 237
+    },
+    {
+      "text": "A more creative approach might be to borrow from decisions in other areas of the law. Counsel in bothNIFLAand303 Creative, for instance,characterized their client’s claims as being about speech, not religion.That may have been, as others have suggested, a cynical strategic move to gain an edge in litigation.But if that is so, free speech doctrine also provides governments with arguably stronger footing to defend laws and regulations thanSmith’s shaky foundations. Indeed, as Professor Michael Dorf has explained, while “[a]t least formally[] the Supreme Court requires intermediate scrutiny of laws that impose an incidental burden on free speech . . . in practice[] the standard applied often appears to be quite deferential.”",
+      "source": "article_tag",
+      "length": 731
+    },
+    {
+      "text": "Relatedly, just last Term, inMuldrow v. City of St. Louis, a Title VII case, Justice Brett Kavanaugh rejected the argument that “a plaintiff in a discriminatory-transfer case show at least ‘some harm’ beyond the harm of being transferred on the basis of race, color, religion, sex, or national origin.”As he cogently and succinctly explained, “The discrimination is harm.”There is no reason why government defendants could not, in whatever case follows303 Creative, borrowMuldrow’s reasoning. After all, in303 Creative,Lorie Smith refused to design wedding websites for same-sex couples but was willing to design such websites for heterosexual ones. That is discrimination and, in Justice Kavanaugh’s words, it is “harm.”There’s no need to look any further than that.",
+      "source": "article_tag",
+      "length": 767
+    },
+    {
+      "text": "There is even reason for hope on sincerity. InGarland v. Ming DaiandUnited States ex rel. Schutte v. SuperValu Inc.,the Court reversed lower courts on credibility questions. In the former case, the Court held that a court of appeals may not presume that an immigrant’s testimony is credible.Instead, an immigration judge must make an explicit credibility determination—akin to a sincerity determination—based on a careful reading of the facts and the law.Only then, once a determination is made on the record, can an appellate court invoke deferential review.SuperValuheld that, in evaluating whether a defendant “knowingly” made false claims, the finder of fact can and should scrutinize a defendant’s subjective understanding and intent.Lower courts may not simply look to and rely on the objectively reasonable determination;SuperValurequires a close probe into the defendant’s actual mindset.NeitherMing DainorSuperValuare, of course, exact matches to religious sincerity. But they both reflect a Court willing to look beyond the surface of an individual’s purported beliefs, instead of approaching those beliefs in a “hands-off” manner.",
+      "source": "article_tag",
+      "length": 1141
+    },
+    {
+      "text": "Still, even if the Court were to course correct on its law and religion jurisprudence, thatNIFLAand303 Creativecame out the way they did prompts a final question: Should we, going forward, still think of and treat freedom of thought as an unbounded, fundamental right?",
+      "source": "article_tag",
+      "length": 268
+    },
+    {
+      "text": "It seems that, even if the government cannot necessarily tell people what to think, it can and does tell people whatitthinks. And its message is often abundantly clear. The Civil Rights Act tells us not to discriminate because, as a democracy, we have collectively decided that doing so is both harmful and illegal. The Americans with Disabilities Act tells us to accommodate those with certain needs, for substantially the same reasons. So too does the government communicate a message with the Clean Air and Water Acts, the Controlled Substances Act, and the Endangered Species Act. All of us have the freedom to think what we want individually. But should any of our individual thoughts be able to, as a matter of right, override the thoughts and welfare of the collective whole?",
+      "source": "article_tag",
+      "length": 782
+    },
+    {
+      "text": "Furthermore, whatever the freedom of thought is supposed to protect, it simply cannot give open license to an unfettered freedom of action. The line between one and the other is admittedly not always clear. The chain of references that the Court follows in303 Creativeshows why. The freedom to think means, as Justice Gorsuch notes, freedom to speak.And action can be speech when it is expressive;so expressive conduct, even if it is nothing more than discrimination, gets a pass under antidiscrimination law.It is not necessarily or readily apparent where this syllogism breaks down. But the result—an all-too-robust freedom of thought—cannot be squared with a rule of law that respects the dignity and rights of all persons. Figuring out how and where and in what way to intervene in this logical chain is a prerequisite to embracing a more expansive freedom of thought for all.",
+      "source": "article_tag",
+      "length": 880
+    }
+  ],
+  "footnotes": [],
+  "headers": [
+    {
+      "text": "SACRED THOUGHTS, SECULAR HARMS",
+      "source": "h1",
+      "length": 30
+    },
+    {
+      "text": "Introduction",
+      "source": "h2",
+      "length": 12
+    },
+    {
+      "text": "I.NIFLAand303 Creative",
+      "source": "h2",
+      "length": 22
+    },
+    {
+      "text": "II. The Rise and Fall of Purpose, Harm, and Sincerity",
+      "source": "h2",
+      "length": 53
+    },
+    {
+      "text": "Conclusion",
+      "source": "h2",
+      "length": 10
+    },
+    {
+      "text": "Xiao Wang*",
+      "source": "h3",
+      "length": 10
+    },
+    {
+      "text": "Site Navigation",
+      "source": "h5",
+      "length": 15
+    },
+    {
+      "text": "CLR Forum",
+      "source": "h5",
+      "length": 9
+    },
+    {
+      "text": "Secondary Navigation",
+      "source": "h5",
+      "length": 20
+    },
+    {
+      "text": "Columbia Law Review",
+      "source": "h6",
+      "length": 19
+    },
+    {
+      "text": "Copyright © 2025Columbia Law Review",
+      "source": "h6",
+      "length": 35
+    }
+  ],
+  "other_elements": [
+    {
+      "text": "1See, e.g., Marc Jonathan Blitz, Freedom of Thought for the Extended Mind: Cognitive Enhancement and the Constitution, 2010 Wis. L. Rev. 1049, 1051 (describing how the Supreme Court and scholars view freedom of thought as broader than freedom of speech); Matthew B. Lawrence, Addiction and Liberty, 108 Cornell L. Rev. 259, 261 (2023) (“The Supreme Court has repeatedly described ‘freedom of thought’ as a key aspect of the liberty that the U.S. Constitution is supposed to protect.”); see also Jerome A. Barron, Access to the Press–A New First Amendment Right, 80 Harv. L. Rev. 1641, 1649 (1967) (“Justice Cardozo clearly indicated that while many rights could be eliminated and yet ‘justice’ not undone, ‘neither liberty nor justice would exist . . . [without] freedom of thought and speech’ since free expression is ‘the matrix, the indispensable condition, of nearly every other form of freedom.’” (alterations in original) (quoting Palko v. Connecticut, 302 U.S. 319, 325–27 (1937))); Rafael Domingo, Restoring Freedom of Conscience, 30 J.L. & Religion 176, 176 (2015) (“Freedom of thought is required for the human person as a rational being . . . .”); Charles Fried, Perfect Freedom, Perfect Justice, 78 B.U. L. Rev. 717, 723–24 (1998) (“By speaking of freedom of thought I wish to push to the fore exactly that which developed First Amendment doctrine . . . seeks to establish: that the state has no business seeking to control—that is, to prohibit or command—the minds of its citizens.”); Jed Rubenfeld, The Right of Privacy, 102 Harv. L. Rev. 737, 754 (1989) (“Thus, the freedom of self-definition would be the fundamental human right, of which, for example, the freedoms of thought and belief embodied in the first amendment would count as necessary but insufficient components.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 1800
+    },
+    {
+      "text": "2See, e.g., Blitz, supra note 1, at 1051 (acknowledging that as “central as freedom of thought is to our constitutional system, . . . the Supreme Court has never said exactly what this freedom is,” and questioning whether “freedom of thought [can] stand on its own”); Recent Case,Doe v. City of Lafayette,377 F.3d 757 (7th Cir. 2004) (en banc), 118 Harv. L. Rev. 1054, 1054 (2005) (“Numerous Supreme Court decisions have proclaimed that the First Amendment protects freedom of mind or thought. These statements, however, have usually been dicta; only a few cases have actually been decided on freedom of thought grounds.” (footnote omitted))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 650
+    },
+    {
+      "text": "3Blitz, supra note 1, at 1051....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 38
+    },
+    {
+      "text": "4See, e.g., Adam J. Kobler, Two Views of First Amendment Thought Privacy, 18 U. Pa. J. Con. L. 1381, 1386–87 (2016) (“One important question that courts have never resolved is whether freedom of thought is only protected by the [First] Amendment in cases that implicate expression. . . . If . . . [so], there is nothing particularly special about freedom of thought from a free speech perspective.”); Wayne Unger, Stay Out of My Head: Neurodata, Privacy, and the First Amendment, 80 Wash. & Lee L. Rev. 1439, 1494 (2023) (“First Amendment liberties have a ‘double aspect’ in that the freedoms of speech, press, and religion are more fundamentally the freedoms of thought and action.” (quoting Jones v. Opelika, 316 U.S. 584, 618 (1942) (Murphy, J., dissenting)))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 771
+    },
+    {
+      "text": "5See Susie Alegre, We’re Dangerously Close to Giving Big Tech Control of Our Thoughts, Time (June 29, 2022), https://time.com/6191973/big-tech-freedom-of-thought/ [https://perma.cc/D4MJ-69UG] (explaining that social media platforms can be “powerful tool[s] for manipulation”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 284
+    },
+    {
+      "text": "6See Jane Bambauer, Is Data Speech?, 66 Stan. L. Rev. 57, 64 (2014) (arguing that “data should receive speech protection any time it is regulatedasinformation”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 169
+    },
+    {
+      "text": "7See Lawrence, supra note 1, at 263 (identifying a freedom from addiction as a fundamental liberty interest and explaining that “the right to freedom from addiction manifests as a legal tool to protect Americans’ freedom of thought”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 242
+    },
+    {
+      "text": "8138 S. Ct. 2361 (2018)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 32
+    },
+    {
+      "text": "9Crisis pregnancy centers are “facilities that represent themselves as legitimate reproductive health care clinics providing care for pregnant people but actually aim to dissuade people from accessing certain types of reproductive health care, including abortion.” Am. Coll. of Obstetricians & Gynecologists, Issue Brief: Crisis Pregnancy Centers 1 (2020), https://www.acog.org/-/media/project/acog/acogorg/files/advocacy/issue-briefs/crisis-pregnancy-centers.pdf [https://perma.cc/5NDQ-EYL3]. They are often operated by nonmedical personnel. Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 554
+    },
+    {
+      "text": "10Id. at 2369 (internal quotation marks omitted) (quoting Cal. Health & Safety Code Ann. § 123472(a)(1) (2016))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 120
+    },
+    {
+      "text": "11Id. at 2368 (internal quotation marks omitted) (quoting Casey Watters, Meg Keaney & Natalie Evans, Pub. L. Rsrch. Inst., Pregnancy Resource Centers: Ensuring Access and Accuracy of Information 4 (2011))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 213
+    },
+    {
+      "text": "12Id. at 2369....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "13Id. at 2371....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "14Id. at 2378....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "15Id. at 2379 (Kennedy, J., concurring)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 48
+    },
+    {
+      "text": "16Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "17143 S. Ct. 2298 (2023)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 33
+    },
+    {
+      "text": "18Id. at 2309 (citing Appendix to Petition for a Writ of Certiorari at 179a, 143 S. Ct. 2298 (No. 21-476), 2021 WL 4459045)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 132
+    },
+    {
+      "text": "19Id. at 2321–22....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 25
+    },
+    {
+      "text": "20Id. at 2310 (quoting Boy Scouts of Am. v. Dale, 530 U.S. 640, 660–61 (2000))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 87
+    },
+    {
+      "text": "21Id. at 2311....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "22Id. at 2321....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "23Id. at 2322....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "24See, e.g., United States v. Ballard, 322 U.S. 78, 86 (1944) (“Freedom of thought, which includes freedom of religious belief, is basic in a society of free men.” (citing W. Va. State Bd. of Educ. v. Barnette, 319 U.S. 624 (1943))); Jones v. Opelika, 316 U.S. 584, 618 (1942) (Murphy, J., dissenting) (“Freedom of speech, freedom of the press, and freedom of religion all have a double aspect—freedom of thought and freedom of action.”); Laurence H. Tribe & Michael C. Dorf, Levels of Generality in the Definition of Rights, 57 U. Chi. L. Rev. 1057, 1069 (1990) (explaining “Justice Harlan’s point was that the freedom of speech, the freedom of religion, and so forth make sense only if connected by a broader and underlying principle of freedom of thought and conscience”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 783
+    },
+    {
+      "text": "25See, e.g., Cal. Health & Safety Code § 104550 (2025) (describing requirements for cigar labeling)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 108
+    },
+    {
+      "text": "26See, e.g., Cal. Code Regs. tit. 3, § 6678 (2025) (describing requirements for service container labeling)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 116
+    },
+    {
+      "text": "27See, e.g., N.Y. Agric. & Mkts. Law § 214-m (McKinney 2025) (requiring labeling for certain food products)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 116
+    },
+    {
+      "text": "28See Bostock v. Clayton County, 140 S. Ct. 1731, 1737 (2020) (“An employer who fires an individual for being homosexual or transgender fires that person for traits or actions it would not have questioned in members of a different sex. Sex plays a necessary and undisguisable role in the decision, exactly what Title VII forbids.”); Obergefell v. Hodges, 576 U.S. 644, 677 (2015)(“The dynamic of our constitutional system is that individuals need not await legislative action before asserting a fundamental right.”);John Hart Ely, Democracy and Distrust: A Theory of Judicial Review 74 (1980) (noting that, according to some scholars, the “two broad concerns of the Warren Court—with clearing the channels of political change on the one hand, and with correcting certain kinds of discrimination against minorities on the other—fit together to form a coherent theory of representative government”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 905
+    },
+    {
+      "text": "29See, e.g., Heart of Atlanta Motel, Inc. v. United States, 379 U.S. 241, 243 (1964) (“Prior to passage of the Act the motel had followed a practice of refusing to rent rooms to Negroes, and it alleged that it intended to continue to do so. In an effort to perpetuate that policy this suit was filed.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 311
+    },
+    {
+      "text": "30Frances Stead Sellers & Meena Venkataramanan, Spread of Catholic Hospitals Limits Reproductive Care Across the U.S., Wash. Post (Oct. 10, 2022), https://www.washingtonpost.com/health/2022/10/10/abortion-catholic-hospitals-birth-control/ (on file with theColumbia Law Review)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 285
+    },
+    {
+      "text": "31See, e.g., Anne Branigin, Who Can Access IVF Benefits? A Gay Couple’s Complaint Seeks an Answer, Wash. Post. (Apr. 13, 2022), https://www.washingtonpost.com/business/2022/04/13/gay-couple-ivf-benefits-discrimination-complaint/ (on file with theColumbia Law Review); Jo Yurcaba, Gay Couple Files First-of-Its-Kind Class Action Against NYC for IVF Benefits, NBC News (May 9, 2024), https://www.nbcnews.com/nbc-out/out-news/gay-couple-files-first-kind-class-action-nyc-ivf-benefits-rcna151250 [https://perma.cc/G2WQ-QW4E]....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 529
+    },
+    {
+      "text": "32E.g., Sambrano v. United Airlines, Inc., No. 21-11159, 2022 WL 486610, at *1 (5th Cir. Feb. 17, 2022) (discussing the issue of whether plaintiffs are entitled to a preliminary injunction against United’s policy of requiring employees to either receive a COVID-19 vaccine or be placed on indefinite unpaid leave)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 322
+    },
+    {
+      "text": "33E.g., Meriwether v. Hartop, 992 F.3d 492, 518 (6th Cir. 2021)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 72
+    },
+    {
+      "text": "34Shannon Price Minter, LGBTQ Students at Religious Educational Institutions, ABA (July 5, 2022), https://www.americanbar.org/groups/crsj/publications/human_rights_magazine_home/intersection-of-lgbtq-rights-and-religious-freedom/lgbtq-students-at-religious-educational-institutions/ (on file with theColumbia Law Review); see also Katie Eyer, Anti-Transgender Constitutional Law, 77 Vand. L. Rev. 1113, 1174–80 (2024) (discussing attempts to use the Free Exercise Clause to avoid enforcement of state and local antidiscrimination laws)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 544
+    },
+    {
+      "text": "3598 U.S. 145, 166–68 (1878) (holding that the statute is “within the legislative power of Congress” and refusing to grant a religious exemption)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 154
+    },
+    {
+      "text": "36Id. at 166....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 21
+    },
+    {
+      "text": "37Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "38Id. at 167....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 21
+    },
+    {
+      "text": "39494 U.S. 872, 890 (1990) (“Because respondents’ ingestion of peyote was prohibited under Oregon law, and because that prohibition is constitutional, Oregon may, consistent with the Free Exercise Clause, deny respondents unemployment compensation when their dismissal results from use of the drug.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 309
+    },
+    {
+      "text": "40Id. at 877....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 21
+    },
+    {
+      "text": "41Id. (emphasis omitted) (quoting Sherbert v. Verner, 374 U.S. 398, 403 (1963))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 88
+    },
+    {
+      "text": "42Id. (explaining that the First Amendment prohibits government from compelling affirmation of religious belief, punishing the expression of religious doctrine, imposing social disabilities based on religious views, and lending its power to a particular side in a religious controversy)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 295
+    },
+    {
+      "text": "43Id. at 878....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 21
+    },
+    {
+      "text": "44Id. at 878–79....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 24
+    },
+    {
+      "text": "45455 U.S. 252, 254–55 (1982)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 38
+    },
+    {
+      "text": "46Id. at 262 (Stevens, J., concurring in the judgment)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 63
+    },
+    {
+      "text": "47Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "48Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "49Id. at 259–60 (majority opinion)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 43
+    },
+    {
+      "text": "50390 U.S. 400, 402 n.5 (1968) (per curiam) (quoting Newman v. Piggie Park Enters., Inc., 377 F.2d 433, 438 (4th Cir. 1967) (Winter, J., concurring specially))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 168
+    },
+    {
+      "text": "51461 U.S. 574, 604 (1983)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 35
+    },
+    {
+      "text": "52See, e.g., Witmer v. United States, 348 U.S. 375, 382–83 (1955) (scrutinizing the sincerity of the plaintiff’s alleged religious objections to war)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 158
+    },
+    {
+      "text": "53See id. (concluding that “inconsistent statements in themselves cast considerable doubt on the sincerity of petitioner’s claim”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 139
+    },
+    {
+      "text": "54See, e.g., Blaine L. Hutchison, RevisitingEmployment Division v. Smith, 91 U. Cin. L. Rev. 396, 399 (2022) (“The problem isSmith.Smithdoes not protect religious liberty or prevent religious persecution and conflict.”); see also Allan Ides, The Text of the Free Exercise Clause as a Measure ofEmployment Division v. Smithand the Religious Freedom Restoration Act, 51 Wash. & Lee L. Rev. 135, 136 n.7 (1994) (collecting literature condemning the result inSmith); James E. Ryan,Smithand the Religious Freedom Restoration Act: An Iconoclastic Assessment, 78 Va. L. Rev. 1407, 1409 n.15 (1992) (listing law review articles critical ofSmith)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 646
+    },
+    {
+      "text": "55See, e.g., Kennedy v. Bremerton Sch. Dist., 142 S. Ct. 2407, 2422 n.1 (2022) (“[W]hile the [Smith] test we do apply today has been the subject of some criticism, . . . we have no need to engage with that debate today because no party has asked us to do so.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 269
+    },
+    {
+      "text": "56On this issue, Professor Adam Winkler’s research has been particularly instructive. In 2006, Winkler published a study examining every federal district and circuit court decision raising a religious liberty claim in the fifteen years afterSmith.Adam Winkler, Fatal in Theory and Strict in Fact: An Empirical Analysis of Strict Scrutiny in the Federal Courts, 59 Vand. L. Rev. 793 (2006). What he found was that when a court characterized the claim as involving a generally applicable law, the claim failed 74% of the time—i.e., no religious exemption was granted. Id. at 861. But when the court considered a claim involving the discriminatory targeting of religion, the claim succeeded 100% of the time. Id. The court in these cases either invalidated the law or granted an exemption. Id. In other words, courts were, post-Smith, having little problem actually applyingSmith’s framework. Laws could not single out religion, but nor could religion be used as a cudgel to assail laws that had nothing to do with religion....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 1029
+    },
+    {
+      "text": "57141 S. Ct. 1868, 1874 (2021)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 39
+    },
+    {
+      "text": "58Id. at 1875....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "59Id. at 1878 (internal quotation marks omitted)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 57
+    },
+    {
+      "text": "60Id. at 1879 (internal quotation marks omitted) (quoting Emp. Div., Dep’t of Hum. Res. v. Smith, 494 U.S. 872, 884 (1990))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 132
+    },
+    {
+      "text": "61Id. at 1887 (Alito, J., concurring in the judgment)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 62
+    },
+    {
+      "text": "62Id. (emphasis added) (citing Brief for City Respondents at 36,Fulton, 141 S. Ct. (No. 19-123), 2020 WL 4819956)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 122
+    },
+    {
+      "text": "63See Michael A. Foster, Cong. Rsch. Serv., R46179, Presidential Pardons: Overview and Selected Legal Issues 6 (2020) (“The federal courts have recognized that the power conferred by Article II, Section 2 of the Constitution is quite broad, establishing virtually ‘unfettered executive discretion’ to grant clemency.” (quoting Hoffa v. Saxbe, 378 F. Supp. 1221, 1234 (D.D.C 1974))). As especially relevant here, many states vest the pardon power in the “sole discretion” of the Governor or other Executive official, mirroring the “sole discretion” language from Philadelphia’s foster-care contract. See, e.g., Cal. Const. art. V, § 8(a); Fla. Const. art. IV, § 8(a)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 674
+    },
+    {
+      "text": "64Holly Straut-Eppsteiner, Cong. Rsch. Serv., IF12424, Immigration 101: Executive Branch Agencies Involved With Immigration 1 (2023) (“While Congress has plenary power over immigration law, the Immigration and Nationality Act (INA), Homeland Security Act (HSA), and other laws grant substantial discretion over immigration policy to the executive branch. Executive branch departments and their components have distinct yet overlapping responsibilities for immigration policy.”). Indeed, even an individual that has been ordered removed can remain in the country pursuant to the Attorney General’s discretion. See, e.g., 8 U.S.C. § 1229b (2018) (providing for situations in which the Attorney General may cancel removal); 8 U.S.C. § 1182(h) (providing the Attorney General with discretion to grant waivers for certain grounds of inadmissibility)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 853
+    },
+    {
+      "text": "65Under the Clean Air Act, the Environmental Protection Agency can grant waivers to states for specific emissions standards. 42 U.S.C. § 7521(b)(3) (2018)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 163
+    },
+    {
+      "text": "66The central purpose of rational basis review is to head off such challenges. See Nordlinger v. Hahn, 505 U.S. 1, 15 (1992) (holding that equal protection “does not demand for purposes of rational-basis review that a legislature or governing decisionmaker actually articulate at any time the purpose or rationale supporting its classification” (citing U.S. R.R. Ret. Bd. v. Fritz, 449 U.S. 166, 179 (1980)))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 417
+    },
+    {
+      "text": "67Fulton, 141 S. Ct. at 1181....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 37
+    },
+    {
+      "text": "68Burwell v. Hobby Lobby Stores, Inc., 573 U.S. 682, 737 (2014) (Kennedy, J., concurring); see also id. at 728 (majority opinion) (“We will assume that the interest in guaranteeing cost-free access to the four challenged contraceptive methods is compelling within the meaning of RFRA . . . .”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 302
+    },
+    {
+      "text": "69Little Sisters of the Poor Saints Peter & Paul Home v. Pennsylvania, 140 S. Ct. 2367, 2387–88 (2020) (Alito, J., concurring)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 135
+    },
+    {
+      "text": "70Id. at 2388....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "71573 U.S. at 689–91....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 29
+    },
+    {
+      "text": "72Id. at 700–04....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 24
+    },
+    {
+      "text": "73Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "74See id. at 689–91 (holding that “regulations that impose [an] obligation” on “closely held corporations [to] provide health-insurance coverage for methods of contraception that violate the sincerely held religious beliefs of the companies’ owners . . . violate RFRA”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 278
+    },
+    {
+      "text": "75Id. at 726–27 (alteration in original) (internal quotation marks omitted) (quoting Gonzalesv. O Centro Espirita Beneficente Uniao do Vegetal, 546 U.S. 418, 431 (2006))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 178
+    },
+    {
+      "text": "76United States v. Lee, 455 U.S. 252, 262 (1982) (Stevens, J., concurring in the judgment)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 99
+    },
+    {
+      "text": "77See id. at 258–60 (majority opinion) (discussing the government’s strong “interest in assuring mandatory and continuous participation in and contribution to” the country’s “nationwide” social security system and describing how “difficult [it would be] to accommodate . . . myriad exceptions flowing from a wide variety of religious beliefs”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 352
+    },
+    {
+      "text": "78SeeHobby Lobby, 573 U.S. at 721–26 (discussing the costs of an exemption to the ACA)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 95
+    },
+    {
+      "text": "79See id. at 734 (“Our holding inLeeturned primarily on the special problems associated with a national system of taxation.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 134
+    },
+    {
+      "text": "80Id. at 735....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 21
+    },
+    {
+      "text": "81Lee, 455 U.S. at 255 (describing the Amish community as “religiously opposed to the national social security system” specifically because “the Amish believe it sinful not to provide for their own elderly and needy”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 226
+    },
+    {
+      "text": "82See id. at 260 (arguing that “[t]he tax system could not function if denominations were allowed to challenge the tax system because tax payments were spent in a manner that violates their religious belief”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 217
+    },
+    {
+      "text": "83See Little Sisters of the Poor Saints Peter & Paul Home v. Pennsylvania, 140 S. Ct. 2367, 2388–89 & n.4 (2020) (Alito, J., concurring)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 145
+    },
+    {
+      "text": "84Id. at 2386 (majority opinion)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 41
+    },
+    {
+      "text": "85See Xiao Wang, Religion as Disobedience, 76 Vand. L. Rev. 999, 1005 (2023) (“In the past thirty years, the Supreme Court hasneverfound a plaintiff insincere.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 170
+    },
+    {
+      "text": "86Thomas v. Rev. Bd. of the Ind. Emp. Sec. Div., 450 U.S. 707, 714 (1981); see also Emp. Div., Dep’t of Hum. Res. v. Smith, 494 U.S. 872, 886 (1990) (“Nor is it possible to limit the impact of respondents’ proposal by requiring a ‘compelling state interest’ only when the conduct prohibited is ‘central’ to the individual’s religion.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 344
+    },
+    {
+      "text": "87Wang, supra note 85, at 1026....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 39
+    },
+    {
+      "text": "88Id. at 1035....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "89Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 13
+    },
+    {
+      "text": "90Id. at 1041....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 22
+    },
+    {
+      "text": "91Carter v. Transp. Workers Union of Am., Loc. 556, 686 F. Supp. 3d 503, 523 (N.D. Tex. 2023), rev’d, Nos. 23-10008, 23-10536, 23-10836 (5th Cir. May 8, 2025), 2025 WL 1340536. The Fifth Circuit ultimately reversed the district court’s judgment and vacated the sanctions order against Southwest. SeeCarter, 2025 WL 1340536, at *1. But as relevant here, the Fifth Circuit did not challenge the district court’s holding as to Carter’s religious sincerity. See id. at *8–9....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 478
+    },
+    {
+      "text": "92Carter v. Loc. 556, Transp. Workers Union of Am., Nos. 23-10008, 23-10536, 23-10836, at 2 (5th Cir. June 7, 2024) (per curiam) (granting Southwest’s motion for a stay pending appeal in an unpublished order)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 217
+    },
+    {
+      "text": "93Carter v. Transp. Workers Union of Am. Loc. 556, 353 F. Supp. 3d 556, 564 (N.D. Tex. 2019) (quoting Second Amended Complaint at ¶ 46,Carter, 353 F. Supp. 3d 556 (No. 3:17-CV-2278-S))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 193
+    },
+    {
+      "text": "94Id. at 565 (“Southwest also stated that Plaintiff’s conduct ‘could also be a violation’ of Southwest’s Policy Concerning Harassment, Sexual Harassment, Discrimination, and Retaliation.” (quoting Second Amended Complaint at ¶ 69, id.))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 245
+    },
+    {
+      "text": "95See Complaint,Carter, 686 F. Supp. 3d 503 (No. 3:17-cv-02278), 2017 WL 11688713....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 90
+    },
+    {
+      "text": "96Fourth Amended Complaint at 2,Carter, 686 F. Supp. 3d 503 (No. 3:17-cv-02278-X), 2019 WL 13203222 (alleging that “Southwest discriminated against Carter for her religious beliefs and practices . . . by terminating her employment because of her religious beliefs and practices, including her sharing religious views on her personal Facebook page, with her union president, while off-duty and without any impact on the workplace”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 439
+    },
+    {
+      "text": "97Southwest Airlines Co.’s Brief in Support of Motion for Summary Judgment and/or Partial Summary Judgment at 35–48,Carter, 686 F. Supp. 3d 502 (No. 3:17-cv-02278-S) (arguing that the plaintiff’s religious discrimination claim fails as a matter of law without arguing that her religious beliefs were insincere)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 319
+    },
+    {
+      "text": "98303 Creative LLC v. Elenis, 143 S. Ct. 2298, 2308 (2023) (“While Ms. Smith has laid the groundwork for her new venture, she has yet to carry out her plans. She worries that, if she does so, Colorado will force her to express views with which she disagrees.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 269
+    },
+    {
+      "text": "99Id. (explaining that Smith “sought an injunction to prevent the state from forcing her to create wedding websites celebrating marriages that defy her beliefs”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 170
+    },
+    {
+      "text": "100See Stephanie H. Barclay, ReplacingSmith, 133 Yale L.J. Forum 436, 450 (2023), https://www.yalelawjournal.org/pdf/BlarclayYLJForumEssay_33fxoyey.pdf [https://perma.cc/9BQR-4ZCH] (noting that “pre-Smithstrict scrutiny was criticized for allowing problematic assessments of religious centrality, for requiring balancing that was not judicially administrable, and for lacking a sufficient historical basis”); see also id. at 437 (“Three other Justices . . . expressed skepticism aboutSmithbut simultaneously questioned what test should replace it.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 558
+    },
+    {
+      "text": "101See303 Creative, 143 S. Ct. at 2308 (“[Plaintiff] asserts[] the First Amendment’s Free Speech Clause protects her from being compelled to speak what she does not believe.”); Nat’l Inst. of Fam. & Life Advocs. v. Becerra, 138 S. Ct. 2361, 2370 (2018) (“Petitioners alleged that the licensed and unlicensed notices abridge the freedom of speech protected by the First Amendment.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 390
+    },
+    {
+      "text": "102See, e.g., Kate Redburn,The Equal Right to Exclude: Religious Speech and the Road to303 Creative LLC v. Elenis, 112 Calif. L. Rev. 1879, 1883–86 (2024) (arguing “that cause lawyers for the New Christian Right were key players in formulating a free speech strategy to undermine anti-discrimination law”); see also David D. Cole, “We Do No Such Thing”:303 Creative v. Elenisand the Future of First Amendment Challenges to Public Accommodations Laws, 133 Yale L.J. Forum 499, 504 (2024), https://www.yalelawjournal.org/pdf/ColeYLJForumEssay_hgfr3cxy.pdf [https://perma.cc/BL8P-YZ4L] (noting that a speech-focused litigation approach “permits an individual facing a credible threat of enforcement under a statute she claims violates her First Amendment rights to sue in advance of any enforcement for a declaration of her rights”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 838
+    },
+    {
+      "text": "103Michael C. Dorf, Incidental Burdens on Fundamental Rights, 109 Harv. L. Rev. 1175, 1180 (1996)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 106
+    },
+    {
+      "text": "104144 S. Ct. 967, 980 (2024) (Kavanaugh, J., concurring in the judgment) (quoting id. at 974–75 (majority opinion))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 125
+    },
+    {
+      "text": "105Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 14
+    },
+    {
+      "text": "106Id....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 14
+    },
+    {
+      "text": "107141 S. Ct. 1669 (2021)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 34
+    },
+    {
+      "text": "108143 S. Ct. 1391 (2023)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 34
+    },
+    {
+      "text": "109Ming Dai, 141 S. Ct. at 1681 (“The Ninth Circuit’s deemed-true-or-credible rule cannot be reconciled with the [Immigration and Nationality Act]’s terms. . . . [T]he court of appeals must accept the agency’s findings of fact as ‘conclusive unless any reasonable adjudicator would be compelled to conclude to the contrary.’”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 335
+    },
+    {
+      "text": "110Id. (explaining that, in immigration cases like the one at bar, “the factfinder . . . [must] make[] findings of fact, including determinations as to the credibility of particular witness testimony”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 210
+    },
+    {
+      "text": "111Id. (“The [Board of Immigration Appeals] . . . reviews th[e] findings, applying a presumption of credibility if the [fact-finder] did not make an explicit adverse credibility determination. Finally, the court of appeals must accept the agency’s findings of fact as ‘conclusive unless any reasonable adjudicator would be compelled to conclude to the contrary.’”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 373
+    },
+    {
+      "text": "112SuperValu, 143 S. Ct. at 1399 (“The [False Claims Act]’s scienter element refers to respondents’ knowledge and subjective beliefs—not to what an objectively reasonable person may have known or believed.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 216
+    },
+    {
+      "text": "113See id. at 1404 (“If petitioners can make that showing, then it does not matter whether some other, objectively reasonable interpretation of ‘usual and customary’ would point to respondents’ higher prices. For scienter, it is enough if respondents believed that their claims were not accurate.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 307
+    },
+    {
+      "text": "114See Samuel J. Levine, Rethinking the Supreme Court’s Hands-Off Approach to Questions of Religious Practice and Belief, 25 Fordham Urb. L.J. 85, 92–123 (1997) (tracing the development of the Court’s “hands-off” approach to deciding questions of religious belief and sincerity in Free Exercise cases); Samuel J. Levine, The Supreme Court’s Hands-Off Approach to Religious Doctrine: An Introduction, 84 Notre Dame L. Rev. 793, 795 (2009) (“[T]he Court generally eschews decision-making that requires adjudication of religious doctrine.”)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 546
+    },
+    {
+      "text": "115303 Creative LLC v. Elenis, 143 S. Ct. 2298, 2310 (2023) (“The framers designed the Free Speech Clause of the First Amendment to protect the ‘freedom to think as you will and to speak as you think.’ They did so because they saw the freedom of speech ‘both as an end and as a means.’” (citation omitted) (first quoting Boy Scouts of Am. v. Dale, 530 U.S. 640, 660–61 (2000); then quoting Whitney v. California, 274 U.S. 357, 375 (1927) (Brandeis, J., concurring)))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 475
+    },
+    {
+      "text": "116See, e.g., Spence v. Washington, 418 U.S. 405, 410, 415 (1974) (per curiam) (holding that flying an American flag with a “peace symbol” on it to be protected activity under the First Amendment)....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 205
+    },
+    {
+      "text": "117See, e.g.,303 Creative, 143 S. Ct. at 2310–16(concluding that creating wedding websites qualifies as “‘pure speech’ protected by the First Amendment,” before holding that applying Colorado’s antidiscrimination act to require creators to serve LGBTQ+ clients would be unconstitutional (quoting 303 Creative LLC v. Elenis, 6 F.4th 1160, 1176 (10th Cir. 2021), rev’d, 143 S. Ct. 2298))....Close",
+      "type": "citation",
+      "source": "cite_tag",
+      "length": 394
+    }
+  ],
+  "metadata": {
+    "total_body_paragraphs": 43,
+    "total_footnotes": 0,
+    "total_headers": 11,
+    "total_other": 117
+  }
+}

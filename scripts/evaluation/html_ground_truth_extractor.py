@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 class HTMLGroundTruthExtractor:
     """Extract semantic ground truth from HTML legal documents."""
 
-    def __init__(self, output_dir: Path = Path("results/ground_truth")):
+    def __init__(self, output_dir: Path = Path("results/ocr_pipeline_evaluation/ground_truth")):
         """Initialize extractor.
 
         Args:
@@ -166,9 +166,9 @@ class HTMLGroundTruthExtractor:
         """Extract footnotes and endnotes.
 
         Looks for:
-        - <footer> tags
-        - Elements with class containing 'footnote', 'endnote', 'reference'
-        - <ol> with id containing 'footnote' or 'note'
+        - Footnote list items within specific containers
+        - Individual footnote content elements
+        - Avoids page footers and navigation
 
         Args:
             soup: BeautifulSoup object
@@ -177,48 +177,87 @@ class HTMLGroundTruthExtractor:
             List of footnotes with metadata
         """
         footnotes = []
+        seen_texts = set()  # Avoid duplicates
 
-        # Strategy 1: Find <footer> sections
-        for footer in soup.find_all("footer"):
-            for para in footer.find_all(["p", "li"]):
-                text = self._extract_text(para)
-                if text and len(text) > 10:  # Reasonable footnote length
-                    footnotes.append(
-                        {
-                            "text": text,
-                            "source": "footer_tag",
-                            "length": len(text),
-                        }
-                    )
+        def normalize_for_dedup(text: str) -> str:
+            """Normalize footnote text for deduplication."""
+            # Remove common navigation text
+            normalized = text.replace("Return to citation ^", "").replace("Return to citation", "")
+            normalized = re.sub(r"^\^+", "", normalized)  # Remove leading ^ characters
+            normalized = re.sub(r"\s+", " ", normalized)  # Normalize whitespace
+            return normalized.strip()
 
-        # Strategy 2: Find elements with footnote-related classes
-        footnote_elements = soup.find_all(
-            class_=re.compile(r"(footnote|endnote|note|reference)", re.IGNORECASE)
-        )
-        for elem in footnote_elements:
-            text = self._extract_text(elem)
-            if text and len(text) > 10:
-                footnotes.append(
-                    {
-                        "text": text,
-                        "source": "footnote_class",
-                        "length": len(text),
-                    }
-                )
+        # Strategy 1: Find footnote lists (Harvard, Michigan, etc.)
+        # Look for <li> elements with id like "footnote-ref-1" or class containing "footnote"
+        for li in soup.find_all("li"):
+            li_id = li.get("id", "").lower()
+            li_class = " ".join(li.get("class", [])).lower()
 
-        # Strategy 3: Find footnote lists
-        for ol in soup.find_all("ol"):
-            if ol.get("id", "").lower() in ["footnotes", "notes", "references"]:
-                for li in ol.find_all("li"):
-                    text = self._extract_text(li)
-                    if text and len(text) > 10:
+            # Match footnote list items (not regular list items)
+            if "footnote" in li_id or "footnote" in li_class:
+                # Skip if it's a navigation or menu item
+                if any(nav in li_class for nav in ["nav", "menu", "header"]):
+                    continue
+
+                text = self._extract_text(li)
+                if text and len(text) > 20:  # Real footnote length
+                    normalized = normalize_for_dedup(text)
+                    if normalized and normalized not in seen_texts:
                         footnotes.append(
                             {
                                 "text": text,
-                                "source": "footnote_list",
+                                "source": "footnote_list_item",
                                 "length": len(text),
                             }
                         )
+                        seen_texts.add(normalized)
+
+        # Strategy 2: Find <ol> or <ul> with footnote-related ids
+        for list_elem in soup.find_all(["ol", "ul"]):
+            list_id = list_elem.get("id", "").lower()
+            if "footnote" in list_id or "endnote" in list_id or list_id in ["notes", "references"]:
+                for li in list_elem.find_all("li", recursive=False):
+                    text = self._extract_text(li)
+                    if text and len(text) > 20:
+                        normalized = normalize_for_dedup(text)
+                        if normalized and normalized not in seen_texts:
+                            footnotes.append(
+                                {
+                                    "text": text,
+                                    "source": "footnote_list",
+                                    "length": len(text),
+                                }
+                            )
+                            seen_texts.add(normalized)
+
+        # Strategy 3: Find footnote content paragraphs (for specific containers)
+        # Look for divs/sections with "footnotes" in id or class
+        for container in soup.find_all(["div", "section"]):
+            container_id = container.get("id", "").lower()
+            container_class = " ".join(container.get("class", [])).lower()
+
+            if "footnote" in container_id or "footnote" in container_class:
+                # Skip if it's just a footnote marker/button within body text
+                if any(
+                    skip in container_class
+                    for skip in ["inline", "marker", "button", "show", "hide"]
+                ):
+                    continue
+
+                # Extract <p> tags from footnote containers
+                for para in container.find_all("p", recursive=True):
+                    text = self._extract_text(para)
+                    if text and len(text) > 20:
+                        normalized = normalize_for_dedup(text)
+                        if normalized and normalized not in seen_texts:
+                            footnotes.append(
+                                {
+                                    "text": text,
+                                    "source": "footnote_container",
+                                    "length": len(text),
+                                }
+                            )
+                            seen_texts.add(normalized)
 
         return footnotes
 
@@ -299,8 +338,34 @@ class HTMLGroundTruthExtractor:
         if not element:
             return ""
 
+        # Clone the element to avoid modifying the original
+        import copy
+
+        elem_copy = copy.copy(element)
+
+        # Remove inline footnote elements that contaminate body text:
+
+        # 1. Tooltip-style footnotes (Michigan Law Review, etc.)
+        for footnote_span in elem_copy.find_all("span", {"role": "tooltip"}):
+            footnote_span.decompose()
+
+        # 2. <cite> tag footnotes (UCLA Law Review, etc.)
+        for cite in elem_copy.find_all("cite", class_=re.compile(r"footnote", re.IGNORECASE)):
+            cite.decompose()
+
+        # 3. Footnote markers and superscripts
+        for sup in elem_copy.find_all("sup"):
+            sup.decompose()
+
+        # 4. Other footnote-related spans
+        for footnote_elem in elem_copy.find_all(
+            class_=re.compile(r"footnote.*note", re.IGNORECASE)
+        ):
+            if footnote_elem.name in ["span", "button"]:
+                footnote_elem.decompose()
+
         # Get text and normalize
-        text = element.get_text(strip=True)
+        text = elem_copy.get_text(strip=True)
 
         # Remove extra whitespace
         text = re.sub(r"\s+", " ", text)

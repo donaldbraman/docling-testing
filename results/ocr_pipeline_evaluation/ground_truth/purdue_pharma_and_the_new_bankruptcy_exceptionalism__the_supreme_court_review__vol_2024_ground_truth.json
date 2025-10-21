@@ -1,0 +1,1431 @@
+{
+  "file": "purdue_pharma_and_the_new_bankruptcy_exceptionalism__the_supreme_court_review__vol_2024.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Search for more articles by this author",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "Search for more articles by this author",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "On its surface, the Supreme Court’s decision inHarrington v. Purdue Pharma L.P.is about whether the text of the United States Bankruptcy Code gives courts the authority to approve nonconsensual third-party releases in Chapter 11.Section 1123(b)(6) of the Code allows Chapter 11 plans of reorganization to “include any other appropriate provision not inconsistent with the applicable provisions of this title.”The question posed to the Court inPurduewas whether that language encompasses nonconsensual third-party releases. The majority concluded it does not. Justice Kavanaugh, writing for a four-Justice dissent, disagreed.",
+      "source": "article_tag",
+      "length": 624
+    },
+    {
+      "text": "Although both the majority and dissent anchored their arguments in the text of Section 1123, non-textual concerns featured prominently in both opinions. For his part, Justice Kavanaugh emphasized that bankruptcy law is designed to address the kind of collective-action problems that arise in mass tort cases likePurdue.He further argued that third-party releases are an important tool in facilitating a collective resolution.The majority, by contrast, expressed concern that bankruptcy courts operate as if they have a “roving commission to resolve all such problems that happen [their] way, blind to the role other mechanisms (legislation, class actions, multi-district litigation, consensual settlements, among others) play in addressing them.”",
+      "source": "article_tag",
+      "length": 746
+    },
+    {
+      "text": "A version of this concern has long troubled courts and academics, who have argued that bankruptcy courts exercise too much discretion and too much power. These critiques typically refer to a concept of “bankruptcy exceptionalism.” Often the concern is that a non-Article III tribunal (the bankruptcy court) wields Article III powers.As we explain in Part I, we are skeptical that there is anything exceptional about these powers. All courts exercise discretion and fill gaps, and bankruptcy court discretion is firmly rooted in the text of the Bankruptcy Code and subject to de novo review in an Article III tribunal.Still, since the Code was enacted, the concern that bankruptcy courts possess too much authority and too much discretion has been the basis of numerous constitutional decisions limiting the power of bankruptcy courts.",
+      "source": "article_tag",
+      "length": 834
+    },
+    {
+      "text": "An important but misunderstood feature of thePurduedecision, however, is that the Supreme Court did not address any constitutional issues, at least not directly. With regard to Article III, the Second Circuit, in affirming the use of third-party releases, had decided that de novo review by an Article III court was required but noted it was providing that review.Thus, the question before the Supreme Court was not whether a bankruptcy court could approve the releases, but whether an Article III court hearing bankruptcy cases could. And yet, the majority repeatedly framed its inquiry as being about the power ofbankruptcycourts.",
+      "source": "article_tag",
+      "length": 632
+    },
+    {
+      "text": "As a result, the opinion is flush with exceptionalist rhetoric about expansive bankruptcy court power while the holding does not address the issue head on. Instead, the Court develops a new statutory canon of constraint that narrowly construes terms in the Bankruptcy Code—like “appropriate,” “necessary,” and “fair and equitable”—to cabin judicial authority in bankruptcy cases.This, we argue, represents a new bankruptcy exceptionalism in which broad statutory provisions that should be interpreted by their plain meaning are narrowed to constrain the powers of bankruptcy courts.",
+      "source": "article_tag",
+      "length": 582
+    },
+    {
+      "text": "This new bankruptcy exceptionalism will be disruptive to bankruptcy practice—far beyond what thePurdueCourt contemplated. The Court explicitly left several issues like consensual releases and full-satisfaction plans unresolved. Those issues are now percolating through the lower courts, producing inconsistent approaches by different judges—even those within the same district.And many other innovative bankruptcy tools which find support in the broad language of the Code are now in doubt. These include substantive consolidation, third-party injunctions, and for-cause dismissal. Indeed, one of the foundational pillars of Chapter 11’s statutory structure is its requirement that a plan can be confirmed only if it “does not discriminate unfairly, and is fair and equitable” to dissenting impaired classes.This language carries with it a long history of doctrine, judicial gloss, and discretionary invocation to prevent debtor misbehavior.It does not, however, come with a statutory definition.",
+      "source": "article_tag",
+      "length": 996
+    },
+    {
+      "text": "A canon of narrowing broad language and constraining bankruptcy judges thus draws into question the scope and meaning of these provisions and many of the common tools of the practice. If this new approach sticks, it could create barriers to collective resolution by incentivizing parties, lawyers, and bankruptcy judges to find workarounds that are immune to appellate scrutiny.",
+      "source": "article_tag",
+      "length": 378
+    },
+    {
+      "text": "This Article explores these developments in three parts. Part I describes and critiques conventional scholarly claims about bankruptcy exceptionalism. Part II presents the Supreme Court’s approach to bankruptcy over the last four decades. While the Court has historically questioned the constitutionality of bankruptcy courts in a direct fashion, we speculate thatPurduemarks the culmination of the Court’s shift toward a canon that reads broad provisions in the Code narrowly to protect Article III power while avoiding direct constitutional questions. Part III considers how this new bankruptcy exceptionalism will affect bankruptcy practice and incentivize costly workarounds.",
+      "source": "article_tag",
+      "length": 679
+    },
+    {
+      "text": "Justice Gorsuch’s majority opinion was expressing a familiar sentiment about the U.S. bankruptcy system. For years, scholars and courts have asserted, often critically, that federal bankruptcy powers are exceptional.For example, Pamela Foohey and Jonathan Lipson recently celebrated thePurduedecision for pushing back against bankruptcy exceptionalism, which in their view “reflects a willingness to bend the rule of law.”Likewise, Jonathan Seymour has praised recent Supreme Court decisions for rejecting “bankruptcy exceptionalism,” arguing exceptionalism “exacerbates corrosive trends within the bankruptcy system that cannot readily be corrected by other courts, especially in the field of corporate reorganizations.”",
+      "source": "article_tag",
+      "length": 721
+    },
+    {
+      "text": "What exactly do scholars and courts mean when they describe bankruptcy courts as exceptional? At first glance, some common descriptions seem unremarkable. Bankruptcy courts fill gaps, find exceptions to general rules, craft equitable remedies, and take account of unwritten norms. But so do judges in all courts in the United States.So there would need to be something distinctive about bankruptcy courts and bankruptcy practice—something more fundamental—to set them apart.",
+      "source": "article_tag",
+      "length": 474
+    },
+    {
+      "text": "To us the most plausible account of the bankruptcy exceptionalism critique would reflect a concern that bankruptcy courts are using the Code’s broad grants of authority—for example Sections like 105(a) and 1123(b)(6)—to resolve issues that would ordinarily be adjudicated elsewhere but, because of the exigencies of financial distress, can more efficiently be resolved in a single proceeding. To understand this as problematic assumes that Article III courts should play a special role in private litigation, and that the availability of appellate review does not protect that special role.A critic of exceptionalism might also worry here that bankruptcy courts are resolving too many issues too quickly, and in a manner inconsistent with due process or Article III values.",
+      "source": "article_tag",
+      "length": 773
+    },
+    {
+      "text": "In the remainder of this Part, we explore these different accounts of bankruptcy exceptionalism. We start with the weak version focused on the exercise of equitable discretion and then move to more substantial claims grounded in constitutional concerns of due process, structure, and separation of powers.",
+      "source": "article_tag",
+      "length": 305
+    },
+    {
+      "text": "Some critics describe bankruptcy courts as exceptional for exercising discretion. Because this same discretion is exercised by other federal and state courts, in our view, these accounts reflect an anti-bankruptcy bias that has long permeated academic scholarship.",
+      "source": "article_tag",
+      "length": 264
+    },
+    {
+      "text": "One account suggests there are both benign and malignant forms of bankruptcy exceptionalism. Of the benign, the authors say:[I]n truth we are all exceptionalists to some extent. No one seriously argues that bankruptcy courts lack equitable discretion to recognize exceptions to general rules… .This description is puzzling. Remove the word bankruptcy and the passage describes a common feature in law. Equitable discretion—the power to fashion exceptions to general rules—is part of the day-to-day functioning of courts, as is the power to grant traditional equitable remedies when appropriate.Of course, the exercise of equitable discretion comes up more often in some cases than others.A case seeking an injunction will look different from a case seeking contract damages. But common-law systems have been working out those differences since long before the Constitution’s Bankruptcy Clause was drafted.",
+      "source": "article_tag",
+      "length": 905
+    },
+    {
+      "text": "[I]n truth we are all exceptionalists to some extent. No one seriously argues that bankruptcy courts lack equitable discretion to recognize exceptions to general rules… .",
+      "source": "article_tag",
+      "length": 170
+    },
+    {
+      "text": "At times, critics of bankruptcy exceptionalism shift between using the term “equity” in the colloquial sense of discretion and the more formal sense of the doctrines and remedies available in a traditional court of chancery.Talk of bankruptcy courts as “courts of equity”would seem to invoke the latter use of the term, but the discussion is rarely that precise. In identifying the acts of equitable discretion in bankruptcy cases, the criticism is often more about everyday discretion pursuant to statutory grants of authority.",
+      "source": "article_tag",
+      "length": 528
+    },
+    {
+      "text": "ThePurduecase highlights the imprecision. The direct question to the Court was unquestionably about a statutory grant of discretion. The debtors’ argument relied primarily on the power granted in Section 1123(b)(6) to defend the releases.But nonconsensual third-party releases are structured as channeling injunctions to protect the estate, which are traditional equitable remedies. And so, one would expect some discussion of equity in the more formal sense. Indeed, as we pointed out in an amicus brief, examples of nondebtor releases imposed by the Lord Chancellor date at least as far back as 1619.Likewise, the Second Circuit had noted that releases should be viewed against the “backdrop of equity.”But the Court’s opinion eschews any reference to equitable remedies and focuses instead on colloquial discretion.",
+      "source": "article_tag",
+      "length": 818
+    },
+    {
+      "text": "In any event, bankruptcy courts are federal courts, and the federal judicial system has not recognized a distinction between courts of law and equity since 1938.The federal courts today are not structured separately such that some administer law and others equity. Rather, federal courts simply issue equitable remedies (in the traditional sense) or exercise equitable discretion (colloquially) as circumstances require.Within any case, a federal court might invoke the formal law-equity distinction when determining which remedies and procedures are available in a particular dispute.",
+      "source": "article_tag",
+      "length": 585
+    },
+    {
+      "text": "To foreshadow a bit, the Court’s dismissive approach to formal equitable doctrines in bankruptcy cases is consistent with our view of a new bankruptcy exceptionalism. One would think equitable remedies are still available in all federal cases. The notion that this would not be true in a bankruptcy case is exceptional.",
+      "source": "article_tag",
+      "length": 319
+    },
+    {
+      "text": "Another criticism of bankruptcy courts as exceptional comes from Seymour, who has presented the most thorough and sophisticated account of bankruptcy exceptionalism. He observes:Everywhere in bankruptcy, judges alter rights, create remedies, and steer cases out of fidelity to unwritten norms that seek to advance what those within the bankruptcy culture understand to be the better and more efficient functioning of the bankruptcy system. Various scholars have attempted to describe and systemize these norms.",
+      "source": "article_tag",
+      "length": 510
+    },
+    {
+      "text": "Everywhere in bankruptcy, judges alter rights, create remedies, and steer cases out of fidelity to unwritten norms that seek to advance what those within the bankruptcy culture understand to be the better and more efficient functioning of the bankruptcy system. Various scholars have attempted to describe and systemize these norms.",
+      "source": "article_tag",
+      "length": 332
+    },
+    {
+      "text": "Again, we ask: What is exceptional here? It is easy for those in a certain field to convince themselves that what they are doing is “special” or “unique.” But unwritten norms appear throughout our legal system, and courts regularly challenge or push back on those norms.Recounting specific unwritten norms is useful to understanding bankruptcy law,just as it is useful in understanding other areas of law. Bankruptcy cases may require the exercise of judicial discretionmore oftenthan civil cases,but bankruptcy courts use the same methods and procedures as other courts.Thus, whatever differences exist are a matter of degree rather than kind. The claim that bankruptcy courts are exceptional because they craft remedies, alter rights, and observe or rely on unwritten norms strikes us as a peculiarly narrow and parochial view.",
+      "source": "article_tag",
+      "length": 829
+    },
+    {
+      "text": "The previous Section deals with some of the rhetoric used in discussing bankruptcy exceptionalism. Other accounts suggest the underlying concern is about the constitutionality of bankruptcy procedure. We turn now to those accounts.",
+      "source": "article_tag",
+      "length": 231
+    },
+    {
+      "text": "1.Substantive Authority. Congress’s authority to create bankruptcy law comes from the Constitution’s Bankruptcy Clause.The substantive limits of this power are broad but untested.Often, then, the real question is about statutory interpretation: What has Congress authorized?",
+      "source": "article_tag",
+      "length": 274
+    },
+    {
+      "text": "One criticism of bankruptcy courts as exceptional is that they exercise more authority than granted to them by Congress. That position, however, disregards the plain text of the Bankruptcy Code, which contains broad language delegating discretion and authority to courts. The discretionary powers bankruptcy courts possess are based not on an antiquarian notion that they are “courts of equity” or that they exercise “equitable powers,” but rather on specific provisions of the Bankruptcy Code that delegate authority to bankruptcy courts and empower the courts to respond to novel or complex issues. For example, Section 1123(b)(6) gives a bankruptcy court authority to approve a plan that includes “any other appropriate provision not inconsistent with the applicable provisions of this title.”Section 1112(b) allows a court to dismiss a case “for cause.”Section 364(d) provides that a court “may authorize” the debtor to obtain credit if certain conditions are met, including a finding that the affected parties have received “adequate protection.”Section 510(c) provides that a court “may under principles of equitable subordination, subordinate an allowed claim to all or part of another allowed claim or all or part of an allowed interest to all or part of another allowed interest.”Section 1129(a) requires that a plan of reorganization have been “proposed in good faith.”And Section 1129(b) requires that a nonconsensual plan be “fair and equitable” and that it not “discriminate unfairly” to be approved.These provisions all explicitly delegate policymaking authority and discretion to bankruptcy courts, establishing clear statutory grounds for flexible and responsive judicial decision-making.",
+      "source": "article_tag",
+      "length": 1704
+    },
+    {
+      "text": "And then there is Section 105(a), which gives bankruptcy courts authority to “issue any order, process, or judgment that is necessary or appropriate to carry out the provisions of this title.”This language allows for some gap-filling by bankruptcy judges.While Section 105(a) gets a lot of attention and is criticized as a source of bankruptcy exceptionalism, it is quite the opposite. The language of 105(a) mirrors the language of the All Writs Act,originally enacted in 1789, which grants similar powers to other federal courts. Thus, Section 105(a) merely gives bankruptcy courts the same powers that other courts possess elsewhere.",
+      "source": "article_tag",
+      "length": 636
+    },
+    {
+      "text": "2.Procedural Authority and Constitutional Structure. Procedurally things are a bit more complicated. Congress established an elaborate and complicated system for the adjudication of bankruptcy matters. And one exceptionalist criticism of that system is that bankruptcy courts issue judgments untethered from constitutional limitations on their power.Bankruptcy judges are not “Article III” judges,but they are adjudicating disputes over private rights that arguably fall under the exclusive judgment power of Article III and state courts.This argument rests on a view that the Constitution protects property and liberty interests by making Article III judges, who have lifetime tenure and salary protections, available to adjudicate private disputes among individual litigants.",
+      "source": "article_tag",
+      "length": 777
+    },
+    {
+      "text": "By this reasoning, constitutional protections are lost when non-Article III bankruptcy courts adjudicate controversies involving private rights. The argument implies bankruptcy courts should be courts ofextremelylimited jurisdiction. What is exceptional is not the power they exercise, but the fact that a non-Article III court is exercising that power. That is, when bankruptcy judges exercise equitable powers—even those based on the text of the Bankruptcy Code—a constitutional exceptionalist would argue they must be reined in to protect the structure created by Article III. Perhaps the bankruptcy system, by granting appellate authority to district courts, is immune to some versions of this critique, but a very strong commitment to Article III exceptionalism might perceive even that to be insufficient.",
+      "source": "article_tag",
+      "length": 811
+    },
+    {
+      "text": "As a practical matter, we think that critique overstates things. Bankruptcy courts are subject to appellate review, which should alleviate structural concerns, at least if one accepts the appellate model of judicial review.And, as a formal matter, the powers created by the Bankruptcy Code are ultimately vested in Article III district courts, which have jurisdiction over bankruptcy and related matters.While the district courts do (as a matter of course) refer bankruptcy cases to bankruptcy judges in their districts,they always retain the power of appellate reviewand can withdraw the reference to take a case back.Thus, although bankruptcy courts are the courts of first instance for virtually all bankruptcy cases, they exercise that power as adjuncts to, and subject to the discretion of, an Article III district court judge.",
+      "source": "article_tag",
+      "length": 832
+    },
+    {
+      "text": "3.Due Process. A final constitutional challenge is that bankruptcy courts fail to protect due process rights. Because bankruptcy courts are resolving private rights disputes outside of the direct control of Article III there is a risk of depriving parties of their right to a jury, forcing parties to give up choice of law rights, or coercing premature settlements. According to those who hold this view, bankruptcy law’s pursuit of judicial efficiency is in tension with due process values. While we are skeptical of such due process arguments—for reasons set forth elsewhere—they do reflect a recurring concern about the constitutionality of certain bankruptcy practices.",
+      "source": "article_tag",
+      "length": 673
+    },
+    {
+      "text": "Courts have occasionally echoed these concerns about bankruptcy exceptionalism, often cabining bankruptcy court power on formalist grounds. Until recently, this formalism reflected a structural commitment to the special place of Article III courts.",
+      "source": "article_tag",
+      "length": 248
+    },
+    {
+      "text": "Throughout the twentieth century, judicial review of bankruptcy exceptionalism tracked the constitutional concerns described in the previous Part. The Supreme Court sometimes limited bankruptcy authority and sometimes accommodated broad discretion, but when the Court worried that bankruptcy practice did not provide sufficient due process or Article III review, it considered the constitutionality of the practice head on and issued a constitutional ruling.",
+      "source": "article_tag",
+      "length": 458
+    },
+    {
+      "text": "The most direct challenge to the constitutionality of bankruptcy courts came in the early 1980s, inNorthern Pipeline Construction Co. v. Marathon Pipe Line Co., which involved the power to adjudicate contract disputes.A divided court announced that bankruptcy courts did not have that power. It was relevant to the Justices decidingNorthern Pipelinethat bankruptcy courts were neither territorial courts nor military courts-martial and that the case in question was not a public rights dispute.As a result, bankruptcy courts did not, according to Justice Brennan’s plurality decision, fall within any of the historic exceptions to the requirements of Article III.",
+      "source": "article_tag",
+      "length": 663
+    },
+    {
+      "text": "TheNorthern Pipelinedecision led to the passage of the Bankruptcy Amendments and Federal Judgeship Act of 1984 (BAFJA), which made bankruptcy judges “a unit of the district court.”BAFJA seemingly endorsed the appellate review model in which non-Article III courts can be allowed to adjudicate private disputes if certain “jurisdictional” facts are subject to de novo review in an Article III court.",
+      "source": "article_tag",
+      "length": 398
+    },
+    {
+      "text": "To the extent that criticisms of bankruptcy exceptionalism are aimed at bankruptcy courts (a) deciding private rights disputes and (b) lacking Article III status, it is worth noting that members of the Supreme Court personally contributed to making bankruptcy courts exceptional in this way. In the early 1980s, Congress considered two reforms to respond to theNorthern Pipelinedecision. One would have afforded bankruptcy judges Article III status.The other proposed to give jurisdiction to district court judges who were given authority to refer cases to bankruptcy judges.Chief Justice Warren Burger lobbied against the first proposal arguing it “would dilute the prestige and quality of the Federal judiciary.”Thus, if bankruptcy courts are exceptional when they exercise powers that properly belong to Article III courts, that is at least partially the fault of a Supreme Court Justice who was worried about degrading the status and prestige of non-bankruptcy Article III courts.",
+      "source": "article_tag",
+      "length": 984
+    },
+    {
+      "text": "AfterNorthern Pipeline, the next major case to address the constitutionality of bankruptcy courts was not about bankruptcy at all. It was instead about the constitutionality of adjudication by the Commodities Futures Trading Commission (CFTC). Even so, the case,CFTC v. Schor,was widely understood to implicate the same Article III issue that had been raised four years earlier inNorthern Pipeline. InSchor, the Supreme Court held that the CFTC had authority to adjudicate the kinds of private law disputes thatNorthern Pipelinehad held unconstitutional.Crucially, however, the Court pointed out that parties had consented to adjudication by the CFTC:Congress gave the CFTC the authority to adjudicate such matters, but the decision to invoke this forum is left entirely to the parties and the power of the federal judiciary to take jurisdiction of these matters is unaffected. In such circumstances, separation of powers concerns are diminished, for it seems self-evident that just as Congress may encourage parties to settle a dispute out of court or resort to arbitration without impermissible incursions on the separation of powers, Congress may make available a quasi-judicial mechanism through which willing parties may, at their option, elect to resolve their differences.Read together,Northern PipelineandSchorcreate the impression that Article III courts must be available to hear certain private rights disputes, though theSchorCourt carved out an exception when parties consent to a non-Article III adjudicatory forum.",
+      "source": "article_tag",
+      "length": 1529
+    },
+    {
+      "text": "Congress gave the CFTC the authority to adjudicate such matters, but the decision to invoke this forum is left entirely to the parties and the power of the federal judiciary to take jurisdiction of these matters is unaffected. In such circumstances, separation of powers concerns are diminished, for it seems self-evident that just as Congress may encourage parties to settle a dispute out of court or resort to arbitration without impermissible incursions on the separation of powers, Congress may make available a quasi-judicial mechanism through which willing parties may, at their option, elect to resolve their differences.",
+      "source": "article_tag",
+      "length": 628
+    },
+    {
+      "text": "Over the next thirty years, the Supreme Court considered the constitutionality of bankruptcy court adjudication on a few more occasions. For example, in 1989, inGranfinanciera, S.A. v. Nordberg, the Court held that the Seventh Amendment guaranteed the right to a jury trial for fraudulent transfer claims even though Congress had designated such claims as “core” proceedings triable by a bankruptcy judge without a jury.As inPurdue, the Court recognized that the constitutional right could “impede swift resolution of bankruptcy proceedings and increase the expense of Chapter 11 reorganizations.”But these practical considerations were “insufficient to overcome the Seventh Amendment’s clear command.”Then, in 2011, inStern v. Marshall, the Court ruled that bankruptcy courts could not issue final judgments involving state law counterclaims.Once again, the statutory designation of such claims as “core” was irrelevant to the constitutional analysis.The Court later tempered this ruling when it announced that the Constitution could tolerate bankruptcy court judgments over private rights when those judgments are subject to de novo review by an Article III court.",
+      "source": "article_tag",
+      "length": 1166
+    },
+    {
+      "text": "But the formal doctrine that emerged between 1982 and 2011 paints only a partial picture of bankruptcy practice in that period. Despite occasionally striking down bankruptcy court judgments on constitutional grounds, for decades the Supreme Court and courts of appeals tolerated broad exercises of bankruptcy court authority—either by reading the language of the Code broadly or by not reviewing bankruptcy court decisions.To that end, courts tolerated bankruptcy court innovations that allowed bankruptcy judges to blur corporate formalities,order nonconsensual third-party releases,dismiss cases for being filed in bad faith,and approve settlements that might deviate from the strict requirements of absolute priority.These innovations occurred quietly as district and circuit courts tolerated bankruptcy court discretion based on the broad language of the Code, and they did so while largely leaving due process and Article III concerns unaddressed.",
+      "source": "article_tag",
+      "length": 952
+    },
+    {
+      "text": "Recently, however, the Supreme Court has begun to avoid constitutional decisions in bankruptcy cases, opting instead to narrowly construe the text of the Code.Our reading ofPurduesuggests this is part of a trend of reading broad provisions of the Bankruptcy Code narrowly to avoid constitutional questions about court structure. Though the courts never explicitly say so, they have adopted something like a canon—seemingly rooted in notions of due process and structural separation of powers concerns—of narrowing the Code’s text.",
+      "source": "article_tag",
+      "length": 530
+    },
+    {
+      "text": "The majority inPurdueprovided a purely statutory explanation for its decision. It argued that nearby text in the Code—found in Sections 1123(b)(1)–(5)—authorizes only specific plan provisions dealing with claims held by the debtor. And so, Justice Gorsuch wrote for the majority, “other appropriate provisions” must be similarly limited to provisions directly relating to claims and property of the debtor.The dissent, by contrast, felt the text’s plain meaning—particularly, the fact that Section 1123(b)(6) allows the inclusion of any “appropriate provision not inconsistent” with other provisions of the Code—gives courts presiding over Chapter 11 proceedings discretion to approve plan provisions that are necessary to resolve complex issues that arise when firms are in financial distress.",
+      "source": "article_tag",
+      "length": 794
+    },
+    {
+      "text": "By our reading, however, non-textual concerns were the driving force behind the majority’s decision. Like the cases described in the previous Section, the majority inPurdueexpressed a concern about structural issues that could be posed by third-party releases. The structural concerns stand out when the Court expresses unease about a “roving commission,” and when it frames the question before it as one about the authority of bankruptcy courts rather than addressing the actual question before it, which dealt with the power of anArticle III court presiding over a bankruptcy case.",
+      "source": "article_tag",
+      "length": 583
+    },
+    {
+      "text": "In fact, one of the most notable parts ofPurdueis that the case satisfied the Article III requirements the Supreme Court had established a decade earlier. As a formal matter, the bankruptcy court order had been subject to and ultimately approved under de novo review in an Article III court (here, the Second Circuit).The case thus came to the Court as one not about the power of a bankruptcy court but about the power of an Article III court hearing a bankruptcy case to approve third-party releases. No direct constitutional claims were even raised on appeal.",
+      "source": "article_tag",
+      "length": 561
+    },
+    {
+      "text": "Yet, the Supreme Court felt compelled to hold that thebankruptcy courthad gone too far in resolving claims against third parties. At one point, the majority announced that “a bankruptcy court’s powers are not limitless.”But no one had argued that they were.Again, the case was about whether the Second Circuit was endowed with the power to approve third-party releases after a de novo review.",
+      "source": "article_tag",
+      "length": 392
+    },
+    {
+      "text": "Driving the point home, although the Court claimed it was engaging in ordinary statutory interpretation, the majority opinion contains a number of passages that would fit comfortably with constitutional arguments from earlier decades. For example, the majority emphasized that the third parties inPurduewere “seek[ing] an injunction ‘permanently and forever’ foreclosing similar suits in the future. And they seek all this without the consent of those affected.”Later, the majority appears to invoke due process values by claiming that Purdue’s theory of nonconsensual third-party releases “suggests those claims can be bargained away without the consent of those affected, as if the claims were somehow Purdue’s own property.”",
+      "source": "article_tag",
+      "length": 727
+    },
+    {
+      "text": "Perhaps most importantly, the majority opinion suggested that a broad theory of Section 1123(b)(6) would have been inconsistent with the history and tradition of the judicial power:No one has directed us to a statute or case suggesting American courts in the past enjoyed the power in bankruptcy to discharge claims brought by nondebtors against other nondebtors, all without the consent of those affected. Surely, if Congress had meant to reshape traditional practice so profoundly in the present bankruptcy code, extending to courts the capacious new power the plan proponents claim, one might have expected it to say so expressly ‘somewhere in the [c]ode itself.’",
+      "source": "article_tag",
+      "length": 666
+    },
+    {
+      "text": "No one has directed us to a statute or case suggesting American courts in the past enjoyed the power in bankruptcy to discharge claims brought by nondebtors against other nondebtors, all without the consent of those affected. Surely, if Congress had meant to reshape traditional practice so profoundly in the present bankruptcy code, extending to courts the capacious new power the plan proponents claim, one might have expected it to say so expressly ‘somewhere in the [c]ode itself.’",
+      "source": "article_tag",
+      "length": 485
+    },
+    {
+      "text": "These quotes are all framed as reasons to adopt a narrow understanding of Section 1123(b)(6), but they resemble the structural arguments that had for decades persuaded the Supreme Court to constitutionally limit bankruptcy courts’ judgment power. For example, in pointing out that nonconsensual third-party releases would give Purdue a property right in plaintiffs’ claims, the majority hints—without saying so outright—that nonconsensual third-party releases would amount to an unconstitutional taking, or at least that they would raise property-rights concerns. Similarly, concerns about “roving” and “limitless” bankruptcy court powers resemble concerns that bankruptcy courts are exercising Article III powers. And the resort to history and tradition suggests that Congress needs to provide a clear—in our view, impossibly clear—statement if it wants to “reshape traditional practice” by expanding bankruptcy court powers to include the right to order nonconsensual third-party releases. Those concerns all appear to have been on the minds of the Justices and likely influenced the Court’s interpretation of the text of the Bankruptcy Code.",
+      "source": "article_tag",
+      "length": 1144
+    },
+    {
+      "text": "Because the Court did not explicitly base its ultimate decision on these concerns, we cannot prove the constitutional matters were the primary driver for the Court’s decision. After all, the Court never says it is engaged in constitutional avoidance. But on our read, the opinion—with its asides about structure and history and tradition, its references to the authority of the bankruptcy court, and its forced rendering of theejusdem generisinterpretive principle—reveals a driving concern that nonconsensual third-party releases would curtail plaintiffs’ property rights and assign Article III powers to non-Article III courts.",
+      "source": "article_tag",
+      "length": 629
+    },
+    {
+      "text": "Purdueis the clearest and most important example to date in which the Supreme Court interpreted the Bankruptcy Code narrowly to limit the powers of non-Article III judges and to mitigate perceived constitutional infirmities. But it is not the only instance in which the Court has voiced a concern about the scope of the Bankruptcy Code. For example, inMission Products Holdings, Inc. v. Tempnology, LLC, a case about the right to reject intellectual property licenses in bankruptcy, the Supreme Court observed: “The Code of course aims to make reorganizations possible. But it does not permit anything and everything that might advance that goal.”InCzyzewski v. Jevic Holding Corp., the Court rejected a procedural maneuver, known as a “structured dismissal,” that was used to circumvent the Code’s absolute priority requirement.While the holding of the case was narrow, the Court’s opinion noted: “The importance of the priority system leads us to expect more than simple statutory silence if, and when, Congress were to intend a major departure.”Some lower courts have read this statement to create a clear-statement requirement for interpreting Code provisions that might conflict with absolute priority.Other lower courts have takenJeviceven further, inferring a general policy against bankruptcy court gap-filling.Finally,Jevicitself built on an earlier case,Law v. Siegel, where the Court also made a point of noting that statutory silence “does not give courts discretion to grant or withhold exemptions based on whatever considerations they deem appropriate.”",
+      "source": "article_tag",
+      "length": 1567
+    },
+    {
+      "text": "None of these cases directly confronted a constitutional challenge to any particular bankruptcy practice. Nor did they state explicitly that they were limiting bankruptcy court authority to correct a constitutional infirmity in the U.S. bankruptcy system. Nonetheless, in each case, the Court went out of its way to express its concern that bankruptcy courts were exercising too much authority. And in each one, the Court suggested—as have the scholarly critics of bankruptcy exceptionalism—that such authority is inconsistent with rule of law principles.",
+      "source": "article_tag",
+      "length": 555
+    },
+    {
+      "text": "In that respect, the bankruptcy cases before the Court are consistent with a new bankruptcy exceptionalism where the Court—concerned about proper judicial authority—reads broad grants of authority in the Bankruptcy Code more narrowly than it might elsewhere. For example, as noted above, the Court has taken a much different approach in dealing with broad grants of discretion that run directly and exclusively to Article III courts.",
+      "source": "article_tag",
+      "length": 433
+    },
+    {
+      "text": "So doesPurduecreate or curtail exceptionalism? The question is partly semantic, and the answer depends on how one defines bankruptcy exceptionalism. If bankruptcy exceptionalism means that it is exceptional for non-Article III courts to adjudicate disputes that ordinarily fall under the authority of Article III courts, thenPurdueindirectly limits bankruptcy exceptionalism by announcing a limitation on all courts hearing bankruptcy cases. The non-exceptional approach would be for Article III or state courts to adjudicate private disputes among individuals.Purduehas ensured that a swath of those cases will never be resolved before a bankruptcy judge. One can debate whether this is a good outcome. We think it is not.",
+      "source": "article_tag",
+      "length": 723
+    },
+    {
+      "text": "Besides the merits of which forum should adjudicate these cases, the majority’s interpretive approach also introduces significant uncertainty for bankruptcy courts and practitioners. Instead of confronting the Article III question directly, the Court invented a new kind of bankruptcy exceptionalism by distorting the substantive provisions of the Bankruptcy Code to sidestep underlying procedural concerns about the structural design of the bankruptcy courts. While this constitutional avoidance may have facilitated agreement among a majority of the Court, it has already bred confusion and inconsistency in the lower courts. It is to that problem that we now turn.",
+      "source": "article_tag",
+      "length": 667
+    },
+    {
+      "text": "Many bankruptcy practices exist because judges and lawyers responded creatively to changes in capital markets. Given how little guidance the text itself provides, and how much uncertainty there is about the new structural canon of bankruptcy interpretation, an enormous number of bankruptcy doctrines are vulnerable to Supreme Court reversal. We do not believe the Court will reverse every practice, but the lack of a limiting principle inPurduecould be just as harmful, since corporations and bankruptcy attorneys have little guidance about which bankruptcy principles remain acceptable and which do not. Ironically, then, the Court’s attempt to constrain bankruptcy judges will incentivize unruly and strategic approaches by judges and practitioners. The following Sections provide specific examples of howPurduethreatens future bankruptcy cases in distinct ways.",
+      "source": "article_tag",
+      "length": 865
+    },
+    {
+      "text": "Most obviously,Purduewill change the landscape for settling mass torts in bankruptcy. ThePurdueCourt identified a list of issues upon which it did not pass judgment. These includedconsensualthird-party releases, plans that provide for full satisfaction of claims against a third-party nondebtor, and substantially consummated plans.The dissent was skeptical that these and other practices could survive the majority opinion, and they are now live issues in the lower courts.",
+      "source": "article_tag",
+      "length": 474
+    },
+    {
+      "text": "1. PurdueItself—Preliminary Injunctions and Other Mass Tort Workarounds. The Court’s ruling inPurduedid not end settlement discussions in that case. After the opinion was issued, the bankruptcy judge extended the injunctions against nondebtor litigation to try to secure a global settlement. Across the board, bankruptcy courts have been quick to affirm their power to temporarily enjoin nondebtor litigation during the pendency of bankruptcy proceedings. But the test for granting those injunctions has changed. As one judge explained:Accordingly, to the extent a debtor sought to justify a preliminary injunction on the notion that it was likely to succeed on the merits by ultimately obtaining a third-party release, such an argument would now need to fail in light ofPurdue Pharma.At the same time, the court explained that preliminary injunctions of third-party claims are still “appropriate where the assertion of those claims would interfere with the debtor’s reorganization efforts.”",
+      "source": "article_tag",
+      "length": 991
+    },
+    {
+      "text": "Accordingly, to the extent a debtor sought to justify a preliminary injunction on the notion that it was likely to succeed on the merits by ultimately obtaining a third-party release, such an argument would now need to fail in light ofPurdue Pharma.",
+      "source": "article_tag",
+      "length": 249
+    },
+    {
+      "text": "And that is howPurduehas proceeded. Litigation against the Sacklers is still enjoined while the parties continue to negotiate toward a near-global settlement. Reports and court filings suggest they are close to a deal. But the parties have had to add creative mechanisms to protect against the risk of holdouts. According to one report, while the Sacklers have increased their settlement offer by $500 million, they have also added a condition requiring the claimants “to set aside as much as $800 million in an account akin to a legal-defense fund for the billionaires to fight such cases [brought by the hold outs].”",
+      "source": "article_tag",
+      "length": 618
+    },
+    {
+      "text": "This structure is still subject to judicial approval and plan voting, but it provides a glimpse of the workarounds that might be attempted if mass tort cases are to be settled without nonconsensual releases in bankruptcy court.",
+      "source": "article_tag",
+      "length": 227
+    },
+    {
+      "text": "2. Boy Scouts of America—Equitable Mootness and Full Satisfaction.In its concluding paragraph inPurdue, the Court noted the following:Nor do we have occasion today to express a view on what qualifies as a consensual release or pass upon a plan that provides for the full satisfaction of claims against a third-party nondebtor. Additionally, because this case involves only a stayed reorganization plan, we do not address whether our reading of the bankruptcy code would justify unwinding reorganization plans that have already become effective and been substantially consummated.The Court’s specific mention of full satisfaction and substantial consummation were likely included specifically with the bankruptcy of Boy Scouts of America in mind.",
+      "source": "article_tag",
+      "length": 745
+    },
+    {
+      "text": "Nor do we have occasion today to express a view on what qualifies as a consensual release or pass upon a plan that provides for the full satisfaction of claims against a third-party nondebtor. Additionally, because this case involves only a stayed reorganization plan, we do not address whether our reading of the bankruptcy code would justify unwinding reorganization plans that have already become effective and been substantially consummated.",
+      "source": "article_tag",
+      "length": 445
+    },
+    {
+      "text": "TheBoy Scoutscase presents perhaps the most compelling case for nonconsensual third-party releases. The bankruptcy resulted from over eighty thousand claims of sexual abuse brought against the Boys Scouts of America and tens of thousands of its affiliates.The plan of reorganization in that case created a multi-billion-dollar settlement trust for victims funded by contributions from thousands of entities including the Boy Scouts of America, local Boy Scouts councils, chartered organizations (which operated or sponsored local Boy Scouts programs and include small and large churches and charitable organizations), and insurers of those parties.To facilitate this settlement the plan included broad releases for these participating parties. Notably, and in contrast to thePurduecase, the releases in theBoy Scoutscase do not include any individual who directly committed (or was alleged to have committed) an act of abuse.",
+      "source": "article_tag",
+      "length": 925
+    },
+    {
+      "text": "The Boy Scouts’ plan was confirmed by the bankruptcy court and now sits under consideration before the Third Circuit.Opponents of the plan argue it should be rejected under the reasoning ofPurduebecause local councils, chartering organizations, and insurers are receiving nonconsensual nondebtor releases.",
+      "source": "article_tag",
+      "length": 305
+    },
+    {
+      "text": "But proponents of the plan make two arguments for why it should survive thePurduedecision. First, at the time of thePurduedecision, the Boy Scouts’ plan was already confirmed and had been making payouts to victims for over a year. Thus, they argue, it was “substantially consummated,” and the case is “equitably moot.”Because thePurdueCourt specifically declined to opine on substantial consummation, one might expect the Third Circuit to affirm the case, drawing some comfort that the Supreme Court will not step in to reverse.",
+      "source": "article_tag",
+      "length": 528
+    },
+    {
+      "text": "That said, there is considerable disagreement among judges about the notion that a bankruptcy case becomes immune to appellate review simply because there are limits to the available relief upon reversal. We do not expect equitable mootness to be a long-lived doctrine. Unlike third-party releases, it is actually a doctrine unmoored from statutory authority, which is likely to offend the Court’s sense of textualism. On top of that, it is a judge-made doctrine that shields bankruptcy judges from Article III review.If our analysis above is correct, that is exactly the kind of doctrine that keeps formalist Justices up at night. Indeed, one Third Circuit judge—who currently sits on the panel for theBoy Scoutscase—has criticized the equitable mootness doctrine several times, labelling it “legally ungrounded and practically unadministrable.”",
+      "source": "article_tag",
+      "length": 846
+    },
+    {
+      "text": "The proponents of the plan in theBoys Scoutscase might have two additional arrows in their quiver. First, Section 363(m) of the Code specifically protects certain asset sales from appellate review after they have been consummated.TheBoy Scoutssettlement plan included the sale of insurance policies back to insurers for almost $1.6 billion free and clear of any claims against the policiesas part of the release structure.These sales were bound up with the entire plan and the releases of other nondebtor entities and co-insured parties. A court might read Section 363(m) as protecting a consummated saleand all intertwined transactionsfrom appellate review. As one might expect, the parties’ briefs very in their views about how intertwined the sales are with other transactions.",
+      "source": "article_tag",
+      "length": 780
+    },
+    {
+      "text": "Finally, there is the argument about full-satisfaction plans, which proponents of theBoy Scoutssettlement plan have leaned on before the Third Circuit.The concept is simple. If a claimant is paid the full amount it is owed by the third-party nondebtor, then there is nothing left to argue about, and the release cannot harm anyone. The full-satisfaction doctrine is most intuitive in an insurer or joint tortfeasor context. A victim who suffered $1 million in damages may be entitled to recover $1 million from either the debtor or a third party or both. But the victim is not entitled to recovermorethan $1 million in damages just because there might be two possible defendants. If the victim attempted to bring suit after fully recovering, the prior recovery would be a defense, and the case would be dismissed. And so, some courts have said that a bankruptcy court can release the victims’ claims against the nondebtor when the debtor’s estate is providing full satisfaction of the claim (here, $1 million).",
+      "source": "article_tag",
+      "length": 1010
+    },
+    {
+      "text": "But implementation of the doctrine is fraught. Set aside future claimants, where the full-satisfaction doctrine is meaningless, and one still must figure out who decides what counts as full satisfaction. At the time of a mass tort settlement, most victims have not had their individual claims litigated. The court does not know the amount of a particular objecting victim’s claim against the nondebtor (or against the debtor for that matter).",
+      "source": "article_tag",
+      "length": 442
+    },
+    {
+      "text": "What does it mean then to say that the claim against the nondebtor is fully satisfied by the settlement trust? This question has two components. First, how much is owed to the victim, and second, when will the money be made available to the victims? In theBoy Scoutscase, the judge made a detailed factual finding based on expert testimony to the effect that there would be enough money in the settlement trust to pay all claims in full. This is essentially a statistical finding that all potential liabilities will likely be covered, but it is far from a certainty.",
+      "source": "article_tag",
+      "length": 566
+    },
+    {
+      "text": "As a practical matter, we think this method of achieving settlement promotes the public interest. But it is hard to see how it survives the holding inPurdue. The bankruptcy judge inPurdue, subject to review by the Second Circuit, made a factual determination that the victims would be worse off without the proposed settlement containing releases. The Supreme Court seems to have said that is insufficient to justify binding the holdouts. Things may be different, the Court says, when the bankruptcy court makes a factual finding that the settlement fully compensates victims. But what if the victims disagree? Under what statutory authority can they be bound?",
+      "source": "article_tag",
+      "length": 660
+    },
+    {
+      "text": "As Justice Kavanaugh noted in his dissent:Again, the only provision that could possibly supply authority to include those full-satisfaction releases in a bankruptcy plan is the catchall in § 1123(b)(6). Any contract-law theory would not work for full-satisfaction releases, given that holdout creditors often refuse to consent to full-satisfaction releases. So if full-satisfaction releases are to be allowed, § 1123(b)(6) must be read to reach creditor claims against non-debtors, even without consent.But that is exactly what thePurduemajority rejected.",
+      "source": "article_tag",
+      "length": 555
+    },
+    {
+      "text": "Again, the only provision that could possibly supply authority to include those full-satisfaction releases in a bankruptcy plan is the catchall in § 1123(b)(6). Any contract-law theory would not work for full-satisfaction releases, given that holdout creditors often refuse to consent to full-satisfaction releases. So if full-satisfaction releases are to be allowed, § 1123(b)(6) must be read to reach creditor claims against non-debtors, even without consent.",
+      "source": "article_tag",
+      "length": 461
+    },
+    {
+      "text": "One version of the full-satisfaction doctrine that might survive post-Purduescrutiny would be for courts to allow channeling injunctions that require victims to bring cases against the fund until and unless the fund runs out of money. Such injunctions could be considered in aid of a rule that a tort victim is only entitled to one satisfactionbut would not bind victims to a release that may result in less than full payment. This would be consistent with the court’s authority to enter injunctions either under Section 105(a)’s grant of power necessary to enforce a plan or the All Writs Act’s grant of authority in aid of a court’s jurisdiction.",
+      "source": "article_tag",
+      "length": 648
+    },
+    {
+      "text": "Such releases would become ineffective if, years down the road, the fund ran out of money. It is not clear whether debtors would get behind that version of releases. On the one hand, if the funds truly are providing full satisfaction, the possibility of the fund running out should be negligible. On the other hand, the entire point of the releases is to provide finality in aid of settlement. Precisely because the number and magnitude of future claims is unknown and plagued by variance, the tail risk is high.",
+      "source": "article_tag",
+      "length": 512
+    },
+    {
+      "text": "In the end, we suspect that theBoy Scoutssettlement plan will survive. The Third Circuit will likely affirm the confirmation of the plan pointing to some or all the grounds discussed, and the Supreme Court will sit this one out. This is good news for the victims waiting for their recoveries, but the full-satisfaction doctrine seems unlikely to be the hook to justify future mass tort settlements. This uncertainty is bad news for victims in similar bankruptcy cases that are pending or yet to be filed, such as those involving sexual abuse allegations in dozens of Catholic Church dioceses.",
+      "source": "article_tag",
+      "length": 592
+    },
+    {
+      "text": "During oral argument inPurdue, Justice Thomas repeatedly questioned whether the validity of consensual releases and nonconsensual releases were inextricably linked.Justice Kavanaugh’s dissent suggested they are. Noting that there was no other provision in the Code allowing for releases, he concluded that “the only provision that could possibly supply authority to include those [consensual] releases in the bankruptcy plan is the catchall in § 1123(b)(6).”",
+      "source": "article_tag",
+      "length": 458
+    },
+    {
+      "text": "The Court explicitly declined to answer the question, noting only that such releases “may rest on different legal grounds.”The problem is difficult because a consensual nondebtor release included in a bankruptcy plan is more than a private settlement contract. With a consensual release, a debtor is putting the release provision into a bankruptcy plan that is disclosed to and voted on by its creditors, asking the court to approve that plan, and essentially asking for a preemptive federal court order enforcing the terms of the release. The debtor may even condition approval of the plan upon reaching a certain threshold of consent.Because this is all tied up in the Chapter 11 plan-confirmation process, the authority for such releases would lie in a provision of bankruptcy law, as opposed to state contract law.",
+      "source": "article_tag",
+      "length": 818
+    },
+    {
+      "text": "Lower courts have unsurprisingly fractured in their post-Purdueapproach to consensual releases. While no court has yet held consensual releases to be entirely off-limits, several courts have limited the means by which consent can be registered. The issue comes up most frequently in deciding whether consent can be achieved through opt-in or opt-out provisions. The bankruptcy courts have varied in their approaches to this issue. For example, one bankruptcy judge in Delaware explained, “[a]fterPurdue Pharma, a third-party release is no longer an ordinary plan provision that can properly be entered by ‘default’ in the absence of an objection.”The judge likened opt-out consent provisions in a plan to leaving a letter on a car’s windshield stating that a failure to respond within ten days constitutes consent to a contract. He concluded: “[A] creditor cannot be deemed to consent to a third-party release without some affirmative expression of the creditor’s consent.”That affirmative expression might take the form of a vote for a plan or some other form of opting in. Another bankruptcy judge in Delaware approved opt-out consent.",
+      "source": "article_tag",
+      "length": 1137
+    },
+    {
+      "text": "In New York, one bankruptcy judge looked to state contract law to require affirmative written consent from each claimholder.One invoked Federal Rule of Civil Procedure 23 to allow opt-out consent.Another allowed opt-out releases where notice was robust and the circumstances suggested that the failure to opt-out was a meaningful signal of consent.In the Southern District of Texas, one bankruptcy judge reasoned that because thePurduecourt explicitly declined to address consensual releases, he was bound only by local pre-Purdueprecedent on what constituted consent.",
+      "source": "article_tag",
+      "length": 568
+    },
+    {
+      "text": "Of course, if we are right that the Court is driven by broader structural concerns, then perhaps the Court will find in the text a path to approving consensual releases (even those with opt-out consent). After all, in prior cases likeWellness International Network v. SharifandSchor, the Court has already indicated that its structural concerns are greatly reduced when the parties consent.But here, again, the Court’s methodological approach introduces a great deal of uncertainty. Because it did not directly identify structure as the basis for its holding, practitioners are left to anticipate how the new bankruptcy exceptionalism will operate in future cases. And the lower courts are supposed to apply the holding of the case—not our view of its motivation.",
+      "source": "article_tag",
+      "length": 763
+    },
+    {
+      "text": "One area of bankruptcy practice that has become increasingly important was not mentioned in thePurdueopinion: cross-border proceedings. When a debtor has assets in multiple jurisdictions, there are complicated procedures involved in coordinating insolvency proceedings. A debtor might initiate its main insolvency proceedings in Hong Kong or the United Kingdom and then seek to enforce the results of those proceedings with regard to assets or creditors in the United States. The legal mechanism for so doing is recognition and enforcement of the foreign proceedings under Chapter 15 of the Bankruptcy Code.",
+      "source": "article_tag",
+      "length": 607
+    },
+    {
+      "text": "But what if the foreign proceedings include nonconsensual nondebtor releases? Those releases are common in other jurisdictions. They are granted broadly in the United Kingdom, under certain circumstances in Hong Kong, and at least with respect to affiliate entities in many European jurisdictions. U.S. bankruptcy courts have routinely recognized foreign proceedings including third-party releases even when those exact releases would not have been available under Chapter 11.",
+      "source": "article_tag",
+      "length": 476
+    },
+    {
+      "text": "Purdueshould change none of that. The principles of comity and foreign recognition that undergird Chapter 15 counsel courts to recognize and enforce foreign proceedings as long as the creditors received a “full and fair opportunity to be heard in a manner consistent with U.S. due process standards.”Nonrecognition is reserved for cases where the foreign proceedings are “manifestly contrary to the public policy of the United States.”",
+      "source": "article_tag",
+      "length": 435
+    },
+    {
+      "text": "It would be surprising for a court to hold that nonconsensual nondebtor releases were manifestly against the public policy of the United States. While the Court struck down the use of nonconsensual releases, it never suggested that they were fundamentally at odds with public policy. Even afterPurdue, nonconsensual third-party releases are still available in cases involving asbestos (under Section 524(g) of the Bankruptcy Code), and the Court made a point of noting that “Congress may choose to add to the bankruptcy code special rules for opioid-related bankruptcies as it has for asbestos-related cases.”In the wake ofPurdue, several courts have already recognized foreign proceedings with nonconsensual releases, holding they were not contrary to public policy.",
+      "source": "article_tag",
+      "length": 767
+    },
+    {
+      "text": "And yet, the Office of the United States Trustee has come out strongly on this issue, already challenging the Chapter 15 recognition of a Hong Kong proceeding on the ground that afterPurdueall nonconsensual nondebtor releases are contrary to the public policy of the United States. The Trustee argued:[T]he relief requested is “manifestly contrary to public policy” because third-party releases may not be imposed without consent through a bankruptcy plan under United States law.Harrington v. Purdue Pharma, L.P., 603 U.S. ___, 144 S. Ct. 2071 (2024). Accordingly, the Court cannot grant comity and enforce the nonconsensual third-party releases issued through a scheme in the Hong Kong Proceeding.",
+      "source": "article_tag",
+      "length": 699
+    },
+    {
+      "text": "[T]he relief requested is “manifestly contrary to public policy” because third-party releases may not be imposed without consent through a bankruptcy plan under United States law.Harrington v. Purdue Pharma, L.P., 603 U.S. ___, 144 S. Ct. 2071 (2024). Accordingly, the Court cannot grant comity and enforce the nonconsensual third-party releases issued through a scheme in the Hong Kong Proceeding.",
+      "source": "article_tag",
+      "length": 398
+    },
+    {
+      "text": "The Trustee’s choice to object in this particular case is surprising since the releases in question are fairly run-of-the mill, involving inter-company guaranties of a Chinese property developer (as opposed to tort claims arising out of operations in the United States). With those facts, the case is likely to result in a bankruptcy court opinion supporting the recognition of foreign proceedings with nondebtor releases.",
+      "source": "article_tag",
+      "length": 422
+    },
+    {
+      "text": "The Trustee also appears to be indifferent to the necessity of such releases in other global jurisdictions where nondebtor releases are essential to coordinating insolvency proceedings that involve multi-entity debtors. Most large business are made up of several legal entities. Thus, the enterprise includes a parent entity and many subsidiaries. The parent and subsidiaries might be liable on the same debt.It is difficult in those situations to resolve the liabilities of one entity without resolving the liabilities of the others. In the United States, this problem can be solved by bringing the bankruptcy cases for all of the affiliates into one proceeding. This “administrative consolidation” allows all the cases to be heard before the same judge. When it comes time to approve releases, all of the entities are debtors, and some courts even let the parties vote on one plan that covers the whole enterprise.The upshot is that there are no “nondebtors.”",
+      "source": "article_tag",
+      "length": 961
+    },
+    {
+      "text": "That procedural mechanism is not always available in other jurisdictions, many of which would require separate proceedings—sometimes in front of different courts—for each entity.This introduces coordination problems when it comes time to vote on the final resolution of the cases. Many of those jurisdictions address the problem with nondebtor releases. They allow one anchor debtor to initiate a proceeding and then propose a resolution that includes nonconsensual nondebtor releases for affiliates.",
+      "source": "article_tag",
+      "length": 500
+    },
+    {
+      "text": "The bankruptcy of multi-entity debtors with cross-liabilities requires at least one of these two mechanisms (releases or administrative consolidation) to function. Blocking third-party releases in Chapter 15 could make it impossible for insolvency proceedings from jurisdictions like the United Kingdom, Hong Kong, the Netherlands, and Germany to be effectively enforced in the United States.",
+      "source": "article_tag",
+      "length": 392
+    },
+    {
+      "text": "Down the road, precedent allowing recognition is likely to form the foundation of a more radical maneuver whenUnited States-based companies seeking nondebtor releases take their insolvency cases to another country. As we have explained in other work, there is little stopping a U.S. debtor from initiating insolvency proceedings abroad and then using Chapter 15 to enforce those proceedings in the United States. For this strategy to work, the debtor needs two things: 1) a welcoming jurisdiction—like the United Kingdom—that permits insolvency forum shopping and views nondebtor releases favorably;and 2) post-PurdueChapter 15 precedent recognizing and enforcing foreign plans with nondebtor releases. The Trustee’s objection inYuzhou Group Holdings Co.is likely to produce the latter.",
+      "source": "article_tag",
+      "length": 786
+    },
+    {
+      "text": "The list of practices drawn into question byPurdueis seemingly endless. For example, bankruptcy courts regularly grant exculpations to protect the debtor’s agents and fiduciaries from lawsuits related to work performed during the bankruptcy. Like third-party releases, these provisions find no express authorization in the Code outside of Section 1123(b)(6). Similarly, some bankruptcy courts have taken to issuing “gatekeeping” injunctions.These measures essentially require a litigant to come before the bankruptcy court asking permission to proceed with certain claims against nondebtors (usually insiders or fiduciaries). Again, there is no direct statutory provision other than Section 1123(b)(6) on point.",
+      "source": "article_tag",
+      "length": 711
+    },
+    {
+      "text": "Doctrines like substantive consolidation, the true-sale doctrine, debt recharacterization,and vote designation are all on similarly shaky footing.As are common sense rulings that prohibit the diversion of assets to the families of insiders.Similarly, the procedural matter of administrative consolidation, which often allows creditors to treat large multi-entity enterprises as one for voting and other administrative purposes,cannot be fully justified by the plain text of the Code nor of the Federal Rules of Bankruptcy Procedure.",
+      "source": "article_tag",
+      "length": 532
+    },
+    {
+      "text": "Even more fundamentally, bankruptcy courts have long assumed the power to dismiss cases that were not filed in good faith. But if one reads the Code the way the majority did inPurdue, even this power is in doubt. Section 1112(b) of the code allows dismissal for cause. But it then provides a list of sixteen instances that would constitute “cause,” each one relating to behavior of the debtorafter filing.In contrast, good faith filing deals exclusively with things that occurred up until the moment of filing. ThePurdueCourt’s invocation of theejusdem generiscanon suggests then that dismissal for cause can never include lack of good faith nor any other pre-filing causes. Are bankruptcy courts that require good faith at filing operating with a roving commission?",
+      "source": "article_tag",
+      "length": 766
+    },
+    {
+      "text": "This all leaves the bankruptcy law in a state of great uncertainty. We do not think any legislative reforms are likely to change that. Nor, however, do we suggest bankruptcy courts and lawyers will abandon all innovative practices and just close shop.Rather, we suspect the bankruptcy practice will start (has already started!) erecting workarounds to avoid the effect of the Court’s new bankruptcy exceptionalism. Ironically, we expect thatPurduewill be a catalyst in creating a real and pernicious gap between the “law on the books” and the “law on the ground.” As Article III courts set up formalist barriers to the operation of the Code as written, the practice will be forced to adopt more evasive and contrived workarounds. Injunctions will be structured to dissuade or bind hold outs. The scope of injunctions,exculpations, and gatekeeping clauses will be expanded (at least until the courts of appeal prohibit them altogether). Releases will migrate to settlementsand going concern salesthat are entered long before the plan and structured to be irreversible. Plans might be structured to accelerate mootness. Debtors will push the envelope on what counts as full satisfaction. And so on, until it is just bankruptcy exceptionalism feeding on bankruptcy exceptionalism.",
+      "source": "article_tag",
+      "length": 1277
+    },
+    {
+      "text": "Purdueis an oddity. By our reading, the Court distorted the meaning of the statutory text to jealously protect Article III power. Rather than directly rebuke Congress for allowing non-Article III courts to share Article III power, the Court has adopted a canon allowing it to ignore the statutes produced by Congress. The canon could also be viewed as an analogue to the major questions doctrine that the Court has applied to administrative agencies. Again, the oddity is in applying this doctrine to cases that are brought before Article III courts. In a sense, the Court is altering the interpretation of statute rather than directly rebuking Congress for what it views as the original sin: delegating judicial authority to a non-Article III entity.Ironically, in doing so it constrains the power of all courts—Article III included—to resolve complex bankruptcy cases. That is exceptional. And it is a recipe for unruliness.",
+      "source": "article_tag",
+      "length": 926
+    },
+    {
+      "text": "Anthony J. Casey is the Donald M. Ephraim Professor of Law and Economics at the University of Chicago Law School and the Faculty Director of the Center on Law and Finance. Joshua C. Macey is an Associate Professor of Law at Yale Law School.",
+      "source": "article_tag",
+      "length": 240
+    },
+    {
+      "text": "Authors’ note:The Richard Weil Faculty Research Fund and the Paul H. Leffmann Fund provided generous research support to Casey. We are grateful to William Baude for his excellent comments and to Kelly Bu, Emma Lotts, and Elaine Wang for their excellent research assistance.",
+      "source": "article_tag",
+      "length": 273
+    },
+    {
+      "text": "Id.at 209. Nonconsensual third-party releases are court orders that release nondebtor third parties from claims of liability when not all claimholders consent to the release. These releases are often provided as part of a settlement in exchange for contributions from the party benefitting from the releases. The orders often include channeling injunctions that prevent the claimholders from bringing their claims against the nondebtors and force them instead to bring their claims exclusively against a settlement fund.",
+      "source": "article_tag",
+      "length": 520
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 227–28 (Kavanaugh, J., dissenting).",
+      "source": "article_tag",
+      "length": 67
+    },
+    {
+      "text": "Id.at 220 (majority opinion).",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "N. Pipeline Constr. Co. v. Marathon Pipe Line Co., 458 U.S. 50 (1982); Stern v. Marshall, 564 U.S. 462 (2011).",
+      "source": "article_tag",
+      "length": 110
+    },
+    {
+      "text": "The discretion of the bankruptcy courts is quite routine and provided for by the text of the Bankruptcy Code. Sometimes the Code allocates discretion to the courts by using broad language (like “appropriate”). Other times it invokes the language of equity (like “fair and equitable”). There is nothing particularly exceptional about these grants of discretion. As Justice Scalia wrote more than twenty-five years ago, drafting a law requires a decision about whether to set ex ante rules or to leave matters to ex post judicial discretion. And a court announcing a judicial doctrine must decide how much discretion to leave to future courts.See generallyAntonin Scalia,The Rule of Law as a Law of Rules, 56U. Chi. L. Rev.1175 (1989).",
+      "source": "article_tag",
+      "length": 733
+    },
+    {
+      "text": "In rePurdue Pharma L.P., 69 F.4th 45, 68 (2d Cir. 2023),rev’d sub nom.Harrington v. Purdue Pharma L.P., 603 U.S. 204 (2024).",
+      "source": "article_tag",
+      "length": 124
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 218 (“[W]e do not think paragraph (6) affords a bankruptcy court the authority the plan proponents suppose.”);id.(“Doubtless, paragraph (6) operates to confer additional authorities on a bankruptcy court. But the catchall cannot be fairly read to endow a bankruptcy court with the ‘radically different’ power to discharge the debts of a nondebtor without the consent of affected nondebtor claimants.” (citations omitted));id.at 218–19 (“Each of those ‘other’ paragraphs authorizes a bankruptcy court to adjust claims without consent only to the extent such claims concern the debtor.”);id.at 219 (“The dissent neglects why a bankruptcy court may resolve derivate claims under paragraph (3)… .”);id.at 220 (“[N]o one (save perhaps the dissent) thinks it provides a bankruptcy court with a roving commission to resolve all such problems that happen its way… .”).",
+      "source": "article_tag",
+      "length": 892
+    },
+    {
+      "text": "Indeed, the Supreme Court’s recent bankruptcy jurisprudence repeatedly emphasizes its intention to interpret the Code to narrow the discretion of bankruptcy courts.See infraSection II.B. Meanwhile, the Third Circuit announced a new good-faith filing requirement that will curtail the scope of cases that can come before a bankruptcy judge.See In reLTL Mgmt., LLC, 64 F.4th 84 (3d Cir. 2023).",
+      "source": "article_tag",
+      "length": 391
+    },
+    {
+      "text": "It has even made its way into the insolvency laws of several other jurisdictions around the world.",
+      "source": "article_tag",
+      "length": 98
+    },
+    {
+      "text": "See, e.g., Jonathan C. Lipson,Debt and Democracy: Towards a Constitutional Theory of Bankruptcy, 83Notre Dame L. Rev.605, 611 (2008) (“Bankruptcy appears to result in exceptions to conventional notions about the treatment of a variety of constitutional protections involving, among others, property, due process, and religious liberty.”); Jonathan M. Seymour,Against Bankruptcy Exceptionalism, 89U. Chi. L. Rev.1925, 1956 (2022) (“[B]ankruptcy scholars are close to consensus thatsomekind of bankruptcy exceptionalism exists, whether typified by the claim that the bankruptcy court is a ‘court of equity’ with broad equitable powers, by a distinctly equitable flavor of statutory interpretation, or in some other form.”).",
+      "source": "article_tag",
+      "length": 721
+    },
+    {
+      "text": "Jonathan C. Lipson & Pamela Foohey,The End(s) of Bankruptcy Exceptionalism:Purdue Pharmaand the Problem of Social Debt, 46Cardozo L. Rev.(forthcoming 2025),https://ssrn.com/abstract=5025124.",
+      "source": "article_tag",
+      "length": 190
+    },
+    {
+      "text": "Seymour,supranote 15, at 1930.",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "Perhaps not Justice Gorsuch. But he is an outlier. During his confirmation hearings, one of his Tenth Circuit dissenting opinions refusing to find an equitable exception to a statute was widely criticized. The case—commonly referred to as the “frozen trucker case”—involved a truck driver who was fired for driving his employer’s truck to safety to avoid life-threatening cold. The majority of the Tenth Circuit upheld findings by the Department of Labor (DOL) and an administrative law judge (ALJ) that the termination violated a law prohibiting discharge where an employee “refuses to operate a vehicle” because of unsafe conditions. TransAm Trucking, Inc. v. Admin. Rev. Bd., 833 F.3d 1206 (10th Cir. 2016). Then-Judge Gorsuch dissented, explaining that the driveroperatedthe vehicle and the statute only protectedrefusal to operate. He explained that neither the DOL, nor the ALJ, nor the Tenth Circuit had the power to read an exception into the statute. Far from labeling the majority as “exceptionalist” for its broad interpretation, critics viewed Gorsuch’s position as the exception. One scholar argued that Gorsuch’s approach revealed that that he might be unfit for the Supreme Court. Jed Shugerman,Neil Gorsuch and the ‘Frozen Trucker,’Slate(Mar. 21, 2017, 10:38 AM),https://slate.com/news-and-politics/2017/03/neil-gorsuchs-arrogant-frozen-trucker-opinion-shows-he-wants-to-be-like-scalia.html.",
+      "source": "article_tag",
+      "length": 1407
+    },
+    {
+      "text": "Justice Gorsuch’s reasoning in the frozen trucker case is of a kind with hisPurdueopinion. Both are formalist approaches exhibiting a distrust of judicial discretion exercised in the first instance by non-Article III judges. Similar themes can also be found in his concurrence inLoper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024), which was decided the day afterPurdueand overruled theChevrondoctrine.Id.at 416 (Gorsuch, J., concurring).",
+      "source": "article_tag",
+      "length": 444
+    },
+    {
+      "text": "Section 105(a) gives bankruptcy courts authority to “issue any order, process, or judgment that is necessary or appropriate to carry out the provisions of this title.” 11 U.S.C. § 105(a). Section 1123(b)(6), as discussed, gives bankruptcy courts authority to “include” in a reorganization plan “any other appropriate provision not inconsistent with the applicable provisions of this title.” 11 U.S.C. § 1123(b)(6).",
+      "source": "article_tag",
+      "length": 414
+    },
+    {
+      "text": "Though beyond the scope of this Article, we think that the Article III requirement is satisfied by claimants’ right to appeal bankruptcy court decisions to an Article III court.SeeAnthony J. Casey & Aziz Z. Huq,The Article III Problem in Bankruptcy, 82U. Chi. L. Rev.1155 (2015);see alsoAnthony J. Casey & Joshua C. Macey,The Bankruptcy Tribunal, 96Am. Bankr. L.J.749 (2022).",
+      "source": "article_tag",
+      "length": 375
+    },
+    {
+      "text": "Cf.Anthony J. Casey & Joshua C. Macey,Bankruptcy by Another Name, 133Yale L.J.F.1016 (2024).",
+      "source": "article_tag",
+      "length": 92
+    },
+    {
+      "text": "Lipson & Foohey,supranote 16 (manuscript at 7).",
+      "source": "article_tag",
+      "length": 47
+    },
+    {
+      "text": "SeeHenry E. Smith,Equity as Meta Law, 130Yale L.J.1050, 1057–58 (2021) (“[E]quity in American law is a response to universal problems in legal systems and human institutions generally.”);see alsoSamuel L. Bray,The System of Equitable Remedies, 63UCLA L. Rev530 (2016).",
+      "source": "article_tag",
+      "length": 268
+    },
+    {
+      "text": "Smith,supranote 23, at 1143–44 (identifying equity as useful in cases that present problems of “polycentricity, conflicting rights, and opportunism”).See generallySamuel L. Bray,Equity, Law and the Seventh Amendment, 100Tex. L. Rev.467 (2022) (identifying equity’s role in case aggregation).",
+      "source": "article_tag",
+      "length": 291
+    },
+    {
+      "text": "SeeSamuel L. Bray, A Student’s Guide to the Meanings of Equity (Apr. 21, 2021) (unpublished manuscript),https://ssrn.com/abstract=3821861.",
+      "source": "article_tag",
+      "length": 138
+    },
+    {
+      "text": "See,e.g., Pepper v. Litton, 308 U.S. 295, 304 (1939).",
+      "source": "article_tag",
+      "length": 53
+    },
+    {
+      "text": "SeeBrief for Debtor Respondents at 19, Harrington v. Purdue Pharma L.P., 603 U.S. 204 (2024) (No. 23–124), 2023 WL 7042400.",
+      "source": "article_tag",
+      "length": 123
+    },
+    {
+      "text": "SeeTiffin v. Hart (Eng. Ct. Ch. 1618–19),inReports of Cases Decided by Francis Bacon, Baron Verulam, Viscount St. Albans, Lord Chancellor of England, in the High Court of Chancery(1617–1621), at 161 (John Ritchie ed., 1932); Brief of Amici Curiae Law Professors in Support of Respondents at 9,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124).",
+      "source": "article_tag",
+      "length": 339
+    },
+    {
+      "text": "In rePurdue Pharma L.P., 69 F.4th 45, 79 (2d Cir. 2023) (citingUnited States v. Energy Resources Co., Inc., 495 U.S. 545 (1990), for the proposition that Section 1123(b)(6) should be read as conferring authority “deriving from bankruptcy courts’ status as ‘courts of equity’”).",
+      "source": "article_tag",
+      "length": 277
+    },
+    {
+      "text": "Certain courts within the United States do still function as courts of equity. The Delaware Court of Chancery, which presides over the nation’s most complex corporate and business governance cases, famously does. As a result, complex corporate issues that go before that court are decided by judges arguably exercising discretion and invoking broader remedies than their counterparts in the Delaware Superior Court, which operates as a court of law. One might argue that Delaware’s structure is “exceptional”—it is one of only three states that still maintains separate equity courts—but the structure is one with a long historical pedigree.",
+      "source": "article_tag",
+      "length": 641
+    },
+    {
+      "text": "Other states have started to create specialized business courts in attempts to compete with Delaware. They seek to replicate the specialization of the Delaware Court of Chancery, but without the specific qualities of a court of equity.",
+      "source": "article_tag",
+      "length": 235
+    },
+    {
+      "text": "One noteworthy aspect of this structure is that large corporate bankruptcy proceedings supplant Delaware’s equitable proceedings when it comes to corporate governance claims even though they do not distinguish between law and equity. But this, too, is not “exceptional.” It is a feature of any proceeding in a federal court that could otherwise have been brought in a state court of equity, such as those brought under diversity jurisdiction.",
+      "source": "article_tag",
+      "length": 442
+    },
+    {
+      "text": "Samuel Bray has argued that there is still a system of equity that exists within the unified federal courts. Bray,supranote 23. And the distinction still controls the Seventh Amendment right to a civil jury. Whether a litigant in federal court has a right to a jury turns in part on whether a case would have been brought in a court of law or equity in 1791. This vestige of the law-equity divide applies and is enforced in all federal cases, including bankruptcy cases. Notably, however, the Seventh Amendment does not apply to cases in state court. A party litigating in state court is not entitled to a jury under the Seventh Amendment even if the case arose from federal substantive law.SeeMinneapolis & St. Louis R. Co. v. Bombolis, 241 U.S. 211, 223 (1916).",
+      "source": "article_tag",
+      "length": 763
+    },
+    {
+      "text": "Seymour,supranote 15, at 1938;see alsoLaura N. Coordes,Narrowing Equity in Bankruptcy, 94Am. Bankr. L.J.303, 325 (2020) (describing the practice of “equitable interpretation” in which bankruptcy courts select whatever interpretation of the Code promotes bankruptcy values).",
+      "source": "article_tag",
+      "length": 273
+    },
+    {
+      "text": "SeeWilliam Baude, Jud Campbell & Stephen E. Sachs,General Law and the Fourteenth Amendment, 76Stan. L. Rev1185 (2024); William Baude,Beyond Textualism, 46Harv. J.L. & Pub. Pol’y1331 (2023).",
+      "source": "article_tag",
+      "length": 189
+    },
+    {
+      "text": "SeeDouglas G. Baird, The Unwritten Law of Corporate Reorganizations(2022); Vincent S.J. Buccola,Unwritten Law and the Odd Ones Out, 131Yale L.J.2559 (2022) (reviewing Baird,supra).",
+      "source": "article_tag",
+      "length": 180
+    },
+    {
+      "text": "One of us has argued that bankruptcy courts exist and are valuable because bankruptcy cases pose incomplete contracting problems at higher rates than other cases. Anthony J. Casey,Chapter 11’s Renegotiation Framework and the Purpose of Corporate Bankruptcy, 120Colum. L. Rev.1709, 1744–45 (2020). Having specialist courts with experience in a particular issue is useful. A specialist court will be more adept at reaching the right outcome, but that doesn’t mean they are applying a different law or procedure.",
+      "source": "article_tag",
+      "length": 509
+    },
+    {
+      "text": "We are unaware of any empirical study suggesting that bankruptcy judges exercise discretion in a different way or more often than other judges.",
+      "source": "article_tag",
+      "length": 143
+    },
+    {
+      "text": "U.S.Const.art. I, § 8, cl. 4.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "SeeSiegel v. Fitzgerald, 596 U.S. 464, 473 (2022) (“[T]he subject of bankruptcies is incapable of final definition, and includes nothing less than the subject of the relations between a debtor and his creditors.” (cleaned up)).But seeRalph Brubaker,Mass Torts, The Bankruptcy Power, and the Constitutional Limits on Mandatory No-Opt-Out Settlements, 23Fla. St. U. Bus. Rev.1, 17 (2024) (arguing that there must be some limit related to limited funds).",
+      "source": "article_tag",
+      "length": 451
+    },
+    {
+      "text": "2Collier on Bankruptcy¶ 105.01 (Richard Levin & Henry J. Sommer eds., 16th ed. 2022) (noting the “power to fill in gaps” derived from Section 105(a)).",
+      "source": "article_tag",
+      "length": 150
+    },
+    {
+      "text": "28 U.S.C. § 1651 (“The Supreme Court and all courts established by Act of Congress may issue all writs necessary or appropriate in aid of their respective jurisdictions and agreeable to the usages and principles of law.”).",
+      "source": "article_tag",
+      "length": 222
+    },
+    {
+      "text": "The All Writs Act has, however, been interpreted more broadly by the Supreme Court than Section 105(a). It has formed the basis for the expansions of its shadow docket. Stephen I. Vladeck,The Solicitor General and the Shadow Docket, 133Harv. L. Rev.123, 124–28 (2019); William Baude,Foreword: The Supreme Court’s Shadow Docket, 9N.Y.U. J.L.&Liberty1 (2015). This point has not been lost on litigants. During a February 2025 confirmation hearing, the debtor’s attorneys in the bankruptcy of Red River Talc LLC argued that (notwithstanding the decision inPurdue) the power to issue nonconsensual third-party releases can be found in the All Writs Act.SeeDebtor’s Memorandum of Law in Support of Confirmation of the Second Amended Prepackaged Chapter 11 Plan of Reorganization of Red River Talc LLC at 204–12,In reRed River Talc LLC, No. 24-90505 (Bankr. S.D. Tex. Feb. 20, 2025), Doc. No. 1075.",
+      "source": "article_tag",
+      "length": 892
+    },
+    {
+      "text": "SeeCoordes,supranote 33; Diane Lourdes Dick,Equitable Powers and Judicial Discretion: A Survey of U.S. Bankruptcy Judges, 94Am. Bankr. L.J.265, 269–73, 279–81, 284–95 (2020).",
+      "source": "article_tag",
+      "length": 174
+    },
+    {
+      "text": "They are not appointed by the President with the advice and consent of the Senate and do not enjoy lifetime tenure and protected compensation. Stern v. Marshall, 564 U.S. 462, 486 (2011).",
+      "source": "article_tag",
+      "length": 187
+    },
+    {
+      "text": "Cf.William Baude,The Judgment Power, 96Geo. L.J.1807 (2008) (defining the judgment power).",
+      "source": "article_tag",
+      "length": 90
+    },
+    {
+      "text": "SeeThomas W. Merrill,Article III, Agency Adjudication, and the Origins of the Appellate Model of Administrative Law, 111Colum. L. Rev.939 (2011).",
+      "source": "article_tag",
+      "length": 145
+    },
+    {
+      "text": "Id. § 157. Thus, while it is common to talk about the powers of bankruptcy courts, it is perhaps more technically accurate to speak of bankruptcycasesor refer to a “bankruptcy tribunal.”SeeCasey & Macey,supranote 20.",
+      "source": "article_tag",
+      "length": 216
+    },
+    {
+      "text": "In certain instances, the bankruptcy court’s judgment is advisory and only becomes final after de novo review at the district court.See Stern, 564 U.S. at 475; 28 U.S.C. §§ 157–158.",
+      "source": "article_tag",
+      "length": 181
+    },
+    {
+      "text": "It is not surprising then that critics speak in terms of constraining bankruptcy court power. We adopt that same convention from here on.",
+      "source": "article_tag",
+      "length": 137
+    },
+    {
+      "text": "Bankruptcy makes jury trials available, gives parties the right to appeal adverse judgments, and absent a single bankruptcy proceeding for resolving distressed firms, claimants or plaintiffs who bring suit late are likely to be left with nothing.See generallyCasey & Macey,supranote 21.",
+      "source": "article_tag",
+      "length": 286
+    },
+    {
+      "text": "Sergio Campos & Samir D. Parikh,Due Process Alignment in Mass Restructurings, 91Fordham L. Rev.325 (2022).",
+      "source": "article_tag",
+      "length": 106
+    },
+    {
+      "text": "Id.at 70 (plurality opinion).",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "Bankruptcy Amendments and Federal Judgeship Act of 1984, Pub. L. No. 98-353, § 151, 98 Stat. 333, 336 (“In each judicial district, the bankruptcy judges in regular active service shall constitute a unit of the district court to be known as the bankruptcy court for that district. Each bankruptcy judge, as a judicial officer of the district court, may exercise the authority conferred under this chapter with respect to any action, suit, or proceeding and may preside alone and hold a regular or special session of the court, except as otherwise provided by law or by rule or order of the district court.”).",
+      "source": "article_tag",
+      "length": 607
+    },
+    {
+      "text": "SeeMerrill,supranote 53, at 944 (“The appellate review model—which cast Article III courts in the familiar role of reviewing records made by other tribunals and resolving questions of law—came to be seen as solving this danger of ‘contamination’ of the judicial power by involvement in matters of administration.”);cf. id.at 945 (“The critical point is that the tension perceived by modern commentators between the language of Article III and the use of non-Article III agencies to adjudicate disputes under federal law was largely invisible during the years when the appellate review model was adopted.”).",
+      "source": "article_tag",
+      "length": 606
+    },
+    {
+      "text": "H.R. 1401, 98th Cong., 129Cong. Rec.H512 (daily ed. Feb. 10, 1983).",
+      "source": "article_tag",
+      "length": 67
+    },
+    {
+      "text": "SeeStuart Taylor Jr.,Business and the Law: Dispute on Bankruptcy,N.Y. Times(June 24, 1984),https://www.nytimes.com/1984/07/24/business/business-and-the-law-bitter-dispute-on-bankruptcy.html;see also Bankruptcy Amendments and Federal Judgeship Act of 1984,Nat’l Conf. of Bankr. Judges(Dec. 15, 2023),https://ncbj.org/bankruptcy-amendments-and-federal-judgeship-act-of-1984.",
+      "source": "article_tag",
+      "length": 372
+    },
+    {
+      "text": "The Supreme Court formally extended this line of reasoning to bankruptcy in 2015.SeeWellness Int’l Network v. Sharif, 575 U.S. 665, 679 (2015) (“[W]e conclude that allowing bankruptcy litigants to waive the right to Article III adjudication ofSternclaims does not usurp the constitutional prerogatives of Article III courts.”).",
+      "source": "article_tag",
+      "length": 327
+    },
+    {
+      "text": "Granfinanciera, S.A. v. Nordberg, 492 U.S. 33, 49 (1989).",
+      "source": "article_tag",
+      "length": 57
+    },
+    {
+      "text": "Exec. Benefits Ins. Agency v. Arkison, 573 U.S. 25, 28 (2014).",
+      "source": "article_tag",
+      "length": 62
+    },
+    {
+      "text": "See, e.g., United States v. Energy Res. Co., 495 U.S. 545, 549 (1990) (reading Sections 105(a) and 1123(b)(6) as providing “broad authority to modify creditor-debtor relationships”).",
+      "source": "article_tag",
+      "length": 182
+    },
+    {
+      "text": "See, e.g.,In reBonham, 229 F.3d 750, 771 (9th Cir. 2000) (allowing for substantive consolidation);see also In reOwens Corning, 419 F.3d 195, 208 (3d Cir. 2007) (“Whatever the rationale, courts have permitted substantive consolidation as an equitable remedy in certain circumstances.”).",
+      "source": "article_tag",
+      "length": 285
+    },
+    {
+      "text": "BeforePurdue, six circuits allowed nonconsensual third-party releases, and they did so by reading the Code broadly (and, in our view, correctly).See In reMetromedia Fiber Network, Inc., 416 F.3d 136, 141 (2d Cir. 2005);In reMillennium Lab Holdings II, LLC, 945 F.3d 126, 139 (3d Cir. 2019);In reA.H. Robins Co., 880 F.2d 694, 701–02 (4th Cir. 1989);In reDow Corning Corp., 280 F.3d 648, 656–60 (6th Cir. 2002);In reAiradigm Commc’ns, Inc., 519 F.3d 640, 655–57 (7th Cir. 2008);In reSeaside Eng’g & Surveying, Inc., 780 F.3d 1070, 1075–79 (11th Cir. 2015). Three circuits prohibited them.See In rePac. Lumber Co., 584 F.3d 229, 252 (5th Cir. 2009);In reLowenschuss, 67 F.3d 1394, 1401–02 (9th Cir. 1995);In reW. Real Estate Fund, Inc., 922 F.2d 592, 600 (10th Cir. 1990) (per curiam),modified sub nom.Abel v. West, 932 F.2d 898 (10th Cir. 1991).",
+      "source": "article_tag",
+      "length": 844
+    },
+    {
+      "text": "See, e.g.,In reIntegrated Telecom Express, Inc., 384 F.3d 108, 118 (3d Cir. 2004) (dismissing a case for not being filed in good faith).",
+      "source": "article_tag",
+      "length": 136
+    },
+    {
+      "text": "See, e.g.,In reIridium Operating LLC, 478 F.3d 452, 464 (2d Cir. 2007) (“[T]he bankruptcy court, in its discretion, could endorse a settlement that does not comply in some minor respects with the priority rule if the parties to the settlement justify, and the reviewing court clearly articulates the reasons for approving, a settlement that deviates from the priority rule.”).",
+      "source": "article_tag",
+      "length": 376
+    },
+    {
+      "text": "Jonathan Seymour has described this practice as “structural or holistic textualism.” Seymour,supranote 15, at 1953.",
+      "source": "article_tag",
+      "length": 115
+    },
+    {
+      "text": "See, e.g., Czyzewski v. Jevic Holding Corp., 580 U.S. 451 (2017); Law v. Siegel, 571 U.S. 415, 424 (2014) (“The Code’s meticulous—not to say mind-numbingly detailed—enumeration of exemptions and exceptions to those exemptions confirms that courts are not authorized to create additional exceptions.”).",
+      "source": "article_tag",
+      "length": 301
+    },
+    {
+      "text": "Harrington v. Purdue Pharma L.P., 603 U.S. 204, 218–19 (2024) (“Each of those ‘other’ paragraphs authorizes a bankruptcy court to adjust claims without consent only to the extent such claims concern the debtor. From this, it follows naturally that an ‘appropriate provision’ adopted pursuant to the catchall that purports to extinguish claims without consent should be similarly constrained.”).",
+      "source": "article_tag",
+      "length": 394
+    },
+    {
+      "text": "The most obvious provisions of the Code limiting what can be in a plan are found in Section 1129, which provides an extensive list of requirements that a plan must meet before it is approved. 11 U.S.C. § 1129.",
+      "source": "article_tag",
+      "length": 209
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 240 (Kavanaugh, J., dissenting) (“The Court has explained on numerous occasions that the ‘ordinary meaning’ of a statute authorizing appropriate relief ‘confers broad discretion’ on a court.” (quoting Sch. Comm. v. Dep’t of Ed., 471 U.S. 359, 369 (1985))).",
+      "source": "article_tag",
+      "length": 288
+    },
+    {
+      "text": "As the Second Circuit explained, “the practical import of theSternissue is nonexistent given that only conclusions of law are at issue here, requiring our de novo review under any standard.”In rePurdue Pharma L.P., 69 F.4th 45, 69 (2d Cir. 2023).",
+      "source": "article_tag",
+      "length": 246
+    },
+    {
+      "text": "Brief for the Petitioner at 41,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124), 2023 WL 6220089 (presenting only a constitutional avoidance argument).",
+      "source": "article_tag",
+      "length": 148
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 220.",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "The limitations on third-party releases in a plan or reorganization are found in 11 U.S.C. § 1129. The Second Circuit had gone to great lengths to set out the contours of those limitations.See Purdue Pharma L.P., 69 F.4th at 75–77.",
+      "source": "article_tag",
+      "length": 231
+    },
+    {
+      "text": "By contrast, the Court announced that bankruptcy courts were not endowed with the power to extinguish nondebtor claims against nondebtors.Purdue Pharma L.P., 603 U.S at 220–21.",
+      "source": "article_tag",
+      "length": 176
+    },
+    {
+      "text": "The releases in the case were granted in favor of the members of the Sackler family who had previously owned and managed the company.Id.at 211.",
+      "source": "article_tag",
+      "length": 143
+    },
+    {
+      "text": "Id.at 220;see also id.at 222 (“Yet they seek a judicial order that would extinguish virtually all claims against them for fraud, willful injury, and even wrongful death, all without the consent of those who have brought and seek to bring such claims. In each of these ways, the Sacklers seek to pay less than the code ordinarily requires and receive more than it normally permits.”).",
+      "source": "article_tag",
+      "length": 383
+    },
+    {
+      "text": "Imagine a legislative drafter who did want to grant broad discretion to courts in approving plans of reorganization. This drafter wants plans to conform with all the requirements set forth explicitly in other provisions of the Code, especially Section 1129. But beyond that, the drafter wants to give the parties and the courts leeway. How would that drafter accomplish her objective?",
+      "source": "article_tag",
+      "length": 384
+    },
+    {
+      "text": "Section 1123(b)(6) provides that a plan can approve any appropriate provisions not inconsistent with other provisions of the Code. That is the most direct way of achieving this hypothetical drafter’s objective. By our reading, the other items listed in Sections 1123(b)(1)–(5) are specific things that the drafters worried might be viewed by courts as inconsistent with other provisions. So they specifically listed them as allowable.",
+      "source": "article_tag",
+      "length": 434
+    },
+    {
+      "text": "Perhaps a more adept drafter would have put Section 1123(b)(6) first to convey the point. Beyond that option, there are not many other ways to say that parties can include any appropriate provisions in a plan as long as they are not prohibited elsewhere.",
+      "source": "article_tag",
+      "length": 254
+    },
+    {
+      "text": "Justice Gorsuch avoids this problem by assuming that the question is not how a drafter would grant broad authority that includes releases but rather how a drafter would specifically authorize these exact types of releases. Those are meaningfully different drafting goals. The Court’s approach requires Congress to add to the Section 1123(b) list as every case reveals a new option. That approach undermines the discretionary language, and, by the Court’s logic, every addition further constrains discretion and narrows the set of other appropriate provisions.",
+      "source": "article_tag",
+      "length": 559
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 618–21.",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "Mission Prod. Holdings, Inc. v. Tempnology, LLC, 587 U.S. 370, 386 (2019).",
+      "source": "article_tag",
+      "length": 74
+    },
+    {
+      "text": "See,e.g.,In reHertz Corp., 120 F.4th 1181, 1200 (3d Cir. 2024) (“[T]he Supreme Court concluded [absolute priority] applied everywhere absent a clear statement authorizing a departure.”).",
+      "source": "article_tag",
+      "length": 186
+    },
+    {
+      "text": "See,e.g.,In reSerta Simmons Bedding, LLC, 125 F.4th 555, 589 (5th Cir. 2025) (citingJevicfor the need for a “textual hook” to approve certain bankruptcy settlements);In reGeorge Wash. Bridge Bus Station Dev. Venture LLC, 65 F.4th 43, 52 (2d Cir. 2023) (citingJevicfor the proposition that statutory silence should be read to constrain bankruptcy courts);In rePurdue Pharma L.P., 635 B.R. 26, 37 (Bankr. S.D.N.Y. 2021),rev’d, 69 F.4th 45 (2d Cir. 2023),rev’d sub nom.Harrington v. Purdue Pharma L.P., 603 U.S. 204 (2024) (citingJevicfor the principle that rare case exceptions “will no longer do”). Some bankruptcy judges have pushed back on this reading ofJevic.See In reGenesis Glob. Holdco, LLC, 660 B.R. 439, 488 (Bankr. S.D.N.Y. 2024) (approving a settlement over aJevic-based objection);In reNine W. Holdings, Inc., 588 B.R. 678, 690 (Bankr. S.D.N.Y. 2018) (overruling aJevic-based exception and noting that the Court had left open the possibility of “Code-related objectives that [other] violating distributions serve” (quotingJevic, 580 U.S. at 468)).",
+      "source": "article_tag",
+      "length": 1058
+    },
+    {
+      "text": "571 U.S. 415, 423 (2014);see alsoCity of Chicago v. Fulton, 592 U.S. 154, 166 (2021) (Sotomayor, J., concurring) (“[A]ny gap left by the Court’s ruling today is best addressed by rule drafters and policymakers, not bankruptcy judges.”).",
+      "source": "article_tag",
+      "length": 236
+    },
+    {
+      "text": "As discussed above, the All Writs Act has formed the basis for the Court’s shadow docket,see supranote 49, and has been invoked routinely by lower courts to justify broad injunctions, including in mass tort cases,see, e.g., Stott v. Cap. Fin. Servs., Inc., 277 F.R.D. 316 (N.D. Tex. 2011); Next Level Commc’ns LP v. DSC Commc’ns Corp., 179 F.3d 244 (5th Cir. 1999);In reJohns-Manville Corp., 27 F.3d 48 (2d Cir. 1994);In reBaldwin-United Corp., 770 F.2d 328 (2d Cir. 1985);In reCorrugated Container Antitrust Litig., 659 F.2d 1332 (5th Cir. 1981); United States v. N.Y. Tel. Co., 434 U.S. 159 (1977); Teas v. Twentieth Century-Fox Film Corp., 413 F.2d 1263 (5th Cir. 1969).",
+      "source": "article_tag",
+      "length": 673
+    },
+    {
+      "text": "Harrington v. Purdue Pharma L.P., 603 U.S. 204, 226 (2024).",
+      "source": "article_tag",
+      "length": 59
+    },
+    {
+      "text": "In reParlement Techs., Inc., 661 B.R. 722, 726 (Bankr. D. Del. 2024);see also In reCoast to Coast Leasing, LLC, 661 B.R. 621, 623 (Bankr. N.D. Ill. 2024);In rePurdue Pharma L.P., No. 19-23649, 2024 WL 4894349 (S.D.N.Y. Nov. 26, 2024).",
+      "source": "article_tag",
+      "length": 234
+    },
+    {
+      "text": "Parlement Techs, Inc., 661 B.R. at 728.",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "Jan Hoffman,Sacklers Up Their Offer to Settle Purdue Opioids Cases, with a New Condition,N.Y. Times(Jan. 23, 2025),https://www.nytimes.com/2025/01/23/health/sacklers-purdue-settlement-opioids.html.",
+      "source": "article_tag",
+      "length": 197
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 226.",
+      "source": "article_tag",
+      "length": 36
+    },
+    {
+      "text": "The Court had received amicus briefing on how its decision inPurduemight affect that case.SeeBrief of Ad Hoc Group of Local Councils of the Boy Scouts of America asAmicus CuriaeSupporting Debtor Respondents,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124), 2023 WL 7184149; Brief for the Boy Scouts of America asAmicus Curiaein Support of Respondent,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124). The Court also received an application to stay the implementation of the plan of reorganization in the Boy Scouts of America bankruptcy pending the Court’s decision inPurdue.SeeApplication for a Stay of the Bankruptcy Plan Presently Being Implemented in the United States Bankruptcy Court for the District of Delaware (No. 22-1237), Lujan Claimants v. Boy Scouts of Am., No. 23A741 (U.S. Feb. 5, 2024). Justice Alito had granted a temporary stay for the Court to consider that motion.SeeOrder,Boy Scouts of Am., No. 23A741 (U.S. Feb. 16, 2024) (Alito, J., in chambers). The Court denied the application six days later.SeeOrder in Pending Case,Boy Scouts of Am., No. 23A741 (U.S. Feb. 22, 2024). The Boy Scouts case was also mentioned during oral argument and around a dozen times in Justice Kavanaugh’s dissent.SeeTranscript of Oral Argument at 54,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124);Purdue Pharma L.P., 603 U.S. at 229, 238, 256, 264, 273, 275 n.7, 278 (Kavanaugh, J., dissenting).",
+      "source": "article_tag",
+      "length": 1386
+    },
+    {
+      "text": "See In reBoy Scouts of Am., 642 B.R. 504, 558, 664 (Bankr. D. Del. 2022),supplemented, No. 20-10343, 2022 WL 20541782 (Bankr. D. Del. Sept. 8, 2022),aff’d, 650 B.R. 87 (D. Del. 2023).",
+      "source": "article_tag",
+      "length": 183
+    },
+    {
+      "text": "See id.;see alsoThird Modified Fifth Amended Chapter 11 Plan of Reorganization (with Technical Modifications) for Boy Scouts of America and Delaware BSA, LLC,Boy Scouts of Am., No. 20-10343 (Bankr. D. Del. Aug. 29, 2022) [hereinafter Boy Scouts Plan].",
+      "source": "article_tag",
+      "length": 251
+    },
+    {
+      "text": "SeeBoy Scouts Plan,supranote 114.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "See In reBoy Scouts of Am., No. 23-01664 (3d Cir. Apr. 10, 2023).",
+      "source": "article_tag",
+      "length": 65
+    },
+    {
+      "text": "Lujan Claimants Supplemental Brief re: Effect ofPurdueon Appeal,Boy Scouts of Am., No. 23-01664 (3d Cir. Aug. 7, 2024).",
+      "source": "article_tag",
+      "length": 119
+    },
+    {
+      "text": "Supplemental Brief of Appellees Boy Scouts of America, the Ad Hoc Committee of Local Councils and the Coalition of Abused Scouts for Justice,Boy Scouts of Am., No. 23-01664 (3d Cir. Aug. 7, 2024) [hereinafter Supplemental Brief of Appellees];see alsoSupplemental Brief of Appellee Future Claimants’ Representative Regarding the Effect ofHarrington v. Purdue Pharma L.P.,Boy Scouts of Am., No. 23-01664 (3d Cir. Aug. 7, 2024).",
+      "source": "article_tag",
+      "length": 425
+    },
+    {
+      "text": "To be clear, we do not think this example proves the account of bankruptcy exceptionalism. Rather it is just an instance of the phenomenon common to all of law where one judicial doctrine developed by lower courts is inconsistent with the approach preferred by the Supreme Court.",
+      "source": "article_tag",
+      "length": 279
+    },
+    {
+      "text": "In reOne2One Commc’ns, LLC, 805 F.3d 428, 438 (3d Cir. 2015) (Krause, J., concurring).",
+      "source": "article_tag",
+      "length": 86
+    },
+    {
+      "text": "11 U.S.C. § 363(m);seeSupplemental Brief of Appellees,supranote 118, at 16–18; Appellees Settling Insurers Supplemental Brief,Boy Scouts of Am., No. 23-01664 (3d Cir. Aug. 7, 2024).",
+      "source": "article_tag",
+      "length": 181
+    },
+    {
+      "text": "There is an exception in the plan for claims belonging to one chartering organization that had potential claims as an additional insured party, the Archbishop of Agana, a Corporation Sole.SeeBoys Scouts Plan,supranote 114. The Archbishop was itself an entity in Chapter 11 bankruptcy proceedings. The bankruptcy court inBoy Scoutshad ruled that a sale free of the Archbishop’s interests would violate the automatic stay in the Archbishop’s bankruptcy.See In reBoy Scouts of Am., 642 B.R. 504, 574 (Bankr. D. Del. 2022). This wrinkle demonstrates the naïveté of claims that releases were not needed inPurduebecause the Sacklers could just file for bankruptcy themselves. Such a proceeding would not foster resolution but instead would complicate matters and create what is often referred to as the “dueling debtor” problem.See id.at 578 (describing “dueling debtor” cases);see alsoHarrington v. Purdue Pharma L.P., 603 U.S. 204, 273 (2024) (Kavanaugh, J., dissenting) (“And in cases involving hundreds of affiliated entities who share liability and share insurance, such as the Boy Scouts and the Catholic Church, it would be almost impossible to coordinate assets and ensure equitable victim recovery across hundreds of distinct bankruptcies.”).",
+      "source": "article_tag",
+      "length": 1245
+    },
+    {
+      "text": "See Boy Scouts of Am., 642 B.R. at 538, 568–79.",
+      "source": "article_tag",
+      "length": 47
+    },
+    {
+      "text": "SeeBrief for Certain Contributing and Participating Chartered Organizations asAmici Curiaein Support of Affirmance at 4, 14,Boy Scouts of Am., No. 23-01664 (3d Cir. Aug. 7, 2024) (urging “the Court to treat the Plan as the package deal that it is” despite arguments by insurers that the court “should uphold the buybackeven ifother aspects of the confirmation order, including the releases, are reversed”).",
+      "source": "article_tag",
+      "length": 406
+    },
+    {
+      "text": "SeeSupplemental Brief of Appellees,supranote 118, at 5–12.",
+      "source": "article_tag",
+      "length": 58
+    },
+    {
+      "text": "SeeBrubaker,supranote 39, at 10 (noting that it is impossible to know at confirmation if a mass tort plan is providing full payment).",
+      "source": "article_tag",
+      "length": 133
+    },
+    {
+      "text": "It is possible that the Court will view things differently than inPurdueif the litigants find the right statutory authority. One argument put forward in the Red River Talc bankruptcy is that the authority for full-satisfaction releases (and nonconsensual releases more broadly) may lie in the All Writs Act.See supranote 49. In this way, the lawyers have astutely separated the argument for releases from the Bankruptcy Code and from the powers of a bankruptcy judge. Whether that is enough to distance the issue from the new bankruptcy exceptionalism remains to be seen, but it may be the strongest remaining argument (in the eyes of the Court) for releases.",
+      "source": "article_tag",
+      "length": 659
+    },
+    {
+      "text": "Harrington v. Purdue Pharma L.P., 603 U.S. 204, 264 (2024) (Kavanaugh, J., dissenting).",
+      "source": "article_tag",
+      "length": 87
+    },
+    {
+      "text": "SeeAro Mfg. Co. v. Convertible Top Replacement Co., 377 U.S. 476, 512 (1964).",
+      "source": "article_tag",
+      "length": 77
+    },
+    {
+      "text": "SeeMarie T. Reilly,Catholic Dioceses in Bankruptcy, 49Seton Hall L. Rev.871 app. A (2019) (listing diocese bankruptcies).",
+      "source": "article_tag",
+      "length": 121
+    },
+    {
+      "text": "SeeTranscript of Oral Argument at 6, 7, 33, 62,Purdue Pharma L.P., 603 U.S. 204 (No. 23–124).",
+      "source": "article_tag",
+      "length": 93
+    },
+    {
+      "text": "Purdue Pharma L.P., 603 U.S. at 264 (Kavanaugh, J., dissenting).",
+      "source": "article_tag",
+      "length": 64
+    },
+    {
+      "text": "Id.at 226 (majority opinion).",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "The track record of multidistrict litigation (MDL) settlements shows that absent an aggregated voting mechanism that binds holdouts, parties work to construct mechanisms to coerce near unanimity. One example of such a mechanism is a settlement provision requiring that plaintiffs’ lawyers withdraw from representing clients who do not settle.SeeCasey & Macey,supranote 21, at 1040; Elizabeth Chamblee Burch & Margaret S. Williams,Repeat Players in Multidistrict Litigation: The Social Network, 102Cornell L. Rev.1445, 1460–63 (2017). Lynn Baker and Andrew Bradt view these practices more favorably and defend the MDL process as one that mitigates the costs of litigating individually.SeeLynn A. Baker & Andrew D. Bradt,MDL Myths, 101Tex. L. Rev.1521, 1541 (2023); Lynn A. Baker,Mass Torts and the Pursuit of Ethical Finality, 85Fordham L. Rev.1943 (2017).",
+      "source": "article_tag",
+      "length": 855
+    },
+    {
+      "text": "In reSmallhold, Inc., 665 B.R. 704, 709 (Bankr. D. Del. 2024).",
+      "source": "article_tag",
+      "length": 62
+    },
+    {
+      "text": "Findings of Fact, Conclusions of Law, and Order (I) Approving the Disclosure Statement for, and Confirming, the Amended Joint Prepackaged Plan of Reorganization of Wheel Pros, LLC and Its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code, and Granting Related Relief,In reWheel Pros, LLC, No. 24-11939 (Bankr. D. Del. Oct. 15, 2024); Findings of Fact, Conclusions of Law and Order Confirming the Second Amended Joint Chapter 11 Plan of Reorganization of FTX Trading LTD and Its Debtor Affiliates,In reFTX Trading Ltd., No. 22-11068 (Bankr. D. Del. Oct. 8, 2024).",
+      "source": "article_tag",
+      "length": 576
+    },
+    {
+      "text": "In reTonawanda Coke Corp., 662 B.R. 220, 223 (Bankr. W.D.N.Y. 2024).",
+      "source": "article_tag",
+      "length": 68
+    },
+    {
+      "text": "In reRoman Cath. Diocese of Syracuse, No. 20-30663, 2024 WL 5456196, at *2 (Bankr. N.D.N.Y. Nov. 14, 2024).",
+      "source": "article_tag",
+      "length": 107
+    },
+    {
+      "text": "In reSpirit Airlines, Inc., No. 24-11988, 2025 WL 737068, at *12 (Bankr. S.D.N.Y. Mar. 7, 2025).",
+      "source": "article_tag",
+      "length": 96
+    },
+    {
+      "text": "In reRobertshaw US Holding Corp., 662 B.R. 300, 322 (Bankr. S.D. Tex. 2024). Because the Fifth Circuit had prohibited nonconsensual releases even beforePurdue, the Texas courts had grappled with the question of consent for years and the relevant precedent was robust.Id.",
+      "source": "article_tag",
+      "length": 270
+    },
+    {
+      "text": "See supranotes 71–72 and accompanying text.",
+      "source": "article_tag",
+      "length": 43
+    },
+    {
+      "text": "See, e.g.,In reMetcalfe & Mansfield Alt. Invs., 421 B.R. 685, 696 (Bankr. S.D.N.Y. 2010);In reAvanti Commc’ns Group PLC, 582 B.R. 603, 617 (Bankr. S.D.N.Y. 2018).",
+      "source": "article_tag",
+      "length": 162
+    },
+    {
+      "text": "Avanti Commc’ns Group PLC, 582 B.R. at 618.",
+      "source": "article_tag",
+      "length": 43
+    },
+    {
+      "text": "11 U.S.C. § 1506. The foreign orders must also “sufficiently protect” the interests of creditors.Id. § 1522(a).",
+      "source": "article_tag",
+      "length": 111
+    },
+    {
+      "text": "Harrington v. Purdue Pharma L.P., 603 U.S. 204, 226 (2024).",
+      "source": "article_tag",
+      "length": 59
+    },
+    {
+      "text": "See, e.g.,In reAmericanas S.A., No. 23-10092, 2024 WL 3506637 (Bankr. S.D.N.Y. July 22, 2024).",
+      "source": "article_tag",
+      "length": 94
+    },
+    {
+      "text": "Limited Objection of United States Trustee to the Verified Petition Under Chapter 15 for Recognition of a Foreign Main Proceeding and Related Relief at 2,In reYuzhou Grp. Holdings Co., No. 24-11441 (Bankr. S.D.N.Y. Sept. 25, 2024) [hereinafter Yuzhou Trustee Objection].",
+      "source": "article_tag",
+      "length": 270
+    },
+    {
+      "text": "The Office of the United States Trustee, along with the International Development Finance Corporation, raised similar concerns related to the Chapter 15 recognition of the Mexican Concurso Plan of Crédito Real.SeeUnited States Trustee’s Reservation of Rights to Petitioner’s Verified Petition for Recognition of Foreign Main Proceeding and Motion for Order Granting Full Force and Effect the Concurso Plan and Related Relief Pursuant to 11 U.S.C. §§ 105, 1507(a), 1509(b), 1515, 1520 and 1521, at 4,In reCrédito Real, S.A.B. de C.V., No. 25-10208 (Bankr. S.D.N.Y. Mar. 6, 2025) (“The U.S. Trustee is reviewing these and other provisions of the Recognition Order to ensure it is consistent with the relief that can be recognized under sections 1507, 1520, and 1521 and Supreme Court precedent inHarrington v. Purdue Pharma L.P., 603 U.S. 204 (2024) and is currently engaged in discussions with the Chapter 15 Debtor regarding his concerns.”); Objection of United States International Development Finance Corporation to Verified Petition for Recognition of Foreign Main Proceeding and Motion for Order Granting Full Force and Effect the Concurso Plan and Related Relief Pursuant to 11 U.S.C. §§ 105, 1507(a), 1509(b), 1515, 1520 and 1521, at 4,Crédito Real, S.A.B. de C.V., No. 25-10208 (Bankr. S.D.N.Y. Mar. 4, 2025) (“The Concurso Plan cannot be recognized in its current form, because the Third-Party Release is not authorized by the Bankruptcy Code and is manifestly contrary to the public policy of the United States.”).",
+      "source": "article_tag",
+      "length": 1523
+    },
+    {
+      "text": "These arguments were rejected by the Order Granting (I) Recognition of Foreign Main Proceeding, (II) Full Force and Effect to Concurso Plan and Certain Related Relief,Crédito Real, S.A.B. de C.V., No. 25-10208 (Bankr. S.D.N.Y. Mar. 11, 2025);see alsoAngélica Serrano-Román,Credito Real Restructuring Nets U.S. Recognition Despite Objection,Bloomberg L.(Mar. 11, 2025, 5:48 PM EDT),https://news.bloomberglaw.com/litigation/credito-real-restructuring-nets-us-recognition-despite-objection(“‘Purdue only goes so far here,’ Horan said during the hearing. ‘Purdue is expressly limited to a Chapter 11 case and Chapter 11 and Chapter 15 are very different animals.’”).",
+      "source": "article_tag",
+      "length": 662
+    },
+    {
+      "text": "SeeAnthony J. Casey,The New Corporate Web: Tailored Entity Partitions and Creditors’ Selective Enforcement, 124Yale L.J.2680 (2015).",
+      "source": "article_tag",
+      "length": 132
+    },
+    {
+      "text": "SeeSuzanne T. Brindise,Choosing the ‘Per-Debtor’ Approach to Plan Confirmation in Multi-Debtor Chapter 11 Proceedings, 108Nw. U. L. Rev.1355, 1369 (2014).",
+      "source": "article_tag",
+      "length": 154
+    },
+    {
+      "text": "SeeNina Wouters & Alla Raykin,Corporate Group Cross-Border Insolvencies Between the United States & European Union: Legal & Economic Developments, 29Emory Bankr. Devs. L.J.387, 405 (2013) (noting that procedural consolidation is available in some but not other jurisdictions);see alsoINSOLInt’l, The Restructuring of Corporate Groups: A Global Analysis of Substantive, Procedural and Synthetic Group Procedures(2022).",
+      "source": "article_tag",
+      "length": 417
+    },
+    {
+      "text": "See, e.g., Ilya Kokorin,Third Party Releases in Insolvency of Multinational Enterprise Groups, 18Eur. Co. & Fin. L. Rev.107, 139 (2021) (“Third-party releases facilitate centralised one-point-of-entry resolution of group distress.”).",
+      "source": "article_tag",
+      "length": 233
+    },
+    {
+      "text": "Already in the months sincePurdue, one debtor has succeeded in doing something just short of what we describe.See In reMega Newco Ltd., No. 24-12031, 2025 WL 601463 (Bankr. S.D.N.Y. Feb. 24, 2025). The debtor, based in Mexico, sought to restructure debt obligations created under U.S. law.Id.Rather than file in the United States or Mexico—whose laws made the restructuring complicated—it created a U.K. subsidiary, which voluntarily took on the debt liabilities.Id.at *1–2. That subsidiary then initiated U.K. proceedings which resulted in a Scheme of Arrangement that included nonconsensual nondebtor releases.Id.The subsidiary then sought and received Chapter 15 recognition in the Southern District of New York.Id. at4.",
+      "source": "article_tag",
+      "length": 723
+    },
+    {
+      "text": "In granting recognition, the bankruptcy court noted a potential for abuse but observed that there were no objections nor any “contention or evidence that the structure at issue here had been used in an unfair way and had thwarted third-party expectations.”Id.",
+      "source": "article_tag",
+      "length": 259
+    },
+    {
+      "text": "SeeYuzhou Trustee Objection,supranote 148. Without the objection, the proceedings would likely have been recognized with little or no comment from the court and without producing meaningful precedent.",
+      "source": "article_tag",
+      "length": 200
+    },
+    {
+      "text": "See,e.g.,In reHighland Cap. Mgmt., L.P., 48 F.4th 419, 439 (5th Cir. 2022).",
+      "source": "article_tag",
+      "length": 75
+    },
+    {
+      "text": "As Diane Dick explains:Through the doctrine of recharacterization, bankruptcy courts treat certain debt investments in the debtor as equity investments; the decision is generally made on the basis of a nonexclusive multifactor balancing test that considers such factors as the adequacy of the debtor’s capitalization, the relationship between the debtor and the supposed lender, and the corporation’s ability to obtain financing from outside parties.Diane Lourdes Dick,Tactical Restructurings, 93Fordham L. Rev.1, 8, n.35 (2024).",
+      "source": "article_tag",
+      "length": 529
+    },
+    {
+      "text": "Through the doctrine of recharacterization, bankruptcy courts treat certain debt investments in the debtor as equity investments; the decision is generally made on the basis of a nonexclusive multifactor balancing test that considers such factors as the adequacy of the debtor’s capitalization, the relationship between the debtor and the supposed lender, and the corporation’s ability to obtain financing from outside parties.",
+      "source": "article_tag",
+      "length": 427
+    },
+    {
+      "text": "SeeSeymour,supranote 15, at 1943 (including substantive consolidation and recharacterization in the list of exceptional bankruptcy tools).",
+      "source": "article_tag",
+      "length": 138
+    },
+    {
+      "text": "See, e.g.,In reCastleton Plaza, LP, 707 F.3d 821 (7th Cir. 2013) (going beyond the text of the statute to prohibit a plan that provided new equity to the spouse of the debtor’s old equity holder).",
+      "source": "article_tag",
+      "length": 196
+    },
+    {
+      "text": "These practices are particularly important in resolving cross-liabilities within corporate groups, especially when nonconsensual nondebtor releases are on the table.See supranotes 150–153 and accompanying text.",
+      "source": "article_tag",
+      "length": 210
+    },
+    {
+      "text": "SeeFed. R. Bankr. P.1015(a).",
+      "source": "article_tag",
+      "length": 28
+    },
+    {
+      "text": "The listed items are:(A)substantial or continuing loss to or diminution of the estate and the absence of a reasonable likelihood of rehabilitation;(B)gross mismanagement of the estate;(C)failure to maintain appropriate insurance that poses a risk to the estate or to the public;(D)unauthorized use of cash collateral substantially harmful to 1 or more creditors;(E)failure to comply with an order of the court;(F)unexcused failure to satisfy timely any filing or reporting requirement established by this title or by any rule applicable to a case under this chapter;(G)failure to attend the meeting of creditors convened under section 341(a) or an examination ordered under rule 2004 of the Federal Rules of Bankruptcy Procedure without good cause shown by the debtor;(H)failure timely to provide information or attend meetings reasonably requested by the United States trustee (or the bankruptcy administrator, if any);(I)failure timely to pay taxes owed after the date of the order for relief or to file tax returns due after the date of the order for relief;(J)failure to file a disclosure statement, or to file or confirm a plan, within the time fixed by this title or by order of the court;(K)failure to pay any fees or charges required under chapter 123 of title 28;(L)revocation of an order of confirmation under section 1144;(M)inability to effectuate substantial consummation of a confirmed plan;(N)material default by the debtor with respect to a confirmed plan;(O)termination of a confirmed plan by reason of the occurrence of a condition specified in the plan; and(P)failure of the debtor to pay any domestic support obligation that first becomes payable after the date of the filing of the petition.11 U.S.C. § 1112(b)(4).",
+      "source": "article_tag",
+      "length": 1735
+    },
+    {
+      "text": "(A)substantial or continuing loss to or diminution of the estate and the absence of a reasonable likelihood of rehabilitation;",
+      "source": "article_tag",
+      "length": 126
+    },
+    {
+      "text": "(B)gross mismanagement of the estate;",
+      "source": "article_tag",
+      "length": 37
+    },
+    {
+      "text": "(C)failure to maintain appropriate insurance that poses a risk to the estate or to the public;",
+      "source": "article_tag",
+      "length": 94
+    },
+    {
+      "text": "(D)unauthorized use of cash collateral substantially harmful to 1 or more creditors;",
+      "source": "article_tag",
+      "length": 84
+    },
+    {
+      "text": "(E)failure to comply with an order of the court;",
+      "source": "article_tag",
+      "length": 48
+    },
+    {
+      "text": "(F)unexcused failure to satisfy timely any filing or reporting requirement established by this title or by any rule applicable to a case under this chapter;",
+      "source": "article_tag",
+      "length": 156
+    },
+    {
+      "text": "(G)failure to attend the meeting of creditors convened under section 341(a) or an examination ordered under rule 2004 of the Federal Rules of Bankruptcy Procedure without good cause shown by the debtor;",
+      "source": "article_tag",
+      "length": 202
+    },
+    {
+      "text": "(H)failure timely to provide information or attend meetings reasonably requested by the United States trustee (or the bankruptcy administrator, if any);",
+      "source": "article_tag",
+      "length": 152
+    },
+    {
+      "text": "(I)failure timely to pay taxes owed after the date of the order for relief or to file tax returns due after the date of the order for relief;",
+      "source": "article_tag",
+      "length": 141
+    },
+    {
+      "text": "(J)failure to file a disclosure statement, or to file or confirm a plan, within the time fixed by this title or by order of the court;",
+      "source": "article_tag",
+      "length": 134
+    },
+    {
+      "text": "(K)failure to pay any fees or charges required under chapter 123 of title 28;",
+      "source": "article_tag",
+      "length": 77
+    },
+    {
+      "text": "(L)revocation of an order of confirmation under section 1144;",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "(M)inability to effectuate substantial consummation of a confirmed plan;",
+      "source": "article_tag",
+      "length": 72
+    },
+    {
+      "text": "(N)material default by the debtor with respect to a confirmed plan;",
+      "source": "article_tag",
+      "length": 67
+    },
+    {
+      "text": "(O)termination of a confirmed plan by reason of the occurrence of a condition specified in the plan; and",
+      "source": "article_tag",
+      "length": 104
+    },
+    {
+      "text": "(P)failure of the debtor to pay any domestic support obligation that first becomes payable after the date of the filing of the petition.",
+      "source": "article_tag",
+      "length": 136
+    },
+    {
+      "text": "Some expect other innovations to emerge. Ralph Brubaker has speculated that a district court hearing a bankruptcy case has the power to consolidate all debtor and nondebtor tort claims into one massive proceeding using 28 U.S.C § 157(b)(5). Ralph Brubaker,Mandatory Aggregation of Mass Tort Litigation in Bankruptcy, 131Yale L.J.F.960 (2022). We are skeptical about this reading of Section 157(b)(5) and even more so that such a reading would be upheld by the Supreme Court.",
+      "source": "article_tag",
+      "length": 474
+    },
+    {
+      "text": "See infranotes 165–166 and accompanying text.",
+      "source": "article_tag",
+      "length": 45
+    },
+    {
+      "text": "See, e.g.,In reHal Luftig Co., No. 22-11617, 2025 WL 586757, at *18 (Bankr. S.D.N.Y. Feb. 24, 2025) (holding thatPurduedid not prohibit confirmation orders enjoining litigation against nondebtors for the five-year life of a small-business plan under Subchapter V of Chapter 11).",
+      "source": "article_tag",
+      "length": 278
+    },
+    {
+      "text": "See, e.g.,In reBird Global, Inc., No. 23-20514 (Bankr. S.D. Fla. Aug. 12, 2024), Doc. No. 1254 (approving nonconsensual releases in a settlement, noting, “Purduedid not address approval of settlement agreements under Federal Rule of Bankruptcy Procedure 9019 or sales of a debtor’s property under 11 U.S.C. § 363 of the Bankruptcy Code, both of which are applicable in this case”),aff’d sub nom.Wright v. Bird Global, No. 24-23086 (S.D. Fla. Aug. 21, 2024) (holding thatPurduedid not preclude releases where “the Debtors rely on the provisions of §§ 105, 363, 1123(b)(3)(A), 1123(b)(4), and Federal Rule of Bankruptcy Procedures 9019”);In reRoman Cath. Diocese of Rockville Centre, 665 B.R. 71 (Bankr. S.D.N.Y. 2024) (approving nonconsensual third-party releases as part of a settlement);see also In reCentro Grp., LLC, No. 21-11364, 2021 WL 5158001, at *3 (11th Cir. Nov. 5, 2021) (distinguishing settlement “bar orders” from releases included in a plan of confirmation).",
+      "source": "article_tag",
+      "length": 972
+    },
+    {
+      "text": "In reHopeman Brothers, Inc., No. 24-32428, 2025 WL 297652, at *4 (Bankr. E.D. Va. Jan. 24, 2025) (approving nonconsensual releases afterPurduein a sale and settlement order and noting that “the Court has not found, and has not been pointed to, any decision extendingPurdue’s decision to § 363 sales”).",
+      "source": "article_tag",
+      "length": 301
+    },
+    {
+      "text": "Alternatively, the original sin could be viewed as not creating Article III bankruptcy courts, but that decision was itself the product of Article III judicial lobbying.See supraSection II.A.",
+      "source": "article_tag",
+      "length": 191
+    },
+    {
+      "text": "PermissionsRequest permissions",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "© 2025 The University of Chicago. All rights reserved.",
+      "source": "article_tag",
+      "length": 54
+    },
+    {
+      "text": "Crossref reports no articles citing this article.",
+      "source": "article_tag",
+      "length": 49
+    }
+  ],
+  "footnotes": [],
+  "headers": [
+    {
+      "text": "Search",
+      "source": "h1",
+      "length": 6
+    },
+    {
+      "text": "Purdue Pharma and the New Bankruptcy Exceptionalism",
+      "source": "h1",
+      "length": 51
+    },
+    {
+      "text": "I. The Scholarly Account of Bankruptcy Exceptionalism",
+      "source": "h2",
+      "length": 53
+    },
+    {
+      "text": "II. Exceptionalism in the Courts",
+      "source": "h2",
+      "length": 32
+    },
+    {
+      "text": "III.Purdue’s Effect on Substantive Bankruptcy Law and Practice",
+      "source": "h2",
+      "length": 62
+    },
+    {
+      "text": "Conclusion",
+      "source": "h2",
+      "length": 10
+    },
+    {
+      "text": "Notes",
+      "source": "h2",
+      "length": 5
+    },
+    {
+      "text": "A. The Weak Version of Exceptionalism: Discretion",
+      "source": "h3",
+      "length": 49
+    },
+    {
+      "text": "B. The Strong Version of Exceptionalism: Authority, Structure, and Due Process",
+      "source": "h3",
+      "length": 78
+    },
+    {
+      "text": "A. Historically",
+      "source": "h3",
+      "length": 15
+    },
+    {
+      "text": "B.Purdueand the Constitutionality of Bankruptcy Courts",
+      "source": "h3",
+      "length": 54
+    },
+    {
+      "text": "A. Mass Tort Settlements in Bankruptcy",
+      "source": "h3",
+      "length": 38
+    },
+    {
+      "text": "B. Consensual Releases—Opt-In or Opt-Out?",
+      "source": "h3",
+      "length": 41
+    },
+    {
+      "text": "C. Chapter 15",
+      "source": "h3",
+      "length": 13
+    },
+    {
+      "text": "D. What Lies Ahead?",
+      "source": "h3",
+      "length": 19
+    },
+    {
+      "text": "Article DOI",
+      "source": "h3",
+      "length": 11
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 267,
+    "total_footnotes": 0,
+    "total_headers": 16,
+    "total_other": 0
+  }
+}

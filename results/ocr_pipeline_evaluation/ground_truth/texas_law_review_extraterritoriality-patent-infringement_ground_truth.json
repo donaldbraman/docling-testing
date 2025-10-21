@@ -1,0 +1,1282 @@
+{
+  "file": "texas_law_review_extraterritoriality-patent-infringement.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "Note-byCatherine J. CanbyVolume 101-Issue 4",
+      "source": "article_tag",
+      "length": 43
+    },
+    {
+      "text": "As markets have become more international, some have speculated that we are facing a “Fourth Industrial Revolution” characterized by a proliferation of innovative technologies that are breaking down the barriers between the “physical, digital and biological domains.”In other words, we have entered, as some may call it, the Semiconductor Age.It is not surprising that with the advancement of technology, the role of the semiconductor has become even more essential in our society—it is a building block from which current and emerging technologies are developed. Semiconductors are the basis of nearly all industrial, commercial, and military systems—almost everything in the modern world relies in some way on semiconductor technologies.For instance, semiconductors can be found in cellular devices, computers, pacemakers, cars, and many common household items.And our reliance on semiconductor technology is not expected to diminish any time soon.As such, semiconductors—and the behavior of semiconductor firms—have been a central focus of domestic policy.",
+      "source": "article_tag",
+      "length": 1059
+    },
+    {
+      "text": "As global entities, semiconductor firms are particularly impacted by Federal Circuit and Supreme Court decisions on extraterritoriality and patent damages. This Note analyzes the implications of case law on semiconductor companies, considering the extent to which these judicial decisions may be at odds with domestic policy designed to promote competitiveness in the semiconductor industry.",
+      "source": "article_tag",
+      "length": 391
+    },
+    {
+      "text": "Though the Supreme Court rarely involved itself in patent law cases from 1980 to the turn of the century,in the past two decades it has taken more than forty-eight patent cases.In particular, the Court seems to have an interest in the intersection of patent law and extraterritoriality,the same intersection explored at the heart of this Note. Extraterritorial application of law is “the competence of a State to apply its laws to foreign entities in relation to their, often purely foreign, conduct.”Specifically, in the United States, this refers to “the extension of federal law to activity outside the territorial confines of the United States.”Despite language in the Patent Act expressing territorial limits,U.S. patent law has traditionally been extended outside of domestic contexts.The question is: How far do the territorial boundaries reach? This Note explores the tension between the presumption against extraterritoriality and the common-law notions of causation and full compensation.",
+      "source": "article_tag",
+      "length": 998
+    },
+    {
+      "text": "Although the powers of Congress are limited to those explicitly granted to it by the Constitution, it is well-settled that Congress has the power to regulate activity that occurs outside of the United States in some contexts.At the very least, Congress can regulate its citizens, even if they are located abroad.However, as one scholar has posited: “[E]ven though Congresscanregulate foreign activity, whether itshouldis a different question.”",
+      "source": "article_tag",
+      "length": 443
+    },
+    {
+      "text": "The extraterritorial scope of U.S. patent law has already been addressed in several contexts, typically centered around a question of liability: Should a party be considered an infringer for acts occurring outside of the United States?As business becomes more international, domestic acts of patent infringement are increasingly impacting foreign markets and resulting in lost profits abroad.The Federal Circuit and Supreme Court have recently addressed extraterritoriality in relation to patent damages.In particular, the courts have analyzed whether patentees can recover extraterritorial damages arising from infringement under 35 U.S.C. § 271(a) and § 271(f), which define direct infringement of a U.S. patent and infringement arising out of the exportation of components of a patented invention from the United States, respectively.",
+      "source": "article_tag",
+      "length": 837
+    },
+    {
+      "text": "However, the extent to which foreign damages apply to underlying acts of infringement within the United States remains unanswered.In exploring this question, this Note will first examine the Federal Circuit’s analysis. It will then assess whether cases with acts of infringement arising under § 271(a) warrant similar or different treatment than those with acts of infringement arising under § 271(f), particularly in light of the Supreme Court’s recent direction inWesternGeco LLC v. ION Geophysical Corp.(WesternGeco II).As this Note argues, this question requires an analysis beyond case law; it requires an analysis of external considerations—in particular, the impact of judicial decisions on the domestic semiconductor industry.",
+      "source": "article_tag",
+      "length": 734
+    },
+    {
+      "text": "This Note proceeds as follows. Part I discusses the legal landscape and analytical framework under which courts analyze the territorial application of U.S. statutes. Part II then focuses on the relevant case law impacting the scope of extraterritorial damages in patent law, discussing cases in which foreign damages arose based on a domestic act of infringement under §§ 271(a) and (f) of the Patent Act. The analytical framework discussed in Part I is woven throughout much of the courts’ reasonings as they attempt to define the territorial boundaries of patent law. In analyzing the Federal Circuit’s treatment of extraterritorial damages, Part II then considers the extent to which the Supreme Court’s recent decision inWesternGeco IIhas impacted subsequent lower court decisions. Lastly, Part III calls for a serious consideration of the impact that these judicial decisions may have on the semiconductor industry. It begins by providing an overview of the semiconductor industry and ultimately concludes that the extraterritorial application of patent damages should be permitted in cases of direct infringement occurring within the United States.",
+      "source": "article_tag",
+      "length": 1154
+    },
+    {
+      "text": "In laying the foundation for how courts analyze and apply patent statutes to foreign conduct, this Part will discuss two general concepts that frame the extraterritorial application of patent laws: (1) the presumption against extraterritoriality, and (2) the analytical framework that courts use to assess the territorial scope of statutes.",
+      "source": "article_tag",
+      "length": 340
+    },
+    {
+      "text": "Despite Congress’s ability to regulate certain conduct outside of the United States, whether a particular statute applies to foreign activities is generally considered to be a matter of statutory interpretation.To determine the extraterritorial reach of a law, courts typically apply a canon of statutory construction known as the presumption against extraterritoriality.Under this presumption, “[a]bsent clearly expressed congressional intent to the contrary, federal laws will be construed to have only domestic application.”Indeed, the Supreme Court has held that the presumption “applies with particular force in patent law”and that “[o]ur patent system makes no claim to extraterritorial effect.”",
+      "source": "article_tag",
+      "length": 701
+    },
+    {
+      "text": "Although the original motive of the presumption was to ascertain congressional intent, the Court has used it to partake in judicial policymaking.There are several key policy considerations that support application of the presumption. First, it is “heavily grounded in international law and the principle of prescriptive comity.”Specifically, the presumption “serves to protect against unintended clashes between our laws and those of other nations which could result in international discord.”Second, in a similar vein, the presumption attempts to mitigate issues with conflict of laws by following another key canon of statutory interpretation: federal statutes should be construed so as not to conflict with international law.Thus, the Court applies the presumption to avoid “difficult issues of international law”and to “avoid unreasonable interference with the sovereign authority of other nations.”",
+      "source": "article_tag",
+      "length": 903
+    },
+    {
+      "text": "Third, as alluded to earlier, the presumption promotes statutory interpretation that is consistent with congressional intent.The presumption provides a “stable background against which Congress can legislate with predictable effects,” minimizing the need for judicial speculation.In fact, without any evidence showing otherwise, the Court typically assumes that Congress is focused on domestic activity; the presumption is based on the idea that acts of Congress are “legislate[d] with domestic [concerns] in mind.”",
+      "source": "article_tag",
+      "length": 515
+    },
+    {
+      "text": "Lastly, considerations of separation of powers play an important role in justifying the presumption.In general, policy decisions, including those involving foreign policy, fall to the legislative and executive branches of the government, not to the judicial branch.Thus, the judiciary may have neither the constitutional authority nor the institutional competence to decide matters of foreign policy in relation to the extraterritorial application of U.S. law.",
+      "source": "article_tag",
+      "length": 460
+    },
+    {
+      "text": "Although the presumption limits the geographic reach of U.S. laws, it has not always been clear how the presumption should be applied. In 2016, the Court provided some direction. InRJR Nabisco, Inc. v. European Community,the Court addressed the question of whether the Racketeer Influenced and Corrupt Organizations Act applied extraterritorially.The Court applied a two-step methodology to assess the scope and reach of the racketeering statute. Incorporating the presumption against extraterritoriality, the first step determines “whether the presumption against extraterritoriality has been rebutted—that is, whether the statute gives a clear, affirmative indication that it applies extraterritorially.”If such indication exists, then the presumption is overcome, and the statute is granted extraterritorial reach within the limits imposed by Congress.However, absent any clear indication from Congress rebutting the presumption, a court should “determine whether the case involves a domestic application of the statute . . . by looking to the statute’s ‘focus.’”Specifically:",
+      "source": "article_tag",
+      "length": 1079
+    },
+    {
+      "text": "If the conduct relevant to the statute’s focus occurred in the United States, then the case involves a permissible domestic application even if other conduct occurred abroad; but if the conduct relevant to the focus occurred in a foreign country, then the case involves an impermissible extraterritorial application regardless of any other conduct that occurred in U.S. territory.",
+      "source": "article_tag",
+      "length": 380
+    },
+    {
+      "text": "Despite the two-step framework, the Supreme Court has chosen to skip the first step in certain scenarios where “addressing step one would require resolving ‘difficult questions’ that do not change the ‘outcome of the case,’ but could have far-reaching effects in future cases.”",
+      "source": "article_tag",
+      "length": 277
+    },
+    {
+      "text": "The Federal Circuit and the Supreme Court have considered several cases where a domestic act of infringement resulted in economic harm to the patentee outside of the United States. In general, a patentee is entitled to recover “full compensation for ‘any damages’ [the patent owner] suffered as a result of the infringement.”However, the presumption against extraterritoriality is seemingly at odds with this principle, precluding damages arising from foreign conduct, regardless of the potentially astronomical level of economic harm that may entail.In analyzing the intersection of compensatory damages and the territorial boundaries of patent law, this Part first provides an overview of the general damages provision of the Patent Act. Then, the focus shifts to relevant case law impacting the scope of extraterritorial damages under both § 271(a) and § 271(f), beginning with decisions from the Federal Circuit. Lastly, this Part addresses the Supreme Court’s decision inWesternGeco IIand its subsequent effect on existing case law.",
+      "source": "article_tag",
+      "length": 1037
+    },
+    {
+      "text": "The damages provision of the Patent Act, § 284, states that a court “shall award the claimant damages adequate to compensate for the infringement, but in no event less than a reasonable royalty for the use made of the invention by the infringer.”In recognizing the far-reaching nature of this remedial provision, the Supreme Court inGeneral Motors Corp. v. Devex Corp.made it clear that patent damages should not be limited without explicit congressional intent to do so.Similarly, inRite-Hite Corp. v. Kelley Co., Inc.,the Federal Circuit noted that the damages provision should be read as “expansive rather than limiting.”",
+      "source": "article_tag",
+      "length": 624
+    },
+    {
+      "text": "In addressing what constitutes “adequate” damages, the Federal Circuit explained that remedies must “fully compensatethe patentee for infringement.”Foreseeability often plays a role in this analysis. In fact, lost profits are generally recoverable if “infringement is the but-for cause of the lost sales and if such losses are foreseeable.”Specifically, “[i]f a particular injury was or should have been reasonably foreseeable by an infringing competitor in the relevant market, broadly defined, that injury is generally compensable absent a persuasive reason to the contrary.”",
+      "source": "article_tag",
+      "length": 577
+    },
+    {
+      "text": "As set by the statutory language of § 284, the “reasonable royalty” standard provides a baseline for how much the patentee is guaranteed to receive.The patentee can often recover more by showing lost profits arising from the infringement.To prove lost profits, a patentee “must show a reasonable probability that, ‘but for’ the infringement, it would have made the sales that were made by the infringer.”This often occurs when the infringer enters the same product market as the patentee.However, there are various alternative scenarios in which lost profits can arise. For instance, a patentee can seek price erosion damages if it was forced to lower prices to remain competitive with the infringing product.Or, under the entire-market-value rule, if the accused product involves only one component of a larger device, it is possible for the patentee to recover lost profits for theentiredevice.In addition, a patentee may attempt to recover future lost profits and, under some circumstances, losses resulting from “harm to the reputation of the product or the patent holder.”",
+      "source": "article_tag",
+      "length": 1077
+    },
+    {
+      "text": "Because § 284 is silent as to its geographic reach,questions arise as to what extent damages apply extraterritorially. Using the presumption, a trilogy of Federal Circuit decisions greatly restricted the amount a patentee could recover from foreign damages flowing from acts of domestic infringement.However, the Supreme Court’s recent decision inWesternGeco IIappears to broaden the scope of recoverable damages by allowing limited recovery for sales made outside of the United States.",
+      "source": "article_tag",
+      "length": 486
+    },
+    {
+      "text": "The Federal Circuit has addressed extraterritorial damages under both § 271(a) and § 271(f) of the Patent Act through a trilogy of cases:WesternGeco LLC v. ION Geophysical Corp.(WesternGeco I),Power Integrations, Inc. v. Fairchild Semiconductor International, Inc.,andCarnegie Mellon University v. Marvell Technology Group, Ltd.Under both subsections of the statute, the court has denied recovery for foreign damages, even if those damages flowed from acts of domestic infringement.",
+      "source": "article_tag",
+      "length": 482
+    },
+    {
+      "text": "Most patent infringement cases involve an act of direct infringement under § 271(a), which states that “whoever without authority makes, uses, offers to sell, or sells any patented invention,within the United Statesor importsinto the United Statesany patented invention during the term of the patent therefor, infringes the patent.”Unlike the general damages provision of § 284, § 271(a) includes territorial language that limits the scope of liability—only acts “within the United States” or importation “into the United States” constitute direct infringement.Of the three cases mentioned previously, two fall under this direct infringement provision:Power IntegrationsandCarnegie Mellon. Whereas the court considered the availability of lost profits inPower Integrations,Carnegie Melloninvolved damages in the form of reasonable royalties. In both cases, a domestic act of infringement under § 271(a) resulted in harm to the patentee occurring outside of the United States. The question was whether such harm was compensable.",
+      "source": "article_tag",
+      "length": 1027
+    },
+    {
+      "text": "In 2013, the Federal Circuit held that foreign lost profits were generally not recoverable when the infringement was based on § 271(a).Specifically, inPower Integrations, the court considered whether a patentee was entitled to lost profits for the infringer’s sales abroad that directly flowed from domestic infringement.Not only did Fairchild (the defendant) commit acts of infringement, its infringement adversely impacted Power Integrations’s overseas sales, costing Power Integrations upwards of $500,000 in contracts with Samsung.Power Integrations argued that “it was foreseeable that Fairchild’s infringement in the United States would cause Power Integrations to lose sales in foreign markets.”Relying onRite-HiteandGeneral Motors Corp., Power Integrations concluded that in order to receive adequate compensation, “the law supports an award of damages for the lost foreign sales which Power Integrations would have made but for Fairchild’s domestic infringement.”Because Fairchild’s infringement in the United States was a necessary prerequisite to capture foreign customers and to even compete in the market with Power Integrations, Power Integrations argued there was a causal link that entitled it to recover the extraterritorial losses.",
+      "source": "article_tag",
+      "length": 1249
+    },
+    {
+      "text": "However, the Federal Circuit disagreed with Power Integrations. Emphasizing the presumption against extraterritoriality and the territorial limits of U.S. patent law, the court held that Power Integrations was not entitled to compensatory damages for “injury caused by infringing activity that occurred outside the territory of the United States.”In fact, the court found that “the entirely extraterritorial production, use, or sale of an invention patented in the United States is an independent, intervening act that, under almost all circumstances, cuts off the chain of causation initiated by an act of domestic infringement.”The court further noted that our patent laws do not “provide compensation for a defendant’s foreign exploitation of a patented invention, which is not infringement at all.”However, despite its strict holding inPower Integrations, the court did not explain why a decision regarding the extraterritorial reach of substantive U.S. law would apply in damages calculations.",
+      "source": "article_tag",
+      "length": 998
+    },
+    {
+      "text": "Two years later, the court clarified itsPower Integrationsholding inCarnegie Mellon, stating that:",
+      "source": "article_tag",
+      "length": 98
+    },
+    {
+      "text": "In the lost-profits context, . . . where the direct measure of damages was foreign activity (i.e., making, using, selling outside § 271(a)), it [is] not enough, given the required strength of the presumption against extraterritoriality, that the damages-measuring foreign activity have been factually caused, in the ordinary sense, by domestic activity constituting infringement under § 271(a).",
+      "source": "article_tag",
+      "length": 394
+    },
+    {
+      "text": "Thus, the court made it clear that even if foreign lost sales were the direct result of an infringing act within the United States, the patentee is unable to recover those losses.",
+      "source": "article_tag",
+      "length": 179
+    },
+    {
+      "text": "InCarnegie Mellon, the Federal Circuit decided whether Carnegie Mellon University (CMU) could recover reasonable royalties for overseas losses foreseeably caused by domestic infringement by Marvell Technology Group (Marvell), a Silicon Valley-based semiconductor company.Specifically, CMU alleged infringement by Marvell’s chips.The jury, after finding infringement, awarded CMU a reasonable royalty based on Marvell’s worldwide sales.",
+      "source": "article_tag",
+      "length": 435
+    },
+    {
+      "text": "Marvell sold its chips to customers through the standard “sales cycle,” a process by which semiconductor companies, like Marvell, attempt to persuade customers to use their chips in the customers’ products.The cycle includes activities such as sales, marketing, evaluation, and testing, all of which occur within the United States.As the Federal Circuit explained, “[s]imulation programs are used throughout the sales cycle to formulate [] concepts and basic designs, research and develop new products, [and] refine and evaluate chip designs before . . . setting the chips in silicon . . . .”After a satisfactory design is achieved, an engineering sample chip is developed abroad and then returned to domestic offices for continued analysis.The sample is used by customers to “evaluate the functionality and performance of a chip design” prior to chip production overseas.Once the customer is confident that the chip design has met its specifications, the designs are sent abroad to manufacturing facilities, typically in Asia, for volume production.When the customer decides to go into production, it is considered a “design win” for the chip company.After chip production, the components are sent to the customer’s manufacturing sites to be incorporated into their final products.",
+      "source": "article_tag",
+      "length": 1282
+    },
+    {
+      "text": "CMU’s theory was that the sales cycle constituted domestic activity that used the infringing technology in violation of § 271(a).CMU argued that Marvell directly infringed its patents while attempting to win customers by displaying and testing its chip design, thereby performing CMU’s patented method.Even though many of the customers were foreign-based and many of the chips would never ultimately make it onto U.S. soil, “the only reason customers purchased the chips was the performance of the [patented] method within the United States.”As one scholar describes, “there was a predicate act of infringement in the United States that was both the but-for cause of the foreign sales and a reasonably foreseeable consequence of the domestic acts of infringement.”",
+      "source": "article_tag",
+      "length": 764
+    },
+    {
+      "text": "Nevertheless, the Federal Circuit held that CMU could not recover for foreign sales, even if those sales were caused by an act of infringement in the United States.In fact, the court found that the text of § 271(a) evidenced a clear indication from Congress that it should be limited only to domestic activity. Specifically, the court held:",
+      "source": "article_tag",
+      "length": 340
+    },
+    {
+      "text": "Where a physical product is being employed to measure damages for the infringing use of patented methods, we conclude, territoriality is satisfied when and only when any one of those domestic actions for that unit (e.g., sale) is proved to be present, even if others of the listed activities for that unit (e.g., making, using) take place abroad.",
+      "source": "article_tag",
+      "length": 346
+    },
+    {
+      "text": "Thus, with this rule in mind, the court concluded that only Marvell’s domestic sales could be used to calculate a reasonable royalty.Anything less, the court determined, would “make too little of the presumption against extraterritoriality.”As such, theCarnegie MellonandPower Integrationsdecisions set a strict precedent for extraterritorial damages in patent law: No extraterritorial damages are permissible under § 284 when the underlying act of infringement occurred under § 271(a).",
+      "source": "article_tag",
+      "length": 486
+    },
+    {
+      "text": "Section 271(f) includes two provisions that “expand[] the territorial scope of the patent laws to treat the export of components of patented systems abroad . . . just like the export of the finished systems abroad.”First, § 271(f)(1) prohibits the unauthorized exportation of “all or a substantial portion of the components of a patented invention, where such components are uncombined in whole or in part, in such manner as to actively induce the combination of such componentsoutside of the United States” in a manner that would constitute direct infringement if such combination occurred within the United States.Second, § 271(f)(2) prohibits the unauthorized exportation of “anycomponent of a patented invention . . . knowing that such component is so made or adapted and intending that such component will be combined outside of the United States in a manner that would infringe the patent if such combination occurred within the United States.”",
+      "source": "article_tag",
+      "length": 950
+    },
+    {
+      "text": "In essence, whereas § 271(f)(1) prohibits the exportation of “all or a substantial portion of the components,” § 271(f)(2) expands liability to cover the exportation of “any component.” Together, the two provisions of § 271(f) work to capture exportation of components of patented inventions that induce the combination of such componentsoutside of the United Statesin a manner that would infringe the patent domestically.",
+      "source": "article_tag",
+      "length": 422
+    },
+    {
+      "text": "Both the Federal Circuit and the Supreme Court have considered extraterritorial damages under § 271(f) inWesternGeco IandWesternGeco II, respectively. In these cases, WesternGeco sued ION Geophysical Corporation (ION), alleging infringement of four of its U.S. patents relating to “marine seismic streamer technology”that involved systems “used to search for oil and gas beneath the ocean floor.”Falling squarely under the purview of § 271(f), ION manufactured the components for its competing system within the United States and then shipped those components to customers outside of the United States.Those customers then combined the components abroad to create a surveying system almost indistinguishable from that of WesternGeco’s.WesternGeco identified ten surveys for which it believed that, “but for ION’s [supply of components] to ION’s customers, WesternGeco would have been awarded the contract.”Thus, WesternGeco argued it was deprived of the profits resulting from those lost contracts for services to be performed abroad.Ultimately, it was awarded $93.4 million in lost profits.On appeal, ION challenged the award of lost profits.",
+      "source": "article_tag",
+      "length": 1143
+    },
+    {
+      "text": "Once again, the Federal Circuit concluded that lost profits were not recoverable, relying on the presumption against extraterritoriality.The court held that there was “no indication” by Congress of any intent to extend U.S. patent law to cover “uses abroad of the articles created from the exported components.”The court also cited its previous decision inPower Integrations: “UnderPower Integrations, WesternGeco cannot recover lost profits resulting from its failure to win foreign service contracts, the failure of which allegedly resulted from ION’s supplying infringing products to WesternGeco’s competitors.”Emphasizing that any liability under § 271(f) attaches domestically, the court analogized that “[j]ust as the United States seller . . . of a final product cannot be liable for use abroad, so too the United States exporter of the component parts cannot be liable for use of the infringing article abroad.”Despite being unable to recover lost profits from the foreign uses of the patented invention, the court noted that WesternGeco was still able to recover the reasonable royalty—of $12.5 million—awarded by the jury.While $12.5 million is still a substantial royalty, it is only a fraction of the $93.4 million that had been awarded in lost profits.",
+      "source": "article_tag",
+      "length": 1265
+    },
+    {
+      "text": "In 2018, the Supreme Court reversed the Federal Circuit’s decision inWesternGeco II, holding that WesternGecowasentitled to recover foreign lost profits for infringements under § 271(f)(2).Unlike the Federal Circuit, the Court applied the two-step framework laid out inRJR Nabiscoto determine the extraterritoriality of the statute.As to the first step of the analytical framework, WesternGeco argued that the presumption against extraterritoriality should “never apply to statutes, such as § 284, that merely provide a general damages remedy”.However, in declining to address WesternGeco’s argument, the Court exercised its discretion to skip the first step because resolving the question could “have far-reaching effects in future cases” and “implicate many other statutes besides the Patent Act.”",
+      "source": "article_tag",
+      "length": 799
+    },
+    {
+      "text": "The second step of the analytical framework requires an inquiry into the statute’s focus.In addressing this step, the Court noted that “[i]f the statutory provision at issue works in tandem with other provisions, it must be assessed in concert with those other provisions.”In other words, the contested statute cannot be read “in a vacuum.”The Court first examined the statutory text of § 284 and found that its focus is on “the infringement” because the statute’s “overriding purpose” is to provide patent owners with “complete compensation” for infringing activities.Thus, to determine the territorial scope of § 284, the Court then “look[ed] to the type of infringement that occurred.”The basis of the patentee’s infringement claim and lost-profits damages was § 271(f)(2), a statute the Court found to be primarily focused on domestic conduct.Specifically, the Court found that the conduct that § 271(f)(2) regulates is “the domestic act” of “exporting components from the United States.”",
+      "source": "article_tag",
+      "length": 992
+    },
+    {
+      "text": "Thus, the Court determined that the “lost-profit damages that were awarded to WesternGeco were a domestic application of § 284.”In contrast to the Federal Circuit’s reasoning, the Court concluded that the “overseas events were merely incidental to the infringement.”However, the Court was careful as to not go further. Despite arguments from the government urging the Court to use the proximate cause doctrine to calculate foreign lost profits,the Court explicitly clarified the narrow scope of its holding in a footnote, stating that it was “not address[ing] the extent to which other doctrines, such as proximate cause, could limit or preclude damages in particular cases.”",
+      "source": "article_tag",
+      "length": 675
+    },
+    {
+      "text": "Justice Gorsuch, joined by Justice Breyer, dissented.According to their view, the Patent Act prohibits lost profits such as those sought by WesternGeco, regardless of whether the presumption against extraterritoriality can be applied.The dissenting opinion expressed concern that permitting recovery in this case would “effectively allow U.S. patent owners to use American courts to extend their monopolies to foreign markets,” which in turn would “invite other countries to use their own patent laws . . . to assert control over our economy.”In looking to the statutory language of § 154(a)and § 271(a) to underscore the territorial limitations on U.S. patent law, Justice Gorsuch concluded that foreign uses of an invention do not infringe upon a U.S. patent right.Relatedly, the dissent suggested that because “an infringement must occur within the United States,” a plaintiff should only be able to recover damages for the “making, using, or selling of its invention within the United States”—not elsewhere.According to Justice Gorsuch, instead of providing protection against foreign use, § 271(f)(2) merely expands an infringer’s domestic liability to cover instances where “someone exports key components of the invention for assembly [abroad].”Otherwise, as Justice Gorsuch noted, companies like ION could be “responsible for any foreseeable harm its customers cause by using the product to compete against [the patentee] worldwide.”The Court dismissed this argument, responding that the dissent “wrongly conflates legal injury with the damages arising from that injury.”",
+      "source": "article_tag",
+      "length": 1579
+    },
+    {
+      "text": "The Court’s opinion certainly stands in stark contrast to the trilogy of cases the Federal Circuit had decided. Whereas the Federal Circuit emphasized a strict territorial limit to extraterritorial damages, the Court expanded the remedial scope of § 284. However, this decision is not without its criticism. Scholars have expressed concern that the Court’s holding “lack[ed] analytic rigor because the Court avoided grounding the holding in the specific facts of the case.”Such a broad interpretation could lead to a “floodgates effect by which other courts automatically award foreign lost damages without a proper analysis” grounded in precedent.Additionally, scholars have remained wary of this decision’s potentially harmful impact on international law and notions of prescriptive comity.",
+      "source": "article_tag",
+      "length": 792
+    },
+    {
+      "text": "InWesternGeco II, the Court explicitly limited its holding to § 271(f)(2),leaving open to interpretation how far the decision could be extended. It is certainly possible that courts will construeWesternGeco IInarrowly, only applying it in § 271(f)(2) cases. Or it is possible that lower courts will only applyWesternGeco IIto similar fact-specific scenarios, where foreign patent law or the sovereignty of foreign countries is not implicated because the sales were based on services performed on the high seas.",
+      "source": "article_tag",
+      "length": 510
+    },
+    {
+      "text": "Perhaps at the forefront of this debate is the question as to whether the holding could be applied in calculating damages flowing from direct infringement under § 271(a). In other words, doPower IntegrationsandCarnegie MellonsurviveWesternGeco II? By declining to address the extraterritorial reach of § 271(a) inWesternGeco II, the Court did notexplicitlyoverrule the Federal Circuit’s previous decisions.",
+      "source": "article_tag",
+      "length": 406
+    },
+    {
+      "text": "The extent to whichWesternGeco IIimpactedPower Integrations, if at all, has been considered by various scholars.On one hand, the two cases seem to be reconcilable based on several distinctions. First, as discussed earlier, the Court included an explicit disclaimer in itsWesternGeco IIdecision—it declined to address the extent to which other doctrines, such as proximate cause, would impact damages.This limitation could play an important role in distinguishingPower Integrations, in which the Federal Circuit’s decision appeared to be based, at least partially, on proximate cause.Since § 271(f) regulates the act of exporting the components of patented inventions, foreign lost sales are likely foreseeable.In fact, in order to be found liable under § 271(f), there almosthasto be some foreign conduct involved.By contrast, since the underlying infringement under § 271(a) is based on entirely domestic conduct, it is likely more difficult to establish a causal connection to foreign activity, including lost profits.As the Federal Circuit held, extraterritorial conduct “cuts off the chain of causation initiated by an act of domestic infringement” under § 271(a).",
+      "source": "article_tag",
+      "length": 1168
+    },
+    {
+      "text": "Second, the Supreme Court used a different analytical framework inWesternGeco IIthan what the Federal Circuit used inPower IntegrationsandCarnegie Mellon. In rejecting damages for foreign sales inPower Integrations, the Federal Circuit seemed to implicitly rely on the presumption against extraterritoriality,creating a strict rule against extraterritorial damages arising from a violation of § 271(a). This rule was enforced again inCarnegie Mellon.However, instead of following this bright-line territorial limit on damages inWesternGeco II, the Court referred back toRJR Nabiscoand used a two-step analytical framework to analyze the territorial scope of § 284 and § 271(f).",
+      "source": "article_tag",
+      "length": 677
+    },
+    {
+      "text": "Perhaps the most obvious distinction betweenWesternGeco IIandPower Integrationsis the underlying infringement provision. WhereasWesternGeco IIwas premised on infringement under § 271(f),Power Integrationsfocused on direct infringement under § 271(a). However, this distinction may not be a meaningful one.In fact, in light of the Court’s decision inWesternGeco II, Power Integrations argued on remand that it should be awarded extraterritorial damages inPower Integrationsas well.Judge Stark of the District of Delaware agreed, explaining that “Fairchild has identified no persuasive reason to conclude that the interpretation of § 284 should differ here from what was available inWesternGeco IIjust because the type of infringing conduct alleged is different.”Instead, Judge Stark reasoned that like § 271(f), § 271(a) similarly “vindicates domestic interests.”",
+      "source": "article_tag",
+      "length": 862
+    },
+    {
+      "text": "Despite the apparent differences between the cases, much of the Supreme Court’s reasoning inWesternGeco IIis not necessarily confined to § 271(f). Indeed, scholars have noted thatWesternGeco IIcould be applied broadly to encompass other types of infringing conduct.And, as this Note will discuss, whether or notWesternGeco IIis read expansively has a critical impact on domestic industries via its impact on the behaviors of domestic corporations. In Part III, this Note explores the impact of these judicial decisions on the semiconductor industry and argues that an expansive reading ofWesternGeco IIcould have a positive impact.",
+      "source": "article_tag",
+      "length": 631
+    },
+    {
+      "text": "The advantages to allowing recovery of foreign lost profits when infringement occurs under § 271(a) outweigh the presumption against extraterritoriality in the context of patent damages. For instance, given the critical dependence of the U.S. economy and national security on semiconductor technology, incentivizing domestic chip manufacturing is a priority.However, underPower IntegrationsandCarnegie Mellon, the semiconductor industry and semiconductor patent holders may actually be incentivized to keep chip production overseas, undermining the United States’ initiatives to increase domestic manufacturing. This Part explores the implications of the Federal Circuit’s decisions on the semiconductor industry as a basis for extending extraterritorial reach to § 271(a).",
+      "source": "article_tag",
+      "length": 773
+    },
+    {
+      "text": "The underlying facts ofCarnegie Mellonare not uncommon for the semiconductor industry. Although most semiconductor design and research take place in the United States, most chip manufacturing facilities are in Asia.Thus, the semiconductor industry is ripe for cases where a single infringing act (such as the testing of a sample chip) may occur on U.S. soil, while the majority of sales occur abroad. This subpart will first discuss the importance of the semiconductor industry to our domestic economy and then analyze the impact of recent case law on semiconductor firms.",
+      "source": "article_tag",
+      "length": 572
+    },
+    {
+      "text": "Semiconductors, also known as integrated circuits, are small electronic devices composed of billions of tiny components that process and store information.They are created from semiconducting materials, such as silicon and germanium, which have unique properties related to electrical conductivity.Specifically, semiconductors possess characteristics of both conductors and insulators, depending on the temperature.With their ability to provide data storage and enhance communication techniques, semiconductors enable many products and technologies, including smartphones, automated vehicles, artificial intelligence, 5G/6G communications, and aircraft avionics.",
+      "source": "article_tag",
+      "length": 662
+    },
+    {
+      "text": "Since the mid-twentieth century, the United States has emerged as a worldwide leader in the research, development, and design of semiconductors.In fact, in 2019 the United States accounted for 11% of global semiconductor fabrication capacityand for nearly 60% of all global fabless firm sales in 2021.However, U.S. dominance in semiconductor manufacturing has been steadily declining. As of 2020, only 12% of the world’s semiconductors were made in the United States, a steep decline from the 37% share the United States held in 1990.This may be partially explained by the U.S. trend toward a fabless business model, which focuses solely on R&D and chip design, consequently pushing much of the global chip production to Asia,where around 80% of semiconductor manufacturing facilities are concentrated.In fact, roughly three-quarters of global semiconductor production capacity resides in just four Asian locations: Taiwan, South Korea, China, and Japan.One of those locations, China, is predicted to hold the largest share of global production by 2030, primarily due to its government’s massive investments in the industry.",
+      "source": "article_tag",
+      "length": 1124
+    },
+    {
+      "text": "U.S. leaders have recognized the importance of maintaining competitiveness in the global semiconductor industry. Recently, U.S. policymakers have focused on stimulating the domestic production of semiconductors and ensuring retention of manufacturing knowledge, two key components to protecting U.S. economic interests and maintaining a lead in semiconductor technology.In fact, a robust manufacturing capability may be essential for our national security.Relying on foreign countries to manufacture chips, especially chips that are necessary for emerging defense technologies, creates a dependency that makes the United States vulnerable.Supply chain risks were highlighted on a large scale during the COVID-19 pandemic. During 2020, the entire world faced a global chip shortage due to fluctuations in demand caused by the viral outbreak.The shortage impacted several downstream sectors, including automobiles, consumer electronics, home appliances, and others.",
+      "source": "article_tag",
+      "length": 963
+    },
+    {
+      "text": "To address the erosion of U.S. shares in global manufacturing capacity, Congress has recently acted to promote domestic advancement and economic growth in the semiconductor industry. Bipartisan legislation called the CHIPS for America Act was enacted as part of the 2021 National Defense Authorization Act to authorize investments in domestic chip manufacturing and research incentives.Subsequently, on June 8, 2021, the Senate passed the U.S. Innovation and Competition Act (USICA). USICA included $52 billion to fund the semiconductor research, design, and manufacturing provision in the CHIPS for America Act.",
+      "source": "article_tag",
+      "length": 612
+    },
+    {
+      "text": "In addition, a coalition of industry, academic, and state leaders spearheaded the National Semiconductor Economic Roadmap, a program designed “to boost U.S. semiconductor competitiveness through a focus on the workforce, supply chain, and infrastructure while supporting semiconductor research and development, design, manufacturing, and end applications.”From this initiative, Arizona announced two large-scale semiconductor plans: a $20 billion investment from Intel to build two fabs and a $12 billion investment by Taiwan Semiconductor Manufacturing Company to build a fab in Phoenix.In 2021, Samsung also announced plans to open a $17 billion chip factory in Texas, which is expected to produce critical semiconductors for technologies, such as 5G cellular networks, automated cars, and artificial intelligence.",
+      "source": "article_tag",
+      "length": 816
+    },
+    {
+      "text": "To understand the impact ofCarnegie MellonandPower Integrationson the semiconductor industry, it is important to readdress the facts that gave rise to the Federal Circuit’s decisions. To illustrate the impact, this section will specifically discuss the facts ofCarnegie Mellonin relation to semiconductor firms.",
+      "source": "article_tag",
+      "length": 311
+    },
+    {
+      "text": "As discussed inCarnegie Mellon, it is common in the semiconductor industry for companies to compete for design wins through a standard sales cycle.The purpose and objective of this process is for companies to win incorporation of their components into end products.To convince potential buyers of a chip’s efficacy, companies often use sample chips to test and analyze functionality prior to full-scale manufacturing.As demonstrated inCarnegie Mellon, the use of a sample chip domestically can constitute an act of infringement.",
+      "source": "article_tag",
+      "length": 528
+    },
+    {
+      "text": "However, underCarnegie Mellona patent owner cannot recover damages arising from foreign sales, even if those sales were derived from a domestic act of infringement, such as the use of a sample chip in the sales cycle.As opposed to other patents, semiconductor patents are at particular risk of theCarnegie Mellonscenario. This is partially because the sales cycle and design win process are unique to the semiconductor industry.Additionally, the United States is a prominent leader in semiconductor design, but most semiconductor manufacturing occurs abroad.These features set up the perfect storm in which foreign damages can arise from domestic conduct but never be fully realized; from this standpoint, semiconductor patents may be less valuable than patents in other industries.",
+      "source": "article_tag",
+      "length": 782
+    },
+    {
+      "text": "Further, cases involving damages and extraterritoriality have a particularly dramatic impact on the semiconductor industry due to the large damage awards obtained in patent lawsuits involving semiconductors.Because the stakes are so high, any decision limiting patent damages has a rather significant effect on the semiconductor companies involved in litigation. This only underscores the importance of permitting full and adequate compensation in these cases.",
+      "source": "article_tag",
+      "length": 460
+    },
+    {
+      "text": "For a firm in CMU’s position, there are not many options for domestic recourse. As the Federal Circuit made clear, the patent holder cannot recover foreign lost profits or a reasonable royalty from overseas losses. And the only infringing activity that occurred on behalf of the competitor was the design win in the United States. Thus, suing the competitor will likely not result in adequate compensation. As an alternative option, the patent holder could elect to sue the customers who are buying and using the infringing product domestically. However, 42% of all semiconductor spending is consolidated between ten companies, with Apple, Samsung, and Huawei leading the group.By suing the customer, patent holders run the risk of suing theirowncustomers or theirpotentialcustomers. From a business relations standpoint, this avenue is far from ideal. Thus, either option—suing the competitor or suing the customer—is not likely to result in fruitful compensation. This again suggests that semiconductor patents may be less valuable than other patented inventions. The restrictive extraterritorial application of damages underCarnegie MellonandPower Integrationsputs semiconductor patent holders in an unfortunate position where they are unlikely to fully recover their losses.",
+      "source": "article_tag",
+      "length": 1278
+    },
+    {
+      "text": "Distinguishing cases based on the underlying act of infringement is not enough to justify disparate treatment under § 271(a) and § 271(f) in relation to the territorial scope of the patent damages statute, § 284. If § 271(f) allows a claimant to reach overseas conduct (given some domestic connection), then why should the same not hold true for infringement under § 271(a)? In fact, the Supreme Court’s analysis of § 284, “has equal applicability to [direct infringement claims], as governed by § 271(a), as it [does] to the supplying a component infringement claims . . . governed by § 271(f)(2).”In light of the Court’s decision inWesternGeco II, this subpart urges consideration of the semiconductor industry as a key rationale for permitting extraterritorial damages for infringement under § 271(a).",
+      "source": "article_tag",
+      "length": 804
+    },
+    {
+      "text": "Under the two-step legal analysis framework for determining the extraterritorial reach of a statute, “[i]f the conduct relevant to the statute’s focus occurred in the United States,” the statute may be applied extraterritorially.InWesternGeco II, the Court found the focus of § 271(f) to be on domestic conduct.Surely conduct violating § 271(a), which explicitly states that the infringing acts must occur “within the United States,” would beeven moredomestic. Thus, under the Court’s own reasoning, domestic application of § 271(a) should be allowed in the context of foreign lost profits—if anything, the case for awarding extraterritorial damages is even stronger.",
+      "source": "article_tag",
+      "length": 667
+    },
+    {
+      "text": "Importantly, extendingWesternGeco IIto § 271(a) would also better align with current U.S. policy objectives. The decisions inCarnegie MellonandPower Integrationsare at odds with the executive branch’s goal of increasing domestic chip manufacturing activity. For instance, if patent holders cannot recover for foreign losses (and if firms—who have committed an act of domestic infringement—do not have to answer for extraterritorial lost sales flowing from the infringement), semiconductor companies are likely incentivized to keep their operations, specifically manufacturing and sales, overseas to escape damages liability.Thus, instead of increasing the United States’ share of global production,Carnegie MellonandPower Integrationsmay actually cause a further decline in domestic manufacturing. Additionally, a rule that prevents patent owners from recovering losses incurred abroad might riskencouragingdefendants to commit acts of domestic infringement, knowing that they will not be responsible for the full consequences of their actions.This reduces the incentives for semiconductor firms to create new, groundbreaking technology; if such technology can be misappropriated without significant repercussions, why should firms invest in creation?",
+      "source": "article_tag",
+      "length": 1251
+    },
+    {
+      "text": "The language of the general damages provision of § 284 states that the claimant shall receive adequate compensation for infringement.As emphasized inWesternGeco II, this has been interpreted to meancompletecompensation.Full compensation “preserves the patent incentive by restoring the patentee to the position it would have occupied had the infringer either avoided infringement or obtained a license.”And under the principles ofRite-Hite, compensation including foreign lost profits seems to be appropriate. Although foreign sales by themselves generally do not create liability, “the foreseeability prong ofRite-Hitearguably makes these foreign sales a cognizable harm.”As one scholar notes, “[b]y foregoing damages due to these extraterritorial concerns, courts risk inadequately compensating the injured patent holder, which would weaken the U.S. patent system.”If patent law cannot fully protect inventors, such as semiconductor firms based in the United States, the incentives to create are diminished, and the protection proffered by the Patent Act is severely undermined.",
+      "source": "article_tag",
+      "length": 1080
+    },
+    {
+      "text": "In fact, although § 271(a) explicitly defines direct infringement as conduct that must take place within the United States, neither § 284 nor common-law causation theories “confine the damages flowing from that infringement to domestic sales alone.”As Professor Stephen Yelderman noted in his amicus brief filed inWesternGeco II, “time-honored remedial doctrines,” such as those in domestic tort cases, support compensatory damages for losses incurred at home and abroad.Yelderman concluded that long-standing principles of causation “provide no basis for drawing a line at the water’s edge.”The same general principles of tort law should apply to disputes arising in the patent context.",
+      "source": "article_tag",
+      "length": 687
+    },
+    {
+      "text": "To conclude, this Note offers a hypothetical posed by Yelderman in a 2018 article that predates theWesternGeco IIdecision.In the hypothetical, a U.S. patent holder earns $2 million from using its patented tool in Texas and $1 million from using it in Louisiana. After a competitor makes its own version of the patented tool, selling it to customers who use it in Texas and Louisiana, the patentee’s profits drop to zero. In this purely domestic scenario, the patentee would be entitled to $3 million in damages. The scenario becomes more complex when the facts are changed slightly to consider foreign sales. If the patent owner instead uses her patented tool in Texas and France, the determination of damages becomes complicated by the Federal Circuit’s strict extraterritorial limitations. The patent holder would still be entitled to the $2 million lost profits in Texas but would be unable to recover the $1 million lost profits in France. Thus, the net recovery (under the France scenario) is $2 million instead of the $3 million obtained from purely domestic lost profits. Yelderman notes:",
+      "source": "article_tag",
+      "length": 1095
+    },
+    {
+      "text": "This change in outcome is remarkable, because nothing about the infringing conduct has changed––the other manufacturer is still infringing under § 271(a), at the same volume, still in Texas, through the manufacture and sale of the patented tool. Moreover, the harm those domestic acts of infringement have done to the patentee is the same too—she is still $3 million worse off as a direct result of the infringement. But, because the patent holder’s business is now vulnerable in a different market—she is losing profits in Texas and France, not Texas and Louisiana—the Federal Circuit would stop short of restoring her rightful position.",
+      "source": "article_tag",
+      "length": 638
+    },
+    {
+      "text": "In this hypothetical, Yelderman illustrates from a common-sense approach why domestic and foreign profits, both arising from the same act of domestic infringement, should be treated in a similar manner. This conclusion is only reinforced by the positive incentives that would ensue for the semiconductor industry, a $527.88 billion global sector with significant domestic implications.",
+      "source": "article_tag",
+      "length": 385
+    },
+    {
+      "text": "Those in support of a narrow interpretation ofWesternGeco IImay argue that opening the door to recovery of foreign damages undermines international law and prescriptive comity. However, such concerns are likely exaggerated. Many of the disputes arising in the context ofPower IntegrationsorCarnegie Mellonwould be disputes solely between U.S. companies.And as one scholar notes, in cases likeWesternGeco IIandPower Integrations, the United States “wouldnotbe regulating foreign conduct, but rather deciding what the consequences should be for an act ofdomesticinfringement.”",
+      "source": "article_tag",
+      "length": 574
+    },
+    {
+      "text": "Similarly, concerns regarding duplicative recoveries (where patentees can recover foreign damages by enforcing patents both within the United States and in foreign countries) are likely not significant either. A rule that allows a plaintiff to only recover once for a particular harm—a single recovery rule—would preclude two bites at the apple.Lastly, even with an extension ofWesternGeco II, there are still safeguards in place to cut off the causal chain of recovery; proximate cause and other legal doctrines can still function as limitations and boundaries to the amount of foreign damages that are recoverable.For instance, the act of domestic infringement must be the but-for cause of “any extraterritorial sales that allegedly harm the patent owner or benefit the infringer.”And “even if the domestic infringement is the cause-in-fact of foreign sales, the patent owner cannot recover damages reflecting those sales unless the sales also are proximately caused by the domestic infringement.”Thus, extension ofWesternGeco IIdoes not necessarily open the floodgates to a proliferation of patent damages.",
+      "source": "article_tag",
+      "length": 1109
+    },
+    {
+      "text": "In the United States, it is well-settled that patents are only directly infringed by conduct occurring inside the country’s geographic boundaries. However, the use of infringing chips to compete in the design win process satisfies this condition as an act of domestic infringement. But underPower IntegrationsandCarnegie Mellon, semiconductor firms seeking remedial answers are unable to obtain full and adequate compensation.",
+      "source": "article_tag",
+      "length": 426
+    },
+    {
+      "text": "However, the Supreme Court’s decision inWesternGeco IImay provide a path towards such compensation. InWesternGeco II, the Court did not explicitly confine its reasoning to § 271(f)—there is no holding that precludes extendingWesternGeco IIto reach infringing acts under § 271(a). In fact, there is no meaningful distinction between the acts of underlying infringement that would merit a different analysis. If foreign activity can create domestic liability, then domestic activity should be able to create damages liability abroad. This outcome is particularly important to promote domestic policy designed to boost U.S. competitiveness in the global semiconductor market.",
+      "source": "article_tag",
+      "length": 672
+    },
+    {
+      "text": "Although there are drawbacks and benefits to extending the territorial scope of U.S. patent laws, the impact of these judicial decisions on the semiconductor industry should remain a foremost concern to U.S. policymakers. Semiconductor firms headquartered in the United States account for the largest share of the global market.For over six decades, growth in semiconductor capabilities and performance has spurred U.S. economic output and productivity, enabling many new downstream technologies and industries.In a time where it is imperative to our national security and technological advancement to invest in domestic semiconductor manufacturing, special attention should be given to the impact of recent case law on the semiconductor industry. A narrow reading ofWesternGeco II, leavingPower IntegrationsandCarnegie Mellonfully intact, not only permits firms to circumvent damages liability but also incentivizes firms to keep operations abroad, thereby undermining substantial efforts to capture a portion of the U.S. market. Allowing recovery of foreign losses arising from infringement under § 271(a) is not an attempt to unboundedly expand the geographic scope of U.S. patent rights—it is an attempt to ensure full compensation for patent holders.",
+      "source": "article_tag",
+      "length": 1255
+    }
+  ],
+  "footnotes": [
+    {
+      "text": ".Klaus Schwab,The Fourth Industrial Revolution8 (2016).↑",
+      "source": "footnote_list_item",
+      "length": 56
+    },
+    {
+      "text": ". J.P. Long,Apportionment in the Semiconductor Age,IP Litigator, March/April 2021, at 1, 1.↑",
+      "source": "footnote_list_item",
+      "length": 92
+    },
+    {
+      "text": ".What Is a Semiconductor?,Semiconductor Indus. Ass’n, https://www.‌semiconductors.org/semiconductors-101/what-is-a-semiconductor/ [https://perma.cc/8TCM-TJFC]; Brandon Baker,Why the Semiconductor Shortage Won’t End Soon,Penn Today (Mar. 19, 2021), https://penntoday.upenn.edu/news/why-semiconductor-shortage-wont-end-soon [https://‌perma.cc/KJ9U-SMJG].↑",
+      "source": "footnote_list_item",
+      "length": 353
+    },
+    {
+      "text": ".SeeOndrej Burkacky, Julia Dragon & Nikolaus Lehmann,The Semiconductor Decade: A Trillion-Dollar Industry,McKinsey & Co.(Apr. 1, 2022), https://www.mckinsey.com/‌industries/‌semiconductors/our-insights/the-semiconductor-decade-a-trillion-dollar-industry [https://perma.‌cc/5P2D-S26Z] (“The global semiconductor industry is poised for a decade of growth and is projected to become a trillion-dollar industry by 2030.”).↑",
+      "source": "footnote_list_item",
+      "length": 419
+    },
+    {
+      "text": ".SeeMichaela D. Platzer, John F. Sargent Jr. & Karen M. Sutter,Cong. Rsch. Serv., R46581, Semiconductors: U.S. Industry, Global Competition, and Federal Policy1 (2020) (“Many policymakers see the competitiveness of the U.S. semiconductor industry, including domestic production of semiconductors and the retention of manufacturing knowledge, human expertise, and hands-on experience, as vital to U.S. economic and national security interests.”).↑",
+      "source": "footnote_list_item",
+      "length": 446
+    },
+    {
+      "text": ". Timothy R. Holbrook,Boundaries, Extraterritoriality, and Patent Infringement Damages, 92Notre Dame L. Rev.1745, 1746–47 (2017) (citing Mark D. Janis,Patent Law in the Age of the Invisible Supreme Court, 2001U. Ill. L. Rev.387, 387).↑",
+      "source": "footnote_list_item",
+      "length": 235
+    },
+    {
+      "text": ". Timothy R. Holbrook,Extraterritoriality and Proximate Cause AfterWesternGeco,21 Yale J.L. & Tech.189, 192 (2019).↑",
+      "source": "footnote_list_item",
+      "length": 116
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1748; Timothy R. Holbrook,What Counts as Extraterritorial in Patent Law?, 25B.U. J. Sci. & Tech. L. 291, 294 (2019)[hereinafter Holbrook,What Counts as Extraterritorial].↑",
+      "source": "footnote_list_item",
+      "length": 198
+    },
+    {
+      "text": ".Developing Country Experience with Extraterritoriality in Competition Law,United Nations Conf. on Trade and Dev., https://unctad.org/Topic/Competition-and-Consumer-Protection/Research-Partnership-Platform/Extraterritoriality [https://perma.cc/7U2B-VBRB].↑",
+      "source": "footnote_list_item",
+      "length": 256
+    },
+    {
+      "text": ".Brian T. Yeh,Cong. Rsch. Serv., LSB10173,Patent Owners May Recover Foreign-Based Damages in Certain Infringement Cases 1 (2018).↑",
+      "source": "footnote_list_item",
+      "length": 130
+    },
+    {
+      "text": ".See35 U.S.C. § 271(a) (“[W]hoever without authority, makes, uses, offers to sell, or sells any patented invention,within the United Statesorimports into the United Statesany patented invention . . . infringes the patent.” (emphasis added));see alsoRobert H. Stier, Jr.,Extraterritoriality and the Active Inducement of Infringement, 19UIC Rev. Intell. Prop. L.204, 205 (2020) (discussing the “fundamentally territorial nature of U.S. patent law”).↑",
+      "source": "footnote_list_item",
+      "length": 448
+    },
+    {
+      "text": ". Holbrook,What Counts as Extraterritorial,supranote 9, at 295. For instance, courts examine patents and printed publications in foreign countries to assess the novelty and non-obviousness of inventions.SeeI.C.E. Corp. v. Armco Steel Corp., 250 F. Supp. 738, 740 n.6 (S.D.N.Y. 1966) (noting that the Patent Act of 1836 denied patent protection if the invention “had been patented or described in any printed publication in this or any foreign country” (quoting the Patent Act of 1836, ch. 357, § 7, 5 Stat. 117, 119 (current version at 35 U.S.C. § 102))).↑",
+      "source": "footnote_list_item",
+      "length": 556
+    },
+    {
+      "text": ".SeePower Integrations, Inc. v. Fairchild Semiconductor Int’l, Inc., 711 F.3d 1348, 1371 (Fed. Cir. 2013) (“Power Integrations’ . . . theory of worldwide damages sets the presumption against extraterritoriality in interesting juxtaposition with the principle of full compensation.”).↑",
+      "source": "footnote_list_item",
+      "length": 284
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1751.SeeEEOC v. Arabian Am. Oil Co., 499 U.S. 244, 248 (1991) (“Congress has the authority to enforce its laws beyond the territorial boundaries of the United States.”).↑",
+      "source": "footnote_list_item",
+      "length": 197
+    },
+    {
+      "text": ". Steele v. Bulova Watch Co., 344 U.S. 280, 285–86 (1952) (“[T]he United States is not debarred by any rule of international law from governing the conduct of its own citizens upon the high seas or even in foreign countries when the rights of other nations or their nationals are not infringed.” (quoting Skiriotes v. Florida, 313 U.S. 69, 73 (1941))).↑",
+      "source": "footnote_list_item",
+      "length": 353
+    },
+    {
+      "text": ". Holbrook,What Counts as Extraterritorial,supranote 9, at293.↑",
+      "source": "footnote_list_item",
+      "length": 63
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1749–50.↑",
+      "source": "footnote_list_item",
+      "length": 36
+    },
+    {
+      "text": ".SeeC. Gregory Gramenopoulos & Frank A. Italiano,The Extraterritorial Reach of U.S. Patents: Implications for the Global Marketplace,Finnegan(May 2006), https://www.finnegan.‌com/en/insights/articles/the-extraterritorial-reach-of-u-s-patents-implications-for-the.html [https://‌perma.cc/VYJ5-L72M] (emphasizing that “the extraterritorial reach of U.S. patents presents significant implications for the global marketplace”).↑",
+      "source": "footnote_list_item",
+      "length": 424
+    },
+    {
+      "text": ".See, e.g., Power Integrations, Inc. v. Fairchild Semiconductor Int’l, Inc., 711 F.3d 1348, 1370 (Fed. Cir. 2013) (determining whether the “jury’s original award of worldwide damages was legally appropriate”); WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2134 (2018) (answering whether a patent owner could recover foreign lost profits under 35 U.S.C. § 271(f)(2) and § 284).↑",
+      "source": "footnote_list_item",
+      "length": 390
+    },
+    {
+      "text": ".SeeTimothy R. Holbrook,Extraterritoriality in U.S. Patent Law, 49Wm. & Mary L. Rev.2119, 2136 (2008) (“The Federal Circuit’s exploration of the issue of extraterritoriality has given, at best, inconsistent results. One can discern two strands of the court’s jurisprudence: a strict territorial approach on the one hand, and a willingness to provide extraterritorial relief on the other.”).↑",
+      "source": "footnote_list_item",
+      "length": 391
+    },
+    {
+      "text": ". 138 S. Ct. 2129 (2018).WesternGecowas decided at both the Federal Circuit and Supreme Court levels. To distinguish between the Federal Circuit and Supreme Court opinions, the resulting decisions will be referred to asWesternGeco IandWesternGeco II, respectively.↑",
+      "source": "footnote_list_item",
+      "length": 265
+    },
+    {
+      "text": ".Yeh,supranote 11, at 1.↑",
+      "source": "footnote_list_item",
+      "length": 25
+    },
+    {
+      "text": ".Id.; Sapna Kumar,Patent Damages Without Borders, 25Tex. Intell. Prop. L.J.73, 75 (2017); Morrison v. Nat’l Austl. Bank Ltd., 561 U.S. 247, 255 (2010).↑",
+      "source": "footnote_list_item",
+      "length": 152
+    },
+    {
+      "text": ". RJR Nabisco, Inc. v. European Cmty., 579 U.S. 325, 335 (2016) (citingMorrison, 561 U.S. at 255).↑",
+      "source": "footnote_list_item",
+      "length": 99
+    },
+    {
+      "text": ". Microsoft Corp. v. AT&T Corp., 550 U.S. 437, 454–55 (2007).↑",
+      "source": "footnote_list_item",
+      "length": 62
+    },
+    {
+      "text": ".Id.at 455 (quoting Deepsouth Packing Co. v. Laitram Corp., 406 U.S. 518, 531 (1972)).↑",
+      "source": "footnote_list_item",
+      "length": 87
+    },
+    {
+      "text": ". Kumar,supranote 24, at 82; Lea Brilmayer,The New Extraterritoriality:Morrison v. National Australia Bank,Legislative Supremacy, and the Presumption Against Extraterritorial Application of American Law, 40Sw. L. Rev.655, 663–64 (2011);see alsoMichael Brody, James I. Harlan, Steffen Johnson, Christopher Mills & Peter Bigelow,Extraterritorial Application of U.S. Patent Laws, 18Sedona Conf. J.187, 188–89 (2017) (discussing policy rationales for the presumption against extraterritoriality).↑",
+      "source": "footnote_list_item",
+      "length": 493
+    },
+    {
+      "text": ". Kumar,supranote 24, at 82.↑",
+      "source": "footnote_list_item",
+      "length": 29
+    },
+    {
+      "text": ". EEOC v. Arabian Am. Oil Co., 499 U.S. 244, 248 (1991) (citing McCulloch v. Sociedad Nacional de Marineros de Honduras, 372 U.S. 10, 20–22 (1963)).↑",
+      "source": "footnote_list_item",
+      "length": 149
+    },
+    {
+      "text": ". Brody et al.,supranote 28, at 188;see alsoMurray v. Schooner Charming Betsy, 6 U.S. (2 Cranch) 64, 118 (1804) (recognizing that “an act of Congress ought never to be construed to violate the law of nations if any other possible construction remains, and consequently can never be construed to violate neutral rights . . . further than is warranted by the law of nations as understood in this country”).↑",
+      "source": "footnote_list_item",
+      "length": 405
+    },
+    {
+      "text": ".Arabian Am. Oil Co., 499 U.S. at 255.↑",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": ". F. Hoffman-La Roche Ltd v. Empagran S.A., 542 U.S. 155, 164 (2004) (citingSociedad Nacional de Marineros, 372 U.S. at 20–22; Romero v. Int’l Terminal Operating Co., 358 U.S. 354, 382–83 (1959); Lauritzen v. Larsen, 345 U.S. 571, 578 (1953));see alsoAm. Banana Co. v. United Fruit Co., 213 U.S. 347, 356 (1909) (expressing concern that “treat[ing] [an actor] according to [another nation’s laws] rather than those of the place where he did the acts . . . would be an interference with the authority of another sovereign, contrary to the comity of nations”).↑",
+      "source": "footnote_list_item",
+      "length": 559
+    },
+    {
+      "text": ". Kumar,supranote 24, at 84–85.↑",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": ". Morrison v. Nat’l Austl. Bank Ltd., 561 U.S. 247, 261 (2010); Kumar,supranote 24, at 85.↑",
+      "source": "footnote_list_item",
+      "length": 91
+    },
+    {
+      "text": ". Curtis A. Bradley,Territorial Intellectual Property Rights in an Age of Globalism, 37Va. J. Int’l. L.505, 516 (1997) (quoting Smith v. United States, 507 U.S. 197, 204 n.5 (1993));see also Arabian Am. Oil Co., 499 U.S. at 248 (“[W]e assume that Congress legislates against the backdrop of the presumption against extraterritoriality.”).↑",
+      "source": "footnote_list_item",
+      "length": 339
+    },
+    {
+      "text": ". Brody et al.,supranote 28, at 189; Kumar,supranote 24, at 85.↑",
+      "source": "footnote_list_item",
+      "length": 64
+    },
+    {
+      "text": ". Bradley,supranote 36.↑",
+      "source": "footnote_list_item",
+      "length": 24
+    },
+    {
+      "text": ". Holbrook,What Counts as Extraterritorial,supranote 9, at 317 (“The courts have also expressed an additional justification, institutional competence, because these issues are political in nature and should be left to the branches of government that engage with international affairs.”);SeeBradley,supranote 36, at 516 & n.49 (citing several cases in which the Supreme Court applied the presumption, in part, due to concerns about institutional competence);see alsoBrody et al.,supranote 28, at 189 (“[E]xtraterritorial application of laws can implicate foreign relations issues and policy matters that, often, courts have neither the authority nor the competence to handle.”).↑",
+      "source": "footnote_list_item",
+      "length": 678
+    },
+    {
+      "text": ". 579 U.S. 325 (2016).↑",
+      "source": "footnote_list_item",
+      "length": 23
+    },
+    {
+      "text": ".WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2136 (2018) (quoting Pearson v. Callahan, 555 U.S. 223, 236–37 (2009)).↑",
+      "source": "footnote_list_item",
+      "length": 132
+    },
+    {
+      "text": ". Gen. Motors Corp. v. Devex Corp., 461 U.S. 648, 654–55 (1983).↑",
+      "source": "footnote_list_item",
+      "length": 65
+    },
+    {
+      "text": ".SeeHolbrook,supranote 7, at 1766 (noting that the presumption against extraterritoriality and damages flowing from foreign conduct are “two areas of law that arguably conflict with each other”).↑",
+      "source": "footnote_list_item",
+      "length": 196
+    },
+    {
+      "text": ". 461 U.S. 648 (1983).↑",
+      "source": "footnote_list_item",
+      "length": 23
+    },
+    {
+      "text": ".Seeid.at 653 (noting that “[w]hen Congress wished to limit an element of recovery in a patent infringement action, it said so explicitly”).↑",
+      "source": "footnote_list_item",
+      "length": 141
+    },
+    {
+      "text": ". 56 F.3d 1538 (Fed. Cir. 1995) (en banc).↑",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1766 (citingRite-Hite Corp., 56 F.3d at 1542–46).↑",
+      "source": "footnote_list_item",
+      "length": 77
+    },
+    {
+      "text": ". Holbrook,supranote 8, at 224 (citingRite-Hite Corp., 56 F.3d at 1546).↑",
+      "source": "footnote_list_item",
+      "length": 73
+    },
+    {
+      "text": ". Kumar,supranote 24, at 90.↑",
+      "source": "footnote_list_item",
+      "length": 29
+    },
+    {
+      "text": ".Rite-Hite Corp., 56 F.3d at 1545.↑",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": ". Sam H. Boyer, Comment,FromDeepsouthtoWesternGeco: The Patent Provision Heard Around the World, 80La. L. Rev.165, 176 (2019).↑",
+      "source": "footnote_list_item",
+      "length": 127
+    },
+    {
+      "text": ". Kumar,supranote 24, at 91.↑",
+      "source": "footnote_list_item",
+      "length": 29
+    },
+    {
+      "text": ".Id.(citingRite-Hite Corp., 56 F.3d at 1549).↑",
+      "source": "footnote_list_item",
+      "length": 46
+    },
+    {
+      "text": ".See35 U.S.C. § 284 (stating simply that “[u]pon finding for the claimant the court shall award the claimant damages adequate to compensate for the infringement, but in no event less than a reasonable royalty for the use made of the invention by the infringer, together with interest and costs as fixed by the court”).↑",
+      "source": "footnote_list_item",
+      "length": 319
+    },
+    {
+      "text": ".Seeinfrasubpart II(B).↑",
+      "source": "footnote_list_item",
+      "length": 24
+    },
+    {
+      "text": ".SeeWesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2139 (2018) (holding that a patentee can recover foreign lost profits resulting from infringement under § 271(f)(2)).↑",
+      "source": "footnote_list_item",
+      "length": 181
+    },
+    {
+      "text": ". 791 F.3d 1340 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ". 711 F.3d 1348 (Fed. Cir. 2013).↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ". 807 F.3d 1283 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ". 35 U.S.C. § 271(a) (emphasis added).↑",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1770.↑",
+      "source": "footnote_list_item",
+      "length": 33
+    },
+    {
+      "text": ".Power Integrations, 711 F.3d at 1371–72.↑",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": ". Petition for Writ of Certiorari at 8,Power Integrations, 711 F.3d 1348 (No. 13-269) (“Fairchild sold the chips manufactured in Maine to Samsung and its subcontractors overseas—in Korea—for a total revenue of $547,724, and Fairchild also made direct imports and sales of infringing chips to U.S.-based customers for a total revenue of $218,000.”).↑",
+      "source": "footnote_list_item",
+      "length": 349
+    },
+    {
+      "text": ".Power Integrations, 711 F.3d at 1370.↑",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": ".Id.at 1371 (citing Brown v. Duchesne, 60 U.S. (19 How.) 183, 195 (1856)).↑",
+      "source": "footnote_list_item",
+      "length": 75
+    },
+    {
+      "text": ". Kumar,supranote 24, at 92–93.↑",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": ". Carnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 807 F.3d 1283, 1307 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 91
+    },
+    {
+      "text": ". Carnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 986 F. Supp. 2d 574, 634–39 (W.D. Pa. 2013),aff’d in part, vacated and remanded in part, rev’d in part, 807 F.3d 1283 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 189
+    },
+    {
+      "text": ".Carnegie Mellon, 807 F.3d at 1291–92.↑",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": ".Carnegie Mellon, 986 F. Supp. 2d at 593.↑",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": ".Id.at 634;see alsoBernard Chao,Patent Law’s Domestic Sales Trap, 93Denv. L. Rev. Online87, 88 (2016) (describing how Marvell “did use the infringing technology domestically” as part of its sales cycle).↑",
+      "source": "footnote_list_item",
+      "length": 204
+    },
+    {
+      "text": ".Carnegie Mellon, 986 F. Supp. 2d.at 593–94, 634.↑",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1771–72.↑",
+      "source": "footnote_list_item",
+      "length": 36
+    },
+    {
+      "text": ". Carnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 807 F.3d 1283, 1305–08 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 94
+    },
+    {
+      "text": ".Id.at 1307 (“Although all of Marvell’s sales are strongly enough tied to its domestic infringement as a causation matter to have been part of the hypothetical-negotiation agreement, that conclusion is not enough to use the sales as a direct measure of the royaltyexcept as to sales that are domestic. . . .” (emphasis added)); Kumar,supranote 24, at 93.↑",
+      "source": "footnote_list_item",
+      "length": 355
+    },
+    {
+      "text": ".Carnegie Mellon, 807 F.3d at 1307.↑",
+      "source": "footnote_list_item",
+      "length": 36
+    },
+    {
+      "text": ". Boyer,supranote 60, at 179.↑",
+      "source": "footnote_list_item",
+      "length": 30
+    },
+    {
+      "text": ". WesternGeco LLC v. ION Geophysical Corp., 791 F.3d 1340, 1350 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 82
+    },
+    {
+      "text": ". 35 U.S.C. § 271(f)(1) (emphasis added).↑",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": ".Id.§ 271(f)(2) (emphasis added).↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ". WesternGeco LLC v. ION Geophysical Corp., 953 F. Supp. 2d 731, 739 (S.D. Tex. 2013),aff’d in part, rev’d in part, 791 F.3d 1340 (Fed. Cir. 2015),cert. granted, vacated, 136 S. Ct. 2486 (2016).↑",
+      "source": "footnote_list_item",
+      "length": 195
+    },
+    {
+      "text": ".WesternGeco I, 791 F.3d at 1343.↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ". WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2135 (2018).↑",
+      "source": "footnote_list_item",
+      "length": 74
+    },
+    {
+      "text": ".WesternGeco I, 791 F.3d at 1349.↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ".Id.(“We hold that lost profits cannot be awarded for damages resulting from these lost contracts.”).↑",
+      "source": "footnote_list_item",
+      "length": 102
+    },
+    {
+      "text": ".Id.at 1342–43, 1351.↑",
+      "source": "footnote_list_item",
+      "length": 22
+    },
+    {
+      "text": ". WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2134 (2018).↑",
+      "source": "footnote_list_item",
+      "length": 74
+    },
+    {
+      "text": ".WesternGeco II, 138 S. Ct. at 2136 (citing Pearson v. Callahan, 555 U.S. 223, 236–37 (2009)).↑",
+      "source": "footnote_list_item",
+      "length": 95
+    },
+    {
+      "text": ".See supratext accompanying note 44.↑",
+      "source": "footnote_list_item",
+      "length": 37
+    },
+    {
+      "text": ".WesternGeco II, 138 S. Ct.at 2137.↑",
+      "source": "footnote_list_item",
+      "length": 36
+    },
+    {
+      "text": ".Id.(citing Morrison v. Nat’l Austl. Bank Ltd., 561 U.S. 247, 267–69 (2010)).↑",
+      "source": "footnote_list_item",
+      "length": 78
+    },
+    {
+      "text": ".Id.(citing General Motors Corp. v. Devex Corp., 461 U.S. 648, 655 (1983)).↑",
+      "source": "footnote_list_item",
+      "length": 76
+    },
+    {
+      "text": ". Brief for the United States as Amicus Curiae Supporting Petitioner at 13,WesternGeco, 137 S. Ct. 2206 (No. 16-1011), 2018 WL 1168813, at *13 (“Calculation of lost profits under the Patent Act similarly depends on how much profit the U.S. patentee lost because of the domestic infringement, not the place where the patentee would have earned profits if its U.S. patent had not been infringed.”).↑",
+      "source": "footnote_list_item",
+      "length": 397
+    },
+    {
+      "text": ".WesternGeco II, 138 S. Ct. at 2139 n.3.↑",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": ".Id.at 2139 (Gorsuch, J., dissenting).↑",
+      "source": "footnote_list_item",
+      "length": 39
+    },
+    {
+      "text": ". Under § 154(a) of the Patent Act, a patent owner enjoys “the right to exclude others from making, using, offering for sale, or selling the inventionthroughout the United States.” 35 U.S.C. § 154(a)(1) (emphasis added).↑",
+      "source": "footnote_list_item",
+      "length": 221
+    },
+    {
+      "text": ".WesternGeco II, 138 S. Ct. at 2139–41 (Gorsuch, J., dissenting).↑",
+      "source": "footnote_list_item",
+      "length": 66
+    },
+    {
+      "text": ".Id.at 2138 (majority opinion).↑",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": ". Boyer,supranote 60, at 181.↑",
+      "source": "footnote_list_item",
+      "length": 30
+    },
+    {
+      "text": ".Id.at 182–83 (citing the amicus briefs forWesternGecoIIfiled by several renowned patent law scholars);seesupratext accompanying notes 29–33.↑",
+      "source": "footnote_list_item",
+      "length": 142
+    },
+    {
+      "text": ".See WesternGeco II, 138 S. Ct. at 2137 n.2, 2139 (specifically limiting analysis to § 271(f)(2) and holding that damages “can include lost foreign profits when the patent owner proves infringement under § 271(f)(2)”).↑",
+      "source": "footnote_list_item",
+      "length": 219
+    },
+    {
+      "text": ".Yeh,supranote 11, at4 (noting that such a scenario would be outside the territorial reach of any nation’s patent jurisdiction).↑",
+      "source": "footnote_list_item",
+      "length": 129
+    },
+    {
+      "text": ".SeeWesternGeco II, 138 S. Ct. at 2139 (“[A]s we hold today, [a patent owner’s recovery] can include lost foreign profits when the patent owner proves infringement under § 271(f)(2).”).↑",
+      "source": "footnote_list_item",
+      "length": 186
+    },
+    {
+      "text": ".SeeHolbrook,supranote 8, at 209 (exploring the implications ofWesternGeco IIonPower IntegrationsandCarnegie Mellon); Andrew C. Michaels,Implicit Overruling and Foreign Lost Profits,25 B.U. J. Sci. & Tech. L.408, 410 (2019) (analyzing whetherWesternGeco IIimplicitly overruledPower Integrations).↑",
+      "source": "footnote_list_item",
+      "length": 297
+    },
+    {
+      "text": ".SeePower Integrations, Inc. v. Fairchild Semiconductor Int’l, Inc., 711 F.3d 1348, 1371–72 (Fed. Cir. 2013) (“[T]he entirely extraterritorial production, use, or sale of an invention patented in the United States is an independent, intervening act that, under almost all circumstances, cuts off the chain of causation initiated by an act of domestic infringement.”);see alsoMichaels,supranote 150, at 425 (noting that “foreseeability and proximate causation provide . . . a possible basis for reconciling”WesternGeco IIandPower Integrations).↑",
+      "source": "footnote_list_item",
+      "length": 544
+    },
+    {
+      "text": ". Michaels,supranote 150, at 426.↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ".Id.Section 271(f) prohibits the exportation of components of a patented invention in a way that “actively induce[s] the combination of such componentsoutside of the United States” or with the “inten[t] that such component will be combinedoutside of the United States.” 35 U.S.C. § 271(f) (emphasis added). Thus, by definition, components of the patented invention are being shipped—and lost sales are occurring—abroad.↑",
+      "source": "footnote_list_item",
+      "length": 420
+    },
+    {
+      "text": ".Seeid.at 1371 (“[T]he underlying question here remains whether Power Integrations is entitled to compensatory damages for injury caused by infringing activity that occurred outside the territory of the United States. The answer is no.”).↑",
+      "source": "footnote_list_item",
+      "length": 239
+    },
+    {
+      "text": ".SeeCarnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 807 F.3d 1283, 1307 (Fed. Cir. 2015) (holding that because “the presumption against extraterritoriality . . . requires something similar in the present royalty setting” such damages could not include foreign lost sales).↑",
+      "source": "footnote_list_item",
+      "length": 276
+    },
+    {
+      "text": ".See supratext accompanying notes 120–130.↑",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": ".SeeMichaels,supranote 150, at 426 (analyzing whether the difference in underlying infringement provisions is a meaningful one).↑",
+      "source": "footnote_list_item",
+      "length": 129
+    },
+    {
+      "text": ".SeePower Integrations, Inc. v. Fairchild Semiconductor Int’l, Inc., No. 04-1371, 2018 WL 4804685, at *1 (D. Del. Oct. 4, 2018) (“[T]he parties have advised the Court of their competing views as to the impact of the Supreme Court’s decision inWesternGeco IIon the damages trial this Court must now conduct on remand.”).↑",
+      "source": "footnote_list_item",
+      "length": 320
+    },
+    {
+      "text": ".Id.(quoting WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2138 (2018)).↑",
+      "source": "footnote_list_item",
+      "length": 86
+    },
+    {
+      "text": ". Michaels,supranote 150, at 424.↑",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": ".SeePlatzer et al.,supranote 6, at 1 (highlighting congressional concerns about the competitiveness of the U.S. semiconductor industry).↑",
+      "source": "footnote_list_item",
+      "length": 137
+    },
+    {
+      "text": ".See supratext accompanying notes 84–98.↑",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": ".See infranotes 176–177 and accompanying text.↑",
+      "source": "footnote_list_item",
+      "length": 47
+    },
+    {
+      "text": ".Platzer et al.,supranote 6, at 2.↑",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": ". Christiana Honsberg & Stuart Bowden,Conduction in Semiconductors,PVEducation, https://www.pveducation.org/pvcdrom/conduction-in-semiconductors [https://perma.cc/452R-4CPP].↑",
+      "source": "footnote_list_item",
+      "length": 175
+    },
+    {
+      "text": ".Platzer et al.supranote 6, at 3;The U.S. Needs a National Semiconductor Strategy, Harv. Bus. Rev.(Dec. 21, 2021), https://hbr.org/sponsored/2021/12/the-u-s-needs-a-national-semiconductor-strategy [https://perma.cc/K3MG-NDUF];Semiconductor Indus. Ass’n, 2021State of the U.S. Semiconductor Industry10 (2021), https://www.semiconductors.org/wp-content/uploads/2021/09/2021-SIA-State-of-the-Industry-Report.pdf [https://perma.cc/546T-VVCY].↑",
+      "source": "footnote_list_item",
+      "length": 439
+    },
+    {
+      "text": ".SeeJiyoung Sohn,More Chips Will Be Made in America Amid a Global Spending Surge,Wall St. J.(Nov. 24, 2021, 9:00 AM), https://www.wsj.com/articles/more-chips-will-be-made-in-america-amid-a-global-spending-surge-11637762400 [https://perma.cc/9MQC-44NE] (“U.S.-based companies represent about half of the $464 billion semiconductor industry, according to the Semiconductor Industry Association . . . .”);Platzer et al.,supranote 6, at 1.↑",
+      "source": "footnote_list_item",
+      "length": 436
+    },
+    {
+      "text": ".Platzer et al.,supranote 6, at 1.↑",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": ".Semiconductor Indus. Ass’n,supranote 171, at 16.↑",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": ".The U.S. Needs a National Semiconductor Strategy,supranote 171;see alsoSemiconductor Indus. Ass’n,supranote 171, at 19 (noting that “the U.S. has fallen behind Asia in manufacturing technology”).↑",
+      "source": "footnote_list_item",
+      "length": 197
+    },
+    {
+      "text": ".The U.S. Needs a National Semiconductor Strategy,supranote 171;see alsoSohn,supranote 172 (discussing how chip design companies such as Qualcomm and Nvidia choose to outsource manufacturing overseas).↑",
+      "source": "footnote_list_item",
+      "length": 202
+    },
+    {
+      "text": ". Sohn,supranote 172.↑",
+      "source": "footnote_list_item",
+      "length": 22
+    },
+    {
+      "text": ".Semiconductor Indus. Ass’n,supranote 171, at 10.↑",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": ".Platzer et al.,supranote 6, at 1;Exec. Off. of the President: President’s Council of Advisors on Sci. and Tech.,Report to the President: Ensuring Long-Term U.S. Leadership in Semiconductors4 (Jan. 2017), https://obamawhitehouse.archives.gov/‌sites/‌default/files/microsites/ostp/PCAST/pcast_ensuring_long-term_us_leadership_‌in_‌semiconductors‌.pdf [https://perma.cc/QPG9-8HS9]↑",
+      "source": "footnote_list_item",
+      "length": 379
+    },
+    {
+      "text": ".Platzer et al.,supranote 6, at 39;see alsoSemiconductor Indus. Ass’n,supranote 171, at 10 (“The dramatic decline in the U.S. share of global chip manufacturing, coupled with insufficient federal investments in semiconductor R&D, undermine our country’s long-term ability to manufacture, research, and design the advanced chips needed to support our economic recovery, power our military and critical infrastructure . . . and drive innovations . . . .”).↑",
+      "source": "footnote_list_item",
+      "length": 455
+    },
+    {
+      "text": ".SeeGraham Allison & Eric Schmidt,Semiconductor Dependency Imperils American Security,Wall St. J.(June 20, 2022, 4:54 PM), https://www.wsj.com/articles/semiconductor-dependency-imperils-american-security-chip-manufacturing-technology-sector-11655654650 [https://perma.cc/3QLQ-TVAV] (“Complete dependence on Taiwan for advanced semiconductors puts American national security at risk.”);Platzer et al.,supranote 6, at 1–2, 39–40 (discussing increasing concerns about the concentration of chip production in East Asia and the related vulnerability of semiconductor supply chains if a military conflict or trade dispute were to arise, including vulnerabilities based on product tampering and intellectual property theft).↑",
+      "source": "footnote_list_item",
+      "length": 718
+    },
+    {
+      "text": ".Semiconductor Indus. Ass’n,supranote 171, at 8.↑",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": ".Id.at 10;Semiconductors: Key to Economic and National Security,Senate Republican Pol’y Comm.(Apr. 29, 2021), https://www.rpc.senate.gov/policy-papers/semiconductors-key-to-economic-and-national-security [https://perma.cc/R2LS-543Q].↑",
+      "source": "footnote_list_item",
+      "length": 234
+    },
+    {
+      "text": ". David Isaacs,Americans Embrace the Importance of Semiconductors to National Security,Semiconductor Indus. Ass’n(July 7, 2021, 8:00 AM), https://www.semiconductors.org/‌americans-embrace-the-importance-of-semiconductors-to-national-security/ [https://perma.cc/‌AX8S-ZP3A].↑",
+      "source": "footnote_list_item",
+      "length": 274
+    },
+    {
+      "text": ".The U.S. Needs a National Semiconductor Strategy,supranote 171.↑",
+      "source": "footnote_list_item",
+      "length": 65
+    },
+    {
+      "text": ".Seesupratext accompanying notes 87–94.↑",
+      "source": "footnote_list_item",
+      "length": 40
+    },
+    {
+      "text": ".SeeCarnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 986 F. Supp. 2d 574, 635 (W.D. Pa. 2013) (explaining that at the end of a sales cycle, if a company achieves a design win, they generally become the exclusive chip supplier for the customer’s product),aff’d in part, vacated and remanded in part, rev’d in part, 807 F.3d 1283 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 348
+    },
+    {
+      "text": ".See, e.g.,id.at 593–94 (describing the use of sample chips in Marvell’s sale cycle).↑",
+      "source": "footnote_list_item",
+      "length": 86
+    },
+    {
+      "text": ". Carnegie Mellon Univ. v. Marvell Tech. Grp., Ltd., 807 F.3d 1283, 1294–95 (Fed. Cir. 2015).↑",
+      "source": "footnote_list_item",
+      "length": 94
+    },
+    {
+      "text": ".SeeCarnegie Mellon, 986 F. Supp. 2d at 635 (“Such a design win is generally a winner-take-all affair in the HDD industry, which typically results in the winner becoming the exclusive supplier for the customer’s specific hard drive or generation of hard drives.”).↑",
+      "source": "footnote_list_item",
+      "length": 265
+    },
+    {
+      "text": ".Seesupranotes 172–179 and accompanying text.↑",
+      "source": "footnote_list_item",
+      "length": 46
+    },
+    {
+      "text": ".See, e.g., Scott Graham,How Morgan Chu Is ‘Spoon-Feeding’ a Billion-Dollar Damages Case to Jurors,Law.com(Feb. 22, 2021), https://www.law.com/texaslawyer/‌2021/02/22/how-morgan-chu-is-spoon-feeding-a-billion-dollar-damages-case-to-jurors/ [https://perma.cc/Z4AK-B92A] (noting that “even a 1% royalty could cost Intel billions of dollars” due to its large volume of sales);see alsoLong,supranote 2, at 1–2 (depicting a chart of damages awarded in semiconductor cases, including a 2021 $2.18 billion verdict against Intel).↑",
+      "source": "footnote_list_item",
+      "length": 523
+    },
+    {
+      "text": ".Gartner Says Apple and Samsung Extended Their Lead as Top Semiconductor Customers in 2020,Gartner(Feb. 9, 2021), https://www.gartner.com/en/newsroom/press-releases/2021-02-09-gartner-says-apple-and-samsung-extended-their-lead-as [https://perma.cc/6AD5-NELM].↑",
+      "source": "footnote_list_item",
+      "length": 260
+    },
+    {
+      "text": ". Power Integrations, Inc. v. Fairchild Semiconductor Int’l, Inc., No. 04-1371, 2018 WL 4804685, at *1 (D. Del. Oct. 4, 2018).↑",
+      "source": "footnote_list_item",
+      "length": 127
+    },
+    {
+      "text": ". RJR Nabisco, Inc. v. European Cmty., 579 U.S. 325, 337 (2016).↑",
+      "source": "footnote_list_item",
+      "length": 65
+    },
+    {
+      "text": ".See supratext accompanying notes 120–134.↑",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": ". Thomas F. Cotter,Extraterritorial Damages in Patent Law,39 Cardozo Arts & Ent. L.J.1, 29–30 (2021).↑",
+      "source": "footnote_list_item",
+      "length": 102
+    },
+    {
+      "text": ". WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129, 2137 (2018) (citing Gen. Motors Corp. v. Devex Corp., 461 U.S. 648, 655 (1983)).↑",
+      "source": "footnote_list_item",
+      "length": 142
+    },
+    {
+      "text": ". Thomas F. Cotter, Response,Make No Little Plans: Response to Ted Sichelman,Purging Patent Law of “Private Law” Remedies, 92Texas L. RevSee Also25, 27–28 (2014).↑",
+      "source": "footnote_list_item",
+      "length": 163
+    },
+    {
+      "text": ". Holbrook,supranote 7, at 1772.↑",
+      "source": "footnote_list_item",
+      "length": 33
+    },
+    {
+      "text": ". Boyer,supranote 60, at 178.↑",
+      "source": "footnote_list_item",
+      "length": 30
+    },
+    {
+      "text": ".SeeCotter,supranote 202, at 21 n.105 (discussing several policy justifications for having a patent system such as an incentive “to invest in the creation of novel, useful, and nonobvious inventions,” and to commercialize and innovate).↑",
+      "source": "footnote_list_item",
+      "length": 237
+    },
+    {
+      "text": ". Zachary Silbersher,The Pathway to Foreign Damages for Patent Infringement,IPWatchdog(June 7, 2019, 9:15 AM), https://www.ipwatchdog.com/2019/06/07/pathway-foreign-damages-patent-infringement/id=110106/ [https://perma.cc/RYZ5-R3V8].↑",
+      "source": "footnote_list_item",
+      "length": 234
+    },
+    {
+      "text": ". Amicus Curiae Brief of Law Professor Stephen Yelderman in Support of Petitioner at 2, WesternGeco LLC v. ION Geophysical Corp., 138 S. Ct. 2129 (2018) (No. 16-1011), 2018 WL 1393832, at *2.↑",
+      "source": "footnote_list_item",
+      "length": 192
+    },
+    {
+      "text": ".See, e.g., Peter Lee,The Supreme Assimilation of Patent Law, 114Mich. L. Rev. 1413, 1416 (2016) (noting that the Supreme Court “has consistently sought to eliminate patent exceptionalism, bringing patent law in conformity with what it characterizes as general legal standards”).↑",
+      "source": "footnote_list_item",
+      "length": 280
+    },
+    {
+      "text": ".See generallyStephen Yelderman,Proximate vs. Geographic Limits on Patent Damages,7 IP Theory, no. 2, 2018, at 3–4 (illustrating how “[a]pplying a geographic limit at the remedies stage can cause patent damages to deviate” from allowing a plaintiff to be restored “to her rightful position”).↑",
+      "source": "footnote_list_item",
+      "length": 293
+    },
+    {
+      "text": ".Semiconductor Market Size,Fortune Bus. Insights(Apr. 2022), https://www.‌fortunebusinessinsights.com/semiconductor-market-102365 [https://perma.cc/YDQ8-UG5H].↑",
+      "source": "footnote_list_item",
+      "length": 160
+    },
+    {
+      "text": ".SeeSilbersher,supranote 211 (noting Power Integrations’s argument that “concerns about international comity [were] exaggerated” given that “[the] dispute, like many patent disputes, [was] one solely between U.S. companies”).↑",
+      "source": "footnote_list_item",
+      "length": 226
+    },
+    {
+      "text": ". Cotter,supranote 202, at 26, 28 (arguing that if it’s not considered intrusive upon a “foreign sovereignty for a domestic court to enjoin domestic manufacture—even when the practical effect of doing so is to deter the defendant from engaging in lawful conduct abroad—it is hard to see how awarding damages that may have a similar deterrent impact constitutes any greater intrusion”).↑",
+      "source": "footnote_list_item",
+      "length": 386
+    },
+    {
+      "text": ".Id.at 42–43 (“In the patent context in particular, U.S. courts will award only one recovery for harm that is simultaneously caused by the violation of two or more intellectual property rights, or that is caused by two or more actors.” (footnote omitted));see alsoSilbersher,supranote 211 (“[C]oncerns about duplicative recoveries can be easily cured with rules precluding them.”).↑",
+      "source": "footnote_list_item",
+      "length": 382
+    },
+    {
+      "text": ". Cotter,supranote 202, at 4–6 (outlining two limiting principles that would “enable courts to avoid the parade of horribles that some commentators . . . fear will result from any slackening of the territoriality principle”);see alsoSilbersher,supranote 211 (noting that the reasoning ofWesternGeco IIfollows “common-law notions of causation, which already contemplate what sorts of damages naturally flow from but-for and proximate causation”).↑",
+      "source": "footnote_list_item",
+      "length": 446
+    },
+    {
+      "text": ". Cotter,supranote 202, at 5.↑",
+      "source": "footnote_list_item",
+      "length": 30
+    },
+    {
+      "text": ".Platzer et al.,supranote 6, at 6.↑",
+      "source": "footnote_list_item",
+      "length": 35
+    }
+  ],
+  "headers": [
+    {
+      "text": "Pushing the Boundaries: Extraterritoriality, Patent Infringement Damages, and the Semiconductor Industry",
+      "source": "h1",
+      "length": 104
+    },
+    {
+      "text": "Introduction",
+      "source": "h2",
+      "length": 12
+    },
+    {
+      "text": "I. Extraterritoriality in Patent Law",
+      "source": "h2",
+      "length": 36
+    },
+    {
+      "text": "II. Patent Damages and Extraterritoriality",
+      "source": "h2",
+      "length": 42
+    },
+    {
+      "text": "III. An Extension ofWesternGeco IIto § 271(a)",
+      "source": "h2",
+      "length": 45
+    },
+    {
+      "text": "Conclusion",
+      "source": "h2",
+      "length": 10
+    },
+    {
+      "text": "A. The Presumption Against Extraterritoriality",
+      "source": "h3",
+      "length": 46
+    },
+    {
+      "text": "B. An Analytical Framework for Assessing Extraterritoriality",
+      "source": "h3",
+      "length": 60
+    },
+    {
+      "text": "A. Section 284: The General Damages Provision",
+      "source": "h3",
+      "length": 45
+    },
+    {
+      "text": "B. The Federal Circuit’s Trilogy of Cases",
+      "source": "h3",
+      "length": 41
+    },
+    {
+      "text": "C. The Supreme Court’s Decision inWesternGeco II",
+      "source": "h3",
+      "length": 48
+    },
+    {
+      "text": "D. The Effect ofWesternGeco IIonPower IntegrationsandCarnegie Mellon",
+      "source": "h3",
+      "length": 68
+    },
+    {
+      "text": "A. Implications for the Semiconductor Industry",
+      "source": "h3",
+      "length": 46
+    },
+    {
+      "text": "B. Why ExtendWesternGeco II?",
+      "source": "h3",
+      "length": 28
+    },
+    {
+      "text": "1. Section 271(a)",
+      "source": "h4",
+      "length": 17
+    },
+    {
+      "text": "2. Section 271(f)",
+      "source": "h4",
+      "length": 17
+    },
+    {
+      "text": "1. An Overview of the Industry",
+      "source": "h4",
+      "length": 30
+    },
+    {
+      "text": "2. The Impact ofCarnegie MellonandPower Integrations",
+      "source": "h4",
+      "length": 52
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 74,
+    "total_footnotes": 161,
+    "total_headers": 18,
+    "total_other": 0
+  }
+}

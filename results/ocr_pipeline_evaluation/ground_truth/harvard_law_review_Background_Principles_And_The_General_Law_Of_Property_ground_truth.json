@@ -1,0 +1,1977 @@
+{
+  "file": "harvard_law_review_Background_Principles_And_The_General_Law_Of_Property.html",
+  "journal": "unknown",
+  "body_text_paragraphs": [
+    {
+      "text": "The Takings Clause of the Fifth Amendment provides that when the government takes private property for a public purpose, it must compensate the property owner.One exception to this rule, the “background principles” exception, establishes that “the government does not take a property interest when it merely asserts a ‘pre-existing limitation upon the land owner’s title.’”For instance, if a landowner is creating a nuisance on his property, the government owes him no compensation for forcing him to stop, “because he never had the right to engage in the nuisance in the first place.”The concept is simple: One cannot lose what was never his.",
+      "source": "article_tag",
+      "length": 643
+    },
+    {
+      "text": "Background principles are a strong medicine.When a court analyzes a takings claim, it must first identify the property interest at issue before deciding the more complex, discretionary question of whether that property was “taken.”Background principles are “logically antecedent” to this analysis,meaning that they can foreclose an aggrieved property owner’s claim before the first step.If the court determines that, pursuant to a background principle, a plaintiff had no property interest to begin with, the government will completely evade takings liability for its interference with the plaintiff’s property.Judges, too, can use background principles to avoid difficult legal and factual questions that may arise later in the takings analysis.",
+      "source": "article_tag",
+      "length": 746
+    },
+    {
+      "text": "Background principles have a lot to offer the law of takings. For example, they can stabilize property owners’ expectations by aligning the Takings Clause with widely understood principles of property law.Indeed, the case that introduced the background principles exception —Lucas v. South Carolina Coastal Council— featured prominently the notion that property owners are on notice of background limitations.InLucas, Justice Scalia explained that background principles, like all property rights under the Takings Clause, are rooted in state-specific law.By locating background principles in state law,Lucasensured that takings law reflects property owners’ actual expectations.",
+      "source": "article_tag",
+      "length": 678
+    },
+    {
+      "text": "But despite its potential, background principles jurisprudence has long remained underdetermined.Scholars and courts have struggled with questions as basic as what counts as a background principleand what rationale justifies the exception.Notwithstanding these open questions, one deeply rooted feature of takings law has provided some degree of determinacy for the exception over the last several decades: the courts’ consistent use of state-specific law to define property interests.But recently, even this fixture has come into flux.",
+      "source": "article_tag",
+      "length": 536
+    },
+    {
+      "text": "In recent years, the Supreme Court has increasingly defined property by looking beyond state-specific law, toward a more dynamic, unbounded body of what might be called “general property law”or “jurisdictionless property law.”Several scholars have commented on this shift.Some have argued that the recent general law cases “make[] a considerable amount of sense normatively and practically”because, among other things, they show that the Court systematically departs from state-specific law to prevent states from circumventing the Takings Clause by simply extinguishing a property interest.This argument trades on the tendency for general law interventions in an anticircumvention posture to protect, rather than undercut, property rights.",
+      "source": "article_tag",
+      "length": 740
+    },
+    {
+      "text": "But that is only part of the story. A full examination of the ascent of general property law must also account for the recent emergence of general law background principles. Background principles found in the general law, rather than in state-specific law, complicate the dialogue around general property law because they serve as a basis fordenialsof otherwise viable takings claims. Yet many discussions of the sea change in constitutional property overlook the potentially problematic interaction between general property law and background principles.",
+      "source": "article_tag",
+      "length": 555
+    },
+    {
+      "text": "This Note fills that gap by demonstrating that the collision of ascendant general property law and the background principles exception could ultimately cause the Takings Clause tounderprotectproperty interests. Part I provides background on the law of takings and describes the development of background principles jurisprudence. Next, Part II tracks the Court’s recent shift toward a general law approach to property. Finally, Part III challenges the intuition that federal courts primarily apply general law to protect property rights, for example by preventing a state from “extinguish[ing] a property interest . . . to avoid paying just compensation.”To do so, it examines two recent casesin the federal circuit courts thatdeniedtakings claims based on general law background principles. The general law approach may systematically underprotect property rights by increasing the level of generality at which background principles are defined, placing the burden on plaintiffs to find historical analogues entitling them to compensation, and undermining property owners’ notice of background limitations on their title.",
+      "source": "article_tag",
+      "length": 1122
+    },
+    {
+      "text": "This Part starts by providing a brief overview of the law of takings. After establishing that context, it discusses the development of the background principles exception.",
+      "source": "article_tag",
+      "length": 171
+    },
+    {
+      "text": "The background principles exception is best understood in the context of the Takings Clause’s basic analytical framework. Claims arising under the Takings Clause follow two steps. First, courts discern the property interest at stake.Second, they analyze whether that property was “taken.”This analysis proceeds differently depending on the type of government action underlying the claim.",
+      "source": "article_tag",
+      "length": 387
+    },
+    {
+      "text": "There are two principal types of government action that can result in a taking. First,physicaltakingsoccur when the government physically appropriates or invades private property— for example, by using the eminent domain power to seize land for a public road. Second,regulatory takingsoccur when the government interferes with property interests through its legislative power— for example, by passing a zoning ordinance. Not all regulations result in takings. After all, the “[g]overnment hardly could go on if” it had to pay for every interference with property rights.Instead, only “regulations [that] go[] too far . . . will be recognized as . . . taking[s].”",
+      "source": "article_tag",
+      "length": 662
+    },
+    {
+      "text": "Given the nebulous “too far” standard for regulatory takings, courts have enjoyed more discretion when analyzing regulatory takings than when analyzing physical appropriations.The resulting doctrinal uncertainty has been central to scholarly and judicial criticism.Although this uncertainty preserves judicial flexibility,it also destabilizes property holders’ expectations and raises concerns about the determinacy and stability of takings law.",
+      "source": "article_tag",
+      "length": 445
+    },
+    {
+      "text": "The Supreme Court has responded to these concerns with several efforts to guide judicial discretion in regulatory takings cases.The first major effort arrived inPenn Central Transportation Co. v. New York City,which instructed courts to use a three-factor balancing test to analyze regulatory takings claims.But even withPenn Central’s added guidance, the law of regulatory takings continued to be criticized as being unduly vague.Indeed, the Supreme Court has “generally eschewed any ‘set formula’ for determining how far is too far,” instead “preferring to ‘engag[e] in . . . essentially ad hoc, factual inquiries.’”Still, continuing its effort to bring certainty to regulatory takings law, the Court has developed two types of categorical, or “per se,” takings — instances where a court could hold a regulation to be a taking without resorting to the unpredictablePenn Centralanalysis.",
+      "source": "article_tag",
+      "length": 888
+    },
+    {
+      "text": "First, a regulation that “denies all economically beneficial or productive use of land” is a categorical taking.InLucas, the first case to recognize this rule, South Carolina passed a coastal protection law that prohibited David Lucas from building houses on his waterfront property.Analyzing the regulation, theLucasCourt recognized the new per se rule that a state could take property by regulating its economic value down to nothing.Having established the new per se rule, the Court remanded the case for the state court to determine, as a matter of state law, whether the land use regulation was consistent with “background principles of nuisance and property law” that would themselves have prohibited Lucas from building on his land.",
+      "source": "article_tag",
+      "length": 739
+    },
+    {
+      "text": "Second, regulations resulting in “a physical ‘invasion’ of . . . property” are categorical takings.This rule traces back toLoretto v. Teleprompter Manhattan CATV Corp.,which held thatpermanentphysical invasions through regulations — for example, the required installation of cable equipment in an apartment building— are categorical takings.Recently, inCedar Point Nursery v. Hassid,the Court broadenedLorettoby establishing that “it is a per se taking whenever the government authorizes an involuntary entry to land,” regardless of whether that invasion is permanent or temporary.",
+      "source": "article_tag",
+      "length": 581
+    },
+    {
+      "text": "Cedar Pointhad the potential to provide greater clarity to the law of takings by expanding per se takings rules and therefore limiting the reach ofPenn Central’s ad hoc balancing test. To this end, theCedar PointCourt swept some regulations into the realm of physical takings, bringing a greater class of legislation into the ambit of categorical rules.An access-permitting regulation can now be a per se taking regardless of whether it is partial or absolute, temporary or permanent, minute or substantial.",
+      "source": "article_tag",
+      "length": 507
+    },
+    {
+      "text": "Dissenting inCedar Point, Justice Breyer cautioned that the new rule would endanger important legislation by subjecting it to per se rules that are insensitive to the public interest.To address this concern, the majority pointed to three existing exceptions to physical takings that could preserve property regulations serving valuable public purposes.Among these exceptions, the background principles exception fromLucaswas perhaps the most significant.In the Court’s view, “many government-authorized physical invasions will not amount to takings because they are consistent with longstanding background restrictions on property rights.”",
+      "source": "article_tag",
+      "length": 639
+    },
+    {
+      "text": "By expanding the reach of takings law,Cedar Pointmade the limitations on takings doctrine — particularly background principles — more important than ever. AsPenn Central’s reach declines and categorical rules ascend, governments will increasingly rely on background principles to justify their regulatory agendas. What originated as an exception toLucas’s total-economic-wipeout rule has become one of the chief avenues for governments to sustain laws in the public interest. Given its growing significance, the exception deserves special attention.",
+      "source": "article_tag",
+      "length": 549
+    },
+    {
+      "text": "Background principles, like Fifth Amendment “property” in general, have traditionally been tied to state law.InLucas, for example, Justice Scalia, writing for the Court, remanded the case to South Carolina courts for a determination as to whether the regulation at issue was consistent with “restrictions that background principles of theState’s lawof property and nuisance already place upon land ownership.”Indeed, it would seem logically inconsistent to apply background principles from some source other than South Carolina law if the relevant inquiry were, in fact, whether South Carolina recognized a given property right. Nevertheless, Justice Kennedy, concurring inLucas, expressed a different view — that background limitations should derive from property owners’ “reasonable expectations,” which themselves should “be understood in light of the whole of our legal tradition.”",
+      "source": "article_tag",
+      "length": 885
+    },
+    {
+      "text": "Justices Kennedy and Scalia would continue to debate background principles’ source of law in a series of cases. In the next case involving background principles,Palazzolov. Rhode Island,the Court confronted the question of whether a state statute can act as a background limitation on private property that changes hands after the statute’s enactment.In the process of answering that question, Justice Kennedy argued thatLucasgrounded background principles in the “common, shared understandings of permissible limitations derived from a State’s legal tradition.”Concurring, Justice Scalia suggested that statutes are only relevant to the background principles analysis insofar as they reflect the state’s common law of “property and nuisance.”",
+      "source": "article_tag",
+      "length": 743
+    },
+    {
+      "text": "Next, inMurr v. Wisconsin,“Justice Kennedy, writing for the majority, suggest[ed] that the background limitations inquiry should be an ‘objective’ one, based on ‘background customs and the whole of our legal tradition.’”Chief Justice Roberts dissented, arguing that the majority erroneously departed from the Court’s consistent “declar[ation] that the Takings Clause protects private property rights as state law creates and defines them.”",
+      "source": "article_tag",
+      "length": 439
+    },
+    {
+      "text": "More recently, however, Chief Justice Roberts established background principles’ firm grounding in general law inCedar Point—perhaps the most definitive case on the matter sinceLucas.Cedar Pointarticulated the background principles exception as focusing on “longstandingbackground restrictions on property rights,”with no express requirement that these restrictions be based in state law. Indeed, theCedar PointCourt looked to general law sources — such as the Second Restatement of Torts — to identify “traditional common law” background principles.And the Court’s quotation ofLucasomitted its emphasis on state-specific law.Cedar Pointthus connected the background principles doctrine that originated inLucaswith the development of general property law.",
+      "source": "article_tag",
+      "length": 755
+    },
+    {
+      "text": "As the next Part will illustrate, the apparent shift from state-specific to general law background principles was perhaps inevitable given a broader, analogous change in the Court’s general understanding of property.",
+      "source": "article_tag",
+      "length": 216
+    },
+    {
+      "text": "Lucas’s focus on state-specific law for defining background principles was consistent with the Court’s understanding throughout most of the twentieth century that the word “property” in the Fifth Amendment had no inherent federal meaning.During this period, the Court adhered to the notion that the Constitutionreferencesproperty rights, but that those rights are generally created and defined by state law.As the Court explained inBoard of Regents of State Colleges v. Roth,“[p]roperty interests, of course, are not created by the Constitution. Rather, they are created and their dimensions are defined by existing rules or understandings that stem from an independent source such as state law.”Professor Stewart Sterk traces this reliance on state law (as opposed to general law) as far back asPennsylvania Coal Co. v. Mahon— the first case to recognize a regulatory taking.Pennsylvania Coal, Sterk argues, emphasized state law’s importance for regulatory takings analysis by identifying specific property interests enshrined in state common law and legislation.And by the late twentieth century, the Supreme Court routinely relied on state law to define property rights in cases challenging actions by state governments.By “defer[ring] to state-specific property principles,” federal courts upheld property federalism and the accompanying “belief that property is an inherently local matter and that different states might opt to recognize and regulate property interests differently.”",
+      "source": "article_tag",
+      "length": 1488
+    },
+    {
+      "text": "Recently, however, the Supreme Court has increasingly departed from its commitment to state-specific law, instead defining property rights in reference to a form of “unmoored multistate law.”InMurr, the Court used “jurisdictionless property law”to address the problem of how to define “the relevant parcel” in its regulatory takings analysis.The Murr siblings owned two adjacent lots of land.They sought to keep a home on one of the lots and to sell the other one.But pursuant to a Wisconsin regulation, the lots were “effectively merged[,] . . . so [the family] ‘could only sell or build on the single larger lot.’”The Murr siblings claimed that the merger regulation took their distinct property entitlement in the smaller lot.",
+      "source": "article_tag",
+      "length": 729
+    },
+    {
+      "text": "Justice Kennedy, writing for the Court, held that the two lots formed “a single parcel” for the takings analysis.Citing concerns that Wisconsin had extinguished property rights to circumvent Takings Clause liability, the Court devised a tripartite test — which undoubtedly “sounded in federal law”— for defining property boundaries when the Court suspects gamesmanship.When the Court analyzed the Murrs’ claim, it focused not on Wisconsin law (which “arguably” cut against the majority’s result) but instead on a “longer history of regulations from as far away as New York that would treat their two parcels as one.”In dissent, Chief Justice Roberts criticized the majority for looking beyond “state and local law” and thereby eliding the “traditional approach . . . in regulatory takings cases,” under which “[s]tate law defines the boundaries of distinct parcels of land, and those boundaries . . . determine the ‘private property’ at issue.”",
+      "source": "article_tag",
+      "length": 944
+    },
+    {
+      "text": "A few years later, Chief Justice Roberts, writing for theCedar Pointmajority, applied a general law approach.To justifyCedar Point’s expansive rule thatanyphysical invasion effectuated through a regulation constitutes a taking, Chief Justice Roberts first concluded that “property” entails the absolute “right to exclude,”which “cannot be balanced away.”Because “the right to exclude is ‘universally held to be a fundamental element of the property right,’”a regulation burdening this right categorically creates a Fifth Amendment taking.The Court’s exaltation of the right to exclude, and its subsequent holding that the California access regulation was a taking, rested on Blackstone’sCommentaries, a law review article, and Supreme Court precedents.In fact, the Court effectively prioritized general law over state law. As Professor Maureen Brady observes, “the Court used a selective general-law approach to elide the question whether the longstanding California access regulation should constitute a background principle limiting agricultural owners’ title.”",
+      "source": "article_tag",
+      "length": 1063
+    },
+    {
+      "text": "Cedar Point’s general law approach is particularly striking because the majority itself acknowledged that “property rights . . . are creatures of state law.”Yet the Court nonetheless declined to apply the traditional state-law approach to defining the property interest by reiterating its fears of gamesmanship: The state, it said, “cannot absolve itself of takings liability” by manipulating property rights.",
+      "source": "article_tag",
+      "length": 409
+    },
+    {
+      "text": "The Court’s most recent foray into general property law,Tyler v. Hennepin County,was also motivated by gamesmanship concerns. In that case, a Minnesota county foreclosed on Geraldine Tyler’s home to satisfy her overdue taxes.Because the home was worth more than the tax balance, the home’s sale resulted in a surplus.Acting with the express authorization of a state statute first enacted in 1935,Minnesota kept the surplus instead of returning it to Tyler.She then sued the State under the federal Takings Clause, arguing that the surplus value from the sale was her property and that the State had taken it unlawfully.",
+      "source": "article_tag",
+      "length": 619
+    },
+    {
+      "text": "Addressing the question of whether Tyler had a property interest in the surplus, the Court’s historical analysis spanned from the Magna Carta to the present.The Court held that the 1935 statute was invalid in part because Minnesota’s rule allowing state retention of surplus equity “remains the minority rule today: Thirty-six states and the Federal Government” maintain the opposite rule.This holding reversed the Eighth Circuit, which had considered a wider breadth of Minnesota law to conclude that the foreclosure statute had not impermissibly abrogated a constitutional right to the surplus.",
+      "source": "article_tag",
+      "length": 596
+    },
+    {
+      "text": "TheTylerCourt’s anxiety about property gamesmanship was not new. Indeed, the gamesmanship concerns inTyler,Murr, andCedar Pointfollowed from a long tradition of courts and scholars acknowledging that states with absolute dominion over the content of property can manipulate property rights for their own benefit and thereby violate widely held expectations as to what will be “protected as property.”These cases thus support the view that “while the Supreme Court has always suggested that state-law definitions of property control the scope of federal protection, it has rejected pure positivism when the government has manipulated regulations in order to eliminate the interest.”",
+      "source": "article_tag",
+      "length": 681
+    },
+    {
+      "text": "Along these lines, Professor Eric Claeys argues thatMurr,Tyler,Cedar Point, and other cases show that the Court primarily departs from state-law definitions of property when “claimants are . . . gaming state law” or when “state legislators and regulators are . . . trying to convert state rights into dead letters.”Tyler’s general law approach “makes a considerable amount of sense normatively and practically,”argues Claeys, in part because it allows federal courts to step in “when state law does not seem to specify the relevant [property] rights reliably.”",
+      "source": "article_tag",
+      "length": 560
+    },
+    {
+      "text": "Given the suggestion that the general law method functions to protect property rights, those who favor increased property protections might celebrateCedar PointandTylerfor their pro-property outcomes.This fact should come as no surprise. For those who fear that modern regulatory-takings jurisprudence protects too little property,Cedar Pointwas a victory over earlier cases likePruneYard Shopping Center v. Robins,which held, under the ad hocPenn Centraltest, that the government did not owe private property owners compensation when it created an access right similar to the one inCedar Point.Similarly, some viewed Minnesota’s practice inTyleras “home equity theft,” such that deciding for the State would have “set a dangerous precedent.”Given the Court’s general law interventions against anti-property government actions inCedar PointandTyler, some observers might develop the impression that federal courts use general property law only to protect, rather than undermine, property rights.",
+      "source": "article_tag",
+      "length": 995
+    },
+    {
+      "text": "In practice, however, the general law method seems unlikely to function as a one-way ratchet increasing property rights. This Part argues that the general law of property could come back to bite those who support expansive property protections. Specifically, property interests could be underprotected by general property law’s interaction with the background principles exception. To this end, this Part discusses two recent decisions of the U.S. Courts of Appeals that seized onTyler’s general law approach to identify jurisdictionless background principles that foreclosed aggrieved property owners’ takings claims. These cases illustrate three features of jurisdictionless background principles that may systematically limit Takings Clause protections: First, general law tends to beoverinclusive ofbackground principles, as it necessitates a high level of generality. Second, placing the burden on plaintiffs to preempt background principles biases outcomes in the government’s favor. Third, general law approaches are incompatible with the requirement that background limitations inhere in a property owner’s title itself.",
+      "source": "article_tag",
+      "length": 1128
+    },
+    {
+      "text": "Both cases that this Part analyzes follow a pattern: In order to stop an emergency or make an arrest, the police destroy private property. In these scenarios, when (if ever) is the government liable for a taking? The Supreme Court has yet to opine on this question, despite a growing circuit split.The Fifth and Sixth Circuits recently weighed in, both denying the homeowners’ claims for compensation.In each case, the court relied on the general law approach ofTylerandCedar Pointto identify background principles that absolved the government of liability.",
+      "source": "article_tag",
+      "length": 557
+    },
+    {
+      "text": "InBaker v. City of McKinney,the Fifth Circuit held that a Texas homeowner whose home was “severe[ly] damage[d]” during law enforcement’s pursuit of an armed kidnapper could not recover under the Takings Clause.In denying the homeowner’s claim, the Fifth Circuit recognized “a necessity exception to the Takings Clause,” and held that no compensation is constitutionally required when it is “objectively necessary for officers to damage or destroy [private] property in an active emergency to prevent imminent harm to persons.”",
+      "source": "article_tag",
+      "length": 526
+    },
+    {
+      "text": "Instead of looking to Texas law to define the necessity exception, the court took license fromTylerto focus on jurisdictionless “[h]istory and precedent”: “[T]he [Supreme] Court,” it observed, “has increasingly intimated that history and tradition, including historical precedents, are of central importance when determining the meaning of the Takings Clause.”This inquiry into “[h]istory and precedent” could “reach[] back to the Magna Carta.”The Fifth Circuit therefore recognized the necessity exception — and denied the homeowner’s claim — based on cases interpreting the common law of trespass in Pennsylvania, Iowa, Minnesota, Massachusetts, and New York.",
+      "source": "article_tag",
+      "length": 661
+    },
+    {
+      "text": "Bakercited only one Texas case,Steele v. City of Houston,for the proposition that, in Texas, “[u]ncompensated destruction of property has been occasionally justified by reason of war, riot, pestilence or other great public calamity.”ButSteeleon its face does not justify the expansive necessity principle thatBakerestablished. Among other things, theSteelecourt explained that, according to a ninetheenth-century remedial statute, Texas municipalities could “destr[oy] a dwelling to prevent a public calamity,”such as a rapidly spreading fire,subject to several procedural requirements pertinent to “[t]he decision to destroy” the home.The statute gave the property owner the right to seek compensation after the fact before an administrative body.",
+      "source": "article_tag",
+      "length": 748
+    },
+    {
+      "text": "Although the facts inSteeleinvolved “no similar enabling statute,”theSteelecourt drew upon this tradition to recognize a necessity principle in Texas law: The government, the court held, “may defend its actions by proof of a great public necessity.”But theSteelecourt ultimately did not opine on which, if any, instances of law enforcement destruction counted as “great public necessit[ies]” exempting the government from a duty to compensate.Instead, the court merely recognized that “war, riot, pestilence or other great public calamity” might serve as the basis for a necessity defense.Whether the “emergency” inBakerfit within this list of qualifying events is questionable.",
+      "source": "article_tag",
+      "length": 678
+    },
+    {
+      "text": "Most crucially,Steele“h[e]ld that the innocent third parties are entitled by the Constitution to compensation for their property.”In line with this holding, Texas state courts have interpretedSteeleas standing for the principle that “the government’s duty to pay for taking property rights is not excused by labeling the taking as an exercise of police powers.”And later cases have acknowledged that it may be unclear “whether the Texas Supreme Court still recognizes the necessity doctrine as a defense to a takings claim.”",
+      "source": "article_tag",
+      "length": 524
+    },
+    {
+      "text": "TheBakercourt made no effort to test its rule’s compatibility withSteeleor Texas state law generally. Instead, it plucked a quotation fromSteeleand refrained from any nuanced discussion of state-specific law.If the court had engaged with Texas law, however, it may have found that, at the very least, Baker’s case deserved a remand to the trial court for further proceedings on the necessity issue.It also could have certified the question to Texas courts for more guidance.",
+      "source": "article_tag",
+      "length": 474
+    },
+    {
+      "text": "Bakerthus wielded a background principle found in general law tolimitproperty rights, potentially overriding a tradition in Texas limiting necessity to certain extreme circumstances. Considering that the necessity exception is not recognized by every state,though it is deeply rooted in the general common law,champions of property protections should be concerned that a general law approach could similarly abrogate other states’ attempts to protect private property. For example, inPennsylvania Coal, “[Justice] Holmes’s determination that constitutionally protected property existed” relied upon Pennsylvania’s unique recognition of an innovative property interest called a “support estate.”Had thePennsylvania CoalCourt applied a general law conception of property — or had it found an applicable jurisdictionless background principle to undercut the support estate property right — it could have effectively overridden Pennsylvania’s choice to protect a new form of property.",
+      "source": "article_tag",
+      "length": 980
+    },
+    {
+      "text": "A recent case in the Sixth Circuit,Slaybaugh v. Rutherford County,presented a fact pattern similar toBaker’s. The police executed an arrest warrant at a fugitive criminal’s address — his parents’ home — and in the process caused $70,000 worth of damage to the property.The civil authority refused to compensate the homeowners for the destruction, so they brought a claim under the Takings Clause.",
+      "source": "article_tag",
+      "length": 396
+    },
+    {
+      "text": "The Sixth Circuit, once again guided byTyler, held that the Slaybaughs could not recover under the Takings Clause because the police action was covered by the “search-and-arrest privilege,” which exempts the state from liability for “police use of force when carrying out a lawful arrest.”Because of this privilege — one of the “background limitations” alluded to inCedar Point— “the Slaybaughs had no right to exclude law enforcement’s privileged actions in the first place, [so] police . . . [could not] be said to have ‘taken’ any of their . . . property interests.”",
+      "source": "article_tag",
+      "length": 569
+    },
+    {
+      "text": "TheSlaybaughcourt, understanding background principles through the general law approach, reasoned that “[t]he Supreme Court instructs us to look to common law privileges on property rights” in adjudicating a takings claim.Acting on this guidance, the court based its holding on: (1) the search-and-arrest exception’s recognition in the Second Restatement of Torts;(2) early English common law precedents showing that “English courts repeatedly recognized that officers were not liable for certain property damage resulting from their lawful entries”;(3) “early state and federal court decisions . . . [that] held that a police officer who used force to carry out a search or arrest was not liable for any damage resulting from his lawful actions”;and (4) recent decisions of courts in Washington, New York, and Louisiana recognizing the search-and-arrest exception.But what happened to Tennessee state law?",
+      "source": "article_tag",
+      "length": 906
+    },
+    {
+      "text": "Perhaps the Sixth Circuit did not address Tennessee law because Tennessee courts have taken no position on the search-and-arrest privilege. That Tennessee has not taken a position on the availability of the privilege, however, does not absolve the Sixth Circuit of its responsibility underLucasto consult “State[] law.”Moreover, allowing federal courts to fill in state law’s silence with general law background principles could systematically underprotect property. Under the traditional state-law-only approach, a lack of controlling law would theoreticallyalwaysresult in the government losing its background principles defense — “no-law” cannot operate in the background to limit a plaintiff’s property right. But where courts can reach out to general law, they can find background limitations absolving the government of Takings Clause liability, even where state law would have required compensation.",
+      "source": "article_tag",
+      "length": 906
+    },
+    {
+      "text": "In any case, regardless of what Tennessee law says or does not say on the matter, the Sixth Circuit’s decision conceivably overrides, for federal Takings Clause purposes, the property law of every state in its jurisdiction. Once jurisdictionless background principles are established (as a matter of federal law) by a federal appellate court, their precedential effect is much greater than that of their state-specific counterparts. For example, despite the fact thatCedar Point’s holding concerned the right to exclude in the regulatory context, the Court’s mere mention of the search-and-arrest privilege in dicta led toSlaybaugh’s disposition without any reference to state law.EvenBaker— a non-binding, out-of-circuit precedent — appeared to have some persuasive force for the Sixth Circuit, perhaps because both courts were looking at the same source of law: the general law.",
+      "source": "article_tag",
+      "length": 880
+    },
+    {
+      "text": "Because the Court’s jurisdictionless approach to background principles was not cemented untilCedar Point, and because the general law method itself did not gain a strong foothold untilTyler, jurisdictionless background principles remain nascent in both theory and practice. In this context,BakerandSlaybaughserve as valuable early examples of how general law background principles function, foreshadowing how the general law method — which some have mistakenly understood to be limited toprotectingproperty in gamesmanship cases— can be used to deny takings claims.They do so not only as mere data points, but also as illustrations of a few features of the general law approach to background principles that couldsystematicallyundercut property protections.",
+      "source": "article_tag",
+      "length": 757
+    },
+    {
+      "text": "1. Levels of Generality. —BakerandSlaybaughillustrate that the general law approach, because it is fundamentally an exercise in abstraction, can result in more expansive background limitations on property rights (and therefore less property protection). A familiar theme in constitutional law is that as a principle’s level of generality increases, so too do the number of particular cases that it covers.In the background principles context, increased abstraction can mean more limitations on property interests and less Takings Clause protection. That general law background principles would be more abstract than state-specific ones is intuitive: When courts attempt to analyze the laws of jurisdictions in times and places near and far, a higher level of generality is needed to make those disparate laws all cognizable as part of a single, all-encompassing background principle. InBaker, for example, the necessity exception was distilled into a highly general rule that left the meaning of “emergency” and “necessity” — the principle’s two key terms — ambiguous.But these words’ content can vary from jurisdiction to jurisdiction.",
+      "source": "article_tag",
+      "length": 1136
+    },
+    {
+      "text": "This generality problem is also systemic, in that it inheres in the sources central toCedar Point’s general law approach. Although the Restatements — in whichCedar Point,Baker, andSlaybaughfound background principles — are useful sources for studying a given body of law’s general principles, they are written at a high level of abstraction and thus do not encompass any single jurisdiction’s nuanced common law.Meanwhile, a more particularized inquiry into state law requires reckoning with the nuts and bolts of state statutes and common law.If one concedes that increased abstraction leads to less property protection in the background-limitations context, then the courts’ use of generalized sources of law only supports the conclusion that a takings doctrine based on jurisdictionless background principles poses the endemic risk of underprotecting property.",
+      "source": "article_tag",
+      "length": 863
+    },
+    {
+      "text": "The hallmark of many background principles opinions has been that they offer “little explanation” of how background principles actually apply to the facts at bar.BakerandSlaybaughfit into this trend.And using general law to define background principles only worsens this problem. Reliance on general law sources further heightens the level of generality at which courts describe background principles and therefore “leave[s] . . . [courts] vulnerable to the criticism that they cherry-picked rules from various jurisdictions for instrumental purposes.”",
+      "source": "article_tag",
+      "length": 552
+    },
+    {
+      "text": "2. Burden on the Plaintiff. — BothSlaybaughandBakerrelied on a burden-shifting framework that “risks turning the right to private property into ‘a second-class right.’”In other individual rights contexts, the burden typically falls on the government to point to a historical analogue that justifies a regulation burdening constitutional rights.By contrast, both the Fifth and Sixth Circuits placed the burden on the respective plaintiffs to show a “historical or contemporary authority that involves facts close[] to those at bar and where the petitioner succeeded under the Takings Clause.”This burden’s origin is unclear. Perhaps it stems naturally from the fact that background principles are antecedent to the takings analysis, such that the burden falls on the plaintiff to establish that they had a property interest in the first place. More cynically, it could be the result of the courts’ squeamishness toward making definitive statements about history in these cases, so as to preserve “flexibility” for future cases,conceal operative normative judgments,or avoid getting the answer wrong.On this understanding, background rules would only appear categorical, but judges would exercise discretion in individual cases to determine whether a plaintiff’s showing of history is “close enough.” In any case, by burdening plaintiffs to disprove the applicability of background limitations — instead of requiring the government to prove a necessity defense — these early general law cases demonstrate a bias that undercuts property protections.",
+      "source": "article_tag",
+      "length": 1546
+    },
+    {
+      "text": "3. Lack of Notice.— General law background limitations on property rights conflict with the fundamental tenet that background principles “inhere in the title itself.”WhenLucasestablished the background principles exception, it did so on the basis that, if South Carolina common law restricted Lucas’s property rights, Lucas would probably have had “actual or constructive notice of” such a background restriction.Rooting background principles in state-specific law is central to these restrictions’ core intuition that local property owners know about them, whether through “cultural consensus” or “fair notice.”But neither of these rationales can justify jurisdictionless background principles, particularly where they conflict with the law of the state in question.",
+      "source": "article_tag",
+      "length": 767
+    },
+    {
+      "text": "InBakerandSlaybaugh, the courts denied innocent homeowners’ claims when the government destroyed their homes. In doing so, theBakercourt recognized this outcome’s manifest injustice, disserving ‘‘[t]he Fifth Amendment’s guarantee . . . [that prevents the] Government from forcing some people alone to bear public burdens which, in all fairness and justice, should be borne by the public as a whole.”It only increases the sense of injustice inBakerandSlaybaughthat the homeowners were denied compensation based on sources of law that they could not have known about, like customs recognized in feudal England and New York. And because the general law is not bound to any jurisdiction, these cases will set a nationwide precedent for uncompensated property destruction, leaving the foundational requirement that a background principle “inhere in the title itself” uninterrogated.",
+      "source": "article_tag",
+      "length": 877
+    },
+    {
+      "text": "Background principles, like constitutional property itself, have long been rooted in state-specific law. Recently, however, the Supreme Court’s turn to jurisdictionless property law has collided with its background principles jurisprudence. The result is a model of background principles based on an unbounded source of general property law that spans centuries and continents. These ascendant general law background principles threaten to systematically undermine property rights while disserving the fundamental premise that those rights derive from social expectations. As the constitutional definition of property continues to evolve, courts and scholars should recognize the potential for general law background principles to dilute property protections.",
+      "source": "article_tag",
+      "length": 759
+    },
+    {
+      "text": "^U.S. Const.amend. V.",
+      "source": "article_tag",
+      "length": 21
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (quoting Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1028–29 (1992)).",
+      "source": "article_tag",
+      "length": 132
+    },
+    {
+      "text": "^Id.(citingLucas, 505 U.S. at 1029–30).",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "^Cf.James L. Huffman,Background Principles and the Rule of Law: Fifteen Years AfterLucas,35 Ecology L.Q.1, 19 (2008) (arguing that “[t]here is nothing innovative or surprising about” the background principles exception).",
+      "source": "article_tag",
+      "length": 220
+    },
+    {
+      "text": "^SeeRobert Meltz,Takings Law Today: A Primer for the Perplexed, 34Ecology L.Q.307, 329 (2007) (characterizing background principles as “a big exception” to an otherwise “categorical takings rule[]”).",
+      "source": "article_tag",
+      "length": 199
+    },
+    {
+      "text": "^Seeinfrasection I.A, pp. 2074–77.",
+      "source": "article_tag",
+      "length": 34
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1027.",
+      "source": "article_tag",
+      "length": 25
+    },
+    {
+      "text": "^Meltz,supranote 5, at 353 (“The stakes are high: as a threshold issue, finding that a government restriction merely embodies a background principle ends the taking analysis then and there.”);see alsoDavid A. Dana,“Background Principles” in the Law of Takings, 73Am. U. L. Rev.1789, 1812 (2024) (observing that “state and lower federal cases” provide “very little explanation . . . as to why the court accept[ed] or reject[ed] a . . . source as creating a background limitation”).",
+      "source": "article_tag",
+      "length": 480
+    },
+    {
+      "text": "^See, e.g.,Lucas, 505 U.S. at 1030 (citing, inter alia, Bd. of Regents of State Colls. v. Roth, 408 U.S. 564, 577 (1972)).",
+      "source": "article_tag",
+      "length": 122
+    },
+    {
+      "text": "^SeeMichael C. Blumm & Lucus Ritchie, Lucas’s Unlikely Legacy: The Rise of Background Principles as Categorical Takings Defenses, 29Harv. Env’t L. Rev.321, 328 (2005) (“The rise of categorical background principles defenses seems to have appealed to lower courts, perhaps because it allows judges to resolve cases without having to employ detailed factual analysis.”).",
+      "source": "article_tag",
+      "length": 368
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at1808 (“Justice Scalia’s plurality opinion inLucashints at the idea that citizens’ actual or constructive notice of background limitations is what makes them legitimate restrictions on private property rights.”).",
+      "source": "article_tag",
+      "length": 243
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at 1808 (quotingLucas, 505 U.S. at 1027).",
+      "source": "article_tag",
+      "length": 71
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1027 (quoting Pa. Coal Co. v. Mahon, 260 U.S. 393, 413 (1922)).",
+      "source": "article_tag",
+      "length": 83
+    },
+    {
+      "text": "^See id.(noting that “the property owner necessarily expects” the state to occasionally impose limitations on “the uses of his property” through the “legitimate exercise of its police powers”);cf.Maureen E. Brady,The Illusory Promise of General Property Law, 132Yale L.J.F.1010, 1048–49 (2023) (criticizing the “unpredictability of a general-law approach” that deems litigants to be “on notice,”id.at 1048, of property interests in “every jurisdiction’s law,”id.at 1049).",
+      "source": "article_tag",
+      "length": 471
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at 1806–07 (“The problem . . . is that the Supreme Court and other courts have done little to clarify what is and is not a valid background limitation.”); Michael C. Blumm & Rachel G. Wolfard,Revisiting Background Principles in Takings Litigation, 71Fla. L. Rev.1165, 1169 (2019) (“What constitutes a valid background principles defense has proved to be a contentious and unsettled question over a quarter-century later.”); Meltz,supranote 5, at 354 (“The Supreme Court has not spoken at length on the meaning of background principles sinceLucas.”).",
+      "source": "article_tag",
+      "length": 579
+    },
+    {
+      "text": "^See, e.g.,Meltz,supranote 5, at 353 (“Much ink has been spilled over what qualifies as a background principle, beyond the certainty that common law nuisance is included.”); Dana,supranote 8, at 1856 (criticizing “the courts’ — and especially the U.S. Supreme Court’s — failure to explain how they have decided and will decide questions regarding background limitations on title”).",
+      "source": "article_tag",
+      "length": 381
+    },
+    {
+      "text": "^See generally, e.g.,Dana,supranote 8 (identifying “three possible rationales for the background principles exception,”id.at 1789).",
+      "source": "article_tag",
+      "length": 131
+    },
+    {
+      "text": "^Seesources citedinfranote 80.",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "^Brady,supranote 15, at 1014 (emphasis omitted).",
+      "source": "article_tag",
+      "length": 48
+    },
+    {
+      "text": "^Id.at 1010;see also id.at 1015 (observing that the Supreme Court has increasingly “relied on something approximating a general law of property in conducting takings analyses”).",
+      "source": "article_tag",
+      "length": 177
+    },
+    {
+      "text": "^Seeid.at 1015.SeegenerallyEric R. Claeys,Takings and Choice of Law AfterTyler v. Hennepin County, 20J.L. Econ. & Pol’y(forthcoming 2025), https://ssrn.com/abstract=5084825 [https://perma.cc/4X4H-7H6Q].",
+      "source": "article_tag",
+      "length": 202
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 2).",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "^Seeid.(manuscript at 3) (quoting Tyler v. Hennepin County, 143 S. Ct. 1369, 1375 (2023)).",
+      "source": "article_tag",
+      "length": 90
+    },
+    {
+      "text": "^This Note engages with a few recent treatments of the background principles exception and its intersection with general property law.SeeBrady,supranote 15, at 1047–48 (noting that cases involving general–law background principles “illustrate the unpredictability of a general-law approach,”id.at 1048, and “elide the question” of what counts as a background principle,id.at 1047); Timothy M. Mulvaney,Reconceptualizing “Background Principles” in Takings Law, 109Minn. L. Rev.689, 735 (2024) (arguing that the ascendant general law approach to statutory background principles serves to “conceal . . . decidedly moral judgments”); Dana,supranote 8, at 1814–49 (developing three conceptions of background principles).",
+      "source": "article_tag",
+      "length": 715
+    },
+    {
+      "text": "^Tyler, 143 S. Ct. at 1379 (citing Phillips v. Wash. Legal Found., 524 U.S. 156, 167 (1998));see alsoClaeys,supranote 22 (manuscript at 14–15).See generallyid.(concluding that courts “consult the ‘common law’ understood in the broad sense,”id.(manuscript at 34), when they suspect that a state has manipulated property rights such that the “federal right” protected by the Takings Clause has been “convert[ed] . . . into a dead letter,”id.(manuscript at 32)).",
+      "source": "article_tag",
+      "length": 459
+    },
+    {
+      "text": "^Slaybaugh v. Rutherford County, 114 F.4th 593 (6th Cir. 2024); Baker v. City of McKinney, 84 F.4th 378 (5th Cir. 2023).",
+      "source": "article_tag",
+      "length": 120
+    },
+    {
+      "text": "^Meltz,supranote 5, at 317 (“[W]hether the plaintiff has alleged a Takings Clause-recognized property interest is the key threshold substantive inquiry in a taking case.”).",
+      "source": "article_tag",
+      "length": 172
+    },
+    {
+      "text": "^Seeid.at 310. There is also a third inquiry, though it is not relevant for this Note: “[H]ow much compensation should the property owner receive?”Id.",
+      "source": "article_tag",
+      "length": 150
+    },
+    {
+      "text": "^Id.at 328 (recognizing “formal appropriation of property and physical invasion thereof” as the classic takings).",
+      "source": "article_tag",
+      "length": 113
+    },
+    {
+      "text": "^Pa. Coal Co. v. Mahon, 260 U.S. 393, 413 (1922).",
+      "source": "article_tag",
+      "length": 49
+    },
+    {
+      "text": "^See, e.g., John A. Humbach,The Takings Clause and the Separation of Powers: An Essay, 21Pace Env’t L. Rev.3, 8 (2003) (“For most of the twentieth century, however, the takings clause has led very much of a dual existence — constituting a straightforward compensation requirement for cases ofphysicalinvasions of private property while also vaguely promising a possibility of compensation, under ill-defined circumstances, when the government affects property values byregulation.”).",
+      "source": "article_tag",
+      "length": 483
+    },
+    {
+      "text": "^See, e.g., Mark Fenster,The Stubborn Incoherence of Regulatory Takings, 28Stan. Env’t L.J.525, 528 (2009) (observing that, among other things, “doctrinal indeterminacy ha[s] always driven regulatory takings litigation and theory”).",
+      "source": "article_tag",
+      "length": 232
+    },
+    {
+      "text": "^See, e.g., Murr v. Wisconsin, 137 S. Ct. 1933, 1943 (2017) (“A central dynamic of the Court’s regulatory takings jurisprudence, then, is its flexibility.”).",
+      "source": "article_tag",
+      "length": 157
+    },
+    {
+      "text": "^Meltz,supranote 5, at 328 (observing the Court’s “effort, continuing today, to articulate a coherent body of rules or guidelines for determining which government regulations require compensation under the Takings Clause and which do not”).",
+      "source": "article_tag",
+      "length": 240
+    },
+    {
+      "text": "^See, e.g., Maureen E. Brady, Essay, Penn CentralSquared:What the Many Factors ofMurr v. WisconsinMean for Property Federalism, 166U. Pa. L. Rev. Online53, 54–55 (2017)(“Penn Centralhas been maligned by property scholars and the Court alike; it has been called a source of ‘confusion,’ the cause of ‘protracted litigation and arbitrary outcomes,’ and even ‘disastrous.’” (footnotes omitted) (quoting Jed Rubenfeld,Usings, 102Yale L.J. 1077, 1089 (1993); Steven J. Eagle,The Four-FactorPenn CentralRegulatory Takings Test, 118Penn St. L. Rev.601, 605 (2014); Richard A. Epstein,Bundle-of-Rights Theory as a Bulwark Against Statist Conceptions of Private Property, 8Econ J. Watch223, 226 (2011))).",
+      "source": "article_tag",
+      "length": 695
+    },
+    {
+      "text": "^Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1015 (1992) (alterations in original) (quotingPenn Central, 438 U.S. at 124).",
+      "source": "article_tag",
+      "length": 124
+    },
+    {
+      "text": "^Seeid.(identifying “two discrete categories of regulatory action as compensable without case-specific inquiry into the public interest advanced in support of the restraint”).",
+      "source": "article_tag",
+      "length": 175
+    },
+    {
+      "text": "^Id.(citing, inter alia, Agins v. City of Tiburon, 447 U.S. 255, 260 (1980)).",
+      "source": "article_tag",
+      "length": 77
+    },
+    {
+      "text": "^Id.at 1006–07 (citingS.C. Code Ann.§ 48-39-280 (Supp. 1990)).",
+      "source": "article_tag",
+      "length": 62
+    },
+    {
+      "text": "^Id.at 1015;see alsoLoretto v. Teleprompter Manhattan CATV Corp., 458 U.S. 419, 438–39 (1982); Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2074 (2021).",
+      "source": "article_tag",
+      "length": 155
+    },
+    {
+      "text": "^Seeid.at 438 (recognizing regulatory requirement to install cables on building as a taking).",
+      "source": "article_tag",
+      "length": 93
+    },
+    {
+      "text": "^Id.at 434–35 (focusing on the “constitutional distinction between apermanentoccupation and atemporaryphysical invasion,”id.at 434 (emphasis added)).",
+      "source": "article_tag",
+      "length": 149
+    },
+    {
+      "text": "^Bethany R. Berger,Eliding Original Understanding inCedar Point Nursery v. Hassid, 33Yale J.L. & Humans.307, 309 (2022);seeCedar Point, 141 S. Ct. at 2074.",
+      "source": "article_tag",
+      "length": 155
+    },
+    {
+      "text": "^Cf.Aziz Z. Huq,Property Against Legality: Takings AfterCedar Point, 109Va. L. Rev.233, 276 (2023) (arguing thatCedar Point’s treatment of a regulation as an appropriation could result in “the category of appropriation . . . expand[ing] — to the point of collapsing the category of regulatory takings”).",
+      "source": "article_tag",
+      "length": 303
+    },
+    {
+      "text": "^Seeid.at 275–76 (arguing that “Cedar Pointtransforms ‘appropriation’ into a standard with no clear or predictable class of applications[,] . . . without mooring in shared lay or legal expectations” and that, as a result, “[p]otential litigants can no longer safely predict” outcomes).",
+      "source": "article_tag",
+      "length": 285
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2087–88 (Breyer, J., dissenting);id.at 2078 (majority opinion) (recognizing dissent’s “warn[ing] that treating the access regulation as aper sephysical taking will endanger a host of state and federal government activities”);see also, e.g., Rebecca Hansen & Lior Jacob Strahilevitz,Toward Principled Background Principles in Takings Law, 10Tex. A&M L. Rev.427, 430 (2023) (recognizing widespread fear that “Cedar Pointjeopardized various antidiscrimination laws, antiretaliation provisions, regimes governing union access to employer email systems, rent control ordinances, environmental protection laws, [and] consumer protection laws,” inter alia).",
+      "source": "article_tag",
+      "length": 681
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2078–79.",
+      "source": "article_tag",
+      "length": 39
+    },
+    {
+      "text": "^See id. at 2079 (quoting Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1028–29 (1992));Mary CatherineJenkins & Juliette Turner-Jones, Note,Original Understanding of “Background Principles” inCedar Point Nursery v. Hassid, 47Harv. J.L. & Pub. Pol’y507, 509 (2024) (characterizing the background principles exception as “particularly expansive” and positing that “governments can rest assured that Chief Justice Roberts’s ‘background principles’ exception will mitigate the broadness of the per se rule”).",
+      "source": "article_tag",
+      "length": 504
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2079.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "^See, e.g., Stewart E. Sterk,The Demise of Federal Takings Litigation, 48Wm. & Mary L. Rev.251, 288 (2006) (“[I]f background state law did not recognize or create property in the first instance, then a subsequent state action cannot take property.”); Stewart E. Sterk,The Federalist Dimension of Regulatory Takings Jurisprudence, 114Yale L.J.203, 248 (2004) [hereinafter Sterk,The Federalist Dimension] (observing that “theLucasrule is not dependent on state law, although it does build in a potential defense based on state law” — that is, the background principles exception); Bush v. Gore, 531 U.S. 98, 115 n.1 (2000) (Rehnquist, C.J., concurring)(“[O]ur jurisprudence requires us to analyze the ‘background principles’ of state property law to determine whether there has been a taking of property . . . .”); Lee Anne Fennell,Escape Room: Implicit Takings AfterCedar Point Nursery, 17Duke J. Const. L. & Pub. Pol’y1, 25 (2022) (observing that “background principles are generally a matter of state property law”); Blumm & Wolfard,supranote 16, at 1297 (“Because the issue will usually be a question of state law, there will be no uniformity of background principles jurisprudence among the jurisdictions, with the possible exception of federal takings claims in the [Court of Federal Claims] and Federal Circuit.”); Palazzolo v. Rhode Island, 533 U.S. 606, 630 (2001) (rooting background principles in “common, shared understandings of permissible limitations derived from a State’s legal tradition” (citingLucas, 505 U.S. at 1029–30)).",
+      "source": "article_tag",
+      "length": 1540
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1029 (emphasis added). There are somefederalbackground principles, but these are only applied in takings claims against thefederalgovernment.See, e.g., Sterk,The Federalist Dimension,supranote 59, at 244 n.182 (noting the existence of the “navigation servitude” background principle, which “applies to federal actions, not to actions by the states”).",
+      "source": "article_tag",
+      "length": 370
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1035 (Kennedy, J., concurring).",
+      "source": "article_tag",
+      "length": 51
+    },
+    {
+      "text": "^Id.at 630 (citingLucas, 505 U.S. at 1029–30).",
+      "source": "article_tag",
+      "length": 46
+    },
+    {
+      "text": "^Id.at 637 (Scalia, J., concurring) (quotingLucas, 505 U.S. at 1029);seeBrady,supranote 15, at 1046–47.",
+      "source": "article_tag",
+      "length": 103
+    },
+    {
+      "text": "^Dana,supranote 8, at 1809 (quotingMurr, 137 S. Ct. at 1945).",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "^Murr, 137 S. Ct. at 1950 (Roberts, C.J., dissenting).",
+      "source": "article_tag",
+      "length": 54
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1046 (“[T]heCedar Pointmajority also used general law to construct the limits of its new doctrine.”).",
+      "source": "article_tag",
+      "length": 128
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (emphasis added).",
+      "source": "article_tag",
+      "length": 78
+    },
+    {
+      "text": "^Id.(citingRestatement (Second) of Torts§§ 196, 197, 204–05 (Am. L. Inst.1965)); Brady,supranote 15, at 1016 (recounting view that Restatements are “evidence of the general law”).",
+      "source": "article_tag",
+      "length": 179
+    },
+    {
+      "text": "^CompareLucas v. S.C. Coastal Council, 505 U.S. 1003, 1029 (1992) (rooting “background principles” in “the State’s law of property and nuisance”),withCedar Point, 141 S. Ct. at 2079 (“[T]he government does not take a property interest when it merely asserts a ‘pre-existing limitation upon the land owner’s title.’” (quotingLucas, 505 U.S. at 1028–29)).",
+      "source": "article_tag",
+      "length": 353
+    },
+    {
+      "text": "^See, e.g., Phillips v. Wash. Legal Found., 524 U.S. 156, 164 (1998) (quoting Bd. of Regents of State Coll. v. Roth, 408 U.S. 564, 577 (1972));Lucas, 505 U.S. at 1029.",
+      "source": "article_tag",
+      "length": 167
+    },
+    {
+      "text": "^SeePhillips, 524 U.S. at 164(quotingRoth, 408 U.S. at 577).",
+      "source": "article_tag",
+      "length": 60
+    },
+    {
+      "text": "^Sterk,The Federalist Dimension,supranote 59, at 213–14; Huq,supranote 53, at 248–49.",
+      "source": "article_tag",
+      "length": 85
+    },
+    {
+      "text": "^Sterk,The Federalist Dimension,supranote 59, at 213–14.",
+      "source": "article_tag",
+      "length": 56
+    },
+    {
+      "text": "^See, e.g., PruneYard Shopping Ctr. v. Robins, 447 U.S. 74, 84 (1980) (recognizing that the “United States, as opposed to the several States,” does not “possess[] . . . residual authority that enables it to define ‘property’ in the first instance”);see alsoSterk,The Federalist Dimension,supranote 59, at 218 (“[T]akings doctrine is dependent on the content of background state law . . . .”); Meltz,supranote 5, at 317–18 (quoting Webb’s Fabulous Pharmacies, Inc. v. Beckwith, 449 U.S. 155, 161 (1980)); Abigail K. Flanigan, Note,Rent Regulations AfterCedar Point, 123Colum. L. Rev.475, 478 (2023) (“Property interests are generally created and defined by state law . . . .”); Fennell,supranote 59, at 25; Maureen E. Brady,Property Convergence in Takings Law, 46Pepp. L. Rev.695, 705 (2019) (“The Supreme Court has enabled interstate variation in the application of the federal Takings Clause by emphasizing the role of nonconstitutional state property law in defining both what counts as constitutional property and in measuring whether a taking has occurred.”); Huq,supranote 53, at 254 (“All agree that state law typically creates property interests.”); Murr v. Wisconsin, 137 S. Ct. 1933, 1954 (2017) (Roberts, C.J., dissenting) (explaining that the Court “ha[s] never” identified private property “by relying on anything other than state property principles”).",
+      "source": "article_tag",
+      "length": 1365
+    },
+    {
+      "text": "^Brady,supranote 15, at 1015.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "^SeeMurr, 137 S. Ct. at 1947.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "^Id.(quoting Murr v. St. Croix Cnty. Bd. of Adjustment, 796 N.W.2d 837, 844 (Wis. Ct. App. 2011)).",
+      "source": "article_tag",
+      "length": 98
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 21).",
+      "source": "article_tag",
+      "length": 40
+    },
+    {
+      "text": "^Murr, 137 S. Ct. at 1948–49 (applying three-part standard).",
+      "source": "article_tag",
+      "length": 60
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1045.",
+      "source": "article_tag",
+      "length": 32
+    },
+    {
+      "text": "^Murr, 137 S. Ct. at 1950 (Roberts, C.J., dissenting).",
+      "source": "article_tag",
+      "length": 54
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1047.",
+      "source": "article_tag",
+      "length": 32
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2077 (2021). “The right to exclude, simply defined, is the right of a person to exclude others from the use or occupancy of a particular thing.” Jace C. Gatewood,The Evolution of the Right to Exclude, 32Miss. Coll. L. Rev.447, 448 n.3 (2014).",
+      "source": "article_tag",
+      "length": 291
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2077.",
+      "source": "article_tag",
+      "length": 33
+    },
+    {
+      "text": "^Id.at 2072 (quoting Kaiser Aetna v. United States, 444 U.S. 164, 179–80 (1979)).",
+      "source": "article_tag",
+      "length": 81
+    },
+    {
+      "text": "^Id.at 2072–73 (citing, inter alia, Thomas W. Merrill,Property and the Right to Exclude, 77Neb. L. Rev.730, 730 (1998) [hereinafter Merrill,Right to Exclude I]);see alsoMerrill,Right to Exclude I,supra, at 730 (“[T]he right to exclude others is more than just ‘one of the most essential’ constituents of property — it is thesine qua non.” (quotingKaiser Aetna, 444 U.S. at 176)).But cf.Thomas W. Merrill,Property and the Right to Exclude II, 3Brigham-Kanner Prop. Rts. Conf. J.1, 1 (2014) (clarifying that “the right to exclude [is not] the end or the ultimate value to which the institution of property aspires”).",
+      "source": "article_tag",
+      "length": 614
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2072–73 (citing, inter alia, Loretto v. Teleprompter Manhattan CATV Corp., 458 U.S. 419, 435 (1982); 2William Blackstone, Commentaries*2; Merrill,Right to Exclude I,supranote 99, at 730).",
+      "source": "article_tag",
+      "length": 218
+    },
+    {
+      "text": "^Brady,supranote 15, at 1047.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2076 (citing Phillips v. Wash. Legal Found., 524 U.S. 156, 164 (1998); Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1030 (1992)).",
+      "source": "article_tag",
+      "length": 158
+    },
+    {
+      "text": "^SeeAct of Apr. 29, 1935, ch. 286, 1935 Minn. Laws 710, 712–13 (codified as amended atMinn. Stat.§ 282.08).",
+      "source": "article_tag",
+      "length": 107
+    },
+    {
+      "text": "^SeeTyler, 143 S. Ct. at 1373–74;id.at 1380 (citingMinn. Stat.§ 282.08 (2024)).",
+      "source": "article_tag",
+      "length": 79
+    },
+    {
+      "text": "^Seeid.at 1376–78. TheTylerCourt did briefly note that Minnesota law supported the Court’s conclusion.See id.at 1379. But in doing so, the Court mostly weighed Minnesota history prior to 1935, when Minnesota first began retaining surplus equity.Id.It then wrote off the surplus equity rule, which had been on the books for nearly ninety years,seeAct of Apr. 29, 1935, ch. 286, 1935 Minn. Laws 710, 712–13, as merely the State’s attempt to “extinguish a property interest . . . to avoid paying just compensation when it is the one doing the taking.”Tyler, 143 S. Ct. at 1379(citing Phillips v. Wash. Legal Found., 524 U.S. 156, 167 (1998)). This dismissal of a longstanding legislative compromise, however, ignored the Act’s true origins, which were perhaps less sinister than the Court let on.SeeTory L. Lucas,ReassessingTyler v. Hennepin County: A Critical Examination of the Supreme Court’s Federalist Overreach in Discovering a Constitutionally Protected Property Right in a Takings Case Involving a Sovereign State’s Real Property Tax-Foreclosure Sale, 18Liberty U. L. Rev.473, 515–17 (2024).",
+      "source": "article_tag",
+      "length": 1096
+    },
+    {
+      "text": "^Tyler, 143 S. Ct. at 1378.",
+      "source": "article_tag",
+      "length": 27
+    },
+    {
+      "text": "^SeeLucas,supranote 110, at 493–94 (quoting and citing Tyler v. Hennepin County, 26 F.4th 789, 793–94 (8th Cir. 2022)) (quoting Nelson v. City of New York, 352 U.S. 103, 110 (1956)).",
+      "source": "article_tag",
+      "length": 182
+    },
+    {
+      "text": "^Thomas W. Merrill,The Landscape of Constitutional Property, 86Va. L. Rev.885, 935 (2000);seeMurr v. Wisconsin, 137 S. Ct. 1933, 1944–45 (2017) (quoting Palazzolo v. Rhode Island, 533 U.S. 606, 626 (2001)); Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2076 (2021); Webb’s Fabulous Pharmacies, Inc. v. Beckwith, 449 U.S. 155, 164 (1980) (“[A] State, byipse dixit, may not transform private property into public property without compensation, even for the limited duration of the deposit in court.”).",
+      "source": "article_tag",
+      "length": 501
+    },
+    {
+      "text": "^Brady,supranote 40, at 59–60.",
+      "source": "article_tag",
+      "length": 30
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 25).",
+      "source": "article_tag",
+      "length": 40
+    },
+    {
+      "text": "^Id.(manuscript at 2).",
+      "source": "article_tag",
+      "length": 22
+    },
+    {
+      "text": "^Id.(manuscript at 33).",
+      "source": "article_tag",
+      "length": 23
+    },
+    {
+      "text": "^See, e.g.,id.(manuscript at 2) (callingTyler’s property-protective use of general law “normatively” desirable); Cindy Crawford & Michael Pepson,Supreme Court Protects Private Property Rights Against Uncompensated Trespasses inCedar Point Nursery v. Hassid,Ams. for Prosperity(June 25, 2021),https://americansforprosperity.org/blog/cedar-point-nursery-v-hassid-takings-clause[https://perma.cc/VML2-SM5W] (celebratingCedar Pointfor “cabining the effects of messy precedent that has wrongly expanded the power of the state to transfer property rights from one private party to another”); Deborah La Fetra,Here’s How Big theTylerVictory Is,Pac. Legal Found.(June 6, 2023),https://pacificlegal.org/heres-how-big-the-tyler-victory-is[https://perma.cc/C3DC-R75J] (compiling positive responses toTyler, such as the account that the case was “a simultaneous victory for odd bedfellows — both economically disadvantaged homeowners as well as libertarian-oriented property rights advocates” (quoting David Wilkes,Supreme Court Forfeiture Ruling Spells Victory for Homeowners,Bloomberg L.(May 26, 2023, 4:45 AM), https://news.bloombergtax.com/tax-insights-and-commentary/supreme-court-forfeiture-ruling-spells-victory-for-homeowners [https://perma.cc/LCC7-FZRP])).",
+      "source": "article_tag",
+      "length": 1253
+    },
+    {
+      "text": "^See, e.g.,CATO Inst., CATO Handbook on Policy226 (6th ed. 2005) (identifying the “modern problem” that “[c]ourts have been reluctant to award compensation in [regulatory takings] cases . . . due in part to an unwarranted deference to the regulatory state”).",
+      "source": "article_tag",
+      "length": 258
+    },
+    {
+      "text": "^Ilya Somin,Unusual Cross-Ideological Agreement inTyler v. Hennepin County,Reason: Volokh Conspiracy(Apr. 26, 2023, 2:12 PM), https://reason.com/volokh/2023/04/26/unusual-cross-ideological-agreement-in-tyler-v-hennepin-county [https://perma.cc/6G9C-9NDX].",
+      "source": "article_tag",
+      "length": 255
+    },
+    {
+      "text": "^SeeBaker v. City of McKinney, 145 S. Ct. 11, 13 (2024) (Sotomayor, J., respecting the denial of certiorari).",
+      "source": "article_tag",
+      "length": 109
+    },
+    {
+      "text": "^Seeinfrasections III.A and III.B, pp. 2084–89.",
+      "source": "article_tag",
+      "length": 47
+    },
+    {
+      "text": "^Id.at 385 (alteration in original) (quoting Tyler v. Hennepin County, 143 S. Ct. 1369, 1376 (2023)).",
+      "source": "article_tag",
+      "length": 101
+    },
+    {
+      "text": "^Id.at 383 (citingTyler, 143 S. Ct. at 1375–79; Horne v. Dep’t of Agric., 576 U.S. 350, 357–61 (2015); Murr v. Wisconsin, 137 S. Ct. 1933, 1957 (2017) (Thomas, J., dissenting)).",
+      "source": "article_tag",
+      "length": 177
+    },
+    {
+      "text": "^Id.(alteration in original) (quotingTyler, 143 S. Ct. at 1376).",
+      "source": "article_tag",
+      "length": 64
+    },
+    {
+      "text": "^Seeid.at 385–88 (discussing, inter alia, Respublica v. Sparhawk, 1 Dall. 357, 362 (Pa. 1788); Field v. City of Des Moines, 39 Iowa 575, 577–78 (1874); McDonald v. City of Red Wing, 13 Minn. 38, 40 (1868); Mayor of N.Y. v. Lord, 18 Wend. 126, 132–33 (N.Y. 1837); Bowditch v. City of Boston, 101 U.S. 16, 18–19 (1879)).",
+      "source": "article_tag",
+      "length": 318
+    },
+    {
+      "text": "^Baker, 84 F.4th at 388 (quotingSteele, 603 S.W.2d at 792).",
+      "source": "article_tag",
+      "length": 59
+    },
+    {
+      "text": "^Steele, 603 S.W.2d at 791.",
+      "source": "article_tag",
+      "length": 27
+    },
+    {
+      "text": "^Steelecited only one example of the statute’s application:Keller v. City of Corpus Christi, 50 Tex. 614 (1879), in which a home was destroyed to prevent the spread of a fire.Id.at 618.",
+      "source": "article_tag",
+      "length": 185
+    },
+    {
+      "text": "^SeeSteele, 603 S.W.2d at 791 (citingKeller, 50 Tex. at 626).",
+      "source": "article_tag",
+      "length": 61
+    },
+    {
+      "text": "^Compare id.(noting that “destruction of property has been . . . justified by reason of war, riot, pestilence, or other great public calamity”),withBaker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (deeming property destruction necessary “to prevent imminent harm to persons”).See generallyRecent Case, Baker v. City of McKinney,84 F.4th 378 (5th Cir. 2023), 137Harv. L. Rev.2408 (2024) (arguing the court did not show that the emergency fit into any of theSteelecategories).",
+      "source": "article_tag",
+      "length": 486
+    },
+    {
+      "text": "^Steele, 603 S.W.2d at 793.",
+      "source": "article_tag",
+      "length": 27
+    },
+    {
+      "text": "^Villarreal v. Harris County, 226 S.W.3d 537, 543 n.3 (Tex. App. 2006) (citingSteele, 603 S.W.2d at 793).",
+      "source": "article_tag",
+      "length": 105
+    },
+    {
+      "text": "^Prestonwood Ests. W. Homeowners Ass’n v. City of Arlington, No. 02-21-00362-CV, 2022 WL 3097374, at *6 n.8 (Tex. App. Aug. 4, 2022);see alsoCarlson v. City of Houston, 401 S.W.3d 725, 733 (Tex. App. 2013) (recognizing that, under the Texas Constitution’s Takings Clause, “when the City takes action ‘because of real or supposed public emergency,’ the action is ‘for the public use’” (quoting City of Houston v. Crabb, 905 S.W.2d 669, 674 (Tex. App. 1995)) (citing Patel v. City of Everman, 179 S.W.3d 1, 8 (Tex. App. 2004))).",
+      "source": "article_tag",
+      "length": 526
+    },
+    {
+      "text": "^SeeBaker, 84 F.4th at 388 (quotingSteele, 603 S.W.2d at 792). It might be contended thatSteelehas no bearing onBakerbecause the former interpreted the Texas Constitution. But even thoughSteeledid not involve the federal Takings Clause, the decision may still shed light on Texas common law, and thus could be useful for constructing state-specific background principles.",
+      "source": "article_tag",
+      "length": 371
+    },
+    {
+      "text": "^CompareSteele, 603 S.W.2d at 793 (remanding for trial as to the necessity defense),withBaker, 84 F.4th at 379 (deciding the case based on stipulation as to necessity, notwithstanding the fact that the district court proceedings did not concern the necessity exception).",
+      "source": "article_tag",
+      "length": 270
+    },
+    {
+      "text": "^See, e.g., Wegner v. Milwaukee Mut. Ins. Co., 479 N.W.2d 38, 39, 41–42 (Minn. 1991) (repudiating the necessity exception, citing “principles of [Minnesota’s] system of justice,”id.at 42, and granting compensation for destruction of home to apprehend fugitive); Bishop v. Mayor of Macron, 7 Ga. 200, 202 (1849) (explaining that property destruction in the name of necessity is legal but nevertheless requires “just compensation from the public for the loss”); Dayton v. City of Asheville, 115 S.E. 827, 829 (N.C. 1923) (recognizing that “[p]ublic necessity may justify the taking, but cannot justify the taking without compensation” (quoting Platt v. City of Waterbury, 45 A. 154, 162 (Conn. 1900))).",
+      "source": "article_tag",
+      "length": 700
+    },
+    {
+      "text": "^SeeBrian Angelo Lee,Emergency Takings, 114Mich L. Rev.391, 391, 393 (2015).",
+      "source": "article_tag",
+      "length": 76
+    },
+    {
+      "text": "^Brady,supranote 40, at 61.",
+      "source": "article_tag",
+      "length": 27
+    },
+    {
+      "text": "^SeeCedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (citing, inter alia, Camara v. Mun. Ct., 387 U.S. 523, 538 (1967)).",
+      "source": "article_tag",
+      "length": 131
+    },
+    {
+      "text": "^Slaybaugh, 114 F.4th at 598.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "^Id.at 598–99 (citingRestatement (Second) of Torts§§ 204 & cmt. b, 206, 213 (Am. L. Inst.1965)).",
+      "source": "article_tag",
+      "length": 96
+    },
+    {
+      "text": "^Id.at 600 (citing, inter alia, Semayne’s Case (1604) 77 Eng. Rep. 194, 195, 197 n.G; 5 Co. Rep. 91 a, 91 b, 92 b).",
+      "source": "article_tag",
+      "length": 115
+    },
+    {
+      "text": "^Id.(citing, inter alia, Kelsy v. Wright, 1 Root 83, 84 (Conn. Super. Ct. 1783)).",
+      "source": "article_tag",
+      "length": 81
+    },
+    {
+      "text": "^Id.at 601 (citing, inter alia, Brutsche v. City of Kent, 193 P.3d 110, 118 (Wash. 2008)).",
+      "source": "article_tag",
+      "length": 90
+    },
+    {
+      "text": "^Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1029 (1992).",
+      "source": "article_tag",
+      "length": 59
+    },
+    {
+      "text": "^Cf.Petition for a Writ of Certiorari at 6,Slaybaugh, 114 F.4th 593 (No. 24-755) (arguing that “Cedar Point— a case about the right to exclude — cannot reasonably be read to apply to government-authorized property destruction”).",
+      "source": "article_tag",
+      "length": 228
+    },
+    {
+      "text": "^SeeSlaybaugh, 114 F.4th at 602 (discussingBakerto reach the conclusion that the court “may consider tort-law privileges”);id.at 603 (citingBakerfavorably regarding plaintiffs’ burden).",
+      "source": "article_tag",
+      "length": 185
+    },
+    {
+      "text": "^Seesources citedsupranote 118.",
+      "source": "article_tag",
+      "length": 31
+    },
+    {
+      "text": "^It might be suggested that neitherBakernorSlaybaughinvolved background principles. On this view, the disputes in both cases would concern whether the government had to pay for taking the plaintiffs’ property, rather than whether the plaintiffs had a property interest in the first place. This view, however, ignores that both cases relied onLucas’s background principles logic.SeeBaker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (quotingLucas, 505 U.S. at 1029 n.16);Slaybaugh, 114 F.4th at 598 (quotingLucas, 505 U.S. at 1030).",
+      "source": "article_tag",
+      "length": 541
+    },
+    {
+      "text": "^See generally, e.g., Laurence H. Tribe & Michael C. Dorf,Levels of Generality in the Definition of Rights, 57U. Chi. L. Rev.1057 (1990).",
+      "source": "article_tag",
+      "length": 137
+    },
+    {
+      "text": "^See generallyRecent Case,supranote 142 (demonstrating the contestable meanings of “necessity,”id.at 2415, and “emergency,”id.at 2413, that theBakercourt “elided,”id.at 2415).",
+      "source": "article_tag",
+      "length": 175
+    },
+    {
+      "text": "^SeeRobin Kundis Craig,Public Trust and Public Necessity Defenses to Takings Liability for Sea Level Rise Responses on the Gulf Coast, 26J. Land Use & Env’t L.395, 420–21 (2011) (recognizing that “[s]tates vary in how they conceive of ‘emergency’ and ‘imminence,’”id.at 420, and acknowledging differences in “how each state views the ‘actual necessity’ requirement,”id.at 421).",
+      "source": "article_tag",
+      "length": 377
+    },
+    {
+      "text": "^Cf.Shyamkrishna Balganesh,Relying on Restatements, 122Colum. L. Rev.2119, 2156 (2022) (“Distilling a common law decision into a rule is therefore no easy task, and instead one that compromises on much of the nuance underlying expository judicial reasoning.”).",
+      "source": "article_tag",
+      "length": 260
+    },
+    {
+      "text": "^SeeLucas,supranote 110, at 495–97 (comparing the Supreme Court’s brief examination of Tyler’s rights under Minnesota law with the Eighth Circuit’s more intensive look).",
+      "source": "article_tag",
+      "length": 169
+    },
+    {
+      "text": "^Cf.Dana,supranote 8, at 1812 (observing that “there is very little explanation in the state and lower federal cases as to why the court accepts or rejects a common law principle, statute, or other source as creating a background limitation that precludes the payment of compensation that otherwise would be due”).",
+      "source": "article_tag",
+      "length": 314
+    },
+    {
+      "text": "^SeeSlaybaugh v. Rutherford County, 114 F.4th 593, 604 (6th Cir. 2024) (concluding in one paragraph that the search-and-arrest privilege applies); Baker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (similar);see alsoRecent Case,supranote 142, at 2412, 2414, 2415 (arguing that theBakercourt overlooked “factual dissimilarities betweenBakerand precedents,” raising the possibility that “the court may have ultimately denied Baker compensation she was due,”id.at 2412).",
+      "source": "article_tag",
+      "length": 477
+    },
+    {
+      "text": "^Brady,supranote 15, at 1015.",
+      "source": "article_tag",
+      "length": 29
+    },
+    {
+      "text": "^Baker v. City of McKinney, 93 F.4th 251, 253 (5th Cir. 2024) (Elrod & Oldham, JJ., dissenting from denial of rehearing en banc) (quoting N.Y. State Rifle & Pistol Ass’n v. Bruen, 142 S. Ct. 2111, 2156 (2022)).",
+      "source": "article_tag",
+      "length": 210
+    },
+    {
+      "text": "^SeeBruen, 142 S. Ct. at 2130 (discussing the government’s burden where state action implicates speech, religious liberty, or confrontation rights);id.at 2129–30 (articulating the government’s burden to justify regulating conduct the Second Amendment “presumptively protects,”id.at 2130).",
+      "source": "article_tag",
+      "length": 288
+    },
+    {
+      "text": "^Baker, 84 F.4th at 385;Slaybaugh, 114 F.4th at 603 (quotingBaker, 84 F.4th at 385);seeBaker, 93 F.4th at 253 (Elrod & Oldham, JJ., dissenting from denial of rehearing en banc).",
+      "source": "article_tag",
+      "length": 177
+    },
+    {
+      "text": "^Cf.Murr v. Wisconsin, 137 S. Ct. 1933, 1943 (2017) (suggesting that “regulatory takings jurisprudence” has remained ad hoc to preserve “its flexibility”).",
+      "source": "article_tag",
+      "length": 155
+    },
+    {
+      "text": "^SeeMulvaney,supranote 25, at 735 (arguing that the Court’s general law approach to statutory background principles serves to “conceal . . . decidedly moral judgments”).",
+      "source": "article_tag",
+      "length": 169
+    },
+    {
+      "text": "^Cf., e.g., Berger,supranote 52, at 315 (concluding that “[t]he understanding of property at the time of the founding . . . wholly contradictsCedar Point’s new per se rule”).",
+      "source": "article_tag",
+      "length": 174
+    },
+    {
+      "text": "^Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1029 (1992).",
+      "source": "article_tag",
+      "length": 59
+    },
+    {
+      "text": "^Dana,supranote 8, at1808.",
+      "source": "article_tag",
+      "length": 26
+    },
+    {
+      "text": "^Seeid.at 1792 (positing “originalism[,] cultural consensus[,] and fair notice” as rationales for background limitations).",
+      "source": "article_tag",
+      "length": 122
+    },
+    {
+      "text": "^SeeMulvaney,supranote 25, at 710–11 (observing that courts conducting general law background principle analyses “are not at all limited to examining statutory laws that are jurisdictionally circumscribed” and that “principles ‘rooted’ in the majority view of state legislatures nationwide uncompromisingly definethe claimant’s property, even when they diverge from the principles underpinning statutory law of the state”).",
+      "source": "article_tag",
+      "length": 423
+    },
+    {
+      "text": "^Baker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (quoting Armstrong v. United States, 364 U.S. 40, 49 (1960)).",
+      "source": "article_tag",
+      "length": 123
+    },
+    {
+      "text": "^See, e.g., Motion to Stay Proceedings at 2, Banaszak v. City of Bay City, No. 23-cv-11753 (E.D. Mich. filed Oct. 2, 2024), ECF No. 25 (aggrieved property owner in Michigan conceding that “[g]iven the recentSlaybaughdecision, the path this Court will likely be forced to take is also inevitable — it will dismiss the federal takings claim based onSlaybaugh”).",
+      "source": "article_tag",
+      "length": 359
+    },
+    {
+      "text": "Copyright © 1887-2025 Harvard Law Review. All Rights Reserved.Accessibility",
+      "source": "content_div",
+      "length": 75
+    },
+    {
+      "text": "WordPress vector logokevinleary.net",
+      "source": "content_div",
+      "length": 35
+    }
+  ],
+  "footnotes": [
+    {
+      "text": "^U.S. Const.amend. V.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (quoting Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1028–29 (1992)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 152
+    },
+    {
+      "text": "^Id.(citingLucas, 505 U.S. at 1029–30).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 59
+    },
+    {
+      "text": "^Cf.James L. Huffman,Background Principles and the Rule of Law: Fifteen Years AfterLucas,35 Ecology L.Q.1, 19 (2008) (arguing that “[t]here is nothing innovative or surprising about” the background principles exception).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 240
+    },
+    {
+      "text": "^SeeRobert Meltz,Takings Law Today: A Primer for the Perplexed, 34Ecology L.Q.307, 329 (2007) (characterizing background principles as “a big exception” to an otherwise “categorical takings rule[]”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 219
+    },
+    {
+      "text": "^Seeinfrasection I.A, pp. 2074–77.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 54
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1027.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 45
+    },
+    {
+      "text": "^Meltz,supranote 5, at 353 (“The stakes are high: as a threshold issue, finding that a government restriction merely embodies a background principle ends the taking analysis then and there.”);see alsoDavid A. Dana,“Background Principles” in the Law of Takings, 73Am. U. L. Rev.1789, 1812 (2024) (observing that “state and lower federal cases” provide “very little explanation . . . as to why the court accept[ed] or reject[ed] a . . . source as creating a background limitation”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 500
+    },
+    {
+      "text": "^See, e.g.,Lucas, 505 U.S. at 1030 (citing, inter alia, Bd. of Regents of State Colls. v. Roth, 408 U.S. 564, 577 (1972)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 142
+    },
+    {
+      "text": "^SeeMichael C. Blumm & Lucus Ritchie, Lucas’s Unlikely Legacy: The Rise of Background Principles as Categorical Takings Defenses, 29Harv. Env’t L. Rev.321, 328 (2005) (“The rise of categorical background principles defenses seems to have appealed to lower courts, perhaps because it allows judges to resolve cases without having to employ detailed factual analysis.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 388
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at1808 (“Justice Scalia’s plurality opinion inLucashints at the idea that citizens’ actual or constructive notice of background limitations is what makes them legitimate restrictions on private property rights.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 263
+    },
+    {
+      "text": "^505 U.S. 1003 (1992).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at 1808 (quotingLucas, 505 U.S. at 1027).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 91
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1027 (quoting Pa. Coal Co. v. Mahon, 260 U.S. 393, 413 (1922)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 103
+    },
+    {
+      "text": "^See id.(noting that “the property owner necessarily expects” the state to occasionally impose limitations on “the uses of his property” through the “legitimate exercise of its police powers”);cf.Maureen E. Brady,The Illusory Promise of General Property Law, 132Yale L.J.F.1010, 1048–49 (2023) (criticizing the “unpredictability of a general-law approach” that deems litigants to be “on notice,”id.at 1048, of property interests in “every jurisdiction’s law,”id.at 1049).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 491
+    },
+    {
+      "text": "^See, e.g., Dana,supranote 8, at 1806–07 (“The problem . . . is that the Supreme Court and other courts have done little to clarify what is and is not a valid background limitation.”); Michael C. Blumm & Rachel G. Wolfard,Revisiting Background Principles in Takings Litigation, 71Fla. L. Rev.1165, 1169 (2019) (“What constitutes a valid background principles defense has proved to be a contentious and unsettled question over a quarter-century later.”); Meltz,supranote 5, at 354 (“The Supreme Court has not spoken at length on the meaning of background principles sinceLucas.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 599
+    },
+    {
+      "text": "^See, e.g.,Meltz,supranote 5, at 353 (“Much ink has been spilled over what qualifies as a background principle, beyond the certainty that common law nuisance is included.”); Dana,supranote 8, at 1856 (criticizing “the courts’ — and especially the U.S. Supreme Court’s — failure to explain how they have decided and will decide questions regarding background limitations on title”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 401
+    },
+    {
+      "text": "^See generally, e.g.,Dana,supranote 8 (identifying “three possible rationales for the background principles exception,”id.at 1789).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 151
+    },
+    {
+      "text": "^Seesources citedinfranote 80.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": "^Brady,supranote 15, at 1014 (emphasis omitted).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 68
+    },
+    {
+      "text": "^Id.at 1010;see also id.at 1015 (observing that the Supreme Court has increasingly “relied on something approximating a general law of property in conducting takings analyses”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 197
+    },
+    {
+      "text": "^Seeid.at 1015.SeegenerallyEric R. Claeys,Takings and Choice of Law AfterTyler v. Hennepin County, 20J.L. Econ. & Pol’y(forthcoming 2025), https://ssrn.com/abstract=5084825 [https://perma.cc/4X4H-7H6Q].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 222
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 2).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 59
+    },
+    {
+      "text": "^Seeid.(manuscript at 3) (quoting Tyler v. Hennepin County, 143 S. Ct. 1369, 1375 (2023)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 110
+    },
+    {
+      "text": "^This Note engages with a few recent treatments of the background principles exception and its intersection with general property law.SeeBrady,supranote 15, at 1047–48 (noting that cases involving general–law background principles “illustrate the unpredictability of a general-law approach,”id.at 1048, and “elide the question” of what counts as a background principle,id.at 1047); Timothy M. Mulvaney,Reconceptualizing “Background Principles” in Takings Law, 109Minn. L. Rev.689, 735 (2024) (arguing that the ascendant general law approach to statutory background principles serves to “conceal . . . decidedly moral judgments”); Dana,supranote 8, at 1814–49 (developing three conceptions of background principles).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 735
+    },
+    {
+      "text": "^Tyler, 143 S. Ct. at 1379 (citing Phillips v. Wash. Legal Found., 524 U.S. 156, 167 (1998));see alsoClaeys,supranote 22 (manuscript at 14–15).See generallyid.(concluding that courts “consult the ‘common law’ understood in the broad sense,”id.(manuscript at 34), when they suspect that a state has manipulated property rights such that the “federal right” protected by the Takings Clause has been “convert[ed] . . . into a dead letter,”id.(manuscript at 32)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 479
+    },
+    {
+      "text": "^Slaybaugh v. Rutherford County, 114 F.4th 593 (6th Cir. 2024); Baker v. City of McKinney, 84 F.4th 378 (5th Cir. 2023).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 140
+    },
+    {
+      "text": "^Meltz,supranote 5, at 317 (“[W]hether the plaintiff has alleged a Takings Clause-recognized property interest is the key threshold substantive inquiry in a taking case.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 192
+    },
+    {
+      "text": "^Seeid.at 310. There is also a third inquiry, though it is not relevant for this Note: “[H]ow much compensation should the property owner receive?”Id.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 170
+    },
+    {
+      "text": "^Id.at 328 (recognizing “formal appropriation of property and physical invasion thereof” as the classic takings).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 133
+    },
+    {
+      "text": "^Seeid.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 27
+    },
+    {
+      "text": "^Pa. Coal Co. v. Mahon, 260 U.S. 393, 413 (1922).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 69
+    },
+    {
+      "text": "^Id.at 415.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^See, e.g., John A. Humbach,The Takings Clause and the Separation of Powers: An Essay, 21Pace Env’t L. Rev.3, 8 (2003) (“For most of the twentieth century, however, the takings clause has led very much of a dual existence — constituting a straightforward compensation requirement for cases ofphysicalinvasions of private property while also vaguely promising a possibility of compensation, under ill-defined circumstances, when the government affects property values byregulation.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 503
+    },
+    {
+      "text": "^See, e.g., Mark Fenster,The Stubborn Incoherence of Regulatory Takings, 28Stan. Env’t L.J.525, 528 (2009) (observing that, among other things, “doctrinal indeterminacy ha[s] always driven regulatory takings litigation and theory”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 252
+    },
+    {
+      "text": "^See, e.g., Murr v. Wisconsin, 137 S. Ct. 1933, 1943 (2017) (“A central dynamic of the Court’s regulatory takings jurisprudence, then, is its flexibility.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 177
+    },
+    {
+      "text": "^Meltz,supranote 5, at 328 (observing the Court’s “effort, continuing today, to articulate a coherent body of rules or guidelines for determining which government regulations require compensation under the Takings Clause and which do not”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 260
+    },
+    {
+      "text": "^438 U.S. 104 (1978).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^See id.at 124.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": "^See, e.g., Maureen E. Brady, Essay, Penn CentralSquared:What the Many Factors ofMurr v. WisconsinMean for Property Federalism, 166U. Pa. L. Rev. Online53, 54–55 (2017)(“Penn Centralhas been maligned by property scholars and the Court alike; it has been called a source of ‘confusion,’ the cause of ‘protracted litigation and arbitrary outcomes,’ and even ‘disastrous.’” (footnotes omitted) (quoting Jed Rubenfeld,Usings, 102Yale L.J. 1077, 1089 (1993); Steven J. Eagle,The Four-FactorPenn CentralRegulatory Takings Test, 118Penn St. L. Rev.601, 605 (2014); Richard A. Epstein,Bundle-of-Rights Theory as a Bulwark Against Statist Conceptions of Private Property, 8Econ J. Watch223, 226 (2011))).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 715
+    },
+    {
+      "text": "^Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1015 (1992) (alterations in original) (quotingPenn Central, 438 U.S. at 124).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 144
+    },
+    {
+      "text": "^Seeid.(identifying “two discrete categories of regulatory action as compensable without case-specific inquiry into the public interest advanced in support of the restraint”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 195
+    },
+    {
+      "text": "^Id.(citing, inter alia, Agins v. City of Tiburon, 447 U.S. 255, 260 (1980)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 97
+    },
+    {
+      "text": "^Id.at 1006–07 (citingS.C. Code Ann.§ 48-39-280 (Supp. 1990)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 82
+    },
+    {
+      "text": "^Seeid.at 1030.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": "^Id.at 1031–32.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 35
+    },
+    {
+      "text": "^Id.at 1015;see alsoLoretto v. Teleprompter Manhattan CATV Corp., 458 U.S. 419, 438–39 (1982); Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2074 (2021).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 175
+    },
+    {
+      "text": "^458 U.S. 419 (1982).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Seeid.at 438 (recognizing regulatory requirement to install cables on building as a taking).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 113
+    },
+    {
+      "text": "^Id.at 434–35 (focusing on the “constitutional distinction between apermanentoccupation and atemporaryphysical invasion,”id.at 434 (emphasis added)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 169
+    },
+    {
+      "text": "^141 S. Ct. 2063 (2021).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 44
+    },
+    {
+      "text": "^Bethany R. Berger,Eliding Original Understanding inCedar Point Nursery v. Hassid, 33Yale J.L. & Humans.307, 309 (2022);seeCedar Point, 141 S. Ct. at 2074.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 175
+    },
+    {
+      "text": "^Cf.Aziz Z. Huq,Property Against Legality: Takings AfterCedar Point, 109Va. L. Rev.233, 276 (2023) (arguing thatCedar Point’s treatment of a regulation as an appropriation could result in “the category of appropriation . . . expand[ing] — to the point of collapsing the category of regulatory takings”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 323
+    },
+    {
+      "text": "^Seeid.at 275–76 (arguing that “Cedar Pointtransforms ‘appropriation’ into a standard with no clear or predictable class of applications[,] . . . without mooring in shared lay or legal expectations” and that, as a result, “[p]otential litigants can no longer safely predict” outcomes).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 305
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2087–88 (Breyer, J., dissenting);id.at 2078 (majority opinion) (recognizing dissent’s “warn[ing] that treating the access regulation as aper sephysical taking will endanger a host of state and federal government activities”);see also, e.g., Rebecca Hansen & Lior Jacob Strahilevitz,Toward Principled Background Principles in Takings Law, 10Tex. A&M L. Rev.427, 430 (2023) (recognizing widespread fear that “Cedar Pointjeopardized various antidiscrimination laws, antiretaliation provisions, regimes governing union access to employer email systems, rent control ordinances, environmental protection laws, [and] consumer protection laws,” inter alia).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 701
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2078–79.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 59
+    },
+    {
+      "text": "^See id. at 2079 (quoting Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1028–29 (1992));Mary CatherineJenkins & Juliette Turner-Jones, Note,Original Understanding of “Background Principles” inCedar Point Nursery v. Hassid, 47Harv. J.L. & Pub. Pol’y507, 509 (2024) (characterizing the background principles exception as “particularly expansive” and positing that “governments can rest assured that Chief Justice Roberts’s ‘background principles’ exception will mitigate the broadness of the per se rule”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 524
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2079.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 53
+    },
+    {
+      "text": "^See, e.g., Stewart E. Sterk,The Demise of Federal Takings Litigation, 48Wm. & Mary L. Rev.251, 288 (2006) (“[I]f background state law did not recognize or create property in the first instance, then a subsequent state action cannot take property.”); Stewart E. Sterk,The Federalist Dimension of Regulatory Takings Jurisprudence, 114Yale L.J.203, 248 (2004) [hereinafter Sterk,The Federalist Dimension] (observing that “theLucasrule is not dependent on state law, although it does build in a potential defense based on state law” — that is, the background principles exception); Bush v. Gore, 531 U.S. 98, 115 n.1 (2000) (Rehnquist, C.J., concurring)(“[O]ur jurisprudence requires us to analyze the ‘background principles’ of state property law to determine whether there has been a taking of property . . . .”); Lee Anne Fennell,Escape Room: Implicit Takings AfterCedar Point Nursery, 17Duke J. Const. L. & Pub. Pol’y1, 25 (2022) (observing that “background principles are generally a matter of state property law”); Blumm & Wolfard,supranote 16, at 1297 (“Because the issue will usually be a question of state law, there will be no uniformity of background principles jurisprudence among the jurisdictions, with the possible exception of federal takings claims in the [Court of Federal Claims] and Federal Circuit.”); Palazzolo v. Rhode Island, 533 U.S. 606, 630 (2001) (rooting background principles in “common, shared understandings of permissible limitations derived from a State’s legal tradition” (citingLucas, 505 U.S. at 1029–30)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1560
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1029 (emphasis added). There are somefederalbackground principles, but these are only applied in takings claims against thefederalgovernment.See, e.g., Sterk,The Federalist Dimension,supranote 59, at 244 n.182 (noting the existence of the “navigation servitude” background principle, which “applies to federal actions, not to actions by the states”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 390
+    },
+    {
+      "text": "^Lucas, 505 U.S. at 1035 (Kennedy, J., concurring).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 71
+    },
+    {
+      "text": "^533 U.S. 606 (2001).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Seeid.at 629–30.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 37
+    },
+    {
+      "text": "^Id.at 630 (citingLucas, 505 U.S. at 1029–30).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 66
+    },
+    {
+      "text": "^Id.at 637 (Scalia, J., concurring) (quotingLucas, 505 U.S. at 1029);seeBrady,supranote 15, at 1046–47.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 123
+    },
+    {
+      "text": "^137 S. Ct. 1933 (2017).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 44
+    },
+    {
+      "text": "^Dana,supranote 8, at 1809 (quotingMurr, 137 S. Ct. at 1945).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 81
+    },
+    {
+      "text": "^Murr, 137 S. Ct. at 1950 (Roberts, C.J., dissenting).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 74
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1046 (“[T]heCedar Pointmajority also used general law to construct the limits of its new doctrine.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 148
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (emphasis added).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 98
+    },
+    {
+      "text": "^Id.(citingRestatement (Second) of Torts§§ 196, 197, 204–05 (Am. L. Inst.1965)); Brady,supranote 15, at 1016 (recounting view that Restatements are “evidence of the general law”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 199
+    },
+    {
+      "text": "^CompareLucas v. S.C. Coastal Council, 505 U.S. 1003, 1029 (1992) (rooting “background principles” in “the State’s law of property and nuisance”),withCedar Point, 141 S. Ct. at 2079 (“[T]he government does not take a property interest when it merely asserts a ‘pre-existing limitation upon the land owner’s title.’” (quotingLucas, 505 U.S. at 1028–29)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 373
+    },
+    {
+      "text": "^See, e.g., Phillips v. Wash. Legal Found., 524 U.S. 156, 164 (1998) (quoting Bd. of Regents of State Coll. v. Roth, 408 U.S. 564, 577 (1972));Lucas, 505 U.S. at 1029.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 187
+    },
+    {
+      "text": "^SeePhillips, 524 U.S. at 164(quotingRoth, 408 U.S. at 577).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 80
+    },
+    {
+      "text": "^408 U.S. 564 (1972).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Id.at 577.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^260 U.S. 393 (1922).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 41
+    },
+    {
+      "text": "^Sterk,The Federalist Dimension,supranote 59, at 213–14; Huq,supranote 53, at 248–49.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 105
+    },
+    {
+      "text": "^Sterk,The Federalist Dimension,supranote 59, at 213–14.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 76
+    },
+    {
+      "text": "^See, e.g., PruneYard Shopping Ctr. v. Robins, 447 U.S. 74, 84 (1980) (recognizing that the “United States, as opposed to the several States,” does not “possess[] . . . residual authority that enables it to define ‘property’ in the first instance”);see alsoSterk,The Federalist Dimension,supranote 59, at 218 (“[T]akings doctrine is dependent on the content of background state law . . . .”); Meltz,supranote 5, at 317–18 (quoting Webb’s Fabulous Pharmacies, Inc. v. Beckwith, 449 U.S. 155, 161 (1980)); Abigail K. Flanigan, Note,Rent Regulations AfterCedar Point, 123Colum. L. Rev.475, 478 (2023) (“Property interests are generally created and defined by state law . . . .”); Fennell,supranote 59, at 25; Maureen E. Brady,Property Convergence in Takings Law, 46Pepp. L. Rev.695, 705 (2019) (“The Supreme Court has enabled interstate variation in the application of the federal Takings Clause by emphasizing the role of nonconstitutional state property law in defining both what counts as constitutional property and in measuring whether a taking has occurred.”); Huq,supranote 53, at 254 (“All agree that state law typically creates property interests.”); Murr v. Wisconsin, 137 S. Ct. 1933, 1954 (2017) (Roberts, C.J., dissenting) (explaining that the Court “ha[s] never” identified private property “by relying on anything other than state property principles”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1385
+    },
+    {
+      "text": "^Brady,supranote 15, at 1015.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": "^Id.at 1043.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^Id.at 1010.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^SeeMurr, 137 S. Ct. at 1947.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": "^Id.at 1940.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^Id.at 1941.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^Id.(quoting Murr v. St. Croix Cnty. Bd. of Adjustment, 796 N.W.2d 837, 844 (Wis. Ct. App. 2011)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 118
+    },
+    {
+      "text": "^Id.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 24
+    },
+    {
+      "text": "^Id.at 1948.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 21).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 60
+    },
+    {
+      "text": "^Murr, 137 S. Ct. at 1948–49 (applying three-part standard).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 80
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1045.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 52
+    },
+    {
+      "text": "^SeeBrady,supranote 15, at 1047.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 52
+    },
+    {
+      "text": "^Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2077 (2021). “The right to exclude, simply defined, is the right of a person to exclude others from the use or occupancy of a particular thing.” Jace C. Gatewood,The Evolution of the Right to Exclude, 32Miss. Coll. L. Rev.447, 448 n.3 (2014).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 311
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2077.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 53
+    },
+    {
+      "text": "^Id.at 2072 (quoting Kaiser Aetna v. United States, 444 U.S. 164, 179–80 (1979)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 101
+    },
+    {
+      "text": "^Id.at 2072–73 (citing, inter alia, Thomas W. Merrill,Property and the Right to Exclude, 77Neb. L. Rev.730, 730 (1998) [hereinafter Merrill,Right to Exclude I]);see alsoMerrill,Right to Exclude I,supra, at 730 (“[T]he right to exclude others is more than just ‘one of the most essential’ constituents of property — it is thesine qua non.” (quotingKaiser Aetna, 444 U.S. at 176)).But cf.Thomas W. Merrill,Property and the Right to Exclude II, 3Brigham-Kanner Prop. Rts. Conf. J.1, 1 (2014) (clarifying that “the right to exclude [is not] the end or the ultimate value to which the institution of property aspires”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 634
+    },
+    {
+      "text": "^SeeCedar Point, 141 S. Ct. at 2072–73 (citing, inter alia, Loretto v. Teleprompter Manhattan CATV Corp., 458 U.S. 419, 435 (1982); 2William Blackstone, Commentaries*2; Merrill,Right to Exclude I,supranote 99, at 730).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 238
+    },
+    {
+      "text": "^Brady,supranote 15, at 1047.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": "^Cedar Point, 141 S. Ct. at 2076 (citing Phillips v. Wash. Legal Found., 524 U.S. 156, 164 (1998); Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1030 (1992)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 178
+    },
+    {
+      "text": "^143 S. Ct. 1369 (2023).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 44
+    },
+    {
+      "text": "^Id.at 1373.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^SeeAct of Apr. 29, 1935, ch. 286, 1935 Minn. Laws 710, 712–13 (codified as amended atMinn. Stat.§ 282.08).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 127
+    },
+    {
+      "text": "^SeeTyler, 143 S. Ct. at 1373–74;id.at 1380 (citingMinn. Stat.§ 282.08 (2024)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 99
+    },
+    {
+      "text": "^Id.at 1374.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 32
+    },
+    {
+      "text": "^Seeid.at 1376–78. TheTylerCourt did briefly note that Minnesota law supported the Court’s conclusion.See id.at 1379. But in doing so, the Court mostly weighed Minnesota history prior to 1935, when Minnesota first began retaining surplus equity.Id.It then wrote off the surplus equity rule, which had been on the books for nearly ninety years,seeAct of Apr. 29, 1935, ch. 286, 1935 Minn. Laws 710, 712–13, as merely the State’s attempt to “extinguish a property interest . . . to avoid paying just compensation when it is the one doing the taking.”Tyler, 143 S. Ct. at 1379(citing Phillips v. Wash. Legal Found., 524 U.S. 156, 167 (1998)). This dismissal of a longstanding legislative compromise, however, ignored the Act’s true origins, which were perhaps less sinister than the Court let on.SeeTory L. Lucas,ReassessingTyler v. Hennepin County: A Critical Examination of the Supreme Court’s Federalist Overreach in Discovering a Constitutionally Protected Property Right in a Takings Case Involving a Sovereign State’s Real Property Tax-Foreclosure Sale, 18Liberty U. L. Rev.473, 515–17 (2024).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1116
+    },
+    {
+      "text": "^Tyler, 143 S. Ct. at 1378.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 47
+    },
+    {
+      "text": "^SeeLucas,supranote 110, at 493–94 (quoting and citing Tyler v. Hennepin County, 26 F.4th 789, 793–94 (8th Cir. 2022)) (quoting Nelson v. City of New York, 352 U.S. 103, 110 (1956)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 202
+    },
+    {
+      "text": "^Thomas W. Merrill,The Landscape of Constitutional Property, 86Va. L. Rev.885, 935 (2000);seeMurr v. Wisconsin, 137 S. Ct. 1933, 1944–45 (2017) (quoting Palazzolo v. Rhode Island, 533 U.S. 606, 626 (2001)); Cedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2076 (2021); Webb’s Fabulous Pharmacies, Inc. v. Beckwith, 449 U.S. 155, 164 (1980) (“[A] State, byipse dixit, may not transform private property into public property without compensation, even for the limited duration of the deposit in court.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 521
+    },
+    {
+      "text": "^Brady,supranote 40, at 59–60.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": "^Claeys,supranote 22 (manuscript at 25).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 60
+    },
+    {
+      "text": "^Id.(manuscript at 2).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 42
+    },
+    {
+      "text": "^Id.(manuscript at 33).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 43
+    },
+    {
+      "text": "^See, e.g.,id.(manuscript at 2) (callingTyler’s property-protective use of general law “normatively” desirable); Cindy Crawford & Michael Pepson,Supreme Court Protects Private Property Rights Against Uncompensated Trespasses inCedar Point Nursery v. Hassid,Ams. for Prosperity(June 25, 2021),https://americansforprosperity.org/blog/cedar-point-nursery-v-hassid-takings-clause[https://perma.cc/VML2-SM5W] (celebratingCedar Pointfor “cabining the effects of messy precedent that has wrongly expanded the power of the state to transfer property rights from one private party to another”); Deborah La Fetra,Here’s How Big theTylerVictory Is,Pac. Legal Found.(June 6, 2023),https://pacificlegal.org/heres-how-big-the-tyler-victory-is[https://perma.cc/C3DC-R75J] (compiling positive responses toTyler, such as the account that the case was “a simultaneous victory for odd bedfellows — both economically disadvantaged homeowners as well as libertarian-oriented property rights advocates” (quoting David Wilkes,Supreme Court Forfeiture Ruling Spells Victory for Homeowners,Bloomberg L.(May 26, 2023, 4:45 AM), https://news.bloombergtax.com/tax-insights-and-commentary/supreme-court-forfeiture-ruling-spells-victory-for-homeowners [https://perma.cc/LCC7-FZRP])).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 1273
+    },
+    {
+      "text": "^See, e.g.,CATO Inst., CATO Handbook on Policy226 (6th ed. 2005) (identifying the “modern problem” that “[c]ourts have been reluctant to award compensation in [regulatory takings] cases . . . due in part to an unwarranted deference to the regulatory state”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 278
+    },
+    {
+      "text": "^447 U.S. 74 (1980).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 40
+    },
+    {
+      "text": "^See id.at 83.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": "^Ilya Somin,Unusual Cross-Ideological Agreement inTyler v. Hennepin County,Reason: Volokh Conspiracy(Apr. 26, 2023, 2:12 PM), https://reason.com/volokh/2023/04/26/unusual-cross-ideological-agreement-in-tyler-v-hennepin-county [https://perma.cc/6G9C-9NDX].Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 275
+    },
+    {
+      "text": "^SeeBaker v. City of McKinney, 145 S. Ct. 11, 13 (2024) (Sotomayor, J., respecting the denial of certiorari).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 129
+    },
+    {
+      "text": "^Seeinfrasections III.A and III.B, pp. 2084–89.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 67
+    },
+    {
+      "text": "^84 F.4th 378 (5th Cir. 2023).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 50
+    },
+    {
+      "text": "^Id.at 379.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 388.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 385 (alteration in original) (quoting Tyler v. Hennepin County, 143 S. Ct. 1369, 1376 (2023)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 121
+    },
+    {
+      "text": "^Id.at 383 (citingTyler, 143 S. Ct. at 1375–79; Horne v. Dep’t of Agric., 576 U.S. 350, 357–61 (2015); Murr v. Wisconsin, 137 S. Ct. 1933, 1957 (2017) (Thomas, J., dissenting)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 197
+    },
+    {
+      "text": "^Id.(alteration in original) (quotingTyler, 143 S. Ct. at 1376).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 84
+    },
+    {
+      "text": "^Seeid.at 385–88 (discussing, inter alia, Respublica v. Sparhawk, 1 Dall. 357, 362 (Pa. 1788); Field v. City of Des Moines, 39 Iowa 575, 577–78 (1874); McDonald v. City of Red Wing, 13 Minn. 38, 40 (1868); Mayor of N.Y. v. Lord, 18 Wend. 126, 132–33 (N.Y. 1837); Bowditch v. City of Boston, 101 U.S. 16, 18–19 (1879)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 338
+    },
+    {
+      "text": "^603 S.W.2d 786 (Tex. 1980).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 48
+    },
+    {
+      "text": "^Baker, 84 F.4th at 388 (quotingSteele, 603 S.W.2d at 792).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 79
+    },
+    {
+      "text": "^Steele, 603 S.W.2d at 791.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 47
+    },
+    {
+      "text": "^Steelecited only one example of the statute’s application:Keller v. City of Corpus Christi, 50 Tex. 614 (1879), in which a home was destroyed to prevent the spread of a fire.Id.at 618.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 205
+    },
+    {
+      "text": "^SeeSteele, 603 S.W.2d at 791 (citingKeller, 50 Tex. at 626).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 81
+    },
+    {
+      "text": "^Id.at 792.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Compare id.(noting that “destruction of property has been . . . justified by reason of war, riot, pestilence, or other great public calamity”),withBaker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (deeming property destruction necessary “to prevent imminent harm to persons”).See generallyRecent Case, Baker v. City of McKinney,84 F.4th 378 (5th Cir. 2023), 137Harv. L. Rev.2408 (2024) (arguing the court did not show that the emergency fit into any of theSteelecategories).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 506
+    },
+    {
+      "text": "^Steele, 603 S.W.2d at 793.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 47
+    },
+    {
+      "text": "^Villarreal v. Harris County, 226 S.W.3d 537, 543 n.3 (Tex. App. 2006) (citingSteele, 603 S.W.2d at 793).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 125
+    },
+    {
+      "text": "^Prestonwood Ests. W. Homeowners Ass’n v. City of Arlington, No. 02-21-00362-CV, 2022 WL 3097374, at *6 n.8 (Tex. App. Aug. 4, 2022);see alsoCarlson v. City of Houston, 401 S.W.3d 725, 733 (Tex. App. 2013) (recognizing that, under the Texas Constitution’s Takings Clause, “when the City takes action ‘because of real or supposed public emergency,’ the action is ‘for the public use’” (quoting City of Houston v. Crabb, 905 S.W.2d 669, 674 (Tex. App. 1995)) (citing Patel v. City of Everman, 179 S.W.3d 1, 8 (Tex. App. 2004))).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 546
+    },
+    {
+      "text": "^SeeBaker, 84 F.4th at 388 (quotingSteele, 603 S.W.2d at 792). It might be contended thatSteelehas no bearing onBakerbecause the former interpreted the Texas Constitution. But even thoughSteeledid not involve the federal Takings Clause, the decision may still shed light on Texas common law, and thus could be useful for constructing state-specific background principles.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 391
+    },
+    {
+      "text": "^CompareSteele, 603 S.W.2d at 793 (remanding for trial as to the necessity defense),withBaker, 84 F.4th at 379 (deciding the case based on stipulation as to necessity, notwithstanding the fact that the district court proceedings did not concern the necessity exception).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 290
+    },
+    {
+      "text": "^See, e.g., Wegner v. Milwaukee Mut. Ins. Co., 479 N.W.2d 38, 39, 41–42 (Minn. 1991) (repudiating the necessity exception, citing “principles of [Minnesota’s] system of justice,”id.at 42, and granting compensation for destruction of home to apprehend fugitive); Bishop v. Mayor of Macron, 7 Ga. 200, 202 (1849) (explaining that property destruction in the name of necessity is legal but nevertheless requires “just compensation from the public for the loss”); Dayton v. City of Asheville, 115 S.E. 827, 829 (N.C. 1923) (recognizing that “[p]ublic necessity may justify the taking, but cannot justify the taking without compensation” (quoting Platt v. City of Waterbury, 45 A. 154, 162 (Conn. 1900))).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 720
+    },
+    {
+      "text": "^SeeBrian Angelo Lee,Emergency Takings, 114Mich L. Rev.391, 391, 393 (2015).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 96
+    },
+    {
+      "text": "^Brady,supranote 40, at 61.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 47
+    },
+    {
+      "text": "^114 F.4th 593 (6th Cir. 2024).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 51
+    },
+    {
+      "text": "^Id.at 595.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^Id.at 595–96.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": "^Id.at 598.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 31
+    },
+    {
+      "text": "^SeeCedar Point Nursery v. Hassid, 141 S. Ct. 2063, 2079 (2021) (citing, inter alia, Camara v. Mun. Ct., 387 U.S. 523, 538 (1967)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 151
+    },
+    {
+      "text": "^Slaybaugh, 114 F.4th at 598.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 49
+    },
+    {
+      "text": "^Seeid.at 603.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 34
+    },
+    {
+      "text": "^Id.at 598–99 (citingRestatement (Second) of Torts§§ 204 & cmt. b, 206, 213 (Am. L. Inst.1965)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 116
+    },
+    {
+      "text": "^Id.at 600 (citing, inter alia, Semayne’s Case (1604) 77 Eng. Rep. 194, 195, 197 n.G; 5 Co. Rep. 91 a, 91 b, 92 b).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 135
+    },
+    {
+      "text": "^Id.(citing, inter alia, Kelsy v. Wright, 1 Root 83, 84 (Conn. Super. Ct. 1783)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 101
+    },
+    {
+      "text": "^Id.at 601 (citing, inter alia, Brutsche v. City of Kent, 193 P.3d 110, 118 (Wash. 2008)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 110
+    },
+    {
+      "text": "^Lucas v. S.C. Coastal Council, 505 U.S. 1003, 1029 (1992).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 79
+    },
+    {
+      "text": "^Cf.Petition for a Writ of Certiorari at 6,Slaybaugh, 114 F.4th 593 (No. 24-755) (arguing that “Cedar Point— a case about the right to exclude — cannot reasonably be read to apply to government-authorized property destruction”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 248
+    },
+    {
+      "text": "^SeeSlaybaugh, 114 F.4th at 602 (discussingBakerto reach the conclusion that the court “may consider tort-law privileges”);id.at 603 (citingBakerfavorably regarding plaintiffs’ burden).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 205
+    },
+    {
+      "text": "^Seesources citedsupranote 118.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 51
+    },
+    {
+      "text": "^It might be suggested that neitherBakernorSlaybaughinvolved background principles. On this view, the disputes in both cases would concern whether the government had to pay for taking the plaintiffs’ property, rather than whether the plaintiffs had a property interest in the first place. This view, however, ignores that both cases relied onLucas’s background principles logic.SeeBaker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (quotingLucas, 505 U.S. at 1029 n.16);Slaybaugh, 114 F.4th at 598 (quotingLucas, 505 U.S. at 1030).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 561
+    },
+    {
+      "text": "^See generally, e.g., Laurence H. Tribe & Michael C. Dorf,Levels of Generality in the Definition of Rights, 57U. Chi. L. Rev.1057 (1990).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 157
+    },
+    {
+      "text": "^See generallyRecent Case,supranote 142 (demonstrating the contestable meanings of “necessity,”id.at 2415, and “emergency,”id.at 2413, that theBakercourt “elided,”id.at 2415).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 195
+    },
+    {
+      "text": "^SeeRobin Kundis Craig,Public Trust and Public Necessity Defenses to Takings Liability for Sea Level Rise Responses on the Gulf Coast, 26J. Land Use & Env’t L.395, 420–21 (2011) (recognizing that “[s]tates vary in how they conceive of ‘emergency’ and ‘imminence,’”id.at 420, and acknowledging differences in “how each state views the ‘actual necessity’ requirement,”id.at 421).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 397
+    },
+    {
+      "text": "^Cf.Shyamkrishna Balganesh,Relying on Restatements, 122Colum. L. Rev.2119, 2156 (2022) (“Distilling a common law decision into a rule is therefore no easy task, and instead one that compromises on much of the nuance underlying expository judicial reasoning.”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 280
+    },
+    {
+      "text": "^SeeLucas,supranote 110, at 495–97 (comparing the Supreme Court’s brief examination of Tyler’s rights under Minnesota law with the Eighth Circuit’s more intensive look).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 189
+    },
+    {
+      "text": "^Cf.Dana,supranote 8, at 1812 (observing that “there is very little explanation in the state and lower federal cases as to why the court accepts or rejects a common law principle, statute, or other source as creating a background limitation that precludes the payment of compensation that otherwise would be due”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 334
+    },
+    {
+      "text": "^SeeSlaybaugh v. Rutherford County, 114 F.4th 593, 604 (6th Cir. 2024) (concluding in one paragraph that the search-and-arrest privilege applies); Baker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (similar);see alsoRecent Case,supranote 142, at 2412, 2414, 2415 (arguing that theBakercourt overlooked “factual dissimilarities betweenBakerand precedents,” raising the possibility that “the court may have ultimately denied Baker compensation she was due,”id.at 2412).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 497
+    },
+    {
+      "text": "^Baker v. City of McKinney, 93 F.4th 251, 253 (5th Cir. 2024) (Elrod & Oldham, JJ., dissenting from denial of rehearing en banc) (quoting N.Y. State Rifle & Pistol Ass’n v. Bruen, 142 S. Ct. 2111, 2156 (2022)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 230
+    },
+    {
+      "text": "^SeeBruen, 142 S. Ct. at 2130 (discussing the government’s burden where state action implicates speech, religious liberty, or confrontation rights);id.at 2129–30 (articulating the government’s burden to justify regulating conduct the Second Amendment “presumptively protects,”id.at 2130).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 308
+    },
+    {
+      "text": "^Baker, 84 F.4th at 385;Slaybaugh, 114 F.4th at 603 (quotingBaker, 84 F.4th at 385);seeBaker, 93 F.4th at 253 (Elrod & Oldham, JJ., dissenting from denial of rehearing en banc).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 197
+    },
+    {
+      "text": "^Cf.Murr v. Wisconsin, 137 S. Ct. 1933, 1943 (2017) (suggesting that “regulatory takings jurisprudence” has remained ad hoc to preserve “its flexibility”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 175
+    },
+    {
+      "text": "^SeeMulvaney,supranote 25, at 735 (arguing that the Court’s general law approach to statutory background principles serves to “conceal . . . decidedly moral judgments”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 189
+    },
+    {
+      "text": "^Cf., e.g., Berger,supranote 52, at 315 (concluding that “[t]he understanding of property at the time of the founding . . . wholly contradictsCedar Point’s new per se rule”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 194
+    },
+    {
+      "text": "^Dana,supranote 8, at1808.Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 46
+    },
+    {
+      "text": "^Seeid.at 1792 (positing “originalism[,] cultural consensus[,] and fair notice” as rationales for background limitations).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 142
+    },
+    {
+      "text": "^SeeMulvaney,supranote 25, at 710–11 (observing that courts conducting general law background principle analyses “are not at all limited to examining statutory laws that are jurisdictionally circumscribed” and that “principles ‘rooted’ in the majority view of state legislatures nationwide uncompromisingly definethe claimant’s property, even when they diverge from the principles underpinning statutory law of the state”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 443
+    },
+    {
+      "text": "^Baker v. City of McKinney, 84 F.4th 378, 388 (5th Cir. 2023) (quoting Armstrong v. United States, 364 U.S. 40, 49 (1960)).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 143
+    },
+    {
+      "text": "^See, e.g., Motion to Stay Proceedings at 2, Banaszak v. City of Bay City, No. 23-cv-11753 (E.D. Mich. filed Oct. 2, 2024), ECF No. 25 (aggrieved property owner in Michigan conceding that “[g]iven the recentSlaybaughdecision, the path this Court will likely be forced to take is also inevitable — it will dismiss the federal takings claim based onSlaybaugh”).Return to citation ^",
+      "source": "footnote_list_item",
+      "length": 379
+    }
+  ],
+  "headers": [
+    {
+      "text": "“Background Principles” and the General Law of Property",
+      "source": "h1",
+      "length": 55
+    },
+    {
+      "text": "I. Development of Background Principles Doctrine",
+      "source": "h2",
+      "length": 48
+    },
+    {
+      "text": "II. From State-Specific to Jurisdictionless “Property”",
+      "source": "h2",
+      "length": 54
+    },
+    {
+      "text": "III. Dangers of General Law Background Principles",
+      "source": "h2",
+      "length": 49
+    },
+    {
+      "text": "Conclusion",
+      "source": "h2",
+      "length": 10
+    },
+    {
+      "text": "More from this Issue",
+      "source": "h2",
+      "length": 20
+    },
+    {
+      "text": "A. The Basic Structure of Takings Law",
+      "source": "h3",
+      "length": 37
+    },
+    {
+      "text": "B. Background Principles from Lucas to Cedar Point",
+      "source": "h3",
+      "length": 50
+    },
+    {
+      "text": "A. Baker v. City of McKinney — The “Necessity Exception”",
+      "source": "h3",
+      "length": 56
+    },
+    {
+      "text": "B. Slaybaugh v. Rutherford County — “Search-and-Arrest” Privilege",
+      "source": "h3",
+      "length": 65
+    },
+    {
+      "text": "C. Structural Considerations",
+      "source": "h3",
+      "length": 28
+    },
+    {
+      "text": "Appendix for CodifyGardner",
+      "source": "h3",
+      "length": 26
+    },
+    {
+      "text": "CodifyGardner",
+      "source": "h3",
+      "length": 13
+    },
+    {
+      "text": "Making Equal Protection Protect",
+      "source": "h3",
+      "length": 31
+    },
+    {
+      "text": "Archives",
+      "source": "h3",
+      "length": 8
+    },
+    {
+      "text": "Fellowship",
+      "source": "h3",
+      "length": 10
+    },
+    {
+      "text": "About",
+      "source": "h3",
+      "length": 5
+    }
+  ],
+  "other_elements": [],
+  "metadata": {
+    "total_body_paragraphs": 199,
+    "total_footnotes": 176,
+    "total_headers": 17,
+    "total_other": 0
+  }
+}
