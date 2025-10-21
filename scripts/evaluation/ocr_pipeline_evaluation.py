@@ -137,12 +137,10 @@ class OCRPipelineEvaluator:
         logger.info(f"Creating image-only PDF from: {pdf_path.name}")
 
         # Convert PDF to images (rasterize at 300 DPI for quality)
-        # Process first 10 pages only for evaluation
+        # Process ALL pages for complete extraction
         images = pdf2image.convert_from_path(
             str(pdf_path),
             dpi=300,
-            first_page=1,
-            last_page=10,
             fmt="png",  # PNG for lossless quality
         )
 
