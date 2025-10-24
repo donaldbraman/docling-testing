@@ -22,7 +22,9 @@ RUN pip install --no-cache-dir \
     pillow==11.0.0 \
     pandas==2.3.3 \
     pymupdf==1.26.5 \
-    rapidfuzz==3.14.1
+    rapidfuzz==3.14.1 \
+    transformers==4.46.3 \
+    torch==2.6.0
 
 # Pre-download EasyOCR English models to save time on first run
 # This downloads craft_mlt_25k.pth (83MB) and english_g2.pth (15MB)
