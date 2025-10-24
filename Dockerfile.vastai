@@ -23,8 +23,10 @@ RUN pip install --no-cache-dir \
     pandas==2.3.3 \
     pymupdf==1.26.5 \
     rapidfuzz==3.14.1 \
-    transformers==4.46.3 \
     torch==2.6.0
+
+# Install transformers from GitHub main for ModernBERT support (requires 4.48.0+)
+RUN pip install --no-cache-dir git+https://github.com/huggingface/transformers.git
 
 # Pre-download EasyOCR English models to save time on first run
 # This downloads craft_mlt_25k.pth (83MB) and english_g2.pth (15MB)
