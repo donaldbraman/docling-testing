@@ -4,8 +4,8 @@
 
 FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
 
-LABEL maintainer="docling-testing"
-LABEL description="EasyOCR + ModernBERT training environment for vast.ai"
+LABEL maintainer="body-extractor"
+LABEL description="EasyOCR environment for body text extraction on vast.ai"
 
 # Install system dependencies
 RUN apt-get update && \
