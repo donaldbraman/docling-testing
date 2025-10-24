@@ -33,8 +33,8 @@ sleep 15
 
 # Get SSH connection info
 SSH_INFO=$(vastai show instances | grep $INSTANCE_ID)
-SSH_PORT=$(echo "$SSH_INFO" | awk '{print $9}')
-SSH_HOST=$(echo "$SSH_INFO" | awk '{print $8}')
+SSH_HOST=$(echo "$SSH_INFO" | awk '{print $10}')
+SSH_PORT=$(echo "$SSH_INFO" | awk '{print $11}')
 
 echo "✅ Instance ready: $SSH_HOST:$SSH_PORT"
 echo ""
