@@ -47,12 +47,15 @@ results/tesseract_corpus_pipeline/
 results/text_block_extraction/
 results/text_block_visualization/
 results/threshold_test/
+results_single_test/
+results_classified/
 *.log
 
 # Archives and experiments
 archive_*/
 docs_archive*/
 experiments/
+SESSION_PROGRESS.md
 
 # Jupyter
 .ipynb_checkpoints/
