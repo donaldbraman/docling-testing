@@ -3,7 +3,7 @@
 set -e
 
 # Configuration
-INSTANCE_ID="27233335"  # Will be updated after creating new instance
+INSTANCE_ID="27236282"  # RTX 3080 instance in China
 SSH_KEY="$HOME/.ssh/id_ed25519"
 
 # Paths
@@ -28,8 +28,8 @@ fi
 # Restart instance
 echo "🔄 Starting vast.ai instance..."
 vastai start instance $INSTANCE_ID
-echo "Waiting for instance to be ready..."
-sleep 15
+echo "Waiting for instance to be ready (Docker image loading may take 2-3 min)..."
+sleep 120  # Increased wait time for Docker image pull
 
 # Get SSH connection info
 SSH_INFO=$(vastai show instances | grep $INSTANCE_ID)
