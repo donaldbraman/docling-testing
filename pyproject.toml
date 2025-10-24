@@ -1,5 +1,5 @@
 [project]
-name = "docling-testing"
+name = "body-extractor"
 version = "3.0.0"
 description = "ML model training repository for document structure classification"
 requires-python = ">=3.13"

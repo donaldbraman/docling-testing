@@ -1,4 +1,4 @@
-# Claude Code Instructions for docling-testing
+# Claude Code Instructions for body-extractor
 
 **Project Purpose:** ML model training repository for document structure classification
 
