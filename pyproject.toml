@@ -17,7 +17,19 @@ dependencies = [
     "feedparser>=6.0.12",
     "lxml>=5.4.0",
     "rapidfuzz>=3.14.1",
+    "tesserocr>=2.9.1",
+    "tiktoken>=0.12.0",
+    "pytesseract>=0.3.13",
+    "pdf2image>=1.17.0",
+    "pymupdf4llm>=0.0.27",
+    "easyocr>=1.7.2",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 # Ruff configuration for code quality
 [tool.ruff]

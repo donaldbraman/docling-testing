@@ -98,14 +98,37 @@ def run_docling_ocr(image_pdf: Path, output_dir: Path) -> Path:
         elapsed = time.time() - start
         logger.info(f"  ✓ Docling OCR completed in {elapsed:.1f}s")
 
-        # Save extraction
+        # Save extraction (use markdown export to get ALL text including ToC)
+        # Collect ALL items: text blocks + tables
+        markdown_text = doc.document.export_to_markdown()
+
+        # Collect all text blocks
+        all_text_blocks = []
+
+        # Add text items
+        if doc.document.texts:
+            all_text_blocks.extend([item.text for item in doc.document.texts])
+
+        # Add table content (export as markdown to preserve structure)
+        if doc.document.tables:
+            for table in doc.document.tables:
+                table_md = table.export_to_markdown(doc.document)
+                if table_md:
+                    all_text_blocks.append(table_md)
+
         output_path = output_dir / f"{image_pdf.stem}_baseline_extraction.json"
         extraction_data = {
-            "texts": list(doc.document.texts) if doc.document.texts else [],
+            "texts": all_text_blocks,  # All items including tables
+            "markdown_full_text": markdown_text,  # Full text including ToC
             "page_count": len(doc.pages) if doc.pages else 0,
             "metadata": {
                 "pipeline": "baseline",
                 "extraction_time_s": elapsed,
+                "extractor": "docling_ocr",
+                "text_blocks": len([item.text for item in doc.document.texts])
+                if doc.document.texts
+                else 0,
+                "tables": len(list(doc.document.tables)) if doc.document.tables else 0,
             },
         }
 
@@ -143,7 +166,7 @@ def run_ocrmypdf(image_pdf: Path, output_dir: Path) -> Path:
     logger.info("  Running OCRmyPDF (Tesseract)...")
     start = time.time()
 
-    # Run OCRmyPDF with progress tracking
+    # Run OCRmyPDF with optimal quality settings
     cmd = [
         "ocrmypdf",
         "--language",
@@ -151,6 +174,15 @@ def run_ocrmypdf(image_pdf: Path, output_dir: Path) -> Path:
         "--force-ocr",  # Force OCR even if text layer exists
         "--output-type",
         "pdf",
+        "--image-dpi",
+        "300",  # Specify input image DPI
+        "--optimize",
+        "0",  # Disable optimization that downsamples images
+        "--tesseract-oem",
+        "1",  # Use LSTM neural net mode (best quality)
+        "--tesseract-pagesegmode",
+        "1",  # Automatic page segmentation with OSD
+        # Note: --deskew and --clean require unpaper package
         str(image_pdf),
         str(output_path),
     ]
@@ -181,11 +213,12 @@ def run_paddleocr(image_pdf: Path, output_dir: Path) -> Path:
     start = time.time()
 
     try:
+        import numpy as np
         import pdf2image
         from paddleocr import PaddleOCR
 
-        # Initialize PaddleOCR with GPU if available
-        ocr = PaddleOCR(use_gpu=True, lang="en")
+        # Initialize PaddleOCR (GPU auto-detected if available)
+        ocr = PaddleOCR(lang="en")
 
         # Convert PDF to images
         images = pdf2image.convert_from_path(str(image_pdf), dpi=300)
@@ -195,12 +228,17 @@ def run_paddleocr(image_pdf: Path, output_dir: Path) -> Path:
         all_texts = []
         for i, image in enumerate(images, 1):
             logger.info(f"    Page {i}/{len(images)}...")
-            result = ocr.ocr(image, cls=True)
+            # Convert PIL Image to numpy array for PaddleOCR
+            image_np = np.array(image)
+            result = ocr.ocr(image_np)
 
             # Extract text from OCR result
-            if result and result[0]:
-                page_texts = [line[1][0] for line in result[0]]
-                all_texts.extend(page_texts)
+            # PaddleOCR returns: [[[bbox], (text, confidence)], ...]
+            if result and len(result) > 0 and result[0] is not None:
+                for line in result[0]:
+                    if line and len(line) > 1 and line[1]:
+                        text = line[1][0] if isinstance(line[1], tuple) else line[1]
+                        all_texts.append(text)
 
         elapsed = time.time() - start
         logger.info(f"  ✓ PaddleOCR completed in {elapsed:.1f}s")
@@ -229,48 +267,62 @@ def run_paddleocr(image_pdf: Path, output_dir: Path) -> Path:
         raise RuntimeError(f"PaddleOCR not installed: {e}") from e
 
 
-def extract_with_docling(pdf_path: Path, output_dir: Path, pipeline_name: str) -> Path:
-    """Extract text using Docling.
+def extract_text_with_pypdf2(pdf_path: Path, output_dir: Path, pipeline_name: str) -> Path:
+    """Extract text using PyPDF2 (avoids Docling's structure-based filtering).
 
     Args:
-        pdf_path: Path to PDF
+        pdf_path: Path to OCR'd PDF
         output_dir: Output directory
         pipeline_name: Pipeline name for output file
 
     Returns:
         Path to extraction JSON
     """
-    from docling.document_converter import DocumentConverter
+    import PyPDF2
 
-    logger.info("  Running Docling text extraction...")
+    logger.info("  Extracting text with PyPDF2...")
     start = time.time()
 
-    converter = DocumentConverter()
-    doc = converter.convert(str(pdf_path))
+    try:
+        # Read PDF and extract all text (one entry per page for simplicity)
+        with open(pdf_path, "rb") as f:
+            reader = PyPDF2.PdfReader(f)
+            page_count = len(reader.pages)
 
-    elapsed = time.time() - start
-    logger.info(f"  ✓ Docling completed in {elapsed:.1f}s")
+            # Extract text from each page as single block
+            all_texts = []
+            for page_num in range(page_count):
+                page = reader.pages[page_num]
+                page_text = page.extract_text()
+                if page_text and page_text.strip():
+                    all_texts.append(page_text.strip())
 
-    # Save extraction
-    output_path = output_dir / f"{pdf_path.stem}_{pipeline_name}_extraction.json"
-    extraction_data = {
-        "texts": list(doc.document.texts) if doc.document.texts else [],
-        "page_count": len(doc.pages) if doc.pages else 0,
-        "metadata": {
-            "pipeline": pipeline_name,
-            "extraction_time_s": elapsed,
-        },
-    }
+        elapsed = time.time() - start
+        logger.info(f"  ✓ PyPDF2 extraction completed in {elapsed:.1f}s")
 
-    with open(output_path, "w") as f:
-        json.dump(extraction_data, f, indent=2, default=str)
+        # Save extraction
+        output_path = output_dir / f"{pdf_path.stem}_{pipeline_name}_extraction.json"
+        extraction_data = {
+            "texts": all_texts,
+            "page_count": page_count,
+            "metadata": {
+                "pipeline": pipeline_name,
+                "extraction_time_s": elapsed,
+                "extractor": "pypdf2",
+            },
+        }
 
-    logger.info(f"  ✓ Saved extraction: {output_path.name}")
-    logger.info(
-        f"      {len(extraction_data['texts'])} text blocks, {extraction_data['page_count']} pages"
-    )
+        with open(output_path, "w") as f:
+            json.dump(extraction_data, f, indent=2, default=str)
 
-    return output_path
+        logger.info(f"  ✓ Saved extraction: {output_path.name}")
+        logger.info(f"      {len(all_texts)} text blocks, {page_count} pages")
+
+        return output_path
+
+    except Exception as e:
+        logger.error(f"  ✗ PyPDF2 extraction failed: {e}")
+        raise RuntimeError(f"PyPDF2 extraction failed: {e}") from e
 
 
 def count_pdf_pages(pdf_path: Path) -> int:
@@ -354,8 +406,8 @@ def main():
         elif args.method == "ocrmypdf":
             logger.info("\n[2/3] Running OCRmyPDF (Tesseract)...")
             ocr_pdf = run_ocrmypdf(image_pdf, output_dir)
-            logger.info("\n[3/3] Extracting text from OCR'd PDF...")
-            extraction_path = extract_with_docling(ocr_pdf, output_dir, args.method)
+            logger.info("\n[3/3] Extracting text with PyPDF2...")
+            extraction_path = extract_text_with_pypdf2(ocr_pdf, output_dir, args.method)
         elif args.method == "paddleocr":
             logger.info("\n[2/3] Running PaddleOCR...")
             extraction_path = run_paddleocr(image_pdf, output_dir)

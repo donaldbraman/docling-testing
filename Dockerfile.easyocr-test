@@ -1,0 +1,49 @@
+# EasyOCR Test Container - Pre-loaded with PDFs and models
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+
+LABEL description="EasyOCR optimization test with pre-loaded PDFs and models"
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        poppler-utils \
+        libgl1-mesa-glx \
+        libglib2.0-0 && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install uv (10-100x faster than pip)
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
+# Install Python packages with uv
+RUN uv pip install --system --no-cache \
+    easyocr==1.7.2 \
+    pdf2image==1.17.0 \
+    pillow==11.0.0 \
+    pandas==2.3.3 \
+    pymupdf==1.26.5 \
+    rapidfuzz==3.14.1
+
+# Pre-download EasyOCR models (saves 5-10 min per deployment)
+RUN python3 -c "import easyocr; reader = easyocr.Reader(['en'], gpu=False); print('✓ EasyOCR models downloaded')"
+
+# Create directory structure
+RUN mkdir -p /workspace/data/v3_data/raw_pdf && \
+    mkdir -p /workspace/results/text_block_extraction
+
+# Copy extraction script
+COPY scripts/corpus_building/extract_with_easyocr.py /workspace/
+
+# Copy test PDFs
+COPY data/v3_data/raw_pdf/afrofuturism_in_protest__dissent_and_revolution.pdf \
+     /workspace/data/v3_data/raw_pdf/
+COPY data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf \
+     /workspace/data/v3_data/raw_pdf/
+COPY data/v3_data/raw_pdf/california_law_review_affirmative-asylum.pdf \
+     /workspace/data/v3_data/raw_pdf/
+
+WORKDIR /workspace
+
+# Default to workers=0 (can override with EASYOCR_WORKERS env var)
+ENV EASYOCR_WORKERS=0
+
+CMD ["/bin/bash"]

@@ -56,35 +56,59 @@ All scripts are organized in `scripts/` subdirectories by purpose:
 
 ---
 
+## Development Tools
+
+**Astral Suite (uv, ruff, typer):** Modern Python development tools
+
+**Details:** [docs/ASTRAL_SUITE_GUIDE.md](docs/ASTRAL_SUITE_GUIDE.md)
+
+**Quick commands:**
+```bash
+# Install dependencies
+uv sync
+
+# Add new package
+uv add package-name
+
+# Run scripts
+uv run python script.py
+
+# Lint and format
+ruff check --fix . && ruff format .
+```
+
+---
+
 ## Development Guidelines
 
+- **Always use uv** - Never use pip directly (10-100x faster, deterministic)
 - **Always use feature branches** - No direct commits to master
 - **Link changes to issues** - Create detailed GitHub issues before implementing
-- **Run tests before committing** - `pytest` or `pytest -v` for detailed output
+- **Run tests before committing** - `uv run pytest` or `uv run pytest -v` for detailed output
 - **Test with real PDFs** - Use law review PDFs from data/raw_pdf/
 - **Version models** - Include metadata in label_map.json (model_name, version, base_model)
 - **Document metrics** - Record F1, recall, precision for all models
-- **Validate models** - Run `python scripts/utilities/validate_model_metadata.py` before deployment
+- **Validate models** - Run `uv run python scripts/utilities/validate_model_metadata.py` before deployment
 - **GitHub labels** - See `~/.claude/guides/github-labels.md` for label auto-generation guidance
 
 ### Testing
 
-Run tests with pytest:
+Run tests with pytest (always use uv):
 ```bash
 # Run all fast tests (excludes slow model loading tests)
-pytest -m "not slow"
+uv run pytest -m "not slow"
 
 # Run all tests including slow ones
-pytest
+uv run pytest
 
 # Run with verbose output
-pytest -v
+uv run pytest -v
 
 # Run specific test file
-pytest tests/test_models.py
+uv run pytest tests/test_models.py
 
 # Run with coverage report
-pytest --cov=scripts --cov-report=html
+uv run pytest --cov=scripts --cov-report=html
 ```
 
 ---
@@ -120,7 +144,7 @@ pytest --cov=scripts --cov-report=html
 - Cover page patterns: 2,340 samples
 
 **Available for expansion:**
-- Additional arXiv papers: Run `collect_arxiv_papers.py --target 100` for 30% STEM diversity
+- Additional arXiv papers: Run `uv run python scripts/data_collection/collect_arxiv_papers.py --target 100` for 30% STEM diversity
 - Additional law reviews: ~500+ PDFs available (UCLA, Georgetown, Texas)
 - **Estimated gain:** ~26,000 body_text samples
 
@@ -129,7 +153,7 @@ pytest --cov=scripts --cov-report=html
 ## Training Best Practices
 
 ### Before Training
-1. Check data distribution: `python scripts/corpus_building/build_clean_corpus.py --analyze`
+1. Check data distribution: `uv run python scripts/corpus_building/build_clean_corpus.py --analyze`
 2. Verify corpus quality: No duplicate texts, balanced labels
 3. Set class weights based on imbalance ratio
 
@@ -139,11 +163,11 @@ pytest --cov=scripts --cov-report=html
 3. Track body_text recall vs precision trade-off
 
 ### After Training
-1. Evaluate all checkpoints: `python scripts/evaluation/evaluate_checkpoint.py --checkpoint <path>`
+1. Evaluate all checkpoints: `uv run python scripts/evaluation/evaluate_checkpoint.py --checkpoint <path>`
 2. Generate confusion matrix
 3. Calculate FP:FN ratio for body_text
 4. Document metrics in label_map.json
-5. Validate metadata: `python scripts/utilities/validate_model_metadata.py`
+5. Validate metadata: `uv run python scripts/utilities/validate_model_metadata.py`
 
 ---
 

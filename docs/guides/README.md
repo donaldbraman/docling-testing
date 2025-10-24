@@ -12,8 +12,12 @@ Comprehensive guides for ML model training, evaluation, and deployment.
 - **[Data Collection](data-collection.md)** - PDF scraping and corpus building
 - **[Data Quality](data-quality.md)** - Corpus validation and cleaning (future)
 
-### Integration
+### Integration & Deployment
 - **[cite-assist Integration](cite-assist-integration.md)** - Model deployment and service setup
+- **[GPU Deployment Guide](../VAST_AI_DEPLOYMENT_GUIDE.md)** - Complete vast.ai deployment guide
+- **[GPU Best Practices](../VAST_AI_BEST_PRACTICES_2025.md)** - Comprehensive best practices for ML on vast.ai
+- **[GPU Quick Reference](../VAST_AI_QUICK_REFERENCE.md)** - Quick reference cheat sheet
+- **[GPU Cost Analysis](../VASTAI_GPU_RENTAL_ANALYSIS.md)** - Cost-benefit analysis vs local processing
 
 ### Troubleshooting
 - **[Troubleshooting](troubleshooting.md)** - Common issues and solutions
@@ -31,6 +35,11 @@ Comprehensive guides for ML model training, evaluation, and deployment.
 1. Read [Model Evaluation](model-evaluation.md) to understand current performance
 2. Read [Model Training](model-training.md) for rebalancing/fine-tuning
 3. Read [cite-assist Integration](cite-assist-integration.md) for deployment
+
+### "I want to deploy to GPU cloud"
+1. Read [GPU Cost Analysis](../VASTAI_GPU_RENTAL_ANALYSIS.md) to understand pricing
+2. Read [GPU Deployment Guide](../VAST_AI_DEPLOYMENT_GUIDE.md) for step-by-step setup
+3. Keep [GPU Quick Reference](../VAST_AI_QUICK_REFERENCE.md) handy for commands
 
 ### "I'm stuck with an error"
 1. Read [Troubleshooting](troubleshooting.md) for common issues

@@ -1,0 +1,21 @@
+# Exclude large directories from Docker build context
+results/
+docs/
+archive_*/
+docs_archive_*/
+models/
+experiments/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+.ruff_cache/
+.venv/
+venv/
+uv.lock
+
+# Keep only the 3 specific PDFs we need
+data/v3_data/raw_pdf/*
+!data/v3_data/raw_pdf/afrofuturism_in_protest__dissent_and_revolution.pdf
+!data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf
+!data/v3_data/raw_pdf/california_law_review_affirmative-asylum.pdf
