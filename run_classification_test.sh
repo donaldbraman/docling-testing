@@ -1,11 +1,10 @@
 #!/bin/bash
-# Run OCR + Classification on vast.ai
+# Run OCR + Classification on vast.ai with auto-cleanup
 set -e
 
 # Configuration
+INSTANCE_ID="27233335"  # Will be updated after creating new instance
 SSH_KEY="$HOME/.ssh/id_ed25519"
-SSH_PORT="33334"
-SSH_HOST="ssh6.vast.ai"
 
 # Paths
 TEST_PDF="data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf"
@@ -26,14 +25,35 @@ if [ ! -d "$MODEL_PATH" ]; then
   exit 1
 fi
 
-echo "📤 Step 1/4: Uploading classification script..."
+# Restart instance
+echo "🔄 Starting vast.ai instance..."
+vastai start instance $INSTANCE_ID
+echo "Waiting for instance to be ready..."
+sleep 15
+
+# Get SSH connection info
+SSH_INFO=$(vastai show instances | grep $INSTANCE_ID)
+SSH_PORT=$(echo "$SSH_INFO" | awk '{print $9}')
+SSH_HOST=$(echo "$SSH_INFO" | awk '{print $8}')
+
+echo "✅ Instance ready: $SSH_HOST:$SSH_PORT"
+echo ""
+
+# Attach SSH key
+echo "🔑 Attaching SSH key..."
+vastai attach ssh $INSTANCE_ID "$(cat $SSH_KEY.pub)"
+sleep 3
+echo "✅ Done"
+echo ""
+
+echo "📤 Step 1/5: Uploading classification script..."
 scp -q -i "$SSH_KEY" -P "$SSH_PORT" \
   scripts/vastai/run_ocr_with_classification.py \
   root@"$SSH_HOST":/workspace/
 echo "✅ Done"
 
 echo ""
-echo "📤 Step 2/4: Uploading ModernBERT model (~500MB, may take 30-60 sec)..."
+echo "📤 Step 2/5: Uploading ModernBERT model (~500MB, may take 30-60 sec)..."
 ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" "mkdir -p /workspace/models/doclingbert-v2-rebalanced"
 rsync -avz --progress -e "ssh -i $SSH_KEY -p $SSH_PORT" \
   "$MODEL_PATH"/ \
@@ -41,13 +61,13 @@ rsync -avz --progress -e "ssh -i $SSH_KEY -p $SSH_PORT" \
 echo "✅ Done"
 
 echo ""
-echo "📤 Step 3/4: Uploading PDF..."
+echo "📤 Step 3/5: Uploading PDF..."
 ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" "mkdir -p /workspace/test_input"
 scp -q -i "$SSH_KEY" -P "$SSH_PORT" "$TEST_PDF" root@"$SSH_HOST":/workspace/test_input/
 echo "✅ Done"
 
 echo ""
-echo "🔄 Step 4/4: Running OCR + Classification..."
+echo "🔄 Step 4/5: Running OCR + Classification..."
 echo ""
 
 ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" << 'ENDSSH'
@@ -65,13 +85,20 @@ ls -lh test_results/
 ENDSSH
 
 echo ""
-echo "📥 Downloading results..."
+echo "📥 Step 5/5: Downloading results..."
 mkdir -p results_classified
 
 rsync -avz -e "ssh -i $SSH_KEY -p $SSH_PORT" \
   root@"$SSH_HOST":/workspace/test_results/ \
   results_classified/
 
+echo "✅ Results downloaded"
+echo ""
+
+# Destroy instance to save money
+echo "🗑️  Destroying vast.ai instance to save costs..."
+vastai destroy instance $INSTANCE_ID
+echo "✅ Instance destroyed"
 echo ""
 echo "════════════════════════════════════════════════════════"
 echo "  ✅ CLASSIFICATION TEST COMPLETE"
