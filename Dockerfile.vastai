@@ -10,6 +10,7 @@ LABEL description="EasyOCR environment for body text extraction on vast.ai"
 # Install system dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    git \
     poppler-utils \
     libgl1-mesa-glx \
     libglib2.0-0 \
