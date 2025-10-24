@@ -1,0 +1,38 @@
+# Custom Docker image for vast.ai OCR + ModernBERT training
+# Based on PyTorch official image with CUDA 12.4
+# Includes all dependencies pre-installed
+
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+
+LABEL maintainer="docling-testing"
+LABEL description="EasyOCR + ModernBERT training environment for vast.ai"
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    poppler-utils \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+    easyocr==1.7.2 \
+    pdf2image==1.17.0 \
+    pillow==11.0.0 \
+    pandas==2.3.3 \
+    pymupdf==1.26.5 \
+    rapidfuzz==3.14.1
+
+# Pre-download EasyOCR English models to save time on first run
+# This downloads craft_mlt_25k.pth (83MB) and english_g2.pth (15MB)
+RUN python3 -c "import easyocr; reader = easyocr.Reader(['en'], gpu=False); print('EasyOCR models pre-downloaded')"
+
+# Set working directory
+WORKDIR /workspace
+
+# Verify installations
+RUN python3 -c "import torch; import easyocr; import pandas; import pymupdf; import rapidfuzz; print(f'CUDA available: {torch.cuda.is_available()}'); print('All dependencies verified')"
+
+# Default command
+CMD ["/bin/bash"]

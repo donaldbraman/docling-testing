@@ -1,0 +1,24 @@
+# Variant C: Balanced Configuration
+# Optimized for: Balance between CPU preprocessing and GPU inference
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+
+LABEL variant="balanced"
+LABEL description="EasyOCR with balanced CPU/GPU optimization"
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends poppler-utils libgl1-mesa-glx libglib2.0-0 && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir \
+    easyocr==1.7.2 pdf2image==1.17.0 pillow==11.0.0 \
+    pandas==2.3.3 pymupdf==1.26.5 rapidfuzz==3.14.1
+
+# Pre-download models
+RUN python3 -c "import easyocr; reader = easyocr.Reader(['en'], gpu=False); print('Models downloaded')"
+
+# Balanced settings
+RUN echo 'EASYOCR_WORKERS=4' > /etc/environment
+ENV OMP_NUM_THREADS=4
+
+WORKDIR /workspace
+CMD ["/bin/bash"]

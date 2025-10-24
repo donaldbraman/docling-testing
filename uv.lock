@@ -165,6 +165,73 @@ wheels = [
 ]
 
 [[package]]
+name = "body-extractor"
+version = "3.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "datasets" },
+    { name = "docling" },
+    { name = "easyocr" },
+    { name = "feedparser" },
+    { name = "lxml" },
+    { name = "matplotlib" },
+    { name = "pandas" },
+    { name = "pdf2image" },
+    { name = "pymupdf4llm" },
+    { name = "pypdf" },
+    { name = "pytesseract" },
+    { name = "rapidfuzz" },
+    { name = "requests" },
+    { name = "scikit-learn" },
+    { name = "tesserocr" },
+    { name = "tiktoken" },
+    { name = "torch" },
+    { name = "transformers" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pre-commit" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "ruff" },
+    { name = "typer" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.12.0" },
+    { name = "datasets", specifier = ">=2.14.0" },
+    { name = "docling", specifier = ">=2.56.1" },
+    { name = "easyocr", specifier = ">=1.7.2" },
+    { name = "feedparser", specifier = ">=6.0.12" },
+    { name = "lxml", specifier = ">=5.4.0" },
+    { name = "matplotlib", specifier = ">=3.8.0" },
+    { name = "pandas", specifier = ">=2.1.0" },
+    { name = "pdf2image", specifier = ">=1.17.0" },
+    { name = "pymupdf4llm", specifier = ">=0.0.27" },
+    { name = "pypdf", specifier = ">=6.1.1" },
+    { name = "pytesseract", specifier = ">=0.3.13" },
+    { name = "rapidfuzz", specifier = ">=3.14.1" },
+    { name = "requests", specifier = ">=2.31.0" },
+    { name = "scikit-learn", specifier = ">=1.3.0" },
+    { name = "tesserocr", specifier = ">=2.9.1" },
+    { name = "tiktoken", specifier = ">=0.12.0" },
+    { name = "torch", specifier = ">=2.1.0" },
+    { name = "transformers", specifier = ">=4.35.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pre-commit", specifier = ">=4.3.0" },
+    { name = "pytest", specifier = ">=8.0.0" },
+    { name = "pytest-cov", specifier = ">=4.1.0" },
+    { name = "ruff", specifier = ">=0.11.10" },
+    { name = "typer", specifier = ">=0.19.2" },
+]
+
+[[package]]
 name = "certifi"
 version = "2025.10.5"
 source = { registry = "https://pypi.org/simple" }
@@ -523,73 +590,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/e3/29/e4a9d44987039b0e02106b0c073832b00a6592e4a7bdde3b17b439443a75/docling_parse-4.5.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b7c9e8954118331438eb8da6058da0e3caf12735b47a86af9521e44465bbb2d4", size = 15060853, upload-time = "2025-09-17T09:35:44.491Z" },
     { url = "https://files.pythonhosted.org/packages/af/c0/eb9fd89d518bea24566e9effc048c09c2583722a463d00aafdbe48c8e729/docling_parse-4.5.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:24360a0985a8f76ff99c39e533d208bb57427caf96b9ceb585090cd10558f87a", size = 15133655, upload-time = "2025-09-17T09:35:46.901Z" },
     { url = "https://files.pythonhosted.org/packages/47/02/b7e2fd3cb58db9064ff69ba52ba40b1716f527f023c8b63b26e5eb4c04dc/docling_parse-4.5.0-cp313-cp313-win_amd64.whl", hash = "sha256:c3dba06a3cb8797587c90f5aa10cc2c51803d8f5cd67342ea948288a30503868", size = 16063610, upload-time = "2025-09-17T09:35:49.173Z" },
-]
-
-[[package]]
-name = "docling-testing"
-version = "3.0.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "datasets" },
-    { name = "docling" },
-    { name = "easyocr" },
-    { name = "feedparser" },
-    { name = "lxml" },
-    { name = "matplotlib" },
-    { name = "pandas" },
-    { name = "pdf2image" },
-    { name = "pymupdf4llm" },
-    { name = "pypdf" },
-    { name = "pytesseract" },
-    { name = "rapidfuzz" },
-    { name = "requests" },
-    { name = "scikit-learn" },
-    { name = "tesserocr" },
-    { name = "tiktoken" },
-    { name = "torch" },
-    { name = "transformers" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pre-commit" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "ruff" },
-    { name = "typer" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.12.0" },
-    { name = "datasets", specifier = ">=2.14.0" },
-    { name = "docling", specifier = ">=2.56.1" },
-    { name = "easyocr", specifier = ">=1.7.2" },
-    { name = "feedparser", specifier = ">=6.0.12" },
-    { name = "lxml", specifier = ">=5.4.0" },
-    { name = "matplotlib", specifier = ">=3.8.0" },
-    { name = "pandas", specifier = ">=2.1.0" },
-    { name = "pdf2image", specifier = ">=1.17.0" },
-    { name = "pymupdf4llm", specifier = ">=0.0.27" },
-    { name = "pypdf", specifier = ">=6.1.1" },
-    { name = "pytesseract", specifier = ">=0.3.13" },
-    { name = "rapidfuzz", specifier = ">=3.14.1" },
-    { name = "requests", specifier = ">=2.31.0" },
-    { name = "scikit-learn", specifier = ">=1.3.0" },
-    { name = "tesserocr", specifier = ">=2.9.1" },
-    { name = "tiktoken", specifier = ">=0.12.0" },
-    { name = "torch", specifier = ">=2.1.0" },
-    { name = "transformers", specifier = ">=4.35.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "pre-commit", specifier = ">=4.3.0" },
-    { name = "pytest", specifier = ">=8.0.0" },
-    { name = "pytest-cov", specifier = ">=4.1.0" },
-    { name = "ruff", specifier = ">=0.11.10" },
-    { name = "typer", specifier = ">=0.19.2" },
 ]
 
 [[package]]
