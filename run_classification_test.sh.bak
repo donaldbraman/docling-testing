@@ -2,75 +2,34 @@
 # Run OCR + Classification on vast.ai with auto-cleanup
 set -e
 
-# Parse arguments
-INSTANCE_ID="${1:-}"
-TEST_PDF="${2:-data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf}"
-MODEL_PATH="${3:-models/doclingbert-v2-rebalanced/final_model}"
-OUTPUT_DIR="${4:-results_classified}"
-SSH_KEY="${5:-$HOME/.ssh/id_ed25519}"
+# Configuration
+INSTANCE_ID="27240069"  # RTX 3060 instance in Canada ($0.074/hr)
+SSH_KEY="$HOME/.ssh/id_ed25519"
 
-if [ -z "$INSTANCE_ID" ]; then
-    echo "❌ Error: Instance ID required"
-    echo ""
-    echo "Usage: $0 <INSTANCE_ID> [TEST_PDF] [MODEL_PATH] [OUTPUT_DIR] [SSH_KEY]"
-    echo ""
-    echo "Arguments:"
-    echo "  INSTANCE_ID    (required) vast.ai instance ID"
-    echo "  TEST_PDF       (optional) Path to PDF to process"
-    echo "                 Default: data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf"
-    echo "  MODEL_PATH     (optional) Path to trained model"
-    echo "                 Default: models/doclingbert-v2-rebalanced/final_model"
-    echo "  OUTPUT_DIR     (optional) Directory for results"
-    echo "                 Default: results_classified"
-    echo "  SSH_KEY        (optional) Path to SSH private key"
-    echo "                 Default: ~/.ssh/id_ed25519"
-    echo ""
-    echo "Example:"
-    echo "  $0 27241475"
-    echo "  $0 27241475 data/test.pdf models/mymodel results/test"
-    exit 1
-fi
+# Paths
+TEST_PDF="data/v3_data/raw_pdf/antitrusts_interdependence_paradox.pdf"
+MODEL_PATH="models/doclingbert-v2-rebalanced/final_model"
 
 echo "════════════════════════════════════════════════════════"
 echo "  Body Extractor - OCR + Classification Test"
 echo "════════════════════════════════════════════════════════"
 echo ""
-echo "Instance ID: $INSTANCE_ID"
-echo "Test PDF:    $TEST_PDF"
-echo "Model:       $MODEL_PATH"
-echo "Output Dir:  $OUTPUT_DIR"
-echo "SSH Key:     $SSH_KEY"
+echo "Testing: $(basename "$TEST_PDF")"
+echo "Model: DoclingBERT v2-rebalanced"
 echo ""
 
-# Validate inputs
-if [ ! -f "$TEST_PDF" ]; then
-  echo "❌ Test PDF not found: $TEST_PDF"
-  exit 1
-fi
-
+# Check if model exists locally
 if [ ! -d "$MODEL_PATH" ]; then
   echo "❌ Model not found: $MODEL_PATH"
+  echo "Please ensure the trained model is in models/doclingbert-v2-rebalanced/final_model/"
   exit 1
 fi
 
-if [ ! -f "$SSH_KEY" ]; then
-  echo "❌ SSH key not found: $SSH_KEY"
-  exit 1
-fi
-
-# Extract PDF basename for remote operations
-PDF_BASENAME=$(basename "$TEST_PDF")
-
-# Check if instance is already running
-STATUS=$(vastai show instances | grep $INSTANCE_ID | awk '{print $3}')
-if [ "$STATUS" != "running" ]; then
-    echo "🔄 Starting vast.ai instance (current status: $STATUS)..."
-    vastai start instance $INSTANCE_ID
-    echo "Waiting for instance to be ready (Docker image loading may take 2-3 min)..."
-    sleep 120  # Increased wait time for Docker image pull
-else
-    echo "✅ Instance already running, skipping restart..."
-fi
+# Restart instance
+echo "🔄 Starting vast.ai instance..."
+vastai start instance $INSTANCE_ID
+echo "Waiting for instance to be ready (Docker image loading may take 2-3 min)..."
+sleep 120  # Increased wait time for Docker image pull
 
 # Get SSH connection info
 SSH_INFO=$(vastai show instances | grep $INSTANCE_ID)
@@ -111,12 +70,12 @@ echo ""
 echo "🔄 Step 4/5: Running OCR + Classification..."
 echo ""
 
-ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" bash << ENDSSH
+ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" << 'ENDSSH'
 cd /workspace
 mkdir -p test_results
 
 python3 run_ocr_with_classification.py \
-  --input ./test_input/$PDF_BASENAME \
+  --input ./test_input/antitrusts_interdependence_paradox.pdf \
   --output-dir ./test_results \
   --model-path ./models/doclingbert-v2-rebalanced/final_model
 
@@ -127,11 +86,11 @@ ENDSSH
 
 echo ""
 echo "📥 Step 5/5: Downloading results..."
-mkdir -p "$OUTPUT_DIR"
+mkdir -p results_classified
 
 rsync -avz -e "ssh -i $SSH_KEY -p $SSH_PORT" \
   root@"$SSH_HOST":/workspace/test_results/ \
-  "$OUTPUT_DIR/"
+  results_classified/
 
 echo "✅ Results downloaded"
 echo ""
@@ -145,9 +104,9 @@ echo "════════════════════════�
 echo "  ✅ CLASSIFICATION TEST COMPLETE"
 echo "════════════════════════════════════════════════════════"
 echo ""
-echo "Results in: $OUTPUT_DIR/"
+echo "Results in: ./results_classified/"
 echo ""
-ls -lh "$OUTPUT_DIR/"
+ls -lh results_classified/
 echo ""
 echo "Generated outputs:"
 echo "  1. Plain text:           *.txt"
@@ -157,8 +116,8 @@ echo "  4. CSV with classes:     *.csv"
 echo "  5. Full JSON metadata:   *.json"
 echo ""
 echo "View results:"
-echo "  cat $OUTPUT_DIR/*.txt"
-echo "  open $OUTPUT_DIR/*_text_overlay.pdf"
-echo "  open $OUTPUT_DIR/*_class_overlay.pdf"
-echo "  cat $OUTPUT_DIR/*.csv | column -t -s,"
+echo "  cat results_classified/*.txt"
+echo "  open results_classified/*_text_overlay.pdf"
+echo "  open results_classified/*_class_overlay.pdf"
+echo "  cat results_classified/*.csv | column -t -s,"
 echo ""

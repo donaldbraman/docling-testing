@@ -2,7 +2,7 @@
 # Based on PyTorch official image with CUDA 12.4
 # Includes all dependencies pre-installed
 
-FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
 
 LABEL maintainer="body-extractor"
 LABEL description="EasyOCR environment for body text extraction on vast.ai"

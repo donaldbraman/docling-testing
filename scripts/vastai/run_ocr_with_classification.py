@@ -7,6 +7,13 @@ Usage:
     python run_ocr_with_classification.py --input input.pdf --output-dir ./results
 """
 
+# CRITICAL: Disable torch.compile BEFORE any imports
+# This avoids Triton/CUDA development library requirements
+import os
+
+os.environ["TORCH_COMPILE_DISABLE"] = "1"
+os.environ["TORCHDYNAMO_DISABLE"] = "1"
+
 import argparse
 import csv
 import json
@@ -16,6 +23,9 @@ import easyocr
 import fitz  # PyMuPDF
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+# Additional safety: suppress dynamo errors
+torch._dynamo.config.suppress_errors = True
 
 # Class mapping: 7 original classes -> 4 target classes
 CLASS_MAPPING = {
