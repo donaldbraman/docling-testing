@@ -9,6 +9,39 @@ MODEL_PATH="${3:-models/doclingbert-v2-rebalanced/final_model}"
 OUTPUT_DIR="${4:-results_classified}"
 SSH_KEY="${5:-$HOME/.ssh/id_ed25519}"
 
+# Robust file upload function with fallback methods
+# Based on VASTAI_BEST_PRACTICES.md
+upload_file() {
+    local LOCAL_FILE="$1"
+    local REMOTE_PATH="$2"
+    local SSH_OPTS="-i $SSH_KEY -p $SSH_PORT -o ConnectTimeout=10 -o StrictHostKeyChecking=no"
+
+    # Method 1: rsync (most robust, resumable)
+    echo "   Trying rsync..."
+    if rsync -avz --partial --timeout=300 -e "ssh $SSH_OPTS" \
+         "$LOCAL_FILE" root@"$SSH_HOST":"$REMOTE_PATH" 2>/dev/null; then
+        return 0
+    fi
+
+    # Method 2: Legacy SCP with -O flag (works with vast.ai ASCII art)
+    echo "   rsync failed, trying legacy SCP..."
+    if scp -O -q $SSH_OPTS "$LOCAL_FILE" root@"$SSH_HOST":"$REMOTE_PATH" 2>/dev/null; then
+        return 0
+    fi
+
+    # Method 3: SSH pipe (always works, bypasses SCP protocol)
+    echo "   SCP failed, trying SSH pipe..."
+    local REMOTE_FILE=$(basename "$REMOTE_PATH")
+    local REMOTE_DIR=$(dirname "$REMOTE_PATH")
+    if cat "$LOCAL_FILE" | ssh $SSH_OPTS root@"$SSH_HOST" \
+         "mkdir -p $REMOTE_DIR && cat > $REMOTE_PATH" 2>/dev/null; then
+        return 0
+    fi
+
+    echo "   ❌ All upload methods failed"
+    return 1
+}
+
 if [ -z "$INSTANCE_ID" ]; then
     echo "❌ Error: Instance ID required"
     echo ""
@@ -88,9 +121,11 @@ echo "✅ Done"
 echo ""
 
 echo "📤 Step 1/5: Uploading classification script..."
-scp -q -i "$SSH_KEY" -P "$SSH_PORT" \
-  scripts/vastai/run_ocr_with_classification.py \
-  root@"$SSH_HOST":/workspace/
+if ! upload_file scripts/vastai/run_ocr_with_classification.py /workspace/run_ocr_with_classification.py; then
+    echo "❌ Failed to upload classification script"
+    vastai destroy instance $INSTANCE_ID
+    exit 1
+fi
 echo "✅ Done"
 
 echo ""
@@ -104,7 +139,11 @@ echo "✅ Done"
 echo ""
 echo "📤 Step 3/5: Uploading PDF..."
 ssh -i "$SSH_KEY" -p "$SSH_PORT" root@"$SSH_HOST" "mkdir -p /workspace/test_input"
-scp -q -i "$SSH_KEY" -P "$SSH_PORT" "$TEST_PDF" root@"$SSH_HOST":/workspace/test_input/
+if ! upload_file "$TEST_PDF" "/workspace/test_input/$PDF_BASENAME"; then
+    echo "❌ Failed to upload PDF"
+    vastai destroy instance $INSTANCE_ID
+    exit 1
+fi
 echo "✅ Done"
 
 echo ""

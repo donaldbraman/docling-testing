@@ -62,11 +62,19 @@ def setup_classifier(model_path, gpu=True):
     device = "cuda" if gpu and torch.cuda.is_available() else "cpu"
     print(f"   Using device: {device}")
 
-    # Load model and tokenizer
-    model = AutoModelForSequenceClassification.from_pretrained(model_path)
+    # Load model and tokenizer with eager execution (no compilation)
+    model = AutoModelForSequenceClassification.from_pretrained(
+        model_path, attn_implementation="eager", _attn_implementation_internal="eager"
+    )
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model.to(device)
     model.eval()
+
+    # Force disable flash attention and torch.compile
+    if hasattr(model.config, "use_flash_attention_2"):
+        model.config.use_flash_attention_2 = False
+    if hasattr(model.config, "_attn_implementation"):
+        model.config._attn_implementation = "eager"
 
     # Load label map
     label_map_path = Path(model_path) / "label_map.json"
