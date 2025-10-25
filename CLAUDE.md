@@ -30,10 +30,13 @@
 | Topic | Guide | Read When |
 |-------|-------|-----------|
 | **Training Workflow** | **[TRAINING_QUICK_START.md](docs/guides/TRAINING_QUICK_START.md)** | **Starting any training task** |
+| **GPU Testing (vast.ai)** | **[VASTAI_QUICK_START.md](docs/VASTAI_QUICK_START.md)** | **Testing OCR pipeline on cloud GPU** |
 | Model Training Details | [model-training.md](docs/guides/model-training.md) | Deep dive into training parameters |
 | Data Collection | [data-collection.md](docs/guides/data-collection.md) | Scraping PDFs or building corpus |
 | Model Evaluation | [model-evaluation.md](docs/guides/model-evaluation.md) | Evaluating checkpoints or comparing models |
 | Troubleshooting | [troubleshooting.md](docs/guides/troubleshooting.md) | Common issues and solutions |
+| vast.ai Best Practices | [VASTAI_BEST_PRACTICES.md](docs/VASTAI_BEST_PRACTICES.md) | Debugging vast.ai infrastructure issues |
+| RunPod Setup | [RUNPOD_SETUP_GUIDE.md](docs/RUNPOD_SETUP_GUIDE.md) | Alternative GPU cloud provider |
 
 **Deployment guides:** See `cite-assist/docs/guides/` for deployment, integration, and production serving
 
