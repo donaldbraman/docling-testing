@@ -98,12 +98,25 @@ echo "   GPU: $GPU_TYPE"
 echo "   Storage: 20GB"
 echo ""
 
-INSTANCE_ID=$(vastai create instance --search "reliability > 0.98 gpu_name=$GPU_TYPE disk_space > 20" \
-  --image ubuntu:22.04 --disk 20 2>&1 | grep -oE "'new_contract': [0-9]+" | grep -oE "[0-9]+")
+# Step 1: Find best offer (prioritize reliability > price)
+echo "   Searching for best offer..."
+OFFER_ID=$(vastai search offers "reliability > 0.99 gpu_name=$GPU_TYPE disk_space > 20 inet_down > 100" --raw | \
+    jq -r 'sort_by(-(.reliability * 100) + .dph_total) | .[0].id')
+
+if [ -z "$OFFER_ID" ] || [ "$OFFER_ID" = "null" ]; then
+    echo "❌ No suitable offers found"
+    echo "   Try: vastai search offers 'reliability > 0.98 gpu_name=$GPU_TYPE disk_space > 20'"
+    exit 1
+fi
+
+echo "   Found offer: $OFFER_ID"
+
+# Step 2: Create instance from offer
+INSTANCE_ID=$(vastai create instance "$OFFER_ID" --image ubuntu:22.04 --disk 20 2>&1 | \
+    grep -oE "'new_contract': [0-9]+" | grep -oE "[0-9]+")
 
 if [ -z "$INSTANCE_ID" ]; then
-    echo "❌ Failed to create vast.ai instance"
-    echo "   Try: vastai search offers 'reliability > 0.98 gpu_name=$GPU_TYPE disk_space > 20'"
+    echo "❌ Failed to create vast.ai instance from offer $OFFER_ID"
     exit 1
 fi
 

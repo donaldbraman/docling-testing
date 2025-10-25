@@ -70,26 +70,55 @@ The script will:
 5. ✅ Download results
 6. ✅ Clean up (destroy instance)
 
-Total time: ~2-3 minutes
+Total time: ~2-3 minutes (first run: ~35 min with EasyOCR download)
 Total cost: ~$0.10-0.15
+
+### Validation Results (2025-10-25)
+
+**End-to-end test validated:**
+- Instance: 27283423 (offer 20171200, reliability > 0.99)
+- Setup: 20s instance start + 25s uv install = **45s total setup**
+- Uploads: 556MB model in 71s (7.8 MB/s), 6.5MB PDF in 1.4s (4.7 MB/s)
+- Processing: Jackson_2014.pdf (104 pages) → 5 output files
+- Results: 353KB plain text, 944KB CSV, 4.4MB JSON, 13MB+14MB overlay PDFs
+- Cleanup: Instance auto-destroyed, zero orphaned costs
+
+**Performance validated:**
+```
+| Phase              | Time    | Notes                           |
+|--------------------|---------|----------------------------------|
+| Search offer       | 2s      | Filters reliability > 0.99      |
+| Instance startup   | 20s     | Ubuntu 22.04 (not stuck!)       |
+| uv install         | 25s     | 10-100x faster than pip         |
+| Model upload       | 71s     | 7.8 MB/s transfer               |
+| OCR+classification | Varies  | First run: +30min EasyOCR DL    |
+| Results download   | <10s    | Automatic with rsync            |
+| **Subsequent runs**| **~5min**| **Models cached**              |
+```
 
 ## How It Works
 
 ### Lightweight Base + Runtime Install
 
 ```bash
-# 1. Create instance with Ubuntu (fast startup)
-vastai create instance --image ubuntu:22.04
+# 1. Search for reliable offer (>99.9% uptime, good network)
+OFFER_ID=$(vastai search offers "reliability > 0.99 gpu_name=RTX_4090 disk_space > 20 inet_down > 100" --raw | \
+    jq -r 'sort_by(-(.reliability * 100) + .dph_total) | .[0].id')
 
-# 2. Install uv (10-100x faster than pip)
+# 2. Create instance from offer with Ubuntu (fast startup)
+vastai create instance $OFFER_ID --image ubuntu:22.04 --disk 20
+
+# 3. Install uv (10-100x faster than pip)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# 3. Install dependencies (25 seconds)
+# 4. Install dependencies (25 seconds)
 uv pip install torch transformers easyocr ...
 
-# 4. Run classification
+# 5. Run classification
 python3 run_ocr_with_classification.py ...
 ```
+
+**Critical:** Must search offers first, then create from offer ID. Using `--search` flag with `create instance` fails.
 
 ### Robust File Transfer
 
@@ -131,12 +160,14 @@ See `VASTAI_BEST_PRACTICES.md` for details.
 
 ### Instance Stuck in "loading"
 
-This happens with large CUDA images. The v2 script uses lightweight Ubuntu, so this shouldn't occur.
+**Root cause:** Low-reliability providers (even with Ubuntu images)
 
-If it does:
-1. Wait 2-3 minutes (sometimes providers are slow)
-2. Destroy instance: `vastai destroy instance <ID>`
-3. Try different provider/GPU
+**Fix:** Script now filters for `reliability > 0.99` + `inet_down > 100`. Iceland (host 1647) is 100% reliable.
+
+If stuck:
+1. Destroy: `vastai destroy instance <ID>`
+2. Script auto-retries with different offer
+3. Manually select Iceland: Search for `host_id=1647` in offers
 
 ### SSH Connection Refused
 
